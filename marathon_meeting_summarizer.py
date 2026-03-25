@@ -1186,16 +1186,21 @@ def main():
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
-            # With dateafter, all returned videos are within the window
-            # Skip ALL Marathon County videos until they enable auto-captions
-            pending = [
-                v for v in videos
-                if v["id"] not in state["processed"]
-                and src != "marathon"
-            ]
+            # Marathon County: only process videos uploaded from 2026-03-26 onward.
+            # Videos before this date either lack captions or are already manually injected.
+            MARATHON_CAPTION_START = "20260326"
             if src == "marathon":
-                print(f"   {src}: skipping all {len(videos)} videos (no captions available)")
+                pending = [
+                    v for v in videos
+                    if v["id"] not in state["processed"]
+                    and v.get("upload_date", "99999999") >= MARATHON_CAPTION_START
+                ]
+                print(f"   {src}: {len(videos)} in window, {len(pending)} on or after {MARATHON_CAPTION_START}")
             else:
+                pending = [
+                    v for v in videos
+                    if v["id"] not in state["processed"]
+                ]
                 print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
             for v in videos[:3]:
                 print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
@@ -1203,9 +1208,10 @@ def main():
             # Backfill: skip old Marathon County full-board sessions (long, no captions,
             # blocked PDFs). Committee meetings are fine. New board meetings come through
             # the --days path automatically.
-            # Skip ALL Marathon County videos until they enable auto-captions
+            # Skip Marathon County in backfill — historical videos lack captions
+            # and have blocked agenda PDFs. New videos are captured via --days runs.
             if src == "marathon":
-                print(f"   marathon: skipping all videos (no captions available)")
+                print(f"   marathon: skipping historical backfill (use --days for recent videos)")
                 pending = []
             else:
                 pending = []
