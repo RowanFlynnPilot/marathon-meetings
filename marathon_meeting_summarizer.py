@@ -1130,24 +1130,30 @@ def main():
 
     all_pending = []
     for src in sources:
-        videos  = fetch_channel_videos(src)
+        if src == "school_board":
+            continue   # handled separately below
+        videos = fetch_channel_videos(src)
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
-            # Date window: include unprocessed videos within the date range
-            pending = [
-                v for v in videos
-                if v["id"] not in state["processed"]
-                and v.get("upload_date", "99999999") >= cutoff_date
-            ]
+            in_window = [v for v in videos if v.get("upload_date", "99999999") >= cutoff_date]
+            pending   = [v for v in in_window if v["id"] not in state["processed"]]
+            print(f"   {src}: {len(videos)} total, {len(in_window)} in window, {len(pending)} unprocessed")
+            for v in in_window[:3]:
+                print(f"     {v['upload_date']} {v['id']} {v['title'][:60]}")
         else:
-            # New only: walk newest-first, stop at first known video
             pending = []
             for v in videos:
                 if v["id"] in state["processed"]:
                     break
                 pending.append(v)
         all_pending.extend(pending)
+
+    # School board always handled by its own scraper
+    for src in sources:
+        if src == "school_board":
+            sb_count = fetch_school_board_new(state, args.dry_run)
+            print(f"   school_board: {sb_count} new meeting(s) processed")
 
     if not all_pending:
         print("✅  No new meetings to process."); return
