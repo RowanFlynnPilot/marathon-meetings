@@ -80,18 +80,14 @@ jobs:
             python marathon_meeting_summarizer.py
           fi
 
-      - name: Commit summaries and state
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -f processed_meetings.json || true
-          git add -f summaries/ || true
-          git status
-          git diff --staged --quiet || git commit -m "chore: save meeting summaries [skip ci]"
-          git push || true
-
       - name: Inject meeting summaries into JSX
         run: |
+          echo "Working directory: $(pwd)"
+          echo "Files present:"
+          ls -la *.json summaries/ 2>/dev/null || true
+          echo "processed_meetings.json contents (first 200 chars):"
+          head -c 200 processed_meetings.json 2>/dev/null || echo "FILE NOT FOUND"
+          echo ""
           echo "{}" > injected_meetings.json
           python inject_meetings.py
 
