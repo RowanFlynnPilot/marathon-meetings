@@ -6,9 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       backfill:
-        description: 'Backfill all historical meetings (true/false)'
+        description: 'Backfill ALL historical meetings (true/false)'
         required: false
         default: 'false'
+      days:
+        description: 'Process meetings from last N days (e.g. 21). Ignored if backfill=true.'
+        required: false
+        default: '''
 
 permissions:
   contents: write
@@ -46,6 +50,8 @@ jobs:
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python marathon_meeting_summarizer.py --backfill
+          elif [ -n "${{ github.event.inputs.days }}" ]; then
+            python marathon_meeting_summarizer.py --days ${{ github.event.inputs.days }}
           else
             python marathon_meeting_summarizer.py
           fi
