@@ -83,14 +83,25 @@ def mark_processed(state, video_id, title, source, summary_path, doc_url=None):
 # -- Channel scraping ----------------------------------------------------------
 
 def _parse_date_from_title(title):
-    """Parse YYYYMMDD from video title like 'Meeting - 3/19/26'."""
+    """Parse YYYYMMDD from video title.
+    Handles formats: 3/19/26, 3-19-26, 3/19/2026, 2026-01-26
+    Returns empty string if no date found.
+    """
     import re as _re
-    m = _re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", title)
+    # ISO format: 2026-01-26
+    m = _re.search(r"(20\d{2})-(\d{2})-(\d{2})", title)
+    if m:
+        return m.group(1) + m.group(2) + m.group(3)
+    # US format with slashes or dashes: 3/19/26, 3-19-26, 12-18-18
+    m = _re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})", title)
     if m:
         mo = m.group(1).zfill(2)
         dy = m.group(2).zfill(2)
         yr = m.group(3)
         yr = "20" + yr if len(yr) == 2 else yr
+        # Sanity check - reject obviously wrong dates
+        if int(mo) > 12 or int(dy) > 31:
+            return ""
         return yr + mo + dy
     return ""
 
@@ -137,7 +148,7 @@ def fetch_channel_videos(source_key, dateafter=""):
     if dateafter:
         total = len(videos)
         videos = [v for v in videos
-                  if not v["upload_date"] or v["upload_date"] >= dateafter]
+                  if v["upload_date"] and v["upload_date"] >= dateafter]
         print(f"   {total} total, {len(videos)} on or after {dateafter} (by title date)")
 
     print(f"   Returning {len(videos)} videos for {ch['label']}")
