@@ -60,23 +60,37 @@ COMMITTEE_MAP = {
     # Village of Weston
     "board of trustees":                      ("weston", "Board of Trustees"),
     "finance & human resources":              ("weston", "Finance & Human Resources"),
-    "public works committee":                 ("weston", "Public Works"),
+    "finance and human resources":            ("weston", "Finance & Human Resources"),
+    "public works":                           ("weston", "Public Works"),
     "community life":                         ("weston", "Community Life & Public Safety"),
-    "parks committee":                        ("weston", "Parks"),
+    "s.a.f.e.r":                              ("weston", "S.A.F.E.R. Board"),
+    "safer board":                            ("weston", "S.A.F.E.R. Board"),
+    "plan commission":                        ("weston", "Plan Commission"),
+    "parks & recreation":                     ("weston", "Parks & Recreation"),
+    "mountain bay":                           ("weston", "Mountain Bay Metro Police"),
+    # Wausau School Board
+    "regular meeting":                        ("school_board", "Regular Meeting"),
+    "committee of the whole":                 ("school_board", "Committee of the Whole"),
+    "education":                              ("school_board", "Education & Operations"),
+    "special meeting":                        ("school_board", "Special Meeting"),
+    "audit of the bills":                     ("school_board", "Audit of the Bills"),
 }
 
 def infer_source_and_committee(title: str, source_key: str, committee_from_json: str) -> tuple[str, str]:
     """Return (source, committee_display) from available metadata."""
+    def normalize(s):
+        return s.lower().replace(" and ", " & ").replace("  ", " ")
+
     # If the JSON summary already has a good committee name, use it
     if committee_from_json and len(committee_from_json) > 3:
-        lower = committee_from_json.lower()
+        lower = normalize(committee_from_json)
         for key, val in COMMITTEE_MAP.items():
             if key in lower:
                 return val
         return (source_key, committee_from_json)
 
     # Fall back to title matching
-    lower = title.lower()
+    lower = normalize(title)
     for key, val in COMMITTEE_MAP.items():
         if key in lower:
             return val
