@@ -290,14 +290,25 @@ def main():
     injected  = load_injected()
 
     # Find video IDs that have been summarized but not yet injected into JSX
+    # Also include stubs already in MEETINGS but with empty agenda/discussions
+    jsx_content = JSX_PATH.read_text(encoding="utf-8")
+    stub_ids = set(re.findall(
+        r'id:\s*"([^"]+)"[^}]{0,300}?agenda:\s*\[\s*\][^}]{0,300}?discussions:\s*\[\s*\]',
+        jsx_content, re.DOTALL
+    ))
+
     pending = {
         vid: info for vid, info in processed.items()
-        if vid not in injected
+        if vid not in injected or vid in stub_ids
     }
 
     if not pending:
-        print("✅  No new meetings to inject.")
+        print("\u2705  No new meetings to inject.")
         return
+
+    stubs_to_update = [v for v in pending if v in stub_ids]
+    if stubs_to_update:
+        print(f"\U0001f4dd  Will update {len(stubs_to_update)} stub(s) with full summary data")
 
     print(f"📋  {len(pending)} meeting(s) to inject:")
     for vid, info in pending.items():
@@ -375,16 +386,22 @@ def main():
         return
 
     # ── Inject into JSX ───────────────────────────────────────────────────────
-    # Find the opening of the MEETINGS array and prepend new entries
-    new_entries_str = ",\n".join(new_entries)
+    # Remove existing stub entries for IDs we are about to inject
+    # (avoids duplicates when updating stubs with full data)
+    new_jsx = jsx
+    for vid in newly_injected:
+        new_jsx = re.sub(
+            rf'  \{{[\s\S]{{0,50}}?id:\s*"{re.escape(vid)}"[\s\S]*?\n  \}},?\n',
+            '', new_jsx, count=1
+        )
 
-    # Match: const MEETINGS = [\n  // ── Marathon County
-    # or:    const MEETINGS = [\n  {
-    pattern = r'(const MEETINGS = \[\n)(  // ──|  \{)'
+    # Prepend new full entries at top of MEETINGS array
+    new_entries_str = ",\n".join(new_entries)
+    pattern = r'(const MEETINGS = \[\n)(  // ──|  \{|\];)'
     def replacer(m):
         return m.group(1) + new_entries_str + ",\n" + m.group(2)
 
-    new_jsx, n_subs = re.subn(pattern, replacer, jsx, count=1)
+    new_jsx, n_subs = re.subn(pattern, replacer, new_jsx, count=1)
 
     if n_subs == 0:
         print("❌  Could not find MEETINGS array insertion point in JSX.")
