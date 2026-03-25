@@ -15,7 +15,7 @@ Usage:
   python marathon_meeting_summarizer.py --source wausau   # one channel only
   python marathon_meeting_summarizer.py --dry-run         # preview without processing
 
-Requirements: pip install yt-dlp anthropic
+Requirements: pip install yt-dlp anthropic youtube-transcript-api
 Environment:  ANTHROPIC_API_KEY, SUMMARIES_DIR (./summaries), STATE_FILE (./processed_meetings.json)
 """
 
@@ -121,12 +121,47 @@ def fetch_channel_videos(source_key):
 
 # ── Transcript ────────────────────────────────────────────────────────────────
 
-def fetch_transcript(url):
+def _vid_id_from_url(url: str) -> str | None:
+    """Extract YouTube video ID from a URL."""
+    m = re.search(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})", url)
+    return m.group(1) if m else None
+
+
+def fetch_transcript(url: str) -> str:
+    """
+    Fetch transcript for a YouTube video.
+    Tries youtube-transcript-api first (more reliable in CI environments),
+    falls back to yt-dlp VTT download if that fails.
+    """
+    vid_id = _vid_id_from_url(url)
+
+    # ── Method 1: youtube-transcript-api ──────────────────────────────────────
+    if vid_id:
+        try:
+            from youtube_transcript_api import YouTubeTranscriptApi
+            transcript = YouTubeTranscriptApi.get_transcript(vid_id, languages=["en", "en-US"])
+            text = " ".join(entry["text"].strip() for entry in transcript if entry.get("text"))
+            if len(text) > 200:
+                print(f"     ✓  Transcript fetched via youtube-transcript-api ({len(text)} chars)")
+                return text
+        except Exception as e:
+            print(f"     ⚠  youtube-transcript-api failed: {e} — trying yt-dlp...")
+
+    # ── Method 2: yt-dlp VTT ──────────────────────────────────────────────────
     with tempfile.TemporaryDirectory() as tmpdir:
         out = os.path.join(tmpdir, "meeting")
-        cmd = ["yt-dlp", "--no-check-certificate", "--write-auto-sub",
-               "--skip-download", "--sub-format", "vtt", "--sub-lang", "en",
-               "-o", out, url]
+        cmd = [
+            "yt-dlp",
+            "--no-check-certificate",
+            "--write-auto-sub",
+            "--skip-download",
+            "--sub-format", "vtt",
+            "--sub-lang", "en",
+            "--extractor-args", "youtube:player_client=web,mweb",
+            "--add-headers", "Accept-Language:en-US,en;q=0.9",
+            "--sleep-requests", "2",
+            "-o", out, url,
+        ]
         r = subprocess.run(cmd, capture_output=True, text=True)
         if r.returncode != 0:
             raise RuntimeError(f"yt-dlp failed:\n{r.stderr}")
