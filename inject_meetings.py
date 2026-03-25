@@ -115,7 +115,8 @@ def _esc(s: str) -> str:
         .replace("\\", "\\\\")    \
         .replace('"',  '\\"')     \
         .replace("\n", " ")       \
-        .replace("\r", "")
+        .replace("\r", "")        \
+        .replace("/",   "\\/")       # prevent esbuild misreading / as regex
 
 def build_meeting_jsx(
     video_id:    str,
