@@ -329,14 +329,12 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
-            "-S", "+size,+br",          # prefer smallest file
-            "-f", "worstvideo+worstaudio/worst/best",
+            "-f", "139/140/249/251",    # m4a/webm audio-only, smallest first
             "--no-playlist",
-            "--max-filesize", "500m",
+            "--max-filesize", "200m",
+            "--js-runtimes", "node",    # use node.js for JS runtime
             "-o", audio_out + ".%(ext)s",
         ]
-        if node_path:
-            dl_cmd += ["--js-runtimes", f"nodejs:{node_path}"]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
             dl_cmd += ["--cookies", COOKIES_FILE]
         dl_cmd.append(url)
