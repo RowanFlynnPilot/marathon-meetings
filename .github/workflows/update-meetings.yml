@@ -52,9 +52,14 @@ jobs:
       - name: Install Node dependencies
         run: npm install
 
+      - name: Write YouTube cookies
+        if: ${{ secrets.YOUTUBE_COOKIES != '' }}
+        run: echo "${{ secrets.YOUTUBE_COOKIES }}" > /tmp/yt-cookies.txt
+
       - name: Run meeting summarizer
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YT_COOKIES_FILE: /tmp/yt-cookies.txt
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python marathon_meeting_summarizer.py --backfill
