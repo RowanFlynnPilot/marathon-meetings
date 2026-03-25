@@ -42,7 +42,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install anthropic yt-dlp requests beautifulsoup4 pillow
+        run: pip install anthropic yt-dlp requests beautifulsoup4 pillow youtube-transcript-api
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Node dependencies
+        run: npm ci
 
       - name: Run meeting summarizer
         env:
@@ -61,15 +70,6 @@ jobs:
 
       - name: Update upcoming meetings
         run: python update_upcoming.py marathon-meetings.jsx
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install Node dependencies
-        run: npm ci
 
       - name: Build
         run: npm run build
