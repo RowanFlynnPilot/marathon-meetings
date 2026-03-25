@@ -13,3 +13,80 @@ on:
         description: 'Process meetings from last N days (e.g. 21). Ignored if backfill=true.'
         required: false
         default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install anthropic yt-dlp requests beautifulsoup4 pillow
+
+      - name: Run meeting summarizer
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
+            python marathon_meeting_summarizer.py --backfill
+          elif [ -n "${{ github.event.inputs.days }}" ]; then
+            python marathon_meeting_summarizer.py --days ${{ github.event.inputs.days }}
+          else
+            python marathon_meeting_summarizer.py
+          fi
+
+      - name: Inject meeting summaries into JSX
+        run: python inject_meetings.py
+
+      - name: Update upcoming meetings
+        run: python update_upcoming.py marathon-meetings.jsx
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit updated data files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add marathon-meetings.jsx processed_meetings.json injected_meetings.json summaries/ || true
+          git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
+          git push || true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
