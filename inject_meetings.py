@@ -192,6 +192,7 @@ def build_meeting_jsx(
         items = civic_data.get("items", [])
         civic_jsx = "\n    civicItems: " + build_civic_items_jsx(items) + ","
 
+    is_bb = video_id.startswith("bb_")
     return f"""  {{
     id: "{video_id}", source: "{source}",
     title: "{_esc(title)}",
@@ -199,6 +200,7 @@ def build_meeting_jsx(
     committee: "{_esc(committee)}", duration: "{duration}",
     url: "{url}",
     docUrl: {doc_jsx},
+    isAgendaOnly: {"true" if is_bb else "false"},
     badge: "new",
     overview: "{overview}",
     agenda: [
@@ -400,18 +402,29 @@ def main():
             title, source_key, summary.get("committee", "")
         )
 
-        # Build YouTube URL
-        yt_url = f"https://www.youtube.com/watch?v={video_id}"
+        # Build video URL — BoardBook meetings use bb_ prefix, not real YouTube IDs
+        is_boardbook = video_id.startswith("bb_")
+        if is_boardbook:
+            # Use the BoardBook agenda URL as the primary link
+            yt_url = doc_url or f"https://meetings.boardbook.org/Public/Organization/1360"
+        else:
+            yt_url = f"https://www.youtube.com/watch?v={video_id}"
+
+        # Clean title — strip date suffixes in multiple formats
+        clean_title = title
+        clean_title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_title).strip()  # 2026-01-26
+        clean_title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', clean_title).strip()  # 3/9/26
+        clean_title = re.sub(r'\s*-\s*\d{1,2}-\d{1,2}-\d{2,4}$', '', clean_title).strip()  # 12-18-18
 
         # Build JSX entry
         entry = build_meeting_jsx(
             video_id    = video_id,
             source      = source,
-            title       = re.sub(r'\s*-\s*\d+/\d+/\d+$', '', title).strip(),
+            title       = clean_title,
             date_str    = date_str,
             short_date  = short_date,
             committee   = committee,
-            duration    = "~1h",   # yt-dlp duration not in state file; close enough
+            duration    = summary.get("duration", "~1h"),
             url         = yt_url,
             doc_url     = doc_url,
             summary     = summary,
