@@ -30,12 +30,12 @@ import anthropic
 CHANNELS = {
     "marathon": {
         "label":       "Marathon County",
-        "url":         "https://www.youtube.com/@marathoncountyboardmeetings/videos",
+        "url":         "https://www.youtube.com/@marathoncountyboardmeetings/streams",
         "doc_pattern": r"https?://[^\s\r\n]*(?:marathoncounty\.gov/home/showpublisheddocument)[^\s\r\n]*",
     },
     "wausau": {
         "label":       "City of Wausau",
-        "url":         "https://www.youtube.com/@CityofWausauMeetings/videos",
+        "url":         "https://www.youtube.com/@CityofWausauMeetings/streams",
         "doc_pattern": r"https?://[^\s\r\n]*(?:wausauwi\.portal\.civicclerk\.com/event/\d+|wausauwi\.gov/home/showpublisheddocument)[^\s\r\n]*",
     },
     "weston": {
