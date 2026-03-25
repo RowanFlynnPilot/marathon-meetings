@@ -111,6 +111,7 @@ def fetch_channel_videos(source_key):
                 "source":      source_key,
                 "doc_url":     doc_m.group(0) if doc_m else None,
                 "upload_date": upload_date,
+                "description": desc,
             })
         except json.JSONDecodeError:
             continue
@@ -456,6 +457,181 @@ def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None)
     return str(path)
 
 
+# ── Agenda text fallback (for videos with no captions) ───────────────────────
+
+def fetch_agenda_text_wausau(doc_url: str) -> str | None:
+    """
+    For Wausau CivicClerk videos, fetch the agenda text via the CivicClerk
+    published files API (blob URL method — no PDF parsing needed).
+    Returns plain text of the agenda, or None on failure.
+    """
+    import requests as _req
+    event_id_m = re.search(r"/event/(\d+)", doc_url)
+    if not event_id_m:
+        return None
+    event_id = int(event_id_m.group(1))
+    base = "https://wausauwi.api.civicclerk.com/v1"
+    hdrs = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
+    try:
+        # Step 1: event -> agendaId
+        r = _req.get(f"{base}/Events/{event_id}", headers=hdrs, timeout=10)
+        if r.status_code != 200:
+            return None
+        agenda_id = r.json().get("agendaId")
+        if not agenda_id:
+            return None
+        # Step 2: meeting publishedFiles -> Agenda file
+        r2 = _req.get(f"{base}/Meetings/{agenda_id}", headers=hdrs, verify=False, timeout=10)
+        if r2.status_code != 200:
+            return None
+        pub_files = r2.json().get("publishedFiles", [])
+        agenda_file = next(
+            (f for f in pub_files if f.get("type", "").lower() == "agenda"),
+            pub_files[0] if pub_files else None
+        )
+        if not agenda_file:
+            return None
+        file_id = agenda_file.get("fileId")
+        if not file_id:
+            return None
+        # Step 3: get blob URL for plain text
+        r3 = _req.get(
+            f"{base}/Meetings/GetMeetingFile(fileId={file_id},plainText=true)",
+            headers=hdrs, verify=False, timeout=10
+        )
+        if r3.status_code != 200:
+            return None
+        blob_url = r3.json().get("blobUri", "")
+        if not blob_url:
+            return None
+        # Step 4: fetch the actual text
+        r4 = _req.get(blob_url, timeout=15)
+        if r4.status_code == 200 and len(r4.text) > 100:
+            return r4.text.strip()
+    except Exception as e:
+        print(f"     ⚠  Wausau agenda fetch failed: {e}")
+    return None
+
+
+def fetch_agenda_text_weston(doc_url: str) -> str | None:
+    """
+    Fetch Weston AgendaCenter agenda PDF and extract text via pdfplumber.
+    """
+    import requests as _req
+    if not doc_url or "westonwi.gov" not in doc_url:
+        return None
+    try:
+        import pdfplumber, io
+        r = _req.get(doc_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        if r.status_code != 200 or b"%PDF" not in r.content[:10]:
+            return None
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        return text.strip() if len(text) > 100 else None
+    except Exception as e:
+        print(f"     ⚠  Weston agenda PDF fetch failed: {e}")
+    return None
+
+
+def fetch_agenda_text(source_key: str, doc_url: str | None, title: str,
+                      description: str = "") -> str | None:
+    """
+    Try to get agenda text for a video that has no transcript.
+    Returns agenda text string, or None if unavailable.
+    """
+    print("  📋  Trying agenda document fallback...")
+
+    if source_key == "wausau" and doc_url:
+        text = fetch_agenda_text_wausau(doc_url)
+        if text:
+            print(f"     ✓  Agenda text from CivicClerk ({len(text)} chars)")
+            return text
+
+    if source_key == "weston":
+        # First try the doc_url from description, then scrape AgendaCenter
+        if doc_url and "westonwi.gov" in doc_url:
+            text = fetch_agenda_text_weston(doc_url)
+            if text:
+                print(f"     ✓  Agenda text from AgendaCenter PDF ({len(text)} chars)")
+                return text
+        # Try scraping AgendaCenter by date
+        scraped_url = fetch_weston_doc_url(title)
+        if scraped_url:
+            text = fetch_agenda_text_weston(scraped_url)
+            if text:
+                print(f"     ✓  Agenda text from AgendaCenter (scraped) ({len(text)} chars)")
+                return text
+
+    # Marathon County PDFs are server-blocked. Use title + description as context.
+    if source_key == "marathon":
+        if description and len(description) > 20:
+            stub = f"Meeting: {title}\nOrganization: Marathon County\n\n{description}"
+            print(f"     ℹ  Marathon County PDF blocked — using title + description ({len(stub)} chars)")
+            return stub
+        print("     ⚠  Marathon County PDF blocked and no description available")
+
+    return None
+
+
+def summarize_from_agenda(agenda_text: str, title: str, source_key: str,
+                          url: str) -> dict:
+    """
+    Summarize a meeting from its agenda document rather than a transcript.
+    Produces the same JSON structure as summarize_meeting().
+    """
+    client = anthropic.Anthropic()
+    ch = CHANNELS[source_key]
+
+    prompt = f"""You are a local government reporter covering the Wausau, Wisconsin area.
+
+Meeting title: {title}
+Organization: {ch['label']}
+Source: Agenda document (no video transcript available)
+YouTube: {url}
+
+Below is the text of the official meeting agenda. Produce a JSON object with this exact structure — no markdown, no preamble, just valid JSON:
+
+{{
+  "overview": "2-3 sentence factual summary of what this meeting was expected to cover and its significance. Note it is based on the agenda, not a transcript.",
+  "committee": "exact committee or board name",
+  "presiding": "",
+  "agenda": [
+    {{"time": "N/A", "item": "agenda item description"}}
+  ],
+  "discussions": [
+    {{"item": "agenda item title", "body": "2-3 sentence description of what this item involves based on the agenda text"}}
+  ],
+  "publicComment": "Note whether public comment was on the agenda, or 'Not indicated on agenda.'",
+  "actionItems": ["action items listed or implied by agenda"]
+}}
+
+Rules:
+- Base your response ONLY on what the agenda says — do not invent outcomes or votes
+- Include all substantive agenda items in both agenda[] and discussions[]
+- Skip purely procedural items (call to order, roll call, adjournment)
+- Return ONLY the JSON object
+
+--- AGENDA ---
+{agenda_text[:12000]}
+--- END ---"""
+
+    msg = client.messages.create(
+        model=CLAUDE_MODEL, max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    raw = msg.content[0].text.strip()
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    try:
+        result = json.loads(raw)
+        result["_source"] = "agenda"   # flag so inject script can note it
+        return result
+    except json.JSONDecodeError:
+        return {"overview": raw, "agenda": [], "discussions": [],
+                "publicComment": "", "actionItems": [], "committee": "",
+                "_source": "agenda"}
+
+
 # ── Core processing ───────────────────────────────────────────────────────────
 
 def process_video(video):
@@ -463,6 +639,7 @@ def process_video(video):
         video["id"], video["title"], video["url"],
         video["source"], video.get("doc_url")
     )
+    description = video.get("description", "")
     ch = CHANNELS[source_key]
     print(f"\n{'─'*60}")
     print(f"[{ch['label']}] {title}")
@@ -470,38 +647,51 @@ def process_video(video):
     if doc_url:
         print(f"  📄 {doc_url}")
 
+    transcript = None
+    summary    = None
+
+    # ── Try transcript first ──────────────────────────────────────────────────
     try:
         print("  ⬇  Fetching transcript...")
         transcript = fetch_transcript(url)
         print(f"  ✅  {len(transcript):,} characters")
-
-        print("  🤖  Summarizing...")
+        print("  🤖  Summarizing from transcript...")
         summary = summarize_meeting(transcript, title, url, source_key)
-
-        # For Weston, scrape the agenda PDF URL from their website
-        if source_key == "weston" and not doc_url:
-            print("  🔍  Looking up Weston agenda document...")
-            doc_url = fetch_weston_doc_url(title)
-            if doc_url:
-                print(f"  📄  Found: {doc_url}")
-
-        # Fetch structured vote/agenda data for Wausau CivicClerk meetings
-        civic_data = None
-        if source_key == "wausau" and doc_url:
-            print("  🗳️  Fetching CivicClerk vote data...")
-            civic_data = fetch_civicclerk_data(doc_url)
-            if civic_data:
-                print(f"  ✅  Got {len(civic_data.get('items', []))} agenda items with votes")
-
-        path = save_summary(title, url, source_key, summary, doc_url, civic_data)
-        print(f"  💾  Saved → {path}")
-        return path
     except FileNotFoundError as e:
-        print(f"  ⚠️  Skipped (no captions): {e}")
-        return None
+        print(f"  ⚠️  No transcript: {e}")
     except Exception as e:
-        print(f"  ❌  Error: {e}")
-        return None
+        print(f"  ⚠️  Transcript error: {e}")
+
+    # ── Agenda fallback ───────────────────────────────────────────────────────
+    if summary is None:
+        agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
+        if agenda_text:
+            print("  🤖  Summarizing from agenda document...")
+            summary = summarize_from_agenda(agenda_text, title, source_key, url)
+        else:
+            print("  ❌  No transcript or agenda available — skipping.")
+            return None
+
+    # ── Post-summary enrichment (runs regardless of transcript vs agenda) ─────
+    # For Weston, scrape the agenda PDF URL from their website
+    if source_key == "weston" and not doc_url:
+        print("  🔍  Looking up Weston agenda document...")
+        doc_url = fetch_weston_doc_url(title)
+        if doc_url:
+            print(f"  📄  Found: {doc_url}")
+
+    # Fetch structured vote/agenda data for Wausau CivicClerk meetings
+    civic_data = None
+    if source_key == "wausau" and doc_url:
+        print("  🗳️  Fetching CivicClerk vote data...")
+        civic_data = fetch_civicclerk_data(doc_url)
+        if civic_data:
+            print(f"  ✅  Got {len(civic_data.get('items', []))} agenda items with votes")
+
+    path = save_summary(title, url, source_key, summary, doc_url, civic_data)
+    print(f"  💾  Saved → {path}")
+    return path
+
 
 
 
