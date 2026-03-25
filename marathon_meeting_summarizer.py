@@ -185,7 +185,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             "there are no captions",
         ]
         if any(sig in combined for sig in no_caption_signals):
-            raise FileNotFoundError("No captions available for this video — skipping.")
+            print("     ℹ  No captions — trying Whisper before giving up...")
+            whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
+            if whisper_text:
+                return whisper_text
+            raise FileNotFoundError("No captions available and Whisper unavailable — skipping.")
 
         if r.returncode == 0:
             vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
