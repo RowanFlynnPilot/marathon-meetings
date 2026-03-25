@@ -163,6 +163,19 @@ def fetch_transcript(url: str) -> str:
         cmd.append(url)
 
         r = subprocess.run(cmd, capture_output=True, text=True)
+        combined = (r.stdout + r.stderr).lower()
+
+        # Detect "no captions" cases — treat as skip, not error
+        no_caption_signals = [
+            "only images are available",
+            "no subtitles found",
+            "subtitles are disabled",
+            "no captions",
+            "there are no captions",
+        ]
+        if any(sig in combined for sig in no_caption_signals):
+            raise FileNotFoundError("No captions available for this video — skipping.")
+
         if r.returncode == 0:
             vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
             if vtt_files:
@@ -198,9 +211,11 @@ def fetch_transcript(url: str) -> str:
         except Exception as e:
             print(f"     ⚠  youtube-transcript-api: {e}")
 
-    raise RuntimeError(
-        "Could not fetch transcript. Add a YOUTUBE_COOKIES secret to your GitHub repo. "
-        "See: https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp"
+    # If we get here, either auth failed or truly no captions exist.
+    # Raise FileNotFoundError so process_video skips cleanly rather than erroring.
+    raise FileNotFoundError(
+        "Could not fetch transcript — video may have no captions, or cookies may be expired. "
+        "If this persists, refresh the YOUTUBE_COOKIES secret in GitHub."
     )
 
 def _parse_vtt(raw):
