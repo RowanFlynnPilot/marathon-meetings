@@ -418,6 +418,7 @@ def main():
     new_entries_str = ",\n".join(new_entries)
     pattern = r'(const MEETINGS = \[\n)(  // ──|  \{|\];)'
     def replacer(m):
+        sep = "," if m.group(2) != "];\n" and m.group(2) != "];" else ""
         return m.group(1) + new_entries_str + ",\n" + m.group(2)
 
     new_jsx, n_subs = re.subn(pattern, replacer, new_jsx, count=1)
