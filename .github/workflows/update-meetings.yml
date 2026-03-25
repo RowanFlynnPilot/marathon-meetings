@@ -42,7 +42,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install anthropic yt-dlp requests beautifulsoup4 pillow "youtube-transcript-api==0.6.3" pdfplumber
+        run: pip install anthropic yt-dlp requests beautifulsoup4 pillow "youtube-transcript-api==0.6.3" pdfplumber faster-whisper
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -67,6 +67,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
+          USE_WHISPER_FALLBACK: "true"
+          WHISPER_MODEL: "tiny"
+          WHISPER_SOURCES: "marathon"
+          WHISPER_DAYS: "14"
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python marathon_meeting_summarizer.py --backfill
