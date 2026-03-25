@@ -1192,10 +1192,27 @@ def main():
             for v in videos[:3]:
                 print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
         else:
+            # Backfill: skip old Marathon County full-board sessions (long, no captions,
+            # blocked PDFs). Committee meetings are fine. New board meetings come through
+            # the --days path automatically.
+            MARATHON_BOARD_SKIP = [
+                "board regular meeting",
+                "board education meeting",
+                "board meeting",
+            ]
+            def skip_old_board(v):
+                if v["source"] != "marathon":
+                    return False
+                tl = v["title"].lower()
+                return any(k in tl for k in MARATHON_BOARD_SKIP)
+
             pending = []
             for v in videos:
                 if v["id"] in state["processed"]:
                     break
+                if skip_old_board(v):
+                    print(f"   Skipping old board meeting: {v['title'][:60]}")
+                    continue
                 pending.append(v)
         all_pending.extend(pending)
 
