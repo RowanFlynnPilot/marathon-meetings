@@ -565,27 +565,24 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
 
           const DocChips = ({ docs }) => {
             if (!docs || !docs.length) return null;
-            return (
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "4px", marginTop: "7px" }}>
-                {docs.map((doc, di) => {
-                  const docName = typeof doc === "string" ? doc : doc.name;
-                  const docUrl  = typeof doc === "string" ? null : doc.url;
-                  const chip = (
-                    <span style={{
-                      fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px",
-                      letterSpacing: "0.1em", padding: "2px 7px",
-                      background: docUrl ? "#fff" : CREAM,
-                      color: docUrl ? src.accent : "#999",
-                      border: `1px solid ${docUrl ? src.accent : RULE}`,
-                      display: "inline-block",
-                    }}> {docName}</span>
-                  );
-                  return docUrl
-                    ? <a key={di} href={docUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>{chip}</a>
-                    : <span key={di}>{chip}</span>;
-                })}
-              </div>
-            );
+            const items = docs.map((doc, di) => {
+              const docName = typeof doc === "string" ? doc : doc.name;
+              const docUrl  = typeof doc === "string" ? null : doc.url;
+              const chipStyle = {
+                fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px",
+                letterSpacing: "0.1em", padding: "2px 7px",
+                background: docUrl ? "#fff" : CREAM,
+                color: docUrl ? src.accent : "#999",
+                border: "1px solid " + (docUrl ? src.accent : RULE),
+                display: "inline-block",
+              };
+              const chip = <span style={chipStyle}>{docName}</span>;
+              if (docUrl) {
+                return <a key={di} href={docUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>{chip}</a>;
+              }
+              return <span key={di}>{chip}</span>;
+            });
+            return <div style={{ display: "flex", flexWrap: "wrap", gap: "4px", marginTop: "7px" }}>{items}</div>;
           };
 
           return (
@@ -678,15 +675,17 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
         })()}
 
         {tab === "votes" && hasCivic && (() => {
-          const VoteChip = ({ passed }) => (
-            <span style={{
-              fontFamily: "'Bebas Neue', sans-serif",
-              fontSize: "10px", letterSpacing: "0.12em",
-              padding: "2px 8px",
-              background: passed ? "#1e5c2a" : "#7B2D2D",
-              color: "#fff", flexShrink: 0,
-            }}>{passed ? "PASSED" : "FAILED"}</span>
-          );
+          const VoteChip = ({ passed }) => {
+            return (
+              <span style={{
+                fontFamily: "'Bebas Neue', sans-serif",
+                fontSize: "10px", letterSpacing: "0.12em",
+                padding: "2px 8px",
+                background: passed ? "#1e5c2a" : "#7B2D2D",
+                color: "#fff", flexShrink: 0,
+              }}>{passed ? "PASSED" : "FAILED"}</span>
+            );
+          };
 
           const VoteBar = ({ votes, label, color }) => {
             if (!votes.length) return null;
