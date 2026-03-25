@@ -101,14 +101,16 @@ def fetch_channel_videos(source_key):
             desc   = d.get("description") or ""
             if not vid_id:
                 continue
-            pattern = ch.get("doc_pattern")
-            doc_m   = re.search(pattern, desc) if pattern else None
+            pattern     = ch.get("doc_pattern")
+            doc_m       = re.search(pattern, desc) if pattern else None
+            upload_date = d.get("upload_date") or ""  # "YYYYMMDD" from yt-dlp
             videos.append({
-                "id":      vid_id,
-                "title":   title,
-                "url":     f"https://www.youtube.com/watch?v={vid_id}",
-                "source":  source_key,
-                "doc_url": doc_m.group(0) if doc_m else None,
+                "id":          vid_id,
+                "title":       title,
+                "url":         f"https://www.youtube.com/watch?v={vid_id}",
+                "source":      source_key,
+                "doc_url":     doc_m.group(0) if doc_m else None,
+                "upload_date": upload_date,
             })
         except json.JSONDecodeError:
             continue
@@ -695,6 +697,7 @@ def main():
     group  = parser.add_mutually_exclusive_group()
     group.add_argument("--url",      metavar="URL",  help="Process a single video URL")
     group.add_argument("--backfill", action="store_true", help="Process all historical videos")
+    group.add_argument("--days",     type=int, metavar="N",  help="Process videos from the last N days only")
     parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","all"], default="all",
                         help="Which channel(s) to process (default: both)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without processing")
@@ -743,11 +746,24 @@ def main():
         return
 
     # ── Channel mode ──────────────────────────────────────────────────────────
+    cutoff_date = None
+    if args.days:
+        from datetime import timedelta
+        cutoff_date = (datetime.now(timezone.utc) - timedelta(days=args.days)).strftime("%Y%m%d")
+        print(f"📅  Limiting to videos uploaded on or after {cutoff_date} (last {args.days} days)")
+
     all_pending = []
     for src in sources:
         videos  = fetch_channel_videos(src)
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
+        elif cutoff_date:
+            # Date window: include unprocessed videos within the date range
+            pending = [
+                v for v in videos
+                if v["id"] not in state["processed"]
+                and v.get("upload_date", "99999999") >= cutoff_date
+            ]
         else:
             # New only: walk newest-first, stop at first known video
             pending = []
