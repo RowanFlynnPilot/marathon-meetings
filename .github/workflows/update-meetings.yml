@@ -80,22 +80,36 @@ jobs:
             python marathon_meeting_summarizer.py
           fi
 
+      - name: Commit summaries and state
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f processed_meetings.json || true
+          git add -f summaries/ || true
+          git status
+          git diff --staged --quiet || git commit -m "chore: save meeting summaries [skip ci]"
+          git push || true
+
       - name: Inject meeting summaries into JSX
-        run: python inject_meetings.py
+        run: |
+          echo "{}" > injected_meetings.json
+          python inject_meetings.py
 
       - name: Update upcoming meetings
         run: python update_upcoming.py marathon-meetings.jsx
 
-      - name: Build
-        run: npm run build
-
-      - name: Commit updated data files
+      - name: Commit JSX and deploy assets
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add marathon-meetings.jsx processed_meetings.json injected_meetings.json summaries/ || true
-          git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
+          git add -f marathon-meetings.jsx || true
+          git add -f injected_meetings.json || true
+          git status
+          git diff --staged --quiet || git commit -m "chore: update meetings JSX [skip ci]"
           git push || true
+
+      - name: Build
+        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
