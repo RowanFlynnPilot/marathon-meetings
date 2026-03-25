@@ -67,7 +67,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
-          USE_WHISPER_FALLBACK: "false"
+          USE_WHISPER_FALLBACK: "true"
           WHISPER_MODEL: "tiny"
           WHISPER_SOURCES: "marathon"
           WHISPER_DAYS: "14"
