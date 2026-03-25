@@ -292,18 +292,37 @@ def main():
     # Find video IDs that have been summarized but not yet injected into JSX
     # Also include stubs already in MEETINGS but with empty agenda/discussions
     jsx_content = JSX_PATH.read_text(encoding="utf-8")
-    stub_ids = set(re.findall(
-        r'id:\s*"([^"]+)"[^}]{0,300}?agenda:\s*\[\s*\][^}]{0,300}?discussions:\s*\[\s*\]',
-        jsx_content, re.DOTALL
-    ))
+    # Find all IDs where the entry has empty agenda array
+    stub_ids = set()
+    # Split into individual meeting blocks and check each
+    blocks = re.split(r'(?=  \{\n    id:)', jsx_content)
+    for block in blocks:
+        id_m = re.search(r'id:\s*"([^"]+)"', block)
+        if id_m and 'agenda: []' in block and 'discussions: []' in block:
+            stub_ids.add(id_m.group(1))
+
+    print(f"   Processed IDs in state: {len(processed)}")
+    print(f"   Already injected:       {len(injected)}")
+    print(f"   Stubs in MEETINGS:      {len(stub_ids)}")
+
+    # IDs in processed state
+    processed_ids = set(processed.keys())
+    # IDs that are stubs but not in processed (manually-created stubs)
+    orphan_stubs  = stub_ids - processed_ids
+    if orphan_stubs:
+        print(f"   Orphan stubs (no processed entry): {orphan_stubs}")
 
     pending = {
         vid: info for vid, info in processed.items()
         if vid not in injected or vid in stub_ids
     }
 
-    if not pending:
+    if not pending and not stub_ids:
         print("\u2705  No new meetings to inject.")
+        return
+
+    if not pending:
+        print("\u2705  No processed meetings to inject (stubs exist but no summaries found).")
         return
 
     stubs_to_update = [v for v in pending if v in stub_ids]
