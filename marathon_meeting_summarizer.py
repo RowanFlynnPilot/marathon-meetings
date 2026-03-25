@@ -25,7 +25,7 @@ from pathlib import Path
 
 import anthropic
 
-# ── Channels ──────────────────────────────────────────────────────────────────
+# -- Channels ------------------------------------------------------------------
 
 CHANNELS = {
     "marathon": {
@@ -57,7 +57,7 @@ SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
 STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
 
 
-# ── State ─────────────────────────────────────────────────────────────────────
+# -- State ---------------------------------------------------------------------
 
 def load_state():
     if STATE_FILE.exists():
@@ -80,32 +80,30 @@ def mark_processed(state, video_id, title, source, summary_path, doc_url=None):
     }
 
 
-# ── Channel scraping ──────────────────────────────────────────────────────────
+# -- Channel scraping ----------------------------------------------------------
 
-def fetch_channel_videos(source_key, dateafter: str = ""):
+def _parse_date_from_title(title):
+    """Parse YYYYMMDD from video title like 'Meeting - 3/19/26'."""
+    import re as _re
+    m = _re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", title)
+    if m:
+        mo = m.group(1).zfill(2)
+        dy = m.group(2).zfill(2)
+        yr = m.group(3)
+        yr = "20" + yr if len(yr) == 2 else yr
+        return yr + mo + dy
+    return ""
+
+
+def fetch_channel_videos(source_key, dateafter=""):
     """
-    Fetch video list for a YouTube channel.
-    If dateafter is set (YYYYMMDD), uses full metadata fetch (slower but returns
-    real upload_date). Otherwise uses fast flat-playlist.
+    Fetch video list for a YouTube channel using flat-playlist.
+    Dates are parsed from video titles since flat-playlist omits upload_date.
+    dateafter (YYYYMMDD) filters videos client-side by parsed title date.
     """
     ch = CHANNELS[source_key]
-    print(f"📡  Fetching {ch['label']} video list...")
-
-    if dateafter:
-        # Full metadata fetch with date filter - returns accurate upload_date
-        cmd = [
-            "yt-dlp", "--no-check-certificate",
-            "--dump-json", "--skip-download",
-            "--dateafter", dateafter,
-            "--no-playlist",
-        ]
-        if COOKIES_FILE and os.path.exists(COOKIES_FILE):
-            cmd += ["--cookies", COOKIES_FILE]
-        cmd.append(ch["url"])
-    else:
-        # Fast flat-playlist for backfill (no date filtering needed)
-        cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
-
+    print(f"\U0001f4e1  Fetching {ch['label']} video list...")
+    cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
     result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     if result.returncode != 0 and not result.stdout.strip():
         raise RuntimeError(f"yt-dlp failed:\n{result.stderr[-300:]}")
@@ -123,7 +121,7 @@ def fetch_channel_videos(source_key, dateafter: str = ""):
                 continue
             pattern     = ch.get("doc_pattern")
             doc_m       = re.search(pattern, desc) if pattern else None
-            upload_date = d.get("upload_date") or ""
+            upload_date = d.get("upload_date") or _parse_date_from_title(title)
             videos.append({
                 "id":          vid_id,
                 "title":       title,
@@ -136,11 +134,14 @@ def fetch_channel_videos(source_key, dateafter: str = ""):
         except json.JSONDecodeError:
             continue
 
-    print(f"   Found {len(videos)} videos on {ch['label']} channel.")
+    if dateafter:
+        total = len(videos)
+        videos = [v for v in videos
+                  if not v["upload_date"] or v["upload_date"] >= dateafter]
+        print(f"   {total} total, {len(videos)} on or after {dateafter} (by title date)")
+
+    print(f"   Returning {len(videos)} videos for {ch['label']}")
     return videos
-
-
-# ── Transcript ────────────────────────────────────────────────────────────────
 
 def _vid_id_from_url(url: str) -> str | None:
     """Extract YouTube video ID from a URL."""
@@ -170,7 +171,7 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
     """
     vid_id = _vid_id_from_url(url)
 
-    # ── Method 1: yt-dlp with cookies ─────────────────────────────────────────
+    # -- Method 1: yt-dlp with cookies -----------------------------------------
     # Cookies bypass YouTube bot detection on known CI IP ranges.
     # Set the YOUTUBE_COOKIES secret in GitHub and the workflow writes it to
     # /tmp/yt-cookies.txt which gets passed here via YT_COOKIES_FILE.
@@ -188,9 +189,9 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         ]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
             cmd += ["--cookies", COOKIES_FILE]
-            print(f"     ℹ  Using cookies file: {COOKIES_FILE}")
+            print(f"       Using cookies file: {COOKIES_FILE}")
         else:
-            print("     ⚠  No cookies file - add YOUTUBE_COOKIES secret for reliable CI transcripts")
+            print("       No cookies file - add YOUTUBE_COOKIES secret for reliable CI transcripts")
         cmd.append(url)
 
         r = subprocess.run(cmd, capture_output=True, text=True)
@@ -205,7 +206,7 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             "there are no captions",
         ]
         if any(sig in combined for sig in no_caption_signals):
-            print("     ℹ  No captions - trying Whisper before giving up...")
+            print("       No captions - trying Whisper before giving up...")
             whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
             if whisper_text:
                 return whisper_text
@@ -217,12 +218,12 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
                 with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
                     text = _parse_vtt(f.read())
                     if len(text) > 200:
-                        print(f"     ✓  Transcript via yt-dlp ({len(text)} chars)")
+                        print(f"       Transcript via yt-dlp ({len(text)} chars)")
                         return text
         else:
-            print(f"     ⚠  yt-dlp failed: {r.stderr.strip()[-200:]}")
+            print(f"       yt-dlp failed: {r.stderr.strip()[-200:]}")
 
-    # ── Method 2: youtube-transcript-api (works on some IPs / some videos) ────
+    # -- Method 2: youtube-transcript-api (works on some IPs / some videos) ----
     if vid_id:
         try:
             from youtube_transcript_api import YouTubeTranscriptApi
@@ -241,14 +242,14 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
                     for e in entries
                 ).strip()
                 if len(text) > 200:
-                    print(f"     ✓  Transcript via youtube-transcript-api ({len(text)} chars)")
+                    print(f"       Transcript via youtube-transcript-api ({len(text)} chars)")
                     return text
         except Exception as e:
-            print(f"     ⚠  youtube-transcript-api: {e}")
+            print(f"       youtube-transcript-api: {e}")
 
     # If we get here, either auth failed or truly no captions exist.
     # Raise FileNotFoundError so process_video skips cleanly rather than erroring.
-    # ── Method 3: Whisper audio transcription ────────────────────────────────
+    # -- Method 3: Whisper audio transcription --------------------------------
     whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
     if whisper_text:
         return whisper_text
@@ -273,7 +274,7 @@ def _parse_vtt(raw):
 
 
 
-# ── Whisper audio transcription (fallback for no-caption videos) ─────────────
+# -- Whisper audio transcription (fallback for no-caption videos) -------------
 
 def fetch_transcript_whisper(url: str, source_key: str = "",
                              upload_date: str = "") -> str | None:
@@ -290,15 +291,15 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
     if source_key and source_key not in WHISPER_SOURCES:
         return None
     if WHISPER_CUTOFF and upload_date and upload_date < WHISPER_CUTOFF:
-        print(f"     ℹ  Skipping Whisper - video too old ({upload_date} < {WHISPER_CUTOFF})")
+        print(f"       Skipping Whisper - video too old ({upload_date} < {WHISPER_CUTOFF})")
         return None
 
-    print("     ℹ  Attempting Whisper audio transcription...")
+    print("       Attempting Whisper audio transcription...")
 
     try:
         import faster_whisper
     except ImportError:
-        print("     ⚠  faster-whisper not installed - skipping Whisper fallback")
+        print("       faster-whisper not installed - skipping Whisper fallback")
         return None
 
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -329,23 +330,23 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
             dl_cmd += ["--cookies", COOKIES_FILE]
         dl_cmd.append(url)
 
-        print("     ⬇  Downloading audio...")
+        print("     [dl]  Downloading audio...")
         r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
         if r.returncode != 0:
-            print(f"     ⚠  Audio download failed: {r.stderr.strip()[-150:]}")
+            print(f"       Audio download failed: {r.stderr.strip()[-150:]}")
             return None
 
         audio_files = [f for f in os.listdir(tmpdir)
                        if not f.endswith(".json") and not f.endswith(".part")
                        and os.path.getsize(os.path.join(tmpdir, f)) > 1000]
         if not audio_files:
-            print("     ⚠  No audio file found after download")
+            print("       No audio file found after download")
             print(f"     Files in tmpdir: {os.listdir(tmpdir)}")
             return None
 
         audio_path = os.path.join(tmpdir, audio_files[0])
         size_mb = os.path.getsize(audio_path) / 1024 / 1024
-        print(f"     ℹ  Audio: {size_mb:.0f} MB - transcribing with Whisper ({WHISPER_MODEL})...")
+        print(f"       Audio: {size_mb:.0f} MB - transcribing with Whisper ({WHISPER_MODEL})...")
 
         # Transcribe
         import time
@@ -362,16 +363,16 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         )
         text = " ".join(seg.text.strip() for seg in segments).strip()
         elapsed = time.time() - t0
-        print(f"     ✓  Whisper transcribed {len(text):,} chars in {elapsed/60:.1f} min")
+        print(f"       Whisper transcribed {len(text):,} chars in {elapsed/60:.1f} min")
 
         if len(text) < 100:
-            print("     ⚠  Whisper output too short - likely empty audio")
+            print("       Whisper output too short - likely empty audio")
             return None
 
         return text
 
 
-# ── CivicClerk vote/agenda fetching ──────────────────────────────────────────
+# -- CivicClerk vote/agenda fetching ------------------------------------------
 
 def fetch_civicclerk_data(doc_url: str) -> dict | None:
     """
@@ -442,11 +443,11 @@ def fetch_civicclerk_data(doc_url: str) -> dict | None:
         return {"event_id": event_id, "agenda_id": agenda_id, "items": items}
 
     except Exception as e:
-        print(f"   ⚠️  CivicClerk fetch failed: {e}")
+        print(f"   [warn]  CivicClerk fetch failed: {e}")
         return None
 
 
-# ── Weston AgendaCenter doc scraping ─────────────────────────────────────────
+# -- Weston AgendaCenter doc scraping -----------------------------------------
 
 def fetch_weston_doc_url(title: str) -> str | None:
     """
@@ -479,11 +480,11 @@ def fetch_weston_doc_url(title: str) -> str | None:
             unique = list(dict.fromkeys(matches))
             return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
     except Exception as e:
-        print(f"   ⚠️  Weston doc scrape failed: {e}")
+        print(f"   [warn]  Weston doc scrape failed: {e}")
     return None
 
 
-# ── Summarization ─────────────────────────────────────────────────────────────
+# -- Summarization -------------------------------------------------------------
 
 def summarize_meeting(transcript, title, url, source_key):
     client  = anthropic.Anthropic()
@@ -537,7 +538,7 @@ Rules:
                 "publicComment": "", "actionItems": [], "committee": ""}
 
 
-# ── Output ────────────────────────────────────────────────────────────────────
+# -- Output --------------------------------------------------------------------
 
 def _slugify(text):
     text = re.sub(r"[^\w\s-]", "", text.lower())
@@ -594,7 +595,7 @@ def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None)
     return str(path)
 
 
-# ── Agenda text fallback (for videos with no captions) ───────────────────────
+# -- Agenda text fallback (for videos with no captions) -----------------------
 
 def fetch_agenda_text_wausau(doc_url: str) -> str | None:
     """
@@ -646,7 +647,7 @@ def fetch_agenda_text_wausau(doc_url: str) -> str | None:
         if r4.status_code == 200 and len(r4.text) > 100:
             return r4.text.strip()
     except Exception as e:
-        print(f"     ⚠  Wausau agenda fetch failed: {e}")
+        print(f"       Wausau agenda fetch failed: {e}")
     return None
 
 
@@ -666,7 +667,7 @@ def fetch_agenda_text_weston(doc_url: str) -> str | None:
             text = "\n".join(page.extract_text() or "" for page in pdf.pages)
         return text.strip() if len(text) > 100 else None
     except Exception as e:
-        print(f"     ⚠  Weston agenda PDF fetch failed: {e}")
+        print(f"       Weston agenda PDF fetch failed: {e}")
     return None
 
 
@@ -676,12 +677,12 @@ def fetch_agenda_text(source_key: str, doc_url: str | None, title: str,
     Try to get agenda text for a video that has no transcript.
     Returns agenda text string, or None if unavailable.
     """
-    print("  📋  Trying agenda document fallback...")
+    print("  [agenda]  Trying agenda document fallback...")
 
     if source_key == "wausau" and doc_url:
         text = fetch_agenda_text_wausau(doc_url)
         if text:
-            print(f"     ✓  Agenda text from CivicClerk ({len(text)} chars)")
+            print(f"       Agenda text from CivicClerk ({len(text)} chars)")
             return text
 
     if source_key == "weston":
@@ -689,23 +690,23 @@ def fetch_agenda_text(source_key: str, doc_url: str | None, title: str,
         if doc_url and "westonwi.gov" in doc_url:
             text = fetch_agenda_text_weston(doc_url)
             if text:
-                print(f"     ✓  Agenda text from AgendaCenter PDF ({len(text)} chars)")
+                print(f"       Agenda text from AgendaCenter PDF ({len(text)} chars)")
                 return text
         # Try scraping AgendaCenter by date
         scraped_url = fetch_weston_doc_url(title)
         if scraped_url:
             text = fetch_agenda_text_weston(scraped_url)
             if text:
-                print(f"     ✓  Agenda text from AgendaCenter (scraped) ({len(text)} chars)")
+                print(f"       Agenda text from AgendaCenter (scraped) ({len(text)} chars)")
                 return text
 
     # Marathon County PDFs are server-blocked. Use title + description as context.
     if source_key == "marathon":
         if description and len(description) > 20:
             stub = f"Meeting: {title}\nOrganization: Marathon County\n\n{description}"
-            print(f"     ℹ  Marathon County PDF blocked - using title + description ({len(stub)} chars)")
+            print(f"       Marathon County PDF blocked - using title + description ({len(stub)} chars)")
             return stub
-        print("     ⚠  Marathon County PDF blocked and no description available")
+        print("       Marathon County PDF blocked and no description available")
 
     return None
 
@@ -769,7 +770,7 @@ Rules:
                 "_source": "agenda"}
 
 
-# ── Core processing ───────────────────────────────────────────────────────────
+# -- Core processing -----------------------------------------------------------
 
 def process_video(video):
     vid_id, title, url, source_key, doc_url = (
@@ -779,61 +780,61 @@ def process_video(video):
     description   = video.get("description", "")
     upload_date   = video.get("upload_date", "")
     ch = CHANNELS[source_key]
-    print(f"\n{'─'*60}")
+    print(f"\n{'-'*60}")
     print(f"[{ch['label']}] {title}")
     print(f"  {url}")
     if doc_url:
-        print(f"  📄 {doc_url}")
+        print(f"   {doc_url}")
 
     transcript = None
     summary    = None
 
-    # ── Try transcript first ──────────────────────────────────────────────────
+    # -- Try transcript first --------------------------------------------------
     try:
-        print("  ⬇  Fetching transcript...")
+        print("  [dl]  Fetching transcript...")
         transcript = fetch_transcript(url, source_key=source_key, upload_date=upload_date)
-        print(f"  ✅  {len(transcript):,} characters")
-        print("  🤖  Summarizing from transcript...")
+        print(f"  [ok]  {len(transcript):,} characters")
+        print("  [claude]  Summarizing from transcript...")
         summary = summarize_meeting(transcript, title, url, source_key)
     except FileNotFoundError as e:
-        print(f"  ⚠️  No transcript: {e}")
+        print(f"  [warn]  No transcript: {e}")
     except Exception as e:
-        print(f"  ⚠️  Transcript error: {e}")
+        print(f"  [warn]  Transcript error: {e}")
 
-    # ── Agenda fallback ───────────────────────────────────────────────────────
+    # -- Agenda fallback -------------------------------------------------------
     if summary is None:
         agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
         if agenda_text:
-            print("  🤖  Summarizing from agenda document...")
+            print("  [claude]  Summarizing from agenda document...")
             summary = summarize_from_agenda(agenda_text, title, source_key, url)
         else:
-            print("  ❌  No transcript or agenda available - skipping.")
+            print("  [err]  No transcript or agenda available - skipping.")
             return None
 
-    # ── Post-summary enrichment (runs regardless of transcript vs agenda) ─────
+    # -- Post-summary enrichment (runs regardless of transcript vs agenda) -----
     # For Weston, scrape the agenda PDF URL from their website
     if source_key == "weston" and not doc_url:
-        print("  🔍  Looking up Weston agenda document...")
+        print("    Looking up Weston agenda document...")
         doc_url = fetch_weston_doc_url(title)
         if doc_url:
-            print(f"  📄  Found: {doc_url}")
+            print(f"    Found: {doc_url}")
 
     # Fetch structured vote/agenda data for Wausau CivicClerk meetings
     civic_data = None
     if source_key == "wausau" and doc_url:
-        print("  🗳️  Fetching CivicClerk vote data...")
+        print("    Fetching CivicClerk vote data...")
         civic_data = fetch_civicclerk_data(doc_url)
         if civic_data:
-            print(f"  ✅  Got {len(civic_data.get('items', []))} agenda items with votes")
+            print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items with votes")
 
     path = save_summary(title, url, source_key, summary, doc_url, civic_data)
-    print(f"  💾  Saved → {path}")
+    print(f"  [save]  Saved  {path}")
     return path
 
 
 
 
-# ── Upcoming meetings fetch ───────────────────────────────────────────────────
+# -- Upcoming meetings fetch ---------------------------------------------------
 
 def fetch_wausau_upcoming() -> list[dict]:
     """
@@ -879,7 +880,7 @@ def fetch_wausau_upcoming() -> list[dict]:
             })
         return results
     except Exception as ex:
-        print(f"   ⚠️  Wausau upcoming fetch failed: {ex}")
+        print(f"   [warn]  Wausau upcoming fetch failed: {ex}")
         return []
 
 
@@ -907,7 +908,7 @@ def update_upcoming_in_jsx(jsx_path: str, events: list[dict]):
 
 
 
-# ── BoardBook agenda scraper (Wausau School Board) ───────────────────────────
+# -- BoardBook agenda scraper (Wausau School Board) ---------------------------
 
 BOARDBOOK_ORG = 1360
 BOARDBOOK_BASE = "https://meetings.boardbook.org"
@@ -981,7 +982,7 @@ def scrape_boardbook_agenda(meeting_id: str) -> dict:
     for cell in cells:
         clean = re.sub(r"&nbsp;",   " ", cell)
         clean = re.sub(r"&amp;",    "&", clean)
-        clean = re.sub(r"&eacute;", "é", clean)
+        clean = re.sub(r"&eacute;", "", clean)
         clean = re.sub(r"&[a-z]+;", " ", clean)
         clean = re.sub(r"<[^>]+>",  " ", clean)
         clean = re.sub(r"\s+",      " ", clean).strip()
@@ -1064,11 +1065,11 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
         return False
 
     title = f"{bb_meeting['name']} - {bb_meeting['date']}"
-    print(f"  📋  Scraping BoardBook agenda for: {title}")
+    print(f"  [agenda]  Scraping BoardBook agenda for: {title}")
 
     agenda = scrape_boardbook_agenda(meeting_id)
 
-    print(f"  🤖  Summarizing {len(agenda['items'])} agenda items...")
+    print(f"  [claude]  Summarizing {len(agenda['items'])} agenda items...")
     summary = summarize_from_boardbook(agenda, title)
 
     doc_url = bb_meeting.get("url", bb_meeting.get("agenda_url", ""))
@@ -1076,7 +1077,7 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
                         "school_board", summary, doc_url=doc_url)
 
     mark_processed(state, video_id, title, "school_board", path, doc_url=doc_url)
-    print(f"  ✅  Saved: {path}")
+    print(f"  [ok]  Saved: {path}")
     return True
 
 
@@ -1085,7 +1086,7 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
     Check BoardBook for any new school board meetings not yet processed.
     Returns count of newly processed meetings.
     """
-    print("📡  Checking BoardBook for new Wausau School Board meetings...")
+    print("[fetch]  Checking BoardBook for new Wausau School Board meetings...")
     meetings = scrape_boardbook_org_page()
     count = 0
 
@@ -1093,14 +1094,14 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
         video_id = f"bb_{m['meeting_id']}"
         if video_id in state.get("processed", {}):
             continue
-        print(f"  🆕  New meeting: {m['name']} on {m['date']}")
+        print(f"  [new]  New meeting: {m['name']} on {m['date']}")
         if not dry_run:
             if process_school_board_meeting(m, state):
                 count += 1
     return count
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
+# -- CLI -----------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(description="Central WI Meeting Summarizer")
@@ -1114,7 +1115,7 @@ def main():
     args = parser.parse_args()
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("❌  ANTHROPIC_API_KEY not set.")
+        print("[err]  ANTHROPIC_API_KEY not set.")
         sys.exit(1)
 
     state      = load_state()
@@ -1126,17 +1127,17 @@ def main():
     all_sources = list(CHANNELS.keys()) + ["school_board"]
     sources     = all_sources if args.source == "all" else [args.source]
 
-    # ── Single URL ────────────────────────────────────────────────────────────
+    # -- Single URL ------------------------------------------------------------
     if args.url:
         url      = args.url
         vid_id_m = re.search(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})", url)
         if not vid_id_m:
-            print(f"❌  Could not parse video ID from: {url}"); sys.exit(1)
+            print(f"[err]  Could not parse video ID from: {url}"); sys.exit(1)
         vid_id = vid_id_m.group(1)
 
         if vid_id in state["processed"] and not args.dry_run:
             info = state["processed"][vid_id]
-            print(f"ℹ️  Already processed: {info['title']}\n   {info['summary_file']}")
+            print(f"  Already processed: {info['title']}\n   {info['summary_file']}")
             return
 
         # Detect source from URL or default marathon
@@ -1159,12 +1160,12 @@ def main():
             save_state(state)
         return
 
-    # ── Channel mode ──────────────────────────────────────────────────────────
+    # -- Channel mode ----------------------------------------------------------
     cutoff_date = None
     if args.days:
         from datetime import timedelta
         cutoff_date = (datetime.now(timezone.utc) - timedelta(days=args.days)).strftime("%Y%m%d")
-        print(f"📅  Limiting to videos uploaded on or after {cutoff_date} (last {args.days} days)")
+        print(f"[date]  Limiting to videos uploaded on or after {cutoff_date} (last {args.days} days)")
 
     all_pending = []
     for src in sources:
@@ -1195,9 +1196,9 @@ def main():
             print(f"   school_board: {sb_count} new meeting(s) processed")
 
     if not all_pending:
-        print("✅  No new meetings to process."); return
+        print("[ok]  No new meetings to process."); return
 
-    print(f"\n📋  {len(all_pending)} meeting(s) to process:")
+    print(f"\n[agenda]  {len(all_pending)} meeting(s) to process:")
     for v in all_pending:
         ch = CHANNELS[v["source"]]
         print(f"   [{ch['label']}] {v['title']}")
@@ -1214,7 +1215,7 @@ def main():
             ok += 1
 
     print(f"\n{'='*60}")
-    print(f"✅  Done. {ok}/{len(all_pending)} processed.")
+    print(f"[ok]  Done. {ok}/{len(all_pending)} processed.")
     print(f"   Summaries: {SUMMARIES_DIR.resolve()}")
     print(f"   State:     {STATE_FILE.resolve()}")
 
