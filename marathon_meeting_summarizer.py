@@ -127,51 +127,22 @@ def _vid_id_from_url(url: str) -> str | None:
     return m.group(1) if m else None
 
 
+COOKIES_FILE = os.environ.get("YT_COOKIES_FILE", "")
+
+
 def fetch_transcript(url: str) -> str:
     """
     Fetch transcript for a YouTube video.
-    Tries youtube-transcript-api first, then yt-dlp with ios client.
+    Uses yt-dlp with browser cookies (via YT_COOKIES_FILE env var) to bypass
+    YouTube bot detection on cloud/CI IP ranges.
+    Falls back to youtube-transcript-api as a secondary attempt.
     """
     vid_id = _vid_id_from_url(url)
 
-    # ── Method 1: youtube-transcript-api ──────────────────────────────────────
-    if vid_id:
-        try:
-            from youtube_transcript_api import YouTubeTranscriptApi
-            print(f"     ℹ  Trying youtube-transcript-api for {vid_id}...")
-            entries = []
-
-            # v0.7+ instance API
-            try:
-                ytt = YouTubeTranscriptApi()
-                result = ytt.fetch(vid_id)
-                entries = [{"text": getattr(s, "text", "")} for s in result]
-            except Exception as e1:
-                # v0.6 class method
-                try:
-                    entries = YouTubeTranscriptApi.get_transcript(
-                        vid_id, languages=["en", "en-US", "en-GB"]
-                    )
-                except Exception as e2:
-                    print(f"     ⚠  youtube-transcript-api: v0.7 err={e1} | v0.6 err={e2}")
-
-            if entries:
-                text = " ".join(
-                    (e.get("text", "") if isinstance(e, dict) else str(e)).strip()
-                    for e in entries
-                ).strip()
-                if len(text) > 200:
-                    print(f"     ✓  Transcript via youtube-transcript-api ({len(text)} chars)")
-                    return text
-                else:
-                    print(f"     ⚠  Transcript too short ({len(text)} chars) — trying yt-dlp...")
-
-        except ImportError:
-            print("     ⚠  youtube-transcript-api not installed — trying yt-dlp...")
-        except Exception as e:
-            print(f"     ⚠  youtube-transcript-api outer error: {e} — trying yt-dlp...")
-
-    # ── Method 2: yt-dlp with ios client (avoids bot detection) ───────────────
+    # ── Method 1: yt-dlp with cookies ─────────────────────────────────────────
+    # Cookies bypass YouTube bot detection on known CI IP ranges.
+    # Set the YOUTUBE_COOKIES secret in GitHub and the workflow writes it to
+    # /tmp/yt-cookies.txt which gets passed here via YT_COOKIES_FILE.
     with tempfile.TemporaryDirectory() as tmpdir:
         out = os.path.join(tmpdir, "meeting")
         cmd = [
@@ -181,18 +152,56 @@ def fetch_transcript(url: str) -> str:
             "--skip-download",
             "--sub-format", "vtt",
             "--sub-lang", "en",
-            "--extractor-args", "youtube:player_client=ios",
             "--sleep-requests", "1",
-            "-o", out, url,
+            "-o", out,
         ]
+        if COOKIES_FILE and os.path.exists(COOKIES_FILE):
+            cmd += ["--cookies", COOKIES_FILE]
+            print(f"     ℹ  Using cookies file: {COOKIES_FILE}")
+        else:
+            print("     ⚠  No cookies file — add YOUTUBE_COOKIES secret for reliable CI transcripts")
+        cmd.append(url)
+
         r = subprocess.run(cmd, capture_output=True, text=True)
-        if r.returncode != 0:
-            raise RuntimeError(f"yt-dlp failed:\n{r.stderr}")
-        vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
-        if not vtt_files:
-            raise FileNotFoundError("No VTT file — video may lack captions.")
-        with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
-            return _parse_vtt(f.read())
+        if r.returncode == 0:
+            vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
+            if vtt_files:
+                with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
+                    text = _parse_vtt(f.read())
+                    if len(text) > 200:
+                        print(f"     ✓  Transcript via yt-dlp ({len(text)} chars)")
+                        return text
+        else:
+            print(f"     ⚠  yt-dlp failed: {r.stderr.strip()[-200:]}")
+
+    # ── Method 2: youtube-transcript-api (works on some IPs / some videos) ────
+    if vid_id:
+        try:
+            from youtube_transcript_api import YouTubeTranscriptApi
+            entries = []
+            try:                       # v0.7+ instance API
+                ytt = YouTubeTranscriptApi()
+                entries = [{"text": getattr(s, "text", "")} for s in ytt.fetch(vid_id)]
+            except Exception:
+                try:                   # v0.6 class method
+                    entries = list(YouTubeTranscriptApi.get_transcript(vid_id, languages=["en","en-US"]))
+                except Exception:
+                    pass
+            if entries:
+                text = " ".join(
+                    (e.get("text","") if isinstance(e, dict) else str(e)).strip()
+                    for e in entries
+                ).strip()
+                if len(text) > 200:
+                    print(f"     ✓  Transcript via youtube-transcript-api ({len(text)} chars)")
+                    return text
+        except Exception as e:
+            print(f"     ⚠  youtube-transcript-api: {e}")
+
+    raise RuntimeError(
+        "Could not fetch transcript. Add a YOUTUBE_COOKIES secret to your GitHub repo. "
+        "See: https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp"
+    )
 
 def _parse_vtt(raw):
     seen, lines = set(), []
