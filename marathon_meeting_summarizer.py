@@ -288,17 +288,18 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
-            "-f", "bestaudio/worstaudio/best",   # explicit format selection
-            "--extract-audio",
-            "--audio-format", "mp3",
-            "--audio-quality", "5",
-            "--max-filesize", "200m",
+            "-f", "140/bestaudio[ext=m4a]/bestaudio/best",  # 140=m4a audio, no JS needed
             "--no-playlist",
+            "--max-filesize", "200m",
+            "--js-runtimes", "nodejs:/usr/local/bin/node",  # point to Node.js
             "-o", audio_out + ".%(ext)s",
         ]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
             dl_cmd += ["--cookies", COOKIES_FILE]
-        dl_cmd.append(url)
+        dl_cmd += [url]
+
+        # Convert to mp3 after download using ffmpeg if available
+        # (yt-dlp --extract-audio requires JS runtime; direct download avoids it)
 
         print("     ⬇  Downloading audio...")
         r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
@@ -306,9 +307,11 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
             print(f"     ⚠  Audio download failed: {r.stderr.strip()[-150:]}")
             return None
 
-        audio_files = [f for f in os.listdir(tmpdir) if f.endswith(".mp3")]
+        audio_files = [f for f in os.listdir(tmpdir)
+                       if f.endswith(".mp3") or f.endswith(".m4a") or f.endswith(".webm")]
         if not audio_files:
             print("     ⚠  No audio file found after download")
+            print(f"     Files in tmpdir: {os.listdir(tmpdir)}")
             return None
 
         audio_path = os.path.join(tmpdir, audio_files[0])
