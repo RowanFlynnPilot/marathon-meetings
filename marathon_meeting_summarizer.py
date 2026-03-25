@@ -285,21 +285,29 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         audio_out = os.path.join(tmpdir, "audio")
 
         # Download audio only (much smaller than video)
+        # Use worst quality video - Whisper works on any media file
+        # Avoids JS runtime issues with audio-only format selection
+        node_path = None
+        for p in ["/opt/hostedtoolcache/node/20.20.1/x64/bin/node",
+                  "/usr/local/bin/node", "/usr/bin/node"]:
+            if os.path.exists(p):
+                node_path = p
+                break
+
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
-            "-f", "140/bestaudio[ext=m4a]/bestaudio/best",  # 140=m4a audio, no JS needed
+            "-S", "+size,+br",          # prefer smallest file
+            "-f", "worstvideo+worstaudio/worst/best",
             "--no-playlist",
-            "--max-filesize", "200m",
-            "--js-runtimes", "nodejs:/usr/local/bin/node",  # point to Node.js
+            "--max-filesize", "500m",
             "-o", audio_out + ".%(ext)s",
         ]
+        if node_path:
+            dl_cmd += ["--js-runtimes", f"nodejs:{node_path}"]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
             dl_cmd += ["--cookies", COOKIES_FILE]
-        dl_cmd += [url]
-
-        # Convert to mp3 after download using ffmpeg if available
-        # (yt-dlp --extract-audio requires JS runtime; direct download avoids it)
+        dl_cmd.append(url)
 
         print("     ⬇  Downloading audio...")
         r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
@@ -308,7 +316,8 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
             return None
 
         audio_files = [f for f in os.listdir(tmpdir)
-                       if f.endswith(".mp3") or f.endswith(".m4a") or f.endswith(".webm")]
+                       if not f.endswith(".json") and not f.endswith(".part")
+                       and os.path.getsize(os.path.join(tmpdir, f)) > 1000]
         if not audio_files:
             print("     ⚠  No audio file found after download")
             print(f"     Files in tmpdir: {os.listdir(tmpdir)}")
