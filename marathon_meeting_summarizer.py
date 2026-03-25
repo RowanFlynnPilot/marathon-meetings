@@ -128,10 +128,20 @@ def _vid_id_from_url(url: str) -> str | None:
     return m.group(1) if m else None
 
 
-COOKIES_FILE = os.environ.get("YT_COOKIES_FILE", "")
+COOKIES_FILE    = os.environ.get("YT_COOKIES_FILE", "")
+USE_WHISPER_FALLBACK = os.environ.get("USE_WHISPER_FALLBACK", "true").lower() == "true"
+WHISPER_MODEL   = os.environ.get("WHISPER_MODEL", "tiny")
+# Comma-separated sources that use Whisper (default: marathon only)
+WHISPER_SOURCES = [s.strip() for s in os.environ.get("WHISPER_SOURCES", "marathon").split(",")]
+# Only run Whisper on videos uploaded within last N days (0 = no limit)
+_wd = int(os.environ.get("WHISPER_DAYS", "0"))
+WHISPER_CUTOFF = (
+    (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=_wd)).strftime("%Y%m%d")
+    if _wd > 0 else ""
+)
 
 
-def fetch_transcript(url: str) -> str:
+def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> str:
     """
     Fetch transcript for a YouTube video.
     Uses yt-dlp with browser cookies (via YT_COOKIES_FILE env var) to bypass
@@ -214,9 +224,14 @@ def fetch_transcript(url: str) -> str:
 
     # If we get here, either auth failed or truly no captions exist.
     # Raise FileNotFoundError so process_video skips cleanly rather than erroring.
+    # ── Method 3: Whisper audio transcription ────────────────────────────────
+    whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
+    if whisper_text:
+        return whisper_text
+
     raise FileNotFoundError(
-        "Could not fetch transcript — video may have no captions, or cookies may be expired. "
-        "If this persists, refresh the YOUTUBE_COOKIES secret in GitHub."
+        "Could not fetch transcript via captions or Whisper. "
+        "Video may have no audio, or cookies may be expired."
     )
 
 def _parse_vtt(raw):
@@ -232,6 +247,90 @@ def _parse_vtt(raw):
             lines.append(line)
     return " ".join(lines)
 
+
+
+# ── Whisper audio transcription (fallback for no-caption videos) ─────────────
+
+def fetch_transcript_whisper(url: str, source_key: str = "",
+                             upload_date: str = "") -> str | None:
+    """
+    Download audio from a YouTube video and transcribe it locally using
+    faster-whisper. Used as a fallback when captions are unavailable.
+    Only runs if:
+      - USE_WHISPER_FALLBACK=true
+      - source_key in WHISPER_SOURCES
+      - upload_date >= WHISPER_CUTOFF (if WHISPER_DAYS is set)
+    """
+    if not USE_WHISPER_FALLBACK:
+        return None
+    if source_key and source_key not in WHISPER_SOURCES:
+        return None
+    if WHISPER_CUTOFF and upload_date and upload_date < WHISPER_CUTOFF:
+        print(f"     ℹ  Skipping Whisper — video too old ({upload_date} < {WHISPER_CUTOFF})")
+        return None
+
+    print("     ℹ  Attempting Whisper audio transcription...")
+
+    try:
+        import faster_whisper
+    except ImportError:
+        print("     ⚠  faster-whisper not installed — skipping Whisper fallback")
+        return None
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        audio_out = os.path.join(tmpdir, "audio")
+
+        # Download audio only (much smaller than video)
+        dl_cmd = [
+            "yt-dlp",
+            "--no-check-certificate",
+            "--extract-audio",
+            "--audio-format", "mp3",
+            "--audio-quality", "5",      # ~64kbps — enough for speech
+            "--max-filesize", "200m",    # skip extremely long videos
+            "-o", audio_out + ".%(ext)s",
+        ]
+        if COOKIES_FILE and os.path.exists(COOKIES_FILE):
+            dl_cmd += ["--cookies", COOKIES_FILE]
+        dl_cmd.append(url)
+
+        print("     ⬇  Downloading audio...")
+        r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
+        if r.returncode != 0:
+            print(f"     ⚠  Audio download failed: {r.stderr.strip()[-150:]}")
+            return None
+
+        audio_files = [f for f in os.listdir(tmpdir) if f.endswith(".mp3")]
+        if not audio_files:
+            print("     ⚠  No audio file found after download")
+            return None
+
+        audio_path = os.path.join(tmpdir, audio_files[0])
+        size_mb = os.path.getsize(audio_path) / 1024 / 1024
+        print(f"     ℹ  Audio: {size_mb:.0f} MB — transcribing with Whisper ({WHISPER_MODEL})...")
+
+        # Transcribe
+        import time
+        t0 = time.time()
+        model = faster_whisper.WhisperModel(
+            WHISPER_MODEL, device="cpu", compute_type="int8"
+        )
+        segments, info = model.transcribe(
+            audio_path,
+            language="en",
+            beam_size=1,           # faster, slight quality tradeoff
+            vad_filter=True,       # skip silence
+            vad_parameters={"min_silence_duration_ms": 500},
+        )
+        text = " ".join(seg.text.strip() for seg in segments).strip()
+        elapsed = time.time() - t0
+        print(f"     ✓  Whisper transcribed {len(text):,} chars in {elapsed/60:.1f} min")
+
+        if len(text) < 100:
+            print("     ⚠  Whisper output too short — likely empty audio")
+            return None
+
+        return text
 
 
 # ── CivicClerk vote/agenda fetching ──────────────────────────────────────────
@@ -639,7 +738,8 @@ def process_video(video):
         video["id"], video["title"], video["url"],
         video["source"], video.get("doc_url")
     )
-    description = video.get("description", "")
+    description   = video.get("description", "")
+    upload_date   = video.get("upload_date", "")
     ch = CHANNELS[source_key]
     print(f"\n{'─'*60}")
     print(f"[{ch['label']}] {title}")
@@ -653,7 +753,7 @@ def process_video(video):
     # ── Try transcript first ──────────────────────────────────────────────────
     try:
         print("  ⬇  Fetching transcript...")
-        transcript = fetch_transcript(url)
+        transcript = fetch_transcript(url, source_key=source_key, upload_date=upload_date)
         print(f"  ✅  {len(transcript):,} characters")
         print("  🤖  Summarizing from transcript...")
         summary = summarize_meeting(transcript, title, url, source_key)
