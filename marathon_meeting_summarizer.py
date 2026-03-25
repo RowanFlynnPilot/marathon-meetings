@@ -1033,7 +1033,7 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
     print(f"  🤖  Summarizing {len(agenda['items'])} agenda items...")
     summary = summarize_from_boardbook(agenda, title)
 
-    doc_url = bb_meeting["agenda_url"]
+    doc_url = bb_meeting.get("url", bb_meeting.get("agenda_url", ""))
     path = save_summary(title, f"https://www.youtube.com/@wausauschoolboard",
                         "school_board", summary, doc_url=doc_url)
 
@@ -1136,11 +1136,23 @@ def main():
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
-            in_window = [v for v in videos if v.get("upload_date", "99999999") >= cutoff_date]
+            def video_date(v):
+                ud = v.get("upload_date", "")
+                if ud:
+                    return ud
+                # Try to parse date from title e.g. "Meeting - 3/19/26"
+                dm = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", v.get("title", ""))
+                if dm:
+                    mo, dy, yr = dm.group(1).zfill(2), dm.group(2).zfill(2), dm.group(3)
+                    yr = "20" + yr if len(yr) == 2 else yr
+                    return f"{yr}{mo}{dy}"
+                return "99999999"   # unknown date = include it
+
+            in_window = [v for v in videos if video_date(v) >= cutoff_date]
             pending   = [v for v in in_window if v["id"] not in state["processed"]]
             print(f"   {src}: {len(videos)} total, {len(in_window)} in window, {len(pending)} unprocessed")
             for v in in_window[:3]:
-                print(f"     {v['upload_date']} {v['id']} {v['title'][:60]}")
+                print(f"     {video_date(v)} {v['id']} {v['title'][:60]}")
         else:
             pending = []
             for v in videos:
