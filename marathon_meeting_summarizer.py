@@ -1080,6 +1080,10 @@ def main():
         sys.exit(1)
 
     state      = load_state()
+    # Save state immediately so the file exists even if nothing is processed
+    save_state(state)
+    print(f"   State file: {STATE_FILE.resolve()}")
+
     # Include school_board in "all" runs
     all_sources = list(CHANNELS.keys()) + ["school_board"]
     sources     = all_sources if args.source == "all" else [args.source]
