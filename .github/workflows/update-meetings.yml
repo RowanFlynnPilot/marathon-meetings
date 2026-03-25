@@ -53,8 +53,15 @@ jobs:
         run: npm install
 
       - name: Write YouTube cookies
-        if: ${{ secrets.YOUTUBE_COOKIES != '' }}
-        run: echo "${{ secrets.YOUTUBE_COOKIES }}" > /tmp/yt-cookies.txt
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > /tmp/yt-cookies.txt
+            echo "Cookies file written."
+          else
+            echo "No YOUTUBE_COOKIES secret set — transcripts may fail on CI IPs."
+          fi
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
 
       - name: Run meeting summarizer
         env:
