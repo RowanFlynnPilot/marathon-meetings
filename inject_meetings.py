@@ -87,13 +87,35 @@ def infer_source_and_committee(title: str, source_key: str, committee_from_json:
 # ── Date helpers ──────────────────────────────────────────────────────────────
 
 def parse_date_from_title(title: str):
-    """Extract date from title like 'Board of Trustees - 3/23/2026'."""
+    """Extract date from title.
+    Handles: 'Board of Trustees - 3/23/2026', 'Special Meeting - 2026-01-26'
+    """
+    # ISO format: 2026-01-26
+    m = re.search(r'(20\d{2})-(\d{2})-(\d{2})', title)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            pass
+    # US format: 3/23/2026 or 3/23/26
     m = re.search(r'(\d{1,2})/(\d{1,2})/(\d{2,4})', title)
     if m:
         mo, dy, yr = m.groups()
         yr = "20" + yr if len(yr) == 2 else yr
         try:
             return datetime(int(yr), int(mo), int(dy))
+        except ValueError:
+            pass
+    # Dash format: 12-18-18 or 3-23-26
+    m = re.search(r'(\d{1,2})-(\d{1,2})-(\d{2,4})(?!\d)', title)
+    if m:
+        mo, dy, yr = m.groups()
+        yr = "20" + yr if len(yr) == 2 else yr
+        try:
+            dt = datetime(int(yr), int(mo), int(dy))
+            # Sanity: reject if date is before 2010 (likely mis-parsed)
+            if dt.year >= 2010:
+                return dt
         except ValueError:
             pass
     return None
