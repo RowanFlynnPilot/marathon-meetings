@@ -1187,39 +1187,32 @@ def main():
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
             # With dateafter, all returned videos are within the window
-            # Skip Marathon County full-board sessions (no captions, blocked PDFs)
-            MARATHON_BOARD_SKIP = ["board regular meeting", "board education meeting", "board meeting"]
+            # Skip ALL Marathon County videos until they enable auto-captions
             pending = [
                 v for v in videos
                 if v["id"] not in state["processed"]
-                and not (src == "marathon" and any(k in v["title"].lower() for k in MARATHON_BOARD_SKIP))
+                and src != "marathon"
             ]
-            print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
+            if src == "marathon":
+                print(f"   {src}: skipping all {len(videos)} videos (no captions available)")
+            else:
+                print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
             for v in videos[:3]:
                 print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
         else:
             # Backfill: skip old Marathon County full-board sessions (long, no captions,
             # blocked PDFs). Committee meetings are fine. New board meetings come through
             # the --days path automatically.
-            MARATHON_BOARD_SKIP = [
-                "board regular meeting",
-                "board education meeting",
-                "board meeting",
-            ]
-            def skip_old_board(v):
-                if v["source"] != "marathon":
-                    return False
-                tl = v["title"].lower()
-                return any(k in tl for k in MARATHON_BOARD_SKIP)
-
-            pending = []
-            for v in videos:
-                if v["id"] in state["processed"]:
-                    break
-                if skip_old_board(v):
-                    print(f"   Skipping old board meeting: {v['title'][:60]}")
-                    continue
-                pending.append(v)
+            # Skip ALL Marathon County videos until they enable auto-captions
+            if src == "marathon":
+                print(f"   marathon: skipping all videos (no captions available)")
+                pending = []
+            else:
+                pending = []
+                for v in videos:
+                    if v["id"] in state["processed"]:
+                        break
+                    pending.append(v)
         all_pending.extend(pending)
 
     # School board always handled by its own scraper
