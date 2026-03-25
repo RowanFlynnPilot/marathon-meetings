@@ -304,6 +304,55 @@ function MeetingCard({ meeting, onClick, active }) {
   );
 }
 
+// ── Shared sub-components ────────────────────────────────────────────────────
+
+function ColHead({ children, dark, accent }) {
+  return (
+    <div style={{
+      fontFamily: "'Bebas Neue', sans-serif",
+      fontSize: "13px", letterSpacing: "0.2em",
+      color: "#fff",
+      background: dark ? "#1A1209" : (accent || "#4aaba7"),
+      padding: "12px 14px",
+      textAlign: "center",
+    }}>{children}</div>
+  );
+}
+
+function DocChips({ docs, accent }) {
+  if (!docs || !docs.length) return null;
+  const items = docs.map((doc, di) => {
+    const docName = typeof doc === "string" ? doc : doc.name;
+    const docUrl  = typeof doc === "string" ? null : doc.url;
+    const chipStyle = {
+      fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px",
+      letterSpacing: "0.1em", padding: "2px 7px",
+      background: docUrl ? "#fff" : "#F7F3EC",
+      color: docUrl ? (accent || "#4aaba7") : "#999",
+      border: "1px solid " + (docUrl ? (accent || "#4aaba7") : "#E0D8CC"),
+      display: "inline-block",
+    };
+    const chip = <span style={chipStyle}>{docName}</span>;
+    if (docUrl) {
+      return <a key={di} href={docUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>{chip}</a>;
+    }
+    return <span key={di}>{chip}</span>;
+  });
+  return <div style={{ display: "flex", flexWrap: "wrap", gap: "4px", marginTop: "7px" }}>{items}</div>;
+}
+
+function VoteChip({ passed }) {
+  return (
+    <span style={{
+      fontFamily: "'Bebas Neue', sans-serif",
+      fontSize: "10px", letterSpacing: "0.12em",
+      padding: "2px 8px",
+      background: passed ? "#1e5c2a" : "#7B2D2D",
+      color: "#fff", flexShrink: 0,
+    }}>{passed ? "PASSED" : "FAILED"}</span>
+  );
+}
+
 function SummaryDetail({ meeting, onBack, isMobile }) {
   const [tab, setTab] = useState("summary");
   const cs  = getCommitteeStyle(meeting.committee);
@@ -550,49 +599,14 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
 
           const actions = meeting.actionItems;
 
-          const ColHead = ({ children, dark }) => {
-            return (
-              <div style={{
-                fontFamily: "'Bebas Neue', sans-serif",
-                fontSize: "13px", letterSpacing: "0.2em",
-                color: "#fff",
-                background: dark ? INK : src.accent,
-                padding: "12px 14px",
-                textAlign: "center",
-              }}>{children}</div>
-            );
-          };
-
-          const DocChips = ({ docs }) => {
-            if (!docs || !docs.length) return null;
-            const items = docs.map((doc, di) => {
-              const docName = typeof doc === "string" ? doc : doc.name;
-              const docUrl  = typeof doc === "string" ? null : doc.url;
-              const chipStyle = {
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px",
-                letterSpacing: "0.1em", padding: "2px 7px",
-                background: docUrl ? "#fff" : CREAM,
-                color: docUrl ? src.accent : "#999",
-                border: "1px solid " + (docUrl ? src.accent : RULE),
-                display: "inline-block",
-              };
-              const chip = <span style={chipStyle}>{docName}</span>;
-              if (docUrl) {
-                return <a key={di} href={docUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>{chip}</a>;
-              }
-              return <span key={di}>{chip}</span>;
-            });
-            return <div style={{ display: "flex", flexWrap: "wrap", gap: "4px", marginTop: "7px" }}>{items}</div>;
-          };
-
           return (
             <div style={{ border: `1px solid ${RULE}`, overflow: "hidden" }}>
 
               
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
-                <ColHead>Topics Discussed</ColHead>
+                <ColHead accent={src.accent}>Topics Discussed</ColHead>
                 <div style={{ borderLeft: `1px solid #333` }}>
-                  <ColHead dark>{"Actions & Next Steps"}</ColHead>
+                  <ColHead dark accent={src.accent}>{"Actions & Next Steps"}</ColHead>
                 </div>
               </div>
 
@@ -626,7 +640,7 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
                           fontSize: "13px", lineHeight: 1.6, color: INK,
                         }}>{topic.name}</span>
                       </div>
-                      <DocChips docs={topic.docs} />
+                      <DocChips docs={topic.docs} accent={src.accent} />
                     </div>
                   ))}
                 </div>
@@ -675,18 +689,6 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
         })()}
 
         {tab === "votes" && hasCivic && (() => {
-          const VoteChip = ({ passed }) => {
-            return (
-              <span style={{
-                fontFamily: "'Bebas Neue', sans-serif",
-                fontSize: "10px", letterSpacing: "0.12em",
-                padding: "2px 8px",
-                background: passed ? "#1e5c2a" : "#7B2D2D",
-                color: "#fff", flexShrink: 0,
-              }}>{passed ? "PASSED" : "FAILED"}</span>
-            );
-          };
-
           const VoteBar = ({ votes, label, color }) => {
             if (!votes.length) return null;
             return (
