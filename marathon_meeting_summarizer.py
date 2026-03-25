@@ -1,0 +1,784 @@
+#!/usr/bin/env python3
+"""
+Central Wisconsin Meeting Summarizer
+======================================
+Monitors two YouTube channels for government meeting uploads:
+  - Marathon County Board Meetings (@marathoncountyboardmeetings)
+  - City of Wausau Meetings        (@CityofWausauMeetings)
+
+Transcribes captions via yt-dlp, summarizes with Claude, and saves markdown files.
+
+Usage:
+  python marathon_meeting_summarizer.py                   # new meetings only (cron mode)
+  python marathon_meeting_summarizer.py --url URL         # single video
+  python marathon_meeting_summarizer.py --backfill        # all historical videos
+  python marathon_meeting_summarizer.py --source wausau   # one channel only
+  python marathon_meeting_summarizer.py --dry-run         # preview without processing
+
+Requirements: pip install yt-dlp anthropic
+Environment:  ANTHROPIC_API_KEY, SUMMARIES_DIR (./summaries), STATE_FILE (./processed_meetings.json)
+"""
+
+import argparse, json, os, re, subprocess, sys, tempfile
+from datetime import datetime, timezone
+from pathlib import Path
+
+import anthropic
+
+# ── Channels ──────────────────────────────────────────────────────────────────
+
+CHANNELS = {
+    "marathon": {
+        "label":       "Marathon County",
+        "url":         "https://www.youtube.com/@marathoncountyboardmeetings/videos",
+        "doc_pattern": r"https?://[^\s\r\n]*(?:marathoncounty\.gov/home/showpublisheddocument)[^\s\r\n]*",
+    },
+    "wausau": {
+        "label":       "City of Wausau",
+        "url":         "https://www.youtube.com/@CityofWausauMeetings/videos",
+        "doc_pattern": r"https?://[^\s\r\n]*(?:wausauwi\.portal\.civicclerk\.com/event/\d+|wausauwi\.gov/home/showpublisheddocument)[^\s\r\n]*",
+    },
+    "weston": {
+        "label":       "Village of Weston",
+        "url":         "https://www.youtube.com/@WestonWI/videos",
+        "doc_pattern": None,
+    },
+    "school_board": {
+        "label":       "Wausau School Board",
+        "url":         "https://www.youtube.com/@wausauschoolboard/videos",
+        "doc_pattern": None,   # Docs scraped from BoardBook, not YouTube descriptions
+        "boardbook_org": 1360, # BoardBook organization ID
+    },
+}
+
+CLAUDE_MODEL        = "claude-opus-4-5"
+MAX_TRANSCRIPT_CHARS = 90_000
+SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
+STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
+
+
+# ── State ─────────────────────────────────────────────────────────────────────
+
+def load_state():
+    if STATE_FILE.exists():
+        with open(STATE_FILE) as f:
+            return json.load(f)
+    return {"processed": {}}
+
+def save_state(state):
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+
+def mark_processed(state, video_id, title, source, summary_path, doc_url=None):
+    state["processed"][video_id] = {
+        "title":        title,
+        "source":       source,
+        "doc_url":      doc_url,
+        "processed_at": datetime.now(timezone.utc).isoformat(),
+        "summary_file": summary_path,
+    }
+
+
+# ── Channel scraping ──────────────────────────────────────────────────────────
+
+def fetch_channel_videos(source_key):
+    ch = CHANNELS[source_key]
+    print(f"📡  Fetching {ch['label']} video list...")
+    cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f"yt-dlp failed:\n{result.stderr}")
+
+    videos = []
+    for line in result.stdout.strip().splitlines():
+        if not line.strip():
+            continue
+        try:
+            d = json.loads(line)
+            vid_id = d.get("id", "")
+            title  = d.get("title", "Untitled")
+            desc   = d.get("description") or ""
+            if not vid_id:
+                continue
+            doc_m  = re.search(ch["doc_pattern"], desc)
+            videos.append({
+                "id":      vid_id,
+                "title":   title,
+                "url":     f"https://www.youtube.com/watch?v={vid_id}",
+                "source":  source_key,
+                "doc_url": doc_m.group(0) if doc_m else None,
+            })
+        except json.JSONDecodeError:
+            continue
+
+    print(f"   Found {len(videos)} videos on {ch['label']} channel.")
+    return videos
+
+
+# ── Transcript ────────────────────────────────────────────────────────────────
+
+def fetch_transcript(url):
+    with tempfile.TemporaryDirectory() as tmpdir:
+        out = os.path.join(tmpdir, "meeting")
+        cmd = ["yt-dlp", "--no-check-certificate", "--write-auto-sub",
+               "--skip-download", "--sub-format", "vtt", "--sub-lang", "en",
+               "-o", out, url]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0:
+            raise RuntimeError(f"yt-dlp failed:\n{r.stderr}")
+        vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
+        if not vtt_files:
+            raise FileNotFoundError("No VTT file created — video may lack captions.")
+        with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
+            return _parse_vtt(f.read())
+
+def _parse_vtt(raw):
+    seen, lines = set(), []
+    for line in raw.split("\n"):
+        line = line.strip()
+        if (not line or "-->" in line or line.startswith("WEBVTT")
+                or line.startswith("Kind:") or line.startswith("Language:")
+                or line == " " or ("<" in line and ">" in line and ":" in line)):
+            continue
+        if line not in seen:
+            seen.add(line)
+            lines.append(line)
+    return " ".join(lines)
+
+
+
+# ── CivicClerk vote/agenda fetching ──────────────────────────────────────────
+
+def fetch_civicclerk_data(doc_url: str) -> dict | None:
+    """
+    Given a Wausau CivicClerk portal URL (e.g. /event/2311/overview or /event/156/...),
+    extract the event ID, look up its agendaId, then fetch full agenda items,
+    motions, votes, and attachments via the public OData API.
+    Returns a dict with 'items' list, or None on failure.
+    """
+    import requests, re
+
+    event_id_m = re.search(r"/event/(\d+)", doc_url)
+    if not event_id_m:
+        return None
+    event_id = int(event_id_m.group(1))
+
+    base = "https://wausauwi.api.civicclerk.com/v1"
+    headers = {"Accept": "application/json",
+               "User-Agent": "Mozilla/5.0"}
+    try:
+        # Step 1: get agendaId from Events endpoint
+        r = requests.get(f"{base}/Events/{event_id}", headers=headers, timeout=10)
+        if r.status_code != 200:
+            return None
+        event = r.json()
+        agenda_id = event.get("agendaId")
+        if not agenda_id:
+            return None
+
+        # Step 2: fetch full meeting items (agenda, votes, attachments)
+        r2 = requests.get(f"{base}/Meetings/{agenda_id}", headers=headers, timeout=10)
+        if r2.status_code != 200:
+            return None
+        meeting = r2.json()
+
+        def parse_item(item):
+            votes = []
+            for v in item.get("minutesItemVotes", []):
+                votes.append({
+                    "motion":    v.get("motionName", ""),
+                    "passed":    v.get("passFail") == 1,
+                    "initiator": v.get("initiatedBy", ""),
+                    "seconder":  v.get("secondedBy", ""),
+                    "yes":       v.get("yesVotes", []),
+                    "no":        v.get("noVotes", []),
+                    "abstain":   v.get("abstainVotes", []),
+                })
+            docs = [
+            {
+                "name": a.get("fileName", ""),
+                "url":  f"https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId={a['id']})"
+                        if a.get("id") else None,
+                "type": a.get("contentType", ""),
+                "size": a.get("fileSize", 0),
+            }
+            for a in item.get("attachmentsList", []) if a.get("fileName")
+        ]
+            children = [parse_item(c) for c in item.get("childItems", [])]
+            return {
+                "number":   item.get("agendaObjectItemOutlineNumber", ""),
+                "name":     item.get("agendaObjectItemName", ""),
+                "desc":     item.get("agendaObjectItemDescription", "") or "",
+                "votes":    votes,
+                "docs":     docs,
+                "children": children,
+            }
+
+        items = [parse_item(i) for i in meeting.get("items", [])]
+        return {"event_id": event_id, "agenda_id": agenda_id, "items": items}
+
+    except Exception as e:
+        print(f"   ⚠️  CivicClerk fetch failed: {e}")
+        return None
+
+
+# ── Weston AgendaCenter doc scraping ─────────────────────────────────────────
+
+def fetch_weston_doc_url(title: str) -> str | None:
+    """
+    Given a meeting title like 'Board of Trustees - 3/23/2026',
+    scrape westonwi.gov/agendacenter to find the matching agenda PDF URL.
+    Returns the full PDF URL or None.
+    """
+    import requests, re
+    from datetime import datetime
+
+    # Parse date from title  e.g. "Board of Trustees - 3/23/2026"
+    date_m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", title)
+    if not date_m:
+        return None
+    mo, dy, yr = date_m.group(1).zfill(2), date_m.group(2).zfill(2), date_m.group(3)
+    date_str = f"_{mo}{dy}{yr}"   # e.g. _03232026
+
+    try:
+        r = requests.get(
+            "https://www.westonwi.gov/agendacenter",
+            headers={"User-Agent": "Mozilla/5.0"}, timeout=10
+        )
+        # Find all agenda paths matching the date
+        matches = re.findall(
+            rf'/AgendaCenter/ViewFile/Agenda/({re.escape(date_str)}-\d+)',
+            r.text
+        )
+        if matches:
+            # Return the first unique one (usually the main board meeting)
+            unique = list(dict.fromkeys(matches))
+            return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
+    except Exception as e:
+        print(f"   ⚠️  Weston doc scrape failed: {e}")
+    return None
+
+
+# ── Summarization ─────────────────────────────────────────────────────────────
+
+def summarize_meeting(transcript, title, url, source_key):
+    client  = anthropic.Anthropic()
+    ch      = CHANNELS[source_key]
+
+    prompt = f"""You are a local government reporter covering the Wausau, Wisconsin area.
+
+Meeting title: {title}
+Organization: {ch['label']}
+YouTube link:  {url}
+
+Below is the auto-generated transcript. Produce a JSON object with this exact structure and nothing else — no markdown, no preamble, just valid JSON:
+
+{{
+  "overview": "2-3 sentence factual summary of what the meeting covered and its significance",
+  "committee": "exact committee or board name (e.g. Executive Committee, Board of Trustees, Public Health & Safety Committee)",
+  "presiding": "name and title of person who chaired the meeting if mentioned",
+  "agenda": [
+    {{"time": "0:00", "item": "agenda item description"}}
+  ],
+  "discussions": [
+    {{"item": "agenda item title", "body": "2-4 sentence detailed description of what was discussed, who spoke, outcomes"}}
+  ],
+  "publicComment": "description of public comment if any, or 'No public comment was offered.'",
+  "actionItems": ["action item 1", "action item 2"]
+}}
+
+Rules:
+- agenda items: extract timestamps from the transcript where possible (format: "M:SS" or "H:MM:SS"). Include 5-10 key items.
+- discussions: one entry per substantive agenda item. Body should be 2-4 detailed sentences.
+- Be factual, neutral, accessible. Note unclear audio rather than guessing.
+- Return ONLY the JSON object. No markdown fences, no explanation.
+
+--- TRANSCRIPT ---
+{transcript[:MAX_TRANSCRIPT_CHARS]}
+--- END ---"""
+
+    msg = client.messages.create(
+        model=CLAUDE_MODEL, max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    raw = msg.content[0].text.strip()
+    # Strip any accidental markdown fences
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        # Fallback if Claude returns non-JSON
+        return {"overview": raw, "agenda": [], "discussions": [],
+                "publicComment": "", "actionItems": [], "committee": ""}
+
+
+# ── Output ────────────────────────────────────────────────────────────────────
+
+def _slugify(text):
+    text = re.sub(r"[^\w\s-]", "", text.lower())
+    text = re.sub(r"[\s_-]+", "-", text).strip("-")
+    return text[:80]
+
+def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None):
+    ch    = CHANNELS[source_key]
+    slug  = _slugify(f"{source_key}-{title}")
+    path  = SUMMARIES_DIR / f"{slug}.md"
+    SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # summary is now a dict from structured JSON output
+    overview = summary.get("overview", "") if isinstance(summary, dict) else str(summary)
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"# {title}\n\n")
+        f.write(f"**Organization:** {ch['label']}  \n")
+        f.write(f"**Source:** {url}  \n")
+        if doc_url:
+            f.write(f"**Documents:** {doc_url}  \n")
+        f.write(f"**Summarized:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n")
+        f.write("---\n\n")
+        f.write(f"## Meeting Overview\n{overview}\n\n")
+        if isinstance(summary, dict):
+            if summary.get("discussions"):
+                f.write("## Key Discussions\n")
+                for d in summary["discussions"]:
+                    f.write(f"### {d.get('item','')}\n{d.get('body','')}\n\n")
+            if summary.get("publicComment"):
+                f.write(f"## Public Comment\n{summary['publicComment']}\n\n")
+            if summary.get("actionItems"):
+                f.write("## Action Items\n")
+                for a in summary["actionItems"]:
+                    f.write(f"- {a}\n")
+
+    # Save full structured summary as JSON sidecar
+    summary_data = summary if isinstance(summary, dict) else {"overview": str(summary)}
+    summary_data.update({
+        "title": title, "url": url, "source": source_key,
+        "doc_url": doc_url,
+        "processed_at": datetime.now(timezone.utc).isoformat(),
+    })
+    json_path = str(path).replace(".md", "_summary.json")
+    with open(json_path, "w", encoding="utf-8") as jf:
+        json.dump(summary_data, jf, indent=2, ensure_ascii=False)
+
+    # Save CivicClerk vote data as separate sidecar
+    if civic_data:
+        votes_path = str(path).replace(".md", "_votes.json")
+        with open(votes_path, "w", encoding="utf-8") as jf:
+            json.dump(civic_data, jf, indent=2)
+
+    return str(path)
+
+
+# ── Core processing ───────────────────────────────────────────────────────────
+
+def process_video(video):
+    vid_id, title, url, source_key, doc_url = (
+        video["id"], video["title"], video["url"],
+        video["source"], video.get("doc_url")
+    )
+    ch = CHANNELS[source_key]
+    print(f"\n{'─'*60}")
+    print(f"[{ch['label']}] {title}")
+    print(f"  {url}")
+    if doc_url:
+        print(f"  📄 {doc_url}")
+
+    try:
+        print("  ⬇  Fetching transcript...")
+        transcript = fetch_transcript(url)
+        print(f"  ✅  {len(transcript):,} characters")
+
+        print("  🤖  Summarizing...")
+        summary = summarize_meeting(transcript, title, url, source_key)
+
+        # For Weston, scrape the agenda PDF URL from their website
+        if source_key == "weston" and not doc_url:
+            print("  🔍  Looking up Weston agenda document...")
+            doc_url = fetch_weston_doc_url(title)
+            if doc_url:
+                print(f"  📄  Found: {doc_url}")
+
+        # Fetch structured vote/agenda data for Wausau CivicClerk meetings
+        civic_data = None
+        if source_key == "wausau" and doc_url:
+            print("  🗳️  Fetching CivicClerk vote data...")
+            civic_data = fetch_civicclerk_data(doc_url)
+            if civic_data:
+                print(f"  ✅  Got {len(civic_data.get('items', []))} agenda items with votes")
+
+        path = save_summary(title, url, source_key, summary, doc_url, civic_data)
+        print(f"  💾  Saved → {path}")
+        return path
+    except FileNotFoundError as e:
+        print(f"  ⚠️  Skipped (no captions): {e}")
+        return None
+    except Exception as e:
+        print(f"  ❌  Error: {e}")
+        return None
+
+
+
+# ── Upcoming meetings fetch ───────────────────────────────────────────────────
+
+def fetch_wausau_upcoming() -> list[dict]:
+    """
+    Fetch upcoming City of Wausau meetings from CivicClerk API.
+    Returns list of {date, time, name, url} dicts.
+    Note: CivicClerk stores local Wausau times with a Z suffix (not true UTC).
+    """
+    import requests, re
+    from datetime import date
+
+    today = date.today().isoformat()
+    url = (
+        "https://wausauwi.api.civicclerk.com/v1/Events"
+        f"?%24filter=eventDate%20ge%20{today}T00%3A00%3A00Z%20and%20isDeleted%20eq%20false"
+        "&%24orderby=eventDate&%24top=20"
+    )
+    try:
+        r = requests.get(url, headers={"Accept": "application/json",
+                                       "User-Agent": "Mozilla/5.0"}, timeout=10)
+        events = r.json().get("value", [])
+        results = []
+        for e in events:
+            name = e.get("eventName", "")
+            if "CANCEL" in name.upper() or "POSSIBLE QUORUM" in name.upper():
+                continue
+            raw = e.get("eventDate", "")
+            # Strip Z — times are local (not UTC)
+            dt_str = raw.replace("Z", "").replace("+00:00", "")
+            date_part = dt_str[:10]
+            if len(dt_str) > 10:
+                h, m = int(dt_str[11:13]), int(dt_str[14:16])
+                ap = "AM" if h < 12 else "PM"
+                h12 = h % 12 or 12
+                time_part = f"{h12}:{m:02d} {ap}"
+            else:
+                time_part = ""
+            results.append({
+                "date": date_part,
+                "time": time_part,
+                "name": name,
+                "url": f"https://wausauwi.portal.civicclerk.com/event/{e['id']}/overview",
+                "source": "wausau",
+            })
+        return results
+    except Exception as ex:
+        print(f"   ⚠️  Wausau upcoming fetch failed: {ex}")
+        return []
+
+
+def update_upcoming_in_jsx(jsx_path: str, events: list[dict]):
+    """Replace WAUSAU_UPCOMING in the JSX file with fresh data."""
+    import re
+    with open(jsx_path) as f:
+        content = f.read()
+
+    new_entries = "\n".join(
+        f'  {{ date:"{e["date"]}", time:"{e["time"]}", '
+        f'name:"{e["name"].replace(chr(34), chr(39))}", '
+        f'url:"{e["url"]}", source:"wausau" }},'
+        for e in events
+    )
+    new_block = "const WAUSAU_UPCOMING = [\n" + new_entries + "\n];"
+
+    content = re.sub(
+        r"const WAUSAU_UPCOMING = \[[\s\S]*?\];",
+        new_block,
+        content
+    )
+    with open(jsx_path, "w") as f:
+        f.write(content)
+
+
+
+# ── BoardBook agenda scraper (Wausau School Board) ───────────────────────────
+
+BOARDBOOK_ORG = 1360
+BOARDBOOK_BASE = "https://meetings.boardbook.org"
+
+
+def scrape_boardbook_org_page() -> list[dict]:
+    """
+    Scrape the BoardBook organization page for all meetings.
+    Returns list of {meeting_id, date, time, name, url}.
+    """
+    import requests, re
+    from datetime import datetime, date as ddate
+
+    r = requests.get(
+        f"{BOARDBOOK_BASE}/Public/Organization/{BOARDBOOK_ORG}",
+        headers={"User-Agent": "Mozilla/5.0"}, timeout=15
+    )
+    rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
+    meetings = []
+    for row in rows:
+        id_m = re.search(r"/Public/Agenda/\d+\?meeting=(\d+)", row)
+        if not id_m:
+            continue
+        text = re.sub(r"&nbsp;", " ", row)
+        text = re.sub(r"&[a-z]+;", " ", text)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        dm = re.search(
+            r"(\w+ \d+, \d{4}) at (\d+:\d+ [AP]M) - (.+?)(?:Meeting Type|$)", text
+        )
+        if not dm:
+            continue
+        date_str, time_str, name = dm.groups()
+        name = re.sub(r"\s+Meeting Type.*$", "", name).strip().rstrip(" -")
+        try:
+            dt = datetime.strptime(date_str, "%B %d, %Y").date()
+            meetings.append({
+                "meeting_id": id_m.group(1),
+                "date":       dt.isoformat(),
+                "time":       time_str,
+                "name":       name.strip(),
+                "url":        f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={id_m.group(1)}",
+                "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{BOARDBOOK_ORG}?meeting={id_m.group(1)}",
+            })
+        except ValueError:
+            pass
+    return sorted(meetings, key=lambda x: x["date"], reverse=True)
+
+
+def scrape_boardbook_agenda(meeting_id: str) -> dict:
+    """
+    Scrape agenda items and descriptions from a BoardBook meeting page.
+    Returns {title, items: [{number, text, attachments}], packet_url}.
+    """
+    import requests, re
+
+    r = requests.get(
+        f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
+        headers={"User-Agent": "Mozilla/5.0"}, timeout=15
+    )
+
+    # Page title
+    title_m = re.search(r"<title>([^<]+)</title>", r.text)
+    page_title = (title_m.group(1) if title_m else "").replace(
+        " - BoardBook Premier", ""
+    ).strip()
+
+    # Parse table cells into agenda items
+    cells = re.findall(r"<td[^>]*>(.*?)</td>", r.text, re.DOTALL)
+    items = []
+    for cell in cells:
+        clean = re.sub(r"&nbsp;",   " ", cell)
+        clean = re.sub(r"&amp;",    "&", clean)
+        clean = re.sub(r"&eacute;", "é", clean)
+        clean = re.sub(r"&[a-z]+;", " ", clean)
+        clean = re.sub(r"<[^>]+>",  " ", clean)
+        clean = re.sub(r"\s+",      " ", clean).strip()
+        if len(clean) > 5 and clean.lower() != "agenda":
+            items.append(clean)
+
+    return {
+        "page_title": page_title,
+        "items":      items,
+        "meeting_id": meeting_id,
+        "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
+        "agenda_url": f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
+    }
+
+
+def summarize_from_boardbook(agenda: dict, title: str) -> dict:
+    """
+    Send the BoardBook agenda to Claude and get a structured JSON summary.
+    """
+    client = anthropic.Anthropic()
+    items_text = "\n".join(f"  {item}" for item in agenda["items"])
+
+    prompt = f"""You are a local government reporter for the Wausau Pilot & Review covering the Wausau School District Board of Education.
+
+Meeting: {title}
+BoardBook agenda page: {agenda['agenda_url']}
+Full packet download: {agenda['packet_url']}
+
+Below is the complete agenda scraped from BoardBook. Each line is one agenda item, including item descriptions where available.
+
+--- AGENDA ---
+{items_text}
+--- END ---
+
+Based solely on this agenda, produce a JSON object with this exact structure and nothing else:
+
+{{
+  "overview": "2-3 sentence factual summary of what this meeting covered and its significance for the Wausau School District",
+  "committee": "the meeting type (e.g. Regular Meeting, Committee of the Whole, Special Meeting)",
+  "agenda": [
+    {{"time": "0:00", "item": "agenda item description"}}
+  ],
+  "discussions": [
+    {{"item": "agenda item title", "body": "2-3 sentence description of what this item involved, based on the description text"}}
+  ],
+  "publicComment": "description of public comment if the agenda includes one, or 'No public comment period was included on this agenda.'",
+  "actionItems": ["action item 1", "action item 2"]
+}}
+
+Rules:
+- agenda: include ALL roman-numeral top-level items. Use estimated timestamps starting at 0:00 (2-5 min per item).
+- discussions: only include items with substantive descriptions. Skip procedural items like Call to Order, Roll Call, Pledge.
+- actionItems: items marked "(Action Requested)" plus motions implied by the agenda.
+- Return ONLY the JSON. No markdown, no explanation.
+"""
+
+    msg = client.messages.create(
+        model=CLAUDE_MODEL, max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    raw = msg.content[0].text.strip()
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return {"overview": raw, "agenda": [], "discussions": [],
+                "publicComment": "", "actionItems": [], "committee": ""}
+
+
+def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
+    """
+    Process a single BoardBook meeting: scrape agenda, summarize with Claude,
+    save outputs. Returns True if newly processed.
+    """
+    meeting_id = bb_meeting["meeting_id"]
+    video_id   = f"bb_{meeting_id}"   # synthetic ID for BoardBook-only meetings
+
+    if video_id in state.get("processed", {}):
+        return False
+
+    title = f"{bb_meeting['name']} - {bb_meeting['date']}"
+    print(f"  📋  Scraping BoardBook agenda for: {title}")
+
+    agenda = scrape_boardbook_agenda(meeting_id)
+
+    print(f"  🤖  Summarizing {len(agenda['items'])} agenda items...")
+    summary = summarize_from_boardbook(agenda, title)
+
+    doc_url = bb_meeting["agenda_url"]
+    path = save_summary(title, f"https://www.youtube.com/@wausauschoolboard",
+                        "school_board", summary, doc_url=doc_url)
+
+    mark_processed(state, video_id, title, "school_board", path, doc_url=doc_url)
+    print(f"  ✅  Saved: {path}")
+    return True
+
+
+def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
+    """
+    Check BoardBook for any new school board meetings not yet processed.
+    Returns count of newly processed meetings.
+    """
+    print("📡  Checking BoardBook for new Wausau School Board meetings...")
+    meetings = scrape_boardbook_org_page()
+    count = 0
+
+    for m in meetings[:20]:   # check 20 most recent
+        video_id = f"bb_{m['meeting_id']}"
+        if video_id in state.get("processed", {}):
+            continue
+        print(f"  🆕  New meeting: {m['name']} on {m['date']}")
+        if not dry_run:
+            if process_school_board_meeting(m, state):
+                count += 1
+    return count
+
+
+# ── CLI ───────────────────────────────────────────────────────────────────────
+
+def main():
+    parser = argparse.ArgumentParser(description="Central WI Meeting Summarizer")
+    group  = parser.add_mutually_exclusive_group()
+    group.add_argument("--url",      metavar="URL",  help="Process a single video URL")
+    group.add_argument("--backfill", action="store_true", help="Process all historical videos")
+    parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","all"], default="all",
+                        help="Which channel(s) to process (default: both)")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without processing")
+    args = parser.parse_args()
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("❌  ANTHROPIC_API_KEY not set.")
+        sys.exit(1)
+
+    state      = load_state()
+    # Include school_board in "all" runs
+    all_sources = list(CHANNELS.keys()) + ["school_board"]
+    sources     = all_sources if args.source == "all" else [args.source]
+
+    # ── Single URL ────────────────────────────────────────────────────────────
+    if args.url:
+        url      = args.url
+        vid_id_m = re.search(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})", url)
+        if not vid_id_m:
+            print(f"❌  Could not parse video ID from: {url}"); sys.exit(1)
+        vid_id = vid_id_m.group(1)
+
+        if vid_id in state["processed"] and not args.dry_run:
+            info = state["processed"][vid_id]
+            print(f"ℹ️  Already processed: {info['title']}\n   {info['summary_file']}")
+            return
+
+        # Detect source from URL or default marathon
+        source_key = "wausau" if "CityofWausau" in url else "marathon"
+        # Try to get title + doc_url from channel listing
+        videos = fetch_channel_videos(source_key)
+        match  = next((v for v in videos if v["id"] == vid_id), None)
+        if match:
+            video = match
+        else:
+            video = {"id": vid_id, "title": f"Meeting {vid_id}", "url": url,
+                     "source": source_key, "doc_url": None}
+
+        if args.dry_run:
+            print(f"[DRY RUN] Would process: {video['title']}"); return
+
+        path = process_video(video)
+        if path:
+            mark_processed(state, vid_id, video["title"], source_key, path, video.get("doc_url"))
+            save_state(state)
+        return
+
+    # ── Channel mode ──────────────────────────────────────────────────────────
+    all_pending = []
+    for src in sources:
+        videos  = fetch_channel_videos(src)
+        if args.backfill:
+            pending = [v for v in videos if v["id"] not in state["processed"]]
+        else:
+            # New only: walk newest-first, stop at first known video
+            pending = []
+            for v in videos:
+                if v["id"] in state["processed"]:
+                    break
+                pending.append(v)
+        all_pending.extend(pending)
+
+    if not all_pending:
+        print("✅  No new meetings to process."); return
+
+    print(f"\n📋  {len(all_pending)} meeting(s) to process:")
+    for v in all_pending:
+        ch = CHANNELS[v["source"]]
+        print(f"   [{ch['label']}] {v['title']}")
+
+    if args.dry_run:
+        print("\n[DRY RUN] No files written."); return
+
+    ok = 0
+    for v in all_pending:
+        path = process_video(v)
+        if path:
+            mark_processed(state, v["id"], v["title"], v["source"], path, v.get("doc_url"))
+            save_state(state)
+            ok += 1
+
+    print(f"\n{'='*60}")
+    print(f"✅  Done. {ok}/{len(all_pending)} processed.")
+    print(f"   Summaries: {SUMMARIES_DIR.resolve()}")
+    print(f"   State:     {STATE_FILE.resolve()}")
+
+if __name__ == "__main__":
+    main()
