@@ -35,67 +35,68 @@ MAX_MEETINGS = 30
 # ── Committee → source mapping ────────────────────────────────────────────────
 
 COMMITTEE_MAP = {
-    # Marathon County
-    "executive committee":                    ("marathon", "Executive Committee"),
-    "public safety committee":                ("marathon", "Public Safety"),
-    "environmental resources committee":      ("marathon", "Environmental Resources"),
-    "health and human services committee":    ("marathon", "Health & Human Services"),
-    "health & human services committee":      ("marathon", "Health & Human Services"),
-    "infrastructure committee":               ("marathon", "Infrastructure"),
-    "hr, finance & property committee":       ("marathon", "HR, Finance & Property"),
-    "human resources, finance":               ("marathon", "HR, Finance & Property"),
-    "extension, education":                   ("marathon", "Extension & Economic Dev"),
-    "county board":                           ("marathon", "County Board"),
-    # City of Wausau
-    "public health & safety":                 ("wausau", "Public Health & Safety"),
-    "public health and safety":               ("wausau", "Public Health & Safety"),
-    "economic development":                   ("wausau", "Economic Development"),
-    "parks & recreation":                     ("wausau", "Parks & Recreation"),
-    "parks and recreation":                   ("wausau", "Parks & Recreation"),
-    "board of public works":                  ("wausau", "Board of Public Works"),
-    "common council":                         ("wausau", "City Council"),
-    "finance committee":                      ("wausau", "Finance"),
-    "infrastructure & facilities":            ("wausau", "Infrastructure"),
-    "plan commission":                        ("wausau", "Plan Commission"),
-    # Village of Weston
-    "board of trustees":                      ("weston", "Board of Trustees"),
-    "finance & human resources":              ("weston", "Finance & Human Resources"),
-    "finance and human resources":            ("weston", "Finance & Human Resources"),
-    "public works":                           ("weston", "Public Works"),
-    "community life":                         ("weston", "Community Life & Public Safety"),
-    "s.a.f.e.r":                              ("weston", "S.A.F.E.R. Board"),
-    "safer board":                            ("weston", "S.A.F.E.R. Board"),
-    "plan commission":                        ("weston", "Plan Commission"),
-    "parks & recreation":                     ("weston", "Parks & Recreation"),
-    "mountain bay":                           ("weston", "Mountain Bay Metro Police"),
+    # Marathon County — specific enough to avoid cross-source matches
+    "executive committee":                     ("marathon", "Executive Committee"),
+    "public safety committee":                 ("marathon", "Public Safety"),
+    "environmental resources committee":       ("marathon", "Environmental Resources"),
+    "health and human services committee":     ("marathon", "Health & Human Services"),
+    "health & human services committee":       ("marathon", "Health & Human Services"),
+    "infrastructure committee":                ("marathon", "Infrastructure"),
+    "hr, finance & property":                  ("marathon", "HR, Finance & Property"),
+    "human resources, finance & property":     ("marathon", "HR, Finance & Property"),
+    "extension, education & econ":             ("marathon", "Extension & Economic Dev"),
+    "county board":                            ("marathon", "County Board"),
+    # City of Wausau — use distinctive phrases only
+    "public health & safety":                  ("wausau", "Public Health & Safety"),
+    "public health and safety":                ("wausau", "Public Health & Safety"),
+    "board of public works":                   ("wausau", "Board of Public Works"),
+    "common council":                          ("wausau", "City Council"),
+    "infrastructure & facilities":             ("wausau", "Infrastructure & Facilities"),
+    "wausau water works":                      ("wausau", "Water Works"),
+    "wausau plan commission":                  ("wausau", "Plan Commission"),
+    "wausau finance committee":                ("wausau", "Finance"),
+    "wausau parks":                            ("wausau", "Parks & Recreation"),
+    "wausau economic development":             ("wausau", "Economic Development"),
+    # Village of Weston — use full distinctive phrases
+    "board of trustees":                       ("weston", "Board of Trustees"),
+    "finance and human resources committee":   ("weston", "Finance & Human Resources"),
+    "finance & human resources committee":     ("weston", "Finance & Human Resources"),
+    "public works committee":                  ("weston", "Public Works"),
+    "community life & public safety":          ("weston", "Community Life & Public Safety"),
+    "community life and public safety":        ("weston", "Community Life & Public Safety"),
+    "s.a.f.e.r":                               ("weston", "S.A.F.E.R. Board"),
+    "mountain bay metro":                      ("weston", "Mountain Bay Metro Police"),
     # Wausau School Board
-    "regular meeting":                        ("school_board", "Regular Meeting"),
-    "committee of the whole":                 ("school_board", "Committee of the Whole"),
-    "education":                              ("school_board", "Education & Operations"),
-    "special meeting":                        ("school_board", "Special Meeting"),
-    "audit of the bills":                     ("school_board", "Audit of the Bills"),
+    "committee of the whole":                  ("school_board", "Committee of the Whole"),
+    "audit of the bills":                      ("school_board", "Audit of the Bills"),
 }
 
 def infer_source_and_committee(title: str, source_key: str, committee_from_json: str) -> tuple[str, str]:
-    """Return (source, committee_display) from available metadata."""
+    """Return (source, committee_display) from available metadata.
+    source_key from processed_meetings.json is AUTHORITATIVE — never override it.
+    COMMITTEE_MAP is only used to clean up the display committee name.
+    """
     def normalize(s):
         return s.lower().replace(" and ", " & ").replace("  ", " ")
 
-    # If the JSON summary already has a good committee name, use it
+    # Use committee from JSON summary if available, cleaned up via map
     if committee_from_json and len(committee_from_json) > 3:
         lower = normalize(committee_from_json)
-        for key, val in COMMITTEE_MAP.items():
-            if key in lower:
-                return val
+        for key, (map_source, map_committee) in COMMITTEE_MAP.items():
+            if key in lower and map_source == source_key:
+                return (source_key, map_committee)
         return (source_key, committee_from_json)
 
-    # Fall back to title matching
+    # Fall back to title matching, respecting source_key
     lower = normalize(title)
-    for key, val in COMMITTEE_MAP.items():
-        if key in lower:
-            return val
+    for key, (map_source, map_committee) in COMMITTEE_MAP.items():
+        if key in lower and map_source == source_key:
+            return (source_key, map_committee)
 
-    return (source_key, re.sub(r'\s*-\s*\d+.*$', '', title).strip())
+    # Last resort: clean title
+    clean = re.sub(r'\s*-\s*\d+.*$', '', title).strip()
+    clean = re.sub(r'\s*-\s*20\d{2}-\d{2}-\d{2}$', '', clean).strip()
+    return (source_key, clean)
 
 
 # ── Date helpers ──────────────────────────────────────────────────────────────
