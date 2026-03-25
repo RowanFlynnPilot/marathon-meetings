@@ -684,7 +684,6 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
 
               </div>
             </div>
-            </div>
           );
         })()}
 
