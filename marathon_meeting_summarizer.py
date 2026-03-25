@@ -288,10 +288,12 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
+            "-f", "bestaudio/worstaudio/best",   # explicit format selection
             "--extract-audio",
             "--audio-format", "mp3",
-            "--audio-quality", "5",      # ~64kbps — enough for speech
-            "--max-filesize", "200m",    # skip extremely long videos
+            "--audio-quality", "5",
+            "--max-filesize", "200m",
+            "--no-playlist",
             "-o", audio_out + ".%(ext)s",
         ]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
