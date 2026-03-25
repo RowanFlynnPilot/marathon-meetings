@@ -326,13 +326,14 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
                 node_path = p
                 break
 
+        # Format 18 = 360p mp4 with audio - legacy format that doesn't need
+        # JS runtime decryption, always available on YouTube videos
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
-            "-f", "139/140/249/251",    # m4a/webm audio-only, smallest first
+            "-f", "18",
             "--no-playlist",
-            "--max-filesize", "200m",
-            "--js-runtimes", "node",    # use node.js for JS runtime
+            "--max-filesize", "300m",
             "-o", audio_out + ".%(ext)s",
         ]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
