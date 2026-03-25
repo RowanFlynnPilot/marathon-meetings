@@ -1187,7 +1187,13 @@ def main():
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
             # With dateafter, all returned videos are within the window
-            pending = [v for v in videos if v["id"] not in state["processed"]]
+            # Skip Marathon County full-board sessions (no captions, blocked PDFs)
+            MARATHON_BOARD_SKIP = ["board regular meeting", "board education meeting", "board meeting"]
+            pending = [
+                v for v in videos
+                if v["id"] not in state["processed"]
+                and not (src == "marathon" and any(k in v["title"].lower() for k in MARATHON_BOARD_SKIP))
+            ]
             print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
             for v in videos[:3]:
                 print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
