@@ -550,16 +550,18 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
 
           const actions = meeting.actionItems;
 
-          const ColHead = ({ children, dark }) => (
-            <div style={{
-              fontFamily: "'Bebas Neue', sans-serif",
-              fontSize: "13px", letterSpacing: "0.2em",
-              color: "#fff",
-              background: dark ? INK : src.accent,
-              padding: "12px 14px",
-              textAlign: "center",
-            }}>{children}</div>
-          );
+          const ColHead = ({ children, dark }) => {
+            return (
+              <div style={{
+                fontFamily: "'Bebas Neue', sans-serif",
+                fontSize: "13px", letterSpacing: "0.2em",
+                color: "#fff",
+                background: dark ? INK : src.accent,
+                padding: "12px 14px",
+                textAlign: "center",
+              }}>{children}</div>
+            );
+          };
 
           const DocChips = ({ docs }) => {
             if (!docs || !docs.length) return null;
