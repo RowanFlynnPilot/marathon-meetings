@@ -101,7 +101,8 @@ def fetch_channel_videos(source_key):
             desc   = d.get("description") or ""
             if not vid_id:
                 continue
-            doc_m  = re.search(ch["doc_pattern"], desc)
+            pattern = ch.get("doc_pattern")
+            doc_m   = re.search(pattern, desc) if pattern else None
             videos.append({
                 "id":      vid_id,
                 "title":   title,
