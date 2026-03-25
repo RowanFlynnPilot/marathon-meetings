@@ -82,13 +82,33 @@ def mark_processed(state, video_id, title, source, summary_path, doc_url=None):
 
 # ── Channel scraping ──────────────────────────────────────────────────────────
 
-def fetch_channel_videos(source_key):
+def fetch_channel_videos(source_key, dateafter: str = ""):
+    """
+    Fetch video list for a YouTube channel.
+    If dateafter is set (YYYYMMDD), uses full metadata fetch (slower but returns
+    real upload_date). Otherwise uses fast flat-playlist.
+    """
     ch = CHANNELS[source_key]
     print(f"📡  Fetching {ch['label']} video list...")
-    cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        raise RuntimeError(f"yt-dlp failed:\n{result.stderr}")
+
+    if dateafter:
+        # Full metadata fetch with date filter - returns accurate upload_date
+        cmd = [
+            "yt-dlp", "--no-check-certificate",
+            "--dump-json", "--skip-download",
+            "--dateafter", dateafter,
+            "--no-playlist",
+        ]
+        if COOKIES_FILE and os.path.exists(COOKIES_FILE):
+            cmd += ["--cookies", COOKIES_FILE]
+        cmd.append(ch["url"])
+    else:
+        # Fast flat-playlist for backfill (no date filtering needed)
+        cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
+
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    if result.returncode != 0 and not result.stdout.strip():
+        raise RuntimeError(f"yt-dlp failed:\n{result.stderr[-300:]}")
 
     videos = []
     for line in result.stdout.strip().splitlines():
@@ -103,7 +123,7 @@ def fetch_channel_videos(source_key):
                 continue
             pattern     = ch.get("doc_pattern")
             doc_m       = re.search(pattern, desc) if pattern else None
-            upload_date = d.get("upload_date") or ""  # "YYYYMMDD" from yt-dlp
+            upload_date = d.get("upload_date") or ""
             videos.append({
                 "id":          vid_id,
                 "title":       title,
@@ -170,13 +190,13 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             cmd += ["--cookies", COOKIES_FILE]
             print(f"     ℹ  Using cookies file: {COOKIES_FILE}")
         else:
-            print("     ⚠  No cookies file — add YOUTUBE_COOKIES secret for reliable CI transcripts")
+            print("     ⚠  No cookies file - add YOUTUBE_COOKIES secret for reliable CI transcripts")
         cmd.append(url)
 
         r = subprocess.run(cmd, capture_output=True, text=True)
         combined = (r.stdout + r.stderr).lower()
 
-        # Detect "no captions" cases — treat as skip, not error
+        # Detect "no captions" cases - treat as skip, not error
         no_caption_signals = [
             "only images are available",
             "no subtitles found",
@@ -185,11 +205,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             "there are no captions",
         ]
         if any(sig in combined for sig in no_caption_signals):
-            print("     ℹ  No captions — trying Whisper before giving up...")
+            print("     ℹ  No captions - trying Whisper before giving up...")
             whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
             if whisper_text:
                 return whisper_text
-            raise FileNotFoundError("No captions available and Whisper unavailable — skipping.")
+            raise FileNotFoundError("No captions available and Whisper unavailable - skipping.")
 
         if r.returncode == 0:
             vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
@@ -270,7 +290,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
     if source_key and source_key not in WHISPER_SOURCES:
         return None
     if WHISPER_CUTOFF and upload_date and upload_date < WHISPER_CUTOFF:
-        print(f"     ℹ  Skipping Whisper — video too old ({upload_date} < {WHISPER_CUTOFF})")
+        print(f"     ℹ  Skipping Whisper - video too old ({upload_date} < {WHISPER_CUTOFF})")
         return None
 
     print("     ℹ  Attempting Whisper audio transcription...")
@@ -278,7 +298,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
     try:
         import faster_whisper
     except ImportError:
-        print("     ⚠  faster-whisper not installed — skipping Whisper fallback")
+        print("     ⚠  faster-whisper not installed - skipping Whisper fallback")
         return None
 
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -325,7 +345,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
 
         audio_path = os.path.join(tmpdir, audio_files[0])
         size_mb = os.path.getsize(audio_path) / 1024 / 1024
-        print(f"     ℹ  Audio: {size_mb:.0f} MB — transcribing with Whisper ({WHISPER_MODEL})...")
+        print(f"     ℹ  Audio: {size_mb:.0f} MB - transcribing with Whisper ({WHISPER_MODEL})...")
 
         # Transcribe
         import time
@@ -345,7 +365,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         print(f"     ✓  Whisper transcribed {len(text):,} chars in {elapsed/60:.1f} min")
 
         if len(text) < 100:
-            print("     ⚠  Whisper output too short — likely empty audio")
+            print("     ⚠  Whisper output too short - likely empty audio")
             return None
 
         return text
@@ -475,7 +495,7 @@ Meeting title: {title}
 Organization: {ch['label']}
 YouTube link:  {url}
 
-Below is the auto-generated transcript. Produce a JSON object with this exact structure and nothing else — no markdown, no preamble, just valid JSON:
+Below is the auto-generated transcript. Produce a JSON object with this exact structure and nothing else - no markdown, no preamble, just valid JSON:
 
 {{
   "overview": "2-3 sentence factual summary of what the meeting covered and its significance",
@@ -579,7 +599,7 @@ def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None)
 def fetch_agenda_text_wausau(doc_url: str) -> str | None:
     """
     For Wausau CivicClerk videos, fetch the agenda text via the CivicClerk
-    published files API (blob URL method — no PDF parsing needed).
+    published files API (blob URL method - no PDF parsing needed).
     Returns plain text of the agenda, or None on failure.
     """
     import requests as _req
@@ -683,7 +703,7 @@ def fetch_agenda_text(source_key: str, doc_url: str | None, title: str,
     if source_key == "marathon":
         if description and len(description) > 20:
             stub = f"Meeting: {title}\nOrganization: Marathon County\n\n{description}"
-            print(f"     ℹ  Marathon County PDF blocked — using title + description ({len(stub)} chars)")
+            print(f"     ℹ  Marathon County PDF blocked - using title + description ({len(stub)} chars)")
             return stub
         print("     ⚠  Marathon County PDF blocked and no description available")
 
@@ -706,7 +726,7 @@ Organization: {ch['label']}
 Source: Agenda document (no video transcript available)
 YouTube: {url}
 
-Below is the text of the official meeting agenda. Produce a JSON object with this exact structure — no markdown, no preamble, just valid JSON:
+Below is the text of the official meeting agenda. Produce a JSON object with this exact structure - no markdown, no preamble, just valid JSON:
 
 {{
   "overview": "2-3 sentence factual summary of what this meeting was expected to cover and its significance. Note it is based on the agenda, not a transcript.",
@@ -723,7 +743,7 @@ Below is the text of the official meeting agenda. Produce a JSON object with thi
 }}
 
 Rules:
-- Base your response ONLY on what the agenda says — do not invent outcomes or votes
+- Base your response ONLY on what the agenda says - do not invent outcomes or votes
 - Include all substantive agenda items in both agenda[] and discussions[]
 - Skip purely procedural items (call to order, roll call, adjournment)
 - Return ONLY the JSON object
@@ -787,7 +807,7 @@ def process_video(video):
             print("  🤖  Summarizing from agenda document...")
             summary = summarize_from_agenda(agenda_text, title, source_key, url)
         else:
-            print("  ❌  No transcript or agenda available — skipping.")
+            print("  ❌  No transcript or agenda available - skipping.")
             return None
 
     # ── Post-summary enrichment (runs regardless of transcript vs agenda) ─────
@@ -840,7 +860,7 @@ def fetch_wausau_upcoming() -> list[dict]:
             if "CANCEL" in name.upper() or "POSSIBLE QUORUM" in name.upper():
                 continue
             raw = e.get("eventDate", "")
-            # Strip Z — times are local (not UTC)
+            # Strip Z - times are local (not UTC)
             dt_str = raw.replace("Z", "").replace("+00:00", "")
             date_part = dt_str[:10]
             if len(dt_str) > 10:
@@ -1150,27 +1170,16 @@ def main():
     for src in sources:
         if src == "school_board":
             continue   # handled separately below
-        videos = fetch_channel_videos(src)
+        # Pass cutoff_date as dateafter for accurate upload dates on recent fetches
+        videos = fetch_channel_videos(src, dateafter=cutoff_date if cutoff_date else "")
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
-            def video_date(v):
-                ud = v.get("upload_date", "")
-                if ud:
-                    return ud
-                # Try to parse date from title e.g. "Meeting - 3/19/26"
-                dm = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", v.get("title", ""))
-                if dm:
-                    mo, dy, yr = dm.group(1).zfill(2), dm.group(2).zfill(2), dm.group(3)
-                    yr = "20" + yr if len(yr) == 2 else yr
-                    return f"{yr}{mo}{dy}"
-                return "99999999"   # unknown date = include it
-
-            in_window = [v for v in videos if video_date(v) >= cutoff_date]
-            pending   = [v for v in in_window if v["id"] not in state["processed"]]
-            print(f"   {src}: {len(videos)} total, {len(in_window)} in window, {len(pending)} unprocessed")
-            for v in in_window[:3]:
-                print(f"     {video_date(v)} {v['id']} {v['title'][:60]}")
+            # With dateafter, all returned videos are within the window
+            pending = [v for v in videos if v["id"] not in state["processed"]]
+            print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
+            for v in videos[:3]:
+                print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
         else:
             pending = []
             for v in videos:
