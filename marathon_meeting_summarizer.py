@@ -130,24 +130,47 @@ def _vid_id_from_url(url: str) -> str | None:
 def fetch_transcript(url: str) -> str:
     """
     Fetch transcript for a YouTube video.
-    Tries youtube-transcript-api first (more reliable in CI environments),
+    Tries youtube-transcript-api first (supports both old and new API),
     falls back to yt-dlp VTT download if that fails.
     """
     vid_id = _vid_id_from_url(url)
 
-    # ── Method 1: youtube-transcript-api ──────────────────────────────────────
+    # ── Method 1: youtube-transcript-api (v0.6 and v0.7+ compatible) ──────────
     if vid_id:
         try:
             from youtube_transcript_api import YouTubeTranscriptApi
-            transcript = YouTubeTranscriptApi.get_transcript(vid_id, languages=["en", "en-US"])
-            text = " ".join(entry["text"].strip() for entry in transcript if entry.get("text"))
-            if len(text) > 200:
-                print(f"     ✓  Transcript fetched via youtube-transcript-api ({len(text)} chars)")
-                return text
+            entries = None
+
+            # Try new instance-based API (v0.7+)
+            try:
+                api = YouTubeTranscriptApi()
+                fetched = api.fetch(vid_id)
+                entries = list(fetched)
+            except Exception:
+                pass
+
+            # Try old class-method API (v0.6 and earlier)
+            if entries is None:
+                try:
+                    entries = list(YouTubeTranscriptApi.get_transcript(
+                        vid_id, languages=["en", "en-US", "en-GB"]
+                    ))
+                except Exception:
+                    pass
+
+            if entries:
+                text = " ".join(
+                    str(e.get("text", "") if isinstance(e, dict) else getattr(e, "text", "")).strip()
+                    for e in entries
+                )
+                if len(text) > 200:
+                    print(f"     ✓  Transcript via youtube-transcript-api ({len(text)} chars)")
+                    return text
+
         except Exception as e:
             print(f"     ⚠  youtube-transcript-api failed: {e} — trying yt-dlp...")
 
-    # ── Method 2: yt-dlp VTT ──────────────────────────────────────────────────
+    # ── Method 2: yt-dlp with po_token workaround ─────────────────────────────
     with tempfile.TemporaryDirectory() as tmpdir:
         out = os.path.join(tmpdir, "meeting")
         cmd = [
@@ -157,9 +180,10 @@ def fetch_transcript(url: str) -> str:
             "--skip-download",
             "--sub-format", "vtt",
             "--sub-lang", "en",
-            "--extractor-args", "youtube:player_client=web,mweb",
-            "--add-headers", "Accept-Language:en-US,en;q=0.9",
-            "--sleep-requests", "2",
+            "--extractor-args", "youtube:player_client=tv_embedded,web",
+            "--user-agent",
+            "Mozilla/5.0 (SMART-TV; Linux; Tizen 5.0) AppleWebKit/537.36 Chrome/56.0.2924.0",
+            "--sleep-requests", "1",
             "-o", out, url,
         ]
         r = subprocess.run(cmd, capture_output=True, text=True)
@@ -167,7 +191,7 @@ def fetch_transcript(url: str) -> str:
             raise RuntimeError(f"yt-dlp failed:\n{r.stderr}")
         vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
         if not vtt_files:
-            raise FileNotFoundError("No VTT file created — video may lack captions.")
+            raise FileNotFoundError("No VTT file — video may lack captions.")
         with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
             return _parse_vtt(f.read())
 
