@@ -176,16 +176,51 @@ WHISPER_CUTOFF = (
 def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> str:
     """
     Fetch transcript for a YouTube video.
-    Uses yt-dlp with browser cookies (via YT_COOKIES_FILE env var) to bypass
-    YouTube bot detection on cloud/CI IP ranges.
-    Falls back to youtube-transcript-api as a secondary attempt.
+    Method 1: youtube-transcript-api with cookie-injected session (fastest, most reliable)
+    Method 2: yt-dlp with cookies (fallback)
     """
     vid_id = _vid_id_from_url(url)
 
-    # -- Method 1: yt-dlp with cookies -----------------------------------------
-    # Cookies bypass YouTube bot detection on known CI IP ranges.
-    # Set the YOUTUBE_COOKIES secret in GitHub and the workflow writes it to
-    # /tmp/yt-cookies.txt which gets passed here via YT_COOKIES_FILE.
+    # -- Method 1: youtube-transcript-api with cookie session ------------------
+    # Injecting the YouTube cookies into a requests.Session bypasses IP blocks
+    # that affect cloud/CI environments, without needing yt-dlp or JS runtime.
+    if vid_id:
+        try:
+            import requests as _req
+            from http.cookiejar import MozillaCookieJar
+            from youtube_transcript_api import YouTubeTranscriptApi
+
+            session = _req.Session()
+            session.headers.update({
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/122.0.0.0 Safari/537.36",
+                "Accept-Language": "en-US,en;q=0.9",
+            })
+
+            if COOKIES_FILE and os.path.exists(COOKIES_FILE):
+                jar = MozillaCookieJar(COOKIES_FILE)
+                jar.load(ignore_discard=True, ignore_expires=True)
+                session.cookies = jar
+                print(f"     [fetch] Trying youtube-transcript-api with cookie session...")
+            else:
+                print(f"     [fetch] Trying youtube-transcript-api (no cookies)...")
+
+            api = YouTubeTranscriptApi(http_client=session)
+            result = api.fetch(vid_id, languages=["en", "en-US", "en-GB"])
+            entries = list(result)
+            text = " ".join(
+                getattr(s, "text", "").strip() for s in entries
+            ).strip()
+            if len(text) > 200:
+                print(f"     [ok]  Transcript via youtube-transcript-api ({len(text):,} chars)")
+                return text
+            else:
+                print(f"     [warn]  Transcript too short ({len(text)} chars) - trying yt-dlp...")
+        except Exception as e:
+            print(f"     [warn]  youtube-transcript-api: {str(e)[:120]} - trying yt-dlp...")
+
+    # -- Method 2: yt-dlp with cookies -----------------------------------------
     with tempfile.TemporaryDirectory() as tmpdir:
         out = os.path.join(tmpdir, "meeting")
         cmd = [
@@ -200,15 +235,14 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         ]
         if COOKIES_FILE and os.path.exists(COOKIES_FILE):
             cmd += ["--cookies", COOKIES_FILE]
-            print(f"       Using cookies file: {COOKIES_FILE}")
+            print(f"     [fetch] yt-dlp with cookies...")
         else:
-            print("       No cookies file - add YOUTUBE_COOKIES secret for reliable CI transcripts")
+            print("     [warn]  No cookies file - transcripts may fail on CI IPs")
         cmd.append(url)
 
         r = subprocess.run(cmd, capture_output=True, text=True)
         combined = (r.stdout + r.stderr).lower()
 
-        # Detect "no captions" cases - treat as skip, not error
         no_caption_signals = [
             "only images are available",
             "no subtitles found",
@@ -217,8 +251,9 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             "there are no captions",
         ]
         if any(sig in combined for sig in no_caption_signals):
-            print("       No captions - trying Whisper before giving up...")
-            whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
+            print("     [fetch] No captions - trying Whisper before giving up...")
+            whisper_text = fetch_transcript_whisper(url, source_key=source_key,
+                                                    upload_date=upload_date)
             if whisper_text:
                 return whisper_text
             raise FileNotFoundError("No captions available and Whisper unavailable - skipping.")
@@ -229,39 +264,14 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
                 with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
                     text = _parse_vtt(f.read())
                     if len(text) > 200:
-                        print(f"       Transcript via yt-dlp ({len(text)} chars)")
+                        print(f"     [ok]  Transcript via yt-dlp ({len(text):,} chars)")
                         return text
         else:
-            print(f"       yt-dlp failed: {r.stderr.strip()[-200:]}")
+            print(f"     [warn]  yt-dlp failed: {r.stderr.strip()[-150:]}")
 
-    # -- Method 2: youtube-transcript-api (works on some IPs / some videos) ----
-    if vid_id:
-        try:
-            from youtube_transcript_api import YouTubeTranscriptApi
-            entries = []
-            try:                       # v0.7+ instance API
-                ytt = YouTubeTranscriptApi()
-                entries = [{"text": getattr(s, "text", "")} for s in ytt.fetch(vid_id)]
-            except Exception:
-                try:                   # v0.6 class method
-                    entries = list(YouTubeTranscriptApi.get_transcript(vid_id, languages=["en","en-US"]))
-                except Exception:
-                    pass
-            if entries:
-                text = " ".join(
-                    (e.get("text","") if isinstance(e, dict) else str(e)).strip()
-                    for e in entries
-                ).strip()
-                if len(text) > 200:
-                    print(f"       Transcript via youtube-transcript-api ({len(text)} chars)")
-                    return text
-        except Exception as e:
-            print(f"       youtube-transcript-api: {e}")
-
-    # If we get here, either auth failed or truly no captions exist.
-    # Raise FileNotFoundError so process_video skips cleanly rather than erroring.
-    # -- Method 3: Whisper audio transcription --------------------------------
-    whisper_text = fetch_transcript_whisper(url, source_key=source_key, upload_date=upload_date)
+    # -- Method 3: Whisper audio transcription ---------------------------------
+    whisper_text = fetch_transcript_whisper(url, source_key=source_key,
+                                            upload_date=upload_date)
     if whisper_text:
         return whisper_text
 
@@ -506,27 +516,35 @@ Meeting title: {title}
 Organization: {ch['label']}
 YouTube link:  {url}
 
-Below is the auto-generated transcript. Produce a JSON object with this exact structure and nothing else - no markdown, no preamble, just valid JSON:
+Below is the auto-generated transcript of the ACTUAL meeting recording. Your job is to report what ACTUALLY HAPPENED - votes taken, decisions made, who said what, outcomes, not just what was planned.
+
+Produce a JSON object with this exact structure and nothing else - no markdown, no preamble, just valid JSON:
 
 {{
-  "overview": "2-3 sentence factual summary of what the meeting covered and its significance",
-  "committee": "exact committee or board name (e.g. Executive Committee, Board of Trustees, Public Health & Safety Committee)",
+  "overview": "2-3 sentence summary of what actually happened at this meeting and its significance to residents - include key decisions or votes if any",
+  "committee": "exact committee or board name",
   "presiding": "name and title of person who chaired the meeting if mentioned",
   "agenda": [
     {{"time": "0:00", "item": "agenda item description"}}
   ],
   "discussions": [
-    {{"item": "agenda item title", "body": "2-4 sentence detailed description of what was discussed, who spoke, outcomes"}}
+    {{
+      "item": "agenda item title",
+      "body": "2-4 sentences describing what ACTUALLY occurred: who spoke, what positions they took, how votes went, what was approved or rejected, any notable debate or public input. Be specific - name names, cite vote counts, quote key statements if clear in the transcript."
+    }}
   ],
-  "publicComment": "description of public comment if any, or 'No public comment was offered.'",
-  "actionItems": ["action item 1", "action item 2"]
+  "publicComment": "Describe actual public comment offered - who spoke, what they said, how many speakers. Or 'No public comment was offered.'",
+  "actionItems": ["specific decisions made or next steps directed by the committee"]
 }}
 
 Rules:
-- agenda items: extract timestamps from the transcript where possible (format: "M:SS" or "H:MM:SS"). Include 5-10 key items.
-- discussions: one entry per substantive agenda item. Body should be 2-4 detailed sentences.
-- Be factual, neutral, accessible. Note unclear audio rather than guessing.
-- Return ONLY the JSON object. No markdown fences, no explanation.
+- This is a transcript of a REAL meeting. Report outcomes, not plans.
+- agenda: extract timestamps from transcript (format: "M:SS" or "H:MM:SS"). Include 5-10 items.
+- discussions: focus on WHAT WAS DECIDED or DEBATED, not just what the topic was.
+- Include vote results where mentioned (e.g. "Approved 5-2", "Passed unanimously").
+- Name specific people who spoke or voted when identifiable from transcript.
+- Note unclear audio as [inaudible] rather than guessing.
+- Return ONLY the JSON object.
 
 --- TRANSCRIPT ---
 {transcript[:MAX_TRANSCRIPT_CHARS]}
