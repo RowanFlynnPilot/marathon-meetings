@@ -148,7 +148,9 @@ def fmt_short_date(dt: datetime) -> str:
 
 def _esc(s: str) -> str:
     """Escape a string for inclusion in a JSX attribute value."""
-    return (s or "")               \
+    import re as _re
+    s = _re.sub(r'<[^>]+>', '', s or "")   # strip any HTML tags from CivicClerk
+    return s                               \
         .replace("\\", "\\\\")    \
         .replace('"',  '\\"')     \
         .replace("\n", " ")       \
