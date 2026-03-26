@@ -548,7 +548,7 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
             {meeting.agenda.map((entry, i) => {
               const toSec = t => { const p = t.split(":").map(Number); return p.length === 3 ? p[0]*3600+p[1]*60+p[2] : p[0]*60+p[1]; };
               const vid = meeting.url.match(/(?:youtu\.be\/|v=)([A-Za-z0-9_-]{11})/)?.[1];
-              const hasTimestamp = entry.time && entry.time !== "N/A" && entry.time !== "0:00" && vid;
+              const hasTimestamp = entry.time && entry.time !== "N/A" && vid;
               const ytUrl = hasTimestamp ? `https://www.youtube.com/watch?v=${vid}&t=${toSec(entry.time)}s` : null;
               return (
                 <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: "14px", padding: "11px 0", borderBottom: `1px solid ${RULE}` }}>
