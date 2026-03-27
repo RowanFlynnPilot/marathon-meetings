@@ -149,7 +149,9 @@ def fmt_short_date(dt: datetime) -> str:
 def _esc(s: str) -> str:
     """Escape a string for inclusion in a JSX attribute value."""
     import re as _re
-    s = _re.sub(r'<[^>]+>', '', s or "")   # strip any HTML tags from CivicClerk
+    s = _re.sub(r'<[^>]+>', '', s or "")    # strip HTML tags from CivicClerk
+    s = _re.sub(r'\[+[A-Z_]+\]+', '', s)   # strip [PLACEHOLDER] tokens from Claude
+    s = s.strip()
     return s                               \
         .replace("\\", "\\\\")    \
         .replace('"',  '\\"')     \
@@ -353,9 +355,37 @@ def main():
     if orphan_stubs:
         print(f"   Orphan stubs (no processed entry): {orphan_stubs}")
 
+    from datetime import date as _date
+    today = _date.today()
+
+    def _is_future(info):
+        """Return True if this meeting is scheduled in the future."""
+        title = info.get("title", "")
+        import re as _re
+        # ISO format: 2026-04-13
+        m = _re.search(r"(20\d{2})-(\d{2})-(\d{2})", title)
+        if m:
+            try:
+                d = _date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+                return d > today
+            except Exception:
+                pass
+        # US format: 4/13/26
+        m = _re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", title)
+        if m:
+            try:
+                mo, dy, yr = int(m.group(1)), int(m.group(2)), int(m.group(3))
+                yr = 2000 + yr if yr < 100 else yr
+                d = _date(yr, mo, dy)
+                return d > today
+            except Exception:
+                pass
+        return False
+
     pending = {
         vid: info for vid, info in processed.items()
-        if vid not in injected or vid in stub_ids
+        if (vid not in injected or vid in stub_ids)
+        and not _is_future(info)
     }
 
     if not pending and not stub_ids:
