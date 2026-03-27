@@ -533,6 +533,42 @@ def main():
             new_jsx, count=1
         )
 
+    # Prune future-dated entries from MEETINGS array
+    from datetime import date as _date2
+    _today = _date2.today()
+    import re as _re2
+
+    def _entry_is_future(block: str) -> bool:
+        """Check if a MEETINGS entry block has a future date."""
+        m = _re2.search(r'date:\s*"([^"]+)"', block)
+        if not m:
+            return False
+        date_str = m.group(1)
+        # "April 13, 2026" format
+        try:
+            import datetime
+            d = datetime.datetime.strptime(date_str, "%B %d, %Y").date()
+            return d > _today
+        except Exception:
+            pass
+        # "March 24, 2026" etc already handled above
+        return False
+
+    # Split MEETINGS array into individual entry blocks and filter
+    meetings_pattern = r'(const MEETINGS = \[\n)(.*?)(\n\];)'
+    meetings_m = _re2.search(meetings_pattern, new_jsx, _re2.DOTALL)
+    if meetings_m:
+        prefix   = meetings_m.group(1)
+        body     = meetings_m.group(2)
+        suffix   = meetings_m.group(3)
+        # Split on entry boundaries
+        entries  = _re2.split(r'(?=  \{\n    id:)', body)
+        filtered = [e for e in entries if e.strip() and not _entry_is_future(e)]
+        removed  = len(entries) - len(filtered)
+        if removed > 0:
+            print(f"   [prune] Removed {removed} future-dated entry/entries from MEETINGS array")
+        new_jsx = prefix + "".join(filtered) + suffix
+
     # Write back
     JSX_PATH.write_text(new_jsx, encoding="utf-8")
     print(f"\n💾  Wrote {len(new_entries)} new meeting(s) to {JSX_PATH}")
