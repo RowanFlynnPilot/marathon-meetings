@@ -775,6 +775,7 @@ Rules:
 - Base your response ONLY on what the agenda says - do not invent outcomes or votes
 - Include all substantive agenda items in both agenda[] and discussions[]
 - Skip purely procedural items (call to order, roll call, adjournment)
+- NEVER use placeholder text like [AGENDA_ITEM_NAME], [TBD], [INSERT], etc.
 - Return ONLY the JSON object
 
 --- AGENDA ---
@@ -1112,17 +1113,33 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
 def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
     """
     Check BoardBook for any new school board meetings not yet processed.
+    Only processes meetings that have already occurred (date <= today).
     Returns count of newly processed meetings.
     """
+    from datetime import date as _date
+    today = _date.today()
+
     print("[fetch]  Checking BoardBook for new Wausau School Board meetings...")
     meetings = scrape_boardbook_org_page()
     count = 0
 
     for m in meetings[:20]:   # check 20 most recent
+        # Skip future meetings - they belong in Upcoming, not Recent
+        meeting_date_str = m.get("date", "")
+        try:
+            # BoardBook dates come as "YYYY-MM-DD"
+            parts = meeting_date_str.split("-")
+            meeting_date = _date(int(parts[0]), int(parts[1]), int(parts[2]))
+            if meeting_date > today:
+                print(f"  [skip] Future meeting skipped: {m['name']} on {meeting_date_str}")
+                continue
+        except Exception:
+            pass  # if we can't parse the date, proceed anyway
+
         video_id = f"bb_{m['meeting_id']}"
         if video_id in state.get("processed", {}):
             continue
-        print(f"  [new]  New meeting: {m['name']} on {m['date']}")
+        print(f"  [new]  New meeting: {m['name']} on {meeting_date_str}")
         if not dry_run:
             if process_school_board_meeting(m, state):
                 count += 1
