@@ -488,92 +488,83 @@ def main():
         return
 
     # ── Inject into JSX ───────────────────────────────────────────────────────
-    # Remove existing stub entries for IDs we are about to inject
-    # (avoids duplicates when updating stubs with full data)
+    # SAFETY: Extract the MEETINGS block, do all modifications WITHIN it,
+    # then splice it back. This prevents regexes from matching across
+    # the MEETINGS boundary into COMMITTEE_STYLES or component code.
+
     new_jsx = jsx
-    for vid in newly_injected:
-        new_jsx = re.sub(
-            rf'  \{{[\s\S]{{0,50}}?id:\s*"{re.escape(vid)}"[\s\S]*?\n  \}},?\n',
-            '', new_jsx, count=1
-        )
-
-    # Prepend new full entries at top of MEETINGS array
-    new_entries_str = ",\n".join(new_entries)
-    pattern = r'(const MEETINGS = \[\n)(  // ──|  \{|\];)'
-    def replacer(m):
-        sep = "," if m.group(2) != "];\n" and m.group(2) != "];" else ""
-        return m.group(1) + new_entries_str + ",\n" + m.group(2)
-
-    new_jsx, n_subs = re.subn(pattern, replacer, new_jsx, count=1)
-
-    if n_subs == 0:
-        print("❌  Could not find MEETINGS array insertion point in JSX.")
+    meetings_m = re.search(r'(const MEETINGS = \[\n)(.*?)(\n\];)', new_jsx, re.DOTALL)
+    if not meetings_m:
+        print("❌  Could not find MEETINGS array in JSX.")
         print("    Looking for: const MEETINGS = [")
         sys.exit(1)
 
+    before_meetings = new_jsx[:meetings_m.start()]
+    after_meetings  = new_jsx[meetings_m.end():]
+    meetings_body   = meetings_m.group(2)   # just the entries, no wrapper
+
+    # Remove existing stub entries for IDs we are about to inject
+    for vid in newly_injected:
+        meetings_body = re.sub(
+            rf'  \{{[\s\S]{{0,50}}?id:\s*"{re.escape(vid)}"[\s\S]*?\n  \}},?\n',
+            '', meetings_body, count=1
+        )
+
+    # Prepend new full entries at top
+    new_entries_str = ",\n".join(new_entries)
+    if meetings_body.strip():
+        meetings_body = new_entries_str + ",\n" + meetings_body
+    else:
+        meetings_body = new_entries_str + "\n"
+
+    # Count entries within the MEETINGS block only
+    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', meetings_body)
+
     # ── Prune old entries (keep MAX_MEETINGS) ─────────────────────────────────
-    # Count entries and remove oldest if over limit
-    # Scope to MEETINGS array only — don't match id: in component code
-    meetings_m_for_ids = re.search(r'const MEETINGS = \[\n(.*?)\n\];', new_jsx, re.DOTALL)
-    meetings_block = meetings_m_for_ids.group(1) if meetings_m_for_ids else ""
-    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', meetings_block)
     if len(all_ids) > MAX_MEETINGS:
         to_remove = all_ids[MAX_MEETINGS:]
         for old_id in to_remove:
-            # Remove that meeting's object literal from the array
-            new_jsx = re.sub(
+            meetings_body = re.sub(
                 rf'  \{{[\s\S]*?id:\s*"{re.escape(old_id)}"[\s\S]*?\n  \}},?\n',
-                '', new_jsx, count=1
+                '', meetings_body, count=1
             )
         print(f"   🧹  Pruned {len(to_remove)} old meeting(s) (kept {MAX_MEETINGS})")
 
     # ── Remove "new" badge from older entries ─────────────────────────────────
-    # Only the entries we just injected keep badge:"new"
-    # All others get badge:null
     for old_id in (set(all_ids) - newly_injected):
-        new_jsx = re.sub(
+        meetings_body = re.sub(
             rf'(id:\s*"{re.escape(old_id)}"[\s\S]{{0,200}}?)badge:\s*"new"',
             r'\1badge: null',
-            new_jsx, count=1
+            meetings_body, count=1
         )
 
-    # Prune future-dated entries from MEETINGS array
+    # ── Prune future-dated entries ────────────────────────────────────────────
     from datetime import date as _date2
     _today = _date2.today()
-    import re as _re2
 
     def _entry_is_future(block: str) -> bool:
         """Check if a MEETINGS entry block has a future date."""
-        m = _re2.search(r'date:\s*"([^"]+)"', block)
+        m = re.search(r'date:\s*"([^"]+)"', block)
         if not m:
             return False
         date_str = m.group(1)
-        # "April 13, 2026" format
         try:
             import datetime
             d = datetime.datetime.strptime(date_str, "%B %d, %Y").date()
             return d > _today
         except Exception:
             pass
-        # "March 24, 2026" etc already handled above
         return False
 
-    # Split MEETINGS array into individual entry blocks and filter
-    meetings_pattern = r'(const MEETINGS = \[\n)(.*?)(\n\];)'
-    meetings_m = _re2.search(meetings_pattern, new_jsx, _re2.DOTALL)
-    if meetings_m:
-        prefix   = meetings_m.group(1)
-        body     = meetings_m.group(2)
-        suffix   = meetings_m.group(3)
-        # Split on entry boundaries
-        entries  = _re2.split(r'(?=  \{\n    id:)', body)
-        filtered = [e for e in entries if e.strip() and not _entry_is_future(e)]
-        removed  = len(entries) - len(filtered)
-        if removed > 0:
-            print(f"   [prune] Removed {removed} future-dated entry/entries from MEETINGS array")
-        # Replace only the MEETINGS array portion, preserving everything else in the file
-        start, end = meetings_m.span()
-        new_jsx = new_jsx[:start] + prefix + "".join(filtered) + suffix + new_jsx[end:]
+    entries  = re.split(r'(?=  \{\n    id:)', meetings_body)
+    filtered = [e for e in entries if e.strip() and not _entry_is_future(e)]
+    removed  = len(entries) - len(filtered)
+    if removed > 0:
+        print(f"   [prune] Removed {removed} future-dated entry/entries from MEETINGS array")
+    meetings_body = "".join(filtered)
+
+    # ── Reassemble the full file ──────────────────────────────────────────────
+    new_jsx = before_meetings + "const MEETINGS = [\n" + meetings_body + "\n];" + after_meetings
 
     # Write back
     JSX_PATH.write_text(new_jsx, encoding="utf-8")
