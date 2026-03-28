@@ -212,6 +212,7 @@ def build_meeting_jsx(
         civic_jsx = "\n    civicItems: " + build_civic_items_jsx(items) + ","
 
     is_bb = video_id.startswith("bb_")
+    is_agenda_only = is_bb or summary.get("_source") == "agenda"
     return f"""  {{
     id: "{video_id}", source: "{source}",
     title: "{_esc(title)}",
@@ -219,7 +220,7 @@ def build_meeting_jsx(
     committee: "{_esc(committee)}", duration: "{duration}",
     url: "{url}",
     docUrl: {doc_jsx},
-    isAgendaOnly: {"true" if is_bb else "false"},
+    isAgendaOnly: {"true" if is_agenda_only else "false"},
     badge: "new",
     overview: "{overview}",
     agenda: [
@@ -512,7 +513,7 @@ def main():
 
     # ── Prune old entries (keep MAX_MEETINGS) ─────────────────────────────────
     # Count entries and remove oldest if over limit
-    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]{11})"', new_jsx)
+    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', new_jsx)
     if len(all_ids) > MAX_MEETINGS:
         to_remove = all_ids[MAX_MEETINGS:]
         for old_id in to_remove:
@@ -567,7 +568,9 @@ def main():
         removed  = len(entries) - len(filtered)
         if removed > 0:
             print(f"   [prune] Removed {removed} future-dated entry/entries from MEETINGS array")
-        new_jsx = prefix + "".join(filtered) + suffix
+        # Replace only the MEETINGS array portion, preserving everything else in the file
+        start, end = meetings_m.span()
+        new_jsx = new_jsx[:start] + prefix + "".join(filtered) + suffix + new_jsx[end:]
 
     # Write back
     JSX_PATH.write_text(new_jsx, encoding="utf-8")
