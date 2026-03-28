@@ -77,7 +77,7 @@ jobs:
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
           USE_WHISPER_FALLBACK: "false"
           WHISPER_MODEL: "tiny"
-          WHISPER_SOURCES: "marathon"
+          WHISPER_SOURCES: "marathon,wausau,weston"
           WHISPER_DAYS: "14"
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
