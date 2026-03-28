@@ -513,7 +513,10 @@ def main():
 
     # ── Prune old entries (keep MAX_MEETINGS) ─────────────────────────────────
     # Count entries and remove oldest if over limit
-    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', new_jsx)
+    # Scope to MEETINGS array only — don't match id: in component code
+    meetings_m_for_ids = re.search(r'const MEETINGS = \[\n(.*?)\n\];', new_jsx, re.DOTALL)
+    meetings_block = meetings_m_for_ids.group(1) if meetings_m_for_ids else ""
+    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', meetings_block)
     if len(all_ids) > MAX_MEETINGS:
         to_remove = all_ids[MAX_MEETINGS:]
         for old_id in to_remove:
