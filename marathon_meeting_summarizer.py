@@ -163,8 +163,8 @@ def _vid_id_from_url(url: str) -> str | None:
 COOKIES_FILE    = os.environ.get("YT_COOKIES_FILE", "")
 USE_WHISPER_FALLBACK = os.environ.get("USE_WHISPER_FALLBACK", "true").lower() == "true"
 WHISPER_MODEL   = os.environ.get("WHISPER_MODEL", "tiny")
-# Comma-separated sources that use Whisper (default: marathon only)
-WHISPER_SOURCES = [s.strip() for s in os.environ.get("WHISPER_SOURCES", "marathon").split(",")]
+# Comma-separated sources that use Whisper (default: all video sources)
+WHISPER_SOURCES = [s.strip() for s in os.environ.get("WHISPER_SOURCES", "marathon,wausau,weston").split(",")]
 # Only run Whisper on videos uploaded within last N days (0 = no limit)
 _wd = int(os.environ.get("WHISPER_DAYS", "0"))
 WHISPER_CUTOFF = (
@@ -226,10 +226,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         cmd = [
             "yt-dlp",
             "--no-check-certificate",
-            "--write-auto-sub",
+            "--write-sub",           # try manual captions first
+            "--write-auto-sub",      # then auto-generated
             "--skip-download",
             "--sub-format", "vtt",
-            "--sub-lang", "en",
+            "--sub-lang", "en,en-US,en-orig",  # try multiple English variants
             "--sleep-requests", "1",
             "-o", out,
         ]
@@ -752,26 +753,28 @@ def summarize_from_agenda(agenda_text: str, title: str, source_key: str,
 
 Meeting title: {title}
 Organization: {ch['label']}
-Source: Agenda document (no video transcript available)
+Source: Agenda document only (no video recording or transcript available)
 YouTube: {url}
 
 Below is the text of the official meeting agenda. Produce a JSON object with this exact structure - no markdown, no preamble, just valid JSON:
 
 {{
-  "overview": "2-3 sentence factual summary of what this meeting was expected to cover and its significance. Note it is based on the agenda, not a transcript.",
+  "overview": "2-3 sentence factual summary starting with 'Based on the published agenda,' describing what this meeting was scheduled to address and its significance to the community.",
   "committee": "exact committee or board name",
   "presiding": "",
   "agenda": [
     {{"time": "N/A", "item": "agenda item description"}}
   ],
   "discussions": [
-    {{"item": "agenda item title", "body": "2-3 sentence description of what this item involves based on the agenda text"}}
+    {{"item": "agenda item title", "body": "2-3 sentence description of what this item involves. Use tentative language: 'was scheduled to discuss', 'was expected to consider', 'was set to review' - NOT past tense like 'discussed' or 'approved'."}}
   ],
   "publicComment": "Note whether public comment was on the agenda, or 'Not indicated on agenda.'",
-  "actionItems": ["action items listed or implied by agenda"]
+  "actionItems": ["expected action items based on agenda - use 'scheduled to vote on', 'expected to consider', etc."]
 }}
 
 Rules:
+- CRITICAL: This is an AGENDA, not a transcript. You do NOT know what actually happened. Use tentative/scheduled language throughout.
+- Do NOT say items were "approved", "discussed", or "decided" - say they were "scheduled for action", "set for discussion", etc.
 - Base your response ONLY on what the agenda says - do not invent outcomes or votes
 - Include all substantive agenda items in both agenda[] and discussions[]
 - Skip purely procedural items (call to order, roll call, adjournment)
@@ -797,6 +800,118 @@ Rules:
         return {"overview": raw, "agenda": [], "discussions": [],
                 "publicComment": "", "actionItems": [], "committee": "",
                 "_source": "agenda"}
+
+
+def _format_civic_votes_for_prompt(civic_data: dict) -> str:
+    """Format CivicClerk vote data into text for inclusion in a prompt."""
+    lines = []
+    for item in civic_data.get("items", []):
+        name = item.get("name", "").strip()
+        if not name:
+            continue
+        number = item.get("number", "")
+        prefix = f"{number}. " if number else ""
+        lines.append(f"\n{prefix}{name}")
+        for v in item.get("votes", []):
+            motion = v.get("motion", "Unknown motion")
+            passed = "PASSED" if v.get("passed") else "FAILED"
+            yes = v.get("yes", [])
+            no = v.get("no", [])
+            abstain = v.get("abstain", [])
+            initiator = v.get("initiator", "")
+            seconder = v.get("seconder", "")
+            vote_line = f"  Vote: {motion} — {passed}"
+            if yes or no:
+                vote_line += f" ({len(yes)}-{len(no)})"
+            if initiator:
+                vote_line += f" | Moved by {initiator}"
+            if seconder:
+                vote_line += f", seconded by {seconder}"
+            lines.append(vote_line)
+            if yes:
+                lines.append(f"    Yes: {', '.join(yes)}")
+            if no:
+                lines.append(f"    No: {', '.join(no)}")
+            if abstain:
+                lines.append(f"    Abstain: {', '.join(abstain)}")
+        for child in item.get("children", []):
+            cname = child.get("name", "").strip()
+            if cname:
+                lines.append(f"  - {cname}")
+                for cv in child.get("votes", []):
+                    cpassed = "PASSED" if cv.get("passed") else "FAILED"
+                    lines.append(f"    Vote: {cv.get('motion','')} — {cpassed}")
+    return "\n".join(lines)
+
+
+def summarize_from_agenda_with_votes(agenda_text: str, title: str,
+                                      source_key: str, url: str,
+                                      civic_data: dict) -> dict:
+    """
+    Summarize a meeting from its agenda document enriched with CivicClerk vote data.
+    This produces much richer summaries than agenda-only since we know actual outcomes.
+    """
+    client = anthropic.Anthropic()
+    ch = CHANNELS[source_key]
+    vote_text = _format_civic_votes_for_prompt(civic_data)
+
+    prompt = f"""You are a local government reporter covering the Wausau, Wisconsin area.
+
+Meeting title: {title}
+Organization: {ch['label']}
+Source: Agenda document + official vote records from CivicClerk
+YouTube: {url}
+
+Below is the meeting agenda AND the official vote/action records. The vote records show what ACTUALLY HAPPENED — motions made, who voted yes/no, and whether items passed or failed. Use this to report actual outcomes.
+
+Produce a JSON object with this exact structure - no markdown, no preamble, just valid JSON:
+
+{{
+  "overview": "2-3 sentence factual summary of actual outcomes. Report what was decided: items approved/denied, vote counts, key decisions. Start with the most significant action taken.",
+  "committee": "exact committee or board name",
+  "presiding": "",
+  "agenda": [
+    {{"time": "N/A", "item": "agenda item description"}}
+  ],
+  "discussions": [
+    {{"item": "agenda item title", "body": "2-3 sentences reporting the ACTUAL OUTCOME: was it approved or denied? What was the vote count? Who moved/seconded? Include specific names and numbers from the vote records."}}
+  ],
+  "publicComment": "Note whether public comment was on the agenda, or 'Not indicated on agenda.'",
+  "actionItems": ["specific decisions made and next steps based on actual vote outcomes"]
+}}
+
+Rules:
+- Use the VOTE RECORDS to report actual outcomes — this is real data, not speculation
+- Include vote counts (e.g. "Approved 7-0", "Failed 4-3") and names of movers/seconders
+- For items with no vote record, note they were on the agenda but outcome is not recorded
+- Include all substantive agenda items in both agenda[] and discussions[]
+- Skip purely procedural items (call to order, roll call, adjournment)
+- NEVER use placeholder text like [AGENDA_ITEM_NAME], [TBD], [INSERT], etc.
+- Return ONLY the JSON object
+
+--- AGENDA ---
+{agenda_text[:10000]}
+--- END AGENDA ---
+
+--- VOTE RECORDS ---
+{vote_text[:5000]}
+--- END VOTE RECORDS ---"""
+
+    msg = client.messages.create(
+        model=CLAUDE_MODEL, max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    raw = msg.content[0].text.strip()
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    try:
+        result = json.loads(raw)
+        result["_source"] = "agenda_with_votes"
+        return result
+    except json.JSONDecodeError:
+        return {"overview": raw, "agenda": [], "discussions": [],
+                "publicComment": "", "actionItems": [], "committee": "",
+                "_source": "agenda_with_votes"}
 
 
 # -- Core processing -----------------------------------------------------------
@@ -830,17 +945,7 @@ def process_video(video):
     except Exception as e:
         print(f"  [warn]  Transcript error: {e}")
 
-    # -- Agenda fallback -------------------------------------------------------
-    if summary is None:
-        agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
-        if agenda_text:
-            print("  [claude]  Summarizing from agenda document...")
-            summary = summarize_from_agenda(agenda_text, title, source_key, url)
-        else:
-            print("  [err]  No transcript or agenda available - skipping.")
-            return None
-
-    # -- Post-summary enrichment (runs regardless of transcript vs agenda) -----
+    # -- Pre-fetch enrichment data (before agenda fallback) --------------------
     # For Weston, scrape the agenda PDF URL from their website
     if source_key == "weston" and not doc_url:
         print("    Looking up Weston agenda document...")
@@ -855,6 +960,22 @@ def process_video(video):
         civic_data = fetch_civicclerk_data(doc_url)
         if civic_data:
             print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items with votes")
+
+    # -- Agenda fallback -------------------------------------------------------
+    if summary is None:
+        agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
+        if agenda_text:
+            # If we have CivicClerk vote data, enrich the agenda summary with it
+            if civic_data and civic_data.get("items"):
+                print("  [claude]  Summarizing from agenda + CivicClerk vote data...")
+                summary = summarize_from_agenda_with_votes(
+                    agenda_text, title, source_key, url, civic_data)
+            else:
+                print("  [claude]  Summarizing from agenda document...")
+                summary = summarize_from_agenda(agenda_text, title, source_key, url)
+        else:
+            print("  [err]  No transcript or agenda available - skipping.")
+            return None
 
     path = save_summary(title, url, source_key, summary, doc_url, civic_data)
     print(f"  [save]  Saved  {path}")
