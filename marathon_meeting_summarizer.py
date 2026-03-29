@@ -1407,5 +1407,50 @@ def main():
     print(f"   Summaries: {SUMMARIES_DIR.resolve()}")
     print(f"   State:     {STATE_FILE.resolve()}")
 
+    # ── Agenda-only report ────────────────────────────────────────────────────
+    # Scan summaries from this run and flag agenda-only meetings
+    agenda_only = []
+    transcript_based = []
+    for vid, info in state.get("processed", {}).items():
+        sf = info.get("summary_file", "")
+        json_path = sf.replace(".md", "_summary.json") if sf else ""
+        if json_path and Path(json_path).exists():
+            try:
+                s = json.loads(Path(json_path).read_text(encoding="utf-8"))
+                src = s.get("_source", "transcript")
+                entry = {"id": vid, "title": info["title"], "source": info["source"],
+                         "url": info.get("doc_url") or f"https://www.youtube.com/watch?v={vid}",
+                         "_source": src}
+                if src in ("agenda", "agenda_with_votes"):
+                    agenda_only.append(entry)
+                else:
+                    transcript_based.append(entry)
+            except Exception:
+                pass
+
+    if agenda_only:
+        print(f"\n{'='*60}")
+        print(f"⚠️  AGENDA-ONLY MEETINGS ({len(agenda_only)}):")
+        print(f"   These meetings lack transcripts — summaries are based on")
+        print(f"   agenda documents only. Paste a transcript to improve them.")
+        for m in agenda_only:
+            label = CHANNELS.get(m["source"], {}).get("label", m["source"])
+            vote_note = " (has vote data)" if m["_source"] == "agenda_with_votes" else ""
+            print(f"   [{label}] {m['title']}{vote_note}")
+            print(f"            {m['url']}")
+
+        # Write report file for CI to create GitHub Issue
+        report = {
+            "agenda_only": agenda_only,
+            "transcript_based": [{"id": m["id"], "title": m["title"], "source": m["source"]}
+                                  for m in transcript_based],
+            "total_processed": ok,
+        }
+        report_path = Path("./agenda_only_report.json")
+        report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
+        print(f"\n   Report saved: {report_path.resolve()}")
+    else:
+        print(f"\n✅  All {ok} meetings have transcripts — no agenda-only fallbacks.")
+
 if __name__ == "__main__":
     main()

@@ -123,3 +123,44 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Create agenda-only issue (if any)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f agenda_only_report.json ]; then
+            echo "No agenda-only report — skipping issue creation."
+            exit 0
+          fi
+          COUNT=$(python -c "import json; d=json.load(open('agenda_only_report.json')); print(len(d.get('agenda_only',[])))")
+          if [ "$COUNT" = "0" ]; then
+            echo "No agenda-only meetings — skipping issue creation."
+            exit 0
+          fi
+          BODY=$(python -c "
+          import json
+          d = json.load(open('agenda_only_report.json'))
+          lines = ['## Agenda-Only Meetings Need Transcripts\n']
+          lines.append(f'{len(d[\"agenda_only\"])} meeting(s) were summarized from agenda documents only.')
+          lines.append('These summaries show what was *scheduled*, not what *actually happened*.\n')
+          lines.append('**To fix:** Grab the transcript from the YouTube app and run:')
+          lines.append('\`\`\`')
+          lines.append('python inject_transcript.py --video-id VIDEO_ID --transcript transcript.txt')
+          lines.append('\`\`\`\n')
+          lines.append('| Meeting | Source | Status |')
+          lines.append('|---------|--------|--------|')
+          for m in d['agenda_only']:
+              vote = ' (has votes)' if m.get('_source') == 'agenda_with_votes' else ''
+              lines.append(f'| [{m[\"title\"]}]({m[\"url\"]}) | {m[\"source\"]} | Agenda only{vote} |')
+          if d.get('transcript_based'):
+              lines.append(f'\n---\n*{len(d[\"transcript_based\"])} other meeting(s) have full transcripts.*')
+          print('\n'.join(lines))
+          ")
+          gh issue create \
+            --title "📋 Agenda-only meetings need transcripts ($(date +%Y-%m-%d))" \
+            --body "$BODY" \
+            --label "transcript-needed" 2>/dev/null || \
+          gh issue create \
+            --title "📋 Agenda-only meetings need transcripts ($(date +%Y-%m-%d))" \
+            --body "$BODY"
