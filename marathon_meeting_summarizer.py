@@ -55,6 +55,8 @@ CLAUDE_MODEL        = "claude-opus-4-5"
 MAX_TRANSCRIPT_CHARS = 90_000
 SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
 STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
+# Only process meetings from this date onward (YYYYMMDD) — older meetings are excluded
+GLOBAL_DATE_CUTOFF  = os.environ.get("MEETING_CUTOFF_DATE", "20260317")
 
 
 # -- State ---------------------------------------------------------------------
@@ -1380,22 +1382,13 @@ def main():
         if args.backfill:
             pending = [v for v in videos if v["id"] not in state["processed"]]
         elif cutoff_date:
-            # Marathon County: only process videos uploaded from 2026-03-26 onward.
-            # Videos before this date either lack captions or are already manually injected.
-            MARATHON_CAPTION_START = "20260326"
-            if src == "marathon":
-                pending = [
-                    v for v in videos
-                    if v["id"] not in state["processed"]
-                    and v.get("upload_date", "99999999") >= MARATHON_CAPTION_START
-                ]
-                print(f"   {src}: {len(videos)} in window, {len(pending)} on or after {MARATHON_CAPTION_START}")
-            else:
-                pending = [
-                    v for v in videos
-                    if v["id"] not in state["processed"]
-                ]
-                print(f"   {src}: {len(videos)} in window, {len(pending)} unprocessed")
+            # Only process videos uploaded on or after the global cutoff date
+            pending = [
+                v for v in videos
+                if v["id"] not in state["processed"]
+                and v.get("upload_date", "99999999") >= GLOBAL_DATE_CUTOFF
+            ]
+            print(f"   {src}: {len(videos)} in window, {len(pending)} on or after {GLOBAL_DATE_CUTOFF}")
             for v in videos[:3]:
                 print(f"     {v.get('upload_date','?')} {v['id']} {v['title'][:60]}")
         else:
