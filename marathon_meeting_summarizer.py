@@ -470,14 +470,34 @@ def fetch_civicclerk_data(doc_url: str) -> dict | None:
 
 # -- Weston AgendaCenter doc scraping -----------------------------------------
 
+_weston_agenda_cache = None  # cache the page HTML for multiple lookups in one run
+
+def _fetch_weston_agenda_page() -> str:
+    """Fetch and cache the Weston AgendaCenter HTML."""
+    global _weston_agenda_cache
+    if _weston_agenda_cache is not None:
+        return _weston_agenda_cache
+    import requests
+    try:
+        r = requests.get(
+            "https://www.westonwi.gov/agendacenter",
+            headers={"User-Agent": "Mozilla/5.0"}, timeout=15
+        )
+        _weston_agenda_cache = r.text
+        return _weston_agenda_cache
+    except Exception as e:
+        print(f"   [warn]  Weston AgendaCenter fetch failed: {e}")
+        _weston_agenda_cache = ""
+        return ""
+
+
 def fetch_weston_doc_url(title: str) -> str | None:
     """
     Given a meeting title like 'Board of Trustees - 3/23/2026',
     scrape westonwi.gov/agendacenter to find the matching agenda PDF URL.
     Returns the full PDF URL or None.
     """
-    import requests, re
-    from datetime import datetime
+    import re
 
     # Parse date from title  e.g. "Board of Trustees - 3/23/2026"
     date_m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", title)
@@ -486,23 +506,41 @@ def fetch_weston_doc_url(title: str) -> str | None:
     mo, dy, yr = date_m.group(1).zfill(2), date_m.group(2).zfill(2), date_m.group(3)
     date_str = f"_{mo}{dy}{yr}"   # e.g. _03232026
 
-    try:
-        r = requests.get(
-            "https://www.westonwi.gov/agendacenter",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=10
-        )
-        # Find all agenda paths matching the date
-        matches = re.findall(
-            rf'/AgendaCenter/ViewFile/Agenda/({re.escape(date_str)}-\d+)',
-            r.text
-        )
-        if matches:
-            # Return the first unique one (usually the main board meeting)
-            unique = list(dict.fromkeys(matches))
-            return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
-    except Exception as e:
-        print(f"   [warn]  Weston doc scrape failed: {e}")
+    html = _fetch_weston_agenda_page()
+    if not html:
+        return None
+
+    # Find all agenda paths matching the date
+    matches = re.findall(
+        rf'/AgendaCenter/ViewFile/Agenda/({re.escape(date_str)}-\d+)',
+        html
+    )
+    if matches:
+        unique = list(dict.fromkeys(matches))
+        return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
     return None
+
+
+def fetch_weston_doc_url_by_date(date_str_mmddyyyy: str) -> str | None:
+    """
+    Given a date like '03232026', return the best agenda PDF URL for that date.
+    Multiple committees may meet on the same date; returns the URL with the
+    highest ID (typically the most recent/primary agenda posted for that date).
+    """
+    import re
+    html = _fetch_weston_agenda_page()
+    if not html:
+        return None
+    matches = re.findall(
+        rf'/AgendaCenter/ViewFile/Agenda/(_{re.escape(date_str_mmddyyyy)}-(\d+))',
+        html
+    )
+    if not matches:
+        return None
+    # Sort by ID (numeric) descending and return the highest
+    unique = list(dict.fromkeys(m[0] for m in matches))
+    unique.sort(key=lambda x: int(x.rsplit("-", 1)[1]), reverse=True)
+    return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
 
 
 # -- Summarization -------------------------------------------------------------

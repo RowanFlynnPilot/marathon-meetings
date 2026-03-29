@@ -563,6 +563,33 @@ def main():
             block = block.replace('badge: "new"', 'badge: null')
         final_blocks.append(block)
 
+    # ── Backfill missing Weston doc URLs ─────────────────────────────────────
+    try:
+        from marathon_meeting_summarizer import fetch_weston_doc_url_by_date
+        backfilled = 0
+        for i, block in enumerate(final_blocks):
+            if 'source: "weston"' in block and "docUrl: null" in block:
+                # Extract date from the entry  e.g. date: "March 23, 2026"
+                dm = re.search(r'date:\s*"([^"]+)"', block)
+                if dm:
+                    try:
+                        from datetime import datetime as _dt
+                        d = _dt.strptime(dm.group(1), "%B %d, %Y")
+                        mmddyyyy = d.strftime("%m%d%Y")
+                        url = fetch_weston_doc_url_by_date(mmddyyyy)
+                        if url:
+                            final_blocks[i] = block.replace(
+                                "docUrl: null",
+                                f'docUrl: "{url}"'
+                            )
+                            backfilled += 1
+                    except Exception:
+                        pass
+        if backfilled:
+            print(f"   📎  Backfilled {backfilled} Weston doc URL(s)")
+    except ImportError:
+        pass  # summarizer not available (shouldn't happen in CI)
+
     # ── Reassemble ───────────────────────────────────────────────────────────
     meetings_body = ",\n".join(final_blocks)
     new_jsx = before_meetings + "const MEETINGS = [\n" + meetings_body + "\n];" + after_meetings
