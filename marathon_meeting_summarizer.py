@@ -1284,6 +1284,18 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
     meetings = scrape_boardbook_org_page()
     count = 0
 
+    # Convert global cutoff (YYYYMMDD) to date for comparison
+    cutoff_date = None
+    if GLOBAL_DATE_CUTOFF:
+        try:
+            cutoff_date = _date(
+                int(GLOBAL_DATE_CUTOFF[:4]),
+                int(GLOBAL_DATE_CUTOFF[4:6]),
+                int(GLOBAL_DATE_CUTOFF[6:8])
+            )
+        except Exception:
+            pass
+
     for m in meetings[:20]:   # check 20 most recent
         # Skip future meetings - they belong in Upcoming, not Recent
         meeting_date_str = m.get("date", "")
@@ -1294,6 +1306,8 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
             if meeting_date > today:
                 print(f"  [skip] Future meeting skipped: {m['name']} on {meeting_date_str}")
                 continue
+            if cutoff_date and meeting_date < cutoff_date:
+                continue  # before global cutoff
         except Exception:
             pass  # if we can't parse the date, proceed anyway
 
