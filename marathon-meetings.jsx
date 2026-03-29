@@ -1657,15 +1657,27 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
           }}>{meeting.title}</h2>
 
           <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-            <a href={meeting.url} target="_blank" rel="noreferrer" style={{
-              display: "inline-flex", alignItems: "center", gap: "5px",
-              background: src.accent, color: "#fff",
-              fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
-              padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
-            }}
-            onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
-            onMouseLeave={e => e.currentTarget.style.opacity="1"}
-            >{meeting.isAgendaOnly ? "> VIEW AGENDA" : "> WATCH ON YOUTUBE"}</a>
+            {meeting.url.includes("youtube.com") || meeting.url.includes("youtu.be") ? (
+              <a href={meeting.url} target="_blank" rel="noreferrer" style={{
+                display: "inline-flex", alignItems: "center", gap: "5px",
+                background: src.accent, color: "#fff",
+                fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
+                padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
+              }}
+              onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
+              onMouseLeave={e => e.currentTarget.style.opacity="1"}
+              > WATCH ON YOUTUBE</a>
+            ) : (
+              <a href={meeting.url} target="_blank" rel="noreferrer" style={{
+                display: "inline-flex", alignItems: "center", gap: "5px",
+                background: src.accent, color: "#fff",
+                fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
+                padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
+              }}
+              onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
+              onMouseLeave={e => e.currentTarget.style.opacity="1"}
+              > VIEW AGENDA</a>
+            )}
             {meeting.docUrl && (
               <a href={meeting.docUrl} target="_blank" rel="noreferrer" style={{
                 display: "inline-flex", alignItems: "center", gap: "5px",
