@@ -77,22 +77,6 @@ jobs:
           REPROCESS_IDS: ${{ github.event.inputs.reprocess }}
         run: python reprocess.py
 
-      - name: Inject transcript (if provided)
-        if: github.event.inputs.inject_transcript != ''
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          VID="${{ github.event.inputs.inject_transcript }}"
-          TFILE="transcripts/${VID}.txt"
-          if [ -f "$TFILE" ]; then
-            echo "Found transcript: $TFILE ($(wc -c < "$TFILE") bytes)"
-            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" --jsx marathon-meetings.jsx
-          else
-            echo "ERROR: No transcript file at $TFILE"
-            echo "Upload the transcript to transcripts/${VID}.txt first."
-            exit 1
-          fi
-
       - name: Run meeting summarizer
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -109,6 +93,23 @@ jobs:
           else
             python marathon_meeting_summarizer.py --days 14
           fi
+
+      - name: Override agenda-only meetings with transcripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Process ALL transcript files in transcripts/ directory
+          # This runs AFTER the summarizer so transcript versions always win
+          if [ ! -d transcripts ] || [ -z "$(ls transcripts/*.txt 2>/dev/null)" ]; then
+            echo "No transcript files found — skipping."
+            exit 0
+          fi
+          for TFILE in transcripts/*.txt; do
+            VID=$(basename "$TFILE" .txt)
+            echo "Processing transcript for: $VID"
+            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" --jsx marathon-meetings.jsx
+            echo ""
+          done
 
       - name: Inject meeting summaries into JSX
         run: |
