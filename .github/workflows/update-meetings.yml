@@ -17,6 +17,10 @@ on:
         description: 'Comma-separated video IDs to force reprocess'
         required: false
         default: ''
+      inject_transcript:
+        description: 'Video ID to inject transcript for (file must be in transcripts/VIDEO_ID.txt)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -71,6 +75,23 @@ jobs:
         env:
           REPROCESS_IDS: ${{ github.event.inputs.reprocess }}
         run: python reprocess.py
+
+      - name: Inject transcript (if provided)
+        if: github.event.inputs.inject_transcript != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          VID="${{ github.event.inputs.inject_transcript }}"
+          TFILE="transcripts/${VID}.txt"
+          if [ -f "$TFILE" ]; then
+            echo "Found transcript: $TFILE ($(wc -c < "$TFILE") bytes)"
+            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" --jsx marathon-meetings.jsx
+          else
+            echo "ERROR: No transcript file at $TFILE"
+            echo "Upload the transcript to transcripts/${VID}.txt first."
+            exit 1
+          fi
+
       - name: Run meeting summarizer
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
