@@ -57,6 +57,12 @@ SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
 STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
 # Only process meetings from this date onward (YYYYMMDD) — older meetings are excluded
 GLOBAL_DATE_CUTOFF  = os.environ.get("MEETING_CUTOFF_DATE", "20260317")
+# Video IDs to skip — duplicate parts that have been merged into a single entry
+SKIP_VIDEO_IDS = {
+    "eIjwnwe6aBE",  # Education Meeting Pt.2 (merged into hNOP07iJjNY)
+    "4IiT1PAaCHA",  # Education Meeting Pt.3 (merged into hNOP07iJjNY)
+    "PkJesaGLD0Q",  # Executive Committee Pt.2 (merged into 47UbKS2Jqo4)
+}
 
 
 # -- State ---------------------------------------------------------------------
@@ -1400,6 +1406,7 @@ def main():
             pending = [
                 v for v in videos
                 if v["id"] not in state["processed"]
+                and v["id"] not in SKIP_VIDEO_IDS
                 and v.get("upload_date", "99999999") >= GLOBAL_DATE_CUTOFF
             ]
             print(f"   {src}: {len(videos)} in window, {len(pending)} on or after {GLOBAL_DATE_CUTOFF}")

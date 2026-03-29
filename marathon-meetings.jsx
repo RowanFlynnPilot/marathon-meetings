@@ -150,7 +150,7 @@ const MEETINGS = [
   },
   {
     id: "hNOP07iJjNY", source: "marathon",
-    title: "Marathon County Board Education Meeting Pt.1",
+    title: "Marathon County Board Education Meeting",
     date: "March 19, 2026", shortDate: "MAR 19",
     committee: "County Board", duration: "~1h",
     url: "https://www.youtube.com/watch?v=hNOP07iJjNY",
@@ -413,7 +413,7 @@ const MEETINGS = [
   },
   {
     id: "47UbKS2Jqo4", source: "marathon",
-    title: "Marathon County Executive Committee Meeting Pt.1",
+    title: "Marathon County Executive Committee Meeting",
     date: "March 24, 2026", shortDate: "MAR 24",
     committee: "Executive Committee", duration: "~1h",
     url: "https://www.youtube.com/watch?v=47UbKS2Jqo4",
@@ -697,48 +697,6 @@ const MEETINGS = [
     ] },
       { number:"5", name:"Reconvene into Open Session, if necessary, to take action on Closed Session items.", votes:[], docs:[], children:[] },
       { number:"6", name:"Adjournment.", votes:[{ motion:"adjourn", passed:true, initiator:"Sarah Watson", seconder:"Vicki Tierney", yes:["Michael  Martens", "Vicki Tierney", "Becky McElhaney ", "Sarah Watson"], no:[], abstain:[] }], docs:[], children:[] },
-    ],
-  },
-  {
-    id: "4IiT1PAaCHA", source: "marathon",
-    title: "Marathon County Board Education Meeting Pt.3",
-    date: "March 19, 2026", shortDate: "MAR 19",
-    committee: "County Board", duration: "~1h",
-    url: "https://www.youtube.com/watch?v=4IiT1PAaCHA",
-    docUrl: "https://www.marathoncounty.gov/home/showpublisheddocument/18076/639089973815830000",
-    isAgendaOnly: true,
-    badge: "new",
-    overview: "Based on the published agenda, this Marathon County Board Education Meeting Part 3 was scheduled to continue educational sessions for county board members. The specific topics and materials were to be detailed in the linked meeting packet, representing ongoing board member training and development.",
-    agenda: [
-      { time:"N\/A", item:"Education Meeting Part 3 - Continuation of Board Education Sessions" },
-    ],
-    discussions: [
-      { item:"Board Education Session Part 3", body:"This meeting was scheduled as the third part of an ongoing education series for Marathon County Board members. The specific educational content and topics were set to be outlined in the meeting packet document linked in the agenda." },
-    ],
-    publicComment: "Not indicated on agenda.",
-    actionItems: [
-      "Board members were expected to participate in continuing education session",
-    ],
-  },
-  {
-    id: "PkJesaGLD0Q", source: "marathon",
-    title: "Marathon County Executive Committee Meeting Pt.2",
-    date: "March 24, 2026", shortDate: "MAR 24",
-    committee: "Executive Committee", duration: "~1h",
-    url: "https://www.youtube.com/watch?v=PkJesaGLD0Q",
-    docUrl: "https://www.marathoncounty.gov/home/showpublisheddocument/18106",
-    isAgendaOnly: true,
-    badge: "new",
-    overview: "Based on the published agenda, this Marathon County Executive Committee meeting (Part 2) was scheduled for March 24, 2026. The specific agenda items were not provided in the source document, limiting detailed analysis of the topics set for discussion.",
-    agenda: [
-      { time:"N\/A", item:"Agenda details not available - only agenda packet link provided" },
-    ],
-    discussions: [
-      { item:"Executive Committee Business", body:"The committee was scheduled to meet for the second part of their March 24, 2026 session. Specific discussion items were not available in the provided agenda text, though the full agenda packet was published on the Marathon County website." },
-    ],
-    publicComment: "Not indicated on agenda.",
-    actionItems: [
-      "Specific action items not available - agenda packet link provided but detailed contents not included in source document",
     ],
   },
   {
