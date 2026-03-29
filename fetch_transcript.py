@@ -118,11 +118,23 @@ def fetch_transcript_ytdlp(video_id: str) -> str | None:
 
 
 def _parse_vtt(vtt: str) -> str:
-    """Parse VTT captions into plain text."""
+    """Parse VTT captions into plain text with timestamp markers every ~5 minutes."""
     lines = []
+    last_ts_minute = -5
     for line in vtt.splitlines():
         line = line.strip()
-        if not line or line.startswith("WEBVTT") or "-->" in line:
+        if not line or line.startswith("WEBVTT") or line.startswith("Kind:") or line.startswith("Language:"):
+            continue
+        # Extract timestamps from cue timing lines
+        if "-->" in line:
+            ts_m = re.match(r"(\d{1,2}):(\d{2}):(\d{2})", line)
+            if ts_m:
+                h, m, s = int(ts_m.group(1)), int(ts_m.group(2)), int(ts_m.group(3))
+                total_min = h * 60 + m
+                if total_min >= last_ts_minute + 5:
+                    ts_str = f"{h}:{m:02d}:{s:02d}" if h > 0 else f"{m}:{s:02d}"
+                    lines.append(f"[{ts_str}]")
+                    last_ts_minute = total_min
             continue
         line = re.sub(r"<[^>]+>", "", line)  # strip HTML tags
         if lines and line == lines[-1]:

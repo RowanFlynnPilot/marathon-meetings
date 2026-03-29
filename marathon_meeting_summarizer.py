@@ -290,12 +290,27 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
     )
 
 def _parse_vtt(raw):
+    """Parse VTT captions, inserting timestamp markers every ~5 minutes."""
     seen, lines = set(), []
+    last_ts_minute = -5  # track last inserted timestamp minute
     for line in raw.split("\n"):
         line = line.strip()
-        if (not line or "-->" in line or line.startswith("WEBVTT")
-                or line.startswith("Kind:") or line.startswith("Language:")
-                or line == " " or ("<" in line and ">" in line and ":" in line)):
+        if not line or line.startswith("WEBVTT") or line.startswith("Kind:") or line.startswith("Language:") or line == " ":
+            continue
+        # Extract timestamp from cue timing lines like "00:05:23.000 --> 00:05:26.000"
+        if "-->" in line:
+            ts_m = re.match(r"(\d{1,2}):(\d{2}):(\d{2})", line)
+            if ts_m:
+                h, m, s = int(ts_m.group(1)), int(ts_m.group(2)), int(ts_m.group(3))
+                total_min = h * 60 + m
+                # Insert a timestamp marker every ~5 minutes
+                if total_min >= last_ts_minute + 5:
+                    ts_str = f"{h}:{m:02d}:{s:02d}" if h > 0 else f"{m}:{s:02d}"
+                    lines.append(f"[{ts_str}]")
+                    last_ts_minute = total_min
+            continue
+        # Skip HTML-style tags
+        if "<" in line and ">" in line and ":" in line:
             continue
         if line not in seen:
             seen.add(line)
