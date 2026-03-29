@@ -488,9 +488,8 @@ def main():
         return
 
     # ── Inject into JSX ───────────────────────────────────────────────────────
-    # SAFETY: Extract the MEETINGS block, do all modifications WITHIN it,
-    # then splice it back. This prevents regexes from matching across
-    # the MEETINGS boundary into COMMITTEE_STYLES or component code.
+    # SAFETY: Extract the MEETINGS block, split into individual entries,
+    # do all operations on the ENTRY LIST (no regex surgery), then rejoin.
 
     new_jsx = jsx
     meetings_m = re.search(r'(const MEETINGS = \[\n)(.*?)(\n\];)', new_jsx, re.DOTALL)
@@ -501,70 +500,73 @@ def main():
 
     before_meetings = new_jsx[:meetings_m.start()]
     after_meetings  = new_jsx[meetings_m.end():]
-    meetings_body   = meetings_m.group(2)   # just the entries, no wrapper
+    meetings_body   = meetings_m.group(2)
 
-    # Remove existing stub entries for IDs we are about to inject
-    for vid in newly_injected:
-        meetings_body = re.sub(
-            rf'  \{{[\s\S]{{0,50}}?id:\s*"{re.escape(vid)}"[\s\S]*?\n  \}},?\n',
-            '', meetings_body, count=1
-        )
+    # ── Split body into individual entry blocks ──────────────────────────────
+    # Each entry starts with "  {\n    id:" — split on that boundary
+    raw_parts = re.split(r'(?=  \{\n    id:)', meetings_body)
+    existing_entries = [p for p in raw_parts if p.strip()]
 
-    # Prepend new full entries at top
-    new_entries_str = ",\n".join(new_entries)
-    if meetings_body.strip():
-        meetings_body = new_entries_str + ",\n" + meetings_body
-    else:
-        meetings_body = new_entries_str + "\n"
+    def _get_entry_id(block: str) -> str:
+        m = re.search(r'id:\s*"([^"]+)"', block)
+        return m.group(1) if m else ""
 
-    # Count entries within the MEETINGS block only
-    all_ids = re.findall(r'id:\s*"([A-Za-z0-9_-]+)"', meetings_body)
+    print(f"   Existing entries in MEETINGS array: {len(existing_entries)}")
 
-    # ── Prune old entries (keep MAX_MEETINGS) ─────────────────────────────────
-    if len(all_ids) > MAX_MEETINGS:
-        to_remove = all_ids[MAX_MEETINGS:]
-        for old_id in to_remove:
-            meetings_body = re.sub(
-                rf'  \{{[\s\S]*?id:\s*"{re.escape(old_id)}"[\s\S]*?\n  \}},?\n',
-                '', meetings_body, count=1
-            )
-        print(f"   🧹  Pruned {len(to_remove)} old meeting(s) (kept {MAX_MEETINGS})")
+    # ── Remove stubs that we are about to replace ────────────────────────────
+    keep = []
+    stubs_removed = 0
+    for e in existing_entries:
+        if _get_entry_id(e) in newly_injected:
+            stubs_removed += 1
+        else:
+            keep.append(e)
+    existing_entries = keep
+    if stubs_removed:
+        print(f"   Removed {stubs_removed} stub(s) being replaced")
 
-    # ── Remove "new" badge from older entries ─────────────────────────────────
-    for old_id in (set(all_ids) - newly_injected):
-        meetings_body = re.sub(
-            rf'(id:\s*"{re.escape(old_id)}"[\s\S]{{0,200}}?)badge:\s*"new"',
-            r'\1badge: null',
-            meetings_body, count=1
-        )
+    # ── Build combined list: new entries first, then existing ─────────────────
+    all_entry_blocks = list(new_entries) + existing_entries
 
-    # ── Prune future-dated entries ────────────────────────────────────────────
+    # ── Prune future-dated entries ───────────────────────────────────────────
     from datetime import date as _date2
     _today = _date2.today()
 
     def _entry_is_future(block: str) -> bool:
-        """Check if a MEETINGS entry block has a future date."""
         m = re.search(r'date:\s*"([^"]+)"', block)
         if not m:
             return False
-        date_str = m.group(1)
         try:
-            import datetime
-            d = datetime.datetime.strptime(date_str, "%B %d, %Y").date()
+            import datetime as _dt
+            d = _dt.datetime.strptime(m.group(1), "%B %d, %Y").date()
             return d > _today
         except Exception:
-            pass
-        return False
+            return False
 
-    entries  = re.split(r'(?=  \{\n    id:)', meetings_body)
-    filtered = [e for e in entries if e.strip() and not _entry_is_future(e)]
-    removed  = len(entries) - len(filtered)
-    if removed > 0:
-        print(f"   [prune] Removed {removed} future-dated entry/entries from MEETINGS array")
-    meetings_body = "".join(filtered)
+    before_count = len(all_entry_blocks)
+    all_entry_blocks = [e for e in all_entry_blocks if not _entry_is_future(e)]
+    future_removed = before_count - len(all_entry_blocks)
+    if future_removed:
+        print(f"   [prune] Removed {future_removed} future-dated entry/entries")
 
-    # ── Reassemble the full file ──────────────────────────────────────────────
+    # ── Prune to MAX_MEETINGS (keep newest, drop oldest from end) ────────────
+    if len(all_entry_blocks) > MAX_MEETINGS:
+        pruned = len(all_entry_blocks) - MAX_MEETINGS
+        all_entry_blocks = all_entry_blocks[:MAX_MEETINGS]
+        print(f"   🧹  Pruned {pruned} old meeting(s) (kept {MAX_MEETINGS})")
+
+    # ── Update badges: only newly injected entries keep "new" ────────────────
+    final_blocks = []
+    for block in all_entry_blocks:
+        eid = _get_entry_id(block)
+        if eid not in newly_injected and 'badge: "new"' in block:
+            block = block.replace('badge: "new"', 'badge: null')
+        final_blocks.append(block)
+
+    # ── Reassemble ───────────────────────────────────────────────────────────
+    meetings_body = ",\n".join(final_blocks)
     new_jsx = before_meetings + "const MEETINGS = [\n" + meetings_body + "\n];" + after_meetings
+    print(f"   Final MEETINGS array: {len(final_blocks)} entries")
 
     # Write back
     JSX_PATH.write_text(new_jsx, encoding="utf-8")
