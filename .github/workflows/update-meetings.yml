@@ -98,14 +98,63 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          # Process ALL transcript files in transcripts/ directory
-          # This runs AFTER the summarizer so transcript versions always win
+          # Step 1: Process merged multi-part transcripts
+          if [ -f transcripts/merged/merge_config.json ]; then
+            echo "=== Processing merged multi-part meetings ==="
+            python -c "
+          import json, subprocess, sys, re
+          config = json.load(open('transcripts/merged/merge_config.json'))
+          for merge in config['merges']:
+              vid = merge['keep_id']
+              tfile = merge['merged_transcript']
+              title = merge['title']
+              print(f'Merging: {title} (keep={vid}, remove={merge[\"remove_ids\"]})')
+              r = subprocess.run(
+                  [sys.executable, 'inject_transcript.py',
+                   '--video-id', vid, '--transcript', tfile,
+                   '--source', merge['source'], '--jsx', 'marathon-meetings.jsx'],
+                  capture_output=True, text=True
+              )
+              print(r.stdout)
+              if r.stderr: print(r.stderr)
+              # Remove the other parts from the JSX
+              with open('marathon-meetings.jsx', encoding='utf-8') as f:
+                  jsx = f.read()
+              for rid in merge['remove_ids']:
+                  # Remove entry block for this ID
+                  pattern = r',?\n  \{\n    id: \"' + re.escape(rid) + r'\".*?\n  \}'
+                  jsx = re.sub(pattern, '', jsx, count=1, flags=re.DOTALL)
+                  print(f'  Removed part: {rid}')
+              with open('marathon-meetings.jsx', 'w', encoding='utf-8') as f:
+                  f.write(jsx)
+          "
+            echo ""
+          fi
+
+          # Step 2: Process individual transcript files
           if [ ! -d transcripts ] || [ -z "$(ls transcripts/*.txt 2>/dev/null)" ]; then
-            echo "No transcript files found — skipping."
+            echo "No individual transcript files found — skipping."
             exit 0
+          fi
+          # Get list of already-merged IDs to skip
+          MERGED_IDS=""
+          if [ -f transcripts/merged/merge_config.json ]; then
+            MERGED_IDS=$(python -c "
+          import json
+          config = json.load(open('transcripts/merged/merge_config.json'))
+          ids = set()
+          for m in config['merges']:
+              ids.add(m['keep_id'])
+              ids.update(m['remove_ids'])
+          print(' '.join(ids))
+          ")
           fi
           for TFILE in transcripts/*.txt; do
             VID=$(basename "$TFILE" .txt)
+            if echo "$MERGED_IDS" | grep -qw "$VID"; then
+              echo "Skipping $VID (handled by merge)"
+              continue
+            fi
             echo "Processing transcript for: $VID"
             python inject_transcript.py --video-id "$VID" --transcript "$TFILE" --jsx marathon-meetings.jsx
             echo ""
