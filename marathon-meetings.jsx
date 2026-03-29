@@ -148,6 +148,7 @@ const MEETINGS = [
       { number:"14", name:"Adjournment.", votes:[{ motion:"Adjourn", passed:true, initiator:"Vicki Tierney", seconder:"Lou Larson", yes:["Michael  Martens", "Terry Kilian", "Tom Neal", "Becky McElhaney ", "Lisa Rasmussen", "Sarah Watson", "Vicki Tierney", "Lou Larson", "Chad Henke"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
+,
   {
     id: "f1fZvkxedNY", source: "wausau",
     title: "Wausau Board of Public Works Meeting",
@@ -198,6 +199,7 @@ const MEETINGS = [
       { number:"3", name:"Adjournment.", votes:[{ motion:"approve", passed:true, initiator:"Eric Lindman", seconder:"MaryAnne Groat", yes:["Eric Lindman", "MaryAnne Groat", "Vincent Bonino"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
+,
   {
     id: "aUG3K0hxNsU", source: "weston",
     title: "Finance and Human Resources Committee",
@@ -234,6 +236,7 @@ const MEETINGS = [
       "Next meeting scheduled for Tuesday, April 21st at 5:00 PM due to new board member swearing-in",
     ],
   },
+,
   {
     id: "Izfp0CD_Da0", source: "weston",
     title: "Board of Trustees",
@@ -293,6 +296,7 @@ const MEETINGS = [
       "Next meeting scheduled for Tuesday, April 21st at 6 PM with new board members",
     ],
   },
+,
   {
     id: "HwjjV4oIneA", source: "marathon",
     title: "Marathon County Board Regular Meeting",
@@ -341,6 +345,7 @@ const MEETINGS = [
       "Recognition of departing supervisors: Crawl, Fifick, Marshall, Rosenberg, Hardinger, V, and Reynolds",
     ],
   },
+,
   {
     id: "D7R7a0G0WTA", source: "weston",
     title: "Parks Committee",
@@ -380,6 +385,7 @@ const MEETINGS = [
       "Next Parks Committee meeting scheduled for April 27th, 2026",
     ],
   },
+,
   {
     id: "0pfKykvicdA", source: "marathon",
     title: "Marathon County HR, Finance, and Property Committee Meeting",
@@ -424,9 +430,10 @@ const MEETINGS = [
       "Next committee meeting scheduled for April 8th",
     ],
   },
+,
   {
     id: "47UbKS2Jqo4", source: "marathon",
-    title: "Marathon County Executive Committee Meeting Pt.1",
+    title: "Marathon County Executive Committee Meeting",
     date: "March 24, 2026", shortDate: "MAR 24",
     committee: "Executive Committee", duration: "~1h",
     url: "https://www.youtube.com/watch?v=47UbKS2Jqo4",
@@ -457,9 +464,10 @@ const MEETINGS = [
       "Rules review recommendations to be discussed further at April 9, 2026 executive committee meeting",
     ],
   },
+,
   {
     id: "hNOP07iJjNY", source: "marathon",
-    title: "Marathon County Board Education Meeting Pt.1",
+    title: "Marathon County Board Education Meeting",
     date: "March 19, 2026", shortDate: "MAR 19",
     committee: "County Board", duration: "~1h",
     url: "https://www.youtube.com/watch?v=hNOP07iJjNY",
@@ -492,6 +500,7 @@ const MEETINGS = [
       "County to consider options for addressing Hub City Wind Project before PSC application is filed",
     ],
   },
+,
   {
     id: "knWZO4dON-8", source: "wausau",
     title: "Wausau Plan Commission Meeting",
@@ -540,6 +549,7 @@ const MEETINGS = [
       { number:"7", name:"Adjournment.", votes:[{ motion:"approve", passed:true, initiator:"Sarah Watson", seconder:"Bruce Bohlken", yes:["Doug Diny", "Eric Lindman", "Sarah Watson", "George Bornemann", "Andrew Brueggeman", "Bruce Bohlken"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
+,
   {
     id: "gugcMAm6DFA", source: "wausau",
     title: "Wausau Board of Public Works Meeting",
@@ -567,6 +577,7 @@ const MEETINGS = [
       { number:"2", name:"Adjournment.", votes:[{ motion:"approve", passed:true, initiator:"Vincent Bonino", seconder:"Eric Lindman", yes:["Eric Lindman", "Vincent Bonino"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
+,
   {
     id: "_hS5GDGVL1c", source: "wausau",
     title: "Wausau Public Health and Safety Committee Meeting",
@@ -622,6 +633,7 @@ const MEETINGS = [
       { number:"5", name:"Adjournment.", votes:[{ motion:"adjourn", passed:true, initiator:"Sarah Watson", seconder:"Lou Larson", yes:["Lisa Rasmussen", "Lou Larson", "Sarah Watson"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
+,
   {
     id: "8rRo1cm2YJ0", source: "wausau",
     title: "Wausau Finance Committee Meeting",
@@ -700,48 +712,7 @@ const MEETINGS = [
       { number:"6", name:"Adjournment.", votes:[{ motion:"adjourn", passed:true, initiator:"Sarah Watson", seconder:"Vicki Tierney", yes:["Michael  Martens", "Vicki Tierney", "Becky McElhaney ", "Sarah Watson"], no:[], abstain:[] }], docs:[], children:[] },
     ],
   },
-  {
-    id: "4IiT1PAaCHA", source: "marathon",
-    title: "Marathon County Board Education Meeting Pt.3",
-    date: "March 19, 2026", shortDate: "MAR 19",
-    committee: "County Board", duration: "~1h",
-    url: "https://www.youtube.com/watch?v=4IiT1PAaCHA",
-    docUrl: "https://www.marathoncounty.gov/home/showpublisheddocument/18076/639089973815830000",
-    isAgendaOnly: true,
-    badge: "new",
-    overview: "Based on the published agenda, the Marathon County Board Education Meeting Part 3 was scheduled to continue board member education and training sessions. This meeting represents the third part of an educational series designed to inform county board members on relevant governance topics and county operations.",
-    agenda: [
-      { time:"N\/A", item:"Board Education Session Part 3" },
-    ],
-    discussions: [
-      { item:"Board Education Session Part 3", body:"This meeting was scheduled as the third installment of the Marathon County Board's education series. Board members were expected to receive continued training and information on county governance matters relevant to their roles as elected officials." },
-    ],
-    publicComment: "Not indicated on agenda.",
-    actionItems: [
-      "No formal action items indicated - meeting was scheduled for educational purposes",
-    ],
-  },
-  {
-    id: "PkJesaGLD0Q", source: "marathon",
-    title: "Marathon County Executive Committee Meeting Pt.2",
-    date: "March 24, 2026", shortDate: "MAR 24",
-    committee: "Executive Committee", duration: "~1h",
-    url: "https://www.youtube.com/watch?v=PkJesaGLD0Q",
-    docUrl: "https://www.marathoncounty.gov/home/showpublisheddocument/18106",
-    isAgendaOnly: true,
-    badge: "new",
-    overview: "Based on the published agenda, the Marathon County Executive Committee was scheduled to hold Part 2 of its March 24, 2026 meeting. The specific agenda items were not detailed in the provided document, which only contained a link to the full meeting packet on the Marathon County website.",
-    agenda: [
-      { time:"N\/A", item:"Meeting agenda details available in linked packet document" },
-    ],
-    discussions: [
-      { item:"Meeting Packet", body:"The full agenda and supporting materials were scheduled to be available through the Marathon County website document portal. Committee members were expected to review the packet materials prior to the meeting." },
-    ],
-    publicComment: "Not indicated on agenda.",
-    actionItems: [
-      "Specific action items were scheduled to be detailed in the full meeting packet available at the provided link",
-    ],
-  },
+,
   {
     id: "bb_734863", source: "school_board",
     title: "Committee of the Whole Meeting",
