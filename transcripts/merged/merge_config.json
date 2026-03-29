@@ -1,0 +1,20 @@
+{
+  "merges": [
+    {
+      "title": "Marathon County Board Education Meeting",
+      "date": "March 19, 2026",
+      "source": "marathon",
+      "keep_id": "hNOP07iJjNY",
+      "remove_ids": ["eIjwnwe6aBE", "4IiT1PAaCHA"],
+      "merged_transcript": "transcripts/merged/education_meeting_20260319.txt"
+    },
+    {
+      "title": "Marathon County Executive Committee Meeting",
+      "date": "March 24, 2026",
+      "source": "marathon",
+      "keep_id": "47UbKS2Jqo4",
+      "remove_ids": ["PkJesaGLD0Q"],
+      "merged_transcript": "transcripts/merged/executive_committee_20260324.txt"
+    }
+  ]
+}
