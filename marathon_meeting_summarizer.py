@@ -1172,7 +1172,9 @@ def scrape_boardbook_org_page() -> list[dict]:
 def scrape_boardbook_agenda(meeting_id: str) -> dict:
     """
     Scrape agenda items and descriptions from a BoardBook meeting page.
-    Returns {title, items: [{number, text, attachments}], packet_url}.
+    Extracts item names, detailed descriptions, presenter info, time estimates,
+    and attachment lists for richer agenda-only summaries.
+    Returns {page_title, items: [str], meeting_id, packet_url, agenda_url}.
     """
     import requests, re
 
@@ -1187,18 +1189,46 @@ def scrape_boardbook_agenda(meeting_id: str) -> dict:
         " - BoardBook Premier", ""
     ).strip()
 
-    # Parse table cells into agenda items
-    cells = re.findall(r"<td[^>]*>(.*?)</td>", r.text, re.DOTALL)
+    # Parse ALL table rows for richer content
+    html = r.text
+    # Clean HTML entities
+    html = html.replace("&nbsp;", " ").replace("&amp;", "&").replace("&eacute;", "e")
+    html = re.sub(r"&[a-z]+;", " ", html)
+
     items = []
-    for cell in cells:
-        clean = re.sub(r"&nbsp;",   " ", cell)
-        clean = re.sub(r"&amp;",    "&", clean)
-        clean = re.sub(r"&eacute;", "", clean)
-        clean = re.sub(r"&[a-z]+;", " ", clean)
-        clean = re.sub(r"<[^>]+>",  " ", clean)
-        clean = re.sub(r"\s+",      " ", clean).strip()
-        if len(clean) > 5 and clean.lower() != "agenda":
-            items.append(clean)
+    # Extract table rows — each agenda item is a row
+    rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL)
+    for row in rows:
+        # Get all cell content
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.DOTALL)
+        row_text_parts = []
+        for cell in cells:
+            # Extract attachment names
+            attachments = re.findall(r'title="([^"]+)"', cell)
+            # Clean HTML tags
+            clean = re.sub(r"<[^>]+>", " ", cell)
+            clean = re.sub(r"\s+", " ", clean).strip()
+            if clean and len(clean) > 3:
+                row_text_parts.append(clean)
+            # Add attachment info
+            for att in attachments:
+                if len(att) > 5 and att not in row_text_parts:
+                    row_text_parts.append(f"[Attachment: {att}]")
+
+        row_text = " | ".join(row_text_parts)
+        if len(row_text) > 5 and row_text.lower() != "agenda":
+            items.append(row_text)
+
+    # Also extract any description/detail divs that aren't in tables
+    desc_blocks = re.findall(
+        r'class="[^"]*(?:description|detail|presenter|estimate)[^"]*"[^>]*>(.*?)</(?:div|span|p)>',
+        r.text, re.DOTALL | re.IGNORECASE
+    )
+    for desc in desc_blocks:
+        clean = re.sub(r"<[^>]+>", " ", desc)
+        clean = re.sub(r"\s+", " ", clean).strip()
+        if len(clean) > 10:
+            items.append(f"[Detail: {clean}]")
 
     return {
         "page_title": page_title,
@@ -1222,31 +1252,34 @@ Meeting: {title}
 BoardBook agenda page: {agenda['agenda_url']}
 Full packet download: {agenda['packet_url']}
 
-Below is the complete agenda scraped from BoardBook. Each line is one agenda item, including item descriptions where available.
+Below is the complete agenda scraped from BoardBook. Items include descriptions, presenter information, time estimates, and attachment names where available. Lines with [Attachment: ...] indicate supporting documents. Lines with [Detail: ...] contain additional context.
 
 --- AGENDA ---
 {items_text}
 --- END ---
 
-Based solely on this agenda, produce a JSON object with this exact structure and nothing else:
+IMPORTANT: This is an AGENDA only — no recording exists. Use tentative language ("was scheduled to discuss", "was expected to consider"). Do NOT say items were "approved" or "discussed" since you don't know the outcomes.
+
+Produce a JSON object with this exact structure and nothing else:
 
 {{
-  "overview": "2-3 sentence factual summary of what this meeting covered and its significance for the Wausau School District",
+  "overview": "2-3 sentence summary starting with 'Based on the published agenda,' describing what this meeting was scheduled to address and its significance for the Wausau School District. Mention key action items and any notable topics.",
   "committee": "the meeting type (e.g. Regular Meeting, Committee of the Whole, Special Meeting)",
   "agenda": [
-    {{"time": "0:00", "item": "agenda item description"}}
+    {{"time": "N/A", "item": "agenda item description"}}
   ],
   "discussions": [
-    {{"item": "agenda item title", "body": "2-3 sentence description of what this item involved, based on the description text"}}
+    {{"item": "agenda item title", "body": "2-3 sentence description incorporating any presenter names, time estimates, and detail text from the agenda. Use tentative language: 'was scheduled to present', 'was expected to request approval for'."}}
   ],
   "publicComment": "description of public comment if the agenda includes one, or 'No public comment period was included on this agenda.'",
-  "actionItems": ["action item 1", "action item 2"]
+  "actionItems": ["expected action items using tentative language — 'Board was expected to vote on...', 'Action was requested for...'"]
 }}
 
 Rules:
-- agenda: include ALL roman-numeral top-level items. Use estimated timestamps starting at 0:00 (2-5 min per item).
-- discussions: only include items with substantive descriptions. Skip procedural items like Call to Order, Roll Call, Pledge.
-- actionItems: items marked "(Action Requested)" plus motions implied by the agenda.
+- agenda: include ALL top-level items. Use "N/A" for time since there's no recording.
+- discussions: include items with substantive descriptions. Incorporate presenter names and context from [Detail:] lines. Skip procedural items like Call to Order, Roll Call.
+- actionItems: items marked "(Action Requested)" plus any motions implied.
+- NEVER invent outcomes or votes — this is agenda-only.
 - Return ONLY the JSON. No markdown, no explanation.
 """
 
