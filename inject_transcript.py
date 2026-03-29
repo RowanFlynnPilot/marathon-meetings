@@ -44,9 +44,27 @@ def main():
                         help="Source jurisdiction (auto-detected if in processed_meetings.json)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Summarize but don't update files")
+    parser.add_argument("--force", action="store_true",
+                        help="Re-summarize even if a transcript-based summary already exists")
     parser.add_argument("--jsx", type=str, default="./marathon-meetings.jsx",
                         help="Path to the JSX file (default: ./marathon-meetings.jsx)")
     args = parser.parse_args()
+
+    # ── Check if already transcript-based (skip unless --force) ──────────────
+    vid_id = args.video_id
+    summaries_dir = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
+    existing_summaries = list(summaries_dir.glob(f"*{vid_id.lower()}*_summary.json")) if summaries_dir.exists() else []
+    if existing_summaries and not args.force:
+        for sp in existing_summaries:
+            try:
+                s = json.loads(sp.read_text(encoding="utf-8"))
+                if s.get("_source") not in ("agenda", "agenda_with_votes", None):
+                    # Already has a transcript-based summary
+                    print(f"[skip] {vid_id} already has a transcript-based summary ({sp.name})")
+                    print(f"       Use --force to re-summarize.")
+                    return
+            except Exception:
+                pass
 
     # ── Read transcript ──────────────────────────────────────────────────────
     if args.stdin:
