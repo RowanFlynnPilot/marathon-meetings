@@ -94,7 +94,11 @@ def fetch_transcript_ytdlp(video_id: str) -> str | None:
             "-o", out,
             url,
         ]
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            print(f"  yt-dlp: timed out (180s) — video may be very long, try again later")
+            return None
 
         no_caption_signals = [
             "only images are available", "no subtitles found",
