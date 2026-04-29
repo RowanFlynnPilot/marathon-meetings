@@ -105,15 +105,26 @@ def main():
         else:
             print(f"[warn] Video {vid_id} not in processed_meetings.json")
 
-    if not source_key:
-        # Try to detect from existing MEETINGS in JSX
+    if not source_key or title == vid_id:
+        # Try to detect source and title from existing MEETINGS in JSX
         jsx_path = Path(args.jsx)
         if jsx_path.exists():
             jsx = jsx_path.read_text(encoding="utf-8")
-            m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?source:\s*"([^"]+)"', jsx)
-            if m:
-                source_key = m.group(1)
+            # Extract source
+            src_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?source:\s*"([^"]+)"', jsx)
+            if src_m:
+                source_key = source_key or src_m.group(1)
                 print(f"[ok]  Detected source from JSX: {source_key}")
+            # Extract title
+            title_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?title:\s*"([^"]+)"', jsx)
+            if title_m and title == vid_id:
+                title = title_m.group(1)
+                print(f"[ok]  Detected title from JSX: {title}")
+            # Extract docUrl
+            doc_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?docUrl:\s*"([^"]+)"', jsx)
+            if doc_m and not doc_url:
+                doc_url = doc_m.group(1)
+                print(f"[ok]  Detected docUrl from JSX: {doc_url}")
 
     if not source_key:
         print("Error: Cannot detect source. Use --source marathon|wausau|weston|school_board")
