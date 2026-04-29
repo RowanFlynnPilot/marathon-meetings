@@ -126,6 +126,37 @@ def main():
                 doc_url = doc_m.group(1)
                 print(f"[ok]  Detected docUrl from JSX: {doc_url}")
 
+    # ── Last resort: fetch title from YouTube via yt-dlp ────────────────────
+    if title == vid_id and not vid_id.startswith("bb_"):
+        print(f"[fetch] Title unknown — fetching from YouTube...")
+        try:
+            import subprocess
+            r = subprocess.run(
+                [sys.executable, "-m", "yt_dlp", "--no-check-certificate",
+                 "--dump-json", "--skip-download", url],
+                capture_output=True, text=True, timeout=30
+            )
+            if r.returncode == 0:
+                meta = json.loads(r.stdout)
+                yt_title = meta.get("title", "")
+                if yt_title:
+                    # Clean date suffix from title
+                    title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
+                    title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
+                    # Strip "Pt.1" etc for merged meetings
+                    title = re.sub(r'\s+Pt\.\d+$', '', title).strip()
+                    print(f"[ok]  Title from YouTube: {title}")
+                    if not source_key:
+                        desc = meta.get("description", "")
+                        if "wausau" in meta.get("channel", "").lower():
+                            source_key = "wausau"
+                        elif "marathon" in meta.get("channel", "").lower():
+                            source_key = "marathon"
+                        elif "weston" in meta.get("channel", "").lower():
+                            source_key = "weston"
+        except Exception as e:
+            print(f"[warn] Could not fetch from YouTube: {e}")
+
     if not source_key:
         print("Error: Cannot detect source. Use --source marathon|wausau|weston|school_board")
         sys.exit(1)
