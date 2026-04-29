@@ -127,6 +127,7 @@ def main():
                 print(f"[ok]  Detected docUrl from JSX: {doc_url}")
 
     # ── Last resort: fetch title from YouTube via yt-dlp ────────────────────
+    original_yt_title = None  # Keep full YouTube title (with date) for processed_meetings.json
     if title == vid_id and not vid_id.startswith("bb_"):
         print(f"[fetch] Title unknown — fetching from YouTube...")
         try:
@@ -140,14 +141,15 @@ def main():
                 meta = json.loads(r.stdout)
                 yt_title = meta.get("title", "")
                 if yt_title:
-                    # Clean date suffix from title
+                    original_yt_title = yt_title  # Preserve for date parsing
+                    # Clean date suffix for display title
                     title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
                     title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
                     # Strip "Pt.1" etc for merged meetings
                     title = re.sub(r'\s+Pt\.\d+$', '', title).strip()
                     print(f"[ok]  Title from YouTube: {title}")
+                    print(f"       Original (for date): {original_yt_title}")
                     if not source_key:
-                        desc = meta.get("description", "")
                         if "wausau" in meta.get("channel", "").lower():
                             source_key = "wausau"
                         elif "marathon" in meta.get("channel", "").lower():
@@ -201,8 +203,11 @@ def main():
         state = json.loads(state_file.read_text(encoding="utf-8"))
     else:
         state = {"processed": {}}
+    # Use original YouTube title (with date suffix) so inject_meetings.py can parse the date.
+    # Falls back to display title if no YouTube title was fetched.
+    state_title = original_yt_title if original_yt_title else title
     state["processed"][vid_id] = {
-        "title": title,
+        "title": state_title,
         "source": source_key,
         "doc_url": doc_url,
         "processed_at": datetime.now(timezone.utc).isoformat(),
