@@ -105,8 +105,9 @@ def main():
         else:
             print(f"[warn] Video {vid_id} not in processed_meetings.json")
 
+    meeting_date_from_jsx = None  # Track the real meeting date from JSX
     if not source_key or title == vid_id:
-        # Try to detect source and title from existing MEETINGS in JSX
+        # Try to detect source, title, date from existing MEETINGS in JSX
         jsx_path = Path(args.jsx)
         if jsx_path.exists():
             jsx = jsx_path.read_text(encoding="utf-8")
@@ -120,6 +121,11 @@ def main():
             if title_m and title == vid_id:
                 title = title_m.group(1)
                 print(f"[ok]  Detected title from JSX: {title}")
+            # Extract date (e.g. "March 24, 2026")
+            date_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?date:\s*"([^"]+)"', jsx)
+            if date_m:
+                meeting_date_from_jsx = date_m.group(1)
+                print(f"[ok]  Detected date from JSX: {meeting_date_from_jsx}")
             # Extract docUrl
             doc_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?docUrl:\s*"([^"]+)"', jsx)
             if doc_m and not doc_url:
@@ -203,9 +209,20 @@ def main():
         state = json.loads(state_file.read_text(encoding="utf-8"))
     else:
         state = {"processed": {}}
-    # Use original YouTube title (with date suffix) so inject_meetings.py can parse the date.
-    # Falls back to display title if no YouTube title was fetched.
-    state_title = original_yt_title if original_yt_title else title
+    # Build a title for processed_meetings.json that inject_meetings.py can parse a date from.
+    # Priority: original YouTube title (has date suffix) > JSX date appended > display title only
+    if original_yt_title:
+        state_title = original_yt_title
+    elif meeting_date_from_jsx:
+        # Convert "March 24, 2026" to a parseable suffix like "- 3/24/2026"
+        try:
+            from datetime import datetime as _dt
+            d = _dt.strptime(meeting_date_from_jsx, "%B %d, %Y")
+            state_title = f"{title} - {d.month}/{d.day}/{d.year}"
+        except Exception:
+            state_title = title
+    else:
+        state_title = title
     state["processed"][vid_id] = {
         "title": state_title,
         "source": source_key,
