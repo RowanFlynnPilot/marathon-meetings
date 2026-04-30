@@ -66,7 +66,7 @@ const MEETINGS = [
   {
     id: "rQcjCEY36e4", source: "wausau",
     title: "Wausau City Council Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 24, 2026", shortDate: "MAR 24",
     committee: "City Council", duration: "~1h",
     url: "https://www.youtube.com/watch?v=rQcjCEY36e4",
     docUrl: null,
@@ -110,7 +110,7 @@ const MEETINGS = [
   {
     id: "knWZO4dON-8", source: "wausau",
     title: "Wausau Plan Commission Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 17, 2026", shortDate: "MAR 17",
     committee: "Plan Commission", duration: "~1h",
     url: "https://www.youtube.com/watch?v=knWZO4dON-8",
     docUrl: null,
@@ -143,7 +143,7 @@ const MEETINGS = [
   {
     id: "hNOP07iJjNY", source: "marathon",
     title: "Marathon County Board Education Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 19, 2026", shortDate: "MAR 19",
     committee: "County Board", duration: "~1h",
     url: "https://www.youtube.com/watch?v=hNOP07iJjNY",
     docUrl: null,
@@ -177,7 +177,7 @@ const MEETINGS = [
   {
     id: "gugcMAm6DFA", source: "wausau",
     title: "Wausau Board of Public Works Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 19, 2026", shortDate: "MAR 19",
     committee: "Board of Public Works", duration: "~1h",
     url: "https://www.youtube.com/watch?v=gugcMAm6DFA",
     docUrl: null,
@@ -200,7 +200,7 @@ const MEETINGS = [
   {
     id: "f1fZvkxedNY", source: "wausau",
     title: "Wausau Board of Public Works Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 17, 2026", shortDate: "MAR 17",
     committee: "Board of Public Works", duration: "~1h",
     url: "https://www.youtube.com/watch?v=f1fZvkxedNY",
     docUrl: null,
@@ -223,7 +223,7 @@ const MEETINGS = [
   {
     id: "aUG3K0hxNsU", source: "weston",
     title: "Finance and Human Resources Committee",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 23, 2026", shortDate: "MAR 23",
     committee: "Finance & Human Resources", duration: "~1h",
     url: "https://www.youtube.com/watch?v=aUG3K0hxNsU",
     docUrl: "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_03232026-1898",
@@ -257,7 +257,7 @@ const MEETINGS = [
   {
     id: "_hS5GDGVL1c", source: "wausau",
     title: "Wausau Public Health and Safety Committee Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 23, 2026", shortDate: "MAR 23",
     committee: "Public Health & Safety", duration: "~1h",
     url: "https://www.youtube.com/watch?v=_hS5GDGVL1c",
     docUrl: null,
@@ -303,7 +303,7 @@ const MEETINGS = [
   {
     id: "Izfp0CD_Da0", source: "weston",
     title: "Board of Trustees",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 23, 2026", shortDate: "MAR 23",
     committee: "Board of Trustees", duration: "~1h",
     url: "https://www.youtube.com/watch?v=Izfp0CD_Da0",
     docUrl: "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_03232026-1898",
@@ -360,7 +360,7 @@ const MEETINGS = [
   {
     id: "HwjjV4oIneA", source: "marathon",
     title: "Marathon County Board Regular Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 24, 2026", shortDate: "MAR 24",
     committee: "County Board", duration: "~1h",
     url: "https://www.youtube.com/watch?v=HwjjV4oIneA",
     docUrl: null,
@@ -405,7 +405,7 @@ const MEETINGS = [
   {
     id: "D7R7a0G0WTA", source: "weston",
     title: "Parks Committee",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 23, 2026", shortDate: "MAR 23",
     committee: "Parks and Recreation Committee", duration: "~1h",
     url: "https://www.youtube.com/watch?v=D7R7a0G0WTA",
     docUrl: "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_03232026-1898",
@@ -444,7 +444,7 @@ const MEETINGS = [
   {
     id: "8rRo1cm2YJ0", source: "wausau",
     title: "Wausau Finance Committee Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 24, 2026", shortDate: "MAR 24",
     committee: "Finance", duration: "~1h",
     url: "https://www.youtube.com/watch?v=8rRo1cm2YJ0",
     docUrl: null,
@@ -496,7 +496,7 @@ const MEETINGS = [
   {
     id: "47UbKS2Jqo4", source: "marathon",
     title: "Marathon County Executive Committee Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 24, 2026", shortDate: "MAR 24",
     committee: "Executive Committee", duration: "~1h",
     url: "https://www.youtube.com/watch?v=47UbKS2Jqo4",
     docUrl: null,
@@ -521,7 +521,7 @@ const MEETINGS = [
   {
     id: "0pfKykvicdA", source: "marathon",
     title: "Marathon County HR, Finance, and Property Committee Meeting",
-    date: "April 29, 2026", shortDate: "APR 29",
+    date: "March 24, 2026", shortDate: "MAR 24",
     committee: "Marathon County HR, Finance, and Property Committee", duration: "~1h",
     url: "https://www.youtube.com/watch?v=0pfKykvicdA",
     docUrl: null,
