@@ -1784,42 +1784,50 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
           </div>
         </>}
 
-        {tab === "agenda" && <>
-          <div style={labelStyle}>Agenda Items</div>
-          <div style={{ marginTop: "4px" }}>
-            {meeting.agenda.map((entry, i) => {
-              const toSec = t => { const p = t.split(":").map(Number); return p.length === 3 ? p[0]*3600+p[1]*60+p[2] : p[0]*60+p[1]; };
-              const vid = meeting.url.match(/(?:youtu\.be\/|v=)([A-Za-z0-9_-]{11})/)?.[1];
-              const hasTimestamp = entry.time && entry.time !== "N/A" && vid;
-              const ytUrl = hasTimestamp ? `https://www.youtube.com/watch?v=${vid}&t=${toSec(entry.time)}s` : null;
-              return (
-                <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: "14px", padding: "11px 0", borderBottom: `1px solid ${RULE}` }}>
-                  {hasTimestamp ? (
-                    <a href={ytUrl} target="_blank" rel="noreferrer" title={`Watch at ${entry.time}`}
-                      style={{
-                        fontFamily: "monospace", fontSize: "11px", fontWeight: 700,
-                        color: src.accent, minWidth: "50px", textAlign: "right",
-                        flexShrink: 0, textDecoration: "none",
-                        borderBottom: `1px dashed ${src.accent}`,
-                        lineHeight: 1, paddingTop: "3px", transition: "opacity 0.15s",
-                      }}
-                      onMouseEnter={e => e.currentTarget.style.opacity="0.6"}
-                      onMouseLeave={e => e.currentTarget.style.opacity="1"}
-                    >{entry.time}</a>
-                  ) : (
-                    <span style={{
-                      fontFamily: "monospace", fontSize: "11px",
-                      color: "#ccc", minWidth: "50px", textAlign: "right",
-                      flexShrink: 0, lineHeight: 1, paddingTop: "3px",
-                    }}>--:--</span>
-                  )}
-                  <div style={{ width: "6px", height: "6px", minWidth: "6px", borderRadius: "50%", background: src.accent, marginTop: "5px", flexShrink: 0 }} />
-                  <span style={bodyStyle}>{entry.item}</span>
-                </div>
-              );
-            })}
-          </div>
-        </>}
+        {tab === "agenda" && (() => {
+          const vid = meeting.url.match(/(?:youtu\.be\/|v=)([A-Za-z0-9_-]{11})/)?.[1];
+          const toSec = t => { const p = t.split(":").map(Number); return p.length === 3 ? p[0]*3600+p[1]*60+p[2] : p[0]*60+p[1]; };
+          // Determine if ANY agenda item has a real timestamp
+          const anyHasTimestamp = vid && meeting.agenda.some(e => e.time && e.time !== "N/A" && /^\d/.test(e.time));
+          return (
+            <>
+              <div style={labelStyle}>Agenda Items</div>
+              <div style={{ marginTop: "4px" }}>
+                {meeting.agenda.map((entry, i) => {
+                  const hasTimestamp = anyHasTimestamp && entry.time && entry.time !== "N/A" && /^\d/.test(entry.time);
+                  const ytUrl = hasTimestamp ? `https://www.youtube.com/watch?v=${vid}&t=${toSec(entry.time)}s` : null;
+                  return (
+                    <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: "14px", padding: "11px 0", borderBottom: `1px solid ${RULE}` }}>
+                      {anyHasTimestamp && (
+                        hasTimestamp ? (
+                          <a href={ytUrl} target="_blank" rel="noreferrer" title={`Watch at ${entry.time}`}
+                            style={{
+                              fontFamily: "monospace", fontSize: "11px", fontWeight: 700,
+                              color: src.accent, minWidth: "50px", textAlign: "right",
+                              flexShrink: 0, textDecoration: "none",
+                              borderBottom: `1px dashed ${src.accent}`,
+                              lineHeight: 1, paddingTop: "3px", transition: "opacity 0.15s",
+                            }}
+                            onMouseEnter={e => e.currentTarget.style.opacity="0.6"}
+                            onMouseLeave={e => e.currentTarget.style.opacity="1"}
+                          >{entry.time}</a>
+                        ) : (
+                          <span style={{
+                            fontFamily: "monospace", fontSize: "11px",
+                            color: "#ccc", minWidth: "50px", textAlign: "right",
+                            flexShrink: 0, lineHeight: 1, paddingTop: "3px",
+                          }}>--:--</span>
+                        )
+                      )}
+                      <div style={{ width: "6px", height: "6px", minWidth: "6px", borderRadius: "50%", background: src.accent, marginTop: "5px", flexShrink: 0 }} />
+                      <span style={bodyStyle}>{entry.item}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          );
+        })()}
 
         {tab === "discussion" && meeting.discussions.map((d, i) => (
           <div key={i} style={{
