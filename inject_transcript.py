@@ -132,10 +132,12 @@ def main():
                 doc_url = doc_m.group(1)
                 print(f"[ok]  Detected docUrl from JSX: {doc_url}")
 
-    # ── Last resort: fetch title from YouTube via yt-dlp ────────────────────
-    original_yt_title = None  # Keep full YouTube title (with date) for processed_meetings.json
-    if title == vid_id and not vid_id.startswith("bb_"):
-        print(f"[fetch] Title unknown — fetching from YouTube...")
+    # ── Always fetch authoritative title and date from YouTube ──────────────
+    # The JSX date may be wrong from previous runs, so we ALWAYS query YouTube
+    # for the canonical upload_date and title with date suffix.
+    original_yt_title = None
+    if not vid_id.startswith("bb_"):
+        print(f"[fetch] Querying YouTube for authoritative title and date...")
         try:
             import subprocess
             r = subprocess.run(
@@ -146,15 +148,25 @@ def main():
             if r.returncode == 0:
                 meta = json.loads(r.stdout)
                 yt_title = meta.get("title", "")
+                upload_date = meta.get("upload_date", "")  # YYYYMMDD format
                 if yt_title:
-                    original_yt_title = yt_title  # Preserve for date parsing
-                    # Clean date suffix for display title
-                    title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
-                    title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
-                    # Strip "Pt.1" etc for merged meetings
-                    title = re.sub(r'\s+Pt\.\d+$', '', title).strip()
-                    print(f"[ok]  Title from YouTube: {title}")
-                    print(f"       Original (for date): {original_yt_title}")
+                    # Build canonical title with date suffix from upload_date
+                    if upload_date and len(upload_date) == 8:
+                        yr, mo, dy = upload_date[:4], upload_date[4:6], upload_date[6:8]
+                        # Strip any existing date suffix from YouTube title first
+                        clean_yt = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
+                        clean_yt = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_yt).strip()
+                        original_yt_title = f"{clean_yt} - {int(mo)}/{int(dy)}/{yr}"
+                    else:
+                        original_yt_title = yt_title
+
+                    if title == vid_id:
+                        # Clean for display
+                        title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
+                        title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
+                        title = re.sub(r'\s+Pt\.\d+$', '', title).strip()
+                        print(f"[ok]  Title from YouTube: {title}")
+                    print(f"       Date for state: {original_yt_title}")
                     if not source_key:
                         if "wausau" in meta.get("channel", "").lower():
                             source_key = "wausau"
