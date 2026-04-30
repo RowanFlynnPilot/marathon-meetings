@@ -221,16 +221,44 @@ def main():
         state = json.loads(state_file.read_text(encoding="utf-8"))
     else:
         state = {"processed": {}}
+    # Hardcoded date map for known meetings — this is the LAST RESORT
+    # so the date is never wrong even if YouTube/JSX both fail.
+    # Format: video_id -> "M/D/YYYY"
+    KNOWN_DATES = {
+        "rQcjCEY36e4": "3/24/2026",
+        "knWZO4dON-8": "3/17/2026",
+        "hNOP07iJjNY": "3/19/2026",
+        "gugcMAm6DFA": "3/19/2026",
+        "f1fZvkxedNY": "3/17/2026",
+        "aUG3K0hxNsU": "3/23/2026",
+        "_hS5GDGVL1c": "3/23/2026",
+        "Izfp0CD_Da0": "3/23/2026",
+        "HwjjV4oIneA": "3/24/2026",
+        "D7R7a0G0WTA": "3/23/2026",
+        "8rRo1cm2YJ0": "3/24/2026",
+        "47UbKS2Jqo4": "3/24/2026",
+        "0pfKykvicdA": "3/24/2026",
+    }
+
     # Build a title for processed_meetings.json that inject_meetings.py can parse a date from.
-    # Priority: original YouTube title (has date suffix) > JSX date appended > display title only
-    if original_yt_title:
+    # Priority: KNOWN_DATES > original YouTube title > JSX date (only if not "today") > display title
+    today_str = datetime.now().strftime("%B %-d, %Y") if hasattr(datetime.now(), "strftime") else ""
+    today_obj = datetime.now().date()
+
+    if vid_id in KNOWN_DATES:
+        state_title = f"{title} - {KNOWN_DATES[vid_id]}"
+    elif original_yt_title:
         state_title = original_yt_title
     elif meeting_date_from_jsx:
-        # Convert "March 24, 2026" to a parseable suffix like "- 3/24/2026"
         try:
             from datetime import datetime as _dt
             d = _dt.strptime(meeting_date_from_jsx, "%B %d, %Y")
-            state_title = f"{title} - {d.month}/{d.day}/{d.year}"
+            # Reject if JSX date is "today" — likely a bad fallback from a previous run
+            if d.date() == today_obj:
+                state_title = title
+                print(f"[warn] JSX date is today ({meeting_date_from_jsx}) — likely bad, ignoring")
+            else:
+                state_title = f"{title} - {d.month}/{d.day}/{d.year}"
         except Exception:
             state_title = title
     else:
