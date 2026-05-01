@@ -2011,15 +2011,16 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
                   <span style={{
                     fontFamily: "'Bebas Neue', sans-serif",
                     fontSize: "12px", letterSpacing: "0.1em",
-                    color: src.accent, flexShrink: 0, minWidth: "24px",
+                    color: depth === 0 ? src.accent : "#999",
+                    flexShrink: 0, minWidth: "24px",
                     paddingTop: "1px",
-                  }}>{item.number}</span>
+                  }}>{item.number || (depth > 0 ? "•" : "")}</span>
                   <div style={{ flex: 1 }}>
                     <span style={{
                       fontFamily: depth === 0 ? "'Playfair Display', Georgia, serif" : "'Lora', Georgia, serif",
                       fontSize: depth === 0 ? "14px" : "13px",
-                      fontWeight: depth === 0 ? 700 : 400,
-                      color: isEmpty ? "#ccc" : INK,
+                      fontWeight: depth === 0 ? 700 : (isEmpty ? 400 : 600),
+                      color: isEmpty ? "#666" : INK,
                       fontStyle: "normal",
                       lineHeight: 1.4,
                     }}>{item.name ? item.name.replace(/<[^>]*>/g, "") : ""}</span>
