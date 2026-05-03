@@ -1,0 +1,303 @@
+{
+  "event_id": 2106,
+  "agenda_id": 1513,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Regular Plan Commission Minutes",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Lou Larson",
+              "seconder": "Bruce Bohlken",
+              "yes": [
+                "Doug Diny",
+                "Eric Lindman",
+                "Lou Larson",
+                "Sarah Watson",
+                "George Bornemann",
+                "Andrew Brueggeman",
+                "Bruce Bohlken"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Draft_PlanCommission_Regular_Minutes_03172026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6813)",
+              "type": "application/pdf",
+              "size": 211364
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Public Hearing.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Discussion on rezoning 230 E Thomas Street from a (NMU) Neighborhood Mixed-Use zoning district to a (TF-10) Two-Flat Residential zoning district. (City of Wausau Development Department)\u00a0",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Staff Report 230 E Thomas St Rezone",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6787)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 49444
+            },
+            {
+              "name": "230 E Thomas Narrative",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6790)",
+              "type": "application/pdf",
+              "size": 341788
+            },
+            {
+              "name": "230 E Thomas Map",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6789)",
+              "type": "application/pdf",
+              "size": 549878
+            },
+            {
+              "name": "230 E Thomas Rezone Application",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6788)",
+              "type": "application/pdf",
+              "size": 790470
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Discussion and possible action on rezoning 230 E Thomas Street from a (NMU) Neighborhood Mixed-Use zoning district to a (TF-10) Two-Flat Residential zoning district. (City of Wausau Development Department)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "George Bornemann",
+              "seconder": "Andrew Brueggeman",
+              "yes": [
+                "Doug Diny",
+                "Eric Lindman",
+                "Lou Larson",
+                "Sarah Watson",
+                "George Bornemann",
+                "Andrew Brueggeman",
+                "Bruce Bohlken"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Discussion and possible action on approving a Conditional Use Permit for 218 South 4th Street to authorize and allow construction of a Personal Storage Facility use in the Light Industrial (LI) Zoning District. (Dunwoody Storage)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Andrew Brueggeman",
+              "seconder": "George Bornemann",
+              "yes": [
+                "Doug Diny",
+                "Lou Larson",
+                "Sarah Watson",
+                "George Bornemann",
+                "Andrew Brueggeman",
+                "Bruce Bohlken"
+              ],
+              "no": [
+                "Eric Lindman"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "PC_CUP_218_S_4th_St._2nd_Mtg",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6775)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 50780
+            },
+            {
+              "name": "Dunwoody Storage - CUP Application",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6662)",
+              "type": "application/pdf",
+              "size": 448577
+            },
+            {
+              "name": "CUP Review Plans-11x17",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6663)",
+              "type": "application/pdf",
+              "size": 942343
+            },
+            {
+              "name": "Dunwoody Storage - Site Plan",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6664)",
+              "type": "application/pdf",
+              "size": 4223737
+            },
+            {
+              "name": "Dunwoody Storage - Elevations",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6665)",
+              "type": "application/pdf",
+              "size": 875210
+            },
+            {
+              "name": "Dunwoody Storage_Renderings",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6666)",
+              "type": "application/pdf",
+              "size": 8871209
+            },
+            {
+              "name": "Landscape Requirements",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6667)",
+              "type": "application/pdf",
+              "size": 106585
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Discussion and possible action approving the City of Wausau 2027 Comprehensive Plan Public Participation Plan (PPP) Draft.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Andrew Brueggeman",
+              "yes": [
+                "Doug Diny",
+                "Eric Lindman",
+                "Lou Larson",
+                "Sarah Watson",
+                "George Bornemann",
+                "Andrew Brueggeman",
+                "Bruce Bohlken"
+              ],
+              "no": [],
+              "abstain": []
+            },
+            {
+              "motion": "approve as amended [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Andrew Brueggeman",
+              "seconder": "George Bornemann",
+              "yes": [
+                "Doug Diny",
+                "Eric Lindman",
+                "Lou Larson",
+                "Sarah Watson",
+                "George Bornemann",
+                "Andrew Brueggeman",
+                "Bruce Bohlken"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "C. Wausau PPP Final",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6676)",
+              "type": "application/pdf",
+              "size": 143663
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Discussion.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "\u200bPreliminary code amendment \u200bdiscussion - data centers",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Staff Memo - Code Amendment Data Centers",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6776)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 39714
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Bruce Bohlken",
+          "seconder": "George Bornemann",
+          "yes": [
+            "Doug Diny",
+            "Eric Lindman",
+            "Lou Larson",
+            "Sarah Watson",
+            "George Bornemann",
+            "Andrew Brueggeman",
+            "Bruce Bohlken"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

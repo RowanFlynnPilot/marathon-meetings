@@ -1,0 +1,113 @@
+{
+  "event_id": 2146,
+  "agenda_id": 1512,
+  "items": [
+    {
+      "number": "1",
+      "name": "Call to order by the presiding officer.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "I",
+          "name": "Roll Call",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "I",
+          "name": "Regular Police and Fire Commission Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "I",
+          "name": "Open for General Agenda Items",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Presentations.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "I",
+          "name": "Monthly Fire Department Operations Update:<br>\u2022 \u00a0 \u00a0Presentation of current Fire Department activities<br>\u2022 \u00a0 \u00a0Report on subsequent policy changes regarding controlled substances<br>\u2022\u00a0 \u00a0 1st Quarter Report\u00a0<br><br>",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Q1 Fire Department Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6839)",
+              "type": "application/pdf",
+              "size": 1748833
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "II",
+          "name": "Monthly Police Department Operations Update:<br id=\"isPasted\">\u2022 \u00a0 \u00a0Presentation of current Police Department activities<br>\u2022\u00a0 \u00a01st Quarter Report",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Q1 Police Department Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6818)",
+              "type": "application/pdf",
+              "size": 1798724
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "I",
+          "name": "Next Meeting: May 18, 2026",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

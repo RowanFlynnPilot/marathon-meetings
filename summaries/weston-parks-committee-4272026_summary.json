@@ -1,0 +1,81 @@
+{
+  "overview": "Based on the published agenda, the Parks and Recreation Committee was scheduled to receive updates on Kennedy Park, playground improvements, and the Aquatic Center, while also considering action on ice rink operations and user agreements. The meeting was set to address ongoing park development projects significant to Weston residents' recreational facilities.",
+  "committee": "Parks and Recreation Committee",
+  "presiding": "Chairperson/Trustee Katrina Clark",
+  "agenda": [
+    {
+      "time": "4:00 p.m.",
+      "item": "Approval of minutes from the previous meeting: March 23, 2026"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Comments"
+    },
+    {
+      "time": "N/A",
+      "item": "Written Comments"
+    },
+    {
+      "time": "N/A",
+      "item": "Kennedy Update"
+    },
+    {
+      "time": "N/A",
+      "item": "Playground Update"
+    },
+    {
+      "time": "N/A",
+      "item": "Aquatic Center Update"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and/or possible action on the components of operations for the ice rink at Kennedy Park"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and/or possible action on the User Agreements"
+    },
+    {
+      "time": "N/A",
+      "item": "Possible next meeting date"
+    },
+    {
+      "time": "N/A",
+      "item": "Topics for future meetings"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Kennedy Update",
+      "body": "The committee was scheduled to receive an educational presentation and report on Kennedy Park. This was expected to provide updates on the ongoing Kennedy Park renovation project."
+    },
+    {
+      "item": "Playground Update",
+      "body": "Staff was set to present an update on playground improvements across Village parks. This report was expected to address the status of playground equipment and any recent developments."
+    },
+    {
+      "item": "Aquatic Center Update",
+      "body": "The committee was scheduled to receive information on the Aquatic Center. This presentation was expected to cover operational updates or planning for the facility."
+    },
+    {
+      "item": "Ice Rink Operations at Kennedy Park",
+      "body": "The committee was scheduled to discuss and potentially take action on operational components for the ice rink at Kennedy Park. This item follows previous committee discussions about ice rink attendance and operation costs."
+    },
+    {
+      "item": "User Agreements",
+      "body": "The committee was set to review and potentially take action on user agreements. These agreements likely govern use of park facilities by outside organizations or groups."
+    }
+  ],
+  "publicComment": "Public Comments and Written Comments were both included as agenda items, indicating opportunities for public input were scheduled.",
+  "actionItems": [
+    "Scheduled to consider approval of March 23, 2026 meeting minutes",
+    "Scheduled to potentially take action on ice rink operations at Kennedy Park",
+    "Scheduled to potentially take action on User Agreements"
+  ],
+  "_source": "agenda",
+  "title": "Parks Committee - 4/27/2026",
+  "url": "https://www.youtube.com/watch?v=hAwi9yZ3doA",
+  "source": "weston",
+  "doc_url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_04272026-1910",
+  "processed_at": "2026-05-03T23:39:45.465950+00:00"
+}

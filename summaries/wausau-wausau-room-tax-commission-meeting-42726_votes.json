@@ -1,0 +1,394 @@
+{
+  "event_id": 2336,
+  "agenda_id": 1541,
+  "items": [
+    {
+      "number": "1",
+      "name": "Update from the Wausau/Central Wisconsin Convention & Visitors Bureau. ",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Lindsey Lewitzke",
+          "seconder": "Tim VanDeYacht",
+          "yes": [
+            "Michael  Martens",
+            "Tim VanDeYacht",
+            "Lindsey Lewitzke",
+            "Tom Neal"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Regular Room Tax Commission Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "RoomTax_Regular_02092026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6878)",
+              "type": "application/pdf",
+              "size": 202683
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Tourism Grant request from Taste N' Glow Balloon Fest for Taste N Glow Fest.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the grant amount of $20,000",
+              "passed": true,
+              "initiator": "Tim VanDeYacht",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Tourism Grant Application",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6863)",
+              "type": "application/pdf",
+              "size": 265267
+            },
+            {
+              "name": "Taste N Glow - 2026 Budget",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6864)",
+              "type": "application/pdf",
+              "size": 33065
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Tourism Grant request from <span style=\"color: rgb(0, 0, 0);\">Hmong American Center </span>for Hmong Wausau Festival.\u00a0",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the grant amount of $20,000",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Lindsey Lewitzke",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Tourism Grant Application ",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6866)",
+              "type": "application/pdf",
+              "size": 337866
+            },
+            {
+              "name": "Hmong American Center, Inc. Board of Director",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6867)",
+              "type": "application/pdf",
+              "size": 27758
+            },
+            {
+              "name": "Hmong Wausau Festival 2026 Operations Budget",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6868)",
+              "type": "application/pdf",
+              "size": 20162
+            },
+            {
+              "name": "Statement of Financial Position 2025",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6869)",
+              "type": "application/pdf",
+              "size": 24145
+            },
+            {
+              "name": "Year-end Financial Statements Justification",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6870)",
+              "type": "application/pdf",
+              "size": 26895
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Tourism Grant request from <span style=\"color: rgb(0, 0, 0);\">EAA Chapter 640</span> for <span style=\"color: rgb(0, 0, 0);\">AirVenture Cup Race</span>.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the grant amount of $10,000",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Tim VanDeYacht",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Tourism Grant Application ",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6872)",
+              "type": "application/pdf",
+              "size": 267000
+            },
+            {
+              "name": "AirVenture Cup Race \u2013 Project/Event Budget",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6874)",
+              "type": "application/pdf",
+              "size": 70736
+            },
+            {
+              "name": "EAA Chapter 640 \u2013 Year-End Financial Statement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6873)",
+              "type": "application/pdf",
+              "size": 93813
+            },
+            {
+              "name": "EAA Chapter 640 \u2013 2026 Organizational Budget",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6875)",
+              "type": "application/pdf",
+              "size": 68079
+            },
+            {
+              "name": "EAA Chapter 640 Board of Directors",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6876)",
+              "type": "application/pdf",
+              "size": 69999
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Tourism Grant request from Wausau Events for Big Bull Falls Blues Fest.\u00a0",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the grant amount of $20,000",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Tim VanDeYacht",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Tourism Grant Application",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6889)",
+              "type": "application/pdf",
+              "size": 665670
+            },
+            {
+              "name": "Big Bull Falls Blues Fest Marketing Plan 2026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6891)",
+              "type": "application/pdf",
+              "size": 89799
+            },
+            {
+              "name": "2026 Big Bull Falls Blues Fest Budget",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6893)",
+              "type": "application/pdf",
+              "size": 208350
+            },
+            {
+              "name": "Blues Fest Ticket Sales Map (2025)",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6890)",
+              "type": "application/pdf",
+              "size": 111734
+            },
+            {
+              "name": "Big Bull Falls Blues Fest 2025 Sales Reach by State",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6892)",
+              "type": "application/pdf",
+              "size": 25853
+            },
+            {
+              "name": "2026 Events Budget - Wausau Events",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6894)",
+              "type": "application/pdf",
+              "size": 320343
+            },
+            {
+              "name": "WE 2026 Board of Directors",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6895)",
+              "type": "application/pdf",
+              "size": 230804
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Tourism Grant request from Central Wisconsin Offroad Cycling Coalition (CWOCC) for <span style=\"color: rgb(0, 0, 0);\">Sylvan Hill Bike Trail Maintenance.</span>",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the amount of $25,000",
+              "passed": true,
+              "initiator": "Tim VanDeYacht",
+              "seconder": "Lindsey Lewitzke",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "CWOCC Sylvan Trail Maintenance Tourism Grant Narrative",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6879)",
+              "type": "application/pdf",
+              "size": 689211
+            },
+            {
+              "name": "Gmail - Room tax grant application - CWOCC",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6880)",
+              "type": "application/pdf",
+              "size": 207618
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Tourism Grant request from the City of Wausau for event portable security bollards.\u00a0",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "to approve the amount at 50% of the monitary ask",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": " ",
+              "yes": [
+                "Michael  Martens",
+                "Tim VanDeYacht",
+                "Lindsey Lewitzke",
+                "Tom Neal"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Wausau Shindig Event - Street Closures",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6882)",
+              "type": "application/pdf",
+              "size": 580360
+            },
+            {
+              "name": "RAF Quote for Event Portable Security Bollards.",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6885)",
+              "type": "application/pdf",
+              "size": 100304
+            },
+            {
+              "name": "Yodock-2001M-PI-Sheet-10-6-22",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6883)",
+              "type": "application/pdf",
+              "size": 578283
+            },
+            {
+              "name": "Yodock-2001MB-PI-Sheet-10-5-22",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6884)",
+              "type": "application/pdf",
+              "size": 576827
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "g",
+          "name": "2026 Financial Projection",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "2026 Financial Projection Updated",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6888)",
+              "type": "application/pdf",
+              "size": 54791
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Tom Neal",
+          "seconder": "Tim VanDeYacht",
+          "yes": [
+            "Michael  Martens",
+            "Tim VanDeYacht",
+            "Lindsey Lewitzke",
+            "Tom Neal"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

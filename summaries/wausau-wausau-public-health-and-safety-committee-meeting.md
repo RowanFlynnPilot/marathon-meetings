@@ -1,0 +1,53 @@
+# Wausau Public Health and Safety Committee Meeting
+
+**Organization:** City of Wausau  
+**Source:** https://www.youtube.com/watch?v=_hS5GDGVL1c  
+**Summarized:** 2026-05-03 23:50 UTC
+
+---
+
+## Meeting Overview
+The Wausau Public Health and Safety Committee approved a parklet permit for Westider Diner and Lounge, approved multiple license applications and summer events, updated municipal code provisions on solid waste and cell phone ordinances, and heard updates on the homeless shelter transition from WMC to Bridge Street Mission expected in late April. One bartender license denial was held pending police chief review of rehabilitation evidence.
+
+## Key Discussions
+### Westider Diner and Lounge Parklet Permit
+Owner Tyler Vote presented detailed mockups for a parklet extending 4 feet into the street and 4 feet on the sidewalk at 628 North Third Avenue. He explained the parklet would provide sunny seating for breakfast customers and noted it would take less space than two parked cars. Committee member Larson initially expressed reservations but changed position after seeing the layout. The permit was approved unanimously with a one-year trial period, with Vote asked to report back in November.
+
+### Bartender License Denial - Theodore Davis
+Davis appeared to appeal denial of his bartender license for Emerald Nightclub, citing a mistake made 20 years ago when he was a minor. His boyfriend Matthew Prieb spoke emotionally in support, noting Davis has not reoffended since. Davis submitted rehabilitation documentation to Chief Barnes at the previous meeting. Deputy Chief Baiton was unfamiliar with the review outcome. The committee held action pending the chief's review of rehabilitation evidence, with decision deferred to next meeting.
+
+### Bartender License Denial - Joanna Gregory
+Gregory did not appear for the meeting. Her denial was included in the batch motion that passed.
+
+### License Approvals Batch
+The committee approved all remaining licenses as recommended including summer events (Wings over Wausau, Concerts on the Square, Chalkfest, Memorial Day parade, Hope on the Block, Jazz on the River), liquor license subcommittee recommendations for Oasis Arcade, Whiskey River Bar and Grill rebranding, and new Hayawa ownership. Motion by Larson, second by Watson, passed unanimously.
+
+### Solid Waste Disposal Ordinance Update
+Assistant City Attorney Vinnie Bonino presented the repeal and recreation of Chapter 6.44 to comply with state-level changes. Motion by Larson, second by Watson, approved unanimously with no discussion.
+
+### Handheld Mobile Phone Ordinance Repeal
+Bonino explained the local cell phone ban is now redundant since state inattentive driving statutes have been amended to regulate cell phone usage. The city's ordinance previously filled a gap that no longer exists. Motion by Watson, second by Larson, approved unanimously.
+
+### MREA Solar Program Partnership
+Carrie from planning presented the memorandum with Midwest Renewable Energy for a group solar purchasing program. She noted the sustainability committee unanimously approved it on March 5th. Alder Sarah endorsed it based on personal experience with solar installation. Motion by Watson, second by Larson, approved unanimously.
+
+### Fire Department 2025 Annual Report
+Fire Chief Cop reported the department responded to over 7,200 calls averaging 20 per day. He announced the city regained ISO Class 2 status as of Friday, which will be maintained for four years. Discussion included upcoming referendum information sessions on March 31st, April 1st, and April 3rd at various stations. Report placed on file.
+
+### Homeless Shelter Transition Update
+Tracy Durante reported 415 unduplicated guests served since opening and 740+ volunteer hours in February. James Torensson, new Director of Homeless Services for Bridge Street Mission, announced the shelter transition is expected around April 20th, with contractor confirmation due April 1st. The WMC shelter extended its contract through April 19th to prevent service gaps. Committee expressed interest in touring the new facility at the ribbon cutting ceremony.
+
+## Public Comment
+One public comment was offered at the end of the meeting. Carrie Mor Everest of 1025 Everest Boulevard, a 10-month shelter volunteer, expressed concerns about how the unhoused population is treated during 911 emergency responses, stating they are treated differently than housed residents. She criticized the lack of response to her previous complaints and was directed to the Police and Fire Commission as the proper venue for such concerns.
+
+## Action Items
+- Parklet permit approved for Westider Diner and Lounge with one-year trial; owner to report back in November
+- Theodore Davis bartender license decision held pending Chief Barnes review of rehabilitation evidence
+- Joanna Gregory bartender license denied
+- All other licenses and summer events approved as recommended
+- Solid waste disposal ordinance Chapter 6.44 repealed and recreated
+- Handheld mobile phone ordinance Section 10.01.012 repealed
+- MREA solar group buy program MOU approved
+- Staff to investigate missing demerit points for Days establishment on tavern report
+- Staff to check on Trace Armanos restaurant status
+- Council tour of Bridge Street Mission shelter planned for ribbon cutting ceremony

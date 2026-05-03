@@ -1,0 +1,285 @@
+{
+  "event_id": 2298,
+  "agenda_id": 1522,
+  "items": [
+    {
+      "number": "1",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>April 14, 2026</strong> Regular Board of Public Works Minutes.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Vincent Bonino",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "BoardofPublicWorks_Regular_MinutesDRAFT_04142026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6808)",
+              "type": "application/pdf",
+              "size": 744118
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Make recommendation for Statement of Qualifications for Real Estate Services, STH 52 (East Wausau Avenue)\u00a0 Project ID 6999-00-23. (Qualifications were opened April 14, 2026.)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "Vincent Bonino",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Make recommendation for Statement of Qualifications for Real Estate Services, Bus. 51 (Grand Avenue) Project ID 6999-02-20. (Qualifications were opened April 14, 2026.)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "Vincent Bonino",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Pay Estimate #26 with Community Infrastructure Partners for replacement of lead service lines.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "CIP Year 3 LSL Disbursement Request Form 8700-366-CIP Request 26",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6814)",
+              "type": "application/pdf",
+              "size": 1257342
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Portland Cement Concrete License: \u00a0Potrykus Construction, LLC and Miron Construction Co., Inc.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Vincent Bonino",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Potrykus PCC",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6810)",
+              "type": "application/pdf",
+              "size": 6280255
+            },
+            {
+              "name": "Miron PCC",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6811)",
+              "type": "application/pdf",
+              "size": 5922590
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Bituminous Concrete Paving License:\u00a0 Miron Construction Co., Inc.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Vincent Bonino",
+              "seconder": "Eric Lindman",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Miron BCP",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6812)",
+              "type": "application/pdf",
+              "size": 5767417
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Closed Session.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>Closed Session&nbsp;</strong>pursuant to Wisconsin State Statute \u00a719.85(1)(g) for the purpose of deliberating on claims.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Vincent Bonino"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Claims 042126",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6809)",
+              "type": "application/pdf",
+              "size": 120867
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve the American Family Insurance  subrogated claim on behalf of Kara Blank in the amount of $2,338.87",
+          "passed": true,
+          "initiator": "Vincent Bonino",
+          "seconder": "MaryAnne Groat",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Vincent Bonino"
+          ],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "reconvene into open session",
+          "passed": true,
+          "initiator": "Vincent Bonino",
+          "seconder": "MaryAnne Groat",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Vincent Bonino"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Eric Lindman",
+          "seconder": "Vincent Bonino",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Vincent Bonino"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

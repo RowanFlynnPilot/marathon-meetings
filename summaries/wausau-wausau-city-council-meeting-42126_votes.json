@@ -1,0 +1,274 @@
+{
+  "event_id": 2314,
+  "agenda_id": 1514,
+  "items": [
+    {
+      "number": "1",
+      "name": "Call to Order by the Presiding Officer.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Council Elect are seated by the Wausau Police and Fire Department Honor Guard.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Posting of the Colors by the Wausau Police and Fire Department Honor Guard.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Oath of Office for Elected Officials by Acting City Clerk.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Pledge of Allegiance and Roll Call.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "3",
+      "name": "Common Council Elections. ",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Wausau Common Council President.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Common Council Member of the Plan Commission.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Common Council Member of the Wausau Water Works Commission",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Ordinances and resolutions.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Resolution from the Common Council Adopting Robert\u2019s Rules of Order and the Standing Rules of the Common Council for 2026 \u2013 2028.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Standing Rules of the Wausau Common Council",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6822)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 41033
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Suspend Rule  6(B) Filing and 12(A) Referral of resolutions.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "Approve",
+          "passed": true,
+          "initiator": "Sarah Watson",
+          "seconder": "Bruce Trueblood",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Confirming Appointments of the Mayor of the City of Wausau to Boards, Commissions, and Committees as Indicated.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Terry Kilian",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Common Council Designating Official Newspaper.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Kristin Slonski",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson"
+              ],
+              "no": [
+                "Bruce Trueblood"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Communications, recommendations from the Mayor.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Mayor's Appointments to Standing Committees for the 2026 - 2028 Common Council Term.\u00a0",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Motion to suspend rules 13 (A) to postpone committee appointments to next week",
+              "passed": false,
+              "initiator": "Carol Lukens",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Terry Kilian",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Vicki Tierney",
+                "Bruce Trueblood"
+              ],
+              "no": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Tom Neal",
+                "Sarah Watson",
+                "Lou Larson"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "name": "Announcement from Mayor and Alderpersons.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "8",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Tom Neal",
+          "seconder": "Terry Kilian",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}
