@@ -53,16 +53,36 @@ def main():
     # ── Check if already transcript-based (skip unless --force) ──────────────
     vid_id = args.video_id
     summaries_dir = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
+
+    # Compute a hash of the transcript to detect content changes
+    import hashlib
+    transcript_hash = None
+    if args.transcript and Path(args.transcript).exists():
+        try:
+            transcript_hash = hashlib.sha256(Path(args.transcript).read_bytes()).hexdigest()[:16]
+        except Exception:
+            pass
+
     existing_summaries = list(summaries_dir.glob(f"*{vid_id.lower()}*_summary.json")) if summaries_dir.exists() else []
     if existing_summaries and not args.force:
         for sp in existing_summaries:
             try:
                 s = json.loads(sp.read_text(encoding="utf-8"))
-                if s.get("_source") not in ("agenda", "agenda_with_votes", None):
+                source = s.get("_source")
+                stored_hash = s.get("_transcript_hash")
+                if source not in ("agenda", "agenda_with_votes", None):
                     # Already has a transcript-based summary
-                    print(f"[skip] {vid_id} already has a transcript-based summary ({sp.name})")
-                    print(f"       Use --force to re-summarize.")
-                    return
+                    if transcript_hash and stored_hash and transcript_hash == stored_hash:
+                        print(f"[skip] {vid_id} already summarized (transcript unchanged, saves API call)")
+                        return
+                    elif transcript_hash and stored_hash and transcript_hash != stored_hash:
+                        print(f"[update] {vid_id} transcript changed — re-summarizing")
+                        break
+                    else:
+                        # Old summary without hash — keep it, don't re-process
+                        print(f"[skip] {vid_id} already has a transcript-based summary ({sp.name})")
+                        print(f"       Use --force to re-summarize.")
+                        return
             except Exception:
                 pass
 
@@ -213,6 +233,9 @@ def main():
         return
 
     # ── Save summary ─────────────────────────────────────────────────────────
+    # Tag the summary with the transcript hash so future runs can skip if unchanged
+    if transcript_hash:
+        summary["_transcript_hash"] = transcript_hash
     path = save_summary(title, url, source_key, summary, doc_url, civic_data)
     print(f"[save] Saved: {path}")
 

@@ -2,7 +2,7 @@ name: Update Meetings & Deploy
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # nightly 9pm CT (2am UTC)
+    - cron: '0 1 * * *'   # nightly 8pm CT (1am UTC during CDT)
   workflow_dispatch:
     inputs:
       backfill:
@@ -129,6 +129,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f marathon-meetings.jsx || true
           git add -f injected_meetings.json || true
+          git add -f processed_meetings.json || true
+          git add -f summaries/ || true
           git status
           git diff --staged --quiet || git commit -m "chore: update meetings JSX [skip ci]"
           git push || true
