@@ -1,5 +1,5 @@
 {
-  "overview": "The Weston Board of Trustees held its first meeting with three newly elected trustees, approving routine business including liquor license renewals, road reconstruction assessments, and a solid waste ordinance amendment. The board debated remote meeting attendance policy but ultimately voted 6-1 to allow virtual attendance with cameras required while prohibiting remote participation in closed sessions. Significant discussion occurred regarding Kennedy Park renovation funding transparency and the president's committee appointments, which included placing former trustees on various committees.",
+  "overview": "The Weston Board of Trustees held its first meeting with three newly elected trustees, approving liquor license renewals, three preliminary assessment resolutions for road reconstruction projects, and a remote meeting attendance policy allowing virtual participation with camera requirements but prohibiting remote attendance for closed sessions. Public comment included praise from former trustee Joe Jordan and criticism from Jim Pinsel regarding the president's committee appointments.",
   "committee": "Village of Weston Board of Trustees",
   "presiding": "Mark Maloney, President",
   "agenda": [
@@ -9,105 +9,92 @@
     },
     {
       "time": "2:15",
-      "item": "Public comments"
+      "item": "Public comments - Joe Jordan and Jim Pinsel"
     },
     {
       "time": "13:30",
-      "item": "Approval of March 16, 2026 meeting minutes"
+      "item": "Approval of March 16th, 2026 board meeting minutes"
     },
     {
       "time": "16:45",
       "item": "Acknowledge reports from boards, committees and commissions"
     },
     {
-      "time": "18:12",
+      "time": "18:30",
       "item": "Administrator's report"
     },
     {
-      "time": "20:45",
-      "item": "Clerk's report"
-    },
-    {
-      "time": "24:00",
-      "item": "Department reports (EMS/Fire, Parks, Planning, Police, Public Works)"
+      "time": "21:00",
+      "item": "Department reports (Clerk, Finance, EMS/Fire, Parks, Planning, Police, Public Works, Technology)"
     },
     {
       "time": "36:30",
       "item": "Consent agenda and liquor license renewals"
     },
     {
-      "time": "39:15",
-      "item": "Ordinance 26-008 amending solid waste chapter"
-    },
-    {
-      "time": "39:45",
+      "time": "38:45",
       "item": "Preliminary assessment resolutions for road reconstructions"
     },
     {
-      "time": "42:30",
+      "time": "42:00",
       "item": "Kennedy Park renovation quarterly update discussion"
     },
     {
-      "time": "1:07:30",
+      "time": "1:08:30",
       "item": "Remote meeting attendance policy discussion and action"
     },
     {
-      "time": "1:25:45",
+      "time": "1:25:30",
       "item": "President's appointments to committees and commissions"
     }
   ],
   "discussions": [
     {
       "item": "Public Comments",
-      "body": "Joe Jordan (4102 Camp Phillips Road) spoke at length thanking staff and welcoming new trustees, reflecting on his tenure and the village's conservative fiscal approach. He discussed the failed fire department referendum, stating it was 'a success' in generating dialogue, and praised the decision not to put the village hall to referendum. Jim Pinsel (address unspecified) criticized President Maloney for appointing Trustee Luis Lopez as vice president despite Lopez not receiving votes in the recent election, and for reappointing former trustees to committees after voters removed them from the board, calling it a 'betrayal of the electorate' and lack of transparency."
+      "body": "Former trustee Joe Jordan welcomed new trustees and praised village staff, noting the importance of committee work and supporting Chief Hunt's fire station building plan. He reflected on the recent referendum defeat, stating 'it was a success' because it generated dialogue. Jim Pinsel criticized President Maloney's appointments, objecting to Luis Lopez being appointed vice president despite not being elected, and complained that former trustees removed by voters were reappointed to committees. Pinsel stated this demonstrates 'lack of transparency and disregard for the will of the people.'"
     },
     {
-      "item": "Approval of March Meeting Minutes",
-      "body": "Discussion revealed the minutes contained errors - the date was listed as March 16 but should have been March 23 due to a snowstorm postponement, and Trustee Steve Cronin was marked as present when he was excused. Motion by Lopez Saro, second by Clark to approve with corrections. Passed unanimously."
-    },
-    {
-      "item": "Clerk's Report Discussion",
-      "body": "Trustee Zagami questioned whether listing open records requesters by name in reports was appropriate, citing court discouragement of the practice since requesters have the right to anonymity. President Maloney disagreed, saying transparency requires it. The clerk agreed to research the legal requirements and report back next month."
+      "item": "Approval of March meeting minutes",
+      "body": "Trustee Beck identified errors in the minutes regarding the meeting date (should be March 23rd, not 16th due to snowstorm postponement) and incorrect notation about who called the meeting to order. Clerk explained the discrepancy was due to agenda formatting when President Maloney was absent. Motion to approve with corrections passed unanimously."
     },
     {
       "item": "Liquor License Renewals (Item 41)",
-      "body": "Trustee Barb Ermeling moved to approve renewals with a modification for Fairfield Inn and Suites, which had incorrectly listed the entire hotel as their licensed premises. The correction limits the description to lobby, locked fridges, locked storage room, and south end hallway. Motion passed unanimously."
+      "body": "Pulled from consent agenda by Trustee Barb for discussion. She moved to approve all license renewals with a modification for Fairfield Inn and Suites, changing their premise description to 'lobby, locked fridges, and locked storage room along with the south end hallway' rather than the entire hotel. Motion passed unanimously."
     },
     {
-      "item": "Ordinance 26-008 Solid Waste Amendment",
-      "body": "Motion to approve by unidentified trustee, second by Zagami. Passed unanimously with no discussion."
-    },
-    {
-      "item": "Preliminary Assessment Resolutions for Road Reconstructions",
-      "body": "Three resolutions passed for Gelick and Alderson, Bladel Avenue, and Concord Avenue/Bay's Street reconstructions. Public Works Director Michael explained assessments only cover driveway approaches at approximately $1,000-$1,500 per property with 10-year payment options. All three resolutions passed unanimously."
+      "item": "Preliminary Assessment Resolutions",
+      "body": "Three resolutions were approved for road reconstruction projects: Resolution 26-010 for Gelick and Alderson (motion by Lopez Ferrero, passed unanimously), Resolution 26-011 for Bladel Avenue (motion by Zagami, passed unanimously), and Resolution 26-012 for Concord Avenue and Bay's Street (motion by Lopez Ferrero, passed unanimously). Public Works Director Michael explained assessments are typically $1,000-1,500 per property for driveway approaches, payable over 10 years."
     },
     {
       "item": "Kennedy Park Renovation Quarterly Update",
-      "body": "Extensive discussion occurred with multiple trustees expressing confusion about funding sources. Staff clarified the Friends of Kennedy Park foundation has $84,000, with the glow tournament proceeds still pending. Trustee Zagami pressed for more detailed information on grants applied for and fundraising activity. Trustee Ermeling noted $851,000 came from capital funds including budget surplus, stating she 'was sold on the fact that it was going to be donations and that is not the fact here.' Staff confirmed enough funds exist to complete the current phase. President Maloney confirmed no additional village funds would be committed until fundraising matches are secured. Staff agreed to provide a comprehensive timeline and funding breakdown at the next meeting."
+      "body": "Extensive discussion occurred with trustees Beck and Clark questioning funding sources and transparency. Staff explained the Friends of Kennedy Park foundation currently has $84,000, with additional funds expected from a recent glow tournament. Trustee Clark questioned the $851,000 in capital funds used, with staff explaining these were accumulated park funds and a 2024 budget surplus of $540,000. Trustee Zagami expressed concern that original messaging about donations funding the project was misleading. Staff confirmed current phase can be completed without additional village funds. Board requested more detailed financial information and a timeline for the next meeting."
     },
     {
       "item": "Remote Meeting Attendance Policy",
-      "body": "Trustee Lopez Saro moved to restrict virtual attendance to medical reasons only, require notification to clerk/administrator/chair, and prohibit remote attendance at closed sessions. Motion seconded by Zagami. Failed 3-4 with Lopez Saro, Zagami, and Olsen voting yes. A second motion by Zagami adding camera requirements also failed 3-4. Final motion by Maloney requiring on-camera attendance, notification to clerk/administrator/chair, and prohibiting closed session remote attendance passed 6-1 with Lopez Saro voting no."
+      "body": "Three motions were considered. First motion by Lopez Ferrero to restrict virtual attendance to medical reasons only, requiring notification to clerk/administrator/chair, and prohibiting remote attendance for closed sessions - failed 3-4. Second motion by Zagami adding camera requirements to Lopez Ferrero's medical-only motion - failed 3-4 (Hushen, Beck, Maloney, Clark opposed). Third motion by Maloney allowing remote attendance on camera with notification to clerk, administrator, and chair/president, prohibiting closed session remote attendance - passed 6-1 (Lopez Ferrero opposed)."
     },
     {
-      "item": "President's Appointments to Committees",
-      "body": "President Maloney presented appointments including former trustees Mark Kern on Community Development Authority and Joe Jordan on Planning Commission and Public Works Committee. Steve Cronin was appointed to Planning Commission. New trustees received assignments: Katrina Clark to Mountain Bay Metro, Lisa Beck to Safer. Zagami and Ermeling were assigned to Everest Metro Joint Finance due to their EMPD history. Discussion was ongoing at end of transcript."
+      "item": "Department Reports Highlights",
+      "body": "Public Works Director Michael announced receiving a Local Road Improvement grant for Birch Street reconstruction, marking four consecutive grant cycles totaling over $4.2 million. Police Chief Hunt reported officers were first responders to the Friday tornado on River Road, helping rescue residents. Technology Director's home was destroyed in the tornado; President Maloney mentioned efforts to find housing for his family. Fire Chief reported interviews for captain position following internal promotion to battalion chief."
     }
   ],
-  "publicComment": "Two speakers offered public comment. Joe Jordan (4102 Camp Phillips Road) gave extended remarks welcoming new trustees, praising staff, and reflecting on village fiscal conservatism and the fire department referendum. Jim Pinsel criticized President Maloney's appointment of Luis Lopez as vice president and reappointment of former trustees to committees, characterizing it as a 'good old boys' system that betrays voter intent.",
+  "publicComment": "Two speakers offered public comment. Joe Jordan (4102 Camp Phillips Road), former trustee, spoke for approximately 10 minutes welcoming new trustees, praising staff, and reflecting on his service. Jim Pinsel (address given as 'street') spoke for approximately 3 minutes criticizing President Maloney's committee appointments, arguing the president was circumventing voters' will by reappointing former trustees to committees and appointing Luis Lopez as vice president despite Lopez not receiving votes as a trustee candidate.",
   "actionItems": [
-    "Clerk to research legal requirements for listing open records requesters by name and report back next meeting",
-    "Staff to forward SWAT analysis for Mountain Bay PD building to full board",
-    "Staff to prepare comprehensive Kennedy Park timeline, funding breakdown, and Friends of Kennedy Park grant activity summary for next meeting",
-    "Friends of Kennedy Park to provide update on glow tournament proceeds and fundraising activities",
-    "Remote attendance policy updated to require camera on, notification to clerk/administrator/chair, and no remote participation in closed sessions",
-    "DC Everest School District to present on junior high building plans at June board meeting",
-    "Bike and pedestrian plan open house scheduled for June 11"
+    "March 23rd board meeting minutes approved with date and presiding officer corrections",
+    "Liquor license renewals approved for 2026-2027 with modified premise description for Fairfield Inn and Suites",
+    "Ordinance 26-008 amending chapter 66 solid waste approved",
+    "Resolution 26-010 preliminary assessment for Gelick and Alderson reconstruction approved",
+    "Resolution 26-011 preliminary assessment for Bladel Avenue reconstruction approved",
+    "Resolution 26-012 preliminary assessment for Concord Avenue and Bay's Street reconstruction approved",
+    "Remote attendance policy adopted requiring camera on, notification to clerk/administrator/chair, and prohibiting remote attendance for closed sessions",
+    "Staff to provide Friends of Kennedy Park with detailed grant application history and fundraising update for next meeting",
+    "Staff to forward Mountain Bay PD SWAT analysis document to full board",
+    "Clerk to research requirements regarding listing names in open records requests"
   ],
   "_transcript_hash": "59a162b8510779da",
   "title": "Board of Trustees - 4/21/2026",
   "url": "https://www.youtube.com/watch?v=3Fv9cQDY1sU",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-05-04T04:41:10.882213+00:00"
+  "processed_at": "2026-05-05T04:17:25.848608+00:00"
 }

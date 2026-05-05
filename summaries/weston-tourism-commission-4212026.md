@@ -2,39 +2,43 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=EnyAF7yRQ7c  
-**Summarized:** 2026-05-04 04:43 UTC
+**Summarized:** 2026-05-05 04:19 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Tourism Commission approved four grant requests totaling $22,500 for local events including the Mountain Bay Cup soccer tournament ($5,000), GG's 5K Glow Fun Run ($2,500), Hmong Wausau Festival ($10,000), and Wisconsin Valley Fair ($5,000). The commission also scheduled a special meeting for May 18th to address a missed Taste and Glow Balloon Festival application.
+The Village of Weston Tourism Commission approved four grant requests totaling $22,500 for local events including the Mountain Bay Cup soccer tournament ($5,000), GG's 5K Glow Fun Run ($2,500), Hmong Wausau Festival ($10,000), and Wisconsin Valley Fair ($5,000). A special meeting was scheduled for May 18th to address a missed Taste and Glow balloon festival application.
 
 ## Key Discussions
 ### CVB Reports
-Tim White, Visit Wausau Executive Director, presented updates on upcoming events including the Wisconsin Bike Fed summit and Marathon County Parks film festival. He reported the World Horseshoe Tournament is progressing well with registrations ahead of last year's Salt Lake City event (expecting 800+ participants vs. 644 last year), and ESPN coverage is being added. White introduced new Director of Operations Jamie Rice Hecondorf and acknowledged missing the Taste and Glow Balloon Festival grant application, taking personal responsibility. He also addressed public comment concerns, noting the greater Wausau area has approximately 2,400 hotel rooms.
+Tim White, Wausau CVB Executive Director, provided updates on upcoming events including the Wisconsin Bike Fed summit and Marathon County Parks film festival. He reported the World Horseshoe Tournament is progressing well with ESPN coverage being added, and registrations are ahead of last year's Salt Lake City event (already approaching 700 vs. 644 total). White introduced new Director of Operations Jamie Rice Hecondorf and acknowledged he missed the Taste and Glow balloon festival grant application. He addressed the public comment about hotel rooms, noting the greater Wausau area has about 2,400 rooms and large events often spill into surrounding communities. The report was acknowledged unanimously.
 
 ### Grant request - Mountain Bay Cup
-Dan Kubat, MC United Soccer Club tournament director, requested $5,000 for the May 1-3 spring tournament featuring 170 teams. He reported 68.5% of teams (116 teams) are traveling more than 90 miles, with economic impact estimated between $700,000-$1 million and 8-10,000 attendees expected. Games will be held at Peoples, Airport Park, and Greenhead Turner Center. Commissioner Husain asked if this was a new request; Kubat confirmed they previously only requested funds for the fall tournament. Renee moved to approve $5,000, seconded by Jackson. Motion passed unanimously.
+Dan Kubat from MC United Soccer Club requested $5,000 for their spring soccer tournament May 1-3, a new request separate from their fall tournament. He reported 170 teams registered with 68.5% (116 teams) coming from over 90 miles away, estimating 8,000-10,000 attendees and $700,000-$1,000,000 economic impact. The tournament will use Peoples Sports Complex, Airport Park, and Greenheck Turner Center. Motion by Renee, seconded, approved unanimously for the full $5,000 requested.
 
 ### Grant request - GG's 5K Glow Fun Run Walk
-Erica (online) presented the sixth annual event at Weston YMCA, expecting 600-700 participants with out-of-state attendees from Minnesota, Texas, Michigan, and Illinois. New this year is a cornhole tournament. The event features an evening 5K with residents encouraged to decorate along the route. WAOW radio advertising is secured. Renee moved to approve $2,500, seconded by Jackson. Motion passed unanimously.
+Erica presented online for GG's Playhouse Wausau's sixth annual event at Weston YMCA, targeting 600-700 participants. She noted they've secured WAOW advertising and are adding a cornhole tournament. The event features a foam machine as a signature attraction. Motion by Renee, second by Jackson, approved unanimously for $2,500.
 
 ### Grant request - Hmong Wausau Festival
-Elang Jang, festival chair since 2017, requested $10,000 for the August 1-2 event. Last year drew 12,000-13,000 attendees; this year expects 14,000-15,000 with addition of under-18 volleyball and soccer tournaments adding 500-800 athletes plus families. Jang noted hotels within an hour are fully booked during the event. He emphasized local vendor usage for tents, lights, and generators. Husain moved to approve $10,000, seconded by Renee. Motion passed unanimously.
+Elang Jang, festival chair since 2017, requested $10,000 for the August 1-2 event. Last year drew 12,000-13,000 attendees; this year they're adding under-18 volleyball and soccer tournaments expecting to increase attendance to 14,000-15,000. He noted hotels within an hour are typically fully booked and emphasized using local vendors. Motion by Hushin, second by Renee, approved unanimously for $10,000.
 
 ### Grant request - Wisconsin Valley Fair
-No representative attended in person or online. Commission discussed concerns about limited Weston hotel bookings (application showed only 3-4 rooms) and hotels listed were in Wausau and Rothschild, not Weston. Commission noted last year's grant was $5,000 when they requested $10,000. Tim White suggested the primary benefit is marketing/logo exposure. Husain moved to approve $5,000, seconded by Renee. Motion passed unanimously.
+No representative was present online or in person. Commissioners discussed the application, noting the fair requested $10,000 but received $5,000 last year. Concerns were raised about limited hotel impact to Weston specifically, with the application showing only 3-4 rooms booked and hotels listed being in Wausau and Rothschild rather than Weston. Motion by Hushin for $5,000, second by Renee, approved unanimously.
 
-### Taste and Glow Balloon Festival application
-Staff noted Tim White missed submitting this grant application. Since the next regular meeting is July 20th (after the event's second weekend of July), the commission scheduled a special meeting for May 18th at 4:00 PM to address this application so the organization can include the village in advertising materials.
+### Taste and Glow Application Discussion
+Staff noted Tim White missed the Taste and Glow balloon festival grant application. Since the next regular meeting July 20th would be after the event's July second weekend date, the commission scheduled a special meeting for May 18th at 4:00 PM to consider the application so the village could be included in advertising materials.
+
+### Commissioner Remarks - Hotel Room Data
+Jackson raised Jim Pensson's public comment about the 2,000 hotel room figure, suggesting the commission get documentation of actual hotel capacity. Tim White clarified there are about 1,800 rooms in the greater Wausau area and 2,400 when including Marathon County and beyond. Jackson requested a report showing hotel room totals by area for future reference.
 
 ## Public Comment
-Jim Pensson of 5500 Street, Weston spoke online, questioning how applicants can claim 2,000 hotel room bookings when Village of Weston and even the Wausau area lack that capacity. He also asked about follow-up on after-action report commitments regarding coordination with Weston businesses and restaurants, noting the application forms don't specify how many rooms are actually in Weston.
+Jim Pensson of 5500 Street, Weston, commented online questioning how applications can claim 2,000 hotel room bookings when he believes that exceeds Weston and Wausau area capacity. He also noted applications don't specify how many rooms are in Weston specifically versus other areas, and questioned follow-through on after-action report commitments to coordinate with Weston businesses.
 
 ## Action Items
-- Approved $5,000 grant for Mountain Bay Cup soccer tournament (May 1-3)
-- Approved $2,500 grant for GG's 5K Glow Fun Run Walk
-- Approved $10,000 grant for Hmong Wausau Festival (August 1-2)
-- Approved $5,000 grant for Wisconsin Valley Fair
-- Special meeting scheduled for May 18, 2026 at 4:00 PM to consider Taste and Glow Balloon Festival grant application
-- Tim White to provide report on hotel room capacity estimates for the area
+- Mountain Bay Cup soccer tournament approved for $5,000 grant
+- GG's 5K Glow Fun Run Walk approved for $2,500 grant
+- Hmong Wausau Festival approved for $10,000 grant
+- Wisconsin Valley Fair approved for $5,000 grant
+- Special meeting scheduled for May 18, 2026 at 4:00 PM to consider Taste and Glow balloon festival grant application
+- Tim White to provide report on hotel room capacity by area for commission reference
+- Next regular meeting scheduled for July 20, 2026
