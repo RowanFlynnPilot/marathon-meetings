@@ -2,46 +2,49 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=3Fv9cQDY1sU  
-**Summarized:** 2026-05-05 04:17 UTC
+**Summarized:** 2026-05-06 04:35 UTC
 
 ---
 
 ## Meeting Overview
-The Weston Board of Trustees held its first meeting with three newly elected trustees, approving liquor license renewals, three preliminary assessment resolutions for road reconstruction projects, and a remote meeting attendance policy allowing virtual participation with camera requirements but prohibiting remote attendance for closed sessions. Public comment included praise from former trustee Joe Jordan and criticism from Jim Pinsel regarding the president's committee appointments.
+The Village of Weston Board of Trustees held its first meeting with three newly elected trustees, approving routine business including liquor license renewals, road reconstruction assessments, and a solid waste ordinance amendment. The board debated remote meeting attendance policy, ultimately passing a motion allowing virtual attendance with camera requirements while prohibiting remote participation in closed sessions. Significant discussion occurred regarding Kennedy Park renovation funding transparency and the president's committee appointments, which included placing former trustees on various commissions.
 
 ## Key Discussions
 ### Public Comments
-Former trustee Joe Jordan welcomed new trustees and praised village staff, noting the importance of committee work and supporting Chief Hunt's fire station building plan. He reflected on the recent referendum defeat, stating 'it was a success' because it generated dialogue. Jim Pinsel criticized President Maloney's appointments, objecting to Luis Lopez being appointed vice president despite not being elected, and complained that former trustees removed by voters were reappointed to committees. Pinsel stated this demonstrates 'lack of transparency and disregard for the will of the people.'
+Joe Jordan (4102 Camp Phillips Road) gave an extended farewell speech as outgoing trustee, praising village staff and the 'staff recommends' process, defending the village hall construction decision, and encouraging new trustees to work through committees. Jim Pinsel (5811 Alderson Street) criticized President Maloney's appointments, stating the president 'betrayed the electorate' by appointing Luis Lopez as vice president despite Lopez not receiving votes as trustee, and by reappointing former trustees to committees after voters removed them from the board.
 
-### Approval of March meeting minutes
-Trustee Beck identified errors in the minutes regarding the meeting date (should be March 23rd, not 16th due to snowstorm postponement) and incorrect notation about who called the meeting to order. Clerk explained the discrepancy was due to agenda formatting when President Maloney was absent. Motion to approve with corrections passed unanimously.
+### Approval of March Meeting Minutes
+Discussion revealed the minutes had incorrect information - the date needed to be changed to March 23rd (meeting was postponed due to snowstorm), and corrections were needed regarding who called the meeting to order since President Maloney and Vice President Cronin were both absent. Motion by Lopez Saro, second by Clark. Approved unanimously with corrections.
 
 ### Liquor License Renewals (Item 41)
-Pulled from consent agenda by Trustee Barb for discussion. She moved to approve all license renewals with a modification for Fairfield Inn and Suites, changing their premise description to 'lobby, locked fridges, and locked storage room along with the south end hallway' rather than the entire hotel. Motion passed unanimously.
+Pulled from consent agenda by Trustee Herming. The Fairfield Inn and Suites had incorrectly listed their entire hotel as the premise description when it should only include lobby, locked fridges, locked storage room, and south end hallway. Motion by Herming with the correction, second by Olsen. Approved unanimously.
 
-### Preliminary Assessment Resolutions
-Three resolutions were approved for road reconstruction projects: Resolution 26-010 for Gelick and Alderson (motion by Lopez Ferrero, passed unanimously), Resolution 26-011 for Bladel Avenue (motion by Zagami, passed unanimously), and Resolution 26-012 for Concord Avenue and Bay's Street (motion by Lopez Ferrero, passed unanimously). Public Works Director Michael explained assessments are typically $1,000-1,500 per property for driveway approaches, payable over 10 years.
+### Ordinance 26-008 Solid Waste Amendment
+Motion to approve by [unidentified], second by Zagami. Passed unanimously with no discussion.
+
+### Preliminary Assessment Resolutions for Road Reconstructions
+Three resolutions passed for Gelick/Alderson, Bladel Avenue, and Concord Avenue/Bay's Street reconstructions. Trustee Beck asked about resident notification - Public Works Director Michael confirmed residents are notified at public information meetings and assessments typically cost $1,000-$1,500 for driveway approaches with 10-year payment options. All three resolutions passed unanimously.
 
 ### Kennedy Park Renovation Quarterly Update
-Extensive discussion occurred with trustees Beck and Clark questioning funding sources and transparency. Staff explained the Friends of Kennedy Park foundation currently has $84,000, with additional funds expected from a recent glow tournament. Trustee Clark questioned the $851,000 in capital funds used, with staff explaining these were accumulated park funds and a 2024 budget surplus of $540,000. Trustee Zagami expressed concern that original messaging about donations funding the project was misleading. Staff confirmed current phase can be completed without additional village funds. Board requested more detailed financial information and a timeline for the next meeting.
+Extensive discussion with multiple trustees expressing confusion about funding sources and fundraising progress. The Friends of Kennedy Park foundation has $84,000 including $30,000 from Mer Iron and Steel for field lights. Trustee Zagami and Clark requested more detailed information on grants applied for, fundraising activities, and a timeline of expenses. Staff confirmed approximately $851,000 came from capital funds including budget surplus and unspent pool proceeds. Trustees requested the Friends group provide more detailed updates and potentially attend a board meeting. Discussion only - no vote taken.
 
 ### Remote Meeting Attendance Policy
-Three motions were considered. First motion by Lopez Ferrero to restrict virtual attendance to medical reasons only, requiring notification to clerk/administrator/chair, and prohibiting remote attendance for closed sessions - failed 3-4. Second motion by Zagami adding camera requirements to Lopez Ferrero's medical-only motion - failed 3-4 (Hushen, Beck, Maloney, Clark opposed). Third motion by Maloney allowing remote attendance on camera with notification to clerk, administrator, and chair/president, prohibiting closed session remote attendance - passed 6-1 (Lopez Ferrero opposed).
+Extended debate on limiting virtual meeting attendance. Trustee Lopez Saro moved to restrict remote attendance to medical reasons only, with notification to clerk, administrator and chair, and prohibition on closed session attendance. Motion failed 3-4 (Lopez Saro, Zagami, Olsen in favor; Herming, Beck, Maloney, Clark opposed). A second motion by Zagami adding camera requirements also failed 3-4. Final motion by Maloney passed 6-1: allowing remote attendance on camera with notification to clerk, administrator, and chair/president, with absolute prohibition on remote closed session attendance. Zagami was the lone no vote.
 
-### Department Reports Highlights
-Public Works Director Michael announced receiving a Local Road Improvement grant for Birch Street reconstruction, marking four consecutive grant cycles totaling over $4.2 million. Police Chief Hunt reported officers were first responders to the Friday tornado on River Road, helping rescue residents. Technology Director's home was destroyed in the tornado; President Maloney mentioned efforts to find housing for his family. Fire Chief reported interviews for captain position following internal promotion to battalion chief.
+### President's Committee Appointments
+President Maloney presented appointments including keeping former trustee Mark Kern on Community Development Authority, appointing former trustee Joe Jordan to Planning Commission and Public Works, and putting Steve Cronin back on Planning Commission. New trustees assigned included Katrina Clark to Mountain Bay Metro and Lisa Beck to Safer. Discussion was ongoing at transcript end.
 
 ## Public Comment
-Two speakers offered public comment. Joe Jordan (4102 Camp Phillips Road), former trustee, spoke for approximately 10 minutes welcoming new trustees, praising staff, and reflecting on his service. Jim Pinsel (address given as 'street') spoke for approximately 3 minutes criticizing President Maloney's committee appointments, arguing the president was circumventing voters' will by reappointing former trustees to committees and appointing Luis Lopez as vice president despite Lopez not receiving votes as a trustee candidate.
+Two speakers offered public comment. Joe Jordan (former trustee) spoke at length praising village staff, defending past decisions on village hall construction and fire department funding, and welcoming new trustees. Jim Pinsel criticized President Maloney's appointment decisions, arguing that reappointing voted-out trustees to committees and selecting an unelected vice president demonstrated 'lack of transparency and disregard for the will of the people.'
 
 ## Action Items
-- March 23rd board meeting minutes approved with date and presiding officer corrections
-- Liquor license renewals approved for 2026-2027 with modified premise description for Fairfield Inn and Suites
-- Ordinance 26-008 amending chapter 66 solid waste approved
-- Resolution 26-010 preliminary assessment for Gelick and Alderson reconstruction approved
+- Minutes from March 23, 2026 meeting approved with date and presiding officer corrections
+- Liquor license renewals approved with Fairfield Inn premise description correction
+- Ordinance 26-008 amending Chapter 66 solid waste approved
+- Resolution 26-010 preliminary assessment for Gelick/Alderson reconstruction approved
 - Resolution 26-011 preliminary assessment for Bladel Avenue reconstruction approved
-- Resolution 26-012 preliminary assessment for Concord Avenue and Bay's Street reconstruction approved
-- Remote attendance policy adopted requiring camera on, notification to clerk/administrator/chair, and prohibiting remote attendance for closed sessions
-- Staff to provide Friends of Kennedy Park with detailed grant application history and fundraising update for next meeting
-- Staff to forward Mountain Bay PD SWAT analysis document to full board
-- Clerk to research requirements regarding listing names in open records requests
+- Resolution 26-012 preliminary assessment for Concord Avenue/Bay's Street reconstruction approved
+- Remote meeting policy updated: camera required for virtual attendance, notification required to clerk/administrator/chair, closed session attendance prohibited remotely
+- Staff to provide Friends of Kennedy Park with request for detailed grant applications list and fundraising updates
+- Staff to forward SWAT analysis for Mountain Bay PD building to full board
+- Clerk to research whether listing open records requesters by name is required or discouraged by law
