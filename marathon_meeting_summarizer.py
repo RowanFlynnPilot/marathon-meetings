@@ -56,7 +56,7 @@ MAX_TRANSCRIPT_CHARS = 90_000
 SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
 STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
 # Only process meetings from this date onward (YYYYMMDD) — older meetings are excluded
-GLOBAL_DATE_CUTOFF  = os.environ.get("MEETING_CUTOFF_DATE", "20260317")
+GLOBAL_DATE_CUTOFF  = os.environ.get("MEETING_CUTOFF_DATE", "20260428")
 # Video IDs to skip — duplicate parts that have been merged into a single entry
 SKIP_VIDEO_IDS = {
     "eIjwnwe6aBE",  # Education Meeting Pt.2 (merged into hNOP07iJjNY)

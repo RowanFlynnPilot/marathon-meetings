@@ -119,6 +119,8 @@ def main():
         info = state.get("processed", {}).get(vid_id)
         if info:
             title = info.get("title", title)
+            # Strip any accumulated date suffixes (e.g. "Title - 3/24/2026 - 3/24/2026")
+            title = re.sub(r'(\s*-\s*\d{1,2}/\d{1,2}/\d{2,4})+$', '', title).strip()
             source_key = source_key or info.get("source")
             doc_url = info.get("doc_url")
             print(f"[ok]  Found in state: [{source_key}] {title}")
@@ -140,6 +142,8 @@ def main():
             title_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?title:\s*"([^"]+)"', jsx)
             if title_m and title == vid_id:
                 title = title_m.group(1)
+                # Strip any accumulated date suffixes
+                title = re.sub(r'(\s*-\s*\d{1,2}/\d{1,2}/\d{2,4})+$', '', title).strip()
                 print(f"[ok]  Detected title from JSX: {title}")
             # Extract date (e.g. "March 24, 2026")
             date_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?date:\s*"([^"]+)"', jsx)
