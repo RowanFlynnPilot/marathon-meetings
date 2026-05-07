@@ -1,52 +1,49 @@
-# Marathon County HR, Finance, and Property Committee Meeting - 3/24/2026 - 3/24/2026 - 3/24/2026
+# Marathon County HR, Finance, and Property Committee Meeting - 3/24/2026 - 3/24/2026 - 3/24/2026 - 3/24/2026
 
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=0pfKykvicdA  
-**Summarized:** 2026-05-06 04:34 UTC
+**Summarized:** 2026-05-07 04:35 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County HR, Finance, and Property Committee approved several items including a claim disallowance related to a child death case, revised property values for public auction, carry forward funds resolution, and a capital assets threshold policy amendment. The committee also received introductions from new healthcare consultants and detailed financial updates for 2025 year-end and 2026 year-to-date.
+The Marathon County HR, Finance, and Property Committee approved several routine items including a claim disallowance related to a child's death in foster care, revised property sale prices for two parcels, carryforward funds resolution, and a capital assets threshold policy amendment. The committee also received presentations from new healthcare consultants National Insurance Services and comprehensive fiscal updates from the Finance Director.
 
 ## Key Discussions
 ### Claim disallowance - Mercedes Holmes
-Corporation Counsel explained that Mercedes Holmes filed a claim on December 5th related to the death of her 3-year-old child Zalen Bernett, who was placed in a treatment foster care home in Dunn County by Marathon County Department of Social Services. Investigations determined natural causes with no wrongdoing found. Outside counsel and the insurance carrier recommended disallowance due to no county liability. Chair Gibbs moved to disallow the claim in conjunction with the insurance carrier's recommendation, seconded by Supervisor Lur. The motion carried unanimously.
+Corporation Counsel presented a claim received December 5th from Mercedes Holmes relating to the death of her 3-year-old child Zalen Bernett, who was placed in a treatment foster care home licensed through another agency in Dunn County. Law enforcement and social service investigations found no wrongdoing and the death was determined natural causes. Outside counsel and the insurance carrier recommended formal disallowance. Chair Gibbs moved to disallow the claim, seconded by Supervisor Lur. Motion carried.
 
 ### Revised property values for public auction
-Staff reported two parcels at 529 Mullen Street and 738 South 3rd Avenue failed to sell twice on Wisconsin Surplus with bids not reaching appraised value. Staff requested revised minimum sale prices of $9,000 and $7,500 respectively. Chair Gibbs moved to approve, seconded by Supervisor Lur. The motion carried unanimously. Chair Robinson asked about bidders who failed to pay, and staff confirmed they are marked as non-pay and banned from future Wisconsin Surplus auctions.
+Staff reported two parcels on Wisconsin Surplus failed to sell twice, with bids not reaching appraised value. The parcel on Mullen Street was recommended for $9,000 minimum and South Third Avenue for $7,500. Chair Gibbs moved to approve the revised prices, seconded by Supervisor Lur. Motion carried unanimously. Committee Chair Robinson asked about bidders marked as non-pay and was informed they are banned from future auctions, though staff said this occurrence was rare.
 
 ### Resolution to approve carry forward funds (R20-2026)
-Finance Director Sam presented the resolution for program revenues and multi-year projects requiring carryover funds. Notable items included veterans relief fund replenishment (providing approximately three years of funding) and $142,731.39 for administration special projects including $75,000 for homelessness contract. Vice Chair Marshall asked about the Register of Deeds redacted records fund; Sam explained it's restricted by statute for redaction efforts only and offered to provide more information at a future meeting. Chair Gibbs moved approval, seconded by Supervisor Hart. The motion carried unanimously.
+Finance Director Sam presented carryforward funds including program revenues for multi-year projects and veterans relief fund replenishment. Vice Chair Marshall questioned the redacted records fund for Register of Deeds; Sam explained it's restricted by statute for redaction efforts. The committee requested future information on potential repurposing of legacy funds. Chair Gibbs moved to approve, seconded by Supervisor Hart. Motion carried.
 
 ### Capital assets threshold policy amendment
-Finance Director Sam explained the policy would raise the capitalization threshold from $5,000 to $10,000 for general assets, following GFOA guidance originally set in 2006. This determines whether items are expensed or capitalized and depreciated. Supervisor Hart moved to approve and forward to full county board, seconded by Chair Gibbs. The motion carried unanimously.
+Finance Director Sam explained the policy change would increase the capitalization threshold from $5,000 to $10,000, following GFOA guidance from 2006. This determines whether items are expensed or depreciated as capital assets. Supervisor Hart moved to approve and forward to full county board, seconded by Chair Gibbs. Motion carried unanimously.
 
 ### Introduction of healthcare consultants - National Insurance Services
-HR Director Candace introduced NIS representatives following their selection through the RFP process. Mike introduced the team including himself (28 years experience), Jordan Stanley (account management), Perry Gilfoil (plan analytics), Zack Cunningham (support), and Adam Cook (retirement income). NIS specializes in public sector clients (98-99% of clientele). They discussed evaluating the near-site ATA clinic, exploring fully insured versus self-insured options, and pharmacy benefit management. Vice Chair Marshall asked about per-member costs compared to other employers and strategies for reducing ER usage. Chair Gibbs asked about evaluation processes for insurance models. No vote was taken; this was informational.
+HR Director Candace introduced NIS representatives following the RFP award. Consultant with 28 years experience and account manager Jordan Stanley presented their team and approach. They're evaluating the near-site ATA clinic, exploring fully insured vs self-insured options, and pharmacy benefit management. Vice Chair Marshall asked about comparative employer costs and ER utilization strategies. Chair Gibbs questioned the evaluation process for insurance models. The consultants emphasized they're data-driven with no predetermined outcomes and will provide regular updates to the committee.
 
-### 2025 year-end fiscal update
-Finance Director Sam provided detailed department-by-department review of unaudited 2025 financials. Key items included: TID closure check of $257,238 from City of Wausau, unclaimed property from state of $222,752, opioid fund settlement receipts of $352,389 with total cash at $2.2 million, and ARPA fund interest surplus of approximately $800,000. Multiple departments require reclassing entries and reconciliation work continues. Chair Robinson asked about anticipated fund balance surplus; Sam indicated she would provide that figure at the next meeting once capital assets work is complete, stating it won't be zero.
-
-### 2026 year-to-date fiscal update
-Sam reported the beginning of year is aligned with expectations. She announced first quarter closeout is scheduled for May 31st, with monthly closeouts thereafter using a two-month lag to ensure accuracy. Some reclassing entries are needed, particularly moving items from treasurer's budget to non-departmental.
+### 2025 year end fiscal update
+Finance Director Sam provided detailed department-by-department review of unaudited year-end figures. Notable items included: TID closure check of $257,238 from City of Wausau, unclaimed property from state of $222,752, opioid fund with $2.2 million cash and $3.5 million in future settlements expected, and interest of $800,000 earned on ARPA fund investments. Chair Gibbs asked about tax deed property accounting. Sam indicated fund balance surplus figures would be available next meeting after capital asset reconciliation.
 
 ### Finance department quarterly update
-Finance Director Sam reported welcoming a new financial analyst for payroll, implementing quarterly closeouts with departments, providing countywide training on uniform practices, processing year-end payroll including W-2s and the 'one big beautiful bill' no tax on overtime calculations, and completing random cash audits (all successful). County Administrator Lance publicly recognized Sam and her team for extensive work on year-end processing, particularly handling the overtime tax law changes.
+Sam reported the department is fully staffed since mid-December with a new payroll analyst. They've implemented quarterly closeouts, countywide finance training, and random cash audits. Administrator Lance praised Sam and her team for handling W-2 complexities including the 'big beautiful bill' no-tax-on-overtime calculations. Chair Gibbs and Vice Chair Marshall thanked Sam for improved reporting and transparency. The first quarter will close May 31st with monthly closeouts thereafter.
 
-### County treasurer update
-Treasurer Connie reported on tax collections, monitoring delinquent parcels, attending eviction hearings and sheriff sales. The office sent 1,582 delinquent tax notice letters in March (down from 1,786 last year). She noted ongoing issues with municipalities making receiving errors, particularly with lottery credits. Supervisor Lur asked about poverty trends; Connie explained resources offered to struggling taxpayers include veterans services and family assistance. Administrator Lance clarified the county discontinued payment agreements because most resulted in NSF checks or defaults, and the 18% interest rate was eroding homeowners' equity rather than helping them.
+### County Treasurer update
+Treasurer Connie reported 1,582 delinquent tax notices sent in March (down from 1,786 last year). She detailed issues with municipal treasurers' receiving errors affecting lottery credits and tax payments. Supervisor Lur asked about poverty trends and resources for struggling taxpayers. Administrator Lance explained that payment agreements were discontinued because they increased interest burden and were frequently defaulted. The eviction process through the county's tax delinquent parcel program was described as collaborative rather than adversarial, with courts inquiring about repurchase options and relocation timeframes.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Disallowed claim of Mercedes Holmes regarding child death
-- Approved revised minimum sale prices of $9,000 for 529 Mullen Street and $7,500 for 738 South 3rd Avenue parcels for Wisconsin Surplus auction
-- Approved resolution R20-2026 for carry forward funds to 2026 budget
-- Approved capital assets threshold policy amendment raising threshold from $5,000 to $10,000 for county board consideration
-- Finance to provide fund balance surplus figure at next meeting
-- NIS healthcare consultants to provide update before budget assumptions development in early summer
-- Finance to research Register of Deeds redacted records fund usage and potential repurposing
-- Treasurer's office working with DOR on lottery credit training for municipal treasurers
-- Next committee meeting scheduled for April 8th
+- Claim of Mercedes Holmes formally disallowed
+- Revised minimum sale prices set for 529 Mullen Street ($9,000) and 738 South 3rd Avenue ($7,500) for Wisconsin Surplus auction
+- Resolution R20-2026 approved for carryforward funds to 2026 budget
+- Capital assets threshold policy amendment approved and forwarded to full county board
+- Register of Deeds to provide future briefing on redacted records fund usage and potential repurposing
+- NIS healthcare consultants to provide update before summer budget assumptions development
+- Finance to bring fund balance surplus figures to next meeting after capital asset reconciliation
+- Recommendation forthcoming to increase Social Services reserve account above current $400,000
+- Next meeting scheduled for April 8th

@@ -1,52 +1,58 @@
-# Wausau Public Health and Safety Committee Meeting - 3/23/2026 - 3/23/2026 - 3/23/2026
+# Wausau Public Health and Safety Committee Meeting - 3/23/2026 - 3/23/2026 - 3/23/2026 - 3/23/2026
 
 **Organization:** City of Wausau  
 **Source:** https://www.youtube.com/watch?v=_hS5GDGVL1c  
-**Summarized:** 2026-05-06 04:38 UTC
+**Summarized:** 2026-05-07 04:40 UTC
 
 ---
 
 ## Meeting Overview
-The Wausau Public Health and Safety Committee approved a parklet permit for Westider Diner and Lounge after the owner presented detailed plans, deferred a bartender license denial pending police chief review of rehabilitation evidence, and approved batch licenses for several events and establishments. The committee also passed ordinance updates on solid waste and repealed a redundant cell phone driving ban.
+The Wausau Public Health and Safety Committee approved a parklet permit for West Cider Diner and Lounge after the owner presented detailed plans, deferred action on one bartender license denial pending police chief review, and approved multiple license applications and summer event permits. The committee also repealed outdated ordinances, approved a solar energy partnership, and received updates on the fire department and homeless shelter transition.
 
 ## Key Discussions
-### Westider Diner and Lounge Parklet Permit
-Owner Tyler Vote presented detailed mockups of a proposed parklet at 628 North Third Avenue, explaining it would extend 4 feet into the street and 4 feet on the sidewalk, taking up two parking spaces. He noted it would provide sunny seating for breakfast customers and referenced his successful operation of a similar parklet at Malarkey's Pub. Committee member Larson initially expressed reservations but changed position after seeing the layout. The permit was approved unanimously on a motion from Watson, seconded by Larson, with a review scheduled for November 2026.
+### West Cider Diner and Lounge Parklet Permit
+Owner Tyler Vote presented detailed mockups of a proposed parklet at 628 North Third Avenue that would extend 4 feet into the street and 4 feet on the sidewalk. He explained the parklet would provide sunny seating for breakfast customers and would be lit and decorated. Alder Watson initially expressed hesitation but changed position after seeing the layout. The permit was approved unanimously with the understanding Vote would report back in November on how the summer season went.
 
 ### Theodore Davis Bartender License Denial
-Davis appeared to appeal his recommended denial, stating he made a mistake 20 years ago as a minor that has followed him throughout his life. He submitted completion paperwork for registry requirements to Chief Barnes at a previous meeting. His boyfriend Matthew Prieb also spoke in support, describing Davis as a loving person who has not reoffended. Deputy Chief Baiton indicated he was unfamiliar with the additional documentation submitted. The committee voted to defer action pending Chief Barnes' review of the rehabilitation evidence.
+Davis appeared before the committee regarding his bartender license denial recommendation. He acknowledged a mistake made 20 years ago as a minor and stated he completed registry requirements and is in ongoing therapy. His boyfriend Matthew Prieb spoke emotionally in support, emphasizing Davis has not reoffended and is a good person. The committee deferred action because evidence of rehabilitation documents submitted to Chief Barnes had not been reviewed, and Deputy Chief Baiton was unfamiliar with the materials. The item was held for the next meeting pending the chief's updated recommendation.
 
 ### Joanna Gregory Bartender License Denial
-Gregory did not appear for her scheduled hearing. The denial recommendation was included in the batch approval of licenses as recommended by staff.
+Joanna Gregory did not appear for her denial hearing. The denial was included in the batch motion that passed unanimously.
 
 ### Batch License Approvals
-The committee approved multiple licenses including summer events (Wings over Wausau, Concerts on the Square, Chalkfest, Memorial Day parade, Hope on the Block, Jazz on the River) and three establishments unanimously recommended by the liquor license review subcommittee: Oasis Arcade, rebranded Whiskey River Bar and Grill, and new ownership of Hayawa. Approved unanimously on motion from Larson, seconded by Watson.
+The committee approved summer events including Wings over Wausau, Concerts on the Square, Chalkfest, Memorial Day parade, Hope on the Block, and Jazz on the River. The liquor license review subcommittee recommended approval for Oasis Arcade, the rebranded Whiskey River Bar and Grill under new ownership, and new ownership for Hayawa. Motion by Larson, second by Watson, passed unanimously with Theodore Davis excluded pending further review.
 
-### Municipal Code Chapter 6.44 Solid Waste Disposal
-The committee approved repealing and recreating the chapter to comply with state-level changes. Assistant City Attorney Vinnie Bonino was available for questions. Approved unanimously on motion from Larson, seconded by Watson.
+### Solid Waste Disposal Ordinance Update
+Assistant City Attorney Vinnie Bonino presented the repeal and recreation of Municipal Code Chapter 6.44 to comply with evolved state regulations. Motion by Larson, second by Watson, passed unanimously without discussion.
 
-### Repeal of Handheld Mobile Phone Ordinance
-The committee voted to repeal Section 10.01.012 regarding handheld device use while driving, as state inattentive driving statutes have been amended to regulate cell phone usage, making the local ordinance redundant. Attorney Bonino confirmed the city already adopts state traffic code. Approved unanimously on motion from Watson, seconded by Larson.
+### Handheld Mobile Phone Ordinance Repeal
+The committee repealed the local cell phone ban ordinance as state inattentive driving statutes have been amended to regulate cell phone usage, making the local ordinance redundant. Bonino confirmed the city already adopts state traffic code. Motion by Watson, second by Larson, passed unanimously.
 
-### Grow Solar Central Wisconsin Partnership
-Carrie from the planning department presented a memorandum of understanding with Midwest Renewable Energy Association for a group purchasing program. The sustainability committee had unanimously recommended approval on March 5th. Committee member Sarah endorsed the program based on her personal experience with solar installation. Approved unanimously on motion from Watson, seconded by Larson.
+### Midwest Renewable Energy Solar Partnership
+Carrie from planning reported the sustainability committee voted unanimously on March 5th to move forward with this MOU for a group solar purchasing program. Alder Sarah spoke in support, noting her personal experience with solar installation and praising MREA's expertise. Motion by Watson, second by Larson, passed unanimously.
 
-### Fire Department Annual Report and Referendum Information
-Fire Chief Cop reported the department handled over 7,200 calls in 2025, averaging 20 per day. He announced that as of the previous Friday, Wausau regained ISO Class 2 status for the next four years. Upcoming public listening sessions were announced for March 31st at 1:00 PM at the tech center, April 1st at 5:00 PM at Station 2, and April 3rd at Station 1, ahead of the April 7th referendum. The report was placed on file.
+### Fire Department 2025 Annual Report
+Fire Chief Cop reported the department responded to over 7,200 calls (averaging 20 per day), setting a new record. He announced the city regained ISO Class 2 status as of Friday, which will remain for four years. The chair encouraged public review of the annual report and noted upcoming public information sessions on March 31st, April 1st at Station 2, and April 3rd at Station 1 regarding the fire department referendum on April 7th. Report placed on file.
 
-### Community Outreach and Shelter Transition
-Tracy Durante reported 415 unduplicated guests have used the WMC shelter since opening, with 740 volunteer hours in February. James Torensson, new Director of Homeless Services at Bridge Street Mission, reported the transition from WMC shelter to Bridge Street Mission emergency shelter is expected around April 20th, pending contractor confirmation on April 1st. The WMC shelter contract with First United Methodist Church was extended through April 19th to ensure no gap in service. Catholic Charities reported 99 unduplicated guests at their shelter since November 1st.
+### Tavern Activities Report
+Deputy Chief Baiton presented February 2026 as a routine month. Alder Sarah inquired about Trace Armanos restaurant's status after seeing liquor signs but the business being closed; staff will follow up with the owner. The chair noted numerous impaired driving arrests during the recent blizzard and commended patrol officers. Report placed on file.
+
+### Community Outreach and Homeless Shelter Transition
+Tracy Durante reported 415 unduplicated guests served since the WMC shelter opened and over 740 volunteer hours in February. She noted Catholic Charities saw 99 unduplicated guests since November 1st. James Torensson, new Director of Homeless Services at Bridge Street Mission, explained the transition from WMC shelter to Bridge Street Mission is expected around April 20th, pending contractor confirmation on April 1st. The WMC shelter extended its contract with First United Methodist Church through April 19th to ensure no gap in service. The committee expressed interest in touring the new facility at the ribbon cutting ceremony.
 
 ## Public Comment
-One public comment was offered at the end of the meeting by Carrie Mor Everest of 1025 Everest Boulevard. She expressed concerns about how unhoused individuals are treated during 911 emergencies at the shelter, stating she has witnessed multiple incidents over 10 months of volunteering where people were not treated ethically or professionally. She noted she was recently informed complaints should go to the Police and Fire Commission. The chair acknowledged the comments and directed her to the formal complaint process through the Police and Fire Commission.
+Carrie Mor Everest of 1025 Everest Boulevard spoke at the end of the meeting regarding concerns about treatment of unhoused individuals during 911 emergency responses at the shelter. She stated she has volunteered throughout the shelter's operation and witnessed multiple instances where she felt people were not treated ethically or professionally. She expressed frustration that complaints over 10 months had not been addressed and only recently learned about the Police and Fire Commission citizen complaint process. The chair noted formal complaint processes exist through the Police and Fire Commission.
 
 ## Action Items
-- Parklet permit approved for Westider Diner and Lounge at 628 North Third Avenue with review scheduled for November 2026
-- Theodore Davis bartender license decision deferred pending Chief Barnes' review of rehabilitation documentation
-- Joanna Gregory bartender license denied as recommended
-- All recommended license applications approved including summer events and three establishments
-- Municipal Code Chapter 6.44 solid waste disposal repealed and recreated
-- Municipal Code Section 10.01.012 cell phone driving ban repealed
-- MREA solar partnership memorandum of understanding approved
-- Fire Department annual report and tavern activities report placed on file
-- Council tour of Bridge Street Mission shelter planned following ribbon cutting ceremony
+- Approved parklet permit for West Cider Diner and Lounge at 628 North Third Avenue for summer 2026 - owner to report back in November
+- Deferred Theodore Davis bartender license decision pending Chief Barnes' review of rehabilitation evidence - to be addressed at next meeting
+- Denied Joanna Gregory bartender license application (did not appear)
+- Approved all recommended license applications including Oasis Arcade, Whiskey River Bar and Grill, and Hayawa new ownership
+- Approved summer event permits for Wings over Wausau, Concerts on the Square, Chalkfest, Memorial Day parade, Hope on the Block, and Jazz on the River
+- Approved repeal and recreation of Municipal Code Chapter 6.44 regarding solid waste disposal
+- Approved repeal of local handheld mobile phone ordinance (Section 10.01.012)
+- Approved MOU with Midwest Renewable Energy for Grow Solar Central Wisconsin group buying program
+- Fire Department to continue public information sessions on referendum (March 31, April 1, April 3)
+- Staff to follow up with Trace Armanos owner regarding business status
+- Staff to verify Days tavern point totals on running calendar
+- Committee to schedule tour of Bridge Street Mission shelter at ribbon cutting ceremony
