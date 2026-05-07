@@ -277,7 +277,29 @@ def main():
         subprocess.run(["git", "add"] + files, check=True)
         msg = f"chore: add {len(fetched)} transcript(s) for re-summarization"
         subprocess.run(["git", "commit", "-m", msg], check=True)
-        subprocess.run(["git", "push"], check=True)
+
+        # Push, with auto-retry on rejection (pull-rebase if remote moved)
+        push_result = subprocess.run(
+            ["git", "push"], capture_output=True, text=True
+        )
+        if push_result.returncode != 0:
+            stderr_text = push_result.stderr or ""
+            if "rejected" in stderr_text or "fetch first" in stderr_text:
+                print("  Remote has new commits — pulling and rebasing...")
+                rebase_result = subprocess.run(
+                    ["git", "pull", "--rebase"], capture_output=True, text=True
+                )
+                if rebase_result.returncode != 0:
+                    print(f"  Rebase failed:\n{rebase_result.stderr}")
+                    print(f"  Resolve conflicts manually and run 'git push'.")
+                    return
+                print("  Rebase complete. Retrying push...")
+                push_result = subprocess.run(
+                    ["git", "push"], capture_output=True, text=True
+                )
+            if push_result.returncode != 0:
+                print(f"  Push failed:\n{push_result.stderr}")
+                return
         print(f"[OK] Pushed. The next CI run will auto-summarize from these transcripts.")
 
         # Optionally trigger workflow
