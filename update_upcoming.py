@@ -192,7 +192,7 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
                     "date":   meeting_date.isoformat(),
                     "time":   time_str,
                     "name":   committee,
-                    "url":    f"{WESTON_CALENDAR_BASE}/about-weston/calendar",
+                    "url":    f"{WESTON_CALENDAR_BASE}/agendacenter",
                     "source": "weston",
                 }
                 rule_added += 1
