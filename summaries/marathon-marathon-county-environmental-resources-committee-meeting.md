@@ -3,38 +3,38 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=OLzrpSp3Dfg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000  
-**Summarized:** 2026-05-09 13:26 UTC
+**Summarized:** 2026-05-10 04:43 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Environmental Resources Committee approved two rezoning petitions unanimously and voted to forward a modified fee waiver resolution to the county board that will only waive reconnect fees for properties impacted by the April 17, 2026 tornado. The committee also received educational presentations from the Solid Waste, Parks Recreation and Forestry, and Conservation Planning and Zoning departments.
+The Marathon County Environmental Resources Committee approved two rezoning petitions and voted to forward a modified fee waiver resolution to the county board that will only waive septic system reconnect fees for tornado victims, rather than the broader fee waiver originally proposed. The committee also received educational presentations from Solid Waste, Parks Recreation and Forestry, and Conservation Planning and Zoning departments.
 
 ## Key Discussions
-### Approval of March 31, 2026 committee minutes
-Supervisor Sefeld moved to approve the minutes with Supervisor Drebeck seconding. The motion carried unanimously with no discussion.
+### Approval of March 31st, 2026 committee minutes
+Supervisor Sefeld made the motion to approve and Supervisor Drebeck seconded. The motion carried with no opposition on a voice vote.
 
-### Tim Veland rezoning petition (Town of Green Valley)
-Land Use Specialist Garrett Pogle presented the staff report for rezoning from Urban Residential and General Agriculture to Rural Residential. The Town of Green Valley recommended approval on March 10, 2026. No public testimony was offered for or against. Supervisor Drebeck moved to approve based on findings of fact and conclusions of law. Supervisor Kurt seconded. Motion carried unanimously.
+### Tim Veland rezoning petition - Town of Green Valley
+Garrett Pogle presented the staff report for rezoning from urban residential and general agriculture to rural residential for a proposed land division. The Town of Green Valley recommended approval on March 10, 2026. No public testimony was offered for or against. Supervisor Drebeck moved to approve based on findings of fact and town approval, Supervisor Kurt seconded. Motion carried unanimously.
 
-### Jeffrey and Cynthia Schmidtz rezoning petition (Town of McMillan)
-Garrett Pogle presented the petition to rezone from Conservancy Recreation to General Agriculture. Supervisor Leur asked about the conservancy nature and potential loss of natural areas. Pogle explained the property contains a home and horse riding stable, and rezoning would make the structures conforming uses. The Town of McMillan recommended approval on April 20, 2026. No public testimony was offered. Supervisor Sefeld moved to approve. Supervisor Drew seconded. Motion carried unanimously.
+### Jeffrey and Cynthia Schmidtz rezoning petition - Town of McMillan
+Staff presented the petition to rezone from Conservancy Recreation to General Agriculture. Supervisor Leur asked about conservancy implications; staff explained the property has a home and horse riding stable, and rezoning makes these conforming uses rather than non-conforming. No natural areas would be lost. Town of McMillan recommended approval on April 20, 2026. No public testimony was offered. Supervisor Sefelt moved to approve, Supervisor Drew seconded. Motion carried unanimously.
 
-### Fee waiver for April 17, 2026 severe weather impacts
-Director Lori Mskimmons presented a proposal to waive county zoning and pouts fees for tornado-damaged properties. Supervisors Drebeck and Drew expressed concerns about fairness to future disaster victims and precedent-setting. Eric Vogel asked if homeowner insurance would cover fees. After significant debate, Supervisor Sefeld moved to forward the resolution. Supervisor Leur seconded. Supervisor Drebeck then amended the motion to only waive reconnect fees (not other zoning or pouts fees). Supervisor Kurt seconded the amendment. The amendment passed, and the amended resolution passed on a non-unanimous vote to forward to the full county board.
+### Fee waivers for April 17, 2026 severe weather victims
+Director Lori Mskimmons presented staff recommendation to waive county zoning and septic system fees for properties damaged by the April 17 tornado affecting Ringle, Kronenwetter, Easton, and Weston. Supervisor Drew questioned fairness of waiving fees for declared disasters but not individual incidents. Supervisor Drebeck expressed similar concerns and proposed an amendment to limit waivers to only septic system reconnect fees ($160 each) rather than all zoning and pouts fees. The amendment was seconded by Supervisor K and passed. The amended resolution then passed on a non-unanimous voice vote to forward to the county board.
 
-### Solid Waste Department overview
-Director Dave Hagen Busher presented on department operations including the landfill facility, renewable natural gas partnership with Vidi Energy, leachate treatment challenges, and upcoming capital projects. He noted the department operates as an enterprise fund with 11 FTE staff processing about 1,000 tons of waste daily.
+### Solid Waste Department educational presentation
+Director Dave Hagen Busher provided an overview of landfill operations, explaining the facility accepts about 1,000 tons daily and has partnerships with Portage and Shawano counties. He discussed the renewable natural gas partnership with Vidi Energy, significant capital expenses for expansion and closure ($4-6 million projects), and the upcoming requirement by 2032 for on-site leachate treatment due to PFAS concerns. Marilyn Bend praised the department for keeping regional costs competitive.
 
-### Parks, Recreation and Forestry Department overview
-County Forest Administrator Tom Lovelin presented on behalf of Director Jamie. He covered the joint city-county park system, 17 county parks, 30,700 acres of county forest, and the Nine Mile County Forest recreation area. Supervisor Sefeld announced Tom Lovelin is retiring June 1st after nearly 30 years of service. The committee thanked him for his service.
+### Parks, Recreation, and Forestry Department educational presentation
+Tom Lovelin, County Forest Administrator, presented on behalf of absent director Jamie. He explained the department serves both city and county with 44 full-time and 120 seasonal employees, manages 17 county parks and 30,700 acres of county forest. A Nine Mile County Forest study showed out-of-town visitors generate $3.25 million for the local economy. Supervisor Sefelt announced Tom's upcoming retirement on June 1st after nearly 30 years of service, with Joe Tucker selected as his replacement.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Forward amended fee waiver resolution to county board (waiving only pouts reconnect fees for tornado-impacted properties)
-- Forward James Offer/David Tract rezoning approval to county board
-- Forward Jeffrey and Cynthia Schmidtz rezoning approval to county board
-- CPZ staff to track costs and requests related to fee waiver program
-- Town of Green Valley and Town of McMillan to update comprehensive plans to reflect zoning changes if applicable
+- Forward amended resolution to county board waiving only septic system reconnect fees for properties damaged by April 17, 2026 severe weather
+- Forward Tim Veland rezoning petition (urban residential/general agriculture to rural residential) to county board for approval
+- Forward Jeffrey and Cynthia Schmidtz rezoning petition (Conservancy Recreation to General Agriculture) to county board for approval
+- Track costs and requests related to tornado fee waivers for future policy development
+- Schedule summer educational meeting on conservation topics with Conservation Director Kirsty Heiden
