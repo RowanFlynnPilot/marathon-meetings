@@ -60,7 +60,7 @@
       "title": "Marathon County Regular Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-      "processed_at": "2026-05-11T04:59:18.645146+00:00",
+      "processed_at": "2026-05-12T04:37:39.523667+00:00",
       "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
     "CIhVYLRBgok": {
@@ -81,14 +81,14 @@
       "title": "Marathon County Health & Human Services Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
-      "processed_at": "2026-05-11T04:59:46.830487+00:00",
+      "processed_at": "2026-05-12T04:38:10.386593+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
     "OLzrpSp3Dfg": {
       "title": "Marathon County Environmental Resources Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
-      "processed_at": "2026-05-11T04:58:47.539726+00:00",
+      "processed_at": "2026-05-12T04:37:08.130083+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
     "6QSQOUqDnhM": {
@@ -104,6 +104,20 @@
       "doc_url": "https://wausauwi.portal.civicclerk.com/event/2191/overview",
       "processed_at": "2026-05-07T04:34:49.150383+00:00",
       "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-5526.md"
+    },
+    "bb_744112": {
+      "title": "Regular Meeting - 2026-05-11",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=744112",
+      "processed_at": "2026-05-12T04:35:54.851295+00:00",
+      "summary_file": "summaries/school-board-regular-meeting-2026-05-11.md"
+    },
+    "Ay3CNwxe6g4": {
+      "title": "Community Life and Public Safety - 5/4/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-12T04:36:36.878321+00:00",
+      "summary_file": "summaries/weston-community-life-and-public-safety-542026.md"
     }
   }
 }
