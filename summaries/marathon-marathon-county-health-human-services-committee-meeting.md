@@ -3,38 +3,37 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=ZzEeG1Z64pg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000  
-**Summarized:** 2026-05-12 04:38 UTC
+**Summarized:** 2026-05-13 04:46 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Health & Human Services Committee held an educational session introducing new committee members to department operations and responsibilities. No votes were taken on policy matters; the meeting focused on presentations from the Health Department, Veterans Service Office, and Aging and Disability Resource Center, with administrative overviews of Social Services and committee jurisdiction.
+The Marathon County Health & Human Services Committee held an educational orientation meeting for new and returning board members, reviewing committee structure, duties, and receiving department presentations from Health, Social Services, Veterans Services, and ADRC. The only formal action was unanimous approval of April 1st meeting minutes.
 
 ## Key Discussions
-### Approval of April 1st meeting minutes
-Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all in favor.
+### Approval of April 1st Meeting Minutes
+Supervisor Cavelli moved to approve the minutes, Vice Chair Rosenberg seconded. The motion passed unanimously with all members voting in favor.
 
-### Review of standing committee jurisdiction and responsibilities
-Administrator Lance Leonard explained the committee's jurisdiction over the Veterans Service Department, Social Services Department, Health Department, North Central Health Care, and the Aging Disability Resource Center. He outlined reporting relationships with statutory boards including the Social Services Board, Veterans Service Commission, Board of Health, and Transportation Coordinating Committee. Chair Boots noted the committee will focus on developing a new strategic plan by December 2025.
+### Committee Structure and Ordinance Review
+Administrator Lance Leonard explained the committee's jurisdiction under section 2.04 sub5, including oversight of Veterans Services, Social Services, Health Department, North Central Health Care, and ADRC. He noted the committee receives input from statutorily required bodies including the Social Services Board, Veterans Service Commission, Transportation Coordinating Committee, and Board of Health, though these bodies provide guidance rather than direct oversight.
 
-### Health Department presentation
-Health Officer Caitlyn Suginaka presented on the department's 37.6 FTE staff across four divisions: environmental health (over 1,200 licenses for restaurants, pools, campgrounds), nursing/communicable disease, community health improvement, and administration. She highlighted new initiatives including public health vending machines stocked with free tick kits and harm reduction supplies, the Nurse Family Partnership program graduating its first two-year-olds, and a new FTE position for homeless system response. Administrator Leonard noted the department's budget is approximately $5 million with about half from tax levy.
+### Health Department Presentation
+Health Officer Caitlyn Suginaka presented on the department's mission to prevent disease, promote health, and protect from environmental hazards. She highlighted over 1,200 licenses overseen, public health vending machines providing free resources like tick kits, the Nurse Family Partnership program now graduating its first two-year-olds, and a new homeless system response position funded by the county and city partnership. The department has 37.6 FTE across environmental health, nursing, community health improvement, and administrative teams.
 
-### Social Services Department overview
-Administrator Leonard provided an overview of the department's approximately 140 FTE staff and $22 million budget with approximately $7 million in tax levy. He described divisions including child welfare, youth justice, children's long-term support, economic support, and child support. He highlighted the successful Family Keys program, a housing stability pilot with Lacrosse and Wood counties that addresses root causes of housing instability among child welfare and youth justice populations.
+### Social Services Department Overview
+Administrator Leonard presented on behalf of Director Christa (not present), explaining the department's 140 FTE handling child welfare, youth justice, children's long-term support, economic support, and child support. He highlighted the successful Family Keys pilot program addressing housing instability, noting it was substantially changed based on board feedback. The department's $22 million budget includes about $7 million in tax levy.
 
-### Veterans Service Office presentation
-VSO Aaron Galindo reported his office increased to 3.0 FTE in 2025 and handled 8,149 customer interactions, up from approximately 5,900 the prior year. He noted veterans received $44 million annually in benefits and $2.6 million in retroactive payments in 2025. Galindo discussed priorities including surviving spouse benefits, housing stability through partnership with Center for Veterans Issues, and suicide prevention efforts noting Marathon County had 30 suicides in 2025 with seven being veterans. Supervisor Kremes asked about regional coordination; Galindo explained state statute requires each county to have its own VSO and his office maintains good relationships with neighboring counties.
+### Veteran Service Department Presentation
+Veteran Service Officer Aaron Galindo reported his small 3.0 FTE department had 8,149 interactions in 2025, up significantly from 5,900. He noted $44 million annually comes into the county through veteran benefits, with $2.6 million in retroactive payments in 2025 alone. He discussed priorities including surviving spouse benefits, housing stability through HUD-VASH partnerships, and suicide prevention (noting 7 of 30 county suicides in 2025 were veterans). Galindo acknowledged being understaffed but doing well with current resources.
 
-### Aging and Disability Resource Center presentation
-Executive Director Mike Ray explained the ADRC serves four counties (Marathon, Lincoln, Langlade, Wood) with approximately 60 FTE staff and 385-400 volunteers. About 11% of their budget comes from county levy. He described services including information and assistance, caregiver support, dementia care specialists, falls prevention classes, and the Meals on Wheels nutrition program. Ray noted significant financial challenges as federal funding has remained flat while nutrition costs increased 40-45% over four years. Marathon County's contribution is $413,135. Vice Chair Rosenberg thanked the program for culturally appropriate food service at the Hmong American Center.
+### ADRC Presentation
+Executive Director Mike Ray explained the four-county (Marathon, Lincoln, Langlade, Wood) organization serves as a one-stop shop for aging and disability services, including Meals on Wheels. He noted significant financial challenges with nutrition costs up 40-45% over four years while federal funding remained flat. The organization hadn't requested a levy increase from 2011 until 2024, demonstrating fiscal efficiency. Marathon County's contribution is $413,135.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- North Central Health Care will be scheduled for a separate full presentation before the committee
-- ADRC Executive Director Mike Ray will present annual report data to the full board
-- Chair Boots will bring strategic plan information to upcoming meetings
+- Schedule North Central Healthcare for a separate full presentation before the committee
+- Chair Boots to present strategic plan information at upcoming meetings
 - Next meeting scheduled for Wednesday, June 3rd at 3:00 PM (corrected from initially stated May 29th)
-- Committee members invited to email Chair Boots and Administrator Leonard with items for future agendas
+- Committee members encouraged to email Chair Boots and Administrator Leonard with agenda items for future meetings

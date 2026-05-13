@@ -60,7 +60,7 @@
       "title": "Marathon County Regular Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-      "processed_at": "2026-05-12T04:37:39.523667+00:00",
+      "processed_at": "2026-05-13T04:46:08.510433+00:00",
       "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
     "CIhVYLRBgok": {
@@ -81,14 +81,14 @@
       "title": "Marathon County Health & Human Services Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
-      "processed_at": "2026-05-12T04:38:10.386593+00:00",
+      "processed_at": "2026-05-13T04:46:37.780494+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
     "OLzrpSp3Dfg": {
       "title": "Marathon County Environmental Resources Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
-      "processed_at": "2026-05-12T04:37:08.130083+00:00",
+      "processed_at": "2026-05-13T04:45:39.313734+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
     "6QSQOUqDnhM": {
@@ -118,6 +118,20 @@
       "doc_url": null,
       "processed_at": "2026-05-12T04:36:36.878321+00:00",
       "summary_file": "summaries/weston-community-life-and-public-safety-542026.md"
+    },
+    "j64Gj2ean2k": {
+      "title": "Public Works Committee - 5/11/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-13T04:44:01.399883+00:00",
+      "summary_file": "summaries/weston-public-works-committee-5112026.md"
+    },
+    "eX7VOuywzb8": {
+      "title": "Plan Commission - 5/11/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-13T04:45:05.591999+00:00",
+      "summary_file": "summaries/weston-plan-commission-5112026.md"
     }
   }
 }
