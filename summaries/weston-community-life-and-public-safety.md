@@ -1,0 +1,48 @@
+# Community Life and Public Safety
+
+**Organization:** Village of Weston  
+**Source:** https://www.youtube.com/watch?v=Ay3CNwxe6g4  
+**Summarized:** 2026-05-17 20:02 UTC
+
+---
+
+## Meeting Overview
+The Village of Weston Community Life and Public Safety Committee approved amendments to nuisance ordinances, an e-bike ordinance with emoto restrictions, mobile food vendor fire inspection requirements, address corrections, and a raze order for a deteriorated structure. Public comment raised concerns about the new farmers market location and code enforcement follow-up.
+
+## Key Discussions
+### Department Reports
+Staff reported that 3020 Mountain View Avenue will be removed from the code enforcement roll after a successful property auction and new owner permit submissions. Chief Hunt noted the police department had 2,394 calls in March (77 per day), 410 traffic stops, and 281 citations issued. The department has hired its 40th officer with start dates staggered through January. Two SROs work summer zoning violations for Weston, Rothschild, and Schofield. Motion to acknowledge reports for items 5, 6, and 7 was made by Sherwanka and passed unanimously.
+
+### Chapter 50 Nuisance Amendments
+Committee reviewed final copy of nuisance ordinance amendments previously discussed, including tree limb height requirements of 14 feet over streets and 10 feet over walkways. Trustee Olsen moved to recommend approval to the Board of Trustees, seconded by Campke. Motion passed unanimously.
+
+### E-bicycle Ordinance
+Extensive discussion focused on emotos (electric dirt bike-style vehicles). Chief Hunt strongly advocated prohibiting emotos on roadways and sidewalks, comparing them to unlicensed dirt bikes. Committee debated whether electric scooters should be exempted for children's use, with Chief suggesting officer discretion and potentially exempting 'kids play scooters.' The committee agreed to add language prohibiting emotos from roadways, sidewalks, trails, and public property. Olsen moved to recommend approval with emoto restrictions, seconded by Sherwanka. Motion passed unanimously.
+
+### Overnight Parking Regulations
+Trustee Tolson presented research showing Weston's 12-hour parking restriction (4am-4pm) is significantly longer than other municipalities which typically use 5-hour windows. Public Works Director Michael suggested either eliminating the overnight parking restriction entirely and signing specific problem areas, or matching Rothschild's ordinance. Chief Hunt opposed eliminating overnight parking, preferring uniform rules that give officers time to clear cars before plows arrive. The $10 citation amount was noted. Committee agreed to table discussion until July, with Michael to identify 6-8 specific problem areas that need signage.
+
+### Crosswalk on Alderson Street
+Mount Olive Church requested a crosswalk between their facility and DC Everest school parking lot they use on Sundays. Staff estimated $2,000-3,000 for a basic crosswalk or $25,000-30,000 for a lighted system. Committee expressed reluctance to fund the crosswalk, noting no accidents have occurred. Motion by Olsen, seconded by Sherwanka, to recommend board approval contingent on Mount Olive covering installation costs. Motion passed unanimously. Michael will contact Mount Olive about cost-sharing.
+
+### Mobile Food Vendor Fire Inspections
+Fire Chief explained a regional agreement with Wisconsin Rapids, Marshfield, Stevens Point, Plover, Rib Mountain, and Safer allowing mutual recognition of food truck fire inspections. Once inspected by any participating department, trucks receive a sticker valid across all jurisdictions. Chief noted Wausau declined to participate. Fire Marshal Marty recently failed a food truck inspection due to improper LP gas piping and unsecured propane containers. Sherwanka moved to approve Ordinance 26-8, seconded by Campke. Motion passed unanimously.
+
+### Address Corrections for E911 Compliance
+Staff presented three addressing errors: 5915 Delicoski Street (duplex needing split addresses), Ross Avenue properties out of sequence, and 2211 Radkey Avenue requiring even-number correction. Chief Hunt added another issue on Delicoski - an eightplex with nine separate addresses including a utility room. Motion to recommend approval to Board of Trustees passed unanimously.
+
+### Raze Order for 4104 Shore Avenue
+Staff requested authorization to begin raze proceedings on a structure abandoned since 2010-2011. The fire department previously declined a training burn due to unsafe conditions. Staff discovered chickens being housed in the structure during a previous investigation. Current owners are up to date on taxes and prefer the village proceed with demolition; costs will be added to their tax roll. Motion by Olsen, seconded by Campke, passed unanimously.
+
+## Public Comment
+Jim Senalt spoke regarding multiple agenda items. He criticized the new farmers market location, predicting the park's grassy areas would be destroyed by vehicles parking on grass. He noted this may violate village code prohibiting grass parking and questioned whether ADA-compliant handicap spaces on grass meet requirements for firm, level surfaces. He questioned the origin of new fire inspection requirements for food trucks and raised concerns about code enforcement accountability, noting some cases have been pending for years with no visible progress.
+
+## Action Items
+- Recommend Chapter 50 nuisance amendments to Board of Trustees for approval
+- Recommend e-bike ordinance with emoto prohibition on roadways, sidewalks, trails and public property to Board of Trustees
+- Public Works Director to identify 6-8 specific areas requiring winter parking signage for July meeting
+- Michael to contact Mount Olive Church regarding cost-sharing for Alderson Street crosswalk
+- Approve Ordinance 26-8 for mobile food vendor fire inspection requirements
+- Recommend address corrections to Board of Trustees for E911 compliance
+- Authorize staff to begin raze proceedings for 4104 Shore Avenue
+- Staff to investigate property complaint at Sternberg and South Timber regarding furniture and dumpster
