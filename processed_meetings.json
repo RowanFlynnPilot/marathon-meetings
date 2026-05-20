@@ -60,7 +60,7 @@
       "title": "Marathon County Regular Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-      "processed_at": "2026-05-19T05:02:03.222045+00:00",
+      "processed_at": "2026-05-20T05:11:49.255480+00:00",
       "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
     "CIhVYLRBgok": {
@@ -81,14 +81,14 @@
       "title": "Marathon County Health & Human Services Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
-      "processed_at": "2026-05-19T05:02:33.985201+00:00",
+      "processed_at": "2026-05-20T05:12:29.869642+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
     "OLzrpSp3Dfg": {
       "title": "Marathon County Environmental Resources Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
-      "processed_at": "2026-05-19T05:01:32.862812+00:00",
+      "processed_at": "2026-05-20T05:11:20.856497+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
     "6QSQOUqDnhM": {
@@ -116,22 +116,57 @@
       "title": "Community Life and Public Safety",
       "source": "weston",
       "doc_url": null,
-      "processed_at": "2026-05-19T05:01:00.807354+00:00",
+      "processed_at": "2026-05-20T05:10:46.325784+00:00",
       "summary_file": "summaries/weston-community-life-and-public-safety.md"
     },
     "j64Gj2ean2k": {
       "title": "Public Works Committee",
       "source": "weston",
       "doc_url": null,
-      "processed_at": "2026-05-19T05:03:39.964104+00:00",
+      "processed_at": "2026-05-20T05:13:35.701365+00:00",
       "summary_file": "summaries/weston-public-works-committee.md"
     },
     "eX7VOuywzb8": {
       "title": "Plan Commission",
       "source": "weston",
       "doc_url": null,
-      "processed_at": "2026-05-19T05:02:59.073131+00:00",
+      "processed_at": "2026-05-20T05:12:56.394538+00:00",
       "summary_file": "summaries/weston-plan-commission.md"
+    },
+    "bb_746488": {
+      "title": "Special Meeting - 2026-05-18",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=746488",
+      "processed_at": "2026-05-20T05:03:38.566759+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-05-18.md"
+    },
+    "bb_744162": {
+      "title": "Committee of the Whole Meeting - 2026-05-18",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=744162",
+      "processed_at": "2026-05-20T05:03:51.704694+00:00",
+      "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-05-18.md"
+    },
+    "YQ-B8Dd3ltU": {
+      "title": "Board of Trustees - 5/18/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-20T05:06:16.239712+00:00",
+      "summary_file": "summaries/weston-board-of-trustees-5182026.md"
+    },
+    "KaLahH4JieQ": {
+      "title": "Finance and Human Resources Committee - 5/18/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-20T05:08:05.718946+00:00",
+      "summary_file": "summaries/weston-finance-and-human-resources-committee-5182026.md"
+    },
+    "ee6clAtgrYw": {
+      "title": "Tourism Commission - 5/18/2026",
+      "source": "weston",
+      "doc_url": null,
+      "processed_at": "2026-05-20T05:09:59.484560+00:00",
+      "summary_file": "summaries/weston-tourism-commission-5182026.md"
     }
   }
 }
