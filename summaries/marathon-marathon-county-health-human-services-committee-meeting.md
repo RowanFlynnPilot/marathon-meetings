@@ -3,42 +3,37 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=ZzEeG1Z64pg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000  
-**Summarized:** 2026-05-21 05:11 UTC
+**Summarized:** 2026-05-22 05:02 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Health & Human Services Committee held an organizational/educational meeting for new board members, featuring presentations from the Health Department, Veteran Services, and Aging Disability Resource Center. The only action taken was approval of April 1st meeting minutes. Department heads provided overviews of their missions, budgets, and key initiatives including homelessness response, veteran suicide prevention, and nutrition programs facing funding challenges.
+The Marathon County Health & Human Services Committee held an educational meeting to orient new board members on committee structure, jurisdiction, and department operations. No policy votes were taken; the meeting focused on presentations from department heads covering the Health Department, Social Services, Veteran Service Office, and Aging Disability Resource Center.
 
 ## Key Discussions
 ### Approval of April 1st meeting minutes
-Supervisor Cavelli made a motion to approve the minutes. Vice Chair Rosenberg seconded. The motion passed unanimously with all members voting aye.
+Supervisor Cavelli moved to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with no discussion.
 
-### Standing Committee Ordinance Review
-Administrator Lance Leonard explained the committee's structure under section 2.04 sub5, outlining jurisdiction over Health Department, Social Services, and Veteran Services as direct county departments, plus North Central Health Care and Aging Disability Resource Center as multi-county entities. He explained the committee's relationship to subordinate bodies including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, Board of Health, and North Central Community Action Program.
+### Standing committee ordinances and jurisdiction review
+Administrator Leonard explained the committee's structure under section 2.04 sub5 of county ordinances. He detailed reporting relationships with Health Department, Social Services, Veteran Service Office, North Central Health Care, and ADRC. He explained the committee will hear from statutory bodies including Social Services Board, Veterans Service Commission, Transportation Coordinating Committee, Board of Health, and North Central Community Action Program. Chair Boots noted the strategic plan development will be a major focus for the coming year.
 
-### Health Department Presentation
-Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting from environmental hazards. The department has 37.6 FTE across four divisions: environmental health (1,200+ licenses), nursing/communicable disease, community health improvement, and administration. She highlighted public health vending machines with free tick kits and harm reduction supplies, the Nurse Family Partnership program graduating its first two-year-olds, and the new homelessness system response FTE position created from the previous session's task force. About half of the $5 million budget is tax levy, with environmental health designed to be self-supporting through fees.
+### Health Department presentation
+Health Officer Caitlyn Suginaka presented on the department's mission covering food/water safety, infectious disease prevention, family health programs, and environmental health. She highlighted the Nurse Family Partnership program graduating its first two-year-olds, public health vending machines offering free tick kits and harm reduction supplies, and a new homeless system response position. The department has 37.6 FTE across environmental health, nursing, community health improvement, and administrative teams. Administrator Leonard noted approximately half of the $5 million budget is tax levy with significant intergovernmental grant revenue.
 
-### Social Services Department Overview
-Administrator Leonard presented on behalf of Director Christa (not present), describing the department's nearly 140 FTE covering child welfare, youth justice, children's long-term support, economic support, and child support. Of the $22 million budget, approximately $7 million is tax levy. He highlighted the successful Family Keys pilot program addressing housing instability, noting the program was substantively changed based on board feedback and has been very successful helping families who had never had bank accounts or been on leases.
+### Social Services Department overview
+Administrator Leonard covered Social Services in Director Christa's absence. The department has nearly 140 FTE working in child welfare, youth justice, children's long-term support, economic support, and child support. He highlighted the successful Family Keys housing stability pilot program developed with state funding and county board input, which addresses housing instability root causes for families. The department's $22 million budget includes about $7 million in tax levy.
 
-### Veteran Services Department Presentation
-VSO Erin Galindo reported his 3.0 FTE department had 8,149 interactions in 2025, up from 5,900 the previous year. Veterans received $44 million annually in benefits plus $2.6 million in retroactive payments in 2025. Key initiatives include surviving spouse benefits outreach (DIC can provide $1,800-$2,400/month tax-free), housing stability partnerships with Center for Veterans Issues establishing a local office, and suicide prevention efforts noting that of Marathon County's 30 suicides in 2025, seven were veterans. The department is exploring the Staff Sergeant Gordon Fox VA suicide prevention grant. Supervisor Kremes asked about regional coordination; Galindo explained state statute requires each county have a VSO but veterans can work with any county's office.
+### Veteran Service Office presentation
+VSO Erin Galindo reported the office increased to 3.0 FTE in 2025 and had 8,149 client interactions, up from 5,900 the previous year. He noted $44 million in annual VA benefits flowing to Marathon County veterans, with $2.6 million in retroactive payments in 2025. Key initiatives include surviving spouse DIC benefits outreach, housing stability through HUD-VASH partnerships, and suicide prevention efforts following 7 veteran suicides among 30 total county suicides in 2025. Supervisor Kremes asked about regional cooperation; Galindo explained state statute requires each county have its own VSO and described good working relationships with neighboring counties using shared VetPro software.
 
-### Aging Disability Resource Center Presentation
-Executive Director Mike Ray described the four-county ADRC (Marathon, Lincoln, Langlade, Wood) serving as the one-stop shop for aging and disability services with approximately 60 FTE and 385-400 volunteers. About 11% of budget is county levy ($413,135 from Marathon County for 2026). He emphasized severe financial challenges in the nutrition/Meals on Wheels program, with federal funding flat since 2024 while food costs increased 40-45% over four years, forcing reduced meals and service days. Wisconsin is number one in falls and falls-related injuries nationally. Vice Chair Rosenberg praised the culturally appropriate meal program at the Hmong American Center.
-
-### Next Meeting Date
-The agenda incorrectly listed May 29th as a Wednesday. Vice Chair Rosenberg and Supervisor Kremes caught the error. The correct next meeting date was confirmed as Wednesday, June 3rd at 3 PM.
+### ADRC presentation
+Executive Director Mike Ray explained the four-county ADRC (Marathon, Lincoln, Langlade, Wood) provides aging and disability services as a one-stop shop. He described nutrition programs, caregiver support, dementia care specialists, falls prevention, and Medicare/Medicaid benefit assistance. The organization has about 60 FTE plus 385-400 volunteers. Ray noted severe financial challenges with nutrition program costs up 40-45% in four years while federal Older Americans Act funding remains flat at 2024 levels. Marathon County's levy contribution is $413,135. Vice Chair Rosenberg thanked the program for culturally appropriate meals at the Hmong American Center.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- April 1st meeting minutes approved unanimously
-- North Central Healthcare to be scheduled for separate full presentation before the committee
-- ADRC Executive Director Mike Ray to present full annual report with 2025 data to full county board
-- Committee members to email Chair Boots and Administrator Leonard with items for future agendas
-- Chair Boots to bring strategic plan discussion items to upcoming meetings
-- Next meeting scheduled for Wednesday, June 3rd at 3 PM
+- Schedule North Central Healthcare for separate full presentation before committee
+- Next meeting scheduled for Tuesday, June 3rd at 3 PM (corrected from initially stated May 29th)
+- Committee members should email Chair Boots and Administrator Leonard with future agenda item requests
+- Chair Boots will bring strategic plan materials to upcoming meetings
