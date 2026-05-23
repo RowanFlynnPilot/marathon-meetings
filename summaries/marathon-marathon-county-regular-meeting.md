@@ -3,41 +3,41 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=WD9kixgx6oY  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000  
-**Summarized:** 2026-05-22 05:02 UTC
+**Summarized:** 2026-05-23 04:41 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Board of Supervisors held an adjourned organizational meeting where they approved committee appointments, elected two at-large members to the Executive Committee, and unanimously passed a resolution reducing landfill tipping fees for disaster debris following the recent tornado and flooding. The fee reduction, from $65/ton to approximately $36.94/ton for certified disaster debris, was brought directly from the Solid Waste Management Board after severe weather devastated parts of Ringle and other communities.
+The Marathon County Board of Supervisors held an adjourned organizational meeting where they approved committee appointments, elected Supervisors Hapa and Arstead to at-large executive committee positions, and unanimously approved a modified landfill tipping fee structure to provide relief for residents affected by recent severe weather and tornado damage in the Ringle area.
 
 ## Key Discussions
-### Committee Appointments
-Chair Gibbs delivered remarks emphasizing that appointments were developed with Vice Chair Boots to increase diversity of perspective, ensure leadership development for newer supervisors (34% are in first or second term), and honor supervisor preferences. The motion to approve both county board chair and administrator appointments together was made by Supervisor Cavelli and seconded by Supervisor Crims. The motion carried but was not unanimous. Supervisor Mask noted the system marked him absent but he wished to be recorded as voting aye.
+### Committee appointments
+Chair Gibbs delivered remarks emphasizing leadership responsibilities and noting that 34% of the board is in its first or second term. He thanked Vice Chair Boots for assistance in developing appointments and outlined goals including increasing diversity of perspectives on committees and providing growth opportunities for supervisors. The motion by Supervisor Cavelli, seconded by Supervisor Crims, was carried but was not unanimous.
 
-### Election of At-Large Executive Committee Members
-Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Vice Chair Boots). Supervisor Rosenberg spoke in support of Supervisor Leur, citing her advocacy for the county's youngest and oldest residents. Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the Executive Committee.
+### Election of at-large executive committee members
+Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Supervisor Boots). Supervisor Rosenberg spoke in support of Supervisor Leur, citing her advocacy for the county's youngest children and oldest elders. Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the executive committee.
 
-### Consent Agenda (Items C10-C14A)
-Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion carried unanimously with no discussion.
+### Consent agenda items C10-C14A
+Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion was carried unanimously with no discussion.
 
-### Out of Home Placement Reserve Increase (Resolution 24-26)
-Motion by Supervisor Morash, seconded by Supervisor Robinson. The resolution was approved but the vote was not unanimous.
+### Resolution 24-26: Out of home placement reserve increase
+Motion by Supervisor Morash, seconded by Supervisor Robinson. The motion was carried but was not unanimous with no discussion recorded.
 
-### Social Services Budget Amendment (Resolution 25-26)
-Motion by Supervisor P, seconded by Supervisor Robinson. The resolution was approved but the vote was not unanimous.
+### Resolution 25-26: Amend social services budget
+Motion by Supervisor P, seconded by Supervisor Robinson. The motion was carried but was not unanimous with no discussion recorded.
 
-### Landfill Tipping Fees Modification (Resolution 26-26)
-Administrator Leonard and Director Hagen Busher presented the proposal from the Solid Waste Management Board to reduce tipping fees for disaster debris from $65/ton to $36.94/ton for certified storm-related waste. The state waived $13.10 and Ringle Township waived $2.33 of their respective fees. The board suspended rules (unanimous vote) to consider the resolution without standing committee review. Two Ringle residents, Jessica Toasty and Matt Haybeck, were granted special dispensation to speak, requesting the county waive all fees and extend the timeline beyond 60 days. Supervisor Rosenberg, Supervisor Gao, Supervisor Leur, Supervisor Robinson and others asked clarifying questions about costs, timelines, and policy implications. Administrator Leonard noted the county likely won't meet the $670,743 threshold for state disaster aid but expects Ringle will qualify. The resolution passed unanimously.
+### Resolution 26-26: Modification to landfill tipping fees
+Administrator Leonard and Director Hagen Busher presented the proposal from the Solid Waste Management Board to reduce tipping fees for disaster-related debris following severe weather that caused significant damage in Ringle and other areas. The state is waiving $13.10 per ton, Ringle is waiving $2.33 per ton, and the county proposed reducing fees to $36.94 per ton (covering operational costs). Two residents, Jessica Toasty and Matt Haybeck, were granted special permission to speak and requested full fee waivers and extended timelines beyond 60 days. Multiple supervisors asked questions about the fee structure, timeline extensions, and future policy development. Administrator Leonard mentioned potential partnership with the community foundation to help with unreimbursed costs. The board first unanimously approved suspending rules to hear the resolution (which hadn't gone through a standing committee), then unanimously approved Resolution 26-26.
 
 ## Public Comment
-Two members of the public were granted special dispensation to speak on the landfill tipping fee resolution. Jessica Toasty asked Marathon County to waive all fees entirely for six months, noting the state, DNR, and Ringle Township had waived their portions, and that private businesses had donated up to $40,000 in cleanup efforts. Matt Haybeck spoke on behalf of residents whose homes must be demolished, requesting fee waivers for underinsured homeowners and an extended timeline since many insurance adjusters haven't yet visited affected properties.
+Two residents were granted special dispensation to speak on the landfill tipping fee resolution at Supervisor Rosenberg's request. Jessica Toasty asked the county to waive fees entirely, noting that the state, DNR, and Ringle were waiving their fees, and requested a six-month timeline. She mentioned one business has spent $40,000 on hauling expenses and that Marathon County hasn't provided much financial assistance. Matt Haybeck spoke on behalf of homeowners needing to demolish houses, noting 44 affected homes, many still waiting for insurance adjusters, and requested more time for fee waivers.
 
 ## Action Items
 - Committee appointments approved as presented by Chair Gibbs and Vice Chair Boots
-- Supervisors Hapa and Arstead elected to at-large Executive Committee positions
-- Resolution 24-26 approving out of home placement reserve increase adopted
-- Resolution 25-26 amending social services 2026 budget adopted
-- Resolution 26-26 reducing landfill tipping fees to $36.94/ton for certified disaster debris through June 17, 2025 adopted unanimously
-- Administrator Leonard to explore partnership with Community Foundation for reimbursing unreimbursed insurance costs for individual landowners
-- Solid Waste Management Board to develop long-term policy on disaster-related fee reductions within six months
-- Staff to continue tracking certified disaster debris and coordinate with Ringle Township on fee waivers
+- Supervisors Hapa and Arstead elected to at-large executive committee positions
+- Resolution 24-26 approved: Out of home placement reserve increase
+- Resolution 25-26 approved: Amend social services budget 2026
+- Resolution 26-26 approved: Modified landfill tipping fees for disaster debris through June 17th
+- Administrator Leonard to work with community foundation on mechanism for reimbursing unreimbursed insurance costs for individual landowners
+- Solid waste management board to develop clear policy within six months for handling similar disaster situations in the future
+- Staff to continue tracking disaster-related debris with certification forms
