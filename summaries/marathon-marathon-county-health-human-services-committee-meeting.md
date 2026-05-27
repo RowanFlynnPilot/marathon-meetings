@@ -3,38 +3,38 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=ZzEeG1Z64pg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000  
-**Summarized:** 2026-05-26 05:05 UTC
+**Summarized:** 2026-05-27 05:16 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring educational presentations from department heads on the Health Department, Social Services, Veteran Services, and the Aging Disability Resource Center. The committee approved the April 1st meeting minutes unanimously and received detailed overviews of each department's mission, budget structure, and current initiatives.
+The Marathon County Health & Human Services Committee held an introductory meeting for new board members, featuring educational presentations from the Health Department, Social Services, Veteran Service Office, and Aging Disability Resource Center. The committee approved April 1st meeting minutes unanimously and received comprehensive overviews of department missions, budgets, and current initiatives including homelessness response, veteran services, and nutrition programs.
 
 ## Key Discussions
 ### Approval of April 1st meeting minutes
 Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion carried unanimously with all members voting in favor.
 
-### Standing committee ordinance and structure review
-Administrator Lance Leonard explained the committee's jurisdiction over the Health Department, Social Services, Veteran Services, North Central Health Care, and the Aging Disability Resource Center. He outlined statutory relationships with boards including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, and Board of Health. Chair Boots noted the committee will focus on strategic plan development through December 2025.
-
 ### Health Department presentation
-Health Officer Caitlyn Suginaka presented an overview of the department's four divisions: environmental health, nursing, community health improvement, and administration. She highlighted 37.6 FTE positions, oversight of 1,200+ licenses, a new homeless system response position, and public health vending machines stocked with free resources including tick kits. Administrator Leonard noted approximately half of the department's $5 million budget comes from tax levy, with the remainder from grants and fees.
+Health Officer Caitlyn Suginaka presented an overview of the department's four divisions: environmental health, nursing (communicable disease and family health), community health improvement, and administration. She highlighted 1,200 licenses overseen, public health vending machines stocked with free tick kits, the Nurse Family Partnership program's first graduates, and a new FTE position for homeless system response. The department has approximately 37.6 FTE staff and a 2026 budget of about $5 million, with roughly half from tax levy.
 
 ### Social Services Department overview
-Administrator Leonard presented on behalf of Director Christa, explaining the department's approximately 140 FTE positions and $22 million budget with about $7 million from tax levy. He highlighted the successful Family Keys housing stability pilot program conducted with state funding, noting the program addressed root causes of housing instability for families involved in child welfare and youth justice systems.
+Administrator Leonard presented on behalf of Director Christa who was absent. He described the department's divisions including child welfare, youth justice, children's long-term support, economic support, and child support. With nearly 140 FTE, it's the second largest department. He highlighted the successful Family Keys housing stability pilot program and noted potential restructuring requests coming due to increased need in areas like child support.
 
-### Veteran Service Department presentation
-Veteran Service Officer Aaron Galindo reported his 3.0 FTE office had 8,149 interactions in 2025, up significantly from previous years. He noted $44 million annually flows to local veterans through benefits, with $2.6 million in retroactive payments in 2025 alone. Key initiatives include pursuing surviving spouse benefits under the PACT Act, housing stability partnerships with the Center for Veterans Issues, and suicide prevention efforts following 7 veteran suicides among 30 total county suicides in 2025.
+### Veteran Service Office presentation
+Veteran Service Officer Aaron Galindo reported the office increased to 3.0 FTE and had 8,149 interactions in 2025, up from 5,900. He noted veterans received $2.6 million in retroactive VA payments and $44 million annually in benefits. Key initiatives include surviving spouse benefits outreach, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts after 7 of 30 county suicides in 2025 were veterans. Supervisor Kremes asked about regional coordination; Galindo explained state statute requires each county have its own VSO.
 
 ### Aging Disability Resource Center presentation
-Executive Director Mike Ray explained the ADRC serves four counties (Marathon, Lincoln, Langlade, and Wood) with approximately 60 FTE and 385-400 volunteers. He noted significant financial challenges with nutrition program costs rising 40-45% over four years while federal funding remained flat. Marathon County's contribution is $413,135, with only 11% of the ADRC budget coming from county levy.
+Executive Director Mike Ray explained the ADRC serves four counties (Marathon, Lincoln, Langlade, Wood) with about 60 FTE and 385-400 volunteers. He described services including information assistance, caregiver support, dementia care, falls prevention, Medicare counseling, and Meals on Wheels. Ray noted significant financial challenges with federal nutrition funding flat since 2024 while food costs increased 40-45%, requiring meal and staffing reductions. Marathon County's 2026 contribution is $413,135.
+
+### Strategic plan discussion
+Chair Boots noted the county completed its comprehensive plan last session and will develop a new strategic plan by December. He indicated he will bring strategic plan items to future meetings to ensure committee work aligns with county goals.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- April 1st meeting minutes approved
-- North Central Healthcare to be scheduled for a separate full presentation before the committee
-- ADRC Executive Director to provide full annual report presentation to county board
-- Strategic plan development to be a focus for the committee through December 2025
-- Next meeting scheduled for Tuesday, June 3rd at 3:00 PM (corrected from initially stated May 29th)
+- April 1st committee meeting minutes approved unanimously
+- North Central Healthcare to be scheduled for separate full presentation before the committee
+- ADRC Executive Director to present annual report with 2025 data to full board
+- Committee members to email Chair Boots and Administrator Leonard with suggested future agenda items
+- Next meeting scheduled for Wednesday, June 3rd at 3:00 PM (corrected from initially stated May 29th)
