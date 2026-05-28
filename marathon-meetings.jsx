@@ -1482,7 +1482,26 @@ export default function App() {
 
   const parseDate = (d) => new Date(d);
 
+  // Hide agenda-only YouTube meetings for the first 7 days after the meeting.
+  // YouTube auto-captions can take up to a few days to generate; until then
+  // the agenda-only summary reads "scheduled to discuss..." which looks like
+  // a future-tense preview of an already-past meeting. After the window,
+  // fall back to showing the agenda summary with its existing warning banner.
+  // BoardBook entries (bb_*) are agenda-only by design — never deferred.
+  const AGENDA_ONLY_DEFER_DAYS = 7;
+  const _now = new Date();
+  const _msPerDay = 24 * 60 * 60 * 1000;
+  const _isYoutube = (url) => typeof url === "string" && (url.includes("youtube.com") || url.includes("youtu.be"));
+  const _isFreshlyAgendaOnly = (m) => {
+    if (!m.isAgendaOnly || !_isYoutube(m.url)) return false;
+    const d = parseDate(m.date);
+    if (isNaN(d)) return false;
+    const ageDays = (_now - d) / _msPerDay;
+    return ageDays >= 0 && ageDays < AGENDA_ONLY_DEFER_DAYS;
+  };
+
   const filtered = MEETINGS
+    .filter(m => !_isFreshlyAgendaOnly(m))
     .filter(m => {
       const matchSource = sourceFilter === "all" || m.source === sourceFilter;
       const matchSearch = [m.title, m.committee, m.date]
