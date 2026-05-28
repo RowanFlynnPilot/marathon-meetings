@@ -1608,6 +1608,108 @@ def main():
             save_state(state)
             ok += 1
 
+    # ── Retry transcript fetch for recent agenda-only entries ─────────────────
+    # YouTube auto-captions can take hours/days to generate, and CI IPs sometimes
+    # get bot-blocked. Every run, re-try the transcript fetch for recently-
+    # uploaded agenda-only meetings — if captions are now available, upgrade
+    # the summary in place.
+    AGENDA_RETRY_DAYS = int(os.environ.get("AGENDA_RETRY_DAYS", "14"))
+    retry_candidates = []
+    for vid_id, info in list(state.get("processed", {}).items()):
+        if vid_id.startswith("bb_"):
+            continue
+        if info.get("source") not in sources:
+            continue
+        upload = info.get("upload_date") or ""
+        if not upload or len(upload) != 8 or not upload.isdigit():
+            continue
+        try:
+            upload_dt = datetime.strptime(upload, "%Y%m%d")
+        except ValueError:
+            continue
+        age_days = (datetime.now() - upload_dt).days
+        if age_days < 0 or age_days > AGENDA_RETRY_DAYS:
+            continue
+        sf = info.get("summary_file", "")
+        sjson = sf.replace(".md", "_summary.json") if sf else ""
+        if not sjson or not Path(sjson).exists():
+            continue
+        try:
+            existing = json.loads(Path(sjson).read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if existing.get("_source") not in ("agenda", "agenda_with_votes"):
+            continue
+        retry_candidates.append({
+            "id":           vid_id,
+            "title":        info["title"],
+            "url":          f"https://www.youtube.com/watch?v={vid_id}",
+            "source":       info["source"],
+            "doc_url":      info.get("doc_url"),
+            "upload_date":  upload,
+            "meeting_date": info.get("meeting_date"),
+            "duration":     info.get("duration"),
+            "description":  "",
+        })
+
+    if retry_candidates:
+        print(f"\n[retry]  {len(retry_candidates)} agenda-only entry/entries within last {AGENDA_RETRY_DAYS} days — re-trying transcript fetch:")
+        for v in retry_candidates:
+            print(f"   {v['source']}: {v['title']}")
+
+    retried_ok = 0
+    upgraded_ids = []
+    for v in retry_candidates:
+        # Just try fetching the transcript first; only spend an Anthropic call
+        # if captions are actually available now.
+        try:
+            transcript = fetch_transcript(v["url"], source_key=v["source"],
+                                          upload_date=v.get("upload_date", ""))
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            logger.warning("retry: transcript fetch crashed for %s: %s", v["id"], e)
+            continue
+        if not transcript or len(transcript) < 200:
+            continue
+        print(f"   [retry-ok] transcript found for {v['id']} ({len(transcript):,} chars) — re-summarizing")
+        try:
+            summary = summarize_meeting(transcript, v["title"], v["url"], v["source"])
+        except Exception as e:
+            logger.warning("retry: summarization crashed for %s: %s", v["id"], e)
+            continue
+        if not summary:
+            continue
+        # Save and update state (mark_processed preserves processed_at)
+        new_path = save_summary(v["title"], v["url"], v["source"], summary,
+                                 doc_url=v.get("doc_url"))
+        mark_processed(state, v["id"], v["title"], v["source"], new_path,
+                       doc_url=v.get("doc_url"),
+                       upload_date=v.get("upload_date"),
+                       meeting_date=v.get("meeting_date"),
+                       duration=v.get("duration"))
+        save_state(state)
+        upgraded_ids.append(v["id"])
+        retried_ok += 1
+
+    if retry_candidates:
+        print(f"[retry]  Upgraded {retried_ok}/{len(retry_candidates)} entry/entries to transcript-based summaries.")
+
+    # Force re-injection of upgraded entries by removing them from the
+    # injected_meetings.json tracker. inject_meetings will then re-build them.
+    if upgraded_ids:
+        inj_path = Path("./injected_meetings.json")
+        if inj_path.exists():
+            try:
+                inj = json.loads(inj_path.read_text(encoding="utf-8"))
+                ids = set(inj.get("injected", []))
+                ids -= set(upgraded_ids)
+                inj["injected"] = sorted(ids)
+                inj_path.write_text(json.dumps(inj, indent=2), encoding="utf-8")
+                print(f"[retry]  Cleared {len(upgraded_ids)} ID(s) from injected_meetings.json for re-injection.")
+            except (json.JSONDecodeError, OSError) as e:
+                logger.warning("Could not clear injected entries: %s", e)
+
     print(f"\n{'='*60}")
     print(f"[ok]  Done. {ok}/{len(all_pending)} processed.")
     print(f"   Summaries: {SUMMARIES_DIR.resolve()}")

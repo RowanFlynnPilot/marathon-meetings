@@ -6,7 +6,7 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 ## Tech Stack
 - **Frontend:** React (Vite), deployed to GitHub Pages
 - **Scrapers:** Python 3.12 (yt-dlp, requests, beautifulsoup4, anthropic SDK)
-- **CI/CD:** GitHub Actions — runs nightly at 01:00 UTC (8 PM CT during DST), also manual dispatch with backfill option
+- **CI/CD:** GitHub Actions — runs every 4 hours (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC), also manual dispatch with backfill option
 - **Data flow:** Python scrapers → JSON summaries → inject into JSX → Vite build → deploy
 
 ## Commands

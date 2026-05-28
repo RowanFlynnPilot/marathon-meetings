@@ -2,7 +2,10 @@ name: Update Meetings & Deploy
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # nightly 8pm CT (1am UTC during CDT)
+    # Every 4 hours. Catches freshly-uploaded videos in the same evening so
+    # auto-captions have ~6 attempts in the first 24 hours before falling
+    # back to agenda-only.
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       backfill:
