@@ -24,19 +24,16 @@ After running, the meeting's summary is updated from the transcript and
 re-injected into the JSX. Run `npm run build` to rebuild the site.
 """
 
-import argparse, json, os, re, sys
+import argparse, json, logging, os, re, sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
-try:
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-except (AttributeError, OSError):
-    pass
+logger = logging.getLogger(__name__)
 
 
 def main():
+    from config import setup_logging
+    setup_logging()
     parser = argparse.ArgumentParser(
         description="Re-summarize an agenda-only meeting from a pasted transcript."
     )

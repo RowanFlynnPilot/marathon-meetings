@@ -19,21 +19,17 @@ Usage:
 Defaults to ./src/data/upcoming.json.
 """
 
-import json, re, sys
+import json, logging, re, sys
 import requests
 from datetime import date, datetime, timedelta
 from calendar import monthrange
 from pathlib import Path
 
-# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
-try:
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-except (AttributeError, OSError):
-    pass
+logger = logging.getLogger(__name__)
 
 
-DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./src/data/upcoming.json")
+from config import UPCOMING_JSON
+DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else UPCOMING_JSON
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -85,7 +81,7 @@ def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
         )
         events = r.json().get("value", [])
     except Exception as e:
-        print(f"  ⚠️  Wausau CivicClerk fetch failed: {e}")
+        logger.warning("Wausau CivicClerk fetch failed: %s", e)
         return []
 
     results = []
@@ -168,7 +164,7 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
                     pass
         print(f"  📄  Weston AgendaCenter: {len(results)} posted future agendas")
     except Exception as e:
-        print(f"  ⚠️  Weston AgendaCenter scrape failed: {e}")
+        logger.warning("Weston AgendaCenter scrape failed: %s", e)
 
     rule_added = 0
     for yr, mo in _months_between(today, end_date):
@@ -257,7 +253,7 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
                     except ValueError:
                         pass
     except Exception as e:
-        print(f"  ⚠️  Marathon YouTube scan failed: {e}")
+        logger.warning("Marathon YouTube scan failed: %s", e)
 
     rule_added = 0
     for yr, mo in _months_between(today, end_date):
@@ -282,8 +278,7 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
 
 # ── Wausau School Board — BoardBook + rule-based ─────────────────────────────
 
-BOARDBOOK_BASE = "https://meetings.boardbook.org"
-BOARDBOOK_ORG  = 1360
+from config import BOARDBOOK_BASE, BOARDBOOK_ORG
 
 SCHOOL_BOARD_SCHEDULE = [
     ("Regular Board Meeting",            0, 2, "5:00 PM"),
@@ -332,7 +327,7 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
                 pass
         print(f"  📄  School Board BoardBook: {len(results)} posted future meetings")
     except Exception as e:
-        print(f"  ⚠️  BoardBook scrape failed: {e}")
+        logger.warning("BoardBook scrape failed: %s", e)
 
     rule_added = 0
     for yr, mo in _months_between(today, end_date):
@@ -358,6 +353,8 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    from config import setup_logging
+    setup_logging()
     print(f"\n🔄  Updating upcoming meetings → {DATA_PATH}")
     print("=" * 60)
 

@@ -18,17 +18,16 @@ Run in CI:
 """
 
 import argparse
+import logging
 import re
 import sys
 from datetime import date, timedelta
 
 import requests
 
-try:
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-except (AttributeError, OSError):
-    pass
+from config import setup_logging
+
+logger = logging.getLogger(__name__)
 
 
 HEADERS = {
@@ -175,6 +174,7 @@ CHECKS = [
 
 
 def main():
+    setup_logging()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--strict", action="store_true",
                         help="Exit non-zero on any failure (default: warn only).")

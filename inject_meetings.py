@@ -21,26 +21,23 @@ Pipeline order (GitHub Actions):
     5. vite build → deploy
 """
 
-import json, re, sys, os
+import json, logging, re, sys, os
 from datetime import datetime, date, timezone
 from pathlib import Path
 
-# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
-try:
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-except (AttributeError, OSError):
-    pass
+logger = logging.getLogger(__name__)
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-DATA_PATH     = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./src/data/meetings.json")
-STATE_FILE    = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
-SUMMARIES_DIR = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
-INJECTED_FILE = Path("./injected_meetings.json")
+from config import (
+    MEETINGS_JSON,
+    STATE_FILE,
+    SUMMARIES_DIR,
+    INJECTED_FILE,
+    MAX_MEETINGS,
+)
 
-# How many meetings to keep in the display list (oldest get pruned)
-MAX_MEETINGS = 30
+DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else MEETINGS_JSON
 
 # ── Committee → source mapping ────────────────────────────────────────────────
 
@@ -255,7 +252,7 @@ def load_meetings_json() -> list:
             data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
             return [m for m in data if isinstance(m, dict)]
         except json.JSONDecodeError:
-            print(f"⚠️   {DATA_PATH} is malformed; starting fresh.")
+            logger.warning("%s is malformed; starting fresh.", DATA_PATH)
             return []
     return []
 
@@ -280,6 +277,8 @@ def is_stub(meeting: dict) -> bool:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    from config import setup_logging
+    setup_logging()
     print(f"\n💉  inject_meetings.py — target: {DATA_PATH}")
     print("=" * 60)
 
@@ -346,7 +345,7 @@ def main():
         summary_path = info.get("summary_file", "")
         summary_json_path = summary_path.replace(".md", "_summary.json") if summary_path else ""
         if not summary_json_path or not Path(summary_json_path).exists():
-            print(f"   ⚠️  No summary JSON for {info['title']}, skipping")
+            logger.warning("No summary JSON for %s, skipping", info["title"])
             continue
 
         summary = json.loads(Path(summary_json_path).read_text(encoding="utf-8"))

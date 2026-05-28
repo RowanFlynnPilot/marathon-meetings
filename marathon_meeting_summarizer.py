@@ -23,7 +23,10 @@ import argparse, json, os, re, subprocess, sys, tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+import logging
 import anthropic
+
+logger = logging.getLogger(__name__)
 
 # -- Channels ------------------------------------------------------------------
 
@@ -51,21 +54,16 @@ CHANNELS = {
     },
 }
 
-CLAUDE_MODEL        = "claude-opus-4-5"
-MAX_TRANSCRIPT_CHARS = 90_000
-SUMMARIES_DIR       = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
-STATE_FILE          = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
-# Only process meetings from this date onward (YYYYMMDD) — older meetings are excluded
-GLOBAL_DATE_CUTOFF  = os.environ.get("MEETING_CUTOFF_DATE", "20260428")
-# Video IDs to skip — duplicate parts that have been merged into a single entry
-SKIP_VIDEO_IDS = {
-    "eIjwnwe6aBE",  # Education Meeting Pt.2 (merged into hNOP07iJjNY)
-    "4IiT1PAaCHA",  # Education Meeting Pt.3 (merged into hNOP07iJjNY)
-    "PkJesaGLD0Q",  # Executive Committee Pt.2 (merged into 47UbKS2Jqo4)
-}
-
-ANTHROPIC_TIMEOUT_SECONDS = 180
-ANTHROPIC_MAX_RETRIES     = 4
+from config import (
+    CLAUDE_MODEL,
+    MAX_TRANSCRIPT_CHARS,
+    SUMMARIES_DIR,
+    STATE_FILE,
+    GLOBAL_DATE_CUTOFF,
+    SKIP_VIDEO_IDS,
+    ANTHROPIC_TIMEOUT_SECONDS,
+    ANTHROPIC_MAX_RETRIES,
+)
 
 
 def call_anthropic_with_retry(client, *, model, max_tokens, messages, system=None):
@@ -104,7 +102,10 @@ def call_anthropic_with_retry(client, *, model, max_tokens, messages, system=Non
                 raise
         # exponential backoff: 4s, 8s, 16s, 32s + jitter
         delay = (2 ** (attempt + 2)) + _random.uniform(0, 1.5)
-        print(f"  ⚠️  Anthropic call failed ({type(last_err).__name__}); retry {attempt+1}/{ANTHROPIC_MAX_RETRIES} in {delay:.1f}s")
+        logger.warning(
+            "Anthropic call failed (%s); retry %d/%d in %.1fs",
+            type(last_err).__name__, attempt + 1, ANTHROPIC_MAX_RETRIES, delay,
+        )
         _time.sleep(delay)
     raise last_err
 
@@ -216,16 +217,12 @@ def _vid_id_from_url(url: str) -> str | None:
     return m.group(1) if m else None
 
 
-COOKIES_FILE    = os.environ.get("YT_COOKIES_FILE", "")
-USE_WHISPER_FALLBACK = os.environ.get("USE_WHISPER_FALLBACK", "true").lower() == "true"
-WHISPER_MODEL   = os.environ.get("WHISPER_MODEL", "tiny")
-# Comma-separated sources that use Whisper (default: all video sources)
-WHISPER_SOURCES = [s.strip() for s in os.environ.get("WHISPER_SOURCES", "marathon,wausau,weston").split(",")]
-# Only run Whisper on videos uploaded within last N days (0 = no limit)
-_wd = int(os.environ.get("WHISPER_DAYS", "0"))
-WHISPER_CUTOFF = (
-    (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=_wd)).strftime("%Y%m%d")
-    if _wd > 0 else ""
+from config import (
+    COOKIES_FILE,
+    USE_WHISPER_FALLBACK,
+    WHISPER_MODEL,
+    WHISPER_SOURCES,
+    WHISPER_CUTOFF,
 )
 
 
@@ -1164,8 +1161,7 @@ def update_upcoming_in_jsx(jsx_path: str, events: list[dict]):
 
 # -- BoardBook agenda scraper (Wausau School Board) ---------------------------
 
-BOARDBOOK_ORG = 1360
-BOARDBOOK_BASE = "https://meetings.boardbook.org"
+from config import BOARDBOOK_BASE, BOARDBOOK_ORG  # noqa: E402
 
 
 def scrape_boardbook_org_page() -> list[dict]:
@@ -1425,6 +1421,8 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
 # -- CLI -----------------------------------------------------------------------
 
 def main():
+    from config import setup_logging
+    setup_logging()
     parser = argparse.ArgumentParser(description="Central WI Meeting Summarizer")
     group  = parser.add_mutually_exclusive_group()
     group.add_argument("--url",      metavar="URL",  help="Process a single video URL")

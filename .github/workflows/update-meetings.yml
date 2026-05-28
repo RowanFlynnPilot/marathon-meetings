@@ -89,10 +89,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
+          # Whisper is local-only; the lib isn't installed in CI (saves ~150 MB
+          # download per run) and the summarizer no-ops the fallback when this
+          # flag is false. Set to "true" locally if you want audio transcription.
           USE_WHISPER_FALLBACK: "false"
-          WHISPER_MODEL: "tiny"
-          WHISPER_SOURCES: "marathon,wausau,weston"
-          WHISPER_DAYS: "14"
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python marathon_meeting_summarizer.py --backfill
