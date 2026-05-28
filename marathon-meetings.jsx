@@ -31,6 +31,11 @@ const COMMITTEE_STYLES = {
   "City Council":             { bg: "#5C3A1A", text: "#fff" },
   "Finance":                  { bg: "#2D4A2D", text: "#fff" },
   "Infrastructure":           { bg: "#4A4A1A", text: "#fff" },
+  // Variants Claude / scrapers sometimes emit — keep them mapped so we don't
+  // fall through to the grey default.
+  "Health & Human Services":  { bg: "#3A5C5C", text: "#fff" },
+  "County Board":             { bg: "#365A2D", text: "#fff" },
+  "Water Works":              { bg: "#1F4F66", text: "#fff" },
 };
 
 const SOURCE_CONFIG = {
@@ -78,8 +83,23 @@ function useIsMobile() {
   return m;
 }
 
+// Normalize a committee name for fuzzy lookup: lowercase, "and"↔"&",
+// strip trailing "Committee"/"Commission"/"Board" since the badge already
+// shows the full label.
+function _normalizeCommitteeKey(s) {
+  return (s || "")
+    .toLowerCase()
+    .replace(/\s+and\s+/g, " & ")
+    .replace(/\s*(committee|commission|board)\s*$/i, "")
+    .trim();
+}
+const _COMMITTEE_STYLES_NORM = Object.fromEntries(
+  Object.entries(COMMITTEE_STYLES).map(([k, v]) => [_normalizeCommitteeKey(k), v])
+);
 function getCommitteeStyle(committee) {
-  return COMMITTEE_STYLES[committee] || { bg: "#555", text: "#fff" };
+  return COMMITTEE_STYLES[committee]
+      || _COMMITTEE_STYLES_NORM[_normalizeCommitteeKey(committee)]
+      || { bg: "#555", text: "#fff" };
 }
 
 function MeetingCard({ meeting, onClick, active }) {
@@ -176,6 +196,7 @@ function MeetingCard({ meeting, onClick, active }) {
             <img
               src={src.avatar}
               alt={src.label}
+              onError={e => { e.currentTarget.style.visibility = "hidden"; }}
               style={{
                 width: "22px", height: "22px",
                 borderRadius: "50%",
@@ -187,9 +208,11 @@ function MeetingCard({ meeting, onClick, active }) {
               }}
             />
           </div>
-          <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "11px", color: "#666" }}>
-            <span aria-hidden="true">{"›"}</span> {meeting.duration}
-          </div>
+          {meeting.duration && (
+            <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "11px", color: "#666" }}>
+              <span aria-hidden="true">{"›"}</span> {meeting.duration}
+            </div>
+          )}
         </div>
       </div>
     </button>
@@ -305,9 +328,11 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
               fontFamily: "'Bebas Neue', sans-serif",
               fontSize: "10px", letterSpacing: "0.12em", color: "#5a5a5a",
             }}>{meeting.date.toUpperCase()}</span>
-            <span style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "11px", color: "#666" }}>
-              <span aria-hidden="true">{"›"}</span> {meeting.duration}
-            </span>
+            {meeting.duration && (
+              <span style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "11px", color: "#666" }}>
+                <span aria-hidden="true">{"›"}</span> {meeting.duration}
+              </span>
+            )}
             {meeting.badge && (
               <span style={{
                 background: "#FFE566", color: "#111",
@@ -375,46 +400,44 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
             paddingRight: isMobile ? "56px" : "80px", // keep text clear of avatar
           }}>{meeting.title}</h2>
 
-          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-            {meeting.url.includes("youtube.com") || meeting.url.includes("youtu.be") ? (
-              <a href={meeting.url} target="_blank" rel="noreferrer" style={{
-                display: "inline-flex", alignItems: "center", gap: "5px",
-                background: src.accent, color: "#fff",
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
-                padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
-              }}
-              onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
-              onMouseLeave={e => e.currentTarget.style.opacity="1"}
-              > WATCH ON YOUTUBE</a>
-            ) : (
-              <a href={meeting.url} target="_blank" rel="noreferrer" style={{
-                display: "inline-flex", alignItems: "center", gap: "5px",
-                background: src.accent, color: "#fff",
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
-                padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
-              }}
-              onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
-              onMouseLeave={e => e.currentTarget.style.opacity="1"}
-              > VIEW AGENDA</a>
-            )}
-            {meeting.docUrl && (
-              <a href={meeting.docUrl} target="_blank" rel="noreferrer" style={{
-                display: "inline-flex", alignItems: "center", gap: "5px",
-                border: `1px solid ${RULE}`, color: "#666",
-                background: "#f5f3ef",
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
-                padding: "7px 14px", textDecoration: "none", transition: "all 0.15s",
-              }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor="#999"; e.currentTarget.style.color=INK; e.currentTarget.style.background="#eee"; }}
-              onMouseLeave={e => { e.currentTarget.style.borderColor=RULE; e.currentTarget.style.color="#666"; e.currentTarget.style.background="#f5f3ef"; }}
-              > AGENDA & PACKET</a>
-            )}
-          </div>
+          {(() => {
+            const isYoutube = meeting.url && (meeting.url.includes("youtube.com") || meeting.url.includes("youtu.be"));
+            const sameDoc   = meeting.docUrl && meeting.docUrl === meeting.url;
+            const primaryLabel = isYoutube
+              ? "WATCH ON YOUTUBE"
+              : (sameDoc || !meeting.docUrl) ? "VIEW AGENDA & PACKET" : "VIEW MEETING";
+            const showSecondary = meeting.docUrl && !sameDoc;
+            return (
+              <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+                <a href={meeting.url} target="_blank" rel="noreferrer" style={{
+                  display: "inline-flex", alignItems: "center", gap: "5px",
+                  background: src.accent, color: "#fff",
+                  fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
+                  padding: "7px 14px", textDecoration: "none", transition: "opacity 0.15s",
+                }}
+                onMouseEnter={e => e.currentTarget.style.opacity="0.8"}
+                onMouseLeave={e => e.currentTarget.style.opacity="1"}
+                >{primaryLabel}</a>
+                {showSecondary && (
+                  <a href={meeting.docUrl} target="_blank" rel="noreferrer" style={{
+                    display: "inline-flex", alignItems: "center", gap: "5px",
+                    border: `1px solid ${RULE}`, color: "#666",
+                    background: "#f5f3ef",
+                    fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
+                    padding: "7px 14px", textDecoration: "none", transition: "all 0.15s",
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor="#999"; e.currentTarget.style.color=INK; e.currentTarget.style.background="#eee"; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor=RULE; e.currentTarget.style.color="#666"; e.currentTarget.style.background="#f5f3ef"; }}
+                  >AGENDA & PACKET</a>
+                )}
+              </div>
+            );
+          })()}
         </div>
       </div>
 
       
-      <div style={{
+      <div role="tablist" aria-label="Meeting sections" style={{
         display: "flex", background: CREAM, borderBottom: `2px solid ${RULE}`,
         overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none", flexShrink: 0,
         padding: "10px 12px 0", gap: "4px",
@@ -424,6 +447,8 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
           return (
             <button
               key={t.id}
+              role="tab"
+              aria-selected={active}
               onClick={() => setTab(t.id)}
               onMouseEnter={e => {
                 if (!active) {
@@ -560,18 +585,18 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
             <div style={{ border: `1px solid ${RULE}`, overflow: "hidden" }}>
 
               
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
+              <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr" }}>
                 <ColHead accent={src.accent}>Topics Discussed</ColHead>
-                <div style={{ borderLeft: `1px solid #333` }}>
+                <div style={{ borderLeft: isMobile ? "none" : `1px solid #333`, borderTop: isMobile ? `1px solid #333` : "none" }}>
                   <ColHead dark accent={src.accent}>{"Actions & Next Steps"}</ColHead>
                 </div>
               </div>
 
               
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", borderTop: `1px solid ${RULE}` }}>
+              <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", borderTop: `1px solid ${RULE}` }}>
 
-                
-                <div style={{ borderRight: `1px solid ${RULE}` }}>
+
+                <div style={{ borderRight: isMobile ? "none" : `1px solid ${RULE}`, borderBottom: isMobile ? `1px solid ${RULE}` : "none" }}>
                   {topics.map((topic, i) => (
                     <div
                       key={i}
@@ -928,6 +953,8 @@ function UpcomingMeetings({ isMobile }) {
             return (
               <button
                 key={key}
+                aria-pressed={active}
+                aria-label={`Filter upcoming meetings by ${label}`}
                 onClick={() => setUpFilter(key)}
                 onMouseEnter={e => { if (!active) { e.currentTarget.style.background = `${color}15`; e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}}
                 onMouseLeave={e => { if (!active) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "#d0ccc4"; e.currentTarget.style.color = "#888"; }}}
@@ -949,6 +976,7 @@ function UpcomingMeetings({ isMobile }) {
                   <img
                     src={avatar}
                     alt={label}
+                    onError={e => { e.currentTarget.style.visibility = "hidden"; }}
                     style={{
                       width: "18px", height: "18px",
                       borderRadius: "50%",
@@ -976,15 +1004,29 @@ function UpcomingMeetings({ isMobile }) {
             <span style={{ color: TEAL, fontSize: "11px" }}></span>
             {allUpcoming.length} MEETINGS SCHEDULED
           </div>
-          <a href="https://www.marathoncounty.gov/about-us/county-calendar" target="_blank" rel="noreferrer"
-            style={{
-              fontFamily: "'Bebas Neue', sans-serif",
-              fontSize: "10px", letterSpacing: "0.12em",
-              color: TEAL, textDecoration: "none",
-              display: "flex", alignItems: "center", gap: "4px",
-            }}>
-            FULL CALENDARS <span aria-hidden="true" style={{ fontSize: "11px" }}>{"›"}</span>
-          </a>
+          {(() => {
+            // Calendar destination follows the source filter so the link
+            // doesn't always drop the reader on marathoncounty.gov.
+            const CAL_URLS = {
+              all:          "https://www.marathoncounty.gov/about-us/county-calendar",
+              marathon:     "https://www.marathoncounty.gov/about-us/county-calendar",
+              wausau:       "https://wausauwi.portal.civicclerk.com/",
+              weston:       "https://www.westonwi.gov/agendacenter",
+              school_board: "https://meetings.boardbook.org/Public/Organization/1360",
+            };
+            const calLabel = upFilter === "all" ? "FULL CALENDARS" : "FULL CALENDAR";
+            return (
+              <a href={CAL_URLS[upFilter] || CAL_URLS.all} target="_blank" rel="noreferrer"
+                style={{
+                  fontFamily: "'Bebas Neue', sans-serif",
+                  fontSize: "10px", letterSpacing: "0.12em",
+                  color: TEAL, textDecoration: "none",
+                  display: "flex", alignItems: "center", gap: "4px",
+                }}>
+                {calLabel} <span aria-hidden="true" style={{ fontSize: "11px" }}>{"›"}</span>
+              </a>
+            );
+          })()}
         </div>
       </div>
 
@@ -1083,6 +1125,7 @@ function UpcomingMeetings({ isMobile }) {
                             <img
                               src={src.avatar}
                               alt={src.label}
+                              onError={e => { e.currentTarget.style.visibility = "hidden"; }}
                               style={{
                                 width: "28px", height: "28px",
                                 borderRadius: "50%",
@@ -1265,12 +1308,26 @@ export default function App() {
   return (
     <>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html, body { height: 100%; }
         body { background: ${CREAM}; -webkit-tap-highlight-color: transparent; }
+        /* Webkit + Firefox scrollbar styling */
         ::-webkit-scrollbar { width: 4px; height: 4px; }
         ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+        * { scrollbar-width: thin; scrollbar-color: #ccc transparent; }
+        /* Visible keyboard focus ring on every interactive element. Inline
+           styles override default outlines, so this needs !important. */
+        button:focus-visible,
+        a:focus-visible,
+        input:focus-visible,
+        [tabindex]:focus-visible {
+          outline: 2px solid ${TEAL} !important;
+          outline-offset: 2px;
+          border-radius: 1px;
+        }
+        button:focus:not(:focus-visible),
+        a:focus:not(:focus-visible),
+        input:focus:not(:focus-visible) { outline: none; }
       `}</style>
 
       <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
@@ -1341,7 +1398,7 @@ export default function App() {
               flex: isMobile ? 1 : "unset", overflow: "hidden",
             }}>
               
-              <div style={{ display: "flex", borderBottom: `2px solid #000`, flexShrink: 0, background: INK }}>
+              <div role="tablist" aria-label="Meetings panel" style={{ display: "flex", borderBottom: `2px solid #000`, flexShrink: 0, background: INK }}>
                 {[
                   { key: "recent",   label: "Recent Meetings"    },
                   { key: "upcoming", label: "Upcoming Meetings"  },
@@ -1350,6 +1407,8 @@ export default function App() {
                   return (
                     <button
                       key={key}
+                      role="tab"
+                      aria-selected={active}
                       onClick={() => setPanelTab(key)}
                       style={{
                         flex: 1, border: "none", cursor: "pointer",
@@ -1384,6 +1443,8 @@ export default function App() {
                     return (
                       <button
                         key={key}
+                        aria-pressed={active}
+                        aria-label={`Filter recent meetings by ${label}`}
                         onClick={() => setSourceFilter(key)}
                         onMouseEnter={e => { if (!active) { e.currentTarget.style.background = color + "15"; e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}}
                         onMouseLeave={e => { if (!active) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "#d0ccc4"; e.currentTarget.style.color = "#888"; }}}
@@ -1404,6 +1465,7 @@ export default function App() {
                           <img
                             src={avatar}
                             alt={label}
+                            onError={e => { e.currentTarget.style.visibility = "hidden"; }}
                             style={{
                               width: "16px", height: "16px",
                               borderRadius: "50%",
@@ -1420,19 +1482,38 @@ export default function App() {
                     );
                   })}
                 </div>
-                <input
-                  type="text" placeholder="Search meetings..."
-                  value={search} onChange={e => setSearch(e.target.value)}
-                  style={{
-                    width: "100%", padding: "8px 12px",
-                    border: `1px solid ${RULE}`,
-                    fontFamily: "'Lora', Georgia, serif",
-                    fontSize: "16px", color: INK,
-                    background: "#fff", outline: "none",
-                  }}
-                  onFocus={e => e.target.style.borderColor=TEAL}
-                  onBlur={e => e.target.style.borderColor=RULE}
-                />
+                <div style={{ position: "relative" }}>
+                  <input
+                    type="search"
+                    placeholder="Search meetings..."
+                    aria-label="Search meetings by title, committee, or date"
+                    value={search}
+                    onChange={e => setSearch(e.target.value)}
+                    style={{
+                      width: "100%", padding: "8px 32px 8px 12px",
+                      border: `1px solid ${RULE}`,
+                      fontFamily: "'Lora', Georgia, serif",
+                      fontSize: "16px", color: INK,
+                      background: "#fff", outline: "none",
+                    }}
+                    onFocus={e => e.target.style.borderColor=TEAL}
+                    onBlur={e => e.target.style.borderColor=RULE}
+                  />
+                  {search && (
+                    <button
+                      type="button"
+                      onClick={() => setSearch("")}
+                      aria-label="Clear search"
+                      style={{
+                        position: "absolute", right: "6px", top: "50%", transform: "translateY(-50%)",
+                        width: "22px", height: "22px",
+                        background: "transparent", border: "none", cursor: "pointer",
+                        color: "#5a5a5a", fontSize: "18px", lineHeight: 1,
+                        display: "flex", alignItems: "center", justifyContent: "center",
+                      }}
+                    >×</button>
+                  )}
+                </div>
               </div>
 
               

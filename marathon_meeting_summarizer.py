@@ -124,7 +124,8 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def mark_processed(state, video_id, title, source, summary_path,
-                   doc_url=None, upload_date=None, meeting_date=None):
+                   doc_url=None, upload_date=None, meeting_date=None,
+                   duration=None):
     """Record a processed video.
 
     upload_date   = YYYYMMDD from YouTube (when the video was uploaded — often
@@ -132,6 +133,8 @@ def mark_processed(state, video_id, title, source, summary_path,
     meeting_date  = YYYYMMDD parsed from the title's date suffix when present;
                     this is the canonical *meeting* date and is what
                     inject_meetings.py uses to render the displayed date.
+    duration      = video length in seconds (yt-dlp's integer `duration`);
+                    omitted for agenda-only entries.
     """
     prior = state["processed"].get(video_id, {})
     state["processed"][video_id] = {
@@ -140,6 +143,7 @@ def mark_processed(state, video_id, title, source, summary_path,
         "doc_url":      doc_url,
         "upload_date":  upload_date  or prior.get("upload_date"),
         "meeting_date": meeting_date or prior.get("meeting_date"),
+        "duration":     duration     or prior.get("duration"),
         "processed_at": prior.get("processed_at") or datetime.now(timezone.utc).isoformat(),
         "summary_file": summary_path,
     }
@@ -211,6 +215,7 @@ def fetch_channel_videos(source_key, dateafter=""):
                 "doc_url":      doc_m.group(0) if doc_m else None,
                 "upload_date":  upload_date,
                 "meeting_date": title_date,
+                "duration":     d.get("duration"),  # seconds, integer
                 "description":  desc,
             })
         except json.JSONDecodeError:
@@ -528,33 +533,65 @@ def _fetch_weston_agenda_page() -> str:
         return ""
 
 
+def _normalize_committee(s: str) -> str:
+    """Lowercased, &↔and unified, 'committee'/'commission' suffix stripped — for
+    fuzzy matching a meeting title against the headings on AgendaCenter."""
+    s = s.lower()
+    s = re.sub(r"\s*-\s*\d.*$", "", s)            # drop date suffix
+    s = s.replace(" and ", " & ")
+    s = re.sub(r"\b(committee|commission|board)\b", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _weston_agenda_sections(html: str):
+    """Yield (committee_heading, body_html) tuples for each <h2> section."""
+    return re.findall(r"<h2[^>]*>([^<]+)</h2>(.*?)(?=<h2|$)", html, re.DOTALL)
+
+
 def fetch_weston_doc_url(title: str) -> str | None:
     """
-    Given a meeting title like 'Board of Trustees - 3/23/2026',
-    scrape westonwi.gov/agendacenter to find the matching agenda PDF URL.
-    Returns the full PDF URL or None.
-    """
-    import re
+    Given a meeting title like 'Board of Trustees - 3/23/2026', scrape
+    westonwi.gov/agendacenter and return the agenda PDF URL whose section
+    heading matches the meeting's committee.
 
-    # Parse date from title  e.g. "Board of Trustees - 3/23/2026"
+    Returns None if no PDF from that committee's section matches the date —
+    DO NOT fall back to other committees' PDFs (multiple meetings can share a
+    date and the wrong PDF would get attached to the wrong meeting).
+    """
+    # Date from title — e.g. "Board of Trustees - 3/23/2026"
     date_m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", title)
     if not date_m:
         return None
     mo, dy, yr = date_m.group(1).zfill(2), date_m.group(2).zfill(2), date_m.group(3)
-    date_str = f"_{mo}{dy}{yr}"   # e.g. _03232026
+    date_token = f"_{mo}{dy}{yr}"   # e.g. _03232026
 
     html = _fetch_weston_agenda_page()
     if not html:
         return None
 
-    # Find all agenda paths matching the date
-    matches = re.findall(
-        rf'/AgendaCenter/ViewFile/Agenda/({re.escape(date_str)}-\d+)',
-        html
-    )
-    if matches:
-        unique = list(dict.fromkeys(matches))
-        return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
+    want = _normalize_committee(title)
+    if not want:
+        return None
+
+    # Walk h2 sections and keep only PDFs whose section heading matches the
+    # committee in the title.
+    best = None
+    for heading, body in _weston_agenda_sections(html):
+        norm = _normalize_committee(heading)
+        if not norm:
+            continue
+        # Fuzzy match: either side may be a subset of the other.
+        if want not in norm and norm not in want:
+            continue
+        ids = re.findall(rf"/AgendaCenter/ViewFile/Agenda/({re.escape(date_token)}-(\d+))", body)
+        if ids:
+            # Multiple agenda revisions for the same date — pick highest ID.
+            ids.sort(key=lambda t: int(t[1]), reverse=True)
+            best = ids[0][0]
+            break
+
+    if best:
+        return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{best}"
     return None
 
 
@@ -1494,7 +1531,8 @@ def main():
             mark_processed(state, vid_id, video["title"], source_key, path,
                            video.get("doc_url"),
                            upload_date=video.get("upload_date"),
-                           meeting_date=video.get("meeting_date"))
+                           meeting_date=video.get("meeting_date"),
+                           duration=video.get("duration"))
             save_state(state)
         return
 
@@ -1565,7 +1603,8 @@ def main():
             mark_processed(state, v["id"], v["title"], v["source"], path,
                            v.get("doc_url"),
                            upload_date=v.get("upload_date"),
-                           meeting_date=v.get("meeting_date"))
+                           meeting_date=v.get("meeting_date"),
+                           duration=v.get("duration"))
             save_state(state)
             ok += 1
 

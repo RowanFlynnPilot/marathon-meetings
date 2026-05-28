@@ -236,9 +236,42 @@ def build_meeting(
     clean_title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_title).strip()
     clean_title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', clean_title).strip()
     clean_title = re.sub(r'\s*-\s*\d{1,2}-\d{1,2}-\d{2,4}$', '', clean_title).strip()
+    # Strip the jurisdiction prefix — the source badge already tells the
+    # reader which jurisdiction this belongs to.
+    if source == "wausau":
+        clean_title = re.sub(r'^(City of\s+)?Wausau\s+', '', clean_title, flags=re.IGNORECASE).strip()
+    elif source == "marathon":
+        clean_title = re.sub(r'^Marathon County\s+', '', clean_title, flags=re.IGNORECASE).strip()
+    elif source == "weston":
+        clean_title = re.sub(r'^(Village of\s+)?Weston\s+', '', clean_title, flags=re.IGNORECASE).strip()
+    elif source == "school_board":
+        clean_title = re.sub(r'^Wausau School (Board|District)\s+', '', clean_title, flags=re.IGNORECASE).strip()
 
     agenda_items = summary.get("agenda") or [{"time": "0:00", "item": "Meeting convened"}]
     is_agenda_only = is_boardbook or summary.get("_source") == "agenda"
+
+    # Duration from state (yt-dlp returns video length in seconds). Format as
+    # "Hh Mm" / "Mm". For agenda-only meetings there's no recording, so leave
+    # null — the JSX hides the chip when this is missing.
+    def _fmt_duration_secs(secs):
+        if not secs:
+            return None
+        try:
+            secs = int(secs)
+        except (TypeError, ValueError):
+            return None
+        if secs <= 0:
+            return None
+        h = secs // 3600
+        m = (secs % 3600) // 60
+        if h and m:
+            return f"{h}h {m}m"
+        if h:
+            return f"{h}h"
+        return f"{m}m"
+
+    duration_secs = info.get("duration")
+    duration_str  = None if is_agenda_only else _fmt_duration_secs(duration_secs)
 
     meeting = {
         "id":             video_id,
@@ -247,7 +280,7 @@ def build_meeting(
         "date":           fmt_date(dt),
         "shortDate":      fmt_short_date(dt),
         "committee":      committee,
-        "duration":       summary.get("duration", "~1h"),
+        "duration":       duration_str,
         "url":            yt_url,
         "docUrl":         doc_url,
         "isAgendaOnly":   bool(is_agenda_only),
@@ -404,8 +437,47 @@ def main():
         print(f"   ✅  Built entry for: {info['title']}")
 
     # Combine: new entries first, then existing — with stubs being replaced
-    # filtered out so we don't double-list.
-    kept_existing = [m for m in existing if m["id"] not in newly_injected]
+    # filtered out so we don't double-list. Also drop existing entries whose
+    # id has been removed from state (e.g. force-reprocess via reprocess.py
+    # cleared a wrong summary).
+    state_ids = set(processed.keys())
+    kept_existing = [m for m in existing
+                     if m["id"] not in newly_injected and m["id"] in state_ids]
+    dropped = len(existing) - len(kept_existing) - len([m for m in existing if m["id"] in newly_injected])
+    if dropped > 0:
+        print(f"   [prune] dropped {dropped} entry/entries no longer in state")
+
+    # Carried-over entries don't pass through build_meeting (their summary
+    # sidecar may have been pruned), so apply title-cleanup and the duration
+    # normalization here so they pick up later improvements without needing a
+    # full re-summarization.
+    def _strip_prefix(title, source):
+        if source == "wausau":
+            return re.sub(r'^(City of\s+)?Wausau\s+', '', title, flags=re.IGNORECASE).strip()
+        if source == "marathon":
+            return re.sub(r'^Marathon County\s+', '', title, flags=re.IGNORECASE).strip()
+        if source == "weston":
+            return re.sub(r'^(Village of\s+)?Weston\s+', '', title, flags=re.IGNORECASE).strip()
+        if source == "school_board":
+            return re.sub(r'^Wausau School (Board|District)\s+', '', title, flags=re.IGNORECASE).strip()
+        return title
+    for m in kept_existing:
+        m["title"] = _strip_prefix(m.get("title", ""), m.get("source", ""))
+        # Replace the legacy placeholder duration with whatever's in state, or
+        # null for agenda-only / unknown.
+        if m.get("duration") in (None, "", "~1h"):
+            info = processed.get(m["id"], {})
+            secs = info.get("duration")
+            new_dur = None
+            if not m.get("isAgendaOnly") and secs:
+                try:
+                    secs = int(secs)
+                    h, mins = secs // 3600, (secs % 3600) // 60
+                    new_dur = f"{h}h {mins}m" if h and mins else (f"{h}h" if h else f"{mins}m")
+                except (TypeError, ValueError):
+                    new_dur = None
+            m["duration"] = new_dur
+
     combined = new_entries + kept_existing
 
     # Drop future-dated entries (the title-level future check above only
