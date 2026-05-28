@@ -316,11 +316,21 @@ def main():
         "doc_url":      doc_url,
         "upload_date":  upload_date_value,
         "meeting_date": meeting_date_value,
+        "duration":     prior.get("duration"),    # preserve video length from prior fetch
         "processed_at": processed_at_value,
         "summary_file": str(path),
     }
     state_file.write_text(json.dumps(state, indent=2), encoding="utf-8")
     print(f"[save] Updated {state_file}")
+
+    # If the title changed since the last save (e.g. a date suffix was
+    # stripped), the slug changes too — sweep orphaned summary files so the
+    # directory stays in sync with state.
+    try:
+        from marathon_meeting_summarizer import prune_orphan_summaries
+        prune_orphan_summaries(state)
+    except ImportError:
+        pass
 
     # ── Re-inject into JSX ───────────────────────────────────────────────────
     # Reset injected tracking so inject_meetings.py picks up the new summary

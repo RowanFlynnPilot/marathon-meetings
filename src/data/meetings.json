@@ -1,5 +1,116 @@
 [
   {
+    "id": "YQ-B8Dd3ltU",
+    "source": "weston",
+    "title": "Board of Trustees",
+    "date": "May 18, 2026",
+    "shortDate": "MAY 18",
+    "committee": "Board of Trustees",
+    "duration": "2h 32m",
+    "url": "https://www.youtube.com/watch?v=YQ-B8Dd3ltU",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05182026-1918",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Village of Weston Board of Trustees approved increased park and recreation impact fees, passed several ordinances including mobile food vendor licensing and e-bike regulations, and discussed ongoing challenges with the farmers market relocation to Kennedy Park. The board also adjourned the Board of Review to June 15, 2026 and made appointments to the CLIPS committee.",
+    "agenda": [
+      {
+        "time": "0:02",
+        "item": "Board of Review called to order and adjourned to June 15, 2026"
+      },
+      {
+        "time": "0:48",
+        "item": "Board of Trustees meeting called to order, Pledge of Allegiance, Roll Call"
+      },
+      {
+        "time": "1:30",
+        "item": "Public Comments"
+      },
+      {
+        "time": "4:55",
+        "item": "Public hearing on park and recreation impact fees (Ordinance 26-010 and Resolution 2026-015)"
+      },
+      {
+        "time": "13:36",
+        "item": "Approval of meeting minutes from April 13 and April 21, 2026"
+      },
+      {
+        "time": "14:00",
+        "item": "Acknowledge reports from boards, committees, and commissions with chair updates"
+      },
+      {
+        "time": "23:30",
+        "item": "Acknowledge reports from departments"
+      },
+      {
+        "time": "43:45",
+        "item": "Work product transmittals including building permits and budget status"
+      },
+      {
+        "time": "46:30",
+        "item": "Consent agenda - vouchers and license renewals"
+      },
+      {
+        "time": "48:15",
+        "item": "Ordinances including mobile food vendor, nuisances, e-bikes, and transportation funding resolution"
+      },
+      {
+        "time": "53:50",
+        "item": "Remote meeting attendance policy amendments"
+      },
+      {
+        "time": "1:06:45",
+        "item": "Appointments to committees and commissions"
+      },
+      {
+        "time": "1:14:00",
+        "item": "Discussion on farmers market location at Kennedy Park"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Park and Recreation Impact Fees",
+        "body": "Staff presented proposed fee increases from $300 to $761 for single family units, $250 to $563 for duplex units, and $250 to $495 for multifamily units, based on the 2022 public facilities needs assessment. Jim Pitel spoke during public comment criticizing the lack of real operational cost data for parks. Trustee Barb supported the increase citing population growth and fairness. Ordinance 26-010 was approved with motion by Lope Sorrell, second by Zagami, passing unanimously. Resolution 2026-015 was approved with motion by Hermling, second by Clark, passing unanimously."
+      },
+      {
+        "item": "Mobile Food Vendor License Ordinance 26-008",
+        "body": "Chief Finkey explained this creates a regional inspection sticker system where Safer, Marshfield, Wisconsin Rapids, Stevens Point, Cloverland, and Riverside will mutually recognize fire inspections for food trucks. One inspection sticker from any participating municipality will be valid across all communities. Motion by Lope Sorrell, passed unanimously."
+      },
+      {
+        "item": "Remote Meeting Attendance Policy Amendments",
+        "body": "The board debated amendments to Section 1.08 regarding virtual meeting attendance. Trustee Beck raised concerns that the written policy still contained language about health, safety, and welfare justifications that contradicted the previous meeting's vote to make attendance more broad. After discussion, the board voted to strike sentences requiring specific reasons for remote attendance, keeping only requirements to notify 12 hours in advance, be on camera, and prohibition from closed sessions. Amendment passed 5-2 with Hermling and Motti voting no. The original motion as amended passed 5-2 with the same dissenting votes."
+      },
+      {
+        "item": "Appointments to Committees and Commissions",
+        "body": "President appointed Stephanie Daniels (currently on Finance and HR) and Golden Mua to the CLIPS committee. Motion by Hermling, second by Lope Sorrell, passed unanimously. Parks, HR/Finance, and one CLIPS position remain open. The board agreed to include applicant resumes in future packets."
+      },
+      {
+        "item": "Secondhand Article and Jewelry Dealer License",
+        "body": "Scoffield Coin and Hobby LLC at 5703 Jamar Street requested licenses. Chief Hunt explained the license requirement protects against stolen merchandise sales and involves posting items on a police-accessible website. Since the building is still under construction, the board amended the motion to require satisfactory background check completion and receipt of occupancy permit. Amendment and original motion both passed unanimously."
+      },
+      {
+        "item": "Farmers Market Location Discussion",
+        "body": "The board discussed challenges with the farmers market's new Kennedy Park location after losing the Camp Phillips/Scoffield Avenue site to development. Concerns included parking on grass areas along Alderson Street and safety issues. Renee explained the market grew from 25 to 53 vendor spots. Trustee Beck questioned costs but was assured the market operates at no loss through vendor fees and grant funding for EBT/token programs. Mont Miller Park was considered but rejected as too remote. No action was taken; discussion only."
+      },
+      {
+        "item": "Weston Avenue Speed Limit",
+        "body": "Public Works Director Michael reported conducting speed studies showing the 85th percentile speed at 45 mph. The road was under construction preventing completion of the study. He indicated findings would be brought back to the board. A resident had complained the speed limit remains inconsistent with the ordinance over two months after the board directed a change."
+      }
+    ],
+    "publicComment": "Jim Pitel of 52 Street spoke during public comment criticizing the board for hiring outside engineering consultants for $108,000 while an engineering technician position remains unfilled. He questioned why Lisa Beck was introduced at a Safer board meeting before being officially appointed, calling it inappropriate government action outside the boardroom. He also criticized the lack of detailed information on Kennedy Park in the meeting packet and called for greater administrator accountability.",
+    "actionItems": [
+      "Park and recreation impact fees increased to $761 single family, $563 duplex, $495 multifamily effective upon ordinance passage",
+      "Board of Review adjourned to June 15, 2026",
+      "Comprehensive Plan Steering Committee first meeting scheduled for Monday, June 1st at 6:00 pm as joint meeting with Plan Commission",
+      "Staff to prepare intergovernmental service agreement for Ringle building inspection assistance",
+      "Weston Avenue speed limit study to be completed and brought back to board",
+      "Applicant resumes for committee appointments to be included in future board packets",
+      "Scoffield Coin and Hobby license contingent on background check and occupancy permit",
+      "Remote meeting attendance policy updated - stricter language removed",
+      "Electronics drive date corrected to June 6th",
+      "Golden Mua and Stephanie Daniels appointed to CLIPS committee"
+    ]
+  },
+  {
     "id": "j64Gj2ean2k",
     "source": "weston",
     "title": "Public Works Committee",
@@ -779,219 +890,6 @@
       "Expected to consider action on Dog Day at the Aquatic Center",
       "Expected to consider action regarding graffiti on the Eau Claire River Trail",
       "Expected to consider action on Yellowbanks Kayak Launch Signs"
-    ]
-  },
-  {
-    "id": "YQ-B8Dd3ltU",
-    "source": "weston",
-    "title": "Board of Trustees",
-    "date": "May 18, 2026",
-    "shortDate": "MAY 18",
-    "committee": "Board of Trustees",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=YQ-B8Dd3ltU",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05182026-1918",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Weston Board of Trustees was scheduled to meet on May 18, 2026, to consider significant changes to park and recreation impact fees following a public hearing, review numerous license renewals for the 2026-2027 term, and address multiple infrastructure projects including construction proposals for intersection and road reconstruction projects.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Public Hearing and Consideration of Ordinance No. 26-010 and Resolution 2026-015 to Amend Park and Recreation Impact Fees"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of April 13, 2026, Special Board of Trustees Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of April 21, 2026, Board of Trustees Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge Reports/Minutes from Boards, Committees, Commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge Reports from Departments"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge April Building Permits"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge April Budget Status"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge April Code Enforcement Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge 2026 Weston Water Utility PSC Annual Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Vouchers – check numbers 66598-66740 and 90248-90251"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Adult Establishment License for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Weights and Measures Licenses for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Cigarette, Tobacco, and Electronic Vaping Licenses for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Lodging License for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Alcohol Licenses for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Renewal of Salvage License for 2026-2027 Licensing Term"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance No. 26-008: Amending Mobile Food Vendors License"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance No. 26-009: Amending Standing Committees"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance No. 26-011: Amending Chapter 50 Nuisances"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance No. 26-012: Amending Bicycles Regulations"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution 2026-014: Support for Long-Term State Transportation Fund Solution"
-      },
-      {
-        "time": "N/A",
-        "item": "Amendments to Remote Meeting Attendance Policy"
-      },
-      {
-        "time": "N/A",
-        "item": "President's Appointments to Committees and/or Commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of Secondhand Article Dealer License for Schofield Coin & Hobby LLC"
-      },
-      {
-        "time": "N/A",
-        "item": "Compliance Assurance Plan (CAP) Policy"
-      },
-      {
-        "time": "N/A",
-        "item": "Feedback on Farmers Market Location at Kennedy Park"
-      },
-      {
-        "time": "N/A",
-        "item": "Site Plan Review for Mountain Bay Metro Police Department & Municipal Court Facility"
-      },
-      {
-        "time": "N/A",
-        "item": "Address Corrections for E911 Compliance"
-      },
-      {
-        "time": "N/A",
-        "item": "Raze Order Request for 4104 Shorey Avenue"
-      },
-      {
-        "time": "N/A",
-        "item": "CliftonStrengths Assessments and Training for Board of Trustees"
-      },
-      {
-        "time": "N/A",
-        "item": "Amendments to Employee Personnel Policies regarding Clothing and Appearance"
-      },
-      {
-        "time": "N/A",
-        "item": "Recycled Asphalt Base Course Production Quotes"
-      },
-      {
-        "time": "N/A",
-        "item": "Sanitary Sewer Discharge Violation Fees"
-      },
-      {
-        "time": "N/A",
-        "item": "Water and Sewer Connection Agreement for 2230 Radtke Avenue"
-      },
-      {
-        "time": "N/A",
-        "item": "Intergovernmental Agreement for Military Road Construction"
-      },
-      {
-        "time": "N/A",
-        "item": "Construction Services Proposals for Alderson and Jelinek Intersection Project"
-      },
-      {
-        "time": "N/A",
-        "item": "Construction Services Proposals for Bloedel Ave Reconstruction Project"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Park and Recreation Impact Fees Public Hearing",
-        "body": "The Board was scheduled to hold a public hearing on proposed significant increases to park and recreation impact fees for new residential development. The proposed changes would raise single-family fees from $300 to $761, duplex fees from $250 to $563 per unit, and multi-family fees from $250 to $495 per unit, based on the Village's 2022 Public Facilities Needs Assessment."
-      },
-      {
-        "item": "Resolution 2026-014 State Transportation Funding",
-        "body": "The Board was expected to consider a resolution expressing support for a long-term, sustainable funding solution to Wisconsin's Transportation Fund. This resolution was set to address state-level transportation infrastructure funding concerns."
-      },
-      {
-        "item": "Site Plan Review for Mountain Bay Metro Police Department & Municipal Court Facility",
-        "body": "The Board was scheduled to review and potentially act on the site plan for a new Mountain Bay Metro Police Department and Municipal Court Facility at 3600 Community Center Drive. This represents a significant public safety infrastructure project for the community."
-      },
-      {
-        "item": "Farmers Market Location at Kennedy Park",
-        "body": "The Board was set to discuss feedback on the Farmers Market location at Kennedy Park and recommended follow-up actions. This item was designated for discussion only with no action expected."
-      },
-      {
-        "item": "Raze Order Request for 4104 Shorey Avenue",
-        "body": "The Board was expected to consider a raze order request for the property at 4104 Shorey Avenue. Raze orders typically require demolition of structures deemed unsafe or in violation of building codes."
-      },
-      {
-        "item": "Mobile Food Vendors License Ordinance",
-        "body": "The Board was scheduled to consider Ordinance No. 26-008 amending Chapter 18 Business regulations regarding Mobile Food Vendors License requirements. This was set to update licensing procedures for food truck and mobile vendor operations."
-      },
-      {
-        "item": "Construction Services for Road Projects",
-        "body": "The Board was expected to review and act on construction services proposals for two major infrastructure projects: the Alderson and Jelinek Intersection Project and the Bloedel Ave Reconstruction Project."
-      },
-      {
-        "item": "Intergovernmental Agreement for Military Road Construction",
-        "body": "The Board was scheduled to consider an intergovernmental agreement related to Military Road construction, which typically involves coordination with neighboring municipalities or county government on shared roadway projects."
-      },
-      {
-        "item": "CliftonStrengths Assessments and Training",
-        "body": "The Board was set to discuss potential interest in completing CliftonStrengths assessments and training, a professional development tool designed to help identify individual strengths and improve team dynamics."
-      }
-    ],
-    "publicComment": "Public comment was included on the agenda, allowing persons to address the Board for up to three minutes regarding non-agenda items, with time extensions permitted at the Chief Presiding Officer's discretion. Additional public comment opportunity was scheduled during the Park and Recreation Impact Fees public hearing.",
-    "actionItems": [
-      "Scheduled to vote on Ordinance No. 26-010 and Resolution 2026-015 amending park and recreation impact fees following public hearing",
-      "Expected to consider approval of multiple license renewals for 2026-2027 licensing term including alcohol, tobacco, lodging, and adult establishment licenses",
-      "Scheduled to vote on Resolution 2026-014 supporting state transportation fund solutions",
-      "Expected to consider site plan approval for Mountain Bay Metro Police Department and Municipal Court Facility",
-      "Scheduled to vote on construction services proposals for Alderson/Jelinek intersection and Bloedel Ave reconstruction projects",
-      "Expected to consider intergovernmental agreement for Military Road construction",
-      "Scheduled to vote on raze order request for 4104 Shorey Avenue",
-      "Expected to consider ordinance amendments regarding mobile food vendors, nuisances, bicycles, and standing committees"
     ]
   },
   {

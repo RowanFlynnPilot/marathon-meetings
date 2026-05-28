@@ -172,13 +172,13 @@
       "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-05-18.md"
     },
     "YQ-B8Dd3ltU": {
-      "title": "Board of Trustees - 5/18/2026",
+      "title": "Board of Trustees",
       "source": "weston",
       "doc_url": null,
-      "processed_at": "2026-05-20T05:06:16.239712+00:00",
-      "summary_file": "summaries/weston-board-of-trustees-5182026.md",
       "upload_date": "20260519",
       "meeting_date": "20260518",
+      "processed_at": "2026-05-20T05:06:16.239712+00:00",
+      "summary_file": "summaries\\weston-board-of-trustees.md",
       "duration": 9152
     },
     "NwM-PoBvvMg": {
