@@ -105,7 +105,7 @@ jobs:
           for TFILE in transcripts/*.txt; do
             VID=$(basename "$TFILE" .txt)
             echo "Processing transcript for: $VID"
-            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" --jsx marathon-meetings.jsx
+            python inject_transcript.py --video-id "$VID" --transcript "$TFILE"
             echo ""
           done
 
@@ -120,18 +120,19 @@ jobs:
           python inject_meetings.py
 
       - name: Update upcoming meetings
-        run: python update_upcoming.py marathon-meetings.jsx
+        run: python update_upcoming.py
 
-      - name: Commit JSX and deploy assets
+      - name: Commit data and deploy assets
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f marathon-meetings.jsx || true
+          git add -f src/data/meetings.json || true
+          git add -f src/data/upcoming.json || true
           git add -f injected_meetings.json || true
           git add -f processed_meetings.json || true
           git add -f summaries/ || true
           git status
-          git diff --staged --quiet || git commit -m "chore: update meetings JSX [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
           git push || true
 
       - name: Build

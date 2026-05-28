@@ -28,6 +28,13 @@ import argparse, json, os, re, sys
 from pathlib import Path
 from datetime import datetime, timezone
 
+# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, OSError):
+    pass
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -46,8 +53,11 @@ def main():
                         help="Summarize but don't update files")
     parser.add_argument("--force", action="store_true",
                         help="Re-summarize even if a transcript-based summary already exists")
-    parser.add_argument("--jsx", type=str, default="./marathon-meetings.jsx",
-                        help="Path to the JSX file (default: ./marathon-meetings.jsx)")
+    parser.add_argument("--data", type=str, default="./src/data/meetings.json",
+                        help="Path to the meetings JSON (default: ./src/data/meetings.json)")
+    # Back-compat shim — older callers pass --jsx but we no longer read JSX.
+    parser.add_argument("--jsx", type=str, default=None,
+                        help=argparse.SUPPRESS)
     args = parser.parse_args()
 
     # ── Check if already transcript-based (skip unless --force) ──────────────
@@ -127,34 +137,29 @@ def main():
         else:
             print(f"[warn] Video {vid_id} not in processed_meetings.json")
 
-    meeting_date_from_jsx = None  # Track the real meeting date from JSX
+    meeting_date_from_json = None
     if not source_key or title == vid_id:
-        # Try to detect source, title, date from existing MEETINGS in JSX
-        jsx_path = Path(args.jsx)
-        if jsx_path.exists():
-            jsx = jsx_path.read_text(encoding="utf-8")
-            # Extract source
-            src_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?source:\s*"([^"]+)"', jsx)
-            if src_m:
-                source_key = source_key or src_m.group(1)
-                print(f"[ok]  Detected source from JSX: {source_key}")
-            # Extract title
-            title_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?title:\s*"([^"]+)"', jsx)
-            if title_m and title == vid_id:
-                title = title_m.group(1)
-                # Strip any accumulated date suffixes
-                title = re.sub(r'(\s*-\s*\d{1,2}/\d{1,2}/\d{2,4})+$', '', title).strip()
-                print(f"[ok]  Detected title from JSX: {title}")
-            # Extract date (e.g. "March 24, 2026")
-            date_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?date:\s*"([^"]+)"', jsx)
-            if date_m:
-                meeting_date_from_jsx = date_m.group(1)
-                print(f"[ok]  Detected date from JSX: {meeting_date_from_jsx}")
-            # Extract docUrl
-            doc_m = re.search(rf'id:\s*"{re.escape(vid_id)}"[^}}]*?docUrl:\s*"([^"]+)"', jsx)
-            if doc_m and not doc_url:
-                doc_url = doc_m.group(1)
-                print(f"[ok]  Detected docUrl from JSX: {doc_url}")
+        # Fall back to the rendered meetings.json (built from prior runs).
+        data_path = Path(args.data)
+        if data_path.exists():
+            try:
+                meetings_list = json.loads(data_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                meetings_list = []
+            entry = next((m for m in meetings_list if isinstance(m, dict) and m.get("id") == vid_id), None)
+            if entry:
+                if not source_key and entry.get("source"):
+                    source_key = entry["source"]
+                    print(f"[ok]  Detected source from {data_path.name}: {source_key}")
+                if title == vid_id and entry.get("title"):
+                    title = re.sub(r'(\s*-\s*\d{1,2}/\d{1,2}/\d{2,4})+$', '', entry["title"]).strip()
+                    print(f"[ok]  Detected title from {data_path.name}: {title}")
+                if entry.get("date"):
+                    meeting_date_from_json = entry["date"]
+                    print(f"[ok]  Detected date from {data_path.name}: {meeting_date_from_json}")
+                if not doc_url and entry.get("docUrl"):
+                    doc_url = entry["docUrl"]
+                    print(f"[ok]  Detected docUrl from {data_path.name}: {doc_url}")
 
     # ── Always fetch authoritative title and date from YouTube ──────────────
     # The JSX date may be wrong from previous runs, so we ALWAYS query YouTube
@@ -277,14 +282,14 @@ def main():
         state_title = f"{title} - {KNOWN_DATES[vid_id]}"
     elif original_yt_title:
         state_title = original_yt_title
-    elif meeting_date_from_jsx:
+    elif meeting_date_from_json:
         try:
             from datetime import datetime as _dt
-            d = _dt.strptime(meeting_date_from_jsx, "%B %d, %Y")
-            # Reject if JSX date is "today" — likely a bad fallback from a previous run
+            d = _dt.strptime(meeting_date_from_json, "%B %d, %Y")
+            # Reject if the rendered date is "today" — likely a bad fallback from a previous run.
             if d.date() == today_obj:
                 state_title = title
-                print(f"[warn] JSX date is today ({meeting_date_from_jsx}) — likely bad, ignoring")
+                print(f"[warn] rendered date is today ({meeting_date_from_json}) — likely bad, ignoring")
             else:
                 state_title = f"{title} - {d.month}/{d.day}/{d.year}"
         except Exception:
@@ -313,7 +318,7 @@ def main():
     print(f"\n[inject] Running inject_meetings.py...")
     import subprocess
     result = subprocess.run(
-        [sys.executable, "inject_meetings.py", args.jsx],
+        [sys.executable, "inject_meetings.py", args.data],
         capture_output=True, text=True
     )
     print(result.stdout)

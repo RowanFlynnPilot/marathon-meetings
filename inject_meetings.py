@@ -1,41 +1,51 @@
 #!/usr/bin/env python3
 """
-inject_meetings.py — Injects newly summarised meetings into the JSX MEETINGS array.
-=====================================================================================
-Reads processed_meetings.json and the corresponding *_summary.json + *_votes.json
-sidecars produced by marathon_meeting_summarizer.py, then prepends new entries to
-the MEETINGS array in the React JSX file.
+inject_meetings.py — Refresh src/data/meetings.json from processed summaries.
+==============================================================================
+Reads processed_meetings.json plus the *_summary.json / *_votes.json sidecars
+produced by marathon_meeting_summarizer.py, then writes src/data/meetings.json.
+
+Vite imports that file directly into the React component, so once it's written
+the build just picks it up — no JSX mutation involved.
 
 Usage:
-    python inject_meetings.py [path/to/marathon-meetings.jsx]
+    python inject_meetings.py [path/to/meetings.json]
 
-Defaults to ./marathon-meetings.jsx if no path given.
+Defaults to ./src/data/meetings.json.
 
-Run order in GitHub Actions:
+Pipeline order (GitHub Actions):
     1. marathon_meeting_summarizer.py   → summaries/*.json
-    2. inject_meetings.py               → updates MEETINGS array in JSX
-    3. update_upcoming.py               → updates UPCOMING arrays in JSX
+    2. inject_meetings.py               → src/data/meetings.json
+    3. update_upcoming.py               → src/data/upcoming.json
     4. git commit && git push
+    5. vite build → deploy
 """
 
 import json, re, sys, os
-from datetime import datetime, timezone
+from datetime import datetime, date, timezone
 from pathlib import Path
+
+# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, OSError):
+    pass
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-JSX_PATH      = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./marathon-meetings.jsx")
+DATA_PATH     = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./src/data/meetings.json")
 STATE_FILE    = Path(os.environ.get("STATE_FILE",    "./processed_meetings.json"))
 SUMMARIES_DIR = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
-INJECTED_FILE = Path("./injected_meetings.json")   # tracks what's been injected
+INJECTED_FILE = Path("./injected_meetings.json")
 
-# How many meetings to keep in the MEETINGS array (oldest get pruned)
+# How many meetings to keep in the display list (oldest get pruned)
 MAX_MEETINGS = 30
 
 # ── Committee → source mapping ────────────────────────────────────────────────
 
 COMMITTEE_MAP = {
-    # Marathon County — specific enough to avoid cross-source matches
+    # Marathon County
     "executive committee":                     ("marathon", "Executive Committee"),
     "public safety committee":                 ("marathon", "Public Safety"),
     "environmental resources committee":       ("marathon", "Environmental Resources"),
@@ -46,7 +56,7 @@ COMMITTEE_MAP = {
     "human resources, finance & property":     ("marathon", "HR, Finance & Property"),
     "extension, education & econ":             ("marathon", "Extension & Economic Dev"),
     "county board":                            ("marathon", "County Board"),
-    # City of Wausau — use distinctive phrases only
+    # City of Wausau
     "public health & safety":                  ("wausau", "Public Health & Safety"),
     "public health and safety":                ("wausau", "Public Health & Safety"),
     "board of public works":                   ("wausau", "Board of Public Works"),
@@ -57,7 +67,7 @@ COMMITTEE_MAP = {
     "wausau finance committee":                ("wausau", "Finance"),
     "wausau parks":                            ("wausau", "Parks & Recreation"),
     "wausau economic development":             ("wausau", "Economic Development"),
-    # Village of Weston — use full distinctive phrases
+    # Village of Weston
     "board of trustees":                       ("weston", "Board of Trustees"),
     "finance and human resources committee":   ("weston", "Finance & Human Resources"),
     "finance & human resources committee":     ("weston", "Finance & Human Resources"),
@@ -71,15 +81,15 @@ COMMITTEE_MAP = {
     "audit of the bills":                      ("school_board", "Audit of the Bills"),
 }
 
+
 def infer_source_and_committee(title: str, source_key: str, committee_from_json: str) -> tuple[str, str]:
-    """Return (source, committee_display) from available metadata.
+    """Return (source, committee_display).
     source_key from processed_meetings.json is AUTHORITATIVE — never override it.
     COMMITTEE_MAP is only used to clean up the display committee name.
     """
     def normalize(s):
         return s.lower().replace(" and ", " & ").replace("  ", " ")
 
-    # Use committee from JSON summary if available, cleaned up via map
     if committee_from_json and len(committee_from_json) > 3:
         lower = normalize(committee_from_json)
         for key, (map_source, map_committee) in COMMITTEE_MAP.items():
@@ -87,13 +97,11 @@ def infer_source_and_committee(title: str, source_key: str, committee_from_json:
                 return (source_key, map_committee)
         return (source_key, committee_from_json)
 
-    # Fall back to title matching, respecting source_key
     lower = normalize(title)
     for key, (map_source, map_committee) in COMMITTEE_MAP.items():
         if key in lower and map_source == source_key:
             return (source_key, map_committee)
 
-    # Last resort: clean title
     clean = re.sub(r'\s*-\s*\d+.*$', '', title).strip()
     clean = re.sub(r'\s*-\s*20\d{2}-\d{2}-\d{2}$', '', clean).strip()
     return (source_key, clean)
@@ -102,17 +110,13 @@ def infer_source_and_committee(title: str, source_key: str, committee_from_json:
 # ── Date helpers ──────────────────────────────────────────────────────────────
 
 def parse_date_from_title(title: str):
-    """Extract date from title.
-    Handles: 'Board of Trustees - 3/23/2026', 'Special Meeting - 2026-01-26'
-    """
-    # ISO format: 2026-01-26
+    """Handles 'Board of Trustees - 3/23/2026' and 'Special Meeting - 2026-01-26'."""
     m = re.search(r'(20\d{2})-(\d{2})-(\d{2})', title)
     if m:
         try:
             return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
         except ValueError:
             pass
-    # US format: 3/23/2026 or 3/23/26
     m = re.search(r'(\d{1,2})/(\d{1,2})/(\d{2,4})', title)
     if m:
         mo, dy, yr = m.groups()
@@ -121,14 +125,12 @@ def parse_date_from_title(title: str):
             return datetime(int(yr), int(mo), int(dy))
         except ValueError:
             pass
-    # Dash format: 12-18-18 or 3-23-26
     m = re.search(r'(\d{1,2})-(\d{1,2})-(\d{2,4})(?!\d)', title)
     if m:
         mo, dy, yr = m.groups()
         yr = "20" + yr if len(yr) == 2 else yr
         try:
             dt = datetime(int(yr), int(mo), int(dy))
-            # Sanity: reject if date is before 2010 (likely mis-parsed)
             if dt.year >= 2010:
                 return dt
         except ValueError:
@@ -137,179 +139,99 @@ def parse_date_from_title(title: str):
 
 
 def fmt_date(dt: datetime) -> str:
-    return f"{dt.strftime('%B')} {dt.day}, {dt.year}"   # "March 23, 2026"
+    return f"{dt.strftime('%B')} {dt.day}, {dt.year}"
 
 
 def fmt_short_date(dt: datetime) -> str:
-    return f"{dt.strftime('%b')} {dt.day}".upper()  # "MAR 23"
+    return f"{dt.strftime('%b')} {dt.day}".upper()
 
 
-# ── JSX string builder ────────────────────────────────────────────────────────
+def clean_committee(s: str) -> str:
+    """Strip HTML tags and placeholder tokens that occasionally bleed in."""
+    if not s:
+        return ""
+    s = re.sub(r'<[^>]+>', '', s)
+    s = re.sub(r'\[+[A-Z_]+\]+', '', s)
+    return s.strip()
 
-def _esc(s: str) -> str:
-    """Escape a string for inclusion in a JSX attribute value."""
-    import re as _re
-    s = _re.sub(r'<[^>]+>', '', s or "")    # strip HTML tags from CivicClerk
-    s = _re.sub(r'\[+[A-Z_]+\]+', '', s)   # strip [PLACEHOLDER] tokens from Claude
-    s = s.strip()
-    return s                               \
-        .replace("\\", "\\\\")    \
-        .replace('"',  '\\"')     \
-        .replace("\n", " ")       \
-        .replace("\r", "")        \
-        .replace("/",   "\\/")       # prevent esbuild misreading / as regex
 
-def build_meeting_jsx(
-    video_id:    str,
-    source:      str,
-    title:       str,
-    date_str:    str,
-    short_date:  str,
-    committee:   str,
-    duration:    str,
-    url:         str,
-    doc_url:     str | None,
-    summary:     dict,
-    civic_data:  dict | None,
-) -> str:
-    """Return a JSX object literal string for one meeting entry."""
+# ── Build a meeting dict from a summary sidecar ───────────────────────────────
 
-    overview      = _esc(summary.get("overview", ""))
-    public_comment = _esc(summary.get("publicComment", "No public comment was offered."))
+def build_meeting(
+    video_id: str,
+    info: dict,
+    summary: dict,
+    civic_data: dict | None,
+) -> dict | None:
+    title      = info["title"]
+    source_key = info["source"]
+    doc_url    = info.get("doc_url")
 
-    # ── Agenda ────────────────────────────────────────────────────────────────
-    agenda_items = summary.get("agenda", [])
-    if not agenda_items:
-        agenda_items = [{"time": "0:00", "item": "Meeting convened"}]
-    agenda_lines = []
-    for a in agenda_items:
-        t = _esc(a.get("time", "0:00"))
-        i = _esc(a.get("item", ""))
-        agenda_lines.append(f'      {{ time:"{t}", item:"{i}" }},')
-    agenda_jsx = "\n".join(agenda_lines)
+    dt = parse_date_from_title(title)
+    if not dt:
+        processed_at = info.get("processed_at", "")
+        if processed_at:
+            try:
+                dt = datetime.fromisoformat(processed_at.replace("Z", "+00:00"))
+            except ValueError:
+                dt = datetime.now()
+        else:
+            dt = datetime.now()
 
-    # ── Discussions ───────────────────────────────────────────────────────────
-    discussions = summary.get("discussions", [])
-    disc_lines = []
-    for d in discussions:
-        item = _esc(d.get("item", ""))
-        body = _esc(d.get("body", ""))
-        disc_lines.append(f'      {{ item:"{item}", body:"{body}" }},')
-    disc_jsx = "\n".join(disc_lines)
+    source, committee = infer_source_and_committee(
+        title, source_key, summary.get("committee", "")
+    )
+    committee = clean_committee(committee)
 
-    # ── Action items ──────────────────────────────────────────────────────────
-    actions = summary.get("actionItems", [])
-    action_lines = [f'      "{_esc(a)}",' for a in actions]
-    actions_jsx = "\n".join(action_lines)
+    is_boardbook = video_id.startswith("bb_")
+    if is_boardbook:
+        yt_url = doc_url or "https://meetings.boardbook.org/Public/Organization/1360"
+    else:
+        yt_url = f"https://www.youtube.com/watch?v={video_id}"
 
-    # ── Doc URL ───────────────────────────────────────────────────────────────
-    doc_jsx = f'"{doc_url}"' if doc_url else "null"
+    clean_title = title
+    clean_title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_title).strip()
+    clean_title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', clean_title).strip()
+    clean_title = re.sub(r'\s*-\s*\d{1,2}-\d{1,2}-\d{2,4}$', '', clean_title).strip()
 
-    # ── Civic items (Wausau only) ──────────────────────────────────────────────
-    civic_jsx = ""
+    agenda_items = summary.get("agenda") or [{"time": "0:00", "item": "Meeting convened"}]
+    is_agenda_only = is_boardbook or summary.get("_source") == "agenda"
+
+    meeting = {
+        "id":             video_id,
+        "source":         source,
+        "title":          clean_title,
+        "date":           fmt_date(dt),
+        "shortDate":      fmt_short_date(dt),
+        "committee":      committee,
+        "duration":       summary.get("duration", "~1h"),
+        "url":            yt_url,
+        "docUrl":         doc_url,
+        "isAgendaOnly":   bool(is_agenda_only),
+        "badge":          "new",
+        "overview":       summary.get("overview", ""),
+        "agenda":         agenda_items,
+        "discussions":    summary.get("discussions", []),
+        "publicComment":  summary.get("publicComment", "No public comment was offered."),
+        "actionItems":    summary.get("actionItems", []),
+    }
+
     if civic_data and source == "wausau":
         items = civic_data.get("items", [])
-        civic_jsx = "\n    civicItems: " + build_civic_items_jsx(items) + ","
+        if items:
+            meeting["civicItems"] = items
 
-    is_bb = video_id.startswith("bb_")
-    is_agenda_only = is_bb or summary.get("_source") == "agenda"
-    return f"""  {{
-    id: "{video_id}", source: "{source}",
-    title: "{_esc(title)}",
-    date: "{date_str}", shortDate: "{short_date}",
-    committee: "{_esc(committee)}", duration: "{duration}",
-    url: "{url}",
-    docUrl: {doc_jsx},
-    isAgendaOnly: {"true" if is_agenda_only else "false"},
-    badge: "new",
-    overview: "{overview}",
-    agenda: [
-{agenda_jsx}
-    ],
-    discussions: [
-{disc_jsx}
-    ],
-    publicComment: "{public_comment}",
-    actionItems: [
-{actions_jsx}
-    ],{civic_jsx}
-  }}"""
+    return meeting
 
 
-def build_civic_items_jsx(items: list) -> str:
-    """Recursively build civicItems JSX from CivicClerk data."""
-    if not items:
-        return "[]"
-    lines = ["["]
-    for item in items:
-        number   = _esc(item.get("number", ""))
-        name     = _esc(item.get("name", ""))
-        votes    = item.get("votes", [])
-        docs     = item.get("docs", [])
-        children = item.get("children", [])
-
-        votes_jsx    = build_votes_jsx(votes)
-        docs_jsx     = build_docs_jsx(docs)
-        children_jsx = build_civic_items_jsx(children)
-
-        lines.append(
-            f'      {{ number:"{number}", name:"{name}", '
-            f'votes:{votes_jsx}, docs:{docs_jsx}, children:{children_jsx} }},'
-        )
-    lines.append("    ]")
-    return "\n".join(lines)
-
-
-def build_votes_jsx(votes: list) -> str:
-    if not votes:
-        return "[]"
-    parts = []
-    for v in votes:
-        motion   = _esc(v.get("motion", ""))
-        passed   = "true" if v.get("passed") else "false"
-        initiator = _esc(v.get("initiator", ""))
-        seconder  = _esc(v.get("seconder", ""))
-        yes       = json.dumps(v.get("yes", []))
-        no        = json.dumps(v.get("no", []))
-        abstain   = json.dumps(v.get("abstain", []))
-        parts.append(
-            f'{{ motion:"{motion}", passed:{passed}, initiator:"{initiator}", '
-            f'seconder:"{seconder}", yes:{yes}, no:{no}, abstain:{abstain} }}'
-        )
-    return "[" + ", ".join(parts) + "]"
-
-
-def build_docs_jsx(docs: list) -> str:
-    if not docs:
-        return "[]"
-    parts = []
-    for d in docs:
-        if isinstance(d, dict):
-            name = _esc(d.get("name", ""))
-            url  = d.get("url") or ""
-            parts.append(f'{{ name:"{name}", url:"{url}" }}')
-        else:
-            parts.append(f'"{_esc(str(d))}"')
-    return "[" + ", ".join(parts) + "]"
-
-
-# ── Duration from yt-dlp metadata ─────────────────────────────────────────────
-
-def fmt_duration(seconds: int | None) -> str:
-    if not seconds:
-        return "~1h"
-    h = seconds // 3600
-    m = (seconds % 3600) // 60
-    if h:
-        return f"{h}h {m}m" if m else f"{h}h"
-    return f"{m}m"
-
-
-# ── Main injection logic ───────────────────────────────────────────────────────
+# ── Tracking helpers ──────────────────────────────────────────────────────────
 
 def load_injected() -> set:
     if INJECTED_FILE.exists():
-        return set(json.loads(INJECTED_FILE.read_text()).get("injected", []))
+        try:
+            return set(json.loads(INJECTED_FILE.read_text()).get("injected", []))
+        except json.JSONDecodeError:
+            return set()
     return set()
 
 
@@ -317,96 +239,91 @@ def save_injected(ids: set):
     INJECTED_FILE.write_text(json.dumps({"injected": sorted(ids)}, indent=2))
 
 
-def main():
-    print(f"\n💉  inject_meetings.py — target: {JSX_PATH}")
-    print("=" * 60)
+def load_meetings_json() -> list:
+    if DATA_PATH.exists():
+        try:
+            data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+            return [m for m in data if isinstance(m, dict)]
+        except json.JSONDecodeError:
+            print(f"⚠️   {DATA_PATH} is malformed; starting fresh.")
+            return []
+    return []
 
-    if not JSX_PATH.exists():
-        print(f"❌  JSX file not found: {JSX_PATH}")
-        sys.exit(1)
+
+def is_future(meeting: dict) -> bool:
+    """Return True if the meeting's date is in the future."""
+    date_str = meeting.get("date", "")
+    if not date_str:
+        return False
+    try:
+        d = datetime.strptime(date_str, "%B %d, %Y").date()
+        return d > date.today()
+    except ValueError:
+        return False
+
+
+def is_stub(meeting: dict) -> bool:
+    """A stub is an entry with empty agenda and discussions — placeholder only."""
+    return not meeting.get("agenda") and not meeting.get("discussions")
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+def main():
+    print(f"\n💉  inject_meetings.py — target: {DATA_PATH}")
+    print("=" * 60)
 
     if not STATE_FILE.exists():
         print("ℹ️   No state file found — nothing processed yet.")
         return
 
-    state    = json.loads(STATE_FILE.read_text())
+    state     = json.loads(STATE_FILE.read_text())
     processed = state.get("processed", {})
     injected  = load_injected()
 
-    # Find video IDs that have been summarized but not yet injected into JSX
-    # Also include stubs already in MEETINGS but with empty agenda/discussions
-    jsx_content = JSX_PATH.read_text(encoding="utf-8")
-    # Find all IDs where the entry has empty agenda array
-    stub_ids = set()
-    # Split into individual meeting blocks and check each
-    blocks = re.split(r'(?=  \{\n    id:)', jsx_content)
-    for block in blocks:
-        id_m = re.search(r'id:\s*"([^"]+)"', block)
-        if id_m and 'agenda: []' in block and 'discussions: []' in block:
-            stub_ids.add(id_m.group(1))
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    existing  = load_meetings_json()
+    existing_by_id = {m["id"]: m for m in existing}
+    stub_ids = {m["id"] for m in existing if is_stub(m)}
 
-    print(f"   Processed IDs in state: {len(processed)}")
-    print(f"   Already injected:       {len(injected)}")
-    print(f"   Stubs in MEETINGS:      {len(stub_ids)}")
+    print(f"   Processed IDs in state:        {len(processed)}")
+    print(f"   Already injected:              {len(injected)}")
+    print(f"   Existing entries (loaded):     {len(existing)}")
+    print(f"   Stubs awaiting full summary:   {len(stub_ids)}")
 
-    # IDs in processed state
-    processed_ids = set(processed.keys())
-    # IDs that are stubs but not in processed (manually-created stubs)
-    orphan_stubs  = stub_ids - processed_ids
-    if orphan_stubs:
-        print(f"   Orphan stubs (no processed entry): {orphan_stubs}")
-
-    from datetime import date as _date
-    today = _date.today()
-
-    def _is_future(info):
-        """Return True if this meeting is scheduled in the future."""
+    # Pending = anything in state that hasn't been injected, OR a stub that now
+    # has a summary available. Skip meetings with future dates in their titles.
+    def _title_is_future(info):
         title = info.get("title", "")
-        import re as _re
-        # ISO format: 2026-04-13
-        m = _re.search(r"(20\d{2})-(\d{2})-(\d{2})", title)
+        m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", title)
         if m:
             try:
-                d = _date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
-                return d > today
-            except Exception:
+                return date(int(m.group(1)), int(m.group(2)), int(m.group(3))) > date.today()
+            except ValueError:
                 pass
-        # US format: 4/13/26
-        m = _re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", title)
+        m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", title)
         if m:
             try:
                 mo, dy, yr = int(m.group(1)), int(m.group(2)), int(m.group(3))
                 yr = 2000 + yr if yr < 100 else yr
-                d = _date(yr, mo, dy)
-                return d > today
-            except Exception:
+                return date(yr, mo, dy) > date.today()
+            except ValueError:
                 pass
         return False
 
     pending = {
         vid: info for vid, info in processed.items()
-        if (vid not in injected or vid in stub_ids)
-        and not _is_future(info)
+        if (vid not in injected or vid in stub_ids) and not _title_is_future(info)
     }
 
-    if not pending and not stub_ids:
-        print("\u2705  No new meetings to inject.")
-        return
-
     if not pending:
-        print("\u2705  No processed meetings to inject (stubs exist but no summaries found).")
-        return
-
-    stubs_to_update = [v for v in pending if v in stub_ids]
-    if stubs_to_update:
-        print(f"\U0001f4dd  Will update {len(stubs_to_update)} stub(s) with full summary data")
+        print("✅  No new meetings to inject.")
+        # Still rewrite the file with the same data so the badge=null sweep
+        # below runs and the file stays in canonical (newest-first) order.
 
     print(f"📋  {len(pending)} meeting(s) to inject:")
     for vid, info in pending.items():
         print(f"   [{info['source']}] {info['title']}")
-
-    # Read JSX
-    jsx = JSX_PATH.read_text(encoding="utf-8")
 
     new_entries = []
     newly_injected = set()
@@ -414,192 +331,81 @@ def main():
     for video_id, info in sorted(
         pending.items(),
         key=lambda x: x[1].get("processed_at", ""),
-        reverse=True   # newest first
+        reverse=True,
     ):
-        title      = info["title"]
-        source_key = info["source"]
-        doc_url    = info.get("doc_url")
         summary_path = info.get("summary_file", "")
-
-        # Load _summary.json sidecar
         summary_json_path = summary_path.replace(".md", "_summary.json") if summary_path else ""
         if not summary_json_path or not Path(summary_json_path).exists():
-            print(f"   ⚠️  No summary JSON for {title}, skipping")
+            print(f"   ⚠️  No summary JSON for {info['title']}, skipping")
             continue
 
         summary = json.loads(Path(summary_json_path).read_text(encoding="utf-8"))
 
-        # Load _votes.json sidecar if available
         votes_path = summary_path.replace(".md", "_votes.json") if summary_path else ""
         civic_data = None
         if votes_path and Path(votes_path).exists():
-            civic_data = json.loads(Path(votes_path).read_text(encoding="utf-8"))
+            try:
+                civic_data = json.loads(Path(votes_path).read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                civic_data = None
 
-        # Parse date from title
-        dt = parse_date_from_title(title)
-        if not dt:
-            # Fall back to processed_at date
-            processed_at = info.get("processed_at", "")
-            dt = datetime.fromisoformat(processed_at.replace("Z", "+00:00")) if processed_at else datetime.now()
-
-        date_str   = fmt_date(dt)
-        short_date = fmt_short_date(dt)
-
-        # Infer source and committee
-        source, committee = infer_source_and_committee(
-            title, source_key, summary.get("committee", "")
-        )
-
-        # Build video URL — BoardBook meetings use bb_ prefix, not real YouTube IDs
-        is_boardbook = video_id.startswith("bb_")
-        if is_boardbook:
-            # Use the BoardBook agenda URL as the primary link
-            yt_url = doc_url or f"https://meetings.boardbook.org/Public/Organization/1360"
-        else:
-            yt_url = f"https://www.youtube.com/watch?v={video_id}"
-
-        # Clean title — strip date suffixes in multiple formats
-        clean_title = title
-        clean_title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_title).strip()  # 2026-01-26
-        clean_title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', clean_title).strip()  # 3/9/26
-        clean_title = re.sub(r'\s*-\s*\d{1,2}-\d{1,2}-\d{2,4}$', '', clean_title).strip()  # 12-18-18
-
-        # Build JSX entry
-        entry = build_meeting_jsx(
-            video_id    = video_id,
-            source      = source,
-            title       = clean_title,
-            date_str    = date_str,
-            short_date  = short_date,
-            committee   = committee,
-            duration    = summary.get("duration", "~1h"),
-            url         = yt_url,
-            doc_url     = doc_url,
-            summary     = summary,
-            civic_data  = civic_data,
-        )
-
+        entry = build_meeting(video_id, info, summary, civic_data)
+        if entry is None:
+            continue
         new_entries.append(entry)
         newly_injected.add(video_id)
-        print(f"   ✅  Built entry for: {title}")
+        print(f"   ✅  Built entry for: {info['title']}")
 
-    if not new_entries:
-        print("⚠️   No entries built — check summary JSON files.")
-        return
+    # Combine: new entries first, then existing — with stubs being replaced
+    # filtered out so we don't double-list.
+    kept_existing = [m for m in existing if m["id"] not in newly_injected]
+    combined = new_entries + kept_existing
 
-    # ── Inject into JSX ───────────────────────────────────────────────────────
-    # SAFETY: Extract the MEETINGS block, split into individual entries,
-    # do all operations on the ENTRY LIST (no regex surgery), then rejoin.
+    # Drop future-dated entries (the title-level future check above only
+    # covers what's in state; existing entries may have slipped through).
+    before = len(combined)
+    combined = [m for m in combined if not is_future(m)]
+    if before - len(combined):
+        print(f"   [prune] removed {before - len(combined)} future-dated entry/entries")
 
-    new_jsx = jsx
-    meetings_m = re.search(r'(const MEETINGS = \[\n)(.*?)(\n\];)', new_jsx, re.DOTALL)
-    if not meetings_m:
-        print("❌  Could not find MEETINGS array in JSX.")
-        print("    Looking for: const MEETINGS = [")
-        sys.exit(1)
+    # Prune to MAX_MEETINGS
+    if len(combined) > MAX_MEETINGS:
+        dropped = len(combined) - MAX_MEETINGS
+        combined = combined[:MAX_MEETINGS]
+        print(f"   🧹  Pruned {dropped} old meeting(s) (kept {MAX_MEETINGS})")
 
-    before_meetings = new_jsx[:meetings_m.start()]
-    after_meetings  = new_jsx[meetings_m.end():]
-    meetings_body   = meetings_m.group(2)
+    # Badge sweep: only the entries we just injected keep badge=new; everything
+    # else gets badge=null. (badge=null instead of missing key keeps the JSON
+    # diff minimal between runs.)
+    for m in combined:
+        m["badge"] = "new" if m["id"] in newly_injected else None
 
-    # ── Split body into individual entry blocks ──────────────────────────────
-    # Each entry starts with "  {\n    id:" — split on that boundary
-    raw_parts = re.split(r'(?=  \{\n    id:)', meetings_body)
-    existing_entries = [p for p in raw_parts if p.strip()]
-
-    def _get_entry_id(block: str) -> str:
-        m = re.search(r'id:\s*"([^"]+)"', block)
-        return m.group(1) if m else ""
-
-    print(f"   Existing entries in MEETINGS array: {len(existing_entries)}")
-
-    # ── Remove stubs that we are about to replace ────────────────────────────
-    keep = []
-    stubs_removed = 0
-    for e in existing_entries:
-        if _get_entry_id(e) in newly_injected:
-            stubs_removed += 1
-        else:
-            keep.append(e)
-    existing_entries = keep
-    if stubs_removed:
-        print(f"   Removed {stubs_removed} stub(s) being replaced")
-
-    # ── Build combined list: new entries first, then existing ─────────────────
-    all_entry_blocks = list(new_entries) + existing_entries
-
-    # ── Prune future-dated entries ───────────────────────────────────────────
-    from datetime import date as _date2
-    _today = _date2.today()
-
-    def _entry_is_future(block: str) -> bool:
-        m = re.search(r'date:\s*"([^"]+)"', block)
-        if not m:
-            return False
-        try:
-            import datetime as _dt
-            d = _dt.datetime.strptime(m.group(1), "%B %d, %Y").date()
-            return d > _today
-        except Exception:
-            return False
-
-    before_count = len(all_entry_blocks)
-    all_entry_blocks = [e for e in all_entry_blocks if not _entry_is_future(e)]
-    future_removed = before_count - len(all_entry_blocks)
-    if future_removed:
-        print(f"   [prune] Removed {future_removed} future-dated entry/entries")
-
-    # ── Prune to MAX_MEETINGS (keep newest, drop oldest from end) ────────────
-    if len(all_entry_blocks) > MAX_MEETINGS:
-        pruned = len(all_entry_blocks) - MAX_MEETINGS
-        all_entry_blocks = all_entry_blocks[:MAX_MEETINGS]
-        print(f"   🧹  Pruned {pruned} old meeting(s) (kept {MAX_MEETINGS})")
-
-    # ── Update badges: only newly injected entries keep "new" ────────────────
-    final_blocks = []
-    for block in all_entry_blocks:
-        eid = _get_entry_id(block)
-        if eid not in newly_injected and 'badge: "new"' in block:
-            block = block.replace('badge: "new"', 'badge: null')
-        final_blocks.append(block)
-
-    # ── Backfill missing Weston doc URLs ─────────────────────────────────────
+    # Backfill Weston doc URLs by date if we can reach the summarizer module.
     try:
         from marathon_meeting_summarizer import fetch_weston_doc_url_by_date
         backfilled = 0
-        for i, block in enumerate(final_blocks):
-            if 'source: "weston"' in block and "docUrl: null" in block:
-                # Extract date from the entry  e.g. date: "March 23, 2026"
-                dm = re.search(r'date:\s*"([^"]+)"', block)
-                if dm:
-                    try:
-                        from datetime import datetime as _dt
-                        d = _dt.strptime(dm.group(1), "%B %d, %Y")
-                        mmddyyyy = d.strftime("%m%d%Y")
-                        url = fetch_weston_doc_url_by_date(mmddyyyy)
-                        if url:
-                            final_blocks[i] = block.replace(
-                                "docUrl: null",
-                                f'docUrl: "{url}"'
-                            )
-                            backfilled += 1
-                    except Exception:
-                        pass
+        for m in combined:
+            if m.get("source") == "weston" and not m.get("docUrl"):
+                try:
+                    d = datetime.strptime(m["date"], "%B %d, %Y")
+                    url = fetch_weston_doc_url_by_date(d.strftime("%m%d%Y"))
+                    if url:
+                        m["docUrl"] = url
+                        backfilled += 1
+                except (ValueError, KeyError):
+                    pass
         if backfilled:
             print(f"   📎  Backfilled {backfilled} Weston doc URL(s)")
     except ImportError:
-        pass  # summarizer not available (shouldn't happen in CI)
+        pass
 
-    # ── Reassemble ───────────────────────────────────────────────────────────
-    meetings_body = ",\n".join(final_blocks)
-    new_jsx = before_meetings + "const MEETINGS = [\n" + meetings_body + "\n];" + after_meetings
-    print(f"   Final MEETINGS array: {len(final_blocks)} entries")
+    # Write
+    DATA_PATH.write_text(
+        json.dumps(combined, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    print(f"\n💾  Wrote {len(combined)} meeting(s) to {DATA_PATH} ({len(new_entries)} new)")
 
-    # Write back
-    JSX_PATH.write_text(new_jsx, encoding="utf-8")
-    print(f"\n💾  Wrote {len(new_entries)} new meeting(s) to {JSX_PATH}")
-
-    # Update injected tracking
     injected.update(newly_injected)
     save_injected(injected)
 

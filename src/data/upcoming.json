@@ -1,0 +1,332 @@
+{
+  "marathon": [
+    {
+      "date": "2026-06-04",
+      "time": "5:00 PM",
+      "name": "Health & Human Services Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-09",
+      "time": "5:00 PM",
+      "name": "Public Safety Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-10",
+      "time": "5:00 PM",
+      "name": "Extension, Education & Econ Dev Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-11",
+      "time": "3:00 PM",
+      "name": "Executive Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-11",
+      "time": "5:00 PM",
+      "name": "Infrastructure Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-18",
+      "time": "5:00 PM",
+      "name": "HR, Finance & Property Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-23",
+      "time": "5:00 PM",
+      "name": "Environmental Resources Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-06-23",
+      "time": "7:00 PM",
+      "name": "County Board Meeting",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-02",
+      "time": "5:00 PM",
+      "name": "Health & Human Services Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-08",
+      "time": "5:00 PM",
+      "name": "Extension, Education & Econ Dev Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "3:00 PM",
+      "name": "Executive Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "5:00 PM",
+      "name": "Infrastructure Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "5:00 PM",
+      "name": "Public Safety Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "5:00 PM",
+      "name": "HR, Finance & Property Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    }
+  ],
+  "wausau": [
+    {
+      "date": "2026-05-27",
+      "time": "4:00 PM",
+      "name": "Historic Preservation Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2217/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-01",
+      "time": "5:15 PM",
+      "name": "Parks & Recreation Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2057/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-02",
+      "time": "10:00 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2361/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-02",
+      "time": "11:30 AM",
+      "name": "Water Works Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2192/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-02",
+      "time": "5:30 PM",
+      "name": "Economic Development Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1992/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-04",
+      "time": "5:00 PM",
+      "name": "Sustainability, Energy & Environment Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2169/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-08",
+      "time": "4:45 PM",
+      "name": "Human Resources Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2030/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-09",
+      "time": "2:00 PM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2362/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-09",
+      "time": "5:30 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2005/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-09",
+      "time": "6:30 PM",
+      "name": "Common Council Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1966/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-10",
+      "time": "6:00 PM",
+      "name": "Airport Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1953/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-11",
+      "time": "5:15 PM",
+      "name": "Infrastructure & Facilities Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2044/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "5:15 PM",
+      "name": "Public Health & Safety Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2070/overview",
+      "source": "wausau"
+    }
+  ],
+  "weston": [
+    {
+      "date": "2026-05-28",
+      "time": "",
+      "name": "Public Works Committee",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05282026-1921",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-01",
+      "time": "6:00 PM",
+      "name": "Community Life & Public Safety Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-08",
+      "time": "6:00 PM",
+      "name": "Plan Commission",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-08",
+      "time": "6:00 PM",
+      "name": "Public Works Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "name": "S.A.F.E.R. Board of Directors",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "5:30 PM",
+      "name": "Finance & Human Resources Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "name": "Board of Trustees",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-18",
+      "time": "6:00 PM",
+      "name": "Mountain Bay Metro Police Oversight",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "6:00 PM",
+      "name": "Parks & Recreation Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-06",
+      "time": "6:00 PM",
+      "name": "Community Life & Public Safety Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "6:00 PM",
+      "name": "Plan Commission",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "6:00 PM",
+      "name": "Public Works Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "6:00 PM",
+      "name": "S.A.F.E.R. Board of Directors",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "6:00 PM",
+      "name": "Mountain Bay Metro Police Oversight",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "5:30 PM",
+      "name": "Finance & Human Resources Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "6:00 PM",
+      "name": "Board of Trustees",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    }
+  ],
+  "school_board": [
+    {
+      "date": "2026-06-08",
+      "time": "5:00 PM",
+      "name": "Regular Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Organization/1360",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "5:00 PM",
+      "name": "Education & Operations Committee",
+      "url": "https://meetings.boardbook.org/Public/Organization/1360",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "5:00 PM",
+      "name": "Regular Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Organization/1360",
+      "source": "school_board"
+    }
+  ]
+}

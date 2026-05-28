@@ -2,30 +2,39 @@
 """
 Central Wisconsin Meeting Tracker — Upcoming Events Updater
 ============================================================
-Refreshes the MARATHON_UPCOMING, WAUSAU_UPCOMING, and WESTON_UPCOMING
-arrays in the React JSX file with live data from each source.
+Refreshes src/data/upcoming.json with live data from each source. The React
+component imports that JSON file directly.
 
 Sources:
-  - City of Wausau  : CivicClerk OData API (live, exact dates/times)
+  - City of Wausau   : CivicClerk OData API (live, exact dates/times)
   - Village of Weston: westonwi.gov AgendaCenter (scrape future PDFs +
                        rule-based schedule for unposted months)
-  - Marathon County : Rule-based schedule derived from observed YouTube
-                      upload patterns (website blocks server IPs)
+  - Marathon County  : Rule-based schedule derived from observed YouTube
+                       upload patterns (website blocks server IPs)
+  - School Board     : BoardBook scrape + rule-based fill
 
 Usage:
-  python update_upcoming.py [path/to/marathon-meetings.jsx]
+  python update_upcoming.py [path/to/upcoming.json]
 
-Defaults to ./marathon-meetings.jsx if no path given.
+Defaults to ./src/data/upcoming.json.
 """
 
-import re, sys, json, warnings
+import json, re, sys
 import requests
-warnings.filterwarnings("ignore", message="Unverified HTTPS")
 from datetime import date, datetime, timedelta
 from calendar import monthrange
+from pathlib import Path
+
+# Windows consoles default to cp1252; force UTF-8 so emoji prints don't crash.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, OSError):
+    pass
 
 
-JSX_PATH = sys.argv[1] if len(sys.argv) > 1 else "./marathon-meetings.jsx"
+DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./src/data/upcoming.json")
+
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -43,14 +52,21 @@ def last_weekday(year: int, month: int, weekday: int) -> date:
     return last - timedelta(days=(last.weekday() - weekday) % 7)
 
 
-def fmt(d: date, time: str) -> dict:
-    return {"date": d.isoformat(), "time": time}
+def _months_between(start: date, end: date):
+    d = start.replace(day=1)
+    seen = set()
+    while d <= end:
+        seen.add((d.year, d.month))
+        if d.month == 12:
+            d = d.replace(year=d.year + 1, month=1)
+        else:
+            d = d.replace(month=d.month + 1)
+    return sorted(seen)
 
 
 # ── City of Wausau — CivicClerk API ──────────────────────────────────────────
 
 def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
-    """Fetch upcoming Wausau meetings from CivicClerk OData API."""
     today = date.today()
     end   = today + timedelta(days=days_ahead)
 
@@ -78,7 +94,6 @@ def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
         if "CANCEL" in name.upper() or "POSSIBLE QUORUM" in name.upper():
             continue
 
-        # CivicClerk stores LOCAL times mislabeled as UTC — use as-is
         raw = e.get("eventDate", "")
         date_part = raw[:10]
         time_part = ""
@@ -102,39 +117,30 @@ def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
 # ── Village of Weston — AgendaCenter scrape + rule-based ─────────────────────
 
 WESTON_SCHEDULE = [
-    # (committee_name, weekday(0=Mon), nth_week, time)
-    # Based on observed 2026 patterns from AgendaCenter
-    ("Plan Commission",                          0, 2, "6:00 PM"),   # 2nd Monday
-    ("Public Works Committee",                   0, 2, "6:00 PM"),   # 2nd Monday (same night)
-    ("Community Life & Public Safety Committee", 0, 1, "6:00 PM"),   # 1st Monday
-    ("Finance & Human Resources Committee",      0, 3, "5:30 PM"),   # 3rd Monday
-    ("Parks & Recreation Committee",             0, 4, "6:00 PM"),   # 4th Monday
-    ("Board of Trustees",                        0, 3, "6:00 PM"),   # 3rd Monday (after F&HR)
-    ("S.A.F.E.R. Board of Directors",            1, 2, "6:00 PM"),   # 2nd Tuesday
-    ("Mountain Bay Metro Police Oversight",      3, 3, "6:00 PM"),   # 3rd Thursday
+    ("Plan Commission",                          0, 2, "6:00 PM"),
+    ("Public Works Committee",                   0, 2, "6:00 PM"),
+    ("Community Life & Public Safety Committee", 0, 1, "6:00 PM"),
+    ("Finance & Human Resources Committee",      0, 3, "5:30 PM"),
+    ("Parks & Recreation Committee",             0, 4, "6:00 PM"),
+    ("Board of Trustees",                        0, 3, "6:00 PM"),
+    ("S.A.F.E.R. Board of Directors",            1, 2, "6:00 PM"),
+    ("Mountain Bay Metro Police Oversight",      3, 3, "6:00 PM"),
 ]
 
 WESTON_CALENDAR_BASE = "https://www.westonwi.gov"
 
 
 def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
-    """
-    Fetch upcoming Weston meetings by:
-    1. Scraping AgendaCenter for future-dated agenda PDFs (exact dates known)
-    2. Filling gaps with rule-based schedule for unposted meetings
-    """
     today     = date.today()
     end_date  = today + timedelta(days=days_ahead)
-    results   = {}  # key: (date, committee) -> entry
+    results   = {}
 
-    # ── Step 1: Scrape AgendaCenter for posted future agendas ────────────────
     try:
         r = requests.get(
             f"{WESTON_CALENDAR_BASE}/agendacenter",
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=10,
         )
-        # Parse committee sections and their agenda dates
         section_pattern = r'<h2[^>]*>([^<]+)</h2>(.*?)(?=<h2|$)'
         sections = re.findall(section_pattern, r.text, re.DOTALL)
 
@@ -142,19 +148,18 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
             committee = re.sub(r'\s+', ' ', committee_raw).strip()
             if not committee or len(committee) < 3:
                 continue
-            # Find agenda PDF links with dates
             links = re.findall(
                 r'href="(/AgendaCenter/ViewFile/Agenda/(_(\d{2})(\d{2})(\d{4})-(\d+)))"',
                 body
             )
-            for full_path, path_id, mo, dy, yr, num in links:
+            for full_path, _path_id, mo, dy, yr, _num in links:
                 try:
                     d = date(int(yr), int(mo), int(dy))
                     if today <= d <= end_date:
                         key = (d.isoformat(), committee)
                         results[key] = {
                             "date":   d.isoformat(),
-                            "time":   "",   # Time not on AgendaCenter page
+                            "time":   "",
                             "name":   committee,
                             "url":    f"{WESTON_CALENDAR_BASE}{full_path}",
                             "source": "weston",
@@ -165,29 +170,14 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
     except Exception as e:
         print(f"  ⚠️  Weston AgendaCenter scrape failed: {e}")
 
-    # ── Step 2: Fill gaps with rule-based schedule ───────────────────────────
     rule_added = 0
-    months_to_check = set()
-    d = today.replace(day=1)
-    while d <= end_date:
-        months_to_check.add((d.year, d.month))
-        # Advance to next month
-        if d.month == 12:
-            d = d.replace(year=d.year + 1, month=1)
-        else:
-            d = d.replace(month=d.month + 1)
-
-    for yr, mo in sorted(months_to_check):
+    for yr, mo in _months_between(today, end_date):
         for committee, weekday, nth, time_str in WESTON_SCHEDULE:
             meeting_date = nth_weekday(yr, mo, weekday, nth)
-            if meeting_date is None:
+            if meeting_date is None or not (today <= meeting_date <= end_date):
                 continue
-            if not (today <= meeting_date <= end_date):
-                continue
-
             key = (meeting_date.isoformat(), committee)
             if key not in results:
-                # Use calendar page as fallback URL
                 results[key] = {
                     "date":   meeting_date.isoformat(),
                     "time":   time_str,
@@ -198,32 +188,27 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
                 rule_added += 1
 
     print(f"  📅  Weston rule-based: {rule_added} additional meetings projected")
-    sorted_results = sorted(results.values(), key=lambda x: (x["date"], x["time"]))
-    return sorted_results
+    return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
 
 # ── Marathon County — Rule-based schedule ────────────────────────────────────
-# Website blocks all server IPs. Schedule derived from YouTube upload history
-# and known County Board rules (committees set their own schedules annually).
 
 MARATHON_SCHEDULE = [
-    # (committee_name, weekday(0=Mon), nth_week, time, calendar_url)
-    # Based on YouTube upload patterns from @marathoncountyboardmeetings
-    ("Public Safety Committee",               1, 2, "5:00 PM",
+    ("Public Safety Committee",                   1, 2, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("Environmental Resources Committee",     1, 4, "5:00 PM",
+    ("Environmental Resources Committee",         1, 4, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("Health & Human Services Committee",     3, 1, "5:00 PM",
+    ("Health & Human Services Committee",         3, 1, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("Infrastructure Committee",              3, 2, "5:00 PM",
+    ("Infrastructure Committee",                  3, 2, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("HR, Finance & Property Committee",      3, 3, "5:00 PM",
+    ("HR, Finance & Property Committee",          3, 3, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
     ("Extension, Education & Econ Dev Committee", 2, 2, "5:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("Executive Committee",                   3, 2, "3:00 PM",
+    ("Executive Committee",                       3, 2, "3:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
-    ("County Board Meeting",                  1, 4, "7:00 PM",
+    ("County Board Meeting",                      1, 4, "7:00 PM",
      "https://www.marathoncounty.gov/about-us/county-calendar"),
 ]
 
@@ -231,17 +216,12 @@ MARATHON_YOUTUBE = "https://www.youtube.com/@marathoncountyboardmeetings"
 
 
 def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
-    """
-    Generate Marathon County upcoming meetings using rule-based schedule.
-    Also checks their YouTube channel for any recently announced meetings.
-    """
     today    = date.today()
     end_date = today + timedelta(days=days_ahead)
     results  = {}
 
-    # ── Step 1: YouTube channel — look for meetings posted in last 7 days ─────
-    # New YouTube uploads indicate a meeting just occurred; the description
-    # often references the NEXT meeting date.
+    # YouTube channel scan for explicit next-meeting dates mentioned in
+    # descriptions of recently uploaded videos.
     try:
         import subprocess
         out = subprocess.run(
@@ -253,10 +233,9 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
             d = json.loads(line)
             title = d.get("title", "")
             desc  = d.get("description", "") or ""
-            # Look for explicit next-meeting dates in description
             date_mentions = re.findall(
                 r'(?:next meeting|upcoming)[^\n]{0,60}(\d{1,2}/\d{1,2}/\d{2,4})',
-                desc, re.IGNORECASE
+                desc, re.IGNORECASE,
             )
             for dm in date_mentions:
                 parts = dm.split("/")
@@ -266,7 +245,6 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
                     try:
                         md = date(int(yr), int(mo), int(dy))
                         if today <= md <= end_date:
-                            # Try to determine committee from video title
                             comm = re.sub(r'\s*-\s*\d+.*$', '', title).strip()
                             key  = (md.isoformat(), comm)
                             results[key] = {
@@ -281,23 +259,11 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
     except Exception as e:
         print(f"  ⚠️  Marathon YouTube scan failed: {e}")
 
-    # ── Step 2: Rule-based schedule ───────────────────────────────────────────
     rule_added = 0
-    months_to_check = set()
-    d = today.replace(day=1)
-    while d <= end_date:
-        months_to_check.add((d.year, d.month))
-        if d.month == 12:
-            d = d.replace(year=d.year + 1, month=1)
-        else:
-            d = d.replace(month=d.month + 1)
-
-    for yr, mo in sorted(months_to_check):
+    for yr, mo in _months_between(today, end_date):
         for committee, weekday, nth, time_str, cal_url in MARATHON_SCHEDULE:
             meeting_date = nth_weekday(yr, mo, weekday, nth)
-            if meeting_date is None:
-                continue
-            if not (today <= meeting_date <= end_date):
+            if meeting_date is None or not (today <= meeting_date <= end_date):
                 continue
             key = (meeting_date.isoformat(), committee)
             if key not in results:
@@ -314,65 +280,26 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
 
-# ── JSX updater ───────────────────────────────────────────────────────────────
-
-def events_to_jsx(events: list[dict], const_name: str) -> str:
-    lines = []
-    for e in events:
-        name = e["name"].replace('"', "'")
-        lines.append(
-            f'  {{ date:"{e["date"]}", time:"{e["time"]}", '
-            f'name:"{name}", url:"{e["url"]}", source:"{e["source"]}" }},'
-        )
-    body = "\n".join(lines)
-    return f"const {const_name} = [\n{body}\n];"
-
-
-def update_jsx(jsx_path: str, const_name: str, events: list[dict]):
-    with open(jsx_path) as f:
-        content = f.read()
-
-    new_block = events_to_jsx(events, const_name)
-    pattern   = rf"const {const_name} = \[[\s\S]*?\];"
-
-    if re.search(pattern, content):
-        content = re.sub(pattern, new_block, content)
-        with open(jsx_path, "w") as f:
-            f.write(content)
-        print(f"  💾  Updated {const_name} in {jsx_path} ({len(events)} events)")
-    else:
-        print(f"  ⚠️  {const_name} not found in {jsx_path}")
-
-
-# ── Main ──────────────────────────────────────────────────────────────────────
-
 # ── Wausau School Board — BoardBook + rule-based ─────────────────────────────
 
 BOARDBOOK_BASE = "https://meetings.boardbook.org"
 BOARDBOOK_ORG  = 1360
 
-# Rule-based: 2nd Monday = Regular Meeting, 4th Monday = Ed/Op Committee
 SCHOOL_BOARD_SCHEDULE = [
-    ("Regular Board Meeting",                  0, 2, "5:00 PM"),
-    ("Education & Operations Committee",       0, 4, "5:00 PM"),
+    ("Regular Board Meeting",            0, 2, "5:00 PM"),
+    ("Education & Operations Committee", 0, 4, "5:00 PM"),
 ]
 
+
 def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
-    """
-    Fetch upcoming school board meetings by:
-    1. Scraping BoardBook for recently-posted future agendas (exact dates)
-    2. Filling gaps with 2nd/4th Monday rule-based schedule
-    """
-    import requests, re
     today    = date.today()
     end_date = today + timedelta(days=days_ahead)
     results  = {}
 
-    # ── Step 1: BoardBook org page for posted future meetings ─────────────────
     try:
         r = requests.get(
             f"{BOARDBOOK_BASE}/Public/Organization/{BOARDBOOK_ORG}",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=15
+            headers={"User-Agent": "Mozilla/5.0"}, timeout=15,
         )
         rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
         for row in rows:
@@ -407,15 +334,8 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
     except Exception as e:
         print(f"  ⚠️  BoardBook scrape failed: {e}")
 
-    # ── Step 2: Rule-based fill ───────────────────────────────────────────────
     rule_added = 0
-    months_to_check = set()
-    d = today.replace(day=1)
-    while d <= end_date:
-        months_to_check.add((d.year, d.month))
-        d = d.replace(month=d.month + 1) if d.month < 12 else d.replace(year=d.year + 1, month=1)
-
-    for yr, mo in sorted(months_to_check):
+    for yr, mo in _months_between(today, end_date):
         for name, weekday, nth, time_str in SCHOOL_BOARD_SCHEDULE:
             meeting_date = nth_weekday(yr, mo, weekday, nth)
             if not meeting_date or not (today <= meeting_date <= end_date):
@@ -435,32 +355,43 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def main():
-    print(f"\n🔄  Updating upcoming meetings in: {JSX_PATH}")
+    print(f"\n🔄  Updating upcoming meetings → {DATA_PATH}")
     print("=" * 60)
 
     print("\n📡  City of Wausau (CivicClerk API)…")
     wausau = fetch_wausau_upcoming(days_ahead=45)
-    update_jsx(JSX_PATH, "WAUSAU_UPCOMING", wausau)
 
     print("\n🏘️   Village of Weston (AgendaCenter + rules)…")
     weston = fetch_weston_upcoming(days_ahead=60)
-    update_jsx(JSX_PATH, "WESTON_UPCOMING", weston)
 
     print("\n🏛️   Marathon County (rule-based schedule)…")
     marathon = fetch_marathon_upcoming(days_ahead=60)
-    update_jsx(JSX_PATH, "MARATHON_UPCOMING", marathon)
 
     print("\n🏫  Wausau School Board (BoardBook + rules)…")
     school = fetch_school_board_upcoming(days_ahead=60)
-    update_jsx(JSX_PATH, "SCHOOL_BOARD_UPCOMING", school)
 
-    print(f"\n✅  Done. Total upcoming events written:")
+    payload = {
+        "marathon":     marathon,
+        "wausau":       wausau,
+        "weston":       weston,
+        "school_board": school,
+    }
+
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DATA_PATH.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"\n✅  Wrote {DATA_PATH}")
+    print(f"    Marathon:     {len(marathon)}")
     print(f"    Wausau:       {len(wausau)}")
     print(f"    Weston:       {len(weston)}")
-    print(f"    Marathon:     {len(marathon)}")
     print(f"    School Board: {len(school)}")
-    print(f"    Total:        {len(wausau) + len(weston) + len(marathon) + len(school)}")
+    print(f"    Total:        {len(marathon) + len(wausau) + len(weston) + len(school)}")
 
 
 if __name__ == "__main__":

@@ -21,11 +21,12 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - `python update_upcoming.py` — refresh upcoming meeting schedules in JSX
 
 ## GitHub Actions Pipeline Order
-1. `marathon_meeting_summarizer.py` → `summaries/*.json`
-2. `inject_meetings.py` → updates MEETINGS array in JSX
-3. `update_upcoming.py` → updates UPCOMING arrays in JSX
-4. `npm run build`
-5. Commit updated data files, deploy to Pages
+1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
+2. `inject_transcript.py` (per file in `transcripts/`) → overrides agenda-only summaries with full-transcript ones
+3. `inject_meetings.py` → writes `src/data/meetings.json` (pruned to MAX_MEETINGS, newest first)
+4. `update_upcoming.py` → writes `src/data/upcoming.json` (keyed by source)
+5. `npm run build` → `dist/`
+6. Commit updated data files, deploy to Pages
 
 ## Data Sources (4 jurisdictions)
 
@@ -44,8 +45,8 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 
 ## Key Architecture Notes
 - YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
-- The MEETINGS array in the JSX file is the single source of truth for displayed past meetings; `inject_meetings.py` prepends new entries and prunes to MAX_MEETINGS (30)
-- Upcoming meetings are stored in separate arrays per source: `WAUSAU_UPCOMING`, `WESTON_UPCOMING`, `MARATHON_UPCOMING`, `SCHOOL_BOARD_UPCOMING`
+- `src/data/meetings.json` is the single source of truth for displayed past meetings; `inject_meetings.py` rewrites it newest-first, pruned to MAX_MEETINGS (30). The JSX imports it directly via `import MEETINGS from "./src/data/meetings.json"`
+- `src/data/upcoming.json` holds upcoming meetings keyed by source (`marathon`, `wausau`, `weston`, `school_board`). `update_upcoming.py` rewrites the whole file each run
 - State files: `processed_meetings.json` (scraper state — what's been summarized) and `injected_meetings.json` (which summaries have already been injected into JSX). Both files persist between CI runs and are committed back to the repo by the workflow.
 - Summaries stored in `summaries/` directory as `{video_id}_summary.json` and `{video_id}_votes.json` sidecars
 
