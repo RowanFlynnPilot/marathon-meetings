@@ -11,6 +11,16 @@ const TEAL    = "#4aaba7";
 const CREAM   = "#F7F3EC";
 const INK     = "#1A1209";
 const RULE    = "#E0D8CC";
+
+// Sponsorship CTA configuration — matches the pattern used by the river-
+// conditions widget so a sponsor inquiry lands in the same inbox.
+const SPONSOR_EMAIL   = "rowan.flynn@wausaupilotandreview.com";
+const SPONSOR_SUBJECT = "Sponsorship inquiry: Central Wisconsin Meeting Tracker";
+const SPONSOR_BODY    = `Hi Rowan,
+
+I'm interested in sponsoring the Central Wisconsin Meeting Tracker on Wausau Pilot & Review. Could you share placement options, audience details, and pricing?
+
+Thanks!`;
 const COMMITTEE_STYLES = {
   "Executive Committee":      { bg: TEAL,      text: "#fff" },
   "Public Safety":            { bg: "#1A3A5C", text: "#fff" },
@@ -1266,6 +1276,186 @@ function _writeHash(meeting) {
   }
 }
 
+// ─── Sponsor CTA ─────────────────────────────────────────────────────────────
+// Strip under the masthead inviting sponsorship inquiries. Clicking opens a
+// dialog with a mailto link and a copy-email fallback so the reader can pick
+// whichever path works in their environment.
+
+function SponsorModal({ open, onClose, isMobile }) {
+  const [copied, setCopied] = useState(false);
+
+  // Reset the "copied" indicator each time the modal re-opens.
+  useEffect(() => { if (open) setCopied(false); }, [open]);
+
+  // Close on Escape.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = e => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+
+  if (!open) return null;
+
+  const mailto = `mailto:${SPONSOR_EMAIL}?subject=${encodeURIComponent(SPONSOR_SUBJECT)}&body=${encodeURIComponent(SPONSOR_BODY)}`;
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(SPONSOR_EMAIL);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // Fallback for browsers without clipboard API (or insecure context).
+      const ta = document.createElement("textarea");
+      ta.value = SPONSOR_EMAIL;
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch {}
+      document.body.removeChild(ta);
+    }
+  };
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="sponsor-modal-title"
+      onClick={onClose}
+      style={{
+        position: "fixed", inset: 0, zIndex: 1000,
+        background: "rgba(0,0,0,0.55)",
+        display: "flex", alignItems: "center", justifyContent: "center",
+        padding: "16px",
+      }}
+    >
+      <div
+        onClick={e => e.stopPropagation()}
+        style={{
+          background: CREAM,
+          maxWidth: "440px", width: "100%",
+          border: `1px solid ${RULE}`,
+          boxShadow: "0 10px 40px rgba(0,0,0,0.25)",
+          padding: isMobile ? "20px 18px" : "26px 28px",
+          position: "relative",
+        }}
+      >
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="Close"
+          style={{
+            position: "absolute", top: "8px", right: "10px",
+            background: "transparent", border: "none", cursor: "pointer",
+            color: "#5a5a5a", fontSize: "22px", lineHeight: 1,
+            width: "30px", height: "30px",
+          }}
+        >×</button>
+
+        <div style={{
+          fontFamily: "'Bebas Neue', sans-serif",
+          fontSize: "11px", letterSpacing: "0.18em",
+          color: TEAL, marginBottom: "8px",
+        }}>SPONSORSHIP</div>
+
+        <h3 id="sponsor-modal-title" style={{
+          fontFamily: "'Playfair Display', Georgia, serif",
+          fontSize: isMobile ? "20px" : "22px",
+          fontWeight: 700, color: INK, lineHeight: 1.25,
+          margin: "0 0 12px",
+        }}>Sponsor the Meeting Tracker</h3>
+
+        <p style={{
+          fontFamily: "'Lora', Georgia, serif",
+          fontSize: "14px", lineHeight: 1.6, color: "#2A2015",
+          margin: "0 0 18px",
+        }}>
+          Reach Wausau Pilot &amp; Review readers who care about local
+          government. Email us for placement options, audience details, and
+          pricing.
+        </p>
+
+        <div style={{
+          fontFamily: "'JetBrains Mono', Menlo, Consolas, monospace",
+          fontSize: "13px", color: INK,
+          background: "#fff", border: `1px solid ${RULE}`,
+          padding: "8px 12px", marginBottom: "16px",
+          wordBreak: "break-all",
+        }}>{SPONSOR_EMAIL}</div>
+
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <a
+            href={mailto}
+            onClick={() => onClose()}
+            style={{
+              flex: "1 1 0", minWidth: "150px",
+              display: "inline-flex", alignItems: "center", justifyContent: "center",
+              background: TEAL, color: "#fff", textDecoration: "none",
+              fontFamily: "'Bebas Neue', sans-serif",
+              fontSize: "12px", letterSpacing: "0.14em",
+              padding: "10px 14px",
+              transition: "opacity 0.15s",
+            }}
+            onMouseEnter={e => e.currentTarget.style.opacity = "0.9"}
+            onMouseLeave={e => e.currentTarget.style.opacity = "1"}
+          >OPEN IN EMAIL CLIENT</a>
+          <button
+            type="button"
+            onClick={copyEmail}
+            style={{
+              flex: "1 1 0", minWidth: "120px",
+              border: `1px solid ${INK}`, background: "#fff", color: INK,
+              fontFamily: "'Bebas Neue', sans-serif",
+              fontSize: "12px", letterSpacing: "0.14em",
+              padding: "10px 14px",
+              cursor: "pointer",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = INK; e.currentTarget.style.color = "#fff"; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "#fff"; e.currentTarget.style.color = INK; }}
+          >{copied ? "COPIED!" : "COPY EMAIL"}</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SponsorStrip({ isMobile }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <div style={{
+        background: "#fff",
+        borderBottom: `1px solid ${RULE}`,
+        padding: isMobile ? "8px 16px" : "9px 24px",
+        display: "flex", alignItems: "center", justifyContent: "center",
+        gap: "10px", flexWrap: "wrap",
+      }}>
+        <span style={{
+          fontFamily: "'Lora', Georgia, serif",
+          fontSize: isMobile ? "12px" : "13px",
+          color: "#3a3a3a", lineHeight: 1.4,
+        }}>Interested in sponsoring this content?</span>
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          style={{
+            background: "transparent", border: "none", cursor: "pointer",
+            fontFamily: "'Bebas Neue', sans-serif",
+            fontSize: isMobile ? "12px" : "13px", letterSpacing: "0.14em",
+            color: TEAL, padding: "2px 4px",
+            display: "inline-flex", alignItems: "center", gap: "4px",
+          }}
+          onMouseEnter={e => e.currentTarget.style.color = "#2f6660"}
+          onMouseLeave={e => e.currentTarget.style.color = TEAL}
+        >REACH OUT <span aria-hidden="true">{"→"}</span></button>
+      </div>
+      <SponsorModal open={open} onClose={() => setOpen(false)} isMobile={isMobile} />
+    </>
+  );
+}
+
 export default function App() {
   const isMobile = useIsMobile();
   const [selected,    setSelected]    = useState(() => _findByHash());
@@ -1384,6 +1574,8 @@ export default function App() {
             <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: isMobile ? "20px" : "28px", color: "#b2ede8", letterSpacing: "0.08em", lineHeight: 1 }}>MEETING TRACKER</span>
           </div>
         </header>
+
+        <SponsorStrip isMobile={isMobile} />
 
         <main style={{ display: "flex", flex: 1, overflow: "hidden", flexDirection: isMobile ? "column" : "row" }}>
 
