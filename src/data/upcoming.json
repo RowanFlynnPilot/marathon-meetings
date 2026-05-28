@@ -129,6 +129,13 @@
       "source": "wausau"
     },
     {
+      "date": "2026-06-03",
+      "time": "4:00 PM",
+      "name": "Wausau Arts Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2364/overview",
+      "source": "wausau"
+    },
+    {
       "date": "2026-06-04",
       "time": "5:00 PM",
       "name": "Sustainability, Energy & Environment Committee Meeting",
@@ -183,13 +190,6 @@
       "name": "Public Health & Safety Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2070/overview",
       "source": "wausau"
-    },
-    {
-      "date": "2026-06-16",
-      "time": "10:00 AM",
-      "name": "Board of Public Works Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2363/overview",
-      "source": "wausau"
     }
   ],
   "weston": [
@@ -198,6 +198,20 @@
       "time": "",
       "name": "Public Works Committee",
       "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05282026-1921",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-01",
+      "time": "",
+      "name": "Community, Life and Public Safety (CLPS) Committee",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06012026-1922",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-01",
+      "time": "",
+      "name": "Comprehensive Plan Steering Committee (Village Board and Plan Commission)",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06012026-1923",
       "source": "weston"
     },
     {
@@ -314,6 +328,13 @@
     }
   ],
   "school_board": [
+    {
+      "date": "2026-05-30",
+      "time": "11:00 AM",
+      "name": "Public Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748413",
+      "source": "school_board"
+    },
     {
       "date": "2026-06-08",
       "time": "5:00 PM",

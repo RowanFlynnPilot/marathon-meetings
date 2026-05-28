@@ -1,5 +1,5 @@
 {
-  "overview": "The Marathon County Board of Supervisors approved committee appointments for the new term, elected Supervisors Hapa and Arstead to at-large executive committee positions, and unanimously passed a resolution reducing landfill tipping fees for severe weather debris following tornado and flood damage in the Ringle area. The fee reduction, prompted by the state emergency declaration, lowers disposal costs from $65/ton to approximately $36.94/ton for certified disaster-related waste through June 17th.",
+  "overview": "The Marathon County Board of Supervisors held an adjourned organizational meeting where they approved committee appointments, elected Supervisors Hapa and Arstead to the Executive Committee at-large positions, and unanimously passed a resolution reducing landfill tipping fees for disaster debris following severe tornado and flood damage in the Ringle area. The board heard emotional testimony from affected residents requesting fee waivers.",
   "committee": "Marathon County Board of Supervisors",
   "presiding": "Chair Gibbs",
   "agenda": [
@@ -8,16 +8,20 @@
       "item": "Pledge of Allegiance and moment of reflection"
     },
     {
-      "time": "0:32",
-      "item": "Reading of notice and roll call"
+      "time": "2:00",
+      "item": "Roll call and sign-in (technical difficulties with meeting manager)"
     },
     {
       "time": "5:01",
-      "item": "Committee appointments presentation by Chair Gibbs"
+      "item": "Committee appointments presentation and vote"
     },
     {
       "time": "10:01",
-      "item": "Election of at-large executive committee members"
+      "item": "Election of at-large Executive Committee members"
+    },
+    {
+      "time": "20:00",
+      "item": "Ballot counting for Executive Committee election"
     },
     {
       "time": "20:00",
@@ -25,15 +29,15 @@
     },
     {
       "time": "20:00",
-      "item": "Resolution D15 - Out of home placement reserve increase"
-    },
-    {
-      "time": "20:00",
-      "item": "Resolution D16 - Social services budget amendment"
+      "item": "Resolution 24-26: Out of home placement reserve increase"
     },
     {
       "time": "25:01",
-      "item": "Resolution E17 - Landfill tipping fee modification for disaster debris"
+      "item": "Resolution 25-26: Social services budget amendment"
+    },
+    {
+      "time": "25:01",
+      "item": "Resolution 26-26: Landfill tipping fee modification for disaster relief"
     },
     {
       "time": "1:10:02",
@@ -42,45 +46,43 @@
   ],
   "discussions": [
     {
-      "item": "Committee appointments",
-      "body": "Chair Gibbs presented committee appointments developed with Vice Chair Boots, emphasizing goals of increasing diverse perspectives, developing new supervisors as leaders, and honoring supervisor preferences. He noted 34% of the board is in first or second term. The motion by Supervisor Cavelli and seconded by Supervisor Crims passed but was not unanimous. Supervisor Mask noted the system marked him absent but he wanted to be recorded as voting aye."
+      "item": "Committee Appointments",
+      "body": "Chair Gibbs presented committee appointments developed with Vice Chair Boots, emphasizing goals of increasing diversity of perspectives, developing new supervisors as leaders, and honoring supervisor preferences. Over 34% of the board is in their first or second term. Motion by Supervisor Cavelli, seconded by Supervisor Crims. The motion carried but was not unanimous."
     },
     {
-      "item": "Election of at-large executive committee members",
-      "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Vice Chair Boots). Supervisor Rosenberg spoke in support of Supervisor Leur, citing her advocacy for 'our county's smallest children and our oldest elders.' Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the executive committee."
+      "item": "Election of At-Large Executive Committee Members",
+      "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Vice Chair Boots). Supervisor Rosenberg spoke in support of Supervisor Leur, citing her advocacy for the county's youngest children and oldest elders. Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the Executive Committee."
     },
     {
-      "item": "Consent agenda",
-      "body": "Items C10 through C14A were approved on consent agenda. Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion carried unanimously."
+      "item": "Consent Agenda (C10-C14A)",
+      "body": "Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion carried unanimously."
     },
     {
-      "item": "Resolution D15 - Out of home placement reserve increase",
-      "body": "Resolution 24-26 was moved by Supervisor Morash and seconded by Supervisor Robinson. The motion carried but was not unanimous."
+      "item": "Resolution 24-26: Out of Home Placement Reserve Increase",
+      "body": "From Health and Human Services Committee and Human Resources and Finance and Property Committee. Motion by Supervisor Morash, seconded by Supervisor Robinson. The motion carried but was not unanimous."
     },
     {
-      "item": "Resolution D16 - Social services budget amendment",
-      "body": "Resolution 25-26 was moved by Supervisor P and seconded by Supervisor Robinson. The motion carried but was not unanimous."
+      "item": "Resolution 25-26: Social Services Budget Amendment",
+      "body": "Motion by Supervisor P [inaudible], seconded by Supervisor Robinson. The motion carried but was not unanimous."
     },
     {
-      "item": "Resolution E17 - Landfill tipping fee modification",
-      "body": "Administrator Leonard and Solid Waste Director Hagen Busher presented the proposal from the Solid Waste Management Board to reduce tipping fees for disaster-related debris following severe weather that damaged Ringle, Kronenwetter, and other areas. Leonard explained the state waived $13.10/ton, Ringle waived $2.33/ton, and the county would reduce its portion to reach $36.94/ton (covering operational costs). He noted the county won't meet the $670,743.18 threshold for state disaster aid but expects Ringle will. Dane County's director warned against waiving fees entirely as it affected their FEMA reimbursement in the 1990s. Supervisor Rosenberg requested public comment be allowed. The board suspended rules unanimously to hear the resolution directly from the Solid Waste Management Board. Motion by Supervisor Arstead, seconded by Supervisor Morash. The resolution passed unanimously."
+      "item": "Resolution 26-26: Landfill Tipping Fee Modification for Disaster Relief",
+      "body": "Administrator Leonard and Director Hagen Busher presented a proposal from the Solid Waste Management Board to reduce tipping fees for storm debris following severe tornado and flood damage affecting Ringle and other communities. The standard $65/ton gate rate would be reduced to $36.94/ton by removing the state fee ($13.10), Ringle's local fee ($2.33), and reducing to the commercial contract rate. Jessica Toasty and Matt Haybeck were granted permission to speak, requesting Marathon County waive all fees as the state and town of Ringle have done. Board members raised questions about timelines, geographic scope, and long-term policy. The board first voted unanimously to suspend rules to bring the resolution directly from the Solid Waste Management Board. The resolution then passed unanimously on motion by Supervisor Arstead, seconded by Supervisor Morash."
     }
   ],
-  "publicComment": "By special request from Supervisor Rosenberg, two members of the public were permitted to speak on the landfill tipping fee resolution. Jessica Toasty asked the county to fully waive fees for six months, noting that the state, DNR, and Ringle have waived their fees, and that Marathon County cleanup efforts were largely self-reliant through donated business and community labor. She mentioned one gentleman spent $40,000 on hauling expenses. Matt Haybeck spoke on behalf of residents whose homes must be demolished, requesting fee waivers for those underinsured, noting approximately 44 homes affected and some insurance adjusters have not yet arrived.",
+  "publicComment": "Two residents were granted special dispensation to speak on the landfill tipping fee resolution. Jessica Toasty, a Ringle resident, requested Marathon County waive all fees for six months, noting businesses have donated up to $40,000 in cleanup efforts and arguing the county should contribute like other entities. Matt Haybeck spoke on behalf of residents whose homes must be demolished, noting approximately 44 homes were affected and many are still waiting for insurance adjusters, requesting more time for fee relief.",
   "actionItems": [
-    "Committee appointments approved for the new term",
-    "Supervisors Hapa and Arstead elected to at-large executive committee positions",
-    "Resolution 24-26 approved for out of home placement reserve increase",
-    "Resolution 25-26 approved for social services budget amendment",
-    "Resolution 26-26 approved reducing landfill tipping fees for disaster debris to $36.94/ton through June 17th",
+    "Committee appointments approved as presented by Chair Gibbs and Vice Chair Boots",
+    "Supervisors Hapa and Arstead elected to Executive Committee at-large positions",
+    "Reduced landfill tipping fees ($36.94/ton) authorized through June 17, 2025 for certified storm debris",
     "Administrator Leonard to continue discussions with Community Foundation regarding reimbursement mechanism for uninsured debris disposal costs",
-    "Solid Waste Management Board directed to develop clear policy within six months for handling similar disaster situations in the future",
-    "Board may revisit tipping fee reduction at May meeting if extension beyond June 17th is needed"
+    "Solid Waste Management Board to develop long-term disaster debris policy within six months",
+    "Board to revisit tipping fee relief at May meeting if extension beyond state declaration period is needed"
   ],
   "_transcript_hash": "d417e10114977e9d",
   "title": "Marathon County Regular Meeting",
   "url": "https://www.youtube.com/watch?v=WD9kixgx6oY",
   "source": "marathon",
   "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-  "processed_at": "2026-05-28T05:10:26.923749+00:00"
+  "processed_at": "2026-05-28T23:43:43.739251+00:00"
 }
