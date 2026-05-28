@@ -137,11 +137,11 @@ def parse_date_from_title(title: str):
 
 
 def fmt_date(dt: datetime) -> str:
-    return dt.strftime("%B %-d, %Y")   # "March 23, 2026"
+    return f"{dt.strftime('%B')} {dt.day}, {dt.year}"   # "March 23, 2026"
 
 
 def fmt_short_date(dt: datetime) -> str:
-    return dt.strftime("%b %-d").upper()  # "MAR 23"
+    return f"{dt.strftime('%b')} {dt.day}".upper()  # "MAR 23"
 
 
 # ── JSX string builder ────────────────────────────────────────────────────────

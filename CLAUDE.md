@@ -6,7 +6,7 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 ## Tech Stack
 - **Frontend:** React (Vite), deployed to GitHub Pages
 - **Scrapers:** Python 3.12 (yt-dlp, requests, beautifulsoup4, anthropic SDK)
-- **CI/CD:** GitHub Actions — runs every 4 hours, also manual dispatch with backfill option
+- **CI/CD:** GitHub Actions — runs nightly at 01:00 UTC (8 PM CT during DST), also manual dispatch with backfill option
 - **Data flow:** Python scrapers → JSON summaries → inject into JSX → Vite build → deploy
 
 ## Commands
@@ -46,17 +46,18 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
 - The MEETINGS array in the JSX file is the single source of truth for displayed past meetings; `inject_meetings.py` prepends new entries and prunes to MAX_MEETINGS (30)
 - Upcoming meetings are stored in separate arrays per source: `WAUSAU_UPCOMING`, `WESTON_UPCOMING`, `MARATHON_UPCOMING`, `SCHOOL_BOARD_UPCOMING`
-- State files: `processed_meetings.json` (scraper state), `injected_meetings.json` (injection tracking)
+- State files: `processed_meetings.json` (scraper state — what's been summarized) and `injected_meetings.json` (which summaries have already been injected into JSX). Both files persist between CI runs and are committed back to the repo by the workflow.
 - Summaries stored in `summaries/` directory as `{video_id}_summary.json` and `{video_id}_votes.json` sidecars
 
 ## WPR Design System (must follow)
-- **Brand teal:** `#3e847a` (dark), `#4aaba7` (primary), `#3e9e9a` (alt)
-- **Headlines:** Playfair Display
-- **Body text:** Source Sans 3
-- **Data/code:** JetBrains Mono
+- **Brand teal:** `#3e847a` (dark), `#4aaba7` (primary, used as TEAL constant in JSX), `#3e9e9a` (alt)
+- **Display / impact text:** Bebas Neue (uppercase labels, badges, section heads — the dominant display face)
+- **Headlines:** Playfair Display (long-form titles and the masthead wordmark)
+- **Body text:** Lora (running prose in meeting overviews and discussion blocks)
+- **Data / timestamps / agenda code:** plain `monospace` stack (system mono — Consolas, Menlo, etc.)
 - **Palette:** Cream (`#F7F3EC`) / ink black (`#1A1209`) newspaper aesthetic
 - **Divider rules:** `#E0D8CC`
-- **WPR logo:** Circular badge JPEG (despite .png extension) — embed as base64 data URI
+- **WPR logo:** Circular badge JPEG (despite .png extension) — served as a static file from `/public/`
 
 ## Committee Color Map
 Committees have assigned badge colors for visual differentiation. Existing assignments live in COMMITTEE_STYLES in the JSX. When adding new committees, pick a dark, muted tone that contrasts with white text and doesn't duplicate existing colors.
@@ -64,8 +65,8 @@ Committees have assigned badge colors for visual differentiation. Existing assig
 ## Source Accent Colors
 - Marathon County: teal (`#4aaba7`)
 - City of Wausau: red (`#C0392B`)
-- Village of Weston: use a distinct accent (not yet assigned — suggest dark blue or forest green)
-- School Board: use a distinct accent (not yet assigned — suggest warm gold or plum)
+- Village of Weston: forest green (`#3A6B43`)
+- Wausau School Board: plum (`#6B2D5C`)
 
 ## Conventions
 - All Python scripts use `argparse` and support `--source` and `--dry-run` flags where applicable

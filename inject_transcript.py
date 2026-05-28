@@ -269,7 +269,8 @@ def main():
 
     # Build a title for processed_meetings.json that inject_meetings.py can parse a date from.
     # Priority: KNOWN_DATES > original YouTube title > JSX date (only if not "today") > display title
-    today_str = datetime.now().strftime("%B %-d, %Y") if hasattr(datetime.now(), "strftime") else ""
+    _now = datetime.now()
+    today_str = f"{_now.strftime('%B')} {_now.day}, {_now.year}"
     today_obj = datetime.now().date()
 
     if vid_id in KNOWN_DATES:

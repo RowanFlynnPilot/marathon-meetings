@@ -65,7 +65,7 @@ def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
         r = requests.get(
             url,
             headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
-            verify=False, timeout=10,
+            timeout=10,
         )
         events = r.json().get("value", [])
     except Exception as e:

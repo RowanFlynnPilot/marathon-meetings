@@ -64,6 +64,50 @@ SKIP_VIDEO_IDS = {
     "PkJesaGLD0Q",  # Executive Committee Pt.2 (merged into 47UbKS2Jqo4)
 }
 
+ANTHROPIC_TIMEOUT_SECONDS = 180
+ANTHROPIC_MAX_RETRIES     = 4
+
+
+def call_anthropic_with_retry(client, *, model, max_tokens, messages, system=None):
+    """Call client.messages.create with explicit timeout and exponential backoff.
+
+    Retries on RateLimitError (429), APIConnectionError, APITimeoutError, and
+    transient 5xx/529 APIStatusError. Non-retryable errors (auth, bad request)
+    raise immediately.
+    """
+    import time as _time
+    import random as _random
+    kwargs = {
+        "model":      model,
+        "max_tokens": max_tokens,
+        "messages":   messages,
+        "timeout":    ANTHROPIC_TIMEOUT_SECONDS,
+    }
+    if system is not None:
+        kwargs["system"] = system
+
+    last_err = None
+    for attempt in range(ANTHROPIC_MAX_RETRIES):
+        try:
+            return client.messages.create(**kwargs)
+        except anthropic.RateLimitError as e:
+            last_err = e
+        except anthropic.APIConnectionError as e:
+            last_err = e
+        except anthropic.APITimeoutError as e:
+            last_err = e
+        except anthropic.APIStatusError as e:
+            status = getattr(e, "status_code", None)
+            if status is not None and (status >= 500 or status == 529):
+                last_err = e
+            else:
+                raise
+        # exponential backoff: 4s, 8s, 16s, 32s + jitter
+        delay = (2 ** (attempt + 2)) + _random.uniform(0, 1.5)
+        print(f"  ⚠️  Anthropic call failed ({type(last_err).__name__}); retry {attempt+1}/{ANTHROPIC_MAX_RETRIES} in {delay:.1f}s")
+        _time.sleep(delay)
+    raise last_err
+
 
 # -- State ---------------------------------------------------------------------
 
@@ -249,7 +293,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             print("     [warn]  No cookies file - transcripts may fail on CI IPs")
         cmd.append(url)
 
-        r = subprocess.run(cmd, capture_output=True, text=True)
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            print("     [fetch] yt-dlp transcript fetch timed out after 180s — skipping.")
+            raise FileNotFoundError("yt-dlp transcript fetch timed out")
         combined = (r.stdout + r.stderr).lower()
 
         no_caption_signals = [
@@ -612,9 +660,10 @@ Rules:
 {transcript[:MAX_TRANSCRIPT_CHARS]}
 --- END ---"""
 
-    msg = client.messages.create(
+    msg = call_anthropic_with_retry(
+        client,
         model=CLAUDE_MODEL, max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
     # Strip any accidental markdown fences
@@ -634,6 +683,43 @@ def _slugify(text):
     text = re.sub(r"[^\w\s-]", "", text.lower())
     text = re.sub(r"[\s_-]+", "-", text).strip("-")
     return text[:80]
+
+def prune_orphan_summaries(state):
+    """Delete summary files in SUMMARIES_DIR that aren't referenced from state.
+
+    The slug for a summary is derived from the meeting title, so retitling a
+    meeting (e.g. via inject_transcript adding a date suffix) creates a new
+    file and orphans the old one. This sweep keeps the directory clean.
+    """
+    if not SUMMARIES_DIR.exists():
+        return
+    referenced = set()
+    for rec in state.get("processed", {}).values():
+        path = rec.get("summary_file")
+        if not path:
+            continue
+        p = Path(path).resolve()
+        referenced.add(p)
+        # Also keep the corresponding sidecars
+        stem = p.with_suffix("")
+        referenced.add(Path(f"{stem}_summary.json").resolve())
+        referenced.add(Path(f"{stem}_votes.json").resolve())
+    removed = 0
+    for f in SUMMARIES_DIR.iterdir():
+        if not f.is_file():
+            continue
+        if f.suffix not in (".md", ".json"):
+            continue
+        if f.resolve() not in referenced:
+            print(f"  [prune] removing orphan: {f.name}")
+            try:
+                f.unlink()
+                removed += 1
+            except OSError as e:
+                print(f"  [prune] failed to remove {f.name}: {e}")
+    if removed:
+        print(f"  [prune] removed {removed} orphan summary file(s).")
+
 
 def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None):
     ch    = CHANNELS[source_key]
@@ -709,7 +795,7 @@ def fetch_agenda_text_wausau(doc_url: str) -> str | None:
         if not agenda_id:
             return None
         # Step 2: meeting publishedFiles -> Agenda file
-        r2 = _req.get(f"{base}/Meetings/{agenda_id}", headers=hdrs, verify=False, timeout=10)
+        r2 = _req.get(f"{base}/Meetings/{agenda_id}", headers=hdrs, timeout=10)
         if r2.status_code != 200:
             return None
         pub_files = r2.json().get("publishedFiles", [])
@@ -725,7 +811,7 @@ def fetch_agenda_text_wausau(doc_url: str) -> str | None:
         # Step 3: get blob URL for plain text
         r3 = _req.get(
             f"{base}/Meetings/GetMeetingFile(fileId={file_id},plainText=true)",
-            headers=hdrs, verify=False, timeout=10
+            headers=hdrs, timeout=10
         )
         if r3.status_code != 200:
             return None
@@ -846,9 +932,10 @@ Rules:
 {agenda_text[:12000]}
 --- END ---"""
 
-    msg = client.messages.create(
+    msg = call_anthropic_with_retry(
+        client,
         model=CLAUDE_MODEL, max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -958,9 +1045,10 @@ Rules:
 {vote_text[:5000]}
 --- END VOTE RECORDS ---"""
 
-    msg = client.messages.create(
+    msg = call_anthropic_with_retry(
+        client,
         model=CLAUDE_MODEL, max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -1283,9 +1371,10 @@ Rules:
 - Return ONLY the JSON. No markdown, no explanation.
 """
 
-    msg = client.messages.create(
+    msg = call_anthropic_with_retry(
+        client,
         model=CLAUDE_MODEL, max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -1551,6 +1640,9 @@ def main():
         print(f"\n   Report saved: {report_path.resolve()}")
     else:
         print(f"\n✅  All {ok} meetings have transcripts — no agenda-only fallbacks.")
+
+    # Prune any summary files that are no longer referenced from state.
+    prune_orphan_summaries(state)
 
 if __name__ == "__main__":
     main()
