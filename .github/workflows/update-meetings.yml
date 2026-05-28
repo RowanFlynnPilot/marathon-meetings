@@ -56,6 +56,15 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Set up Deno
+        # yt-dlp needs a JavaScript runtime to solve YouTube's "n challenge"
+        # that wraps subtitle URLs. Without it, fetches fall back to the
+        # "Only images are available" path and the summarizer treats videos
+        # as having no captions even when they do.
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       - name: Smoke-check upstream data sources
         # Non-strict: warn if anything's off but don't block the run. Schema
         # breakage in CivicClerk / AgendaCenter / BoardBook will print loud

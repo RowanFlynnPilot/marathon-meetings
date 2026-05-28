@@ -295,16 +295,29 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         except subprocess.TimeoutExpired:
             print("     [fetch] yt-dlp transcript fetch timed out after 180s — skipping.")
             raise FileNotFoundError("yt-dlp transcript fetch timed out")
-        combined = (r.stdout + r.stderr).lower()
+        # Authoritative check: was a .vtt file actually written? If yes, we
+        # have captions regardless of what stderr says. (Earlier versions
+        # treated yt-dlp's "Only images are available" warning as proof of no
+        # captions, but that warning is about VIDEO formats — we don't care
+        # since --skip-download is set.)
+        vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
+        if vtt_files:
+            with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
+                text = _parse_vtt(f.read())
+                if len(text) > 200:
+                    print(f"     [ok]  Transcript via yt-dlp ({len(text):,} chars)")
+                    return text
 
-        no_caption_signals = [
-            "only images are available",
+        # No .vtt file — check whether yt-dlp actually said captions are
+        # unavailable (vs. failing to fetch them for some other reason).
+        combined = (r.stdout + r.stderr).lower()
+        explicit_no_captions = [
             "no subtitles found",
             "subtitles are disabled",
-            "no captions",
             "there are no captions",
+            "no automatic captions",
         ]
-        if any(sig in combined for sig in no_caption_signals):
+        if any(sig in combined for sig in explicit_no_captions):
             print("     [fetch] No captions - trying Whisper before giving up...")
             whisper_text = fetch_transcript_whisper(url, source_key=source_key,
                                                     upload_date=upload_date)
@@ -312,16 +325,8 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
                 return whisper_text
             raise FileNotFoundError("No captions available and Whisper unavailable - skipping.")
 
-        if r.returncode == 0:
-            vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
-            if vtt_files:
-                with open(os.path.join(tmpdir, vtt_files[0]), encoding="utf-8") as f:
-                    text = _parse_vtt(f.read())
-                    if len(text) > 200:
-                        print(f"     [ok]  Transcript via yt-dlp ({len(text):,} chars)")
-                        return text
-        else:
-            print(f"     [warn]  yt-dlp failed: {r.stderr.strip()[-150:]}")
+        if r.returncode != 0:
+            print(f"     [warn]  yt-dlp failed: {r.stderr.strip()[-200:]}")
 
     # -- Method 3: Whisper audio transcription ---------------------------------
     whisper_text = fetch_transcript_whisper(url, source_key=source_key,
