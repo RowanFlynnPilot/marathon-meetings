@@ -61,9 +61,9 @@
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
       "upload_date": "20260429",
+      "meeting_date": "20260428",
       "processed_at": "2026-05-28T02:08:33.619564+00:00",
-      "summary_file": "summaries/marathon-marathon-county-regular-meeting.md",
-      "meeting_date": "20260428"
+      "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
     "CIhVYLRBgok": {
       "title": "Wausau City Council Meeting - 4/28/26",
@@ -88,18 +88,18 @@
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
       "upload_date": "20260507",
+      "meeting_date": "20260506",
       "processed_at": "2026-05-28T02:09:06.108037+00:00",
-      "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md",
-      "meeting_date": "20260506"
+      "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
     "OLzrpSp3Dfg": {
       "title": "Marathon County Environmental Resources Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
       "upload_date": "20260506",
+      "meeting_date": "20260505",
       "processed_at": "2026-05-28T02:08:03.630009+00:00",
-      "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md",
-      "meeting_date": "20260505"
+      "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
     "6QSQOUqDnhM": {
       "title": "Wausau Economic Development Committee Meeting - 5/5/26",
@@ -131,27 +131,27 @@
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260511",
+      "meeting_date": "20260504",
       "processed_at": "2026-05-28T02:07:34.094833+00:00",
-      "summary_file": "summaries/weston-community-life-and-public-safety.md",
-      "meeting_date": "20260504"
+      "summary_file": "summaries/weston-community-life-and-public-safety.md"
     },
     "j64Gj2ean2k": {
       "title": "Public Works Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260512",
+      "meeting_date": "20260511",
       "processed_at": "2026-05-28T02:10:17.977050+00:00",
-      "summary_file": "summaries/weston-public-works-committee.md",
-      "meeting_date": "20260511"
+      "summary_file": "summaries/weston-public-works-committee.md"
     },
     "eX7VOuywzb8": {
       "title": "Plan Commission",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260512",
+      "meeting_date": "20260511",
       "processed_at": "2026-05-28T02:09:33.305320+00:00",
-      "summary_file": "summaries/weston-plan-commission.md",
-      "meeting_date": "20260511"
+      "summary_file": "summaries/weston-plan-commission.md"
     },
     "bb_746488": {
       "title": "Special Meeting - 2026-05-18",
