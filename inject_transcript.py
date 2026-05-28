@@ -161,10 +161,18 @@ def main():
                     doc_url = entry["docUrl"]
                     print(f"[ok]  Detected docUrl from {data_path.name}: {doc_url}")
 
-    # ── Always fetch authoritative title and date from YouTube ──────────────
-    # The JSX date may be wrong from previous runs, so we ALWAYS query YouTube
-    # for the canonical upload_date and title with date suffix.
-    original_yt_title = None
+    # ── Fetch authoritative title and upload_date from YouTube ──────────────
+    # The summarizer normally captures upload_date during ingestion, but a
+    # transcript override may be applied later (or to a video the summarizer
+    # never saw), so refresh it here.
+    upload_date = None
+    if state_file.exists():
+        try:
+            _existing = json.loads(state_file.read_text(encoding="utf-8")).get("processed", {}).get(vid_id, {})
+            upload_date = _existing.get("upload_date")
+        except json.JSONDecodeError:
+            pass
+
     if not vid_id.startswith("bb_"):
         print(f"[fetch] Querying YouTube for authoritative title and date...")
         try:
@@ -172,39 +180,45 @@ def main():
             r = subprocess.run(
                 [sys.executable, "-m", "yt_dlp", "--no-check-certificate",
                  "--dump-json", "--skip-download", url],
-                capture_output=True, text=True, timeout=30
+                capture_output=True, text=True, timeout=30,
             )
             if r.returncode == 0:
                 meta = json.loads(r.stdout)
                 yt_title = meta.get("title", "")
-                upload_date = meta.get("upload_date", "")  # YYYYMMDD format
-                if yt_title:
-                    # Build canonical title with date suffix from upload_date
-                    if upload_date and len(upload_date) == 8:
-                        yr, mo, dy = upload_date[:4], upload_date[4:6], upload_date[6:8]
-                        # Strip any existing date suffix from YouTube title first
-                        clean_yt = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
-                        clean_yt = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', clean_yt).strip()
-                        original_yt_title = f"{clean_yt} - {int(mo)}/{int(dy)}/{yr}"
-                    else:
-                        original_yt_title = yt_title
+                yt_upload_date = meta.get("upload_date", "")
+                if yt_upload_date and len(yt_upload_date) == 8 and yt_upload_date.isdigit():
+                    upload_date = yt_upload_date
 
-                    if title == vid_id:
-                        # Clean for display
-                        title = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
-                        title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
-                        title = re.sub(r'\s+Pt\.\d+$', '', title).strip()
-                        print(f"[ok]  Title from YouTube: {title}")
-                    print(f"       Date for state: {original_yt_title}")
-                    if not source_key:
-                        if "wausau" in meta.get("channel", "").lower():
-                            source_key = "wausau"
-                        elif "marathon" in meta.get("channel", "").lower():
-                            source_key = "marathon"
-                        elif "weston" in meta.get("channel", "").lower():
-                            source_key = "weston"
+                if yt_title and title == vid_id:
+                    cleaned = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
+                    cleaned = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', cleaned).strip()
+                    cleaned = re.sub(r'\s+Pt\.\d+$', '', cleaned).strip()
+                    title = cleaned
+                    print(f"[ok]  Title from YouTube: {title}")
+                if upload_date:
+                    print(f"       upload_date: {upload_date}")
+
+                if not source_key:
+                    ch_lower = meta.get("channel", "").lower()
+                    if "wausau" in ch_lower:
+                        source_key = "wausau"
+                    elif "marathon" in ch_lower:
+                        source_key = "marathon"
+                    elif "weston" in ch_lower:
+                        source_key = "weston"
         except Exception as e:
             print(f"[warn] Could not fetch from YouTube: {e}")
+
+    # Final fallback: derive upload_date from the meetings.json date if neither
+    # state nor YouTube gave us one.
+    if not upload_date and meeting_date_from_json:
+        try:
+            from datetime import datetime as _dt
+            d = _dt.strptime(meeting_date_from_json, "%B %d, %Y")
+            if d.date() != datetime.now().date():
+                upload_date = d.strftime("%Y%m%d")
+        except (ValueError, TypeError):
+            pass
 
     if not source_key:
         print("Error: Cannot detect source. Use --source marathon|wausau|weston|school_board")
@@ -249,57 +263,17 @@ def main():
     print(f"[save] Saved: {path}")
 
     # ── Update processed_meetings.json ───────────────────────────────────────
+    # Date now lives in its own upload_date field; no more title-suffix hacks.
     if state_file.exists():
         state = json.loads(state_file.read_text(encoding="utf-8"))
     else:
         state = {"processed": {}}
-    # Hardcoded date map for known meetings — this is the LAST RESORT
-    # so the date is never wrong even if YouTube/JSX both fail.
-    # Format: video_id -> "M/D/YYYY"
-    KNOWN_DATES = {
-        "rQcjCEY36e4": "3/24/2026",
-        "knWZO4dON-8": "3/17/2026",
-        "hNOP07iJjNY": "3/19/2026",
-        "gugcMAm6DFA": "3/19/2026",
-        "f1fZvkxedNY": "3/17/2026",
-        "aUG3K0hxNsU": "3/23/2026",
-        "_hS5GDGVL1c": "3/23/2026",
-        "Izfp0CD_Da0": "3/23/2026",
-        "HwjjV4oIneA": "3/24/2026",
-        "D7R7a0G0WTA": "3/23/2026",
-        "8rRo1cm2YJ0": "3/24/2026",
-        "47UbKS2Jqo4": "3/24/2026",
-        "0pfKykvicdA": "3/24/2026",
-    }
 
-    # Build a title for processed_meetings.json that inject_meetings.py can parse a date from.
-    # Priority: KNOWN_DATES > original YouTube title > JSX date (only if not "today") > display title
-    _now = datetime.now()
-    today_str = f"{_now.strftime('%B')} {_now.day}, {_now.year}"
-    today_obj = datetime.now().date()
-
-    if vid_id in KNOWN_DATES:
-        state_title = f"{title} - {KNOWN_DATES[vid_id]}"
-    elif original_yt_title:
-        state_title = original_yt_title
-    elif meeting_date_from_json:
-        try:
-            from datetime import datetime as _dt
-            d = _dt.strptime(meeting_date_from_json, "%B %d, %Y")
-            # Reject if the rendered date is "today" — likely a bad fallback from a previous run.
-            if d.date() == today_obj:
-                state_title = title
-                print(f"[warn] rendered date is today ({meeting_date_from_json}) — likely bad, ignoring")
-            else:
-                state_title = f"{title} - {d.month}/{d.day}/{d.year}"
-        except Exception:
-            state_title = title
-    else:
-        state_title = title
     state["processed"][vid_id] = {
-        "title": state_title,
-        "source": source_key,
-        "doc_url": doc_url,
+        "title":        title,
+        "source":       source_key,
+        "doc_url":      doc_url,
+        "upload_date":  upload_date,
         "processed_at": datetime.now(timezone.utc).isoformat(),
         "summary_file": str(path),
     }

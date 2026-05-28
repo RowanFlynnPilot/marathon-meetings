@@ -167,8 +167,18 @@ def build_meeting(
     source_key = info["source"]
     doc_url    = info.get("doc_url")
 
-    dt = parse_date_from_title(title)
-    if not dt:
+    # Prefer authoritative upload_date saved by the summarizer; only fall back
+    # to title parsing if it's missing (legacy entries) or invalid.
+    dt = None
+    ud = info.get("upload_date")
+    if ud and len(str(ud)) == 8 and str(ud).isdigit():
+        try:
+            dt = datetime(int(ud[:4]), int(ud[4:6]), int(ud[6:8]))
+        except ValueError:
+            dt = None
+    if dt is None:
+        dt = parse_date_from_title(title)
+    if dt is None:
         processed_at = info.get("processed_at", "")
         if processed_at:
             try:

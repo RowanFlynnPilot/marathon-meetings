@@ -1207,9 +1207,25 @@ function UpcomingMeetings({ isMobile }) {
   );
 }
 
+// Deep-link helpers: keep `selected` in sync with the URL hash so individual
+// meetings get shareable links (e.g. ".../#m/j64Gj2ean2k").
+function _findByHash() {
+  const m = window.location.hash.match(/^#m\/([\w-]+)$/);
+  return m ? MEETINGS.find(x => x.id === m[1]) || null : null;
+}
+
+function _writeHash(meeting) {
+  const next = meeting ? `#m/${meeting.id}` : "";
+  if (window.location.hash !== next) {
+    // history.replaceState avoids spamming the back-stack on each click.
+    const url = window.location.pathname + window.location.search + next;
+    window.history.replaceState(null, "", url);
+  }
+}
+
 export default function App() {
   const isMobile = useIsMobile();
-  const [selected,    setSelected]    = useState(null);
+  const [selected,    setSelected]    = useState(() => _findByHash());
   const [search,      setSearch]      = useState("");
   const [sourceFilter, setSourceFilter] = useState("all"); // "all" | "marathon" | "wausau" | "weston" | "school_board"
   const [panelTab,     setPanelTab]     = useState("recent"); // "recent" | "upcoming"
@@ -1217,6 +1233,19 @@ export default function App() {
   useEffect(() => {
     if (!isMobile && !selected) setSelected(MEETINGS[0]);
   }, [isMobile]);
+
+  // Mirror selection into the URL hash.
+  useEffect(() => { _writeHash(selected); }, [selected]);
+
+  // Respond to external hash changes (back/forward, paste-link).
+  useEffect(() => {
+    const onHash = () => {
+      const m = _findByHash();
+      if (m) setSelected(m);
+    };
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
 
   const parseDate = (d) => new Date(d);
 

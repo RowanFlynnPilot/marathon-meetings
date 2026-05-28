@@ -31,30 +31,12 @@ TRANSCRIPTS_DIR = Path("./transcripts")
 
 def fetch_transcript_ytapi(video_id: str) -> str | None:
     """Method 1: youtube-transcript-api (fastest)."""
+    from transcript_utils import fetch_via_youtube_transcript_api
     try:
-        from youtube_transcript_api import YouTubeTranscriptApi
-        # API v0.6+ uses .get() / .fetch(); older uses .list_transcripts()
-        try:
-            # New API (v0.6+)
-            entries = YouTubeTranscriptApi.get_transcript(
-                video_id, languages=["en", "en-US", "en-orig"]
-            )
-            text = " ".join(e["text"] for e in entries)
-            if len(text) > 200:
-                return text
-        except Exception:
-            pass
-        # Fallback: try auto-generated
-        try:
-            entries = YouTubeTranscriptApi.get_transcript(video_id)
-            text = " ".join(e["text"] for e in entries)
-            if len(text) > 200:
-                return text
-        except Exception:
-            pass
+        return fetch_via_youtube_transcript_api(video_id)
     except Exception as e:
         print(f"  youtube-transcript-api: {str(e)[:100]}")
-    return None
+        return None
 
 
 def _ytdlp_cmd():
@@ -121,30 +103,7 @@ def fetch_transcript_ytdlp(video_id: str) -> str | None:
     return None
 
 
-def _parse_vtt(vtt: str) -> str:
-    """Parse VTT captions into plain text with timestamp markers every ~5 minutes."""
-    lines = []
-    last_ts_minute = -5
-    for line in vtt.splitlines():
-        line = line.strip()
-        if not line or line.startswith("WEBVTT") or line.startswith("Kind:") or line.startswith("Language:"):
-            continue
-        # Extract timestamps from cue timing lines
-        if "-->" in line:
-            ts_m = re.match(r"(\d{1,2}):(\d{2}):(\d{2})", line)
-            if ts_m:
-                h, m, s = int(ts_m.group(1)), int(ts_m.group(2)), int(ts_m.group(3))
-                total_min = h * 60 + m
-                if total_min >= last_ts_minute + 5:
-                    ts_str = f"{h}:{m:02d}:{s:02d}" if h > 0 else f"{m}:{s:02d}"
-                    lines.append(f"[{ts_str}]")
-                    last_ts_minute = total_min
-            continue
-        line = re.sub(r"<[^>]+>", "", line)  # strip HTML tags
-        if lines and line == lines[-1]:
-            continue  # deduplicate consecutive lines
-        lines.append(line)
-    return " ".join(lines)
+from transcript_utils import parse_vtt as _parse_vtt
 
 
 def fetch_transcript(video_id: str) -> str | None:

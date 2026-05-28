@@ -53,6 +53,14 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Smoke-check upstream data sources
+        # Non-strict: warn if anything's off but don't block the run. Schema
+        # breakage in CivicClerk / AgendaCenter / BoardBook will print loud
+        # FAIL lines that show up at the top of the run log.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python smoke_check.py
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:

@@ -122,11 +122,15 @@ def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-def mark_processed(state, video_id, title, source, summary_path, doc_url=None):
+def mark_processed(state, video_id, title, source, summary_path, doc_url=None, upload_date=None):
+    """Record a processed video. upload_date is YYYYMMDD from YouTube — preserve
+    it so downstream consumers don't have to re-derive the date from the title.
+    """
     state["processed"][video_id] = {
         "title":        title,
         "source":       source,
         "doc_url":      doc_url,
+        "upload_date":  upload_date,
         "processed_at": datetime.now(timezone.utc).isoformat(),
         "summary_file": summary_path,
     }
@@ -233,42 +237,19 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
     """
     vid_id = _vid_id_from_url(url)
 
-    # -- Method 1: youtube-transcript-api with cookie session ------------------
-    # Injecting the YouTube cookies into a requests.Session bypasses IP blocks
-    # that affect cloud/CI environments, without needing yt-dlp or JS runtime.
+    # -- Method 1: youtube-transcript-api with optional cookie session ---------
     if vid_id:
+        from transcript_utils import fetch_via_youtube_transcript_api
+        if COOKIES_FILE and os.path.exists(COOKIES_FILE):
+            print(f"     [fetch] Trying youtube-transcript-api with cookie session...")
+        else:
+            print(f"     [fetch] Trying youtube-transcript-api (no cookies)...")
         try:
-            import requests as _req
-            from http.cookiejar import MozillaCookieJar
-            from youtube_transcript_api import YouTubeTranscriptApi
-
-            session = _req.Session()
-            session.headers.update({
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                              "AppleWebKit/537.36 (KHTML, like Gecko) "
-                              "Chrome/122.0.0.0 Safari/537.36",
-                "Accept-Language": "en-US,en;q=0.9",
-            })
-
-            if COOKIES_FILE and os.path.exists(COOKIES_FILE):
-                jar = MozillaCookieJar(COOKIES_FILE)
-                jar.load(ignore_discard=True, ignore_expires=True)
-                session.cookies = jar
-                print(f"     [fetch] Trying youtube-transcript-api with cookie session...")
-            else:
-                print(f"     [fetch] Trying youtube-transcript-api (no cookies)...")
-
-            api = YouTubeTranscriptApi(http_client=session)
-            result = api.fetch(vid_id, languages=["en", "en-US", "en-GB"])
-            entries = list(result)
-            text = " ".join(
-                getattr(s, "text", "").strip() for s in entries
-            ).strip()
-            if len(text) > 200:
+            text = fetch_via_youtube_transcript_api(vid_id, cookies_file=COOKIES_FILE or None)
+            if text:
                 print(f"     [ok]  Transcript via youtube-transcript-api ({len(text):,} chars)")
                 return text
-            else:
-                print(f"     [warn]  Transcript too short ({len(text)} chars) - trying yt-dlp...")
+            print(f"     [warn]  youtube-transcript-api returned no usable transcript - trying yt-dlp...")
         except Exception as e:
             print(f"     [warn]  youtube-transcript-api: {str(e)[:120]} - trying yt-dlp...")
 
@@ -337,33 +318,7 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         "Video may have no audio, or cookies may be expired."
     )
 
-def _parse_vtt(raw):
-    """Parse VTT captions, inserting timestamp markers every ~5 minutes."""
-    seen, lines = set(), []
-    last_ts_minute = -5  # track last inserted timestamp minute
-    for line in raw.split("\n"):
-        line = line.strip()
-        if not line or line.startswith("WEBVTT") or line.startswith("Kind:") or line.startswith("Language:") or line == " ":
-            continue
-        # Extract timestamp from cue timing lines like "00:05:23.000 --> 00:05:26.000"
-        if "-->" in line:
-            ts_m = re.match(r"(\d{1,2}):(\d{2}):(\d{2})", line)
-            if ts_m:
-                h, m, s = int(ts_m.group(1)), int(ts_m.group(2)), int(ts_m.group(3))
-                total_min = h * 60 + m
-                # Insert a timestamp marker every ~5 minutes
-                if total_min >= last_ts_minute + 5:
-                    ts_str = f"{h}:{m:02d}:{s:02d}" if h > 0 else f"{m}:{s:02d}"
-                    lines.append(f"[{ts_str}]")
-                    last_ts_minute = total_min
-            continue
-        # Skip HTML-style tags
-        if "<" in line and ">" in line and ":" in line:
-            continue
-        if line not in seen:
-            seen.add(line)
-            lines.append(line)
-    return " ".join(lines)
+from transcript_utils import parse_vtt as _parse_vtt
 
 
 
@@ -1409,7 +1364,10 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
     path = save_summary(title, f"https://www.youtube.com/@wausauschoolboard",
                         "school_board", summary, doc_url=doc_url)
 
-    mark_processed(state, video_id, title, "school_board", path, doc_url=doc_url)
+    # BoardBook stores dates as "YYYY-MM-DD"; convert to YouTube-style YYYYMMDD.
+    bb_date = (bb_meeting.get("date") or "").replace("-", "") or None
+    mark_processed(state, video_id, title, "school_board", path,
+                   doc_url=doc_url, upload_date=bb_date)
     print(f"  [ok]  Saved: {path}")
     return True
 
@@ -1519,7 +1477,8 @@ def main():
 
         path = process_video(video)
         if path:
-            mark_processed(state, vid_id, video["title"], source_key, path, video.get("doc_url"))
+            mark_processed(state, vid_id, video["title"], source_key, path,
+                           video.get("doc_url"), upload_date=video.get("upload_date"))
             save_state(state)
         return
 
@@ -1587,7 +1546,8 @@ def main():
     for v in all_pending:
         path = process_video(v)
         if path:
-            mark_processed(state, v["id"], v["title"], v["source"], path, v.get("doc_url"))
+            mark_processed(state, v["id"], v["title"], v["source"], path,
+                           v.get("doc_url"), upload_date=v.get("upload_date"))
             save_state(state)
             ok += 1
 
