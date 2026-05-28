@@ -61,10 +61,9 @@
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
       "upload_date": "20260429",
-      "processed_at": "2026-05-28T02:08:33.619564+00:00",
-      "summary_file": "summaries/marathon-marathon-county-regular-meeting.md",
       "meeting_date": "20260428",
-      "duration": 4487
+      "processed_at": "2026-05-28T02:08:33.619564+00:00",
+      "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
     "CIhVYLRBgok": {
       "title": "Wausau City Council Meeting - 4/28/26",
@@ -91,20 +90,18 @@
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
       "upload_date": "20260507",
-      "processed_at": "2026-05-28T02:09:06.108037+00:00",
-      "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md",
       "meeting_date": "20260506",
-      "duration": 5594
+      "processed_at": "2026-05-28T02:09:06.108037+00:00",
+      "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
     "OLzrpSp3Dfg": {
       "title": "Marathon County Environmental Resources Committee Meeting",
       "source": "marathon",
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
       "upload_date": "20260506",
-      "processed_at": "2026-05-28T02:08:03.630009+00:00",
-      "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md",
       "meeting_date": "20260505",
-      "duration": 6791
+      "processed_at": "2026-05-28T02:08:03.630009+00:00",
+      "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
     "6QSQOUqDnhM": {
       "title": "Wausau Economic Development Committee Meeting - 5/5/26",
@@ -138,30 +135,27 @@
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260511",
-      "processed_at": "2026-05-28T02:07:34.094833+00:00",
-      "summary_file": "summaries/weston-community-life-and-public-safety.md",
       "meeting_date": "20260504",
-      "duration": 4925
+      "processed_at": "2026-05-28T02:07:34.094833+00:00",
+      "summary_file": "summaries/weston-community-life-and-public-safety.md"
     },
     "j64Gj2ean2k": {
       "title": "Public Works Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260512",
-      "processed_at": "2026-05-28T02:10:17.977050+00:00",
-      "summary_file": "summaries/weston-public-works-committee.md",
       "meeting_date": "20260511",
-      "duration": 5406
+      "processed_at": "2026-05-28T02:10:17.977050+00:00",
+      "summary_file": "summaries/weston-public-works-committee.md"
     },
     "eX7VOuywzb8": {
       "title": "Plan Commission",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260512",
-      "processed_at": "2026-05-28T02:09:33.305320+00:00",
-      "summary_file": "summaries/weston-plan-commission.md",
       "meeting_date": "20260511",
-      "duration": 2091
+      "processed_at": "2026-05-28T02:09:33.305320+00:00",
+      "summary_file": "summaries/weston-plan-commission.md"
     },
     "bb_746488": {
       "title": "Special Meeting - 2026-05-18",
@@ -196,6 +190,26 @@
       "summary_file": "summaries/weston-parks-committee-5262026.md",
       "meeting_date": "20260526",
       "duration": 3237
+    },
+    "KaLahH4JieQ": {
+      "title": "Finance and Human Resources Committee - 5/18/2026",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260518",
+      "meeting_date": "20260518",
+      "duration": 3209.0,
+      "processed_at": "2026-05-28T03:16:40.744415+00:00",
+      "summary_file": "summaries/weston-finance-and-human-resources-committee-5182026.md"
+    },
+    "ee6clAtgrYw": {
+      "title": "Tourism Commission - 5/18/2026",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260518",
+      "meeting_date": "20260518",
+      "duration": 662.0,
+      "processed_at": "2026-05-28T03:16:54.996312+00:00",
+      "summary_file": "summaries/weston-tourism-commission-5182026.md"
     }
   }
 }
