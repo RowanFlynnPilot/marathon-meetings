@@ -22,7 +22,7 @@ Pipeline order (GitHub Actions):
 """
 
 import json, logging, re, sys, os
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -159,22 +159,51 @@ def build_meeting(
     info: dict,
     summary: dict,
     civic_data: dict | None,
+    existing_date: str | None = None,
 ) -> dict | None:
+    """existing_date is the date currently in meetings.json for this video, if
+    any (formatted as 'Month D, YYYY'). It's used as a tie-breaker against the
+    processed_at fallback so re-injecting an old meeting never makes its date
+    drift to the day CI happened to run.
+    """
     title      = info["title"]
     source_key = info["source"]
     doc_url    = info.get("doc_url")
 
-    # Prefer authoritative upload_date saved by the summarizer; only fall back
-    # to title parsing if it's missing (legacy entries) or invalid.
-    dt = None
-    ud = info.get("upload_date")
-    if ud and len(str(ud)) == 8 and str(ud).isdigit():
-        try:
-            dt = datetime(int(ud[:4]), int(ud[4:6]), int(ud[6:8]))
-        except ValueError:
-            dt = None
+    today = date.today()
+
+    def _yyyymmdd_to_dt(s):
+        if s and len(str(s)) == 8 and str(s).isdigit():
+            try:
+                return datetime(int(s[:4]), int(s[4:6]), int(s[6:8]))
+            except ValueError:
+                return None
+        return None
+
+    # 1. meeting_date is authoritative — it's the actual meeting date, not the
+    #    YouTube upload date (which is typically the day after the meeting).
+    dt = _yyyymmdd_to_dt(info.get("meeting_date"))
+
+    # 2. Title may carry the date as a "- 5/11/2026" suffix.
     if dt is None:
         dt = parse_date_from_title(title)
+
+    # 3. Fall back to upload_date (close-enough; off by ~1 day for some sources).
+    if dt is None:
+        dt = _yyyymmdd_to_dt(info.get("upload_date"))
+
+    # If we already have a known-good date in meetings.json, use it. This
+    # prevents re-injections from overwriting a real date with today's CI run.
+    if dt is None and existing_date:
+        try:
+            dt = datetime.strptime(existing_date, "%B %d, %Y")
+        except ValueError:
+            dt = None
+
+    # Last resort: processed_at. A meeting can't have happened today-or-later
+    # while also having been processed, so if processed_at is today/future and
+    # nothing better is available, clamp to yesterday — better to be one day
+    # early than to show a "future" past meeting.
     if dt is None:
         processed_at = info.get("processed_at", "")
         if processed_at:
@@ -184,6 +213,13 @@ def build_meeting(
                 dt = datetime.now()
         else:
             dt = datetime.now()
+        if dt.date() >= today:
+            logger.warning(
+                "%s: no upload_date and processed_at resolves to %s; "
+                "clamping to yesterday to avoid a future-dated past meeting",
+                video_id, dt.date().isoformat(),
+            )
+            dt = datetime.combine(today - timedelta(days=1), datetime.min.time())
 
     source, committee = infer_source_and_committee(
         title, source_key, summary.get("committee", "")
@@ -358,7 +394,9 @@ def main():
             except json.JSONDecodeError:
                 civic_data = None
 
-        entry = build_meeting(video_id, info, summary, civic_data)
+        prior = existing_by_id.get(video_id)
+        prior_date = prior.get("date") if prior else None
+        entry = build_meeting(video_id, info, summary, civic_data, existing_date=prior_date)
         if entry is None:
             continue
         new_entries.append(entry)

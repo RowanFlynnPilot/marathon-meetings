@@ -123,16 +123,24 @@ def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-def mark_processed(state, video_id, title, source, summary_path, doc_url=None, upload_date=None):
-    """Record a processed video. upload_date is YYYYMMDD from YouTube — preserve
-    it so downstream consumers don't have to re-derive the date from the title.
+def mark_processed(state, video_id, title, source, summary_path,
+                   doc_url=None, upload_date=None, meeting_date=None):
+    """Record a processed video.
+
+    upload_date   = YYYYMMDD from YouTube (when the video was uploaded — often
+                    a day after the meeting itself).
+    meeting_date  = YYYYMMDD parsed from the title's date suffix when present;
+                    this is the canonical *meeting* date and is what
+                    inject_meetings.py uses to render the displayed date.
     """
+    prior = state["processed"].get(video_id, {})
     state["processed"][video_id] = {
         "title":        title,
         "source":       source,
         "doc_url":      doc_url,
-        "upload_date":  upload_date,
-        "processed_at": datetime.now(timezone.utc).isoformat(),
+        "upload_date":  upload_date  or prior.get("upload_date"),
+        "meeting_date": meeting_date or prior.get("meeting_date"),
+        "processed_at": prior.get("processed_at") or datetime.now(timezone.utc).isoformat(),
         "summary_file": summary_path,
     }
 
@@ -189,15 +197,21 @@ def fetch_channel_videos(source_key, dateafter=""):
                 continue
             pattern     = ch.get("doc_pattern")
             doc_m       = re.search(pattern, desc) if pattern else None
-            upload_date = d.get("upload_date") or _parse_date_from_title(title)
+            # The YouTube upload_date and the actual meeting date can differ
+            # by a day; keep them separate. meeting_date comes from the title
+            # suffix when present.
+            yt_upload   = d.get("upload_date") or ""
+            title_date  = _parse_date_from_title(title)
+            upload_date = yt_upload or title_date
             videos.append({
-                "id":          vid_id,
-                "title":       title,
-                "url":         f"https://www.youtube.com/watch?v={vid_id}",
-                "source":      source_key,
-                "doc_url":     doc_m.group(0) if doc_m else None,
-                "upload_date": upload_date,
-                "description": desc,
+                "id":           vid_id,
+                "title":        title,
+                "url":          f"https://www.youtube.com/watch?v={vid_id}",
+                "source":       source_key,
+                "doc_url":      doc_m.group(0) if doc_m else None,
+                "upload_date":  upload_date,
+                "meeting_date": title_date,
+                "description":  desc,
             })
         except json.JSONDecodeError:
             continue
@@ -1361,9 +1375,11 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
                         "school_board", summary, doc_url=doc_url)
 
     # BoardBook stores dates as "YYYY-MM-DD"; convert to YouTube-style YYYYMMDD.
+    # For BoardBook there's no separate upload date — the meeting date is the
+    # canonical date.
     bb_date = (bb_meeting.get("date") or "").replace("-", "") or None
     mark_processed(state, video_id, title, "school_board", path,
-                   doc_url=doc_url, upload_date=bb_date)
+                   doc_url=doc_url, upload_date=bb_date, meeting_date=bb_date)
     print(f"  [ok]  Saved: {path}")
     return True
 
@@ -1476,7 +1492,9 @@ def main():
         path = process_video(video)
         if path:
             mark_processed(state, vid_id, video["title"], source_key, path,
-                           video.get("doc_url"), upload_date=video.get("upload_date"))
+                           video.get("doc_url"),
+                           upload_date=video.get("upload_date"),
+                           meeting_date=video.get("meeting_date"))
             save_state(state)
         return
 
@@ -1545,7 +1563,9 @@ def main():
         path = process_video(v)
         if path:
             mark_processed(state, v["id"], v["title"], v["source"], path,
-                           v.get("doc_url"), upload_date=v.get("upload_date"))
+                           v.get("doc_url"),
+                           upload_date=v.get("upload_date"),
+                           meeting_date=v.get("meeting_date"))
             save_state(state)
             ok += 1
 

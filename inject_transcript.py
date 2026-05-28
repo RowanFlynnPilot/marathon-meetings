@@ -50,6 +50,10 @@ def main():
                         help="Summarize but don't update files")
     parser.add_argument("--force", action="store_true",
                         help="Re-summarize even if a transcript-based summary already exists")
+    parser.add_argument("--date", type=str, default=None,
+                        metavar="YYYY-MM-DD",
+                        help="Force the meeting date (overrides yt-dlp upload_date). "
+                             "Use when YouTube is unreachable from this machine.")
     parser.add_argument("--data", type=str, default="./src/data/meetings.json",
                         help="Path to the meetings JSON (default: ./src/data/meetings.json)")
     # Back-compat shim — older callers pass --jsx but we no longer read JSX.
@@ -158,15 +162,26 @@ def main():
                     doc_url = entry["docUrl"]
                     print(f"[ok]  Detected docUrl from {data_path.name}: {doc_url}")
 
-    # ── Fetch authoritative title and upload_date from YouTube ──────────────
-    # The summarizer normally captures upload_date during ingestion, but a
-    # transcript override may be applied later (or to a video the summarizer
-    # never saw), so refresh it here.
+    # ── Resolve upload_date and meeting_date ────────────────────────────────
+    # `meeting_date` is the authoritative meeting date; `upload_date` is when
+    # YouTube received the video (often a day later). Priority for
+    # meeting_date: --date CLI > existing state > parse from YouTube title.
     upload_date = None
+    meeting_date = None
+    if args.date:
+        try:
+            d = datetime.strptime(args.date, "%Y-%m-%d")
+            meeting_date = d.strftime("%Y%m%d")
+            print(f"[ok]  meeting_date from --date flag: {meeting_date}")
+        except ValueError:
+            print(f"[error] --date must be YYYY-MM-DD, got: {args.date}")
+            sys.exit(2)
     if state_file.exists():
         try:
             _existing = json.loads(state_file.read_text(encoding="utf-8")).get("processed", {}).get(vid_id, {})
-            upload_date = _existing.get("upload_date")
+            upload_date  = _existing.get("upload_date")
+            if not meeting_date:
+                meeting_date = _existing.get("meeting_date")
         except json.JSONDecodeError:
             pass
 
@@ -186,6 +201,23 @@ def main():
                 if yt_upload_date and len(yt_upload_date) == 8 and yt_upload_date.isdigit():
                     upload_date = yt_upload_date
 
+                # Pull the meeting date out of the YouTube title's date suffix
+                # ("- 5/11/2026" / "- 5-11-26" / "- 2026-05-11"). --date already
+                # locked it in if the user supplied one; don't override that.
+                if not args.date and yt_title:
+                    tm = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", yt_title)
+                    if tm:
+                        mo, dy, yr = tm.groups()
+                        yr = "20" + yr if len(yr) == 2 else yr
+                        try:
+                            meeting_date = datetime(int(yr), int(mo), int(dy)).strftime("%Y%m%d")
+                        except ValueError:
+                            pass
+                    if not meeting_date:
+                        tm = re.search(r"(20\d{2})-(\d{2})-(\d{2})", yt_title)
+                        if tm:
+                            meeting_date = "".join(tm.groups())
+
                 if yt_title and title == vid_id:
                     cleaned = re.sub(r'\s*-\s*\d{1,2}/\d{1,2}/\d{2,4}$', '', yt_title).strip()
                     cleaned = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', cleaned).strip()
@@ -193,7 +225,9 @@ def main():
                     title = cleaned
                     print(f"[ok]  Title from YouTube: {title}")
                 if upload_date:
-                    print(f"       upload_date: {upload_date}")
+                    print(f"       upload_date:  {upload_date}")
+                if meeting_date:
+                    print(f"       meeting_date: {meeting_date}")
 
                 if not source_key:
                     ch_lower = meta.get("channel", "").lower()
@@ -206,14 +240,14 @@ def main():
         except Exception as e:
             print(f"[warn] Could not fetch from YouTube: {e}")
 
-    # Final fallback: derive upload_date from the meetings.json date if neither
-    # state nor YouTube gave us one.
-    if not upload_date and meeting_date_from_json:
+    # Final fallback: derive meeting_date from the meetings.json date if
+    # neither state nor YouTube nor --date gave us one.
+    if not meeting_date and meeting_date_from_json:
         try:
             from datetime import datetime as _dt
             d = _dt.strptime(meeting_date_from_json, "%B %d, %Y")
             if d.date() != datetime.now().date():
-                upload_date = d.strftime("%Y%m%d")
+                meeting_date = d.strftime("%Y%m%d")
         except (ValueError, TypeError):
             pass
 
@@ -260,18 +294,29 @@ def main():
     print(f"[save] Saved: {path}")
 
     # ── Update processed_meetings.json ───────────────────────────────────────
-    # Date now lives in its own upload_date field; no more title-suffix hacks.
     if state_file.exists():
         state = json.loads(state_file.read_text(encoding="utf-8"))
     else:
         state = {"processed": {}}
 
+    prior = state["processed"].get(vid_id, {})
+    # Preserve the original processed_at so re-running this script over the
+    # same transcript doesn't make the meeting date drift to "now". Only set a
+    # fresh timestamp on a genuinely new entry.
+    processed_at_value = prior.get("processed_at") or datetime.now(timezone.utc).isoformat()
+
+    # Don't let a missing value from this run wipe out a known-good value
+    # saved by a previous run.
+    upload_date_value  = upload_date  or prior.get("upload_date")
+    meeting_date_value = meeting_date or prior.get("meeting_date")
+
     state["processed"][vid_id] = {
         "title":        title,
         "source":       source_key,
         "doc_url":      doc_url,
-        "upload_date":  upload_date,
-        "processed_at": datetime.now(timezone.utc).isoformat(),
+        "upload_date":  upload_date_value,
+        "meeting_date": meeting_date_value,
+        "processed_at": processed_at_value,
         "summary_file": str(path),
     }
     state_file.write_text(json.dumps(state, indent=2), encoding="utf-8")
