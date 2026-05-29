@@ -1,7 +1,7 @@
 {
-  "overview": "The Village of Weston Tourism Commission held its first meeting after reorganization, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission learned that a competing hot air balloon event in Marshfield was canceled, potentially boosting attendance at the Weston event.",
+  "overview": "The Village of Weston Tourism Commission held its reorganization meeting, electing new officers and approving a $5,000 grant to the Taste and Glow Balloonfest. The commission learned that a competing balloon event in Marshfield was canceled, potentially increasing attendance at the Weston event.",
   "committee": "Tourism Commission",
-  "presiding": "Trustee Erling, Chair (elected at this meeting)",
+  "presiding": "Trustee Erling (elected Chair during meeting)",
   "agenda": [
     {
       "time": "0:05",
@@ -12,27 +12,27 @@
       "item": "Roll call"
     },
     {
-      "time": "0:45",
-      "item": "Election of officers - Chair"
-    },
-    {
-      "time": "1:15",
-      "item": "Election of officers - Vice Chair"
-    },
-    {
-      "time": "2:00",
-      "item": "Election of officers - Secretary"
-    },
-    {
-      "time": "2:30",
-      "item": "Public comments"
+      "time": "0:50",
+      "item": "Election of officers (Chair, Vice Chair, Secretary)"
     },
     {
       "time": "2:45",
-      "item": "Minutes of previous meeting - April 21st"
+      "item": "Public comments"
     },
     {
-      "time": "3:00",
+      "time": "2:55",
+      "item": "Minutes of the previous meeting (April 21st)"
+    },
+    {
+      "time": "3:10",
+      "item": "Work product transmittals, educational presentations, reports"
+    },
+    {
+      "time": "3:15",
+      "item": "Old business"
+    },
+    {
+      "time": "3:20",
       "item": "New business - Grant request: Taste and Glow Balloonfest"
     },
     {
@@ -47,25 +47,25 @@
   "discussions": [
     {
       "item": "Election of Officers",
-      "body": "Trustee Erling was nominated and elected as Chair unanimously. Cushing was nominated and elected as Vice Chair, with Jackson providing the second. Renee was nominated and elected as Secretary. All elections passed unanimously with no opposition."
+      "body": "The commission elected Trustee Erling as Chair unanimously. Cushing was nominated for Vice Chair by a commissioner, seconded by Jackson, and approved unanimously. Renee was nominated and elected as Secretary unanimously."
     },
     {
       "item": "Minutes of Previous Meeting",
-      "body": "The minutes from the April 21st meeting were approved unanimously. The motion was seconded by Renee."
+      "body": "The minutes from the April 21st meeting were approved. Motion was seconded by Renee and passed unanimously."
     },
     {
       "item": "Grant Request - Taste and Glow Balloonfest",
-      "body": "Brandon Jill of 3308 Green Pastures Lane presented the grant request for the Taste and Glow Balloonfest, reporting estimated attendance of 11,000-12,000 last year. He announced that a competing Marshfield hot air balloon event was canceled due to permit issues, making theirs the sole event in the area. Commission members noted the request showed 20 fewer rooms than last year. The commission discussed needing better room tracking data from hotels. A motion to approve $5,000 (matching last year's grant) was made and passed unanimously, with Jackson seconding. The commission requested better room usage documentation in future reports."
+      "body": "Brandon Jill of 3308 Green Pastures Lane presented on behalf of the Taste and Glow Balloonfest, reporting approximately 11,000-12,000 attendees last year. He announced that the competing Marshfield balloon event was canceled due to permit issues, making their event the sole hot air balloon event in the area. A commissioner noted the application showed 20 fewer rooms than last year. The commission requested better tracking of hotel room usage from the Holiday Inn Express for future reporting. A motion to approve $5,000 (same as last year) was made, seconded by Jackson, and passed unanimously."
     },
     {
       "item": "Remarks from Commission Members",
-      "body": "Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates, noting winner Anastasia had three bachelor's degrees and attended South Dakota State. The candidates toured Marathon County locations including Mullen's Cheese. This was the first time the event was hosted in Marathon County since the 1970s."
+      "body": "Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar, describing meeting the candidates including winner Anastasia. She noted the candidates toured Marathon County locations including Mullen's Cheese, and this was the first time Marathon County hosted the event since the 1970s."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
     "Approved $5,000 grant to Taste and Glow Balloonfest for their annual event",
-    "Taste and Glow Balloonfest to provide better hotel room usage data in their post-event report",
+    "Taste and Glow organizers to provide hotel room usage data in their post-event report",
     "Next meeting scheduled for July 20th at 4:00 PM"
   ],
   "_transcript_hash": "7e499df378509618",
@@ -73,5 +73,5 @@
   "url": "https://www.youtube.com/watch?v=ee6clAtgrYw",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-05-29T18:36:20.585088+00:00"
+  "processed_at": "2026-05-29T21:56:26.097756+00:00"
 }
