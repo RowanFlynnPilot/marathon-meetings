@@ -116,6 +116,20 @@
   "wausau": [
     {
       "date": "2026-06-01",
+      "time": "4:45 PM",
+      "name": "Liquor License Review Subcommittee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2367/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-01",
+      "time": "5:00 PM",
+      "name": "Public Health & Safety Committee",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2368/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-01",
       "time": "5:15 PM",
       "name": "Parks & Recreation Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2057/overview",
@@ -172,6 +186,13 @@
     },
     {
       "date": "2026-06-09",
+      "time": "5:15 PM",
+      "name": "Joint Meeting of the Finance Committee and the Economic Development Committee",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2366/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-09",
       "time": "5:30 PM",
       "name": "Finance Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2005/overview",
@@ -196,13 +217,6 @@
       "time": "5:15 PM",
       "name": "Infrastructure & Facilities Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2044/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-15",
-      "time": "5:15 PM",
-      "name": "Public Health & Safety Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2070/overview",
       "source": "wausau"
     }
   ],
