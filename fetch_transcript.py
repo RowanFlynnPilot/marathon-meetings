@@ -122,38 +122,34 @@ def fetch_transcript(video_id: str) -> str | None:
 
 
 def find_agenda_only_meetings() -> list[dict]:
-    """Find meetings in the JSX that are agenda-only and have YouTube URLs."""
-    jsx_path = Path("./marathon-meetings.jsx")
-    if not jsx_path.exists():
-        print("Error: marathon-meetings.jsx not found")
+    """Find meetings in src/data/meetings.json that are agenda-only and have
+    YouTube URLs (so BoardBook entries — agenda-only by design — are skipped).
+    """
+    import json as _json
+    data_path = Path("./src/data/meetings.json")
+    if not data_path.exists():
+        print(f"Error: {data_path} not found")
+        return []
+    try:
+        meetings = _json.loads(data_path.read_text(encoding="utf-8"))
+    except _json.JSONDecodeError as e:
+        print(f"Error: {data_path} is not valid JSON: {e}")
         return []
 
-    jsx = jsx_path.read_text(encoding="utf-8")
-
-    # Find meetings block
-    m = re.search(r'const MEETINGS = \[\n(.*?)\n\];', jsx, re.DOTALL)
-    if not m:
-        return []
-
-    entries = re.split(r'(?=  \{\n    id:)', m.group(1))
     results = []
-    for entry in entries:
-        if not entry.strip():
+    for m in meetings:
+        if not isinstance(m, dict):
             continue
-        if "isAgendaOnly: true" not in entry:
+        if not m.get("isAgendaOnly"):
             continue
-        # Only YouTube videos (not BoardBook)
-        url_m = re.search(r'url:\s*"(https://www\.youtube\.com[^"]+)"', entry)
-        if not url_m:
+        url = m.get("url") or ""
+        if "youtube.com" not in url and "youtu.be" not in url:
             continue
-        id_m = re.search(r'id:\s*"([^"]+)"', entry)
-        title_m = re.search(r'title:\s*"([^"]+)"', entry)
-        if id_m:
-            results.append({
-                "id": id_m.group(1),
-                "title": title_m.group(1) if title_m else id_m.group(1),
-                "url": url_m.group(1),
-            })
+        results.append({
+            "id":    m.get("id", ""),
+            "title": m.get("title") or m.get("id", ""),
+            "url":   url,
+        })
     return results
 
 
