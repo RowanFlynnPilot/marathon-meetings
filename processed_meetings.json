@@ -188,34 +188,34 @@
       "summary_file": "summaries/weston-board-of-trustees.md"
     },
     "NwM-PoBvvMg": {
-      "title": "Parks Committee - 5/26/2026",
+      "title": "Parks Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260527",
-      "processed_at": "2026-05-28T02:06:48.665871+00:00",
-      "summary_file": "summaries/weston-parks-committee-5262026.md",
       "meeting_date": "20260526",
-      "duration": 3237
+      "duration": 3237,
+      "processed_at": "2026-05-28T02:06:48.665871+00:00",
+      "summary_file": "summaries/weston-parks-committee.md"
     },
     "KaLahH4JieQ": {
-      "title": "Finance and Human Resources Committee - 5/18/2026",
+      "title": "Finance and Human Resources Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260518",
       "meeting_date": "20260518",
       "duration": 3209.0,
       "processed_at": "2026-05-28T03:16:40.744415+00:00",
-      "summary_file": "summaries/weston-finance-and-human-resources-committee-5182026.md"
+      "summary_file": "summaries/weston-finance-and-human-resources-committee.md"
     },
     "ee6clAtgrYw": {
-      "title": "Tourism Commission - 5/18/2026",
+      "title": "Tourism Commission",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260518",
       "meeting_date": "20260518",
       "duration": 662.0,
       "processed_at": "2026-05-28T03:16:54.996312+00:00",
-      "summary_file": "summaries/weston-tourism-commission-5182026.md"
+      "summary_file": "summaries/weston-tourism-commission.md"
     }
   }
 }

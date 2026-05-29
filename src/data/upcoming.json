@@ -97,6 +97,20 @@
       "name": "HR, Finance & Property Committee",
       "url": "https://www.marathoncounty.gov/about-us/county-calendar",
       "source": "marathon"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "5:00 PM",
+      "name": "Environmental Resources Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-07-28",
+      "time": "7:00 PM",
+      "name": "County Board Meeting",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
     }
   ],
   "wausau": [
@@ -193,13 +207,6 @@
     }
   ],
   "weston": [
-    {
-      "date": "2026-05-28",
-      "time": "",
-      "name": "Public Works Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05282026-1921",
-      "source": "weston"
-    },
     {
       "date": "2026-06-01",
       "time": "",
