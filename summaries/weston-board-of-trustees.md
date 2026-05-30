@@ -2,44 +2,50 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=YQ-B8Dd3ltU  
-**Summarized:** 2026-05-30 06:48 UTC
+**Summarized:** 2026-05-30 20:57 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Board of Trustees approved increased park and recreation impact fees, adopted multiple ordinances including mobile food vendor licensing and e-bike regulations, and discussed ongoing challenges with the farmers market's new location at Kennedy Park. The board also adjourned the Board of Review to June 15, 2026 and approved various license renewals and committee appointments.
+The Village of Weston Board of Trustees approved increased park and recreation impact fees for new residential development, passed several ordinance amendments including mobile food vendor licensing and e-bicycle regulations, and discussed ongoing challenges with relocating the farmers market to Kennedy Park. The board also adjourned the Board of Review to June 15, 2026.
 
 ## Key Discussions
-### Public hearing on park and recreation impact fees
-Staff presented proposed amendments to increase park fees from $300/$250 to $761 for single family, $563 for duplex, and $495 for multifamily units, based on the 2022 public facilities needs assessment. Jim Pitel commented that the village lacks real data on park maintenance costs. Trustee Motti supported the fee as justified given population growth. Ordinance 26-010 was approved unanimously, and Resolution 2026-015 was also approved unanimously.
+### Park and Recreation Impact Fee Amendments
+Staff presented proposed fee increases from $300 to $761 for single family units, $250 to $563 for duplex units, and to $495 for multifamily units, consistent with the 2022 public facilities needs assessment. Jim Pitel spoke during public comment questioning the justification for the numbers, stating the village lacks solid data on actual park maintenance costs. Trustee Barb Ermeling supported the fee increase, noting population growth requires more park space. Ordinance 26-010 was approved unanimously on motion by Lope Sorrell, seconded by Zagami. Resolution 2026-015 was also approved unanimously on motion by Ermeling, seconded by Clark.
 
-### Mobile food vendor license ordinance
-Chief Finkey explained that this ordinance allows reciprocal fire inspections between Safer and multiple municipalities including Marshfield, Wisconsin Rapids, Stevens Point, and Cloverleaf. A food truck inspected by one participating department receives a sticker recognized by all others, reducing redundant inspections. Ordinance 26-008 was approved unanimously.
+### Mobile Food Vendor License Ordinance (26-008)
+Chief Finkey explained this ordinance establishes a regional agreement with Marshfield, Wisconsin Rapids, Stevens Point, Clover Belt, and Riverside where one fire inspection by any participating department is valid for all communities. A sticker system indicates inspection completion, eliminating redundant inspections for food trucks operating across multiple municipalities. Approved unanimously on motion by Lope Sorrell, seconded by Zagami.
 
-### Remote meeting attendance policy amendments
-The board debated amendments to the remote attendance policy. After discussion about removing specific reasons for remote attendance to make the policy more broad, Trustee Beck moved to amend by striking sentences requiring health/safety justification. The amendment passed with Trustees Herling and Motti voting no. The original motion as amended then passed with the same two no votes.
+### E-Bicycle Ordinance (26-012)
+The board discussed the distinction between e-bikes and e-motos, with trustees noting e-motos can reach 52 mph and are essentially like motorcycles. The ordinance amends chapter 82 regarding traffic and bicycles. Approved unanimously on motion by Zagami, seconded by Clark.
 
-### Committee appointments
-President appointed Stephanie Daniels and Goldens Mua to the CLIPS committee. Motion by Herling, second by Lopesell, approved unanimously. Parks, two openings on HR/Finance, and one opening on CLIPS remain.
+### Remote Meeting Attendance Policy Amendments
+Significant debate occurred over the policy language. Trustee Beck questioned whether the policy aligned with what was voted on at the previous meeting, noting the draft still contained language about health, safety, and welfare justifications that the board had intended to remove. After discussion, the board voted to strike sentences requiring members to justify remote attendance with specific reasons, keeping the policy broad with requirements for 12-hour advance notice, camera on, and no participation in closed sessions. The amendment passed with two opposed (Ermeling and Lope Sorrell), and the amended policy passed with two opposed (same trustees).
 
-### Secondhand article dealer license for Scoffield Coin and Hobby LLC
-Chief Hunt and Captain Aldrich explained the license is required under state statute for businesses buying/selling precious metals to prevent stolen merchandise sales. Items must be held 30 days before sale. Motion was amended to require satisfactory background check and certificate of occupancy since the building is still under construction. Approved unanimously as amended.
+### Committee Appointments
+The president appointed Golden Mua and Stephanie Daniels to the CLIPS committee. Golden Mua was noted as potentially joining Finance committee later after getting experience. Approved unanimously on motion by Ermeling, seconded by Lope Sorrell. The board also agreed to include committee applicant resumes in future board packets.
 
-### Farmers market location at Kennedy Park
-Discussion-only item addressing concerns about the market's new location after losing the Camp Phillips site. Trustee Beck raised safety concerns about parking on grass along Alderson. Renee provided background that the market grew from 25 to 53 vendor spots over the years. The board discussed that Mont Miller Park would be too remote. No action was taken; this was discussion only. Renee clarified that the market operates at a profit through vendor fees, grants, and token reimbursements.
+### Secondhand Article and Jewelry Dealer License
+Scoffield Coin and Hobby LLC at 5703 Jamar Street applied for secondhand dealer licenses. Chief Hunt explained these licenses protect against stolen merchandise through a reporting system accessible to police. The license was approved with an amendment requiring satisfactory background check completion and receipt of occupancy permit, as the building is still under construction. Approved unanimously.
+
+### Farmers Market Location Discussion
+The board discussed challenges with the farmers market's relocation to Kennedy Park after losing their previous location on Camp Phillips and Scoffield Avenue when the property owner decided to develop the land. Trustee Beck raised safety concerns about cars parking on grass along Alderson Street. Discussion noted the market has grown from 25 to 53 vendor spots. Renee explained the market operates at a surplus through vendor fees and grants for programs like double up food bucks. Mock Miller Park was mentioned as a possible alternative but concerns were raised about low visibility and traffic. No action was taken; discussion only.
+
+### Weston Avenue Speed Limit
+Public Works Director Michael Dolan reported on speed study data showing the 85th percentile speed was 45 mph, with most traffic traveling between 44-50 mph. The DOT engineering study recommended 35 mph, but the village is seeking to justify 40-45 mph. A trustee noted the speed limit issue has been unresolved for over two months, making current signage inconsistent with ordinance. Staff will bring the matter back to a future board meeting.
 
 ## Public Comment
-Jim Pitel of 52nd Street spoke during public comment, criticizing the village for hiring outside engineering consultants at an estimated $108,000 when an engineering technician position remains unfilled. He questioned why the administrator hasn't filled the position and criticized the appointment of Lisa Beck to the Safer board before official board action. He also complained about lack of detailed information on Kennedy Park in the meeting packet. Pitel also commented during the park impact fee public hearing, arguing the village lacks concrete data on park maintenance costs to justify the fee increases.
+Jim Pitel of 52 Street spoke during general public comment criticizing the hiring of outside engineering consultants for $108,000 when an engineering technician position remains unfilled, questioning administrator accountability. He also criticized the appointment of Lisa Beck to the Safer board before official board action, calling it 'inappropriate government business taking action outside of this boardroom.' He requested a detailed report on Kennedy Park funding timeline. During the park impact fee public hearing, Pitel again spoke questioning whether the fee increase was justified without solid data on actual park maintenance costs.
 
 ## Action Items
 - Board of Review adjourned to June 15, 2026
-- Park and recreation impact fees increased effective upon ordinance and resolution adoption
-- Mobile food vendor license ordinance adopted enabling reciprocal inspections
-- E-bike and nuisance ordinance amendments adopted
+- Park and recreation impact fees increased effective with passage of Ordinance 26-010 and Resolution 2026-015
+- Mobile food vendor regional inspection agreement implemented via Ordinance 26-008
+- E-bicycle regulations updated via Ordinance 26-012
 - Remote meeting attendance policy amended to remove specific justification requirements
-- Stephanie Daniels and Goldens Mua appointed to CLIPS committee
-- Secondhand dealer license approved for Scoffield Coin and Hobby LLC pending occupancy and background check
-- Resolution 2026-014 adopted supporting sustainable state transportation funding
-- Comprehensive plan steering committee first meeting scheduled for Monday, June 1st at 6:00 PM
-- Staff to conduct speed study on Weston Avenue and bring results back to board
-- Intergovernmental service agreement to be drafted for Ringle building inspection assistance
+- Golden Mua and Stephanie Daniels appointed to CLIPS committee
+- Secondhand dealer license approved for Scoffield Coin and Hobby pending background check and occupancy permit
+- Staff to prepare intergovernmental service agreement with Town of Ringle for building inspection assistance
+- Comprehensive plan steering committee meeting scheduled for Monday, June 1 at 6:00 PM
+- Speed limit issue for Weston Avenue to return to board at future meeting
+- Committee applicant resumes to be included in future board packets
