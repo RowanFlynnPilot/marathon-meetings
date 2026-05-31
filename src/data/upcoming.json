@@ -350,13 +350,6 @@
   ],
   "school_board": [
     {
-      "date": "2026-05-30",
-      "time": "11:00 AM",
-      "name": "Public Meeting",
-      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748413",
-      "source": "school_board"
-    },
-    {
       "date": "2026-06-08",
       "time": "5:00 PM",
       "name": "Regular Board Meeting",
