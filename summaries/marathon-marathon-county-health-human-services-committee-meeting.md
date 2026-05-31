@@ -3,37 +3,39 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=ZzEeG1Z64pg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000  
-**Summarized:** 2026-05-31 13:34 UTC
+**Summarized:** 2026-05-31 17:08 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring presentations from department heads on the Health Department, Social Services, Veterans Service Office, and Aging & Disability Resource Center. No major policy votes were taken; the meeting focused on educating committee members about departmental missions, budgets, and operations.
+The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring educational presentations from department heads on the Health Department, Social Services, Veteran Services, and Aging Disability Resource Center. The committee approved April 1st meeting minutes and received comprehensive overviews of each department's mission, structure, budget, and current initiatives.
 
 ## Key Discussions
-### Approval of April 1st committee meeting minutes
-Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all members voting aye.
+### Approval of April 1st meeting minutes
+Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all members voting in favor.
 
-### Review of standing committee ordinance and structure
-Administrator Lance Leonard explained how the Health & Human Services Committee operates under section 2.04 sub 5 of county ordinances, including its jurisdiction over the Health Department, Social Services, Veterans Service Office, and affiliated multi-county entities like North Central Health Care and the ADRC. He explained reporting relationships with statutory boards including the Social Services Board, Veterans Service Commission, Board of Health, and Transportation Coordinating Committee.
+### Standing Committee Ordinance Review
+Administrator Leonard explained the committee's jurisdiction under section 2.04 sub5, including oversight of Veteran Services, Social Services, Health Department, North Central Health Care, and the Aging Disability Resource Center. He detailed reporting relationships with statutory bodies including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, and Board of Health. Chair Boots noted the committee will focus on developing a new strategic plan by December.
 
-### Health Department presentation
-Health Officer Caitlyn Suginaka presented an overview of the department's mission to prevent disease, promote health, and protect against environmental hazards. She highlighted 1,200+ licenses managed by environmental health, communicable disease response capabilities including measles preparedness, the Nurse Family Partnership program with first graduates, a new homeless system response position, and public health vending machines offering free supplies including tick kits. The department has approximately 37.6 FTE across four teams.
+### Health Department Presentation
+Health Officer Caitlyn Suginaka presented the department's mission and four divisions: environmental health (over 1,200 licenses), nursing/communicable disease, community health improvement, and administration. She highlighted the Nurse Family Partnership program graduating its first two-year-olds, a new homeless system response position funded by the county and city of Wausau, public health vending machines with free tick kits, and emergency preparedness capabilities. The department has approximately 37.6 FTE with about $5 million budget, roughly half from tax levy.
 
-### Social Services Department overview
-Administrator Leonard covered the department's divisions including child welfare, youth justice, children's long-term support, economic support, and child support. With approximately 140 FTE, it is the county's second largest department. He highlighted the successful Family Keys housing stability pilot program addressing housing instability for child welfare and youth justice families, noting significant success helping families without prior banking, credit, or lease experience.
+### Social Services Department Overview
+Administrator Leonard presented on behalf of absent Director Christa, describing the department's 140 FTE across child welfare, youth justice, children's long-term support, economic support, and child support divisions. He highlighted the successful Family Keys housing stability pilot program, noting housing instability as a growing concern. The department's 2026 budget is over $22 million with approximately $7 million in tax levy. Leonard indicated future requests for restructuring within units due to increased need.
 
-### Veterans Service Office presentation
-VSO Aaron Galindo reported his office of 3.0 FTE had 8,149 customer interactions in 2025, up from approximately 5,900. He noted $44 million annually in VA benefits flowing to Marathon County veterans, plus $2.6 million in retroactive payments in 2025. Key initiatives include surviving spouse benefits outreach, housing stability partnerships with Center for Veterans Issues and HUD-VASH, and suicide prevention efforts following 7 veteran suicides among 30 total county suicides in 2025. He is pursuing federal suicide prevention grants.
+### Veteran Service Department Presentation
+VSO Aaron Galindo reported the department increased to 3.0 FTE in 2025. Customer interactions jumped from 5,900 to 8,149 in 2025. Veterans received $44 million annually in benefits and $2.6 million in retroactive payments in 2025. Galindo highlighted initiatives including surviving spouse benefits under the PACT Act, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts (noting 30 suicides in Marathon County in 2025, 7 being veterans). He is exploring the Staff Sergeant Gordon Fox VA suicide prevention grant.
 
-### ADRC presentation
-Executive Director Mike Ray described the four-county integrated agency serving Marathon, Lincoln, Langlade, and Wood counties with approximately 60 FTEs and 385-400 volunteers. Services include information and assistance, dementia care, falls prevention, Medicare/Medicaid navigation, and Meals on Wheels nutrition program. He noted significant financial challenges with federal Older Americans Act funding flat since 2024 while nutrition costs increased 40-45%, requiring service reductions. Marathon County's 2026 contribution is $413,135.
+### Aging Disability Resource Center Presentation
+Executive Director Mike Ray described the four-county regional organization serving Marathon, Lincoln, Langlade, and Wood counties with approximately 60 FTE and 385-400 volunteers. He detailed services including information assistance, Meals on Wheels, Medicare/Medicaid benefits specialists, dementia care, and falls prevention. Ray noted significant financial challenges with nutrition program costs rising 40-45% over four years while federal funding remained flat. Marathon County's 2026 contribution is $413,135. The ADRC had not requested a levy increase from 2011 until 2024.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Schedule North Central Healthcare for separate presentation before committee
-- Chair Boots to present strategic plan information at upcoming meetings
-- Next meeting confirmed as Wednesday, June 3rd at 3:00 PM (corrected from originally stated May 29th)
-- Committee members to email agenda item suggestions to Chair Boots and Administrator Leonard
+- April 1st committee meeting minutes approved
+- North Central Healthcare to be scheduled for separate full presentation before budget process
+- ADRC Executive Director Mike Ray to present annual report with 2025 data to full board
+- Chair Boots to bring strategic plan items to future meetings for committee input
+- Next meeting corrected to Tuesday, June 3rd at 3:00 PM (not May 29th as initially stated)
+- Committee members encouraged to email agenda item requests to Chair Boots and Administrator Leonard

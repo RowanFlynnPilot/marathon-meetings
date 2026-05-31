@@ -1,5 +1,5 @@
 {
-  "overview": "The Village of Weston Finance and Human Resources Committee approved minutes and acknowledged budget reports before receiving an extensive educational presentation from Municipal Clerk Pam on clerk operations including elections, licensing, tax collection, and the newsletter. Committee member Evan announced his resignation as he is moving out of Weston.",
+  "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged budget reports for April. The meeting featured an extensive educational presentation from Municipal Clerk Pam on the clerk's office operations, elections, licensing, and budgets. Committee member Evan announced his resignation as he is moving out of Weston.",
   "committee": "Finance and Human Resources Committee",
   "presiding": "Not explicitly named in transcript",
   "agenda": [
@@ -8,24 +8,24 @@
       "item": "Call to order and Pledge of Allegiance"
     },
     {
-      "time": "0:38",
+      "time": "0:35",
       "item": "Roll call"
     },
     {
-      "time": "0:52",
+      "time": "0:48",
       "item": "Public comments"
     },
     {
-      "time": "1:02",
-      "item": "Approval of minutes from previous meeting"
+      "time": "1:00",
+      "item": "Approval of minutes from previous Finance and HR meeting"
     },
     {
-      "time": "1:26",
+      "time": "1:23",
       "item": "April budget status report"
     },
     {
-      "time": "1:45",
-      "item": "TIF 1 and TIF 2 detail reports for April"
+      "time": "1:35",
+      "item": "TIF one and TIF two detail reports for April"
     },
     {
       "time": "3:18",
@@ -33,52 +33,54 @@
     },
     {
       "time": "3:35",
-      "item": "Educational presentation - Municipal Clerk's budget and operations"
+      "item": "Educational presentations and reports - Municipal Clerk's budget presentation"
     },
     {
-      "time": "45:12",
-      "item": "Old business, new business, staff remarks"
+      "time": "45:30",
+      "item": "Staff remarks and farmers market update"
     },
     {
-      "time": "52:47",
+      "time": "52:30",
       "item": "Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Approval of minutes",
-      "body": "Motion to approve minutes was made by Ernling and seconded by Daniels. The motion carried unanimously with no discussion."
+      "item": "Approval of minutes from previous Finance and HR meeting",
+      "body": "Motion to approve was made by Ernling and seconded by Daniels. The motion passed unanimously with no discussion."
     },
     {
-      "item": "TIF 1 and TIF 2 detail reports",
-      "body": "A committee member asked about final numbers for TIF closure. Jessica explained they are anticipating October/November for bond payoff, and the CDA will need to pass a resolution to call the bonds. She confirmed they will be able to pay off the debt. The bonds are due October 1st."
+      "item": "TIF one and TIF two detail reports",
+      "body": "Discussion included an update on TIF closure timeline. Staff indicated they are anticipating October/November for final bond payoff, with bonds due October 1st. The CDA will need to pass a resolution to call the bonds, expected this summer. Staff confirmed the numbers still look good and they will be able to pay off the debt."
     },
     {
-      "item": "Acknowledgment of work products (items 5, 6, 7)",
-      "body": "Motion to acknowledge the April budget status report, TIF detail reports, and legal details report was made by Daniels and seconded by Soaper. Motion carried unanimously."
+      "item": "Acknowledgment of work product transmittals (items 5, 6, and 7)",
+      "body": "Motion to acknowledge the April budget status report, TIF detail reports, and legal details report was made by Daniels and seconded by Soaper. The motion carried unanimously."
     },
     {
-      "item": "Municipal Clerk's Office educational presentation",
-      "body": "Clerk Pam presented extensively on clerk operations. The office has three staff members (Pam and Sarah full-time, Leah part-time) down from four full-time previously. She covered elections (noting 84% of tax collection is done at the clerk's office counter, totaling $22 million), licensing (51 liquor licenses, numerous bartender licenses), pet licensing (brought back in-house in 2025 after 12 years with Pet Data), and the quarterly newsletter ($30,000 annual cost for printing and postage). She noted chief election inspector wages may need to increase from $13 to $15/hour to match county averages. Discussion occurred about the pet licensing fee increase from $10 to $20, which was driven by Marathon County raising fees to cover their Humane Society costs."
+      "item": "Municipal Clerk's Office Budget Presentation",
+      "body": "Clerk Pam presented an extensive overview of clerk's office operations covering elections, licensing, tax collection, and pet licensing. She noted the office went from four full-time staff to currently two full-time and one part-time employee. The election budget is higher in even years due to presidential/gubernatorial elections, with postage jumping from $6,000 to $15,000 for 2024. She discussed replacing Badger Books at approximately $11,000 for four units. Pet licensing was brought back in-house from Pet Data, saving approximately $5,495 annually. Discussion included the increase in pet licensing fees from $10 to $20 for neutered animals due to Marathon County raising fees to cover Humane Society costs. The quarterly newsletter costs approximately $30,000 annually for postage and printing."
     },
     {
-      "item": "Staff remarks and committee updates",
-      "body": "Renee reported the farmers market at Kennedy Park has been going well with expanded vendors including food trucks, coffee vendors, and crafts. Committee member Evan announced he is stepping down from the committee as he and his wife are moving out of Weston. Concerns were raised about parking congestion near the farmers market on Alderson and Newport streets. The chair noted the committee now has open spots and encouraged recruitment of new citizen members."
+      "item": "Farmers Market Update",
+      "body": "Staff member Renee reported the farmers market at Kennedy Park has been going well, with vendors happy with the setup and location. She noted some challenges with weather on Tuesdays causing vendors to leave early. The market is full with food trucks, coffee vendors, craft vendors, and produce sellers. Discussion included parking concerns on Alderson and Newport streets, with clarification that only the west side of Alderson allows parking while the east side remains no parking."
+    },
+    {
+      "item": "Committee Member Resignation",
+      "body": "Committee member Evan announced he is stepping down as he and his wife are moving away from Weston, though still in the metro area. This was his last meeting. The chair noted there are now multiple open spots on this and other committees and encouraged outreach to interested citizens."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
-    "Minutes from previous meeting approved",
-    "April budget status report, TIF 1 and TIF 2 detail reports, and legal details report acknowledged",
-    "CDA resolution needed this summer to call TIF bonds due October 1st",
-    "Clerk to consider increasing chief election inspector wages to $15/hour for next election term",
-    "Committee seeking citizen volunteers to fill open committee positions",
-    "Next meeting scheduled for Monday, June 15th at 4:30 PM"
+    "CDA to pass resolution this summer to call TIF bonds for October payoff",
+    "Staff to contact Ellers and notify US Bank associate trust regarding bond payoff",
+    "Seek citizens to fill open committee positions",
+    "Next meeting scheduled for Monday, June 15th at 4:30"
   ],
   "_transcript_hash": "8f61421ce47e39e9",
   "title": "Finance and Human Resources Committee",
   "url": "https://www.youtube.com/watch?v=KaLahH4JieQ",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-05-31T13:31:25.182044+00:00"
+  "processed_at": "2026-05-31T17:05:36.446999+00:00"
 }
