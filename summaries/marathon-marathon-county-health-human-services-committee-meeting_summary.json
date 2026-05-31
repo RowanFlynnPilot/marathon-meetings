@@ -1,39 +1,43 @@
 {
-  "overview": "The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring educational presentations from department heads on the Health Department, Social Services, Veteran Services, and Aging Disability Resource Center. The committee approved April 1st meeting minutes and received comprehensive overviews of each department's mission, structure, budget, and current initiatives.",
+  "overview": "The Marathon County Health & Human Services Committee held an educational orientation meeting for new board members, featuring presentations from the Health Department, Social Services, Veteran Service Office, and Aging Disability Resource Center. No action items were voted on besides approving the April 1st meeting minutes. The meeting focused on introducing department missions, budgets, and current initiatives including homelessness response, veteran services, and nutrition programs.",
   "committee": "Marathon County Health & Human Services Committee",
-  "presiding": "Chair Boots (participated remotely)",
+  "presiding": "Chair Boots (attending remotely)",
   "agenda": [
     {
       "time": "0:00",
-      "item": "Call to order and remote participation confirmation"
+      "item": "Call to order and attendance (Supervisors Kremes and Vice Chair Rosenberg attending remotely)"
     },
     {
-      "time": "0:23",
+      "time": "0:27",
       "item": "Pledge of Allegiance"
     },
     {
-      "time": "0:55",
+      "time": "1:06",
       "item": "Approval of April 1st committee meeting minutes"
     },
     {
-      "time": "1:30",
-      "item": "Operations functions required by statute - overview of agenda structure"
+      "time": "1:40",
+      "item": "Operations functions required by statute, ordinance, resolution or policy"
     },
     {
-      "time": "3:15",
-      "item": "Review of standing committee ordinance section 2.04, missions, duties, and responsibilities"
+      "time": "3:30",
+      "item": "Review of standing committee ordinances including missions, duties, and responsibilities"
     },
     {
-      "time": "13:30",
+      "time": "12:30",
       "item": "Health Department presentation by Health Officer Caitlyn Suginaka"
     },
     {
       "time": "25:04",
+      "item": "Budget and financial overview discussion"
+    },
+    {
+      "time": "40:00",
       "item": "Social Services Department overview by Administrator Leonard"
     },
     {
-      "time": "45:01",
-      "item": "Veteran Service Department presentation by VSO Aaron Galindo"
+      "time": "50:01",
+      "item": "Veteran Service Office presentation by VSO Aaron Galindo"
     },
     {
       "time": "1:15:00",
@@ -46,43 +50,43 @@
   ],
   "discussions": [
     {
-      "item": "Approval of April 1st meeting minutes",
-      "body": "Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all members voting in favor."
+      "item": "Approval of April 1st committee meeting minutes",
+      "body": "Supervisor Cavalli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all members voting in favor."
     },
     {
-      "item": "Standing Committee Ordinance Review",
-      "body": "Administrator Leonard explained the committee's jurisdiction under section 2.04 sub5, including oversight of Veteran Services, Social Services, Health Department, North Central Health Care, and the Aging Disability Resource Center. He detailed reporting relationships with statutory bodies including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, and Board of Health. Chair Boots noted the committee will focus on developing a new strategic plan by December."
+      "item": "Health Department presentation",
+      "body": "Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting the public. She highlighted 1,200+ licenses overseen, a new homeless system response position funded through partnership with City of Wausau, public health vending machines stocked with free resources including tick kits, and the Nurse Family Partnership program now graduating its first two-year-olds. The department has approximately 37.6 FTE with about half the $5 million budget from tax levy. Supervisor Kremes asked about pandemic preparedness, and Suginaka confirmed plans are in place with staff trained in emergency response from COVID experience."
     },
     {
-      "item": "Health Department Presentation",
-      "body": "Health Officer Caitlyn Suginaka presented the department's mission and four divisions: environmental health (over 1,200 licenses), nursing/communicable disease, community health improvement, and administration. She highlighted the Nurse Family Partnership program graduating its first two-year-olds, a new homeless system response position funded by the county and city of Wausau, public health vending machines with free tick kits, and emergency preparedness capabilities. The department has approximately 37.6 FTE with about $5 million budget, roughly half from tax levy."
+      "item": "Social Services Department overview",
+      "body": "Administrator Leonard presented on behalf of Director Christa who was unavailable. He described the department's divisions including child welfare, youth justice, children's long-term support, and economic/child support services with about 140 FTE. He highlighted the successful Family Keys housing stability pilot program that addresses root causes of housing instability, noting many participants had never had a credit account, bank account, or formal lease. The department has a $22 million budget with approximately $7 million from tax levy."
     },
     {
-      "item": "Social Services Department Overview",
-      "body": "Administrator Leonard presented on behalf of absent Director Christa, describing the department's 140 FTE across child welfare, youth justice, children's long-term support, economic support, and child support divisions. He highlighted the successful Family Keys housing stability pilot program, noting housing instability as a growing concern. The department's 2026 budget is over $22 million with approximately $7 million in tax levy. Leonard indicated future requests for restructuring within units due to increased need."
+      "item": "Veteran Service Office presentation",
+      "body": "VSO Aaron Galindo reported the office now has 3.0 FTE and had 8,149 interactions in 2025, up from 5,900 projected. He noted $44 million in annual benefits flowing to local veterans and $2.6 million in retroactive payments in 2025. Key initiatives include working with Center for Veterans Issues on veteran housing, suicide prevention efforts (noting 7 of 30 county suicides in 2025 were veterans), and helping surviving spouses with dependency and indemnity compensation benefits of up to $2,400/month. Supervisor Kremes asked about regional cooperation, and Galindo confirmed good working relationships with neighboring counties while noting state statute requires each county to have its own VSO."
     },
     {
-      "item": "Veteran Service Department Presentation",
-      "body": "VSO Aaron Galindo reported the department increased to 3.0 FTE in 2025. Customer interactions jumped from 5,900 to 8,149 in 2025. Veterans received $44 million annually in benefits and $2.6 million in retroactive payments in 2025. Galindo highlighted initiatives including surviving spouse benefits under the PACT Act, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts (noting 30 suicides in Marathon County in 2025, 7 being veterans). He is exploring the Staff Sergeant Gordon Fox VA suicide prevention grant."
+      "item": "Aging Disability Resource Center presentation",
+      "body": "Executive Director Mike Ray explained the ADRC serves four counties (Marathon, Lincoln, Langlade, Wood) as an integrated organization providing aging and disability services. He noted significant financial challenges with nutrition costs up 40-45% over four years while federal funding remained flat due to Older Americans Act not being reauthorized since 2024. The organization has about 60 FTEs plus 385-400 volunteers. Vice Chair Rosenberg praised the culturally appropriate nutrition program at the Hmong American Center."
     },
     {
-      "item": "Aging Disability Resource Center Presentation",
-      "body": "Executive Director Mike Ray described the four-county regional organization serving Marathon, Lincoln, Langlade, and Wood counties with approximately 60 FTE and 385-400 volunteers. He detailed services including information assistance, Meals on Wheels, Medicare/Medicaid benefits specialists, dementia care, and falls prevention. Ray noted significant financial challenges with nutrition program costs rising 40-45% over four years while federal funding remained flat. Marathon County's 2026 contribution is $413,135. The ADRC had not requested a levy increase from 2011 until 2024."
+      "item": "Next meeting date",
+      "body": "The agenda listed May 29th but Vice Chair Rosenberg and Supervisor Kremes caught that this was incorrect. The committee confirmed the next meeting would be Wednesday, June 3rd at 3 PM."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
-    "April 1st committee meeting minutes approved",
-    "North Central Healthcare to be scheduled for separate full presentation before budget process",
+    "April 1st meeting minutes approved unanimously",
+    "North Central Healthcare to be scheduled for a separate full presentation before the committee",
     "ADRC Executive Director Mike Ray to present annual report with 2025 data to full board",
-    "Chair Boots to bring strategic plan items to future meetings for committee input",
-    "Next meeting corrected to Tuesday, June 3rd at 3:00 PM (not May 29th as initially stated)",
-    "Committee members encouraged to email agenda item requests to Chair Boots and Administrator Leonard"
+    "Committee members to email Chair Boots and Administrator Leonard with suggested agenda items for future meetings",
+    "Chair Boots to bring strategic plan discussion to upcoming meetings",
+    "Next meeting scheduled for Wednesday, June 3rd at 3 PM"
   ],
   "_transcript_hash": "172dc8dff091013b",
   "title": "Marathon County Health & Human Services Committee Meeting",
   "url": "https://www.youtube.com/watch?v=ZzEeG1Z64pg",
   "source": "marathon",
   "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
-  "processed_at": "2026-05-31T17:08:25.952851+00:00"
+  "processed_at": "2026-05-31T21:00:36.859863+00:00"
 }
