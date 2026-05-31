@@ -2,55 +2,58 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=j64Gj2ean2k  
-**Summarized:** 2026-05-31 10:19 UTC
+**Summarized:** 2026-05-31 13:35 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Public Works Committee approved several items including awarding a $126,900 asphalt crushing contract to King Gravel, directing staff to create enforcement language for sewer discharge violations with fines up to $100/day, and recommending construction service contracts for two road projects. The committee also acknowledged receipt of a $750,000+ state grant for Birch Street reconstruction.
+The Village of Weston Public Works Committee met on May 11, 2026, approving minutes and permits, awarding a $126,900 recycled asphalt crushing contract to King Gravel, and adopting a resolution supporting state transportation funding. The committee also directed staff to develop $100/day fines for illegal sewer discharges and approved construction service proposals for upcoming road projects.
 
 ## Key Discussions
 ### CIP Update
-Michael reported the village received a Local Road Improvement Grant for Birch Street reconstruction between Scofield Avenue and Community Center Drive, originally a 2029 project now likely moving to 2028. The grant covers over 50% of the estimated $1.5 million project cost. Michael noted the village has received over $9 million in grant funding over the past 4-5 years. Discussion included Weston Avenue repairs by Integrity Grading and Excavating for road depressions over sewer trenches, with the contractor understanding repairs may need to continue if settling recurs.
+Michael reported the village received a Local Road Improvement Grant for Birch Street reconstruction between Schofield Avenue and Community Center Drive, originally a 2029 project now likely moved to 2028. The grant covers over 50% of the estimated $1.5 million project. Michael noted the village has received over $9 million in grant funding over the past 4-5 years. Discussion also covered Weston Avenue repair work by Integrity Grading, Schofield Avenue punch list items with HOS Construction, and the retention pond modeling showing increased phosphorus removal benefit for Weston.
 
 ### Street Operations Update
-Staff reported road limits were removed April 29th along with Marathon County. Spring activities included mailbox repairs, sign repairs, curb line sweeping, and hot mix patching. Flooding issues required dewatering pumps along the Weston Avenue tributary for about a week. Staff discussed potential permanent pump solutions for recurring flooding in the Crane Meadows area. Jones Street culvert failures required installing a third 18-inch culvert. Equipment maintenance included removing plow equipment, servicing mowers, and preparing vehicles for summer operations.
+Staff reported road limits were removed April 29th along with Marathon County. Spring activities included mailbox and sign repairs, curb line sweeping, hot mix patching, and storm damage cleanup from an East Nick area storm. Dewatering pumps were deployed for about a week near Weston Avenue tributary due to high water levels. Committee discussed need for permanent pump solutions for the Crane Meadows area flooding issues. A culvert failure on Jones Street required installation of a third 18-inch culvert.
 
 ### Utility Operations Update
-Josh reported significant clear water infiltration into the sanitary sewer system. In April, the village pumped 37 million gallons into the water system but treated nearly 54 million gallons of wastewater - approximately 15 million gallons of clear water infiltration. A Kathleen lift station example showed one home's sump pump was causing continuous pumping at a station normally cycling three times daily. The INI study with In-Pipe Technologies will help identify problem areas. The Carrie well rehab started today, and water main flushing notices are going out with flushing starting next week.
+Josh reported on water service repairs, well maintenance, and significant clear water infiltration issues in the sanitary sewer system. Data showed April had 37 million gallons pumped into the distribution system but 53-54 million gallons treated at the wastewater plant - approximately 15 million gallons of clear water from infiltration or illegal sump pump discharges. The Kathleen lift station showed one house's sump pump was causing nearly continuous pumping. INI study with in-pipe technologies is planned to identify problem areas.
 
 ### 2025 Water Utility PSC Annual Report
-Michael presented the annual Public Service Commission report showing net operating income of $482,911 for 2025, consistent with the prior year's $490,000. Water loss was 6%. The utility value increased to nearly $34 million with $6.7 million in infrastructure placed in service including wells 7 and 8 and water mains from the Weston Avenue project. The utility serves approximately 6,100 customers - 5,250 in Weston, 830 in Rothschild, and 5 in other areas. Motion to acknowledge passed unanimously.
+Michael presented the annual report showing net operating income of $482,911 for 2025, consistent with 2024's $490,000. Water loss is at 6%. The utility value increased to nearly $34 million with 6.7% infrastructure placed in service including wells 7 and 8. The utility serves approximately 6,100 customers total - 5,250 in Weston, 830 in Rothschild, and 5 in other areas. Motion to acknowledge passed unanimously.
 
 ### Resolution 2026-014 Transportation Funding
-Michael explained this League of Wisconsin Municipalities sample resolution supports long-term sustainable state transportation funding. He noted grant funding helps one-time costs but recurring operational funding for street maintenance and snow plowing requires general tax dollars or other local revenue sources. The village has decreased its public works budget recently. Wisconsin is relatively affordable compared to neighboring states for automobile ownership costs. Motion to recommend village board adoption passed unanimously.
+Michael explained this League of Wisconsin Municipalities resolution requests the state develop long-term sustainable transportation funding solutions for local governments. Current state funding doesn't adequately support recurring costs like street maintenance and snow plowing, requiring general tax dollar subsidies. The resolution notes Wisconsin remains affordable compared to neighboring states for automobile ownership. Motion to adopt passed unanimously.
 
-### Recycled Asphalt Base Course Production
-Michael presented the recycled base course crushing contract. King Gravel submitted the low bid at $4.23/ton for an estimated 30,000 tons, totaling $126,900. This was only $0.02/ton less than the next bidder. The village saves approximately $11 per cubic yard compared to City of Wausau costs, translating to about $130,000 savings on this year's three projects. Motion to award to King Gravel passed unanimously.
+### Recycled Base Course Production Contract
+Michael reported on quotes for crushing recycled concrete and asphalt at the Ryan Street site. King Gravel submitted the low bid at $4.23/ton for an estimated 30,000 tons totaling $126,900. PJ was at $4.25/ton. Analysis showed the village's recycling program saves approximately $11/cubic yard compared to City of Wausau costs, totaling about $130,000 in savings on this year's three projects. Motion to award to King Gravel passed unanimously.
 
 ### Sanitary Sewer Discharge Violation Discussion
-Staff sought guidance on enforcement of sewer discharge violations, particularly sump pump discharges into sanitary sewers. Current code allows fines of $100-$1,000 per day. Josh noted the village treated nearly 15 million extra gallons in April due to infiltration. Committee member Jordan suggested distinguishing between unknowing and willful violations. The committee directed staff to create enforcement language with fines starting at $100/day. Staff will wait for the INI study results to identify problem areas before sending violation notices. Motion passed unanimously.
+Committee discussed enforcement of ordinance prohibiting illegal sump pump discharges to sanitary sewers. Current code allows fines of $100-$1,000 per day per violation. Committee member Mumper distinguished between unknowing versus willful violations. After discussion about appropriate penalty levels and noting the significant cost impact (approximately $30,000-$42,000 extra treatment costs in recent months), committee directed staff to develop enforcement language with fines not exceeding $100/day. Motion passed unanimously.
 
-### Water and Sewer Connection Agreement - Radkey Avenue
-Michael explained a builder wants to construct a duplex on lot 1 of Radkey Avenue which lacks frontage on a water/sewer main. Staff proposes allowing a temporary long lateral service until Radkey Avenue reconstruction, when the owner would pay assessment costs. Committee requested adding a deadline - 'no later than 2029' for reconstruction. Motion to recommend approval with the 2029 deadline passed unanimously.
+### Water/Sewer Connection Agreement - Radkey Avenue
+Michael explained a duplex developer at 2230 Radkey Avenue needs temporary utility connection via long lateral until Radkey Avenue is reconstructed. Chair Zagami requested a specific date be added to the agreement. Motion passed to authorize staff to enter agreement with assessment for main extension when Radkey is reconstructed no later than end of 2029 construction season.
 
 ### Military Road Construction Agreement
-Michael presented an intergovernmental agreement with Rothschild for Military Road construction from Wolfman Street to Helin Street. Rothschild holds the contract with Steam Construction. Weston's share is $94,860 for water main relocation ($88,704) and sanitary sewer ($6,156) work needed due to storm sewer conflicts. The water main will have 18 inches of cover with 8 inches of insulation. Motion to recommend approval passed unanimously.
+Committee reviewed agreement with Village of Rothschild for utility work on Military Road reconstruction. Weston's share is $94,860 for sanitary sewer ($6,156) and water main relocation ($88,704). Steam Construction is the contractor. Motion to recommend board approval passed unanimously.
 
-### Construction Service Proposals
-Michael presented construction inspection proposals received Friday. For the Alderson/Jelnik roundabout project, MSA bid $37,315 versus Clark Dietz at $48,910; staff recommends MSA. For Bladel Avenue, MSA bid $70,400 using a summer intern, while Clark Dietz bid $73,730 with full-time staff; staff recommends Clark Dietz for the additional experience despite the slightly higher cost. Motion to approve MSA for the roundabout and Clark Dietz for Bladel passed unanimously.
+### Construction Services Proposals
+Michael presented proposals for construction inspection services on two projects. For Alderson/Jelinek roundabout, MSA proposed $37,315 versus Clark Dietz at $48,910 - MSA recommended due to lower cost and roundabout design involvement. For Bladel Avenue, MSA proposed $70,400 versus Clark Dietz at $73,730 - Clark Dietz recommended despite slightly higher cost because MSA proposed using a summer intern while Clark Dietz would use full-time experienced staff. Motion to approve both recommendations passed unanimously.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Award 2026 recycled asphalt crushing contract to King Gravel at $4.23/ton (estimated $126,900)
-- Staff to create enforcement language for sanitary sewer discharge violations with fines up to $100/day
-- Recommend village board approve water/sewer connection agreement for 2230 Radkey Avenue with 2029 reconstruction deadline
-- Recommend village board approve Military Road construction agreement with Rothschild ($94,860 Weston share)
-- Recommend village board approve MSA for Alderson/Jelnik construction services ($37,315) and Clark Dietz for Bladel Avenue ($73,730)
-- Village board to adopt Resolution 2026-014 supporting state transportation funding
-- Special assessment meeting scheduled for Thursday, May 28, 2026 at 6:00 PM for Bladel Avenue project
-- Norcon to begin concrete repairs on Scofield Avenue eastbound lanes starting Wednesday/Thursday
-- Staff to provide estimate of costs associated with clear water infiltration at next meeting
-- Staff to investigate adding street lighting to Scofield Avenue from Birch Street to Camp Phillips Road as part of future reconstruction
+- April 13, 2026 meeting minutes approved
+- April 2026 water and sewer permits acknowledged
+- 2025 Water Utility PSC annual report acknowledged
+- Resolution 2026-014 supporting state transportation funding adopted - to be sent to governor and legislators
+- King Gravel awarded 2026 recycled asphalt crushing contract at $4.23/ton (estimated $126,900)
+- Staff directed to develop sanitary sewer discharge violation enforcement language with fines not exceeding $100/day
+- Staff authorized to enter utility connection agreement with 2230 Radkey Avenue property owner with assessment due when street reconstructed no later than 2029
+- Village Board to consider Military Road construction agreement with Rothschild ($94,860 Weston share)
+- MSA approved for Alderson/Jelinek roundabout construction services ($37,315)
+- Clark Dietz approved for Bladel Avenue construction services ($73,730)
+- Special assessment meeting scheduled for Bladel Avenue on May 28, 2026 at 6:00 PM
+- Norcon to begin Schofield Avenue concrete repairs starting Wednesday/Thursday in eastbound lanes
+- Staff to provide cost analysis of clear water infiltration treatment costs for next meeting

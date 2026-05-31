@@ -2,7 +2,7 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=ee6clAtgrYw  
-**Summarized:** 2026-05-31 10:18 UTC
+**Summarized:** 2026-05-31 13:34 UTC
 
 ---
 
@@ -11,21 +11,21 @@ The Village of Weston Tourism Commission held its first meeting after reorganiza
 
 ## Key Discussions
 ### Election of Officers
-Trustee Erling was nominated and elected as Chair unanimously. Cushing was nominated for Vice Chair by one member, seconded by Jackson, and approved unanimously. Renee was nominated and elected as Secretary unanimously.
+Trustee Erling was nominated and elected Chair unanimously. Cushing was nominated for Vice Chair with a second by Jackson and elected unanimously. Renee was nominated and elected Secretary unanimously. There was brief procedural confusion about whether the Vice Chair nomination had been seconded.
 
-### Approval of Previous Meeting Minutes
-Minutes from the April 21st meeting were approved. The motion was seconded by Renee and passed unanimously with no discussion.
+### Minutes of Previous Meeting
+Minutes from the April 21st meeting were approved unanimously with a motion and second by Renee.
 
 ### Grant Request - Taste and Glow Balloonfest
-Brandon Jill (3308 Green Pastures Lane) represented the Taste and Glow Balloonfest, reporting approximately 11,000-12,000 attendees last year. He announced that a competing Marshfield hot air balloon event was canceled due to permit issues, making theirs the sole event in the area. Commissioner Hodal asked about room usage and requested better tracking data from hotels to help future funding decisions. The commission noted the application showed 20 fewer rooms than last year when they received $5,000. Motion to approve $5,000 grant passed unanimously, with the commission requesting detailed hotel room data in their post-event report.
+Brandon Jill of 3308 Green Pastures Lane presented on behalf of the event, reporting approximately 11,000-12,000 attendees last year. He announced that a competing Marshfield hot air balloon event was canceled due to permit issues, making Taste and Glow the sole event in the area. Commission members noted the application showed 20 fewer rooms than last year and requested better tracking of hotel room usage. The commission approved a $5,000 grant matching last year's amount, with a motion carried unanimously. The commission asked for detailed hotel data in the post-event report.
 
-### Commission Member Remarks
-Renee reported attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates, noting that Anastasia won the title. The candidates visited various Marathon County locations including Mullen's Cheese. This was the first time the event was hosted in Marathon County since approximately the 1970s.
+### Remarks from Commission Members
+Renee reported attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar, describing the venue and meeting the candidates. She noted winner Anastasia had three bachelor's degrees and the candidates were impressed with what Marathon County had to offer. This was the first time the event was hosted in Marathon County since the 1970s.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
 - Approved $5,000 grant to Taste and Glow Balloonfest
-- Taste and Glow Balloonfest organizers to provide hotel room usage data in their post-event report
-- Next meeting scheduled for July 20th at 4:00 PM (tentative)
+- Taste and Glow organizers to provide hotel room usage data in post-event report
+- Next meeting scheduled for July 20th at 4:00 PM
