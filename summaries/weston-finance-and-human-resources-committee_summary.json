@@ -1,5 +1,5 @@
 {
-  "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged April financial reports showing TIF district bonds remain on track for October payoff. The Municipal Clerk presented an extensive budget overview covering elections, licensing, tax collection, and staffing, while committee member Evan Soaper announced his resignation from the committee due to relocation.",
+  "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged financial reports including budget status and TIF district reports. The meeting featured an extensive educational presentation from Village Clerk Pam on the municipal clerk's office operations, covering elections, licensing, tax collection, and staffing challenges. Committee member Evan announced his resignation from the committee.",
   "committee": "Finance and Human Resources Committee",
   "presiding": "Not explicitly named in transcript",
   "agenda": [
@@ -8,36 +8,36 @@
       "item": "Call to order and Pledge of Allegiance"
     },
     {
-      "time": "0:30",
+      "time": "0:45",
       "item": "Roll call"
     },
     {
-      "time": "0:45",
+      "time": "0:58",
       "item": "Public comments"
     },
     {
-      "time": "1:00",
-      "item": "Approval of minutes from previous Finance and HR meeting"
+      "time": "1:08",
+      "item": "Approval of minutes from previous meeting"
     },
     {
       "time": "1:30",
       "item": "April budget status report"
     },
     {
-      "time": "1:45",
+      "time": "1:50",
       "item": "TIF one and TIF two detail reports for April"
     },
     {
-      "time": "3:30",
+      "time": "3:15",
       "item": "Legal details report for April"
     },
     {
-      "time": "4:00",
-      "item": "Educational presentations - Municipal Clerk's budget overview"
+      "time": "3:45",
+      "item": "Educational presentation - Municipal Clerk's Office budget and operations"
     },
     {
-      "time": "45:30",
-      "item": "Staff remarks and farmers market update"
+      "time": "45:15",
+      "item": "Staff remarks and farmers market discussion"
     },
     {
       "time": "52:30",
@@ -46,42 +46,35 @@
   ],
   "discussions": [
     {
-      "item": "Approval of minutes from previous Finance and HR meeting",
-      "body": "Motion to approve made by Ernling, seconded by Daniels. Passed unanimously with no discussion."
+      "item": "Approval of minutes from previous meeting",
+      "body": "Motion to approve minutes was made by Ernling and seconded by Daniels. The motion passed unanimously with no discussion."
     },
     {
-      "item": "TIF one and TIF two detail reports for April",
-      "body": "Jessica from finance reported the TIF district bonds are on track for October payoff. The process will require calling the CDA to order for a resolution to call the bonds, with Ehlers writing a letter to US Bank Trust. A committee member asked if final numbers still look good, and Jessica confirmed they will be able to pay off the debt."
+      "item": "TIF one and TIF two detail reports",
+      "body": "A committee member asked about the final numbers for TIF closure. Jessica explained they are anticipating October/November for bond payoff, noting the CDA will need to pass a resolution to call the bonds. She confirmed the village will be able to pay off the debt and described the process involving Ellers and DTC for notifying bond holders."
     },
     {
       "item": "Acknowledgment of work product transmittals (items 5, 6, and 7)",
-      "body": "Motion to acknowledge the April budget status report, TIF detail reports, and legal details report made by Daniels, seconded by Soaper. Passed unanimously."
+      "body": "Motion to acknowledge the April budget status report, TIF detail reports, and legal details report was made by Daniels and seconded by Soaper. Motion carried unanimously."
     },
     {
-      "item": "Municipal Clerk's budget presentation",
-      "body": "Clerk Pam presented a comprehensive overview of the clerk's office operations. The office has reduced from four full-time staff to two full-time and one part-time (Leah), with plans to add another part-time position. She detailed election administration costs noting postage increased from $6,000 to $15,000 due to fall presidential election demands. Pet licensing was brought back in-house from Pet Data, saving approximately $5,495 annually. She noted the chief inspector wage of $13/hour is below average and will likely increase to $15/hour for the next two-year term. The quarterly newsletter costs approximately $30,000 annually ($9,000 postage, $20,000 printing), prompting discussion about potentially eliminating printed copies, though previous attempts met resident resistance."
-    },
-    {
-      "item": "Pet licensing fee increase",
-      "body": "Discussion revealed that neutered dog licensing fees doubled from $10 to $20 at Marathon County's request, as the county was only collecting $65,000 from municipalities while paying $100,000 annually to the Humane Society. A committee member noted the non-dog stray contract cost $175 per animal, including for eight mice picked up last year, prompting discussion about requiring law enforcement to bring in strays rather than allowing residents to do so directly."
+      "item": "Municipal Clerk's Office educational presentation",
+      "body": "Village Clerk Pam presented an overview of the clerk's office operations with three staff members (two full-time, one part-time). She detailed election administration including Badger Book electronic poll books ($11,000 for four units), explaining postage costs jumped from $6,000 to $15,000 due to fall elections with over 700 absentee applications already on file. She noted poll worker wages are average at $12/hour but chief inspector pay at $13/hour is below average and will likely be increased to $15/hour next term. Pet licensing was brought back in-house from Pet Data, saving approximately $5,495 annually. The clerk's office handles 84% of tax collection ($22 million) at the counter. Newsletter costs total approximately $30,000 annually for printing and postage to 5,089 postal patrons."
     },
     {
       "item": "Farmers market update",
-      "body": "Renee reported the farmers market at Kennedy Park has been going well over the first three Saturdays, with the market now full. Vendors expressed happiness with the setup and location. Committee members raised concerns about parking on Alderson and Newport streets, with staff clarifying parking is now allowed on the west side of Alderson. Discussion noted general parking congestion in the area during concurrent track meets and baseball games."
+      "body": "Staff member Renee reported the farmers market has been going well with full vendor capacity. She noted some Tuesday vendors had to leave due to wind damaging their plants and tents. The market has expanded to include coffee vendors, new food trucks, and craft vendors. Produce vendors will increase mid to late June. A committee member raised concerns about parking on Alderson Street, and staff clarified parking is only allowed on the west side while the east side remains no parking."
     },
     {
       "item": "Committee member resignation",
-      "body": "Evan Soaper announced he is stepping down from the committee as he and his wife are moving away from Weston, though remaining in the metro area. He thanked the committee for his time serving. The chair noted there are now multiple open spots on this and other committees, encouraging outreach to interested citizens."
+      "body": "Evan announced he is stepping down from the committee as he and his wife are moving away from Weston, though staying in the metro area. Committee members thanked him for his service."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
-    "Minutes from previous meeting approved",
-    "April budget status report, TIF detail reports, and legal details report acknowledged",
     "CDA resolution needed this summer to call TIF bonds due October 1st",
-    "Seek part-time clerk position candidate",
-    "Consider increasing chief inspector wage to $15/hour for next election term",
-    "Recruit citizens for open committee positions including Soaper's vacancy",
+    "Chief inspector wages to be reviewed for increase to $15/hour at next election term",
+    "Committee seeking citizen volunteers to fill open spots on Finance and HR Committee and other committees",
     "Next meeting scheduled for Monday, June 15th at 4:30 PM"
   ],
   "_transcript_hash": "8f61421ce47e39e9",
@@ -89,5 +82,5 @@
   "url": "https://www.youtube.com/watch?v=KaLahH4JieQ",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-06-01T03:42:57.652222+00:00"
+  "processed_at": "2026-06-01T09:25:29.295887+00:00"
 }
