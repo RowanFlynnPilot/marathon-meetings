@@ -2,39 +2,42 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=NwM-PoBvvMg  
-**Summarized:** 2026-05-31 20:58 UTC
+**Summarized:** 2026-06-01 03:43 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Parks Committee approved installation of new kayak launch signs for the Eau Claire River Trail and deferred discussion on allowing dogs at the aquatic center to next month. The meeting featured public comment opposing the dog day proposal and questioning Kennedy Park fundraising transparency, with staff providing updates on the ongoing master plan timeline.
+The Village of Weston Parks Committee deferred discussion on allowing dogs at the aquatic center, approved signage for Yellow Banks kayak launches, and received updates on Kennedy Park funding and the disc golf course. Public commenters expressed opposition to dogs at the pool and criticized the 4 p.m. meeting time and Kennedy Park financial transparency.
 
 ## Key Discussions
-### Approval of minutes from April 27th, 2026
-Minutes were approved with a motion and second. The motion carried unanimously with no discussion.
+### Approval of minutes from April 27, 2026
+A motion was made and seconded to approve the minutes from the previous meeting. The motion passed unanimously with no discussion.
 
 ### Kennedy Park update
-Staff presented a timeline document showing the project history from the comprehensive outdoor recreation plan approval in November 2023 through the recent ribbon cutting on May 9th. Director Osterbring explained the village planned to contribute approximately $7 million of the estimated $14.3 million total project cost for infrastructure. Committee member Scott asked clarifying questions about funding timelines, and staff confirmed there are no current village capital dollars earmarked for Kennedy Park projects as those were pulled pending the master plan. The Friends of Kennedy Park are currently fundraising for field lights, having raised approximately $84-85,000 of the $117,000 goal, with a public check presentation planned for their June tournament.
+Director Sean Oster provided a timeline update on the Kennedy Park project, noting the comprehensive plan was approved in November 2023 and the master plan the following month. Scott questioned whether village capital dollars are earmarked for Kennedy Park; Oster confirmed no funds are currently allocated as they were pulled pending the fundraising project. The Friends of Kennedy Park are targeting $117,000 for upper field lights and currently have approximately $85,000 at the community foundation. They plan a public check presentation at their June tournament. The committee chair emphasized giving the volunteer Friends group grace, noting they are not withholding information but planning a public announcement.
 
 ### Yellow Banks disc golf course update
-Staff presented photos and a PDF showing the approximate locations of fallen trees removed from the river and the installation of wood mats over gas pipelines to protect them from equipment. Dan explained the mat installation process and noted the mats are village-owned with extras available for future trail projects.
+Staff presented photos and maps showing the location of trees removed from the river and the installation of wood mats over gas pipelines for equipment access. Dan explained the mats protect the two gas pipelines during construction work. The committee reviewed photos of mat installation and additional material added for approaches.
 
 ### Dog Day at the aquatic center
-The committee deferred this item to the next meeting because Chair Katrina had an unforeseen issue preventing her attendance. The resident who spoke during public comment opposing the idea was told his objection was noted and he could return next month.
+The committee deferred this item to the next meeting because Chair Katrina, who requested the item, was absent due to an unforeseen issue. The resident who spoke during public comment opposing dogs at the pool indicated he may return for next month's discussion.
 
-### Graffiti on the Eau Claire River Trail
-Staff explained challenges in removing graffiti from concrete due to limited equipment access - the pressure washer cannot reach the trail locations due to steep ditches and narrow bridges. Options discussed included anti-vandalism coatings, sealer applications, and potential volunteer workdays. Committee members expressed interest in exploring volunteer opportunities similar to how memorial benches were originally installed via a director team-building day. No formal action was taken; staff will investigate cleaning options.
+### Graffiti on Oaklair River Trail
+Staff explained challenges removing graffiti from concrete benches and garbage cans along the trail, noting their sandblasting pressure washer cannot access the area due to terrain and narrow bridges. Anti-vandalism coatings and volunteer workdays were discussed as potential solutions. Committee members suggested community volunteers might help with maintenance given the trail's popularity. No formal action was taken; staff will investigate cleaning options.
 
 ### Yellow Banks kayak launch signs
-Dan from Marathon County presented version 7 of proposed kayak launch signs for the Eau Claire River. Signs will be installed at launches 3 (Highway J), 4 (Ross), and 5 (Yellow Banks) within Weston, plus locations in Schofield. The signs include a map, QR code linking to river gauge data, and location-specific history sections. Funding comes from Marathon County Parks Foundation and state waterway grants at no cost to the village. The committee approved a motion to install the signs and forward to the village board for approval. Motion passed unanimously.
+Dan Kroger from Marathon County Parks presented version seven of signs for kayak launches along the river. Three signs will be installed in Village of Weston parks (Highway J, Ross Avenue, and Yellow Banks). The signs include maps, QR codes for river gauge levels, and location-specific history. The Highway J launch may be closed this season due to bridge replacement. A motion to approve the signs and forward to the village board passed unanimously.
+
+### Future meeting topics
+Staff requested committee interest in food allergy awareness signage for playgrounds after receiving an inquiry. The committee agreed to bring it back for discussion. Staff also announced the Mock Miller Park master plan process will begin with a kickoff meeting with Rettler, and the final bike and pedestrian plan open house is June 11th.
 
 ## Public Comment
-Two people provided public comment. First, a resident from 6504 [address unclear] spoke in opposition to allowing dogs at the aquatic center, stating 'There should not be animals allowed into a public pool. Period. I like dogs, but it's not a place for them.' Second, Jim Pensan from 5002 [Street] Weston spoke remotely, criticizing the 4:00 p.m. meeting time as discouraging public participation, and questioned the Kennedy Park funding report, calling the $8,700 figure for baseball equipment 'too coincidental' and asking where money from the glow event and other fundraising efforts is being tracked. He stated the numbers presented are 'extremely convoluted and misleading.'
+Two residents offered public comment. Andy (6504 [address inaudible]) opposed allowing dogs at the public pool, stating 'There should not be animals allowed into a public pool. Period.' Jim Pensan (5002 [street] Weston) criticized the 4 p.m. meeting time as demonstrating 'zero desire for interaction and input from the general public,' questioned the Kennedy Park funding report accuracy, and asked for transparency on funds raised from the glow event and lighting fundraiser.
 
 ## Action Items
-- Approved installation of Yellow Banks kayak launch signs - forward to village board for approval
-- Deferred Dog Day at the aquatic center discussion to June meeting
-- Staff to investigate graffiti removal options and possible anti-vandalism coatings for Eau Claire River Trail
-- Staff to bring food allergy awareness playground signage proposal to future meeting for discussion
-- Mock Miller master plan process kickoff meeting with Rettler scheduled for next Tuesday
-- Bike and pedestrian plan open house scheduled for June 11th, 5-7 p.m. in training room
+- Dog Day at the aquatic center discussion deferred to June meeting
+- Staff to investigate graffiti cleaning options for Oaklair River Trail
+- Yellow Banks kayak launch signs approved and forwarded to village board
+- Staff to bring food allergy awareness playground signage for future discussion
+- Mock Miller Park master plan kickoff meeting with Rettler scheduled
+- Next meeting scheduled for June 22, 2026
