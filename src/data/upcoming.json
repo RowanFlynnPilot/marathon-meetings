@@ -192,13 +192,6 @@
       "source": "wausau"
     },
     {
-      "date": "2026-06-11",
-      "time": "5:00 PM",
-      "name": "Infrastructure & Facilities Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2369/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-15",
       "time": "5:15 PM",
       "name": "Public Health & Safety Committee Meeting",
@@ -209,9 +202,9 @@
   "weston": [
     {
       "date": "2026-06-08",
-      "time": "6:00 PM",
+      "time": "",
       "name": "Plan Commission",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06082026-1924",
       "source": "weston"
     },
     {

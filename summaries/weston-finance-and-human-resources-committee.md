@@ -2,38 +2,38 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=KaLahH4JieQ  
-**Summarized:** 2026-06-02 08:28 UTC
+**Summarized:** 2026-06-02 16:19 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged budget and financial reports for April. The meeting featured an educational presentation by Municipal Clerk Pam on the clerk's office operations, election administration, licensing, and budget. Committee member Evan announced he is stepping down as this was his last meeting.
+The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged budget reports before receiving a detailed educational presentation from Municipal Clerk Pam about the clerk's office operations, including elections, licensing, tax collection, and staffing. Committee member Evan announced he will be stepping down as this was his last meeting.
 
 ## Key Discussions
 ### Approval of minutes from previous Finance and HR meeting
-Motion to approve was made by Ernling and seconded by Daniels. The motion carried unanimously with no discussion.
+Motion to approve was made by Ernling and seconded by Daniels. The motion carried with no discussion.
 
-### TIFF one and TIFF two detail reports for April
-Jessica provided an update on TIFF closure timeline, anticipating October-November completion. She explained the CDA will need to pass a resolution to call the bonds, which are due October 1st. She confirmed the numbers still look good and the village will be able to pay off the debt. The process involves notifying US Bank and forwarding to DTC for bondholder payments.
+### TIFF one and TIFF two detail reports
+A committee member asked about the final numbers for TIF closure. Staff explained they are anticipating October/November for bond payoff, stating the CDA will need to pass a resolution to call the bonds. Staff confirmed they will be able to pay off the debt and explained the process involving Ellers and US Bank Trust.
 
-### Work product transmittals (items 5, 6, and 7)
-The April budget status report, TIFF detail reports, and legal details report were acknowledged together. Motion to acknowledge was made by Daniels and seconded by Soaper. Motion carried unanimously.
+### Acknowledgment of work product transmittals (items 5, 6, and 7)
+Motion to acknowledge the April budget status report, TIFF detail reports, and legal details report was made by Daniels and seconded by Soaper. Motion carried unanimously.
 
 ### Municipal Clerk's Office Educational Presentation
-Clerk Pam presented an overview of the clerk's office operations, staffing (currently two full-time and one part-time employee, down from four full-time previously), election administration including Badger Book equipment replacement strategy, licensing responsibilities (51 liquor licenses), tax collection (84% collected at clerk's office totaling $22 million), pet licensing (brought back in-house from Pet Data saving approximately $5,495), and the quarterly newsletter costs ($9,000 postage, $20,000 printing). Discussion included poll worker wages with plans to increase chief inspector pay from $13 to $15/hour, the recent increase in pet licensing fees from $10 to $20 due to Marathon County requirements, and concerns about newsletter costs potentially being reduced through email distribution.
+Clerk Pam presented comprehensive overview of the clerk's office operations. She noted the office went from four full-time staff to current staffing of two full-time and one part-time employee. She detailed election administration including Badger Book electronic poll books ($11,000 for four units), explained that 84% of tax collection ($22 million) is done at the clerk's office counter, and discussed pet licensing which was brought back in-house from a third-party vendor. Discussion occurred about the pet license fee increase from $10 to $20, which was driven by Marathon County raising fees to cover their $100,000 annual payment to the Humane Society. The quarterly newsletter costs approximately $30,000 annually for postage and printing to 5,089 postal patrons.
 
 ### Farmers Market Update
-Renee reported the farmers market at Kennedy Park has been going well, with full vendor capacity including food trucks, coffee vendors, craft people, and greenhouse vendors. Some challenges noted included Tuesday markets affected by cool and windy weather. Committee members raised concerns about parking congestion on Alderson and Newport streets. Staff clarified parking is restricted on the east side of Alderson but allowed on the west side and Newport.
+Staff member Renee reported the farmers market has been going well at Kennedy Park, with full vendor capacity including food trucks, coffee vendors, and craft people. Produce vendors with greenhouses are present and more will come mid to end of June. A committee member raised concerns about parking on Alderson Street, with staff clarifying only the west side allows parking now. Discussion touched on parking congestion during baseball tournaments and other events.
 
-### Committee Member Resignation
-Evan announced he is stepping down from the committee as this was his last meeting, noting he and his wife are moving away from Weston but staying in the metro area. He thanked the committee for the opportunity to serve.
+### Committee Member Departure
+Committee member Evan announced he will be stepping down as this was his last meeting, noting he and his wife are moving away from Weston but staying in the metro area. The chair thanked him for his service and noted the committee now has open spots needing to be filled.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- CDA resolution needed this summer to call TIFF bonds due October 1st
-- Clerk planning to request chief inspector wage increase to $15/hour for next two-year election term
-- Seeking additional part-time clerk's office staff member
-- Committee has open positions - members encouraged to recruit interested citizens
+- Minutes from previous Finance and HR meeting approved
+- April budget status report, TIFF detail reports, and legal details report acknowledged
+- CDA resolution needed for bond payoff expected this summer
+- Committee seeking citizen volunteers to fill open committee spots
 - Next meeting scheduled for Monday, June 15th at 4:30 PM
