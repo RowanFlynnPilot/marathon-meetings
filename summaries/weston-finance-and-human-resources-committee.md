@@ -2,34 +2,38 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=KaLahH4JieQ  
-**Summarized:** 2026-06-02 03:39 UTC
+**Summarized:** 2026-06-02 08:28 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Finance and Human Resources Committee held a routine meeting featuring approval of previous minutes, acknowledgment of April budget and TIF reports, and an educational presentation from Municipal Clerk Pam about the clerk's office operations including elections, licensing, and tax collection. Committee member Evan Daniels announced he is stepping down from the committee due to moving out of Weston.
+The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged budget and financial reports for April. The meeting featured an educational presentation by Municipal Clerk Pam on the clerk's office operations, election administration, licensing, and budget. Committee member Evan announced he is stepping down as this was his last meeting.
 
 ## Key Discussions
-### Approval of previous meeting minutes
-Motion to approve made by Ernling, seconded by Daniels. No discussion. Motion carried unanimously.
+### Approval of minutes from previous Finance and HR meeting
+Motion to approve was made by Ernling and seconded by Daniels. The motion carried unanimously with no discussion.
 
-### April budget status report and TIF reports
-Jessica provided information on TIF district closure timeline, indicating bonds are due October 1st and the CDA will need to pass a resolution to call the bonds, likely this summer. A committee member asked if final numbers still look good, and staff confirmed they will be able to pay off the debt. Motion to acknowledge items 5, 6, and 7 made by Daniels, seconded by Soaper. Motion carried unanimously.
+### TIFF one and TIFF two detail reports for April
+Jessica provided an update on TIFF closure timeline, anticipating October-November completion. She explained the CDA will need to pass a resolution to call the bonds, which are due October 1st. She confirmed the numbers still look good and the village will be able to pay off the debt. The process involves notifying US Bank and forwarding to DTC for bondholder payments.
+
+### Work product transmittals (items 5, 6, and 7)
+The April budget status report, TIFF detail reports, and legal details report were acknowledged together. Motion to acknowledge was made by Daniels and seconded by Soaper. Motion carried unanimously.
 
 ### Municipal Clerk's Office Educational Presentation
-Municipal Clerk Pam presented a comprehensive overview of the clerk's office operations. She explained they now have two full-time employees and one part-time employee (Leah), down from four full-time staff before her tenure. The presentation covered election administration including Badger Books (electronic poll books costing about $11,000 for four units), licensing (51 total liquor licenses), tax collection (84% of $22 million collected at the clerk's office counter), and pet licensing brought back in-house saving roughly $5,495 annually. Discussion included why postage jumped from $6,000 to $15,000 (due to fall presidential election absentee ballots), the increase in pet licensing fees from $10 to $20 due to Marathon County requirements, and newsletter costs of approximately $30,000 annually for the quarterly 'Wire' publication sent to 5,089 postal patrons.
+Clerk Pam presented an overview of the clerk's office operations, staffing (currently two full-time and one part-time employee, down from four full-time previously), election administration including Badger Book equipment replacement strategy, licensing responsibilities (51 liquor licenses), tax collection (84% collected at clerk's office totaling $22 million), pet licensing (brought back in-house from Pet Data saving approximately $5,495), and the quarterly newsletter costs ($9,000 postage, $20,000 printing). Discussion included poll worker wages with plans to increase chief inspector pay from $13 to $15/hour, the recent increase in pet licensing fees from $10 to $20 due to Marathon County requirements, and concerns about newsletter costs potentially being reduced through email distribution.
 
 ### Farmers Market Update
-Staff member Renee reported the farmers market at the new location has been going well, with full vendor capacity including food trucks, coffee vendors, craft people, and greenhouse vendors. She has been present for 6-7 hours each Saturday since opening. Committee members discussed parking concerns on Alderson and Newport streets, with staff confirming only the west side of Alderson allows parking now. One vendor reported being 'very happy' with the setup and location.
+Renee reported the farmers market at Kennedy Park has been going well, with full vendor capacity including food trucks, coffee vendors, craft people, and greenhouse vendors. Some challenges noted included Tuesday markets affected by cool and windy weather. Committee members raised concerns about parking congestion on Alderson and Newport streets. Staff clarified parking is restricted on the east side of Alderson but allowed on the west side and Newport.
 
 ### Committee Member Resignation
-Evan Daniels announced this would be his last meeting as he and his wife are moving away from Weston, though staying in the metro area. The chair thanked him for his service and noted the committee now has open spots to fill.
+Evan announced he is stepping down from the committee as this was his last meeting, noting he and his wife are moving away from Weston but staying in the metro area. He thanked the committee for the opportunity to serve.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- CDA resolution to call TIF bonds expected this summer, with bonds due October 1st
-- Staff to continue working with Ellers and Wisconsin Associated Trust for bond closure process
-- Recruit new committee members to fill open spots including Evan Daniels' vacancy
+- CDA resolution needed this summer to call TIFF bonds due October 1st
+- Clerk planning to request chief inspector wage increase to $15/hour for next two-year election term
+- Seeking additional part-time clerk's office staff member
+- Committee has open positions - members encouraged to recruit interested citizens
 - Next meeting scheduled for Monday, June 15th at 4:30 PM
