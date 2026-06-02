@@ -1,5 +1,5 @@
 {
-  "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged budget reports before receiving a detailed educational presentation from Municipal Clerk Pam about the clerk's office operations, including elections, licensing, tax collection, and staffing. Committee member Evan announced he will be stepping down as this was his last meeting.",
+  "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged April budget and financial reports. The meeting featured an educational presentation from Municipal Clerk Pam on clerk's office operations, elections, licensing, and tax collection, with discussion about pet licensing fee increases and newsletter costs.",
   "committee": "Finance and Human Resources Committee",
   "presiding": "Not explicitly named in transcript",
   "agenda": [
@@ -8,32 +8,32 @@
       "item": "Call to order and Pledge of Allegiance"
     },
     {
-      "time": "0:45",
+      "time": "0:30",
       "item": "Roll call"
     },
     {
-      "time": "1:00",
+      "time": "0:45",
       "item": "Public comments"
     },
     {
-      "time": "1:15",
+      "time": "1:00",
       "item": "Approval of minutes from previous Finance and HR meeting"
     },
     {
-      "time": "1:40",
+      "time": "1:30",
       "item": "April budget status report"
     },
     {
-      "time": "2:00",
+      "time": "1:45",
       "item": "TIFF one and TIFF two detail reports for April"
     },
     {
-      "time": "3:30",
+      "time": "3:15",
       "item": "Legal details report for April"
     },
     {
       "time": "4:00",
-      "item": "Educational presentation - Municipal Clerk's budget and office overview"
+      "item": "Educational presentation - Municipal Clerk's office and budget"
     },
     {
       "time": "45:30",
@@ -47,41 +47,39 @@
   "discussions": [
     {
       "item": "Approval of minutes from previous Finance and HR meeting",
-      "body": "Motion to approve was made by Ernling and seconded by Daniels. The motion carried with no discussion."
+      "body": "Motion to approve made by Ernling, seconded by Daniels. Motion carried with no discussion."
     },
     {
       "item": "TIFF one and TIFF two detail reports",
-      "body": "A committee member asked about the final numbers for TIF closure. Staff explained they are anticipating October/November for bond payoff, stating the CDA will need to pass a resolution to call the bonds. Staff confirmed they will be able to pay off the debt and explained the process involving Ellers and US Bank Trust."
+      "body": "Jessica provided an update on TIFF bond payoff procedures, anticipating October/November timeline. The CDA will need to pass a resolution to call the bonds, which are due October 1st. Jessica confirmed the village will be able to pay off the debt. A committee member asked about final numbers and was assured they still look good."
     },
     {
-      "item": "Acknowledgment of work product transmittals (items 5, 6, and 7)",
-      "body": "Motion to acknowledge the April budget status report, TIFF detail reports, and legal details report was made by Daniels and seconded by Soaper. Motion carried unanimously."
+      "item": "Work product acknowledgment (items 5, 6, and 7)",
+      "body": "Motion to acknowledge the April budget status report, TIFF reports, and legal details report made by Daniels, seconded by Soaper. Motion carried."
     },
     {
       "item": "Municipal Clerk's Office Educational Presentation",
-      "body": "Clerk Pam presented comprehensive overview of the clerk's office operations. She noted the office went from four full-time staff to current staffing of two full-time and one part-time employee. She detailed election administration including Badger Book electronic poll books ($11,000 for four units), explained that 84% of tax collection ($22 million) is done at the clerk's office counter, and discussed pet licensing which was brought back in-house from a third-party vendor. Discussion occurred about the pet license fee increase from $10 to $20, which was driven by Marathon County raising fees to cover their $100,000 annual payment to the Humane Society. The quarterly newsletter costs approximately $30,000 annually for postage and printing to 5,089 postal patrons."
+      "body": "Clerk Pam presented on the clerk's office operations, staffing (now 2 full-time and 1 part-time employee, down from 4 full-time previously), elections administration, licensing, and tax collection. She noted 84% of tax collection ($22 million) is handled at the clerk's office counter. Discussion occurred about pet licensing fee increases from $10 to $20 for neutered dogs, which was prompted by Marathon County raising fees to municipalities. Committee members questioned the $30,000 annual newsletter cost, with staff noting previous attempts to eliminate mailing were reversed due to resident complaints."
     },
     {
-      "item": "Farmers Market Update",
-      "body": "Staff member Renee reported the farmers market has been going well at Kennedy Park, with full vendor capacity including food trucks, coffee vendors, and craft people. Produce vendors with greenhouses are present and more will come mid to end of June. A committee member raised concerns about parking on Alderson Street, with staff clarifying only the west side allows parking now. Discussion touched on parking congestion during baseball tournaments and other events."
+      "item": "Staff remarks - Farmers Market update",
+      "body": "Renee reported the farmers market has been going well, with staff arriving at 6 AM on Saturdays to help vendors. The market is full with food trucks, coffee vendors, craft people, and some produce vendors with greenhouses. One committee member who spoke with vendors reported they were very happy with the setup and location. Discussion occurred about parking concerns on Alderson and Newport streets, with staff confirming parking is restricted to the west side of Alderson only."
     },
     {
-      "item": "Committee Member Departure",
-      "body": "Committee member Evan announced he will be stepping down as this was his last meeting, noting he and his wife are moving away from Weston but staying in the metro area. The chair thanked him for his service and noted the committee now has open spots needing to be filled."
+      "item": "Committee member resignation",
+      "body": "Evan announced he is stepping down from the committee as he and his wife are moving away from Weston, though staying in the metro area. This was his last meeting. The chair noted there are now open spots on this committee and encouraged members to reach out to interested citizens."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
-    "Minutes from previous Finance and HR meeting approved",
-    "April budget status report, TIFF detail reports, and legal details report acknowledged",
-    "CDA resolution needed for bond payoff expected this summer",
-    "Committee seeking citizen volunteers to fill open committee spots",
-    "Next meeting scheduled for Monday, June 15th at 4:30 PM"
+    "CDA resolution needed to call TIFF bonds, anticipated this summer",
+    "Next meeting scheduled for Monday, June 15th at 4:30 PM",
+    "Committee seeking citizen volunteers to fill open committee positions"
   ],
   "_transcript_hash": "8f61421ce47e39e9",
   "title": "Finance and Human Resources Committee",
   "url": "https://www.youtube.com/watch?v=KaLahH4JieQ",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-06-02T16:19:25.077476+00:00"
+  "processed_at": "2026-06-02T22:24:00.920180+00:00"
 }
