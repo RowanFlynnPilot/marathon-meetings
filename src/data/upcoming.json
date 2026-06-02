@@ -115,27 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-01",
-      "time": "4:45 PM",
-      "name": "Liquor License Review Subcommittee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2367/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-01",
-      "time": "5:00 PM",
-      "name": "Public Health & Safety Committee",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2368/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-01",
-      "time": "5:15 PM",
-      "name": "Parks & Recreation Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2057/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-02",
       "time": "10:00 AM",
       "name": "Board of Public Works Meeting",
@@ -218,30 +197,16 @@
       "name": "Infrastructure & Facilities Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2369/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "5:15 PM",
+      "name": "Public Health & Safety Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2070/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-06-01",
-      "time": "",
-      "name": "Community, Life and Public Safety (CLPS) Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06012026-1922",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-01",
-      "time": "",
-      "name": "Comprehensive Plan Steering Committee (Village Board and Plan Commission)",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06012026-1923",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-01",
-      "time": "6:00 PM",
-      "name": "Community Life & Public Safety Committee",
-      "url": "https://www.westonwi.gov/agendacenter",
-      "source": "weston"
-    },
     {
       "date": "2026-06-08",
       "time": "6:00 PM",
