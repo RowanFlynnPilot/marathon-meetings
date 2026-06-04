@@ -2,37 +2,34 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=eX7VOuywzb8  
-**Summarized:** 2026-06-03 09:00 UTC
+**Summarized:** 2026-06-04 03:45 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Plan Commission approved a site plan for the new Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Drive, and adopted a salt storage shed inspection program for wellhead protection districts. The commission also scheduled the first steering committee meeting for the comprehensive plan update for June 1st.
+The Village of Weston Plan Commission approved the site plan for the new Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive, and adopted a new salt storage shed inspection program for wellhead protection areas. Both items passed unanimously with staff conditions.
 
 ## Key Discussions
 ### Site plan review for Mountain Bay Metro Police Department and Municipal Court facility
-The commission reviewed the site plan for the new police department and municipal court at 3600 Community Center Drive. Staff member Jen presented that the project meets all B2 zoning requirements. Chief Jeremy explained the building was rotated to accommodate a gas pipeline easement, with the parking lot now positioned over the 36-inch deep gas line. Discussion covered future expansion possibilities to the north, placement of an alternate storage shed, and landscaping meeting current code. A motion was made to recommend approval to the board of trustees subject to staff conditions 2-5. The motion passed unanimously.
+The commission reviewed the site plan for the new police department and municipal court at 3600 Community Center Drive. Staff reported the project meets all B2 district zoning requirements. Chief Jeremy explained the building was rotated to address a gas pipeline easement issue, with the parking lot now over the 36-inch deep gas line, which is acceptable to the gas company. Discussion included questions about future expandability (possible to the north), landscaping meeting current code, and placement of an alternate storage shed. A motion to approve with staff conditions 2-5 passed unanimously.
 
-### Creation of salt storage shed inspection program for Wellhead Protection District
-Jen presented a new inspection program requiring two annual inspections per facility - a warm weather inspection focused on structural integrity and site drainage, and a winter operational inspection focused on material handling and containment. The program includes a standardized inspection worksheet similar to DOT standards. Discussion revealed one existing facility near Sternberg has never gone through the wellhead protection conditional use process. Commission agreed staff should reach out to that facility. A motion to approve the program with reporting back to both Plan Commission and Public Works passed unanimously.
+### Salt storage shed inspection program for wellhead protection district
+Staff presented a program for two annual inspections of salt storage facilities in wellhead protection areas - one warm weather inspection focused on structural integrity and drainage, and one winter inspection focused on operations and containment. The program uses a standardized worksheet similar to DOT requirements. Discussion revealed one existing facility near the village well on Sternberg has never gone through the wellhead protection conditional use process and staff will reach out to them. A motion to approve the program with reporting back to both the Plan Commission and Public Works passed unanimously.
 
 ### April 2026 meeting minutes
-The minutes from the April 13, 2026 meeting were approved as presented. Motion passed unanimously with no discussion.
+Motion to approve the April 13, 2026 Plan Commission meeting minutes as presented passed unanimously with no discussion.
 
-### April 2026 staff approved items and building permits
-Both the certified survey map/site plan report and building permit report for April 2026 were approved unanimously without discussion.
-
-### Planning and development department monthly project update
-Jen announced the first steering committee meeting for the comprehensive plan update is scheduled for Monday, June 1st at 5:00 p.m., involving a joint Plan Commission and Village Board group. She will send calendar invites to members.
+### Planning department monthly update
+Staff announced the first meeting of the joint Plan Commission-Village Board steering committee for the comprehensive plan is scheduled for Monday, June 1st at 5:00 p.m. Commissioner asked about potential residential TIF districts for workforce housing; staff indicated Ehlers has prepared a presentation on qualifications that could be shared with the commission or incorporated into comprehensive plan discussions.
 
 ## Public Comment
-Jim Pensel of 5002 Arrow Street, Weston, spoke via online participation. He urged the commission to exercise common sense regarding landscaping requirements for the police department project, referencing previous accommodations made for Green Heck Turner building. He also requested the commission require annual reporting on salt shed inspections in wellhead protection zones, noting some zoning complaints have gone unaddressed for years.
+Jim Pensel of 5002 Arrow Street, Weston spoke via remote connection. He requested the commission urge staff to waive excessive landscaping requirements for the police department project similar to what was done for the Greenheck Turner building. He also requested annual reporting on the salt shed inspection program to ensure complaints don't get lost.
 
 ## Action Items
-- Site plan for Mountain Bay Metro Police Department and Municipal Court facility recommended for approval to Board of Trustees
-- Salt storage shed inspection program adopted with two annual inspections per facility
-- Staff to reach out to existing salt storage facility near Sternberg that lacks conditional use approval
-- Staff to report inspection findings to Plan Commission and Public Works Committee next year
-- First comprehensive plan steering committee meeting scheduled for June 1st at 5:00 p.m.
-- Staff to send calendar invites for steering committee meeting
+- Site plan for Mountain Bay Metro Police Department and Municipal Court facility at 3600 Community Center Drive approved with staff conditions 2-5
+- Salt storage shed inspection program adopted for wellhead protection district with twice-annual inspections
+- Staff to report back to Plan Commission and Public Works Committee on salt shed inspection findings next year
+- Staff to reach out to existing salt storage facility on Sternberg that has not gone through wellhead protection conditional use process
+- First joint Plan Commission-Village Board steering committee meeting for comprehensive plan scheduled for June 1st at 5:00 p.m.
+- Staff to send email and calendar invite for June 1st steering committee meeting
 - Electric vehicle charging station regulations to be discussed at future meeting in fall

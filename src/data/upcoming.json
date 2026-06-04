@@ -115,13 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-03",
-      "time": "4:00 PM",
-      "name": "Wausau Arts Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2364/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-04",
       "time": "5:00 PM",
       "name": "Sustainability, Energy & Environment Committee Meeting",
@@ -140,13 +133,6 @@
       "time": "2:00 PM",
       "name": "Board of Public Works Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2362/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-09",
-      "time": "5:15 PM",
-      "name": "Finance Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2005/overview",
       "source": "wausau"
     },
     {
@@ -197,21 +183,42 @@
       "name": "Transit Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2180/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "7:30 AM",
+      "name": "Police & Fire Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2148/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "5:00 PM",
+      "name": "Bicycle & Pedestrian Advisory Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2123/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
     {
-      "date": "2026-06-08",
-      "time": "6:00 PM",
-      "name": "Plan Commission",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "date": "2026-06-04",
+      "time": "",
+      "name": "Mountain Bay Metropolitan Police Oversight Board",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06042026-1925",
       "source": "weston"
     },
     {
       "date": "2026-06-08",
-      "time": "6:00 PM",
+      "time": "",
+      "name": "Plan Commission",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06082026-1924",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-08",
+      "time": "",
       "name": "Public Works Committee",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06082026-1926",
       "source": "weston"
     },
     {
@@ -302,6 +309,13 @@
       "date": "2026-07-27",
       "time": "6:00 PM",
       "name": "Parks & Recreation Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-08-03",
+      "time": "6:00 PM",
+      "name": "Community Life & Public Safety Committee",
       "url": "https://www.westonwi.gov/agendacenter",
       "source": "weston"
     }
