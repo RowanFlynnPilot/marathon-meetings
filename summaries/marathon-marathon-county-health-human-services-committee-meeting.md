@@ -3,42 +3,34 @@
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=ZzEeG1Z64pg  
 **Documents:** https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000  
-**Summarized:** 2026-06-05 08:09 UTC
+**Summarized:** 2026-06-05 14:48 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Health & Human Services Committee held an educational orientation meeting for new board members, featuring presentations from the Health Department, Veteran Services, and Aging & Disability Resource Center. No policy votes were taken; the meeting focused on introducing department missions, budgets, and services to committee members.
+The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring educational presentations from department heads on the Health Department, Social Services, Veteran Services, and Aging & Disability Resource Center. No action items were voted on beyond approving previous meeting minutes. The meeting provided comprehensive overviews of departmental missions, budgets, and current initiatives.
 
 ## Key Discussions
-### Approval of April 1st meeting minutes
-Supervisor Cavalli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion carried unanimously with all in favor.
+### Approval of April 1st Minutes
+Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion passed unanimously with all members voting aye.
 
-### Health Department overview
-Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting from environmental hazards. She highlighted over 1,200 licenses overseen, a new homeless system response position, the Nurse Family Partnership program with first graduates, and public health vending machines stocked with free resources including tick kits. The department has 37.6 FTE with about half of its $5 million budget from tax levy. Administrator Leonard noted environmental health services are designed to be self-supporting through fees.
+### Health Department Presentation
+Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting against environmental hazards. She highlighted over 1,200 licenses overseen, the Nurse Family Partnership program with first graduates at age two, public health vending machines offering free resources including tick kits, and the new homelessness system response position. The department has 37.6 FTE staff across environmental health, nursing, community health improvement, and administrative teams. Administrator Leonard noted about half the $5 million budget comes from tax levy, with significant intergovernmental grants and public charges for services.
 
-### Emergency preparedness discussion
-Supervisor Kremes asked about pandemic preparedness following news of a virus outbreak. Health Officer Suginaka confirmed the department has plans in place, conducts training exercises for measles response, and has a public health emergency preparedness planning body. She stated staff are highly trained from COVID experience and would reallocate resources if needed. Administrator Leonard noted that for major emergencies, state and federal funding typically becomes available.
+### Social Services Department Overview
+Administrator Leonard presented on behalf of Director Christa, describing the department's nearly 140 FTE staff working in child welfare, youth justice, children's long-term support, economic support, and child support. He highlighted the successful Family Keys housing stability pilot program addressing housing instability among child welfare and youth justice populations. The 2026 budget shows over $22 million total with approximately $7 million from tax levy. Leonard indicated potential restructuring requests coming due to increased need in areas like children's long-term support.
 
-### Social Services Department overview
-Administrator Leonard presented on behalf of Director Christa who was unavailable. The department has nearly 140 FTE and a 2026 budget over $22 million with about $7 million from tax levy. He highlighted the successful Family Keys housing stability pilot program which addresses housing instability among child welfare and youth justice populations, noting the program substantively changed based on board feedback.
+### Veteran Services Presentation
+VSO Aaron Galindo reported his office is now at 3.0 FTE after board approval, with customer interactions jumping from 5,900 to 8,149 in 2025. He highlighted the PACT Act's impact on presumptive claims, $44 million in annual compensation coming to county veterans, and $2.6 million in retroactive payments in 2025 alone. Key initiatives include surviving spouse benefits outreach, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts (noting 7 of 30 county suicides in 2025 were veterans). Supervisor Kremes asked about regional coordination; Galindo confirmed state statute requires each county to have a VSO and explained good working relationships with neighboring counties.
 
-### Veteran Service Department presentation
-VSO Aaron Galindo reported his small department (3.0 FTE) had 8,149 interactions in 2025, up from 5,900 the prior year. He noted $44 million in annual benefits flow to local veterans, with $2.6 million in retroactive payments in 2025. Major initiatives include surviving spouse benefits outreach, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts. In 2025, Marathon County had 30 suicides, 7 of which were veterans. Supervisor Kremes asked about regional coordination; Galindo confirmed good working relationships with neighboring counties and explained state statute requires each county to have its own VSO.
-
-### ADRC of Central Wisconsin presentation
-Executive Director Mike Ray explained the ADRC serves four counties (Marathon, Lincoln, Langlade, Wood) with about 60 FTE and 385-400 volunteers. The organization provides resource assistance, meals on wheels, caregiver support, dementia care, and is the entry point for publicly funded programs like Family Care and IRIS. He highlighted significant financial challenges with federal funding flat since 2024 while nutrition costs increased 40-45% over four years, forcing service reductions. Marathon County's contribution is $413,135 for 2026.
-
-### Next meeting date correction
-Vice Chair Rosenberg caught that the stated next meeting date of May 29th was incorrect. The committee confirmed the correct date is Wednesday, June 3rd at 3:00 PM.
+### ADRC Presentation
+Executive Director Mike Ray described the four-county organization (Marathon, Lincoln, Langlade, Wood) serving as a one-stop shop for aging and disability services. About 11% of budget is county levy. He highlighted challenges with the nutrition/Meals on Wheels program, noting 40-45% increase in food costs over four years with flat federal funding. The Older Americans Act hasn't been reauthorized in over two years. The organization has about 60 FTE plus 385-400 volunteers. Vice Chair Rosenberg praised the culturally appropriate meal program at the Hmong American Center.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- April 1st meeting minutes approved
-- North Central Healthcare to be scheduled for a separate full presentation before the committee
-- ADRC Executive Director Mike Ray to present annual report with 2025 data to the full board
-- Committee members to email Chair Boots and Administrator Leonard with items they want on future agendas
-- Chair Boots to bring strategic plan discussion items to upcoming meetings
-- Next meeting scheduled for Wednesday, June 3rd at 3:00 PM
+- Schedule North Central Healthcare for separate full presentation before committee
+- Next meeting corrected to Wednesday, June 3rd at 3:00 PM (not May 29th as originally stated)
+- Committee members to email Chair Boots and Administrator Leonard with suggestions for future agenda items
+- Strategic plan review to be presented at upcoming meetings

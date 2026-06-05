@@ -1,71 +1,71 @@
 {
-  "overview": "The Village of Weston Tourism Commission held its first meeting after reorganization, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission learned that a competing hot air balloon event in Marshfield was canceled, potentially increasing attendance at the Weston event.",
+  "overview": "The Village of Weston Tourism Commission held its reorganization meeting, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission also heard that a competing balloon event in Marshfield has been canceled, potentially boosting attendance at the Weston event.",
   "committee": "Tourism Commission",
-  "presiding": "Trustee Erling, Chair (elected at this meeting)",
+  "presiding": "Trustee Erling (elected Chair during meeting)",
   "agenda": [
     {
       "time": "0:05",
-      "item": "Call to order and Pledge of Allegiance"
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
       "time": "0:35",
-      "item": "Roll call"
+      "item": "Roll Call"
     },
     {
       "time": "0:55",
-      "item": "Election of officers - Chair"
-    },
-    {
-      "time": "1:25",
-      "item": "Election of officers - Vice Chair"
-    },
-    {
-      "time": "2:15",
-      "item": "Election of officers - Secretary"
+      "item": "Election of Officers"
     },
     {
       "time": "2:45",
-      "item": "Public comments"
+      "item": "Public Comments"
     },
     {
       "time": "2:55",
-      "item": "Approval of minutes from April 21st meeting"
+      "item": "Approval of Minutes from April 21st"
     },
     {
       "time": "3:15",
-      "item": "New business - Grant request for Taste and Glow Balloonfest"
+      "item": "Work Product Transmittals and Educational Presentations"
     },
     {
-      "time": "8:45",
-      "item": "Remarks from staff and commission members"
+      "time": "3:20",
+      "item": "Old Business"
     },
     {
-      "time": "10:45",
+      "time": "3:25",
+      "item": "New Business - Grant Request: Taste and Glow Balloonfest"
+    },
+    {
+      "time": "8:35",
+      "item": "Remarks from Staff and Commission Members"
+    },
+    {
+      "time": "10:35",
       "item": "Adjournment"
     }
   ],
   "discussions": [
     {
       "item": "Election of Officers",
-      "body": "The commission elected new officers for the reorganized commission. Trustee Erling was nominated and elected as Chair unanimously. Cushing was nominated by a commissioner and seconded by Jackson, then elected as Vice Chair unanimously. Renee was nominated and elected as Secretary unanimously."
+      "body": "The commission elected officers for the reorganized committee. Trustee Erling was nominated for Chair and approved unanimously. Cushing was nominated for Vice Chair by motion, seconded by Jackson, and approved unanimously. Renee was nominated and approved unanimously as Secretary."
     },
     {
       "item": "Approval of Minutes",
-      "body": "Minutes from the April 21st meeting were approved. Motion was made and seconded by Renee. Passed unanimously with no discussion."
+      "body": "Minutes from the April 21st meeting were approved. Motion carried with a second by Renee, passing unanimously."
     },
     {
-      "item": "Grant Request - Taste and Glow Balloonfest",
-      "body": "Brandon Jill of 3308 Green Pastures Lane presented the grant request. He reported estimated attendance of 11,000-12,000 last year and announced that the competing Marshfield hot air balloon event was canceled due to permit issues, making theirs the sole event in the area. A commissioner questioned room night tracking, noting the application showed 20 fewer rooms than last year when they received $5,000. The commission discussed needing better hotel room data for future decisions. Motion was made to approve $5,000 grant matching last year's amount, with a request for post-event reporting on attendance changes. Passed unanimously."
+      "item": "Grant Request: Taste and Glow Balloonfest",
+      "body": "Brandon Jill of 3308 Green Pastures Lane presented on behalf of the Taste and Glow Balloonfest. He reported estimated attendance of 11,000-12,000 last year and announced that a competing Marshfield balloon event has been canceled due to permit issues, making theirs the sole hot air balloon event in the area. Commission members questioned room night tracking, noting the application showed 20 fewer rooms than last year. The commission approved a $5,000 grant (same as last year), with a request that organizers provide better hotel room data in their post-event report. Motion passed unanimously with Jackson seconding."
     },
     {
       "item": "Remarks from Commission Members",
-      "body": "Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates who toured Marathon County attractions including Mullen's Cheese. She noted this was the first time Marathon County hosted the event since the 1970s. The winner, Anastasia, sat at their table and held three bachelor's degrees."
+      "body": "Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar, describing how the candidates toured Marathon County attractions including Mullen's Cheese. She noted the winner was Anastasia, and that this was the first time the event was hosted in Marathon County since the 1970s. The candidates expressed appreciation for the community."
     }
   ],
   "publicComment": "No public comment was offered.",
   "actionItems": [
-    "Approved $5,000 grant to Taste and Glow Balloonfest for their annual event",
-    "Taste and Glow organizers to provide hotel room usage data in their post-event report",
+    "Approved $5,000 grant to Taste and Glow Balloonfest",
+    "Taste and Glow organizers to provide hotel room usage data in post-event report",
     "Next meeting scheduled for July 20th at 4:00 PM (tentative)"
   ],
   "_transcript_hash": "7e499df378509618",
@@ -73,5 +73,5 @@
   "url": "https://www.youtube.com/watch?v=ee6clAtgrYw",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-06-05T08:10:29.699161+00:00"
+  "processed_at": "2026-06-05T14:49:30.208110+00:00"
 }
