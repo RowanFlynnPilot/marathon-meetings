@@ -1,5 +1,5 @@
 {
-  "overview": "The Village of Weston Board of Trustees approved increased park and recreation impact fees for new residential development, passed multiple ordinances including mobile food vendor licensing and e-bike regulations, and held extensive discussion about the farmers market relocation to Kennedy Park. The board also adjourned the Board of Review to June 15, 2026.",
+  "overview": "The Village of Weston Board of Trustees approved increased park and recreation impact fees, passed ordinances regulating mobile food vendors and e-bikes, and discussed ongoing challenges with the farmers market's new Kennedy Park location. The board also adjourned the Board of Review to June 15, 2026 and approved various license renewals and committee appointments.",
   "committee": "Board of Trustees",
   "presiding": "Not explicitly named in transcript",
   "agenda": [
@@ -8,11 +8,11 @@
       "item": "Board of Review called to order and adjourned to June 15, 2026"
     },
     {
-      "time": "1:18",
-      "item": "Board of Trustees meeting called to order, roll call"
+      "time": "1:15",
+      "item": "Board of Trustees meeting called to order and roll call"
     },
     {
-      "time": "1:52",
+      "time": "1:45",
       "item": "Public comments"
     },
     {
@@ -20,72 +20,90 @@
       "item": "Public hearing on park and recreation impact fees (Ordinance 26-010 and Resolution 2026-015)"
     },
     {
-      "time": "13:36",
-      "item": "Approval of previous meeting minutes"
+      "time": "13:26",
+      "item": "Approval of meeting minutes"
     },
     {
-      "time": "14:23",
-      "item": "Acknowledgment of reports from boards, committees, and commissions with chair updates"
+      "time": "14:30",
+      "item": "Acknowledge reports from boards, committees, and commissions with chair updates"
     },
     {
-      "time": "23:25",
-      "item": "Department reports"
+      "time": "23:30",
+      "item": "Acknowledge reports from departments"
     },
     {
-      "time": "43:52",
-      "item": "Consent agenda including vouchers and license renewals"
+      "time": "44:30",
+      "item": "Work product transmittals"
     },
     {
-      "time": "48:06",
-      "item": "Ordinances including mobile food vendor, nuisances, and e-bike regulations"
+      "time": "46:30",
+      "item": "Consent agenda - license renewals"
     },
     {
-      "time": "53:22",
-      "item": "Discussion on remote meeting attendance policy amendments"
+      "time": "48:30",
+      "item": "Ordinances including mobile food vendor, nuisances, e-bikes, and transportation funding resolution"
+    },
+    {
+      "time": "53:30",
+      "item": "Remote meeting attendance policy amendments"
+    },
+    {
+      "time": "1:07:00",
+      "item": "Committee appointments"
+    },
+    {
+      "time": "1:15:00",
+      "item": "Discussion on farmers market location at Kennedy Park"
     }
   ],
   "discussions": [
     {
       "item": "Park and Recreation Impact Fees",
-      "body": "Staff presented a proposal to increase park impact fees from $300 to $761 for single family units, $250 to $563 for duplex units, and $250 to $495 for multifamily units, consistent with the 2022 public facilities needs assessment. Jim Pitel commented during public hearing that the village lacks real data on park maintenance costs. Trustee Motti supported the fees, noting population increases require more park space. Ordinance 26-010 passed unanimously with motion by Lope Sorrell, second by Zagami. Resolution 2026-015 passed unanimously with motion by Hermling, second by Clark."
+      "body": "Staff presented proposed fee increases from $300 to $761 for single family units, $250 to $563 for duplex units, and $250 to $495 for multifamily units, based on the 2022 public facilities needs assessment. Jim Pitel spoke in public comment questioning the justification for the fees, stating the village lacks detailed data on actual park maintenance costs. Trustee Barb Clark supported the fees as justified given population growth. Ordinance 26-010 and Resolution 2026-015 both passed unanimously."
     },
     {
-      "item": "Mobile Food Vendor License Ordinance 26-008",
-      "body": "Chief Finkey explained this creates a regional reciprocal inspection program with Marshfield, Wisconsin Rapids, Stevens Point, and other municipalities. When one department inspects a food truck, a sticker is placed allowing it to operate in all participating communities without additional inspections. Approved unanimously with motion by Lope, second by Zagami."
+      "item": "Mobile Food Vendor License Ordinance",
+      "body": "Chief Finkey explained the ordinance creates a regional inspection agreement where Safer, Marshfield, Wisconsin Rapids, Stevens Point, Clover, and Riverside fire departments will recognize each other's food truck inspections. A sticker system will indicate which department inspected a truck, eliminating redundant inspections across municipalities. Ordinance 26-008 passed unanimously."
     },
     {
-      "item": "Remote Meeting Attendance Policy Amendments",
-      "body": "Significant debate occurred over policy language. Trustees Beck and others pushed to remove requirements that remote attendance be justified by health, safety, or welfare reasons, arguing chairs should not evaluate excuses. Trustees Hermling and Motti voted against the amendment. The board approved striking sentences requiring justification, keeping only requirements for 12-hour notice, camera use, and prohibition from closed sessions. Amendment passed with two no votes (Hermling, Motti), then original motion as amended passed with same two dissents."
+      "item": "Remote Meeting Attendance Policy",
+      "body": "The board debated amendments to section 1.08 of the elected officials handbook. Several trustees wanted to remove specific language about health, safety, and welfare requirements for remote attendance, preferring broader discretion. Trustee Beck moved to amend by striking sentences requiring specific justifications for remote attendance. The amendment passed 5-2 with Trustees Hermling and Lob Sorrell opposed. The original motion as amended also passed 5-2 with the same dissenting votes."
     },
     {
-      "item": "Farmers Market Location at Kennedy Park",
-      "body": "Discussion-only item addressed parking concerns at new Kennedy Park location after loss of Camp Phillips site. Trustee Beck raised safety concerns about cars parking on grass near vendors. Renee explained the market grew from 25 to 53 vendor spots. Mont Miller Park was discussed but rejected due to poor visibility and distance. Trustee Beck questioned costs; staff confirmed the market operates at break-even or profit through vendor fees and grants for food assistance programs. No action taken."
+      "item": "Committee Appointments",
+      "body": "President appointed Stephanie Daniels (currently on Finance and HR) and Golden Mua to the CLIPS committee. Both appointments were approved unanimously. The board discussed having committee applications shared in packets going forward. Parks, Finance/HR, and CLIPS still have openings."
     },
     {
-      "item": "Engineering Tech Position and Outside Consultants",
-      "body": "Public works director Michael explained the village has struggled to fill an engineering technician position due to limited workforce in central Wisconsin, noting even consulting firms lack local staff. Two contracts totaling approximately $108,000 for outside engineering oversight were on the agenda. Jim Pitel criticized during public comment that the administrator should be held accountable for not filling the position."
+      "item": "Farmers Market Location Discussion",
+      "body": "Board discussed challenges with the farmers market's new Kennedy Park location after losing their previous Camp Phillips/Schofield Avenue site to development. Trustee Lisa Beck raised safety concerns about parking on grass along Alderson Street. Renee explained the history: the market grew from 25 stalls at the old municipal building to 42 at Camp Phillips (where vehicles couldn't accompany vendors) to 53 spots at Kennedy Park where vendors can keep vehicles. Beck questioned costs but staff confirmed the market operates without loss through vendor fees and grants. No action was taken; discussion only."
     },
     {
-      "item": "Secondhand Dealer License - Scoffield Coin and Hobby LLC",
-      "body": "Approved with amendment requiring satisfactory background check completion and receipt of occupancy permit, as the business location at 5703 Jamar Street is still under construction. Motion by Hermling, second by Clark, amendment by Beck, passed unanimously."
+      "item": "Engineering Tech Vacancy",
+      "body": "During public comment, Jim Pitel questioned why the engineering technician position remains unfilled while the village pays outside consultants. Public Works Director Michael Dolan explained the position has been advertised multiple times but the specific skill set is scarce in central Wisconsin, noting even consulting firms struggle to find local candidates and pull from southeastern Wisconsin offices."
+    },
+    {
+      "item": "Secondhand Dealer License",
+      "body": "The board approved a secondhand article dealer and secondhand jewelry dealer license for Schofield Coin and Hobby LLC at 5703 Jamar Street. Chief Hunt explained the business deals in precious metals and gold with large dollar transactions. The motion was amended to require satisfactory background check completion and receipt of occupancy permit since the building is still under construction. Approved unanimously as amended."
     }
   ],
-  "publicComment": "Jim Pitel of Deon 52 Street spoke during public comments, criticizing the $108,000 expenditure for outside engineering consultants when an engineering technician position remains unfilled. He questioned why Lisa Beck was introduced at the SAFER meeting before official appointment, calling it inappropriate government business outside the boardroom. He also criticized lack of information on Kennedy Park in the meeting packet and called for administrator accountability. Pitel also spoke during the park impact fee public hearing, arguing the village lacks real data on park maintenance costs.",
+  "publicComment": "Jim Pitel of 52nd Street spoke twice. First, he criticized the village for spending $108,000 on outside engineering consultants while the engineering technician position remains unfilled, questioned why Lisa Beck was introduced at a Safer meeting before being officially appointed, complained about lack of Kennedy Park information in meeting packets, and criticized the administrator's accountability. During the impact fee public hearing, he questioned the justification for fee increases, stating the village lacks detailed data on actual park maintenance costs. No other public comments were offered.",
   "actionItems": [
-    "Park and recreation impact fees increased effective immediately per Ordinance 26-010 and Resolution 2026-015",
+    "Park and recreation impact fees increased to $761 for single family, $563 for duplex, and $495 for multifamily units effective immediately",
     "Board of Review adjourned to June 15, 2026",
-    "Remote meeting attendance policy amended to remove justification requirements",
-    "Golden Mua and Stephanie Daniels appointed to CLIPS committee",
-    "Scoffield Coin and Hobby LLC secondhand dealer license approved pending background check and occupancy permit",
-    "Comprehensive plan steering committee first meeting scheduled for Monday, June 1st at 6:00 PM",
-    "Staff to bring Weston Avenue speed limit study back to board after construction completion",
-    "Committee and commission applications to be included in board packets going forward",
-    "Intergovernmental agreement to be drafted for assisting Town of Ringle with tornado damage building inspections"
+    "Mobile food vendor regional inspection agreement ordinance adopted",
+    "E-bike/e-moto ordinance amendments adopted",
+    "Remote meeting attendance policy amended to remove specific justification requirements",
+    "Stephanie Daniels and Golden Mua appointed to CLIPS committee",
+    "Secondhand dealer license approved for Schofield Coin and Hobby LLC pending background check and occupancy permit",
+    "Comprehensive Plan steering committee first meeting scheduled for Monday, June 1st at 6:00 PM",
+    "Staff to prepare intergovernmental service agreement for Ringle building inspection assistance",
+    "Weston Avenue speed limit study to be completed and brought back to board",
+    "Committee and commission applications to be included in board packets going forward"
   ],
   "_transcript_hash": "e9fd5d2ebc32739c",
   "title": "Board of Trustees",
   "url": "https://www.youtube.com/watch?v=YQ-B8Dd3ltU",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-06-04T21:34:05.061708+00:00"
+  "processed_at": "2026-06-05T03:32:12.200584+00:00"
 }
