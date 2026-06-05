@@ -2,48 +2,48 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=Ay3CNwxe6g4  
-**Summarized:** 2026-06-05 14:45 UTC
+**Summarized:** 2026-06-05 17:53 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Community Life and Public Safety Committee addressed several ordinance changes and enforcement matters, recommending approval of nuisance code amendments, e-bike regulations with emoto restrictions, mobile food vendor fire inspections, address corrections, and a raze order for an abandoned structure. A resident raised concerns about the new farmers market location and parking on grass areas.
+The Village of Weston Community Life and Public Safety Committee approved amendments to Chapter 50 nuisances, recommended an e-bike ordinance with added emoto restrictions, and authorized demolition of an abandoned structure at 4104 Shore Avenue. The committee also discussed overnight parking regulations and a crosswalk request, deferring both items for further research.
 
 ## Key Discussions
-### Department Reports (Code Enforcement, Fire/EMS, Police)
-Roman/Audrey noted some code enforcement cases with suspended enforcement may move back to pending as construction season begins. The property at 3020 Mountain View Avenue will be removed from the code enforcement roll after completing its sale and new owner submitted repair permits. Chief Hunt reported the police department had 2,394 calls in March (77 per day), with 410 traffic stops and 281 citations issued. The department has hired its 40th officer with recent starts and additional hires coming in May and January. Two SROs work with zoning violations during summer for Weston, Rothschild, and Schofield. Motion by Sherwanka, seconded, to acknowledge reports 5, 6, and 7 passed unanimously.
+### Code Enforcement, Fire/EMS, and Police Department Reports
+Staff reported that 3020 Mountain View Avenue will come off the code enforcement roll after the property sold at auction and the new owner submitted repair permits. Chief Hunt reported the police department had 2,394 calls in March (77 per day), 410 traffic stops, and 281 citations issued. The department has hired its 40th officer, with the 38th starting last week, 39th starting in May, and 40th starting around January. Two SROs work on zoning violations during summer for all three municipalities. Motion to acknowledge reports 5, 6, and 7 made by Chwanka, passed unanimously.
 
-### Proposed amendments to Chapter 50 Nuisances
-The committee reviewed final amendments to nuisance ordinances, including tree limb height requirements over streets and walkways (14 and 10 feet) that were switched from a previous meeting. Motion by Olsen, seconded by Kimpie, to recommend approval to the Board of Trustees passed unanimously.
+### Proposed Amendments to Chapter 50 Nuisances
+The committee reviewed final amendments including tree limb height requirements (14 and 10 feet) over streets and walkways that were switched in text as discussed at the previous meeting. Trustee Olsen made a motion to recommend approval to the board of trustees, seconded by Campkey. Motion passed unanimously.
 
-### E-bicycle ordinance in Chapter 82
-Extensive discussion focused on whether emotos (electric dirt bike-type vehicles) should be allowed on village roadways, sidewalks, and trails. Chief Hunt strongly recommended prohibiting emotos, comparing them to unlicensed dirt bikes that pose safety hazards. The committee debated whether electric scooters used by children should be exempted, with Chief Hunt suggesting officer discretion could handle those situations. Motion by Olsen, seconded by Sherwanka, to recommend approval with the addition that emotos are prohibited from operating on roadways, sidewalks, trails, or any public property passed unanimously.
+### E-Bike Ordinance in Chapter 82
+Extensive discussion occurred about emotos (electric dirt bikes). Chief Hunt strongly recommended prohibiting emotos on roadways and sidewalks, comparing them to unlicensed dirt bikes and citing safety hazards. The committee debated electric scooters and whether to exempt children's play scooters, ultimately deciding to leave enforcement discretion to officers. Olsen made a motion to recommend approval with the addition that emotos are prohibited on roadways, sidewalks, trails, and any public property in the Village of Weston. Seconded by Chwanka, passed unanimously.
 
-### Overnight parking regulations October 31-May 1
-Trustee Tolson initiated discussion noting Weston's 12-hour parking restriction window (4am-4pm even/odd) is significantly longer than surrounding municipalities which typically have 4-5 hour overnight windows. DPW Director Michael Wodalski noted the village rarely plows before 4-5am and the overnight restriction frustrates residents. Chief Hunt preferred keeping overnight restrictions to give officers time to clear vehicles before morning plowing. The committee discussed potentially matching Rothschild's 2am-7am window and signing specific problem areas. No action taken; Michael Wodalski will identify problem areas and bring recommendations back in July.
+### Overnight Parking Regulations
+Trustee Tolson presented research showing Weston's 12-hour no-parking window (4am-4pm) is significantly longer than surrounding municipalities which typically have 4-5 hour windows. DPW Director Michael Wodalski noted they rarely plow before 4-5am and suggested eliminating the overnight parking restriction entirely, instead signing only the 6-8 problem areas. Chief Hunt preferred keeping overnight restrictions to give officers time to clear cars before plows arrive. The committee decided to defer the item until July, with Wodalski tasked to identify specific exception areas.
 
-### Crosswalk request on Alderson Street
-Mount Olive Church requested a crosswalk between the church and DC Everest school parking lot. Michael Wodalski estimated a basic crosswalk would cost approximately $2,000-3,000, while a lighted system would be $25,000-30,000. Chief Hunt indicated no safety incidents in the area. Committee members expressed reluctance to set precedent for paying for crosswalks on request. Motion by Olsen, seconded by Sherwanka, to recommend board approval contingent on Mount Olive covering the installation cost passed unanimously.
+### Crosswalk Request on Alderson Street
+Mount Olive Church requested a crosswalk between the church and DC Everest school parking lot. Staff estimated a basic crosswalk would cost approximately $2,000, while a lighted system would cost $25-30,000. Committee members expressed reluctance to pay for crosswalks when requested by private entities. Olsen made a motion that if Mount Olive is willing to cover the cost of installation, the committee recommends board approval. Seconded by Chwanka, passed unanimously. DPW Director Wodalski will contact Mount Olive about cost-sharing.
 
-### Mobile food vendors fire inspection amendment
-Fire department proposed joining a regional mobile food vendor inspection program with Wisconsin Rapids, Marshfield, Stevens Point, Plover, Rib Mountain, and Safer. One department's inspection would be valid for all participating municipalities, with an annual sticker system. Chief Hunt noted a recent inspection failed due to improper LP piping and unsecured propane containers. Wausau opted out to do their own inspections. Motion by Sherwanka, seconded by Kimpie, to approve Ordinance 26-8 passed unanimously.
+### Mobile Food Vendors Fire Inspection Ordinance
+Fire Chief explained a regional partnership between Weston, Wisconsin Rapids, Marshfield, Stevens Point, Clover, Riverside, and Safer fire departments for food truck inspections. One department's inspection with a sticker is valid for all participating municipalities. Wausau opted not to participate. Fire Inspector Marty already inspected one truck this week which failed due to improper LP piping and unsecured propane containers. Chwanka moved to approve Ordinance 26-8, seconded by Campkey. Motion passed unanimously.
 
-### Address corrections for E911 compliance
-Staff presented three addressing errors: 5915 Delicoski Street (duplex needing separate addresses), Ross Avenue sequence issues with an apartment building, and 2211 Radkey Avenue for a new duplex on a private drive. Chief Hunt also identified Weston Villa Apartments on Delicoski with eight units having separate addresses plus a utility room address needing review. Motion passed unanimously to recommend board approval of the address corrections.
+### Address Corrections for E911 Compliance
+Staff presented three addressing errors: 5915 Delicoski Street (duplex needing separate addresses), 3917 Ross Avenue (out of sequence with secondary unit), and 2211 Radkey Avenue (new duplex on private drive). Chief Hunt added another issue at Weston Villa Apartments on Delicoski where an 8-plex has eight separate addresses plus one for utility room. Motion to recommend approval passed unanimously.
 
-### Raze order for 4104 Shore Avenue
-Staff requested authorization for a raze order on an abandoned structure that has been posted since 2021 and abandoned since 2010-2014. A planned fire department training burn was cancelled due to unsafe structure conditions. The property owners, who are current on taxes, had previously housed chickens inside the structure. Demolition costs will be added to the tax roll. Motion by Olsen, seconded by Kimpie, to recommend board authorization passed unanimously.
+### Raze Order for 4104 Shore Avenue
+Staff requested authorization to begin raze proceedings on an abandoned structure that has been posted since 2021 and abandoned since 2010-2014. The fire department previously declined to conduct a training burn due to unsafe conditions. The current owners, who operate a small farm and had housed chickens in the structure, prefer this approach. Demolition costs will be added to the tax roll. Olsen moved to recommend authorization, seconded by Campkey. Motion passed unanimously.
 
 ## Public Comment
-Jim Senalt spoke regarding the new farmers market location at Kennedy Park, expressing his opinion that it was 'a terrible execution' that would destroy grassy areas. He questioned whether parking vehicles on grass violates village code and suggested ADA accessible parking spaces should be on asphalt rather than grass. He also questioned the origin of proposed fire inspections for mobile food vendors and raised concerns about code enforcement cases that have been pending for extended periods without visible progress.
+Jim Senalt spoke regarding multiple agenda items. He criticized the new farmers market location at Kennedy Park, predicting the grass would be destroyed and noting that parking vehicles on grass appears to violate village code. He questioned whether ADA-compliant parking on grass meets requirements for firm, level surfaces. He questioned the origin of the new food truck fire inspection requirement. He also raised concerns about ambiguous language regarding when mobile food vendors are prohibited and noted that some code violations on the enforcement list have been pending for years without visible progress.
 
 ## Action Items
-- Recommend approval of Chapter 50 nuisance amendments to Board of Trustees
-- Recommend approval of e-bike ordinance with emoto prohibition on roadways, sidewalks, trails, and public property to Board of Trustees
-- Michael Wodalski to develop proposal for specific areas requiring even/odd parking restrictions for July meeting
-- Michael Wodalski to contact Mount Olive Church regarding cost-sharing for crosswalk installation
-- Approve Ordinance 26-8 for mobile food vendor fire inspections
-- Recommend board approval of address corrections for E911 compliance
-- Recommend board authorization to begin raze order process for 4104 Shore Avenue
-- Investigate property on Sternberg and South Timber for potential code violations
-- Next meeting scheduled for Monday, July 6th at 5:00 PM
+- Amendments to Chapter 50 nuisances recommended to board of trustees for approval
+- E-bike ordinance with emoto prohibition on roadways, sidewalks, trails, and public property recommended to board of trustees
+- DPW Director Wodalski to identify specific problem areas for overnight parking signage and bring back to July meeting
+- DPW Director Wodalski to contact Mount Olive Church about paying for crosswalk installation costs
+- Ordinance 26-8 for mobile food vendor fire inspections recommended for approval
+- Address corrections for 5915/5917 Delicoski Street, 3913/3917 Ross Avenue, and 2211 Radkey Avenue recommended to board
+- Raze order proceedings authorized for 4104 Shore Avenue
+- Staff to investigate property at Sternberg and South Timber with furniture and dumpster in yard
+- Next meeting scheduled for Monday, July 6th at 5:00 p.m.

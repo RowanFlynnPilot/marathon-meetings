@@ -123,6 +123,13 @@
     },
     {
       "date": "2026-06-09",
+      "time": "4:00 PM",
+      "name": "Historic Preservation Commission Ad Hoc Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2481/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-09",
       "time": "5:15 PM",
       "name": "Joint Meeting of the Finance Committee and the Economic Development Committee",
       "url": "https://wausauwi.portal.civicclerk.com/event/2366/overview",
@@ -182,13 +189,6 @@
       "time": "5:00 PM",
       "name": "Bicycle & Pedestrian Advisory Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2123/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "10:30 AM",
-      "name": "Board of Public Works Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2376/overview",
       "source": "wausau"
     }
   ],

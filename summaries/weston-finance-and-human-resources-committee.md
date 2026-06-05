@@ -2,38 +2,39 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=KaLahH4JieQ  
-**Summarized:** 2026-06-05 14:46 UTC
+**Summarized:** 2026-06-05 17:53 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Finance and Human Resources Committee approved minutes and acknowledged budget reports before receiving an extensive educational presentation from Municipal Clerk Pam on the clerk's office operations, elections, licensing, and budget. Committee member Evan announced his resignation as he is moving out of the village.
+The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged April budget and financial reports. The meeting featured an educational presentation from Municipal Clerk Pam on clerk operations, elections, licensing, and departmental challenges including staffing reductions from four full-time employees to two and a half.
 
 ## Key Discussions
-### Approval of minutes from previous Finance and HR meeting
-Motion to approve made by Ernling, seconded by Daniels. Passed unanimously with no discussion.
+### Approval of minutes
+Motion to approve minutes from previous Finance and HR meeting was made by Ernling and seconded by Daniels. Passed unanimously with no discussion.
 
-### TIFF one and TIFF two detail reports
-Jessica from finance reported that TIF 1 closure is anticipated for October/November. The CDA will need to pass a resolution to call the bonds, which are due October 1st. A committee member asked if final numbers still look good, and Jessica confirmed they will be able to pay off the debt.
+### April budget status report and TIF reports
+Jessica provided the April budget status report and TIF one and TIF two detail reports. Regarding TIF closure, she explained bonds are due October 1st and the CDA will need to pass a resolution to call the bonds, likely this summer. A committee member confirmed the final numbers still look good and they will be able to pay off the debt. Motion to acknowledge items five, six, and seven was made by Daniels and seconded by Soaper, passing unanimously.
 
-### Acknowledgment of work product transmittals (items 5, 6, and 7)
-The April budget status report, TIF detail reports, and legal details report were acknowledged together. Motion by Daniels, seconded by Soaper. Passed unanimously.
+### Municipal Clerk's budget and operations presentation
+Municipal Clerk Pam presented an overview of clerk operations including elections, licensing, tax collection, and staffing. She noted the office went from four full-time staff to currently two full-time and one part-time employee. She explained postage increased from $6,000 to $15,000 due to fall presidential elections requiring more absentee ballot mailings. Regarding pet licensing fees, she explained the increase from $10 to $20 was driven by Marathon County raising fees to cover their $100,000 annual payment to the Humane Society. Discussion included the cost of the quarterly newsletter 'The Wire' at approximately $30,000 annually for postage and printing to 5,089 postal patrons.
 
-### Municipal Clerk's Office Educational Presentation
-Clerk Pam presented comprehensive overview of clerk's office operations. The office has three staff members (two full-time, one part-time), down from four full-time plus two assistants previously. She detailed election administration including Badger Books ($11,000 for four units), noting 84% of tax collection ($22 million) is handled at the clerk's office counter. Pet licensing was brought back in-house from third-party Pet Data, collecting $17,480 through March with $8,067 retained by village. Discussion occurred about newsletter costs ($30,000 annually for printing and postage), with staff noting previous attempts to eliminate mailing were reversed due to resident requests. Chief election inspector wages may be increased from current rate to $15/hour to match county averages.
+### Non-dog stray contract discussion
+Committee discussed costs of the Mountain Bay Metro non-dog stray contract, noting that eight mice collected last year cost approximately $175 per mouse. A committee member suggested looking at requiring law enforcement to bring in strays rather than allowing residents to do so directly, similar to other municipalities' contracts.
 
-### Farmers Market Update
-Renee reported the farmers market at Kennedy Park has been going well over the past three Saturdays. Vendors are happy with the setup and location. Full vendor roster with food trucks, coffee vendors, craft people, and some early produce. Committee members raised concerns about parking on Alderson and Newport streets, with staff clarifying parking is now allowed on the west side of Alderson while east side remains no parking.
+### Farmers market update
+Staff member Renee reported the farmers market at Kennedy Park has been going well. She noted Saturdays have had good attendance with full vendor capacity including food trucks, coffee vendors, craft people, and plant sellers. Tuesdays have been challenging due to cool and windy weather. Discussion addressed parking concerns on Alderson and Newport streets, with staff clarifying parking is now allowed on the west side of Alderson while east side remains no parking.
 
-### Committee Member Resignation
-Committee member Evan announced he is stepping down as this is his last meeting, as he and his wife are moving away from Weston but staying in the metro area. Committee members thanked him for his service.
+### Committee member resignation
+Committee member Evan announced he is stepping down from the committee as he and his wife are moving away from Weston, though remaining in the metro area. He thanked the committee for his time serving.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- CDA to pass resolution to call TIF 1 bonds, anticipated this summer with bonds due October 1st
-- Clerk's office to consider increasing chief election inspector pay to $15/hour for next two-year term
-- Continue seeking part-time clerk's office staff member
-- Recruit citizens for open committee positions, including this committee and others with vacancies
+- Minutes from previous meeting approved
+- April budget status report, TIF detail reports, and legal details report acknowledged
+- CDA resolution to call TIF bonds expected this summer for October 1st bond payment
+- Chief election inspector pay increase to $15/hour to be proposed for next two-year term
+- Committee seeking citizen volunteers to fill open committee spots including Evan's vacancy
 - Next meeting scheduled for Monday, June 15th at 4:30 PM
