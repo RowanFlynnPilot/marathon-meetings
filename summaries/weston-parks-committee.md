@@ -2,42 +2,40 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=NwM-PoBvvMg  
-**Summarized:** 2026-06-05 21:26 UTC
+**Summarized:** 2026-06-06 02:52 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Parks Committee deferred discussion on allowing dogs at the aquatic center to next month due to the chair's absence, approved installation of new kayak launch signs for the Plover River Trail, and received updates on Kennedy Park fundraising progress and trail maintenance challenges.
+The Village of Weston Parks Committee approved signage for Yellow Banks kayak launches and deferred discussion on allowing dogs at the aquatic center until next month when the committee chair can be present. The meeting also included updates on Kennedy Park fundraising progress and discussion of graffiti removal challenges on the Oaklair River Trail.
 
 ## Key Discussions
-### Approval of minutes
-Minutes from the April 27, 2026 meeting were approved unanimously with a motion and second. No discussion was held.
+### Approval of minutes from April 27, 2026
+Minutes were approved with a motion and second. No discussion was held and the motion carried unanimously.
 
 ### Kennedy Park update
-Director Sean Oster provided a timeline document showing the project history from the comprehensive plan approval in November 2023 through the May 9th ribbon cutting. Committee member Scott asked clarifying questions about village capital funds and the fundraising timeline. Oster explained the Friends of Kennedy Park are currently fundraising for $117,000 in field lights, have approximately $84-85,000 at the community foundation, and plan a public check presentation at their June tournament. The committee discussed that the master plan is a 10-year guiding document subject to change, with approximately $7 million in village infrastructure planned over time.
+Director Sean Oster presented a timeline of the Kennedy Park project from its inception through the May 9th ribbon cutting. Committee member Scott asked clarifying questions about fundraising timelines, with staff explaining there is no firm deadline but a 10-year goal for completion. The Friends of Kennedy Park are currently fundraising for $117,000 in lights for the upper field and have approximately $84-85,000 at the community foundation. Staff noted the friends group plans a public check presentation at their June tournament. A committee member emphasized that the Friends group deserves grace as volunteers and shouldn't be pressured to release numbers prematurely.
 
 ### Yellow Banks disc golf course update
-Staff presented photos and a PDF showing locations of fallen trees removed from the river and the installation of wood mats to protect gas pipelines during logging work. The mats were placed over two TC Energy pipelines to allow heavy equipment access. The village now has extra mats that may be used on future trail projects.
+Dan presented photos showing the location of trees removed from the river and documentation of wood mats installed over gas pipelines to protect them during logging operations. The mats are approximately 8x8 timbers with notches and lifting rings. TC Energy (formerly ATC/ANR Pipeline) inspected the work. Some extra mats remain that may be used on another trail project.
 
-### Dog day at the aquatic center
-The item was deferred to next month because Katrina, the committee chair who requested the item, was absent due to an unforeseen issue. A resident named Andy (6504 [street not fully captured]) spoke during public comment opposing dogs at the pool, stating 'There should not be animals allowed into a public pool. Period.' His objection was noted for the record.
+### Dog Day at the aquatic center
+The item was deferred to next month because Committee Chair Katrina, who requested the item, was absent due to an unforeseen issue. A resident named Andy (6504 [inaudible]) spoke during public comment opposing dogs at the pool, stating 'There should not be animals allowed into a public pool. Period.' His objection was noted for the record.
 
-### Graffiti on Oaklair River Trail
-Staff discussed challenges removing graffiti from concrete and memorial benches on the trail, noting the pressure washer cannot access the area due to steep ditches and narrow bridges. Options discussed included anti-vandalism coatings, seal coating, and potential volunteer workdays. Committee members expressed interest in community volunteer opportunities for trail maintenance. No formal action was taken; staff will explore cleaning options.
+### Graffiti on the Oaklair River Trail
+Staff explained challenges removing graffiti from concrete and memorial benches, noting their best tool is a sandblaster on a pressure washer which cannot access the trail. Options discussed included anti-vandalism coatings, seal coating, and potential volunteer workdays. Laro suggested community volunteers would likely help given how much people love the trail. No formal action was taken; staff will explore cleaning options.
 
 ### Yellow Banks kayak launch signs
-Dan from the county (2625 Northwestern Avenue) presented version 7 of signage for the Plover River kayak launches. Signs will be installed at launches 3, 4, and 5 in Weston (Highway J, Ross Avenue, and Yellow Banks). The Highway J launch will likely be closed this season due to bridge replacement. The signs include QR codes linking to the river gauge and donation information for Marathon County Parks Foundation, which funded the signs through state grants. Motion to approve installation passed unanimously.
-
-### Topics for future meetings
-Staff requested input on adding food allergy awareness signage at playgrounds, noting an email request from a community member. The committee agreed to discuss the item at a future meeting. The Mock Miller Park master plan process will begin with a kickoff meeting with Rettler consulting.
+Dan Mc from 2625 Northwestern Avenue presented version 7 of proposed signage for kayak launches along the river. Signs will be installed at launches 3, 4, and 5 in Weston (Highway J, Ross Avenue, and Yellow Banks) plus locations in Schofield. Marathon County Parks Foundation is funding the signs through state grants. The committee approved installation of the signs with a motion and second, motion carried unanimously. Staff noted the Highway J launch may be closed all season due to bridge replacement.
 
 ## Public Comment
-Two individuals provided public comment. Andy (6504 [street]) spoke in person opposing dogs at the aquatic center, stating dogs belong in rivers and lakes, not public pools. Jim Pensan (5002 [Street] Weston), speaking online under the name 'Vern M,' criticized the 4 p.m. meeting time as discouraging public participation and questioned the Kennedy Park funding report, calling the $8,700 figure 'too coincidental' and demanding transparency on funds raised from the glow event and lighting fundraiser.
+Two residents provided public comment. Andy from 6504 [inaudible] Street spoke in person opposing dogs at the aquatic center, stating animals should not be allowed in public pools and suggesting rivers and lakes are appropriate for dogs instead. Jim Pensan (appearing online as 'Vern M') from 5002 [inaudible] Street Weston criticized the 4 p.m. meeting time as discouraging public participation, questioned the Kennedy Park funding report showing exactly $8,700 in receipts and expenditures as 'too coincidental,' asked about the $10,000 grant and Glow event funds, and accused the Friends of Kennedy Park of being 'frauds' for not sharing detailed financials.
 
 ## Action Items
-- Dog day at aquatic center discussion deferred to June 22, 2026 meeting
-- Kayak launch signs approved for installation at three Weston locations (Highway J, Ross Avenue, Yellow Banks)
-- Staff to explore graffiti removal options and potential anti-vandalism coatings for Oaklair River Trail
-- Food allergy awareness signage discussion to be added to future agenda
-- Mock Miller Park master plan kickoff meeting scheduled with Rettler consulting
-- Bike and pedestrian plan open house scheduled for June 11th, 5-7 p.m. in training room
+- Approved installation of Yellow Banks kayak launch signs at village locations (to go to village board)
+- Dog Day at aquatic center discussion deferred to June meeting
+- Staff to explore graffiti removal and prevention options for Oaklair River Trail
+- Staff to investigate food allergy awareness signage for playgrounds for future discussion
+- Mock Miller master plan kickoff meeting with Rettler scheduled for next Tuesday
+- Bike and pedestrian plan open house scheduled for June 11th, 5-7 p.m.
+- Next meeting scheduled for June 22, 2026
