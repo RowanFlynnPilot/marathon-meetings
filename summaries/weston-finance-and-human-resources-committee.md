@@ -2,40 +2,45 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=KaLahH4JieQ  
-**Summarized:** 2026-06-06 13:27 UTC
+**Summarized:** 2026-06-06 17:11 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged April budget and financial reports. The meeting featured an educational presentation from Municipal Clerk Pam Akey about her department's operations, covering elections, licensing, tax collection, and the village newsletter. Committee member Evan Alborn announced his resignation as he is moving out of Weston.
+The Village of Weston Finance and Human Resources Committee held an informational meeting focused on a detailed budget presentation from the Municipal Clerk's office covering elections, licensing, tax collection, and pet licensing operations. The committee acknowledged routine financial reports and approved previous meeting minutes, with no controversial items or significant policy decisions.
 
 ## Key Discussions
 ### Approval of minutes from previous meeting
-Motion to approve made by Ernling, seconded by Daniels. Motion carried with unanimous voice vote.
+Motion to approve made by Ernling, seconded by Daniels. Passed unanimously with no discussion.
 
 ### TIF 1 and TIF 2 detail reports
-A committee member asked about the status of TIF bond payoff. Finance Director Jessica explained they are anticipating October/November for final payoff, noting the CDA will need to pass a resolution to call the bonds. She confirmed the numbers still look good and the village will be able to pay off the debt. The bonds are due October 1st.
+Jessica from finance discussed the timeline for TIF closure, anticipating October/November completion. She explained the CDA will need to pass a resolution to call the bonds, which are due October 1st. The village will notify US Bank as associate trust and DTC will handle payments to bondholders. A trustee asked about final numbers, and Jessica confirmed they will be able to pay off the debt.
 
-### Acknowledgment of work product transmittals (items 5-7)
-Motion to acknowledge the April budget status report, TIF detail reports, and legal details report was made by Daniels and seconded by Soaper. Motion carried unanimously.
+### Work product acknowledgment (items 5, 6, and 7)
+Motion to acknowledge the April budget status report, TIF reports, and legal details report made by Daniels, seconded by Soaper. Passed unanimously.
 
-### Municipal Clerk's Office presentation
-Clerk Pam Akey presented an overview of her department, which now has 2.5 staff members down from 4 full-time previously. She explained election administration including the use of Badger Books (electronic poll books at $11,000 for 4 units), noting they handled the 2024 presidential election with almost 800 registrations and over 600 in-person absentee voters on the first day. She discussed plans to increase chief inspector pay from approximately $13 to $15 per hour to match county averages. Akey explained that pet licensing was brought back in-house from third-party Pet Data, collecting $17,480 with $8,067 retained by the village. The newsletter costs approximately $30,000 annually for postage and printing to reach 5,089 postal patrons.
+### Municipal Clerk's Office Budget Presentation
+Clerk Pam presented a comprehensive overview of the clerk's office operations with staff members Sarah (full-time) and Leah (part-time). She covered election administration including Badger Book electronic poll books ($11,000 for four units), explaining postage costs increase from $6,000 to $15,000 in presidential election years due to absentee ballot volume. She noted 84% of tax collection ($22 million) comes through walk-ins at the clerk's office. Pet licensing was brought back in-house from Pet Data in 2025, collecting $17,480 through March with $8,067 retained by the village. The clerk noted newsletter printing and mailing costs total approximately $30,000 annually for four issues to 5,089 postal patrons.
 
 ### Pet licensing fee increase explanation
-Akey explained the recent increase in pet licensing fees (from $10 to $20 for neutered animals) was prompted by Marathon County raising fees charged to municipalities to cover their $100,000 annual payment to the Humane Society, which they were collecting only $65,000 for previously.
+A trustee asked about the pet licensing fee increase from $10 to $20 for neutered dogs. Pam explained Marathon County raised fees because they pay approximately $100,000 annually to the Humane Society but only collected $65,000 from municipalities. The county requested municipalities increase fees to cover the shortfall.
+
+### Non-dog stray contract discussion
+Committee members discussed the Mountain Bay Metro non-dog stray contract, noting costs of approximately $175-200 per animal including mice. One member suggested reviewing contract terms so animals must be brought in by law enforcement rather than residents to provide discretionary oversight.
 
 ### Farmers market update
-Staff member Renee reported the farmers market at Kennedy Park has been going well. She has been on-site the last three Saturdays from 6 AM for 6-7 hours helping vendors. The market is full with food trucks, coffee vendors, craft vendors, and some greenhouse produce vendors. A committee member expressed concern about parking on both sides of Alderson and Newport streets. Staff clarified parking is only allowed on the west side of Alderson, with the east side still signed no parking.
+Staff member Renee reported the farmers market has been going well, with full vendor capacity including coffee vendors, new food trucks, and craft vendors. She noted some Tuesday markets have been affected by cool and windy weather. Trustees discussed parking concerns on Alderson and Newport streets, with staff clarifying that east side of Alderson remains no parking while west side now allows parking.
 
 ### Committee member resignation
-Evan Alborn announced he is stepping down from the committee as he and his wife are moving away from Weston, though remaining in the metro area. He thanked the committee for the opportunity to serve.
+Trustee Evan announced he is stepping down from the committee as he and his wife are moving away from Weston but remaining in the metro area. Committee members thanked him for his service.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- CDA will need to pass resolution to call TIF bonds, anticipated this summer with October 1st bond due date
-- Chief inspector pay increase to $15/hour to be proposed for next election term
-- Seeking citizens to fill open committee spots - multiple vacancies exist
+- CDA to pass resolution to call TIF bonds, anticipated summer 2025
+- Contact Ellers to notify US Bank of bond call for October 1st deadline
+- Consider increasing chief election inspector pay from $13 to $15 per hour at next election term
+- Recruit additional part-time clerk's office staff member
+- Recruit citizens to fill open committee positions
 - Next meeting scheduled for Monday, June 15th at 4:30 PM
