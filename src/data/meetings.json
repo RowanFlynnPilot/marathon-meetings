@@ -11,7 +11,7 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05112026-1914",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Public Works Committee met on May 11, 2026, approving minutes and reports, awarding a $126,900 recycled asphalt crushing contract to King Gravel, adopting a resolution supporting state transportation funding, and directing staff to establish $100/day fines for illegal sanitary sewer discharges. The committee also approved construction agreements for Military Road utilities and construction services for upcoming road projects.",
+    "overview": "The Public Works Committee approved several key items including a resolution supporting state transportation funding, awarded a $126,900 recycled asphalt crushing contract to King Gravel, and directed staff to develop enforcement language for sanitary sewer discharge violations at $100/day. The committee also approved construction agreements for multiple road projects and utility connections.",
     "agenda": [
       {
         "time": "0:09",
@@ -22,15 +22,15 @@
         "item": "Pledge of Allegiance"
       },
       {
-        "time": "0:49",
+        "time": "0:52",
         "item": "Roll Call"
       },
       {
-        "time": "1:05",
+        "time": "1:02",
         "item": "Public Comment"
       },
       {
-        "time": "1:10",
+        "time": "1:08",
         "item": "Approval of April 13, 2026 Meeting Minutes"
       },
       {
@@ -42,79 +42,86 @@
         "item": "CIP Update"
       },
       {
-        "time": "18:55",
+        "time": "19:16",
         "item": "Street Operations Update"
       },
       {
-        "time": "29:45",
+        "time": "29:54",
         "item": "Utility Operations Update"
       },
       {
-        "time": "45:01",
-        "item": "2025 Water Utility PSC Annual Report"
+        "time": "44:50",
+        "item": "Review 2025 Weston Water Utility PSC Annual Report"
       },
       {
-        "time": "50:00",
+        "time": "49:45",
         "item": "Resolution 2026-014 Transportation Funding"
       },
       {
-        "time": "55:04",
-        "item": "Recycled Asphalt Crushing Contract Award"
+        "time": "52:56",
+        "item": "Recycled Base Course Production"
+      },
+      {
+        "time": "55:45",
+        "item": "Sanitary Sewer Discharge Violation Discussion"
       }
     ],
     "discussions": [
       {
         "item": "CIP Update",
-        "body": "Michael reported the village received a Local Road Improvement Grant for Birch Street reconstruction between Schofield Avenue and Community Center Drive, originally a 2029 project that will likely move to 2028. The grant covers over 50% of the estimated $1.5 million project cost. He noted the village has received over $9 million in grant funding over the past 4-5 years. Discussion included Weston Avenue road repairs by Integrity Grading and Excavating for settling over sewer trenches, and upcoming repairs on Schofield Avenue and Fuller Street for manhole issues and concrete pitting."
+        "body": "Michael reported that the village received a local road improvement grant for Birch Street reconstruction between Schofield Avenue and Community Center Drive, originally a 2029 project now likely moving to 2028. The grant covers over 50% of the approximately $1.5 million project. Michael noted the village has received over $9 million in grant funding over the past 4-5 years. Discussion included Weston Avenue repairs by Integrity Grading and Excavating for road depression issues over the sanitary sewer trench, with understanding repairs may need to continue if settlement recurs."
       },
       {
         "item": "Street Operations Update",
-        "body": "Staff reported road limits were lifted April 29th. Crews performed dewatering operations near Weston Avenue tributary for approximately one week due to flooding. A culvert failure on Jones Street required installation of a third 18-inch culvert. Equipment maintenance included removing plow equipment from trucks and servicing mowers. Two Mac tandem axle chassis have been ordered with upfitter items. Salt supply discussed - 1,500 tons ordered for November delivery with current stock adequate."
+        "body": "Staff reported on spring operations including road limit removal on April 29th, mailbox and sign repairs, and dewatering operations near Weston Avenue tributary for approximately one week. Discussion addressed flooding issues in the Crane Meadows area with potential permanent pump solutions being explored. Crews completed curb line sweeping, hot mix patching, storm damage cleanup from East Nick area, and inlet repairs before Birch Street reconstruction."
       },
       {
         "item": "Utility Operations Update",
-        "body": "Josh reported significant clear water infiltration issues, with April showing 37 million gallons pumped into the system but 53-54 million gallons treated at the wastewater plant - approximately 15 million gallons of clear water. Kathleen lift station showed clear water from sump pump discharge. In-pipe Technologies will conduct INI study when dry weather permits. Well 2 rehab started that day with Carry, and tower chemical cleaning planned."
+        "body": "Josh reported on water service repair at Caribou Coffee, well maintenance items, and sanitary sewer issues including pump maintenance and power failures at lift stations. Significant discussion focused on clear water infiltration - in April, 37 million gallons entered the system but 53-54 million gallons were treated, indicating approximately 15 million gallons of clear water from infiltration or illegal sump pump connections. The committee discussed the upcoming INI study by In-Pipe Technologies to identify problem areas."
       },
       {
         "item": "2025 Water Utility PSC Annual Report",
-        "body": "The water utility reported net operating income of $482,911 for 2025, consistent with 2024's $490,000. Water loss was 6%. Utility value increased to nearly $34 million with $6.7 million in infrastructure placed in service. PAS settlement funds of $1.44 million received. Utility serves approximately 6,100 customers - 5,250 in Weston, 830 in Rothschild. Motion to acknowledge passed unanimously."
+        "body": "Michael presented the annual Public Service Commission report showing net operating income of $482,911 for 2025, consistent with 2024's $490,000. Water loss was 6%. The utility value increased to nearly $34 million with $6.7 million in infrastructure placed in service. The utility has approximately 6,100 total customers with 5,250 in Weston and 830 in Rothschild. Motion to acknowledge passed unanimously."
       },
       {
         "item": "Resolution 2026-014 Transportation Funding",
-        "body": "Michael presented the League of Wisconsin Municipalities sample resolution supporting long-term transportation funding solutions. He noted the village has decreased public works budgets recently and Wisconsin remains affordable compared to neighboring states for vehicle ownership. Motion to adopt Resolution 2026-014 passed unanimously."
+        "body": "Michael explained this League of Wisconsin Municipalities sample resolution supports long-term funding solutions for state transportation. The resolution addresses the need for recurring annual funding for street maintenance and snow plowing rather than just one-time grant funding. The village has decreased its public works budget recently. Motion to recommend adoption passed unanimously."
       },
       {
-        "item": "Recycled Asphalt Crushing Contract",
-        "body": "King Gravel submitted the low bid at $4.23/ton for crushing approximately 30,000 tons of recycled material at Ryan Street site, totaling $126,900. PJ and Michael's Materials also bid at $4.25/ton. Michael noted this saves approximately $11/cubic yard compared to City of Wausau costs, representing about $130,000 in savings on 2026 projects. Motion to award to King Gravel passed unanimously."
+        "item": "Recycled Base Course Production",
+        "body": "Michael presented the recycling program at the Ryan Street site where concrete and asphalt are crushed into base course. King Gravel submitted the low bid at $4.23/ton for an estimated 30,000 tons totaling $126,900 (two cents lower than the next bidder at $4.25). Analysis showed this saves approximately $11 per cubic yard compared to City of Wausau costs, representing about $130,000 savings across three 2026 projects. Motion to award to King Gravel passed unanimously."
       },
       {
         "item": "Sanitary Sewer Discharge Violation Discussion",
-        "body": "Committee discussed enforcement of illegal sump pump discharges to sanitary sewers contributing to 15 million gallons of clear water treatment costs. Josh noted one Kathleen station resident admitted to illegal discharge. Committee debated fine amounts between $100-$1,000/day. Consensus reached on $100/day for first offenses, with escalation for willful violations. Motion directing staff to create enforcement language with fines not exceeding $100/day passed unanimously."
+        "body": "Staff sought guidance on enforcing violations for illegal sump pump connections to sanitary sewers. Current code allows fines of $100-$1,000 per day. Committee discussed distinguishing between unknowing violations (corrected with notice) versus willful violations. Trustee Zagami recommended $100/day starting point, noting it adds up quickly. Staff will bring cost analysis of treatment expenses to future meeting. Motion to direct staff to create enforcement language at $100/day maximum passed unanimously."
       },
       {
         "item": "Water and Sewer Connection Agreement - Radkey Avenue",
-        "body": "Michael presented agreement allowing temporary water/sewer connection for a duplex at 2230 Radkey Avenue via long lateral until Radkey Avenue reconstruction. Committee added language requiring reconstruction no later than 2029. Motion to recommend approval with 2029 deadline passed unanimously."
+        "body": "Michael presented an agreement for a duplex at 2230 Radkey Avenue to temporarily connect via long lateral until Radkey Avenue reconstruction when mains will be extended. Committee directed adding specific date language that reconstruction occur no later than 2029. Motion passed unanimously with amendment."
       },
       {
         "item": "Military Road Construction Agreement",
-        "body": "Agreement with Village of Rothschild for utility work on Military Road (Wolfman to Helin Street). Weston's share is $94,860 for sanitary sewer ($6,156) and water main ($88,704) relocation due to storm sewer conflicts. Steam Construction is the contractor. Motion to recommend approval passed unanimously."
+        "body": "The committee approved an intergovernmental agreement with Village of Rothschild for Military Road construction from Wolfman Street to Helin Street. Weston's share for sanitary sewer ($6,156) and water main ($88,704) totals $94,860. Steam Construction is the contractor. Motion passed unanimously."
       },
       {
         "item": "Construction Services Proposals",
-        "body": "For Alderson/Jelinek intersection roundabout, MSA proposed $37,315 versus Clark Dietz at $48,910 - MSA recommended due to lower cost and roundabout design involvement. For Bladel Avenue, MSA proposed $70,400 versus Clark Dietz at $73,730 - Clark Dietz recommended due to full-time experienced inspector versus MSA's summer intern. Motion to approve both recommendations passed unanimously."
+        "body": "Michael presented proposals for construction inspection services. For Alderson/Jelinek intersection project, MSA bid $37,315 versus Clark Dietz at $48,910 - MSA recommended. For Bladel Avenue, MSA bid $70,400 versus Clark Dietz at $73,730 - Clark Dietz recommended due to having full-time experienced staff rather than summer intern. Motion to approve both recommendations passed unanimously."
       }
     ],
     "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Award 2026 recycled asphalt crushing contract to King Gravel at $4.23/ton ($126,900 estimated)",
-      "Adopt Resolution 2026-014 supporting state transportation funding",
-      "Direct staff to create enforcement language for sanitary sewer discharge violations with $100/day fines",
-      "Recommend village board approve Radkey Avenue temporary utility connection agreement with 2029 reconstruction deadline",
-      "Recommend village board approve Military Road construction agreement with Rothschild ($94,860 Weston share)",
-      "Award Alderson/Jelinek construction services to MSA ($37,315) and Bladel Avenue to Clark Dietz ($73,730)",
-      "Schedule Bladel Avenue special assessment meeting for May 28, 2026 at 6:00 PM",
-      "Begin water main flushing next week with notices mailed to residents",
-      "Norcon to begin Schofield Avenue concrete repairs starting Wednesday/Thursday"
+      "April 13, 2026 meeting minutes approved",
+      "April 2026 water and sewer permits acknowledged",
+      "2025 Water Utility PSC Annual Report acknowledged",
+      "Resolution 2026-014 supporting state transportation funding recommended for board adoption",
+      "Recycled asphalt crushing contract awarded to King Gravel for $126,900 (estimated)",
+      "Staff directed to create enforcement language for sanitary sewer discharge violations at $100/day",
+      "Water/sewer connection agreement for 2230 Radkey Avenue approved with 2029 reconstruction deadline",
+      "Military Road construction agreement with Rothschild approved at $94,860 village share",
+      "MSA approved for Alderson/Jelinek construction services at $37,315",
+      "Clark Dietz approved for Bladel Avenue construction services at $73,730",
+      "Special assessment meeting scheduled for May 28, 2026 at 6:00 PM for Bladel Avenue project",
+      "Norcon to begin Schofield Avenue concrete repairs starting mid-week"
     ]
   },
   {
@@ -129,7 +136,7 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05182026-1918",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Tourism Commission held its reorganization meeting, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission learned that a competing hot air balloon event in Marshfield was canceled, potentially increasing attendance at the Weston event.",
+    "overview": "The Village of Weston Tourism Commission held its reorganization meeting, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission also received a report on the Alice in Dairyland event recently hosted in Marathon County.",
     "agenda": [
       {
         "time": "0:05",
@@ -141,15 +148,7 @@
       },
       {
         "time": "0:55",
-        "item": "Election of officers - Chair"
-      },
-      {
-        "time": "1:25",
-        "item": "Election of officers - Vice Chair"
-      },
-      {
-        "time": "2:15",
-        "item": "Election of officers - Secretary"
+        "item": "Election of officers"
       },
       {
         "time": "2:45",
@@ -157,44 +156,52 @@
       },
       {
         "time": "2:55",
-        "item": "Approval of previous meeting minutes (April 21st)"
+        "item": "Minutes of previous meeting (April 21st)"
       },
       {
         "time": "3:15",
-        "item": "New business - Grant request for Taste and Glow Balloonfest"
+        "item": "New business - Grant request: Taste and Glow Balloonfest"
       },
       {
-        "time": "8:45",
+        "time": "8:15",
+        "item": "Remarks from staff"
+      },
+      {
+        "time": "8:20",
         "item": "Remarks from commission members"
       },
       {
-        "time": "10:45",
+        "time": "10:30",
+        "item": "Remarks from chair and future items"
+      },
+      {
+        "time": "10:50",
         "item": "Adjournment"
       }
     ],
     "discussions": [
       {
         "item": "Election of Officers",
-        "body": "Trustee Erling was nominated for Chair and approved unanimously. Cushing was nominated for Vice Chair, seconded by Jackson, and approved unanimously. Renee was nominated and approved unanimously as Secretary."
+        "body": "The commission elected officers for the reorganized commission. Trustee Erling was nominated for chair and approved unanimously. Cushing was nominated for vice chair by motion, seconded by Jackson, and approved unanimously. Renee was nominated and approved unanimously as secretary."
       },
       {
-        "item": "Approval of Previous Meeting Minutes",
-        "body": "Minutes from the April 21st meeting were approved unanimously. The motion was seconded by Renee."
+        "item": "Minutes of Previous Meeting",
+        "body": "The minutes from the April 21st meeting were approved. Motion was made and seconded by Renee, passed unanimously."
       },
       {
         "item": "Grant Request - Taste and Glow Balloonfest",
-        "body": "Brandon Jill of 3308 Green Pastures Lane represented the Taste and Glow Balloonfest, reporting estimated attendance of 11,000-12,000 last year. He announced that a competing Marshfield balloon event was canceled due to permit issues, making theirs the sole hot air balloon event in the area. A commissioner questioned room usage, noting the application showed 20 fewer rooms than last year. The commission requested better tracking of hotel room data for future applications. A motion to approve $5,000 (matching last year's grant) was made and passed unanimously, with Jackson seconding."
+        "body": "Brandon Jill (3308 Green Pastures Lane) presented the grant request for the Taste and Glow Balloonfest. He reported attendance of 11,000-12,000 last year and noted a competing Marshfield event has been canceled due to permit issues, making them the sole hot air balloon event in the area. Commission members questioned room night tracking, noting the application showed 20 fewer rooms than last year. The commission requested better room tracking data from hotels for future applications. Motion to approve $5,000 grant (same as last year) was made by Erling, seconded by Jackson, and passed unanimously."
       },
       {
         "item": "Remarks from Commission Members",
-        "body": "Renee reported attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar, describing the venue and meeting the candidates. She noted the winner, Anastasia, sat at their table. This was the first time Marathon County hosted the event since the 1970s. The candidates visited local attractions including Mullen's Cheese and were impressed with the community."
+        "body": "Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She noted the candidates visited various Marathon County locations including Mullen's Cheese, and that Anastasia won the competition. This was the first time Marathon County hosted the event since the 1970s."
       }
     ],
     "publicComment": "No public comment was offered.",
     "actionItems": [
       "Approved $5,000 grant for Taste and Glow Balloonfest",
-      "Taste and Glow organizers to provide hotel room usage data in their post-event report",
-      "Next meeting scheduled for July 20th at 4:00 PM (tentative)"
+      "Taste and Glow Balloonfest organizers to provide hotel room tracking data in post-event report",
+      "Next meeting scheduled for July 20th at 4:00 PM (time to be confirmed)"
     ]
   },
   {
@@ -203,85 +210,93 @@
     "title": "Plan Commission",
     "date": "May 11, 2026",
     "shortDate": "MAY 11",
-    "committee": "Village of Weston Plan Commission",
+    "committee": "Plan Commission",
     "duration": null,
     "url": "https://www.youtube.com/watch?v=eX7VOuywzb8",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05112026-1914",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Plan Commission approved a site plan for the new Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive, and adopted a new salt storage shed inspection program for wellhead protection districts. Both items passed unanimously.",
+    "overview": "The Village of Weston Plan Commission approved the site plan for the new Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive, and adopted a new salt storage shed inspection program for wellhead protection districts. Both items passed unanimously with all commissioners present voting in favor.",
     "agenda": [
       {
         "time": "0:01",
         "item": "Call to order and roll call"
       },
       {
-        "time": "1:28",
+        "time": "1:30",
         "item": "Open public comment period"
       },
       {
-        "time": "4:48",
+        "time": "5:00",
         "item": "Approval of April 13, 2026 meeting minutes"
       },
       {
-        "time": "5:20",
+        "time": "5:30",
         "item": "Site plan review for Mountain Bay Metro Police Department and Municipal Court facility at 3600 Community Center Drive"
       },
       {
-        "time": "19:45",
-        "item": "Creation of salt storage shed inspection program for wellhead protection district"
+        "time": "20:01",
+        "item": "Salt storage shed inspection program for wellhead protection district"
       },
       {
-        "time": "28:05",
-        "item": "April 2026 staff approved certified survey map and site plan"
+        "time": "28:00",
+        "item": "April 2026 staff approved certified survey maps and site plans"
       },
       {
-        "time": "28:20",
-        "item": "April 2026 building permit report"
+        "time": "28:30",
+        "item": "April 2026 building permits"
       },
       {
-        "time": "28:35",
+        "time": "29:00",
         "item": "Planning and development department monthly project update"
       },
       {
-        "time": "30:20",
+        "time": "30:00",
         "item": "Commissioner remarks"
       },
       {
-        "time": "31:05",
-        "item": "Future agenda items"
+        "time": "31:00",
+        "item": "Future agenda items and staff comments"
       },
       {
-        "time": "34:35",
+        "time": "34:30",
         "item": "Adjournment"
       }
     ],
     "discussions": [
       {
         "item": "Site plan review for Mountain Bay Metro Police Department and Municipal Court facility",
-        "body": "Staff presented the site plan for the new police department and municipal court at 3600 Community Center Drive. Chief Jeremy explained the building was rotated to address challenges with a gas pipeline running through the property, which reduced fill costs significantly. The building is designed for 50-60 officer capacity for future growth. Discussion included questions about an alternate storage shed placement to allow for future expansion, landscaping compliance, and gas line construction requirements. A motion to recommend approval to the board of trustees with staff conditions 2-5 passed unanimously."
+        "body": "Staff presented the site plan for the new police department and municipal court at 3600 Community Center Drive. The building was rotated to address challenges with a gas pipeline running under the parking lot and to reduce fill costs. Chief Jeremy explained the building has capacity for 50-60 officers versus current staffing of 40, with expansion possible to the north. An alternate storage shed is proposed but may be deferred based on bid costs. Commissioner Garant made the motion with conditions 2-5, which passed unanimously. Discussion included questions about future expandability and positioning of the alternate shed to accommodate future growth."
       },
       {
         "item": "Salt storage shed inspection program for wellhead protection district",
-        "body": "Jennifer presented a proposed inspection program requiring two annual inspections per facility - a warm weather inspection focused on structural integrity and a winter operational inspection focused on material handling practices. The program includes a standardized inspection worksheet similar to DOT requirements. Staff noted one existing facility near the municipal well on Sternberg has never gone through the wellhead protection conditional use process and should be contacted. The commission approved the program with an amendment to require reporting back to both the Plan Commission and Public Works Committee. Motion passed unanimously."
+        "body": "Jennifer presented a new inspection program requiring two annual inspections per salt storage facility in wellhead protection areas - one warm weather inspection focusing on structural integrity and one winter operational inspection. A standardized inspection worksheet similar to DOT's format will be used. Staff identified one existing facility near Sternberg that predates the wellhead protection ordinance and has never gone through the conditional use process. The commission agreed staff should reach out to bring them into compliance. Motion to approve passed unanimously with amendment to report back to both Plan Commission and Public Works committee."
       },
       {
         "item": "April 2026 meeting minutes",
-        "body": "Motion to approve the April 13, 2026 meeting minutes as presented passed unanimously with no discussion."
+        "body": "Motion to approve minutes as presented was made, seconded, and passed unanimously with no discussion."
       },
       {
-        "item": "Planning department monthly update",
-        "body": "Jennifer announced the first meeting of the joint Plan Commission/Village Board steering committee for the comprehensive plan is scheduled for Monday, June 1st at 5:00 p.m. She will send email confirmation and calendar invites to commissioners."
+        "item": "April 2026 staff approved certified survey maps and site plans",
+        "body": "Approved unanimously with no discussion."
+      },
+      {
+        "item": "April 2026 building permits",
+        "body": "Approved unanimously with no discussion."
+      },
+      {
+        "item": "Planning and development department monthly project update",
+        "body": "Jennifer announced the first joint Plan Commission and Village Board steering committee meeting for the comprehensive plan is scheduled for Monday, June 1st at 5:00 p.m. She will send email and calendar invites to members."
       }
     ],
-    "publicComment": "Jim Pensson of 5002 Arrow Street, Weston, spoke via online connection. He urged the commission to exercise common sense on landscaping requirements for the police department project to avoid excessive taxpayer costs similar to the Green Heck Turner building. He also requested that the salt shed inspection program include annual reporting on inspection results for the limited number of facilities in wellhead protection zones.",
+    "publicComment": "Jim Pensel of 5002 Arrow Street, Weston spoke via online participation. He urged the commission to exercise common sense regarding landscaping requirements for the police department project, referencing relaxed standards applied to the Green Heck Turner building. He also requested the commission require annual reporting on the salt shed inspection program to track compliance over time.",
     "actionItems": [
-      "Site plan for Mountain Bay Metro Police Department and Municipal Court facility recommended for approval to Board of Trustees with staff conditions",
-      "Salt storage shed inspection program approved for implementation with reporting to both Plan Commission and Public Works Committee",
+      "Site plan for Mountain Bay Metro Police Department and Municipal Court facility at 3600 Community Center Drive approved with staff conditions 2-5",
+      "Salt storage shed inspection program adopted for wellhead protection district with two annual inspections per facility",
+      "Staff to report back on salt shed inspection program to both Plan Commission and Public Works committee next year",
       "Staff to reach out to existing salt storage facility on Sternberg that has not gone through wellhead protection conditional use process",
-      "Staff to report inspection findings to Plan Commission and Public Works around May 2027",
-      "First comprehensive plan steering committee meeting scheduled for June 1st at 5:00 p.m.",
-      "Future agenda item: electric vehicle charging stations expected in fall"
+      "Joint Plan Commission and Village Board steering committee meeting for comprehensive plan scheduled for June 1st at 5:00 p.m.",
+      "Staff to send presentation on residential TIF district qualifications to commission members"
     ]
   },
   {
@@ -296,87 +311,86 @@
     "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Marathon County Health & Human Services Committee held an organizational meeting for new board members, featuring educational presentations from the Health Department, Social Services, Veteran Services, and Aging & Disability Resource Center. No policy votes were taken; the meeting focused on introducing department structures, missions, and budgets to orient new committee members.",
+    "overview": "The Marathon County Health & Human Services Committee held an orientation meeting for new board members, featuring educational presentations from the Health Department, Social Services, Veteran Services, and the Aging & Disability Resource Center. No action items were voted on beyond approving April meeting minutes. The committee learned about department structures, budgets, and current initiatives including homelessness response, veteran suicide prevention, and challenges facing nutrition programs.",
     "agenda": [
       {
         "time": "0:00",
-        "item": "Call to order and remote participation confirmation"
+        "item": "Call to order and notation of remote attendance (Supervisors Kremes and Vice Chair Rosenberg)"
       },
       {
-        "time": "0:23",
+        "time": "0:25",
         "item": "Pledge of Allegiance"
       },
       {
-        "time": "0:57",
+        "time": "0:55",
         "item": "Approval of April 1st committee meeting minutes"
       },
       {
         "time": "1:30",
-        "item": "Operational functions required by statute, ordinance, resolution or policy"
+        "item": "Operations functions required by statute - no items this meeting"
       },
       {
         "time": "3:15",
-        "item": "Review of standing committee ordinance 2.04 sub5 - missions, duties, and responsibilities"
+        "item": "Educational presentations - Review of standing committee ordinance section 2.04"
       },
       {
-        "time": "12:00",
-        "item": "Health Department presentation"
+        "time": "6:45",
+        "item": "Health Department overview presentation"
       },
       {
-        "time": "25:04",
+        "time": "20:00",
         "item": "Social Services Department overview"
       },
       {
-        "time": "49:30",
-        "item": "Veteran Service Department presentation"
+        "time": "46:30",
+        "item": "Veteran Service Department overview"
       },
       {
         "time": "1:15:00",
-        "item": "Aging & Disability Resource Center presentation"
+        "item": "Aging & Disability Resource Center overview"
       },
       {
         "time": "1:30:00",
-        "item": "Next meeting date discussion and adjournment"
+        "item": "Next meeting date and adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of April 1st meeting minutes",
-        "body": "Supervisor Cavalli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion carried with all in favor by voice vote."
+        "item": "Approval of April 1st Meeting Minutes",
+        "body": "Supervisor Cavelli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion carried unanimously with no opposition."
       },
       {
-        "item": "Review of standing committee ordinance and structure",
-        "body": "Administrator Lance Leonard explained the committee's jurisdiction under ordinance 2.04 sub5, covering the Health Department, Social Services, Veteran Services, North Central Health Care, and ADRC. He outlined reporting relationships with statutory boards including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, and Board of Health. Chair Boots noted the committee will focus on developing a new strategic plan by December."
+        "item": "Standing Committee Ordinance Review",
+        "body": "Administrator Lance Leonard explained the committee's structure under ordinance section 2.04 subsection 5, covering jurisdiction over the Health Department, Social Services, Veteran Services, North Central Health Care, and the Aging & Disability Resource Center. He outlined affiliated boards including the Social Services Board, Veteran Service Commission, Transportation Coordinating Committee, and Board of Health. Chair Boots noted the committee will be working on a new strategic plan with a target completion of December."
       },
       {
-        "item": "Health Department presentation",
-        "body": "Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting from environmental hazards. The department has 37.6 FTE managing over 1,200 licenses, communicable disease response, family health programs including Nurse Family Partnership, and a new homeless system response position. She highlighted public health vending machines offering free resources including tick kits. The 2026 budget shows approximately $5 million total with about half from tax levy."
+        "item": "Health Department Presentation",
+        "body": "Health Officer Caitlyn Suginaka presented the department's mission and structure, highlighting 37.6 FTE staff across environmental health, nursing, and community health improvement teams. She discussed public health vending machines offering free supplies like tick kits, the Nurse Family Partnership program with first graduates, and the new homeless system response position created through a task force last session. Administrator Leonard noted about half of the department's $5 million budget comes from tax levy, with significant grant and fee revenue."
       },
       {
-        "item": "Social Services Department overview",
-        "body": "Administrator Leonard presented on behalf of Director Christa, describing the department's divisions: child welfare (CPS and youth justice), children's long-term support, economic support, and child support. With nearly 140 FTE, it's the second largest department. He highlighted the successful Family Keys housing stability pilot program addressing housing instability among child welfare and youth justice populations. The 2026 budget shows over $22 million total with about $7 million from tax levy."
+        "item": "Social Services Department Overview",
+        "body": "Administrator Leonard presented on behalf of Director Christa, covering the department's 140 FTE staff and $22 million budget with approximately $7 million in tax levy. He highlighted the successful Family Keys pilot program addressing housing instability for child welfare and youth justice families, noting many participants had never had a bank account or formal lease. He mentioned potential upcoming requests for restructuring including converting lead worker positions to supervisory roles."
       },
       {
-        "item": "Veteran Service Department presentation",
-        "body": "Veteran Service Officer Aaron Galindo reported the department increased from 2.75 to 3.0 FTE. Customer interactions jumped from 5,900 to 8,149 in 2025. The department helps veterans access VA healthcare and disability benefits, with $44 million annually flowing to local veterans and $2.6 million in retroactive payments in 2025. Key initiatives include surviving spouse benefits (DIC), housing stability with Center for Veterans Issues, and suicide prevention - noting 7 of 30 county suicides in 2025 were veterans. Supervisor Kremes asked about staffing adequacy; Galindo acknowledged the office is busy but managing well with appointment wait times reduced to under 3 weeks."
+        "item": "Veteran Service Department Presentation",
+        "body": "Veteran Service Officer Aaron Galindo reported the department now has 3.0 FTE and had 8,149 interactions in 2025. He highlighted $44 million in annual VA compensation flowing to county veterans and $2.6 million in retroactive payments in 2025. Key initiatives include surviving spouse benefits outreach, housing stability partnerships with Center for Veterans Issues, and suicide prevention efforts noting 7 of Marathon County's 30 suicides in 2025 were veterans. Supervisor Kremes asked about regional coordination, and Galindo confirmed good working relationships with neighboring counties while noting state statute requires each county to have its own VSO."
       },
       {
-        "item": "Aging & Disability Resource Center presentation",
-        "body": "Executive Director Mike Ray presented on the four-county ADRC serving Marathon, Lincoln, Langlade, and Wood counties. Services include information and assistance, caregiver support, dementia care, falls prevention, benefit specialists, and Meals on Wheels. He described significant financial challenges with nutrition costs up 40-45% over four years while federal funding remained flat. The Older Americans Act hasn't been reauthorized in over two years. Marathon County's 2026 contribution is $413,135. The organization relies on approximately 385-400 volunteers."
+        "item": "ADRC Presentation",
+        "body": "Executive Director Mike Ray explained the four-county regional organization serving Marathon, Lincoln, Langlade, and Wood counties with about 60 FTE and 385-400 volunteers. He discussed financial challenges with nutrition program costs up 40-45% over four years while federal funding remained flat. The organization hadn't requested a levy increase from 2011 until 2024. Marathon County's contribution is $413,135. Vice Chair Rosenberg thanked the program for culturally appropriate meals served at the Hmong American Center."
       },
       {
-        "item": "Next meeting date",
-        "body": "Vice Chair Rosenberg caught an error in the stated next meeting date. The meeting was corrected from May 29th to June 3rd at 3 PM."
+        "item": "Next Meeting Date Correction",
+        "body": "Vice Chair Rosenberg caught an error in the announced next meeting date. The correct date was confirmed as Wednesday, June 3rd at 3 PM, not May 29th which is not a Wednesday."
       }
     ],
     "publicComment": "No public comment was offered.",
     "actionItems": [
       "April 1st meeting minutes approved",
-      "North Central Healthcare to be scheduled for separate full presentation before budget process",
-      "ADRC Executive Director Mike Ray to present annual report with 2025 data to full board",
-      "Committee members to email Chair Boots and Administrator Leonard with future agenda item requests",
-      "Chair Boots to present strategic plan information at upcoming meetings",
-      "Next meeting scheduled for June 3rd at 3 PM"
+      "North Central Healthcare to be scheduled for separate full presentation before committee",
+      "Chair Boots to bring strategic plan discussion to upcoming meetings",
+      "Committee members invited to submit agenda items via email to Chair Boots and Administrator Leonard",
+      "Next meeting scheduled for Wednesday, June 3rd at 3 PM"
     ]
   },
   {
@@ -391,26 +405,26 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05182026-1918",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Board of Trustees approved increased park and recreation impact fees for new residential development, passed ordinances regulating mobile food vendors and e-bikes, and discussed ongoing challenges with the farmers market's new location at Kennedy Park. The board also adjourned the Board of Review to June 15, 2026 and approved various license renewals for the upcoming year.",
+    "overview": "The Village of Weston Board of Trustees approved increased park and recreation impact fees, passed several ordinances including mobile food vendor licensing and e-bicycle regulations, and discussed ongoing concerns about the farmers market relocation to Kennedy Park. The board also adjourned the Board of Review to June 15, 2026 and made appointments to the CLIPS committee.",
     "agenda": [
       {
         "time": "0:02",
         "item": "Board of Review called to order and adjourned to June 15, 2026"
       },
       {
-        "time": "1:16",
-        "item": "Board of Trustees meeting called to order with roll call"
+        "time": "1:07",
+        "item": "Board of Trustees meeting called to order, roll call"
       },
       {
-        "time": "1:47",
+        "time": "1:45",
         "item": "Public comments"
       },
       {
-        "time": "4:56",
+        "time": "5:00",
         "item": "Public hearing on park and recreation impact fees (Ordinance 26-010 and Resolution 2026-015)"
       },
       {
-        "time": "13:36",
+        "time": "13:42",
         "item": "Approval of minutes from previous meetings"
       },
       {
@@ -418,67 +432,76 @@
         "item": "Acknowledge reports from boards, committees, and commissions with chair updates"
       },
       {
-        "time": "23:23",
+        "time": "23:45",
         "item": "Acknowledge reports from departments"
       },
       {
-        "time": "43:43",
+        "time": "43:30",
         "item": "Work product transmittals"
       },
       {
-        "time": "46:28",
+        "time": "46:45",
         "item": "Consent agenda - vouchers and license renewals"
       },
       {
-        "time": "48:53",
-        "item": "Ordinances including mobile food vendor, nuisances, and e-bikes"
+        "time": "48:30",
+        "item": "Ordinances including mobile food vendor, nuisances, e-bicycles, and transportation funding resolution"
       },
       {
-        "time": "57:00",
+        "time": "53:45",
+        "item": "Remote meeting attendance policy amendments"
+      },
+      {
+        "time": "1:07:00",
+        "item": "Appointments to committees and commissions"
+      },
+      {
+        "time": "1:14:15",
         "item": "Discussion on farmers market location at Kennedy Park"
       }
     ],
     "discussions": [
       {
         "item": "Public Hearing - Park and Recreation Impact Fees",
-        "body": "The board held a public hearing on increasing park and recreation impact fees from $300/$250 per unit to $761 for single family, $563 for duplex, and $495 for multifamily units, consistent with the 2022 public facilities needs assessment. Jim Pitel spoke during public comment questioning the lack of detailed cost data to justify the fees. Trustee Barb supported the increase, noting population growth requires more park space. Ordinance 26-010 was approved with motion by Lopsorrell, second by Zagami, passing unanimously. Resolution 2026-015 amending the fee schedule was approved with motion by Hermling, second by Clark, passing unanimously."
+        "body": "Staff presented a proposed increase to park and recreation impact fees from $300 per single family unit to $761, $250 per duplex to $563, and multifamily to $495, based on the 2022 public facilities needs assessment. Jim Pitel spoke during public comment questioning the justification for the numbers without detailed park maintenance cost data. Trustee Motti supported the fee increase, noting population growth requires more park space. Ordinance 26-010 was approved with motion by Lope Sorrell, second by Zagami, passed unanimously. Resolution 2026-015 was approved with motion by Hermling, second by Clark, passed unanimously."
       },
       {
-        "item": "Mobile Food Vendor License Ordinance 26-008",
-        "body": "Chief Finkey explained this ordinance creates a regional reciprocal inspection agreement between Safer and municipalities including Marshfield, Wisconsin Rapids, Stevens Point, and Clover Belt. Under the new system, a food truck inspected by any participating department receives a sticker recognized by all, eliminating the need for multiple inspections across communities. Motion by Lopsorrell, second by Zagami, passed unanimously."
+        "item": "Remote Meeting Attendance Policy Amendments",
+        "body": "The board debated amendments to the remote meeting attendance policy. Discussion centered on removing specific justification requirements for remote attendance. Trustee Beck moved to amend the policy to strike sentences requiring health, safety, or welfare justifications, keeping only the requirements to notify officials 12 hours in advance, be on camera, and not participate in closed sessions. The amendment passed with two no votes from Trustees Hermling and Motti. The original motion as amended also passed with the same two dissenting votes."
       },
       {
-        "item": "Remote Meeting Attendance Policy Amendment",
-        "body": "The board debated amendments to the remote meeting attendance policy. After significant discussion, the board voted to remove language requiring specific health, safety, or welfare justifications for remote attendance and remove language prohibiting remote attendance for vacation or travel. The policy was amended to simply require 12-hour advance notice to the administrator and clerk, being on camera, and prohibition from closed sessions. Amendment motion by Beck, second by Clark passed with Hermling and Motti opposed. The amended policy then passed with the same two opposed."
+        "item": "Appointments to Committees and Commissions",
+        "body": "The president appointed Stephanie Daniels (currently on Finance and HR) and Golden Mua to the CLIPS committee. Motion by Hermling, second by Lopes, approved unanimously. The board discussed having committee applications shared in the packet for transparency. Openings remain on Parks, Finance/HR, and one more on CLIPS."
+      },
+      {
+        "item": "Mobile Food Vendor License Ordinance",
+        "body": "Chief Finkey explained the ordinance creates a regional reciprocity system where food trucks inspected by one participating municipality (including Marshfield, Wisconsin Rapids, Stevens Point, and others) receive a sticker valid across all participating communities, eliminating redundant inspections. Ordinance 26-008 was approved unanimously."
       },
       {
         "item": "Farmers Market Location Discussion",
-        "body": "The board held discussion-only on the farmers market's new location at Kennedy Park after losing their previous Camp Phillips/Scoffield Avenue location to development. Concerns were raised about parking on grass areas along Alderson creating safety issues and potential damage to fields. Renee explained the market has grown from 25 to 53 vendor stalls and generates positive revenue through vendor fees, grants, and token programs. Mount Miller Park was discussed but rejected due to poor visibility. No action was taken; the board agreed to continue monitoring the situation."
+        "body": "Board members discussed ongoing concerns about the farmers market's new location at Kennedy Park after losing their previous site to development. Trustee Beck raised safety concerns about cars parking on grass along Alderson and within the park. Renee explained the market has grown from 25 to 53 vendor spots and vendors now appreciate having vehicles with them. The board acknowledged if no suitable location can be found, they may need to suspend the market temporarily. No action was taken; this was discussion only."
       },
       {
-        "item": "Secondhand Article Dealer License - Scoffield Coin and Hobby",
-        "body": "The board approved a secondhand article dealer and secondhand jewelry dealer license for Scoffield Coin and Hobby LLC at 5703 Jamar Street. Chief Hunt explained the business deals with precious metals and large dollar transactions requiring tracking for stolen merchandise protection. The motion was amended to require satisfactory completion of background check and receipt of occupancy permit since the building is still under construction. Passed unanimously with amendments."
+        "item": "Secondhand Article Dealer License",
+        "body": "The board approved a secondhand article and jewelry dealer license for Scoffield Coin and Hobby LLC at 5703 Jamar Street. Chief Hunt explained these licenses protect against stolen merchandise sales. The motion was amended to require satisfactory background check completion and receipt of occupancy permit, as the building is still under construction. Approved unanimously as amended."
       },
       {
-        "item": "Committee Appointments",
-        "body": "The president appointed Stephanie Daniels (currently on Finance and HR) and Golden Mua to the CLIPS committee. Motion by Hermling, second by Lopsorrell, passed unanimously. The board noted openings remain on Parks, Finance/HR (two), and CLIPS (one). The board agreed to include applicant resumes in future board packets."
+        "item": "Engineering Consultant Contracts",
+        "body": "Public Works Director Michael Dolan explained the need for outside engineering consultants ($108,000 estimated) for project oversight, noting difficulty filling an engineering technician position due to limited workforce in central Wisconsin. He mentioned even consulting firms are losing employees to relocation to southern Wisconsin."
       }
     ],
-    "publicComment": "Jim Pitel of 52nd Street spoke during public comment criticizing the village for spending $108,000 on outside engineering consultants rather than filling the vacant engineering technician position. He questioned why Lisa Beck was introduced as a Safer board member at an April Fire Department meeting before being officially appointed by the board, calling it 'inappropriate government business taking action outside of this boardroom.' He also criticized the lack of detailed information on Kennedy Park funding in the board packet and called for the administrator to be held more accountable.",
+    "publicComment": "Jim Pitel of 52 Street spoke during public comment criticizing the board for hiring outside engineering consultants when an engineering technician position remains unfilled, questioning why barriers to filling the position haven't been shared with the board. He also criticized the appointment process for committees, noting Lisa Beck was introduced at a SAFER meeting before being officially appointed. Pitel complained about lack of detailed Kennedy Park information in the packet and called for better accountability from the administrator.",
     "actionItems": [
+      "Park and recreation impact fees increased effective with Ordinance 26-010 and Resolution 2026-015",
       "Board of Review adjourned to June 15, 2026",
-      "Park and recreation impact fees increased to $761 single family, $563 duplex, $495 multifamily",
-      "Mobile food vendor reciprocal inspection ordinance approved",
-      "E-bike/e-moto ordinance amendments approved",
-      "Nuisance ordinance amendments approved",
-      "Remote meeting attendance policy amended to remove justification requirements",
-      "Secondhand dealer license approved for Scoffield Coin and Hobby pending background check and occupancy permit",
+      "Comprehensive Plan Steering Committee meeting scheduled for Monday, June 1st at 6:00 PM (joint meeting with Plan Commission)",
+      "Staff to prepare intergovernmental service agreement for Ringle building inspection assistance",
+      "Weston Avenue speed limit study to be completed and brought back to board",
+      "Committee applications to be included in board packets going forward",
       "Stephanie Daniels and Golden Mua appointed to CLIPS committee",
-      "All annual license renewals approved for 2026-2027 term",
-      "Intergovernmental service agreement to be developed for building inspection assistance to Town of Ringle tornado damage",
-      "Speed limit study on Weston Avenue to be brought back to board",
-      "First comprehensive plan steering committee meeting scheduled for June 1 at 6:00 PM",
-      "Applicant resumes for committee appointments to be included in future board packets"
+      "Secondhand dealer license approved for Scoffield Coin and Hobby LLC contingent on background check and occupancy permit",
+      "Mobile food vendor regional reciprocity ordinance approved",
+      "Remote meeting attendance policy amended to remove specific justification requirements"
     ]
   },
   {
@@ -493,23 +516,23 @@
     "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Marathon County Board held an adjourned organizational meeting where committee appointments were approved, two at-large members were elected to the Executive Committee, and a resolution was unanimously passed to reduce landfill tipping fees for debris from the recent tornado and flooding disaster affecting Ringle and other communities. The board also approved consent agenda items and resolutions related to out-of-home placement reserves and social services budget amendments.",
+    "overview": "The Marathon County Board held an organizational meeting where committee appointments were approved, two at-large executive committee members were elected (Supervisors Hapa and Arstead), and a resolution was unanimously passed to reduce landfill tipping fees for debris related to the state-declared tornado and flood emergency affecting Ringle and other areas. The board suspended its rules to consider the emergency fee reduction, which allows affected residents to pay $36.94 per ton instead of the standard $65 rate through June 17th.",
     "agenda": [
       {
         "time": "0:00",
-        "item": "Pledge of Allegiance and silent moment of reflection"
+        "item": "Pledge of Allegiance and moment of reflection"
       },
       {
-        "time": "1:30",
-        "item": "Reading of notice and roll call"
+        "time": "0:30",
+        "item": "Reading of the notice and roll call"
       },
       {
         "time": "5:01",
-        "item": "Committee appointments by County Board Chair"
+        "item": "Committee appointments by Chair and Administrator"
       },
       {
         "time": "10:01",
-        "item": "Election of at-large Executive Committee members"
+        "item": "Election of at-large executive committee members"
       },
       {
         "time": "20:00",
@@ -517,7 +540,7 @@
       },
       {
         "time": "20:45",
-        "item": "Resolution 24-26: Out-of-home placement reserve increase"
+        "item": "Resolution 24-26: Out of home placement reserve increase"
       },
       {
         "time": "21:30",
@@ -525,11 +548,11 @@
       },
       {
         "time": "22:00",
-        "item": "Resolution 26-26: Landfill tipping fee modification for disaster debris"
+        "item": "Resolution 26-26: Landfill tipping fee modification for storm debris"
       },
       {
         "time": "1:10:02",
-        "item": "Motion to suspend rules for disaster tipping fee resolution"
+        "item": "Motion to suspend rules for tipping fee resolution"
       },
       {
         "time": "1:15:00",
@@ -539,38 +562,39 @@
     "discussions": [
       {
         "item": "Committee appointments",
-        "body": "Chair Gibbs presented committee appointments developed with Vice Chair Boots, emphasizing goals of increasing diversity of perspectives, developing leadership among newer supervisors (34% of the board is in first or second term), and accommodating supervisor preferences. The motion was made by Supervisor Cavelli, seconded by Supervisor Crims. The motion carried but was not unanimous."
+        "body": "Chair Gibbs outlined goals for committee appointments including increasing diversity of perspective and ensuring supervisor development opportunities. Vice Chair Boots assisted in developing the appointments. The motion was made by Supervisor Cavelli and seconded by Supervisor Crims. The motion carried but was not unanimous. Supervisor Rosenberg noted the system marked them absent without giving them an option to vote."
       },
       {
-        "item": "Election of at-large Executive Committee members",
-        "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Vice Chair Boots). Supervisor Rosenberg explained her nomination of Supervisor Leur, citing her advocacy for the county's youngest and oldest residents. Paper ballots were distributed with supervisors selecting two names. Supervisor Hapa and Supervisor Arstead were elected to the Executive Committee."
-      },
-      {
-        "item": "Resolution 26-26: Landfill tipping fee modification",
-        "body": "Administrator Leonard and Solid Waste Director Hagen Busher presented a proposal from the Solid Waste Management Board to reduce tipping fees for disaster debris from the recent tornado and flooding. The state waived its $13.10 fee, Ringle is waiving its $2.33 fee, and the county proposed reducing fees to $36.94 per ton (the commercial rate minus state and local fees) to cover operational costs. Public speakers Jessica Toasty and Matt Haybeck requested the county waive fees entirely, noting 44 homes affected and insurance adjusters still pending. After extensive discussion about costs, timing, and policy implications, the board unanimously approved suspending rules to hear the resolution, then unanimously passed Resolution 26-26."
+        "item": "Election of at-large executive committee members",
+        "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Vice Chair Boots). Supervisor Rosenberg explained she nominated Supervisor Leur because she had observed her advocating for the county's youngest and oldest residents. Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the executive committee."
       },
       {
         "item": "Consent agenda",
         "body": "Items C10 through C14A were approved on consent. Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion carried unanimously."
       },
       {
-        "item": "Resolution 24-26: Out-of-home placement reserve increase",
-        "body": "Motion by Supervisor Morash, seconded by Supervisor Robinson. The motion carried but was not unanimous."
+        "item": "Resolution 24-26: Out of home placement reserve increase",
+        "body": "Motion by Supervisor Morash, seconded by Supervisor Robinson. No discussion was offered. The motion carried but was not unanimous."
       },
       {
         "item": "Resolution 25-26: Social services budget amendment",
-        "body": "Motion by Supervisor P, seconded by Supervisor Robinson. The motion carried but was not unanimous."
+        "body": "Motion by Supervisor P, seconded by Supervisor Robinson. No discussion was offered. The motion carried but was not unanimous."
+      },
+      {
+        "item": "Resolution 26-26: Landfill tipping fee modification",
+        "body": "Administrator Leonard and Director Hagen Busher presented the proposal from the Solid Waste Management Board to reduce tipping fees for storm-related debris from the standard $65/ton to $36.94/ton for Ringle residents (or $39.27 for other areas). The state waived $13.10 and the town of Ringle waived $2.33. Leonard noted Marathon County likely won't meet the $670,743 threshold for state disaster aid but expects Ringle will qualify. He mentioned exploring partnership with the Community Foundation to help residents with unreimbursed costs. After public comment from Jessica Toasty and Matt Haybeck requesting the county wave all fees, and extensive board discussion about timing, FEMA implications, and tracking costs, the board unanimously suspended its rules to consider the resolution directly. The resolution was then approved unanimously with motion by Supervisor Arstead and second by Supervisor Morash."
       }
     ],
-    "publicComment": "Two members of the public were granted special dispensation to speak on the landfill tipping fee resolution. Jessica Toasty asked Marathon County to waive fees entirely for disaster debris, noting the state, DNR, and Ringle are all waiving their fees, and emphasized that affected residents are facing insurance deductibles and other costs not covered by insurance. She requested a six-month waiver period. Matt Haybeck spoke on behalf of residents whose homes need demolition, noting some of the approximately 44 affected homes are still waiting for insurance adjusters, and asked for relief for underinsured residents.",
+    "publicComment": "Two residents were granted special permission to speak on the landfill tipping fee resolution. Jessica Toasty requested Marathon County wave all fees, noting the state, DNR, and town of Ringle waived their portions, and that one business has spent $40,000 on cleanup while the community has been largely self-reliant. She asked for a six-month waiver. Matt Haybeck spoke on behalf of residents whose homes need demolition, requesting fee relief for underinsured homeowners and noting some of the approximately 44 affected homes still await insurance adjusters, suggesting more time is needed beyond the 60-day window.",
     "actionItems": [
-      "Committee appointments approved as presented by Chair Gibbs and Vice Chair Boots",
-      "Supervisor Hapa and Supervisor Arstead elected to at-large Executive Committee seats",
-      "Resolution 26-26 passed unanimously reducing landfill tipping fees for disaster debris through June 17, 2025",
-      "Staff directed to work with Community Foundation on potential reimbursement mechanism for unreimbursed insurance costs",
-      "Solid Waste Management Board to develop long-term disaster debris tipping fee policy within six months",
-      "Resolution 24-26 approved for out-of-home placement reserve increase",
-      "Resolution 25-26 approved for social services budget amendment"
+      "Committee appointments approved as presented by Chair Gibbs",
+      "Supervisors Hapa and Arstead elected to at-large executive committee positions",
+      "Resolution 24-26 approved for out of home placement reserve increase",
+      "Resolution 25-26 approved for social services budget amendment",
+      "Resolution 26-26 approved reducing landfill tipping fees for storm debris to $36.94/ton through June 17th",
+      "Administrator Leonard to continue discussions with Community Foundation about reimbursement mechanism for unreimbursed insurance costs",
+      "Solid Waste Management Board to develop long-term policy on handling similar disaster situations within six months",
+      "Board to revisit tipping fee extension at May meeting if needed"
     ]
   },
   {
@@ -585,77 +609,69 @@
     "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Marathon County Environmental Resources Committee approved two rezoning petitions and voted to recommend a limited fee waiver for tornado-affected properties to the county board. The committee also received educational presentations from the Solid Waste, Parks Recreation and Forestry, and Conservation Planning and Zoning departments.",
+    "overview": "The Marathon County Environmental Resources Committee approved two rezoning petitions unanimously and voted to forward a modified fee waiver resolution to the county board that will only waive reconnect fees for properties impacted by the April 17, 2026 tornado. The committee also received educational presentations from Solid Waste, Parks Recreation and Forestry, and Conservation Planning and Zoning departments.",
     "agenda": [
       {
         "time": "0:00",
         "item": "Call to order and Pledge of Allegiance"
       },
       {
-        "time": "0:45",
+        "time": "0:30",
         "item": "Public comment"
       },
       {
-        "time": "0:55",
+        "time": "0:45",
         "item": "Approval of March 31st, 2026 committee minutes"
       },
       {
         "time": "1:15",
-        "item": "Public hearing: Tim Veland rezoning petition (Urban Residential/General Agriculture to Rural Residential, Town of Green Valley)"
+        "item": "Public hearing - Tim Veland rezoning petition (urban residential/general agriculture to rural residential, Town of Green Valley)"
       },
       {
-        "time": "13:00",
-        "item": "Public hearing: Jeffrey and Cynthia Schmidtz rezoning petition (Conservancy Recreation to General Agriculture, Town of McMillan)"
+        "time": "14:00",
+        "item": "Public hearing - Jeffrey and Cynthia Schmidtz rezoning petition (Conservancy Recreation to General Agriculture, Town of McMillan)"
       },
       {
-        "time": "19:45",
-        "item": "Consideration of fee waivers for properties impacted by April 17, 2026 severe weather"
+        "time": "19:30",
+        "item": "Consideration of fee waiver for properties impacted by April 17, 2026 severe weather"
       },
       {
         "time": "55:00",
-        "item": "Educational presentation: Solid Waste Department overview"
+        "item": "Educational presentation - Solid Waste Department overview"
       },
       {
         "time": "1:20:00",
-        "item": "Educational presentation: Parks, Recreation, and Forestry Department overview"
+        "item": "Educational presentation - Parks, Recreation and Forestry Department overview"
       },
       {
         "time": "1:35:00",
-        "item": "Educational presentation: Conservation, Planning, and Zoning Department overview"
+        "item": "Educational presentation - Conservation Planning and Zoning Department overview"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of March 31st, 2026 committee minutes",
+        "item": "Approval of March 31st, 2026 minutes",
         "body": "Supervisor Sefeld made a motion to approve the minutes, seconded by Supervisor Drebeck. The motion carried unanimously with no discussion."
       },
       {
-        "item": "Tim Veland rezoning petition (Town of Green Valley)",
-        "body": "Land Use Specialist Garrett Pogle presented a petition to rezone land from Urban Residential and General Agriculture to Rural Residential for a proposed land division. The Town of Green Valley recommended approval on March 10, 2026. No public testimony was offered. Supervisor Drebeck moved to approve based on findings of fact and the town's approval, seconded by Supervisor Kurt. Motion carried unanimously."
+        "item": "Tim Veland rezoning petition - Town of Green Valley",
+        "body": "Garrett Pogle presented the staff report for rezoning from urban residential and general agriculture to rural residential for a land division. The Town of Green Valley recommended approval on March 10, 2026. No public testimony was offered. Supervisor Drebeck moved to approve based on findings of fact and town approval, seconded by Supervisor Kurt. Motion carried unanimously."
       },
       {
-        "item": "Jeffrey and Cynthia Schmidtz rezoning petition (Town of McMillan)",
-        "body": "Garrett Pogle presented a petition to rezone from Conservancy Recreation to General Agriculture. Supervisor Leur asked about the conservancy designation and potential loss of natural areas. Pogle explained the property contains a home and horse riding stable, with no natural areas being preserved - the rezone would make existing structures conforming uses. The Town of McMillan recommended approval on April 20, 2026. No public testimony was offered. Supervisor Sefeld moved to approve, seconded by Supervisor Drew. Motion carried unanimously."
+        "item": "Jeffrey and Cynthia Schmidtz rezoning petition - Town of McMillan",
+        "body": "Staff presented the petition to rezone from Conservancy Recreation to General Agriculture. Supervisor Leur asked about the conservancy nature, and Garrett Pogle explained the property has a home and horse riding stable that are non-conforming uses in conservancy, and rezoning would make them conforming. He confirmed no natural area would be lost. Town of McMillan recommended approval on April 20, 2026. Supervisor Sefeld moved to approve, seconded by Supervisor Drew. Motion carried unanimously."
       },
       {
-        "item": "Fee waivers for April 17, 2026 severe weather impacts",
-        "body": "Director Lori Mskimmons presented a proposal to waive county zoning and septic fees for properties impacted by the April 17 tornado affecting towns of Ringle, Easton, and villages of Kronenwetter and Weston. Up to 149 parcels were potentially affected. Supervisor Drew questioned where to draw the line for future events. Supervisor Drebeck raised concerns about fairness to property owners not in declared disaster areas. Eric Vogel asked about homeowners insurance coverage. After debate, Supervisor Sefeld moved to approve the full resolution. Supervisor Drebeck then offered an amendment to limit fee waivers to only reconnect permits ($160 each) for existing septic systems, excluding other zoning or new system fees. The amendment passed and the amended resolution was approved to forward to the county board, though not unanimously."
-      },
-      {
-        "item": "Solid Waste Department presentation",
-        "body": "Director Dave Hagen Busher provided an overview of the landfill operations, explaining the facility has operated since 1980 and accepts about 1,000 tons daily. He highlighted the 2023 partnership with Vidi Energy to convert landfill gas to renewable natural gas, significant capital expenses for expansions and closures ($4-6 million per project), and upcoming state-mandated leachate treatment requirements by 2032. Marilyn Bend praised the department for keeping private landfill costs in line."
-      },
-      {
-        "item": "Parks, Recreation, and Forestry Department presentation",
-        "body": "County Forest Administrator Tom Lovelin presented on behalf of Director Jamie, covering the department's 44 full-time and 120 seasonal staff serving both county and city facilities. He noted Nine Mile County Forest generates $3.25 million for the local economy from out-of-town visitors. Supervisor Sefeld announced Lovelin's retirement effective June 1st after nearly 30 years of service. The committee thanked him for his service."
+        "item": "Fee waiver for tornado-impacted properties",
+        "body": "Director Lori Mskimmons presented a proposal to waive county zoning and private on-site wastewater treatment system fees for properties impacted by the April 17, 2026 severe weather. Supervisor Drew questioned where to draw the line for future events. Supervisor Leur asked about tracking costs. Supervisor Drebeck expressed concerns about fairness to others not in declared disaster areas and questioned consistency with recent fee increases. Supervisor Sefeld moved to forward the resolution, seconded by Supervisor Leur. Supervisor Drebeck then moved to amend the resolution to only waive reconnect fees ($160) and no other pouts or zoning fees, seconded by Supervisor Kurt. The amendment passed. The amended motion to forward to county board passed but was not unanimous."
       }
     ],
     "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Rezoning from Urban Residential/General Agriculture to Rural Residential for James Offer and David Tract in Town of Green Valley approved and forwarded to County Board",
-      "Rezoning from Conservancy Recreation to General Agriculture for Jeffrey and Cynthia Schmidtz in Town of McMillan approved and forwarded to County Board",
-      "Limited fee waiver for septic reconnect permits only ($160) for properties impacted by April 17, 2026 severe weather forwarded to County Board for consideration",
-      "Staff to track costs and requests related to severe weather fee waivers for future policy development"
+      "Forward amended fee waiver resolution to county board - waiving only reconnect fees ($160) for tornado-impacted properties",
+      "Rezoning for James Offer and David Tract property forwarded to county board for approval",
+      "Rezoning for Jeffrey and Cynthia Schmidtz property forwarded to county board for approval",
+      "Staff to track costs and requests related to fee waivers for future policy development"
     ]
   },
   {
@@ -670,7 +686,7 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05262026-1920",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Parks Committee deferred discussion on allowing dogs at the aquatic center due to the chair's absence, approved installation of new kayak launch signs along the Plover River, and received updates on Kennedy Park fundraising and trail maintenance. Public commenters expressed opposition to dogs at the pool and criticized the 4 p.m. meeting time and Kennedy Park financial transparency.",
+    "overview": "The Village of Weston Parks Committee approved installation of new kayak launch signs along the Plover River, deferred discussion on dog days at the aquatic center to next month, and received updates on Kennedy Park fundraising and Yellow Banks disc golf course improvements. Public commenters criticized the meeting time and questioned Kennedy Park financial transparency.",
     "agenda": [
       {
         "time": "0:06",
@@ -682,7 +698,7 @@
       },
       {
         "time": "1:00",
-        "item": "Approval of minutes from April 27, 2026"
+        "item": "Approval of minutes from April 27th, 2026"
       },
       {
         "time": "1:15",
@@ -697,7 +713,7 @@
         "item": "Yellow Banks disc golf course update"
       },
       {
-        "time": "24:30",
+        "time": "24:00",
         "item": "Dog Day at the aquatic center"
       },
       {
@@ -716,43 +732,41 @@
     "discussions": [
       {
         "item": "Approval of minutes",
-        "body": "Minutes from the April 27, 2026 meeting were approved with a motion and second. The motion passed unanimously with no discussion."
+        "body": "Minutes from the April 27th, 2026 meeting were approved. A motion was made and seconded with no discussion. The motion carried unanimously with all present voting in favor."
       },
       {
         "item": "Kennedy Park update",
-        "body": "Director Sean Oster provided a timeline of the Kennedy Park project from the 2023 comprehensive plan approval through the May 9th ribbon cutting. Committee member Scott asked about village capital dollars, and Oster clarified no village funds are currently earmarked as they were pulled pending the master plan. The Friends of Kennedy Park currently have approximately $84-85,000 at the community foundation toward a $117,000 goal for field lights. Oster noted a public check presentation is planned at the June tournament. A committee member emphasized that Friends of Kennedy Park is a volunteer organization that deserves grace and that the 10-year timeline for the master plan allows for changes."
+        "body": "Staff presented a timeline document showing the project history from the comprehensive outdoor recreation plan approval in November 2023 through the May 9th ribbon cutting. Committee member Scott asked clarifying questions about village capital dollars and fundraising timelines. Staff explained the Friends of Kennedy Park are a volunteer nonprofit working toward a 10-year plan, currently fundraising for $117,000 in field lights with approximately $84-85,000 already at the community foundation. Staff noted the Friends group plans to make a public check presentation at their first June tournament."
       },
       {
         "item": "Yellow Banks disc golf course update",
-        "body": "Dan presented photos of fallen trees that were removed from the river and showed images of wood mat installation over gas pipelines to protect them during equipment access. The mats were provided by TC Energy (formerly ANR pipeline/ATC) and some extra mats may be used on other trail projects."
+        "body": "Staff presented photos and a PDF showing approximate locations of trees removed from the river and the installation of wooden mats over gas pipelines to protect them during equipment access. Dan explained the mats are approximately 8x8 posts with notches and lifting rings, and the village has extra mats that may be used on trail projects."
       },
       {
         "item": "Dog Day at the aquatic center",
-        "body": "Discussion was deferred to the next meeting because Committee Chair Katrina was absent due to an unforeseen issue. A public commenter named Andy from 6504 [street not fully captured] expressed opposition, stating animals should not be allowed in public pools and belong in rivers and lakes instead."
+        "body": "The committee deferred this item to next month because Committee Chair Katrina was absent due to an unforeseen issue. A public commenter named Andy (6504 [street name inaudible]) spoke against allowing dogs in the public pool, stating 'There should not be animals allowed into a public pool. Period.' The chair noted Andy's objection would be recorded."
       },
       {
         "item": "Graffiti on the Oaklair River Trail",
-        "body": "Staff explained challenges removing graffiti from concrete and benches along the trail due to limited equipment access. The pressure washer on a tandem axle trailer cannot fit on the narrow bridges. Committee discussed anti-vandalism coatings and sealer options. Lisa suggested volunteer work days, noting community members love the trail. Staff will investigate cleaning options and potentially address benches one at a time during off-season."
+        "body": "Staff explained challenges removing graffiti from concrete and benches, noting the pressure washer cannot access the trail and benches weigh 2,000 pounds each. They discussed possible solutions including anti-vandalism coatings and seal coats. Committee members suggested volunteer work days, noting community members love the trail. No formal action was taken; staff will investigate cleaning options."
       },
       {
         "item": "Yellow Banks kayak launch signs",
-        "body": "Dan presented version seven of proposed signage for kayak launches along the Plover River. Signs will be installed at Highway J, Ross Avenue, and Yellow Banks in Weston, plus locations in Schofield. Funding comes from Marathon County Parks Foundation and state grants at no cost to the village. Dan noted the Highway J launch may be closed all season due to bridge replacement. Motion to approve sign installation passed unanimously."
+        "body": "Dan from Marathon County (2625 Northwestern Avenue) presented version seven of signs for kayak launches along the Plover River. Signs will be installed at Highway J, Ross Avenue, and Yellow Banks within Weston, plus locations in Schofield. The signs include a QR code to the river gauge site and donation URL to Marathon County Parks Foundation. The committee approved a motion to allow the village to install the signs, which will go to the village board. Motion carried unanimously."
       },
       {
-        "item": "Future meeting topics",
-        "body": "Staff asked about interest in food allergy awareness signage at playgrounds after receiving an email request. Signs would be provided free and encourage keeping food at picnic tables rather than on play equipment. Committee agreed to bring this back for further discussion. Staff also announced the Mock Miller Park master plan process is beginning with Rettler, with a kickoff meeting scheduled for next Tuesday."
+        "item": "Topics for future meetings",
+        "body": "Staff asked about interest in food allergy awareness signage at playgrounds, noting an individual offered to provide signs encouraging keeping food at picnic tables rather than play equipment. The committee agreed to add this as a future agenda item for further discussion."
       }
     ],
-    "publicComment": "Two public comments were offered. Andy from 6504 [street] spoke in person opposing dogs at the aquatic center, stating animals don't belong in public pools. Jim Pensan (appearing as 'Vern M' online) from 5002 Street Weston criticized the 4 p.m. meeting time as discouraging public participation and questioned Kennedy Park financial reporting, calling the $8,700 figure 'too coincidental' and asking about a $10,000 grant and glow event funds. He suggested the Friends of Kennedy Park may be 'frauds' for not sharing detailed finances.",
+    "publicComment": "Two public comments were received. Andy (6504 [street name inaudible]) spoke in person opposing dogs at the aquatic center, stating dogs belong in rivers and lakes, not public pools. Jim Pensan (5002 [street name] Street, Weston), calling in under the name 'Vern M,' criticized the 4 p.m. meeting time as discouraging public participation and questioned Kennedy Park financial transparency, calling the $8,700 expense figure 'too coincidental' and asking about the $10,000 grant and glow event proceeds, suggesting the Friends of Kennedy Park may be 'frauds' for not sharing detailed finances.",
     "actionItems": [
-      "Minutes from April 27, 2026 approved",
+      "Kayak launch signs approved for installation at Yellow Banks, Ross Avenue, and Highway J locations - to be forwarded to village board",
       "Dog Day at aquatic center discussion deferred to June meeting",
-      "Staff to investigate graffiti removal options and anti-vandalism coatings for Oaklair River Trail",
-      "Kayak launch signs approved for installation at village locations",
-      "Food allergy awareness signage to be brought back for future discussion",
-      "Mock Miller Park master plan kickoff meeting with Rettler scheduled for next Tuesday",
-      "Bike and pedestrian plan open house scheduled for June 11, 5-7 p.m.",
-      "Next meeting scheduled for June 22, 2026"
+      "Staff to investigate graffiti removal options and possible protective coatings for Oaklair River Trail amenities",
+      "Food allergy awareness signage to be added as future agenda item",
+      "Mock Miller Park master plan process to begin with Rettler, kickoff meeting scheduled for following Tuesday",
+      "Next meeting scheduled for June 22nd, 2026"
     ]
   },
   {
@@ -767,43 +781,43 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05182026-1918",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Finance and Human Resources Committee held an informational meeting focused on a detailed budget presentation from the Municipal Clerk's office covering elections, licensing, tax collection, and pet licensing operations. The committee acknowledged routine financial reports and approved previous meeting minutes, with no controversial items or significant policy decisions.",
+    "overview": "The Village of Weston Finance and Human Resources Committee approved previous meeting minutes and acknowledged April budget and financial reports. The meeting featured an extensive educational presentation from Municipal Clerk Pam on the clerk's office operations, elections, licensing, and budget. Committee member Evan Ewert announced his resignation as he is moving out of Weston.",
     "agenda": [
       {
         "time": "0:00",
         "item": "Call to order and Pledge of Allegiance"
       },
       {
-        "time": "0:30",
+        "time": "0:45",
         "item": "Roll call"
       },
       {
-        "time": "0:45",
+        "time": "1:00",
         "item": "Public comments"
       },
       {
-        "time": "1:00",
+        "time": "1:15",
         "item": "Approval of minutes from previous Finance and HR meeting"
       },
       {
-        "time": "1:30",
+        "time": "1:35",
         "item": "April budget status report"
       },
       {
-        "time": "1:45",
-        "item": "TIF 1 and TIF 2 detail reports for April"
+        "time": "1:55",
+        "item": "TIF one and TIF two detail reports for April"
       },
       {
-        "time": "3:30",
+        "time": "3:15",
         "item": "Legal details report for April"
       },
       {
-        "time": "4:00",
-        "item": "Educational presentation - Municipal Clerk's budget overview"
+        "time": "3:40",
+        "item": "Educational presentation - Municipal Clerk's budget and office overview"
       },
       {
         "time": "45:30",
-        "item": "Staff remarks and farmers market discussion"
+        "item": "Staff remarks and farmers market update"
       },
       {
         "time": "52:30",
@@ -812,45 +826,34 @@
     ],
     "discussions": [
       {
-        "item": "Approval of minutes from previous meeting",
-        "body": "Motion to approve made by Ernling, seconded by Daniels. Passed unanimously with no discussion."
+        "item": "Approval of minutes from previous Finance and HR meeting",
+        "body": "Motion to approve minutes was made by Ernling and seconded by Daniels. The motion passed unanimously with no discussion."
       },
       {
-        "item": "TIF 1 and TIF 2 detail reports",
-        "body": "Jessica from finance discussed the timeline for TIF closure, anticipating October/November completion. She explained the CDA will need to pass a resolution to call the bonds, which are due October 1st. The village will notify US Bank as associate trust and DTC will handle payments to bondholders. A trustee asked about final numbers, and Jessica confirmed they will be able to pay off the debt."
+        "item": "TIF one and TIF two detail reports for April",
+        "body": "A committee member asked about the final numbers for TIF closure. Finance Director Jessica explained they are anticipating October/November for bond payoff, with bonds due October 1st. The CDA will need to pass a resolution to call the bonds this summer. Jessica confirmed the village will be able to pay off the debt as planned."
       },
       {
-        "item": "Work product acknowledgment (items 5, 6, and 7)",
-        "body": "Motion to acknowledge the April budget status report, TIF reports, and legal details report made by Daniels, seconded by Soaper. Passed unanimously."
+        "item": "Acknowledgment of work product transmittals (items 5, 6, and 7)",
+        "body": "Motion to acknowledge the April budget status report, TIF detail reports, and legal details report was made by Daniels and seconded by Soaper. The motion passed unanimously."
       },
       {
-        "item": "Municipal Clerk's Office Budget Presentation",
-        "body": "Clerk Pam presented a comprehensive overview of the clerk's office operations with staff members Sarah (full-time) and Leah (part-time). She covered election administration including Badger Book electronic poll books ($11,000 for four units), explaining postage costs increase from $6,000 to $15,000 in presidential election years due to absentee ballot volume. She noted 84% of tax collection ($22 million) comes through walk-ins at the clerk's office. Pet licensing was brought back in-house from Pet Data in 2025, collecting $17,480 through March with $8,067 retained by the village. The clerk noted newsletter printing and mailing costs total approximately $30,000 annually for four issues to 5,089 postal patrons."
+        "item": "Municipal Clerk's Office Educational Presentation",
+        "body": "Clerk Pam presented an overview of her department's operations including elections, licensing, tax collection, and pet licensing. She noted the office went from four full-time staff to currently two full-time and one part-time employee. She highlighted that 84% ($22 million) of tax collection is handled through walk-ins at the clerk's office. Discussion included the pet licensing fee increase from $10 to $20 for neutered dogs, which was driven by Marathon County raising fees to cover their $100,000 annual payment to the Humane Society. The committee discussed the cost of the quarterly newsletter 'The Wire' at approximately $30,000 annually for 5,089 postal patrons, with some questioning whether alternatives should be explored."
       },
       {
-        "item": "Pet licensing fee increase explanation",
-        "body": "A trustee asked about the pet licensing fee increase from $10 to $20 for neutered dogs. Pam explained Marathon County raised fees because they pay approximately $100,000 annually to the Humane Society but only collected $65,000 from municipalities. The county requested municipalities increase fees to cover the shortfall."
+        "item": "Farmers Market Update",
+        "body": "Staff member Renee provided an update on the farmers market at Kennedy Park. She reported attending the last three Saturdays for 6-7 hours each. The market has expanded to include coffee vendors, new food trucks, and craft vendors. Vendors expressed satisfaction with the new setup and location. Committee members raised concerns about parking congestion on Alderson and Newport streets, with staff clarifying parking is restricted on the east side of Alderson but allowed on the west side and both sides of Newport."
       },
       {
-        "item": "Non-dog stray contract discussion",
-        "body": "Committee members discussed the Mountain Bay Metro non-dog stray contract, noting costs of approximately $175-200 per animal including mice. One member suggested reviewing contract terms so animals must be brought in by law enforcement rather than residents to provide discretionary oversight."
-      },
-      {
-        "item": "Farmers market update",
-        "body": "Staff member Renee reported the farmers market has been going well, with full vendor capacity including coffee vendors, new food trucks, and craft vendors. She noted some Tuesday markets have been affected by cool and windy weather. Trustees discussed parking concerns on Alderson and Newport streets, with staff clarifying that east side of Alderson remains no parking while west side now allows parking."
-      },
-      {
-        "item": "Committee member resignation",
-        "body": "Trustee Evan announced he is stepping down from the committee as he and his wife are moving away from Weston but remaining in the metro area. Committee members thanked him for his service."
+        "item": "Committee Member Resignation",
+        "body": "Committee member Evan Ewert announced he is stepping down from the committee as he and his wife are moving away from Weston, though staying in the metro area. This was his last meeting. The chair noted there are now open spots on this and other committees and encouraged members to recruit interested citizens."
       }
     ],
     "publicComment": "No public comment was offered.",
     "actionItems": [
-      "CDA to pass resolution to call TIF bonds, anticipated summer 2025",
-      "Contact Ellers to notify US Bank of bond call for October 1st deadline",
-      "Consider increasing chief election inspector pay from $13 to $15 per hour at next election term",
-      "Recruit additional part-time clerk's office staff member",
-      "Recruit citizens to fill open committee positions",
+      "CDA to pass resolution to call TIF bonds this summer for October 1st payoff",
+      "Recruit new committee members to fill vacancy created by Evan Ewert's resignation",
       "Next meeting scheduled for Monday, June 15th at 4:30 PM"
     ]
   },
@@ -866,11 +869,11 @@
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05042026-1912",
     "isAgendaOnly": false,
     "badge": null,
-    "overview": "The Village of Weston Community Life and Public Safety Committee met to address several regulatory matters, recommending approval of nuisance ordinance amendments, an e-bike ordinance with restrictions on e-motos, mobile food vendor fire inspections, address corrections, and a raze order for an abandoned property. The committee also discussed overnight parking regulations but deferred action pending staff research on problem areas.",
+    "overview": "The Village of Weston Community Life and Public Safety Committee met on May 4th, taking action on several ordinance amendments and property matters. Key decisions included recommending approval of nuisance code amendments, an e-bike ordinance with added e-moto restrictions, mobile food vendor fire inspection requirements, address corrections, and a raze order for an abandoned structure on Shore Avenue.",
     "agenda": [
       {
         "time": "0:15",
-        "item": "Call to order and Pledge of Allegiance"
+        "item": "Call to order and pledge of allegiance"
       },
       {
         "time": "0:45",
@@ -881,12 +884,20 @@
         "item": "Public comments"
       },
       {
-        "time": "5:00",
+        "time": "5:30",
         "item": "Approval of minutes from previous meeting"
       },
       {
-        "time": "5:30",
-        "item": "Acknowledgment of department reports (Code Enforcement, Fire/EMS, Police)"
+        "time": "6:00",
+        "item": "Code enforcement report"
+      },
+      {
+        "time": "7:30",
+        "item": "Fire/EMS Safer report"
+      },
+      {
+        "time": "8:30",
+        "item": "Police department report"
       },
       {
         "time": "11:30",
@@ -894,73 +905,77 @@
       },
       {
         "time": "13:00",
-        "item": "E-bicycle ordinance in Chapter 82"
+        "item": "E-bicycle ordinance amendments"
       },
       {
         "time": "33:30",
-        "item": "Overnight parking regulations October 31 to May 1"
+        "item": "Overnight parking regulations discussion"
       },
       {
-        "time": "52:00",
-        "item": "Crosswalk request on Alderson Street"
+        "time": "50:00",
+        "item": "Crosswalk request for Alderson Street"
       },
       {
-        "time": "1:02:00",
-        "item": "Mobile food vendors fire inspection requirements"
+        "time": "60:00",
+        "item": "Mobile food vendors fire inspection ordinance"
       },
       {
-        "time": "1:10:30",
+        "time": "70:00",
         "item": "Address corrections for E911 compliance"
       },
       {
-        "time": "1:15:30",
+        "time": "75:00",
         "item": "Raze order for 4104 Shore Avenue"
       }
     ],
     "discussions": [
       {
+        "item": "Public Comments",
+        "body": "Jim Senalt spoke critically about the new farmers market location at a park, predicting the grass will be destroyed by vehicles parking on it. He questioned whether current village code allows parking on grass and raised concerns about ADA-compliant handicap parking being placed on grass rather than asphalt. He also questioned the new fire inspection requirement for food trucks, asking where it came from, and criticized the age of some code violation cases on the enforcement list."
+      },
+      {
         "item": "Department Reports",
-        "body": "Code Enforcement reported that 3020 Mountain View Avenue will be removed from the enforcement roll after property sale and new owner submitted repair permits. Police Chief Hunt reported 2,394 calls in March (77 per day), 410 traffic stops, and 281 citations. The department has hired its 40th officer, with recent hires starting in phases through January. Two SROs work on zoning violations during summer for Weston, Rothschild, and Schofield. Motion to acknowledge reports 5, 6, and 7 passed unanimously."
+        "body": "Staff reported that 3020 Mountain View Avenue will be removed from the code enforcement list after the property sold at auction and the new owner submitted repair permits. Chief Hunt reported the police department had 2,394 calls in March (77 per day), 410 traffic stops, and 281 citations. The department has hired its 40th officer, with the 38th starting last week, 39th in May, and 40th around January. Two SROs work with zoning violations during summer. Motion to acknowledge reports 5, 6, and 7 passed unanimously."
       },
       {
         "item": "Chapter 50 Nuisance Amendments",
-        "body": "The committee reviewed final amendments including tree limb height requirements (14 and 10 feet) that were switched as discussed in previous meetings, plus language requiring compliance with jurisdictional authority. Olsen made motion to recommend approval to board of trustees, seconded by Campkey. Motion passed unanimously."
+        "body": "The committee reviewed final amendments including switching tree limb clearance requirements to 14 and 10 feet over streets and walkways. Motion by Olsen, seconded by Campkey, to recommend approval to the Board of Trustees passed unanimously."
       },
       {
         "item": "E-Bicycle Ordinance",
-        "body": "Extensive discussion focused on e-motos, which Chief Hunt characterized as essentially electric dirt bikes that pose safety hazards. The committee debated whether to allow e-motos on roadways, sidewalks, or trails. Chief Hunt recommended prohibiting e-motos entirely on public property, comparing them to unlicensed dirt bikes. Discussion also covered electric scooters and whether exemptions for children's play scooters were needed. Olsen moved to recommend approval with amendment prohibiting e-motos on roadways, sidewalks, trails, and any public property in the village. Seconded by Chwanka. Motion passed unanimously."
+        "body": "Committee discussed the model e-bike ordinance for Chapter 82. Chief Hunt strongly advocated for prohibiting e-motos (electric dirt bikes) from roadways and sidewalks, comparing them to unlicensed motorcycles that pose safety hazards. Discussion ensued about electric scooters used by middle schoolers, with the committee deciding to leave officer discretion for kids' play scooters. Motion by Olsen, seconded by Chwanka, to recommend approval with the addition of e-motos being prohibited on roadways, sidewalks, trails, and public property passed unanimously."
       },
       {
         "item": "Overnight Parking Regulations",
-        "body": "Trustee Tolson presented research showing Weston's 12-hour parking window (4am-4pm) is significantly different from surrounding municipalities, which typically have 5-hour windows overnight. Public Works Director Michael Wodalski explained the daytime restriction helps plow operations but acknowledged most plowing doesn't reach residential streets until 7-8am. Chief Hunt favored keeping overnight restrictions to clear cars before plowing begins. Committee agreed to defer action until July, directing Wodalski to identify 6-8 problem areas that could be specifically signed rather than village-wide restrictions."
+        "body": "Trustee Tolson presented research showing Weston's 12-hour parking restriction (4am-4pm) is far outside norms of surrounding municipalities, most having 5-hour windows. Michael (DPW) suggested eliminating overnight parking restrictions and instead signing the 6-8 problem areas, mostly near apartment complexes. Chief Hunt preferred keeping overnight restrictions to give officers time to clear vehicles before plowing. The committee decided to table the item until July for Michael to identify specific exception areas."
       },
       {
-        "item": "Crosswalk on Alderson Street",
-        "body": "Mount Olive Church requested a crosswalk between their facility and DC Everest parking across the street. Committee discussed costs ($2,000-3,000 for basic crosswalk, $25,000-30,000 for lighted system) and whether the village should pay. Chief Hunt reported no incidents in the area. Motion passed directing staff to contact Mount Olive about covering installation costs; if they agree, the crosswalk would be recommended for board approval. Motion by Olsen, seconded by Chwanka, passed unanimously."
+        "item": "Alderson Street Crosswalk Request",
+        "body": "Mount Olive Church requested a crosswalk between the church and DC Everest parking area. Committee members noted no accidents have occurred and questioned costs. Michael estimated $2,000-3,000 for basic crosswalk, $25,000-30,000 for lighted system. Motion by Olsen, seconded by Chwanka, to recommend board approval contingent on Mount Olive covering installation costs passed unanimously."
       },
       {
-        "item": "Mobile Food Vendor Fire Inspections",
-        "body": "Fire Chief presented new regional fire inspection program involving Wisconsin Rapids, Marshfield, Stevens Point, Plover, Rib Mountain, and Weston. One inspection by any participating department counts for all municipalities. Fire Marshal Marty already conducted an inspection that failed due to improper LP piping and unsecured propane cylinders. Wausau opted out to do their own inspections. Motion by Chwanka to approve Ordinance 26-8, seconded by Campkey. Passed unanimously."
+        "item": "Mobile Food Vendors Fire Inspection",
+        "body": "Chief Hunt explained a regional partnership between fire departments (Wisconsin Rapids, Marshfield, Stevens Point, Plover, Rib Mountain, and Safer) for food truck inspections. One inspection with a sticker covers all participating municipalities. The city of Wausau opted out to do their own. Fire Marshal Marty recently failed one truck with galvanized steel LP piping and unsecured propane tanks. Motion by Chwanka, seconded by Campkey, to approve Ordinance 26-8 passed unanimously."
       },
       {
-        "item": "Address Corrections for E911 Compliance",
-        "body": "Staff presented three address corrections: 5915 Delicoski Street (duplex needing separate addresses), Ross Avenue properties out of sequence with existing apartment building, and 2211 Radkey Avenue for new duplex on private drive. Chief Hunt mentioned additional issue with Weston Villa Apartments having nine addresses for one structure. Motion to recommend board approval passed unanimously."
+        "item": "Address Corrections",
+        "body": "Staff presented three addressing errors: 5915 Delicoski Street needs to become 5915/5917 for a duplex; Ross Avenue addresses need resequencing due to a discovered apartment unit; and 2211 Radkey Avenue needs correction for a new duplex on a private drive. Motion to recommend approval passed unanimously."
       },
       {
         "item": "Raze Order for 4104 Shore Avenue",
-        "body": "Property has been abandoned since 2010-2011 and posted since 2021. Previous fire department training burn was canceled due to unsafe structural conditions. Current owners housed chickens in the structure during winter. Owners are current on taxes and preferred the raze order process. Demolition costs will be added to tax roll. Motion by Olsen, seconded by Campkey, passed unanimously."
+        "body": "Staff requested authorization for a raze order on an abandoned structure. The property has been abandoned since 2010-2011, with the structure previously used as a chicken coop. A fire department training burn was deemed unsafe due to building condition. Current owners prefer the village proceed with demolition; costs will be placed on tax roll. Motion by Olsen, seconded by Campkey, passed unanimously."
       }
     ],
-    "publicComment": "Jim Senalt spoke during public comment criticizing the new farmers market location, predicting the park's grassy areas will be destroyed by summer's end. He questioned parking vehicles on grass potentially violating village code, noted ADA handicap spaces are on grass rather than required firm surfaces, questioned the origin of new food truck fire inspections, raised concerns about mobile food vendor regulations on public property, and criticized long-standing code enforcement cases showing no visible progress.",
+    "publicComment": "Jim Senalt spoke during public comment, criticizing the new farmers market location execution, questioning ADA compliance of handicap parking on grass, asking about the origin of new food truck fire inspections, and expressing concern about the age of pending code violation cases.",
     "actionItems": [
-      "Recommend Chapter 50 nuisance amendments to board of trustees for approval",
-      "Recommend e-bike ordinance to board with amendment prohibiting e-motos on all public property",
-      "Public Works Director to identify 6-8 specific problem areas for potential parking signage before July meeting",
-      "Staff to contact Mount Olive Church about covering crosswalk installation costs",
-      "Ordinance 26-8 for mobile food vendor fire inspections recommended for board approval",
-      "Address corrections for three properties recommended for board approval",
-      "Begin raze order process for 4104 Shore Avenue",
-      "Investigate property complaint at Sternberg and South Timber regarding furniture and dumpster"
+      "Recommend Chapter 50 nuisance amendments to Board of Trustees",
+      "Recommend e-bike ordinance with e-moto prohibition to Board of Trustees",
+      "Michael (DPW) to identify specific areas needing signed parking restrictions for July meeting",
+      "Michael to contact Mount Olive Church about covering crosswalk installation costs",
+      "Approve Ordinance 26-8 for mobile food vendor fire inspections",
+      "Recommend address corrections to Board of Trustees",
+      "Authorize raze order proceedings for 4104 Shore Avenue",
+      "Staff to investigate property at Sternberg and South Timber with furniture and dumpster outside"
     ]
   },
   {
