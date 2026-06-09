@@ -2,30 +2,30 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=ee6clAtgrYw  
-**Summarized:** 2026-06-09 18:07 UTC
+**Summarized:** 2026-06-09 21:51 UTC
 
 ---
 
 ## Meeting Overview
-The Village of Weston Tourism Commission held its first meeting following reorganization, electing new officers and approving a $5,000 grant for the Taste and Glow Balloonfest. The commission learned that a competing hot air balloon event in Marshfield was canceled, potentially increasing attendance at the Weston event.
+The Village of Weston Tourism Commission held its first meeting following reorganization, electing new officers and approving a $5,000 grant to the Taste and Glow Balloonfest. The commission learned that a competing hot air balloon event in Marshfield was canceled, potentially increasing attendance at the Weston event.
 
 ## Key Discussions
-### Election of officers
-Trustee Erling was nominated for chair and approved unanimously. Cushing was nominated for vice chair by a commissioner, seconded by Jackson, and approved unanimously. Renee was nominated and approved as secretary. There was brief procedural confusion about whether the vice chair nomination had been seconded.
+### Election of Officers
+The commission elected Trustee Erling as Chair, Cushing as Vice Chair (seconded by Jackson after initial procedural confusion), and Renee as Secretary. All elections passed unanimously with no opposition.
 
-### Minutes of previous meeting
-Minutes from April 21st were approved unanimously with a motion and second by Renee.
+### Minutes of Previous Meeting
+Minutes from the April 21st meeting were approved. Motion was seconded by Renee and passed unanimously.
 
-### Grant request: Taste and Glow Balloonfest
-Brandon Jill (3308 Green Pastures Lane) represented the Taste and Glow Balloonfest, reporting estimated attendance of 11,000-12,000 last year. He announced that a competing Marshfield hot air balloon event was canceled due to permit issues, making their event the sole hot air balloon event in the area. Commission members questioned room usage, noting the application showed 20 fewer rooms than last year. The commission approved a $5,000 grant matching last year's amount, with a request for better hotel room tracking data in post-event reports to help justify future funding decisions. Motion passed unanimously.
+### Grant Request - Taste and Glow Balloonfest
+Brandon Jill (3308 Green Pastures Lane) presented on behalf of the event, reporting approximately 11,000-12,000 attendees last year. He announced that a competing Marshfield balloon event was canceled due to permit issues, making Taste and Glow the sole hot air balloon event in the area. Commissioner Hodal asked about room tracking and suggested getting accurate hotel room data to help future decisions. The commission noted the application showed 20 fewer rooms than last year. A motion to approve $5,000 (same as last year) was made by Chair Erling, seconded by Jackson, and passed unanimously. The commission requested better room tracking data for future reports.
 
-### Remarks from commission members
-Renee reported attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates, including winner Anastasia, and noted the candidates toured Marathon County locations including Mullen's Cheese. This was the first time Marathon County hosted the event since the 1970s.
+### Remarks from Commission Members
+Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates, noting the winner Anastasia had three bachelor's degrees. This was the first time the event was hosted in Marathon County since the 1970s. The candidates visited local attractions including Mullen's Cheese and expressed appreciation for the Marathon County community.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Approved $5,000 grant to Taste and Glow Balloonfest
-- Taste and Glow Balloonfest to provide hotel room usage data in post-event report
-- Next meeting scheduled for July 20th at 4:00 PM
+- Approved $5,000 grant to Taste and Glow Balloonfest for their annual event
+- Taste and Glow representatives to provide accurate hotel room usage data in their post-event report
+- Next meeting scheduled for July 20th at 4:00 PM (tentative)
