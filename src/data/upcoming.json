@@ -115,13 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-08",
-      "time": "4:45 PM",
-      "name": "Human Resources Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2030/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-09",
       "time": "2:00 PM",
       "name": "Board of Public Works Meeting",
@@ -197,23 +190,16 @@
       "name": "Police & Fire Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2148/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "8:30 AM",
+      "name": "Capital Improvement Projects Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2483/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-06-08",
-      "time": "",
-      "name": "Plan Commission",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06082026-1924",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-08",
-      "time": "",
-      "name": "Public Works Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06082026-1926",
-      "source": "weston"
-    },
     {
       "date": "2026-06-09",
       "time": "",
@@ -314,20 +300,6 @@
     }
   ],
   "school_board": [
-    {
-      "date": "2026-06-08",
-      "time": "5:00 PM",
-      "name": "Regular Meeting",
-      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
-      "source": "school_board"
-    },
-    {
-      "date": "2026-06-08",
-      "time": "5:00 PM",
-      "name": "Regular Board Meeting",
-      "url": "https://meetings.boardbook.org/Public/Organization/1360",
-      "source": "school_board"
-    },
     {
       "date": "2026-06-22",
       "time": "5:00 PM",
