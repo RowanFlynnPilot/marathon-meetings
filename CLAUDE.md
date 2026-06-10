@@ -34,8 +34,10 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 |---|---|---|---|
 | Marathon County | `marathon` | `@marathoncountyboardmeetings` | marathoncounty.gov |
 | City of Wausau | `wausau` | `@CityofWausauMeetings` | CivicClerk (wausauwi.portal.civicclerk.com) |
-| Village of Weston | `weston` | — | AgendaCenter (westonwi.gov/agendacenter) |
-| Wausau School Board | `school_board` | — | BoardBook (meetings.boardbook.org, org 1360) |
+| Village of Weston | `weston` | `@WestonWI` | AgendaCenter (westonwi.gov/agendacenter) |
+| Wausau School Board | `school_board` | channel `UCw63l8UWL_hpDtUy9IBIVvw` ("Wausau School District Board of Education" — NOT the empty `@wausauschoolboard`) | BoardBook (meetings.boardbook.org, org 1360) |
+
+School board meetings are created from BoardBook (`bb_` IDs, agenda-only). The district posts recordings to YouTube days-to-weeks later; the `[sb-video]` upgrade pass in `marathon_meeting_summarizer.py` matches recordings to BoardBook entries by date + meeting type and re-summarizes from the transcript (window: `SCHOOL_BOARD_VIDEO_DAYS`, default 45).
 
 ## Upcoming Meeting Schedule Logic
 - **Marathon County:** Rule-based (committee schedules follow nth-weekday patterns)

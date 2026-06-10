@@ -48,7 +48,11 @@ CHANNELS = {
     },
     "school_board": {
         "label":       "Wausau School Board",
-        "url":         "https://www.youtube.com/@wausauschoolboard/videos",
+        # NOT @wausauschoolboard (that handle is empty) — the district posts
+        # recordings under "Wausau School District Board of Education".
+        # Uploads typically lag the meeting by days-to-weeks; the sb-video
+        # upgrade pass in main() matches them to BoardBook entries.
+        "url":         "https://www.youtube.com/channel/UCw63l8UWL_hpDtUy9IBIVvw/videos",
         "doc_pattern": None,   # Docs scraped from BoardBook, not YouTube descriptions
         "boardbook_org": 1360, # BoardBook organization ID
     },
@@ -126,7 +130,7 @@ def save_state(state):
 
 def mark_processed(state, video_id, title, source, summary_path,
                    doc_url=None, upload_date=None, meeting_date=None,
-                   duration=None):
+                   duration=None, video_url=None):
     """Record a processed video.
 
     upload_date   = YYYYMMDD from YouTube (when the video was uploaded — often
@@ -136,6 +140,9 @@ def mark_processed(state, video_id, title, source, summary_path,
                     inject_meetings.py uses to render the displayed date.
     duration      = video length in seconds (yt-dlp's integer `duration`);
                     omitted for agenda-only entries.
+    video_url     = YouTube watch URL for BoardBook (bb_) entries that were
+                    upgraded from a recording — the synthetic bb_ ID can't be
+                    turned into a watch URL, so it must be stored explicitly.
     """
     prior = state["processed"].get(video_id, {})
     state["processed"][video_id] = {
@@ -145,6 +152,7 @@ def mark_processed(state, video_id, title, source, summary_path,
         "upload_date":  upload_date  or prior.get("upload_date"),
         "meeting_date": meeting_date or prior.get("meeting_date"),
         "duration":     duration     or prior.get("duration"),
+        "video_url":    video_url    or prior.get("video_url"),
         "processed_at": prior.get("processed_at") or datetime.now(timezone.utc).isoformat(),
         "summary_file": summary_path,
     }
@@ -1452,6 +1460,45 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
     return True
 
 
+def _match_school_board_video(info: dict, videos: list[dict]) -> dict | None:
+    """Match a BoardBook meeting record to a district YouTube video.
+
+    Match by meeting date (from the video title's date suffix) plus meeting
+    type, since multiple board meetings can share a date (e.g. 5/18/26 had
+    both an Ed/Op Committee meeting and a Special meeting). Returns None
+    unless exactly one video matches — better to stay agenda-only than to
+    attach the wrong recording.
+    """
+    # Older state entries predate the meeting_date field — fall back to the
+    # date suffix in the BoardBook title ("Regular Meeting - 2026-05-11").
+    mdate = info.get("meeting_date") or _parse_date_from_title(info.get("title", ""))
+    if not mdate:
+        return None
+    same_day = [v for v in videos
+                if (v.get("meeting_date") or _parse_date_from_title(v.get("title", ""))) == mdate]
+    if not same_day:
+        return None
+
+    def _mtype(t: str) -> str:
+        t = t.lower()
+        if "special" in t:
+            return "special"
+        # BoardBook calls it "Committee of the Whole"; the channel titles it
+        # "Ed/Op Committee Meeting" — both are the committee meeting.
+        if "committee" in t or "ed/op" in t:
+            return "committee"
+        # "Public Meeting" entries are hearings/quorum notices, not board
+        # meetings — without this they'd classify as "regular" and steal the
+        # Regular Meeting's recording on shared dates.
+        if "public meeting" in t:
+            return "public"
+        return "regular"
+
+    want = _mtype(info.get("title", ""))
+    matches = [v for v in same_day if _mtype(v.get("title", "")) == want]
+    return matches[0] if len(matches) == 1 else None
+
+
 def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
     """
     Check BoardBook for any new school board meetings not yet processed.
@@ -1746,6 +1793,81 @@ def main():
 
     if retry_candidates:
         print(f"[retry]  Upgraded {retried_ok}/{len(retry_candidates)} entry/entries to transcript-based summaries.")
+
+    # ── School board: upgrade agenda-only BoardBook entries from YouTube ──────
+    # The district posts meeting recordings to the "Wausau School District
+    # Board of Education" channel, typically days-to-weeks after the meeting.
+    # BoardBook stays the canonical source of meetings (bb_ IDs); this pass
+    # finds the matching recording for recent agenda-only entries and
+    # re-summarizes from the real transcript.
+    SB_VIDEO_DAYS = int(os.environ.get("SCHOOL_BOARD_VIDEO_DAYS", "45"))
+    if "school_board" in sources and not args.dry_run:
+        sb_candidates = []
+        for vid_id, info in list(state.get("processed", {}).items()):
+            if not vid_id.startswith("bb_") or info.get("source") != "school_board":
+                continue
+            # Older state entries predate the meeting_date field — fall back
+            # to the date suffix in the BoardBook title.
+            mdate = info.get("meeting_date") or _parse_date_from_title(info.get("title", ""))
+            if not (len(mdate) == 8 and mdate.isdigit()):
+                continue
+            try:
+                age_days = (datetime.now() - datetime.strptime(mdate, "%Y%m%d")).days
+            except ValueError:
+                continue
+            if age_days < 0 or age_days > SB_VIDEO_DAYS:
+                continue
+            sf = info.get("summary_file", "")
+            sjson = sf.replace(".md", "_summary.json") if sf else ""
+            if not sjson or not Path(sjson).exists():
+                continue
+            try:
+                existing = json.loads(Path(sjson).read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                continue
+            if existing.get("_source") == "transcript":
+                continue   # already upgraded from a recording
+            sb_candidates.append((vid_id, info))
+
+        if sb_candidates:
+            print(f"\n[sb-video]  {len(sb_candidates)} school board agenda-only "
+                  f"entry/entries within {SB_VIDEO_DAYS} days — checking YouTube for recordings...")
+            try:
+                sb_videos = fetch_channel_videos("school_board")
+            except Exception as e:
+                logger.warning("school board channel fetch failed: %s", e)
+                sb_videos = []
+            for vid_id, info in sb_candidates:
+                video = _match_school_board_video(info, sb_videos)
+                if not video:
+                    continue
+                print(f"   [match] {info['title']} -> {video['id']} ({video['title'][:60]})")
+                try:
+                    transcript = fetch_transcript(video["url"], source_key="school_board",
+                                                  upload_date=video.get("upload_date", ""))
+                except Exception as e:
+                    print(f"   [warn]  transcript fetch failed: {str(e)[:120]}")
+                    continue
+                if not transcript or len(transcript) < 200:
+                    continue
+                try:
+                    summary = summarize_meeting(transcript, info["title"], video["url"],
+                                                "school_board")
+                except Exception as e:
+                    logger.warning("sb-video: summarization failed for %s: %s", vid_id, e)
+                    continue
+                new_path = save_summary(info["title"], video["url"], "school_board",
+                                        summary, doc_url=info.get("doc_url"),
+                                        video_id=vid_id)
+                mark_processed(state, vid_id, info["title"], "school_board", new_path,
+                               doc_url=info.get("doc_url"),
+                               upload_date=info.get("upload_date"),
+                               meeting_date=info.get("meeting_date"),
+                               duration=video.get("duration"),
+                               video_url=video["url"])
+                save_state(state)
+                upgraded_ids.append(vid_id)
+                print(f"   [ok]  upgraded {vid_id} from recording ({len(transcript):,} chars)")
 
     # Force re-injection of upgraded entries by removing them from the
     # injected_meetings.json tracker. inject_meetings will then re-build them.

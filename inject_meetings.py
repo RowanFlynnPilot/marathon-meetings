@@ -229,7 +229,10 @@ def build_meeting(
 
     is_boardbook = video_id.startswith("bb_")
     if is_boardbook:
-        yt_url = doc_url or "https://meetings.boardbook.org/Public/Organization/1360"
+        # video_url is set when the sb-video pass matched a district recording
+        # to this BoardBook entry — link the card to the actual video then.
+        yt_url = info.get("video_url") or doc_url \
+            or "https://meetings.boardbook.org/Public/Organization/1360"
     else:
         yt_url = f"https://www.youtube.com/watch?v={video_id}"
 
@@ -249,7 +252,10 @@ def build_meeting(
         clean_title = re.sub(r'^Wausau School (Board|District)\s+', '', clean_title, flags=re.IGNORECASE).strip()
 
     agenda_items = summary.get("agenda") or [{"time": "0:00", "item": "Meeting convened"}]
-    is_agenda_only = is_boardbook or summary.get("_source") == "agenda"
+    # BoardBook entries are agenda-only by default, but the sb-video pass can
+    # upgrade them from a district recording (_source == "transcript").
+    is_agenda_only = (summary.get("_source") == "agenda") or \
+                     (is_boardbook and summary.get("_source") != "transcript")
 
     # Duration from state (yt-dlp returns video length in seconds). Format as
     # "Hh Mm" / "Mm". For agenda-only meetings there's no recording, so leave
