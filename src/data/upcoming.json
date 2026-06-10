@@ -1,13 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-06-09",
-      "time": "5:00 PM",
-      "name": "Public Safety Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-06-10",
       "time": "5:00 PM",
       "name": "Extension, Education & Econ Dev Committee",
@@ -115,34 +108,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-09",
-      "time": "2:00 PM",
-      "name": "Board of Public Works Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2362/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-09",
-      "time": "4:00 PM",
-      "name": "Historic Preservation Commission Ad Hoc Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2481/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-09",
-      "time": "5:15 PM",
-      "name": "Joint Meeting of the Finance Committee and the Economic Development Committee",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2366/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-09",
-      "time": "6:30 PM",
-      "name": "Common Council Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/1966/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-10",
       "time": "6:00 PM",
       "name": "Airport Committee Meeting",
@@ -197,16 +162,37 @@
       "name": "Capital Improvement Projects Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2483/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "5:00 PM",
+      "name": "Bicycle & Pedestrian Advisory Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2123/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2376/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2428/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
+      "time": "6:30 PM",
+      "name": "Common Council Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1979/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-06-09",
-      "time": "",
-      "name": "S.A.F.E.R. Board of Directors",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06092026-1927",
-      "source": "weston"
-    },
     {
       "date": "2026-06-15",
       "time": "5:30 PM",
