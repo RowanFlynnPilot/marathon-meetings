@@ -1,0 +1,62 @@
+# Village Board Meeting - 2026-06-08
+
+**Organization:** Village of Kronenwetter  
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59  
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf  
+**Summarized:** 2026-06-10 20:26 UTC
+
+---
+
+## Meeting Overview
+Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on June 8, 2026, to address the 2024 village audit, consider multiple licensing renewals and appointments, and review proposals for municipal infrastructure projects including a public works truck purchase and garage building plans. The meeting also included staff reports and was set to convene in closed session to discuss employee performance evaluations.
+
+## Key Discussions
+### 2024 Village Audit
+The board was scheduled to discuss and take possible action on the 2024 village audit review. This item was set for discussion and potential approval by the board.
+
+### Operator Bartender License - Cory P. Boykins
+The board was scheduled to consider an operator bartender license application for Cory P. Boykins as part of the consent agenda. This licensing matter was set for discussion and possible action.
+
+### Alcohol Beverage License Renewals 2026-2027
+The board was scheduled to consider renewal of alcohol beverage licenses for the 2026-2027 period. These renewals were included in the consent agenda for discussion and possible action.
+
+### Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027
+The board was scheduled to consider renewal of cigarette, tobacco, and electronic vaping device licenses for the 2026-2027 period. These renewals were set for discussion and possible action as part of the consent agenda.
+
+### Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280
+The board was scheduled to review and consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280. This item was set for discussion and possible action on the consent agenda.
+
+### Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department
+The board was scheduled to consider the purchase of a new 3/4-ton crew cab truck for the village's Public Works Department. This capital equipment acquisition was set for discussion and possible action under new business.
+
+### Appointment of Village Board Trustee
+The board was scheduled to consider the appointment of a new village board trustee. This personnel action was set for discussion and possible action under new business.
+
+### Municipal Garage Building Proposals (CLIPP)
+The board was scheduled to review and discuss municipal garage building proposals under the CLIPP initiative. This item was set for discussion and possible action regarding village infrastructure improvements.
+
+### Kronenwetter Park Committee (CLIPP)
+The board was scheduled to address matters related to the Kronenwetter Park Committee under the CLIPP program. This item was set for discussion and possible action regarding park management or development.
+
+### Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)
+The board was scheduled to discuss trails and leisure amenities for village-owned property on Lea Road under the CLIPP initiative. This item was set for discussion and possible action regarding recreational facilities development.
+
+### Staff Performance Evaluations
+The board was scheduled to convene in closed session to consider staff performance evaluations pursuant to Wisconsin Statute 19.85(1)(c). This discussion was set to address employment matters in a closed session.
+
+## Public Comment
+Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.
+
+## Action Items
+- scheduled to vote on 2024 village audit
+- scheduled to consider operator bartender license for Cory P. Boykins
+- scheduled to vote on alcohol beverage license renewals for 2026-2027
+- scheduled to vote on cigarette, tobacco, and electronic vaping device license renewals for 2026-2027
+- scheduled to consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280
+- scheduled to approve meeting minutes from June 1, 2026 special and rescheduled meetings
+- expected to vote on purchase of 3/4-ton crew cab truck for Public Works Department
+- expected to make appointment of village board trustee
+- scheduled to consider municipal garage building proposals
+- scheduled to discuss Kronenwetter Park Committee matters
+- scheduled to consider trails and leisure development for Lea Road property
+- scheduled to discuss and take action after closed session staff performance evaluations

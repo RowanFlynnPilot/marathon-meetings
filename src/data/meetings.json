@@ -1,5 +1,177 @@
 [
   {
+    "id": "kw_c427847ae4914e0b8e48bbb4f7095c9b",
+    "source": "kronenwetter",
+    "title": "Special Village Board Meeting",
+    "date": "June 9, 2026",
+    "shortDate": "JUN 9",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-12",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c427847ae4914e0b8e48bbb4f7095c9b.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special Village Board meeting was scheduled to convene in closed session to interview a Community Development Director candidate and consider related employment matters. The meeting was set for June 9, 2026, at the Kronenwetter Municipal Center.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Closed session pursuant to Wis. Stat. 19.85(1)(c) for consideration of employment, promotion, compensation or performance evaluation data of any public employee - Interviewing Community Development Director Candidate"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene into open session"
+      },
+      {
+        "time": "N/A",
+        "item": "Action after closed session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session - Community Development Director Candidate Interview",
+        "body": "The board was scheduled to convene in closed session to interview a Community Development Director candidate and consider related employment matters including potential promotion, compensation, and performance evaluation data. The closed session was authorized under Wisconsin Statute 19.85(1)(c) for matters involving public employee personnel decisions."
+      },
+      {
+        "item": "Action After Closed Session",
+        "body": "Following reconvention in open session, the board was scheduled to take action on matters discussed during the closed session, though the specific nature of such action was not detailed on the agenda."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Scheduled to interview Community Development Director candidate in closed session",
+      "Expected to reconvene in open session and consider action items"
+    ]
+  },
+  {
+    "id": "kw_6d1d3c94a7f74afab4563e23babf4de8",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "June 8, 2026",
+    "shortDate": "JUN 8",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on June 8, 2026, to address the 2024 village audit, consider multiple licensing renewals and appointments, and review proposals for municipal infrastructure projects including a public works truck purchase and garage building plans. The meeting also included staff reports and was set to convene in closed session to discuss employee performance evaluations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "2024 Village Audit - Discussion and Possible Action"
+      },
+      {
+        "time": "N/A",
+        "item": "Operator Bartender License - Cory P. Boykins"
+      },
+      {
+        "time": "N/A",
+        "item": "Alcohol Beverage License Renewals 2026-2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280"
+      },
+      {
+        "time": "N/A",
+        "item": "June 1, 2026 Special Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "June 1, 2026 Rescheduled Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department"
+      },
+      {
+        "time": "N/A",
+        "item": "Appointment of Village Board Trustee"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Garage Building Proposals (CLIPP)"
+      },
+      {
+        "time": "N/A",
+        "item": "Kronenwetter Park Committee (CLIPP)"
+      },
+      {
+        "time": "N/A",
+        "item": "Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Performance Evaluations - Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2024 Village Audit",
+        "body": "The board was scheduled to discuss and take possible action on the 2024 village audit review. This item was set for discussion and potential approval by the board."
+      },
+      {
+        "item": "Operator Bartender License - Cory P. Boykins",
+        "body": "The board was scheduled to consider an operator bartender license application for Cory P. Boykins as part of the consent agenda. This licensing matter was set for discussion and possible action."
+      },
+      {
+        "item": "Alcohol Beverage License Renewals 2026-2027",
+        "body": "The board was scheduled to consider renewal of alcohol beverage licenses for the 2026-2027 period. These renewals were included in the consent agenda for discussion and possible action."
+      },
+      {
+        "item": "Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027",
+        "body": "The board was scheduled to consider renewal of cigarette, tobacco, and electronic vaping device licenses for the 2026-2027 period. These renewals were set for discussion and possible action as part of the consent agenda."
+      },
+      {
+        "item": "Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280",
+        "body": "The board was scheduled to review and consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280. This item was set for discussion and possible action on the consent agenda."
+      },
+      {
+        "item": "Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department",
+        "body": "The board was scheduled to consider the purchase of a new 3/4-ton crew cab truck for the village's Public Works Department. This capital equipment acquisition was set for discussion and possible action under new business."
+      },
+      {
+        "item": "Appointment of Village Board Trustee",
+        "body": "The board was scheduled to consider the appointment of a new village board trustee. This personnel action was set for discussion and possible action under new business."
+      },
+      {
+        "item": "Municipal Garage Building Proposals (CLIPP)",
+        "body": "The board was scheduled to review and discuss municipal garage building proposals under the CLIPP initiative. This item was set for discussion and possible action regarding village infrastructure improvements."
+      },
+      {
+        "item": "Kronenwetter Park Committee (CLIPP)",
+        "body": "The board was scheduled to address matters related to the Kronenwetter Park Committee under the CLIPP program. This item was set for discussion and possible action regarding park management or development."
+      },
+      {
+        "item": "Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)",
+        "body": "The board was scheduled to discuss trails and leisure amenities for village-owned property on Lea Road under the CLIPP initiative. This item was set for discussion and possible action regarding recreational facilities development."
+      },
+      {
+        "item": "Staff Performance Evaluations",
+        "body": "The board was scheduled to convene in closed session to consider staff performance evaluations pursuant to Wisconsin Statute 19.85(1)(c). This discussion was set to address employment matters in a closed session."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "scheduled to vote on 2024 village audit",
+      "scheduled to consider operator bartender license for Cory P. Boykins",
+      "scheduled to vote on alcohol beverage license renewals for 2026-2027",
+      "scheduled to vote on cigarette, tobacco, and electronic vaping device license renewals for 2026-2027",
+      "scheduled to consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280",
+      "scheduled to approve meeting minutes from June 1, 2026 special and rescheduled meetings",
+      "expected to vote on purchase of 3/4-ton crew cab truck for Public Works Department",
+      "expected to make appointment of village board trustee",
+      "scheduled to consider municipal garage building proposals",
+      "scheduled to discuss Kronenwetter Park Committee matters",
+      "scheduled to consider trails and leisure development for Lea Road property",
+      "scheduled to discuss and take action after closed session staff performance evaluations"
+    ]
+  },
+  {
     "id": "bxeIsJHsifg",
     "source": "weston",
     "title": "Public Works Committee",
@@ -322,6 +494,388 @@
     ]
   },
   {
+    "id": "kw_51516c759297414687a6c1787c9508dd",
+    "source": "kronenwetter",
+    "title": "Utility Committee Meeting",
+    "date": "June 2, 2026",
+    "shortDate": "JUN 2",
+    "committee": "Utility",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-27",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-51516c759297414687a6c1787c9508dd.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Utility Committee of the Village of Kronenwetter was scheduled to meet on June 2, 2026, to address approval of previous meeting minutes, receive a Director of Public Works and Utilities report, and consider new business items including requests for proposals for a new garage and discussion of village property near Lea Road.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from May 5, 2026 Utility Committee Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Director of Public Works and Utilities Report"
+      },
+      {
+        "time": "N/A",
+        "item": "New Garage RFPs"
+      },
+      {
+        "time": "N/A",
+        "item": "Village Property by Lea Road"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes from May 5, 2026 Utility Committee Meeting",
+        "body": "The committee was scheduled to review and take possible action on approval of the minutes from the previous Utility Committee meeting held on May 5, 2026."
+      },
+      {
+        "item": "Director of Public Works and Utilities Report",
+        "body": "The committee was set to receive a report from the Director of Public Works and Utilities covering matters related to village utilities and public works operations."
+      },
+      {
+        "item": "New Garage RFPs",
+        "body": "The committee was scheduled to discuss and take possible action on requests for proposals related to a new garage project for the village."
+      },
+      {
+        "item": "Village Property by Lea Road",
+        "body": "The committee was scheduled to discuss and take possible action regarding village property located by Lea Road."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with a maximum of 15 minutes total and a three-minute time period per person, subject to extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Expected to vote on approval of May 5, 2026 Utility Committee meeting minutes",
+      "Scheduled to consider action on New Garage RFPs",
+      "Scheduled to consider action on Village Property by Lea Road"
+    ]
+  },
+  {
+    "id": "kw_346a936b9fe643feba080928d73675a4",
+    "source": "kronenwetter",
+    "title": "RESCHEDULED Village Board Meeting",
+    "date": "June 1, 2026",
+    "shortDate": "JUN 1",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/rescheduled-village-board-meeting-0",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-346a936b9fe643feba080928d73675a4.pdf",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Kronenwetter Village Board approved five substantive items at its June 1, 2026 rescheduled meeting, including a concept plan to extend East Nick Avenue through to Highway J in coordination with neighboring municipalities, a police department policy contract, a municipal court fee increase of $10, and a Fire Department DNR grant application. All motions carried unanimously 5-0, with Trustee Stowell absent for most of the meeting.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Chairperson Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda: April 2026 Vouchers, ACH Transactions and Credit Card Statement Activity; May 11, 2026 Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Department DNR Grant Opportunity"
+      },
+      {
+        "time": "N/A",
+        "item": "Police CSI Policy Contract"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Court Fee Increase"
+      },
+      {
+        "time": "N/A",
+        "item": "HR-005-Wage Adjustment Chart"
+      },
+      {
+        "time": "N/A",
+        "item": "East Nick Avenue Development"
+      },
+      {
+        "time": "N/A",
+        "item": "Closure of Municipal Center Offices for Administrative Work Days"
+      },
+      {
+        "time": "N/A",
+        "item": "Village Board Priorities"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of Items for Future Agenda"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Administrator Report",
+        "body": "Administrator James Davel updated the board on recent flooding and electrical failures at the Municipal Building. He also shared information about a letter sent to the Marathon County Board regarding the Kronenwetter Police Department. Davel, Police Chief Terry McHugh, and Finance Director John Jacobs answered board questions about the Police Department budget."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "Public Works Director Greg Ulman presented his report, including updates on lift station performance during the recent storm. Trustee Lesniak thanked the Public Works Department for their dedication during the event."
+      },
+      {
+        "item": "Finance Director Report",
+        "body": "Finance Director John Jacobs reported that the 2024 Audit and an RFP for reassessment would be brought to the next board meeting. He also announced the Village would purchase Capital Infrastructure Project software to assist with CIP management."
+      },
+      {
+        "item": "Consent Agenda",
+        "body": "The consent agenda, comprising the April 2026 vouchers, ACH transactions and credit card statement activity, and the May 11, 2026 Village Board meeting minutes, was approved on a motion by Lesniak, seconded by Myszka. The motion carried by roll call vote 5-0."
+      },
+      {
+        "item": "East Nick Avenue Development",
+        "body": "Gary Guerndt, Owner and President of PGA, Inc., and Kurt Suebert presented a concept plan to extend East Nick Avenue to Highway J, requiring coordination with the municipalities of Weston, Reid, Ringle, and Kronenwetter. Guerndt said the road extension would support future residential development and improve safety for current residents, with PGA Inc. financing construction and seeking reimbursement from municipalities upon development. Trustee Lesniak moved, seconded by Mortensen, to move forward with the concept plan and direct staff to work with the other communities. The motion carried by roll call vote 5-0."
+      },
+      {
+        "item": "Fire Department DNR Grant Opportunity",
+        "body": "Administrator Davel presented the item, noting the Kronenwetter Fire Department has received this DNR grant multiple times in the past. Trustee Coyle moved, seconded by Myszka, to approve the Fire Department's plan for the DNR grant. The motion carried by roll call vote 5-0."
+      },
+      {
+        "item": "Police CSI Policy Contract",
+        "body": "Police Chief Terry McHugh presented the contract with CSI Policy, stating that updated policies would reduce liability, the cost is reimbursable, and the program would allow for efficient policy updates. Trustee Myszka moved, seconded by Coyle, to approve the contract. The motion carried by roll call vote 5-0."
+      },
+      {
+        "item": "Municipal Court Fee Increase",
+        "body": "President Joling and Administrator Davel presented the item, noting court fees had not increased in many years. Trustee Mortensen moved, seconded by Myszka, to approve a $10 increase in court costs. The motion carried by roll call vote 5-0."
+      },
+      {
+        "item": "HR-005-Wage Adjustment Chart",
+        "body": "Administrator Davel proposed revising the employee evaluation process so that managers are evaluated by October each year and the wage scale is set during the budget process rather than in January. Trustee Lesniak moved, seconded by Myszka, to approve the revisions to HR-005 Employee Evaluations. The motion carried by voice vote 5-0."
+      },
+      {
+        "item": "Closure of Municipal Center Offices for Administrative Work Days",
+        "body": "Administrator Davel presented the current staff schedule and approach. Rather than take immediate action, the board moved to delay a decision. Trustee Lesniak moved, seconded by Mortensen, to postpone action until the first regular meeting in August, with the administrator returning with recommendations. The motion carried by voice vote 5-0."
+      },
+      {
+        "item": "Village Board Priorities",
+        "body": "Administrator Davel recommended four priorities: TID 1, changing Village culture, lift stations and long-term infrastructure, and the Capital Improvement Program. Trustee Myszka named parks, roads including Maple Ridge Road, business development, and TID 1 as his priorities. Trustee Coyle added that Village ordinances need to be reviewed and updated. No action was taken on this item."
+      }
+    ],
+    "publicComment": "Teresa Holewinski, 1814 Forsyth Road, Kronenwetter, submitted written comments that were read by Village Clerk Jennifer Poyer and attached to the minutes. Holewinski raised three concerns: (1) the deteriorating and potentially dangerous playground equipment at Buska Park, which she said has been on the improvement plan for years, as well as a broken Eagle Scout book library bench at the park; (2) an access path on the north side of Towering Pines park that she said was excavated and converted into uneven terrain by the Evergreen Bike Group, making it inaccessible to seniors, people with disabilities, and stroller users; and (3) a request for a published date for a CLIPP committee walkthrough of neighborhood parks to allow resident participation, as has been done in past years.",
+    "actionItems": [
+      "Staff directed to work with the municipalities of Weston, Reid, Ringle, and Kronenwetter on the East Nick Avenue to Highway J road extension concept plan.",
+      "Fire Department authorized to proceed with DNR grant application.",
+      "Contract with CSI Policy for police department policy updates approved and to be executed.",
+      "Municipal court costs increased by $10 effective upon approval.",
+      "HR-005 Employee Evaluations policy revised to move manager evaluations to October and wage scale setting to the budget process.",
+      "Administrator Davel directed to return to the first regular board meeting in August with recommendations on closure of Municipal Center offices for administrative work days.",
+      "2024 Audit and RFP for reassessment to be placed on the next board meeting agenda."
+    ]
+  },
+  {
+    "id": "kw_7c83b7b0bdba4fb6a73532f82b8309f7",
+    "source": "kronenwetter",
+    "title": "REVISED Special Village Board Meeting",
+    "date": "June 1, 2026",
+    "shortDate": "JUN 1",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-special-village-board-meeting-1",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7c83b7b0bdba4fb6a73532f82b8309f7.pdf",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Kronenwetter Village Board held a special meeting on June 1, 2026, convening into closed session for approximately 44 minutes to review a specific personnel matter and address next steps. Upon returning to open session, the board took no action. The closed session was authorized under Wisconsin statutes governing personnel evaluation data and disciplinary proceedings.",
+    "agenda": [
+      {
+        "time": "5:03 PM",
+        "item": "Closed Session - Review of specific personnel matter and address next steps pursuant to Wis. Stat. 19.85(1)(c) and 19.85(1)(f)"
+      },
+      {
+        "time": "5:47 PM",
+        "item": "Reconvene Open Session and action after closed session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session",
+        "body": "Trustee Mortensen moved, seconded by Trustee Coyle, to convene into closed session under Wis. Stat. 19.85(1)(c) and 19.85(1)(f) to review a specific personnel matter and address next steps. The motion carried 6-0 on a roll call vote. The board, along with Administrator James Davel, remained in closed session from 5:03 p.m. to 5:47 p.m."
+      },
+      {
+        "item": "Action After Closed Session",
+        "body": "Upon reconvening into open session on a 6-0 motion by Mortensen and Myszka, the board took no action following the closed session personnel discussion."
+      }
+    ],
+    "publicComment": "No public comment was recorded.",
+    "actionItems": [
+      "No formal action was taken following the closed session review of the personnel matter."
+    ]
+  },
+  {
+    "id": "kw_f7694e4efbdd49cfa9485ac17f2c6460",
+    "source": "kronenwetter",
+    "title": "Police and Fire Commission Meeting",
+    "date": "June 1, 2026",
+    "shortDate": "JUN 1",
+    "committee": "Police & Fire Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-21",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f7694e4efbdd49cfa9485ac17f2c6460.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Police and Fire Commission was scheduled to meet to approve April meeting minutes, conduct a closed session interview for a Fire Department applicant, and elect new commission leadership. The meeting was set to address personnel and administrative matters for the village's police and fire services.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of April 27, 2026 meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Public comment period"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed session for consideration of Fire Department applicant interview"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene open session"
+      },
+      {
+        "time": "N/A",
+        "item": "Action after closed session"
+      },
+      {
+        "time": "N/A",
+        "item": "Election of Police and Fire Commission President and Vice-President"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of April 27, 2026 meeting minutes",
+        "body": "The commission was scheduled to review and approve the minutes from the April 27, 2026 meeting. This procedural item was set for formal approval at the start of the meeting."
+      },
+      {
+        "item": "Closed session for Fire Department applicant interview",
+        "body": "The commission was scheduled to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to interview a Fire Department applicant. The closed session was set to allow discussion of employment-related matters in accordance with state law."
+      },
+      {
+        "item": "Election of Police and Fire Commission President and Vice-President",
+        "body": "The commission was scheduled to elect new leadership positions, specifically a President and Vice-President. This election was set as new business to be conducted following the closed session."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with a 15-minute total time limit and a three-minute time period per person, with possible extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to vote on approval of April 27, 2026 meeting minutes",
+      "Scheduled to elect Police and Fire Commission President",
+      "Scheduled to elect Police and Fire Commission Vice-President",
+      "Expected to consider action items arising from closed session"
+    ]
+  },
+  {
+    "id": "kw_100b287096f24509895489749fa9223a",
+    "source": "kronenwetter",
+    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+    "date": "June 1, 2026",
+    "shortDate": "JUN 1",
+    "committee": "CLIPP",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-25",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-100b287096f24509895489749fa9223a.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Community Life, Infrastructure and Public Property (CLIPP) Committee of Kronenwetter was scheduled to meet on June 1, 2026, to address multiple infrastructure and community projects including rehabilitation bids, municipal garage proposals, and park development. The meeting was set to include reports from police, fire, and public works leadership alongside discussion of ongoing village property initiatives.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of May 4, 2026 CLIPP Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Garage Building Proposals"
+      },
+      {
+        "time": "N/A",
+        "item": "Buska Park Fundraising Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Kronenwetter Parks Committee"
+      },
+      {
+        "time": "N/A",
+        "item": "Trails and Leisure for Village Owned Property on Lea Rd."
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of May 4, 2026 CLIPP Committee Meeting Minutes",
+        "body": "The committee was scheduled to review and consider approval of minutes from the previous CLIPP meeting held on May 4, 2026."
+      },
+      {
+        "item": "Police Chief Report",
+        "body": "The Police Chief was expected to provide a report to the committee on departmental matters and public safety issues affecting the Village of Kronenwetter."
+      },
+      {
+        "item": "Fire Chief Report",
+        "body": "The Fire Chief was scheduled to present a report on fire department operations and emergency services activities in the village."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "The Public Works Director was set to provide an update on village infrastructure, maintenance projects, and public works operations."
+      },
+      {
+        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids",
+        "body": "The committee was scheduled to discuss and consider possible action on rehabilitation bids related to the Flanner/Jamroz project, which carried forward from previous meetings as old business."
+      },
+      {
+        "item": "Municipal Garage Building Proposals",
+        "body": "The committee was set to review and discuss building proposals for a municipal garage facility as new business, with possible action anticipated."
+      },
+      {
+        "item": "Buska Park Fundraising Update",
+        "body": "An update on fundraising efforts for Buska Park was expected to be presented, allowing the committee to consider the status of this community project."
+      },
+      {
+        "item": "Kronenwetter Parks Committee",
+        "body": "The committee was scheduled to discuss matters related to the Kronenwetter Parks Committee as part of new business."
+      },
+      {
+        "item": "Trails and Leisure for Village Owned Property on Lea Rd.",
+        "body": "The committee was set to discuss potential trails and leisure amenities for village-owned property located on Lea Road, with possible action to follow."
+      }
+    ],
+    "publicComment": "Public comment was scheduled for up to 15 minutes total, with a three-minute time period per person and discretionary time extension available from the Chief Presiding Officer.",
+    "actionItems": [
+      "Expected to consider approval of May 4, 2026 CLIPP Committee Meeting Minutes",
+      "Scheduled to discuss and take possible action on Kronenwetter Flanner/Jamroz Rehabilitation Bids",
+      "Expected to consider Municipal Garage Building Proposals",
+      "Scheduled to review Buska Park Fundraising Update",
+      "Expected to discuss Kronenwetter Parks Committee matters",
+      "Scheduled to discuss and consider possible action on Trails and Leisure for Village Owned Property on Lea Rd."
+    ]
+  },
+  {
     "id": "NwM-PoBvvMg",
     "source": "weston",
     "title": "Parks Committee",
@@ -418,6 +972,215 @@
       "Food allergy awareness signage to be brought back for future discussion",
       "Mock Miller Park master plan kickoff meeting with Rettler scheduled",
       "Next meeting scheduled for June 22, 2026"
+    ]
+  },
+  {
+    "id": "kw_a4539e059d6d4b61a237393668ff8174",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "May 19, 2026",
+    "shortDate": "MAY 19",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Administrative Policy Committee of the Village of Kronenwetter was scheduled to conduct organizational business including selection of leadership positions, review meeting minutes, and consider several substantive matters including a fire department grant opportunity, police policy services contract, municipal court fee increase, wage adjustments, and a plan to promote village development.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Selection of a Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Selection of a Vice-Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Committee Duties and Responsibilities - Administrative Policy Committee Responsibilities"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes - April 21, 2026 Administrative Policy Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Department DNR Grant Opportunity"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Policy Contract for Service, CSI Policy Group"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Court Fee Increase"
+      },
+      {
+        "time": "N/A",
+        "item": "HR-005-Wage Adjustment Chart"
+      },
+      {
+        "time": "N/A",
+        "item": "RFP Draft for Assessment and Revaluation Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Developing a Plan to Promote Development Within the Village of Kronenwetter"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of Items for Future Agenda"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes - April 21, 2026 Administrative Policy Committee Meeting Minutes",
+        "body": "The committee was scheduled to review and consider approval of the minutes from the April 21, 2026 Administrative Policy Committee meeting. This item was set for discussion and possible action."
+      },
+      {
+        "item": "Finance Director Report",
+        "body": "The Finance Director was scheduled to present a report to the committee. The specific contents of this report were not detailed on the agenda."
+      },
+      {
+        "item": "Fire Department DNR Grant Opportunity",
+        "body": "The committee was scheduled to discuss a grant opportunity available through the Department of Natural Resources for the Fire Department. This item was set for discussion and possible action."
+      },
+      {
+        "item": "Police Policy Contract for Service, CSI Policy Group",
+        "body": "The committee was expected to consider a contract for police policy services with CSI Policy Group. This item was set for discussion and possible action."
+      },
+      {
+        "item": "Municipal Court Fee Increase",
+        "body": "The committee was scheduled to discuss a proposed increase to municipal court fees. This item was set for discussion and possible action."
+      },
+      {
+        "item": "HR-005-Wage Adjustment Chart",
+        "body": "The committee was expected to review and consider the HR-005 wage adjustment chart. This item was set for discussion and possible action."
+      },
+      {
+        "item": "RFP Draft for Assessment and Revaluation Services",
+        "body": "The committee was scheduled to discuss a draft request for proposals for assessment and revaluation services. This item was set for discussion and possible action."
+      },
+      {
+        "item": "Developing a Plan to Promote Development Within the Village of Kronenwetter",
+        "body": "The committee was expected to consider developing a plan to promote economic or community development within the Village of Kronenwetter. This item was set for discussion and possible action."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with a 15-minute total time limit and three-minute limit per person, at the Chief Presiding Officer's discretion for extensions. No action was scheduled to be taken under public comments.",
+    "actionItems": [
+      "Scheduled to elect a Chairperson",
+      "Scheduled to elect a Vice-Chairperson",
+      "Expected to consider approval of April 21, 2026 meeting minutes",
+      "Scheduled to evaluate Fire Department DNR grant opportunity",
+      "Expected to consider Police Policy Contract for Service with CSI Policy Group",
+      "Scheduled to review and potentially act on Municipal Court fee increase",
+      "Expected to consider HR-005 wage adjustment chart",
+      "Scheduled to review RFP draft for assessment and revaluation services",
+      "Expected to consider developing a plan to promote development within the village"
+    ]
+  },
+  {
+    "id": "kw_6d8764e98acd4fb69cae1f00cc02d83b",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "May 18, 2026",
+    "shortDate": "MAY 18",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-26",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d8764e98acd4fb69cae1f00cc02d83b.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to hold a meeting to consider a conditional use permit for a residential food truck kitchen operation, review a site plan for a property development project, and conduct routine business including approval of previous meeting minutes and selection of a vice chairperson.",
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "item": "Conditional Use Permit (Joseph Fleming) - Residential Business (Kitchen and food truck operation) at 1755 Pine Road"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from April 8, 2026 Plan Commission Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Introduction of new Plan Commission members"
+      },
+      {
+        "time": "N/A",
+        "item": "Plan Commission Duties and Responsibilities"
+      },
+      {
+        "time": "N/A",
+        "item": "Staffing for the Plan Commission - Community Development Director position update"
+      },
+      {
+        "time": "N/A",
+        "item": "Site Plan for Premier Property Development (Vinnie Tesch) at 1190 Gardner Park Road"
+      },
+      {
+        "time": "N/A",
+        "item": "American Asphalt Conditional Use Permit Renewal"
+      },
+      {
+        "time": "N/A",
+        "item": "Green Tree Subdivision Concept Plan"
+      },
+      {
+        "time": "N/A",
+        "item": "Selection of Vice Chairperson"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Conditional Use Permit (Joseph Fleming)",
+        "body": "The commission was scheduled to hold a public hearing and consider a conditional use permit request from Joseph Fleming for a residential business involving a kitchen and food truck operation at 1755 Pine Road (Tax Parcel ID: 145-2707-013-0054). The property comprises 0.97 acres and is legally described as Plantation Acres Lot 1 & 2 Block 2."
+      },
+      {
+        "item": "Introduction of new Plan Commission members",
+        "body": "The commission was set to introduce new members to the Plan Commission during the reports and discussions portion of the meeting."
+      },
+      {
+        "item": "Plan Commission Duties and Responsibilities",
+        "body": "The commission was scheduled to review and discuss the duties and responsibilities of Plan Commission members."
+      },
+      {
+        "item": "Staffing for the Plan Commission",
+        "body": "The commission was expected to receive an update on how the Community Development Director position was being filled."
+      },
+      {
+        "item": "Site Plan for Premier Property Development",
+        "body": "The commission was scheduled to review a site plan for a Premier Property Development project located at 1190 Gardner Park Road, involving Parcel 1 of CSM 8726-34-104 in the Village of Kronenwetter."
+      },
+      {
+        "item": "American Asphalt CUP Renewal",
+        "body": "The commission was set to consider a conditional use permit renewal for American Asphalt."
+      },
+      {
+        "item": "Green Tree Subdivision Concept Plan",
+        "body": "The commission was scheduled to review the concept plan for the Green Tree Subdivision."
+      },
+      {
+        "item": "Selection of Vice Chairperson",
+        "body": "The commission was expected to select a vice chairperson during the new business portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was scheduled for up to 15 minutes total, with a three-minute time period per person and possible time extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Expected to approve or take action on April 8, 2026 Plan Commission Meeting minutes",
+      "Scheduled to vote on the conditional use permit request from Joseph Fleming for a residential food truck kitchen operation",
+      "Set to review and take possible action on the Premier Property Development site plan",
+      "Expected to consider the American Asphalt conditional use permit renewal",
+      "Scheduled to review the Green Tree Subdivision Concept Plan",
+      "Expected to select a new vice chairperson"
     ]
   },
   {
@@ -859,6 +1622,190 @@
     ]
   },
   {
+    "id": "kw_2c3d0976c1224c5a93b228e6ca9dc2c9",
+    "source": "kronenwetter",
+    "title": "Board of Review Meeting",
+    "date": "May 13, 2026",
+    "shortDate": "MAY 13",
+    "committee": "Board of Review",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/board-review-meeting",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2c3d0976c1224c5a93b228e6ca9dc2c9.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board of Review was scheduled to meet to conduct its annual assessment review process, including confirmation of the 2026 Board of Review Notice, examination and certification of the assessment roll, and consideration of property assessment objections.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Confirmation of 2026 Board of Review Notice"
+      },
+      {
+        "time": "N/A",
+        "item": "Selection of a Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Selection of a Vice-Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Verification of Training Requirements - Affidavit Filed by Clerk - Training Completed by Craig Mortensen"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Previous Meeting Minutes from July 10, 2025 Board of Review Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Filing and Summary of Annual Assessment Report by Assessor's Office - Receive the Assessment Roll and Sworn Affidavit of the Assessor"
+      },
+      {
+        "time": "N/A",
+        "item": "Examination; Correction of Errors; Certification of Corrections if Warranted; and Acceptance of the Assessment Roll Following a Determination that Open Book Changes are Included in the Assessment Roll Presented"
+      },
+      {
+        "time": "N/A",
+        "item": "Future Revaluation Update - Update on 2026-2027 Revaluation-Reassessment Tentative Timeline"
+      },
+      {
+        "time": "N/A",
+        "item": "Review Objections for Acceptability; Schedule, Deny or Waive Hearings for Written Objections Received; and Consider Requests for Subpoena(s) as Needed"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Filing and Summary of Annual Assessment Report by Assessor's Office",
+        "body": "The Board of Review was set to receive the Assessment Roll and the sworn affidavit of the Assessor's Office as part of the annual assessment report filing process."
+      },
+      {
+        "item": "Examination and Certification of the Assessment Roll",
+        "body": "The board was scheduled to examine the assessment roll, correct any errors identified, and certify corrections if warranted. The board was also expected to accept the assessment roll following a determination that open book changes are included in the roll presented."
+      },
+      {
+        "item": "Future Revaluation Update",
+        "body": "The board was set to receive an update on the tentative timeline for the 2026-2027 revaluation-reassessment process."
+      },
+      {
+        "item": "Review Objections and Hearing Scheduling",
+        "body": "The board was scheduled to review written objections for acceptability and determine whether to schedule, deny, or waive hearings for those objections. The board was also expected to consider any requests for subpoena(s) as needed."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Scheduled to confirm the 2026 Board of Review Notice",
+      "Scheduled to select a Chairperson",
+      "Scheduled to select a Vice-Chairperson",
+      "Expected to verify training requirements completion by Craig Mortensen",
+      "Scheduled to approve previous meeting minutes from July 10, 2025",
+      "Expected to receive and examine the Assessment Roll and Assessor's sworn affidavit",
+      "Scheduled to examine for errors and certify corrections in the assessment roll",
+      "Scheduled to accept the assessment roll following determination that open book changes are included",
+      "Expected to receive an update on the 2026-2027 revaluation-reassessment tentative timeline",
+      "Scheduled to review written objections and determine hearing scheduling, denials, or waivers",
+      "Expected to consider requests for subpoena(s) as needed"
+    ]
+  },
+  {
+    "id": "kw_c19b4fca8707467fa4d6a2fa1e4a4407",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "May 11, 2026",
+    "shortDate": "MAY 11",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-58",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c19b4fca8707467fa4d6a2fa1e4a4407.pdf",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Kronenwetter Village Board voted unanimously 6-0 to approve a Quit Claim Deed transferring village property interests to Marathon County for a proposed Highway Shop Facility, a decision that drew sharp public criticism from a former trustee who argued the land was being given away before required zoning approvals were in place. The board also approved a model e-bike ordinance and a transportation funding resolution, both 6-0. Following a closed session on staff evaluations and compensation, the board approved staff recommendations 5-0 with Trustee Coyle abstaining.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Meeting Minutes (April 27 and April 30, 2026)"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Vouchers, ACH Transactions, and Credit Card Activity Transactions - Month of March 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Quit Claim Deed Proposed Marathon County Highway Shop Facility (CLIPP)"
+      },
+      {
+        "time": "N/A",
+        "item": "Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance (CLIPP)"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-007 Transportation Funding Solution"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session - Staff Annual Evaluation and/or Pay Increases"
+      },
+      {
+        "time": "N/A",
+        "item": "Action After Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Consent Agenda - Meeting Minutes",
+        "body": "The consent agenda, including minutes from the April 27 and April 30, 2026 Village Board meetings, was approved on a motion by Lesniak, seconded by Myszka. The motion carried by voice vote 6-0."
+      },
+      {
+        "item": "Vouchers, ACH Transactions, and Credit Card Activity Transactions - Month of March 2026",
+        "body": "Finance Director John Jacobs presented March 2026 financial transactions totaling $699,821. Jacobs and Administrator Davel answered board questions regarding a bill for a lift station pump out. Trustee Stowell moved, Trustee Myszka seconded, and the motion carried by roll call vote 6-0."
+      },
+      {
+        "item": "Quit Claim Deed Proposed Marathon County Highway Shop Facility (CLIPP)",
+        "body": "Trustee Myszka presented background on the proposal to transfer village property interests to Marathon County via Quit Claim Deed for a proposed Highway Shop Facility. County officials attended and answered board questions about plans for the land. Board members discussed the concept of being a 'good neighbor' to the county, the possibility that the county shop could spur a future interchange on Kowalski Road, and the disposition of a strip of land involved in the transfer. Trustee Coyle moved, Trustee Myszka seconded, and the motion carried by roll call vote 6-0."
+      },
+      {
+        "item": "Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance (CLIPP)",
+        "body": "Trustee Myszka presented background on the draft model e-bike ordinance developed by the Wausau Metropolitan Planning Organization. Lt. Smart noted the police department had seen no issues with e-bikes to date. Discussion touched on overlapping ordinances in nearby communities, an influx of children riding e-bikes, and potential future safety concerns. Trustee Mortensen moved, Trustee Coyle seconded, and the motion carried by voice vote 6-0."
+      },
+      {
+        "item": "Resolution 2026-007 Transportation Funding Solution",
+        "body": "Administrator Davel presented information on Resolution 2026-007 Transportation Funding Solution. The minutes do not record a named mover or seconder. The motion carried by roll call vote 6-0."
+      },
+      {
+        "item": "Closed Session - Staff Annual Evaluation and/or Pay Increases",
+        "body": "Trustee Lesniak moved, Trustee Myszka seconded, to convene into closed session pursuant to Wis. Stat. 19.85(1)(c) for consideration of employment, promotion, compensation, or performance evaluation data of public employees — specifically staff annual evaluations and/or pay increases. The board entered closed session at 6:38 p.m. and reconvened in open session at 7:32 p.m. on a motion by Myszka, seconded by Coyle, carried 6-0 by roll call vote."
+      },
+      {
+        "item": "Action After Closed Session",
+        "body": "Following the closed session on staff evaluations and compensation, Trustee Myszka moved, Trustee Stowell seconded, to accept the board's recommendations and direct the administrator to act on them. The motion carried by roll call vote 5-0-1, with Trustee Coyle abstaining."
+      }
+    ],
+    "publicComment": "Ken Charneski, 2604 16th Road, Kronenwetter, submitted a written comment that was attached to the meeting minutes; his remarks were a lengthy, critical statement opposing the Quit Claim Deed for the Marathon County Highway Shop Facility, accusing Administrator Davel and President Joling of giving away village property without adequate consideration for taxpayer interests, alleging procedural violations in bypassing the APC, and questioning the value of the arrangement given the facility's estimated worth of $50-63 million. Bernie Kramer, 2150 E. State Hwy. 153, Peplin, also addressed agenda item 8I, stating the board should consider David Baker's prior public comment from the CLIPP Committee meeting and arguing that the land should not be given away for a project that has not yet received required approvals.",
+    "actionItems": [
+      "Quit Claim Deed approved transferring village property interests to Marathon County for the proposed Highway Shop Facility.",
+      "Wausau MPO Draft Model E-Bike Ordinance adopted by the Village of Kronenwetter.",
+      "Resolution 2026-007 Transportation Funding Solution adopted.",
+      "March 2026 vouchers, ACH transactions, and credit card activity totaling $699,821 accepted.",
+      "April 27 and April 30, 2026 Village Board meeting minutes approved.",
+      "Administrator directed to move on staff compensation and evaluation recommendations made by the board in closed session.",
+      "Village Board to consider priorities and goals and village office hours at a future agenda."
+    ]
+  },
+  {
     "id": "bb_744112",
     "source": "school_board",
     "title": "Regular Meeting",
@@ -1272,6 +2219,70 @@
       "Committee members to email Chair Boots and Administrator Leonard with agenda items for future meetings",
       "Strategic plan work to be brought to future meetings by Chair Boots",
       "Next meeting confirmed for Tuesday, June 3rd at 3:00 PM (corrected from initially stated May 29th)"
+    ]
+  },
+  {
+    "id": "kw_ea413d5c907d464ab592ada30077d709",
+    "source": "kronenwetter",
+    "title": "Utility Committee Meeting",
+    "date": "May 5, 2026",
+    "shortDate": "MAY 5",
+    "committee": "Utility",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-26",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ea413d5c907d464ab592ada30077d709.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Utility Committee was scheduled to meet on May 5, 2026, to address routine administrative matters including approval of previous meeting minutes, reports from the Director of Public Works and Utilities, and action items related to a ductless mini split purchase and Lift Station #8 updates. The meeting was set to take place at the Kronenwetter Municipal Center.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from April 7, 2026 Utility Committee Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Utility Committee Duties and Responsibilities"
+      },
+      {
+        "time": "N/A",
+        "item": "Director of Public Works and Utilities Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Ductless Mini Split Purchase"
+      },
+      {
+        "time": "N/A",
+        "item": "Lift Station #8 Updates"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes",
+        "body": "The committee was scheduled to review and consider approval of the minutes from the April 7, 2026 Utility Committee meeting."
+      },
+      {
+        "item": "Utility Committee Duties and Responsibilities",
+        "body": "The committee was set to discuss its duties and responsibilities."
+      },
+      {
+        "item": "Director of Public Works and Utilities Report",
+        "body": "The committee was scheduled to receive a report from the Director of Public Works and Utilities."
+      },
+      {
+        "item": "Ductless Mini Split Purchase",
+        "body": "The committee was scheduled for discussion and possible action regarding the purchase of a ductless mini split system."
+      },
+      {
+        "item": "Lift Station #8 Updates",
+        "body": "The committee was set to discuss and consider possible action on updates related to Lift Station #8."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, limited to 15 minutes total with a three-minute time period per person at the discretion of the Chief Presiding Officer.",
+    "actionItems": [
+      "Scheduled to vote on approval of April 7, 2026 meeting minutes",
+      "Expected to consider action on ductless mini split purchase",
+      "Expected to consider action on Lift Station #8 updates"
     ]
   },
   {
@@ -1886,6 +2897,141 @@
     ]
   },
   {
+    "id": "kw_bc02fc4aee3a40b9852da71250e3b100",
+    "source": "kronenwetter",
+    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+    "date": "May 4, 2026",
+    "shortDate": "MAY 4",
+    "committee": "CLIPP",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-24",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc02fc4aee3a40b9852da71250e3b100.pdf",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Kronenwetter CLIPP Committee voted 5-0 to support a Quit Claim Deed transferring village-owned property to Marathon County for the County Highway Shop Facility project, clearing the way for a Village Board recommendation on the significant land transfer. The committee also voted 5-0 to support the Wausau Metropolitan Planning Organization's draft model e-bike ordinance, moving toward regional uniformity on e-bike regulations. Road rehabilitation bids for the Flanner/Jamroz project were tabled after Public Works Director Greg Ulman reported bids came in far higher than expected.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Selection of a Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Selection of a Vice-Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Committee Duties and Responsibilities"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of April 6, 2026 CLIPP Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Chief Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Community Development, Planning and Zoning Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Complaint Log"
+      },
+      {
+        "time": "N/A",
+        "item": "Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance (Old Business)"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion of Possible Truck Route on Kowalski Road (Old Business)"
+      },
+      {
+        "time": "N/A",
+        "item": "Quit Claim Deed - Proposed Marathon County Highway Shop Facility (Old Business)"
+      },
+      {
+        "time": "N/A",
+        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids (New Business)"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of Items for Future Agenda"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Selection of a Chairperson and Vice-Chairperson",
+        "body": "Trustee Aaron Myszka was nominated for chairperson by Patty Tikalsky, seconded by President Dan Joling, and elected by acclamation. Garrett Lysne was nominated for vice-chairperson by President Joling, seconded by Tikalsky, and approved by voice vote 4-0-1, with Lysne abstaining."
+      },
+      {
+        "item": "Approval of April 6, 2026 CLIPP Committee Meeting Minutes",
+        "body": "Motion by Joling, seconded by Mijal, to approve the April 6, 2026 meeting minutes. Motion carried by voice vote 5-0."
+      },
+      {
+        "item": "Police Chief Report",
+        "body": "Police Chief Terry McHugh presented his report and answered a committee question regarding the recent hiring of new police officers. No action was taken."
+      },
+      {
+        "item": "Fire Chief Report",
+        "body": "Fire Chief Theresa O'Brien reported that April 2026 was the busiest month she had experienced, with 24 fire calls and 55 medical calls. She also noted that live burn training was a success for her department. No action was taken."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "Public Works Director Greg Ulman updated the committee on the effects of recent flooding and tornado events. He reported meeting with Lee Recreation to develop a design proposal for Buska Park and answered committee questions on the cost of Country Pumpers, sewer vacuum truck capability, and park donations. Finance Director John Jacobs and Administrator James Davel also answered questions regarding the budget and the Bulk Item Drop-off event. No action was taken."
+      },
+      {
+        "item": "Community Development, Planning and Zoning Director Report",
+        "body": "Administrator Davel presented the report in the absence of a director, informing the committee that Peter Wegner is no longer with the Village and that the Village is actively hiring a new Community Development Director and planning technician. No action was taken."
+      },
+      {
+        "item": "Complaint Log",
+        "body": "Administrator Davel presented the complaint log report, noting that complaint numbers have increased. No action was taken."
+      },
+      {
+        "item": "Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance",
+        "body": "Motion by Joling, seconded by Mijal, to support the language of the Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance. Administrator Davel summarized resident comments regarding e-bikes in the village, and Police Chief McHugh stated he had no concerns about the ordinance language. The committee agreed it represented an agreeable and regionally uniform set of standards. Motion carried by voice vote 5-0."
+      },
+      {
+        "item": "Discussion of Possible Truck Route on Kowalski Road",
+        "body": "Public Works Director Ulman reviewed the topic and advised the committee that there is currently no need for a designated truck route on village roads. He noted the issue could be revisited once the distribution center is completed. No action was taken."
+      },
+      {
+        "item": "Quit Claim Deed - Proposed Marathon County Highway Shop Facility",
+        "body": "Motion by Mijal, seconded by Lysne, to recommend the Village Board approve the Quit Claim Deed for Tax Parcel ID Number 145-2707-023-0994. Administrator Davel presented the item and explained the rationale for approval. Marathon County Administrator Lance Leonhard and other county staff attended to discuss the County Highway Garage Facility project, addressing the project timeline, the need for the quit claim deed, and potential benefits for Kronenwetter residents. Leonhard acknowledged the county would make a better effort to attend Village meetings on the subject. The committee voted to carry the motion; no vote count beyond implied 5-0 was recorded."
+      },
+      {
+        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids",
+        "body": "Public Works Director Ulman requested the item be tabled, reporting that bids came in significantly higher than expected and that additional information was needed. The item was tabled until the next meeting. No vote count was recorded beyond the tabling action."
+      }
+    ],
+    "publicComment": "David Baker of 690 Happy Hollow Road submitted written public comment, which was read into the record by the clerk and attached to the minutes. Baker addressed the Quit Claim Deed item (8L) and the broader planning process for the proposed Marathon County Highway Facility. He urged the committee to make any property transfer contingent on the county agreeing to take jurisdiction of and upgrade Highway Business 51 from Village Way to Kowalski Road to four lanes, arguing that without such improvements the safety and traffic burdens currently affecting county highway workers and Wausau residents would simply be transferred to Kronenwetter residents. Baker also asked that the county consider installing a well on the property to avoid straining the village water system, and noted that newly elected Supervisor/Trustee Coyle serves on the Marathon County Infrastructure Committee. Trustee Patty Tikalsky of 2153 Peach Road offered public comment thanking the Kronenwetter Police Department, Fire Department, and Public Works Department for their response and aid during recent severe weather events.",
+    "actionItems": [
+      "Trustee Aaron Myszka elected CLIPP Committee Chairperson by acclamation.",
+      "Garrett Lysne elected CLIPP Committee Vice-Chairperson by voice vote 4-0-1.",
+      "April 6, 2026 CLIPP Committee meeting minutes approved 5-0.",
+      "Committee voted 5-0 to support the Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance language.",
+      "Committee voted to recommend the Village Board approve the Quit Claim Deed for Tax Parcel ID 145-2707-023-0994 related to the Marathon County Highway Shop Facility.",
+      "Kronenwetter Flanner/Jamroz Rehabilitation Bids tabled to next meeting pending additional bid information.",
+      "Finance Director John Jacobs to present the Capital Improvement Plan with street information to CLIPP in July.",
+      "Village continuing to hire a new Community Development Director and planning technician following Peter Wegner's departure.",
+      "Truck route on Kowalski Road to be revisited when the distribution center is completed.",
+      "Next CLIPP Committee meeting scheduled for June 1, 2026."
+    ]
+  },
+  {
     "id": "Ay3CNwxe6g4",
     "source": "weston",
     "title": "Community Life and Public Safety",
@@ -1996,817 +3142,48 @@
     ]
   },
   {
-    "id": "bb_741715",
-    "source": "school_board",
-    "title": "Special Meeting",
+    "id": "kw_acca56fb4a9045e28855b0cb1d58a749",
+    "source": "kronenwetter",
+    "title": "Special Village Board Meeting",
     "date": "April 30, 2026",
     "shortDate": "APR 30",
-    "committee": "Special Meeting",
+    "committee": "Village Board",
     "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=741715",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=741715",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to convene in closed session to hold a pupil expulsion hearing. The board was expected to deliberate privately and potentially take action regarding the student expulsion matter, with the possibility of reconvening in open session for further action if necessary.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call To Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed Session - Pupil Expulsion Hearing pursuant to s. 19.85(1)(a), (f), and (g), and s. 118.125 of Wisconsin Statutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Closed Session - Pupil Expulsion Hearing",
-        "body": "The Board of Education was scheduled to convene in closed session under Wisconsin Statutes sections 19.85(1)(a), (f), and (g), as well as section 118.125, to conduct a pupil expulsion hearing. The board was expected to deliberate privately at the conclusion of the hearing and potentially take action in closed session if necessary and appropriate. Following the closed session, the board was scheduled to potentially reconvene into open session for further action."
-      }
-    ],
-    "publicComment": "No public comment period was included on this agenda.",
-    "actionItems": [
-      "Board was expected to consider action on a pupil expulsion matter during or following the closed session hearing"
-    ]
-  },
-  {
-    "id": "WD9kixgx6oY",
-    "source": "marathon",
-    "title": "Regular Meeting",
-    "date": "April 28, 2026",
-    "shortDate": "APR 28",
-    "committee": "County Board",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=WD9kixgx6oY",
-    "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-11",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-acca56fb4a9045e28855b0cb1d58a749.pdf",
     "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board held an organizational meeting approving committee appointments, electing Supervisors Hapa and Arstead to the executive committee, and unanimously passing a resolution to reduce landfill tipping fees for storm debris cleanup following the April severe weather emergency. The board heard emotional testimony from Ringle residents requesting additional fee relief for tornado and flood damage cleanup.",
+    "badge": "new",
+    "overview": "The Kronenwetter Village Board voted 6-0 to terminate the employment of the Community Development Director for just cause at a special meeting called April 30, 2026. The board convened in closed session for roughly 90 minutes to review a specific personnel matter before returning to open session to take the termination vote. Village President Dan Joling directed that remaining personnel issues would be handled by Village Administrator Davel and that legal staff would manage open records notices related to the matter.",
     "agenda": [
       {
-        "time": "0:00",
-        "item": "Pledge of Allegiance and moment of reflection"
+        "time": "4:30 PM",
+        "item": "Closed Session - Review of specific personnel matter and address next steps (Wis. Stat. s. 19.85(1)(c) and 19.85(1)(f))"
       },
       {
-        "time": "0:35",
-        "item": "Reading of meeting notice"
+        "time": "6:13 PM",
+        "item": "Reconvene Open Session"
       },
       {
-        "time": "1:15",
-        "item": "Roll call"
-      },
-      {
-        "time": "5:01",
-        "item": "Committee appointments and chair remarks on leadership"
-      },
-      {
-        "time": "10:01",
-        "item": "Election of at-large executive committee members"
-      },
-      {
-        "time": "20:00",
-        "item": "Ballot counting and announcement of executive committee election results"
-      },
-      {
-        "time": "20:15",
-        "item": "Consent agenda items C10-C14A"
-      },
-      {
-        "time": "21:00",
-        "item": "Resolution 24-26: Out of home placement reserve increase"
-      },
-      {
-        "time": "22:00",
-        "item": "Resolution 25-26: Social services budget amendment"
-      },
-      {
-        "time": "23:00",
-        "item": "Resolution 26-26: Modification to landfill tipping fees for storm debris"
+        "time": "6:13 PM",
+        "item": "Discussion and possible action on items discussed in closed session"
       }
     ],
     "discussions": [
       {
-        "item": "Committee appointments",
-        "body": "Chair Gibbs outlined goals for committee appointments including increasing diversity of perspectives, developing leadership among newer supervisors (34% in first or second term), and honoring supervisor preferences. Vice Chair Boots assisted in developing the appointments. The motion by Supervisor Cavelli, seconded by Supervisor Crims, was carried but not unanimous."
+        "item": "Closed Session",
+        "body": "Trustee Coyle moved and Trustee Mortensen seconded a motion to convene into closed session under Wis. Stat. s. 19.85(1)(c) and 19.85(1)(f) to review a specific personnel matter and address next steps. The motion carried 7-0 on a roll call vote. Closed session began at 4:32 p.m. Trustee Sorensen left the meeting around 6:00 p.m. during the closed session."
       },
       {
-        "item": "Election of at-large executive committee members",
-        "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Supervisor Boots). Supervisor Rosenberg spoke in support of Supervisor Leur, citing her advocacy for children and elders. Paper ballots were distributed and supervisors selected two names. Supervisors Hapa and Arstead were elected to the executive committee."
-      },
-      {
-        "item": "Consent agenda items C10-C14A",
-        "body": "Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. Passed unanimously."
-      },
-      {
-        "item": "Resolution 24-26: Out of home placement reserve increase",
-        "body": "Motion by Supervisor Morash, seconded by Supervisor Robinson. Motion carried but was not unanimous."
-      },
-      {
-        "item": "Resolution 25-26: Social services budget amendment",
-        "body": "Motion by Supervisor P, seconded by Supervisor Robinson. Motion carried but was not unanimous."
-      },
-      {
-        "item": "Resolution 26-26: Modification to landfill tipping fees",
-        "body": "County Administrator Leonard and Solid Waste Director Hagen Busher presented the proposal from the Solid Waste Management Board following severe weather damage in Ringle and surrounding areas. The resolution reduces tipping fees from $65/ton to approximately $36.94/ton for certified storm debris by waiving state fees ($13.10), town fees ($2.33), and reducing to the commercial contract rate. Supervisor Rosenberg requested public comment be allowed. Jessica Toasty and Matt Haybeck spoke, asking the county to fully waive fees given that the state, DNR, and Ringle are waiving their portions. Leonard noted the county will likely not meet the $670,743 damage threshold for state disaster aid but expects Ringle will qualify. The board suspended rules to consider the resolution (passed unanimously), then approved Resolution 26-26 unanimously. Administrator Leonard indicated discussions would continue with the Community Foundation regarding reimbursement mechanisms for landowners."
+        "item": "Termination of Community Development Director",
+        "body": "Upon reconvening in open session, Trustee Lesniak moved and Trustee Myszka seconded a motion to terminate the employment of the Community Development Director for just cause. The motion carried 6-0 on a roll call vote. Village President Joling stated that additional personnel issues would be addressed by Village Administrator Davel, that open records notices would be handled by legal staff, and that he asked board members to sign the letter of termination."
       }
     ],
-    "publicComment": "Two residents were granted special permission to speak on the landfill tipping fee resolution. Jessica Toasty asked the county to fully waive fees for six months, noting the state, DNR, and Ringle have waived their portions, and describing how businesses have donated up to $40,000 in cleanup costs. Matt Haybeck spoke on behalf of residents whose homes must be demolished, requesting fee waivers for underinsured homeowners and noting some insurance adjusters haven't yet arrived at affected properties.",
+    "publicComment": "No public comment was recorded.",
     "actionItems": [
-      "Committee appointments approved as presented by Chair Gibbs and Vice Chair Boots",
-      "Supervisors Hapa and Arstead elected to executive committee at-large positions",
-      "Resolution 26-26 approved reducing landfill tipping fees for storm debris to approximately $36.94/ton through June 17, 2025",
-      "Administrator Leonard to continue discussions with Community Foundation regarding reimbursement mechanism for landowner out-of-pocket costs",
-      "Solid Waste Management Board directed to develop clear policy within six months for handling similar disaster situations in the future",
-      "Staff to track certified storm debris separately for potential state disaster aid documentation"
-    ]
-  },
-  {
-    "id": "QM1mHief1xs",
-    "source": "wausau",
-    "title": "Board of Public Works Meeting",
-    "date": "April 28, 2026",
-    "shortDate": "APR 28",
-    "committee": "Board of Public Works",
-    "duration": "2m",
-    "url": "https://www.youtube.com/watch?v=QM1mHief1xs",
-    "docUrl": "https://wausauwi.portal.civicclerk.com/event/2334/overview",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Board of Public Works approved minutes from the previous meeting but the proposal for Hand Labor Mowing Services for 2026-2030 failed. The adjournment motion also failed on a 2-0 vote moved by Vincent Bonino and seconded by Eric Lindman.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "April 21, 2026 Regular Board of Public Works Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Open proposals for Hand Labor Mowing Services for years 2026 through 2030"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "April 21, 2026 Regular Board of Public Works Minutes",
-        "body": "The minutes from the April 21, 2026 Regular Board of Public Works meeting were approved. Vote count and movers not specified in the records."
-      },
-      {
-        "item": "Open proposals for Hand Labor Mowing Services for years 2026 through 2030",
-        "body": "The board opened proposals for Hand Labor Mowing Services covering years 2026 through 2030. The motion to approve failed. Specific vote count and movers not recorded."
-      }
-    ],
-    "publicComment": "Not indicated on agenda.",
-    "actionItems": [
-      "Hand Labor Mowing Services proposals for 2026-2030 were not approved; item may require further action at a future meeting"
-    ],
-    "civicItems": [
-      {
-        "number": "1",
-        "name": "Consideration of the minutes of the preceding meeting(s).",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "April 21, 2026 Regular Board of Public Works Minutes.",
-            "votes": [
-              {
-                "motion": "approve",
-                "passed": true,
-                "initiator": "Vincent Bonino",
-                "seconder": "Eric Lindman",
-                "yes": [
-                  "Eric Lindman",
-                  "Vincent Bonino"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "BoardofPublicWorks_Regular_MinutesDRAFT_04212026",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6856)"
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "2",
-        "name": "Discussion and possible action.",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "Open proposals for Hand Labor Mowing Services for years 2026 through 2030.",
-            "votes": [
-              {
-                "motion": "approve",
-                "passed": false,
-                "initiator": "",
-                "seconder": "",
-                "yes": [],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "3",
-        "name": "Adjournment.",
-        "votes": [
-          {
-            "motion": "approve",
-            "passed": false,
-            "initiator": "Vincent Bonino",
-            "seconder": "Eric Lindman",
-            "yes": [
-              "Eric Lindman",
-              "Vincent Bonino"
-            ],
-            "no": [],
-            "abstain": []
-          }
-        ],
-        "docs": [],
-        "children": []
-      }
-    ]
-  },
-  {
-    "id": "CIhVYLRBgok",
-    "source": "wausau",
-    "title": "City Council Meeting",
-    "date": "April 28, 2026",
-    "shortDate": "APR 28",
-    "committee": "City Council",
-    "duration": "2h 52m",
-    "url": "https://www.youtube.com/watch?v=CIhVYLRBgok",
-    "docUrl": "https://wausauwi.portal.civicclerk.com/event/2335/overview",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Common Council approved mayoral appointments to multiple boards and commissions, passed a consent agenda including bike rack request procedures and special assessments for street construction, but saw contentious debate over proposed amendments to council standing rules with multiple failed motions. The council voted 11-0 on consent items while rule suspension votes were divided, with one failing 5-6.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Arbor Day Proclamation"
-      },
-      {
-        "time": "N/A",
-        "item": "Week of the Young Child Proclamation"
-      },
-      {
-        "time": "N/A",
-        "item": "National Preservation Month Proclamation"
-      },
-      {
-        "time": "N/A",
-        "item": "Workers Memorial Day Proclamation"
-      },
-      {
-        "time": "N/A",
-        "item": "March 24, 2026 Regular Common Council Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "April 14, 2026 Regular Common Council Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Joint Resolution from the Bicycle & Pedestrian Advisory Committee and the Infrastructure & Facilities Committee Approving the Bike Rack Request Form"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution from the Infrastructure & Facilities Committee Levying Special Assessments for the 2025 Street Construction Projects"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance from the Common Council to Amend Wausau Municipal Code Ch. 2.16, Standing Rules of the Common Council"
-      },
-      {
-        "time": "N/A",
-        "item": "Confirming Appointments of the Mayor of the City of Wausau to the Historic Preservation Commission, Sustainability, Energy & Environment Committee, Business Improvement District Board, Community Development Authority Board and Ethics Board"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Meeting Minutes Approval",
-        "body": "The council approved minutes from both the March 24, 2026 and April 14, 2026 regular meetings. The motion passed unanimously 11-0, moved by Sarah Watson and seconded by Tom Neal."
-      },
-      {
-        "item": "Consent Agenda",
-        "body": "The consent agenda was approved 11-0, moved by Sarah Watson and seconded by Bruce Trueblood. This included the Joint Resolution Approving the Bike Rack Request Form from the Bicycle & Pedestrian Advisory Committee and Infrastructure & Facilities Committee, as well as the Resolution Levying Special Assessments for the 2025 Street Construction Projects."
-      },
-      {
-        "item": "Suspension of Council Rules",
-        "body": "The council voted to suspend Rule 11(A) regarding referral of ordinances, passing 8-3 with Matt Hoenecke, Lou Larson, and Bruce Trueblood voting no. However, the motion to suspend Rule 21 regarding amending of the rules failed 5-6, with Carol Lukens, Michael Martens, Andrew Wiskowski, Kristin Slonski, Sarah Watson, and Lou Larson voting against."
-      },
-      {
-        "item": "Ordinance to Amend Wausau Municipal Code Ch. 2.16, Standing Rules of the Common Council",
-        "body": "This item saw extensive procedural debate with multiple votes. A motion to approve as amended failed, as did a motion to refer back to the Rules Review Committee. An amendment by Alder Watson subject to attorney review passed, as did a subsequent amendment by Alder Tierney. An amendment proposed by Alder Neal failed."
-      },
-      {
-        "item": "Confirming Mayoral Appointments",
-        "body": "The council approved the Mayor's appointments to the Historic Preservation Commission, Sustainability, Energy & Environment Committee, Business Improvement District Board, Community Development Authority Board, and Ethics Board. The motion passed."
-      }
-    ],
-    "publicComment": "Public comment was included on the agenda both before the business meeting (preregistered citizens) and after the business meeting.",
-    "actionItems": [
-      "Bike Rack Request Form approved for implementation by Bicycle & Pedestrian Advisory Committee",
-      "Special assessments levied for 2025 Street Construction Projects",
-      "Mayoral appointments confirmed to Historic Preservation Commission, Sustainability Energy & Environment Committee, Business Improvement District Board, Community Development Authority Board, and Ethics Board",
-      "Amendments to Ordinance 02-0432 as stated by Alder Watson and Alder Tierney to be reviewed by City Attorney"
-    ],
-    "civicItems": [
-      {
-        "number": "1",
-        "name": "Call to order by the presiding officer.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "2",
-        "name": "Pledge of Allegiance, and Roll Call and Proclamations.",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "",
-            "name": "Arbor Day Proclamation",
-            "votes": [],
-            "docs": [
-              {
-                "name": "Arbor Day Proclamation",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6835)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "Week of the Young Child Proclamation",
-            "votes": [],
-            "docs": [
-              {
-                "name": "Week of the Young Child Proclamation",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6834)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "National Preservation Month Proclamation",
-            "votes": [],
-            "docs": [
-              {
-                "name": "Preservation Month Proclamation",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6841)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "Workers Memorial Day Proclamation",
-            "votes": [],
-            "docs": [
-              {
-                "name": "Workers Memorial Day Proclamation",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6861)"
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "3",
-        "name": "Consideration of the minutes of the preceding meeting, approval of the minutes if correct, and correction of mistakes if any.",
-        "votes": [
-          {
-            "motion": "approve",
-            "passed": true,
-            "initiator": "Sarah Watson",
-            "seconder": "Tom Neal",
-            "yes": [
-              "Carol Lukens",
-              "Michael  Martens",
-              "Terry Kilian",
-              "Tom Neal",
-              "Andrew Wiskowski",
-              "Kristin Slonski",
-              "Matt Hoenecke",
-              "Sarah Watson",
-              "Vicki Tierney",
-              "Lou Larson",
-              "Bruce Trueblood"
-            ],
-            "no": [],
-            "abstain": []
-          }
-        ],
-        "docs": [],
-        "children": [
-          {
-            "number": "",
-            "name": "Regular Common Council Minutes",
-            "votes": [],
-            "docs": [
-              {
-                "name": "CommonCouncil_Regular_03242026_Minutes",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6862)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "Regular Common Council Minutes",
-            "votes": [],
-            "docs": [
-              {
-                "name": "CommonCouncil_Regular_04142026_Minutes",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6860)"
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "4",
-        "name": "Reading of the City of Wausau Public Comment Statement.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "5",
-        "name": "Comments and suggestions from preregistered citizens.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "6",
-        "name": "Consent agenda.",
-        "votes": [
-          {
-            "motion": "approve",
-            "passed": true,
-            "initiator": "Sarah Watson",
-            "seconder": "Bruce Trueblood",
-            "yes": [
-              "Carol Lukens",
-              "Michael  Martens",
-              "Terry Kilian",
-              "Tom Neal",
-              "Andrew Wiskowski",
-              "Kristin Slonski",
-              "Matt Hoenecke",
-              "Sarah Watson",
-              "Vicki Tierney",
-              "Lou Larson",
-              "Bruce Trueblood"
-            ],
-            "no": [],
-            "abstain": []
-          }
-        ],
-        "docs": [],
-        "children": [
-          {
-            "number": "",
-            "name": "Joint Resolution from the Bicycle & Pedestrian Advisory Committee and the Infrastructure & Facilities Committee Approving the Bike Rack Request Form.",
-            "votes": [
-              {
-                "motion": "approve",
-                "passed": true,
-                "initiator": "Sarah Watson",
-                "seconder": "Tom Neal",
-                "yes": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Terry Kilian",
-                  "Tom Neal",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Sarah Watson",
-                  "Vicki Tierney",
-                  "Lou Larson"
-                ],
-                "no": [
-                  "Bruce Trueblood"
-                ],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "Economic Development Staff Memo",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6825)"
-              },
-              {
-                "name": "BPAC_20260323_Minutes_DRAFT",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6831)"
-              },
-              {
-                "name": "City of Wausau Bike Rack Request Form",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6828)"
-              },
-              {
-                "name": "Bike Rack Fabrication Overview â€“ NTC Welding",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6829)"
-              },
-              {
-                "name": "Possible Design for New Racks",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6830)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "Resolution from the Infrastructure & Facilities Committee Levying Special Assessments for the 2025 Street Construction Projects.",
-            "votes": [],
-            "docs": [
-              {
-                "name": "2025 Street Projects",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6833)"
-              },
-              {
-                "name": "Infrastructure&Facilities_DRAFT_04092026_Minutes",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6881)"
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "7",
-        "name": "Ordinances and resolutions.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "8",
-        "name": "Suspend Rule 11(A) Referral of ordinances, 6(B) Filing, and 21 Amending of the Rules.",
-        "votes": [
-          {
-            "motion": "suspend rule 11(A) Referral of ordinances",
-            "passed": true,
-            "initiator": "Sarah Watson",
-            "seconder": "Michael  Martens",
-            "yes": [
-              "Carol Lukens",
-              "Michael  Martens",
-              "Terry Kilian",
-              "Tom Neal",
-              "Andrew Wiskowski",
-              "Kristin Slonski",
-              "Sarah Watson",
-              "Vicki Tierney"
-            ],
-            "no": [
-              "Matt Hoenecke",
-              "Lou Larson",
-              "Bruce Trueblood"
-            ],
-            "abstain": []
-          },
-          {
-            "motion": "suspend rule 21 Amending of the Rules",
-            "passed": false,
-            "initiator": "Matt Hoenecke",
-            "seconder": "Terry Kilian",
-            "yes": [
-              "Terry Kilian",
-              "Tom Neal",
-              "Matt Hoenecke",
-              "Vicki Tierney",
-              "Bruce Trueblood"
-            ],
-            "no": [
-              "Carol Lukens",
-              "Michael  Martens",
-              "Andrew Wiskowski",
-              "Kristin Slonski",
-              "Sarah Watson",
-              "Lou Larson"
-            ],
-            "abstain": []
-          }
-        ],
-        "docs": [],
-        "children": [
-          {
-            "number": "",
-            "name": "Ordinance from the Common Council to Amend Wausau Municipal Code Ch. 2.16, Standing Rules of the Common Council.",
-            "votes": [
-              {
-                "motion": "Approve as Amended",
-                "passed": false,
-                "initiator": "Matt Hoenecke",
-                "seconder": "Vicki Tierney",
-                "yes": [
-                  "Terry Kilian",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Vicki Tierney",
-                  "Bruce Trueblood"
-                ],
-                "no": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Tom Neal",
-                  "Sarah Watson",
-                  "Lou Larson"
-                ],
-                "abstain": []
-              },
-              {
-                "motion": "Refer item back to the Rules Review Committee",
-                "passed": false,
-                "initiator": "Lou Larson",
-                "seconder": "Tom Neal",
-                "yes": [
-                  "Sarah Watson",
-                  "Lou Larson"
-                ],
-                "no": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Terry Kilian",
-                  "Tom Neal",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Vicki Tierney",
-                  "Bruce Trueblood"
-                ],
-                "abstain": []
-              },
-              {
-                "motion": "Amend Ordinance 02-0432 as stated by Alder Watson subject to Attorney Review",
-                "passed": true,
-                "initiator": "Sarah Watson",
-                "seconder": "Tom Neal",
-                "yes": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Terry Kilian",
-                  "Tom Neal",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Sarah Watson",
-                  "Vicki Tierney"
-                ],
-                "no": [
-                  "Lou Larson",
-                  "Bruce Trueblood"
-                ],
-                "abstain": []
-              },
-              {
-                "motion": "Amend the Motion to the amendment as stated by Alder Tierney",
-                "passed": true,
-                "initiator": "Vicki Tierney",
-                "seconder": "Matt Hoenecke",
-                "yes": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Terry Kilian",
-                  "Tom Neal",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Sarah Watson",
-                  "Vicki Tierney",
-                  "Bruce Trueblood"
-                ],
-                "no": [
-                  "Lou Larson"
-                ],
-                "abstain": []
-              },
-              {
-                "motion": "Amend Ordinance 02-0432 as stated by Alder Neal subject to Attorney Review",
-                "passed": false,
-                "initiator": "Tom Neal",
-                "seconder": "Lou Larson",
-                "yes": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Tom Neal",
-                  "Sarah Watson",
-                  "Lou Larson"
-                ],
-                "no": [
-                  "Terry Kilian",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Vicki Tierney",
-                  "Bruce Trueblood"
-                ],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "Standing Rules of the Wausau Common Council",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6857)"
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "",
-            "name": "Confirming Appointments of the Mayor of the City of Wausau to the Historic Preservation Commission, Sustainability, Energy & Environment Committee, Business Improvement District Board,Community Development Authority Board and Ethics Board.",
-            "votes": [
-              {
-                "motion": "approve",
-                "passed": true,
-                "initiator": "Matt Hoenecke",
-                "seconder": "Carol Lukens",
-                "yes": [
-                  "Carol Lukens",
-                  "Michael  Martens",
-                  "Terry Kilian",
-                  "Tom Neal",
-                  "Andrew Wiskowski",
-                  "Kristin Slonski",
-                  "Matt Hoenecke",
-                  "Sarah Watson",
-                  "Vicki Tierney",
-                  "Lou Larson",
-                  "Bruce Trueblood"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "Vylius Leskys Citizen Participation Form",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6886)"
-              },
-              {
-                "name": "Leskys, Vylius - Resume",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6887)"
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "9",
-        "name": "Announcement from Mayor and Alderpersons.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "10",
-        "name": "Comments and suggestions from citizens present during Public Comment occurring both before and after the business meeting.",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "11",
-        "name": "Adjournment.",
-        "votes": [
-          {
-            "motion": "Approve",
-            "passed": true,
-            "initiator": "Terry Kilian",
-            "seconder": "Kristin Slonski",
-            "yes": [],
-            "no": [],
-            "abstain": []
-          }
-        ],
-        "docs": [],
-        "children": []
-      }
+      "Community Development Director terminated for just cause, effective April 30, 2026, by a 6-0 board vote.",
+      "Village Administrator Davel directed to address remaining personnel issues arising from the matter.",
+      "Legal staff directed to handle open records notices related to the termination.",
+      "Village Board members asked by President Joling to sign the letter of termination."
     ]
   }
 ]
