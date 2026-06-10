@@ -98,6 +98,11 @@ jobs:
         run: python reprocess.py
 
       - name: Run meeting summarizer
+        id: summarize
+        # Don't abort the workflow if summarization fails (e.g. API credit
+        # exhaustion, June 2026): the site should still rebuild and deploy
+        # with whatever data we have. A final step re-surfaces the failure.
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
@@ -115,6 +120,8 @@ jobs:
           fi
 
       - name: Override agenda-only meetings with transcripts
+        id: inject_transcripts
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -207,3 +214,12 @@ jobs:
           gh issue create \
             --title "📋 Agenda-only meetings need transcripts ($(date +%Y-%m-%d))" \
             --body "$BODY"
+
+      - name: Surface summarizer failures
+        # The summarize/inject steps use continue-on-error so the site still
+        # deploys on API outages — but the run must still go red so failures
+        # aren't silent. This runs AFTER deploy.
+        if: steps.summarize.outcome == 'failure' || steps.inject_transcripts.outcome == 'failure'
+        run: |
+          echo "::error::Summarizer or transcript-injection failed earlier in this run (site still deployed with existing data). Check the step logs above — common cause: Anthropic API credit exhaustion."
+          exit 1
