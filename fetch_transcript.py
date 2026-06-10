@@ -123,7 +123,9 @@ def fetch_transcript(video_id: str) -> str | None:
 
 def find_agenda_only_meetings() -> list[dict]:
     """Find meetings in src/data/meetings.json that are agenda-only and have
-    YouTube URLs (so BoardBook entries — agenda-only by design — are skipped).
+    YouTube URLs. (BoardBook bb_ entries are handled separately by
+    find_school_board_video_matches, since their recordings live on the
+    district channel under a different video ID.)
     """
     import json as _json
     data_path = Path("./src/data/meetings.json")
@@ -153,7 +155,71 @@ def find_agenda_only_meetings() -> list[dict]:
     return results
 
 
+def find_school_board_video_matches() -> list[dict]:
+    """Match agenda-only school board (bb_) entries to recordings on the
+    district's YouTube channel. CI can LIST the channel but YouTube blocks
+    caption downloads from cloud IPs, so the actual fetch has to happen here
+    on a residential IP. Returns [{'id': 'bb_x', 'fetch_id': ytid, 'title'}]
+    where `id` names the transcript file (so CI's inject step targets the
+    BoardBook meeting) and `fetch_id` is the YouTube video to pull from.
+    """
+    import json as _json
+    from datetime import datetime as _dt
+    data_path = Path("./src/data/meetings.json")
+    if not data_path.exists():
+        return []
+    try:
+        meetings = _json.loads(data_path.read_text(encoding="utf-8"))
+    except _json.JSONDecodeError:
+        return []
+
+    bb = [m for m in meetings if isinstance(m, dict)
+          and m.get("isAgendaOnly")
+          and str(m.get("id", "")).startswith("bb_")
+          and m.get("source") == "school_board"]
+    if not bb:
+        return []
+
+    try:
+        from marathon_meeting_summarizer import (
+            fetch_channel_videos, _match_school_board_video,
+        )
+        videos = fetch_channel_videos("school_board")
+    except Exception as e:
+        print(f"  school board channel fetch failed: {str(e)[:120]}")
+        return []
+
+    state = {}
+    sp = Path("./processed_meetings.json")
+    if sp.exists():
+        try:
+            state = _json.loads(sp.read_text(encoding="utf-8")).get("processed", {})
+        except _json.JSONDecodeError:
+            pass
+
+    out = []
+    for m in bb:
+        info = state.get(m["id"]) or {}
+        if not info:
+            # Not in local state (e.g. fresh checkout) — synthesize enough of
+            # an info dict for the matcher from the displayed date.
+            try:
+                d = _dt.strptime(m.get("date", ""), "%B %d, %Y")
+                info = {"title": f"{m.get('title', '')} - {d.strftime('%Y-%m-%d')}"}
+            except ValueError:
+                continue
+        v = _match_school_board_video(info, videos)
+        if v:
+            out.append({"id": m["id"], "fetch_id": v["id"],
+                        "title": m.get("title") or m["id"]})
+    return out
+
+
 def main():
+    # Reconfigures stdout/stderr to UTF-8 — Task Scheduler consoles default to
+    # cp1252, which crashes on the summarizer module's emoji output otherwise.
+    from config import setup_logging
+    setup_logging()
     parser = argparse.ArgumentParser(
         description="Fetch YouTube transcripts locally for agenda-only meetings."
     )
@@ -167,29 +233,37 @@ def main():
 
     TRANSCRIPTS_DIR.mkdir(exist_ok=True)
 
+    # Each job: save (transcript filename / meeting ID) + fetch (YouTube video
+    # ID). They differ for school board meetings, whose BoardBook bb_ IDs are
+    # matched to recordings on the district channel.
     if args.all:
         meetings = find_agenda_only_meetings()
-        if not meetings:
-            print("No agenda-only YouTube meetings found.")
+        jobs = [{"save": m["id"], "fetch": m["id"], "title": m["title"]}
+                for m in meetings]
+        sb = find_school_board_video_matches()
+        jobs += [{"save": m["id"], "fetch": m["fetch_id"], "title": m["title"]}
+                 for m in sb]
+        if not jobs:
+            print("No agenda-only meetings with available recordings found.")
             return
-        print(f"Found {len(meetings)} agenda-only meeting(s) with YouTube URLs:\n")
-        for m in meetings:
-            print(f"  [{m['id']}] {m['title']}")
-        video_ids = [m["id"] for m in meetings]
+        print(f"Found {len(jobs)} agenda-only meeting(s) with recordings:\n")
+        for j in jobs:
+            via = f" (video {j['fetch']})" if j["fetch"] != j["save"] else ""
+            print(f"  [{j['save']}] {j['title']}{via}")
     elif args.video_ids:
-        video_ids = args.video_ids
+        jobs = [{"save": v, "fetch": v, "title": v} for v in args.video_ids]
     else:
         parser.print_help()
         return
 
-    # Skip videos that already have transcripts
+    # Skip meetings that already have transcripts
     to_fetch = []
-    for vid in video_ids:
-        tpath = TRANSCRIPTS_DIR / f"{vid}.txt"
+    for j in jobs:
+        tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
         if tpath.exists():
-            print(f"\n[skip] {vid} — transcript already exists ({tpath})")
+            print(f"\n[skip] {j['save']} — transcript already exists ({tpath})")
         else:
-            to_fetch.append(vid)
+            to_fetch.append(j)
 
     if not to_fetch:
         print("\nAll transcripts already fetched. Nothing to do.")
@@ -198,20 +272,20 @@ def main():
     # Fetch transcripts
     fetched = []
     failed = []
-    for vid in to_fetch:
+    for j in to_fetch:
         print(f"\n{'='*50}")
-        print(f"Fetching: {vid}")
-        print(f"  https://www.youtube.com/watch?v={vid}")
+        print(f"Fetching: {j['save']}")
+        print(f"  https://www.youtube.com/watch?v={j['fetch']}")
 
-        text = fetch_transcript(vid)
+        text = fetch_transcript(j["fetch"])
         if text:
-            tpath = TRANSCRIPTS_DIR / f"{vid}.txt"
+            tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
             tpath.write_text(text, encoding="utf-8")
             print(f"  [OK] Saved: {tpath} ({len(text):,} chars)")
-            fetched.append(vid)
+            fetched.append(j["save"])
         else:
             print(f"  [FAIL] No transcript available")
-            failed.append(vid)
+            failed.append(j["save"])
 
     # Summary
     print(f"\n{'='*50}")

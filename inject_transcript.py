@@ -274,6 +274,28 @@ def main():
         except (ValueError, TypeError):
             pass
 
+    # For school board (bb_) meetings, look up the district recording so the
+    # card links to the actual video. Channel LISTING works from CI IPs (only
+    # caption downloads are bot-blocked), so this is safe to run anywhere.
+    # Runs after all meeting_date fallbacks — the matcher needs the date.
+    video_url = None
+    video_duration = None
+    if vid_id.startswith("bb_"):
+        try:
+            sys.path.insert(0, str(Path(__file__).parent))
+            from marathon_meeting_summarizer import (
+                fetch_channel_videos, _match_school_board_video,
+            )
+            _minfo = {"title": title, "meeting_date": meeting_date or ""}
+            v = _match_school_board_video(_minfo, fetch_channel_videos("school_board"))
+            if v:
+                video_url = v["url"]
+                video_duration = v.get("duration")
+                url = video_url   # summary + card should point at the recording
+                print(f"[ok]  Matched district recording: {v['id']} ({v['title'][:60]})")
+        except Exception as e:
+            print(f"[warn] School board video match failed: {str(e)[:120]}")
+
     if not source_key:
         print("Error: Cannot detect source. Use --source marathon|wausau|weston|school_board")
         sys.exit(1)
@@ -340,7 +362,8 @@ def main():
         "doc_url":      doc_url,
         "upload_date":  upload_date_value,
         "meeting_date": meeting_date_value,
-        "duration":     prior.get("duration"),    # preserve video length from prior fetch
+        "duration":     video_duration or prior.get("duration"),
+        "video_url":    video_url or prior.get("video_url"),
         "processed_at": processed_at_value,
         "summary_file": str(path),
     }
