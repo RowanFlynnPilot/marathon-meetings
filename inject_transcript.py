@@ -163,6 +163,10 @@ def main():
             title = re.sub(r'(\s*-\s*\d{1,2}/\d{1,2}/\d{2,4})+$', '', title).strip()
             source_key = source_key or info.get("source")
             doc_url = info.get("doc_url")
+            # Synthetic kw_ IDs aren't YouTube videos — use the stored meeting
+            # page URL instead of a bogus watch?v= link.
+            if vid_id.startswith("kw_") and info.get("video_url"):
+                url = info["video_url"]
             print(f"[ok]  Found in state: [{source_key}] {title}")
         else:
             print(f"[warn] Video {vid_id} not in processed_meetings.json")
@@ -214,7 +218,7 @@ def main():
         except json.JSONDecodeError:
             pass
 
-    if not vid_id.startswith("bb_"):
+    if not vid_id.startswith(("bb_", "kw_")):
         print(f"[fetch] Querying YouTube for authoritative title and date...")
         try:
             import subprocess

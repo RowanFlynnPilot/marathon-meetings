@@ -155,6 +155,160 @@ def find_agenda_only_meetings() -> list[dict]:
     return results
 
 
+def _parse_kw_track_date(title: str) -> str:
+    """Parse YYYYMMDD from a Kronenwetter SoundCloud track title. Formats seen:
+    'June 8, 2026 ...', 'May 19th 2026 ...', '05052026 UC ...', 'April  30, 2026 ...'."""
+    import re as _re
+    from datetime import datetime as _dt
+    t = _re.sub(r"\s+", " ", title)
+    m = _re.search(r"([A-Z][a-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d{2})", t)
+    if m:
+        try:
+            return _dt.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}",
+                                "%B %d %Y").strftime("%Y%m%d")
+        except ValueError:
+            pass
+    m = _re.search(r"\b(\d{2})(\d{2})(20\d{2})\b", t)   # MMDDYYYY
+    if m:
+        return m.group(3) + m.group(1) + m.group(2)
+    m = _re.search(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", t)
+    if m:
+        return f"{m.group(3)}{int(m.group(1)):02d}{int(m.group(2)):02d}"
+    return ""
+
+
+def _kw_meeting_type(text: str) -> tuple:
+    """Classify a Kronenwetter meeting/track title into (body, special, resched)."""
+    t = " " + text.lower() + " "
+    if "community life" in t or "clipp" in t:
+        body = "clipp"
+    elif "utility" in t or " uc " in t:
+        body = "utility"
+    elif "administrative policy" in t or " apc " in t:
+        body = "admin_policy"
+    elif "board of review" in t or " bor " in t:
+        body = "review"
+    elif "plan commission" in t or " pc " in t:
+        body = "plan"
+    elif "police and fire" in t or "police & fire" in t or " pfc " in t:
+        body = "police_fire"
+    elif "redevelopment" in t:
+        body = "redevelopment"
+    elif "village board" in t or " vb " in t or "board meeting" in t:
+        body = "village_board"
+    else:
+        body = "other"
+    return (body, "special" in t, "reschedul" in t)
+
+
+def find_kronenwetter_audio_matches() -> list[dict]:
+    """Match agenda-only Kronenwetter (kw_) entries to the village's SoundCloud
+    audio recordings (soundcloud.com/kronenwetter — every meeting is posted).
+    Returns [{'id': 'kw_x', 'fetch_url': track_url, 'title'}]. Transcription
+    happens locally via Whisper since SoundCloud has no captions.
+    """
+    import json as _json
+    from datetime import datetime as _dt
+    data_path = Path("./src/data/meetings.json")
+    if not data_path.exists():
+        return []
+    try:
+        meetings = _json.loads(data_path.read_text(encoding="utf-8"))
+    except _json.JSONDecodeError:
+        return []
+
+    kw = [m for m in meetings if isinstance(m, dict)
+          and m.get("isAgendaOnly")
+          and str(m.get("id", "")).startswith("kw_")
+          and m.get("source") == "kronenwetter"]
+    if not kw:
+        return []
+
+    ytdlp = _ytdlp_cmd()
+    if not ytdlp:
+        return []
+    print("  Fetching Kronenwetter SoundCloud track list...")
+    try:
+        r = subprocess.run(
+            [*ytdlp, "--no-check-certificate", "--flat-playlist", "--dump-json",
+             "--playlist-end", "50", "https://soundcloud.com/kronenwetter"],
+            capture_output=True, text=True, timeout=120,
+        )
+        tracks = []
+        import json as _json2
+        for line in r.stdout.strip().splitlines():
+            try:
+                d = _json2.loads(line)
+            except _json2.JSONDecodeError:
+                continue
+            title = d.get("title") or ""
+            url = d.get("url") or d.get("webpage_url") or ""
+            if not url:
+                continue
+            tracks.append({"title": title, "url": url,
+                           "date": _parse_kw_track_date(title),
+                           "type": _kw_meeting_type(title)})
+    except Exception as e:
+        print(f"  SoundCloud list fetch failed: {str(e)[:100]}")
+        return []
+
+    out = []
+    for m in kw:
+        try:
+            mdate = _dt.strptime(m.get("date", ""), "%B %d, %Y").strftime("%Y%m%d")
+        except ValueError:
+            continue
+        mtype = _kw_meeting_type(f"{m.get('title','')} {m.get('committee','')}")
+        cands = [t for t in tracks if t["date"] == mdate and t["type"] == mtype]
+        if len(cands) == 1:
+            out.append({"id": m["id"], "fetch_url": cands[0]["url"],
+                        "title": m.get("title") or m["id"]})
+    return out
+
+
+def fetch_transcript_whisper_url(media_url: str) -> str | None:
+    """Download audio from any yt-dlp-supported URL (e.g. SoundCloud) and
+    transcribe locally with faster-whisper. Returns transcript text or None."""
+    try:
+        import faster_whisper
+    except ImportError:
+        print("  faster-whisper not installed (pip install faster-whisper) — skipping")
+        return None
+    ytdlp = _ytdlp_cmd()
+    if not ytdlp:
+        return None
+    from config import WHISPER_MODEL
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        out = os.path.join(tmpdir, "audio.%(ext)s")
+        print("  Downloading audio...")
+        r = subprocess.run(
+            [*ytdlp, "--no-check-certificate", "--no-playlist",
+             "-f", "bestaudio/best", "-o", out, media_url],
+            capture_output=True, text=True, timeout=900,
+        )
+        files = [f for f in os.listdir(tmpdir)
+                 if not f.endswith(".part")
+                 and os.path.getsize(os.path.join(tmpdir, f)) > 10000]
+        if not files:
+            print(f"  Audio download failed: {(r.stderr or '').strip()[-150:]}")
+            return None
+        audio_path = os.path.join(tmpdir, files[0])
+        size_mb = os.path.getsize(audio_path) / 1024 / 1024
+        print(f"  Audio: {size_mb:.0f} MB — transcribing with Whisper ({WHISPER_MODEL})...")
+        import time
+        t0 = time.time()
+        model = faster_whisper.WhisperModel(WHISPER_MODEL, device="cpu",
+                                            compute_type="int8")
+        segments, _info = model.transcribe(
+            audio_path, language="en", beam_size=1, vad_filter=True,
+            vad_parameters={"min_silence_duration_ms": 500},
+        )
+        text = " ".join(seg.text.strip() for seg in segments).strip()
+        print(f"  Whisper: {len(text):,} chars in {(time.time()-t0)/60:.1f} min")
+        return text if len(text) > 200 else None
+
+
 def find_school_board_video_matches() -> list[dict]:
     """Match agenda-only school board (bb_) entries to recordings on the
     district's YouTube channel. CI can LIST the channel but YouTube blocks
@@ -243,12 +397,21 @@ def main():
         sb = find_school_board_video_matches()
         jobs += [{"save": m["id"], "fetch": m["fetch_id"], "title": m["title"]}
                  for m in sb]
+        kw = find_kronenwetter_audio_matches()
+        jobs += [{"save": m["id"], "fetch": m["id"], "fetch_url": m["fetch_url"],
+                  "method": "whisper", "title": m["title"]}
+                 for m in kw]
         if not jobs:
             print("No agenda-only meetings with available recordings found.")
             return
         print(f"Found {len(jobs)} agenda-only meeting(s) with recordings:\n")
         for j in jobs:
-            via = f" (video {j['fetch']})" if j["fetch"] != j["save"] else ""
+            if j.get("method") == "whisper":
+                via = " (SoundCloud audio -> Whisper)"
+            elif j["fetch"] != j["save"]:
+                via = f" (video {j['fetch']})"
+            else:
+                via = ""
             print(f"  [{j['save']}] {j['title']}{via}")
     elif args.video_ids:
         jobs = [{"save": v, "fetch": v, "title": v} for v in args.video_ids]
@@ -275,9 +438,12 @@ def main():
     for j in to_fetch:
         print(f"\n{'='*50}")
         print(f"Fetching: {j['save']}")
-        print(f"  https://www.youtube.com/watch?v={j['fetch']}")
-
-        text = fetch_transcript(j["fetch"])
+        if j.get("method") == "whisper":
+            print(f"  {j['fetch_url']}")
+            text = fetch_transcript_whisper_url(j["fetch_url"])
+        else:
+            print(f"  https://www.youtube.com/watch?v={j['fetch']}")
+            text = fetch_transcript(j["fetch"])
         if text:
             tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
             tpath.write_text(text, encoding="utf-8")
