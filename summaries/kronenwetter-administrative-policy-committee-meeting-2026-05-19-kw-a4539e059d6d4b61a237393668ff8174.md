@@ -3,48 +3,47 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf  
-**Summarized:** 2026-06-10 20:27 UTC
+**Summarized:** 2026-06-10 21:41 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Administrative Policy Committee of the Village of Kronenwetter was scheduled to conduct organizational business including selection of leadership positions, review meeting minutes, and consider several substantive matters including a fire department grant opportunity, police policy services contract, municipal court fee increase, wage adjustments, and a plan to promote village development.
+The Village of Kronenwetter's Administrative Policy Committee held its first organizational meeting of the 2026-2027 session on May 19, 2026, electing officers and taking action on several financial and operational matters. Key decisions included approving applications for a DNR forest fire protection grant, a police department policy contract, a municipal court fee increase, and changes to the employee wage and evaluation schedule. Finance Director John Jacobs announced the long-awaited 2024 audit draft had finally arrived, with a village board presentation planned for June 8.
 
 ## Key Discussions
-### Approval of Minutes - April 21, 2026 Administrative Policy Committee Meeting Minutes
-The committee was scheduled to review and consider approval of the minutes from the April 21, 2026 Administrative Policy Committee meeting. This item was set for discussion and possible action.
+### Election of chairperson and vice chairperson
+Trustee Jessica Stole was nominated and elected chairperson by acclamation, but was absent from the meeting. Because Stole was not present, the committee proceeded to elect a vice chairperson. Mary Soulheim was nominated and elected vice chairperson by acclamation, and she presided over the remainder of the meeting.
 
-### Finance Director Report
-The Finance Director was scheduled to present a report to the committee. The specific contents of this report were not detailed on the agenda.
+### Finance Director report
+Finance Director John Jacobs announced the draft 2024 financial audit report arrived the day of the meeting, and auditors confirmed they will present to the village board on June 8. Jacobs explained the audit delays were caused by a $1.2 million debt service funding error made by predecessors over two consecutive budget years, plus unreconciled bank statement discrepancies dating back before 2024. Trustee Guy Ferdell asked if the predecessor's financial mess was the primary cause of delays, and Jacobs confirmed it was, stating 'it's taken care of' and that the 2025 audit fieldwork is expected in July or August. Jacobs also introduced new account clerk Samantha Hice.
 
-### Fire Department DNR Grant Opportunity
-The committee was scheduled to discuss a grant opportunity available through the Department of Natural Resources for the Fire Department. This item was set for discussion and possible action.
+### Fire Department DNR grant opportunity
+Chief [name not clearly stated] presented a 5050 matching DNR forest fire protection grant the department has received nearly every year for the past five or six years. The maximum village match is $10,000, which would be budgeted and returned if the grant is not awarded in October. The committee approved a motion to set aside the $10,000 match in the budget. Roll call vote: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0.
 
-### Police Policy Contract for Service, CSI Policy Group
-The committee was expected to consider a contract for police policy services with CSI Policy Group. This item was set for discussion and possible action.
+### Police department policy contract with CSI Information LLC
+Chief [name not clearly stated] presented a contract with CSI Information LLC for a standardized police policy manual. The initial cost is $2,500 and annual renewal is $500, but both amounts are fully reimbursed through the League of Wisconsin Municipalities, making it effectively no cost to the village. Policies will be delivered two at a time for officer review and sign-off. Committee members noted the importance of updated policies for liability, particularly citing the domestic violence policy. Motion passed on roll call: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0.
 
-### Municipal Court Fee Increase
-The committee was scheduled to discuss a proposed increase to municipal court fees. This item was set for discussion and possible action.
+### Municipal court fee increase
+The committee discussed a proposed $10 increase to the municipal court citation fee, from $38 to $48, the first increase since 2013. Chief [name inaudible] and Village Administrator Jim Davil presented the item, noting municipal courts are not revenue generators and that rising operational costs justify the increase. A motion was made and seconded to recommend the fee increase to the village board. Roll call vote: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0.
 
-### HR-005-Wage Adjustment Chart
-The committee was expected to review and consider the HR-005 wage adjustment chart. This item was set for discussion and possible action.
+### Wage adjustment and employee evaluation schedule change (AR-005)
+Village Administrator Jim Davil proposed changing the employee evaluation and wage adjustment process so that all employees are evaluated in October and wage increases take effect January 1 with budget approval, rather than on each employee's individual hire anniversary date. Davil cited benefits including easier payroll management, full Wisconsin Retirement System benefit year, and better alignment with the budget process. Staff expressed support for the change. The committee approved a voice vote motion to take the policy change to the village board. Motion carried.
 
-### RFP Draft for Assessment and Revaluation Services
-The committee was scheduled to discuss a draft request for proposals for assessment and revaluation services. This item was set for discussion and possible action.
+### RFP for property assessment and revaluation services
+Finance Director Jacobs presented a draft RFP for a full exterior property revaluation and reassessment, noting the village's assessed value has dropped from 99% of full market value in 2021 to approximately 66-69% in 2025, triggering a mandatory correction before the state Department of Revenue intervenes at higher cost. The reassessment must be completed by October 15, 2027 for December 2027 tax bills. Jacobs explained the average property value increase will be approximately 35-40%, but that tax rates will fall proportionally, making it largely a wash for most property owners. The committee discussed the timeline, noting the RFP would go out May 22, proposals due June 8, and the contract would go to the village board June 22. No formal vote was taken; Jacobs sought comments on the draft RFP before release.
 
-### Developing a Plan to Promote Development Within the Village of Kronenwetter
-The committee was expected to consider developing a plan to promote economic or community development within the Village of Kronenwetter. This item was set for discussion and possible action.
+### Developing a plan to promote development within the village
+Trustee Guy Ferdell presented a discussion memo proposing a coordinated development planning process involving the APC, utilities committee, planning commission, RDA, and village board to prioritize development projects. Ferdell suggested the village should target higher-value projects above $700,000-$1 million and consider covering developer soft costs as incentives for high-impact projects. Davil noted positive momentum including a developer presenting a concept plan to the planning committee the previous night that was received favorably rather than rejected outright, which he described as a significant change in tone. The committee agreed the village board should first set priorities at the next board meeting, after which committees would coordinate. No formal vote was taken; item is a discussion and next steps were assigned.
 
 ## Public Comment
-Public comment was indicated on the agenda, with a 15-minute total time limit and three-minute limit per person, at the Chief Presiding Officer's discretion for extensions. No action was scheduled to be taken under public comments.
+One speaker offered public comment: Bernie Kramer of 2150 East State Highway 153, Brokaw/Kronenwetter area. Kramer raised concerns about two simultaneous audits suggesting the village is behind, the lack of an economic development director, the predominantly residential nature of growth (85% residential), the absence of major commercial development, and fiscal caution regarding spending. He referenced Weston's failed ambulance referendum and the closure of Rosholt's water park as cautionary examples. Vice Chair Soulheim noted Kramer exceeded the three-minute limit but allowed him to conclude under the presiding officer's discretion.
 
 ## Action Items
-- Scheduled to elect a Chairperson
-- Scheduled to elect a Vice-Chairperson
-- Expected to consider approval of April 21, 2026 meeting minutes
-- Scheduled to evaluate Fire Department DNR grant opportunity
-- Expected to consider Police Policy Contract for Service with CSI Policy Group
-- Scheduled to review and potentially act on Municipal Court fee increase
-- Expected to consider HR-005 wage adjustment chart
-- Scheduled to review RFP draft for assessment and revaluation services
-- Expected to consider developing a plan to promote development within the village
+- Finance Director Jacobs to review draft 2024 audit report and distribute to APC and village board by early June, with formal village board presentation on June 8 with auditors present
+- Fire Department to apply for DNR forest fire protection grant; $10,000 village match to be included in budget
+- Police Department to execute contract with CSI Information LLC for policy manual development at $2,500 initial cost (reimbursed by League of Municipalities) and $500 annual renewal (also reimbursed)
+- Village administrator to take $10 municipal court fee increase recommendation to village board for approval
+- Village administrator to take wage/evaluation schedule change to village board: all evaluations in October, wage increases effective January 1 aligned with budget
+- Finance Director Jacobs to release property reassessment RFP on May 22, with proposals due June 8 and contract award recommendation to village board on June 22
+- Village administrator Davil to present village board with priorities discussion at next board meeting; results to be communicated back to all committees
+- Next APC meeting set for June 15, 2026 at 5:00 p.m. (moved from June 16 to accommodate Trustee Stole's planning commission meeting at 6:00 p.m.)

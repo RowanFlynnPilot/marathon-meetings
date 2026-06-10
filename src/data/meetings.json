@@ -9,37 +9,52 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-12",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c427847ae4914e0b8e48bbb4f7095c9b.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, this special Village Board meeting was scheduled to convene in closed session to interview a Community Development Director candidate and consider related employment matters. The meeting was set for June 9, 2026, at the Kronenwetter Municipal Center.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board held a special meeting on June 9, 2026, primarily to interview a candidate for the Community Development Director position in closed session. Following the closed session, the board voted unanimously to authorize the village administrator to make a job offer to candidate Mason Sandwick within parameters set during the closed session. This decision is significant to residents as it fills a key community development leadership role.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Closed session pursuant to Wis. Stat. 19.85(1)(c) for consideration of employment, promotion, compensation or performance evaluation data of any public employee - Interviewing Community Development Director Candidate"
+        "time": "0:00",
+        "item": "Call to order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Reconvene into open session"
+        "time": "0:20",
+        "item": "Roll call"
       },
       {
-        "time": "N/A",
-        "item": "Action after closed session"
+        "time": "0:45",
+        "item": "Item 2: Motion to convene in closed session per Wisconsin Statute 19.85(1)(c) - interviewing Community Development Director candidate"
+      },
+      {
+        "time": "2:10",
+        "item": "Closed session: Interview of Community Development Director candidate Mason Sandwick"
+      },
+      {
+        "time": "3:00",
+        "item": "Return from closed session - motion to authorize job offer to Mason Sandwick"
+      },
+      {
+        "time": "4:10",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Closed Session - Community Development Director Candidate Interview",
-        "body": "The board was scheduled to convene in closed session to interview a Community Development Director candidate and consider related employment matters including potential promotion, compensation, and performance evaluation data. The closed session was authorized under Wisconsin Statute 19.85(1)(c) for matters involving public employee personnel decisions."
+        "item": "Motion to convene in closed session",
+        "body": "The board moved into closed session pursuant to Wisconsin Statute 19.85(1)(c) to interview a Community Development Director candidate. Trustee Coil made the motion and Trustee Mishka provided the second. The motion passed on a 4-0 roll call vote, with Trustees Coil, Lysney, Borgensen, and Mishka voting yes; Trustees Stoll and President Jolene were noted as present or absent during this vote."
       },
       {
-        "item": "Action After Closed Session",
-        "body": "Following reconvention in open session, the board was scheduled to take action on matters discussed during the closed session, though the specific nature of such action was not detailed on the agenda."
+        "item": "Motion to authorize job offer to Community Development Director candidate Mason Sandwick",
+        "body": "Upon returning from closed session, a trustee made a motion to authorize the village administrator to make an offer to Mason Sandwick within the compensation parameters discussed in closed session. A second was provided by Trustee Mishka (referred to as Jessica). The motion passed unanimously on a 5-0 roll call vote with Trustees Coil, Lysney, Borgensen, Mishka, and Stoll all voting yes."
+      },
+      {
+        "item": "Adjournment",
+        "body": "A motion to adjourn was made by Jessica (Trustee Mishka) and seconded by Kelly (Trustee [last name inaudible]). The motion carried on a voice vote with no opposition."
       }
     ],
-    "publicComment": "Not indicated on agenda.",
+    "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Scheduled to interview Community Development Director candidate in closed session",
-      "Expected to reconvene in open session and consider action items"
+      "Village administrator authorized to make a job offer to Mason Sandwick for the Community Development Director position within the compensation parameters set during closed session."
     ]
   },
   {
@@ -52,123 +67,101 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on June 8, 2026, to address the 2024 village audit, consider multiple licensing renewals and appointments, and review proposals for municipal infrastructure projects including a public works truck purchase and garage building plans. The meeting also included staff reports and was set to convene in closed session to discuss employee performance evaluations.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter Board held its June 8, 2026 meeting, covering a 2024 audit presentation revealing six financial deficiencies including material weaknesses in bank reconciliations and segregation of duties, and taking several significant votes including appointing Mary Solheim to a vacant trustee seat, approving a $49,558.50 truck purchase for public works, awarding a $799,780 municipal garage contract, and voting to create a special parks committee. The audit findings - including delayed bank reconciliations not completed until February 2026 and numerous unreconciled accounts - drew sharp criticism from public commenters who noted the village has been going backward on financial controls.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "2024 Village Audit - Discussion and Possible Action"
+        "time": "0:00",
+        "item": "Call to Order, Pledge of Allegiance, Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Operator Bartender License - Cory P. Boykins"
+        "time": "4:20",
+        "item": "2024 Audit Presentation - Discussion and Possible Action (Item 5)"
       },
       {
-        "time": "N/A",
-        "item": "Alcohol Beverage License Renewals 2026-2027"
+        "time": "38:10",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027"
+        "time": "45:30",
+        "item": "Staff Reports - Police Chief and Fire Chief"
       },
       {
-        "time": "N/A",
-        "item": "Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280"
+        "time": "50:15",
+        "item": "Administrator Report - Mr. Davell (storm damage, transfer switch repair)"
       },
       {
-        "time": "N/A",
-        "item": "June 1, 2026 Special Village Board Meeting Minutes"
+        "time": "57:00",
+        "item": "Finance Director Report - Mr. Jacobs (five-year financial snapshot)"
       },
       {
-        "time": "N/A",
-        "item": "June 1, 2026 Rescheduled Village Board Meeting Minutes"
+        "time": "1:15:00",
+        "item": "Consent Agenda Items H through M"
       },
       {
-        "time": "N/A",
-        "item": "Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department"
+        "time": "1:16:30",
+        "item": "Item 9 - Purchase of New 3/4-Ton Crew Cab Truck for Public Works"
       },
       {
-        "time": "N/A",
-        "item": "Appointment of Village Board Trustee"
+        "time": "1:28:00",
+        "item": "Item 10 - Appointment of Village Board Trustee"
       },
       {
-        "time": "N/A",
-        "item": "Municipal Garage Building Proposals (CLIPP)"
+        "time": "1:50:00",
+        "item": "Municipal Garage Building Proposals"
       },
       {
-        "time": "N/A",
-        "item": "Kronenwetter Park Committee (CLIPP)"
-      },
-      {
-        "time": "N/A",
-        "item": "Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)"
-      },
-      {
-        "time": "N/A",
-        "item": "Staff Performance Evaluations - Closed Session"
+        "time": "2:05:00",
+        "item": "Kronenwetter Park Committee Formation"
       }
     ],
     "discussions": [
       {
-        "item": "2024 Village Audit",
-        "body": "The board was scheduled to discuss and take possible action on the 2024 village audit review. This item was set for discussion and potential approval by the board."
+        "item": "2024 Audit Presentation",
+        "body": "Auditors Amber and Yelsky and Subert Randall from the village's audit firm presented six findings: two material weaknesses (segregation of duties, failure to prepare the annual financial report internally) and four additional deficiencies including late bank reconciliations (the year-end 2024 reconciliation was not received until February 2026 and January 2025 not until May 2026), lack of journal entry documentation, unreconciled non-cash accounts, and audit adjustments required. The auditors noted the village received an unmodified (clean) opinion but only after extra procedures. They projected beginning the 2025 audit in mid-to-late September 2026 contingent on timely bank reconciliations. Board members thanked the auditors and acknowledged the need for a corrective action plan, with Administrator Davell and Finance Director Jacobs indicating they are working on improvements including potentially hiring an additional finance staff member."
       },
       {
-        "item": "Operator Bartender License - Cory P. Boykins",
-        "body": "The board was scheduled to consider an operator bartender license application for Cory P. Boykins as part of the consent agenda. This licensing matter was set for discussion and possible action."
+        "item": "Public Comment - Audit and Other Topics",
+        "body": "Public commenter Bernie Kramer criticized the village's financial management, noting the number of audit deficiencies has grown from three to six and calling out repeated findings that have not been corrected, stating 'we've been going backwards.' He questioned how the village expects to gain citizen trust. Tim Stercora spoke in support of the already-approved Leah Road trails project, arguing it has been delayed by 'lame excuses for about four years' and that water utility safety concerns about proximity to walking paths are overblown. Patty Tulkowski spoke in support of Garrett Lezmi as a candidate for the vacant trustee position, citing his professional engineering background and service on the CLIP committee."
       },
       {
-        "item": "Alcohol Beverage License Renewals 2026-2027",
-        "body": "The board was scheduled to consider renewal of alcohol beverage licenses for the 2026-2027 period. These renewals were included in the consent agenda for discussion and possible action."
+        "item": "Finance Director Report",
+        "body": "Finance Director John Jacobs presented a five-year financial snapshot highlighting key metrics relevant to upcoming borrowing. He reported the 2024 unassigned general fund balance was $931,000 (16% of budget, above the 15% policy threshold), cash and investments at $18 million (inflated by $7.8 million in borrowed capital project funds), and general obligation debt at $13.5 million or 18.1% of the debt limit. Jacobs noted TID1 carries a $2.6 million deficit advancing from the general fund but predicted it will reverse once the distribution center generates tax increment. He also flagged that the debt service fund had been incorrectly over-funded for years. Jacobs stated he is confident in achieving a September 2025 audit start date and confirmed the village is not facing bankruptcy despite public claims to the contrary."
       },
       {
-        "item": "Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027",
-        "body": "The board was scheduled to consider renewal of cigarette, tobacco, and electronic vaping device licenses for the 2026-2027 period. These renewals were set for discussion and possible action as part of the consent agenda."
+        "item": "Consent Agenda Items H through M",
+        "body": "Trustee Coil moved and Trustee Mortensen seconded approval of consent agenda items H through M. There was brief discussion confirming a vendor had all necessary documentation included. The motion passed unanimously on a voice vote."
       },
       {
-        "item": "Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280",
-        "body": "The board was scheduled to review and consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280. This item was set for discussion and possible action on the consent agenda."
-      },
-      {
-        "item": "Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department",
-        "body": "The board was scheduled to consider the purchase of a new 3/4-ton crew cab truck for the village's Public Works Department. This capital equipment acquisition was set for discussion and possible action under new business."
+        "item": "Purchase of New 3/4-Ton Crew Cab Truck for Public Works",
+        "body": "Public Works Director Holman explained that a 2015 pickup truck's transmission failed, with repair estimates of $8,000-$10,000 on a truck worth only $12,000-$14,000 and already slated for replacement in 2027. Staff recommended purchasing a 2026 GMC Sierra 2500 for $49,558.50 over a competing Dodge bid. Finance Director Jacobs outlined a four-step funding plan using existing capital project and equipment replacement funds without new borrowing. Trustee Coil moved and Trustee Mishka seconded approval. The motion passed 6-0 on a roll call vote with all trustees and the president voting yes."
       },
       {
         "item": "Appointment of Village Board Trustee",
-        "body": "The board was scheduled to consider the appointment of a new village board trustee. This personnel action was set for discussion and possible action under new business."
+        "body": "Five applicants addressed the board: Missy Swanson (social worker/therapist), Matthew Heldenbrand (former planning commission and county board member), Mary Solheim (human services director with large budget management experience), and Alex Veddick (former village trustee); Chris Johnson was absent. President Jolene nominated Mary Solheim, seconded by Trustee Stoel. Trustee Mishka nominated Alex Veddick, seconded by Trustee Mortensen. On the roll call vote for Solheim: Trustee Coil yes, Trustee Lesniane yes, Trustee Mortensen yes, Trustee Mishka no, Trustee Stoel yes, President Jolene yes. Solheim was appointed 5-1."
       },
       {
-        "item": "Municipal Garage Building Proposals (CLIPP)",
-        "body": "The board was scheduled to review and discuss municipal garage building proposals under the CLIPP initiative. This item was set for discussion and possible action regarding village infrastructure improvements."
+        "item": "Municipal Garage Building Proposals",
+        "body": "Public Works Director Holman presented six design-build RFP responses for a six-bay equipment garage to house police vehicles, parks equipment, a sewer truck, and a hoist truck. Both the CLIP committee and the Utility Committee recommended S.D. Allen Becker of Athens, Wisconsin at $799,780, noting they were the only firm that visited the site in person. Funding is one-third from sewer utility and two-thirds from capital project funds with no borrowing required. Trustee Mishka moved and Trustee Mortensen seconded approval of the S.D. Allen Becker bid at $799,780. The motion passed unanimously 6-0 on a roll call vote."
       },
       {
-        "item": "Kronenwetter Park Committee (CLIPP)",
-        "body": "The board was scheduled to address matters related to the Kronenwetter Park Committee under the CLIPP program. This item was set for discussion and possible action regarding park management or development."
-      },
-      {
-        "item": "Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)",
-        "body": "The board was scheduled to discuss trails and leisure amenities for village-owned property on Lea Road under the CLIPP initiative. This item was set for discussion and possible action regarding recreational facilities development."
-      },
-      {
-        "item": "Staff Performance Evaluations",
-        "body": "The board was scheduled to convene in closed session to consider staff performance evaluations pursuant to Wisconsin Statute 19.85(1)(c). This discussion was set to address employment matters in a closed session."
+        "item": "Kronenwetter Park Committee Formation",
+        "body": "Trustee Mishka proposed creating a parks committee after three residents expressed interest at a May bike-and-walk health event survey. Discussion centered on whether to create a subcommittee of CLIP or a separate special committee; Administrator Davell noted the staffing burden of additional meeting minutes. After clarification that village ordinances use the term 'special committee' rather than 'ad hoc,' Trustee Coil moved and Trustee Stoel seconded creation of a special park committee. The motion appeared to pass though the transcript ends mid-discussion on committee size; no final roll call vote was captured."
       }
     ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.",
+    "publicComment": "Three residents spoke during public comment. Patty Tulkowski (2153 Peach Brook, Plover) expressed strong support for Garrett Lezmi for the vacant trustee position, citing his professional engineering background and participation on the CLIP committee. Tim Stercora (2023 Greenbud Road) urged the board to move forward on the already-approved Leah Road trails project, arguing it has been delayed for four years and that water utility safety objections are unfounded since people have walked past those buildings for years with no issues. Bernie Kramer (Oil 150 East State Highway 153, Bethlehem) criticized the village's audit findings, noting deficiencies have grown from three to six over time and questioning whether the village will ever achieve accountability and regain citizen trust.",
     "actionItems": [
-      "scheduled to vote on 2024 village audit",
-      "scheduled to consider operator bartender license for Cory P. Boykins",
-      "scheduled to vote on alcohol beverage license renewals for 2026-2027",
-      "scheduled to vote on cigarette, tobacco, and electronic vaping device license renewals for 2026-2027",
-      "scheduled to consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280",
-      "scheduled to approve meeting minutes from June 1, 2026 special and rescheduled meetings",
-      "expected to vote on purchase of 3/4-ton crew cab truck for Public Works Department",
-      "expected to make appointment of village board trustee",
-      "scheduled to consider municipal garage building proposals",
-      "scheduled to discuss Kronenwetter Park Committee matters",
-      "scheduled to consider trails and leisure development for Lea Road property",
-      "scheduled to discuss and take action after closed session staff performance evaluations"
+      "Mary Solheim appointed as Village Board Trustee (approved 5-1)",
+      "Purchase of 2026 GMC Sierra 2500 truck for Public Works approved at $49,558.50",
+      "S.D. Allen Becker awarded municipal garage design-build contract at $799,780; construction to begin with concrete work in August 2026 with occupancy expected in January 2027",
+      "Special Parks Committee created; Trustee Mishka to serve as chair; membership size and appointments to be determined",
+      "Finance Director Jacobs to bring capital fund transfer and budget adjustment for truck purchase through APC and back to board for formal approval",
+      "Finance Director Jacobs to present plan for creating a water utility capital replacement fund by end of 2026",
+      "Village management directed to implement monthly bank reconciliation procedures and report progress to auditors; auditors to be contacted if September 2025 audit start is not feasible",
+      "Administrator Davell to bring proposal for additional finance department staff member to board as part of budget process",
+      "Interviews for Community Development position to proceed the following day",
+      "APC vacancy to be posted; interested residents directed to contact Administrator Davell or the clerk"
     ]
   },
   {
@@ -504,7 +497,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-27",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-51516c759297414687a6c1787c9508dd.pdf",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Utility Committee of the Village of Kronenwetter was scheduled to meet on June 2, 2026, to address approval of previous meeting minutes, receive a Director of Public Works and Utilities report, and consider new business items including requests for proposals for a new garage and discussion of village property near Lea Road.",
     "agenda": [
       {
@@ -550,6 +543,123 @@
     ]
   },
   {
+    "id": "kw_100b287096f24509895489749fa9223a",
+    "source": "kronenwetter",
+    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+    "date": "June 1, 2026",
+    "shortDate": "JUN 1",
+    "committee": "CLIPP",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-25",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-100b287096f24509895489749fa9223a.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter CLIPP Committee met on June 1, 2026, taking action on four key matters: recommending SD Allen Becker as general contractor for a new six-bay municipal garage (5-0), voting to proceed with Lea Road trails while eliminating the parking lot and driveway from the project scope to save approximately $17,000 (5-0), voting to recommend a parks subcommittee to the village board (5-0), and deferring the Chromewood Drive/Flanar-Gem Roth road rehabilitation project due to costs roughly doubling from estimates. The meeting also featured a public comment from a resident urging the committee to follow through on previously approved trail improvements.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "2:15",
+        "item": "Roll Call"
+      },
+      {
+        "time": "3:00",
+        "item": "Public Comments"
+      },
+      {
+        "time": "8:30",
+        "item": "Approval of May 4, 2026 CLIPP Minutes"
+      },
+      {
+        "time": "9:30",
+        "item": "Police Chief Report"
+      },
+      {
+        "time": "11:00",
+        "item": "Fire Chief Report"
+      },
+      {
+        "time": "12:30",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "22:00",
+        "item": "Old Business: Chromewood Drive/Flanar-Gem Roth Road Rehabilitation Bids"
+      },
+      {
+        "time": "38:00",
+        "item": "New Business: Municipal Garage Building Proposals"
+      },
+      {
+        "time": "58:00",
+        "item": "Bushka Park Fundraising Update"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Kronenwetter Parks Committee Proposal"
+      },
+      {
+        "time": "1:20:00",
+        "item": "Trails and Leisure - Village Owned Property on Lea Road"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of May 4, 2026 CLIPP Minutes",
+        "body": "Trustee Patty moved and Garrett seconded to approve the minutes. No discussion was held. Motion carried 5-0."
+      },
+      {
+        "item": "Police Chief Report",
+        "body": "Chief Terry (last name not clearly stated) reported an increase in complaints about e-bikes and bicycles in general, noting that staff are working to spread awareness about safe riding and rules of the road. A committee member asked whether the speed limit near a construction zone had been reduced to 25 mph; the chief was uncertain whether that was permanent or temporary."
+      },
+      {
+        "item": "Fire Chief Report",
+        "body": "The fire chief noted that April had been an extraordinarily busy month for both fire and medical calls, per the written report provided. No further discussion or questions were raised by committee members."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "Public Works Director Greg provided an extensive update on storm and infrastructure damage. A severe storm knocked out power village-wide; flooding from roof downspouts inundated the WPS transformer at the municipal building, sending water into the main electrical panel in the police department. A transfer switch on the backup diesel generator also failed, leaving portions of the building without power. Greg noted a replacement part must come from Canada or North Dakota with a 7-10 day lead time. He also reported a lift station basement backup and pump issues at multiple stations. In response to a question about long-term solutions, Greg indicated that a Capital Improvement Plan (CIP) would be presented next month addressing aging infrastructure including original 1984 boilers."
+      },
+      {
+        "item": "Chromewood Drive/Flanar-Gem Roth Road Rehabilitation Bids",
+        "body": "Public Works Director Greg and Village Administrator John explained that bids came back far higher than the originally estimated $620,000, roughly doubling in cost. After reviewing available TID funds, only about $61 in TID2 contingency and $27,000 in non-TID funds would remain, which was deemed insufficient given an anticipated change order on the Kronenwetter Drive project. John noted that borrowing proceeds must be spent by end of October 2027, so the funds can remain available. However, he cautioned that if the project is deferred, any future funding will be village general obligation debt rather than TID district debt, since the TID district can no longer take on new debt. The committee discussed potentially bundling the project with the Maple Ridge road project for better bid pricing. No vote was taken; the project was deferred pending further review of options."
+      },
+      {
+        "item": "Municipal Garage Building Proposals",
+        "body": "Public Works Director Greg presented an RFP process in which six contractors responded and only SD Allen Becker of Athens, Wisconsin came in person for a full site meeting. Greg recommended SD Allen Becker as general contractor for a new six-bay garage budgeted at $800,000, which would house two police bays, two sewer utility bays, and two parks/public works bays. The two-thirds village share is already in the capital project fund and one-third comes from the sewer utility fund cash balance. Police Chief noted that the department currently has vehicles sitting outside, including one bay tied up with an evidence vehicle from an aggravated battery case. Greg also noted that ordering a sewer jetter truck before December 31, 2026 would lock in 2026 emissions pricing and save approximately $35,000. Trustee Patty moved to recommend SD Allen Becker as general contractor; Paul seconded. Motion carried 5-0. Timeline: design finalized in approximately one month, concrete poured in August, building erected in October, occupancy by January."
+      },
+      {
+        "item": "Bushka Park Fundraising Update",
+        "body": "Committee members Jennifer and Paddy (Patty Kasky) reported approximately $3,000 raised so far plus a $1,000 donation of jewelry. Plans include attending the farmers market with a jewelry donation jar and being present at movie nights. The effort received coverage on Channel 7 news and generated social media activity on Facebook and Nextdoor. A committee member noted that residents at a recent bike-and-walk event expressed frustration about the park's name change from 'Sunset Park' to 'Bushka Park,' and described some equipment as outdated and potentially dangerous. No vote was taken; the committee agreed to provide monthly updates."
+      },
+      {
+        "item": "Kronenwetter Parks Committee Proposal",
+        "body": "Trustee Erin (last name not clearly identified) proposed creating a parks subcommittee, citing three residents who expressed interest in serving after completing surveys at the bike-and-walk event. Village Administrator John noted that subcommittees are authorized under village ordinance, report back to CLIPP, and require board approval of appointments by the village president. John indicated existing budget savings from an unfilled planner/tech position and fewer-than-anticipated administrative committee meetings could fund the subcommittee without adding to the budget. Garrett moved to recommend the parks subcommittee to the village board; Dan (Trustee Muschka) seconded. Motion carried 5-0."
+      },
+      {
+        "item": "Trails and Leisure - Village Owned Property on Lea Road",
+        "body": "Public Works Director Greg presented cost estimates of approximately $58,000 for graveling walking and bike trails on village-owned land near the Lea Road wellheads. He raised a security concern about increased public foot traffic near the wellheads and generators, noting that fencing quotes came in at approximately $45,000. Trustee Muschka had previously suggested scaling back by eliminating the parking lot and driveway to redirect funds toward the Bushka Park playground. Garrett argued that the committee and village board had already approved the project and that removing the parking lot rather than the trails was the right compromise, noting local residents primarily access the area on foot. He also suggested cameras (estimated at roughly $5,000) and door security sensors as cost-effective wellhead security alternatives. Garrett moved to eliminate the driveway and parking lot from the project scope and proceed with graveling only the trails; a second was offered (name [inaudible]). Motion carried 5-0."
+      }
+    ],
+    "publicComment": "One speaker offered public comment. Tim Stracota of 2023 Greenbud Road spoke about the Lea Road trails project. He noted the project was approved by CLIPP in August by a 4-0 vote and by the village board 4-7-0 (likely 4-0 or 7-0; phrasing unclear in transcript), and expressed frustration at perceived backpedaling. He stated the project missed eligibility for a Noel Nelson Stewardship Grant for recreational trails because the state stopped funding and CLIPP had not acted. He recommended against eliminating gravel from the trail due to difficulty pushing strollers, erosion, and increased maintenance if grass is used instead. He suggested dropping the parking lot and driveway to save approximately $17,000. He cited a 2023 village survey in which walking trails ranked number one, selected by 54% of respondents, ahead of playground equipment and splash pads. He concluded by noting the trails are within a mile and a half of approximately 1,800 residential parcels and recommended requiring future developers to include parks or walking trails in residential designs.",
+    "actionItems": [
+      "SD Allen Becker recommended to village board as general contractor for new six-bay municipal garage; board to vote at next meeting",
+      "Municipal garage design to be finalized over approximately one month, with concrete pouring targeted for August and building completion by January",
+      "Public Works Director to pursue sewer jetter truck order before December 31, 2026 to lock in 2026 emissions pricing once garage contract is signed",
+      "Chromewood Drive/Flanar-Gem Roth road rehabilitation project deferred; village administrator to monitor TID fund balances and explore bundling with Maple Ridge road project",
+      "Village administrator to prepare long-term CIP for aging municipal building infrastructure including boilers, to be presented to CLIPP next month",
+      "Parks subcommittee creation recommended to village board for approval; village president to make citizen appointments",
+      "Lea Road trails to proceed with gravel path only; parking lot and driveway eliminated from project scope",
+      "Public works staff to investigate low-cost wellhead security options including cameras and door sensors for Lea Road well site",
+      "Village administrator to calculate potential park fund match amount for Bushka Park fundraising effort",
+      "WPS to be contacted to inspect transformer at municipal building following storm flooding",
+      "Transfer switch replacement part (from Canada or North Dakota) to be installed upon arrival to restore full building power",
+      "Next CLIPP meeting scheduled for July 6, 2026"
+    ]
+  },
+  {
     "id": "kw_346a936b9fe643feba080928d73675a4",
     "source": "kronenwetter",
     "title": "RESCHEDULED Village Board Meeting",
@@ -560,7 +670,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/rescheduled-village-board-meeting-0",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-346a936b9fe643feba080928d73675a4.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Kronenwetter Village Board approved five substantive items at its June 1, 2026 rescheduled meeting, including a concept plan to extend East Nick Avenue through to Highway J in coordination with neighboring municipalities, a police department policy contract, a municipal court fee increase of $10, and a Fire Department DNR grant application. All motions carried unanimously 5-0, with Trustee Stowell absent for most of the meeting.",
     "agenda": [
       {
@@ -688,7 +798,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-special-village-board-meeting-1",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7c83b7b0bdba4fb6a73532f82b8309f7.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Kronenwetter Village Board held a special meeting on June 1, 2026, convening into closed session for approximately 44 minutes to review a specific personnel matter and address next steps. Upon returning to open session, the board took no action. The closed session was authorized under Wisconsin statutes governing personnel evaluation data and disciplinary proceedings.",
     "agenda": [
       {
@@ -726,7 +836,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-21",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f7694e4efbdd49cfa9485ac17f2c6460.pdf",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Village of Kronenwetter Police and Fire Commission was scheduled to meet to approve April meeting minutes, conduct a closed session interview for a Fire Department applicant, and elect new commission leadership. The meeting was set to address personnel and administrative matters for the village's police and fire services.",
     "agenda": [
       {
@@ -774,105 +884,6 @@
       "Scheduled to elect Police and Fire Commission President",
       "Scheduled to elect Police and Fire Commission Vice-President",
       "Expected to consider action items arising from closed session"
-    ]
-  },
-  {
-    "id": "kw_100b287096f24509895489749fa9223a",
-    "source": "kronenwetter",
-    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
-    "date": "June 1, 2026",
-    "shortDate": "JUN 1",
-    "committee": "CLIPP",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-25",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-100b287096f24509895489749fa9223a.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Community Life, Infrastructure and Public Property (CLIPP) Committee of Kronenwetter was scheduled to meet on June 1, 2026, to address multiple infrastructure and community projects including rehabilitation bids, municipal garage proposals, and park development. The meeting was set to include reports from police, fire, and public works leadership alongside discussion of ongoing village property initiatives.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of May 4, 2026 CLIPP Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Police Chief Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Fire Chief Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Works Director Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids"
-      },
-      {
-        "time": "N/A",
-        "item": "Municipal Garage Building Proposals"
-      },
-      {
-        "time": "N/A",
-        "item": "Buska Park Fundraising Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Kronenwetter Parks Committee"
-      },
-      {
-        "time": "N/A",
-        "item": "Trails and Leisure for Village Owned Property on Lea Rd."
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of May 4, 2026 CLIPP Committee Meeting Minutes",
-        "body": "The committee was scheduled to review and consider approval of minutes from the previous CLIPP meeting held on May 4, 2026."
-      },
-      {
-        "item": "Police Chief Report",
-        "body": "The Police Chief was expected to provide a report to the committee on departmental matters and public safety issues affecting the Village of Kronenwetter."
-      },
-      {
-        "item": "Fire Chief Report",
-        "body": "The Fire Chief was scheduled to present a report on fire department operations and emergency services activities in the village."
-      },
-      {
-        "item": "Public Works Director Report",
-        "body": "The Public Works Director was set to provide an update on village infrastructure, maintenance projects, and public works operations."
-      },
-      {
-        "item": "Kronenwetter Flanner/Jamroz Rehabilitation Bids",
-        "body": "The committee was scheduled to discuss and consider possible action on rehabilitation bids related to the Flanner/Jamroz project, which carried forward from previous meetings as old business."
-      },
-      {
-        "item": "Municipal Garage Building Proposals",
-        "body": "The committee was set to review and discuss building proposals for a municipal garage facility as new business, with possible action anticipated."
-      },
-      {
-        "item": "Buska Park Fundraising Update",
-        "body": "An update on fundraising efforts for Buska Park was expected to be presented, allowing the committee to consider the status of this community project."
-      },
-      {
-        "item": "Kronenwetter Parks Committee",
-        "body": "The committee was scheduled to discuss matters related to the Kronenwetter Parks Committee as part of new business."
-      },
-      {
-        "item": "Trails and Leisure for Village Owned Property on Lea Rd.",
-        "body": "The committee was set to discuss potential trails and leisure amenities for village-owned property located on Lea Road, with possible action to follow."
-      }
-    ],
-    "publicComment": "Public comment was scheduled for up to 15 minutes total, with a three-minute time period per person and discretionary time extension available from the Chief Presiding Officer.",
-    "actionItems": [
-      "Expected to consider approval of May 4, 2026 CLIPP Committee Meeting Minutes",
-      "Scheduled to discuss and take possible action on Kronenwetter Flanner/Jamroz Rehabilitation Bids",
-      "Expected to consider Municipal Garage Building Proposals",
-      "Scheduled to review Buska Park Fundraising Update",
-      "Expected to discuss Kronenwetter Parks Committee matters",
-      "Scheduled to discuss and consider possible action on Trails and Leisure for Village Owned Property on Lea Rd."
     ]
   },
   {
@@ -984,108 +995,111 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Administrative Policy Committee of the Village of Kronenwetter was scheduled to conduct organizational business including selection of leadership positions, review meeting minutes, and consider several substantive matters including a fire department grant opportunity, police policy services contract, municipal court fee increase, wage adjustments, and a plan to promote village development.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter's Administrative Policy Committee held its first organizational meeting of the 2026-2027 session on May 19, 2026, electing officers and taking action on several financial and operational matters. Key decisions included approving applications for a DNR forest fire protection grant, a police department policy contract, a municipal court fee increase, and changes to the employee wage and evaluation schedule. Finance Director John Jacobs announced the long-awaited 2024 audit draft had finally arrived, with a village board presentation planned for June 8.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Selection of a Chairperson"
+        "time": "0:00",
+        "item": "Call to order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Selection of a Vice-Chairperson"
+        "time": "1:15",
+        "item": "Roll call"
       },
       {
-        "time": "N/A",
-        "item": "Committee Duties and Responsibilities - Administrative Policy Committee Responsibilities"
+        "time": "2:10",
+        "item": "Election of chairperson and vice chairperson"
       },
       {
-        "time": "N/A",
-        "item": "Public Comment"
+        "time": "5:30",
+        "item": "Committee duties, responsibilities, vision and mission"
       },
       {
-        "time": "N/A",
-        "item": "Approval of Minutes - April 21, 2026 Administrative Policy Committee Meeting Minutes"
+        "time": "12:45",
+        "item": "Public comments"
       },
       {
-        "time": "N/A",
-        "item": "Finance Director Report"
+        "time": "19:10",
+        "item": "Approval of April 21, 2026 meeting minutes"
       },
       {
-        "time": "N/A",
-        "item": "Fire Department DNR Grant Opportunity"
+        "time": "20:30",
+        "item": "Finance Director report"
       },
       {
-        "time": "N/A",
-        "item": "Police Policy Contract for Service, CSI Policy Group"
+        "time": "37:00",
+        "item": "Fire Department DNR grant opportunity"
       },
       {
-        "time": "N/A",
-        "item": "Municipal Court Fee Increase"
+        "time": "44:20",
+        "item": "Police department policy contract with CSI Information LLC"
       },
       {
-        "time": "N/A",
-        "item": "HR-005-Wage Adjustment Chart"
+        "time": "59:10",
+        "item": "Municipal court fee increase"
       },
       {
-        "time": "N/A",
-        "item": "RFP Draft for Assessment and Revaluation Services"
+        "time": "1:04:30",
+        "item": "Wage adjustment and employee evaluation schedule change (AR-005)"
       },
       {
-        "time": "N/A",
-        "item": "Developing a Plan to Promote Development Within the Village of Kronenwetter"
+        "time": "1:18:00",
+        "item": "RFP for property assessment and revaluation services"
       },
       {
-        "time": "N/A",
-        "item": "Consideration of Items for Future Agenda"
+        "time": "1:47:00",
+        "item": "Developing a plan to promote development within the village"
+      },
+      {
+        "time": "2:10:00",
+        "item": "Future agenda items, next meeting date, and adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of Minutes - April 21, 2026 Administrative Policy Committee Meeting Minutes",
-        "body": "The committee was scheduled to review and consider approval of the minutes from the April 21, 2026 Administrative Policy Committee meeting. This item was set for discussion and possible action."
+        "item": "Election of chairperson and vice chairperson",
+        "body": "Trustee Jessica Stole was nominated and elected chairperson by acclamation, but was absent from the meeting. Because Stole was not present, the committee proceeded to elect a vice chairperson. Mary Soulheim was nominated and elected vice chairperson by acclamation, and she presided over the remainder of the meeting."
       },
       {
-        "item": "Finance Director Report",
-        "body": "The Finance Director was scheduled to present a report to the committee. The specific contents of this report were not detailed on the agenda."
+        "item": "Finance Director report",
+        "body": "Finance Director John Jacobs announced the draft 2024 financial audit report arrived the day of the meeting, and auditors confirmed they will present to the village board on June 8. Jacobs explained the audit delays were caused by a $1.2 million debt service funding error made by predecessors over two consecutive budget years, plus unreconciled bank statement discrepancies dating back before 2024. Trustee Guy Ferdell asked if the predecessor's financial mess was the primary cause of delays, and Jacobs confirmed it was, stating 'it's taken care of' and that the 2025 audit fieldwork is expected in July or August. Jacobs also introduced new account clerk Samantha Hice."
       },
       {
-        "item": "Fire Department DNR Grant Opportunity",
-        "body": "The committee was scheduled to discuss a grant opportunity available through the Department of Natural Resources for the Fire Department. This item was set for discussion and possible action."
+        "item": "Fire Department DNR grant opportunity",
+        "body": "Chief [name not clearly stated] presented a 5050 matching DNR forest fire protection grant the department has received nearly every year for the past five or six years. The maximum village match is $10,000, which would be budgeted and returned if the grant is not awarded in October. The committee approved a motion to set aside the $10,000 match in the budget. Roll call vote: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0."
       },
       {
-        "item": "Police Policy Contract for Service, CSI Policy Group",
-        "body": "The committee was expected to consider a contract for police policy services with CSI Policy Group. This item was set for discussion and possible action."
+        "item": "Police department policy contract with CSI Information LLC",
+        "body": "Chief [name not clearly stated] presented a contract with CSI Information LLC for a standardized police policy manual. The initial cost is $2,500 and annual renewal is $500, but both amounts are fully reimbursed through the League of Wisconsin Municipalities, making it effectively no cost to the village. Policies will be delivered two at a time for officer review and sign-off. Committee members noted the importance of updated policies for liability, particularly citing the domestic violence policy. Motion passed on roll call: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0."
       },
       {
-        "item": "Municipal Court Fee Increase",
-        "body": "The committee was scheduled to discuss a proposed increase to municipal court fees. This item was set for discussion and possible action."
+        "item": "Municipal court fee increase",
+        "body": "The committee discussed a proposed $10 increase to the municipal court citation fee, from $38 to $48, the first increase since 2013. Chief [name inaudible] and Village Administrator Jim Davil presented the item, noting municipal courts are not revenue generators and that rising operational costs justify the increase. A motion was made and seconded to recommend the fee increase to the village board. Roll call vote: Ferdell yes, President Jolene yes, Clues yes, Soulheim yes. Passed 4-0."
       },
       {
-        "item": "HR-005-Wage Adjustment Chart",
-        "body": "The committee was expected to review and consider the HR-005 wage adjustment chart. This item was set for discussion and possible action."
+        "item": "Wage adjustment and employee evaluation schedule change (AR-005)",
+        "body": "Village Administrator Jim Davil proposed changing the employee evaluation and wage adjustment process so that all employees are evaluated in October and wage increases take effect January 1 with budget approval, rather than on each employee's individual hire anniversary date. Davil cited benefits including easier payroll management, full Wisconsin Retirement System benefit year, and better alignment with the budget process. Staff expressed support for the change. The committee approved a voice vote motion to take the policy change to the village board. Motion carried."
       },
       {
-        "item": "RFP Draft for Assessment and Revaluation Services",
-        "body": "The committee was scheduled to discuss a draft request for proposals for assessment and revaluation services. This item was set for discussion and possible action."
+        "item": "RFP for property assessment and revaluation services",
+        "body": "Finance Director Jacobs presented a draft RFP for a full exterior property revaluation and reassessment, noting the village's assessed value has dropped from 99% of full market value in 2021 to approximately 66-69% in 2025, triggering a mandatory correction before the state Department of Revenue intervenes at higher cost. The reassessment must be completed by October 15, 2027 for December 2027 tax bills. Jacobs explained the average property value increase will be approximately 35-40%, but that tax rates will fall proportionally, making it largely a wash for most property owners. The committee discussed the timeline, noting the RFP would go out May 22, proposals due June 8, and the contract would go to the village board June 22. No formal vote was taken; Jacobs sought comments on the draft RFP before release."
       },
       {
-        "item": "Developing a Plan to Promote Development Within the Village of Kronenwetter",
-        "body": "The committee was expected to consider developing a plan to promote economic or community development within the Village of Kronenwetter. This item was set for discussion and possible action."
+        "item": "Developing a plan to promote development within the village",
+        "body": "Trustee Guy Ferdell presented a discussion memo proposing a coordinated development planning process involving the APC, utilities committee, planning commission, RDA, and village board to prioritize development projects. Ferdell suggested the village should target higher-value projects above $700,000-$1 million and consider covering developer soft costs as incentives for high-impact projects. Davil noted positive momentum including a developer presenting a concept plan to the planning committee the previous night that was received favorably rather than rejected outright, which he described as a significant change in tone. The committee agreed the village board should first set priorities at the next board meeting, after which committees would coordinate. No formal vote was taken; item is a discussion and next steps were assigned."
       }
     ],
-    "publicComment": "Public comment was indicated on the agenda, with a 15-minute total time limit and three-minute limit per person, at the Chief Presiding Officer's discretion for extensions. No action was scheduled to be taken under public comments.",
+    "publicComment": "One speaker offered public comment: Bernie Kramer of 2150 East State Highway 153, Brokaw/Kronenwetter area. Kramer raised concerns about two simultaneous audits suggesting the village is behind, the lack of an economic development director, the predominantly residential nature of growth (85% residential), the absence of major commercial development, and fiscal caution regarding spending. He referenced Weston's failed ambulance referendum and the closure of Rosholt's water park as cautionary examples. Vice Chair Soulheim noted Kramer exceeded the three-minute limit but allowed him to conclude under the presiding officer's discretion.",
     "actionItems": [
-      "Scheduled to elect a Chairperson",
-      "Scheduled to elect a Vice-Chairperson",
-      "Expected to consider approval of April 21, 2026 meeting minutes",
-      "Scheduled to evaluate Fire Department DNR grant opportunity",
-      "Expected to consider Police Policy Contract for Service with CSI Policy Group",
-      "Scheduled to review and potentially act on Municipal Court fee increase",
-      "Expected to consider HR-005 wage adjustment chart",
-      "Scheduled to review RFP draft for assessment and revaluation services",
-      "Expected to consider developing a plan to promote development within the village"
+      "Finance Director Jacobs to review draft 2024 audit report and distribute to APC and village board by early June, with formal village board presentation on June 8 with auditors present",
+      "Fire Department to apply for DNR forest fire protection grant; $10,000 village match to be included in budget",
+      "Police Department to execute contract with CSI Information LLC for policy manual development at $2,500 initial cost (reimbursed by League of Municipalities) and $500 annual renewal (also reimbursed)",
+      "Village administrator to take $10 municipal court fee increase recommendation to village board for approval",
+      "Village administrator to take wage/evaluation schedule change to village board: all evaluations in October, wage increases effective January 1 aligned with budget",
+      "Finance Director Jacobs to release property reassessment RFP on May 22, with proposals due June 8 and contract award recommendation to village board on June 22",
+      "Village administrator Davil to present village board with priorities discussion at next board meeting; results to be communicated back to all committees",
+      "Next APC meeting set for June 15, 2026 at 5:00 p.m. (moved from June 16 to accommodate Trustee Stole's planning commission meeting at 6:00 p.m.)"
     ]
   },
   {
@@ -1099,7 +1113,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-26",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d8764e98acd4fb69cae1f00cc02d83b.pdf",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to hold a meeting to consider a conditional use permit for a residential food truck kitchen operation, review a site plan for a property development project, and conduct routine business including approval of previous meeting minutes and selection of a vice chairperson.",
     "agenda": [
       {
@@ -1631,78 +1645,94 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/board-review-meeting",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2c3d0976c1224c5a93b228e6ca9dc2c9.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board of Review was scheduled to meet to conduct its annual assessment review process, including confirmation of the 2026 Board of Review Notice, examination and certification of the assessment roll, and consideration of property assessment objections.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter Board of Review held its annual maintenance-year meeting on May 13, 2026, primarily focused on organizational matters, the 2026 assessment roll presentation, and preliminary planning for a mandatory 2027 property revaluation. No formal property tax objections were filed or heard. Finance Director John Jacobs and new assessor Justin Servin of Associated Appraisal Consultants presented assessment data showing the village's total assessed value rose modestly from $735.7 million to $740.3 million, while the level of assessment dropped to 66% of full market value — underscoring the urgency of completing a full revaluation before the state-mandated 2028 deadline.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Confirmation of 2026 Board of Review Notice"
+        "time": "0:00",
+        "item": "Call to order and pledge of allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Selection of a Chairperson"
+        "time": "1:30",
+        "item": "Roll call"
       },
       {
-        "time": "N/A",
-        "item": "Selection of a Vice-Chairperson"
+        "time": "2:30",
+        "item": "Selection of Board of Review chairperson"
       },
       {
-        "time": "N/A",
-        "item": "Verification of Training Requirements - Affidavit Filed by Clerk - Training Completed by Craig Mortensen"
+        "time": "4:00",
+        "item": "Selection of vice chairperson"
       },
       {
-        "time": "N/A",
-        "item": "Approval of Previous Meeting Minutes from July 10, 2025 Board of Review Meeting"
+        "time": "6:00",
+        "item": "Verification of training requirements"
       },
       {
-        "time": "N/A",
-        "item": "Filing and Summary of Annual Assessment Report by Assessor's Office - Receive the Assessment Roll and Sworn Affidavit of the Assessor"
+        "time": "6:30",
+        "item": "Approval of July 10, 2025 Board of Review minutes"
       },
       {
-        "time": "N/A",
-        "item": "Examination; Correction of Errors; Certification of Corrections if Warranted; and Acceptance of the Assessment Roll Following a Determination that Open Book Changes are Included in the Assessment Roll Presented"
+        "time": "7:30",
+        "item": "Filing and summary of 2026 annual assessment report by assessor's office"
       },
       {
-        "time": "N/A",
-        "item": "Future Revaluation Update - Update on 2026-2027 Revaluation-Reassessment Tentative Timeline"
+        "time": "9:00",
+        "item": "Discussion of tax-exempt parcels: pipeline property at 2007 Old Highway 51 and Saint Teresa cemetery parcels"
       },
       {
-        "time": "N/A",
-        "item": "Review Objections for Acceptability; Schedule, Deny or Waive Hearings for Written Objections Received; and Consider Requests for Subpoena(s) as Needed"
+        "time": "1:08:00",
+        "item": "2027 revaluation RFP timeline and planning discussion"
+      },
+      {
+        "time": "2:00:00",
+        "item": "Review of objections and scheduled hearings (none pending)"
+      },
+      {
+        "time": "2:05:00",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Filing and Summary of Annual Assessment Report by Assessor's Office",
-        "body": "The Board of Review was set to receive the Assessment Roll and the sworn affidavit of the Assessor's Office as part of the annual assessment report filing process."
+        "item": "Selection of chairperson and vice chairperson",
+        "body": "Trustee Lesniak nominated Dan Jolene as chairperson, seconded by Trustee Quail (Coil); approved unanimously by voice vote. Trustee Mishka nominated Craig Mortensen as vice chairperson, seconded by Trustee Stoll; a motion to close nominations was made by Trustee Quail and seconded by Trustee Mishka, passing by voice vote with at least one abstention. Mortensen was confirmed as vice chair."
       },
       {
-        "item": "Examination and Certification of the Assessment Roll",
-        "body": "The board was scheduled to examine the assessment roll, correct any errors identified, and certify corrections if warranted. The board was also expected to accept the assessment roll following a determination that open book changes are included in the roll presented."
+        "item": "Approval of July 10, 2025 Board of Review minutes",
+        "body": "Trustee Mishka moved to approve the minutes and Trustee Stoll seconded. The motion passed unanimously by voice vote with no discussion."
       },
       {
-        "item": "Future Revaluation Update",
-        "body": "The board was set to receive an update on the tentative timeline for the 2026-2027 revaluation-reassessment process."
+        "item": "2026 annual assessment report and assessor oath",
+        "body": "New assessor Justin Servin of Associated Appraisal Consultants administered his oath of office before presenting the 2026 assessment data. The village's total assessed value increased from $735,730,500 (2025 final) to $740,340,200 (2026), a roughly $5 million gain. The level of assessment fell from approximately 69% to 66% of full market value, reflecting a stabilizing real estate market. Finance Director John Jacobs noted the only correction from open book was a $864 refund to Jennifer Feltch at 1861 Mike Lane after confirming no new construction occurred as of January 1, 2025."
       },
       {
-        "item": "Review Objections and Hearing Scheduling",
-        "body": "The board was scheduled to review written objections for acceptability and determine whether to schedule, deny, or waive hearings for those objections. The board was also expected to consider any requests for subpoena(s) as needed."
+        "item": "Tax-exempt pipeline property at 2007 Old Highway 51 (Magellan/Williams Pipeline)",
+        "body": "Jacobs raised concern that a pipeline property was removed from the tax roll in 2019 after generating approximately an $11,000 tax bill, with the village's share being roughly 20%. Servin said he found a note in paper records from the previous assessor citing state statutes as justification but could not recall the specifics without reviewing the files; he offered to research it during the meeting recess. Jolene recalled a contamination event around 2001 prompting area sewer installation and suggested the property may have served a public entity, which could have triggered exemption. The board agreed to research the paper trail and state statute justification, and Servin suggested that if the exemption is unwarranted, he could assess the property in 2027 and require the owner to re-file exemption paperwork with full documentation by March 1."
+      },
+      {
+        "item": "Tax-exempt Saint Teresa church/cemetery parcels",
+        "body": "Jacobs presented a map showing three parcels that moved to exempt in 2019: the cemetery parcel and two southern parcels totaling approximately 37.38 and 26.33 acres respectively. Servin noted Wisconsin law allows a religious entity only 30 additional acres of exemption beyond the actual cemetery, and the combined acreage of the southern parcels alone exceeds that limit. Servin said he would need to research county records to find documentation. He referenced a similar case in the Town of Hayward where he identified 600 exempt acres affiliated with a hospital and added $24 million to the assessment roll. He noted he can only go back two years to collect omitted taxes (2025 and 2026 in this case)."
+      },
+      {
+        "item": "2027 revaluation RFP timeline and planning",
+        "body": "Jacobs outlined a detailed timeline: issue RFP in late May 2026, board approval in early June, contract start July 1, 2026 with a five-year maintenance contract plus revaluation component. Physical exterior walkarounds of all properties would occur through spring/summer 2027, with the state's equalized value released August 15, 2027 used to finalize numbers. Assessment notices would go out after Labor Day 2027, with open book and Board of Review to follow before the October 15, 2027 submission deadline. Servin confirmed the exterior inspection approach using field teams with iPads, averaging 35-40 properties per person per day, with no drone use. Jacobs emphasized that the revaluation must be completed before 2028 or the state will impose its own revaluation at two to three times the cost."
+      },
+      {
+        "item": "Review of objections for hearing",
+        "body": "Board Clerk Jennifer Poyer and Servin confirmed no written objections or formal contest filings were received for the 2026 assessment year. The assessment has been open for review since April 24, 2026. No hearings were scheduled and no subpoenas were requested. Servin explained the standard process: burden of proof rests on the property owner to disprove the assessor's valuation with documentation such as appraisals, cost invoices, or comparable sales."
       }
     ],
-    "publicComment": "Not indicated on agenda.",
+    "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Scheduled to confirm the 2026 Board of Review Notice",
-      "Scheduled to select a Chairperson",
-      "Scheduled to select a Vice-Chairperson",
-      "Expected to verify training requirements completion by Craig Mortensen",
-      "Scheduled to approve previous meeting minutes from July 10, 2025",
-      "Expected to receive and examine the Assessment Roll and Assessor's sworn affidavit",
-      "Scheduled to examine for errors and certify corrections in the assessment roll",
-      "Scheduled to accept the assessment roll following determination that open book changes are included",
-      "Expected to receive an update on the 2026-2027 revaluation-reassessment tentative timeline",
-      "Scheduled to review written objections and determine hearing scheduling, denials, or waivers",
-      "Expected to consider requests for subpoena(s) as needed"
+      "Assessor Justin Servin to review paper records and state statute citations from the previous assessor regarding the pipeline property exemption granted in 2019",
+      "Servin to research county records for documentation supporting the Saint Teresa church parcel exemptions, particularly for the two southern parcels exceeding the 30-acre religious exemption limit",
+      "Finance Director Jacobs to issue draft RFP for reassessment/revaluation services to APC by the following Tuesday, with village board approval targeted for early June 2026",
+      "Revaluation contract to begin July 1, 2026 with exterior walkarounds of all village properties conducted through spring/summer 2027",
+      "Jacobs and Poyer to develop a public communications plan to explain the revaluation process and its tax implications to residents before assessment notices go out",
+      "Board authorized Servin to identify omitted structures during the revaluation walkarounds, particularly those built during the permit gap years (approx. 2022-2023), and assess them as omitted for 2027 going back up to two years",
+      "Staff to map and review all 880-class (other tax-exempt) parcels totaling approximately 577 acres to verify current exemption status ahead of the 2027 reassessment"
     ]
   },
   {
@@ -1716,7 +1746,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-58",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c19b4fca8707467fa4d6a2fa1e4a4407.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Kronenwetter Village Board voted unanimously 6-0 to approve a Quit Claim Deed transferring village property interests to Marathon County for a proposed Highway Shop Facility, a decision that drew sharp public criticism from a former trustee who argued the land was being given away before required zoning approvals were in place. The board also approved a model e-bike ordinance and a transportation funding resolution, both 6-0. Following a closed session on staff evaluations and compensation, the board approved staff recommendations 5-0 with Trustee Coyle abstaining.",
     "agenda": [
       {
@@ -2231,58 +2261,87 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-26",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ea413d5c907d464ab592ada30077d709.pdf",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Village of Kronenwetter Utility Committee was scheduled to meet on May 5, 2026, to address routine administrative matters including approval of previous meeting minutes, reports from the Director of Public Works and Utilities, and action items related to a ductless mini split purchase and Lift Station #8 updates. The meeting was set to take place at the Kronenwetter Municipal Center.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Utility Committee met on May 5, 2026, addressing a major flooding crisis that pushed daily sewage flow from a normal 345,000 gallons to 1.1 million gallons, requiring $29,000 in emergency pumping services. The committee approved a ductless mini-split HVAC system for well houses, received updates on the Lift Station 8 construction project, and discussed upcoming development proposals that will require utility planning decisions.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of Minutes from April 7, 2026 Utility Committee Meeting"
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Utility Committee Duties and Responsibilities"
+        "time": "1:10",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Director of Public Works and Utilities Report"
+        "time": "1:30",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Ductless Mini Split Purchase"
+        "time": "2:00",
+        "item": "Approval of April Meeting Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Lift Station #8 Updates"
+        "time": "3:00",
+        "item": "UC Duties and Responsibilities - Presentation by Village Administrator Mark"
+      },
+      {
+        "time": "18:00",
+        "item": "Utility Director Greg's Report - Flooding Emergency, Country Pumpers Response, and Emergency Pump Purchase"
+      },
+      {
+        "time": "35:00",
+        "item": "Ductless Mini-Split System Purchase for Well Houses"
+      },
+      {
+        "time": "42:00",
+        "item": "Lift Station 8 Construction Progress Update"
+      },
+      {
+        "time": "52:00",
+        "item": "Future Agenda Items / Glacier Meadows Development Discussion"
+      },
+      {
+        "time": "58:00",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of Minutes",
-        "body": "The committee was scheduled to review and consider approval of the minutes from the April 7, 2026 Utility Committee meeting."
+        "item": "Approval of April Meeting Minutes",
+        "body": "A motion was made and seconded to approve the minutes from the April meeting. The motion carried unanimously with no opposition or discussion."
       },
       {
-        "item": "Utility Committee Duties and Responsibilities",
-        "body": "The committee was set to discuss its duties and responsibilities."
+        "item": "UC Duties and Responsibilities - Village Administrator Presentation",
+        "body": "Village Administrator Mark addressed the committee, emphasizing the need for better communication between committees and the village board on priorities, noting the village struggles with limited funding and lacks a clear unified vision. He highlighted the need for system standardization, particularly regarding pump inventory, noting the village had no spare pump for Lift Station 4. He also announced the recent departure of the community development director and previewed upcoming development proposals including one-acre lot subdivisions with private septics and townhome/zero lot line retirement-style communities, including a developer who paid $1.8 million for the old airfield. Committee member Jim Buck raised concerns about stormwater drainage, calling it a major unresolved issue and noting the lack of any enforceable drainage plan dating back to when sewer and water were installed in 1996."
       },
       {
-        "item": "Director of Public Works and Utilities Report",
-        "body": "The committee was scheduled to receive a report from the Director of Public Works and Utilities."
+        "item": "Utility Director Report - Flooding Emergency and Emergency Pump Purchase",
+        "body": "Utility Director Greg reported that recent flooding pushed daily system flow from a normal average of 345,000 gallons to a peak of 1.1 million gallons, primarily through Lift Station 4 which receives flow from Lift Stations 8 and 11. Country Pumpers was contracted for 10 days at a cost of $29,000, deploying two trucks simultaneously. Greg also reported that Village Administrator Jim authorized an emergency purchase of a replacement pump for Lift Station 4 at approximately $8,600-$8,700 to guard against pump failure under extreme strain, noting it arrived or was expected to arrive that day. The committee acknowledged this cost was within the administrator's approval authority. Greg noted Red Marble Metro billing will likely be one and a half to two times higher than projected due to elevated flows, and Finance Director John will present a financial update next month. Greg reiterated his ongoing push to purchase a vac truck and build a garage, noting the RFP for the garage design-build contract is due back May 20th."
       },
       {
-        "item": "Ductless Mini Split Purchase",
-        "body": "The committee was scheduled for discussion and possible action regarding the purchase of a ductless mini split system."
+        "item": "Ductless Mini-Split System Purchase for Well Houses",
+        "body": "Trustee Alex Fedvik had requested additional information at the prior meeting; Greg provided a vendor sheet and confirmed WPS approved the service connection. The system was budgeted in the adopted November budget. A motion was made to approve the contract to purchase and install the ductless heat pump for Well Numbers 1 and 2 at a cost not to exceed $9,560, with Melbourne as the contractor. The motion was seconded and passed unanimously."
       },
       {
-        "item": "Lift Station #8 Updates",
-        "body": "The committee was set to discuss and consider possible action on updates related to Lift Station #8."
+        "item": "Lift Station 8 Construction Progress Update",
+        "body": "Greg reported the contractor is currently dewatering and preparing to dig the lift station pit, with pipe already run along Corona Motor Drive and some remaining work under the interstate near Kwasky. Completion is targeted for July. A significant concern was raised: the contractor cut power to Lift Station 8, requiring the village to station one of its two mobile generators there, which Greg said could be tied up for a month. Greg stated he told the contractor to obtain a rental generator from United Rental by end of week or the village would rent one and charge it back. Greg also challenged the engineering firm RPS on delays attributed to WPS, questioning when they actually contacted WPS given the contract was signed over a year ago."
+      },
+      {
+        "item": "Glacier Meadows Development - One-Acre Lots with Private Septics",
+        "body": "In response to a question from committee member Jim Buck, Greg clarified that the Glacier Meadows developer informally asked whether the village would be open to one-acre lots with individual private septic systems rather than connecting to the municipal sewer system. No formal proposal or decision was made. Greg confirmed DNR involvement and percolation testing would be required before any approval, and the committee expressed openness to exploring the idea if testing supports it. Greg noted activity was observed at the site with a backhoe and trucks that day."
       }
     ],
-    "publicComment": "Public comment was scheduled on the agenda, limited to 15 minutes total with a three-minute time period per person at the discretion of the Chief Presiding Officer.",
+    "publicComment": "No public comment was offered. The chair noted no one was present for public comment and no emails had been received.",
     "actionItems": [
-      "Scheduled to vote on approval of April 7, 2026 meeting minutes",
-      "Expected to consider action on ductless mini split purchase",
-      "Expected to consider action on Lift Station #8 updates"
+      "Approve and proceed with ductless mini-split installation at Well Houses 1 and 2 with Melbourne, not to exceed $9,560",
+      "Emergency pump for Lift Station 4 ($8,600-$8,700) already purchased under administrator authorization; pump to be installed after flows return to normal and existing pumps are inspected",
+      "Greg to require Lift Station 8 contractor to provide a rental generator by end of week or village will rent one and bill contractor",
+      "Finance Director John to present utility financial report at June meeting to assess budget impact from flooding-related costs and elevated Red Marble Metro billing",
+      "Continue pursuing design-build garage RFP with bids due May 20th to eventually house vac truck",
+      "Village Administrator to follow up with potential interim zoning/planning consultant to fill gap left by departed community development director; Marathon County offered interim assistance",
+      "Greg to meet with Glacier Meadows developer the following week to discuss one-acre lot/private septic proposal; percolation testing and DNR review required before any decision",
+      "Village board and utility committee to begin formal discussion on developing utility extension rules for new development cost-sharing"
     ]
   },
   {
@@ -2907,7 +2966,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-24",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc02fc4aee3a40b9852da71250e3b100.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Kronenwetter CLIPP Committee voted 5-0 to support a Quit Claim Deed transferring village-owned property to Marathon County for the County Highway Shop Facility project, clearing the way for a Village Board recommendation on the significant land transfer. The committee also voted 5-0 to support the Wausau Metropolitan Planning Organization's draft model e-bike ordinance, moving toward regional uniformity on e-bike regulations. Road rehabilitation bids for the Flanner/Jamroz project were tabled after Public Works Director Greg Ulman reported bids came in far higher than expected.",
     "agenda": [
       {
@@ -3152,7 +3211,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-11",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-acca56fb4a9045e28855b0cb1d58a749.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Kronenwetter Village Board voted 6-0 to terminate the employment of the Community Development Director for just cause at a special meeting called April 30, 2026. The board convened in closed session for roughly 90 minutes to review a specific personnel matter before returning to open session to take the termination vote. Village President Dan Joling directed that remaining personnel issues would be handled by Village Administrator Davel and that legal staff would manage open records notices related to the matter.",
     "agenda": [
       {

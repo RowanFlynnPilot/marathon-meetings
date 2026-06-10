@@ -3,60 +3,49 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf  
-**Summarized:** 2026-06-10 20:26 UTC
+**Summarized:** 2026-06-10 21:41 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on June 8, 2026, to address the 2024 village audit, consider multiple licensing renewals and appointments, and review proposals for municipal infrastructure projects including a public works truck purchase and garage building plans. The meeting also included staff reports and was set to convene in closed session to discuss employee performance evaluations.
+The Village of Kronenwetter Board held its June 8, 2026 meeting, covering a 2024 audit presentation revealing six financial deficiencies including material weaknesses in bank reconciliations and segregation of duties, and taking several significant votes including appointing Mary Solheim to a vacant trustee seat, approving a $49,558.50 truck purchase for public works, awarding a $799,780 municipal garage contract, and voting to create a special parks committee. The audit findings - including delayed bank reconciliations not completed until February 2026 and numerous unreconciled accounts - drew sharp criticism from public commenters who noted the village has been going backward on financial controls.
 
 ## Key Discussions
-### 2024 Village Audit
-The board was scheduled to discuss and take possible action on the 2024 village audit review. This item was set for discussion and potential approval by the board.
+### 2024 Audit Presentation
+Auditors Amber and Yelsky and Subert Randall from the village's audit firm presented six findings: two material weaknesses (segregation of duties, failure to prepare the annual financial report internally) and four additional deficiencies including late bank reconciliations (the year-end 2024 reconciliation was not received until February 2026 and January 2025 not until May 2026), lack of journal entry documentation, unreconciled non-cash accounts, and audit adjustments required. The auditors noted the village received an unmodified (clean) opinion but only after extra procedures. They projected beginning the 2025 audit in mid-to-late September 2026 contingent on timely bank reconciliations. Board members thanked the auditors and acknowledged the need for a corrective action plan, with Administrator Davell and Finance Director Jacobs indicating they are working on improvements including potentially hiring an additional finance staff member.
 
-### Operator Bartender License - Cory P. Boykins
-The board was scheduled to consider an operator bartender license application for Cory P. Boykins as part of the consent agenda. This licensing matter was set for discussion and possible action.
+### Public Comment - Audit and Other Topics
+Public commenter Bernie Kramer criticized the village's financial management, noting the number of audit deficiencies has grown from three to six and calling out repeated findings that have not been corrected, stating 'we've been going backwards.' He questioned how the village expects to gain citizen trust. Tim Stercora spoke in support of the already-approved Leah Road trails project, arguing it has been delayed by 'lame excuses for about four years' and that water utility safety concerns about proximity to walking paths are overblown. Patty Tulkowski spoke in support of Garrett Lezmi as a candidate for the vacant trustee position, citing his professional engineering background and service on the CLIP committee.
 
-### Alcohol Beverage License Renewals 2026-2027
-The board was scheduled to consider renewal of alcohol beverage licenses for the 2026-2027 period. These renewals were included in the consent agenda for discussion and possible action.
+### Finance Director Report
+Finance Director John Jacobs presented a five-year financial snapshot highlighting key metrics relevant to upcoming borrowing. He reported the 2024 unassigned general fund balance was $931,000 (16% of budget, above the 15% policy threshold), cash and investments at $18 million (inflated by $7.8 million in borrowed capital project funds), and general obligation debt at $13.5 million or 18.1% of the debt limit. Jacobs noted TID1 carries a $2.6 million deficit advancing from the general fund but predicted it will reverse once the distribution center generates tax increment. He also flagged that the debt service fund had been incorrectly over-funded for years. Jacobs stated he is confident in achieving a September 2025 audit start date and confirmed the village is not facing bankruptcy despite public claims to the contrary.
 
-### Cigarette, Tobacco and Electronic Vaping Device License Renewals 2026-2027
-The board was scheduled to consider renewal of cigarette, tobacco, and electronic vaping device licenses for the 2026-2027 period. These renewals were set for discussion and possible action as part of the consent agenda.
+### Consent Agenda Items H through M
+Trustee Coil moved and Trustee Mortensen seconded approval of consent agenda items H through M. There was brief discussion confirming a vendor had all necessary documentation included. The motion passed unanimously on a voice vote.
 
-### Temporary Alcohol Beverage Licenses - Peplin Memorial VFW Post 8280
-The board was scheduled to review and consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280. This item was set for discussion and possible action on the consent agenda.
-
-### Purchase of a New 3/4-Ton Crew Cab Truck for Public Works Department
-The board was scheduled to consider the purchase of a new 3/4-ton crew cab truck for the village's Public Works Department. This capital equipment acquisition was set for discussion and possible action under new business.
+### Purchase of New 3/4-Ton Crew Cab Truck for Public Works
+Public Works Director Holman explained that a 2015 pickup truck's transmission failed, with repair estimates of $8,000-$10,000 on a truck worth only $12,000-$14,000 and already slated for replacement in 2027. Staff recommended purchasing a 2026 GMC Sierra 2500 for $49,558.50 over a competing Dodge bid. Finance Director Jacobs outlined a four-step funding plan using existing capital project and equipment replacement funds without new borrowing. Trustee Coil moved and Trustee Mishka seconded approval. The motion passed 6-0 on a roll call vote with all trustees and the president voting yes.
 
 ### Appointment of Village Board Trustee
-The board was scheduled to consider the appointment of a new village board trustee. This personnel action was set for discussion and possible action under new business.
+Five applicants addressed the board: Missy Swanson (social worker/therapist), Matthew Heldenbrand (former planning commission and county board member), Mary Solheim (human services director with large budget management experience), and Alex Veddick (former village trustee); Chris Johnson was absent. President Jolene nominated Mary Solheim, seconded by Trustee Stoel. Trustee Mishka nominated Alex Veddick, seconded by Trustee Mortensen. On the roll call vote for Solheim: Trustee Coil yes, Trustee Lesniane yes, Trustee Mortensen yes, Trustee Mishka no, Trustee Stoel yes, President Jolene yes. Solheim was appointed 5-1.
 
-### Municipal Garage Building Proposals (CLIPP)
-The board was scheduled to review and discuss municipal garage building proposals under the CLIPP initiative. This item was set for discussion and possible action regarding village infrastructure improvements.
+### Municipal Garage Building Proposals
+Public Works Director Holman presented six design-build RFP responses for a six-bay equipment garage to house police vehicles, parks equipment, a sewer truck, and a hoist truck. Both the CLIP committee and the Utility Committee recommended S.D. Allen Becker of Athens, Wisconsin at $799,780, noting they were the only firm that visited the site in person. Funding is one-third from sewer utility and two-thirds from capital project funds with no borrowing required. Trustee Mishka moved and Trustee Mortensen seconded approval of the S.D. Allen Becker bid at $799,780. The motion passed unanimously 6-0 on a roll call vote.
 
-### Kronenwetter Park Committee (CLIPP)
-The board was scheduled to address matters related to the Kronenwetter Park Committee under the CLIPP program. This item was set for discussion and possible action regarding park management or development.
-
-### Trails and Leisure for Village Owned Property on Lea Rd. (CLIPP)
-The board was scheduled to discuss trails and leisure amenities for village-owned property on Lea Road under the CLIPP initiative. This item was set for discussion and possible action regarding recreational facilities development.
-
-### Staff Performance Evaluations
-The board was scheduled to convene in closed session to consider staff performance evaluations pursuant to Wisconsin Statute 19.85(1)(c). This discussion was set to address employment matters in a closed session.
+### Kronenwetter Park Committee Formation
+Trustee Mishka proposed creating a parks committee after three residents expressed interest at a May bike-and-walk health event survey. Discussion centered on whether to create a subcommittee of CLIP or a separate special committee; Administrator Davell noted the staffing burden of additional meeting minutes. After clarification that village ordinances use the term 'special committee' rather than 'ad hoc,' Trustee Coil moved and Trustee Stoel seconded creation of a special park committee. The motion appeared to pass though the transcript ends mid-discussion on committee size; no final roll call vote was captured.
 
 ## Public Comment
-Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.
+Three residents spoke during public comment. Patty Tulkowski (2153 Peach Brook, Plover) expressed strong support for Garrett Lezmi for the vacant trustee position, citing his professional engineering background and participation on the CLIP committee. Tim Stercora (2023 Greenbud Road) urged the board to move forward on the already-approved Leah Road trails project, arguing it has been delayed for four years and that water utility safety objections are unfounded since people have walked past those buildings for years with no issues. Bernie Kramer (Oil 150 East State Highway 153, Bethlehem) criticized the village's audit findings, noting deficiencies have grown from three to six over time and questioning whether the village will ever achieve accountability and regain citizen trust.
 
 ## Action Items
-- scheduled to vote on 2024 village audit
-- scheduled to consider operator bartender license for Cory P. Boykins
-- scheduled to vote on alcohol beverage license renewals for 2026-2027
-- scheduled to vote on cigarette, tobacco, and electronic vaping device license renewals for 2026-2027
-- scheduled to consider temporary alcohol beverage licenses for Peplin Memorial VFW Post 8280
-- scheduled to approve meeting minutes from June 1, 2026 special and rescheduled meetings
-- expected to vote on purchase of 3/4-ton crew cab truck for Public Works Department
-- expected to make appointment of village board trustee
-- scheduled to consider municipal garage building proposals
-- scheduled to discuss Kronenwetter Park Committee matters
-- scheduled to consider trails and leisure development for Lea Road property
-- scheduled to discuss and take action after closed session staff performance evaluations
+- Mary Solheim appointed as Village Board Trustee (approved 5-1)
+- Purchase of 2026 GMC Sierra 2500 truck for Public Works approved at $49,558.50
+- S.D. Allen Becker awarded municipal garage design-build contract at $799,780; construction to begin with concrete work in August 2026 with occupancy expected in January 2027
+- Special Parks Committee created; Trustee Mishka to serve as chair; membership size and appointments to be determined
+- Finance Director Jacobs to bring capital fund transfer and budget adjustment for truck purchase through APC and back to board for formal approval
+- Finance Director Jacobs to present plan for creating a water utility capital replacement fund by end of 2026
+- Village management directed to implement monthly bank reconciliation procedures and report progress to auditors; auditors to be contacted if September 2025 audit start is not feasible
+- Administrator Davell to bring proposal for additional finance department staff member to board as part of budget process
+- Interviews for Community Development position to proceed the following day
+- APC vacancy to be posted; interested residents directed to contact Administrator Davell or the clerk

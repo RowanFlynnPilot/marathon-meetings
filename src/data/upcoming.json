@@ -195,9 +195,16 @@
   "weston": [
     {
       "date": "2026-06-15",
-      "time": "5:30 PM",
+      "time": "",
+      "name": "Village Board of Trustees",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1929",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "",
       "name": "Finance & Human Resources Committee",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1928",
       "source": "weston"
     },
     {
