@@ -307,5 +307,35 @@
       "url": "https://meetings.boardbook.org/Public/Organization/1360",
       "source": "school_board"
     }
+  ],
+  "kronenwetter": [
+    {
+      "date": "2026-06-15",
+      "time": "5:00 PM",
+      "name": "Administrative Policy Committee Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-30",
+      "source": "kronenwetter"
+    },
+    {
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "name": "Plan Commission Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-27",
+      "source": "kronenwetter"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "6:00 PM",
+      "name": "Village Board Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-60",
+      "source": "kronenwetter"
+    },
+    {
+      "date": "2026-07-06",
+      "time": "6:00 PM",
+      "name": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-26",
+      "source": "kronenwetter"
+    }
   ]
 }

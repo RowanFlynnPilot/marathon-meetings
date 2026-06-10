@@ -77,6 +77,16 @@ COMMITTEE_MAP = {
     # Wausau School Board
     "committee of the whole":                  ("school_board", "Committee of the Whole"),
     "audit of the bills":                      ("school_board", "Audit of the Bills"),
+    # Village of Kronenwetter (Municode hub)
+    "village board":                           ("kronenwetter", "Village Board"),
+    "plan commission":                         ("kronenwetter", "Plan Commission"),
+    "administrative policy":                   ("kronenwetter", "Administrative Policy"),
+    "utility committee":                       ("kronenwetter", "Utility"),
+    "clipp":                                   ("kronenwetter", "CLIPP"),
+    "community life, infrastructure":          ("kronenwetter", "CLIPP"),
+    "police & fire":                           ("kronenwetter", "Police & Fire Commission"),
+    "redevelopment authority":                 ("kronenwetter", "Redevelopment Authority"),
+    "board of review":                         ("kronenwetter", "Board of Review"),
 }
 
 
@@ -227,12 +237,18 @@ def build_meeting(
     )
     committee = clean_committee(committee)
 
-    is_boardbook = video_id.startswith("bb_")
-    if is_boardbook:
-        # video_url is set when the sb-video pass matched a district recording
-        # to this BoardBook entry — link the card to the actual video then.
+    # Synthetic IDs (BoardBook bb_, Kronenwetter kw_) have no YouTube watch
+    # URL of their own — link the card to the recording when one was matched
+    # (video_url), else the meeting page / agenda doc.
+    is_synthetic = video_id.startswith(("bb_", "kw_"))
+    if video_id.startswith("bb_"):
         yt_url = info.get("video_url") or doc_url \
             or "https://meetings.boardbook.org/Public/Organization/1360"
+    elif video_id.startswith("kw_"):
+        # video_url holds the Municode meeting detail page (agenda + packet
+        # + minutes links live there).
+        yt_url = info.get("video_url") or doc_url \
+            or "https://kronenwetter-wi.municodemeetings.com"
     else:
         yt_url = f"https://www.youtube.com/watch?v={video_id}"
 
@@ -252,10 +268,11 @@ def build_meeting(
         clean_title = re.sub(r'^Wausau School (Board|District)\s+', '', clean_title, flags=re.IGNORECASE).strip()
 
     agenda_items = summary.get("agenda") or [{"time": "0:00", "item": "Meeting convened"}]
-    # BoardBook entries are agenda-only by default, but the sb-video pass can
-    # upgrade them from a district recording (_source == "transcript").
+    # Synthetic entries are agenda-only by default, but upgrade passes can
+    # re-summarize them from real outcomes: a recording transcript (bb_) or
+    # official minutes (kw_). Both count as outcome-based, not agenda-only.
     is_agenda_only = (summary.get("_source") == "agenda") or \
-                     (is_boardbook and summary.get("_source") != "transcript")
+                     (is_synthetic and summary.get("_source") not in ("transcript", "minutes"))
 
     # Duration from state (yt-dlp returns video length in seconds). Format as
     # "Hh Mm" / "Mm". For agenda-only meetings there's no recording, so leave

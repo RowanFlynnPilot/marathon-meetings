@@ -7,6 +7,7 @@ const MARATHON_UPCOMING     = UPCOMING.marathon;
 const WAUSAU_UPCOMING       = UPCOMING.wausau;
 const WESTON_UPCOMING       = UPCOMING.weston;
 const SCHOOL_BOARD_UPCOMING = UPCOMING.school_board;
+const KRONENWETTER_UPCOMING = UPCOMING.kronenwetter || [];
 const TEAL    = "#4aaba7";
 const CREAM   = "#F7F3EC";
 const INK     = "#1A1209";
@@ -47,6 +48,14 @@ const COMMITTEE_STYLES = {
   "County Board":             { bg: "#365A2D", text: "#fff" },
   "Water Works":              { bg: "#1F4F66", text: "#fff" },
   "Tourism Commission":       { bg: "#7A4019", text: "#fff" },
+  // Village of Kronenwetter
+  "Village Board":            { bg: "#2C3E6B", text: "#fff" },
+  "Administrative Policy":    { bg: "#5C2A6A", text: "#fff" },
+  "Utility":                  { bg: "#1E5F59", text: "#fff" },
+  "CLIPP":                    { bg: "#6B3A1F", text: "#fff" },
+  "Police & Fire Commission": { bg: "#5C1F3A", text: "#fff" },
+  "Board of Review":          { bg: "#3F4A2A", text: "#fff" },
+  "Redevelopment Authority":  { bg: "#2F4858", text: "#fff" },
 };
 
 const SOURCE_CONFIG = {
@@ -81,6 +90,14 @@ const SOURCE_CONFIG = {
     channel:  "https://www.youtube.com/@wausauschoolboard",
     docHost:  "meetings.boardbook.org",
     avatar:   BASE_URL + "school-avatar.jpg",
+  },
+  kronenwetter: {
+    label:    "Village of Kronenwetter",
+    short:    "KRONEN",
+    accent:   "#8B6914",
+    channel:  "https://kronenwetter-wi.municodemeetings.com",
+    docHost:  "kronenwetter-wi.municodemeetings.com",
+    avatar:   BASE_URL + "kronenwetter-avatar.jpg",
   },
 };
 
@@ -927,6 +944,7 @@ function UpcomingMeetings({ isMobile }) {
     ...(upFilter === "all" || upFilter === "wausau"       ? WAUSAU_UPCOMING       : []),
     ...(upFilter === "all" || upFilter === "weston"       ? WESTON_UPCOMING       : []),
     ...(upFilter === "all" || upFilter === "school_board" ? SCHOOL_BOARD_UPCOMING : []),
+    ...(upFilter === "all" || upFilter === "kronenwetter" ? KRONENWETTER_UPCOMING : []),
   ]
     .filter(e => e.date >= today)
     .sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
@@ -961,6 +979,7 @@ function UpcomingMeetings({ isMobile }) {
             { key: "wausau",       label: "Wausau",          color: SOURCE_CONFIG.wausau.accent,       avatar: SOURCE_CONFIG.wausau.avatar       },
             { key: "weston",       label: "Weston",          color: SOURCE_CONFIG.weston.accent,       avatar: SOURCE_CONFIG.weston.avatar       },
             { key: "school_board", label: "School Board",    color: SOURCE_CONFIG.school_board.accent, avatar: SOURCE_CONFIG.school_board.avatar },
+            { key: "kronenwetter", label: "Kronenwetter",    color: SOURCE_CONFIG.kronenwetter.accent, avatar: SOURCE_CONFIG.kronenwetter.avatar },
           ].map(({ key, label, color, avatar }) => {
             const active = upFilter === key;
             return (
@@ -1633,6 +1652,7 @@ export default function App() {
                     { key: "wausau",       label: "Wausau",          color: SOURCE_CONFIG.wausau.accent,       avatar: SOURCE_CONFIG.wausau.avatar       },
                     { key: "weston",       label: "Weston",          color: SOURCE_CONFIG.weston.accent,       avatar: SOURCE_CONFIG.weston.avatar       },
                     { key: "school_board", label: "School Board",    color: SOURCE_CONFIG.school_board.accent, avatar: SOURCE_CONFIG.school_board.avatar },
+                    { key: "kronenwetter", label: "Kronenwetter",    color: SOURCE_CONFIG.kronenwetter.accent, avatar: SOURCE_CONFIG.kronenwetter.avatar },
                   ].map(({ key, label, color, avatar }) => {
                     const active = sourceFilter === key;
                     return (

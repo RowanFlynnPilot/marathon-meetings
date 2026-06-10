@@ -350,6 +350,59 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
 
+# ── Village of Kronenwetter — Municode Meetings hub ──────────────────────────
+
+from config import KRONENWETTER_BASE
+
+
+def fetch_kronenwetter_upcoming(days_ahead: int = 60) -> list[dict]:
+    """Scrape the Municode hub table for posted future meetings.
+    The portal lists meetings weeks ahead (newest first on page 0)."""
+    today    = date.today()
+    end_date = today + timedelta(days=days_ahead)
+    results  = {}
+
+    try:
+        r = requests.get(KRONENWETTER_BASE + "/",
+                         headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
+        for row in rows:
+            text = re.sub(r"&[a-z]+;", " ", row)
+            text = re.sub(r"<[^>]+>", " ", text)
+            text = re.sub(r"\s+", " ", text).strip()
+            dm = re.search(
+                r"(\d{2})/(\d{2})/(\d{4})\s*-\s*(\d{1,2}:\d{2})\s*([ap]m)\s+(.*?)(?:\s*View Details|$)",
+                text,
+            )
+            if not dm:
+                continue
+            mo, dy, yr, clock, ampm, name = dm.groups()
+            name = name.strip()
+            if "CANCEL" in name.upper():
+                continue
+            try:
+                d = date(int(yr), int(mo), int(dy))
+            except ValueError:
+                continue
+            if not (today <= d <= end_date):
+                continue
+            detail_m = re.search(r'href="(/bc-[^"]+)"', row)
+            url = KRONENWETTER_BASE + detail_m.group(1) if detail_m else KRONENWETTER_BASE
+            key = (d.isoformat(), name[:30])
+            results[key] = {
+                "date":   d.isoformat(),
+                "time":   f"{clock} {ampm.upper()}",
+                "name":   name,
+                "url":    url,
+                "source": "kronenwetter",
+            }
+        print(f"  📄  Kronenwetter Municode hub: {len(results)} posted future meetings")
+    except Exception as e:
+        logger.warning("Kronenwetter hub scrape failed: %s", e)
+
+    return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -370,11 +423,15 @@ def main():
     print("\n🏫  Wausau School Board (BoardBook + rules)…")
     school = fetch_school_board_upcoming(days_ahead=60)
 
+    print("\n👑  Village of Kronenwetter (Municode hub)…")
+    kronenwetter = fetch_kronenwetter_upcoming(days_ahead=60)
+
     payload = {
         "marathon":     marathon,
         "wausau":       wausau,
         "weston":       weston,
         "school_board": school,
+        "kronenwetter": kronenwetter,
     }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -388,7 +445,8 @@ def main():
     print(f"    Wausau:       {len(wausau)}")
     print(f"    Weston:       {len(weston)}")
     print(f"    School Board: {len(school)}")
-    print(f"    Total:        {len(marathon) + len(wausau) + len(weston) + len(school)}")
+    print(f"    Kronenwetter: {len(kronenwetter)}")
+    print(f"    Total:        {len(marathon) + len(wausau) + len(weston) + len(school) + len(kronenwetter)}")
 
 
 if __name__ == "__main__":

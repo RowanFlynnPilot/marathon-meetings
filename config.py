@@ -121,6 +121,18 @@ BOARDBOOK_BASE = os.environ.get("BOARDBOOK_BASE", "https://meetings.boardbook.or
 BOARDBOOK_ORG  = int(os.environ.get("BOARDBOOK_ORG", "1360"))
 
 
+# ── Municode Meetings (Village of Kronenwetter) ───────────────────────────────
+KRONENWETTER_BASE = os.environ.get(
+    "KRONENWETTER_BASE", "https://kronenwetter-wi.municodemeetings.com")
+# ADA HTML rendition of agendas — clean text without PDF parsing.
+# ip=False → agenda, ip=True → full packet.
+MUNICODE_ADA_URL = (
+    "https://meetings.municode.com/adaHtmlDocument/index"
+    "?cc=KRNWTRWI&me={guid}&ip=False")
+# Re-check agenda-only Kronenwetter meetings for posted minutes this many days.
+KRONENWETTER_MINUTES_DAYS = int(os.environ.get("KRONENWETTER_MINUTES_DAYS", "45"))
+
+
 # ── Convenience ───────────────────────────────────────────────────────────────
 
 def boardbook_org_url() -> str:

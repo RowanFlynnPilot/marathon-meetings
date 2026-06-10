@@ -56,6 +56,15 @@ CHANNELS = {
         "doc_pattern": None,   # Docs scraped from BoardBook, not YouTube descriptions
         "boardbook_org": 1360, # BoardBook organization ID
     },
+    "kronenwetter": {
+        "label":       "Village of Kronenwetter",
+        # Not a YouTube source — meetings come from the Municode Meetings hub
+        # (agendas, packets, minutes). Their YouTube channel exists but only
+        # gets a couple of board recordings per year; the portal's minutes
+        # PDFs (actual outcomes) are the upgrade path instead.
+        "url":         "https://kronenwetter-wi.municodemeetings.com",
+        "doc_pattern": None,
+    },
 }
 
 from config import (
@@ -1554,6 +1563,248 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
     return count
 
 
+# -- Municode Meetings scraper (Village of Kronenwetter) -----------------------
+
+from config import (  # noqa: E402
+    KRONENWETTER_BASE,
+    MUNICODE_ADA_URL,
+    KRONENWETTER_MINUTES_DAYS,
+)
+
+
+def fetch_kronenwetter_meetings(max_pages: int = 2) -> list[dict]:
+    """
+    Scrape the Kronenwetter Municode Meetings hub table (newest first).
+    Returns [{guid, date(YYYYMMDD), time, name, agenda_pdf, packet_pdf,
+              minutes_pdf, detail_url, cancelled}].
+    Meetings without a posted agenda yet (typically future ones) have
+    guid=None and only name/date/detail_url filled in.
+    """
+    import requests
+
+    meetings = []
+    seen_keys = set()
+    for page in range(max_pages):
+        url = KRONENWETTER_BASE + (f"/?page={page}" if page else "/")
+        try:
+            r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        except Exception as e:
+            print(f"   [warn]  Kronenwetter page {page} fetch failed: {e}")
+            break
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
+        for row in rows:
+            text = re.sub(r"&[a-z]+;", " ", row)
+            text = re.sub(r"<[^>]+>", " ", text)
+            text = re.sub(r"\s+", " ", text).strip()
+            dm = re.search(
+                r"(\d{2})/(\d{2})/(\d{4})\s*-\s*(\d{1,2}:\d{2})\s*([ap]m)\s+(.*?)(?:\s*View Details|$)",
+                text,
+            )
+            if not dm:
+                continue
+            mo, dy, yr, clock, ampm, name = dm.groups()
+            name = name.strip()
+            guid_m    = re.search(r"MEET-Agenda-([0-9a-f]{32})\.pdf", row)
+            packet_m  = re.search(r"MEET-Packet-([0-9a-f]{32})\.pdf", row)
+            minutes_m = re.search(r"MEET-Minutes-([0-9a-f]{32})\.pdf", row)
+            detail_m  = re.search(r'href="(/bc-[^"]+)"', row)
+            blob = "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu"
+            entry = {
+                "guid":        guid_m.group(1) if guid_m else None,
+                "date":        f"{yr}{mo}{dy}",
+                "time":        f"{clock} {ampm.upper()}",
+                "name":        name,
+                "agenda_pdf":  f"{blob}/MEET-Agenda-{guid_m.group(1)}.pdf" if guid_m else None,
+                "packet_pdf":  f"{blob}/MEET-Packet-{packet_m.group(1)}.pdf" if packet_m else None,
+                "minutes_pdf": f"{blob}/MEET-Minutes-{minutes_m.group(1)}.pdf" if minutes_m else None,
+                "detail_url":  KRONENWETTER_BASE + detail_m.group(1) if detail_m else KRONENWETTER_BASE,
+                "cancelled":   "CANCEL" in name.upper(),
+            }
+            key = entry["guid"] or (entry["date"], entry["name"])
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+            meetings.append(entry)
+    return meetings
+
+
+def fetch_kronenwetter_agenda_text(guid: str) -> str | None:
+    """Fetch the ADA HTML rendition of an agenda — clean text, no PDF parsing."""
+    import requests
+    try:
+        r = requests.get(MUNICODE_ADA_URL.format(guid=guid),
+                         headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        if r.status_code != 200:
+            return None
+        html = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", r.text,
+                      flags=re.DOTALL | re.IGNORECASE)
+        text = re.sub(r"<br[^>]*>|</p>|</div>|</li>|</tr>", "\n", html, flags=re.IGNORECASE)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"&nbsp;?", " ", text)
+        text = re.sub(r"&amp;", "&", text)
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n\s*\n+", "\n", text).strip()
+        return text if len(text) > 100 else None
+    except Exception as e:
+        print(f"       Kronenwetter ADA agenda fetch failed: {e}")
+        return None
+
+
+def fetch_pdf_text(url: str) -> str | None:
+    """Download a PDF and extract text via pdfplumber (used for minutes)."""
+    import requests as _req
+    try:
+        import pdfplumber, io
+        r = _req.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+        if r.status_code != 200 or b"%PDF" not in r.content[:10]:
+            return None
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        return text.strip() if len(text) > 100 else None
+    except Exception as e:
+        print(f"       PDF text extraction failed: {e}")
+        return None
+
+
+def summarize_from_minutes(minutes_text: str, title: str, source_key: str,
+                           url: str) -> dict:
+    """
+    Summarize a meeting from its official minutes — the authoritative record
+    of what actually happened (motions, votes, outcomes). Produces the same
+    JSON structure as summarize_meeting().
+    """
+    client = anthropic.Anthropic()
+    ch = CHANNELS[source_key]
+
+    prompt = f"""You are a local government reporter covering the Wausau, Wisconsin area.
+
+Meeting title: {title}
+Organization: {ch['label']}
+Source: Official meeting minutes
+Meeting page: {url}
+
+Below are the official minutes of this meeting. Minutes are the authoritative record of what ACTUALLY HAPPENED — motions made, votes taken, who moved and seconded, what passed or failed. Report actual outcomes.
+
+Produce a JSON object with this exact structure - no markdown, no preamble, just valid JSON:
+
+{{
+  "overview": "2-3 sentence summary of the meeting's actual outcomes and their significance to residents. Lead with the most consequential action taken. Include vote results.",
+  "committee": "exact committee or board name",
+  "presiding": "name and title of who chaired, if recorded",
+  "agenda": [
+    {{"time": "N/A", "item": "agenda item description"}}
+  ],
+  "discussions": [
+    {{"item": "agenda item title", "body": "2-4 sentences reporting the ACTUAL OUTCOME: motion text, who moved/seconded, the vote result (e.g. 'carried 6-0', 'failed 3-4'), and any recorded discussion or public input. Name names."}}
+  ],
+  "publicComment": "Describe public comment as recorded in the minutes — who spoke and on what. Or 'No public comment was recorded.'",
+  "actionItems": ["specific decisions made and directed next steps from the minutes"]
+}}
+
+Rules:
+- Minutes record REAL outcomes — report them as fact, in past tense.
+- Include vote counts and mover/seconder names wherever the minutes record them.
+- Skip purely procedural items (call to order, roll call, adjournment) in discussions.
+- NEVER use placeholder text like [AGENDA_ITEM_NAME], [TBD], [INSERT], etc.
+- Return ONLY the JSON object.
+
+--- MINUTES ---
+{minutes_text[:40000]}
+--- END ---"""
+
+    msg = call_anthropic_with_retry(
+        client,
+        model=CLAUDE_MODEL, max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw = msg.content[0].text.strip()
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    try:
+        result = json.loads(raw)
+        result["_source"] = "minutes"
+        return result
+    except json.JSONDecodeError:
+        return {"overview": raw, "agenda": [], "discussions": [],
+                "publicComment": "", "actionItems": [], "committee": "",
+                "_source": "minutes"}
+
+
+def process_kronenwetter_meeting(m: dict, state: dict) -> bool:
+    """
+    Process one Kronenwetter meeting: minutes if posted (actual outcomes,
+    Sonnet), else agenda text (scheduled language, Haiku). Returns True if
+    newly processed.
+    """
+    if not m.get("guid"):
+        return False   # no agenda posted yet — nothing to summarize
+    video_id = f"kw_{m['guid']}"
+    if video_id in state.get("processed", {}):
+        return False
+    if video_id in SKIP_VIDEO_IDS:
+        return False
+
+    date_iso = f"{m['date'][:4]}-{m['date'][4:6]}-{m['date'][6:8]}"
+    title = f"{m['name']} - {date_iso}"
+
+    summary = None
+    if m.get("minutes_pdf"):
+        print(f"  [minutes]  Fetching minutes PDF for: {title}")
+        minutes_text = fetch_pdf_text(m["minutes_pdf"])
+        if minutes_text:
+            print(f"  [claude]  Summarizing from minutes ({len(minutes_text):,} chars)...")
+            summary = summarize_from_minutes(minutes_text, title, "kronenwetter",
+                                             m["detail_url"])
+    if summary is None:
+        print(f"  [agenda]  Fetching ADA agenda text for: {title}")
+        agenda_text = fetch_kronenwetter_agenda_text(m["guid"])
+        if not agenda_text:
+            print(f"  [warn]  No agenda text available — skipping {title}")
+            return False
+        print(f"  [claude]  Summarizing from agenda ({len(agenda_text):,} chars)...")
+        summary = summarize_from_agenda(agenda_text, title, "kronenwetter",
+                                        m["detail_url"])
+
+    path = save_summary(title, m["detail_url"], "kronenwetter", summary,
+                        doc_url=m.get("agenda_pdf"), video_id=video_id)
+    mark_processed(state, video_id, title, "kronenwetter", path,
+                   doc_url=m.get("agenda_pdf"),
+                   upload_date=m["date"], meeting_date=m["date"],
+                   video_url=m["detail_url"])
+    print(f"  [ok]  Saved: {path}")
+    return True
+
+
+def fetch_kronenwetter_new(state: dict, dry_run: bool = False) -> int:
+    """
+    Check the Municode hub for new Kronenwetter meetings (past, non-cancelled,
+    on/after the global cutoff). Returns count of newly processed meetings.
+    """
+    from datetime import date as _date
+    today_str = _date.today().strftime("%Y%m%d")
+
+    print("[fetch]  Checking Municode hub for new Kronenwetter meetings...")
+    meetings = fetch_kronenwetter_meetings()
+    count = 0
+    for m in meetings:
+        if m["cancelled"]:
+            continue
+        if m["date"] > today_str:
+            continue   # future — belongs in Upcoming
+        if GLOBAL_DATE_CUTOFF and m["date"] < GLOBAL_DATE_CUTOFF:
+            continue
+        if not m.get("guid"):
+            continue
+        video_id = f"kw_{m['guid']}"
+        if video_id in state.get("processed", {}) or video_id in SKIP_VIDEO_IDS:
+            continue
+        print(f"  [new]  New meeting: {m['name']} on {m['date']}")
+        if not dry_run:
+            if process_kronenwetter_meeting(m, state):
+                count += 1
+    return count
+
+
 # -- CLI -----------------------------------------------------------------------
 
 def main():
@@ -1564,7 +1815,7 @@ def main():
     group.add_argument("--url",      metavar="URL",  help="Process a single video URL")
     group.add_argument("--backfill", action="store_true", help="Process all historical videos")
     group.add_argument("--days",     type=int, metavar="N",  help="Process videos from the last N days only")
-    parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","all"], default="all",
+    parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","kronenwetter","all"], default="all",
                         help="Which channel(s) to process (default: both)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without processing")
     args = parser.parse_args()
@@ -1579,7 +1830,9 @@ def main():
     print(f"   State file: {STATE_FILE.resolve()}")
 
     # Include school_board in "all" runs
-    all_sources = list(CHANNELS.keys()) + ["school_board"]
+    # CHANNELS already includes school_board and kronenwetter; both are
+    # handled by their own scrapers below, not the YouTube channel loop.
+    all_sources = list(CHANNELS.keys())
     sources     = all_sources if args.source == "all" else [args.source]
 
     # -- Single URL ------------------------------------------------------------
@@ -1628,8 +1881,8 @@ def main():
 
     all_pending = []
     for src in sources:
-        if src == "school_board":
-            continue   # handled separately below
+        if src in ("school_board", "kronenwetter"):
+            continue   # handled separately below (BoardBook / Municode hub)
         # Pass cutoff_date as dateafter for accurate upload dates on recent fetches
         videos = fetch_channel_videos(src, dateafter=cutoff_date if cutoff_date else "")
         if args.backfill:
@@ -1662,8 +1915,8 @@ def main():
                     pending.append(v)
         all_pending.extend(pending)
 
-    # School board always handled by its own scraper. Isolate failures so a
-    # BoardBook outage or API error doesn't abort the YouTube sources below.
+    # School board and Kronenwetter use their own scrapers. Isolate failures
+    # so an upstream outage or API error doesn't abort the other sources.
     for src in sources:
         if src == "school_board":
             try:
@@ -1671,6 +1924,14 @@ def main():
                 print(f"   school_board: {sb_count} new meeting(s) processed")
             except Exception as e:
                 logger.error("school_board processing failed: %s", e)
+            finally:
+                save_state(state)
+        elif src == "kronenwetter":
+            try:
+                kw_count = fetch_kronenwetter_new(state, args.dry_run)
+                print(f"   kronenwetter: {kw_count} new meeting(s) processed")
+            except Exception as e:
+                logger.error("kronenwetter processing failed: %s", e)
             finally:
                 save_state(state)
 
@@ -1718,8 +1979,8 @@ def main():
     AGENDA_RETRY_DAYS = int(os.environ.get("AGENDA_RETRY_DAYS", "14"))
     retry_candidates = []
     for vid_id, info in list(state.get("processed", {}).items()):
-        if vid_id.startswith("bb_"):
-            continue
+        if vid_id.startswith(("bb_", "kw_")):
+            continue   # synthetic IDs — no YouTube video to retry
         if info.get("source") not in sources:
             continue
         upload = info.get("upload_date") or ""
@@ -1871,6 +2132,70 @@ def main():
                 save_state(state)
                 upgraded_ids.append(vid_id)
                 print(f"   [ok]  upgraded {vid_id} from recording ({len(transcript):,} chars)")
+
+    # ── Kronenwetter: upgrade agenda-only entries from posted minutes ─────────
+    # Minutes are approved/posted days-to-weeks after the meeting; they record
+    # actual motions and votes, so re-summarize from them when they appear.
+    if "kronenwetter" in sources and not args.dry_run:
+        kw_candidates = []
+        for vid_id, info in list(state.get("processed", {}).items()):
+            if not vid_id.startswith("kw_") or info.get("source") != "kronenwetter":
+                continue
+            mdate = info.get("meeting_date") or ""
+            if not (len(mdate) == 8 and mdate.isdigit()):
+                continue
+            try:
+                age_days = (datetime.now() - datetime.strptime(mdate, "%Y%m%d")).days
+            except ValueError:
+                continue
+            if age_days < 0 or age_days > KRONENWETTER_MINUTES_DAYS:
+                continue
+            sf = info.get("summary_file", "")
+            sjson = sf.replace(".md", "_summary.json") if sf else ""
+            if not sjson or not Path(sjson).exists():
+                continue
+            try:
+                existing = json.loads(Path(sjson).read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                continue
+            if existing.get("_source") in ("minutes", "transcript"):
+                continue   # already outcome-based
+            kw_candidates.append((vid_id, info))
+
+        if kw_candidates:
+            print(f"\n[kw-minutes]  {len(kw_candidates)} Kronenwetter agenda-only "
+                  f"entry/entries within {KRONENWETTER_MINUTES_DAYS} days — checking for posted minutes...")
+            try:
+                kw_meetings = {f"kw_{m['guid']}": m
+                               for m in fetch_kronenwetter_meetings() if m.get("guid")}
+            except Exception as e:
+                logger.warning("Kronenwetter hub fetch failed: %s", e)
+                kw_meetings = {}
+            for vid_id, info in kw_candidates:
+                m = kw_meetings.get(vid_id)
+                if not m or not m.get("minutes_pdf"):
+                    continue
+                print(f"   [minutes] posted for: {info['title']}")
+                minutes_text = fetch_pdf_text(m["minutes_pdf"])
+                if not minutes_text:
+                    continue
+                try:
+                    summary = summarize_from_minutes(minutes_text, info["title"],
+                                                     "kronenwetter", m["detail_url"])
+                except Exception as e:
+                    logger.warning("kw-minutes: summarization failed for %s: %s", vid_id, e)
+                    continue
+                new_path = save_summary(info["title"], m["detail_url"], "kronenwetter",
+                                        summary, doc_url=info.get("doc_url"),
+                                        video_id=vid_id)
+                mark_processed(state, vid_id, info["title"], "kronenwetter", new_path,
+                               doc_url=info.get("doc_url"),
+                               upload_date=info.get("upload_date"),
+                               meeting_date=info.get("meeting_date"),
+                               video_url=m["detail_url"])
+                save_state(state)
+                upgraded_ids.append(vid_id)
+                print(f"   [ok]  upgraded {vid_id} from minutes ({len(minutes_text):,} chars)")
 
     # Force re-injection of upgraded entries by removing them from the
     # injected_meetings.json tracker. inject_meetings will then re-build them.
