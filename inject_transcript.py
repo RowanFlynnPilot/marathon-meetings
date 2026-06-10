@@ -74,15 +74,38 @@ def main():
         except Exception:
             pass
 
-    existing_summaries = list(summaries_dir.glob(f"*{vid_id.lower()}*_summary.json")) if summaries_dir.exists() else []
+    # Resolve the existing summary via state — it records the exact path. The
+    # old filename glob never matched (slugs didn't contain the video ID), so
+    # the skip-guard below was dead code and every CI run re-summarized every
+    # transcript file: the single biggest API cost leak in the pipeline.
+    existing_summaries = []
+    _state_path = Path(os.environ.get("STATE_FILE", "./processed_meetings.json"))
+    if _state_path.exists():
+        try:
+            _info = json.loads(_state_path.read_text(encoding="utf-8")) \
+                        .get("processed", {}).get(vid_id, {})
+            sf = _info.get("summary_file", "")
+            if sf:
+                sj = Path(sf.replace(".md", "_summary.json"))
+                if sj.exists():
+                    existing_summaries.append(sj)
+        except (json.JSONDecodeError, OSError):
+            pass
+    if not existing_summaries and summaries_dir.exists():
+        # Fallback for entries not in state — new slugs include the video ID.
+        existing_summaries = list(summaries_dir.glob(f"*{vid_id.lower()}*_summary.json"))
+
     if existing_summaries and not args.force:
         for sp in existing_summaries:
             try:
                 s = json.loads(sp.read_text(encoding="utf-8"))
-                source = s.get("_source")
                 stored_hash = s.get("_transcript_hash")
-                if source not in ("agenda", "agenda_with_votes", None):
-                    # Already has a transcript-based summary
+                # Anything not explicitly agenda-based is transcript-based.
+                # (Older transcript summaries predate the _source="transcript"
+                # tag, so a missing _source must count as transcript-based too —
+                # treating it as agenda caused unconditional re-summarization.)
+                is_agenda = s.get("_source") in ("agenda", "agenda_with_votes")
+                if not is_agenda:
                     if transcript_hash and stored_hash and transcript_hash == stored_hash:
                         print(f"[skip] {vid_id} already summarized (transcript unchanged, saves API call)")
                         return
@@ -290,7 +313,8 @@ def main():
     # Tag the summary with the transcript hash so future runs can skip if unchanged
     if transcript_hash:
         summary["_transcript_hash"] = transcript_hash
-    path = save_summary(title, url, source_key, summary, doc_url, civic_data)
+    path = save_summary(title, url, source_key, summary, doc_url, civic_data,
+                        video_id=vid_id)
     print(f"[save] Saved: {path}")
 
     # ── Update processed_meetings.json ───────────────────────────────────────

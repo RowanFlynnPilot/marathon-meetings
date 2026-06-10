@@ -45,7 +45,16 @@ def setup_logging(level: int = logging.INFO) -> None:
     root.setLevel(level)
 
 # ── Anthropic client ──────────────────────────────────────────────────────────
-CLAUDE_MODEL              = os.environ.get("CLAUDE_MODEL", "claude-opus-4-5")
+# Two-tier model strategy to control cost:
+#   CLAUDE_MODEL        — full-transcript summaries (the flagship product).
+#                         Sonnet handles meeting transcripts essentially as well
+#                         as Opus at a fraction of the cost.
+#   CLAUDE_MODEL_AGENDA — agenda-only / BoardBook summaries. These are short,
+#                         low-stakes, scheduled-language fallbacks; Haiku is
+#                         plenty and ~5x cheaper than Sonnet.
+# Both are env-overridable, e.g. CLAUDE_MODEL=claude-opus-4-8 for a one-off run.
+CLAUDE_MODEL              = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
+CLAUDE_MODEL_AGENDA       = os.environ.get("CLAUDE_MODEL_AGENDA", "claude-haiku-4-5-20251001")
 ANTHROPIC_TIMEOUT_SECONDS = int(os.environ.get("ANTHROPIC_TIMEOUT_SECONDS", "180"))
 ANTHROPIC_MAX_RETRIES     = int(os.environ.get("ANTHROPIC_MAX_RETRIES", "4"))
 
@@ -80,7 +89,9 @@ SKIP_VIDEO_IDS = frozenset(
         "SKIP_VIDEO_IDS",
         # Education Meeting Pt.2/3 merged into hNOP07iJjNY
         # Executive Committee Pt.2 merged into 47UbKS2Jqo4
-        "eIjwnwe6aBE,4IiT1PAaCHA,PkJesaGLD0Q",
+        # bb_748411/bb_748413: East+West graduation ceremony quorum notices
+        # (no Board action) — removed from display 2026-06-10
+        "eIjwnwe6aBE,4IiT1PAaCHA,PkJesaGLD0Q,bb_748411,bb_748413",
     ).split(",") if s.strip()
 )
 

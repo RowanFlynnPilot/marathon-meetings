@@ -56,6 +56,7 @@ CHANNELS = {
 
 from config import (
     CLAUDE_MODEL,
+    CLAUDE_MODEL_AGENDA,
     MAX_TRANSCRIPT_CHARS,
     SUMMARIES_DIR,
     STATE_FILE,
@@ -678,11 +679,16 @@ Rules:
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
     try:
-        return json.loads(raw)
+        result = json.loads(raw)
+        # Explicit tag so inject_transcript.py's skip-guard can tell
+        # transcript-based summaries from agenda-only ones.
+        result["_source"] = "transcript"
+        return result
     except json.JSONDecodeError:
         # Fallback if Claude returns non-JSON
         return {"overview": raw, "agenda": [], "discussions": [],
-                "publicComment": "", "actionItems": [], "committee": ""}
+                "publicComment": "", "actionItems": [], "committee": "",
+                "_source": "transcript"}
 
 
 # -- Output --------------------------------------------------------------------
@@ -729,9 +735,16 @@ def prune_orphan_summaries(state):
         print(f"  [prune] removed {removed} orphan summary file(s).")
 
 
-def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None):
+def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None,
+                 video_id=None):
     ch    = CHANNELS[source_key]
-    slug  = _slugify(f"{source_key}-{title}")
+    # Include the video/meeting ID in the slug when available — titles are not
+    # unique (e.g. two "Public Meeting - 2026-05-30" graduation ceremonies),
+    # and title-only slugs make same-titled meetings overwrite each other.
+    # The ID is appended AFTER slugify so the 80-char truncation can't eat it.
+    slug = _slugify(f"{source_key}-{title}")
+    if video_id:
+        slug = f"{slug}-{_slugify(str(video_id))}"
     path  = SUMMARIES_DIR / f"{slug}.md"
     SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -942,7 +955,7 @@ Rules:
 
     msg = call_anthropic_with_retry(
         client,
-        model=CLAUDE_MODEL, max_tokens=4096,
+        model=CLAUDE_MODEL_AGENDA, max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
@@ -1055,7 +1068,7 @@ Rules:
 
     msg = call_anthropic_with_retry(
         client,
-        model=CLAUDE_MODEL, max_tokens=4096,
+        model=CLAUDE_MODEL_AGENDA, max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
@@ -1134,7 +1147,8 @@ def process_video(video):
             print("  [err]  No transcript or agenda available - skipping.")
             return None
 
-    path = save_summary(title, url, source_key, summary, doc_url, civic_data)
+    path = save_summary(title, url, source_key, summary, doc_url, civic_data,
+                        video_id=vid_id)
     print(f"  [save]  Saved  {path}")
     return path
 
@@ -1380,7 +1394,7 @@ Rules:
 
     msg = call_anthropic_with_retry(
         client,
-        model=CLAUDE_MODEL, max_tokens=4096,
+        model=CLAUDE_MODEL_AGENDA, max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = msg.content[0].text.strip()
@@ -1409,12 +1423,24 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
 
     agenda = scrape_boardbook_agenda(meeting_id)
 
+    # Ceremonial quorum notices (graduations etc.) aren't meetings — no agenda
+    # items beyond the event itself, explicitly "no Board action will be
+    # taken". They pollute the dashboard (two identical graduation cards in
+    # May 2026) and waste an API call. Skip before summarizing; don't mark
+    # processed so a retitled/expanded agenda would still get picked up.
+    _agenda_blob = " ".join(agenda.get("items", []))[:2000].lower()
+    if re.search(r"graduation", f"{bb_meeting['name']} {_agenda_blob}", re.IGNORECASE) \
+            and "no board action" in _agenda_blob:
+        print(f"  [skip]  Ceremonial event (graduation, no Board action): {title}")
+        return False
+
     print(f"  [claude]  Summarizing {len(agenda['items'])} agenda items...")
     summary = summarize_from_boardbook(agenda, title)
 
     doc_url = bb_meeting.get("url", bb_meeting.get("agenda_url", ""))
     path = save_summary(title, f"https://www.youtube.com/@wausauschoolboard",
-                        "school_board", summary, doc_url=doc_url)
+                        "school_board", summary, doc_url=doc_url,
+                        video_id=video_id)
 
     # BoardBook stores dates as "YYYY-MM-DD"; convert to YouTube-style YYYYMMDD.
     # For BoardBook there's no separate upload date — the meeting date is the
@@ -1468,6 +1494,8 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
 
         video_id = f"bb_{m['meeting_id']}"
         if video_id in state.get("processed", {}):
+            continue
+        if video_id in SKIP_VIDEO_IDS:
             continue
         print(f"  [new]  New meeting: {m['name']} on {meeting_date_str}")
         if not dry_run:
@@ -1584,11 +1612,17 @@ def main():
                     pending.append(v)
         all_pending.extend(pending)
 
-    # School board always handled by its own scraper
+    # School board always handled by its own scraper. Isolate failures so a
+    # BoardBook outage or API error doesn't abort the YouTube sources below.
     for src in sources:
         if src == "school_board":
-            sb_count = fetch_school_board_new(state, args.dry_run)
-            print(f"   school_board: {sb_count} new meeting(s) processed")
+            try:
+                sb_count = fetch_school_board_new(state, args.dry_run)
+                print(f"   school_board: {sb_count} new meeting(s) processed")
+            except Exception as e:
+                logger.error("school_board processing failed: %s", e)
+            finally:
+                save_state(state)
 
     if not all_pending:
         print("[ok]  No new meetings to process."); return
@@ -1602,8 +1636,18 @@ def main():
         print("\n[DRY RUN] No files written."); return
 
     ok = 0
+    failed = 0
     for v in all_pending:
-        path = process_video(v)
+        # Isolate per-video failures: one bad video (or a mid-run API outage,
+        # e.g. the June 2026 credit exhaustion) shouldn't abort the rest of
+        # the run — and the workflow steps after us still need to deploy.
+        try:
+            path = process_video(v)
+        except Exception as e:
+            logger.error("process_video failed for %s (%s): %s",
+                         v["id"], v.get("title", "")[:60], e)
+            failed += 1
+            continue
         if path:
             mark_processed(state, v["id"], v["title"], v["source"], path,
                            v.get("doc_url"),
@@ -1612,6 +1656,9 @@ def main():
                            duration=v.get("duration"))
             save_state(state)
             ok += 1
+    if failed:
+        print(f"[warn]  {failed} video(s) failed — they remain unprocessed and "
+              f"will be retried next run.")
 
     # ── Retry transcript fetch for recent agenda-only entries ─────────────────
     # YouTube auto-captions can take hours/days to generate, and CI IPs sometimes
@@ -1687,7 +1734,7 @@ def main():
             continue
         # Save and update state (mark_processed preserves processed_at)
         new_path = save_summary(v["title"], v["url"], v["source"], summary,
-                                 doc_url=v.get("doc_url"))
+                                 doc_url=v.get("doc_url"), video_id=v["id"])
         mark_processed(state, v["id"], v["title"], v["source"], new_path,
                        doc_url=v.get("doc_url"),
                        upload_date=v.get("upload_date"),
