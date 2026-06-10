@@ -1409,10 +1409,13 @@ Rules:
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
     try:
-        return json.loads(raw)
+        result = json.loads(raw)
+        result["_source"] = "boardbook_agenda"
+        return result
     except json.JSONDecodeError:
         return {"overview": raw, "agenda": [], "discussions": [],
-                "publicComment": "", "actionItems": [], "committee": ""}
+                "publicComment": "", "actionItems": [], "committee": "",
+                "_source": "boardbook_agenda"}
 
 
 def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:

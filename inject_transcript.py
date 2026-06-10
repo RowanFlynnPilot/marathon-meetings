@@ -104,7 +104,13 @@ def main():
                 # (Older transcript summaries predate the _source="transcript"
                 # tag, so a missing _source must count as transcript-based too —
                 # treating it as agenda caused unconditional re-summarization.)
-                is_agenda = s.get("_source") in ("agenda", "agenda_with_votes")
+                # EXCEPT BoardBook (bb_) entries: their agenda summaries from
+                # summarize_from_boardbook are also untagged, and they're
+                # agenda-based until explicitly upgraded to "transcript".
+                if vid_id.startswith("bb_"):
+                    is_agenda = s.get("_source") != "transcript"
+                else:
+                    is_agenda = s.get("_source") in ("agenda", "agenda_with_votes")
                 if not is_agenda:
                     if transcript_hash and stored_hash and transcript_hash == stored_hash:
                         print(f"[skip] {vid_id} already summarized (transcript unchanged, saves API call)")
