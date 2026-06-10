@@ -46,6 +46,7 @@ const COMMITTEE_STYLES = {
   "Health & Human Services":  { bg: "#3A5C5C", text: "#fff" },
   "County Board":             { bg: "#365A2D", text: "#fff" },
   "Water Works":              { bg: "#1F4F66", text: "#fff" },
+  "Tourism Commission":       { bg: "#7A4019", text: "#fff" },
 };
 
 const SOURCE_CONFIG = {
@@ -917,7 +918,9 @@ const bodyStyle  = { fontFamily: "'Lora', Georgia, serif", fontSize: "14px", lin
 function UpcomingMeetings({ isMobile }) {
   const [upFilter, setUpFilter]       = useState("all");
   const [calOpen,  setCalOpen]        = useState(null);  // ev key with open dropdown
-  const today = new Date().toISOString().split("T")[0];
+  // Local date, not toISOString() — the UTC date rolls over at 7 PM Central,
+  // which made today's (mostly evening!) meetings vanish from Upcoming.
+  const today = new Date().toLocaleDateString("en-CA");
 
   const allUpcoming = [
     ...(upFilter === "all" || upFilter === "marathon"     ? MARATHON_UPCOMING     : []),
@@ -935,7 +938,7 @@ function UpcomingMeetings({ isMobile }) {
     return acc;
   }, {});
 
-  const tomorrow = new Date(Date.now() + 86400000).toISOString().split("T")[0];
+  const tomorrow = new Date(Date.now() + 86400000).toLocaleDateString("en-CA");
 
   const dateLabel = (dateStr) => {
     if (dateStr === today) return "TODAY";

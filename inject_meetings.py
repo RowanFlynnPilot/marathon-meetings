@@ -69,6 +69,7 @@ COMMITTEE_MAP = {
     "finance and human resources committee":   ("weston", "Finance & Human Resources"),
     "finance & human resources committee":     ("weston", "Finance & Human Resources"),
     "public works committee":                  ("weston", "Public Works"),
+    "public works & utility":                  ("weston", "Public Works"),
     "community life & public safety":          ("weston", "Community Life & Public Safety"),
     "community life and public safety":        ("weston", "Community Life & Public Safety"),
     "s.a.f.e.r":                               ("weston", "S.A.F.E.R. Board"),
@@ -486,6 +487,16 @@ def main():
     combined = [m for m in combined if not is_future(m)]
     if before - len(combined):
         print(f"   [prune] removed {before - len(combined)} future-dated entry/entries")
+
+    # Sort newest-first by meeting date BEFORE pruning. Without this the list
+    # is in injection order (processed_at), so the [:MAX_MEETINGS] cut below
+    # can drop a recent meeting while keeping an older one.
+    def _sort_key(m):
+        try:
+            return datetime.strptime(m.get("date", ""), "%B %d, %Y")
+        except ValueError:
+            return datetime.min
+    combined.sort(key=_sort_key, reverse=True)
 
     # Prune to MAX_MEETINGS
     if len(combined) > MAX_MEETINGS:
