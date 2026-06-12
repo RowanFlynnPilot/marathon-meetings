@@ -1,20 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-06-11",
-      "time": "3:00 PM",
-      "name": "Executive Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
-      "date": "2026-06-11",
-      "time": "5:00 PM",
-      "name": "Infrastructure Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-06-18",
       "time": "5:00 PM",
       "name": "HR, Finance & Property Committee",
@@ -95,6 +81,13 @@
       "date": "2026-08-06",
       "time": "5:00 PM",
       "name": "Health & Human Services Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-08-11",
+      "time": "5:00 PM",
+      "name": "Public Safety Committee",
       "url": "https://www.marathoncounty.gov/about-us/county-calendar",
       "source": "marathon"
     }
@@ -182,6 +175,13 @@
       "time": "8:00 AM",
       "name": "Joint Review Board Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2498/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-30",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2480/overview",
       "source": "wausau"
     }
   ],
@@ -295,6 +295,13 @@
       "date": "2026-08-10",
       "time": "6:00 PM",
       "name": "Public Works Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-08-11",
+      "time": "6:00 PM",
+      "name": "S.A.F.E.R. Board of Directors",
       "url": "https://www.westonwi.gov/agendacenter",
       "source": "weston"
     }
