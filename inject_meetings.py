@@ -35,6 +35,7 @@ from config import (
     SUMMARIES_DIR,
     INJECTED_FILE,
     MAX_MEETINGS,
+    BOARDBOOK_DISTRICTS,
 )
 
 DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else MEETINGS_JSON
@@ -96,6 +97,26 @@ COMMITTEE_MAP = {
 }
 
 
+def _boardbook_committee_from_title(title: str) -> str:
+    """Derive the meeting-type committee for a BoardBook district from its
+    title. The title reliably carries the meeting type ('Regular School Board
+    Meeting', 'Board Workshop', ...); the summary's `committee` field does NOT
+    for transcript-upgraded entries — Claude returns the board's name there
+    instead of the meeting type. So title is authoritative for these sources.
+    """
+    t = title.lower()
+    if "committee of the whole" in t:        return "Committee of the Whole"
+    if "workshop" in t:                       return "Board Workshop"
+    if "annual" in t or "budget hearing" in t: return "Annual Meeting"
+    if "special" in t:                        return "Special Meeting"
+    if "audit" in t:                          return "Audit of the Bills"
+    if "regular" in t:                        return "Regular Meeting"
+    if "public hearing" in t:                 return "Public Hearing"
+    # Fallback: strip date suffix, keep the cleaned name.
+    c = re.sub(r"\s*-\s*\d.*$", "", title).strip()
+    return c or "Board Meeting"
+
+
 def infer_source_and_committee(title: str, source_key: str, committee_from_json: str) -> tuple[str, str]:
     """Return (source, committee_display).
     source_key from processed_meetings.json is AUTHORITATIVE — never override it.
@@ -103,6 +124,11 @@ def infer_source_and_committee(title: str, source_key: str, committee_from_json:
     """
     def normalize(s):
         return s.lower().replace(" and ", " & ").replace("  ", " ")
+
+    # BoardBook districts: the meeting TYPE lives in the title, not the
+    # summary's committee field (unreliable after transcript upgrade).
+    if source_key in BOARDBOOK_DISTRICTS:
+        return (source_key, _boardbook_committee_from_title(title))
 
     if committee_from_json and len(committee_from_json) > 3:
         lower = normalize(committee_from_json)
@@ -497,6 +523,11 @@ def main():
         return title
     for m in kept_existing:
         m["title"] = _strip_prefix(m.get("title", ""), m.get("source", ""))
+        # BoardBook districts: re-derive committee from the (authoritative)
+        # title so transcript-upgraded entries that baked in the board's name
+        # get corrected to the meeting type without a full re-summarization.
+        if m.get("source") in BOARDBOOK_DISTRICTS:
+            m["committee"] = _boardbook_committee_from_title(m.get("title", ""))
         # Replace the legacy placeholder duration with whatever's in state, or
         # null for agenda-only / unknown.
         if m.get("duration") in (None, "", "~1h"):
