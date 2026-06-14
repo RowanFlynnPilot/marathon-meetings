@@ -177,9 +177,19 @@ def mark_processed(state, video_id, title, source, summary_path,
 
 # -- Channel scraping ----------------------------------------------------------
 
+_MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+    "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
 def _parse_date_from_title(title):
     """Parse YYYYMMDD from video title.
-    Handles formats: 3/19/26, 3-19-26, 3/19/2026, 2026-01-26
+    Handles: 3/19/26, 3-19-26, 3/19/2026, 2026-01-26, and month-name forms
+    like 'May 20, 2026' / 'November  12, 2025' (DC Everest titles).
     Returns empty string if no date found.
     """
     import re as _re
@@ -198,6 +208,12 @@ def _parse_date_from_title(title):
         if int(mo) > 12 or int(dy) > 31:
             return ""
         return yr + mo + dy
+    # Month-name format: "May 20, 2026", "November  12, 2025" (commas/spaces vary)
+    m = _re.search(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d{2})", title)
+    if m:
+        mon = _MONTHS.get(m.group(1).lower())
+        if mon and int(m.group(2)) <= 31:
+            return f"{m.group(3)}{mon:02d}{int(m.group(2)):02d}"
     return ""
 
 
