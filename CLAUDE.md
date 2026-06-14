@@ -37,8 +37,11 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 | Village of Weston | `weston` | `@WestonWI` | AgendaCenter (westonwi.gov/agendacenter) |
 | Wausau School Board | `school_board` | channel `UCw63l8UWL_hpDtUy9IBIVvw` ("Wausau School District Board of Education" — NOT the empty `@wausauschoolboard`) | BoardBook (meetings.boardbook.org, org 1360) |
 | Village of Kronenwetter | `kronenwetter` | — (sporadic uploads only) | Municode Meetings (kronenwetter-wi.municodemeetings.com) |
+| DC Everest School Board | `dc_everest` | `@dceverestschoolboard2202` | BoardBook (meetings.boardbook.org, org 1315) |
 
-School board meetings are created from BoardBook (`bb_` IDs, agenda-only). The district posts recordings to YouTube days-to-weeks later; the `[sb-video]` upgrade pass in `marathon_meeting_summarizer.py` matches recordings to BoardBook entries by date + meeting type and re-summarizes from the transcript (window: `SCHOOL_BOARD_VIDEO_DAYS`, default 45).
+**BoardBook districts** (`school_board`, `dc_everest`) share one generalized code path, configured in `BOARDBOOK_DISTRICTS` (config.py) by `{org, label, channel}`. Meetings are created agenda-only from BoardBook (`bb_<meeting_id>` IDs — globally unique across orgs, disambiguated by the stored `source`). The `[sb-video]` upgrade pass iterates districts, matching each agenda-only entry to a recording on that district's YouTube channel by date + meeting type, and re-summarizes from the transcript (window: `SCHOOL_BOARD_VIDEO_DAYS`, default 45). DC Everest posts recordings promptly with captions; Wausau posts days-to-weeks later. To add another BoardBook district: add a `BOARDBOOK_DISTRICTS` entry, a `CHANNELS` entry, frontend `SOURCE_CONFIG`/filters/colors, and an avatar.
+
+Note: DC Everest videos only extract via yt-dlp's `android` player client (the default web client returns a misleading "video unavailable"); the caption/audio fetch commands pass `--extractor-args youtube:player_client=default,android`.
 
 Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use the ADA HTML endpoint (no PDF parsing); when official minutes post days-to-weeks later, the `[kw-minutes]` upgrade pass re-summarizes from them (`_source="minutes"`, actual votes/outcomes — Sonnet; agenda summaries use Haiku). Window: `KRONENWETTER_MINUTES_DAYS`, default 45.
 
@@ -48,6 +51,7 @@ Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use
 - **Village of Weston:** AgendaCenter HTML scrape + rule-based fallback
 - **School Board:** BoardBook scrape + rule-based (2nd Monday = Regular, 4th Monday = Ed/Op Committee)
 - **Kronenwetter:** Municode hub scrape (portal posts real future meetings weeks ahead)
+- **DC Everest:** BoardBook scrape (org 1315; posts agendas in advance, no rule-based fill)
 
 ## Key Architecture Notes
 - YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
@@ -75,6 +79,7 @@ Committees have assigned badge colors for visual differentiation. Existing assig
 - Village of Weston: forest green (`#3A6B43`)
 - Wausau School Board: plum (`#6B2D5C`)
 - Village of Kronenwetter: gold (`#8B6914`)
+- DC Everest School Board: pine teal (`#1F6F6B`)
 
 ## Conventions
 - All Python scripts use `argparse` and support `--source` and `--dry-run` flags where applicable

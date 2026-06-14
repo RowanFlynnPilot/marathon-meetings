@@ -8,6 +8,7 @@ const WAUSAU_UPCOMING       = UPCOMING.wausau;
 const WESTON_UPCOMING       = UPCOMING.weston;
 const SCHOOL_BOARD_UPCOMING = UPCOMING.school_board;
 const KRONENWETTER_UPCOMING = UPCOMING.kronenwetter || [];
+const DC_EVEREST_UPCOMING   = UPCOMING.dc_everest || [];
 const TEAL    = "#4aaba7";
 const CREAM   = "#F7F3EC";
 const INK     = "#1A1209";
@@ -56,6 +57,9 @@ const COMMITTEE_STYLES = {
   "Police & Fire Commission": { bg: "#5C1F3A", text: "#fff" },
   "Board of Review":          { bg: "#3F4A2A", text: "#fff" },
   "Redevelopment Authority":  { bg: "#2F4858", text: "#fff" },
+  // DC Everest School Board (Regular/Special reuse the shared badges above)
+  "Board Workshop":           { bg: "#3A5550", text: "#fff" },
+  "Annual Meeting":           { bg: "#4A4030", text: "#fff" },
 };
 
 const SOURCE_CONFIG = {
@@ -98,6 +102,14 @@ const SOURCE_CONFIG = {
     channel:  "https://kronenwetter-wi.municodemeetings.com",
     docHost:  "kronenwetter-wi.municodemeetings.com",
     avatar:   BASE_URL + "kronenwetter-avatar.jpg",
+  },
+  dc_everest: {
+    label:    "DC Everest School Board",
+    short:    "DCE",
+    accent:   "#1F6F6B",
+    channel:  "https://www.youtube.com/@dceverestschoolboard2202",
+    docHost:  "meetings.boardbook.org",
+    avatar:   BASE_URL + "dc-everest-avatar.jpg",
   },
 };
 
@@ -945,6 +957,7 @@ function UpcomingMeetings({ isMobile }) {
     ...(upFilter === "all" || upFilter === "weston"       ? WESTON_UPCOMING       : []),
     ...(upFilter === "all" || upFilter === "school_board" ? SCHOOL_BOARD_UPCOMING : []),
     ...(upFilter === "all" || upFilter === "kronenwetter" ? KRONENWETTER_UPCOMING : []),
+    ...(upFilter === "all" || upFilter === "dc_everest"   ? DC_EVEREST_UPCOMING   : []),
   ]
     .filter(e => e.date >= today)
     .sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
@@ -980,6 +993,7 @@ function UpcomingMeetings({ isMobile }) {
             { key: "weston",       label: "Weston",          color: SOURCE_CONFIG.weston.accent,       avatar: SOURCE_CONFIG.weston.avatar       },
             { key: "school_board", label: "School Board",    color: SOURCE_CONFIG.school_board.accent, avatar: SOURCE_CONFIG.school_board.avatar },
             { key: "kronenwetter", label: "Kronenwetter",    color: SOURCE_CONFIG.kronenwetter.accent, avatar: SOURCE_CONFIG.kronenwetter.avatar },
+            { key: "dc_everest",   label: "DC Everest",      color: SOURCE_CONFIG.dc_everest.accent,   avatar: SOURCE_CONFIG.dc_everest.avatar   },
           ].map(({ key, label, color, avatar }) => {
             const active = upFilter === key;
             return (
@@ -1653,6 +1667,7 @@ export default function App() {
                     { key: "weston",       label: "Weston",          color: SOURCE_CONFIG.weston.accent,       avatar: SOURCE_CONFIG.weston.avatar       },
                     { key: "school_board", label: "School Board",    color: SOURCE_CONFIG.school_board.accent, avatar: SOURCE_CONFIG.school_board.avatar },
                     { key: "kronenwetter", label: "Kronenwetter",    color: SOURCE_CONFIG.kronenwetter.accent, avatar: SOURCE_CONFIG.kronenwetter.avatar },
+                    { key: "dc_everest",   label: "DC Everest",      color: SOURCE_CONFIG.dc_everest.accent,   avatar: SOURCE_CONFIG.dc_everest.avatar   },
                   ].map(({ key, label, color, avatar }) => {
                     const active = sourceFilter === key;
                     return (

@@ -65,6 +65,14 @@ CHANNELS = {
         "url":         "https://kronenwetter-wi.municodemeetings.com",
         "doc_pattern": None,
     },
+    "dc_everest": {
+        "label":       "DC Everest School Board",
+        # BoardBook district (org 1315) + own YouTube channel. Meetings are
+        # created agenda-only from BoardBook, then the video-upgrade pass
+        # re-summarizes from the recording (posted reliably, with captions).
+        "url":         "https://www.youtube.com/@dceverestschoolboard2202/videos",
+        "doc_pattern": None,
+    },
 }
 
 from config import (
@@ -293,6 +301,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
         cmd = [
             "yt-dlp",
             "--no-check-certificate",
+            # Some channels (e.g. DC Everest) return "video unavailable" on the
+            # default web client but extract fine via the android client. Trying
+            # default then android is harmless for other channels and more robust
+            # as YouTube keeps tightening web extraction.
+            "--extractor-args", "youtube:player_client=default,android",
             "--write-sub",           # try manual captions first
             "--write-auto-sub",      # then auto-generated
             "--skip-download",
@@ -407,6 +420,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         dl_cmd = [
             "yt-dlp",
             "--no-check-certificate",
+            "--extractor-args", "youtube:player_client=default,android",
             "-f", "18",
             "--no-playlist",
             "--max-filesize", "300m",
@@ -1248,19 +1262,23 @@ def update_upcoming_in_jsx(jsx_path: str, events: list[dict]):
 
 # -- BoardBook agenda scraper (Wausau School Board) ---------------------------
 
-from config import BOARDBOOK_BASE, BOARDBOOK_ORG  # noqa: E402
+from config import (  # noqa: E402
+    BOARDBOOK_BASE, BOARDBOOK_ORG, BOARDBOOK_DISTRICTS, SCHOOL_BOARD_VIDEO_DAYS,
+)
 
 
-def scrape_boardbook_org_page() -> list[dict]:
+def scrape_boardbook_org_page(org: int = None) -> list[dict]:
     """
-    Scrape the BoardBook organization page for all meetings.
+    Scrape a BoardBook organization page for all meetings.
     Returns list of {meeting_id, date, time, name, url}.
+    org defaults to BOARDBOOK_ORG (Wausau) for backward compatibility.
     """
     import requests, re
     from datetime import datetime, date as ddate
 
+    org = org or BOARDBOOK_ORG
     r = requests.get(
-        f"{BOARDBOOK_BASE}/Public/Organization/{BOARDBOOK_ORG}",
+        f"{BOARDBOOK_BASE}/Public/Organization/{org}",
         headers={"User-Agent": "Mozilla/5.0"}, timeout=15
     )
     rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
@@ -1287,25 +1305,27 @@ def scrape_boardbook_org_page() -> list[dict]:
                 "date":       dt.isoformat(),
                 "time":       time_str,
                 "name":       name.strip(),
-                "url":        f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={id_m.group(1)}",
-                "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{BOARDBOOK_ORG}?meeting={id_m.group(1)}",
+                "url":        f"{BOARDBOOK_BASE}/Public/Agenda/{org}?meeting={id_m.group(1)}",
+                "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{org}?meeting={id_m.group(1)}",
             })
         except ValueError:
             pass
     return sorted(meetings, key=lambda x: x["date"], reverse=True)
 
 
-def scrape_boardbook_agenda(meeting_id: str) -> dict:
+def scrape_boardbook_agenda(meeting_id: str, org: int = None) -> dict:
     """
     Scrape agenda items and descriptions from a BoardBook meeting page.
     Extracts item names, detailed descriptions, presenter info, time estimates,
     and attachment lists for richer agenda-only summaries.
     Returns {page_title, items: [str], meeting_id, packet_url, agenda_url}.
+    org defaults to BOARDBOOK_ORG (Wausau) for backward compatibility.
     """
     import requests, re
 
+    org = org or BOARDBOOK_ORG
     r = requests.get(
-        f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
+        f"{BOARDBOOK_BASE}/Public/Agenda/{org}?meeting={meeting_id}",
         headers={"User-Agent": "Mozilla/5.0"}, timeout=15
     )
 
@@ -1360,19 +1380,21 @@ def scrape_boardbook_agenda(meeting_id: str) -> dict:
         "page_title": page_title,
         "items":      items,
         "meeting_id": meeting_id,
-        "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
-        "agenda_url": f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={meeting_id}",
+        "packet_url": f"{BOARDBOOK_BASE}/Public/DownloadAgenda/{org}?meeting={meeting_id}",
+        "agenda_url": f"{BOARDBOOK_BASE}/Public/Agenda/{org}?meeting={meeting_id}",
     }
 
 
-def summarize_from_boardbook(agenda: dict, title: str) -> dict:
+def summarize_from_boardbook(agenda: dict, title: str,
+                             district_label: str = "Wausau School District Board of Education") -> dict:
     """
     Send the BoardBook agenda to Claude and get a structured JSON summary.
+    district_label names the board in the prompt (defaults to Wausau).
     """
     client = anthropic.Anthropic()
     items_text = "\n".join(f"  {item}" for item in agenda["items"])
 
-    prompt = f"""You are a local government reporter for the Wausau Pilot & Review covering the Wausau School District Board of Education.
+    prompt = f"""You are a local government reporter for the Wausau Pilot & Review covering the {district_label}.
 
 Meeting: {title}
 BoardBook agenda page: {agenda['agenda_url']}
@@ -1389,7 +1411,7 @@ IMPORTANT: This is an AGENDA only — no recording exists. Use tentative languag
 Produce a JSON object with this exact structure and nothing else:
 
 {{
-  "overview": "2-3 sentence summary starting with 'Based on the published agenda,' describing what this meeting was scheduled to address and its significance for the Wausau School District. Mention key action items and any notable topics.",
+  "overview": "2-3 sentence summary starting with 'Based on the published agenda,' describing what this meeting was scheduled to address and its significance for the school district. Mention key action items and any notable topics.",
   "committee": "the meeting type (e.g. Regular Meeting, Committee of the Whole, Special Meeting)",
   "agenda": [
     {{"time": "N/A", "item": "agenda item description"}}
@@ -1427,11 +1449,15 @@ Rules:
                 "_source": "boardbook_agenda"}
 
 
-def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
+def process_boardbook_meeting(bb_meeting: dict, state: dict,
+                              source_key: str = "school_board") -> bool:
     """
-    Process a single BoardBook meeting: scrape agenda, summarize with Claude,
-    save outputs. Returns True if newly processed.
+    Process a single BoardBook meeting for the given district source: scrape
+    agenda, summarize with Claude, save outputs. Returns True if newly
+    processed. The synthetic ID is bb_<meeting_id> (BoardBook meeting IDs are
+    globally unique across orgs; the stored `source` disambiguates districts).
     """
+    dcfg = BOARDBOOK_DISTRICTS.get(source_key, {})
     meeting_id = bb_meeting["meeting_id"]
     video_id   = f"bb_{meeting_id}"   # synthetic ID for BoardBook-only meetings
 
@@ -1441,7 +1467,7 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
     title = f"{bb_meeting['name']} - {bb_meeting['date']}"
     print(f"  [agenda]  Scraping BoardBook agenda for: {title}")
 
-    agenda = scrape_boardbook_agenda(meeting_id)
+    agenda = scrape_boardbook_agenda(meeting_id, org=dcfg.get("org"))
 
     # Ceremonial quorum notices (graduations etc.) aren't meetings — no agenda
     # items beyond the event itself, explicitly "no Board action will be
@@ -1455,21 +1481,27 @@ def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
         return False
 
     print(f"  [claude]  Summarizing {len(agenda['items'])} agenda items...")
-    summary = summarize_from_boardbook(agenda, title)
+    summary = summarize_from_boardbook(
+        agenda, title,
+        district_label=dcfg.get("label", "Wausau School District Board of Education"))
 
     doc_url = bb_meeting.get("url", bb_meeting.get("agenda_url", ""))
-    path = save_summary(title, f"https://www.youtube.com/@wausauschoolboard",
-                        "school_board", summary, doc_url=doc_url,
+    path = save_summary(title, doc_url, source_key, summary, doc_url=doc_url,
                         video_id=video_id)
 
     # BoardBook stores dates as "YYYY-MM-DD"; convert to YouTube-style YYYYMMDD.
     # For BoardBook there's no separate upload date — the meeting date is the
     # canonical date.
     bb_date = (bb_meeting.get("date") or "").replace("-", "") or None
-    mark_processed(state, video_id, title, "school_board", path,
+    mark_processed(state, video_id, title, source_key, path,
                    doc_url=doc_url, upload_date=bb_date, meeting_date=bb_date)
     print(f"  [ok]  Saved: {path}")
     return True
+
+
+def process_school_board_meeting(bb_meeting: dict, state: dict) -> bool:
+    """Back-compat shim — Wausau School Board. Use process_boardbook_meeting."""
+    return process_boardbook_meeting(bb_meeting, state, source_key="school_board")
 
 
 def _match_school_board_video(info: dict, videos: list[dict]) -> dict | None:
@@ -1495,6 +1527,10 @@ def _match_school_board_video(info: dict, videos: list[dict]) -> dict | None:
         t = t.lower()
         if "special" in t:
             return "special"
+        if "workshop" in t:
+            return "workshop"
+        if "annual" in t or "budget hearing" in t:
+            return "annual"
         # BoardBook calls it "Committee of the Whole"; the channel titles it
         # "Ed/Op Committee Meeting" — both are the committee meeting.
         if "committee" in t or "ed/op" in t:
@@ -1511,17 +1547,20 @@ def _match_school_board_video(info: dict, videos: list[dict]) -> dict | None:
     return matches[0] if len(matches) == 1 else None
 
 
-def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
+def fetch_boardbook_new(state: dict, source_key: str = "school_board",
+                        dry_run: bool = False) -> int:
     """
-    Check BoardBook for any new school board meetings not yet processed.
+    Check a district's BoardBook org for new meetings not yet processed.
     Only processes meetings that have already occurred (date <= today).
     Returns count of newly processed meetings.
     """
     from datetime import date as _date
     today = _date.today()
 
-    print("[fetch]  Checking BoardBook for new Wausau School Board meetings...")
-    meetings = scrape_boardbook_org_page()
+    dcfg = BOARDBOOK_DISTRICTS.get(source_key, {})
+    label = CHANNELS.get(source_key, {}).get("label", source_key)
+    print(f"[fetch]  Checking BoardBook for new {label} meetings...")
+    meetings = scrape_boardbook_org_page(org=dcfg.get("org"))
     count = 0
 
     # Convert global cutoff (YYYYMMDD) to date for comparison
@@ -1558,9 +1597,14 @@ def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
             continue
         print(f"  [new]  New meeting: {m['name']} on {meeting_date_str}")
         if not dry_run:
-            if process_school_board_meeting(m, state):
+            if process_boardbook_meeting(m, state, source_key=source_key):
                 count += 1
     return count
+
+
+def fetch_school_board_new(state: dict, dry_run: bool = False) -> int:
+    """Back-compat shim — Wausau School Board. Use fetch_boardbook_new."""
+    return fetch_boardbook_new(state, source_key="school_board", dry_run=dry_run)
 
 
 # -- Municode Meetings scraper (Village of Kronenwetter) -----------------------
@@ -1815,7 +1859,7 @@ def main():
     group.add_argument("--url",      metavar="URL",  help="Process a single video URL")
     group.add_argument("--backfill", action="store_true", help="Process all historical videos")
     group.add_argument("--days",     type=int, metavar="N",  help="Process videos from the last N days only")
-    parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","kronenwetter","all"], default="all",
+    parser.add_argument("--source",  choices=["marathon","wausau","weston","school_board","kronenwetter","dc_everest","all"], default="all",
                         help="Which channel(s) to process (default: both)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without processing")
     args = parser.parse_args()
@@ -1881,7 +1925,7 @@ def main():
 
     all_pending = []
     for src in sources:
-        if src in ("school_board", "kronenwetter"):
+        if src in BOARDBOOK_DISTRICTS or src == "kronenwetter":
             continue   # handled separately below (BoardBook / Municode hub)
         # Pass cutoff_date as dateafter for accurate upload dates on recent fetches
         videos = fetch_channel_videos(src, dateafter=cutoff_date if cutoff_date else "")
@@ -1915,15 +1959,15 @@ def main():
                     pending.append(v)
         all_pending.extend(pending)
 
-    # School board and Kronenwetter use their own scrapers. Isolate failures
-    # so an upstream outage or API error doesn't abort the other sources.
+    # BoardBook districts and Kronenwetter use their own scrapers. Isolate
+    # failures so an upstream outage or API error doesn't abort other sources.
     for src in sources:
-        if src == "school_board":
+        if src in BOARDBOOK_DISTRICTS:
             try:
-                sb_count = fetch_school_board_new(state, args.dry_run)
-                print(f"   school_board: {sb_count} new meeting(s) processed")
+                n = fetch_boardbook_new(state, source_key=src, dry_run=args.dry_run)
+                print(f"   {src}: {n} new meeting(s) processed")
             except Exception as e:
-                logger.error("school_board processing failed: %s", e)
+                logger.error("%s processing failed: %s", src, e)
             finally:
                 save_state(state)
         elif src == "kronenwetter":
@@ -2058,17 +2102,18 @@ def main():
     if retry_candidates:
         print(f"[retry]  Upgraded {retried_ok}/{len(retry_candidates)} entry/entries to transcript-based summaries.")
 
-    # ── School board: upgrade agenda-only BoardBook entries from YouTube ──────
-    # The district posts meeting recordings to the "Wausau School District
-    # Board of Education" channel, typically days-to-weeks after the meeting.
-    # BoardBook stays the canonical source of meetings (bb_ IDs); this pass
+    # ── BoardBook districts: upgrade agenda-only entries from YouTube ─────────
+    # Each district posts meeting recordings to its own YouTube channel,
+    # typically days-to-weeks after the meeting. BoardBook stays the canonical
+    # source of meetings (bb_ IDs, disambiguated by stored `source`); this pass
     # finds the matching recording for recent agenda-only entries and
     # re-summarizes from the real transcript.
-    SB_VIDEO_DAYS = int(os.environ.get("SCHOOL_BOARD_VIDEO_DAYS", "45"))
-    if "school_board" in sources and not args.dry_run:
-        sb_candidates = []
+    for source_key, dcfg in BOARDBOOK_DISTRICTS.items():
+        if source_key not in sources or args.dry_run:
+            continue
+        candidates = []
         for vid_id, info in list(state.get("processed", {}).items()):
-            if not vid_id.startswith("bb_") or info.get("source") != "school_board":
+            if not vid_id.startswith("bb_") or info.get("source") != source_key:
                 continue
             # Older state entries predate the meeting_date field — fall back
             # to the date suffix in the BoardBook title.
@@ -2079,7 +2124,7 @@ def main():
                 age_days = (datetime.now() - datetime.strptime(mdate, "%Y%m%d")).days
             except ValueError:
                 continue
-            if age_days < 0 or age_days > SB_VIDEO_DAYS:
+            if age_days < 0 or age_days > SCHOOL_BOARD_VIDEO_DAYS:
                 continue
             sf = info.get("summary_file", "")
             sjson = sf.replace(".md", "_summary.json") if sf else ""
@@ -2091,47 +2136,48 @@ def main():
                 continue
             if existing.get("_source") == "transcript":
                 continue   # already upgraded from a recording
-            sb_candidates.append((vid_id, info))
+            candidates.append((vid_id, info))
 
-        if sb_candidates:
-            print(f"\n[sb-video]  {len(sb_candidates)} school board agenda-only "
-                  f"entry/entries within {SB_VIDEO_DAYS} days — checking YouTube for recordings...")
+        if not candidates:
+            continue
+        print(f"\n[sb-video]  {len(candidates)} {source_key} agenda-only "
+              f"entry/entries within {SCHOOL_BOARD_VIDEO_DAYS} days — checking YouTube for recordings...")
+        try:
+            district_videos = fetch_channel_videos(dcfg["channel"])
+        except Exception as e:
+            logger.warning("%s channel fetch failed: %s", source_key, e)
+            district_videos = []
+        for vid_id, info in candidates:
+            video = _match_school_board_video(info, district_videos)
+            if not video:
+                continue
+            print(f"   [match] {info['title']} -> {video['id']} ({video['title'][:60]})")
             try:
-                sb_videos = fetch_channel_videos("school_board")
+                transcript = fetch_transcript(video["url"], source_key=source_key,
+                                              upload_date=video.get("upload_date", ""))
             except Exception as e:
-                logger.warning("school board channel fetch failed: %s", e)
-                sb_videos = []
-            for vid_id, info in sb_candidates:
-                video = _match_school_board_video(info, sb_videos)
-                if not video:
-                    continue
-                print(f"   [match] {info['title']} -> {video['id']} ({video['title'][:60]})")
-                try:
-                    transcript = fetch_transcript(video["url"], source_key="school_board",
-                                                  upload_date=video.get("upload_date", ""))
-                except Exception as e:
-                    print(f"   [warn]  transcript fetch failed: {str(e)[:120]}")
-                    continue
-                if not transcript or len(transcript) < 200:
-                    continue
-                try:
-                    summary = summarize_meeting(transcript, info["title"], video["url"],
-                                                "school_board")
-                except Exception as e:
-                    logger.warning("sb-video: summarization failed for %s: %s", vid_id, e)
-                    continue
-                new_path = save_summary(info["title"], video["url"], "school_board",
-                                        summary, doc_url=info.get("doc_url"),
-                                        video_id=vid_id)
-                mark_processed(state, vid_id, info["title"], "school_board", new_path,
-                               doc_url=info.get("doc_url"),
-                               upload_date=info.get("upload_date"),
-                               meeting_date=info.get("meeting_date"),
-                               duration=video.get("duration"),
-                               video_url=video["url"])
-                save_state(state)
-                upgraded_ids.append(vid_id)
-                print(f"   [ok]  upgraded {vid_id} from recording ({len(transcript):,} chars)")
+                print(f"   [warn]  transcript fetch failed: {str(e)[:120]}")
+                continue
+            if not transcript or len(transcript) < 200:
+                continue
+            try:
+                summary = summarize_meeting(transcript, info["title"], video["url"],
+                                            source_key)
+            except Exception as e:
+                logger.warning("sb-video: summarization failed for %s: %s", vid_id, e)
+                continue
+            new_path = save_summary(info["title"], video["url"], source_key,
+                                    summary, doc_url=info.get("doc_url"),
+                                    video_id=vid_id)
+            mark_processed(state, vid_id, info["title"], source_key, new_path,
+                           doc_url=info.get("doc_url"),
+                           upload_date=info.get("upload_date"),
+                           meeting_date=info.get("meeting_date"),
+                           duration=video.get("duration"),
+                           video_url=video["url"])
+            save_state(state)
+            upgraded_ids.append(vid_id)
+            print(f"   [ok]  upgraded {vid_id} from recording ({len(transcript):,} chars)")
 
     # ── Kronenwetter: upgrade agenda-only entries from posted minutes ─────────
     # Minutes are approved/posted days-to-weeks after the meeting; they record

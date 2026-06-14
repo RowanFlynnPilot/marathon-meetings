@@ -276,9 +276,9 @@ def fetch_marathon_upcoming(days_ahead: int = 60) -> list[dict]:
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
 
-# ── Wausau School Board — BoardBook + rule-based ─────────────────────────────
+# ── BoardBook districts — BoardBook scrape (+ rule-based for Wausau) ──────────
 
-from config import BOARDBOOK_BASE, BOARDBOOK_ORG
+from config import BOARDBOOK_BASE, BOARDBOOK_ORG, BOARDBOOK_DISTRICTS
 
 SCHOOL_BOARD_SCHEDULE = [
     ("Regular Board Meeting",            0, 2, "5:00 PM"),
@@ -286,14 +286,19 @@ SCHOOL_BOARD_SCHEDULE = [
 ]
 
 
-def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
+def fetch_boardbook_upcoming(source_key: str = "school_board",
+                             days_ahead: int = 60,
+                             rule_schedule: list | None = None) -> list[dict]:
+    """Posted future meetings from a district's BoardBook org, plus an optional
+    rule-based projection for months the org hasn't posted yet."""
     today    = date.today()
     end_date = today + timedelta(days=days_ahead)
+    org      = BOARDBOOK_DISTRICTS.get(source_key, {}).get("org", BOARDBOOK_ORG)
     results  = {}
 
     try:
         r = requests.get(
-            f"{BOARDBOOK_BASE}/Public/Organization/{BOARDBOOK_ORG}",
+            f"{BOARDBOOK_BASE}/Public/Organization/{org}",
             headers={"User-Agent": "Mozilla/5.0"}, timeout=15,
         )
         rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
@@ -320,18 +325,18 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
                         "date":   dt.isoformat(),
                         "time":   time_str,
                         "name":   name,
-                        "url":    f"{BOARDBOOK_BASE}/Public/Agenda/{BOARDBOOK_ORG}?meeting={mid}",
-                        "source": "school_board",
+                        "url":    f"{BOARDBOOK_BASE}/Public/Agenda/{org}?meeting={mid}",
+                        "source": source_key,
                     }
             except ValueError:
                 pass
-        print(f"  📄  School Board BoardBook: {len(results)} posted future meetings")
+        print(f"  📄  {source_key} BoardBook: {len(results)} posted future meetings")
     except Exception as e:
-        logger.warning("BoardBook scrape failed: %s", e)
+        logger.warning("BoardBook scrape failed for %s: %s", source_key, e)
 
     rule_added = 0
     for yr, mo in _months_between(today, end_date):
-        for name, weekday, nth, time_str in SCHOOL_BOARD_SCHEDULE:
+        for name, weekday, nth, time_str in (rule_schedule or []):
             meeting_date = nth_weekday(yr, mo, weekday, nth)
             if not meeting_date or not (today <= meeting_date <= end_date):
                 continue
@@ -341,13 +346,17 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
                     "date":   meeting_date.isoformat(),
                     "time":   time_str,
                     "name":   name,
-                    "url":    f"{BOARDBOOK_BASE}/Public/Organization/{BOARDBOOK_ORG}",
-                    "source": "school_board",
+                    "url":    f"{BOARDBOOK_BASE}/Public/Organization/{org}",
+                    "source": source_key,
                 }
                 rule_added += 1
-
-    print(f"  📅  School Board rule-based: {rule_added} additional meetings projected")
+    if rule_schedule:
+        print(f"  📅  {source_key} rule-based: {rule_added} additional meetings projected")
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
+
+
+def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
+    return fetch_boardbook_upcoming("school_board", days_ahead, SCHOOL_BOARD_SCHEDULE)
 
 
 # ── Village of Kronenwetter — Municode Meetings hub ──────────────────────────
@@ -426,12 +435,16 @@ def main():
     print("\n👑  Village of Kronenwetter (Municode hub)…")
     kronenwetter = fetch_kronenwetter_upcoming(days_ahead=60)
 
+    print("\n🎓  DC Everest School Board (BoardBook)…")
+    dc_everest = fetch_boardbook_upcoming("dc_everest", days_ahead=60)
+
     payload = {
         "marathon":     marathon,
         "wausau":       wausau,
         "weston":       weston,
         "school_board": school,
         "kronenwetter": kronenwetter,
+        "dc_everest":   dc_everest,
     }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -446,7 +459,8 @@ def main():
     print(f"    Weston:       {len(weston)}")
     print(f"    School Board: {len(school)}")
     print(f"    Kronenwetter: {len(kronenwetter)}")
-    print(f"    Total:        {len(marathon) + len(wausau) + len(weston) + len(school) + len(kronenwetter)}")
+    print(f"    DC Everest:   {len(dc_everest)}")
+    print(f"    Total:        {len(marathon) + len(wausau) + len(weston) + len(school) + len(kronenwetter) + len(dc_everest)}")
 
 
 if __name__ == "__main__":

@@ -77,6 +77,12 @@ COMMITTEE_MAP = {
     # Wausau School Board
     "committee of the whole":                  ("school_board", "Committee of the Whole"),
     "audit of the bills":                      ("school_board", "Audit of the Bills"),
+    # DC Everest School Board
+    "regular school board":                    ("dc_everest", "Regular Meeting"),
+    "special school board":                    ("dc_everest", "Special Meeting"),
+    "board workshop":                          ("dc_everest", "Board Workshop"),
+    "annual meeting":                          ("dc_everest", "Annual Meeting"),
+    "budget hearing":                          ("dc_everest", "Annual Meeting"),
     # Village of Kronenwetter (Municode hub)
     "village board":                           ("kronenwetter", "Village Board"),
     "plan commission":                         ("kronenwetter", "Plan Commission"),
@@ -266,6 +272,8 @@ def build_meeting(
         clean_title = re.sub(r'^(Village of\s+)?Weston\s+', '', clean_title, flags=re.IGNORECASE).strip()
     elif source == "school_board":
         clean_title = re.sub(r'^Wausau School (Board|District)\s+', '', clean_title, flags=re.IGNORECASE).strip()
+    elif source == "dc_everest":
+        clean_title = re.sub(r'^D\.?C\.?\s*Everest( Area)?( School)?( District)?\s+', '', clean_title, flags=re.IGNORECASE).strip()
 
     agenda_items = summary.get("agenda") or [{"time": "0:00", "item": "Meeting convened"}]
     # Synthetic entries are agenda-only by default, but upgrade passes can
@@ -484,6 +492,8 @@ def main():
             return re.sub(r'^(Village of\s+)?Weston\s+', '', title, flags=re.IGNORECASE).strip()
         if source == "school_board":
             return re.sub(r'^Wausau School (Board|District)\s+', '', title, flags=re.IGNORECASE).strip()
+        if source == "dc_everest":
+            return re.sub(r'^D\.?C\.?\s*Everest( Area)?( School)?( District)?\s+', '', title, flags=re.IGNORECASE).strip()
         return title
     for m in kept_existing:
         m["title"] = _strip_prefix(m.get("title", ""), m.get("source", ""))

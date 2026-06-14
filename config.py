@@ -116,9 +116,30 @@ WHISPER_CUTOFF = (
 )
 
 
-# ── BoardBook (Wausau School Board) ───────────────────────────────────────────
+# ── BoardBook districts (BoardBook agendas + own YouTube channel) ──────────────
 BOARDBOOK_BASE = os.environ.get("BOARDBOOK_BASE", "https://meetings.boardbook.org")
-BOARDBOOK_ORG  = int(os.environ.get("BOARDBOOK_ORG", "1360"))
+BOARDBOOK_ORG  = int(os.environ.get("BOARDBOOK_ORG", "1360"))  # Wausau (legacy default)
+
+# Each district publishes agendas to a BoardBook org and posts meeting
+# recordings to its own YouTube channel. Meetings are created agenda-only from
+# BoardBook (bb_<meeting_id> IDs — disambiguated by the stored `source`, since
+# BoardBook meeting IDs are globally unique), then the video-upgrade pass
+# re-summarizes from the recording's transcript. `channel` keys into CHANNELS.
+BOARDBOOK_DISTRICTS = {
+    "school_board": {
+        "org":     int(os.environ.get("BOARDBOOK_ORG", "1360")),
+        "label":   "Wausau School District Board of Education",
+        "channel": "school_board",
+    },
+    "dc_everest": {
+        "org":     int(os.environ.get("DC_EVEREST_ORG", "1315")),
+        "label":   "D.C. Everest Area School District Board of Education",
+        "channel": "dc_everest",
+    },
+}
+
+# Re-check agenda-only BoardBook entries for a posted recording this many days.
+SCHOOL_BOARD_VIDEO_DAYS = int(os.environ.get("SCHOOL_BOARD_VIDEO_DAYS", "45"))
 
 
 # ── Municode Meetings (Village of Kronenwetter) ───────────────────────────────

@@ -68,6 +68,9 @@ def fetch_transcript_ytdlp(video_id: str) -> str | None:
         cmd = [
             *ytdlp,
             "--no-check-certificate",
+            # default,android: some channels (DC Everest) only extract via the
+            # android client; harmless for others, more robust overall.
+            "--extractor-args", "youtube:player_client=default,android",
             "--write-sub",
             "--write-auto-sub",
             "--skip-download",
@@ -310,12 +313,13 @@ def fetch_transcript_whisper_url(media_url: str) -> str | None:
 
 
 def find_school_board_video_matches() -> list[dict]:
-    """Match agenda-only school board (bb_) entries to recordings on the
-    district's YouTube channel. CI can LIST the channel but YouTube blocks
-    caption downloads from cloud IPs, so the actual fetch has to happen here
-    on a residential IP. Returns [{'id': 'bb_x', 'fetch_id': ytid, 'title'}]
-    where `id` names the transcript file (so CI's inject step targets the
-    BoardBook meeting) and `fetch_id` is the YouTube video to pull from.
+    """Match agenda-only BoardBook (bb_) entries to recordings on each
+    district's YouTube channel (Wausau School Board, DC Everest). CI can LIST
+    the channels but YouTube blocks caption downloads from cloud IPs, so the
+    actual fetch happens here on a residential IP. Returns
+    [{'id': 'bb_x', 'fetch_id': ytid, 'title'}] where `id` names the transcript
+    file (so CI's inject step targets the BoardBook meeting) and `fetch_id` is
+    the YouTube video to pull from.
     """
     import json as _json
     from datetime import datetime as _dt
@@ -327,20 +331,12 @@ def find_school_board_video_matches() -> list[dict]:
     except _json.JSONDecodeError:
         return []
 
-    bb = [m for m in meetings if isinstance(m, dict)
-          and m.get("isAgendaOnly")
-          and str(m.get("id", "")).startswith("bb_")
-          and m.get("source") == "school_board"]
-    if not bb:
-        return []
-
     try:
         from marathon_meeting_summarizer import (
-            fetch_channel_videos, _match_school_board_video,
+            fetch_channel_videos, _match_school_board_video, BOARDBOOK_DISTRICTS,
         )
-        videos = fetch_channel_videos("school_board")
     except Exception as e:
-        print(f"  school board channel fetch failed: {str(e)[:120]}")
+        print(f"  could not import district config: {str(e)[:120]}")
         return []
 
     state = {}
@@ -352,20 +348,30 @@ def find_school_board_video_matches() -> list[dict]:
             pass
 
     out = []
-    for m in bb:
-        info = state.get(m["id"]) or {}
-        if not info:
-            # Not in local state (e.g. fresh checkout) — synthesize enough of
-            # an info dict for the matcher from the displayed date.
-            try:
-                d = _dt.strptime(m.get("date", ""), "%B %d, %Y")
-                info = {"title": f"{m.get('title', '')} - {d.strftime('%Y-%m-%d')}"}
-            except ValueError:
-                continue
-        v = _match_school_board_video(info, videos)
-        if v:
-            out.append({"id": m["id"], "fetch_id": v["id"],
-                        "title": m.get("title") or m["id"]})
+    for source_key, dcfg in BOARDBOOK_DISTRICTS.items():
+        bb = [m for m in meetings if isinstance(m, dict)
+              and m.get("isAgendaOnly")
+              and str(m.get("id", "")).startswith("bb_")
+              and m.get("source") == source_key]
+        if not bb:
+            continue
+        try:
+            videos = fetch_channel_videos(dcfg["channel"])
+        except Exception as e:
+            print(f"  {source_key} channel fetch failed: {str(e)[:120]}")
+            continue
+        for m in bb:
+            info = state.get(m["id"]) or {}
+            if not info:
+                try:
+                    d = _dt.strptime(m.get("date", ""), "%B %d, %Y")
+                    info = {"title": f"{m.get('title', '')} - {d.strftime('%Y-%m-%d')}"}
+                except ValueError:
+                    continue
+            v = _match_school_board_video(info, videos)
+            if v:
+                out.append({"id": m["id"], "fetch_id": v["id"],
+                            "title": m.get("title") or m["id"]})
     return out
 
 

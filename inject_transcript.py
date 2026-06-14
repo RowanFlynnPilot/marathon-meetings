@@ -294,10 +294,12 @@ def main():
         try:
             sys.path.insert(0, str(Path(__file__).parent))
             from marathon_meeting_summarizer import (
-                fetch_channel_videos, _match_school_board_video,
+                fetch_channel_videos, _match_school_board_video, BOARDBOOK_DISTRICTS,
             )
+            # Pick the right district channel from the entry's source.
+            _channel = BOARDBOOK_DISTRICTS.get(source_key, {}).get("channel", "school_board")
             _minfo = {"title": title, "meeting_date": meeting_date or ""}
-            v = _match_school_board_video(_minfo, fetch_channel_videos("school_board"))
+            v = _match_school_board_video(_minfo, fetch_channel_videos(_channel))
             if v:
                 video_url = v["url"]
                 video_duration = v.get("duration")
