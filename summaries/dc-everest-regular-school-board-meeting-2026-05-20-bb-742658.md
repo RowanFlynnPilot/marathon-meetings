@@ -1,96 +1,61 @@
 # Regular School Board Meeting - 2026-05-20
 
 **Organization:** DC Everest School Board  
-**Source:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658  
+**Source:** https://www.youtube.com/watch?v=OZRbHeR8XjM  
 **Documents:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658  
-**Summarized:** 2026-06-14 20:30 UTC
+**Summarized:** 2026-06-14 20:40 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to conduct a regular meeting addressing policy updates, financial matters, staffing changes, and strategic initiatives including facility planning outcomes, student achievement recognition, and upcoming student trips. The meeting included a significant consent agenda with 24 policy items on second reading and several new business items related to compensation planning, bond defeasance, and meal pricing for the upcoming school year.
+The DC Everest School Board held its May 2026 regular meeting, conducting officer elections, approving several financial resolutions including a bond defeasance saving over $900,000, and receiving updates on post-tornado recovery, long-range facilities planning, and the transition of the IDEA Charter School to a district program. The board also approved meal price increases for 2026-27 and amended a personal communication device policy during its first reading.
 
 ## Key Discussions
-### VIII.A. WASB Legislative Network Member
-Shannon Grabko was scheduled to present information regarding the WASB Legislative Network and its activities.
+### Election of Officers
+The board elected new officers by voice vote for the 2026-27 year: Shannon Grabco as President, Katie as Vice President, Ye (Len Jang) as Treasurer, and Ben Blivven as Secretary. All passed unanimously by voice vote. Outgoing President Lindsay Litzky was presented with a ceremonial gavel in recognition of her service from 2022-2026, with the comment 'the gavel moves next door.'
 
-### VIII.B. CESA #9 Representative
-Larry Schaefer was scheduled to present updates on behalf of CESA #9.
+### IDEA Charter School Transition to District Program
+IDEA Governance Council President Noel Phelps presented to the board, explaining that the charter school's contract expires June 2026, and the governance council voted unanimously in April not to renew the DPI charter. Reasons cited included declining enrollment at IDEA and districtwide, the resignation of two key staff members, and the opportunity to offer project-based learning to more students as a district program. Dr. Lindell emphasized the district's ongoing commitment to project-based learning and noted the transition is informational at this stage, with planning underway for what the program will look like going forward.
 
-### VIII.C. Student Representative
-Ava Bendickson was scheduled to present as the student representative to the board.
+### Certified Staff Compensation Planning
+Dr. Mike Raither presented survey results from 242 certified staff respondents (50% elementary, 50% secondary). Key findings included: 92% of staff believe DC Everest salaries are comparable or higher than area districts; however, staff expressed concern about salary compression as base wages rise faster than the full scale, and DC's top-end salary of $82,200 is below the local average of $83,540. Staff valued predictability, PTO, and professional development tied to the compensation model, but found PD requirements burdensome. Dr. Nye acknowledged the tension of studying compensation amid enrollment decline and facility planning pressures, but stressed it had been a decade since the last review. The board heard this as informational only; adjustments are planned to be brought back for board consideration in November-December 2026.
 
-### VIII.D.2. April 17 Tornado Response
-Superintendent Dr. Casey Nye was scheduled to provide an update on the district's response to the tornado that occurred on April 17.
+### Bond Defeasance Resolution
+Business Director Kelly presented the resolution to defease a portion of the 2018 general obligation bonds, directing approximately $1.5 million of the 2028 maturity, $1.41 million of the 2033 maturity, and remaining 2034 maturity to an escrow account for early redemption on April 1, 2027. Kelly noted anticipated savings of just over $900,000 this year and over $10.7 million in defeasance over the past six years. The resolution passed unanimously 5-0 on a roll call vote (Larry, Katie, Lindsay, Jennifer, and board chair all voted yes; Ye and Ben were excused).
 
-### VIII.D.3. School Perceptions Survey Summary
-The board was expected to review a summary of the Spring 2026 school perceptions survey data collected from D.C. Everest staff and parents, presented by Dr. Casey Nye.
+### First Reading of Policies - Personal Communication Device Policy
+Board member Larry raised a contradiction in the personal communication device policy: the first paragraph on page two listed after-school activities as a permissible time to use phones, while a green-text addition in the fifth paragraph stated phones must be powered off during after-school activities. After discussion, Dr. Nye clarified the statute (Act 42) focuses on instructional time and the added language was unnecessary. Larry moved to strike the contradictory paragraph ('During after school activities, PCDs shall be powered off completely...'), which was seconded and approved by voice vote. The board then approved both policies on first reading by voice vote.
 
-### VIII.D.4. Facilities Planning Workshop: Key Takeaways
-Dr. Casey Nye was scheduled to present key takeaways from a recent facilities planning workshop.
+### Meal Price Increases for 2026-27
+Nutrition Director Tisha presented proposed meal price increases, noting DC Everest's current elementary lunch price of $2.25 is the lowest among its 64-district co-op, well below the co-op mean of $2.99 and below Wausau ($2.95) and Wisconsin Rapids ($2.55). She acknowledged the increase was a 'hard ask' given rising food and gas costs. Kelly noted fund 50 has a declining fund balance and without price adjustments, a transfer from the general fund could be required. Board members expressed support, noting the quality and variety of meals. The motion to approve meal prices as listed passed by voice vote.
 
-### VIII.D.5. Weston Elementary: 2024-2025 DPI School of Recognition
-The board was scheduled to recognize Weston Elementary's designation as a 2024-2025 DPI School of Recognition (High Impact Schools), distinguishing it as one of 71 schools serving a high percentage of economically disadvantaged students with above-average achievement when compared to similarly situated schools.
+### Superintendent Report - Tornado Recovery and Facilities Planning
+Dr. Nye reported the tornado struck approximately four weeks prior (between board meetings), passing 'diagonally through our district.' He praised staff for centering students and families, getting kids to GTCC and then back to Riverside quickly. He acknowledged ongoing variability in individual family circumstances and noted major exterior and roof work is planned for summer. On long-range facilities planning, Dr. Nye outlined four key takeaways from Monday's workshop: integrating planning into continuous improvement work, broad staff engagement across all departments, a community survey through School Perceptions planned for fall, and a target of bringing a referendum resolution recommendation in spring 2027 (likely December).
 
-### IX.A. D.C. Everest Band Ireland Trip
-Mr. Joseph Finnegan was scheduled to present information regarding an Ireland trip planned for the D.C. Everest high school band.
+### School Resource Officer Access to Student Records
+The board approved a motion to grant school resource officers access to student records through the 2026-27 school year as listed in the background materials. The motion passed unanimously by voice vote with no discussion.
 
-### X.A. Election of Officers
-The board was expected to conduct elections for board officer positions.
-
-### X.C. Set Meeting Dates and Times for June 2026 through May 2027
-The board was expected to approve meeting dates for the 2026-2027 school year, with administration suggesting meetings on the third Wednesday of each month, including an annual meeting and budget hearing scheduled for November 18.
-
-### X.D. Global Scholars - Presentation
-Dr. Lindell and Eric Wenninger were scheduled to present information about the Global Scholars program.
-
-### X.E. Senior High Out-of-State Trips
-Dr. Lindell was scheduled to present information regarding senior high out-of-state trips for competitions, including a spring 2027 trip to Spain.
-
-### X.F. Update on PD Catalog
-Dr. Lindell and Dr. Raether were scheduled to present an update on the 2026-2027 Professional Development Catalog.
-
-### X.G. Idea Update - Informational
-Dr. Nye, Dr. Lindell, and Noel Phelps were scheduled to provide an informational update on IDEA implementation.
-
-### X.H. School Resource Officer Access to Student Records
-The board was expected to consider a policy regarding school resource officer access to student records for the 2026-2027 school year.
-
-### X.I. Certified Staff Compensation Planning
-Dr. Nye and Dr. Raether were scheduled to present information regarding certified staff compensation planning for the upcoming school year.
-
-### X.L. Resolution Authorizing Transfer of Funds and Defeasance of 2018 Bonds
-Dr. Strike was scheduled to present a resolution authorizing the transfer of funds, establishment of an escrow account, and defeasance of certain General Obligation School Building and Improvement Bonds, Series 2018 (dated July 2, 2018).
-
-### X.M. Approval of WiSNP Contract
-K. Strike was scheduled to present the WiSNP Cooperative Agreement for 2026-2027 and request board approval.
-
-### X.N. Meal Prices for 2026-2027
-Dr. Strike and Laticia Baudhuin were scheduled to present proposed meal prices for the 2026-2027 school year.
-
-### X.O. WPS Easement
-Dr. Strike was scheduled to present information regarding an easement with WPS.
-
-### X.P. First Reading of Policies
-Dr. Nye and Dr. Lindell were scheduled to present first readings of new policies, including po5136 Personal Communication Devices and po9215 School Support Organizations. Policy 6320 - Purchasing was withdrawn by administration.
+### Global Scholars Presentation
+Senior Eric Winger introduced four 2026 graduates earning Wisconsin DPI Global Certificates of Competence: Ella Budleski, Lana Gorski, Anna Jacobson, and Ava Schuler. Each student described their service learning projects: Ella ran Operation Christmas Child collecting over 150 shoeboxes over three years; Lana hosted a coin drive raising over $150 for UNICEF; Anna led 'Bubbles for Bubbler' collecting over 100 hygiene items for the New Beginnings refugee center in Wausau; and Ava co-led donation efforts for 'Making Wausau a Home,' supporting children through the New Beginnings organization. Certificates were presented to all four students.
 
 ## Public Comment
-A public comment period was included on this agenda.
+No public comment was offered.
 
 ## Action Items
-- Board was expected to approve the agenda
-- Board was expected to approve minutes from four previous meetings (April 15 open session, April 15 regular meeting, April 19 open session, and May 18 workshop)
-- Board was expected to vote on certified staff recommended employment, resignations, and contract adjustments
-- Board was expected to approve the treasurer's report and financial documents (balance sheet, budget transfers, and budget revisions)
-- Board was expected to vote on 24 policies on second reading
-- Board was expected to elect board officers
-- Board was expected to approve CESA, WASB, and foundation representatives
-- Board was expected to set meeting dates and times for June 2026 through May 2027
-- Board was expected to approve summer school certified staff employment
-- Board was expected to approve District Depository Resolution
-- Board was expected to approve District Facsimile Resolution
-- Board was expected to approve the WiSNP Cooperative Agreement for 2026-2027
-- Board was expected to approve meal prices for 2026-2027
-- Board was expected to approve WPS Easement agreement
-- Board was expected to conduct first reading of policies po5136 and po9215
-- Board was expected to consider policy regarding School Resource Officer access to student records
+- Shannon Grabco assumes role of Board President; Katie assumes Vice President; Ye (Len Jang) assumes Treasurer; Ben Blivven assumes Secretary
+- Bond defeasance resolution approved - approximately $1.5M of 2028 maturity, $1.41M of 2033 maturity, and remaining 2034 maturity of 2018 bonds to be placed in escrow for April 1, 2027 redemption, saving over $900,000
+- District depository resolution approved designating Inter City State Bank, Associated Bank, Incredible Bank, State of Wisconsin Local Government Investment Pool, and PMA Financial Network as public depositories
+- Facsimile signature resolution approved for May 20 - June 30, 2026 transition period
+- WHISNP food purchasing cooperative contract approved for 2026-27 school year
+- Meal price increases approved for 2026-27 school year
+- WPS utility easement agreement approved
+- Senior High out-of-state trips approved by voice vote
+- School Resource Officer access to student records approved through 2026-27 school year
+- Personal communication device policy amended to strike contradictory paragraph about after-school activities and approved on first reading along with a second policy
+- Board to receive community survey results from School Perceptions in fall 2026 before broader launch
+- Certified staff compensation adjustments to be brought back to board for consideration in November-December 2026
+- IDEA Charter School to transition to a district program upon charter expiration in June 2026; planning team to develop transition details
+- October 28, 2026 board meeting date retained despite potential conflict; member Lindsay indicated possible virtual attendance
+- Board meeting dates June 2026 through May 2027 set
+- Graduation scheduled for Wednesday May 27, 2026 at 7 PM at Greenheck-Turner Community Center
+- Board adjourned to closed session under Wisconsin Statute 19.85(1)(a) and (c) for judicial/quasi-judicial matters and employee performance/compensation considerations
