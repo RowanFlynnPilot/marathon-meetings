@@ -79,8 +79,9 @@ UPCOMING_JSON  = Path(os.environ.get("UPCOMING_JSON",  "./src/data/upcoming.json
 GLOBAL_DATE_CUTOFF = os.environ.get("MEETING_CUTOFF_DATE", "20260428")
 
 # How many meetings to keep in the display list. Oldest beyond this are pruned
-# by inject_meetings.py.
-MAX_MEETINGS = int(os.environ.get("MAX_MEETINGS", "30"))
+# by inject_meetings.py. Raised to 50 once coverage reached six jurisdictions
+# (5 municipalities/boards) so recent history isn't crowded out.
+MAX_MEETINGS = int(os.environ.get("MAX_MEETINGS", "50"))
 
 # Video IDs the summarizer should refuse to (re)process — typically duplicate
 # parts of a meeting that have been merged into a single canonical entry.
