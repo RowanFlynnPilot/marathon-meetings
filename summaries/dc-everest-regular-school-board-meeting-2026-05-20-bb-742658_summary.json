@@ -1,0 +1,425 @@
+{
+  "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to conduct a regular meeting addressing policy updates, financial matters, staffing changes, and strategic initiatives including facility planning outcomes, student achievement recognition, and upcoming student trips. The meeting included a significant consent agenda with 24 policy items on second reading and several new business items related to compensation planning, bond defeasance, and meal pricing for the upcoming school year.",
+  "committee": "Regular School Board Meeting",
+  "agenda": [
+    {
+      "time": "N/A",
+      "item": "Call to Order"
+    },
+    {
+      "time": "N/A",
+      "item": "Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Pledge of Allegiance"
+    },
+    {
+      "time": "N/A",
+      "item": "Approval of Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Comment"
+    },
+    {
+      "time": "N/A",
+      "item": "Consent Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.A. Approval of Minutes"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.B. Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.B.1. Summer School Certified Staff"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.C. Treasurer's Report - General/Other Fund Bills"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.D. Balance Sheet"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.E. Budget Transfers"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.F. Budget Revisions"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.G. Grant Application(s)/Budget(s) Approval"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.H. Fundraising Requests"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.I. Gift/Bequests"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.J. Bus Accident Report"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K. Second Reading of Policies"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.1. po0142.7 - Orientation"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.2. po0144.5 - Board Member Behavior, Communications, and Code of Conduct"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.3. po1210 Board-Superintendent Relationship"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.4. po1213 Student Supervision and Welfare"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.5. po1240 Evaluation of the Superintendent"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.6. po2131.01 Reading Instructional Goals and Kindergarten Assessment"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.7. po2261.01 Parent and Family Engagement in Title 1 Programs"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.8. po2431 Interscholastic Athletics"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.9. po3120.08 Employment of Personnel for Co-Curricular-Extra-Curricular Activities"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.10. po3213 - Student Supervision and Welfare"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.11. po4213 Student Supervision and Welfare"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.12. po5112 Entrance Age"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.13. po5135 Student Identification Numbers and Cards"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.14. po5411 Third Grade Promotion and Retention - At-Risk Students"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.15. po5461 Children At-Risk of Not Graduating from High School"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.16. po5515 Student Use and Parking of Motor Vehicles"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.17. po5895 Student Employment"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.18. po6605 Crowdfunding"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.19. po7230 Gifts, Grants, and Bequests"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.20. po7540.02 Digital Content and Accessibility"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.21. po8462 Child Abuse and Neglect"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.22. po9211 District Support Organizations"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.23. po9700 Relations with Non-School Affiliated Groups"
+    },
+    {
+      "time": "N/A",
+      "item": "VI.K.24. po9700.01 Advertising and Commercial Activities"
+    },
+    {
+      "time": "N/A",
+      "item": "VII. Non-Certified Staff Employment Changes (Informational Only)"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII. Reports/Considerations"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.A. WASB Legislative Network Member"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.B. CESA #9 Representative"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.C. Student Representative"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D. Superintendent Reports"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D.1. District Update"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D.2. April 17 Tornado Response"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D.3. School Perceptions Survey Summary"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D.4. Facilities Planning Workshop: Key Takeaways"
+    },
+    {
+      "time": "N/A",
+      "item": "VIII.D.5. Weston Elementary: 2024-2025 DPI School of Recognition"
+    },
+    {
+      "time": "N/A",
+      "item": "IX. Unfinished Business"
+    },
+    {
+      "time": "N/A",
+      "item": "IX.A. D.C. Everest Band Ireland Trip"
+    },
+    {
+      "time": "N/A",
+      "item": "X. New Business"
+    },
+    {
+      "time": "N/A",
+      "item": "X.A. Election of Officers"
+    },
+    {
+      "time": "N/A",
+      "item": "X.B. CESA, WASB, Foundation Representatives"
+    },
+    {
+      "time": "N/A",
+      "item": "X.C. Set Meeting Dates and Times for June 2026 through May 2027"
+    },
+    {
+      "time": "N/A",
+      "item": "X.D. Global Scholars - Presentation"
+    },
+    {
+      "time": "N/A",
+      "item": "X.E. Senior High Out-of-State Trips"
+    },
+    {
+      "time": "N/A",
+      "item": "X.F. Update on PD Catalog"
+    },
+    {
+      "time": "N/A",
+      "item": "X.G. Idea Update - Informational"
+    },
+    {
+      "time": "N/A",
+      "item": "X.H. School Resource Officer Access to Student Records"
+    },
+    {
+      "time": "N/A",
+      "item": "X.I. Certified Staff Compensation Planning"
+    },
+    {
+      "time": "N/A",
+      "item": "X.J. District Depository Resolution"
+    },
+    {
+      "time": "N/A",
+      "item": "X.K. District Facsimile Resolution"
+    },
+    {
+      "time": "N/A",
+      "item": "X.L. Resolution Authorizing Transfer of Funds and Defeasance of 2018 Bonds"
+    },
+    {
+      "time": "N/A",
+      "item": "X.M. Approval of WiSNP Contract"
+    },
+    {
+      "time": "N/A",
+      "item": "X.N. Meal Prices for 2026-2027"
+    },
+    {
+      "time": "N/A",
+      "item": "X.O. WPS Easement"
+    },
+    {
+      "time": "N/A",
+      "item": "X.P. First Reading of Policies"
+    },
+    {
+      "time": "N/A",
+      "item": "X.P.1. po5136 Personal Communication Devices"
+    },
+    {
+      "time": "N/A",
+      "item": "X.P.2. po9215 School Support Organizations"
+    },
+    {
+      "time": "N/A",
+      "item": "XI. Petitions and Communications"
+    },
+    {
+      "time": "N/A",
+      "item": "XII. Future Meeting Dates"
+    },
+    {
+      "time": "N/A",
+      "item": "XIII. Adjournment to Closed Session"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "VIII.A. WASB Legislative Network Member",
+      "body": "Shannon Grabko was scheduled to present information regarding the WASB Legislative Network and its activities."
+    },
+    {
+      "item": "VIII.B. CESA #9 Representative",
+      "body": "Larry Schaefer was scheduled to present updates on behalf of CESA #9."
+    },
+    {
+      "item": "VIII.C. Student Representative",
+      "body": "Ava Bendickson was scheduled to present as the student representative to the board."
+    },
+    {
+      "item": "VIII.D.2. April 17 Tornado Response",
+      "body": "Superintendent Dr. Casey Nye was scheduled to provide an update on the district's response to the tornado that occurred on April 17."
+    },
+    {
+      "item": "VIII.D.3. School Perceptions Survey Summary",
+      "body": "The board was expected to review a summary of the Spring 2026 school perceptions survey data collected from D.C. Everest staff and parents, presented by Dr. Casey Nye."
+    },
+    {
+      "item": "VIII.D.4. Facilities Planning Workshop: Key Takeaways",
+      "body": "Dr. Casey Nye was scheduled to present key takeaways from a recent facilities planning workshop."
+    },
+    {
+      "item": "VIII.D.5. Weston Elementary: 2024-2025 DPI School of Recognition",
+      "body": "The board was scheduled to recognize Weston Elementary's designation as a 2024-2025 DPI School of Recognition (High Impact Schools), distinguishing it as one of 71 schools serving a high percentage of economically disadvantaged students with above-average achievement when compared to similarly situated schools."
+    },
+    {
+      "item": "IX.A. D.C. Everest Band Ireland Trip",
+      "body": "Mr. Joseph Finnegan was scheduled to present information regarding an Ireland trip planned for the D.C. Everest high school band."
+    },
+    {
+      "item": "X.A. Election of Officers",
+      "body": "The board was expected to conduct elections for board officer positions."
+    },
+    {
+      "item": "X.C. Set Meeting Dates and Times for June 2026 through May 2027",
+      "body": "The board was expected to approve meeting dates for the 2026-2027 school year, with administration suggesting meetings on the third Wednesday of each month, including an annual meeting and budget hearing scheduled for November 18."
+    },
+    {
+      "item": "X.D. Global Scholars - Presentation",
+      "body": "Dr. Lindell and Eric Wenninger were scheduled to present information about the Global Scholars program."
+    },
+    {
+      "item": "X.E. Senior High Out-of-State Trips",
+      "body": "Dr. Lindell was scheduled to present information regarding senior high out-of-state trips for competitions, including a spring 2027 trip to Spain."
+    },
+    {
+      "item": "X.F. Update on PD Catalog",
+      "body": "Dr. Lindell and Dr. Raether were scheduled to present an update on the 2026-2027 Professional Development Catalog."
+    },
+    {
+      "item": "X.G. Idea Update - Informational",
+      "body": "Dr. Nye, Dr. Lindell, and Noel Phelps were scheduled to provide an informational update on IDEA implementation."
+    },
+    {
+      "item": "X.H. School Resource Officer Access to Student Records",
+      "body": "The board was expected to consider a policy regarding school resource officer access to student records for the 2026-2027 school year."
+    },
+    {
+      "item": "X.I. Certified Staff Compensation Planning",
+      "body": "Dr. Nye and Dr. Raether were scheduled to present information regarding certified staff compensation planning for the upcoming school year."
+    },
+    {
+      "item": "X.L. Resolution Authorizing Transfer of Funds and Defeasance of 2018 Bonds",
+      "body": "Dr. Strike was scheduled to present a resolution authorizing the transfer of funds, establishment of an escrow account, and defeasance of certain General Obligation School Building and Improvement Bonds, Series 2018 (dated July 2, 2018)."
+    },
+    {
+      "item": "X.M. Approval of WiSNP Contract",
+      "body": "K. Strike was scheduled to present the WiSNP Cooperative Agreement for 2026-2027 and request board approval."
+    },
+    {
+      "item": "X.N. Meal Prices for 2026-2027",
+      "body": "Dr. Strike and Laticia Baudhuin were scheduled to present proposed meal prices for the 2026-2027 school year."
+    },
+    {
+      "item": "X.O. WPS Easement",
+      "body": "Dr. Strike was scheduled to present information regarding an easement with WPS."
+    },
+    {
+      "item": "X.P. First Reading of Policies",
+      "body": "Dr. Nye and Dr. Lindell were scheduled to present first readings of new policies, including po5136 Personal Communication Devices and po9215 School Support Organizations. Policy 6320 - Purchasing was withdrawn by administration."
+    }
+  ],
+  "publicComment": "A public comment period was included on this agenda.",
+  "actionItems": [
+    "Board was expected to approve the agenda",
+    "Board was expected to approve minutes from four previous meetings (April 15 open session, April 15 regular meeting, April 19 open session, and May 18 workshop)",
+    "Board was expected to vote on certified staff recommended employment, resignations, and contract adjustments",
+    "Board was expected to approve the treasurer's report and financial documents (balance sheet, budget transfers, and budget revisions)",
+    "Board was expected to vote on 24 policies on second reading",
+    "Board was expected to elect board officers",
+    "Board was expected to approve CESA, WASB, and foundation representatives",
+    "Board was expected to set meeting dates and times for June 2026 through May 2027",
+    "Board was expected to approve summer school certified staff employment",
+    "Board was expected to approve District Depository Resolution",
+    "Board was expected to approve District Facsimile Resolution",
+    "Board was expected to approve the WiSNP Cooperative Agreement for 2026-2027",
+    "Board was expected to approve meal prices for 2026-2027",
+    "Board was expected to approve WPS Easement agreement",
+    "Board was expected to conduct first reading of policies po5136 and po9215",
+    "Board was expected to consider policy regarding School Resource Officer access to student records"
+  ],
+  "_source": "boardbook_agenda",
+  "title": "Regular School Board Meeting - 2026-05-20",
+  "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658",
+  "source": "dc_everest",
+  "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658",
+  "processed_at": "2026-06-14T20:30:10.059592+00:00"
+}

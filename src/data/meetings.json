@@ -986,6 +986,435 @@
     ]
   },
   {
+    "id": "bb_742658",
+    "source": "dc_everest",
+    "title": "Regular School Board Meeting",
+    "date": "May 20, 2026",
+    "shortDate": "MAY 20",
+    "committee": "Regular Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=742658",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to conduct a regular meeting addressing policy updates, financial matters, staffing changes, and strategic initiatives including facility planning outcomes, student achievement recognition, and upcoming student trips. The meeting included a significant consent agenda with 24 policy items on second reading and several new business items related to compensation planning, bond defeasance, and meal pricing for the upcoming school year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.A. Approval of Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.B. Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.B.1. Summer School Certified Staff"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.C. Treasurer's Report - General/Other Fund Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.D. Balance Sheet"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.E. Budget Transfers"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.F. Budget Revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.G. Grant Application(s)/Budget(s) Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.H. Fundraising Requests"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.I. Gift/Bequests"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.J. Bus Accident Report"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K. Second Reading of Policies"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.1. po0142.7 - Orientation"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.2. po0144.5 - Board Member Behavior, Communications, and Code of Conduct"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.3. po1210 Board-Superintendent Relationship"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.4. po1213 Student Supervision and Welfare"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.5. po1240 Evaluation of the Superintendent"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.6. po2131.01 Reading Instructional Goals and Kindergarten Assessment"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.7. po2261.01 Parent and Family Engagement in Title 1 Programs"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.8. po2431 Interscholastic Athletics"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.9. po3120.08 Employment of Personnel for Co-Curricular-Extra-Curricular Activities"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.10. po3213 - Student Supervision and Welfare"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.11. po4213 Student Supervision and Welfare"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.12. po5112 Entrance Age"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.13. po5135 Student Identification Numbers and Cards"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.14. po5411 Third Grade Promotion and Retention - At-Risk Students"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.15. po5461 Children At-Risk of Not Graduating from High School"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.16. po5515 Student Use and Parking of Motor Vehicles"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.17. po5895 Student Employment"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.18. po6605 Crowdfunding"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.19. po7230 Gifts, Grants, and Bequests"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.20. po7540.02 Digital Content and Accessibility"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.21. po8462 Child Abuse and Neglect"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.22. po9211 District Support Organizations"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.23. po9700 Relations with Non-School Affiliated Groups"
+      },
+      {
+        "time": "N/A",
+        "item": "VI.K.24. po9700.01 Advertising and Commercial Activities"
+      },
+      {
+        "time": "N/A",
+        "item": "VII. Non-Certified Staff Employment Changes (Informational Only)"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII. Reports/Considerations"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.A. WASB Legislative Network Member"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.B. CESA #9 Representative"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.C. Student Representative"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D. Superintendent Reports"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D.1. District Update"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D.2. April 17 Tornado Response"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D.3. School Perceptions Survey Summary"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D.4. Facilities Planning Workshop: Key Takeaways"
+      },
+      {
+        "time": "N/A",
+        "item": "VIII.D.5. Weston Elementary: 2024-2025 DPI School of Recognition"
+      },
+      {
+        "time": "N/A",
+        "item": "IX. Unfinished Business"
+      },
+      {
+        "time": "N/A",
+        "item": "IX.A. D.C. Everest Band Ireland Trip"
+      },
+      {
+        "time": "N/A",
+        "item": "X. New Business"
+      },
+      {
+        "time": "N/A",
+        "item": "X.A. Election of Officers"
+      },
+      {
+        "time": "N/A",
+        "item": "X.B. CESA, WASB, Foundation Representatives"
+      },
+      {
+        "time": "N/A",
+        "item": "X.C. Set Meeting Dates and Times for June 2026 through May 2027"
+      },
+      {
+        "time": "N/A",
+        "item": "X.D. Global Scholars - Presentation"
+      },
+      {
+        "time": "N/A",
+        "item": "X.E. Senior High Out-of-State Trips"
+      },
+      {
+        "time": "N/A",
+        "item": "X.F. Update on PD Catalog"
+      },
+      {
+        "time": "N/A",
+        "item": "X.G. Idea Update - Informational"
+      },
+      {
+        "time": "N/A",
+        "item": "X.H. School Resource Officer Access to Student Records"
+      },
+      {
+        "time": "N/A",
+        "item": "X.I. Certified Staff Compensation Planning"
+      },
+      {
+        "time": "N/A",
+        "item": "X.J. District Depository Resolution"
+      },
+      {
+        "time": "N/A",
+        "item": "X.K. District Facsimile Resolution"
+      },
+      {
+        "time": "N/A",
+        "item": "X.L. Resolution Authorizing Transfer of Funds and Defeasance of 2018 Bonds"
+      },
+      {
+        "time": "N/A",
+        "item": "X.M. Approval of WiSNP Contract"
+      },
+      {
+        "time": "N/A",
+        "item": "X.N. Meal Prices for 2026-2027"
+      },
+      {
+        "time": "N/A",
+        "item": "X.O. WPS Easement"
+      },
+      {
+        "time": "N/A",
+        "item": "X.P. First Reading of Policies"
+      },
+      {
+        "time": "N/A",
+        "item": "X.P.1. po5136 Personal Communication Devices"
+      },
+      {
+        "time": "N/A",
+        "item": "X.P.2. po9215 School Support Organizations"
+      },
+      {
+        "time": "N/A",
+        "item": "XI. Petitions and Communications"
+      },
+      {
+        "time": "N/A",
+        "item": "XII. Future Meeting Dates"
+      },
+      {
+        "time": "N/A",
+        "item": "XIII. Adjournment to Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "VIII.A. WASB Legislative Network Member",
+        "body": "Shannon Grabko was scheduled to present information regarding the WASB Legislative Network and its activities."
+      },
+      {
+        "item": "VIII.B. CESA #9 Representative",
+        "body": "Larry Schaefer was scheduled to present updates on behalf of CESA #9."
+      },
+      {
+        "item": "VIII.C. Student Representative",
+        "body": "Ava Bendickson was scheduled to present as the student representative to the board."
+      },
+      {
+        "item": "VIII.D.2. April 17 Tornado Response",
+        "body": "Superintendent Dr. Casey Nye was scheduled to provide an update on the district's response to the tornado that occurred on April 17."
+      },
+      {
+        "item": "VIII.D.3. School Perceptions Survey Summary",
+        "body": "The board was expected to review a summary of the Spring 2026 school perceptions survey data collected from D.C. Everest staff and parents, presented by Dr. Casey Nye."
+      },
+      {
+        "item": "VIII.D.4. Facilities Planning Workshop: Key Takeaways",
+        "body": "Dr. Casey Nye was scheduled to present key takeaways from a recent facilities planning workshop."
+      },
+      {
+        "item": "VIII.D.5. Weston Elementary: 2024-2025 DPI School of Recognition",
+        "body": "The board was scheduled to recognize Weston Elementary's designation as a 2024-2025 DPI School of Recognition (High Impact Schools), distinguishing it as one of 71 schools serving a high percentage of economically disadvantaged students with above-average achievement when compared to similarly situated schools."
+      },
+      {
+        "item": "IX.A. D.C. Everest Band Ireland Trip",
+        "body": "Mr. Joseph Finnegan was scheduled to present information regarding an Ireland trip planned for the D.C. Everest high school band."
+      },
+      {
+        "item": "X.A. Election of Officers",
+        "body": "The board was expected to conduct elections for board officer positions."
+      },
+      {
+        "item": "X.C. Set Meeting Dates and Times for June 2026 through May 2027",
+        "body": "The board was expected to approve meeting dates for the 2026-2027 school year, with administration suggesting meetings on the third Wednesday of each month, including an annual meeting and budget hearing scheduled for November 18."
+      },
+      {
+        "item": "X.D. Global Scholars - Presentation",
+        "body": "Dr. Lindell and Eric Wenninger were scheduled to present information about the Global Scholars program."
+      },
+      {
+        "item": "X.E. Senior High Out-of-State Trips",
+        "body": "Dr. Lindell was scheduled to present information regarding senior high out-of-state trips for competitions, including a spring 2027 trip to Spain."
+      },
+      {
+        "item": "X.F. Update on PD Catalog",
+        "body": "Dr. Lindell and Dr. Raether were scheduled to present an update on the 2026-2027 Professional Development Catalog."
+      },
+      {
+        "item": "X.G. Idea Update - Informational",
+        "body": "Dr. Nye, Dr. Lindell, and Noel Phelps were scheduled to provide an informational update on IDEA implementation."
+      },
+      {
+        "item": "X.H. School Resource Officer Access to Student Records",
+        "body": "The board was expected to consider a policy regarding school resource officer access to student records for the 2026-2027 school year."
+      },
+      {
+        "item": "X.I. Certified Staff Compensation Planning",
+        "body": "Dr. Nye and Dr. Raether were scheduled to present information regarding certified staff compensation planning for the upcoming school year."
+      },
+      {
+        "item": "X.L. Resolution Authorizing Transfer of Funds and Defeasance of 2018 Bonds",
+        "body": "Dr. Strike was scheduled to present a resolution authorizing the transfer of funds, establishment of an escrow account, and defeasance of certain General Obligation School Building and Improvement Bonds, Series 2018 (dated July 2, 2018)."
+      },
+      {
+        "item": "X.M. Approval of WiSNP Contract",
+        "body": "K. Strike was scheduled to present the WiSNP Cooperative Agreement for 2026-2027 and request board approval."
+      },
+      {
+        "item": "X.N. Meal Prices for 2026-2027",
+        "body": "Dr. Strike and Laticia Baudhuin were scheduled to present proposed meal prices for the 2026-2027 school year."
+      },
+      {
+        "item": "X.O. WPS Easement",
+        "body": "Dr. Strike was scheduled to present information regarding an easement with WPS."
+      },
+      {
+        "item": "X.P. First Reading of Policies",
+        "body": "Dr. Nye and Dr. Lindell were scheduled to present first readings of new policies, including po5136 Personal Communication Devices and po9215 School Support Organizations. Policy 6320 - Purchasing was withdrawn by administration."
+      }
+    ],
+    "publicComment": "A public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to approve the agenda",
+      "Board was expected to approve minutes from four previous meetings (April 15 open session, April 15 regular meeting, April 19 open session, and May 18 workshop)",
+      "Board was expected to vote on certified staff recommended employment, resignations, and contract adjustments",
+      "Board was expected to approve the treasurer's report and financial documents (balance sheet, budget transfers, and budget revisions)",
+      "Board was expected to vote on 24 policies on second reading",
+      "Board was expected to elect board officers",
+      "Board was expected to approve CESA, WASB, and foundation representatives",
+      "Board was expected to set meeting dates and times for June 2026 through May 2027",
+      "Board was expected to approve summer school certified staff employment",
+      "Board was expected to approve District Depository Resolution",
+      "Board was expected to approve District Facsimile Resolution",
+      "Board was expected to approve the WiSNP Cooperative Agreement for 2026-2027",
+      "Board was expected to approve meal prices for 2026-2027",
+      "Board was expected to approve WPS Easement agreement",
+      "Board was expected to conduct first reading of policies po5136 and po9215",
+      "Board was expected to consider policy regarding School Resource Officer access to student records"
+    ]
+  },
+  {
     "id": "kw_a4539e059d6d4b61a237393668ff8174",
     "source": "kronenwetter",
     "title": "Administrative Policy Committee Meeting",
@@ -1101,6 +1530,50 @@
       "Village administrator Davil to present village board with priorities discussion at next board meeting; results to be communicated back to all committees",
       "Next APC meeting set for June 15, 2026 at 5:00 p.m. (moved from June 16 to accommodate Trustee Stole's planning commission meeting at 6:00 p.m.)"
     ]
+  },
+  {
+    "id": "bb_743045",
+    "source": "dc_everest",
+    "title": "Board Workshop",
+    "date": "May 18, 2026",
+    "shortDate": "MAY 18",
+    "committee": "Board Workshop",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=743045",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=743045",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this Board Workshop was scheduled to continue facility discussion for the D.C. Everest Area School District. The meeting represents an ongoing conversation about facility-related matters, though specific details about the nature or scope of the facility discussion were not provided in the agenda.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Continued Facility Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Continued Facility Discussion",
+        "body": "The board was scheduled to continue its discussion regarding facilities for the D.C. Everest Area School District. No additional details about specific presenters, time estimates, or the nature of the facility topics were provided in the published agenda."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": []
   },
   {
     "id": "kw_6d8764e98acd4fb69cae1f00cc02d83b",
@@ -3088,161 +3561,6 @@
       "Village continuing to hire a new Community Development Director and planning technician following Peter Wegner's departure.",
       "Truck route on Kowalski Road to be revisited when the distribution center is completed.",
       "Next CLIPP Committee meeting scheduled for June 1, 2026."
-    ]
-  },
-  {
-    "id": "Ay3CNwxe6g4",
-    "source": "weston",
-    "title": "Community Life and Public Safety",
-    "date": "May 4, 2026",
-    "shortDate": "MAY 4",
-    "committee": "Community Life & Public Safety",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=Ay3CNwxe6g4",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05042026-1912",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Community Life and Public Safety Committee met on May 4th, taking action on several ordinance amendments and receiving department reports. Key decisions included recommending approval of amendments to Chapter 50 nuisances, approving an e-bike ordinance with restrictions on e-motos, approving fire code inspections for mobile food vendors, and authorizing a raze order for an abandoned structure at 4104 Shore Avenue.",
-    "agenda": [
-      {
-        "time": "0:15",
-        "item": "Call to order and pledge of allegiance"
-      },
-      {
-        "time": "0:45",
-        "item": "Roll call"
-      },
-      {
-        "time": "1:00",
-        "item": "Public comment"
-      },
-      {
-        "time": "5:30",
-        "item": "Approval of minutes from previous meetings"
-      },
-      {
-        "time": "6:00",
-        "item": "Department reports - Code Enforcement, Fire EMS, Police"
-      },
-      {
-        "time": "11:30",
-        "item": "Proposed amendments to Chapter 50 nuisances"
-      },
-      {
-        "time": "13:00",
-        "item": "E-bike ordinance in Chapter 82 traffic and vehicles"
-      },
-      {
-        "time": "34:30",
-        "item": "Section 82.107 overnight parking regulations discussion"
-      },
-      {
-        "time": "50:30",
-        "item": "Request for crosswalk on Alderson Street"
-      },
-      {
-        "time": "62:00",
-        "item": "Mobile food vendors fire code inspection amendment"
-      },
-      {
-        "time": "70:00",
-        "item": "Address corrections for E911 compliance"
-      },
-      {
-        "time": "75:00",
-        "item": "Raze request for 4104 Shore Avenue"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Department Reports",
-        "body": "Code enforcement officer Audrey reported that 3020 Mountain View Avenue will be removed from the code enforcement roll after the property sold at auction and the new owner submitted repair permits. She noted some enforcement-suspended cases may move back to pending status as construction season begins. Chief Hunt reported the police department had 2,394 calls in March (77 per day), 410 traffic stops, and 281 citations. The department has hired its 40th officer, with the 38th starting last week and others coming in May and January. Two SROs work on zoning violations and pet licensing during summer. Motion by Chwanka, second by Olsen to acknowledge reports 5, 6, and 7 passed unanimously."
-      },
-      {
-        "item": "Chapter 50 Nuisances Amendments",
-        "body": "Brent Tolson confirmed the amendments had been covered in past meetings and this was the final copy. The tree limb heights over streets and walkways were switched to 14 and 10 feet as previously discussed, with language added requiring compliance with the jurisdiction having authority. Motion by Olsen, second by Campkey to recommend approval to the board of trustees passed unanimously."
-      },
-      {
-        "item": "E-bike Ordinance",
-        "body": "Discussion focused heavily on e-motos (electric dirt bikes). Chief Hunt strongly advocated prohibiting e-motos on roadways and sidewalks, comparing them to unlicensed dirt bikes and citing safety concerns including people doing wheelies past pedestrians. Committee debated whether electric scooters used by middle schoolers should also be restricted. Olsen noted he preferred passing a starting ordinance rather than over-regulating. Motion by Olsen, second by Chwanka to recommend approval with the addition that e-motos are prohibited from operating on roadways, sidewalks, trails, or any public property passed unanimously."
-      },
-      {
-        "item": "Overnight Parking Regulations",
-        "body": "Trustee Tolson presented research showing Weston's 12-hour parking restriction (4am-4pm) is far longer than surrounding municipalities which typically have 5-hour windows overnight. Chief Hunt expressed opposition to eliminating overnight parking, saying it gives officers time to clear vehicles before plows arrive. Michael (Public Works) noted they rarely plow before 4-5am and suggested signing specific problem areas instead. Committee discussed uniformity with other municipalities and reducing hours. No action taken; Michael was asked to identify specific exception areas to bring back in July."
-      },
-      {
-        "item": "Crosswalk Request on Alderson Street",
-        "body": "Mount Olive Church requested a crosswalk between the church and DC Everest high school parking lot, which church members use for Sunday parking. Michael estimated basic crosswalk cost at $2,000, lighted system at $25-30,000. Committee expressed reluctance to set precedent of paying for private entity requests. Motion by Olsen, second by Chwanka to recommend board approval contingent on Mount Olive Church covering the installation cost passed unanimously."
-      },
-      {
-        "item": "Mobile Food Vendors Fire Inspection",
-        "body": "Fire Chief explained a regional consortium including Wisconsin Rapids, Marshfield, Stevens Point, Clover, Riverside, and Safer has formed to share food truck fire inspections - one inspection with sticker is valid for all participating municipalities. City of Wausau opted out to do their own. Chief noted one recent inspection failed due to improper LP piping and unsecured propane containers. Motion by Chwanka, second by Campkey to approve Ordinance 26-8 passed unanimously."
-      },
-      {
-        "item": "Address Corrections",
-        "body": "Staff presented three addressing errors needing correction: 5915 Delicoski Street (duplex needing second address), Ross Avenue properties out of sequence due to discovered apartment unit, and 2211 Radkey Avenue needing even number assignment. Chief Hunt added another issue at Weston Villa Apartments on Delicoski with eight units having separate addresses. Motion to recommend approval to board of trustees passed unanimously."
-      },
-      {
-        "item": "Raze Request for 4104 Shore Avenue",
-        "body": "Structure has been abandoned since 2010-2011 and was deemed too deteriorated for fire department training burn. Owners had housed chickens inside during winter. Current owners prefer the village proceed with demolition, with costs added to tax roll. Motion by Olsen, second by Campkey to recommend board authorization for raze order passed unanimously."
-      }
-    ],
-    "publicComment": "Jim Senalt spoke regarding several agenda items. He criticized the new farmers market location at the park, predicting grass destruction from vehicle parking and questioning whether current village code allows parking on grass. He raised ADA concerns about handicap spaces signed on grass rather than asphalt, noting wheelchair operation is difficult on wet, sandy soil. He questioned the need for new fire inspections on food trucks when no trucks have burned down. He noted the farmers market moving to public property changes food truck permitting dynamics and the ordinance language is unclear about which days restrictions apply. Finally, he criticized accountability on long-standing code violations, stating some cases have been pending for years with no visible progress.",
-    "actionItems": [
-      "Chapter 50 nuisance amendments recommended for board approval",
-      "E-bike ordinance recommended for board approval with e-moto prohibition on all public property added",
-      "Michael to identify specific areas needing overnight parking exceptions and bring back in July",
-      "Michael to contact Mount Olive Church regarding willingness to pay for crosswalk installation",
-      "Ordinance 26-8 for mobile food vendor fire inspections approved",
-      "Address corrections for Delicoski, Ross, and Radkey properties recommended for board approval",
-      "Raze order for 4104 Shore Avenue authorized to proceed",
-      "Staff to investigate property at Sternberg and South Timber with furniture and dumpster in yard",
-      "Next meeting scheduled for Monday, July 6th at 5:00 p.m."
-    ]
-  },
-  {
-    "id": "kw_acca56fb4a9045e28855b0cb1d58a749",
-    "source": "kronenwetter",
-    "title": "Special Village Board Meeting",
-    "date": "April 30, 2026",
-    "shortDate": "APR 30",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-11",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-acca56fb4a9045e28855b0cb1d58a749.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Village Board voted 6-0 to terminate the employment of the Community Development Director for just cause at a special meeting called April 30, 2026. The board convened in closed session for roughly 90 minutes to review a specific personnel matter before returning to open session to take the termination vote. Village President Dan Joling directed that remaining personnel issues would be handled by Village Administrator Davel and that legal staff would manage open records notices related to the matter.",
-    "agenda": [
-      {
-        "time": "4:30 PM",
-        "item": "Closed Session - Review of specific personnel matter and address next steps (Wis. Stat. s. 19.85(1)(c) and 19.85(1)(f))"
-      },
-      {
-        "time": "6:13 PM",
-        "item": "Reconvene Open Session"
-      },
-      {
-        "time": "6:13 PM",
-        "item": "Discussion and possible action on items discussed in closed session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Closed Session",
-        "body": "Trustee Coyle moved and Trustee Mortensen seconded a motion to convene into closed session under Wis. Stat. s. 19.85(1)(c) and 19.85(1)(f) to review a specific personnel matter and address next steps. The motion carried 7-0 on a roll call vote. Closed session began at 4:32 p.m. Trustee Sorensen left the meeting around 6:00 p.m. during the closed session."
-      },
-      {
-        "item": "Termination of Community Development Director",
-        "body": "Upon reconvening in open session, Trustee Lesniak moved and Trustee Myszka seconded a motion to terminate the employment of the Community Development Director for just cause. The motion carried 6-0 on a roll call vote. Village President Joling stated that additional personnel issues would be addressed by Village Administrator Davel, that open records notices would be handled by legal staff, and that he asked board members to sign the letter of termination."
-      }
-    ],
-    "publicComment": "No public comment was recorded.",
-    "actionItems": [
-      "Community Development Director terminated for just cause, effective April 30, 2026, by a 6-0 board vote.",
-      "Village Administrator Davel directed to address remaining personnel issues arising from the matter.",
-      "Legal staff directed to handle open records notices related to the termination.",
-      "Village Board members asked by President Joling to sign the letter of termination."
     ]
   }
 ]
