@@ -1,5 +1,126 @@
 [
   {
+    "id": "kw_54c9ed868e8e4099af1b56a7cc1ec508",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "June 15, 2026",
+    "shortDate": "JUN 15",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-30",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-54c9ed868e8e4099af1b56a7cc1ec508.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Administrative Policy Committee of the Village of Kronenwetter was scheduled to meet on June 15, 2026, to review the 2024 audit, consider assessment and revaluation services proposals, and address budget amendments and a musician contract for the National Night Out event.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "PUBLIC COMMENT"
+      },
+      {
+        "time": "N/A",
+        "item": "APPROVAL OF MINUTES - May 19, 2026 Administrative Policy Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "2024 Audit Review"
+      },
+      {
+        "time": "N/A",
+        "item": "2020-2024 Comparison Stats For Past Five Audits"
+      },
+      {
+        "time": "N/A",
+        "item": "Assessment and Revaluation Services Proposals"
+      },
+      {
+        "time": "N/A",
+        "item": "Soli Sax Quartet Musician Contract for National Night Out"
+      },
+      {
+        "time": "N/A",
+        "item": "Budget Amendments #1 and #2"
+      },
+      {
+        "time": "N/A",
+        "item": "CONSIDERATION OF ITEMS FOR FUTURE AGENDA"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2024 Audit Review",
+        "body": "The committee was scheduled to review the 2024 audit as part of its oversight responsibilities. This review was set to examine the Village's financial records and audit findings from the previous fiscal year."
+      },
+      {
+        "item": "2020-2024 Comparison Stats For Past Five Audits",
+        "body": "The committee was expected to consider a comparative analysis of audit statistics across the five-year period from 2020 to 2024. This review was scheduled to provide historical context and identify trends in the Village's financial position."
+      },
+      {
+        "item": "Assessment and Revaluation Services Proposals",
+        "body": "The committee was set to review proposals for assessment and revaluation services. This item was expected to involve consideration of options for property assessment and revaluation services for the Village."
+      },
+      {
+        "item": "Soli Sax Quartet Musician Contract for National Night Out",
+        "body": "The committee was scheduled to consider a musician contract with the Soli Sax Quartet for the Village's National Night Out event. This item involved action on entertainment services for a community event."
+      },
+      {
+        "item": "Budget Amendments #1 and #2",
+        "body": "The committee was expected to take action on two budget amendments. These amendments were set for discussion and possible approval as part of the Village's budget management."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda with a 15-minute total time limit and a three-minute time period per person, with possible extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to approve or amend the May 19, 2026 Administrative Policy Committee Meeting Minutes",
+      "Expected to consider Assessment and Revaluation Services Proposals",
+      "Expected to consider the Soli Sax Quartet Musician Contract for National Night Out",
+      "Scheduled to vote on Budget Amendments #1 and #2"
+    ]
+  },
+  {
+    "id": "kw_3d492d2ece7c4a638a942fb6ff6b6d41",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "June 15, 2026",
+    "shortDate": "JUN 15",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-27",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-3d492d2ece7c4a638a942fb6ff6b6d41.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to meet to discuss and take possible action on a twin home concept plan and review the Green Tree Subdivision proposal. The meeting was set to receive public comment on these development matters affecting the community.",
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "item": "Twin home concept plan discussion"
+      },
+      {
+        "time": "06:00 PM",
+        "item": "Green Tree Subdivision"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Twin home concept plan discussion",
+        "body": "The Plan Commission was scheduled to discuss and consider possible action on a twin home concept plan. This item was listed under Old Business, indicating it was expected to continue from a previous meeting."
+      },
+      {
+        "item": "Green Tree Subdivision",
+        "body": "The Plan Commission was set to review and consider possible action on the Green Tree Subdivision proposal. This item was categorized as New Business on the agenda."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with possible time extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to discuss and take possible action on twin home concept plan",
+      "Scheduled to discuss and take possible action on Green Tree Subdivision",
+      "Expected to receive public comment"
+    ]
+  },
+  {
     "id": "kw_c427847ae4914e0b8e48bbb4f7095c9b",
     "source": "kronenwetter",
     "title": "Special Village Board Meeting",

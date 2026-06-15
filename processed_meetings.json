@@ -420,6 +420,28 @@
       "video_url": null,
       "processed_at": "2026-06-14T20:30:12.586456+00:00",
       "summary_file": "summaries/dc-everest-board-workshop-2026-05-18-bb-743045.md"
+    },
+    "kw_3d492d2ece7c4a638a942fb6ff6b6d41": {
+      "title": "Plan Commission Meeting - 2026-06-15",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-3d492d2ece7c4a638a942fb6ff6b6d41.pdf",
+      "upload_date": "20260615",
+      "meeting_date": "20260615",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-27",
+      "processed_at": "2026-06-15T03:54:39.006307+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-06-15-kw-3d492d2ece7c4a638a942fb6ff6b6d41.md"
+    },
+    "kw_54c9ed868e8e4099af1b56a7cc1ec508": {
+      "title": "Administrative Policy Committee Meeting - 2026-06-15",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-54c9ed868e8e4099af1b56a7cc1ec508.pdf",
+      "upload_date": "20260615",
+      "meeting_date": "20260615",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-30",
+      "processed_at": "2026-06-15T03:54:44.787207+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-meeting-2026-06-15-kw-54c9ed868e8e4099af1b56a7cc1ec508.md"
     }
   }
 }
