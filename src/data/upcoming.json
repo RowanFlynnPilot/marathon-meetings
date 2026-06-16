@@ -115,13 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-15",
-      "time": "5:15 PM",
-      "name": "Public Health & Safety Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2070/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-16",
       "time": "10:00 AM",
       "name": "Board of Public Works Meeting",
@@ -197,37 +190,16 @@
       "name": "One Time Event",
       "url": "https://wausauwi.portal.civicclerk.com/event/3514/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-06-24",
+      "time": "4:30 PM",
+      "name": "Historic Preservation Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2499/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-06-15",
-      "time": "",
-      "name": "Village Board of Trustees",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1929",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-15",
-      "time": "",
-      "name": "Board of Review",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1930",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-15",
-      "time": "",
-      "name": "Finance & Human Resources Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1928",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "name": "Board of Trustees",
-      "url": "https://www.westonwi.gov/agendacenter",
-      "source": "weston"
-    },
     {
       "date": "2026-06-18",
       "time": "6:00 PM",
@@ -358,20 +330,6 @@
     }
   ],
   "kronenwetter": [
-    {
-      "date": "2026-06-15",
-      "time": "5:00 PM",
-      "name": "Administrative Policy Committee Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-30",
-      "source": "kronenwetter"
-    },
-    {
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "name": "Plan Commission Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-27",
-      "source": "kronenwetter"
-    },
     {
       "date": "2026-06-22",
       "time": "6:00 PM",
