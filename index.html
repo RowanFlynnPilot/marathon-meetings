@@ -28,6 +28,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+    <!--
+      Plausible Analytics. The tracker is embedded as an iframe on
+      wausaupilotandreview.com, so the parent page's analytics can't see usage
+      inside it — this script captures the tool's own pageviews + engagement
+      events and reports them to the wausaupilotandreview.com property.
+
+      Using Plausible Cloud (plausible.io). If you SELF-HOST or PROXY Plausible,
+      change only the src URL below to your instance's script (keep data-domain).
+      Custom events (Meeting Opened, Filter, Bookmark, Outbound Link) must be
+      added as Goals in Plausible → Site Settings → Goals to appear in reports.
+    -->
+    <script defer data-domain="wausaupilotandreview.com" src="https://plausible.io/js/script.js"></script>
+    <script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>
     <style>
       *, *::before, *::after { box-sizing: border-box; }
       html, body, #root {

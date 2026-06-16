@@ -3,6 +3,18 @@ import MEETINGS from "./src/data/meetings.json";
 import UPCOMING from "./src/data/upcoming.json";
 
 const BASE_URL = import.meta.env.BASE_URL;
+
+// Plausible custom-event helper. No-op if the script hasn't loaded (it's queued
+// by the stub in index.html) or is blocked. Each event name used here should be
+// added as a Goal in Plausible → Site Settings to surface in reports.
+function track(event, props) {
+  try {
+    if (typeof window !== "undefined" && typeof window.plausible === "function") {
+      window.plausible(event, props ? { props } : undefined);
+    }
+  } catch (e) { /* analytics must never break the UI */ }
+}
+
 const MARATHON_UPCOMING     = UPCOMING.marathon;
 const WAUSAU_UPCOMING       = UPCOMING.wausau;
 const WESTON_UPCOMING       = UPCOMING.weston;
@@ -458,7 +470,9 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
             const showSecondary = meeting.docUrl && !sameDoc;
             return (
               <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-                <a href={meeting.url} target="_blank" rel="noreferrer" style={{
+                <a href={meeting.url} target="_blank" rel="noreferrer"
+                  onClick={() => track("Outbound Link", { source: meeting.source, kind: primaryLabel })}
+                  style={{
                   display: "inline-flex", alignItems: "center", gap: "5px",
                   background: src.accent, color: "#fff",
                   fontFamily: "'Bebas Neue', sans-serif", fontSize: "11px", letterSpacing: "0.14em",
@@ -881,6 +895,7 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
                       );
                       return docUrl ? (
                         <a key={di} href={docUrl} target="_blank" rel="noreferrer"
+                          onClick={() => track("Outbound Link", { source: meeting.source, kind: "AGENDA DOCUMENT" })}
                           style={{ textDecoration: "none" }}
                           onMouseEnter={e => e.currentTarget.querySelector("span").style.background = "#fef0ee"}
                           onMouseLeave={e => e.currentTarget.querySelector("span").style.background = "#fff"}
@@ -1010,7 +1025,7 @@ function UpcomingMeetings({ isMobile }) {
                 key={key}
                 aria-pressed={active}
                 aria-label={`Filter upcoming meetings by ${label}`}
-                onClick={() => setUpFilter(key)}
+                onClick={() => { track("Filter", { source: key, panel: "upcoming" }); setUpFilter(key); }}
                 onMouseEnter={e => { if (!active) { e.currentTarget.style.background = `${color}15`; e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}}
                 onMouseLeave={e => { if (!active) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "#d0ccc4"; e.currentTarget.style.color = "#888"; }}}
                 style={{
@@ -1477,6 +1492,7 @@ function BookmarkButton({ isMobile }) {
     (typeof navigator !== "undefined" && (navigator.platform || navigator.userAgent)) || ""
   );
   const onClick = () => {
+    track("Bookmark");
     try {
       if (typeof window !== "undefined" && window.external &&
           typeof window.external.AddFavorite === "function") {
@@ -1741,7 +1757,7 @@ export default function App() {
                         key={key}
                         aria-pressed={active}
                         aria-label={`Filter recent meetings by ${label}`}
-                        onClick={() => setSourceFilter(key)}
+                        onClick={() => { track("Filter", { source: key, panel: "recent" }); setSourceFilter(key); }}
                         onMouseEnter={e => { if (!active) { e.currentTarget.style.background = color + "15"; e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}}
                         onMouseLeave={e => { if (!active) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "#d0ccc4"; e.currentTarget.style.color = "#888"; }}}
                         style={{
@@ -1826,7 +1842,7 @@ export default function App() {
                     </div>
                   )
                   : filtered.map(m => (
-                    <MeetingCard key={m.id} meeting={m} onClick={setSelected} active={!isMobile && selected?.id === m.id} />
+                    <MeetingCard key={m.id} meeting={m} onClick={(mm) => { track("Meeting Opened", { source: mm.source, committee: mm.committee }); setSelected(mm); }} active={!isMobile && selected?.id === m.id} />
                   ))
                 }
               </div>
