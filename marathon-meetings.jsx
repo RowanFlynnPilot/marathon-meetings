@@ -113,10 +113,19 @@ const SOURCE_CONFIG = {
   },
 };
 
+// Below this width the tool uses the single-column "swap" layout (full-width
+// list, tap a meeting for a full-width summary, back to return) instead of the
+// two-pane list+detail split. The two-pane split needs ~420px of list PLUS a
+// readable detail pane, so it only looks good at genuine desktop widths. When
+// the tool is embedded in a column that shares space with a sidebar (e.g. the
+// Wausau Pilot page), the container is ~700px — wide enough to trip the old
+// 700px breakpoint into a cramped two-pane. 960px keeps it single-column there.
+const COMPACT_BREAKPOINT = 960;
+
 function useIsMobile() {
-  const [m, setM] = useState(window.innerWidth < 700);
+  const [m, setM] = useState(window.innerWidth < COMPACT_BREAKPOINT);
   useEffect(() => {
-    const fn = () => setM(window.innerWidth < 700);
+    const fn = () => setM(window.innerWidth < COMPACT_BREAKPOINT);
     window.addEventListener("resize", fn);
     return () => window.removeEventListener("resize", fn);
   }, []);
