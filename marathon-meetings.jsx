@@ -1466,6 +1466,62 @@ function SponsorModal({ open, onClose, isMobile }) {
   );
 }
 
+function BookmarkButton({ isMobile }) {
+  const [hint, setHint] = useState(false);
+  // Browsers don't allow JS to add a bookmark directly (security). The reliable
+  // path is to prompt the keyboard shortcut — and pressing it bookmarks the
+  // TOP-LEVEL page (the Wausau Pilot page when embedded), which is what we want
+  // for stickiness, since the shortcut targets the parent document, not this
+  // iframe. Legacy IE's AddFavorite is tried first but is effectively dead.
+  const isMac = /Mac|iPhone|iPad|iPod/.test(
+    (typeof navigator !== "undefined" && (navigator.platform || navigator.userAgent)) || ""
+  );
+  const onClick = () => {
+    try {
+      if (typeof window !== "undefined" && window.external &&
+          typeof window.external.AddFavorite === "function") {
+        window.external.AddFavorite(window.location.href, document.title);
+        return;
+      }
+    } catch (e) { /* fall through to the keyboard hint */ }
+    setHint(true);
+    setTimeout(() => setHint(false), 5000);
+  };
+  return (
+    <div style={{ position: "relative" }}>
+      <button
+        onClick={onClick}
+        aria-label="Bookmark this page"
+        title="Bookmark this page"
+        style={{
+          display: "flex", alignItems: "center", gap: "5px",
+          fontFamily: "'Bebas Neue', sans-serif",
+          fontSize: isMobile ? "11px" : "12px", letterSpacing: "0.1em",
+          color: "#fff", background: "rgba(255,255,255,0.14)",
+          border: "1px solid rgba(255,255,255,0.55)", borderRadius: "4px",
+          padding: isMobile ? "4px 8px" : "5px 11px", cursor: "pointer",
+          whiteSpace: "nowrap", lineHeight: 1,
+        }}
+      >
+        <span aria-hidden="true" style={{ fontSize: isMobile ? "12px" : "13px" }}>★</span>
+        {isMobile ? "SAVE" : "BOOKMARK"}
+      </button>
+      {hint && (
+        <div role="status" style={{
+          position: "absolute", top: "calc(100% + 6px)", right: 0, zIndex: 50,
+          background: "#1A1209", color: "#fff",
+          fontFamily: "'Lora', Georgia, serif", fontSize: "12px", lineHeight: 1.4,
+          padding: "8px 11px", borderRadius: "5px", width: "max-content",
+          maxWidth: "210px", boxShadow: "0 4px 14px rgba(0,0,0,0.28)",
+        }}>
+          Press <strong>{isMac ? "⌘ D" : "Ctrl + D"}</strong> to bookmark this page
+          for quick access.
+        </div>
+      )}
+    </div>
+  );
+}
+
 function SponsorStrip({ isMobile }) {
   const [open, setOpen] = useState(false);
   return (
@@ -1596,7 +1652,7 @@ export default function App() {
                   letterSpacing: "-0.01em", whiteSpace: "nowrap",
                   lineHeight: 1.1,
                 }}>
-                  <span style={{ color: "#b2ede8" }}>Wausau</span> Pilot & Review
+                  Wausau Pilot & Review
                 </span>
                 <span style={{
                   fontFamily: "'Bebas Neue', sans-serif",
@@ -1607,8 +1663,9 @@ export default function App() {
                 }}>MORE NEWS. LESS FLUFF. ALL LOCAL.</span>
               </div>
             </a>
-            <div style={{ textAlign: "right" }}>
-              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "10px", letterSpacing: "0.1em", color: "rgba(255,255,255,0.4)" }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "6px" }}>
+              <BookmarkButton isMobile={isMobile} />
+              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: isMobile ? "13px" : "16px", letterSpacing: "0.12em", color: "#fff" }}>
                 {new Date().toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}).toUpperCase()}
               </div>
             </div>
@@ -1616,7 +1673,7 @@ export default function App() {
 
           <div style={{ padding: isMobile ? "7px 16px 10px" : "7px 24px 12px", display: "flex", alignItems: "baseline", gap: "10px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: isMobile ? "20px" : "28px", color: "#fff", letterSpacing: "0.08em", lineHeight: 1 }}>CENTRAL WISCONSIN</span>
-            <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: isMobile ? "20px" : "28px", color: "#b2ede8", letterSpacing: "0.08em", lineHeight: 1 }}>MEETING TRACKER</span>
+            <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: isMobile ? "20px" : "28px", color: "#fff", letterSpacing: "0.08em", lineHeight: 1 }}>MEETING TRACKER</span>
           </div>
         </header>
 
@@ -1787,14 +1844,16 @@ export default function App() {
                 </div>
                 <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "10px", color: "#666", lineHeight: 1.55 }}>
                   Coverage of{" "}
-                  <a href={SOURCE_CONFIG.marathon.channel} target="_blank" rel="noreferrer" style={{ color: TEAL, textDecoration: "none", fontWeight: 600 }}>Marathon County</a>
-                  {", "}
-                  <a href={SOURCE_CONFIG.wausau.channel} target="_blank" rel="noreferrer" style={{ color: SOURCE_CONFIG.wausau.accent, textDecoration: "none", fontWeight: 600 }}>City of Wausau</a>
-                  {", "}
-                  <a href="https://www.westonwi.gov/agendacenter" target="_blank" rel="noreferrer" style={{ color: SOURCE_CONFIG.weston.accent, textDecoration: "none", fontWeight: 600 }}>Village of Weston</a>
-                  {", and "}
-                  <a href="https://meetings.boardbook.org/Public/Organization/1360" target="_blank" rel="noreferrer" style={{ color: SOURCE_CONFIG.school_board.accent, textDecoration: "none", fontWeight: 600 }}>Wausau School Board</a>
-                  {" "}meetings. Summaries are AI-assisted and review the public record — they are not a substitute for official minutes.
+                  {["marathon","wausau","weston","school_board","kronenwetter","dc_everest"].flatMap((k, i, arr) => {
+                    const sc = SOURCE_CONFIG[k];
+                    const link = (
+                      <a key={k} href={sc.channel} target="_blank" rel="noreferrer"
+                         style={{ color: sc.accent, textDecoration: "none", fontWeight: 600 }}>{sc.label}</a>
+                    );
+                    const sep = i < arr.length - 1 ? (i === arr.length - 2 ? ", and " : ", ") : "";
+                    return sep ? [link, sep] : [link];
+                  })}
+                  {" "}meetings. Details are scraped from public agendas, minutes, and recordings — these summaries are not a substitute for official minutes.
                 </div>
               </div>
             </nav>
