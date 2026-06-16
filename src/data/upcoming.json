@@ -172,6 +172,13 @@
     },
     {
       "date": "2026-06-23",
+      "time": "5:00 PM",
+      "name": "Plan Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3529/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
       "time": "5:15 PM",
       "name": "Finance Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2428/overview",
@@ -189,13 +196,6 @@
       "time": "4:00 PM",
       "name": "One Time Event",
       "url": "https://wausauwi.portal.civicclerk.com/event/3514/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-24",
-      "time": "4:30 PM",
-      "name": "Historic Preservation Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2499/overview",
       "source": "wausau"
     }
   ],
@@ -330,6 +330,13 @@
     }
   ],
   "kronenwetter": [
+    {
+      "date": "2026-06-22",
+      "time": "5:00 PM",
+      "name": "Police and Fire Commission Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
+      "source": "kronenwetter"
+    },
     {
       "date": "2026-06-22",
       "time": "6:00 PM",
