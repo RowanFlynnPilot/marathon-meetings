@@ -151,6 +151,13 @@
     },
     {
       "date": "2026-06-23",
+      "time": "4:00 PM",
+      "name": "Room Tax Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3530/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
       "time": "5:00 PM",
       "name": "Plan Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3529/overview",
@@ -204,13 +211,6 @@
       "name": "Parks & Recreation Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2454/overview",
       "source": "wausau"
-    },
-    {
-      "date": "2026-07-07",
-      "time": "5:30 PM",
-      "name": "Economic Development Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2402/overview",
-      "source": "wausau"
     }
   ],
   "weston": [
@@ -226,6 +226,13 @@
       "time": "6:00 PM",
       "name": "Mountain Bay Metro Police Oversight",
       "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "",
+      "name": "Park and Recreation Committee",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06222026-1932",
       "source": "weston"
     },
     {
