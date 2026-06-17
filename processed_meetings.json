@@ -444,7 +444,7 @@
       "summary_file": "summaries/kronenwetter-administrative-policy-committee-meeting-2026-06-15-kw-54c9ed868e8e4099af1b56a7cc1ec508.md"
     },
     "3M_6AzxlR1I": {
-      "title": "Finance and Human Resources Committee - 6/15/2026",
+      "title": "Finance and Human Resources Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260615",
@@ -452,7 +452,18 @@
       "duration": 4855.0,
       "video_url": null,
       "processed_at": "2026-06-16T22:11:19.772025+00:00",
-      "summary_file": "summaries/weston-finance-and-human-resources-committee-6152026-3m-6azxlr1i.md"
+      "summary_file": "summaries/weston-finance-and-human-resources-committee-3m-6azxlr1i.md"
+    },
+    "bb_747929": {
+      "title": "Regular School Board Meeting Including a Public Hearing as Required Underneath Wis. Stat. 118.38(1)(b) - 2026-06-17",
+      "source": "dc_everest",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
+      "upload_date": "20260617",
+      "meeting_date": "20260617",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-06-17T03:43:29.603434+00:00",
+      "summary_file": "summaries/dc-everest-regular-school-board-meeting-including-a-public-hearing-as-required-u-bb-747929.md"
     }
   }
 }

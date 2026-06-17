@@ -1,81 +1,273 @@
 [
   {
-    "id": "3M_6AzxlR1I",
-    "source": "weston",
-    "title": "Finance and Human Resources Committee",
-    "date": "June 15, 2026",
-    "shortDate": "JUN 15",
-    "committee": "Finance & Human Resources",
+    "id": "bb_747929",
+    "source": "dc_everest",
+    "title": "Regular School Board Meeting Including a Public Hearing as Required Underneath Wis. Stat. 118.38(1)(b)",
+    "date": "June 17, 2026",
+    "shortDate": "JUN 17",
+    "committee": "Regular Meeting",
     "duration": null,
-    "url": "https://www.youtube.com/watch?v=3M_6AzxlR1I",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1930",
+    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
     "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Finance and Human Resources Committee of the Village of Weston was scheduled to meet on June 15, 2026, to acknowledge financial reports for May 2026, review departmental operations and budget matters, and consider amendments to personnel policies regarding clothing allowances and employee appearance standards. The meeting was set to address routine financial reporting and policy updates affecting village operations and employee benefits.",
+    "badge": null,
+    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a regular meeting on June 17, 2026, that included a public hearing regarding a waiver of instructional minutes for Riverside Elementary. The meeting was expected to address multiple action items including staff compensation plans for 2026-2027, the 2026-2027 budget update, student services reports, and approval of out-of-state trips for junior high and senior students.",
     "agenda": [
       {
         "time": "N/A",
-        "item": "Approval of Minutes from Previous Finance & HR Meeting: May 18, 2026"
+        "item": "Call to Order"
       },
       {
         "time": "N/A",
-        "item": "May Budget Status Report"
+        "item": "Roll Call"
       },
       {
         "time": "N/A",
-        "item": "TIF 1 and TIF 2 Detail Reports for May"
+        "item": "Pledge of Allegiance"
       },
       {
         "time": "N/A",
-        "item": "Legal Details for May"
+        "item": "Public Hearing re: Waiver of Minutes for Riverside Elementary"
       },
       {
         "time": "N/A",
-        "item": "Public Service Commission Annual Report"
+        "item": "Approval of Agenda"
       },
       {
         "time": "N/A",
-        "item": "State Municipal Financial Report"
+        "item": "Public Comment"
       },
       {
         "time": "N/A",
-        "item": "Discussion on Finance Department Operations and Budget"
+        "item": "Consent Agenda - Approval of Minutes"
       },
       {
         "time": "N/A",
-        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook"
+        "item": "Consent Agenda - Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Treasurer's Report - General/Other Fund Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Balance Sheet"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Budget Transfers"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Budget Revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Grant Application(s)/Budget(s) Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Fundraising Requests"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Gift/Bequests"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Bus Accident Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Second Reading of Policies - po5136 Personal Communication Devices"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Second Reading of Policies - po9215 School Support Organizations"
+      },
+      {
+        "time": "N/A",
+        "item": "Non-Certified Staff Employment Changes (Informational Only)"
+      },
+      {
+        "time": "N/A",
+        "item": "WASB Legislative Network Member Report - Presenter: Shannon Grabko"
+      },
+      {
+        "time": "N/A",
+        "item": "CESA #9 Representative Report - Presenter: Larry Schaefer"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - District Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Semiquincentennial Celebration"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Data-Based Community Insights"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Portrait of a Graduate"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Facilities Study Updates"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Youth Apprenticeship Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Report - Upcoming Everest Roots Podcast Topics"
+      },
+      {
+        "time": "N/A",
+        "item": "Unfinished Business - Soaring into Summer"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Annual Required Student Data Reports"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Education for Employment/ACP Report"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Resolution for Riverside Elementary Waiver of Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Junior High and Idea Out-of-State Trips"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Staff Compensation Plan"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - 2026-2027 Budget Update"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Year-End Spending 2025-2026"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - 2026-2027 Budgetary Spending Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po0100 Definitions"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po0167.3 Public Comment at Board Meetings"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po3120 Employment of Professional Staff"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po3120.05 Employment of Personnel in Community Education Programs"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po3140 Non-Renewal, Resignation, and Termination"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po4120.04 Employment of Substitutes"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - First Reading of Policies - po5200.01 Full-Time Student"
+      },
+      {
+        "time": "N/A",
+        "item": "Petitions and Communications - Thank You from K. VanSlyke for Memorial"
+      },
+      {
+        "time": "N/A",
+        "item": "Petitions and Communications - Thank You from P. Pierce for Sympathy"
+      },
+      {
+        "time": "N/A",
+        "item": "Petitions and Communications - Thank You from T. Fischer for Retirement Recognition"
+      },
+      {
+        "time": "N/A",
+        "item": "Petitions and Communications - Thank You from J. Weller for Sympathy"
+      },
+      {
+        "time": "N/A",
+        "item": "Future Meeting Dates"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment to Closed Session"
       }
     ],
     "discussions": [
       {
-        "item": "May Budget Status Report",
-        "body": "The committee was scheduled to acknowledge the May 2026 financial report for all funds. The Finance Director's recommendation indicated the village was expected to review the financial position for the period ending May 31, 2026, which showed general fund revenue at 72.9% of budget and expenditures at 44.1% of budget."
+        "item": "Public Hearing re: Waiver of Minutes for Riverside Elementary",
+        "body": "The board was scheduled to hold a public hearing as required under Wisconsin Statute 118.38(1)(b) regarding a waiver of instructional minutes for Riverside Elementary. Supporting materials included a Notice of Public Hearing and waiver application documents."
       },
       {
-        "item": "TIF 1 and TIF 2 Detail Reports for May",
-        "body": "The committee was set to review tax increment financing reports for the two active tax increment districts. These reports were expected to provide detailed financial information about TIF fund status and performance for May 2026."
+        "item": "Soaring into Summer",
+        "body": "Presenters Kelly Ziegelbauer (Weston Principal), Lauren Doescher, and Katie Wochinski were scheduled to present information regarding a 'Soaring into Summer' initiative, with supporting presentation materials provided."
       },
       {
-        "item": "Legal Details for May",
-        "body": "The committee was scheduled to acknowledge legal department reports and activities for May 2026. This item was expected to provide information about legal matters handled by or affecting the village during the reporting period."
+        "item": "Annual Required Student Data Reports",
+        "body": "Dr. Lindell and Gina Lehman were scheduled to present annual required student data reports covering homeless and foster care status, seclusion and restraint incidents, crime statistics on school property, nursing reports, at-risk students nearing graduation, continuum of services, and emergency support services. The presentation was expected to include multiple supporting documents detailing student services and student support outcomes."
       },
       {
-        "item": "Discussion on Finance Department Operations and Budget",
-        "body": "The committee was set to discuss the operations and budget of the Finance Department. This educational presentation was expected to cover departmental activities, budget performance, and operational matters similar to the Clerk's Department presentation conducted at the May 18, 2026 meeting."
+        "item": "Education for Employment/ACP Report",
+        "body": "Aaron Hoffman and student Takoda Rowland were scheduled to present a report on the Education for Employment and Alternative Career Pathway programs for the district."
       },
       {
-        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook",
-        "body": "The committee was scheduled to discuss and potentially take action on proposed amendments to village personnel policies regarding employee clothing and equipment allowances and appearance standards. The agenda indicated this item could result in committee action on the proposed policy changes."
+        "item": "Resolution for Riverside Elementary Waiver of Minutes",
+        "body": "Dr. Strike was scheduled to present a resolution regarding the waiver of instructional hours for Riverside Elementary, with supporting documents including the waiver application and resolution language for board consideration."
+      },
+      {
+        "item": "Junior High and Idea Out-of-State Trips",
+        "body": "Dr. Lindell was scheduled to present three out-of-state trip requests: a junior high trip to Washington, D.C. for 2026-27, a junior high world language trip, and an Idea senior class trip, with supporting documentation for each proposal."
+      },
+      {
+        "item": "Staff Compensation Plan",
+        "body": "Dr. Strike was scheduled to present the 2026-2027 staff compensation plans for board consideration, with supporting materials outlining compensation proposals for certified staff."
+      },
+      {
+        "item": "2026-2027 Budget Update",
+        "body": "Dr. Strike was scheduled to provide a comprehensive update on the 2026-2027 budget, including preliminary budget presentation materials for board review and discussion."
+      },
+      {
+        "item": "Year-End Spending 2025-2026",
+        "body": "Dr. Strike was scheduled to present a year-end spending report for the 2025-2026 fiscal year, providing financial details on district expenditures as the school year concludes."
+      },
+      {
+        "item": "2026-2027 Budgetary Spending Approval",
+        "body": "Dr. Strike was scheduled to request board approval for 2026-2027 budgetary spending authority, with supporting documentation outlining the proposed spending framework."
+      },
+      {
+        "item": "First Reading of Policies",
+        "body": "Dr. Nye, Dr. Lindell, and Dr. Strike were scheduled to present first readings of seven policies including Definitions (po0100), Public Comment at Board Meetings (po0167.3), Employment of Professional Staff (po3120), Employment of Personnel in Community Education Programs (po3120.05), Non-Renewal, Resignation, and Termination (po3140), Employment of Substitutes (po4120.04), and Full-Time Student (po5200.01), with a memo regarding credit limits for senior high students."
       }
     ],
-    "publicComment": "Not indicated on agenda.",
+    "publicComment": "A public comment period was included on this agenda at item VI.",
     "actionItems": [
-      "Expected to approve minutes from May 18, 2026 meeting",
-      "Scheduled to acknowledge May 2026 financial report for all funds",
-      "Scheduled to acknowledge TIF 1 and TIF 2 detail reports for May",
-      "Scheduled to acknowledge legal details for May",
-      "Scheduled to discuss Finance Department operations and budget",
-      "Expected to consider amendments to personnel policies regarding clothing and equipment allowance and employee appearance standards"
+      "Board was expected to vote on the Resolution for Riverside Elementary Waiver of Minutes following the public hearing",
+      "Board was expected to approve the Staff Compensation Plan for 2026-2027",
+      "Board was expected to approve the 2026-2027 Budgetary Spending Approval",
+      "Board was expected to approve out-of-state trips for junior high and senior students",
+      "Board was expected to consider first readings of seven policies with second readings anticipated at a future meeting",
+      "Board was expected to approve Second Reading of Policies po5136 Personal Communication Devices and po9215 School Support Organizations"
     ]
   },
   {
@@ -88,71 +280,161 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-30",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-54c9ed868e8e4099af1b56a7cc1ec508.pdf",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Administrative Policy Committee of the Village of Kronenwetter was scheduled to meet on June 15, 2026, to review the 2024 audit, consider assessment and revaluation services proposals, and address budget amendments and a musician contract for the National Night Out event.",
+    "overview": "The Kronenwetter Village Administrative Policy Committee met on June 15, 2026, taking several key votes including recommending Associated Appraisal of Appleton for a $355,000 reassessment contract and approving budget amendments for a DPW truck purchase and a new special parks committee. The meeting also included a review of the village's 2024 audit results and a five-year financial comparison presented by Finance Director John, who highlighted improving general fund trends while noting ongoing concerns about the TID1 fund deficit and accounting software configuration issues.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "PUBLIC COMMENT"
+        "time": "0:00",
+        "item": "Call to order, Pledge of Allegiance, and roll call"
       },
       {
-        "time": "N/A",
-        "item": "APPROVAL OF MINUTES - May 19, 2026 Administrative Policy Committee Meeting Minutes"
+        "time": "2:30",
+        "item": "Item 5F (taken out of order) - Assessment and Reevaluation Services Proposals"
       },
       {
-        "time": "N/A",
-        "item": "2024 Audit Review"
+        "time": "21:00",
+        "item": "Public comment"
       },
       {
-        "time": "N/A",
-        "item": "2020-2024 Comparison Stats For Past Five Audits"
+        "time": "21:30",
+        "item": "Approval of minutes - May 19, 2026 APC meeting"
       },
       {
-        "time": "N/A",
-        "item": "Assessment and Revaluation Services Proposals"
+        "time": "23:00",
+        "item": "Item 4D - 2024 audit review"
       },
       {
-        "time": "N/A",
-        "item": "Soli Sax Quartet Musician Contract for National Night Out"
+        "time": "32:00",
+        "item": "Item 4E - 2024 comparison stats for past five audits"
       },
       {
-        "time": "N/A",
-        "item": "Budget Amendments #1 and #2"
+        "time": "47:00",
+        "item": "Item 5G - Solis Sachs Cortette musician contract for National Night Out"
       },
       {
-        "time": "N/A",
-        "item": "CONSIDERATION OF ITEMS FOR FUTURE AGENDA"
+        "time": "52:00",
+        "item": "Item 5H - Budget Amendment 1: DPW truck purchase financing"
+      },
+      {
+        "time": "1:02:00",
+        "item": "Budget Amendment 2: New special parks committee funding"
+      },
+      {
+        "time": "1:10:00",
+        "item": "Consideration of items for future agenda and adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "2024 Audit Review",
-        "body": "The committee was scheduled to review the 2024 audit as part of its oversight responsibilities. This review was set to examine the Village's financial records and audit findings from the previous fiscal year."
+        "item": "Assessment and Reevaluation Services Proposals (Item 5F)",
+        "body": "Finance Director John presented three proposals received for reassessment and assessment services for July 2026 through December 2031: Accurate Appraisal at $240,900, Associated Appraisal (current vendor since 2017) at $350,000 for Option 2, and Municipal Group at $372,000 for an exterior evaluation option. John recommended Associated Appraisal Option 2 at $355,000, citing their 67 years of experience, 240 municipalities served, and satisfactory performance at Board of Review, and noted that if the village does nothing the state would intervene at roughly double the cost. He indicated there were unstated reasons the village switched from Accurate Appraisal in 2017. President Jolyne motioned to accept Associated Appraisal Option 2 for $355,000, seconded by Trustee Solheim; approved 3-0 as a recommendation to the Village Board."
       },
       {
-        "item": "2020-2024 Comparison Stats For Past Five Audits",
-        "body": "The committee was expected to consider a comparative analysis of audit statistics across the five-year period from 2020 to 2024. This review was scheduled to provide historical context and identify trends in the Village's financial position."
+        "item": "2024 Audit Review (Item 4D)",
+        "body": "Finance Director John summarized the 2024 audit, noting the village received an unmodified (clean) opinion, the best possible result, though auditors identified material weaknesses and significant deficiencies. John expressed frustration that auditors presented only the negative findings without discussing the financial numbers, and that a predecessor had been carrying an unreconciled ~$80,000 monthly adjustment that was rolled forward repeatedly. He also described discovering that the Counsil accounting software had been configured on a cash basis rather than accrual, causing mismatches between posted payments and actual bank disbursements; he and staff member Kim identified this issue and are working to correct it. No vote was taken; this was a discussion and informational item."
       },
       {
-        "item": "Assessment and Revaluation Services Proposals",
-        "body": "The committee was set to review proposals for assessment and revaluation services. This item was expected to involve consideration of options for property assessment and revaluation services for the Village."
+        "item": "2024 Comparison Stats for Past Five Audits (Item 4E)",
+        "body": "John presented a five-year financial snapshot to provide context the auditors omitted, showing the general fund balance at 16.44% for 2024 versus a 15% policy minimum, recovering from a low of roughly 3% in 2023. He highlighted $18 million in cash and investments (largely unspent borrowed funds), a declining debt service fund balance projected to reach ~$30,000 by end of 2026 due to prior under-levying, and a growing TID1 fund deficit advancing from the general fund now totaling ~$2.7 million, which John said would be resolved once the anticipated distribution center development generates property tax increment. No vote was taken; committee members expressed appreciation for the presentation."
       },
       {
-        "item": "Soli Sax Quartet Musician Contract for National Night Out",
-        "body": "The committee was scheduled to consider a musician contract with the Soli Sax Quartet for the Village's National Night Out event. This item involved action on entertainment services for a community event."
+        "item": "Solis Sachs Cortette Musician Contract - National Night Out (Item 5G)",
+        "body": "The committee considered a $750 contract with Solis Sachs Cortette for a patriotic musical performance at National Night Out on August 4, 2026, to celebrate the US 250th anniversary, an idea previously raised by Trustee Sarnson. Finance Director Jennifer was not present but relayed that the cost would be covered by sponsorships with no cost to the village. Trustee Solheim made the motion and President Jolyne seconded; approved 3-0 as a recommendation to the Village Board."
       },
       {
-        "item": "Budget Amendments #1 and #2",
-        "body": "The committee was expected to take action on two budget amendments. These amendments were set for discussion and possible approval as part of the Village's budget management."
+        "item": "Budget Amendment 1 - DPW Truck Purchase (Item 5H)",
+        "body": "Village Administrator Jim explained that a DPW truck suffered a transmission failure and was already slated for replacement next year; replacing the transmission at over $10,000 was deemed impractical. The board had previously approved the purchase; this item addressed how to fund it. John proposed moving $35,000 from the capital projects fund to the capital equipment replacement fund, with the net purchase cost after trade-in being $49,559, offset partly by savings from police squad car purchases. President Jolyne motioned and Trustee Solheim seconded the recommendation to concur with the finance director's budget adjustments; approved 3-0 by roll call vote."
+      },
+      {
+        "item": "Budget Amendment 2 - Special Parks Committee Funding (Item 5H continued)",
+        "body": "Following the board's June 8, 2026 creation of a new special parks committee with five citizen members paid per meeting, John proposed a net-neutral budget realignment: reducing budgeted APC meetings from 18 to 13 and zoning board of appeals meetings from 4 to 2, redirecting those funds to cover up to five meetings for the five citizen members for the remainder of 2026 at $10 per attendee per meeting. Trustee Solheim motioned and President Jolyne seconded the recommendation; approved 3-0 by roll call vote as a recommendation to the Village Board."
       }
     ],
-    "publicComment": "Public comment was on the agenda with a 15-minute total time limit and a three-minute time period per person, with possible extension at the Chief Presiding Officer's discretion.",
+    "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Scheduled to approve or amend the May 19, 2026 Administrative Policy Committee Meeting Minutes",
-      "Expected to consider Assessment and Revaluation Services Proposals",
-      "Expected to consider the Soli Sax Quartet Musician Contract for National Night Out",
-      "Scheduled to vote on Budget Amendments #1 and #2"
+      "Recommend to Village Board approval of Associated Appraisal (Appleton) Option 2 contract for reassessment and assessment services at $355,000 for July 2026 through December 2031 - to be presented at next Monday's board meeting",
+      "Recommend to Village Board approval of contract with Solis Sachs Cortette for musical performance at National Night Out on August 4, 2026 ($750, covered by sponsorships)",
+      "Recommend to Village Board budget adjustments to fund DPW truck purchase: transfer $35,000 from capital projects fund (Fund 400) to capital equipment replacement fund (Fund 750), net purchase cost $49,559 after trade-in",
+      "Recommend to Village Board 2026 budget amendments realigning meeting allocations to fund new special parks committee citizen member compensation, net-neutral to general fund",
+      "Finance Director John and staff member Samantha to work on correcting accounting software (Counsil) from cash-basis to accrual-basis configuration and reconciling monthly payment mismatches before 2025 audit",
+      "2025 audit target completion: mid-to-late September 2026",
+      "Next APC meeting: July 21, 2026"
+    ]
+  },
+  {
+    "id": "3M_6AzxlR1I",
+    "source": "weston",
+    "title": "Finance and Human Resources Committee",
+    "date": "June 15, 2026",
+    "shortDate": "JUN 15",
+    "committee": "Finance & Human Resources",
+    "duration": "1h 20m",
+    "url": "https://www.youtube.com/watch?v=3M_6AzxlR1I",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06152026-1930",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Finance and Human Resources Committee held its June 15th meeting, approving monthly financial reports and receiving an educational presentation from the finance department on its operations. The most significant action was reversing two prior motions from March regarding employee uniform policy and approving a new hybrid approach: employees may either keep their Cintas uniform rental service or opt out and receive $500 annually to purchase their own clothing, with staff to explore a shorter-term Cintas contract.",
+    "agenda": [
+      {
+        "time": "1:10",
+        "item": "Call to order and Pledge of Allegiance"
+      },
+      {
+        "time": "2:10",
+        "item": "Roll call"
+      },
+      {
+        "time": "2:30",
+        "item": "Public comment"
+      },
+      {
+        "time": "2:45",
+        "item": "Item 4: Approval of minutes from May 18th meeting"
+      },
+      {
+        "time": "3:15",
+        "item": "Items 5-9: May budget status report, TIF 1 and TIF 2 detail reports, legal details for May, Public Service Commission annual report, State Municipal Financial Report"
+      },
+      {
+        "time": "17:00",
+        "item": "Item 10: Educational presentation - Finance Department overview"
+      },
+      {
+        "time": "55:30",
+        "item": "Item 11: Old business - Discussion and action on amendments to clothing allowance policy"
+      },
+      {
+        "time": "1:20:00",
+        "item": "New business, staff remarks, committee member remarks, and adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of May 18th minutes",
+        "body": "A motion to approve was made by Daniels and seconded by Mynull (phonetic). No discussion occurred and the motion carried unanimously."
+      },
+      {
+        "item": "Items 5-9: May budget status report, TIF reports, legal details, PSC annual report, State Municipal Financial Report",
+        "body": "Finance staff Jessica presented all five items together. Discussion arose around item 7 (legal details) about whether the committee still needed to review it monthly, with committee members suggesting it be brought to the full board to decide. Jessica noted the legal detail report was originally requested by members who wanted to monitor legal spending without searching the full check register. For item 8, Jessica and utility staff explained the PSC annual report in detail, noting 1,029 fire hydrants, 6,091 customers, a 2% rate of return, and approximately 10 miles of asbestos cement water main remaining, being replaced at about one mile per year. The committee acknowledged all five items via a motion by Mynull, seconded by Daniels, which passed unanimously."
+      },
+      {
+        "item": "Item 10: Educational presentation - Finance Department",
+        "body": "Finance Director Jessica and staff members Song and Renee gave a detailed presentation on the finance department's operations, covering payroll (ranging from 38 to 64 employees per pay period, averaging $111,410 bi-weekly), accounts payable ($50,266,621 in total disbursements in 2025, with 2,420 checks and 47 ACH payments), accounts receivable ($1.2 million billed in 2024), the multi-step invoice approval process, cash management, and required state reporting. Jessica emphasized the importance of asking questions about financial reports, illustrating with a cautionary example from a South Area Fair Emergency District that had hidden a $574,000 intergovernmental payable. Committee members asked about Excel-related human error risks, and Jessica clarified the department uses a software-integrated 'My Excel' tool that pulls directly from the Casselle financial system."
+      },
+      {
+        "item": "Item 11: Old business - Clothing allowance amendments",
+        "body": "Public Works Director Michael presented a revised recommendation on the employee uniform policy, walking back the committee's March decision to cancel the Cintas contract and offer $400 plus purchase a washer and dryer. Michael said employee morale concerns and the complexity of a one-size-fits-all policy led him to recommend a hybrid approach: employees may keep Cintas service or opt out and receive $500 annually to purchase their own clothing, with the election made each January. The committee also discussed pursuing a shorter-term or month-to-month Cintas arrangement rather than a new three-year contract given past billing disputes. Committee member Barb moved to first rescind the two prior motions from March (canceling Cintas and approving $400 plus washer/dryer), which passed unanimously, then moved the new hybrid policy, which also passed unanimously."
+      }
+    ],
+    "publicComment": "No public comment was offered. The chair confirmed no one was present in the audience or online at the start of the meeting.",
+    "actionItems": [
+      "Rescinded prior March motions to cancel Cintas contract and to set clothing allowance at $400 with purchase of washer and dryer",
+      "Approved hybrid uniform policy recommendation to village board: employees may retain Cintas rental service or opt out and receive $500 annual clothing allowance, with annual January opt-in election",
+      "Staff directed to pursue a shorter-term or month-to-month Cintas contract rather than a new three-year agreement, and to report back if Cintas declines",
+      "Staff to check with Cintas in writing that month-to-month continuation is acceptable",
+      "Question of whether finance committee should continue reviewing monthly legal detail report to be referred to the full village board for a decision",
+      "Next Finance and Human Resources Committee meeting scheduled for Monday, July 20th at 4:30 p.m."
     ]
   },
   {
