@@ -151,6 +151,13 @@
     },
     {
       "date": "2026-06-23",
+      "time": "12:00 PM",
+      "name": "One Time Event",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3533/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-23",
       "time": "4:00 PM",
       "name": "Room Tax Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3530/overview",
@@ -186,6 +193,13 @@
     },
     {
       "date": "2026-06-24",
+      "time": "4:15 PM",
+      "name": "Historic Preservation Commission Ad Hoc Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3531/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-24",
       "time": "4:30 PM",
       "name": "Historic Preservation Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2499/overview",
@@ -196,20 +210,6 @@
       "time": "8:00 AM",
       "name": "Joint Review Board Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2498/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-30",
-      "time": "10:30 AM",
-      "name": "Board of Public Works Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2480/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-07-06",
-      "time": "5:15 PM",
-      "name": "Parks & Recreation Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2454/overview",
       "source": "wausau"
     }
   ],
