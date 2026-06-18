@@ -325,6 +325,20 @@
       "name": "S.A.F.E.R. Board of Directors",
       "url": "https://www.westonwi.gov/agendacenter",
       "source": "weston"
+    },
+    {
+      "date": "2026-08-17",
+      "time": "5:30 PM",
+      "name": "Finance & Human Resources Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "name": "Board of Trustees",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
     }
   ],
   "school_board": [
@@ -380,13 +394,5 @@
       "source": "kronenwetter"
     }
   ],
-  "dc_everest": [
-    {
-      "date": "2026-06-17",
-      "time": "6:30 PM",
-      "name": "Regular School Board Meeting Including a Public Hearing as Required Underneath Wis. Stat. 118.38(1)(b)",
-      "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
-      "source": "dc_everest"
-    }
-  ]
+  "dc_everest": []
 }
