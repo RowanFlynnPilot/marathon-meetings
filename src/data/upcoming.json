@@ -152,7 +152,7 @@
     {
       "date": "2026-06-23",
       "time": "12:00 PM",
-      "name": "One Time Event",
+      "name": "Community Development Authority Board Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3533/overview",
       "source": "wausau"
     },
@@ -345,8 +345,22 @@
     {
       "date": "2026-06-22",
       "time": "5:00 PM",
+      "name": "Committee of the Whole Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "5:00 PM",
       "name": "Education & Operations Committee",
       "url": "https://meetings.boardbook.org/Public/Organization/1360",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-06-22",
+      "time": "5:30 PM",
+      "name": "Special Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750995",
       "source": "school_board"
     },
     {
