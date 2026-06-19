@@ -486,6 +486,17 @@
       "video_url": null,
       "processed_at": "2026-06-17T22:00:41.871198+00:00",
       "summary_file": "summaries/wausau-wausau-public-health-safety-committee-meeting-pt1-61526-sqkikt4swxo.md"
+    },
+    "7G0iUK3XEhc": {
+      "title": "Wausau Board of Public Works Meeting Pt.1 - 6/16/26",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260616",
+      "meeting_date": "20260616",
+      "duration": 580.0,
+      "video_url": null,
+      "processed_at": "2026-06-19T09:08:01.803698+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt1-61626-7g0iuk3xehc.md"
     }
   }
 }
