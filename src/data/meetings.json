@@ -1,5 +1,289 @@
 [
   {
+    "id": "kw_8eb365830ccd47e5865e3f22088e7351",
+    "source": "kronenwetter",
+    "title": "Police and Fire Commission Meeting",
+    "date": "June 22, 2026",
+    "shortDate": "JUN 22",
+    "committee": "Police & Fire Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-8eb365830ccd47e5865e3f22088e7351.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Kronenwetter Police and Fire Commission was scheduled to meet on June 22, 2026, to review and approve minutes from previous meetings and discuss possible revisions to the Commission's complaint form. The meeting represented routine governance and procedural matters for the village's public safety oversight body.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of minutes from 04/27/2026 and 06/01/2026 meetings"
+      },
+      {
+        "time": "N/A",
+        "item": "Public comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action regarding revision to Commission's complaint form"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of minutes",
+        "body": "The Commission was scheduled to approve meeting minutes from two previous sessions held on April 27, 2026, and June 1, 2026. This routine item was set for action at the meeting."
+      },
+      {
+        "item": "Revision to Commission's complaint form",
+        "body": "The Commission was scheduled to discuss and consider possible revisions to the complaint form used by the Commission. The agenda indicated this item was set for both discussion and possible action."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute period per person, subject to extension at the presiding officer's discretion.",
+    "actionItems": [
+      "Scheduled to approve minutes from 04/27/2026 and 06/01/2026 meetings",
+      "Expected to consider revisions to the Commission's complaint form"
+    ]
+  },
+  {
+    "id": "kw_763affdb06034572ad57359551b02e1c",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "June 22, 2026",
+    "shortDate": "JUN 22",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-60",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-763affdb06034572ad57359551b02e1c.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on June 22, 2026, to address multiple items including operator licenses, budget amendments for a DPW truck purchase and a new parks committee, and approval of the village's 2025 compliance maintenance annual report. The meeting was also set to consider the creation of a special parks committee and review committee appointments.",
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Operator Bartender License - Tracy L. Rucinski"
+      },
+      {
+        "time": "N/A",
+        "item": "Operator Bartender License - Christine S. Beck"
+      },
+      {
+        "time": "N/A",
+        "item": "June 8, 2026 Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "June 9, 2026 Special Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "May 2026 Check Register, ACH Register, and Credit Card Transactions Activity"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-008 Approving the Village's 2025 Compliance Maintenance Annual Report (CMAR)"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-009 Creating a Special Parks Committee"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-010 Appointing Citizen Members and Trustees to Various Committees, Commissions and Boards"
+      },
+      {
+        "time": "N/A",
+        "item": "Assessment/Revaluation Services Agreement Through 2031 (5½ years)"
+      },
+      {
+        "time": "N/A",
+        "item": "2026 Budget Amendment #1 – Financing for 2026 DPW Truck Purchase"
+      },
+      {
+        "time": "N/A",
+        "item": "2026 Budget Amendment #2 - Provide for 2026 Budget for Newly Created Special Parks Committee"
+      },
+      {
+        "time": "N/A",
+        "item": "Soli Sax Quartet Musician Contract for National Night Out"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Operator Bartender License - Tracy L. Rucinski",
+        "body": "The board was scheduled to consider and take possible action on a bartender operator license application for Tracy L. Rucinski."
+      },
+      {
+        "item": "Operator Bartender License - Christine S. Beck",
+        "body": "The board was scheduled to consider and take possible action on a bartender operator license application for Christine S. Beck."
+      },
+      {
+        "item": "Resolution 2026-008 Approving the Village's 2025 Compliance Maintenance Annual Report (CMAR)",
+        "body": "The board was set to consider a resolution approving the village's 2025 Compliance Maintenance Annual Report."
+      },
+      {
+        "item": "Resolution 2026-009 Creating a Special Parks Committee",
+        "body": "The board was scheduled to consider a resolution to create a special parks committee for the village."
+      },
+      {
+        "item": "Resolution 2026-010 Appointing Citizen Members and Trustees to Various Committees, Commissions and Boards",
+        "body": "The board was set to consider a resolution for appointing citizen members and trustees to various village committees, commissions, and boards."
+      },
+      {
+        "item": "Assessment/Revaluation Services Agreement Through 2031 (5½ years)",
+        "body": "The board was expected to consider and take possible action on an assessment and revaluation services agreement with a term extending through 2031."
+      },
+      {
+        "item": "2026 Budget Amendment #1 – Financing for 2026 DPW Truck Purchase",
+        "body": "The board was scheduled to consider a budget amendment to provide financing for a Department of Public Works truck purchase in 2026."
+      },
+      {
+        "item": "2026 Budget Amendment #2 - Provide for 2026 Budget for Newly Created Special Parks Committee",
+        "body": "The board was set to consider a budget amendment to allocate funding for the newly created special parks committee in 2026."
+      },
+      {
+        "item": "Soli Sax Quartet Musician Contract for National Night Out",
+        "body": "The board was scheduled to consider and take possible action on a musician contract for the Soli Sax Quartet to perform at the village's National Night Out event."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda with a 15-minute time limit total and a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Expected to vote on approving bartender operator licenses for Tracy L. Rucinski and Christine S. Beck",
+      "Scheduled to vote on Resolution 2026-008 approving the village's 2025 Compliance Maintenance Annual Report",
+      "Scheduled to vote on Resolution 2026-009 creating a special parks committee",
+      "Scheduled to vote on Resolution 2026-010 appointing citizen members and trustees to various committees, commissions, and boards",
+      "Expected to consider and vote on the Assessment/Revaluation Services Agreement through 2031",
+      "Expected to consider and vote on 2026 Budget Amendment #1 for DPW truck purchase financing",
+      "Expected to consider and vote on 2026 Budget Amendment #2 for special parks committee funding",
+      "Expected to consider and vote on the Soli Sax Quartet musician contract for National Night Out",
+      "Scheduled to convene closed session to discuss investigation record redactions pursuant to Wisconsin Public Records Law"
+    ]
+  },
+  {
+    "id": "bb_750271",
+    "source": "school_board",
+    "title": "Committee of the Whole Meeting",
+    "date": "June 22, 2026",
+    "shortDate": "JUN 22",
+    "committee": "Committee of the Whole",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District's Committee of the Whole meeting on June 22, 2026 was scheduled to address annual compliance and capital improvement matters, including adoption of Wisconsin Academic Standards, renewal of athletic association memberships, review of school improvement strategies, and consideration of facility repairs and equipment disposition. The meeting was expected to include several action items related to building maintenance and asset management.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve the Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Audit of the Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Academic Standards (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "WIAA Renewal (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "AGR Spring Summary Presentation"
+      },
+      {
+        "time": "N/A",
+        "item": "EFIS Repair at South Mountain (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "2026 Auction (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Academic Standards",
+        "body": "Dr. Katie Colwell and Julie Schell were scheduled to present an annual notice of the adoption of Wisconsin Academic Standards by the Wausau School District. The presentation was expected to outline the knowledge and skills students should acquire in each content area and provide guidance for teachers in developing lesson plans and instructional practices."
+      },
+      {
+        "item": "WIAA Renewal",
+        "body": "The board was expected to consider annual renewal of WIAA memberships for Wausau East, Wausau West, and WAVE schools. A sample renewal application was included with the agenda materials."
+      },
+      {
+        "item": "AGR Spring Summary Presentation",
+        "body": "The board was scheduled to review the implementation of AGR strategies and the district's progress on performance objectives for the second semester. The presentation was expected to focus on learning outcomes and priorities outlined in the AGR School's Data and Continuous Improvement Plan."
+      },
+      {
+        "item": "EFIS Repair at South Mountain",
+        "body": "Director of Buildings and Grounds Ryan Urmanski was scheduled to present information about the South Mountain EFIS Wall System and the need for its replacement. The presentation was expected to provide details supporting action on this facility maintenance matter."
+      },
+      {
+        "item": "2026 Auction",
+        "body": "Buildings and Grounds Director Ryan Urmanski was scheduled to present information about a potential auction of district equipment and how the proceeds would be used. The presentation was expected to outline the disposition of various pieces of equipment and funding allocation plans."
+      }
+    ],
+    "publicComment": "A public and student comment period was included on the agenda.",
+    "actionItems": [
+      "Board was expected to vote on adoption of Wisconsin Academic Standards",
+      "Action was requested for renewal of WIAA memberships for Wausau East, Wausau West, and WAVE",
+      "Action was requested regarding EFIS wall system repair at South Mountain",
+      "Action was requested regarding the 2026 equipment auction and use of proceeds"
+    ]
+  },
+  {
+    "id": "bb_750995",
+    "source": "school_board",
+    "title": "Special Meeting",
+    "date": "June 22, 2026",
+    "shortDate": "JUN 22",
+    "committee": "Special Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750995",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750995",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to consider personnel actions including appointments, separations, leaves of absence, and retirements. The board was expected to vote on a consent agenda containing staffing changes and related human resources matters.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approve Consent Agenda",
+        "body": "The board was expected to consider a consent agenda encompassing four categories of personnel actions: appointments of additional and replacement staff with contract increases, separations including resignations, contract decreases and terminations, leaves of absence, and retirements. The consent agenda packet was last modified on June 18, 2026."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on approval of the consent agenda containing personnel appointments, separations, leaves of absence, and retirements"
+    ]
+  },
+  {
     "id": "bb_747929",
     "source": "dc_everest",
     "title": "Regular School Board Meeting Including a Public Hearing as Required Underneath Wis. Stat. 118.38(1)(b)",

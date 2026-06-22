@@ -497,6 +497,50 @@
       "video_url": null,
       "processed_at": "2026-06-19T09:08:01.803698+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt1-61626-7g0iuk3xehc.md"
+    },
+    "bb_750995": {
+      "title": "Special Meeting - 2026-06-22",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750995",
+      "upload_date": "20260622",
+      "meeting_date": "20260622",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-06-22T03:53:17.876344+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-06-22-bb-750995.md"
+    },
+    "bb_750271": {
+      "title": "Committee of the Whole Meeting - 2026-06-22",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
+      "upload_date": "20260622",
+      "meeting_date": "20260622",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-06-22T03:53:23.786180+00:00",
+      "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-06-22-bb-750271.md"
+    },
+    "kw_763affdb06034572ad57359551b02e1c": {
+      "title": "Village Board Meeting - 2026-06-22",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-763affdb06034572ad57359551b02e1c.pdf",
+      "upload_date": "20260622",
+      "meeting_date": "20260622",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-60",
+      "processed_at": "2026-06-22T03:53:33.149658+00:00",
+      "summary_file": "summaries/kronenwetter-village-board-meeting-2026-06-22-kw-763affdb06034572ad57359551b02e1c.md"
+    },
+    "kw_8eb365830ccd47e5865e3f22088e7351": {
+      "title": "Police and Fire Commission Meeting - 2026-06-22",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-8eb365830ccd47e5865e3f22088e7351.pdf",
+      "upload_date": "20260622",
+      "meeting_date": "20260622",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
+      "processed_at": "2026-06-22T03:53:36.688141+00:00",
+      "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-06-22-kw-8eb365830ccd47e5865e3f22088e7351.md"
     }
   }
 }
