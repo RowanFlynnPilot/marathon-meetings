@@ -115,27 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-22",
-      "time": "7:30 AM",
-      "name": "Police & Fire Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2148/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "8:30 AM",
-      "name": "Capital Improvement Projects Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2483/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "5:00 PM",
-      "name": "Bicycle & Pedestrian Advisory Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2123/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-23",
       "time": "10:30 AM",
       "name": "Board of Public Works Meeting",
@@ -211,23 +190,30 @@
       "name": "Board of Public Works Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2480/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-07-06",
+      "time": "5:15 PM",
+      "name": "Parks & Recreation Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2454/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "4:00 PM",
+      "name": "Wausau Arts Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3532/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "5:30 PM",
+      "name": "Economic Development Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2402/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-06-22",
-      "time": "",
-      "name": "Park and Recreation Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_06222026-1932",
-      "source": "weston"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "name": "Parks & Recreation Committee",
-      "url": "https://www.westonwi.gov/agendacenter",
-      "source": "weston"
-    },
     {
       "date": "2026-07-06",
       "time": "6:00 PM",
@@ -336,27 +322,6 @@
   ],
   "school_board": [
     {
-      "date": "2026-06-22",
-      "time": "5:00 PM",
-      "name": "Committee of the Whole Meeting",
-      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
-      "source": "school_board"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "5:00 PM",
-      "name": "Education & Operations Committee",
-      "url": "https://meetings.boardbook.org/Public/Organization/1360",
-      "source": "school_board"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "5:30 PM",
-      "name": "Special Meeting",
-      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750995",
-      "source": "school_board"
-    },
-    {
       "date": "2026-07-13",
       "time": "5:00 PM",
       "name": "Regular Board Meeting",
@@ -379,20 +344,6 @@
     }
   ],
   "kronenwetter": [
-    {
-      "date": "2026-06-22",
-      "time": "5:00 PM",
-      "name": "Police and Fire Commission Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
-      "source": "kronenwetter"
-    },
-    {
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "name": "Village Board Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-60",
-      "source": "kronenwetter"
-    },
     {
       "date": "2026-07-06",
       "time": "6:00 PM",
