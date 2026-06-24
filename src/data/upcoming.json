@@ -1,20 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-06-23",
-      "time": "5:00 PM",
-      "name": "Environmental Resources Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "7:00 PM",
-      "name": "County Board Meeting",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-07-02",
       "time": "5:00 PM",
       "name": "Health & Human Services Committee",
@@ -115,48 +101,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-06-23",
-      "time": "10:30 AM",
-      "name": "Board of Public Works Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2376/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "12:00 PM",
-      "name": "Community Development Authority Board Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3533/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "4:00 PM",
-      "name": "Room Tax Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3530/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "5:00 PM",
-      "name": "Plan Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3529/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "5:15 PM",
-      "name": "Finance Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2428/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-06-23",
-      "time": "6:30 PM",
-      "name": "Common Council Retreat",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3515/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-06-24",
       "time": "4:00 PM",
       "name": "One Time Event",
@@ -210,6 +154,55 @@
       "time": "5:30 PM",
       "name": "Economic Development Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2402/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-08",
+      "time": "6:00 PM",
+      "name": "Airport Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1954/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "5:00 PM",
+      "name": "Sustainability, Energy & Environment Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2170/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "5:00 PM",
+      "name": "Infrastructure & Facilities Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2441/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "4:45 PM",
+      "name": "Human Resources Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2031/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3534/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "11:30 AM",
+      "name": "Water Works Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2193/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2415/overview",
       "source": "wausau"
     }
   ],
