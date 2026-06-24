@@ -99,7 +99,113 @@
       "source": "marathon"
     }
   ],
-  "wausau": [],
+  "wausau": [
+    {
+      "date": "2026-06-24",
+      "time": "4:00 PM",
+      "name": "One Time Event",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3514/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-24",
+      "time": "4:15 PM",
+      "name": "Historic Preservation Commission Ad Hoc Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3531/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-24",
+      "time": "4:30 PM",
+      "name": "Historic Preservation Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2499/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-25",
+      "time": "8:00 AM",
+      "name": "Joint Review Board Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2498/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-06-30",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2480/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-06",
+      "time": "5:15 PM",
+      "name": "Parks & Recreation Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2454/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "4:00 PM",
+      "name": "Wausau Arts Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3532/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "5:30 PM",
+      "name": "Economic Development Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2402/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-08",
+      "time": "6:00 PM",
+      "name": "Airport Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1954/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "5:00 PM",
+      "name": "Sustainability, Energy & Environment Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2170/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-09",
+      "time": "5:00 PM",
+      "name": "Infrastructure & Facilities Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2441/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-13",
+      "time": "4:45 PM",
+      "name": "Human Resources Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2031/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3534/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "11:30 AM",
+      "name": "Water Works Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2193/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-14",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2415/overview",
+      "source": "wausau"
+    }
+  ],
   "weston": [
     {
       "date": "2026-07-06",
