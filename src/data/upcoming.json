@@ -97,16 +97,23 @@
       "name": "HR, Finance & Property Committee",
       "url": "https://www.marathoncounty.gov/about-us/county-calendar",
       "source": "marathon"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "5:00 PM",
+      "name": "Environmental Resources Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "7:00 PM",
+      "name": "County Board Meeting",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
     }
   ],
   "wausau": [
-    {
-      "date": "2026-06-25",
-      "time": "8:00 AM",
-      "name": "Joint Review Board Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2498/overview",
-      "source": "wausau"
-    },
     {
       "date": "2026-06-30",
       "time": "10:30 AM",
@@ -203,6 +210,13 @@
       "time": "4:45 PM",
       "name": "Transit Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2181/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-17",
+      "time": "8:00 AM",
+      "name": "Capital Improvement Projects Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2484/overview",
       "source": "wausau"
     }
   ],
