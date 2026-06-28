@@ -541,6 +541,17 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
       "processed_at": "2026-06-22T03:53:36.688141+00:00",
       "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-06-22-kw-8eb365830ccd47e5865e3f22088e7351.md"
+    },
+    "ojZQHZHTodE": {
+      "title": "Wausau Transit Commission Meeting - 6/18/26",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260618",
+      "meeting_date": "20260618",
+      "duration": 1854.0,
+      "video_url": null,
+      "processed_at": "2026-06-28T17:07:25.200529+00:00",
+      "summary_file": "summaries/wausau-wausau-transit-commission-meeting-61826-ojzqhzhtode.md"
     }
   }
 }
