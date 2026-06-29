@@ -552,6 +552,17 @@
       "video_url": null,
       "processed_at": "2026-06-28T17:07:25.200529+00:00",
       "summary_file": "summaries/wausau-wausau-transit-commission-meeting-61826-ojzqhzhtode.md"
+    },
+    "kw_2db49f1a40bb48f29ddef818971f951e": {
+      "title": "Parks Committee - 2026-06-29",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2db49f1a40bb48f29ddef818971f951e.pdf",
+      "upload_date": "20260629",
+      "meeting_date": "20260629",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee",
+      "processed_at": "2026-06-29T03:33:50.251717+00:00",
+      "summary_file": "summaries/kronenwetter-parks-committee-2026-06-29-kw-2db49f1a40bb48f29ddef818971f951e.md"
     }
   }
 }
