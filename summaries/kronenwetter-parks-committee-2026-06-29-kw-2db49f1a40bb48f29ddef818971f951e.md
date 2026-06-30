@@ -3,37 +3,56 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2db49f1a40bb48f29ddef818971f951e.pdf  
-**Summarized:** 2026-06-29 03:33 UTC
+**Summarized:** 2026-06-30 02:59 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Parks Committee was scheduled to hold an organizational meeting to establish leadership, review committee responsibilities, and address several substantive items including consideration of a 2026-2030 Outdoor Recreation Plan and planning for a July community event.
+The Village of Kronenwetter held its inaugural Parks Committee meeting on June 29, 2026, electing officers, reviewing committee duties, and launching into substantive planning for Bushka Park improvements and fundraising. The newly formed seven-member committee — two trustees and five citizen members — focused heavily on a roughly $150,000-$200,000 playground replacement project at Bushka Park, with a public fundraiser planned for a July 17 movie-under-the-stars event. The committee also scheduled a parks tour for Wednesday, July 8 at 4 p.m. and set a meeting cadence of the first and third Mondays of July and August at 4 p.m.
 
 ## Key Discussions
-### Kronenwetter 2026-2030 Outdoor Recreation Plan
-The committee was scheduled to discuss and consider possible action on the village's outdoor recreation plan covering the 2026-2030 period. This item was set for discussion and possible action during the new business section of the meeting.
+### Selection of Chairperson
+Patty DeCaliskey nominated Trustee Erin Mishka for chairperson. No other nominations were offered. A voice vote was taken; the ayes carried with one abstention noted. Erin Mishka was elected chairperson and assumed the chair for the remainder of the meeting.
 
-### Buska Park Fundraiser - July 17, 2026 Movie Under the Stars Event
-The committee was expected to discuss planning and details for a Movie Under the Stars fundraiser event scheduled for July 17, 2026 at Buska Park. This item was set for discussion and possible action.
+### Selection of Vice Chairperson
+Patty DeCaliskey nominated Dan Lesniac for vice chairperson. A roll call vote was taken; Theresa Holowinsky, Dan Lesniac, Tim Stracota, Patty DeCaliskey, Elizabeth Vedvik, and Trustee Mishka all voted yes. The motion carried unanimously.
 
-### Fundraising Ideas
-The committee was scheduled to discuss broader fundraising ideas and strategies to support parks and recreation initiatives. This item was set for general discussion and consideration of possible future actions.
+### Committee Duties and Responsibilities Review
+Jennifer Poirier reviewed the committee's governing ordinances, noting the seven-member composition, four-member quorum requirement, advisory-only role to the Village Board, and the committee's duration of up to one year expiring at end of April. Trustee Mishka was credited with developing the duties document. Mishka indicated she would forgo her committee pay so the budget could support a potential sixth meeting.
 
-### Future Parks Tour
-The committee was set to discuss planning for a future parks tour. This item was scheduled for discussion and possible action.
+### Kronenwetter 2026-2030 Outdoor Recreation Plan Review
+The committee discussed the recently completed outdoor recreation plan, with Chairperson Mishka highlighting that the plan's core recommendations begin on page 36 and cover all village parks. Members noted a survey of only 156 respondents out of 8,623 residents felt too narrow in scope. Dan Lesniac shared anecdotal evidence of Bushka Park's baseball field being used daily. The committee agreed the plan should serve as a guiding document while also gathering additional community input, and that Bushka Park playground replacement — already identified as a top priority — aligns with survey findings that updated equipment was residents' top concern.
 
-### Set Meeting Dates and Times
-The committee was expected to establish and confirm regular meeting dates and times for the Parks Committee going forward. This item was set for discussion and possible action.
+### Bushka Park Fundraiser (Movie Under the Stars / July 17 Event)
+The committee discussed leveraging the July 17 movie-under-the-stars event, hosted annually by On Cue Solutions (Ronda), as a fundraising kickoff for the Bushka Park playground project. The current fundraising balance is approximately $5,000 toward a goal of $200,000, with the base playground quote from Lee's Recreation at approximately $150,000, and the higher goal intended to allow for a rubberized surface instead of ADA wood chips. Ideas discussed included a wishing-well style transparent pool for coin/cash donations with QR code cards, Patty DeCaliskey selling jewelry with a portion going to the park, Elizabeth Vedvik doing home-bakery sales, a potential 50/50 raffle through On Cue Solutions (who holds a raffle license), a large presentation on the movie screen showing equipment breakdowns and sponsorship levels, and potential naming rights for playground elements such as swings or slides. The committee discussed the need to develop formal donation tiers with recognition (e.g., plaques). Chairperson Mishka and Vice Chair Lesniac noted they would both be absent July 17; Patty DeCaliskey and others agreed to present the fundraising pitch.
+
+### General Fundraising Ideas
+The committee brainstormed a wide range of future fundraising concepts including a 5K run/walk or poker walk connecting village parks, a summer concert event at Towering Pines Park with food trucks and a beer tent, a fall block party potentially in partnership with Relocation bar (which holds a liquor license), a carnival-style event with kids' games, and partnering with the Lion's Club on a fall fest. Members also discussed adding a park fundraising component to National Night Out (August 4) including a tug-of-war between police and fire departments. Jennifer Poirier noted the village cannot independently hold a raffle without partnering with a licensed organization. The committee agreed to focus near-term energy on the July 17 event and an August concert event, tentatively discussed for around August 23.
+
+### Future Parks Tour Planning
+The committee agreed to conduct a parks tour led by Village Administrator Greg, planned for Wednesday, July 8 at 4 p.m. meeting at the municipal center, with Thursday, July 9 at 4 p.m. as a rain date. The tour will cover approximately five parks, with the committee debating whether to visit all parks; leadership recommended focusing on the busiest five parcels first to avoid exhaustion, with additional park visits possible at future meetings. The tour will be open to community members.
+
+### Setting Future Meeting Dates and Times
+The committee agreed to meet on the first and third Mondays of July and August at 4 p.m., mirroring the schedule of the clip committee and plan commission. Specific dates discussed were July 20, August 3, and August 17. Members noted that once the school year begins, Monday afternoon meetings would become difficult; the committee aimed to complete most of its work by end of August. Additional meetings could be added as needed on alternate days such as Thursdays.
+
+### Adjournment
+Dan Lesniac moved to adjourn; Tim Stracota seconded. The motion carried on a voice vote with all ayes and no opposition.
 
 ## Public Comment
-Public comment was on the agenda, with a 15-minute total limit and three-minute individual time limit per person, per State Statute Section 19.84(2). Time extensions were subject to the Chief Presiding Officer's discretion.
+No public comment was offered. Chairperson Mishka called for public comment and confirmed no members of the public wished to speak.
 
 ## Action Items
-- Scheduled to elect a Chairperson
-- Scheduled to elect a Vice-Chairperson
-- Expected to consider possible action on the 2026-2030 Outdoor Recreation Plan
-- Expected to consider possible action regarding the July 17 Movie Under the Stars fundraiser at Buska Park
-- Expected to consider and discuss fundraising ideas
-- Expected to take possible action on scheduling a future parks tour
-- Scheduled to establish regular meeting dates and times for the committee
+- Erin Mishka elected Parks Committee Chairperson; Dan Lesniac elected Vice Chairperson
+- Jennifer Poirier to submit in writing Chairperson Mishka's waiver of committee pay to support a potential sixth meeting
+- Jennifer Poirier to contact Greg (Village Administrator) to confirm parks tour for Wednesday July 8 at 4 p.m. at municipal center, with July 9 as rain date; tour open to public
+- Committee to contact Lee's Recreation (via Greg) to get revised/updated cost quotes including rubberized surface and zip line options for Bushka Park playground
+- Jennifer Poirier to reach out to On Cue Solutions (Ronda) to confirm her participation July 17 and explore 50/50 raffle partnership
+- Committee to prepare a fundraising presentation for July 17 movie-under-the-stars event, including slides showing equipment sponsorship opportunities (swings, slides, etc.) and QR code donation cards
+- Elizabeth Vedvik to prepare baked goods for sale at July 17 fundraiser event
+- Patty DeCaliskey to sell jewelry at July 17 event with proceeds benefiting Bushka Park
+- Committee to procure a transparent pool/wishing-well style donation vessel for the July 17 event and future farmers markets
+- Committee to develop formal donor recognition tiers and naming rights options (e.g., named benches, swings, pavilion)
+- Jennifer Poirier to explore feasibility of a summer concert/block party event around August 23 at Towering Pines Park with food trucks and potential beer tent
+- Committee to explore tug-of-war between police and fire departments as a fundraising draw at National Night Out (August 4)
+- Committee to explore partnership with Relocation bar regarding beer tent/liquor license for a fall fundraising event
+- Future meeting schedule set: July 20, August 3, August 17 at 4 p.m. (first and third Mondays); additional meetings to be added as needed
