@@ -163,9 +163,9 @@ def render(today, days=7, out="digest.png"):
     week = load_week(today, days)
 
     # -- layout constants ------------------------------------------------------
-    TOP_RULE   = 5
+    TOP_RULE   = 0       # (no gold top rule)
     HEADER_H   = 74
-    SECTION_H  = 46
+    SECTION_H  = 88      # centered title + date range, with breathing room
     DAY_H      = 40
     FOOTER_H   = 62
     GROUP_GAP  = 10
@@ -200,30 +200,37 @@ def render(today, days=7, out="digest.png"):
     def rect(x0, y0, x1, y1, fill):
         d.rectangle([x0 * SCALE, y0 * SCALE, x1 * SCALE, y1 * SCALE], fill=fill)
 
-    # -- gold top rule + header band ------------------------------------------
-    rect(0, 0, WIDTH, TOP_RULE, GOLD)
-    rect(0, TOP_RULE, WIDTH, TOP_RULE + HEADER_H, TEAL_DK)
+    # -- header band (teal, full-width; no top rule) --------------------------
+    rect(0, 0, WIDTH, HEADER_H, TEAL_DK)
 
     # WPR logo (left) in the band
-    band_cy = TOP_RULE + HEADER_H / 2
+    band_cy = HEADER_H / 2
     logo_d = 46
     logo = _circle_avatar(PUBLIC_DIR / "wpr-logo.jpg", logo_d)
     img.paste(logo, (int(MARGIN * SCALE), int((band_cy - logo_d / 2) * SCALE)), logo)
 
-    # centered title
+    # centered wordmark title
     title = "CENTRAL WISCONSIN MEETING TRACKER"
     tf = bebas(30)
     tw = _text_w(d, title, tf, tracking=3)
     _tracked_text(d, ((WIDTH - tw) / 2, band_cy - 16), title, tf, WHITE, tracking=3)
 
-    # -- section label: date range --------------------------------------------
-    y = TOP_RULE + HEADER_H + 26
-    start_lbl = today.strftime("%b %-d") if os.name != "nt" else today.strftime("%b %d").replace(" 0", " ")
+    # -- section header (centered): bold black title + date range -------------
+    start_lbl = today.strftime("%b %d").replace(" 0", " ")
     end_d = week[-1][0] if week else today + timedelta(days=days)
     end_lbl = end_d.strftime("%b %d").replace(" 0", " ")
-    section = f"MEETINGS THIS WEEK  ·  {start_lbl.upper()} – {end_lbl.upper()}"
-    _tracked_text(d, (MARGIN, y), section, bebas(17), GOLD, tracking=2)
-    y = TOP_RULE + HEADER_H + SECTION_H
+
+    t1 = "MEETINGS THIS WEEK"
+    f1 = bebas(32)
+    w1 = _text_w(d, t1, f1, tracking=6)
+    _tracked_text(d, ((WIDTH - w1) / 2, HEADER_H + 24), t1, f1, INK, tracking=6)
+
+    t2 = f"{start_lbl.upper()}  –  {end_lbl.upper()}"
+    f2 = bebas(15)
+    w2 = _text_w(d, t2, f2, tracking=3)
+    _tracked_text(d, ((WIDTH - w2) / 2, HEADER_H + 64), t2, f2, TEAL_DK, tracking=3)
+
+    y = HEADER_H + SECTION_H
 
     # -- day groups ------------------------------------------------------------
     if not week:
