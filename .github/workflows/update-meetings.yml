@@ -149,6 +149,13 @@ jobs:
       - name: Update upcoming meetings
         run: python update_upcoming.py
 
+      - name: Generate weekly digest PNG
+        # Newsletter image of the coming week's meetings. Written to public/ so
+        # the Vite build copies it into dist/ → served at /marathon-meetings/digest.png.
+        # continue-on-error: a digest failure must never block the deploy.
+        continue-on-error: true
+        run: python generate_digest.py --out public/digest.png
+
       - name: Commit data and deploy assets
         run: |
           git config --local user.email "action@github.com"
@@ -158,6 +165,7 @@ jobs:
           git add -f injected_meetings.json || true
           git add -f processed_meetings.json || true
           git add -f summaries/ || true
+          git add -f public/digest.png || true
           git status
           git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
           git push || true

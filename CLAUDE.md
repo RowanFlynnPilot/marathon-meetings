@@ -19,14 +19,16 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - `python marathon_meeting_summarizer.py --url URL` — process a specific YouTube video
 - `python inject_meetings.py` — read summaries and inject into the MEETINGS array in JSX
 - `python update_upcoming.py` — refresh upcoming meeting schedules in JSX
+- `python generate_digest.py` — render `public/digest.png` (weekly newsletter image of upcoming meetings); `--date YYYY-MM-DD` overrides "today", `--days N` the window
 
 ## GitHub Actions Pipeline Order
 1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
 2. `inject_transcript.py` (per file in `transcripts/`) → overrides agenda-only summaries with full-transcript ones
 3. `inject_meetings.py` → writes `src/data/meetings.json` (pruned to MAX_MEETINGS, newest first)
 4. `update_upcoming.py` → writes `src/data/upcoming.json` (keyed by source)
-5. `npm run build` → `dist/`
-6. Commit updated data files, deploy to Pages
+5. `generate_digest.py` → writes `public/digest.png` (Pillow; fonts in `assets/fonts/`; served at `/marathon-meetings/digest.png` for the newsletter)
+6. `npm run build` → `dist/` (copies `public/digest.png` → `dist/digest.png`)
+7. Commit updated data files, deploy to Pages
 
 ## Data Sources (5 jurisdictions)
 
