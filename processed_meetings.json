@@ -563,6 +563,17 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee",
       "processed_at": "2026-06-29T03:33:50.251717+00:00",
       "summary_file": "summaries/kronenwetter-parks-committee-2026-06-29-kw-2db49f1a40bb48f29ddef818971f951e.md"
+    },
+    "bb_753632": {
+      "title": "Public Meeting - 2026-07-01",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=753632",
+      "upload_date": "20260701",
+      "meeting_date": "20260701",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-07-01T03:29:11.791940+00:00",
+      "summary_file": "summaries/school-board-public-meeting-2026-07-01-bb-753632.md"
     }
   }
 }
