@@ -126,6 +126,20 @@ WESTON_SCHEDULE = [
 WESTON_CALENDAR_BASE = "https://www.westonwi.gov"
 
 
+def _norm_committee(name: str) -> str:
+    """Canonical key for de-duping a committee across sources. AgendaCenter
+    headings and the rule-based schedule spell the same body differently
+    ('Community, Life and Public Safety (CLPS) Committee' vs
+    'Community Life & Public Safety Committee'); normalize both to one key so
+    they don't show up as two meetings."""
+    s = name.lower()
+    s = re.sub(r"\([^)]*\)", " ", s)                 # drop parentheticals e.g. "(CLPS)"
+    s = s.replace("&", " and ")
+    s = re.sub(r"[^a-z0-9 ]", " ", s)                # drop commas/periods
+    s = re.sub(r"\b(committee|commission)\b", " ", s)  # trailing type word
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
     today     = date.today()
     end_date  = today + timedelta(days=days_ahead)
@@ -152,7 +166,7 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
                 try:
                     d = date(int(yr), int(mo), int(dy))
                     if today <= d <= end_date:
-                        key = (d.isoformat(), committee)
+                        key = (d.isoformat(), _norm_committee(committee))
                         results[key] = {
                             "date":   d.isoformat(),
                             "time":   "",
@@ -172,7 +186,7 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
             meeting_date = nth_weekday(yr, mo, weekday, nth)
             if meeting_date is None or not (today <= meeting_date <= end_date):
                 continue
-            key = (meeting_date.isoformat(), committee)
+            key = (meeting_date.isoformat(), _norm_committee(committee))
             if key not in results:
                 results[key] = {
                     "date":   meeting_date.isoformat(),
@@ -182,6 +196,14 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
                     "source": "weston",
                 }
                 rule_added += 1
+            else:
+                # Same body already posted by the scrape — enrich it rather than
+                # duplicating: fill in the standard time if the scrape lacked one,
+                # and prefer the clean scheduled name for display.
+                ex = results[key]
+                if not ex.get("time"):
+                    ex["time"] = time_str
+                ex["name"] = committee
 
     print(f"  📅  Weston rule-based: {rule_added} additional meetings projected")
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))

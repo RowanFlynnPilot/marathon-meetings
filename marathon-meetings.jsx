@@ -1211,7 +1211,10 @@ function UpcomingMeetings({ isMobile }) {
                                 fontFamily: "'Playfair Display', Georgia, serif",
                                 fontSize: "13px", fontWeight: 600,
                                 color: INK, lineHeight: 1.3,
-                                whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
+                                // Wrap to up to two lines instead of clipping to
+                                // one, so long committee names show in full.
+                                display: "-webkit-box", WebkitLineClamp: 2,
+                                WebkitBoxOrient: "vertical", overflow: "hidden",
                               }}>{ev.name}</div>
                               <div style={{
                                 display: "flex", alignItems: "center", gap: "6px", marginTop: "3px",

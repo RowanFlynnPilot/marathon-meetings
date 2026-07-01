@@ -92,6 +92,26 @@ def _truncate(draw, text, font, max_w):
         text = text[:-1]
     return (text.rstrip() + ell) if text else ell
 
+def _wrap_lines(draw, text, font, max_w, max_lines=2):
+    """Greedy word-wrap into up to max_lines that each fit max_w. If the text
+    still overflows, the last line is ellipsized. Returns a list of lines."""
+    words = text.split()
+    lines, cur, wi = [], "", 0
+    while wi < len(words) and len(lines) < max_lines:
+        w = words[wi]
+        trial = (cur + " " + w).strip()
+        if not cur or _text_w(draw, trial, font) <= max_w:
+            cur, wi = trial, wi + 1
+        else:
+            lines.append(cur); cur = ""
+    if cur and len(lines) < max_lines:
+        lines.append(cur); cur = ""
+    if wi < len(words):  # ran out of lines — ellipsize the last one with the rest
+        last = lines[-1] if lines else ""
+        rest = (last + " " + " ".join(words[wi:])).strip()
+        lines[-1:] = [_truncate(draw, rest, font, max_w)]
+    return lines or [""]
+
 def _circle_avatar(path, d):
     """Return a circular RGBA avatar of diameter d (1x)."""
     dd = d * SCALE
@@ -142,18 +162,33 @@ def _time_key(t):
 def render(today, days=7, out="digest.png"):
     week = load_week(today, days)
 
-    # -- measure height --------------------------------------------------------
+    # -- layout constants ------------------------------------------------------
     TOP_RULE   = 5
     HEADER_H   = 74
     SECTION_H  = 46
     DAY_H      = 40
-    ROW_H      = 56
     FOOTER_H   = 62
     GROUP_GAP  = 10
+    ROW_TOP    = 26      # name baseline offset within a row
+    LINE_H     = 22      # per name line
+    ROW_BOT    = 10      # padding below the name block
+
+    # -- pre-pass: wrap each meeting name to <=2 lines & size its row ----------
+    _mdraw = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    _nfont = lora(18, 500)
+    _tfont = bebas(19)
+    _text_x = MARGIN + 38 + 14   # after the 38px avatar
+    for _d, evs in week:
+        for ev in evs:
+            ev["_time_txt"] = ev["time"] or "TIME TBD"
+            ev["_time_w"] = _text_w(_mdraw, ev["_time_txt"], _tfont, tracking=1)
+            name_max = (WIDTH - MARGIN - ev["_time_w"] - 18) - _text_x
+            ev["_lines"] = _wrap_lines(_mdraw, ev["name"], _nfont, name_max, max_lines=2)
+            ev["_row_h"] = ROW_TOP + len(ev["_lines"]) * LINE_H + ROW_BOT
 
     body_h = 0
     for _d, evs in week:
-        body_h += DAY_H + len(evs) * ROW_H + GROUP_GAP
+        body_h += DAY_H + sum(ev["_row_h"] for ev in evs) + GROUP_GAP
     if not week:
         body_h = 90
     height = TOP_RULE + HEADER_H + SECTION_H + body_h + FOOTER_H + 18
@@ -206,32 +241,31 @@ def render(today, days=7, out="digest.png"):
 
         for ev in evs:
             label, accent, avatar_file = SOURCES[ev["source"]]
-            row_cy = y + ROW_H / 2
+            row_h  = ev["_row_h"]
+            row_cy = y + row_h / 2
 
-            # avatar
+            # avatar (vertically centered in the row)
             av_d = 38
             av = _circle_avatar(PUBLIC_DIR / avatar_file, av_d)
             img.paste(av, (int(MARGIN * SCALE), int((row_cy - av_d / 2) * SCALE)), av)
 
             text_x = MARGIN + av_d + 14
 
-            # time (right-aligned) — measure first to bound the name
-            time_txt = ev["time"] or "TIME TBD"
+            # time (right-aligned, centered on the row)
             tfont = bebas(19)
-            time_w = _text_w(d, time_txt, tfont, tracking=1)
-            _tracked_text(d, (WIDTH - MARGIN - time_w, row_cy - 11), time_txt,
+            _tracked_text(d, (WIDTH - MARGIN - ev["_time_w"], row_cy - 11), ev["_time_txt"],
                           tfont, TEAL_DK, tracking=1)
 
             # entity label (source color, small caps)
             _tracked_text(d, (text_x, y + 9), label.upper(), bebas(12), accent, tracking=1.2)
 
-            # meeting name (serif), truncated to fit before the time column
-            name_max = (WIDTH - MARGIN - time_w - 18) - text_x
+            # meeting name (serif) — up to two wrapped lines, full title shown
             nfont = lora(18, 500)
-            name = _truncate(d, ev["name"], nfont, name_max)
-            d.text((text_x * SCALE, (y + 26) * SCALE), name, font=nfont, fill=NAME_INK)
+            for i, line in enumerate(ev["_lines"]):
+                d.text((text_x * SCALE, (y + ROW_TOP + i * LINE_H) * SCALE),
+                       line, font=nfont, fill=NAME_INK)
 
-            y += ROW_H
+            y += row_h
         y += GROUP_GAP
 
     # -- footer ----------------------------------------------------------------
