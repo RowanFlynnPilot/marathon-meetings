@@ -136,6 +136,13 @@
       "source": "wausau"
     },
     {
+      "date": "2026-07-08",
+      "time": "10:30 AM",
+      "name": "Board of Public Works Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3538/overview",
+      "source": "wausau"
+    },
+    {
       "date": "2026-07-09",
       "time": "5:00 PM",
       "name": "Sustainability, Energy & Environment Committee Meeting",
@@ -203,13 +210,6 @@
       "time": "8:00 AM",
       "name": "Capital Improvement Projects Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2484/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-07-20",
-      "time": "5:15 PM",
-      "name": "Public Health & Safety Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2467/overview",
       "source": "wausau"
     }
   ],
@@ -361,8 +361,8 @@
     {
       "date": "2026-07-06",
       "time": "6:00 PM",
-      "name": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-26",
+      "name": "REVISED Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/revised-community-life-infrastructure-and-public-property-clipp-committee-meeting-3",
       "source": "kronenwetter"
     },
     {
