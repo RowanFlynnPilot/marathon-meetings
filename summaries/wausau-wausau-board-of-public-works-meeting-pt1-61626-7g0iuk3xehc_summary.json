@@ -85,5 +85,10 @@
   "url": "https://www.youtube.com/watch?v=7G0iUK3XEhc",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-06-19T09:08:01.803514+00:00"
+  "processed_at": "2026-06-19T09:08:01.803514+00:00",
+  "topics": [
+    "Roads",
+    "Utilities",
+    "North Fourth Street Lighting Project"
+  ]
 }

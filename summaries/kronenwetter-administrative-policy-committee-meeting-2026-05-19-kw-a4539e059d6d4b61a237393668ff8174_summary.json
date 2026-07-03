@@ -111,5 +111,11 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf",
-  "processed_at": "2026-06-10T21:41:59.826545+00:00"
+  "processed_at": "2026-06-10T21:41:59.826545+00:00",
+  "topics": [
+    "Budget",
+    "Staffing",
+    "Public Safety",
+    "Fire Department"
+  ]
 }

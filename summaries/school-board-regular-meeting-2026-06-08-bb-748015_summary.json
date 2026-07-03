@@ -117,5 +117,10 @@
   "url": "https://www.youtube.com/watch?v=LRP6M6If13w",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
-  "processed_at": "2026-07-03T04:42:55.843115+00:00"
+  "processed_at": "2026-07-03T04:42:55.843115+00:00",
+  "topics": [
+    "Budget",
+    "Curriculum",
+    "Facilities"
+  ]
 }

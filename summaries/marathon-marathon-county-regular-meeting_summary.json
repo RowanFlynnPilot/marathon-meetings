@@ -84,5 +84,10 @@
   "url": "https://www.youtube.com/watch?v=WD9kixgx6oY",
   "source": "marathon",
   "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-  "processed_at": "2026-06-10T15:30:19.800018+00:00"
+  "processed_at": "2026-06-10T15:30:19.800018+00:00",
+  "topics": [
+    "Budget",
+    "Utilities",
+    "Staffing"
+  ]
 }

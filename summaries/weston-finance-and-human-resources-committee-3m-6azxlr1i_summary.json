@@ -69,5 +69,9 @@
   "url": "https://www.youtube.com/watch?v=3M_6AzxlR1I",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-06-17T03:45:23.822433+00:00"
+  "processed_at": "2026-06-17T03:45:23.822433+00:00",
+  "topics": [
+    "Budget",
+    "Staffing"
+  ]
 }

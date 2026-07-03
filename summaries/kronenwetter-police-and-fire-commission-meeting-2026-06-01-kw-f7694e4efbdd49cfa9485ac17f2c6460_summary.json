@@ -70,5 +70,9 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-21",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f7694e4efbdd49cfa9485ac17f2c6460.pdf",
-  "processed_at": "2026-06-23T17:52:21.393126+00:00"
+  "processed_at": "2026-06-23T17:52:21.393126+00:00",
+  "topics": [
+    "Public Safety",
+    "Staffing"
+  ]
 }

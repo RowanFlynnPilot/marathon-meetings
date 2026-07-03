@@ -92,5 +92,10 @@
   "url": "https://www.youtube.com/watch?v=DsdQ1pGdIE8",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
-  "processed_at": "2026-07-03T04:43:39.393774+00:00"
+  "processed_at": "2026-07-03T04:43:39.393774+00:00",
+  "topics": [
+    "Curriculum",
+    "Facilities",
+    "South Mountain Elementary"
+  ]
 }

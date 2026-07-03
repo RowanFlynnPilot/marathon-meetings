@@ -117,5 +117,9 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-60",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-763affdb06034572ad57359551b02e1c.pdf",
-  "processed_at": "2026-06-30T03:00:18.804616+00:00"
+  "processed_at": "2026-06-30T03:00:18.804616+00:00",
+  "topics": [
+    "Budget",
+    "Parks"
+  ]
 }

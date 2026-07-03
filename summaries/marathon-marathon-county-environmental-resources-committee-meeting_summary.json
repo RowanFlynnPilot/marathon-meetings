@@ -78,5 +78,10 @@
   "url": "https://www.youtube.com/watch?v=OLzrpSp3Dfg",
   "source": "marathon",
   "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
-  "processed_at": "2026-06-10T15:29:43.267111+00:00"
+  "processed_at": "2026-06-10T15:29:43.267111+00:00",
+  "topics": [
+    "Zoning",
+    "Parks",
+    "Staffing"
+  ]
 }

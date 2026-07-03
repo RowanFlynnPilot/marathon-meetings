@@ -93,5 +93,11 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-58",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c19b4fca8707467fa4d6a2fa1e4a4407.pdf",
-  "processed_at": "2026-06-10T20:28:41.538476+00:00"
+  "processed_at": "2026-06-10T20:28:41.538476+00:00",
+  "topics": [
+    "Roads",
+    "Zoning",
+    "Development",
+    "Marathon County Highway Shop Facility"
+  ]
 }

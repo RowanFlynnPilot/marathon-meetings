@@ -128,5 +128,11 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-24",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc02fc4aee3a40b9852da71250e3b100.pdf",
-  "processed_at": "2026-06-10T20:29:30.501291+00:00"
+  "processed_at": "2026-06-10T20:29:30.501291+00:00",
+  "topics": [
+    "Roads",
+    "Public Safety",
+    "County Highway Shop Facility",
+    "Flanner/Jamroz Project"
+  ]
 }

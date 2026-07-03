@@ -121,5 +121,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/rescheduled-village-board-meeting-0",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-346a936b9fe643feba080928d73675a4.pdf",
-  "processed_at": "2026-06-10T20:27:44.083314+00:00"
+  "processed_at": "2026-06-10T20:27:44.083314+00:00",
+  "topics": [
+    "Development",
+    "Public Safety",
+    "East Nick Avenue Extension"
+  ]
 }

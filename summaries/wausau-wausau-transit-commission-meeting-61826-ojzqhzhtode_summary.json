@@ -78,5 +78,9 @@
   "url": "https://www.youtube.com/watch?v=ojZQHZHTodE",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-06-28T17:07:25.200303+00:00"
+  "processed_at": "2026-06-28T17:07:25.200303+00:00",
+  "topics": [
+    "Transit Expansion",
+    "Wings Over Wausau"
+  ]
 }
