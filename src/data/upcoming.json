@@ -209,9 +209,16 @@
   "weston": [
     {
       "date": "2026-07-06",
+      "time": "",
+      "name": "Village Board of Trustees",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1934",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-06",
       "time": "6:00 PM",
       "name": "Community Life & Public Safety Committee",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1933",
       "source": "weston"
     },
     {
