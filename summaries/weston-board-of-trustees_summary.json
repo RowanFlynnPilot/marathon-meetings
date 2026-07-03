@@ -110,5 +110,47 @@
     "Parks",
     "Development",
     "Kennedy Park"
+  ],
+  "votes": [
+    {
+      "item": "Ordinance 26-010 - Park and Recreation Impact Fees",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Resolution 2026-015 - Amending fee schedule",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Ordinance 26-008 - Mobile Food Vendor License",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Remote Meeting Attendance Policy Amendments - strike health/safety language",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "5-2"
+    },
+    {
+      "item": "Remote Meeting Attendance Policy - amended policy",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "5-2"
+    }
   ]
 }

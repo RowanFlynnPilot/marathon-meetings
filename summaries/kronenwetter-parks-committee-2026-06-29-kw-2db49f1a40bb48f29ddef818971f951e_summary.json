@@ -117,5 +117,23 @@
   "topics": [
     "Parks",
     "Bushka Park"
+  ],
+  "votes": [
+    {
+      "item": "Election of Chairperson",
+      "motion": null,
+      "mover": "Patty DeCaliskey",
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Election of Vice Chairperson",
+      "motion": null,
+      "mover": "Patty DeCaliskey",
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

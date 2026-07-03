@@ -93,5 +93,15 @@
     "Development",
     "Lift Station 8",
     "Glacier Meadows Development"
+  ],
+  "votes": [
+    {
+      "item": "Approval of April Meeting Minutes",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

@@ -97,5 +97,31 @@
     "Curriculum",
     "Facilities",
     "South Mountain Elementary"
+  ],
+  "votes": [
+    {
+      "item": "Audit of Bills",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Annual Adoption of Wisconsin Academic Standards for 2026-27",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "WIAA Membership Renewals for Wausau East, Wausau West, and WAVE",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

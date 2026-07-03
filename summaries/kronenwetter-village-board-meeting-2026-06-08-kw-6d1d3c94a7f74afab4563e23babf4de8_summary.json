@@ -107,5 +107,31 @@
     "Staffing",
     "Facilities",
     "Parks"
+  ],
+  "votes": [
+    {
+      "item": "Mary Solheim appointed as Village Board Trustee",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "5-1"
+    },
+    {
+      "item": "Purchase of 2026 GMC Sierra 2500 truck for Public Works at $49,558.50",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "S.D. Allen Becker awarded municipal garage design-build contract at $799,780",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

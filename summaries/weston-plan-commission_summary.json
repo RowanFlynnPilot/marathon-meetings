@@ -87,5 +87,47 @@
     "Development",
     "Utilities",
     "Mountain Bay Metropolitan Police Department"
+  ],
+  "votes": [
+    {
+      "item": "Site plan for Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive",
+      "motion": "Motion to recommend approval to the board of trustees with staff conditions 2-5",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Salt storage shed inspection program for wellhead protection district",
+      "motion": "Motion to approve the program with reporting to both Plan Commission and Public Works Committee",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "April 2026 meeting minutes",
+      "motion": "Motion to approve the April 13, 2026 meeting minutes as presented",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "April 2026 staff approved certified survey maps and site plans",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "April 2026 building permits",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

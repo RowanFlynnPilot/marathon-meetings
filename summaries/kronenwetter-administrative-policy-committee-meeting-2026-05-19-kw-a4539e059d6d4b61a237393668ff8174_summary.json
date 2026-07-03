@@ -117,5 +117,39 @@
     "Staffing",
     "Public Safety",
     "Fire Department"
+  ],
+  "votes": [
+    {
+      "item": "Election of chairperson",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Election of vice chairperson",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "DNR forest fire protection grant $10,000 match",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "4-0"
+    },
+    {
+      "item": "Police department policy contract with CSI Information LLC",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

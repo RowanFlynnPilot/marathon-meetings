@@ -109,5 +109,39 @@
     "Staffing",
     "Curriculum",
     "Wausau Area Montessori Charter School"
+  ],
+  "votes": [
+    {
+      "item": "Consent agenda including staff appointments, meeting minutes, payment of bills, budget status, investment report, and donations",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "2026-27 Budget Reconciliation Plan",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Teacher contract approvals for 2026-27 school year",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "2.63% wage adjustment for non-teacher employee groups",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

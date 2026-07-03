@@ -121,5 +121,31 @@
   "topics": [
     "Budget",
     "Parks"
+  ],
+  "votes": [
+    {
+      "item": "Consent Agenda - operator licenses, meeting minutes, and check register",
+      "motion": null,
+      "mover": "Trustee Mishka",
+      "second": "Trustee Coil",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Resolution 2026-008 - 2025 Compliance Maintenance Annual Report",
+      "motion": null,
+      "mover": "Trustee Mortensen",
+      "second": "Trustee Mishka",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Resolution 2026-009 - Creating a Special Parks Committee",
+      "motion": null,
+      "mover": "Trustee Lesniak",
+      "second": "Trustee Coil",
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

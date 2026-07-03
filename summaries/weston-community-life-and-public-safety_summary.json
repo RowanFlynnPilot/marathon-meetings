@@ -107,5 +107,31 @@
   "topics": [
     "Public Safety",
     "Roads"
+  ],
+  "votes": [
+    {
+      "item": "Acknowledgment of Department Reports",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Chapter 50 Nuisances Amendments",
+      "motion": null,
+      "mover": "Trustee Olsen",
+      "second": "Campkey",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "E-Bicycle Ordinance Amendments with emoto prohibition",
+      "motion": null,
+      "mover": "Trustee Olsen",
+      "second": "Chwanka",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

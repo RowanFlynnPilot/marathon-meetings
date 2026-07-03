@@ -87,5 +87,15 @@
   "topics": [
     "Public Safety",
     "Staffing"
+  ],
+  "votes": [
+    {
+      "item": "Approval of April 1st meeting minutes",
+      "motion": null,
+      "mover": "Supervisor Cavlli",
+      "second": "Vice Chair Rosenberg",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

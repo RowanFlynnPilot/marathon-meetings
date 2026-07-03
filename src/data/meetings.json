@@ -162,6 +162,24 @@
     "topics": [
       "Parks",
       "Bushka Park"
+    ],
+    "votes": [
+      {
+        "item": "Election of Chairperson",
+        "motion": null,
+        "mover": "Patty DeCaliskey",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Election of Vice Chairperson",
+        "motion": null,
+        "mover": "Patty DeCaliskey",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -282,6 +300,16 @@
       "Development",
       "Facilities",
       "Transit Expansion"
+    ],
+    "votes": [
+      {
+        "item": "Direct staff coordinator Michelle to compile all priority input from retreat",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -385,6 +413,32 @@
       "Curriculum",
       "Facilities",
       "South Mountain Elementary"
+    ],
+    "votes": [
+      {
+        "item": "Audit of Bills",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Annual Adoption of Wisconsin Academic Standards for 2026-27",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "WIAA Membership Renewals for Wausau East, Wausau West, and WAVE",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -512,6 +566,32 @@
     "topics": [
       "Budget",
       "Parks"
+    ],
+    "votes": [
+      {
+        "item": "Consent Agenda - operator licenses, meeting minutes, and check register",
+        "motion": null,
+        "mover": "Trustee Mishka",
+        "second": "Trustee Coil",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Resolution 2026-008 - 2025 Compliance Maintenance Annual Report",
+        "motion": null,
+        "mover": "Trustee Mortensen",
+        "second": "Trustee Mishka",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Resolution 2026-009 - Creating a Special Parks Committee",
+        "motion": null,
+        "mover": "Trustee Lesniak",
+        "second": "Trustee Coil",
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -688,6 +768,32 @@
     "topics": [
       "Transit Expansion",
       "Wings Over Wausau"
+    ],
+    "votes": [
+      {
+        "item": "Accept minutes of preceding meetings",
+        "motion": null,
+        "mover": "Weems",
+        "second": "Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "WisGo Electronic Fare Collection Contract - refer to Finance Committee",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Use of idle express route buses as crowd barriers at Wings Over Wausau airshow",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -1061,6 +1167,40 @@
       "Roads",
       "Utilities",
       "North Fourth Street Lighting Project"
+    ],
+    "votes": [
+      {
+        "item": "Approval of June 9, 2026 minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "2026 East Parking Ramp Project repairs - bid award to Masonry Restorations Inc.",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Pay estimate #28 - Community Infrastructure Partners lead service line replacement",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "2026 Downtown Utility Project - Haas Inc. Change Order #1",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -1186,7 +1326,8 @@
       "Roads",
       "Public Safety",
       "Parks"
-    ]
+    ],
+    "votes": []
   },
   {
     "id": "Sqkikt4swxo",
@@ -1337,6 +1478,40 @@
     "topics": [
       "Public Safety",
       "Bridge Street Mission"
+    ],
+    "votes": [
+      {
+        "item": "Regular and special Public Health & Safety Committee minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "All May 2026 license applications",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "True North Energy LLC liquor license extended to September 18, 2026",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "City of Wausau Emergency Operations Plan with grammatical corrections and succession-of-authority update",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -1435,6 +1610,16 @@
       "Staffing",
       "Parks",
       "Facilities"
+    ],
+    "votes": [
+      {
+        "item": "Associated Appraisal of Appleton Option 2 reassessment contract for $355,000 (July 2026 through December 2031)",
+        "motion": null,
+        "mover": "President Jolyne",
+        "second": "Trustee Solheim",
+        "outcome": "Approved",
+        "tally": "3-0"
+      }
     ]
   },
   {
@@ -1514,6 +1699,32 @@
     "topics": [
       "Budget",
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of May 18th minutes",
+        "motion": null,
+        "mover": "Daniels",
+        "second": "Mynull",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "May budget status report, TIF reports, legal details, PSC annual report, and State Municipal Financial Report",
+        "motion": null,
+        "mover": "Mynull",
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Hybrid uniform policy: employees may retain Cintas rental service or receive $500 annual clothing allowance with annual January opt-in election",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -1623,6 +1834,24 @@
     ],
     "topics": [
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Motion to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to interview Community Development Director candidate",
+        "motion": null,
+        "mover": "Trustee Coil",
+        "second": "Trustee Mishka",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Authorize village administrator to make job offer to Mason Sandwick for Community Development Director position within compensation parameters set in closed session",
+        "motion": null,
+        "mover": null,
+        "second": "Trustee Mishka",
+        "outcome": "Approved",
+        "tally": "5-0"
+      }
     ]
   },
   {
@@ -1751,6 +1980,64 @@
       "Budget",
       "Curriculum",
       "Facilities"
+    ],
+    "votes": [
+      {
+        "item": "Consent agenda: personnel actions, minutes, bills, budget status, investment report, and donations",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Preliminary 2026-27 budget approval",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "2026-27 employee handbook language updates",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2026-27 paid meal price changes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Revised athletics and activities code",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Proposed changes to Policy 9270 (home-based private or tribal schooling)",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Proposed changes to Policy 2431.01 (High School Activities Code)",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -1864,6 +2151,32 @@
       "Staffing",
       "Facilities",
       "Parks"
+    ],
+    "votes": [
+      {
+        "item": "Mary Solheim appointed as Village Board Trustee",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-1"
+      },
+      {
+        "item": "Purchase of 2026 GMC Sierra 2500 truck for Public Works at $49,558.50",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "S.D. Allen Becker awarded municipal garage design-build contract at $799,780",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -2033,6 +2346,40 @@
       "Utilities",
       "Alderson Street And Jelnick Avenue Roundabout",
       "Bladel Avenue"
+    ],
+    "votes": [
+      {
+        "item": "Approval of May 11, 2026 Public Works and Utility Committee minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approval of May 28, 2026 Bladel Avenue special assessment hearing minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge May 2026 water and sewer permits",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-016 approving the 2025 Compliance Maintenance Annual Report for Weston Sewer Utility for submission to Wisconsin DNR",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -2175,6 +2522,40 @@
     "topics": [
       "Public Safety",
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of April 27, 2026 meeting minutes",
+        "motion": "Table approval of the April 27, 2026 minutes until a future meeting at which a quorum of members who were also present at that prior meeting could act on them",
+        "mover": "Rick Smith",
+        "second": "Alex Vedvik",
+        "outcome": "Tabled",
+        "tally": "3-0"
+      },
+      {
+        "item": "Election of Police and Fire Commission President",
+        "motion": "Nominate Commissioner Alex Vedvik for President",
+        "mover": "Rick Smith",
+        "second": "Commissioner Rule",
+        "outcome": "Approved",
+        "tally": "2-0 (Vedvik abstaining)"
+      },
+      {
+        "item": "Election of Police and Fire Commission Vice-President",
+        "motion": "Nominate Commissioner Rick Smith for Vice-President",
+        "mover": "Alex Vedvik",
+        "second": "Commissioner Rule",
+        "outcome": "Approved",
+        "tally": "2-0 (Smith abstaining)"
+      },
+      {
+        "item": "Fire department applicant rejection from firefighter hiring process",
+        "motion": "Not continue the applicant in the firefighter hiring process",
+        "mover": "Rick Smith",
+        "second": "Commissioner Rule",
+        "outcome": "Approved",
+        "tally": "3-0"
+      }
     ]
   },
   {
@@ -2299,6 +2680,40 @@
       "Public Safety",
       "Lea Road Trails",
       "Chromewood Drive/Flanar-Gem Roth Road"
+    ],
+    "votes": [
+      {
+        "item": "Approval of May 4, 2026 CLIPP Minutes",
+        "motion": null,
+        "mover": "Trustee Patty",
+        "second": "Garrett",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "SD Allen Becker recommended as general contractor for new six-bay municipal garage",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Proceed with Lea Road trails project while eliminating parking lot and driveway from scope",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Recommend parks subcommittee to village board",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      }
     ]
   },
   {
@@ -2432,6 +2847,48 @@
       "Development",
       "Public Safety",
       "East Nick Avenue Extension"
+    ],
+    "votes": [
+      {
+        "item": "Consent agenda: April 2026 vouchers, ACH transactions, credit card statement activity, and May 11, 2026 Village Board meeting minutes",
+        "motion": null,
+        "mover": "Lesniak",
+        "second": "Myszka",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Move forward with East Nick Avenue to Highway J concept plan and direct staff to work with other municipalities",
+        "motion": null,
+        "mover": "Trustee Lesniak",
+        "second": "Mortensen",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Fire Department authorized to proceed with DNR grant application",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Contract with CSI Policy for police department policy updates approved",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Municipal court costs increased by $10",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      }
     ]
   },
   {
@@ -2473,7 +2930,8 @@
     ],
     "topics": [
       "Staffing"
-    ]
+    ],
+    "votes": []
   },
   {
     "id": "NwM-PoBvvMg",
@@ -2578,6 +3036,24 @@
       "Eau Claire River",
       "Kennedy Park",
       "Yellow Banks"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from April 27, 2026",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Yellow Banks kayak launch signs installation",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -2730,6 +3206,56 @@
       "Facilities",
       "Curriculum",
       "IDEA Charter School"
+    ],
+    "votes": [
+      {
+        "item": "Election of Board President",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Election of Board Vice President",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Election of Board Treasurer",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Election of Board Secretary",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Bond defeasance resolution",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "District depository resolution",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -2853,6 +3379,40 @@
       "Staffing",
       "Public Safety",
       "Fire Department"
+    ],
+    "votes": [
+      {
+        "item": "Election of chairperson",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Election of vice chairperson",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "DNR forest fire protection grant $10,000 match",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Police department policy contract with CSI Information LLC",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -3114,6 +3674,32 @@
       "Curriculum",
       "Facilities",
       "Riverview Elementary"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from April 27, 2026",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Audit of bills",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Preliminary 2026-2027 Budget recommendation",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -3198,6 +3784,48 @@
     "topics": [
       "Parks",
       "Taste and Glow Balloonfest"
+    ],
+    "votes": [
+      {
+        "item": "Election of Chair",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Election of Vice Chair",
+        "motion": null,
+        "mover": null,
+        "second": "Jackson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Election of Secretary",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approval of minutes from April 21st",
+        "motion": null,
+        "mover": null,
+        "second": "Renee",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "$5,000 grant for Taste and Glow Balloonfest",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -3313,6 +3941,48 @@
       "Parks",
       "Development",
       "Kennedy Park"
+    ],
+    "votes": [
+      {
+        "item": "Ordinance 26-010 - Park and Recreation Impact Fees",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Resolution 2026-015 - Amending fee schedule",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Ordinance 26-008 - Mobile Food Vendor License",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Remote Meeting Attendance Policy Amendments - strike health/safety language",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-2"
+      },
+      {
+        "item": "Remote Meeting Attendance Policy - amended policy",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-2"
+      }
     ]
   },
   {
@@ -3408,6 +4078,24 @@
       "Budget",
       "Staffing",
       "Kennedy Park"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from previous Finance and HR meeting",
+        "motion": null,
+        "mover": "Ernling",
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledgment of April budget status report, TIF detail reports, and legal details report",
+        "motion": null,
+        "mover": "Daniels",
+        "second": "Soaper",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -3564,6 +4252,32 @@
     ],
     "topics": [
       "Budget"
+    ],
+    "votes": [
+      {
+        "item": "Selection of Dan Jolene as chairperson",
+        "motion": null,
+        "mover": "Trustee Lesniak",
+        "second": "Trustee Quail",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Selection of Craig Mortensen as vice chairperson",
+        "motion": null,
+        "mover": "Trustee Mishka",
+        "second": "Trustee Stoll",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approval of July 10, 2025 Board of Review minutes",
+        "motion": null,
+        "mover": "Trustee Mishka",
+        "second": "Trustee Stoll",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -3670,6 +4384,48 @@
       "Zoning",
       "Development",
       "Marathon County Highway Shop Facility"
+    ],
+    "votes": [
+      {
+        "item": "Approval of consent agenda including April 27 and April 30, 2026 meeting minutes",
+        "motion": null,
+        "mover": "Lesniak",
+        "second": "Myszka",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Approval of March 2026 vouchers, ACH transactions, and credit card activity totaling $699,821",
+        "motion": null,
+        "mover": "Trustee Stowell",
+        "second": "Trustee Myszka",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Quit Claim Deed transferring village property interests to Marathon County for proposed Highway Shop Facility",
+        "motion": null,
+        "mover": "Trustee Coyle",
+        "second": "Trustee Myszka",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Adoption of Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance",
+        "motion": null,
+        "mover": "Trustee Mortensen",
+        "second": "Trustee Coyle",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Adoption of Resolution 2026-007 Transportation Funding Solution",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -3785,6 +4541,40 @@
       "Staffing",
       "Curriculum",
       "Wausau Area Montessori Charter School"
+    ],
+    "votes": [
+      {
+        "item": "Consent agenda including staff appointments, meeting minutes, payment of bills, budget status, investment report, and donations",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "2026-27 Budget Reconciliation Plan",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Teacher contract approvals for 2026-27 school year",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2.63% wage adjustment for non-teacher employee groups",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -3915,7 +4705,8 @@
       "Roads",
       "Utilities",
       "Weston Public Works"
-    ]
+    ],
+    "votes": []
   },
   {
     "id": "eX7VOuywzb8",
@@ -4015,6 +4806,48 @@
       "Development",
       "Utilities",
       "Mountain Bay Metropolitan Police Department"
+    ],
+    "votes": [
+      {
+        "item": "Site plan for Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive",
+        "motion": "Motion to recommend approval to the board of trustees with staff conditions 2-5",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Salt storage shed inspection program for wellhead protection district",
+        "motion": "Motion to approve the program with reporting to both Plan Commission and Public Works Committee",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "April 2026 meeting minutes",
+        "motion": "Motion to approve the April 13, 2026 meeting minutes as presented",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "April 2026 staff approved certified survey maps and site plans",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "April 2026 building permits",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -4106,6 +4939,16 @@
     "topics": [
       "Public Safety",
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of April 1st meeting minutes",
+        "motion": null,
+        "mover": "Supervisor Cavlli",
+        "second": "Vice Chair Rosenberg",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -4205,6 +5048,16 @@
       "Development",
       "Lift Station 8",
       "Glacier Meadows Development"
+    ],
+    "votes": [
+      {
+        "item": "Approval of April Meeting Minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -4300,6 +5153,40 @@
       "Zoning",
       "Parks",
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of March 31, 2026 committee minutes",
+        "motion": null,
+        "mover": "Supervisor Sefeld",
+        "second": "Supervisor Drebeck",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Tim Veland rezoning petition - Green Valley",
+        "motion": null,
+        "mover": "Supervisor Drebeck",
+        "second": "Supervisor Kurt",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Jeffrey and Cynthia Schmidtz rezoning petition - McMillan",
+        "motion": null,
+        "mover": "Supervisor Sefelt",
+        "second": "Supervisor Drew",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Fee waiver for April 17, 2026 severe weather impacted properties - forward amended resolution to county board",
+        "motion": null,
+        "mover": "Supervisor Sefelt",
+        "second": "Supervisor Drebeck",
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   },
   {
@@ -4943,6 +5830,32 @@
     "topics": [
       "Public Safety",
       "Roads"
+    ],
+    "votes": [
+      {
+        "item": "Acknowledgment of Department Reports",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Chapter 50 Nuisances Amendments",
+        "motion": null,
+        "mover": "Trustee Olsen",
+        "second": "Campkey",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "E-Bicycle Ordinance Amendments with emoto prohibition",
+        "motion": null,
+        "mover": "Trustee Olsen",
+        "second": "Chwanka",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
     ]
   },
   {
@@ -5084,6 +5997,48 @@
       "Public Safety",
       "County Highway Shop Facility",
       "Flanner/Jamroz Project"
+    ],
+    "votes": [
+      {
+        "item": "Selection of Chairperson - Aaron Myszka",
+        "motion": null,
+        "mover": "Patty Tikalsky",
+        "second": "President Dan Joling",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Selection of Vice-Chairperson - Garrett Lysne",
+        "motion": null,
+        "mover": "President Joling",
+        "second": "Tikalsky",
+        "outcome": "Approved",
+        "tally": "4-0-1"
+      },
+      {
+        "item": "Approval of April 6, 2026 CLIPP Committee Meeting Minutes",
+        "motion": null,
+        "mover": "Joling",
+        "second": "Mijal",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Support for Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Support for Quit Claim Deed for Tax Parcel ID 145-2707-023-0994 - Marathon County Highway Shop Facility",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-0"
+      }
     ]
   },
   {
@@ -5132,6 +6087,24 @@
     ],
     "topics": [
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Convene into closed session",
+        "motion": null,
+        "mover": "Trustee Coyle",
+        "second": "Trustee Mortensen",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Termination of Community Development Director for just cause",
+        "motion": null,
+        "mover": "Trustee Lesniak",
+        "second": "Trustee Myszka",
+        "outcome": "Approved",
+        "tally": "6-0"
+      }
     ]
   },
   {
@@ -5269,6 +6242,56 @@
       "Budget",
       "Utilities",
       "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Committee appointments for the new term",
+        "motion": null,
+        "mover": "Supervisor Cavelli",
+        "second": "Supervisor Crims",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Election of two supervisors to at-large executive committee positions",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Consent agenda items C10 through C14A",
+        "motion": null,
+        "mover": "Supervisor Cavelli",
+        "second": "Supervisor Drebeck",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Resolution 24-26: Out of home placement reserve increase",
+        "motion": null,
+        "mover": "Supervisor Morash",
+        "second": "Supervisor Robinson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 25-26: Social services budget amendment",
+        "motion": null,
+        "mover": "Supervisor P",
+        "second": "Supervisor Robinson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 26-26: Landfill tipping fee modification for storm debris",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
     ]
   }
 ]

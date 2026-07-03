@@ -77,5 +77,47 @@
   "topics": [
     "Parks",
     "Taste and Glow Balloonfest"
+  ],
+  "votes": [
+    {
+      "item": "Election of Chair",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Election of Vice Chair",
+      "motion": null,
+      "mover": null,
+      "second": "Jackson",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Election of Secretary",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Approval of minutes from April 21st",
+      "motion": null,
+      "mover": null,
+      "second": "Renee",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "$5,000 grant for Taste and Glow Balloonfest",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

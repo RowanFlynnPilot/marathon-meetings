@@ -99,5 +99,47 @@
     "Zoning",
     "Development",
     "Marathon County Highway Shop Facility"
+  ],
+  "votes": [
+    {
+      "item": "Approval of consent agenda including April 27 and April 30, 2026 meeting minutes",
+      "motion": null,
+      "mover": "Lesniak",
+      "second": "Myszka",
+      "outcome": "Approved",
+      "tally": "6-0"
+    },
+    {
+      "item": "Approval of March 2026 vouchers, ACH transactions, and credit card activity totaling $699,821",
+      "motion": null,
+      "mover": "Trustee Stowell",
+      "second": "Trustee Myszka",
+      "outcome": "Approved",
+      "tally": "6-0"
+    },
+    {
+      "item": "Quit Claim Deed transferring village property interests to Marathon County for proposed Highway Shop Facility",
+      "motion": null,
+      "mover": "Trustee Coyle",
+      "second": "Trustee Myszka",
+      "outcome": "Approved",
+      "tally": "6-0"
+    },
+    {
+      "item": "Adoption of Wausau Metropolitan Planning Organization Draft Model E-Bike Ordinance",
+      "motion": null,
+      "mover": "Trustee Mortensen",
+      "second": "Trustee Coyle",
+      "outcome": "Approved",
+      "tally": "6-0"
+    },
+    {
+      "item": "Adoption of Resolution 2026-007 Transportation Funding Solution",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

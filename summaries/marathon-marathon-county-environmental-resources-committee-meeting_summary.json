@@ -83,5 +83,39 @@
     "Zoning",
     "Parks",
     "Staffing"
+  ],
+  "votes": [
+    {
+      "item": "Approval of March 31, 2026 committee minutes",
+      "motion": null,
+      "mover": "Supervisor Sefeld",
+      "second": "Supervisor Drebeck",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Tim Veland rezoning petition - Green Valley",
+      "motion": null,
+      "mover": "Supervisor Drebeck",
+      "second": "Supervisor Kurt",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Jeffrey and Cynthia Schmidtz rezoning petition - McMillan",
+      "motion": null,
+      "mover": "Supervisor Sefelt",
+      "second": "Supervisor Drew",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Fee waiver for April 17, 2026 severe weather impacted properties - forward amended resolution to county board",
+      "motion": null,
+      "mover": "Supervisor Sefelt",
+      "second": "Supervisor Drebeck",
+      "outcome": "Approved",
+      "tally": null
+    }
   ]
 }

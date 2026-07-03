@@ -113,5 +113,15 @@
     "Development",
     "Facilities",
     "Transit Expansion"
+  ],
+  "votes": [
+    {
+      "item": "Direct staff coordinator Michelle to compile all priority input from retreat",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
   ]
 }

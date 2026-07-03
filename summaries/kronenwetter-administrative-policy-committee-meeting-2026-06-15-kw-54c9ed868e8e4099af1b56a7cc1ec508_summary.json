@@ -92,5 +92,15 @@
     "Staffing",
     "Parks",
     "Facilities"
+  ],
+  "votes": [
+    {
+      "item": "Associated Appraisal of Appleton Option 2 reassessment contract for $355,000 (July 2026 through December 2031)",
+      "motion": null,
+      "mover": "President Jolyne",
+      "second": "Trustee Solheim",
+      "outcome": "Approved",
+      "tally": "3-0"
+    }
   ]
 }
