@@ -271,6 +271,104 @@
     ]
   },
   {
+    "id": "bb_750271",
+    "source": "school_board",
+    "title": "Committee of the Whole Meeting",
+    "date": "June 22, 2026",
+    "shortDate": "JUN 22",
+    "committee": "Committee of the Whole",
+    "duration": "45m",
+    "url": "https://www.youtube.com/watch?v=DsdQ1pGdIE8",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau School Board Committee of the Whole met on June 22, 2026, approving several action items including Wisconsin Academic Standards for the 2026-27 school year, WIAA membership renewals, a $420,000 EFIS wall replacement contract at South Mountain Elementary, and authorization to use equipment auction proceeds for buildings and grounds equipment purchases. The board also received an informational AGR schools data presentation showing generally positive trends in math and literacy outcomes, and recognized the retirement of a 32-year district employee.",
+    "agenda": [
+      {
+        "time": "0:06",
+        "item": "Approval of audit of bills"
+      },
+      {
+        "time": "0:30",
+        "item": "Recognition of Nol Torson retirement (32 years) and announcement of Jen Bonnke as new supervisor of financial services"
+      },
+      {
+        "time": "1:10",
+        "item": "Audit of bills approval"
+      },
+      {
+        "time": "2:15",
+        "item": "Annual notice of adoption of Wisconsin Academic Standards for 2026-27 school year"
+      },
+      {
+        "time": "5:01",
+        "item": "Annual renewal of WIAA memberships for Wausau East, Wausau West, and WAVE"
+      },
+      {
+        "time": "6:30",
+        "item": "AGR (Achievement Gap Reduction) schools semi-annual data review - second semester outcomes and continuous improvement plans"
+      },
+      {
+        "time": "35:01",
+        "item": "South Mountain Elementary EFIS wall system replacement bid approval"
+      },
+      {
+        "time": "38:30",
+        "item": "Approval to use district equipment auction proceeds for buildings and grounds equipment"
+      },
+      {
+        "time": "44:00",
+        "item": "Special meeting: consent agenda approval (appointments, staff changes, retirements, leaves of absence)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Recognition of Nol Torson Retirement",
+        "body": "Miss Channel announced the retirement of Nol Torson after 32 years with the Wausau School District, expressing pride in his service. She also announced that Jen Bonnke would be taking his position as supervisor of financial services. The board chair noted Torson is a quiet individual and did not put him on the spot to speak."
+      },
+      {
+        "item": "Audit of Bills",
+        "body": "The board was asked to approve the audit of bills as presented. A motion was made, seconded, and passed unanimously with no discussion or public comment."
+      },
+      {
+        "item": "Annual Adoption of Wisconsin Academic Standards for 2026-27",
+        "body": "Dr. Katie Cowwell and Miss Shell presented the annual notice, explaining the standards were created in 1988 and that Wisconsin Act 55 (2015) requires annual board approval. They noted DPI plans to review standards for dance, art, world languages, and environmental literacy this fall, and that there are now 25 content standards including new additions for art and design and WIDA English language development. The motion to approve passed unanimously."
+      },
+      {
+        "item": "WIAA Membership Renewals",
+        "body": "The board considered annual renewal of WIAA memberships for Wausau East, Wausau West, and WAVE. No questions were raised. The motion to recommend approval to the full board passed unanimously."
+      },
+      {
+        "item": "AGR Schools Semi-Annual Data Review",
+        "body": "A large team including district administrators, literacy coordinator Sandy, and building principals Jen Davidson (JD Jones), Phil Beckham (JD Jones associate principal), and Matt Schilling (Thomas Jefferson associate principal) presented spring data for Franklin, JD Jones, and Thomas Jefferson elementary schools. Math scores showed a slow uphill trajectory since fall 2023-24 with AGR buildings at approximately 62-64% at benchmark; kindergarten and first grade showed strong gains using the new Forefront number sense screener in its first year of use. Literacy data showed improvement over the prior year though some grade levels showed slight declines. Board member discussion focused heavily on classroom management after a board member shared a story of a newer teacher who didn't know she was empowered to firmly address disruptive behavior; administrators confirmed professional development on classroom management is planned including on the first day back. Board members also questioned assessment overload and spring testing fatigue, with staff acknowledging assessment windows would be adjusted. This item was informational only with no action taken."
+      },
+      {
+        "item": "South Mountain Elementary EFIS Wall System Replacement",
+        "body": "Buildings and Grounds Director Ryan Hermansky presented the need to replace the EFIS (stucco) wall system at South Mountain Elementary, citing design defects identified through engineering assessment. He recommended replacing the system with 20-gauge steel panels, the same approach successfully used at Horace Mann last fall. Four bids were received and Jackson Associates, who also completed the Horace Mann project, was the low bidder at $420,000 with work planned for November 2026. A board member asked whether Jackson was responsible for the original faulty installation; Hermansky clarified Jackson did the repair work at Horace Mann, not the original installation. The motion to recommend full board approval of the bid and contract passed unanimously."
+      },
+      {
+        "item": "District Equipment Auction and Proceeds Designation",
+        "body": "Hermansky requested board approval to hold an online auction through Wisconsin Surplus of obsolete district equipment including old lawnmowers, an automated mower blade sharpener, and a log splitter, and to direct the proceeds back to buildings and grounds for equipment purchases rather than the general fund. He estimated proceeds of $30,000-$60,000. A board member asked about consolidated school furniture; Hermansky clarified most was redistributed to schools or disposed of. The motion to recommend full board approval for auction proceeds to be designated to buildings and grounds for 2026-27 equipment needs passed unanimously."
+      },
+      {
+        "item": "Special Meeting Consent Agenda",
+        "body": "A special meeting was called immediately following adjournment of the Committee of the Whole. The consent agenda covering appointments, additional staff, replacement staff, contract increases, separations, resignations, contract decreases, terminations, leaves of absence, and retirements was approved unanimously without discussion."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Full board to vote on approval of Wisconsin Academic Standards for 2026-27 school year",
+      "Full board to vote on WIAA membership renewals for Wausau East, Wausau West, and WAVE",
+      "Full board to vote on contracting Jackson Associates for South Mountain Elementary EFIS wall replacement at $420,000, with work beginning November 2026",
+      "Full board to vote on authorizing auction proceeds from Wisconsin Surplus online auction to be directed to buildings and grounds equipment purchases in 2026-27",
+      "Administration to provide board with list of equipment items planned for auction",
+      "Administration to continue and expand classroom management professional development for teachers and paras, including on first day back",
+      "Elementary schools to develop common assessments for tracking daily instruction beyond screeners",
+      "Administration to adjust spring assessment windows to reduce student testing fatigue",
+      "Special meeting consent agenda approved covering staff appointments, changes, retirements, and leaves of absence"
+    ]
+  },
+  {
     "id": "kw_763affdb06034572ad57359551b02e1c",
     "source": "kronenwetter",
     "title": "Village Board Meeting",
@@ -434,91 +532,6 @@
     "actionItems": [
       "Scheduled to approve minutes from 04/27/2026 and 06/01/2026 meetings",
       "Expected to consider revisions to the Commission's complaint form"
-    ]
-  },
-  {
-    "id": "bb_750271",
-    "source": "school_board",
-    "title": "Committee of the Whole Meeting",
-    "date": "June 22, 2026",
-    "shortDate": "JUN 22",
-    "committee": "Committee of the Whole",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Wausau School District's Committee of the Whole meeting on June 22, 2026 was scheduled to address annual compliance and capital improvement matters, including adoption of Wisconsin Academic Standards, renewal of athletic association memberships, review of school improvement strategies, and consideration of facility repairs and equipment disposition. The meeting was expected to include several action items related to building maintenance and asset management.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve the Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Audit of the Bills"
-      },
-      {
-        "time": "N/A",
-        "item": "Public and Student Comment"
-      },
-      {
-        "time": "N/A",
-        "item": "Academic Standards (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "WIAA Renewal (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "AGR Spring Summary Presentation"
-      },
-      {
-        "time": "N/A",
-        "item": "EFIS Repair at South Mountain (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "2026 Auction (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Academic Standards",
-        "body": "Dr. Katie Colwell and Julie Schell were scheduled to present an annual notice of the adoption of Wisconsin Academic Standards by the Wausau School District. The presentation was expected to outline the knowledge and skills students should acquire in each content area and provide guidance for teachers in developing lesson plans and instructional practices."
-      },
-      {
-        "item": "WIAA Renewal",
-        "body": "The board was expected to consider annual renewal of WIAA memberships for Wausau East, Wausau West, and WAVE schools. A sample renewal application was included with the agenda materials."
-      },
-      {
-        "item": "AGR Spring Summary Presentation",
-        "body": "The board was scheduled to review the implementation of AGR strategies and the district's progress on performance objectives for the second semester. The presentation was expected to focus on learning outcomes and priorities outlined in the AGR School's Data and Continuous Improvement Plan."
-      },
-      {
-        "item": "EFIS Repair at South Mountain",
-        "body": "Director of Buildings and Grounds Ryan Urmanski was scheduled to present information about the South Mountain EFIS Wall System and the need for its replacement. The presentation was expected to provide details supporting action on this facility maintenance matter."
-      },
-      {
-        "item": "2026 Auction",
-        "body": "Buildings and Grounds Director Ryan Urmanski was scheduled to present information about a potential auction of district equipment and how the proceeds would be used. The presentation was expected to outline the disposition of various pieces of equipment and funding allocation plans."
-      }
-    ],
-    "publicComment": "A public and student comment period was included on the agenda.",
-    "actionItems": [
-      "Board was expected to vote on adoption of Wisconsin Academic Standards",
-      "Action was requested for renewal of WIAA memberships for Wausau East, Wausau West, and WAVE",
-      "Action was requested regarding EFIS wall system repair at South Mountain",
-      "Action was requested regarding the 2026 equipment auction and use of proceeds"
     ]
   },
   {
@@ -1544,6 +1557,129 @@
     ]
   },
   {
+    "id": "bb_748015",
+    "source": "school_board",
+    "title": "Regular Meeting",
+    "date": "June 8, 2026",
+    "shortDate": "JUN 8",
+    "committee": "Regular Meeting",
+    "duration": "22m",
+    "url": "https://www.youtube.com/watch?v=LRP6M6If13w",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau School Board held its regular June 2026 meeting, approving seven motions covering the preliminary 2026-27 budget, employee handbook updates, meal price changes, athletics/activities code revisions, policy updates, an HVAC/roofing contractor selection, and a debt defeasance strategy that will bring the district's total long-term interest savings to just over $29 million. The meeting also featured presentations on the art department's three-year goals and the district's summer learning programs.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Roll Call and Pledge of Allegiance"
+      },
+      {
+        "time": "0:45",
+        "item": "Art Department Presentation - Three-Year Goals and Curriculum Alignment"
+      },
+      {
+        "time": "7:10",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "7:30",
+        "item": "Consent Agenda - Personnel, Minutes, Bills, and Donations"
+      },
+      {
+        "time": "8:30",
+        "item": "Motion: Preliminary 2026-27 Budget Approval"
+      },
+      {
+        "time": "8:55",
+        "item": "Motion: 2026-27 Employee Handbook Updates"
+      },
+      {
+        "time": "9:20",
+        "item": "Motion: Paid Meal Price Update for 2026-27"
+      },
+      {
+        "time": "9:50",
+        "item": "Motion: Athletics and Activities Code Revisions"
+      },
+      {
+        "time": "10:10",
+        "item": "Motion: Policy 9270 - Home-Based Private or Tribal Schooling"
+      },
+      {
+        "time": "10:30",
+        "item": "Motion: Policy 2431.01 - High School Activities Code"
+      },
+      {
+        "time": "10:50",
+        "item": "Motion: Rearview HVAC and Roofing Project - Myron Construction"
+      },
+      {
+        "time": "11:30",
+        "item": "2026-27 Debt Defeasance Strategy Presentation and Adoption"
+      },
+      {
+        "time": "20:30",
+        "item": "Summer Learning Program Update"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Art Department Presentation - Three-Year Goals and Curriculum Alignment",
+        "body": "The district's art coordinator, in her second year, presented the art department's three-year goals focused on amplifying arts reach, creating shared K-12 skill experiences, and meaningful vertical alignment between grade levels. She described the creation of an art continuum task force involving elementary, middle, and high school educators who identified priority standards, and a department-wide book study on teaching meaning in art making. Board member Lance Trupop expressed support, noting the value of consistent experiences as students move into middle school. The coordinator also announced an upcoming partnership with the Leigh Yawkey Woodson Art Museum to give art educators opportunities to make art themselves."
+      },
+      {
+        "item": "Consent Agenda - Personnel, Minutes, Bills, and Donations",
+        "body": "The consent agenda included personnel actions, minutes from the May 11 and May 18, 2026 sessions, payment of bills, budget status, investment report, and donations from multiple community organizations including CW Fly Bags, Hub Central Collision, King Buffet of Wausau, Lee Insurance, Peace United Church of Christ, Safe Kids of Marathon County Coalition, Wausau Breakfast Optimist Club, ENT and Allergy Associates, and Cloverbeltt Credit Union. A motion was made, seconded, and approved unanimously with no discussion."
+      },
+      {
+        "item": "Preliminary 2026-27 Budget Approval",
+        "body": "Elizabeth Channel, Assistant Superintendent of Operations, had previously presented the preliminary budget at the May committee meeting. The board was asked to approve the initial budget to allow 2026-27 expenditures to proceed before final budgets are set. The motion was made, seconded, and passed unanimously with no board discussion at this meeting."
+      },
+      {
+        "item": "2026-27 Employee Handbook Updates",
+        "body": "Tabitha Gundrum had presented employee handbook updates at the May committee meeting. The board approved the recommended changes unanimously with no additional discussion at this meeting."
+      },
+      {
+        "item": "Paid Meal Price Update for 2026-27",
+        "body": "Karen Fox had previously presented proposed meal price changes at the May committee meeting. The board approved the proposed changes unanimously with no discussion."
+      },
+      {
+        "item": "Athletics and Activities Code Revisions",
+        "body": "Dr. John Tomsky and BJ Brandt had presented suggested changes to the athletic and activities code at the May committee meeting. The board approved the revised code unanimously with no additional discussion."
+      },
+      {
+        "item": "Policy 9270 - Home-Based Private or Tribal Schooling and Policy 2431.01 - High School Activities Code",
+        "body": "Dr. John Tomsky had presented proposed changes to both policies at the May committee meeting. Both policies were moved, seconded, and approved unanimously in separate votes with no board discussion."
+      },
+      {
+        "item": "Rearview HVAC and Roofing Project - Myron Construction Corporation",
+        "body": "Ryan Armansky, director of buildings and grounds, had presented this project at the May committee meeting. The board approved moving forward with Myron Construction Corporation as the general contractor unanimously with no discussion."
+      },
+      {
+        "item": "2026-27 Debt Defeasance Strategy Presentation and Adoption",
+        "body": "Eric Cass from PMA Financial presented the annual debt defeasance strategy, explaining that the district would place excess levy funds into an irrevocable escrow trust targeting the longest-maturity, highest-coupon debt from a 2022 issuance, eliminating nearly three years of debt service through 2039-2040 and generating approximately $9.6 million in savings. Combined with prior years' defeasances dating back to 2017-18, total long-term interest savings would reach just over $29 million. Board member Nick Casher asked whether repeatedly prepaying debt affects the district's standing with bond investors; Cass explained that the callable feature is disclosed upfront and investors price in the possibility of early redemption. Another board member noted the strategy also helps smooth mill rate fluctuations and generates additional state equalization aid, projected at $5.7 million, though Cass cautioned that figure carries volatility. The motion was approved unanimously."
+      },
+      {
+        "item": "Summer Learning Program Update",
+        "body": "Rob Phelps, principal at Horace Mann and summer learning coordinator, and Vicki Christensen, out-of-school learning coordinator, began presenting the district's summer learning programs. Phelps described the morning elementary program, structured as 'transition to' grade-level programs focusing on math, ELA, and encore rotations, and a middle school transition program combining school forest visits with academic intervention. The transcript ends mid-presentation before the full update was completed."
+      }
+    ],
+    "publicComment": "No public comment was offered. The board noted that a written comment submission option exists on the district website but encouraged residents to email the board directly instead.",
+    "actionItems": [
+      "Approved preliminary 2026-27 budget to allow expenditures to proceed before final budget adoption",
+      "Approved 2026-27 employee handbook language updates",
+      "Approved 2026-27 paid meal price changes as presented by Karen Fox",
+      "Approved revised athletics and activities code as presented by Dr. Tomsky and BJ Brandt",
+      "Approved proposed changes to Policy 9270 (home-based private or tribal schooling)",
+      "Approved proposed changes to Policy 2431.01 (High School Activities Code)",
+      "Approved Myron Construction Corporation as general contractor for the Rearview HVAC and roofing project",
+      "Adopted 2026-27 debt defeasance strategy targeting long-maturity 2022 bond issuance, projected to save approximately $9.6 million and bring cumulative district savings to over $29 million",
+      "Approved consent agenda including personnel actions, May 11 and May 18 meeting minutes, bills, and donations from multiple community organizations",
+      "Art department to proceed with partnership with Leigh Yawkey Woodson Art Museum for educator professional development in art making"
+    ]
+  },
+  {
     "id": "kw_6d1d3c94a7f74afab4563e23babf4de8",
     "source": "kronenwetter",
     "title": "Village Board Meeting",
@@ -1811,165 +1947,6 @@
       "Staff directed to follow up with American Asphalt regarding manhole repairs on Weston Avenue between Alderson and Birch Streets",
       "Staff directed to add intersection lighting back to July 2026 agenda, including Scoffield Avenue lighting discussion",
       "Next regular meetings: July 13, 2026 and August 10, 2026 at 4:30 p.m."
-    ]
-  },
-  {
-    "id": "bb_748015",
-    "source": "school_board",
-    "title": "Regular Meeting",
-    "date": "June 8, 2026",
-    "shortDate": "JUN 8",
-    "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold its regular meeting on June 8, 2026, with significant financial matters including the preliminary 2026-27 budget and a debt defeasance resolution for 2022 bonds. The board was also expected to consider multiple policy updates, employee handbook changes, meal price adjustments, and a facilities project at Riverview, along with receiving updates on summer learning programs and changes to the DPI Community Eligibility Provision program.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Roll Call"
-      },
-      {
-        "time": "N/A",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "N/A",
-        "item": "Reading of the Mission Statement"
-      },
-      {
-        "time": "N/A",
-        "item": "Excellence in Action: Art"
-      },
-      {
-        "time": "N/A",
-        "item": "Public and Student Comment"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Consent Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "Education/Operations Committee Meeting (Old/Recurring Business)"
-      },
-      {
-        "time": "N/A",
-        "item": "Recommendation for Preliminary 2026-27 Budget"
-      },
-      {
-        "time": "N/A",
-        "item": "Education/Operations Committee Meeting (New Business)"
-      },
-      {
-        "time": "N/A",
-        "item": "Employee Handbook Updates for 2026-27"
-      },
-      {
-        "time": "N/A",
-        "item": "2026-2027 Paid Meal Price Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Activities & Athletics Code"
-      },
-      {
-        "time": "N/A",
-        "item": "Policy 9270 - Home-Based, Private, or Tribal Schooling"
-      },
-      {
-        "time": "N/A",
-        "item": "Policy 2431.01 - High School Activities Code"
-      },
-      {
-        "time": "N/A",
-        "item": "Riverview RFP Approval"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution Authorizing Transfer of Funds and Defeasance of 2022 Bonds"
-      },
-      {
-        "time": "N/A",
-        "item": "2026 Summer Learning Update"
-      },
-      {
-        "time": "N/A",
-        "item": "DPI CEP Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Open Forum"
-      },
-      {
-        "time": "N/A",
-        "item": "Request for Closed Session - Preliminary Discussion Regarding Potential Litigation"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Recommendation for Preliminary 2026-27 Budget",
-        "body": "Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present the preliminary budget for 2026-27 in approximately 2 minutes. This item was previously presented at the May Committee Meeting and was expected to come before the board for action."
-      },
-      {
-        "item": "Employee Handbook Updates for 2026-27",
-        "body": "Tabatha Gundrum was scheduled to present the Employee Handbook updates for the 2026-27 school year in approximately 2 minutes. The presentation was expected to include a marked-up version showing suggested edits and a clean version with changes accepted for board review and approval."
-      },
-      {
-        "item": "2026-2027 Paid Meal Price Update",
-        "body": "Karen Fochs was scheduled to present proposed changes to the 2026-2027 paid meal prices in approximately 2 minutes. The item was previously presented at the May Committee Meeting and included supporting documentation including a PLE Tool analysis."
-      },
-      {
-        "item": "Activities & Athletics Code",
-        "body": "Dr. Jon Tomski and BJ Brandt were scheduled to present suggested changes to the Athletic and Activities Code in approximately 2 minutes. This item was previously reviewed at the May Committee Meeting and was expected to be considered for board action."
-      },
-      {
-        "item": "Policy 9270 - Home-Based, Private, or Tribal Schooling",
-        "body": "Dr. Jon Tomski was scheduled to present a proposed change to Policy 9270 regarding Home-Based, Private, or Tribal Schooling in approximately 2 minutes. The policy revision was previously presented at the May Committee Meeting."
-      },
-      {
-        "item": "Policy 2431.01 - High School Activities Code",
-        "body": "Dr. Jon Tomski was scheduled to present proposed changes to Policy 2431.01 concerning the High School Activities Code in approximately 2 minutes. This item was previously reviewed at the May Committee Meeting."
-      },
-      {
-        "item": "Riverview RFP Approval",
-        "body": "Ryan Urmanski, Director of Buildings and Grounds, was scheduled to present the Riverview HVAC and roofing project for RFP approval in approximately 2 minutes. The project was previously presented at the May Committee Meeting."
-      },
-      {
-        "item": "Resolution Authorizing Transfer of Funds and Defeasance of 2022 Bonds",
-        "body": "Elizabeth Channel and the PMA team were scheduled to present the 2026-27 debt defeasance strategy in approximately 10 minutes. The presentation was expected to seek board adoption of a resolution authorizing the transfer of funds, establishment of an escrow account, and defeasance of certain General Obligation School Building and Facility Improvement Bonds, Series 2022, with official defeasance language provided by Quarles & Brady."
-      },
-      {
-        "item": "2026 Summer Learning Update",
-        "body": "Dr. Rob Phelps and Mrs. Vickie Christianson were scheduled to give a brief 5-minute summary of the Summer Learning Program in the Wausau School District. This was an informational presentation with no action requested."
-      },
-      {
-        "item": "DPI CEP Update",
-        "body": "Tiffany Miskowski was scheduled to share a brief 5-minute update on recent changes to the DPI Community Eligibility Provision (CEP) program. This was an informational item regarding state-level program changes."
-      }
-    ],
-    "publicComment": "A public and student comment period was included on the agenda.",
-    "actionItems": [
-      "Board was expected to vote on approval of the Consent Agenda including appointments, separations, leaves of absence, retirements, meeting minutes, payment of bills, and donations",
-      "Action was requested for the Preliminary 2026-27 Budget recommendation",
-      "Action was requested for Employee Handbook Updates for 2026-27",
-      "Action was requested for 2026-2027 Paid Meal Price Update",
-      "Action was requested for Activities & Athletics Code changes",
-      "Action was requested for Policy 9270 - Home-Based, Private, or Tribal Schooling",
-      "Action was requested for Policy 2431.01 - High School Activities Code",
-      "Action was requested for Riverview RFP Approval for HVAC and roofing project",
-      "Action was requested for Resolution Authorizing Transfer of Funds and Defeasance of 2022 Bonds",
-      "Board was expected to consider entering closed session regarding potential litigation under State Statute 19.85(g)"
     ]
   },
   {

@@ -231,9 +231,10 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=748015",
       "upload_date": "20260608",
       "meeting_date": "20260608",
-      "duration": null,
+      "duration": 1325.0,
+      "video_url": "https://www.youtube.com/watch?v=LRP6M6If13w",
       "processed_at": "2026-06-09T18:00:37.338863+00:00",
-      "summary_file": "summaries/school-board-regular-meeting-2026-06-08.md"
+      "summary_file": "summaries/school-board-regular-meeting-2026-06-08-bb-748015.md"
     },
     "bxeIsJHsifg": {
       "title": "Public Works Committee",
@@ -515,8 +516,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=750271",
       "upload_date": "20260622",
       "meeting_date": "20260622",
-      "duration": null,
-      "video_url": null,
+      "duration": 2730.0,
+      "video_url": "https://www.youtube.com/watch?v=DsdQ1pGdIE8",
       "processed_at": "2026-06-22T03:53:23.786180+00:00",
       "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-06-22-bb-750271.md"
     },
