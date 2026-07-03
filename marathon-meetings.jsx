@@ -144,6 +144,33 @@ function useIsMobile() {
   return m;
 }
 
+// Full-text search across everything a reader might remember about a meeting:
+// title, committee, date, topic tags, overview, discussion items and bodies,
+// action items, and public comment. The lowercase blob is built once per
+// meeting and cached (data is static per page load).
+const _searchBlobCache = new Map();
+function _searchBlob(m) {
+  let blob = _searchBlobCache.get(m.id);
+  if (blob === undefined) {
+    blob = [
+      m.title, m.committee, m.date, m.shortDate,
+      ...(m.topics || []),
+      m.overview,
+      ...(m.discussions || []).flatMap(d => [d.item, d.body]),
+      ...(m.actionItems || []),
+      m.publicComment,
+    ].filter(Boolean).join(" \n ").toLowerCase();
+    _searchBlobCache.set(m.id, blob);
+  }
+  return blob;
+}
+function matchSearch(m, query) {
+  const q = (query || "").trim().toLowerCase();
+  if (!q) return true;
+  // Every whitespace-separated term must appear somewhere in the meeting.
+  return q.split(/\s+/).every(term => _searchBlob(m).includes(term));
+}
+
 // Normalize a committee name for fuzzy lookup: lowercase, "and"↔"&",
 // strip trailing "Committee"/"Commission"/"Board" since the badge already
 // shows the full label.
@@ -329,7 +356,7 @@ function VoteChip({ passed }) {
   );
 }
 
-function SummaryDetail({ meeting, onBack, isMobile }) {
+function SummaryDetail({ meeting, onBack, isMobile, onTopicClick }) {
   const [tab, setTab] = useState("summary");
   const cs  = getCommitteeStyle(meeting.committee);
   const src = SOURCE_CONFIG[meeting.source];
@@ -496,6 +523,28 @@ function SummaryDetail({ meeting, onBack, isMobile }) {
               </div>
             );
           })()}
+
+          {(meeting.topics || []).length > 0 && (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginTop: "12px" }}>
+              {meeting.topics.map(t => (
+                <button
+                  key={t}
+                  onClick={() => { track("Filter", { source: "topic", panel: "detail" }); onTopicClick && onTopicClick(t); }}
+                  title={`See all meetings about ${t}`}
+                  aria-label={`See all meetings about ${t}`}
+                  style={{
+                    fontFamily: "'Bebas Neue', sans-serif", fontSize: "10px",
+                    letterSpacing: "0.12em", cursor: "pointer",
+                    color: src.accent, background: "transparent",
+                    border: `1px solid ${src.accent}55`, borderRadius: "999px",
+                    padding: "3px 10px", lineHeight: 1.4, transition: "all 0.15s",
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.background = `${src.accent}14`; e.currentTarget.style.borderColor = src.accent; }}
+                  onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = `${src.accent}55`; }}
+                >{t.toUpperCase()}</button>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 
@@ -1074,29 +1123,45 @@ function UpcomingMeetings({ isMobile }) {
             <span style={{ color: TEAL, fontSize: "11px" }}></span>
             {allUpcoming.length} MEETINGS SCHEDULED
           </div>
-          {(() => {
-            // Calendar destination follows the source filter so the link
-            // doesn't always drop the reader on marathoncounty.gov.
-            const CAL_URLS = {
-              all:          "https://www.marathoncounty.gov/about-us/county-calendar",
-              marathon:     "https://www.marathoncounty.gov/about-us/county-calendar",
-              wausau:       "https://wausauwi.portal.civicclerk.com/",
-              weston:       "https://www.westonwi.gov/agendacenter",
-              school_board: "https://meetings.boardbook.org/Public/Organization/1360",
-            };
-            const calLabel = upFilter === "all" ? "FULL CALENDARS" : "FULL CALENDAR";
-            return (
-              <a href={CAL_URLS[upFilter] || CAL_URLS.all} target="_blank" rel="noreferrer"
-                style={{
-                  fontFamily: "'Bebas Neue', sans-serif",
-                  fontSize: "10px", letterSpacing: "0.12em",
-                  color: TEAL, textDecoration: "none",
-                  display: "flex", alignItems: "center", gap: "4px",
-                }}>
-                {calLabel} <span aria-hidden="true" style={{ fontSize: "11px" }}>{"›"}</span>
-              </a>
-            );
-          })()}
+          <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+            <a
+              href="webcal://rowanflynnpilot.github.io/marathon-meetings/meetings.ics"
+              onClick={() => track("Outbound Link", { source: "all", kind: "CALENDAR SUBSCRIBE" })}
+              title="Subscribe: every upcoming meeting from all six governments, auto-updating in your calendar app"
+              style={{
+                fontFamily: "'Bebas Neue', sans-serif",
+                fontSize: "10px", letterSpacing: "0.12em",
+                color: TEAL, textDecoration: "none",
+                display: "flex", alignItems: "center", gap: "4px",
+              }}>
+              <span aria-hidden="true" style={{ fontSize: "11px" }}>📅</span> SUBSCRIBE
+            </a>
+            {(() => {
+              // Calendar destination follows the source filter so the link
+              // doesn't always drop the reader on marathoncounty.gov.
+              const CAL_URLS = {
+                all:          "https://www.marathoncounty.gov/about-us/county-calendar",
+                marathon:     "https://www.marathoncounty.gov/about-us/county-calendar",
+                wausau:       "https://wausauwi.portal.civicclerk.com/",
+                weston:       "https://www.westonwi.gov/agendacenter",
+                school_board: "https://meetings.boardbook.org/Public/Organization/1360",
+                kronenwetter: "https://kronenwetter-wi.municodemeetings.com/",
+                dc_everest:   "https://meetings.boardbook.org/Public/Organization/1315",
+              };
+              const calLabel = upFilter === "all" ? "FULL CALENDARS" : "FULL CALENDAR";
+              return (
+                <a href={CAL_URLS[upFilter] || CAL_URLS.all} target="_blank" rel="noreferrer"
+                  style={{
+                    fontFamily: "'Bebas Neue', sans-serif",
+                    fontSize: "10px", letterSpacing: "0.12em",
+                    color: TEAL, textDecoration: "none",
+                    display: "flex", alignItems: "center", gap: "4px",
+                  }}>
+                  {calLabel} <span aria-hidden="true" style={{ fontSize: "11px" }}>{"›"}</span>
+                </a>
+              );
+            })()}
+          </div>
         </div>
       </div>
 
@@ -1605,9 +1670,8 @@ export default function App() {
   const filtered = MEETINGS
     .filter(m => {
       const matchSource = sourceFilter === "all" || m.source === sourceFilter;
-      const matchSearch = [m.title, m.committee, m.date]
-        .some(s => s.toLowerCase().includes(search.toLowerCase()));
-      return matchSource && matchSearch;
+      if (!matchSearch(m, search)) return false;
+      return matchSource;
     })
     .sort((a, b) => parseDate(b.date) - parseDate(a.date));
 
@@ -1800,8 +1864,8 @@ export default function App() {
                 <div style={{ position: "relative" }}>
                   <input
                     type="search"
-                    placeholder="Search meetings..."
-                    aria-label="Search meetings by title, committee, or date"
+                    placeholder="Search topics, votes, projects..."
+                    aria-label="Search meetings by topic, committee, or any text in the summaries"
                     value={search}
                     onChange={e => setSearch(e.target.value)}
                     style={{
@@ -1881,7 +1945,17 @@ export default function App() {
           {showDetail && (
             <section aria-label="Meeting summary" style={{ flex: 1, overflow: "hidden", display: "flex", flexDirection: "column" }}>
               {selected
-                ? <SummaryDetail meeting={selected} onBack={() => setSelected(null)} isMobile={isMobile} />
+                ? <SummaryDetail meeting={selected} onBack={() => setSelected(null)} isMobile={isMobile}
+                    onTopicClick={(t) => {
+                      // Topic chip → filter the whole tracker by that topic via
+                      // full-text search. Reset the source filter so matches
+                      // from every jurisdiction show; on compact layouts jump
+                      // back to the list so the results are visible.
+                      setSearch(t);
+                      setSourceFilter("all");
+                      setPanelTab("recent");
+                      if (isMobile) setSelected(null);
+                    }} />
                 : (
                   <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", background: CREAM, gap: "14px", padding: "0 24px", textAlign: "center" }}>
                     <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "42px", letterSpacing: "0.08em", color: "#9c9387", lineHeight: 1 }}>SELECT A MEETING</div>

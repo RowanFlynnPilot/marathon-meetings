@@ -700,7 +700,8 @@ Produce a JSON object with this exact structure and nothing else - no markdown, 
     }}
   ],
   "publicComment": "Describe actual public comment offered - who spoke, what they said, how many speakers. Or 'No public comment was offered.'",
-  "actionItems": ["specific decisions made or next steps directed by the committee"]
+  "actionItems": ["specific decisions made or next steps directed by the committee"],
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places discussed (e.g. Highway J Extension, Riverlife District)"]
 }}
 
 Rules:
@@ -984,7 +985,8 @@ Below is the text of the official meeting agenda. Produce a JSON object with thi
     {{"item": "agenda item title", "body": "2-3 sentence description of what this item involves. Use tentative language: 'was scheduled to discuss', 'was expected to consider', 'was set to review' - NOT past tense like 'discussed' or 'approved'."}}
   ],
   "publicComment": "Note whether public comment was on the agenda, or 'Not indicated on agenda.'",
-  "actionItems": ["expected action items based on agenda - use 'scheduled to vote on', 'expected to consider', etc."]
+  "actionItems": ["expected action items based on agenda - use 'scheduled to vote on', 'expected to consider', etc."],
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places on the agenda"]
 }}
 
 Rules:
@@ -1093,7 +1095,8 @@ Produce a JSON object with this exact structure - no markdown, no preamble, just
     {{"item": "agenda item title", "body": "2-3 sentences reporting the ACTUAL OUTCOME: was it approved or denied? What was the vote count? Who moved/seconded? Include specific names and numbers from the vote records."}}
   ],
   "publicComment": "Note whether public comment was on the agenda, or 'Not indicated on agenda.'",
-  "actionItems": ["specific decisions made and next steps based on actual vote outcomes"]
+  "actionItems": ["specific decisions made and next steps based on actual vote outcomes"],
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places acted on"]
 }}
 
 Rules:
@@ -1436,7 +1439,8 @@ Produce a JSON object with this exact structure and nothing else:
     {{"item": "agenda item title", "body": "2-3 sentence description incorporating any presenter names, time estimates, and detail text from the agenda. Use tentative language: 'was scheduled to present', 'was expected to request approval for'."}}
   ],
   "publicComment": "description of public comment if the agenda includes one, or 'No public comment period was included on this agenda.'",
-  "actionItems": ["expected action items using tentative language — 'Board was expected to vote on...', 'Action was requested for...'"]
+  "actionItems": ["expected action items using tentative language — 'Board was expected to vote on...', 'Action was requested for...'"],
+  "topics": ["3-5 short Title Case topic tags: recurring school-district themes (Budget, Curriculum, Facilities, Staffing, Policy, Athletics) plus specific named schools, programs, or projects on the agenda"]
 }}
 
 Rules:
@@ -1758,7 +1762,8 @@ Produce a JSON object with this exact structure - no markdown, no preamble, just
     {{"item": "agenda item title", "body": "2-4 sentences reporting the ACTUAL OUTCOME: motion text, who moved/seconded, the vote result (e.g. 'carried 6-0', 'failed 3-4'), and any recorded discussion or public input. Name names."}}
   ],
   "publicComment": "Describe public comment as recorded in the minutes — who spoke and on what. Or 'No public comment was recorded.'",
-  "actionItems": ["specific decisions made and directed next steps from the minutes"]
+  "actionItems": ["specific decisions made and directed next steps from the minutes"],
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places acted on"]
 }}
 
 Rules:

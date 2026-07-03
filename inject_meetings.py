@@ -348,6 +348,7 @@ def build_meeting(
         "discussions":    summary.get("discussions", []),
         "publicComment":  summary.get("publicComment", "No public comment was offered."),
         "actionItems":    summary.get("actionItems", []),
+        "topics":         summary.get("topics", []),
     }
 
     if civic_data and source == "wausau":

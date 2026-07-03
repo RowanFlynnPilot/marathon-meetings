@@ -20,15 +20,22 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - `python inject_meetings.py` — read summaries and inject into the MEETINGS array in JSX
 - `python update_upcoming.py` — refresh upcoming meeting schedules in JSX
 - `python generate_digest.py` — render `public/digest.png` (weekly newsletter image of upcoming meetings); `--date YYYY-MM-DD` overrides "today", `--days N` the window
+- `python generate_ics.py` — render `public/meetings.ics` (subscribable calendar of upcoming meetings; deterministic output, America/Chicago TZ)
+- `python generate_roundup.py` — draft `public/roundup.txt` + `.html` newsletter blurb (one Sonnet call; CI runs it Mondays or via the `roundup` dispatch input)
+- `python backfill_topics.py` — tag meetings that predate the `topics` field (batched Haiku; no-ops once everything is tagged)
 
 ## GitHub Actions Pipeline Order
 1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
 2. `inject_transcript.py` (per file in `transcripts/`) → overrides agenda-only summaries with full-transcript ones
 3. `inject_meetings.py` → writes `src/data/meetings.json` (pruned to MAX_MEETINGS, newest first)
 4. `update_upcoming.py` → writes `src/data/upcoming.json` (keyed by source)
-5. `generate_digest.py` → writes `public/digest.png` (Pillow; fonts in `assets/fonts/`; served at `/marathon-meetings/digest.png` for the newsletter)
-6. `npm run build` → `dist/` (copies `public/digest.png` → `dist/digest.png`)
-7. Commit updated data files, deploy to Pages
+5. `backfill_topics.py` → fills missing `topics` on displayed meetings + sidecars (steady-state: zero API calls)
+6. `generate_ics.py` → `public/meetings.ics`; `generate_roundup.py` (Mondays/dispatch) → `public/roundup.*`
+7. `generate_digest.py` → writes `public/digest.png` (Pillow; fonts in `assets/fonts/`; served at `/marathon-meetings/digest.png` for the newsletter)
+8. `npm run build` → `dist/` (copies everything in `public/`)
+9. Commit updated data files, deploy to Pages
+
+Summaries carry a `topics` array (3-5 Title Case tags, emitted by all five summarization prompts). The frontend renders them as clickable chips in the detail view; clicking one runs a full-text search (title + committee + topics + overview + discussions + action items) across all jurisdictions.
 
 ## Data Sources (5 jurisdictions)
 

@@ -24,6 +24,10 @@ on:
         description: 'Video ID to inject transcript for (file must be in transcripts/VIDEO_ID.txt)'
         required: false
         default: ''
+      roundup:
+        description: 'Generate the weekly newsletter roundup now (true/false; also auto-runs Mondays)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -149,6 +153,31 @@ jobs:
       - name: Update upcoming meetings
         run: python update_upcoming.py
 
+      - name: Backfill topic tags
+        # Tags meetings that predate the topics field (batched Haiku; skips
+        # everything already tagged, so steady-state cost is zero calls).
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python backfill_topics.py
+
+      - name: Generate calendar feed (.ics)
+        continue-on-error: true
+        run: python generate_ics.py --out public/meetings.ics
+
+      - name: Generate weekly newsletter roundup
+        # Mondays (UTC) or on demand via the roundup dispatch input — one
+        # Sonnet call per generation, so ~4-5 calls/month on autopilot.
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event.inputs.roundup }}" = "true" ]; then
+            python generate_roundup.py
+          else
+            echo "Not Monday and roundup not requested — skipping."
+          fi
+
       - name: Generate weekly digest PNG
         # Newsletter image of the coming week's meetings. Written to public/ so
         # the Vite build copies it into dist/ → served at /marathon-meetings/digest.png.
@@ -166,6 +195,8 @@ jobs:
           git add -f processed_meetings.json || true
           git add -f summaries/ || true
           git add -f public/digest.png || true
+          git add -f public/meetings.ics || true
+          git add -f public/roundup.txt public/roundup.html 2>/dev/null || true
           git status
           git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
           git push || true
