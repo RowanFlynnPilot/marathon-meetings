@@ -27,15 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:d3f3b747173b93610f2e@marathon-meetings
-DTSTAMP:20260706T000000Z
-DTSTART;VALUE=DATE:20260706
-SUMMARY:Village of Weston: Village Board of Trustees
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1934
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:9eb2ecdef95322e27d4f@marathon-meetings
 DTSTAMP:20260706T000000Z
 DTSTART;TZID=America/Chicago:20260706T171500
@@ -51,7 +42,7 @@ DTSTAMP:20260706T000000Z
 DTSTART;TZID=America/Chicago:20260706T180000
 DTEND;TZID=America/Chicago:20260706T193000
 SUMMARY:Village of Weston: Community Life & Public Safety Committee
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1933
+URL:https://www.westonwi.gov/agendacenter
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
