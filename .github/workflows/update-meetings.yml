@@ -215,13 +215,18 @@ jobs:
               lines.append(f'\n---\n*{len(d[\"transcript_based\"])} other meeting(s) have full transcripts.*')
           print('\n'.join(lines))
           ")
-          gh issue create \
-            --title "📋 Agenda-only meetings need transcripts ($(date +%Y-%m-%d))" \
-            --body "$BODY" \
-            --label "transcript-needed" 2>/dev/null || \
-          gh issue create \
-            --title "📋 Agenda-only meetings need transcripts ($(date +%Y-%m-%d))" \
-            --body "$BODY"
+          # Maintain ONE standing status issue instead of filing a new one every
+          # run (6x/day created hundreds of duplicates). Update the open issue
+          # if present; only create when none exists.
+          EXISTING=$(gh issue list --state open --search "Agenda-only meetings need transcripts in:title" --json number --jq '.[0].number // empty')
+          TITLE="📋 Agenda-only meetings need transcripts (updated $(date +%Y-%m-%d))"
+          if [ -n "$EXISTING" ]; then
+            echo "Updating standing issue #$EXISTING"
+            gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY" --label "transcript-needed" 2>/dev/null || \
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
 
       - name: Surface summarizer failures
         # The summarize/inject steps use continue-on-error so the site still
