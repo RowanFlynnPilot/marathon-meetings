@@ -269,9 +269,11 @@ def find_kronenwetter_audio_matches() -> list[dict]:
     return out
 
 
-def fetch_transcript_whisper_url(media_url: str) -> str | None:
+def fetch_transcript_whisper_url(media_url: str, source_key: str | None = None) -> str | None:
     """Download audio from any yt-dlp-supported URL (e.g. SoundCloud) and
-    transcribe locally with faster-whisper. Returns transcript text or None."""
+    transcribe locally with faster-whisper. Returns transcript text or None.
+    source_key seeds Whisper's initial_prompt with the body's officials so
+    spoken names decode with correct spellings."""
     try:
         import faster_whisper
     except ImportError:
@@ -303,8 +305,20 @@ def fetch_transcript_whisper_url(media_url: str) -> str | None:
         t0 = time.time()
         model = faster_whisper.WhisperModel(WHISPER_MODEL, device="cpu",
                                             compute_type="int8")
+        # Bias decoding toward the body's officials so names come out with
+        # official spellings (e.g. Lesniak, not Lesniac).
+        hint = None
+        if source_key:
+            try:
+                from marathon_meeting_summarizer import roster_whisper_hint
+                hint = roster_whisper_hint(source_key) or None
+                if hint:
+                    print(f"  Whisper vocabulary hint: {hint[:90]}...")
+            except Exception:
+                hint = None
         segments, _info = model.transcribe(
             audio_path, language="en", beam_size=1, vad_filter=True,
+            initial_prompt=hint,
             vad_parameters={"min_silence_duration_ms": 500},
         )
         text = " ".join(seg.text.strip() for seg in segments).strip()
@@ -405,7 +419,7 @@ def main():
                  for m in sb]
         kw = find_kronenwetter_audio_matches()
         jobs += [{"save": m["id"], "fetch": m["id"], "fetch_url": m["fetch_url"],
-                  "method": "whisper", "title": m["title"]}
+                  "method": "whisper", "source": "kronenwetter", "title": m["title"]}
                  for m in kw]
         if not jobs:
             print("No agenda-only meetings with available recordings found.")
@@ -446,7 +460,7 @@ def main():
         print(f"Fetching: {j['save']}")
         if j.get("method") == "whisper":
             print(f"  {j['fetch_url']}")
-            text = fetch_transcript_whisper_url(j["fetch_url"])
+            text = fetch_transcript_whisper_url(j["fetch_url"], source_key=j.get("source"))
         else:
             print(f"  https://www.youtube.com/watch?v={j['fetch']}")
             text = fetch_transcript(j["fetch"])

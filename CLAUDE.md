@@ -23,6 +23,8 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - `python generate_ics.py` — render `public/meetings.ics` (subscribable calendar of upcoming meetings; deterministic output, America/Chicago TZ)
 - `python generate_roundup.py` — draft `public/roundup.txt` + `.html` newsletter blurb (one Sonnet call; CI runs it Mondays or via the `roundup` dispatch input)
 - `python backfill_topics.py` — tag meetings that predate the `topics` field (batched Haiku; no-ops once everything is tagged)
+- `python backfill_votes.py` — extract structured `votes` for outcome-based meetings that predate the field (batched Haiku; presence of the votes key = processed)
+- `python generate_pages.py` — static indexable HTML per meeting at `public/meetings/<id>/` + `sitemap.xml` + `robots.txt`; old pages persist as the archive. `PAGES_BASE_URL` env overrides the base for a future custom domain.
 
 ## GitHub Actions Pipeline Order
 1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
@@ -36,6 +38,8 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 9. Commit updated data files, deploy to Pages
 
 Summaries carry a `topics` array (3-5 Title Case tags, emitted by all five summarization prompts). The frontend renders them as clickable chips in the detail view; clicking one runs a full-text search (title + committee + topics + overview + discussions + action items) across all jurisdictions.
+
+Transcript/minutes summaries also emit a structured `votes` array ({item, motion, mover, second, outcome, tally}); the Votes tab renders it for non-CivicClerk sources (CivicClerk's `civicItems` takes precedence). `assets/rosters.json` holds per-source officials — used as Whisper vocabulary hints AND as authoritative name spellings in transcript/minutes prompts. **Update rosters after each April election.**
 
 ## Data Sources (5 jurisdictions)
 

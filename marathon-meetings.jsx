@@ -362,8 +362,11 @@ function SummaryDetail({ meeting, onBack, isMobile, onTopicClick }) {
   const src = SOURCE_CONFIG[meeting.source];
 
   const hasCivic = !!(meeting.civicItems && meeting.civicItems.length);
+  // Structured votes extracted from transcripts/minutes (non-CivicClerk
+  // sources). CivicClerk's richer civicItems take precedence when present.
+  const hasVotes = !hasCivic && !!(meeting.votes && meeting.votes.length);
 
-  const voteTab = hasCivic ? [{ id: "votes", label: "Votes" }] : [];
+  const voteTab = (hasCivic || hasVotes) ? [{ id: "votes", label: "Votes" }] : [];
   const tabs = [
     { id: "summary",    label: "Summary"    },
     { id: "agenda",     label: "Agenda"     },
@@ -979,6 +982,45 @@ function SummaryDetail({ meeting, onBack, isMobile, onTopicClick }) {
             </>
           );
         })()}
+
+        {tab === "votes" && hasVotes && (
+          <>
+            <div style={{ ...labelStyle, marginBottom: "4px" }}>Motions & Votes</div>
+            <p style={{ ...bodyStyle, color: "#777", marginBottom: "16px", fontSize: "12px" }}>
+              Extracted from the meeting {meeting.isAgendaOnly ? "record" : "recording or official minutes"} — see the source documents for the authoritative record.
+            </p>
+            {meeting.votes.map((v, vi) => (
+              <div key={vi} style={{
+                background: "#fff", border: `1px solid ${RULE}`,
+                borderLeft: `4px solid ${
+                  /fail|denied|reject/i.test(v.outcome || "") ? "#7B2D2D"
+                  : /tabl|postpon|refer/i.test(v.outcome || "") ? "#8B6914"
+                  : "#2D5A3D"}`,
+                padding: "12px 16px", marginBottom: "10px",
+              }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "10px", flexWrap: "wrap" }}>
+                  <div style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 700, fontSize: "14px", color: INK, flex: 1, minWidth: "200px" }}>
+                    {v.item}
+                  </div>
+                  <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "12px", letterSpacing: "0.1em", whiteSpace: "nowrap",
+                    color: /fail|denied|reject/i.test(v.outcome || "") ? "#7B2D2D"
+                         : /tabl|postpon|refer/i.test(v.outcome || "") ? "#8B6914"
+                         : "#2D5A3D" }}>
+                    {(v.outcome || "").toUpperCase()}{v.tally ? ` · ${v.tally}` : ""}
+                  </div>
+                </div>
+                {v.motion && (
+                  <div style={{ ...bodyStyle, fontSize: "12.5px", marginTop: "6px", color: "#444" }}>{v.motion}</div>
+                )}
+                {(v.mover || v.second) && (
+                  <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "11px", color: "#888", marginTop: "6px", fontStyle: "italic" }}>
+                    {v.mover ? `Moved by ${v.mover}` : ""}{v.mover && v.second ? " · " : ""}{v.second ? `Seconded by ${v.second}` : ""}
+                  </div>
+                )}
+              </div>
+            ))}
+          </>
+        )}
 
                 {tab === "documents" && <>
           <div style={labelStyle}>Official Documents</div>

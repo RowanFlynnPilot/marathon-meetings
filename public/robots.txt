@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rowanflynnpilot.github.io/marathon-meetings/sitemap.xml

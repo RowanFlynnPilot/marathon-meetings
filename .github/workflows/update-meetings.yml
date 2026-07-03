@@ -161,6 +161,21 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python backfill_topics.py
 
+      - name: Backfill structured votes
+        # Extracts votes[] for outcome-based meetings that predate the field
+        # (batched Haiku; presence of the votes key = processed, so
+        # steady-state cost is zero calls).
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python backfill_votes.py
+
+      - name: Generate static meeting pages + sitemap
+        # Indexable HTML per meeting (the JS app in an iframe is invisible to
+        # search engines). Old pages persist as the permanent archive.
+        continue-on-error: true
+        run: python generate_pages.py
+
       - name: Generate calendar feed (.ics)
         continue-on-error: true
         run: python generate_ics.py --out public/meetings.ics
@@ -197,6 +212,7 @@ jobs:
           git add -f public/digest.png || true
           git add -f public/meetings.ics || true
           git add -f public/roundup.txt public/roundup.html 2>/dev/null || true
+          git add -f public/meetings/ public/sitemap.xml public/robots.txt || true
           git status
           git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
           git push || true

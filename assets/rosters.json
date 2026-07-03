@@ -1,0 +1,71 @@
+{
+  "_readme": "Official name rosters per source. Used two ways: (1) Whisper transcription gets these as vocabulary hints so spoken names transcribe correctly; (2) transcript/minutes summarization prompts tell Claude to verify name spellings against this list. Partial lists are fine — this is a spelling reference, not a membership registry. UPDATE AFTER EACH SPRING ELECTION (April). Verified July 2026.",
+  "marathon": {
+    "body": "Marathon County Board of Supervisors",
+    "officials": [
+      "Kurt Gibbs (Board Chair)",
+      "Chris Dickinson (Vice Chair)",
+      "Aaron Griner (Supervisor, District 5)"
+    ]
+  },
+  "wausau": {
+    "body": "Wausau City Council",
+    "officials": [
+      "Doug Diny (Mayor)",
+      "Terry Kilian (Council President, District 3)",
+      "Aaron Griner (Alderperson)"
+    ]
+  },
+  "weston": {
+    "body": "Village of Weston Board of Trustees",
+    "officials": [
+      "Mark Maloney (Village President)",
+      "Luis Lopes-Serrao (Trustee)",
+      "Barbara Ermeling (Trustee)",
+      "Hooshang Zeyghami (Trustee)",
+      "Brent Olson (Trustee)",
+      "Katrina Clark (Trustee)",
+      "Lisa Beck (Trustee)",
+      "Mark Kern (Trustee)"
+    ]
+  },
+  "school_board": {
+    "body": "Wausau School District Board of Education",
+    "officials": [
+      "James Bouché (President)",
+      "Lance Trollop (Vice President)",
+      "Sarah Brock (Treasurer)",
+      "Cory Sillars (Clerk)",
+      "Jennifer Paoli (Board Member)",
+      "Charles Burger (Board Member)",
+      "Jon Creisher (Board Member)",
+      "Nick Crochiere (Board Member)",
+      "Pat McKee (Board Member)"
+    ]
+  },
+  "kronenwetter": {
+    "body": "Village of Kronenwetter Board of Trustees",
+    "officials": [
+      "Dan Joling (Village President)",
+      "Aaron Myszka (Trustee)",
+      "Craig Mortensen (Trustee)",
+      "Jessica Stowell (Trustee)",
+      "Dan Lesniak (Trustee)",
+      "Kelly Coyle (Trustee)",
+      "Mary Solheim (Trustee)",
+      "Erin Mishka (Parks Committee Chair)"
+    ]
+  },
+  "dc_everest": {
+    "body": "D.C. Everest Area School District Board of Education",
+    "officials": [
+      "Shannon Grabko (President)",
+      "Katie Felch (Vice President)",
+      "Yee Leng Xiong (Treasurer)",
+      "Ben Bliven (Clerk)",
+      "Jennifer Douck (Board Member)",
+      "Lindsey Lewitzke (Board Member)",
+      "Larry Schaefer (Board Member)"
+    ]
+  }
+}

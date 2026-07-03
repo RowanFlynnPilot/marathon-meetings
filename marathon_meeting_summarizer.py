@@ -475,6 +475,8 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
             language="en",
             beam_size=1,           # faster, slight quality tradeoff
             vad_filter=True,       # skip silence
+            # Bias decoding toward the body's officials (correct spellings).
+            initial_prompt=(roster_whisper_hint(source_key) or None) if source_key else None,
             vad_parameters={"min_silence_duration_ms": 500},
         )
         text = " ".join(seg.text.strip() for seg in segments).strip()
@@ -670,6 +672,50 @@ def fetch_weston_doc_url_by_date(date_str_mmddyyyy: str) -> str | None:
     return f"https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/{unique[0]}"
 
 
+# -- Officials rosters (name-spelling safeguard) --------------------------------
+
+def load_roster(source_key: str) -> list[str]:
+    """Officials list for a source from assets/rosters.json ([] if absent).
+    Entries look like 'Dan Joling (Village President)'."""
+    try:
+        data = json.loads(
+            (Path(__file__).parent / "assets" / "rosters.json").read_text(encoding="utf-8"))
+        return list(data.get(source_key, {}).get("officials", []))
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def roster_prompt_block(source_key: str) -> str:
+    """Prompt fragment instructing Claude to verify name spellings against the
+    official roster. Auto-generated transcripts and audio garble names; the
+    roster is the authoritative spelling reference."""
+    officials = load_roster(source_key)
+    if not officials:
+        return ""
+    return (
+        "\n\nKNOWN OFFICIALS (authoritative spellings — transcripts often garble "
+        "names; when a name in the source closely matches one of these, use "
+        "EXACTLY this spelling):\n"
+        + "\n".join(f"- {o}" for o in officials))
+
+
+def roster_whisper_hint(source_key: str) -> str:
+    """Short initial_prompt for Whisper biasing decoding toward officials'
+    names (kept tight — Whisper only uses ~224 tokens of prompt)."""
+    officials = load_roster(source_key)
+    if not officials:
+        return ""
+    names = [re.sub(r"\s*\(.*\)$", "", o) for o in officials][:12]
+    body = "local government"
+    try:
+        data = json.loads(
+            (Path(__file__).parent / "assets" / "rosters.json").read_text(encoding="utf-8"))
+        body = data.get(source_key, {}).get("body", body)
+    except (OSError, json.JSONDecodeError):
+        pass
+    return f"Meeting of the {body}. Speakers include {', '.join(names)}."
+
+
 # -- Summarization -------------------------------------------------------------
 
 def summarize_meeting(transcript, title, url, source_key):
@@ -681,7 +727,7 @@ def summarize_meeting(transcript, title, url, source_key):
 Meeting title: {title}
 Organization: {ch['label']}
 YouTube link:  {url}
-
+{roster_prompt_block(source_key)}
 Below is the auto-generated transcript of the ACTUAL meeting recording. Your job is to report what ACTUALLY HAPPENED - votes taken, decisions made, who said what, outcomes, not just what was planned.
 
 Produce a JSON object with this exact structure and nothing else - no markdown, no preamble, just valid JSON:
@@ -701,7 +747,10 @@ Produce a JSON object with this exact structure and nothing else - no markdown, 
   ],
   "publicComment": "Describe actual public comment offered - who spoke, what they said, how many speakers. Or 'No public comment was offered.'",
   "actionItems": ["specific decisions made or next steps directed by the committee"],
-  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places discussed (e.g. Highway J Extension, Riverlife District)"]
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places discussed (e.g. Highway J Extension, Riverlife District)"],
+  "votes": [
+    {{"item": "what was voted on, concisely", "motion": "the motion as made, if stated", "mover": "who moved it, or null", "second": "who seconded, or null", "outcome": "Approved | Failed | Tabled", "tally": "e.g. 6-0, 5-2, Unanimous, or null if not stated"}}
+  ]
 }}
 
 Rules:
@@ -709,6 +758,7 @@ Rules:
 - agenda: extract timestamps from transcript (format: "M:SS" or "H:MM:SS"). Include 5-10 items.
 - discussions: focus on WHAT WAS DECIDED or DEBATED, not just what the topic was.
 - Include vote results where mentioned (e.g. "Approved 5-2", "Passed unanimously").
+- votes: ONLY votes actually taken — empty array if none. Never invent movers, seconders, or tallies; use null for anything not stated in the transcript.
 - Name specific people who spoke or voted when identifiable from transcript.
 - Note unclear audio as [inaudible] rather than guessing.
 - Return ONLY the JSON object.
@@ -1746,7 +1796,7 @@ Meeting title: {title}
 Organization: {ch['label']}
 Source: Official meeting minutes
 Meeting page: {url}
-
+{roster_prompt_block(source_key)}
 Below are the official minutes of this meeting. Minutes are the authoritative record of what ACTUALLY HAPPENED — motions made, votes taken, who moved and seconded, what passed or failed. Report actual outcomes.
 
 Produce a JSON object with this exact structure - no markdown, no preamble, just valid JSON:
@@ -1763,12 +1813,16 @@ Produce a JSON object with this exact structure - no markdown, no preamble, just
   ],
   "publicComment": "Describe public comment as recorded in the minutes — who spoke and on what. Or 'No public comment was recorded.'",
   "actionItems": ["specific decisions made and directed next steps from the minutes"],
-  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places acted on"]
+  "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places acted on"],
+  "votes": [
+    {{"item": "what was voted on, concisely", "motion": "the motion as recorded", "mover": "who moved it, or null", "second": "who seconded, or null", "outcome": "Approved | Failed | Tabled", "tally": "e.g. 6-0, 5-2, Unanimous, or null if not recorded"}}
+  ]
 }}
 
 Rules:
 - Minutes record REAL outcomes — report them as fact, in past tense.
 - Include vote counts and mover/seconder names wherever the minutes record them.
+- votes: ONLY votes actually recorded — empty array if none. Use null for movers/seconders/tallies the minutes don't state.
 - Skip purely procedural items (call to order, roll call, adjournment) in discussions.
 - NEVER use placeholder text like [AGENDA_ITEM_NAME], [TBD], [INSERT], etc.
 - Return ONLY the JSON object.
