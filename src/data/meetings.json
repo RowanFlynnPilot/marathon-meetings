@@ -1,5 +1,108 @@
 [
   {
+    "id": "kw_c0cab9315fc247a99005597d59db7686",
+    "source": "kronenwetter",
+    "title": "REVISED Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+    "date": "July 6, 2026",
+    "shortDate": "JUL 6",
+    "committee": "CLIPP",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/revised-community-life-infrastructure-and-public-property-clipp-committee-meeting-3",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c0cab9315fc247a99005597d59db7686.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter's Community Life, Infrastructure and Public Property Committee was scheduled to hold a public hearing and vote on proposed revisions to Chapter 382 of its ordinances governing nuisances, as well as address traffic control concerns on County Road XX and Terrebonne Drive. The meeting also included routine reports from police, fire, and public works leadership.",
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "item": "Call to order, Pledge of Allegiance, and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Public hearing announcement for Chapter 382 Nuisances revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "Close public hearing"
+      },
+      {
+        "time": "N/A",
+        "item": "Public comment period (up to 15 minutes total, 3 minutes per person)"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of June 1, 2026 Committee meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Chief report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Chief report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Works Director report"
+      },
+      {
+        "time": "N/A",
+        "item": "Revisions to Chapter 382 Nuisances"
+      },
+      {
+        "time": "N/A",
+        "item": "Traffic control on County Road XX and Terrebonne Drive"
+      },
+      {
+        "time": "N/A",
+        "item": "Next meeting scheduled for August 3, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of items for future agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Revisions to Chapter 382 Nuisances",
+        "body": "The committee was scheduled to hold a public hearing and consider revisions to Chapter 382 of the General Code of Ordinances. The proposed amendments to sections 382-1 through 382-6 and 382-8 were set to remove the word 'public' from the language and provide clarification within the ordinance."
+      },
+      {
+        "item": "Traffic Control on County Road XX and Terrebonne Drive",
+        "body": "The committee was set to discuss and take possible action on traffic control measures affecting County Road XX and Terrebonne Drive. Details regarding the specific traffic control concerns or proposed solutions were not provided in the agenda announcement."
+      },
+      {
+        "item": "Police Chief Report",
+        "body": "The Police Chief was scheduled to present a report to the committee. The specific content of this report was not outlined in the agenda."
+      },
+      {
+        "item": "Fire Chief Report",
+        "body": "The Fire Chief was scheduled to present a report to the committee. The specific content of this report was not outlined in the agenda."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "The Public Works Director was scheduled to present a report to the committee. The specific content of this report was not outlined in the agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled for up to 15 minutes total, with a three-minute limit per person, at the discretion of the Chief Presiding Officer.",
+    "actionItems": [
+      "Expected to vote on approval of June 1, 2026 meeting minutes",
+      "Scheduled to vote on revisions to Chapter 382 Nuisances ordinance",
+      "Set to consider and possibly act on traffic control measures on County Road XX and Terrebonne Drive"
+    ],
+    "topics": [
+      "Ordinance Revisions",
+      "Traffic Control",
+      "Public Safety",
+      "Infrastructure"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_753632",
     "source": "school_board",
     "title": "Public Meeting",
@@ -177,6 +280,69 @@
         "motion": null,
         "mover": "Patty DeCaliskey",
         "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "dTog0NO0arg",
+    "source": "wausau",
+    "title": "Room Tax Commission Meeting",
+    "date": "June 23, 2026",
+    "shortDate": "JUN 23",
+    "committee": "Wausau Room Tax Commission",
+    "duration": "3m",
+    "url": "https://www.youtube.com/watch?v=dTog0NO0arg",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Wausau Room Tax Commission held a brief meeting on June 23, 2026, with a single action item: a $25,000 room tax funding request for the Domtar Dam modernization project. The commission approved the funding unanimously after a short discussion confirming the expenditure falls within the room tax charter as infrastructure reasonably likely to generate overnight stays.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and quorum established"
+      },
+      {
+        "time": "0:30",
+        "item": "Discussion and possible action: Room Tax funding request for Domtar Dam modernization - $25,000"
+      },
+      {
+        "time": "4:10",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Room Tax Funding Request for Domtar Dam Modernization - $25,000",
+        "body": "The chair introduced the item, noting the Domtar Dam modernization is a large, expensive project and that neighboring communities with a vested interest in Lake Wausau are being asked to contribute as a match to a grant from the John Alexander Foundation. Alderman Neil expressed support in principle but raised a concern about whether infrastructure spending falls within the room tax commission's charter. The chair and a participant identified as Mary Ann Lewitsky addressed the concern, citing the Peckham Way Trail as a recent precedent and referencing item number four of the room tax statute, which allows funding for 'tangible municipal development reasonably likely to generate overnight stays.' The motion was made by Neil and seconded by Lewitsky, and the item was approved unanimously."
+      }
+    ],
+    "publicComment": "No public comment was offered. Mary Ann Lewitsky participated remotely and provided informational comments in support of the funding request, and the mayor was noted as present in the room.",
+    "actionItems": [
+      "Approve $25,000 room tax funding contribution toward the Domtar Dam modernization project as a match to the John Alexander Foundation grant"
+    ],
+    "topics": [
+      "Room Tax",
+      "Tourism Infrastructure",
+      "Domtar Dam Modernization",
+      "Lake Wausau",
+      "Intergovernmental Cooperation"
+    ],
+    "votes": [
+      {
+        "item": "$25,000 Room Tax funding request for Domtar Dam modernization",
+        "motion": "Motion to approve",
+        "mover": "Neil",
+        "second": "Lewitsky",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Lukens",
+        "second": "Neil",
         "outcome": "Approved",
         "tally": "Unanimous"
       }
@@ -6146,152 +6312,6 @@
     ],
     "topics": [
       "Curriculum"
-    ]
-  },
-  {
-    "id": "WD9kixgx6oY",
-    "source": "marathon",
-    "title": "Regular Meeting",
-    "date": "April 28, 2026",
-    "shortDate": "APR 28",
-    "committee": "County Board",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=WD9kixgx6oY",
-    "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board held its adjourned organizational meeting, approving committee appointments for the new term and electing Supervisors Hapa and Arstead to at-large executive committee positions. The board also unanimously approved a resolution to reduce landfill tipping fees for storm debris following the severe weather emergency declaration, dropping rates from $65/ton to approximately $36.94/ton for affected residents.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Pledge of Allegiance and moment of reflection"
-      },
-      {
-        "time": "0:30",
-        "item": "Reading of meeting notice"
-      },
-      {
-        "time": "1:15",
-        "item": "Roll call and sign-in"
-      },
-      {
-        "time": "5:01",
-        "item": "Committee appointments presentation and vote"
-      },
-      {
-        "time": "10:01",
-        "item": "Election of at-large executive committee members"
-      },
-      {
-        "time": "20:00",
-        "item": "Consent agenda items C10-C14A"
-      },
-      {
-        "time": "21:00",
-        "item": "Resolution 24-26: Out of home placement reserve increase"
-      },
-      {
-        "time": "22:00",
-        "item": "Resolution 25-26: Social services budget amendment"
-      },
-      {
-        "time": "23:00",
-        "item": "Resolution 26-26: Landfill tipping fee modification"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Announcements and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Committee appointments",
-        "body": "Chair Gibbs presented committee appointments developed with Vice Chair Boots, emphasizing goals of increasing diverse perspectives, developing leadership among newer supervisors (34% in first or second term), and honoring supervisor preferences. Motion by Supervisor Cavelli, seconded by Supervisor Crims. The motion carried but was not unanimous, with some technical issues noted where Supervisor Nisa was marked absent but unable to vote."
-      },
-      {
-        "item": "Election of at-large executive committee members",
-        "body": "Three supervisors were nominated: Supervisor Hapa (nominated by Supervisor Mask), Supervisor Leur (nominated by Supervisor Rosenberg), and Supervisor Arstead (nominated by Supervisor Boots). Supervisor Rosenberg spoke in support of Leur, citing her advocacy for children and elders. Paper ballots were distributed and supervisors selected two of the three nominees. Supervisors Hapa and Arstead were elected to the executive committee."
-      },
-      {
-        "item": "Consent agenda",
-        "body": "Items C10 through C14A were approved on consent. Motion by Supervisor Cavelli, seconded by Supervisor Drebeck. The motion carried unanimously."
-      },
-      {
-        "item": "Resolution 24-26: Out of home placement reserve increase",
-        "body": "Resolution from Health and Human Services and HR Finance and Property committees. Motion by Supervisor Morash, seconded by Supervisor Robinson. The motion carried but was not unanimous."
-      },
-      {
-        "item": "Resolution 25-26: Social services budget amendment",
-        "body": "Motion by Supervisor P, seconded by Supervisor Robinson. The motion carried but was not unanimous."
-      },
-      {
-        "item": "Resolution 26-26: Landfill tipping fee modification for storm debris",
-        "body": "Administrator Leonard and Solid Waste Director Hagen Busher presented the proposal from the Solid Waste Management Board to reduce tipping fees for debris from the recent severe weather emergency. The state is waiving $13.10/ton and Ringle is waiving $2.33/ton. The county proposed reducing fees from the standard $65/ton gate rate to approximately $36.94/ton (covering costs only) through June 17th. Two residents, Jessica Toasty and Matt Haybeck, were granted special permission to speak, requesting the county waive fees entirely. Multiple supervisors asked questions about coverage, timelines, and tracking. The board first voted unanimously to suspend rules to consider the resolution directly, then approved Resolution 26-26 unanimously."
-      }
-    ],
-    "publicComment": "Two residents were granted special dispensation to speak on the landfill tipping fee resolution. Jessica Toasty requested Marathon County wave fees entirely for six months, noting the state, DNR, and Ringle had waived their portions and that residents are facing significant unreimbursed costs. Matt Haybeck spoke on behalf of approximately 44 affected homeowners, noting many are still waiting for insurance adjusters and requested extended fee relief.",
-    "actionItems": [
-      "Committee appointments approved for the new term",
-      "Supervisors Hapa and Arstead elected to at-large executive committee positions",
-      "Resolution 26-26 approved reducing landfill tipping fees for storm debris to approximately $36.94/ton through June 17th",
-      "Administrator Leonard to continue discussions with the Community Foundation regarding reimbursement mechanisms for unreimbursed insurance costs",
-      "Solid Waste Management Board to develop a clear policy on handling similar disaster situations within six months",
-      "Supervisors interested in attending Solid Waste Board meetings to be notified of future meetings"
-    ],
-    "topics": [
-      "Budget",
-      "Utilities",
-      "Staffing"
-    ],
-    "votes": [
-      {
-        "item": "Committee appointments for the new term",
-        "motion": null,
-        "mover": "Supervisor Cavelli",
-        "second": "Supervisor Crims",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Election of two supervisors to at-large executive committee positions",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Consent agenda items C10 through C14A",
-        "motion": null,
-        "mover": "Supervisor Cavelli",
-        "second": "Supervisor Drebeck",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Resolution 24-26: Out of home placement reserve increase",
-        "motion": null,
-        "mover": "Supervisor Morash",
-        "second": "Supervisor Robinson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Resolution 25-26: Social services budget amendment",
-        "motion": null,
-        "mover": "Supervisor P",
-        "second": "Supervisor Robinson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Resolution 26-26: Landfill tipping fee modification for storm debris",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
     ]
   }
 ]
