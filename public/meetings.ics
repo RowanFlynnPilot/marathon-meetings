@@ -210,6 +210,17 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:346a504705b64470ffd0@marathon-meetings
+DTSTAMP:20260713T000000Z
+DTSTART;TZID=America/Chicago:20260713T180000
+DTEND;TZID=America/Chicago:20260713T193000
+SUMMARY:Village of Kronenwetter: Village Board Meeting
+URL:https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-m
+ eeting-61
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:db3f37dc047b7d7c25c2@marathon-meetings
 DTSTAMP:20260714T000000Z
 DTSTART;TZID=America/Chicago:20260714T103000
