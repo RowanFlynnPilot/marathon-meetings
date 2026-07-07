@@ -280,6 +280,17 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:846e303d00e980e490e9@marathon-meetings
+DTSTAMP:20260720T000000Z
+DTSTART;TZID=America/Chicago:20260720T160000
+DTEND;TZID=America/Chicago:20260720T173000
+SUMMARY:Village of Kronenwetter: Parks Committee
+URL:https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committe
+ e-0
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:0ae29b4985b87118c97a@marathon-meetings
 DTSTAMP:20260720T000000Z
 DTSTART;TZID=America/Chicago:20260720T171500
@@ -367,6 +378,18 @@ DTSTART;TZID=America/Chicago:20260803T180000
 DTEND;TZID=America/Chicago:20260803T193000
 SUMMARY:Village of Weston: Community Life & Public Safety Committee
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfcb2e4a824c3c70540@marathon-meetings
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=America/Chicago:20260803T180000
+DTEND;TZID=America/Chicago:20260803T193000
+SUMMARY:Village of Kronenwetter: Community Life\, Infrastructure and Public
+  Property (CLIPP) Committee Meeting
+URL:https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-li
+ fe-infrastructure-and-public-property-clipp-committee-meeting-26
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
