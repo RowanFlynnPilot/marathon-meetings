@@ -115,13 +115,6 @@
   ],
   "wausau": [
     {
-      "date": "2026-07-06",
-      "time": "5:15 PM",
-      "name": "Parks & Recreation Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2454/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-07-07",
       "time": "4:00 PM",
       "name": "Wausau Arts Commission Meeting",
@@ -211,23 +204,16 @@
       "name": "Capital Improvement Projects Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2484/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "5:15 PM",
+      "name": "Public Health & Safety Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2467/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-07-06",
-      "time": "",
-      "name": "Village Board of Trustees",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1934",
-      "source": "weston"
-    },
-    {
-      "date": "2026-07-06",
-      "time": "6:00 PM",
-      "name": "Community Life & Public Safety Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1933",
-      "source": "weston"
-    },
     {
       "date": "2026-07-13",
       "time": "6:00 PM",
@@ -365,13 +351,6 @@
     }
   ],
   "kronenwetter": [
-    {
-      "date": "2026-07-06",
-      "time": "6:00 PM",
-      "name": "REVISED Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/revised-community-life-infrastructure-and-public-property-clipp-committee-meeting-3",
-      "source": "kronenwetter"
-    },
     {
       "date": "2026-07-13",
       "time": "5:00 PM",

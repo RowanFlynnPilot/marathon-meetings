@@ -27,47 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:d3f3b747173b93610f2e@marathon-meetings
-DTSTAMP:20260706T000000Z
-DTSTART;VALUE=DATE:20260706
-SUMMARY:Village of Weston: Village Board of Trustees
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1934
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:9eb2ecdef95322e27d4f@marathon-meetings
-DTSTAMP:20260706T000000Z
-DTSTART;TZID=America/Chicago:20260706T171500
-DTEND;TZID=America/Chicago:20260706T184500
-SUMMARY:City of Wausau: Parks & Recreation Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2454/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:b533c0e17ee296f6a87b@marathon-meetings
-DTSTAMP:20260706T000000Z
-DTSTART;TZID=America/Chicago:20260706T180000
-DTEND;TZID=America/Chicago:20260706T193000
-SUMMARY:Village of Weston: Community Life & Public Safety Committee
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07062026-1933
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:78ca4266c25d999a5166@marathon-meetings
-DTSTAMP:20260706T000000Z
-DTSTART;TZID=America/Chicago:20260706T180000
-DTEND;TZID=America/Chicago:20260706T193000
-SUMMARY:Village of Kronenwetter: REVISED Community Life\, Infrastructure an
- d Public Property (CLIPP) Committee Meeting
-URL:https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/revised-comm
- unity-life-infrastructure-and-public-property-clipp-committee-meeting-3
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:4646e536ad6f3b627bd5@marathon-meetings
 DTSTAMP:20260707T000000Z
 DTSTART;TZID=America/Chicago:20260707T160000
@@ -317,6 +276,16 @@ DTSTART;TZID=America/Chicago:20260717T080000
 DTEND;TZID=America/Chicago:20260717T093000
 SUMMARY:City of Wausau: Capital Improvement Projects Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2484/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:0ae29b4985b87118c97a@marathon-meetings
+DTSTAMP:20260720T000000Z
+DTSTART;TZID=America/Chicago:20260720T171500
+DTEND;TZID=America/Chicago:20260720T184500
+SUMMARY:City of Wausau: Public Health & Safety Committee Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/2467/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
