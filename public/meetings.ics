@@ -119,22 +119,12 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
-UID:a96c32c08f161cbdd6be@marathon-meetings
-DTSTAMP:20260713T000000Z
-DTSTART;TZID=America/Chicago:20260713T180000
-DTEND;TZID=America/Chicago:20260713T193000
-SUMMARY:City of Wausau: Committee of the Whole Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/3536/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:d610cdb8f1bd4cac0898@marathon-meetings
 DTSTAMP:20260713T000000Z
 DTSTART;TZID=America/Chicago:20260713T180000
 DTEND;TZID=America/Chicago:20260713T193000
 SUMMARY:Village of Weston: Plan Commission
-URL:https://www.westonwi.gov/agendacenter
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1935
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -156,6 +146,16 @@ DTEND;TZID=America/Chicago:20260713T193000
 SUMMARY:Village of Kronenwetter: Village Board Meeting
 URL:https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-m
  eeting-61
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:a96c32c08f161cbdd6be@marathon-meetings
+DTSTAMP:20260713T000000Z
+DTSTART;TZID=America/Chicago:20260713T183000
+DTEND;TZID=America/Chicago:20260713T200000
+SUMMARY:City of Wausau: Committee of the Whole Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3536/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -256,6 +256,15 @@ DTSTART;TZID=America/Chicago:20260717T080000
 DTEND;TZID=America/Chicago:20260717T093000
 SUMMARY:City of Wausau: Capital Improvement Projects Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2484/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:05abaa5eef1c42d5584f@marathon-meetings
+DTSTAMP:20260720T000000Z
+DTSTART;VALUE=DATE:20260720
+SUMMARY:Village of Weston: Election Notices
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1938
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT

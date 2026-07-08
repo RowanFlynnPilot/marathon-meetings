@@ -144,7 +144,7 @@
     },
     {
       "date": "2026-07-13",
-      "time": "6:00 PM",
+      "time": "6:30 PM",
       "name": "Committee of the Whole Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3536/overview",
       "source": "wausau"
@@ -218,7 +218,7 @@
       "date": "2026-07-13",
       "time": "6:00 PM",
       "name": "Plan Commission",
-      "url": "https://www.westonwi.gov/agendacenter",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1935",
       "source": "weston"
     },
     {
@@ -240,6 +240,13 @@
       "time": "6:00 PM",
       "name": "Mountain Bay Metro Police Oversight",
       "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-07-20",
+      "time": "",
+      "name": "Election Notices",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1938",
       "source": "weston"
     },
     {
