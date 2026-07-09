@@ -164,13 +164,6 @@
       "source": "wausau"
     },
     {
-      "date": "2026-07-16",
-      "time": "4:45 PM",
-      "name": "Transit Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2181/overview",
-      "source": "wausau"
-    },
-    {
       "date": "2026-07-17",
       "time": "8:00 AM",
       "name": "Capital Improvement Projects Committee Meeting",
@@ -335,6 +328,13 @@
     }
   ],
   "school_board": [
+    {
+      "date": "2026-07-13",
+      "time": "5:00 PM",
+      "name": "Regular Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=752475",
+      "source": "school_board"
+    },
     {
       "date": "2026-07-13",
       "time": "5:00 PM",

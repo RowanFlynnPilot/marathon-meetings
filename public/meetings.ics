@@ -78,6 +78,16 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:85a9723b96014c05c308@marathon-meetings
+DTSTAMP:20260713T000000Z
+DTSTART;TZID=America/Chicago:20260713T170000
+DTEND;TZID=America/Chicago:20260713T183000
+SUMMARY:Wausau School Board: Regular Meeting
+URL:https://meetings.boardbook.org/Public/Agenda/1360?meeting=752475
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:3ffcb9c44e70d34035a2@marathon-meetings
 DTSTAMP:20260713T000000Z
 DTSTART;TZID=America/Chicago:20260713T170000
@@ -206,16 +216,6 @@ DTSTART;TZID=America/Chicago:20260715T183000
 DTEND;TZID=America/Chicago:20260715T200000
 SUMMARY:DC Everest School Board: Regular School Board Meeting
 URL:https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:f54b77418a0ba2691530@marathon-meetings
-DTSTAMP:20260716T000000Z
-DTSTART;TZID=America/Chicago:20260716T164500
-DTEND;TZID=America/Chicago:20260716T181500
-SUMMARY:City of Wausau: Transit Commission Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2181/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
