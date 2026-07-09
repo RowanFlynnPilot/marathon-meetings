@@ -401,5 +401,13 @@
       "source": "kronenwetter"
     }
   ],
-  "dc_everest": []
+  "dc_everest": [
+    {
+      "date": "2026-07-15",
+      "time": "6:30 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
+      "source": "dc_everest"
+    }
+  ]
 }
