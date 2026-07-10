@@ -27,6 +27,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d0f609cb1d1c557fb5ff@marathon-meetings
+DTSTAMP:20260713T000000Z
+DTSTART;VALUE=DATE:20260713
+SUMMARY:Village of Weston: S.A.F.E.R. Board of Directors
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1940
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:fe9fe05cc0b2d13a6fe0@marathon-meetings
 DTSTAMP:20260713T000000Z
 DTSTART;TZID=America/Chicago:20260713T164500
@@ -316,16 +325,6 @@ DTSTART;TZID=America/Chicago:20260727T160000
 DTEND;TZID=America/Chicago:20260727T173000
 SUMMARY:City of Wausau: Room Tax Commission Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2337/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:8c6794e236a558bdf3df@marathon-meetings
-DTSTAMP:20260727T000000Z
-DTSTART;TZID=America/Chicago:20260727T170000
-DTEND;TZID=America/Chicago:20260727T183000
-SUMMARY:City of Wausau: Bicycle & Pedestrian Advisory Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2124/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
