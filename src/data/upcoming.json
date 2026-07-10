@@ -1,20 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-07-09",
-      "time": "3:00 PM",
-      "name": "Executive Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
-      "date": "2026-07-09",
-      "time": "5:00 PM",
-      "name": "Infrastructure Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-07-14",
       "time": "5:00 PM",
       "name": "Public Safety Committee",
@@ -104,23 +90,16 @@
       "name": "Health & Human Services Committee",
       "url": "https://www.marathoncounty.gov/about-us/county-calendar",
       "source": "marathon"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "5:00 PM",
+      "name": "Public Safety Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
     }
   ],
   "wausau": [
-    {
-      "date": "2026-07-09",
-      "time": "5:00 PM",
-      "name": "Sustainability, Energy & Environment Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2170/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-07-09",
-      "time": "5:00 PM",
-      "name": "Infrastructure & Facilities Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2441/overview",
-      "source": "wausau"
-    },
     {
       "date": "2026-07-13",
       "time": "4:45 PM",
@@ -203,6 +182,20 @@
       "time": "7:30 AM",
       "name": "Police & Fire Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2149/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-27",
+      "time": "4:00 PM",
+      "name": "Room Tax Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2337/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-07-27",
+      "time": "5:00 PM",
+      "name": "Bicycle & Pedestrian Advisory Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2124/overview",
       "source": "wausau"
     }
   ],
@@ -323,6 +316,13 @@
       "date": "2026-09-07",
       "time": "6:00 PM",
       "name": "Community Life & Public Safety Committee",
+      "url": "https://www.westonwi.gov/agendacenter",
+      "source": "weston"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "name": "S.A.F.E.R. Board of Directors",
       "url": "https://www.westonwi.gov/agendacenter",
       "source": "weston"
     }
