@@ -1,231 +1,356 @@
 [
   {
-    "id": "g51JqvECxUs",
-    "source": "weston",
-    "title": "Plan Commission",
-    "date": "July 13, 2026",
-    "shortDate": "JUL 13",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=g51JqvECxUs",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1940",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Village of Weston Plan Commission was scheduled to hold a regular meeting to consider a Conditional Use Permit application for an Accessory Dwelling Unit, review the final plat of the Bull Junior View Subdivision, consider a Specific Implementation Plan amendment for Tidal Wave Auto Spa, and receive monthly reports on certified survey maps, site plans, and building permits.",
-    "agenda": [
-      {
-        "time": "6:00 P.M.",
-        "item": "Call to Order – Roll Call & Declaration of Quorum"
-      },
-      {
-        "time": "N/A",
-        "item": "Open public comment period for items that do not appear on this agenda noted as public hearings"
-      },
-      {
-        "time": "N/A",
-        "item": "Written Communications, Disclosures and Recusals"
-      },
-      {
-        "time": "N/A",
-        "item": "Minutes from May 11, 2026, Plan Commission Meeting"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Hearing – Project #20260237 - Conditional Use Permit for Accessory Dwelling Unit at 4804 Shorey Avenue"
-      },
-      {
-        "time": "N/A",
-        "item": "Project #20250424 - Final Plat of Bull Junior View Subdivision (Reedy Builders/Vreeland)"
-      },
-      {
-        "time": "N/A",
-        "item": "Project #20260169 – Specific Implementation Plan (SIP) Amendment No. 2 - Tidal Wave Auto Spa, 6237 Business Highway 51"
-      },
-      {
-        "time": "N/A",
-        "item": "May & June 2026 Staff-Approved Certified Survey Maps and Site Plans"
-      },
-      {
-        "time": "N/A",
-        "item": "May 2026 Building Permits"
-      },
-      {
-        "time": "N/A",
-        "item": "June 2026 Building Permits"
-      },
-      {
-        "time": "N/A",
-        "item": "Planning & Development Department Monthly Project Update Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Announcements & Commissioner Remarks"
-      },
-      {
-        "time": "N/A",
-        "item": "Future Agenda Items or Staff Referrals"
-      },
-      {
-        "time": "N/A",
-        "item": "Next Meeting Dates"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn Plan Commission"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Hearing – Project #20260237 - Conditional Use Permit for Accessory Dwelling Unit at 4804 Shorey Avenue",
-        "body": "The Plan Commission was scheduled to hold a public hearing on a request for a Conditional Use Permit to allow an Accessory Dwelling Unit at 4804 Shorey Avenue pursuant to Section 94.4.09(8) of the Village of Weston Zoning Code. The hearing was set to include staff and applicant presentations, public comment, and discussion and action by the Plan Commission."
-      },
-      {
-        "item": "Project #20250424 - Final Plat of Bull Junior View Subdivision (Reedy Builders/Vreeland)",
-        "body": "The Plan Commission was scheduled to consider the final plat for the Bull Junior View Subdivision, a project involving Reedy Builders and Vreeland. The specific details of the subdivision review were not detailed in the agenda."
-      },
-      {
-        "item": "Project #20260169 – Specific Implementation Plan (SIP) Amendment No. 2 - Tidal Wave Auto Spa, 6237 Business Highway 51",
-        "body": "The Plan Commission was set to review and potentially act on a Specific Implementation Plan Amendment No. 2 for the Tidal Wave Auto Spa located at 6237 Business Highway 51. The nature of the proposed amendments was not specified in the agenda."
-      },
-      {
-        "item": "May & June 2026 Staff-Approved Certified Survey Maps and Site Plans",
-        "body": "The Plan Commission was scheduled to review staff-approved Certified Survey Maps and Site Plans from May and June 2026 as part of its monthly reporting process."
-      },
-      {
-        "item": "May 2026 Building Permits",
-        "body": "The Plan Commission was set to review May 2026 building permits as part of its regular monthly reporting."
-      },
-      {
-        "item": "June 2026 Building Permits",
-        "body": "The Plan Commission was scheduled to review June 2026 building permits as part of its regular monthly reporting."
-      },
-      {
-        "item": "Planning & Development Department Monthly Project Update Report",
-        "body": "The Plan Commission was set to receive a monthly project update report from the Planning & Development Department."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda, with procedures available for both advance written submissions and live participation via Zoom.",
-    "actionItems": [
-      "Scheduled to vote on approval of May 11, 2026, Plan Commission Meeting minutes",
-      "Scheduled to conduct public hearing and take action on Project #20260237 - Conditional Use Permit for Accessory Dwelling Unit at 4804 Shorey Avenue",
-      "Expected to consider and act on Project #20250424 - Final Plat of Bull Junior View Subdivision",
-      "Expected to consider and act on Project #20260169 – Specific Implementation Plan (SIP) Amendment No. 2 for Tidal Wave Auto Spa"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Accessory Dwelling Unit",
-      "Subdivision",
-      "Commercial Development"
-    ],
-    "votes": []
-  },
-  {
     "id": "ubL9iQ5ZO1I",
     "source": "weston",
     "title": "Public Works Committee",
     "date": "July 13, 2026",
     "shortDate": "JUL 13",
     "committee": "Public Works",
-    "duration": null,
+    "duration": "1h 21m",
     "url": "https://www.youtube.com/watch?v=ubL9iQ5ZO1I",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1940",
-    "isAgendaOnly": true,
-    "badge": "new",
-    "overview": "Based on the published agenda, the Village of Weston Public Works & Utility Committee was scheduled to meet on July 13, 2026, to review capital improvement projects, street and utility operations updates, and consider several infrastructure matters including surveying services for Howland Avenue, street light installation, and bid results for Concord Avenue reconstruction. The meeting was also noticed as a special assessment hearing.",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Public Works Committee met on July 13, 2026, covering active construction project updates, utility operations, and two action items: awarding a surveying contract for Howland Avenue and awarding the Concord Avenue/Bayberry Street reconstruction bid to HS Suns. The committee also held an extended discussion on future capital needs including the aging Ross Avenue bridge over the Eau Claire River, street lighting gaps, PFAS treatment, and asbestos cement water main replacement.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of 6/8/26 Public Works & Utility Committee Minutes"
+        "time": "0:04",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Acknowledge June 2026 Water and Sewer Permits"
+        "time": "1:30",
+        "item": "Welcome and Acknowledgement of Guests"
       },
       {
-        "time": "N/A",
-        "item": "CIP Update"
+        "time": "2:00",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Street Operations Update"
+        "time": "2:20",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Utility Operations Update"
+        "time": "2:35",
+        "item": "Approval of June 8, 2026 Public Works and Utility Committee Meeting Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Howland Ave Surveying Services Quotes"
+        "time": "3:00",
+        "item": "Acknowledge June 2026 Water and Sewer Month"
       },
       {
-        "time": "N/A",
-        "item": "Street Light Installation Discussion"
+        "time": "3:30",
+        "item": "Item 8: CIP Update (Michael)"
       },
       {
-        "time": "N/A",
-        "item": "Concord Ave Reconstruction Bid Results"
+        "time": "9:45",
+        "item": "Item 9: Street Operations Update"
       },
       {
-        "time": "N/A",
-        "item": "Future Capital Improvement Plan Projects"
+        "time": "20:30",
+        "item": "Item 10: Utility Operations Update (Josh)"
+      },
+      {
+        "time": "36:00",
+        "item": "Item 11: Howland Avenue Survey Services"
+      },
+      {
+        "time": "39:30",
+        "item": "Item 12: Street Light Installation Discussion"
+      },
+      {
+        "time": "49:30",
+        "item": "Item 13: Concord Avenue Reconstruction Bid Results"
+      },
+      {
+        "time": "55:30",
+        "item": "Item 14: Future Capital Improvement Projects Discussion"
+      },
+      {
+        "time": "1:17:00",
+        "item": "Item 16: Topics for Future Meeting / Other Business"
+      },
+      {
+        "time": "1:19:30",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of 6/8/26 Public Works & Utility Committee Minutes",
-        "body": "The committee was scheduled to approve the minutes from the June 8, 2026 meeting of the Public Works & Utility Committee."
+        "item": "Approval of June 8, 2026 Minutes",
+        "body": "A motion was made and seconded to approve the minutes from the June 8, 2026 meeting. The motion passed unanimously on a voice vote with no discussion."
       },
       {
-        "item": "Acknowledge June 2026 Water and Sewer Permits",
-        "body": "The committee was set to acknowledge water and sewer permits issued during June 2026."
+        "item": "Acknowledge June 2026 Water and Sewer Month",
+        "body": "A motion was made and seconded to acknowledge June 2026 as Water and Sewer Month. The motion passed unanimously on a voice vote with no discussion."
       },
       {
         "item": "CIP Update",
-        "body": "The committee was scheduled to receive an update on the Capital Improvement Plan from Public Works Director Michael Wodalski."
+        "body": "Staff member Michael provided updates on multiple active projects. Western Avenue patch paving is largely complete with two rough patches remaining and two inoperable hydrants to be repaired. Scoffield Avenue specialty pavement markings and concrete work remain outstanding. Alderson Street and Jelnik concrete work is beginning and the intersection is expected to open around the first week of August, before school starts. Bladel Avenue reconstruction is roughly two-thirds complete on water main and sanitary sewer, with an early October finish date on schedule. The committee discussed the Rothschild/Bellwood project delay, with Rothschild reallocating funds to repave Eagles Nest Boulevard instead, pushing the shared project to next year. The DOT is reviewing Business 51 storm pond modeling; staff noted DOT contributes roughly 15% of the phosphorus load, equating to approximately $450,000 of a $3 million project, and a response is needed by end of month."
       },
       {
         "item": "Street Operations Update",
-        "body": "The committee was expected to receive a report on street operations activities and projects."
+        "body": "Staff reported that rural ditch and right-of-way mowing has begun along Scoffield Avenue, Camp Phillips, and other corridors. Shouldering on Shorry Avenue from Camp Phillips to Anastasia took a crew of eight about a day and a half. Excavation on Shirley Street is underway, stripping blacktop and removing clay/organic subgrade material, replacing it with approximately two to three feet of sand fill and 12 inches of recycled base; about 300 feet remain of the 1,300-foot project. Norcon completed repairs on Scoffield Avenue, fixing close to 200 failing panels from Esther to Tegan Street. Norcon also completed bridge deck repairs on Ross Avenue over the Eau Claire River in two days; the committee noted the deck is deteriorating and discussed that repairs are a temporary fix, with a full bridge replacement discussion deferred to Item 14. Farner Asphalt is performing crack sealing but postponed chip sealing of the Sandy Lane roundabout due to heat and humidity concerns."
       },
       {
         "item": "Utility Operations Update",
-        "body": "The committee was scheduled to receive an update on utility operations and activities."
+        "body": "Utility director Josh reported that unidirectional water main flushing is ongoing, currently near the Alderson/Radkey area, requiring about 10 to 12 weeks to complete the whole village and flushing approximately 12 to 15 million gallons annually. Josh noted a utility operator gave notice and is leaving, reducing the team from five to four operators; a job posting will go out shortly. The SCADA system is fully operational with minor interface fine-tuning ongoing; staff are developing a wish list of additional features. InPipe Technologies will begin an inflow and infiltration study in the annexed area near Wall Street at the end of the month, with a manhole rehabilitation project expected to be ready for award next month. A pump was pulled due to a wipes clog, prompting discussion of issuing public notices about flushing only appropriate materials."
       },
       {
-        "item": "Howland Ave Surveying Services Quotes",
-        "body": "The committee was set to review and consider quotes for surveying services related to Howland Avenue."
+        "item": "Howland Avenue Survey Services",
+        "body": "Staff received four survey proposals for the 2027 Howland Avenue reconstruction project. Point of Beginning submitted the low bid of $12,500 with a four-to-five-week turnaround; Breland Associates offered the fastest three-week schedule. Staff recommended Point of Beginning on cost since schedule was not a primary concern. A committee member moved to award the surveying contract to Point of Beginning at $12,500 and the motion passed unanimously on a voice vote."
       },
       {
         "item": "Street Light Installation Discussion",
-        "body": "The committee was scheduled to discuss street light installation plans and considerations."
+        "body": "Michael presented a village-wide street light map showing existing lights (red dots), unlit intersections (yellow), and unlit road bends (green). Following the minimum policy standard of lights at intersections, dead ends, bends, and every tenth mile would require approximately 121 additional lights at an upfront cost of roughly $250,000 and an annual operating increase of about $33,000. A committee member raised Ross Avenue as a safety concern due to frequent deer strikes in the dark corridor parallel to the Eau Claire River. The committee agreed staff should obtain a WPS quote for spacing lights along Ross Avenue from Camp Phillips to the river, and should consult the police department for data on accident and deer strike locations before any broader decisions. Members expressed opposition to a blanket village-wide lighting policy, preferring targeted improvements in high-traffic or high-risk areas. No vote was taken; staff was directed to get a WPS quote and police input."
       },
       {
-        "item": "Concord Ave Reconstruction Bid Results",
-        "body": "The committee was expected to review bid results for the Concord Avenue reconstruction project."
+        "item": "Concord Avenue Reconstruction Bid Results",
+        "body": "Four bids were received for the Concord Avenue and Bayberry Street reconstruction project: HS Suns at $2,223,819.90 (low bid), PGA at approximately $2,241,000, A1 at $2.36 million, and Integrity at $2.567 million. Staff recommended HS Suns, noting they have performed satisfactorily on multiple recent village projects including Jelnik Avenue, Scoffield Avenue, and the current roundabout. An alternate bid of $25,000 from HS Suns for a sidewalk connection in the Aspen area was also discussed; the committee agreed it was more cost-effective to include it now rather than return later. A committee member moved to award the project to HS Suns including the alternate for a total of $2,248,819.90 (base $2,223,819.90 plus alternate $25,000 approximately); the motion was seconded and passed unanimously on a voice vote."
       },
       {
-        "item": "Future Capital Improvement Plan Projects",
-        "body": "The committee was set to discuss and consider future projects for inclusion in the Capital Improvement Plan."
+        "item": "Future Capital Improvement Projects Discussion",
+        "body": "Staff outlined several major upcoming projects for 2027–2030 and beyond. The Ross Avenue bridge over the Eau Claire River, built in 1979, is deteriorating rapidly with a hollow-sounding deck on chain testing; the committee agreed staff should develop an RFP for a structural analysis and bridge design consultation as soon as possible, noting the DOT permitting process could take four to five years. PFAS treatment was flagged as a pressing water utility need, with the Bladel and Alta Verde wells creeping toward the EPA recommended level of four parts per trillion; staff proposed designing treatment plants at those wells and pursuing DNR safe drinking water loan funding. The Fox Street lift station was identified as the oldest and most vulnerable lift station, with a small wet well and recent near-failures. Water and sewer master plans from 2017–2018 are due for a 10-year update. The Camp Phillips corridor (County Road X) was discussed; the county highway commissioner envisions an engineering study in 2028–2029 and noted the corridor is nearing traffic capacity with no practical reconstruction within its current footprint. Asbestos cement water main replacement was raised as a topic for a future meeting, with committee members urging pursuit of grant funding to accelerate the estimated 10-plus-year replacement timeline. Mountain Bay Metro Police Department evidence storage was noted as now moved out of the public safety building main structure to the two outbuildings. The Mountain Bay Metro Police Department building bid opening was noted for Thursday at 10:00 a.m."
       }
     ],
-    "publicComment": "Public comment was on the agenda as item 5.",
+    "publicComment": "No public comment was offered. Tanya Westfall with Clark Eats joined via Zoom but no public comment period was exercised by any attendees.",
     "actionItems": [
-      "Scheduled to approve 6/8/26 meeting minutes",
-      "Expected to acknowledge June 2026 water and sewer permits",
-      "Set to review and consider Howland Avenue surveying services quotes",
-      "Scheduled to discuss street light installation",
-      "Expected to review Concord Avenue reconstruction bid results",
-      "Set to consider future Capital Improvement Plan projects"
+      "Award Howland Avenue surveying contract to Point of Beginning at $12,500",
+      "Award Concord Avenue and Bayberry Street reconstruction to HS Suns including the Aspen sidewalk alternate for a total of approximately $2,248,819.90",
+      "Staff to obtain WPS quote for Ross Avenue street lighting from Camp Phillips to the Eau Claire River",
+      "Staff to consult Weston Police Department for accident and deer strike location data to inform street lighting priorities",
+      "Staff to develop an RFP for Ross Avenue bridge structural analysis and design consultation and bring to committee for review",
+      "Staff to pursue bridge aid grants and other funding for Ross Avenue bridge replacement",
+      "Staff to contact Marathon County Highway Commissioner Kevin Lang for bridge RFP templates",
+      "Staff to incorporate Ross Avenue bridge, PFAS treatment plant design, Fox Street lift station, and master plan update into 2027 budget planning",
+      "Staff to bring preliminary cost numbers for future capital projects to next meeting",
+      "Water main replacement grant pursuit to be added as a future meeting agenda topic",
+      "Real estate purchase offers for the Rosaf project right-of-way (Alderson to Metro Drive) to go to Village Board for approval",
+      "Post job advertisement for fifth utility operator position",
+      "Share Mountain Bay Metro Police Department evidence storage building update with Village Board at next week's meeting"
     ],
     "topics": [
-      "Capital Improvements",
-      "Street Infrastructure",
-      "Utilities",
       "Roads",
-      "Budget"
+      "Utilities",
+      "Ross Avenue Bridge",
+      "PFAS Treatment",
+      "Street Lighting",
+      "Water Main Replacement",
+      "Concord Avenue Reconstruction"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of June 8, 2026 Public Works and Utility Committee Meeting Minutes",
+        "motion": "Move to approve the minutes from 6/8/26",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge June 2026 Water and Sewer Month",
+        "motion": "Move to acknowledge",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Award Howland Avenue surveying contract to Point of Beginning at $12,500",
+        "motion": "Move to award the Howland Avenue surveying project to Point of Beginning based on their cost of $12,500",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Award Concord Avenue and Bayberry Street reconstruction to HS Suns including Aspen sidewalk alternate",
+        "motion": "Move to award the Concord Avenue and Bayberry Street reconstruction project to HS Suns including the additional sidewalk work for a total price of $2,223,819.90 plus $25,000 alternate",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "g51JqvECxUs",
+    "source": "weston",
+    "title": "Plan Commission",
+    "date": "July 13, 2026",
+    "shortDate": "JUL 13",
+    "committee": "Village of Weston Plan Commission",
+    "duration": "25m",
+    "url": "https://www.youtube.com/watch?v=g51JqvECxUs",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07132026-1940",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Plan Commission met on July 13, 2026 and approved three substantive items: a conditional use permit for a detached accessory dwelling unit at 4804 Shore Avenue, a final plat recommendation for the Bull Junior View 23-lot subdivision, and an acknowledgment of a minor SIP amendment for Title Wave Auto Spa. The meeting concluded in approximately 25 minutes with all motions passing unanimously.",
+    "agenda": [
+      {
+        "time": "0:01",
+        "item": "Call to Order and Roll Call"
+      },
+      {
+        "time": "0:45",
+        "item": "Public Comment on Non-Agendized Items"
+      },
+      {
+        "time": "1:00",
+        "item": "Written Communications, Disclosures, or Recusals"
+      },
+      {
+        "time": "1:10",
+        "item": "Minutes from May 11, 2026 Meeting"
+      },
+      {
+        "time": "1:30",
+        "item": "Public Hearing – Project 20260237: Conditional Use Permit for Accessory Dwelling Unit at 4804 Shore Avenue"
+      },
+      {
+        "time": "12:45",
+        "item": "Project 20250424: Final Plat – Bull Junior View Subdivision (Greenland)"
+      },
+      {
+        "time": "15:10",
+        "item": "Project 20260169: SIP Amendment No. 2 – Title Wave Auto Spa, 6237 Business Highway 51"
+      },
+      {
+        "time": "17:30",
+        "item": "May and June 2026 Staff-Approved Certified Survey Maps and Site Plans"
+      },
+      {
+        "time": "19:00",
+        "item": "May and June 2026 Building Permits (Items 9 & 10, combined)"
+      },
+      {
+        "time": "20:00",
+        "item": "Planning and Development Department Monthly Project Update Report"
+      },
+      {
+        "time": "23:30",
+        "item": "Announcements and Commissioner Remarks"
+      },
+      {
+        "time": "24:50",
+        "item": "Future Agenda Items, Next Meeting Dates, and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Minutes from May 11, 2026 Meeting",
+        "body": "A commissioner moved to approve the minutes as presented and another seconded. There was no discussion and the motion carried unanimously."
+      },
+      {
+        "item": "Public Hearing – Conditional Use Permit for ADU at 4804 Shore Avenue (Project 20260237)",
+        "body": "Staff presented the application from Chad and Roxan Bucky to construct a 1,090 sq ft detached accessory dwelling unit on their 12.35-acre RR5-zoned property to house a family member (the applicant's mother, recently widowed). The applicant was not present. No public comment was offered. Commissioners discussed emergency access and fire numbering, the ADU's utilities (private well and septic required, its own meter), and whether the unit could be rented in the future; staff confirmed long-term rental would be permitted but short-term rental is prohibited under the draft conditions. The commission worked through the five required conditional use findings, answering 'yes' to each, then approved the CUP with conditions 1 through 7."
+      },
+      {
+        "item": "Final Plat – Bull Junior View Subdivision (Project 20250424)",
+        "body": "Staff reported that the final plat for this 23-lot single-family subdivision by Rudy Builders is in substantial conformance with the preliminary plat approved by the village board in December 2025. The project engineer Dustin was present but no questions were directed to him. There was no notable debate; commissioners moved directly to a vote and the commission unanimously recommended approval to the village board subject to conditions in draft resolution 2026-019."
+      },
+      {
+        "item": "SIP Amendment No. 2 – Title Wave Auto Spa (Project 20260169)",
+        "body": "Staff explained this item was placed on the agenda for acknowledgment only: a minor SIP amendment allowing a small shed had already been administratively approved the prior month and the building permit issued. Staff noted the ordinance allows minor amendments to be handled at the staff level. Commissioners acknowledged the item with a unanimous vote and one member commended staff for being proactive."
+      },
+      {
+        "item": "May and June 2026 Staff-Approved CSMs and Site Plans",
+        "body": "Staff noted several projects are already under construction, including Burger King, and that Fabick Cat's long-pending site plan was finally submitted and approved after delays related to parking lot decisions. Commissioners acknowledged the list and praised the streamlined staff-approval process established in 2015."
+      },
+      {
+        "item": "Planning and Development Department Monthly Project Update Report",
+        "body": "Staff highlighted work on a small office addition for Precision Body and Frame on Post Avenue and noted ongoing monitoring of two problem properties: Auto Select, where an unfinished parking area slab remains and staff has warned the owner his deadline is approaching, and a storage facility where construction stalled after materials were stolen from the site but the owner is expected to complete paving this year per his conditional use permit amendment. Commissioners noted the CUP contains binding deadlines and the owner may need to return to the commission."
+      }
+    ],
+    "publicComment": "No public comment was offered on non-agendized items or on any agenda items.",
+    "actionItems": [
+      "Conditional use permit approved for 1,090 sq ft detached ADU at 4804 Shore Avenue with conditions 1–7, including prohibition on short-term rental; building permit to follow upon receipt of full construction drawings",
+      "Plan Commission forwards recommendation of approval to village board for Bull Junior View 23-lot final plat subdivision per draft resolution 2026-019",
+      "Staff to continue monitoring Auto Select property for completion of parking lot paving by the deadline established in its conditional use permit",
+      "Staff to continue monitoring storage facility property for completion of construction and paving per CUP amendment deadlines",
+      "Next Comprehensive Plan Steering Committee meeting: Monday, August 3, 2026 at 6 p.m.",
+      "Next regular Plan Commission meeting: Monday, August 10, 2026 at 6 p.m."
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Accessory Dwelling Units",
+      "Subdivision Plats",
+      "Conditional Use Permits"
+    ],
+    "votes": [
+      {
+        "item": "Approve minutes from May 11, 2026 meeting",
+        "motion": "Move to approve as presented",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Conditional use permit for ADU at 4804 Shore Avenue with conditions 1–7",
+        "motion": "Motion to approve the conditional use permit at 4804 Shore Avenue with conditions 1 through 7 as presented",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend approval of Bull Junior View final plat to village board (Project 20250424)",
+        "motion": "Motion to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge SIP Amendment No. 2 for Title Wave Auto Spa (Project 20260169)",
+        "motion": "Motion to acknowledge",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge May and June 2026 staff-approved CSMs and site plans",
+        "motion": "Move to acknowledge",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge May and June 2026 building permits (Items 9 and 10)",
+        "motion": "Move to acknowledge items nine and ten",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge Planning and Development Department Monthly Project Update Report",
+        "motion": "Motion to acknowledge",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjourn",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "kw_984daf117d4046ba8bdb30b6d98982e6",
@@ -1045,7 +1170,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-8eb365830ccd47e5865e3f22088e7351.pdf",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Village of Kronenwetter Police and Fire Commission voted 4-0 to delay action on revisions to its Citizen Complaint/Charge Form, pending incorporation of additional changes discussed at the meeting. The commission also reviewed but took no action on a proposed new selection process for hiring fire department members. A community member raised concerns about electric scooters on Village streets during public comment.",
     "agenda": [
       {
