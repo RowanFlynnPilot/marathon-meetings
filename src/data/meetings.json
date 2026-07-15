@@ -1,5 +1,385 @@
 [
   {
+    "id": "bb_752240",
+    "source": "dc_everest",
+    "title": "Regular School Board Meeting",
+    "date": "July 15, 2026",
+    "shortDate": "JUL 15",
+    "committee": "Regular Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to conduct a regular meeting addressing staffing changes, budget matters, policy reviews, and several administrative updates. The board was expected to consider multiple policy approvals, school handbook revisions, curriculum evaluations, and facility planning discussions.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+      },
+      {
+        "time": "N/A",
+        "item": "Treasurer's Report - General/Other Fund Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "Balance Sheet"
+      },
+      {
+        "time": "N/A",
+        "item": "Budget Transfers"
+      },
+      {
+        "time": "N/A",
+        "item": "Budget Revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "Grant Application(s)/Budget(s) Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Fundraising Requests"
+      },
+      {
+        "time": "N/A",
+        "item": "Gift/Bequests"
+      },
+      {
+        "time": "N/A",
+        "item": "Bus Accident Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Second Reading of Policies (po0100 Definitions, po0167.3 Public Comment at Board Meetings, po3120 Employment of Professional Staff, po3120.05 Employment of Personnel in Community Education Programs, po3140 Non-Renewal Resignation and Termination, po4120.04 Employment of Substitutes, po5200.01 Full-Time Student)"
+      },
+      {
+        "time": "N/A",
+        "item": "Non-Certified Staff Employment Changes (Informational Only)"
+      },
+      {
+        "time": "N/A",
+        "item": "WASB Legislative Network Member Presentation"
+      },
+      {
+        "time": "N/A",
+        "item": "CESA #9 Representative Presentation"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Reports and Considerations"
+      },
+      {
+        "time": "N/A",
+        "item": "Unfinished Business"
+      },
+      {
+        "time": "N/A",
+        "item": "Set the Date for Annual Meeting/Budget Hearing"
+      },
+      {
+        "time": "N/A",
+        "item": "Academic Standards"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Independent Hearing Officers"
+      },
+      {
+        "time": "N/A",
+        "item": "School Handbook Changes (Elementary, Middle School, Junior High, Senior High)"
+      },
+      {
+        "time": "N/A",
+        "item": "Review of po2261.01 - Parent and Family Engagement in Title 1 Programs"
+      },
+      {
+        "time": "N/A",
+        "item": "Annual Eval of Reading Curriculum po2131.01"
+      },
+      {
+        "time": "N/A",
+        "item": "Senior High Trip to Japan"
+      },
+      {
+        "time": "N/A",
+        "item": "First Reading of Policies (po1213, po3120.01, po3213, po4213, po7530.02, po7530.03, po7544, po8120, po8462)"
+      },
+      {
+        "time": "N/A",
+        "item": "WASB Fall Region Five Meeting Information"
+      },
+      {
+        "time": "N/A",
+        "item": "Petitions and Communications"
+      },
+      {
+        "time": "N/A",
+        "item": "Future Meeting Dates"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment to Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "WASB Legislative Network Member Presentation",
+        "body": "Shannon Grabko was scheduled to present on behalf of the Wisconsin Association of School Boards Legislative Network, providing updates on legislative matters relevant to the school district."
+      },
+      {
+        "item": "CESA #9 Representative Presentation",
+        "body": "Larry Schaefer from Cooperative Educational Service Agency #9 was scheduled to present, offering regional educational updates and support information."
+      },
+      {
+        "item": "Superintendent Reports",
+        "body": "Superintendent Dr. Casey Nye was scheduled to present multiple reports including District Update, Certified Staff Compensation Planning, Internal Review of Student Screen Time, Facilities Study Learning Focus, Responsive Classroom, Summer Projects Update, and information about the 2026 World Horseshoe Pitching Championship."
+      },
+      {
+        "item": "School Handbook Changes",
+        "body": "The board was expected to review and potentially approve handbook changes for Elementary (Riverside Sample), Middle School, Junior High, and Senior High schools for the 2026-27 school year."
+      },
+      {
+        "item": "Annual Evaluation of Reading Curriculum",
+        "body": "The Reading Specialist was scheduled to present the annual reading curriculum evaluation report including Reading Instructional Goals and Kindergarten Assessment updates for July 2026, as required by policy po2131.01."
+      },
+      {
+        "item": "Senior High Trip to Japan",
+        "body": "The board was expected to consider a request regarding a Senior High student trip to Japan."
+      },
+      {
+        "item": "Certified Staff Employment Changes",
+        "body": "The board was scheduled to approve recommended employment, resignations, and contract adjustments for certified staff based on documentation submitted on July 8 and July 14, 2026."
+      },
+      {
+        "item": "Budget and Financial Reports",
+        "body": "The board was expected to review the Treasurer's Report, Balance Sheet, Budget Transfers (25-00473 through 25-00515), and Budget Revisions (25-00053 through 25-00062) for July 2026."
+      },
+      {
+        "item": "Bus Accident Report",
+        "body": "A bus accident report from June 18, 2026 was scheduled for board review."
+      },
+      {
+        "item": "Policy Second Readings",
+        "body": "The board was scheduled to conduct second readings on seven policies including Definitions, Public Comment at Board Meetings, Employment of Professional Staff, Employment of Personnel in Community Education Programs, Non-Renewal/Resignation/Termination, Employment of Substitutes, and Full-Time Student definitions."
+      },
+      {
+        "item": "Policy First Readings",
+        "body": "The board was expected to conduct first readings on nine policies including Student Supervision and Welfare, Job Descriptions, Personal Communication Devices, Student Technology Acceptable Use and Safety, Use of Social Media, Volunteers, and Reporting of Child Abuse and Neglect and Sexual Misconduct."
+      },
+      {
+        "item": "Review of Parent and Family Engagement Policy",
+        "body": "The board was scheduled to review policy po2261.01 regarding Parent and Family Engagement in Title 1 Programs."
+      },
+      {
+        "item": "Independent Hearing Officers Approval",
+        "body": "The board was expected to approve a list of independent hearing officers for the district."
+      },
+      {
+        "item": "Academic Standards",
+        "body": "The board was scheduled to consider academic standards for the 2026-27 school year."
+      }
+    ],
+    "publicComment": "A public comment period was scheduled as part of the regular board meeting agenda.",
+    "actionItems": [
+      "Board was expected to approve the minutes from the June 17, 2026 meeting",
+      "Board was expected to approve certified staff employment, resignations, and contract adjustments",
+      "Board was expected to approve Treasurer's Report and financial statements",
+      "Board was expected to approve budget transfers and budget revisions",
+      "Board was expected to approve second readings of seven policies",
+      "Board was expected to conduct first readings of nine policies",
+      "Board was expected to approve independent hearing officers",
+      "Board was expected to set the date for the annual meeting and budget hearing",
+      "Board was expected to approve or modify school handbooks for all school levels",
+      "Board was expected to approve the Senior High trip to Japan",
+      "Board was expected to review and potentially approve academic standards for 2026-27"
+    ],
+    "topics": [
+      "Staffing and Employment",
+      "Budget and Finance",
+      "Policy Review",
+      "School Handbooks",
+      "Curriculum and Reading Instruction",
+      "Facilities Planning",
+      "Student Programs and Trips",
+      "Title 1 Programs",
+      "Technology and Acceptable Use"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_d62f82063c0042b5897330781843b4c2",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "July 13, 2026",
+    "shortDate": "JUL 13",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-61",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d62f82063c0042b5897330781843b4c2.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board met on July 13, 2026, and took several significant actions including approving an amended bid for a six-bay equipment garage at $814,815 (adding a second restroom to the original design), approving placement of a ballot drop box for both the August 2026 primary and November 2026 general elections, and referring election ordinance revisions back to staff and the CLIP committee. The board also convened in closed session to address a personnel matter and discussed oak wilt enforcement, ultimately directing staff to review and update the existing ordinance through CLIP.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:05",
+        "item": "Public Comment"
+      },
+      {
+        "time": "2:20",
+        "item": "Report from Staff and Vendors - Police (Lieutenant Smart)"
+      },
+      {
+        "time": "4:10",
+        "item": "Fire Chief Report (Chief absent)"
+      },
+      {
+        "time": "5:00",
+        "item": "Administrator's Report"
+      },
+      {
+        "time": "12:30",
+        "item": "Consent Agenda - June 22, 2026 Board Meeting Minutes"
+      },
+      {
+        "time": "13:30",
+        "item": "New Business Item H: Proposed Revisions to Chapter 41 Elections - CLIP Committee"
+      },
+      {
+        "time": "27:45",
+        "item": "New Business Item H (continued): Absentee Ballot Drop Box Installation"
+      },
+      {
+        "time": "42:00",
+        "item": "New Business Item I: Oak Wilt"
+      },
+      {
+        "time": "59:00",
+        "item": "New Business Item J: Municipal Center Garage Bid"
+      },
+      {
+        "time": "1:16:00",
+        "item": "Consideration of Motion to Convene in Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Administrator's Report",
+        "body": "Administrator Dave reported on the upcoming budget calendar process, noting the Capital Improvement Program (CIP) would begin in August rather than waiting until October. He also flagged incoming calls about a potential moratorium on data centers and solar farms, and confirmed that a new hire named Sandwick is scheduled to start August 6. A parks-related power outage at Buse Park was discussed — GFI outlets had tripped and staff were unaware of the switch locations; the renter was offered a deposit refund."
+      },
+      {
+        "item": "Consent Agenda - June 22, 2026 Board Meeting Minutes",
+        "body": "Trustee Stowell moved to approve the June 22, 2026 board meeting minutes; Trustee Mortensen seconded. The motion passed on a voice vote with no opposition noted."
+      },
+      {
+        "item": "Proposed Revisions to Chapter 41 Elections - CLIP Committee",
+        "body": "The board discussed three options for handling election-related ordinance revisions stemming from five complaints filed during the 2024 election: (A) adopt the CLIP-drafted language, (B) rely on existing state statutes and corrective actions already taken, or (C) work with the attorney to refine the ordinance. Trustee Coyle moved for Option C with a public hearing; Trustee Lesniak seconded. After extended debate about the risks of mirroring state statutes in local ordinance and the need to avoid ongoing maintenance issues, Trustee Coyle withdrew the motion. The board ultimately directed Clerk Jennifer to draft internal policy guidelines incorporating corrective actions and aligned with state statute, then bring the result back to CLIP for review. Trustee Myszka noted a specific technical concern with Section 41-3 regarding alternates language that should be updated."
+      },
+      {
+        "item": "Absentee Ballot Drop Box Installation",
+        "body": "Clerk Jennifer presented the proposal citing U.S. Postal Service delays causing some residents to miss ballot return deadlines. The board debated the need for surveillance cameras on the box; it was ultimately agreed that a camera would not be installed initially. Trustee Stowell moved to approve the drop box for the August 2026 primary; Trustee Lesniak seconded. The motion was then amended by Trustee Stowell to include both the August primary and November general election, with a report back to the board on usage and any damage. The amended motion passed unanimously on a voice vote. Lieutenant Smart was asked to inform the department to monitor the drop box, noting that tampering could carry misdemeanor or felony charges under Wisconsin law."
+      },
+      {
+        "item": "Oak Wilt",
+        "body": "President Joling brought the item forward after receiving ongoing correspondence from a resident demanding enforcement against a neighbor's tree. Greg (public works) explained that the village has effectively limited its involvement to trees in the right-of-way since grant funding dried up. Trustee Coyle argued the ordinance should be removed entirely and replaced with a website guideline since there is no funding or staff to enforce it. Others, including Trustee Solheim and President Joling, favored updating rather than repealing the ordinance and working cooperatively with residents. The board directed staff to review and update the oak wilt ordinance and bring it back through CLIP, while also asking that a resource list of local arborists and DNR links be posted on the village website."
+      },
+      {
+        "item": "Municipal Center Garage Bid",
+        "body": "Administrator Dave and Greg presented details on the six-bay equipment garage project, explaining that a firewall between the police and DPW sections necessitated the addition of a second restroom on the police side to avoid the cost of a three-hour-rated fire door (estimated $7,000–$10,000). The restroom addition brings the total bid from the originally approved $799,000 to $814,815. Trustee Coyle made the motion to approve the amended bid; Trustee Myszka seconded. The board voted 7-0 to approve."
+      },
+      {
+        "item": "Closed Session",
+        "body": "Trustee Lesniak moved and Trustee Stowell seconded a motion to convene in closed session pursuant to Wisconsin Statutes 19.85(1)(b) for consideration of dismissal, discipline, or investigation of charges against a public employee, and pursuant to Wisconsin Public Records Law. The roll call vote was 7-0 in favor."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Staff (Clerk Jennifer) to draft revised election ordinance guidelines aligned with state statute and present to CLIP committee for review, including technical fix to Section 41-3 alternates language",
+      "Administrator to prepare a moratorium resolution regarding data centers and solar farms for the next board agenda",
+      "Ballot drop box to be placed for August 2026 primary and November 2026 general election; clerk to track usage and report back to board",
+      "Police department to be briefed by Lieutenant Smart to monitor ballot drop box for tampering or vandalism",
+      "Staff to create informational sheet for park shelter GFI outlets and electrical switches for renters and new employees",
+      "Staff to review and update oak wilt ordinance and bring back through CLIP; DNR resource links and local arborist list to be posted on village website",
+      "Public works to inspect and consider replacing aging GFI receptacles at park shelters that have been struck by lightning",
+      "Six-bay municipal garage contractor to proceed with revised plans including second restroom at total bid of $814,815",
+      "New hire Sandwick confirmed to start August 6",
+      "Budget calendar and CIP process to begin in August; administrator to bring six-month 2026 financial update to APC and board addressing over-budget fuel and legal costs"
+    ],
+    "topics": [
+      "Elections",
+      "Budget",
+      "Parks",
+      "Development",
+      "Oak Wilt"
+    ],
+    "votes": [
+      {
+        "item": "Approval of June 22, 2026 Village Board Meeting Minutes",
+        "motion": "Motion to approve the June 22nd, 2026 Village Board meeting minutes",
+        "mover": "Jessica Stowell",
+        "second": "Craig Mortensen",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Ballot drop box for August 2026 primary and November 2026 general election (amended motion)",
+        "motion": "Motion to place drop box for both August and November 2026 elections with follow-up report on usage",
+        "mover": "Jessica Stowell",
+        "second": "Dan Lesniak",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Municipal center six-bay equipment garage bid at $814,815",
+        "motion": "Motion to approve the bid as amended at $814,815",
+        "mover": "Kelly Coyle",
+        "second": "Aaron Myszka",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Motion to convene in closed session",
+        "motion": "Motion to move into closed session pursuant to Wis. Stat. 19.85(1)(b) and Wisconsin Public Records Law",
+        "mover": "Dan Lesniak",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "7-0"
+      }
+    ]
+  },
+  {
     "id": "ubL9iQ5ZO1I",
     "source": "weston",
     "title": "Public Works Committee",
@@ -407,88 +787,6 @@
       "Public Safety",
       "Staffing",
       "Personnel"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_d62f82063c0042b5897330781843b4c2",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "July 13, 2026",
-    "shortDate": "JUL 13",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-61",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d62f82063c0042b5897330781843b4c2.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on July 13, 2026, to address several items including proposed revisions to election procedures, ballot drop box installation, oak wilt regulations, and municipal center garage matters. The meeting was also set to include reports from police and fire leadership and review of personnel matters in closed session.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Police Chief's Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Fire Chief Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Administrator Report"
-      },
-      {
-        "time": "N/A",
-        "item": "June 22, 2026 Village Board Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Proposed Revisions to Chapter 41 Elections (CLIPP)"
-      },
-      {
-        "time": "N/A",
-        "item": "Kronenwetter Ballot Drop Box Installation"
-      },
-      {
-        "time": "N/A",
-        "item": "Chapter 389 Oak Wilt"
-      },
-      {
-        "time": "N/A",
-        "item": "Municipal Center Garage"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Proposed Revisions to Chapter 41 Elections (CLIPP)",
-        "body": "The Board was scheduled to discuss and consider possible action on proposed revisions to Chapter 41 regarding elections procedures. The item was identified with the designation CLIPP but specific details of the proposed changes were not provided in the agenda."
-      },
-      {
-        "item": "Kronenwetter Ballot Drop Box Installation",
-        "body": "The Board was set to discuss and consider possible action regarding the installation of a ballot drop box in Kronenwetter. Details of the proposed installation location and specifications were not included in the published agenda."
-      },
-      {
-        "item": "Chapter 389 Oak Wilt",
-        "body": "The Board was scheduled to address Chapter 389 regulations related to oak wilt. The specific nature of proposed revisions or actions was not detailed in the agenda document."
-      },
-      {
-        "item": "Municipal Center Garage",
-        "body": "The Board was set to discuss and consider possible action regarding the Municipal Center Garage. The specific scope of the matter, whether related to maintenance, expansion, or other issues, was not specified in the published agenda."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with three minutes per person at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Expected to vote on or consider approval of June 22, 2026 meeting minutes",
-      "Scheduled to vote on or consider proposed revisions to Chapter 41 Elections (CLIPP)",
-      "Scheduled to vote on or consider ballot drop box installation",
-      "Scheduled to vote on or consider Chapter 389 oak wilt regulations",
-      "Scheduled to vote on or consider Municipal Center garage matter",
-      "Expected to consider personnel investigation record redactions in closed session"
-    ],
-    "topics": [
-      "Elections",
-      "Public Safety",
-      "Municipal Operations",
-      "Regulations"
     ],
     "votes": []
   },
@@ -6064,331 +6362,6 @@
         "outcome": "Approved",
         "tally": null
       }
-    ]
-  },
-  {
-    "id": "I31JGv7tRq4",
-    "source": "wausau",
-    "title": "Water Works Commission Meeting",
-    "date": "May 5, 2026",
-    "shortDate": "MAY 5",
-    "committee": "Water Works",
-    "duration": "30m",
-    "url": "https://www.youtube.com/watch?v=I31JGv7tRq4",
-    "docUrl": "https://wausauwi.portal.civicclerk.com/event/2191/overview",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Water Works Commission approved the 2027-2031 Capital Improvement Projects Budget for Drinking Water and Wastewater Utility, along with two sole source agreements for cross connection control services and polymer chemicals. The commission also received updates on lead service line replacements and wastewater projects.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Consideration of the minutes of the preceding meeting(s) - April 8, 2026 Regular Wausau Water Works Commission Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Director's Reports - Update on Lead Service Line Replacements"
-      },
-      {
-        "time": "N/A",
-        "item": "Director's Reports - Wastewater Project Updates: Headworks Screening Project, Cherry Street Lift Station and Lift Station Assessment w/ Clark Dietz"
-      },
-      {
-        "time": "N/A",
-        "item": "Approving the 2027 through 2031 Capital Improvement Projects (CIP) Budget for the Drinking Water and Wastewater Utility"
-      },
-      {
-        "time": "N/A",
-        "item": "Approving the Sole Source Renewal Agreement for HydroCorp Non-Residential Cross Connection Control (CCC) Program"
-      },
-      {
-        "time": "N/A",
-        "item": "Approving the Sole Source Request for MCEP9 and K144L-NA Polymers used to thicken solids in the Belt Filter Presses and Gravity Belt Thickeners"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion regarding the Wastewater - Final WPDES Permit Issued with a permit term of five years"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "April 8, 2026 Regular Meeting Minutes",
-        "body": "The commission approved the minutes from the April 8, 2026 regular meeting. The motion passed."
-      },
-      {
-        "item": "Update on Lead Service Line Replacements",
-        "body": "The director provided an update on lead service line replacements. This was an informational report with no action required."
-      },
-      {
-        "item": "Wastewater Project Updates",
-        "body": "The director reported on wastewater projects including the Headworks Screening Project, Cherry Street Lift Station, and Lift Station Assessment with Clark Dietz. This was an informational report with no action required."
-      },
-      {
-        "item": "2027-2031 Capital Improvement Projects Budget",
-        "body": "The commission approved the 2027 through 2031 Capital Improvement Projects Budget for the Drinking Water and Wastewater Utility. The motion passed."
-      },
-      {
-        "item": "Sole Source Renewal Agreement for HydroCorp Cross Connection Control Program",
-        "body": "The commission approved the sole source renewal agreement for HydroCorp Non-Residential Cross Connection Control Program. The motion passed."
-      },
-      {
-        "item": "Sole Source Request for MCEP9 and K144L-NA Polymers",
-        "body": "The commission approved the sole source request for MCEP9 and K144L-NA polymers used to thicken solids in the Belt Filter Presses and Gravity Belt Thickeners. The motion passed."
-      },
-      {
-        "item": "Wastewater Final WPDES Permit",
-        "body": "The commission discussed the final WPDES permit issued with a five-year term. This was a discussion item with no formal action taken."
-      }
-    ],
-    "publicComment": "Not indicated on agenda.",
-    "actionItems": [
-      "Implement 2027-2031 Capital Improvement Projects Budget for Drinking Water and Wastewater Utility",
-      "Execute sole source renewal agreement with HydroCorp for Non-Residential Cross Connection Control Program",
-      "Proceed with sole source procurement of MCEP9 and K144L-NA polymers for wastewater treatment",
-      "Next meeting scheduled for June 2, 2026 at 11:00 AM"
-    ],
-    "civicItems": [
-      {
-        "number": "1",
-        "name": "Consideration of the minutes of the preceding meeting(s).",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "Regular Wausau Water Works Commission Minutes",
-            "desc": "",
-            "votes": [
-              {
-                "motion": "Motion to Approve Minutes of April 8, 2026.",
-                "passed": true,
-                "initiator": "Deb Hadley",
-                "seconder": "Peter Gelhar",
-                "yes": [
-                  "Doug Diny",
-                  "Deb Hadley",
-                  "Peter Gelhar",
-                  "Michael  Martens"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "WausauWaterWorks_Regular_04082026_Minutes",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6815)",
-                "type": "application/pdf",
-                "size": 123084
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "2",
-        "name": "Director's Reports.",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "Update on Lead Service Line Replacements.",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "Memo - WDNR LSL Update_2024-2026_May2026",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6940)",
-                "type": "application/pdf",
-                "size": 163403
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "b",
-            "name": "Wastewater Project Updates- Headworks Screening Project, Cherry Street Lift Station and Lift Station Assessment w/ Clark Dietz.",
-            "desc": "",
-            "votes": [],
-            "docs": [],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "3",
-        "name": "Discussion and Possible Action.",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "Approving the 2027 through 2031 Capital Improvement Projects (CIP) Budget for the Drinking Water and Wastewater Utility.",
-            "desc": "",
-            "votes": [
-              {
-                "motion": "Approve the 2027- 2031 Capital Improvement Projects (CIP) Budget for the Drinking Water and Wastewater Utility.",
-                "passed": true,
-                "initiator": "Peter Gelhar",
-                "seconder": "Deb Hadley",
-                "yes": [
-                  "Doug Diny",
-                  "Deb Hadley",
-                  "Peter Gelhar",
-                  "Michael  Martens"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "Memo - 2027-2031 Water Capital Budget_May2026",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6939)",
-                "type": "application/pdf",
-                "size": 279174
-              },
-              {
-                "name": "Memo - 2027-2031 WW Capital Budget_May2026",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6942)",
-                "type": "application/pdf",
-                "size": 279149
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "b",
-            "name": "Approving the Sole Source Renewal Agreement for HydroCorp Non-Residential Cross Connection Control (CCC) Program.",
-            "desc": "",
-            "votes": [
-              {
-                "motion": "Approve the Sole Source Renewal Agreement for HydroCrop Non-Residential Cross Connection Control (CCC) Program.",
-                "passed": true,
-                "initiator": "Deb Hadley",
-                "seconder": "Peter Gelhar",
-                "yes": [
-                  "Doug Diny",
-                  "Deb Hadley",
-                  "Peter Gelhar",
-                  "Michael  Martens"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "HydroCorp Non-Residential CCC Program Renewal Agreement_2026-04-27 Redline",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6919)",
-                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                "size": 449391
-              }
-            ],
-            "children": []
-          },
-          {
-            "number": "c",
-            "name": "Approving the Sole Source Request for MCEP9 and K144L-NA Polymers used to thicken solids in the Belt Filter Presses and Gravity Belt Thickeners.",
-            "desc": "",
-            "votes": [
-              {
-                "motion": "Approve the Sole Source Request for MCEP9 and K144L-NA Polymers to thicken solids in Belt Filter Presses and Gravity Belt Thickners.",
-                "passed": true,
-                "initiator": "Peter Gelhar",
-                "seconder": "Michael  Martens",
-                "yes": [
-                  "Doug Diny",
-                  "Deb Hadley",
-                  "Peter Gelhar",
-                  "Michael  Martens"
-                ],
-                "no": [],
-                "abstain": []
-              }
-            ],
-            "docs": [
-              {
-                "name": "Quote - Wausau Water Works - polymer 04-15-26",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6817)",
-                "type": "application/pdf",
-                "size": 239312
-              },
-              {
-                "name": "2026-BFP&GBT-Polymer_Sole Source Purchasing Form",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6816)",
-                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                "size": 49784
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "4",
-        "name": "Discussion.",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a",
-            "name": "Regarding the Wastewater - Final WPDES Permit Issued with a permit term of five years.",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "WPDES Memo",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6934)",
-                "type": "application/pdf",
-                "size": 199450
-              },
-              {
-                "name": "Signed Wausau Permit",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6935)",
-                "type": "application/pdf",
-                "size": 807534
-              },
-              {
-                "name": "Final Wausau FS",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6936)",
-                "type": "application/pdf",
-                "size": 457818
-              },
-              {
-                "name": "Signed Wausau CL",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6937)",
-                "type": "application/pdf",
-                "size": 310683
-              },
-              {
-                "name": "Wausau NFD",
-                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6938)",
-                "type": "application/pdf",
-                "size": 133780
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "5",
-        "name": "Adjournment.",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": []
-      }
-    ],
-    "topics": [
-      "Budget",
-      "Utilities"
     ]
   }
 ]

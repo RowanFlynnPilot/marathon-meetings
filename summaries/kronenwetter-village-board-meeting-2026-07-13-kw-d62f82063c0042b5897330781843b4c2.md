@@ -3,33 +3,46 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-61  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d62f82063c0042b5897330781843b4c2.pdf  
-**Summarized:** 2026-07-13 02:27 UTC
+**Summarized:** 2026-07-15 02:06 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on July 13, 2026, to address several items including proposed revisions to election procedures, ballot drop box installation, oak wilt regulations, and municipal center garage matters. The meeting was also set to include reports from police and fire leadership and review of personnel matters in closed session.
+The Kronenwetter Village Board met on July 13, 2026, and took several significant actions including approving an amended bid for a six-bay equipment garage at $814,815 (adding a second restroom to the original design), approving placement of a ballot drop box for both the August 2026 primary and November 2026 general elections, and referring election ordinance revisions back to staff and the CLIP committee. The board also convened in closed session to address a personnel matter and discussed oak wilt enforcement, ultimately directing staff to review and update the existing ordinance through CLIP.
 
 ## Key Discussions
-### Proposed Revisions to Chapter 41 Elections (CLIPP)
-The Board was scheduled to discuss and consider possible action on proposed revisions to Chapter 41 regarding elections procedures. The item was identified with the designation CLIPP but specific details of the proposed changes were not provided in the agenda.
+### Administrator's Report
+Administrator Dave reported on the upcoming budget calendar process, noting the Capital Improvement Program (CIP) would begin in August rather than waiting until October. He also flagged incoming calls about a potential moratorium on data centers and solar farms, and confirmed that a new hire named Sandwick is scheduled to start August 6. A parks-related power outage at Buse Park was discussed — GFI outlets had tripped and staff were unaware of the switch locations; the renter was offered a deposit refund.
 
-### Kronenwetter Ballot Drop Box Installation
-The Board was set to discuss and consider possible action regarding the installation of a ballot drop box in Kronenwetter. Details of the proposed installation location and specifications were not included in the published agenda.
+### Consent Agenda - June 22, 2026 Board Meeting Minutes
+Trustee Stowell moved to approve the June 22, 2026 board meeting minutes; Trustee Mortensen seconded. The motion passed on a voice vote with no opposition noted.
 
-### Chapter 389 Oak Wilt
-The Board was scheduled to address Chapter 389 regulations related to oak wilt. The specific nature of proposed revisions or actions was not detailed in the agenda document.
+### Proposed Revisions to Chapter 41 Elections - CLIP Committee
+The board discussed three options for handling election-related ordinance revisions stemming from five complaints filed during the 2024 election: (A) adopt the CLIP-drafted language, (B) rely on existing state statutes and corrective actions already taken, or (C) work with the attorney to refine the ordinance. Trustee Coyle moved for Option C with a public hearing; Trustee Lesniak seconded. After extended debate about the risks of mirroring state statutes in local ordinance and the need to avoid ongoing maintenance issues, Trustee Coyle withdrew the motion. The board ultimately directed Clerk Jennifer to draft internal policy guidelines incorporating corrective actions and aligned with state statute, then bring the result back to CLIP for review. Trustee Myszka noted a specific technical concern with Section 41-3 regarding alternates language that should be updated.
 
-### Municipal Center Garage
-The Board was set to discuss and consider possible action regarding the Municipal Center Garage. The specific scope of the matter, whether related to maintenance, expansion, or other issues, was not specified in the published agenda.
+### Absentee Ballot Drop Box Installation
+Clerk Jennifer presented the proposal citing U.S. Postal Service delays causing some residents to miss ballot return deadlines. The board debated the need for surveillance cameras on the box; it was ultimately agreed that a camera would not be installed initially. Trustee Stowell moved to approve the drop box for the August 2026 primary; Trustee Lesniak seconded. The motion was then amended by Trustee Stowell to include both the August primary and November general election, with a report back to the board on usage and any damage. The amended motion passed unanimously on a voice vote. Lieutenant Smart was asked to inform the department to monitor the drop box, noting that tampering could carry misdemeanor or felony charges under Wisconsin law.
+
+### Oak Wilt
+President Joling brought the item forward after receiving ongoing correspondence from a resident demanding enforcement against a neighbor's tree. Greg (public works) explained that the village has effectively limited its involvement to trees in the right-of-way since grant funding dried up. Trustee Coyle argued the ordinance should be removed entirely and replaced with a website guideline since there is no funding or staff to enforce it. Others, including Trustee Solheim and President Joling, favored updating rather than repealing the ordinance and working cooperatively with residents. The board directed staff to review and update the oak wilt ordinance and bring it back through CLIP, while also asking that a resource list of local arborists and DNR links be posted on the village website.
+
+### Municipal Center Garage Bid
+Administrator Dave and Greg presented details on the six-bay equipment garage project, explaining that a firewall between the police and DPW sections necessitated the addition of a second restroom on the police side to avoid the cost of a three-hour-rated fire door (estimated $7,000–$10,000). The restroom addition brings the total bid from the originally approved $799,000 to $814,815. Trustee Coyle made the motion to approve the amended bid; Trustee Myszka seconded. The board voted 7-0 to approve.
+
+### Closed Session
+Trustee Lesniak moved and Trustee Stowell seconded a motion to convene in closed session pursuant to Wisconsin Statutes 19.85(1)(b) for consideration of dismissal, discipline, or investigation of charges against a public employee, and pursuant to Wisconsin Public Records Law. The roll call vote was 7-0 in favor.
 
 ## Public Comment
-Public comment was on the agenda, limited to 15 minutes total with three minutes per person at the Chief Presiding Officer's discretion.
+No public comment was offered.
 
 ## Action Items
-- Expected to vote on or consider approval of June 22, 2026 meeting minutes
-- Scheduled to vote on or consider proposed revisions to Chapter 41 Elections (CLIPP)
-- Scheduled to vote on or consider ballot drop box installation
-- Scheduled to vote on or consider Chapter 389 oak wilt regulations
-- Scheduled to vote on or consider Municipal Center garage matter
-- Expected to consider personnel investigation record redactions in closed session
+- Staff (Clerk Jennifer) to draft revised election ordinance guidelines aligned with state statute and present to CLIP committee for review, including technical fix to Section 41-3 alternates language
+- Administrator to prepare a moratorium resolution regarding data centers and solar farms for the next board agenda
+- Ballot drop box to be placed for August 2026 primary and November 2026 general election; clerk to track usage and report back to board
+- Police department to be briefed by Lieutenant Smart to monitor ballot drop box for tampering or vandalism
+- Staff to create informational sheet for park shelter GFI outlets and electrical switches for renters and new employees
+- Staff to review and update oak wilt ordinance and bring back through CLIP; DNR resource links and local arborist list to be posted on village website
+- Public works to inspect and consider replacing aging GFI receptacles at park shelters that have been struck by lightning
+- Six-bay municipal garage contractor to proceed with revised plans including second restroom at total bid of $814,815
+- New hire Sandwick confirmed to start August 6
+- Budget calendar and CIP process to begin in August; administrator to bring six-month 2026 financial update to APC and board addressing over-budget fuel and legal costs
