@@ -1,5 +1,104 @@
 [
   {
+    "id": "60YcRDpmqd4",
+    "source": "marathon",
+    "title": "Executive Committee Meeting Pt.2",
+    "date": "July 15, 2026",
+    "shortDate": "JUL 15",
+    "committee": "Executive Committee",
+    "duration": "19m",
+    "url": "https://www.youtube.com/watch?v=60YcRDpmqd4",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Marathon County Executive Committee reconvened in open session to receive an update on FEMA disaster declaration status and community assistance programs following the April 2026 storms, and briefly reviewed the County Board Strategic Plan Survey. The committee learned Marathon County was approved for individual assistance but denied for public assistance due to insufficient documented damages, and that 24 Marathon County residents have already applied for FEMA individual assistance.",
+    "agenda": [
+      {
+        "time": "0:39",
+        "item": "Return from closed session — nothing to report"
+      },
+      {
+        "time": "1:05",
+        "item": "6A: Update on FEMA declaration and community assistance work (presented by Sarah, Public Information Officer)"
+      },
+      {
+        "time": "1:30",
+        "item": "Individual assistance overview: FEMA grants and SBA low-interest disaster loans"
+      },
+      {
+        "time": "5:02",
+        "item": "SBA Business Recovery Center and FEMA Disaster Recovery Center updates"
+      },
+      {
+        "time": "9:00",
+        "item": "Public assistance denial — Marathon County did not meet $670,743 damage threshold"
+      },
+      {
+        "time": "11:00",
+        "item": "Public information and outreach efforts; new recovery resource page at marathoncounty.gov/ia"
+      },
+      {
+        "time": "13:00",
+        "item": "Supervisor Robinson question on insurance settlements and property demolition deadlines in Town of Ringle"
+      },
+      {
+        "time": "16:10",
+        "item": "6B: Review and discussion of County Board Strategic Plan Survey"
+      },
+      {
+        "time": "17:30",
+        "item": "Item 7: Next meeting date — August 13, 2026 at 3:00 p.m."
+      },
+      {
+        "time": "18:00",
+        "item": "Item 8: Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "FEMA Declaration and Community Assistance Update",
+        "body": "Sarah, the county's Public Information Officer, presented a detailed update on FEMA and SBA disaster assistance following the April 13–23, 2026 severe storms, tornadoes, and flooding. She reported that as of July 15, 24 Marathon County residents had filed FEMA individual assistance applications, with four filed the previous day. A FEMA Disaster Recovery Center opened July 14 at the Town of Ringle Municipal Center (Monday–Friday, 1–7 p.m.), and an SBA Business Recovery Center opened July 13 at the Marathon County Public Library Wausau headquarters (Monday–Friday, 9 a.m.–4:30 p.m.). A new recovery resource page was also launched at marathoncounty.gov/ia."
+      },
+      {
+        "item": "Public Assistance Denial",
+        "body": "Sarah explained that while Marathon County was approved for individual assistance, it was denied for FEMA public assistance — which covers governmental costs such as debris removal, road repairs, and public infrastructure — along with Bayfield, Manitowoc, and Racine counties. The per-capita damage threshold for Marathon County was $670,743.18, but documented damages from the April storms totaled only approximately $271,000. County staff reviewed whether any additional damages had been missed and concluded they had not; therefore, the county informed Wisconsin Emergency Management it would not pursue an appeal. Gibbs emphasized to committee members that the public assistance denial does not affect individuals' ability to apply for individual assistance."
+      },
+      {
+        "item": "Insurance Settlements and Town of Ringle Property Questions",
+        "body": "Supervisor Robinson asked about the status of insurance company settlements for homes in the Town of Ringle that may need to be demolished, raising concerns about deadlines and potential need for the county to extend deadlines or forgive fees. Gibbs responded that he had not received a follow-up from Ringle representatives but pledged to reach out, noting that Sarah had attended a recent Ringle board meeting on these topics. He mentioned that free legal consultation through the State Bar of Wisconsin and resources from the State Commission on Insurance had been made available to affected residents, and that the Town of Ringle was also exploring whether to issue raze orders for disputed properties."
+      },
+      {
+        "item": "County Board Strategic Plan Survey",
+        "body": "Gibbs presented the item on behalf of Vice Chair Boots, who had to leave to catch a flight. He asked committee members whether anything was missing from the strategic plan survey included in their packets. Supervisor Arseth asked whether the survey would be available online; Gibbs confirmed it would be sent to county board members as a link-based online survey, similar to the work plan ranking process. No content gaps were identified by members present. Gibbs noted a separate public input process would be used."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Gibbs to follow up with Town of Ringle representatives regarding insurance settlement status and potential property demolition deadlines or fee forgiveness",
+      "Committee members encouraged to direct constituents to FEMA individual assistance (disasterassistance.gov) and clarify that the public assistance denial does not affect individual applications",
+      "County board members to complete the Strategic Plan Survey when link is distributed; members with concerns to contact Vice Chair Boots directly",
+      "Staff to continue updating the recovery resource page at marathoncounty.gov/ia as new information arrives",
+      "Next Executive Committee meeting scheduled for August 13, 2026 at 3:00 p.m.; members asked to submit ideas for future agenda items"
+    ],
+    "topics": [
+      "FEMA Disaster Relief",
+      "SBA Disaster Loans",
+      "April 2026 Storm Recovery",
+      "Strategic Plan",
+      "Town of Ringle"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Supervisor Marasch",
+        "second": "Chris Dickinson",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "bb_752240",
     "source": "dc_everest",
     "title": "Regular School Board Meeting",
@@ -6232,135 +6331,6 @@
         "second": null,
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "OLzrpSp3Dfg",
-    "source": "marathon",
-    "title": "Environmental Resources Committee Meeting",
-    "date": "May 5, 2026",
-    "shortDate": "MAY 5",
-    "committee": "Environmental Resources",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=OLzrpSp3Dfg",
-    "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Environmental Resources Committee approved two rezoning petitions and voted to forward a modified fee waiver resolution to the county board that will only waive reconnect fees for septic systems damaged by the April 17, 2026 tornado. The committee also received educational presentations from the Solid Waste, Parks Recreation and Forestry, and Conservation Planning and Zoning departments.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and Pledge of Allegiance"
-      },
-      {
-        "time": "0:30",
-        "item": "Public comment"
-      },
-      {
-        "time": "0:45",
-        "item": "Approval of March 31, 2026 committee minutes"
-      },
-      {
-        "time": "1:00",
-        "item": "Public hearing: Tim Veland rezoning petition (Green Valley)"
-      },
-      {
-        "time": "10:01",
-        "item": "Committee deliberation and vote on Green Valley rezoning"
-      },
-      {
-        "time": "15:01",
-        "item": "Public hearing: Jeffrey and Cynthia Schmidtz rezoning petition (McMillan)"
-      },
-      {
-        "time": "20:00",
-        "item": "Consideration of fee waiver for properties impacted by April 17, 2026 severe weather"
-      },
-      {
-        "time": "55:02",
-        "item": "Educational presentation: Solid Waste Department overview"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Educational presentation: Parks, Recreation and Forestry Department overview"
-      },
-      {
-        "time": "1:35:02",
-        "item": "Educational presentation: Conservation Planning and Zoning Department overview"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of March 31, 2026 committee minutes",
-        "body": "Supervisor Sefeld made a motion to approve the minutes, seconded by Supervisor Drebeck. The motion carried with no opposition."
-      },
-      {
-        "item": "Tim Veland rezoning petition - Green Valley",
-        "body": "Garrett Pogle presented the staff report for rezoning from urban residential and general agriculture to rural residential in the town of Green Valley. The town of Green Valley recommended approval on March 10, 2026. No public testimony was offered for or against. Supervisor Drebeck moved to approve based on findings of fact, conclusions of law, and town approval. Supervisor Kurt seconded. Motion carried unanimously."
-      },
-      {
-        "item": "Jeffrey and Cynthia Schmidtz rezoning petition - McMillan",
-        "body": "The petition sought to rezone from Conservancy Recreation to General Agriculture in the town of McMillan. Supervisor Leur asked about the conservancy nature of the property. Staff explained the property has a home and horse riding stable, and the rezone would make these conforming uses. The town of McMillan recommended approval on April 20, 2026. Supervisor Sefelt moved to approve, seconded by Supervisor Drew. Motion carried unanimously."
-      },
-      {
-        "item": "Fee waiver for April 17, 2026 severe weather impacted properties",
-        "body": "Director Lori Mskimmons presented a proposal to waive county zoning and septic system fees for properties damaged by the April 17 tornado affecting Ringle, Kronenwetter, Easton, and Weston. Supervisor Drew questioned where to draw the line for future events. Supervisor Leur asked about budget impacts. Supervisor Drebeck expressed concerns about fairness to property owners not in declared disaster areas. After discussion, Supervisor Sefelt moved to forward the resolution to the county board. Supervisor Drebeck offered an amendment to limit the waiver to only reconnect fees ($160) for septic systems, excluding all other fees. The amendment was seconded by Supervisor Kurt and passed. The amended motion to forward to the county board passed but was noted as not unanimous."
-      },
-      {
-        "item": "Solid Waste Department presentation",
-        "body": "Director Dave Hagen Busher presented an overview of solid waste operations, explaining the landfill's 45-year history, the renewable natural gas partnership with Vidi Energy generating royalties for the county, and upcoming capital projects including an $6 million expansion and leachate treatment facility required by 2032 under new state law. He noted lithium-ion battery fires occur about once weekly."
-      },
-      {
-        "item": "Parks, Recreation and Forestry Department presentation",
-        "body": "Tom Lovelin, County Forest Administrator, presented on behalf of Director Jamie. He explained the department operates both county and city park systems under contract, manages 30,700 acres of county forest, and noted Nine Mile County Forest generates $3.25 million in economic impact from out-of-town visitors. Supervisor Sefelt acknowledged Tom's retirement effective June 1st after nearly 30 years of service."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Forward amended resolution to county board waiving only reconnect fees for septic systems on properties impacted by April 17, 2026 severe weather",
-      "Green Valley rezoning petition forwarded to county board for approval",
-      "McMillan rezoning petition forwarded to county board for approval",
-      "Staff to track costs and requests related to any fee waivers implemented",
-      "Joe Tucker selected as new County Forest Administrator following Tom Lovelin's retirement"
-    ],
-    "topics": [
-      "Zoning",
-      "Parks",
-      "Staffing"
-    ],
-    "votes": [
-      {
-        "item": "Approval of March 31, 2026 committee minutes",
-        "motion": null,
-        "mover": "Supervisor Sefeld",
-        "second": "Supervisor Drebeck",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Tim Veland rezoning petition - Green Valley",
-        "motion": null,
-        "mover": "Supervisor Drebeck",
-        "second": "Supervisor Kurt",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Jeffrey and Cynthia Schmidtz rezoning petition - McMillan",
-        "motion": null,
-        "mover": "Supervisor Sefelt",
-        "second": "Supervisor Drew",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Fee waiver for April 17, 2026 severe weather impacted properties - forward amended resolution to county board",
-        "motion": null,
-        "mover": "Supervisor Sefelt",
-        "second": "Supervisor Drebeck",
-        "outcome": "Approved",
-        "tally": null
       }
     ]
   }
