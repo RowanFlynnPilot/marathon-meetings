@@ -685,6 +685,17 @@
       "video_url": null,
       "processed_at": "2026-07-16T20:54:36.605164+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-pt2-71526-60ycrdpmqd4.md"
+    },
+    "bQ7DMz-ntz4": {
+      "title": "Wausau Board of Public Works Meeting  - 7/8/26",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260708",
+      "meeting_date": "20260708",
+      "duration": 140,
+      "video_url": null,
+      "processed_at": "2026-07-17T02:22:51.702984+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-7826-bq7dmz-ntz4.md"
     }
   }
 }
