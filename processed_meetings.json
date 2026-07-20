@@ -696,6 +696,28 @@
       "video_url": null,
       "processed_at": "2026-07-17T02:22:51.702984+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-7826-bq7dmz-ntz4.md"
+    },
+    "kw_e852a5448baa43e28ceb171e57576336": {
+      "title": "REVISED Plan Commission Meeting - 2026-07-20",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e852a5448baa43e28ceb171e57576336.pdf",
+      "upload_date": "20260720",
+      "meeting_date": "20260720",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/revised-plan-commission-meeting-0",
+      "processed_at": "2026-07-20T02:38:44.788901+00:00",
+      "summary_file": "summaries/kronenwetter-revised-plan-commission-meeting-2026-07-20-kw-e852a5448baa43e28ceb171e57576336.md"
+    },
+    "kw_0c186a226ebf4a359f1d4c3a52fd7b37": {
+      "title": "Parks Committee - 2026-07-20",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-0c186a226ebf4a359f1d4c3a52fd7b37.pdf",
+      "upload_date": "20260720",
+      "meeting_date": "20260720",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-0",
+      "processed_at": "2026-07-20T02:38:52.610536+00:00",
+      "summary_file": "summaries/kronenwetter-parks-committee-2026-07-20-kw-0c186a226ebf4a359f1d4c3a52fd7b37.md"
     }
   }
 }

@@ -1,5 +1,190 @@
 [
   {
+    "id": "kw_0c186a226ebf4a359f1d4c3a52fd7b37",
+    "source": "kronenwetter",
+    "title": "Parks Committee",
+    "date": "July 20, 2026",
+    "shortDate": "JUL 20",
+    "committee": "Parks Committee",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-0",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-0c186a226ebf4a359f1d4c3a52fd7b37.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Kronenwetter Parks Committee was scheduled to meet to discuss updates on the Buska Park Renovation Project, consider grant funding opportunities, and review plans for multiple community fundraising events scheduled for late summer 2026.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of June 29, 2026 Parks Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Buska Park Renovation Project Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Wausau & Marathon County Parks & Recreation Foundation Fund Grant"
+      },
+      {
+        "time": "N/A",
+        "item": "Post Village Parks Tour Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "August 21, 2026 Concert at Towering Pine Fundraiser Event"
+      },
+      {
+        "time": "N/A",
+        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event"
+      },
+      {
+        "time": "N/A",
+        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Buska Park Renovation Project Update",
+        "body": "The committee was scheduled to receive an update on the status of the Buska Park Renovation Project. This item was set to inform committee members of project progress and any relevant developments related to the park improvements."
+      },
+      {
+        "item": "Wausau & Marathon County Parks & Recreation Foundation Fund Grant",
+        "body": "The committee was expected to consider a grant opportunity from the Wausau & Marathon County Parks & Recreation Foundation. This item was set to discuss potential funding and application details for the Village's parks initiatives."
+      },
+      {
+        "item": "Post Village Parks Tour Discussion",
+        "body": "The committee was scheduled to discuss a post village parks tour. Details regarding the nature, timing, and scope of this tour were set for committee consideration."
+      },
+      {
+        "item": "August 21, 2026 Concert at Towering Pine Fundraiser Event",
+        "body": "The committee was expected to review plans for a concert fundraiser event scheduled for August 21, 2026 at Towering Pine. This item was set to address event logistics, coordination, and related details."
+      },
+      {
+        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
+        "body": "The committee was scheduled to discuss an upcoming 5K run/walk fundraiser planned for September 12, 2026 at Buska Park. This item was set to address event planning and coordination for the community fundraising event."
+      },
+      {
+        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group",
+        "body": "The committee was expected to consider the establishment of a \"Friends of the Kronenwetter Parks\" support group. This item was set to discuss the formation, purpose, and structure of a community volunteer organization to support local parks."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda for a maximum of 15 minutes total, with a three-minute time limit per person, subject to extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to approve or consider June 29, 2026 meeting minutes",
+      "Expected to receive and discuss Buska Park Renovation Project update",
+      "Set to consider application or acceptance of Wausau & Marathon County Parks & Recreation Foundation Fund Grant",
+      "Scheduled to discuss post village parks tour plans",
+      "Expected to coordinate August 21, 2026 Concert at Towering Pine fundraiser event",
+      "Set to coordinate September 12, 2026 Buska Park 5K Run/Walk fundraiser event",
+      "Expected to consider creation of \"Friends of the Kronenwetter Parks\" support group"
+    ],
+    "topics": [
+      "Parks",
+      "Buska Park",
+      "Community Fundraising",
+      "Grant Funding",
+      "Volunteer Engagement"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_e852a5448baa43e28ceb171e57576336",
+    "source": "kronenwetter",
+    "title": "REVISED Plan Commission Meeting",
+    "date": "July 20, 2026",
+    "shortDate": "JUL 20",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/revised-plan-commission-meeting-0",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e852a5448baa43e28ceb171e57576336.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to hold a revised meeting to conduct public hearings and consider zoning and development requests, including a zoning change for Marathon County Highway Department property and a conditional use permit for a residential pond.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Zoning Change Request - Marathon County Highway Department to rezone 25.24 acres from B3, SF and AR to M2 General Industrial at multiple Old Hwy 51 addresses"
+      },
+      {
+        "time": "6:00 PM",
+        "item": "Conditional Use Permit - Zach & Abbigal Knetter for pond on north side of property on Kronenwetter Drive"
+      },
+      {
+        "time": "N/A",
+        "item": "Rezone Marathon County Highway Facility - Discussion and possible action"
+      },
+      {
+        "time": "N/A",
+        "item": "CSM Marathon County Highway Facility - Discussion and possible action"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Pond - Zach and Abbigal Knetter - Discussion and possible action"
+      },
+      {
+        "time": "N/A",
+        "item": "CSM Happy Hollow Road - Dean Prohaska - Discussion and possible action"
+      },
+      {
+        "time": "N/A",
+        "item": "Action on reviewing zoning and subdivision codes"
+      },
+      {
+        "time": "N/A",
+        "item": "Septic Tank Ordinance"
+      },
+      {
+        "time": "N/A",
+        "item": "Twin Home/Zero lot line"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Zoning Change Request - Marathon County Highway Department",
+        "body": "The Marathon County Highway Department was scheduled to present a request for rezoning approximately 25.24 acres from Business 3, Single Family, and Agricultural zones to M2 General Industrial at multiple addresses along Old Highway 51. The rezoning was set for public hearing and commission consideration, with specific parcel identification numbers and legal descriptions included in the agenda."
+      },
+      {
+        "item": "Conditional Use Permit - Zach & Abbigal Knetter Pond",
+        "body": "Zach and Abbigal Knetter were scheduled to request a Conditional Use Permit for construction of a pond on the north side of their property on Kronenwetter Drive. The request was set for public hearing and commission review, covering approximately 15.47 acres with specific legal property descriptions."
+      },
+      {
+        "item": "CSM Happy Hollow Road - Dean Prohaska",
+        "body": "The Commission was scheduled to review and discuss a Certified Survey Map (CSM) submission from Dean Prohaska related to Happy Hollow Road. Possible action was expected on this survey map request."
+      },
+      {
+        "item": "Zoning and Subdivision Codes Review",
+        "body": "The Plan Commission was set to take action on reviewing the Village's zoning and subdivision codes. The agenda indicated this item was scheduled for discussion and possible action during the meeting."
+      },
+      {
+        "item": "Septic Tank Ordinance",
+        "body": "The Commission was scheduled to address the Village's septic tank ordinance. This item was set for discussion and possible action as part of new business."
+      },
+      {
+        "item": "Twin Home/Zero Lot Line",
+        "body": "The Commission was scheduled to discuss and consider possible action on zoning or subdivision provisions related to twin homes and zero lot line development. Details regarding specific proposals were not provided in the agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with a 15-minute total period for public remarks and a three-minute time limit per person, subject to extension at the presiding officer's discretion.",
+    "actionItems": [
+      "Scheduled to vote on zoning change for Marathon County Highway Department property from B3, SF and AR to M2 General Industrial",
+      "Scheduled to consider conditional use permit for Knetter pond",
+      "Expected to take action on CSM for Marathon County Highway Facility",
+      "Expected to consider CSM for Happy Hollow Road - Dean Prohaska",
+      "Scheduled to take action on reviewing zoning and subdivision codes",
+      "Expected to address septic tank ordinance",
+      "Scheduled to discuss twin home and zero lot line provisions"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Marathon County Highway Department",
+      "Conditional Use Permits",
+      "Subdivisions",
+      "Ordinances"
+    ],
+    "votes": []
+  },
+  {
     "id": "60YcRDpmqd4",
     "source": "marathon",
     "title": "Executive Committee Meeting Pt.2",
@@ -6112,248 +6297,5 @@
       "Weston Public Works"
     ],
     "votes": []
-  },
-  {
-    "id": "eX7VOuywzb8",
-    "source": "weston",
-    "title": "Plan Commission",
-    "date": "May 11, 2026",
-    "shortDate": "MAY 11",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=eX7VOuywzb8",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_05112026-1914",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Plan Commission approved the site plan for the new Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive, and adopted a new salt storage shed inspection program for wellhead protection areas. Both items passed unanimously with the commission taking steps to protect municipal water supplies and advance the police facility project.",
-    "agenda": [
-      {
-        "time": "0:01",
-        "item": "Call to order and roll call"
-      },
-      {
-        "time": "1:33",
-        "item": "Open public comment period"
-      },
-      {
-        "time": "5:00",
-        "item": "Approval of April 13, 2026 meeting minutes"
-      },
-      {
-        "time": "5:30",
-        "item": "Site plan review - Mountain Bay Metro Police Department and Municipal Court facility at 3600 Community Center Drive"
-      },
-      {
-        "time": "20:01",
-        "item": "Unfinished business - Creation of salt storage shed inspection program for wellhead protection district"
-      },
-      {
-        "time": "28:00",
-        "item": "April 2026 staff approved certified survey maps and site plans"
-      },
-      {
-        "time": "28:30",
-        "item": "April 2026 building permits"
-      },
-      {
-        "time": "29:00",
-        "item": "Planning and development department monthly project update report"
-      },
-      {
-        "time": "30:00",
-        "item": "Commissioner remarks"
-      },
-      {
-        "time": "31:00",
-        "item": "Future agenda items"
-      },
-      {
-        "time": "34:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Site plan review - Mountain Bay Metro Police Department and Municipal Court facility",
-        "body": "The commission reviewed the site plan for the new police department and municipal court at 3600 Community Center Drive. Staff confirmed the project meets all B2 zoning requirements, setbacks, and building aesthetics. Chief Jeremy explained the building was rotated to accommodate a gas line easement, with the parking lot now positioned over the 36-inch deep pipeline (acceptable to ANR gas company). The building has capacity for 50-60 officers for future growth. Discussion included the alternate storage shed placement and potential for northern expansion. A motion to recommend approval to the board of trustees with staff conditions 2-5 passed unanimously."
-      },
-      {
-        "item": "Salt storage shed inspection program for wellhead protection district",
-        "body": "Staff presented a program for twice-annual inspections of salt storage facilities within wellhead protection areas - a warm weather inspection focusing on structural integrity and a winter operational inspection. The program includes a standardized inspection worksheet similar to DOT standards. Staff noted one existing facility near Sternberg Road has never gone through the wellhead protection conditional use process and commissioners agreed to reach out to bring it into compliance. The motion to approve the program with reporting to both Plan Commission and Public Works Committee passed unanimously."
-      },
-      {
-        "item": "April 2026 meeting minutes",
-        "body": "Motion to approve the April 13, 2026 meeting minutes as presented passed unanimously."
-      },
-      {
-        "item": "April 2026 staff approved certified survey maps and site plans",
-        "body": "Approved unanimously without discussion."
-      },
-      {
-        "item": "April 2026 building permits",
-        "body": "Approved unanimously without discussion."
-      },
-      {
-        "item": "Planning and development department monthly project update",
-        "body": "Staff announced the first joint Plan Commission and Village Board steering committee meeting for the comprehensive plan is scheduled for Monday, June 1st at 5:00 p.m. Staff will send email notification and calendar invites."
-      }
-    ],
-    "publicComment": "Jim Pensel of 5002 Arrow Street, Weston, spoke via Zoom. He asked the commission to use common sense on landscaping requirements for the new police department to avoid excessive taxpayer costs, referencing the Green Heck Turner building's landscaping standards. He also requested that the salt shed inspection program include annual reporting on site visits and compliance outcomes.",
-    "actionItems": [
-      "Site plan for Mountain Bay Metro Police Department and Municipal Court at 3600 Community Center Drive recommended for Board of Trustees approval with staff conditions",
-      "Salt storage shed inspection program adopted for wellhead protection district with twice-annual inspections",
-      "Staff to report inspection program results to Plan Commission and Public Works Committee next year",
-      "Staff to reach out to existing salt storage facility on Sternberg Road regarding wellhead protection conditional use compliance",
-      "Joint Plan Commission and Village Board steering committee meeting for comprehensive plan scheduled for June 1st at 5:00 p.m.",
-      "Electric vehicle charging station regulations to be discussed at future meeting in fall"
-    ],
-    "topics": [
-      "Development",
-      "Utilities",
-      "Mountain Bay Metropolitan Police Department"
-    ],
-    "votes": [
-      {
-        "item": "Site plan for Mountain Bay Metropolitan Police Department and Municipal Court facility at 3600 Community Center Drive",
-        "motion": "Motion to recommend approval to the board of trustees with staff conditions 2-5",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Salt storage shed inspection program for wellhead protection district",
-        "motion": "Motion to approve the program with reporting to both Plan Commission and Public Works Committee",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "April 2026 meeting minutes",
-        "motion": "Motion to approve the April 13, 2026 meeting minutes as presented",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "April 2026 staff approved certified survey maps and site plans",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "April 2026 building permits",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "ZzEeG1Z64pg",
-    "source": "marathon",
-    "title": "Health & Human Services Committee Meeting",
-    "date": "May 6, 2026",
-    "shortDate": "MAY 6",
-    "committee": "Health & Human Services",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=ZzEeG1Z64pg",
-    "docUrl": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Health & Human Services Committee held an educational orientation meeting for new and returning board members, featuring presentations from department heads on the Health Department, Social Services, Veteran Services, and Aging Disability Resource Center. No action items were voted on except approval of the April 1st meeting minutes, which passed unanimously.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and remote participation confirmation"
-      },
-      {
-        "time": "0:30",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "1:15",
-        "item": "Approval of April 1st committee meeting minutes"
-      },
-      {
-        "time": "2:00",
-        "item": "Operational functions required by statute - overview of agenda structure"
-      },
-      {
-        "time": "4:30",
-        "item": "Review of standing committee ordinance section 2.04, missions, duties and responsibilities"
-      },
-      {
-        "time": "13:30",
-        "item": "Health Department presentation by Health Officer Caitlyn Suginaka"
-      },
-      {
-        "time": "25:04",
-        "item": "Social Services Department overview by Administrator Leonard"
-      },
-      {
-        "time": "45:01",
-        "item": "Veteran Service Department presentation by Aaron Galindo"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Aging Disability Resource Center presentation by Executive Director Mike Ray"
-      },
-      {
-        "time": "1:30:00",
-        "item": "Next meeting date confirmation and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of April 1st meeting minutes",
-        "body": "Supervisor Cavlli made a motion to approve the minutes, seconded by Vice Chair Rosenberg. The motion carried unanimously with all members voting in favor."
-      },
-      {
-        "item": "Health Department overview",
-        "body": "Health Officer Caitlyn Suginaka presented the department's mission of preventing disease, promoting health, and protecting against environmental hazards. She highlighted over 1,200 licenses overseen, the new homeless system response position funded by the county board, public health vending machines providing free tick kits and harm reduction supplies, and the Nurse Family Partnership program which just graduated its first cohort of two-year-olds. Administrator Leonard noted the department has about 37.6 FTE and roughly half of their $5 million budget comes from tax levy, with significant funding from grants and public charges for services."
-      },
-      {
-        "item": "Social Services Department overview",
-        "body": "Administrator Leonard presented on behalf of Director Christa who was unavailable. He described the department's work in child welfare, youth justice, children's long-term support, economic support, and child support. The department has approximately 140 FTE and a 2026 budget of over $22 million with about $7 million from tax levy. Leonard highlighted the successful Family Keys housing stability pilot program, noting many clients served had never had a bank account, credit account, or been on a lease before."
-      },
-      {
-        "item": "Veteran Service Department overview",
-        "body": "Veteran Service Officer Aaron Galindo reported his 'small but mighty' team of 3.0 FTE had 8,149 interactions in 2025, up from approximately 5,900 in 2024. He noted $44 million in annual VA benefits flowing to Marathon County veterans, plus $2.6 million in retroactive payments in 2025. Galindo discussed suicide prevention efforts following 30 suicides in Marathon County in 2025 (7 were veterans), new housing stability partnerships with Center for Veterans Issues, and the PACT Act's impact on expanding presumptive conditions for VA benefits. Supervisor Kremes asked about regional coordination; Galindo explained state statute requires each county to have a VSO and described good working relationships with neighboring counties."
-      },
-      {
-        "item": "Aging Disability Resource Center overview",
-        "body": "Executive Director Mike Ray presented on the four-county regional organization serving Marathon, Lincoln, Langlade, and Wood counties with about 60 FTE and 385-400 volunteers. He explained the ADRC serves as the one-stop shop for aging and disability resources and entry point for programs like Family Care and IRIS. Ray highlighted significant financial challenges in the nutrition/Meals on Wheels program, noting federal funding has remained flat since 2024 while food costs increased 40-45% over four years, forcing reductions in meals served, service days, and staffing. Marathon County's levy contribution is $413,135."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Minutes from April 1st meeting approved unanimously",
-      "North Central Healthcare to be scheduled for a separate full presentation before the committee",
-      "Mike Ray (ADRC) to present annual report with 2025 data to full board",
-      "Committee members to email Chair Boots and Administrator Leonard with agenda items for future meetings",
-      "Strategic plan work to be brought to future meetings by Chair Boots",
-      "Next meeting confirmed for Tuesday, June 3rd at 3:00 PM (corrected from initially stated May 29th)"
-    ],
-    "topics": [
-      "Public Safety",
-      "Staffing"
-    ],
-    "votes": [
-      {
-        "item": "Approval of April 1st meeting minutes",
-        "motion": null,
-        "mover": "Supervisor Cavlli",
-        "second": "Vice Chair Rosenberg",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
   }
 ]
