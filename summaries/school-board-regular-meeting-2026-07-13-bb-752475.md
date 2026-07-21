@@ -1,41 +1,44 @@
 # Regular Meeting - 2026-07-13
 
 **Organization:** Wausau School Board  
-**Source:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=752475  
+**Source:** https://www.youtube.com/watch?v=9vh27UB7H7c  
 **Documents:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=752475  
-**Summarized:** 2026-07-13 02:27 UTC
+**Summarized:** 2026-07-21 02:24 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on July 13, 2026, to address academic standards adoption, athletic association renewals, facility repairs, and equipment disposition. The board was expected to consider action items related to curriculum standards, building maintenance at South Mountain Elementary, and the auction of district equipment.
+The Wausau School Board held a brief regular meeting on July 13, 2026, approving a consent agenda covering staffing actions, bills, and donations, then voting on several operational items including Wisconsin Academic Standards adoption, WIAA membership renewals, a building repair contract, and an equipment auction. The board also entered closed session to confer with legal counsel regarding a parent complaint, then returned to open session and approved the administration's decision on the matter.
 
 ## Key Discussions
-### AGR Spring Summary Presentation
-The board was scheduled to review the implementation of AGR strategies and the school's progress on performance objectives for the second semester. The presentation was expected to examine learning outcomes and continuous improvement plan priorities that were discussed at the June Committee Meeting, with an estimated presentation time of 1 minute.
+### Consent Agenda
+Board President Bouché sought a motion to approve the consent agenda, which included staffing appointments, replacements, contract changes, separations, resignations, leaves of absence, retirements, minutes from the June 8 regular session and June 22 special session, payment of bills, budget status, investment report, and donations from 4K Families, Rocky RCOO Pizza and Pasta, Marathon County Department Sheriff's Association, Nicole Schindler, Cindy Owen, Mr. and Mrs. Jeff Peterson, and Rose Skick. The motion was made, seconded, and approved unanimously with no opposition noted.
 
-### Academic Standards
-Dr. Katie Colwell and Julie Schell were expected to present information on the annual adoption of Wisconsin Academic Standards by the Wausau School District. The standards outline the knowledge and skills students should acquire in each content area and provide guidance for teachers in developing lesson plans and instructional practices.
+### Wisconsin Academic Standards Adoption 2026-27
+Bouché reported that at the June committee meeting, Dr. Katie Cowell and Michelle provided the annual notice of adoption of Wisconsin Academic Standards, which outline knowledge and skills students should acquire in each content area and guide teacher lesson planning. No additions were offered by board members. The board voted to approve the Wisconsin Academic Standards for the 2026-2027 school year as presented, with the motion passing unanimously.
 
-### WIAA Renewal
-The board was expected to consider the annual renewal of Wisconsin Interscholastic Athletic Association memberships for Wausau East, Wausau West, and WAVE schools. A sample renewal application was attached to the agenda materials.
+### WIAA Renewal — Wausau East, Wausau West, and WAVE
+Bouché noted it was time for the annual renewal of WIAA memberships for all three schools, with an example renewal application attached to the agenda materials. The board voted to approve the WIAA renewals for Wausau East, Wausau West, and WAVE as presented, passing unanimously with no discussion.
 
-### EFIS Repair at South Mountain
-Director of Buildings and Grounds Ryan Urmanski was expected to present information about the South Mountain Elementary School EFIS (Exterior Finish Insulation System) wall system and the need for replacement. Details about the scope and cost of the repair project were included in the attached memo.
+### EFIS Repair at South Mountain Elementary
+Buildings and Grounds Director Ryan Eranssky (referred to as 'Mr. Ransky' by Bouché) had previously briefed the committee in June on the need to replace the EFIS exterior wall system at South Mountain Elementary. Eranssky confirmed he had nothing to add. The board voted to approve the bid proposal and contract with Jackson and Associates for the EFIS wall replacement, passing unanimously.
 
-### 2026 Auction
-Buildings and Grounds Director Ryan Urmanski was scheduled to share information about a potential auction of various district equipment pieces and how the proceeds would be used. The agenda indicated this matter was discussed at the June Committee Meeting.
+### 2026 Equipment Auction
+Buildings and Grounds Director Ryan Eranssky had previously presented information at the June committee meeting about auctioning various pieces of district equipment. The board voted to approve directing auction proceeds to the WSD Buildings and Grounds department for updating needed equipment in fiscal year 2026-2027, passing unanimously with no discussion.
 
-### Request for Closed Session
-The board was expected to convene in executive session under Wisconsin Statute 19.85(1)(f) and (g) to discuss a parent complaint with legal counsel. The closed session was to address matters involving individual reputation and confidential student information that would be adversely affected by public discussion.
+### Board Member Professional Growth and Development / Legislative Liaison / Superintendent Report
+Bouché reported that he and 'Kale' presented at a symposium over the weekend on the working relationship between a school board and superintendent, but Bouché was unable to attend due to a migraine, leaving Kale to represent the district alone to apparent praise. Clerk Cory Sillars reported on the legislative landscape, noting that candidates are in campaign mode and have indicated no intention of calling a special session to address special funding issues raised two months prior. Superintendent Bushman reported that summer school concludes Thursday, planning for next year is underway, and that district employee Elizabeth Channel successfully defended her doctoral dissertation that morning, earning the title Dr. Elizabeth Channel.
+
+### Closed Session and Action on Parent Complaint
+The board voted unanimously via roll call to enter closed session pursuant to Wisconsin Statute 19.85(1)(f) and (g) to confer with legal counsel regarding a parent complaint involving potential confidential student information under Wis. Stat. 118.125. Upon returning to open session, a board member moved to approve the administration's decision regarding the '9130 complaint' as discussed in closed session and to direct the president to confirm the decision in writing. The roll call vote was 7-0 in favor, with all named members — Sarah Brock, Nick Crochiere, Pat McKee, Cory Sillars, Lance Trollop, Jennifer Paoli, and James Bouché — voting yes.
 
 ## Public Comment
-A public and student comment period was scheduled as part of the agenda.
+No public comment was offered. Bouché noted there was no one signed up to speak and skipped agenda item five.
 
 ## Action Items
-- Board was expected to approve the Consent Agenda including appointments, separations, leaves of absence, retirements, and minutes from prior meetings
-- Action was requested for adoption of Wisconsin Academic Standards
-- Action was requested for WIAA membership renewals for Wausau East, Wausau West, and WAVE
-- Action was requested for EFIS wall system repair at South Mountain Elementary School
-- Action was requested regarding the 2026 equipment auction and disposition of proceeds
-- Board was expected to convene in closed session regarding a parent complaint and take further action if necessary
+- Wisconsin Academic Standards approved for adoption for the 2026-2027 school year
+- WIAA memberships renewed for Wausau East, Wausau West, and WAVE
+- Jackson and Associates contracted for EFIS wall replacement at South Mountain Elementary
+- 2026 equipment auction proceeds designated to WSD Buildings and Grounds for equipment updates in FY2026-27
+- Administration's decision on the 9130 parent complaint approved; Board President Bouché directed to confirm decision in writing
+- Next regular board meeting scheduled for August 3rd
