@@ -98,6 +98,131 @@
     "votes": []
   },
   {
+    "id": "z5NpUq8n9DY",
+    "source": "weston",
+    "title": "Finance and Human Resources Committee",
+    "date": "July 20, 2026",
+    "shortDate": "JUL 20",
+    "committee": "Finance & Human Resources",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=z5NpUq8n9DY",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1944",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Finance and Human Resources Committee of the Village of Weston was scheduled to meet on July 20, 2026, to review financial reports, personnel matters, and policy amendments. The meeting was set to address budget status updates, audit proposals, and consideration of policy changes related to employee uniforms and conduct standards.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from Previous Finance & HR Meeting: June 15, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "June Budget Status Report"
+      },
+      {
+        "time": "N/A",
+        "item": "TIF 1 and TIF 2 Detail Reports for June"
+      },
+      {
+        "time": "N/A",
+        "item": "Legal Details for June"
+      },
+      {
+        "time": "N/A",
+        "item": "Acknowledge semiannual staff transitions"
+      },
+      {
+        "time": "N/A",
+        "item": "Acknowledge Annual Exit Interview Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on Cintas Uniform Agreement"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on audit proposal"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on 2025 financial audit report"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on 2027 Budget process and tentative calendar"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and/or action on referral from Board of Trustees regarding Ethics function as it pertains to Village committees, commissions, and staff"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "June Budget Status Report",
+        "body": "The committee was scheduled to acknowledge the June 2026 financial report for all funds. The report was expected to provide updates on General Fund revenue at 75.1% of budget and expenditures at 47.7% of budget, along with status information on special revenue funds including the Aquatic Center and proprietary funds such as Water, Sewer, and Stormwater."
+      },
+      {
+        "item": "TIF 1 and TIF 2 Detail Reports for June",
+        "body": "The committee was set to review detailed reports for Tax Increment Finance Districts 1 and 2 as part of the regular monthly financial reporting acknowledgment process."
+      },
+      {
+        "item": "Acknowledge semiannual staff transitions",
+        "body": "The committee was expected to acknowledge staff transitions that occurred during the first half of 2026 as part of routine human resources reporting."
+      },
+      {
+        "item": "Acknowledge Annual Exit Interview Report",
+        "body": "The committee was scheduled to acknowledge the annual report on exit interviews conducted with departing staff members."
+      },
+      {
+        "item": "Discussion and/or action on Cintas Uniform Agreement",
+        "body": "The committee was set to discuss and potentially take action on the Cintas uniform service agreement. Based on prior meeting minutes, the discussion was expected to address contract terms and alternatives for employee uniform provisions."
+      },
+      {
+        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook",
+        "body": "The committee was scheduled to discuss and potentially act on proposed amendments to personnel policies regarding clothing allowances and employee appearance standards. The discussion was expected to address options for employee uniform services or reimbursement."
+      },
+      {
+        "item": "Discussion and/or action on audit proposal",
+        "body": "The committee was set to consider and potentially approve an audit proposal for the Village's financial audit services."
+      },
+      {
+        "item": "Discussion and/or action on 2025 financial audit report",
+        "body": "The committee was scheduled to review and potentially take action on the completed 2025 financial audit report for the Village."
+      },
+      {
+        "item": "Discussion and/or action on 2027 Budget process and tentative calendar",
+        "body": "The committee was expected to discuss and establish the process and timeline for developing the Village's 2027 budget."
+      },
+      {
+        "item": "Discussion and/or action on referral from Board of Trustees regarding Ethics function as it pertains to Village committees, commissions, and staff",
+        "body": "The committee was set to address a referral from the Board of Trustees regarding how ethics functions should be implemented and managed across Village committees, commissions, and staff members."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Scheduled to vote on approval of previous meeting minutes from June 15, 2026",
+      "Expected to acknowledge June 2026 financial reports",
+      "Scheduled to discuss and potentially act on Cintas Uniform Agreement",
+      "Expected to consider amendments to employee clothing allowance and appearance policies",
+      "Scheduled to review and potentially approve audit proposal",
+      "Expected to consider 2025 financial audit report",
+      "Scheduled to establish 2027 budget process and calendar",
+      "Expected to address Board of Trustees referral regarding ethics function"
+    ],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "Financial Audit",
+      "Personnel Policies",
+      "Tax Increment Finance"
+    ],
+    "votes": []
+  },
+  {
     "id": "kw_0c186a226ebf4a359f1d4c3a52fd7b37",
     "source": "kronenwetter",
     "title": "Parks Committee",
@@ -6127,155 +6252,6 @@
       },
       {
         "item": "Adoption of Resolution 2026-007 Transportation Funding Solution",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "bb_744112",
-    "source": "school_board",
-    "title": "Regular Meeting",
-    "date": "May 11, 2026",
-    "shortDate": "MAY 11",
-    "committee": "Regular Meeting",
-    "duration": "22m",
-    "url": "https://www.youtube.com/watch?v=aOKJiLFy5s4",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=744112",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau School Board held its regular May 2026 meeting, approving several key items including the 2026-27 budget reconciliation plan, a 2.63% wage adjustment for non-teacher employee groups, teacher contract renewals, and a 5-year charter contract renewal for the Wausau Area Montessori Charter School. The meeting also featured a student presentation from Maine Elementary fifth graders and concluded with a unanimous vote to move into closed session for nonrenewal and contract evaluation matters.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Roll Call"
-      },
-      {
-        "time": "0:30",
-        "item": "Pledge of Allegiance and Mission Statement"
-      },
-      {
-        "time": "1:00",
-        "item": "Maine Elementary Student Presentation - Principal Laura Dred and fifth graders"
-      },
-      {
-        "time": "10:30",
-        "item": "Public and Student Comment"
-      },
-      {
-        "time": "12:00",
-        "item": "Consent Agenda - appointments, personnel actions, minutes, bills, donations"
-      },
-      {
-        "time": "13:00",
-        "item": "Legal Expense Summary - Third Quarter 2025-26 (informational)"
-      },
-      {
-        "time": "13:30",
-        "item": "2026-27 Budget Reconciliation Plan"
-      },
-      {
-        "time": "14:30",
-        "item": "Teacher Contract Approvals for 2026-27"
-      },
-      {
-        "time": "15:30",
-        "item": "2.63% Wage Adjustment for Non-Teacher Employee Groups"
-      },
-      {
-        "time": "16:30",
-        "item": "Wausau Area Montessori Charter School 5-Year Contract Renewal"
-      },
-      {
-        "time": "18:30",
-        "item": "Board Member Professional Growth and Development Report"
-      },
-      {
-        "time": "19:30",
-        "item": "Legislative Update and Superintendent Report"
-      },
-      {
-        "time": "21:00",
-        "item": "Motion to Enter Closed Session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Maine Elementary Student Presentation",
-        "body": "Principal Laura Dred introduced four fifth graders — Jaden Dura, Clay Mishka, Adeline Rembrick, and Hudson — who presented on their favorite Maine Elementary events including dress-up days, food fundraisers, Blue and Gold Day, water day, the school forest overnight trip, and the PTO's contributions to the school. Board members responded warmly, joking about adding a dunk tank or 100-foot slide to water day festivities targeting new board members or the superintendent. One board member specifically thanked Principal Dred for her leadership."
-      },
-      {
-        "item": "Consent Agenda",
-        "body": "The consent agenda covering staff appointments, replacements, contract changes, separations, retirements, meeting minutes from April 13, 27, and 30, payment of bills, budget status, investment report, and donations from organizations including Horsman Neighbors, American Online Giving Foundation, Forest Park Neighborhood, Charles Berger, Josh Dwey, and M3 Insurance was brought to a vote. The motion passed unanimously with no dissent or abstentions noted."
-      },
-      {
-        "item": "2026-27 Budget Reconciliation Plan",
-        "body": "The budget reconciliation plan, previously presented by Assistant Superintendent of Operations Elizabeth Channel at the April Committee of the Whole, was brought for board approval. The motion was made and seconded, and the plan was approved with one abstention noted by the board president. No substantive debate was recorded."
-      },
-      {
-        "item": "Teacher Contract Approvals for 2026-27",
-        "body": "Tabitha Gundram presented the list of teacher contracts for renewal for the 2026-27 school year, noting that state statute requires contracts to be issued by the 15th. The motion passed with one abstention. No opposition or debate was recorded."
-      },
-      {
-        "item": "2.63% Wage Adjustment for Non-Teacher Employee Groups",
-        "body": "Administration recommended a 2.63% wage adjustment for all employee groups except teachers, whose adjustment will be addressed separately through the negotiation process. Elizabeth Channel noted the item was called out for separate board action even though it was included in the budget reconciliation plan already approved. The motion passed; no vote count beyond 'motion carries' was stated, and no opposition was noted."
-      },
-      {
-        "item": "Wausau Area Montessori Charter School 5-Year Contract Renewal",
-        "body": "Elizabeth Channel presented the WAMCS 5-year charter contract renewal (2026-2031), and Montessori Governance Council President Tyler Berg spoke in person, thanking the board for 20 years of support and expressing hope for another 20 years of partnership. The motion to approve the renewal passed; the board president noted the motion carries with no recorded opposition or abstentions."
-      },
-      {
-        "item": "Motion to Enter Closed Session",
-        "body": "Superintendent Bushman requested a motion to enter closed session under Wisconsin statutes 19.85(1)(c) for final notice of nonrenewal and 19.85(1)(e) and (g) for contract evaluation. A roll call vote was taken and all eight members present — Sarah, Charles, John, Pat, Corey, Lance, Yao, and Jim — voted yes. The motion passed 8-0."
-      }
-    ],
-    "publicComment": "One public commenter spoke: Dana (last name not given), who identified herself as a WEA member. She reported that teacher appreciation week concluded successfully with staff feeling appreciated by administration and parents, though she noted middle school students were less engaged given the time of year. She also announced a retirement celebration for retiring WEA members scheduled for June 3rd at Bull Falls Brewery.",
-    "actionItems": [
-      "Consent agenda approved including staff actions, April meeting minutes, payment of bills, and donations from Horsman Neighbors, American Online Giving Foundation, Forest Park Neighborhood, Charles Berger, Josh Dwey, and M3 Insurance",
-      "2026-27 budget reconciliation plan approved (one abstention)",
-      "Teacher contracts for 2026-27 school year approved per state statute deadline of the 15th (one abstention)",
-      "2.63% wage adjustment approved for all non-teacher employee groups; teacher wage adjustment to be brought as separate action after negotiation process",
-      "5-year charter contract renewal (2026-2031) approved for Wausau Area Montessori Charter School",
-      "Board entered closed session for final notice of nonrenewal (Wis. Stat. 19.85(1)(c)) and contract evaluation (Wis. Stat. 19.85(1)(e) and (g))",
-      "Board member directed to follow up with Senator Felkowski separately regarding special education funding legislation",
-      "Written board member liaison district activity report entered into official record"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Curriculum",
-      "Wausau Area Montessori Charter School"
-    ],
-    "votes": [
-      {
-        "item": "Consent agenda including staff appointments, meeting minutes, payment of bills, budget status, investment report, and donations",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "2026-27 Budget Reconciliation Plan",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Teacher contract approvals for 2026-27 school year",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2.63% wage adjustment for non-teacher employee groups",
         "motion": null,
         "mover": null,
         "second": null,
