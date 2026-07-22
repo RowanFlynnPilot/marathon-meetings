@@ -152,8 +152,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b995176cf5baf1e86475@marathon-meetings
 DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Chicago:20260728T171500
-DTEND;TZID=America/Chicago:20260728T184500
+DTSTART;TZID=America/Chicago:20260728T181500
+DTEND;TZID=America/Chicago:20260728T194500
 SUMMARY:City of Wausau: Finance Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2429/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
@@ -166,6 +166,16 @@ DTSTART;TZID=America/Chicago:20260728T190000
 DTEND;TZID=America/Chicago:20260728T203000
 SUMMARY:Marathon County: County Board Meeting
 URL:https://www.marathoncounty.gov/about-us/county-calendar
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:8c1ad94f96786155b3bf@marathon-meetings
+DTSTAMP:20260729T000000Z
+DTSTART;TZID=America/Chicago:20260729T080000
+DTEND;TZID=America/Chicago:20260729T093000
+SUMMARY:City of Wausau: Business Improvement District Board Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3549/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -298,16 +308,6 @@ DTSTART;TZID=America/Chicago:20260811T170000
 DTEND;TZID=America/Chicago:20260811T183000
 SUMMARY:Marathon County: Public Safety Committee
 URL:https://www.marathoncounty.gov/about-us/county-calendar
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:fbb0afd9c7cccc7e8c44@marathon-meetings
-DTSTAMP:20260811T000000Z
-DTSTART;TZID=America/Chicago:20260811T171500
-DTEND;TZID=America/Chicago:20260811T184500
-SUMMARY:City of Wausau: Finance Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2416/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
