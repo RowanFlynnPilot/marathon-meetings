@@ -98,368 +98,388 @@
     "votes": []
   },
   {
-    "id": "ttU_6yyVtjU",
-    "source": "weston",
-    "title": "Board of Trustees",
-    "date": "July 20, 2026",
-    "shortDate": "JUL 20",
-    "committee": "Board of Trustees",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=ttU_6yyVtjU",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1944",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Weston Board of Trustees was scheduled to hold a regular meeting to address multiple community matters including the Bull Junior View Subdivision plat approval and development agreement, discussion of SAFER operations following an April referendum, 2027 budget priorities, and capital projects including park renovations and street reconstruction.",
-    "agenda": [
-      {
-        "time": "6:00 p.m.",
-        "item": "Public Comments – up to three minutes per person on non-agenda items"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of June 15, 2026 Board of Trustees Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Committee Chair Updates and Reports from Boards, Committees, and Commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Department Reports including Administrator, Clerk, Finance, Fire/EMS, Parks & Recreation, Police, Public Works, and Technology"
-      },
-      {
-        "time": "N/A",
-        "item": "Work Product Transmittals including May and June Building Permits, June Budget Status, and June Code Enforcement Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Vouchers – check numbers 66912-67158 and 90256-90258"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution 2026-019: Final Plat of Bull Junior View Subdivision"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Continuing Conversation with SAFER Following April Referendum Result"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Community Engagement Events Schedule and Activities"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Cintas Uniform Agreement"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation and Chapter 10 Behavior & Conduct Personnel Policies"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion only Regarding Quarterly Update on Kennedy Park Renovation and Capital Campaign"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on President's Appointments to Committees and/or Commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion only Presentation by D.C. Everest Area School District Superintendent Dr. Casey Nye and Assistant Superintendent Dr. Kelley Strike on Long-term Facility Planning"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and Action on Development Agreement for Bull Junior View Subdivision"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Mountain Bay Metropolitan Police Department Usage of Outbuildings at Public Safety Building Site"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on 2027 Budget Priorities and Establishment of Budget Adoption Schedule"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Need to Review Legal Detail as Referred by Finance and Human Resources Committee"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on 2025 Final Audit Report and letters"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on 2026 Audit Contract"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Installation of Food Allergy Signs in the Parks"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Howland Avenue Survey Services"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Concord Ave Reconstruction Project Bids"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Aquatic Center Leak Detection Contract"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Mountain Bay Metro Police Department Bid Results"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed Session pursuant to Wis. Stat. § 19.85(1)(e) regarding Appraisals and Right-of-Way Purchases for Ross Avenue Reconstruction Project"
-      },
-      {
-        "time": "N/A",
-        "item": "Possible Action on Closed Session Items – Appraisals and Right-of-Way Purchases for Ross Avenue Reconstruction Project"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Continuing Conversation with SAFER Following April Referendum Result",
-        "body": "The Board was scheduled to discuss and consider action regarding ongoing matters related to the SAFER organization following the results of an April referendum. This discussion was expected to address organizational direction and potential decisions stemming from the referendum outcome."
-      },
-      {
-        "item": "Community Engagement Events Schedule and Activities",
-        "body": "The Board was set to discuss and potentially take action on scheduling and planning of community engagement events and activities. This item was scheduled to review the Village's approach to community programming and event coordination."
-      },
-      {
-        "item": "Cintas Uniform Agreement",
-        "body": "The Board was scheduled to discuss and consider action on a uniform services agreement with Cintas. This item was expected to address uniform procurement and services for Village staff."
-      },
-      {
-        "item": "Amendments to Chapter 5 Job Classification & Compensation and Chapter 10 Behavior & Conduct Personnel Policies",
-        "body": "The Board was set to discuss and potentially take action on proposed amendments to the Village's personnel policies handbook, specifically provisions related to job classification, compensation, clothing allowances, and employee appearance standards."
-      },
-      {
-        "item": "Quarterly Update on Kennedy Park Renovation and Capital Campaign",
-        "body": "The Board was scheduled for discussion only regarding progress on the Kennedy Park renovation project and related capital campaign fundraising efforts. This item was expected to provide an informational update on project status and fundraising activities."
-      },
-      {
-        "item": "Resolution 2026-019: Final Plat of Bull Junior View Subdivision",
-        "body": "The Board was set to consider approval of the final plat for the Bull Junior View Subdivision, a development project involving Reedy Builders and Vreeland. This action was scheduled to formalize the subdivision's final design and boundaries."
-      },
-      {
-        "item": "President's Appointments to Committees and/or Commissions",
-        "body": "The Board was scheduled to discuss and consider action on appointments by the President to various Village committees and commissions. This item was expected to address staffing of governance bodies that oversee Village operations."
-      },
-      {
-        "item": "D.C. Everest Area School District Facility Planning Presentation",
-        "body": "The Board was set for discussion only regarding a presentation by D.C. Everest Area School District Superintendent Dr. Casey Nye and Assistant Superintendent Dr. Kelley Strike on the district's long-term facility planning project. This presentation was expected to inform the Board of school district capital planning matters."
-      },
-      {
-        "item": "Development Agreement for Bull Junior View Subdivision",
-        "body": "The Board was scheduled to discuss and take action on a development agreement related to the Bull Junior View Subdivision. This was expected to formalize the terms and conditions for development of this residential project."
-      },
-      {
-        "item": "Mountain Bay Metropolitan Police Department Usage of Outbuildings at Public Safety Building Site",
-        "body": "The Board was set to discuss and consider action on proposed usage of outbuildings at the public safety facility by the Mountain Bay Metropolitan Police Department. This item was scheduled to address space sharing and operational arrangements for the police department."
-      },
-      {
-        "item": "2027 Budget Priorities and Budget Adoption Schedule",
-        "body": "The Board was scheduled to discuss and consider action on establishing budget priorities for fiscal year 2027 and determining the schedule for budget adoption. This item was expected to set the direction for the upcoming annual budgeting process."
-      },
-      {
-        "item": "Need to Review Legal Detail as Referred by Finance and Human Resources Committee",
-        "body": "The Board was set to discuss and consider action on a legal matter referred by the Finance and Human Resources Committee. This item was expected to address unspecified legal details requiring Board attention and decision-making."
-      },
-      {
-        "item": "2025 Final Audit Report and letters",
-        "body": "The Board was scheduled to discuss and consider action on the 2025 final audit report and related correspondence. This item was expected to review audit findings and recommendations for the completed fiscal year."
-      },
-      {
-        "item": "2026 Audit Contract",
-        "body": "The Board was set to discuss and consider action on contracting for the 2026 audit services. This item was scheduled to award or approve an audit services contract for the current fiscal year."
-      },
-      {
-        "item": "Installation of Food Allergy Signs in the Parks",
-        "body": "The Board was scheduled to discuss and consider action on installing food allergy warning signs in Village parks. This item was expected to address public health safety measures at park facilities."
-      },
-      {
-        "item": "Howland Avenue Survey Services",
-        "body": "The Board was set to discuss and consider action regarding survey services for Howland Avenue. This item was expected to address preliminary engineering or planning work for this street."
-      },
-      {
-        "item": "Concord Ave Reconstruction Project Bids",
-        "body": "The Board was scheduled to discuss and consider action on bids received for the Concord Avenue reconstruction project. This item was expected to review contractor proposals for street reconstruction work."
-      },
-      {
-        "item": "Aquatic Center Leak Detection Contract",
-        "body": "The Board was set to discuss and consider action on contracting for leak detection services at the Village's aquatic center. This item was scheduled to address facility maintenance and repair needs."
-      },
-      {
-        "item": "Mountain Bay Metro Police Department Bid Results",
-        "body": "The Board was scheduled to discuss and consider action on bid results related to the Mountain Bay Metropolitan Police Department. This item was expected to review contractor proposals for police department needs or services."
-      },
-      {
-        "item": "Appraisals and Right-of-Way Purchases for Ross Avenue Reconstruction Project",
-        "body": "The Board was scheduled to consider appraisals and right-of-way acquisitions for the Ross Avenue reconstruction project between Metro Drive and Alderson Street. This item was set for closed session discussion due to negotiation and purchasing considerations before possible action in open session."
-      }
-    ],
-    "publicComment": "Public comment was scheduled for any person wishing to address the Board for up to three minutes regarding a non-agenda item, with time extension permitted at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Expected to vote on approval of June 15, 2026 Board of Trustees meeting minutes",
-      "Scheduled to acknowledge reports and minutes from multiple committees, commissions, and departments",
-      "Expected to approve vouchers (check numbers 66912-67158 and 90256-90258)",
-      "Scheduled to vote on Resolution 2026-019 approving the final plat of Bull Junior View Subdivision",
-      "Expected to discuss and consider action on SAFER operations and funding following April referendum",
-      "Scheduled to discuss and consider action on community engagement event scheduling",
-      "Expected to consider action on Cintas uniform services agreement",
-      "Scheduled to consider amendments to personnel policies regarding job classification, compensation, and appearance standards",
-      "Expected to consider action on President's appointments to committees and commissions",
-      "Scheduled to consider action on development agreement for Bull Junior View Subdivision",
-      "Expected to discuss and consider action on Mountain Bay Metro Police outbuilding usage",
-      "Scheduled to establish 2027 budget priorities and adoption schedule",
-      "Expected to discuss and consider action on legal details referred by Finance and Human Resources Committee",
-      "Scheduled to consider action on 2025 final audit report",
-      "Expected to award or approve 2026 audit contract",
-      "Scheduled to consider action on food allergy signs in parks",
-      "Expected to consider action on Howland Avenue survey services",
-      "Scheduled to consider action on Concord Avenue reconstruction project bids",
-      "Expected to consider action on aquatic center leak detection contract",
-      "Scheduled to consider action on Mountain Bay Metro Police bid results",
-      "Expected to consider action on appraisals and right-of-way purchases for Ross Avenue reconstruction project"
-    ],
-    "topics": [
-      "Budget",
-      "Capital Projects",
-      "Public Safety",
-      "Development",
-      "Personnel",
-      "Parks"
-    ],
-    "votes": []
-  },
-  {
     "id": "z5NpUq8n9DY",
     "source": "weston",
     "title": "Finance and Human Resources Committee",
     "date": "July 20, 2026",
     "shortDate": "JUL 20",
     "committee": "Finance & Human Resources",
-    "duration": null,
+    "duration": "56m",
     "url": "https://www.youtube.com/watch?v=z5NpUq8n9DY",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1944",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Finance and Human Resources Committee of the Village of Weston was scheduled to meet on July 20, 2026, to review financial reports, personnel matters, and policy amendments. The meeting was set to address budget status updates, audit proposals, and consideration of policy changes related to employee uniforms and conduct standards.",
+    "overview": "The Village of Weston Finance and Human Resources Committee met on Monday, July 21, 2025, taking action on several items including approving a renewed Cintas uniform agreement, approving related employee policy handbook changes, extending the village's audit contract with Hawkins Ash for 2026, acknowledging the 2025 final audit report, and approving the 2027 budget process calendar with joint Finance/HR and board meetings. The meeting also included a substantive discussion about staff morale, the annual exit interview report, and an introduction of an ethics policy review process referred from the board of trustees.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of Minutes from Previous Finance & HR Meeting: June 15, 2026"
+        "time": "0:10",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "June Budget Status Report"
+        "time": "0:55",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "TIF 1 and TIF 2 Detail Reports for June"
+        "time": "1:10",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Legal Details for June"
+        "time": "5:50",
+        "item": "Approval of Previous Meeting Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Acknowledge semiannual staff transitions"
+        "time": "6:10",
+        "item": "Item 5-7: Acknowledge June Budget Status Report and TIF Reports and Legal Detail"
       },
       {
-        "time": "N/A",
-        "item": "Acknowledge Annual Exit Interview Report"
+        "time": "8:00",
+        "item": "Item 8: Acknowledge Semi-Annual Staff Transitions"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on Cintas Uniform Agreement"
+        "time": "9:00",
+        "item": "Item 9: Annual Exit Interview Report"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook"
+        "time": "25:30",
+        "item": "Item 10: Discussion/Action on Cintas Uniform Agreement"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on audit proposal"
+        "time": "42:00",
+        "item": "Item 11: Amendments to Employee Personnel Policies (Clothing and Equipment)"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on 2025 financial audit report"
+        "time": "43:50",
+        "item": "Item 12: Discussion/Action on Audit Proposal (Hawkins Ash 2026)"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on 2027 Budget process and tentative calendar"
+        "time": "45:10",
+        "item": "Item 13: Discussion/Action on 2025 Financial Audit Report"
       },
       {
-        "time": "N/A",
-        "item": "Discussion and/or action on referral from Board of Trustees regarding Ethics function as it pertains to Village committees, commissions, and staff"
+        "time": "46:20",
+        "item": "Item 14: Discussion/Action on 2027 Budget Process and Tentative Calendar"
+      },
+      {
+        "time": "50:00",
+        "item": "Item 15: Referral from Board of Trustees Regarding Ethics Function"
       }
     ],
     "discussions": [
       {
-        "item": "June Budget Status Report",
-        "body": "The committee was scheduled to acknowledge the June 2026 financial report for all funds. The report was expected to provide updates on General Fund revenue at 75.1% of budget and expenditures at 47.7% of budget, along with status information on special revenue funds including the Aquatic Center and proprietary funds such as Water, Sewer, and Stormwater."
+        "item": "Public Comment",
+        "body": "One member of the public, Jim, spoke on three topics: opposition to removing the legal detail from Finance and HR Committee packets, requesting to comment during the Cintas contract discussion given his two decades of experience with uniform contracts, and criticizing the exit interview report for including staff opinions rather than factual employee interview data. The chair allowed Jim to speak during the Cintas agenda item without objection from the committee."
       },
       {
-        "item": "TIF 1 and TIF 2 Detail Reports for June",
-        "body": "The committee was set to review detailed reports for Tax Increment Finance Districts 1 and 2 as part of the regular monthly financial reporting acknowledgment process."
+        "item": "June Budget Status Report and TIF Reports (Items 5-7)",
+        "body": "A committee member asked Finance Director Jessica about the aquatic center revenue covering 50.42% of expenditures to date, and Jessica explained season pass sales in June account for a large portion of revenue. She noted the aquatic center receives $40,000 in property tax levy and $40,000 in room tax annually, and that balancing it is a year-to-year struggle. Items 5, 6, and 7 were acknowledged together by motion."
       },
       {
-        "item": "Acknowledge semiannual staff transitions",
-        "body": "The committee was expected to acknowledge staff transitions that occurred during the first half of 2026 as part of routine human resources reporting."
+        "item": "Semi-Annual Staff Transitions (Item 8)",
+        "body": "Staff reported three transitions in the past six months. It was noted that a previously full-time deputy clerk position was split into two part-time positions successfully, reducing benefit costs. An engineering tech (RAS) was recently brought on, and two positions — deputy clerk/administrative assistant and utility operator/maintainer — were currently posted for recruitment."
       },
       {
-        "item": "Acknowledge Annual Exit Interview Report",
-        "body": "The committee was scheduled to acknowledge the annual report on exit interviews conducted with departing staff members."
+        "item": "Annual Exit Interview Report (Item 9)",
+        "body": "HR staff Jamie presented the report, noting only one exit interview was completed and that for confidentiality reasons no specific recommendations were attributed to that individual. The report included commentary about increasing negativity and unconstructive criticism affecting staff morale, which generated significant discussion. A committee member argued the win of a 7.5% turnover rate — below public sector benchmarks — was being overshadowed by the opinion-laden portion of the report and suggested separating the factual turnover data from the morale discussion, making the latter a standing agenda item. Mark (identified in discussion as a village official present) stated he personally refuses to respond to criticism in outside media and expressed support for staff. A department director spoke about the difficulty staff face being identified in public while wearing village shirts and receiving negative comments. Jamie defended including the morale content as reflective of themes heard more broadly, not just from the one exit interview, noting it could be a leading indicator if turnover worsens. The committee agreed to add a standing item for August on how the committee can better support staff, and one member proposed adding encomiums as a standing agenda item at board meetings. The motion to acknowledge the report passed with one opposed vote."
       },
       {
-        "item": "Discussion and/or action on Cintas Uniform Agreement",
-        "body": "The committee was set to discuss and potentially take action on the Cintas uniform service agreement. Based on prior meeting minutes, the discussion was expected to address contract terms and alternatives for employee uniform provisions."
+        "item": "Cintas Uniform Agreement (Item 10)",
+        "body": "Public commenter Jim, who was invited to speak, shared detailed experience with uniform contracts, recommending the village negotiate seasonal garment rates to avoid makeup charges, standardize garment types to reduce costs (noting stretchy jeans cost four times standard pants), and consider an allowance model where employees pay the difference for premium options. DPW Director Michael explained the current contract uses Omnia Partners government pricing locking rates for 36 months, that Cintas would not go below a 36-month term, and that a minimum weekly charge of approximately $45 (50% of current ~$92/week bill) would still be met even if some employees opted out. He noted communication and weekly check-ins with the Cintas driver have improved. The committee discussed the opt-out hybrid model, employee satisfaction, female employees having difficulty finding well-fitting garments, and the January 1 start date for annual selections. The committee recommended approval of the Cintas uniform agreement renewal to the board of trustees."
       },
       {
-        "item": "Discussion and/or action on Amendments to Chapter 5 Job Classification & Compensation, Section 13 Clothing and Equipment Allowance and Chapter 10 Behavior & Conduct, Section 01 Appearance of the Employee Personnel Policies and Procedures Handbook",
-        "body": "The committee was scheduled to discuss and potentially act on proposed amendments to personnel policies regarding clothing allowances and employee appearance standards. The discussion was expected to address options for employee uniform services or reimbursement."
+        "item": "Employee Personnel Policy Amendments (Item 11)",
+        "body": "The committee discussed amendments to Chapter 5 (job classification and compensation, clothing and equipment loans) and Chapter 10 (appearance) of the personnel policies handbook to reflect the new hybrid uniform program — allowing employees to either use Cintas or receive a $500 clothing allowance, compared to the current $300 reimbursement. Staff confirmed this was essentially codifying the agreement approved in Item 10. The committee recommended approval of the policy amendments to the board of trustees."
       },
       {
-        "item": "Discussion and/or action on audit proposal",
-        "body": "The committee was set to consider and potentially approve an audit proposal for the Village's financial audit services."
+        "item": "Audit Proposal — Hawkins Ash (Item 12)",
+        "body": "Finance Director Jessica presented a proposal from Hawkins Ash to continue as the village's auditor for the 2026 audit at a cost of $41,105. She noted this is lower than the $43,000–$46,000 proposals received from other firms during the last RFP process (for the 2025 audit), and that retaining Hawkins Ash is beneficial because of their familiarity with the village's TIF districts and existing work papers. The committee recommended approval of the one-year extension to the board of trustees."
       },
       {
-        "item": "Discussion and/or action on 2025 financial audit report",
-        "body": "The committee was scheduled to review and potentially take action on the completed 2025 financial audit report for the Village."
+        "item": "2025 Financial Audit Report (Item 13)",
+        "body": "Finance Director Jessica presented the final 2025 audit report from Hawkins Ash, noting she had included a memo summarizing the highlights to make the voluminous document more accessible. A committee member appreciated the memo. The committee acknowledged the final audit report without significant discussion."
       },
       {
-        "item": "Discussion and/or action on 2027 Budget process and tentative calendar",
-        "body": "The committee was expected to discuss and establish the process and timeline for developing the Village's 2027 budget."
+        "item": "2027 Budget Process and Tentative Calendar (Item 14)",
+        "body": "Finance Director Amy (or Jessica) presented a proposed budget calendar, noting that the September 7 meeting date falls on Labor Day and should be moved to Tuesday, September 8. The committee discussed whether Finance and HR should hold joint meetings with the full board of trustees throughout the budget process or focus narrowly on wages and benefits as in prior years. Two committee members expressed preference for participating in the full budget process. The motion to approve the calendar and hold joint meetings with the board was approved unanimously."
       },
       {
-        "item": "Discussion and/or action on referral from Board of Trustees regarding Ethics function as it pertains to Village committees, commissions, and staff",
-        "body": "The committee was set to address a referral from the Board of Trustees regarding how ethics functions should be implemented and managed across Village committees, commissions, and staff members."
+        "item": "Ethics Function Referral from Board of Trustees (Item 15)",
+        "body": "The chair introduced this item, explaining that after raising the concept at the last board of trustees meeting, the board referred the task of developing a potential ethics process to the Finance and HR Committee. The chair noted the current ethics policy (page 226 of the packet) routes violations to a department director or administrator, and that the committee would explore whether to build upon, amend, or replace it. A committee member suggested a citizen-based body similar to the police and fire commission, with the chair agreeing that was a possibility worth considering. The chair noted the committee may grow from four to six members after that evening's board of trustees meeting and wanted to wait for that input before going deeper. Staff were asked to gather sample ethics policies from comparable municipalities for the August meeting discussion."
       }
     ],
-    "publicComment": "Not indicated on agenda.",
+    "publicComment": "One speaker, Jim, addressed the committee before the meeting agenda items. He opposed removing the legal detail from Finance and HR Committee packets, citing transparency concerns and referencing a past instance where $10,000 in public funds was at issue. He also drew on his 20-plus years of experience with Cintas and uniform contracts to request time to speak during the Cintas agenda item, which was granted. Finally, he criticized the exit interview report for including staff opinions rather than factual interview data and suggested the committee hold a listening session for staff to share thoughts directly.",
     "actionItems": [
-      "Scheduled to vote on approval of previous meeting minutes from June 15, 2026",
-      "Expected to acknowledge June 2026 financial reports",
-      "Scheduled to discuss and potentially act on Cintas Uniform Agreement",
-      "Expected to consider amendments to employee clothing allowance and appearance policies",
-      "Scheduled to review and potentially approve audit proposal",
-      "Expected to consider 2025 financial audit report",
-      "Scheduled to establish 2027 budget process and calendar",
-      "Expected to address Board of Trustees referral regarding ethics function"
+      "Recommend to board of trustees approval of the Cintas 36-month uniform agreement renewal under Omnia Partners pricing",
+      "Recommend to board of trustees approval of amendments to employee personnel policies (Chapter 5 and Chapter 10) to reflect the hybrid uniform/clothing allowance program with $500 opt-out allowance",
+      "Recommend to board of trustees approval of one-year audit contract extension with Hawkins Ash for 2026 audit at $41,105",
+      "Acknowledge 2025 final financial audit report from Hawkins Ash",
+      "Approve 2027 budget process calendar with joint Finance/HR and board of trustees meetings; move September meeting from Labor Day (Sept. 7) to Tuesday, September 8",
+      "Add standing agenda item for August meeting: how can the committee better support and show appreciation for village staff",
+      "Begin ethics policy review process; staff to gather sample ethics policies from comparable municipalities for August meeting",
+      "Chair to work with Jamie on August agenda item to formally begin ethics framework discussion",
+      "Add encomiums as a proposed standing agenda item at board of trustees meetings (to be raised at board meeting same evening)"
     ],
     "topics": [
       "Budget",
       "Staffing",
-      "Financial Audit",
-      "Personnel Policies",
-      "Tax Increment Finance"
+      "Employee Morale",
+      "Cintas Uniform Contract",
+      "Ethics Policy"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of previous meeting minutes",
+        "motion": "Move for approval",
+        "mover": "Milo [phonetic, name unclear]",
+        "second": "Erling [phonetic, name unclear]",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge Items 5, 6, and 7 (June budget status report, TIF reports, legal detail)",
+        "motion": "Motion to acknowledge items 5, 6, and 7",
+        "mover": null,
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge semi-annual staff transitions (Item 8)",
+        "motion": "Motion to acknowledge",
+        "mover": "Daniels",
+        "second": "Merling [phonetic, name unclear]",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge annual exit interview report (Item 9)",
+        "motion": "Motion to acknowledge",
+        "mover": "MLink [phonetic, name unclear]",
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": "One opposed, remainder in favor"
+      },
+      {
+        "item": "Recommend approval of Cintas uniform agreement to board of trustees (Item 10)",
+        "motion": "Move to recommend approval of the uniform agreement with Cintas to the board of trustees",
+        "mover": null,
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Recommend approval of employee personnel policy amendments to board of trustees (Item 11)",
+        "motion": "Motion to recommend to the board of trustees the changes to the employee personnel policies and procedures handbook",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Recommend approval of one-year audit extension with Hawkins Ash for 2026 (Item 12)",
+        "motion": "Move to recommend the village board approve the one-year extension with Hawkins Ash for the 2026 audit",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge 2025 final financial audit report (Item 13)",
+        "motion": "Motion to acknowledge",
+        "mover": "Daniels",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve 2027 budget process calendar and hold joint meetings with board of trustees (Item 14)",
+        "motion": "Motion to approve the calendar as presented and hold joint meetings with the board of trustees",
+        "mover": null,
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjourn",
+        "motion": "Motion to adjourn",
+        "mover": "Steve [phonetic]",
+        "second": "Daniels",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "ttU_6yyVtjU",
+    "source": "weston",
+    "title": "Board of Trustees",
+    "date": "July 20, 2026",
+    "shortDate": "JUL 20",
+    "committee": "Board of Trustees",
+    "duration": "2h 35m",
+    "url": "https://www.youtube.com/watch?v=ttU_6yyVtjU",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_07202026-1944",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Weston Village Board of Trustees held a wide-ranging meeting covering several significant decisions, most notably approving the Mountain Bay Metropolitan Police Department building contract with 8 Pine Inc. for $6.7 million — coming in under a $7 million budget — and receiving a detailed presentation from DC Everest school district leaders on long-range facility planning that could include a $81–94 million referendum in April 2027. The board also discussed SAFER fire staffing, public works challenges including asbestos pipe replacement and utility operator turnover, and various committee reports.",
+    "agenda": [
+      {
+        "time": "0:01",
+        "item": "Call to Order, Pledge of Allegiance, and Roll Call"
+      },
+      {
+        "time": "1:30",
+        "item": "Public Comment"
+      },
+      {
+        "time": "3:30",
+        "item": "Approval of June 15, 2026 Board of Trustees Meeting Minutes"
+      },
+      {
+        "time": "4:15",
+        "item": "Item 43 (moved up): Presentation by DC Everest Area School District Superintendent Dr. Casey Nye and Dr. Kelly Strike on Long-Range Facility Planning"
+      },
+      {
+        "time": "37:00",
+        "item": "Item 54 (moved up): Discussion and/or Action on Mountain Bay Metro Police Department Bid Results"
+      },
+      {
+        "time": "1:00:30",
+        "item": "Acknowledge Reports, Minutes from Boards, Committees, and Commissions (Items 6, 10, 12A, 12B, 14, 15, 16)"
+      },
+      {
+        "time": "1:07:00",
+        "item": "Department Reports (Items 18–26): Administrator, Clerk, Finance, Fire, Recreation/Aquatics, Planning, Police, Public Works, Technology"
+      },
+      {
+        "time": "1:25:30",
+        "item": "Acknowledge Products/Medals (Items 28–31) including Code Enforcement Report"
+      },
+      {
+        "time": "1:27:30",
+        "item": "Consent Agenda: Approve Vouchers (Check Numbers 66912–67158 and 90256–90258)"
+      },
+      {
+        "time": "1:28:30",
+        "item": "Resolution 2026-019: Final Plat of Bull Junior View Subdivision"
+      },
+      {
+        "time": "1:29:30",
+        "item": "Unfinished Business Item 37: Discussion on Continuing Conversation with SAFER Following April Referendum Results"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "Jim Pinsel addressed the board on three topics: (1) strong opposition to removing legal details from the Finance and HR Committee's monthly review, arguing it enables 'swampy underhanded backroom deals' and citing $10,000 in legal fees he said were used to avoid public records disclosure; (2) support for the police department building but urging that the $362,354.32 in returned EMPD funds be exclusively earmarked to reduce borrowing for the new building; and (3) a call for the board to set 2027 budget goals including fully funding the fire department and minimizing property taxes."
+      },
+      {
+        "item": "DC Everest Long-Range Facility Planning Presentation",
+        "body": "Superintendent Dr. Casey Nye and Assistant Superintendent Dr. Kelly Strike presented DC Everest's long-range facility plan, which involves decommissioning the 75-year-old junior high, moving 8th graders to the middle school (creating a 6–8 building) and 9th graders to the high school (creating a 9–12 building), with an estimated cost of $81–94 million plus potential additional costs if a new aquatics facility is added. The district is targeting an April 2027 referendum, noting that current enrollment has declined from about 5,900 five years ago to 5,730, and that the 2018 referendum passed with roughly 70.8% approval. Trustees asked about the operational costs of retaining the junior high structure partially, staffing reductions (attrition-based, no planned layoffs), the age of other facilities, and the potential pool project near GTCC. Dr. Nye acknowledged the pool decision is exploratory and that community partnership conversations are ongoing."
+      },
+      {
+        "item": "Mountain Bay Metro Police Department Bid Results (Item 54)",
+        "body": "Chief Mark Kern presented bid results for the new Mountain Bay Metropolitan Police Department building: the base bid from contractor 8 Pine Inc. came in at $6,390,100, with the total project including fiber optic line, lockers, furniture, and security estimated at $6.7 million — under the $7 million budget. Five bid alternatives were considered; three were eliminated. The approximately 26,000 sq. ft. building includes a 13-squad garage expandable during adverse weather. Trustee Katrina Clark expressed disappointment at the process that led to needing a new building, saying she felt misled when the merger was approved after being told existing facilities were adequate; Chief Kern took personal responsibility, apologizing to the board. Finance administrator Ryan noted an intergovernmental agreement with Rothschild must be finalized in August before the contract with 8 Pine can be signed; 8 Pine indicated it could begin construction by end of September. Weston's share is approximately $4,355,000 (65%), with Rothschild covering 35%. The board voted unanimously 7-0 to approve the contract."
+      },
+      {
+        "item": "Committee Reports — Finance and HR",
+        "body": "Trustee Barbara Ermeling reported the committee discussed the Cintas agreement and an annual exit interview report showing 7.5% village-wide staff turnover, which she characterized as a strong result for a public entity. The committee also discussed ways elected officials can show appreciation to staff, with follow-up planned for August."
+      },
+      {
+        "item": "Department Reports — Public Works",
+        "body": "Director Michael reported the Alderson-Gelnik roundabout is progressing with curb and gutter poured and sidewalk work beginning; utility pole removal was delayed until after the World Cup finale due to telecom contract restrictions. A utility operator gave two-week notice — the third consecutive year of turnover in that position around the one-year mark — raising concerns about operational impact and training burden. Discussion also covered the asbestos pipe replacement program (10 miles in the village, with a grant being pursued), street lighting gaps near the river and along Score Avenue to campus, and the long-term future of the bridge over the Oclair River on Ross Avenue. Trustees also discussed the planned Ross Avenue and Camp Phillips roundabout, driven by crash analysis and a traffic study showing the intersection trending toward level-of-service F by 2034."
+      },
+      {
+        "item": "Resolution 2026-019: Final Plat of Bull Junior View Subdivision",
+        "body": "Trustee Luis Lopes-Serrao moved and Trustee Katrina Clark seconded approval of the final plat for Bull Junior View Subdivision (Project 20250424, Reading Builders, Freeland). The motion passed unanimously with no discussion."
+      },
+      {
+        "item": "SAFER Fire Staffing (Item 37)",
+        "body": "Village President Maloney and others briefly discussed the SAFER board's approval of adding three staff for 2027, which the board indicated they have comfort funding via TIF district closure revenue without a referendum. Maloney expressed the need for a longer-term staffing plan — potentially adding two more in year two and three more in year three — to be discussed during budget season, noting the public's rejection of the fire fee referendum signaled they do not want another referendum approach."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: Jim Pinsel, who identified himself and gave his address. He raised three issues: opposition to removing legal details from the Finance and HR Committee's monthly report, urging that $362,354.32 in returned EMPD funds be exclusively earmarked to reduce borrowing for the new police building rather than diverted to other uses, and calling on the board to set specific 2027 budget goals including fully funding the fire department and minimizing property tax increases.",
+    "actionItems": [
+      "Award Mountain Bay Metro Police Department building contract to 8 Pine Inc. for $6.7 million total (approved 7-0)",
+      "Village of Weston and Village of Rothschild to finalize intergovernmental agreement in August before signing contract with 8 Pine",
+      "Meet with 8 Pine after Rothschild board meeting the following Monday to confirm construction timeline targeting end-of-September start",
+      "Bring disposition of returned EMPD funds ($362,354.32) back as a separate agenda item",
+      "Comprehensive plan steering committee meeting rescheduled from August 3 to September due to difficulty reaching landowners",
+      "Public Works to continue planting and mulching at Scofield Avenue median this week",
+      "Post police department building project information to Facebook the following day",
+      "Discuss utility operator staffing levels and potential need for additional public works staff during 2027 budget process",
+      "Discuss SAFER long-term staffing plan during 2027 budget process",
+      "Recreation staff to develop objective AQI-based pool closure standards, referencing Fort Collins, Colorado policy",
+      "Pursue asbestos pipe replacement grant",
+      "Discuss street lighting policy — near river and Score Avenue corridor — at future planning meeting"
+    ],
+    "topics": [
+      "Public Safety",
+      "Development",
+      "Budget",
+      "Utilities",
+      "Mountain Bay Metro Police Department Building",
+      "DC Everest Facility Planning",
+      "SAFER Fire Staffing",
+      "Alderson-Gelnik Roundabout"
+    ],
+    "votes": [
+      {
+        "item": "Approval of June 15, 2026 Board of Trustees Meeting Minutes",
+        "motion": "Move to approve",
+        "mover": "Lisa Beck",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Mountain Bay Metro Police Department building contract awarded to 8 Pine Inc. for $6,700,000",
+        "motion": "Move to award the Mountain Bay Metropolitan Police Department building project contract to 8 Pine Inc. for the total project base alternative one and alternative two and the additional item system security fiber optic line furniture and lockers for the amount of $6,700,000",
+        "mover": "Hooshang Zeyghami",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Acknowledge reports, minutes from boards, committees, and commissions (Items 6, 10, 12A, 12B, 14, 15, 16)",
+        "motion": "Motion to acknowledge",
+        "mover": "Brent Olson",
+        "second": "Barbara Ermeling",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge department reports (Items 18–26)",
+        "motion": "Move to acknowledge items 18 through 26",
+        "mover": "Luis Lopes-Serrao",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge items 28–31 (including code enforcement report)",
+        "motion": "Motion to acknowledge 28–31",
+        "mover": "Barbara Ermeling",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve vouchers check numbers 66912–67158 and 90256–90258",
+        "motion": "Motion to approve",
+        "mover": "Barbara Ermeling",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-019: Final Plat of Bull Junior View Subdivision",
+        "motion": "Move to approve resolution 2026-019",
+        "mover": "Luis Lopes-Serrao",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
   },
   {
     "id": "kw_0c186a226ebf4a359f1d4c3a52fd7b37",
@@ -471,83 +491,153 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-0",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-0c186a226ebf4a359f1d4c3a52fd7b37.pdf",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Kronenwetter Parks Committee was scheduled to meet to discuss updates on the Buska Park Renovation Project, consider grant funding opportunities, and review plans for multiple community fundraising events scheduled for late summer 2026.",
+    "overview": "The Kronenwetter Parks Committee met on July 20, 2026 to discuss a post-parks-tour review of village parks, two fundraising events for the Bushka Park renovation project, and future agenda planning. Key outcomes included approving a recommendation to the village board to hold a September 12 Bushka Park 5K/3K run-walk as an official village event, approving a motion to ask the board for a $5,000 matching grant, and declining a $2,000 funding request for a planned August 21 concert fundraiser, which was subsequently postponed to spring 2027.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of June 29, 2026 Parks Committee Meeting Minutes"
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Buska Park Renovation Project Update"
+        "time": "1:30",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Wausau & Marathon County Parks & Recreation Foundation Fund Grant"
+        "time": "2:15",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Post Village Parks Tour Discussion"
+        "time": "2:45",
+        "item": "Approval of Minutes - June 29, 2026 Parks Committee Meeting"
       },
       {
-        "time": "N/A",
-        "item": "August 21, 2026 Concert at Towering Pine Fundraiser Event"
+        "time": "4:00",
+        "item": "New Business: Bushka Park Renovation Project Update (Grant Applications)"
       },
       {
-        "time": "N/A",
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event"
+        "time": "7:30",
+        "item": "Marathon County Parks and Recreation Foundation Fund Grant - $5,000 Match Discussion and Vote"
       },
       {
-        "time": "N/A",
-        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group"
+        "time": "15:00",
+        "item": "Post-Village Parks Tour Discussion (Municipal Park, Towering Pines, Friendship Park, Bushka Park, Seville Park)"
+      },
+      {
+        "time": "1:05:00",
+        "item": "August 21, 2026 Concert at Towering Pines Fundraiser Event Discussion and Vote"
+      },
+      {
+        "time": "1:35:00",
+        "item": "September 12, 2026 Bushka Park 5K/3K Run-Walk Fundraiser Event Discussion and Vote"
+      },
+      {
+        "time": "1:55:00",
+        "item": "Creating a Friends of Kronenwetter Parks Support Group"
+      },
+      {
+        "time": "2:05:00",
+        "item": "Consideration of Items for Future Agenda"
+      },
+      {
+        "time": "2:12:00",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Buska Park Renovation Project Update",
-        "body": "The committee was scheduled to receive an update on the status of the Buska Park Renovation Project. This item was set to inform committee members of project progress and any relevant developments related to the park improvements."
+        "item": "Approval of Minutes - June 29, 2026",
+        "body": "A motion was made by committee member Patty to approve the June 29, 2026 Parks Committee meeting minutes, seconded by Elizabeth. The motion carried unanimously on a voice vote."
       },
       {
-        "item": "Wausau & Marathon County Parks & Recreation Foundation Fund Grant",
-        "body": "The committee was expected to consider a grant opportunity from the Wausau & Marathon County Parks & Recreation Foundation. This item was set to discuss potential funding and application details for the Village's parks initiatives."
+        "item": "Bushka Park Renovation Project Grant Update",
+        "body": "Staff reported that three grants were submitted, including one to WASOW (outcome pending) and the Marathon County Parks and Recreation Foundation Fund grant for which the village received $5,000. A committee member asked for clarification on whether $100,000 was the total grant pool or the eligibility cap. Staff noted they had a call in with WASOW and expected to hear back. A motion was made by Patty and seconded by another member to recommend the village board approve a $5,000 match to the received grant; the motion carried 7-0."
       },
       {
-        "item": "Post Village Parks Tour Discussion",
-        "body": "The committee was scheduled to discuss a post village parks tour. Details regarding the nature, timing, and scope of this tour were set for committee consideration."
+        "item": "Post-Village Parks Tour Discussion",
+        "body": "The committee conducted a lengthy park-by-park review of Municipal Park, Towering Pines, Friendship Park, Bushka Park, and Seville Park. Recurring themes across all parks included failing ADA accessibility (notably only one handicap swing in the village, which is itself inaccessible), aging playground equipment (15-20 years old), vandalism of bathrooms, poorly maintained Little Free Libraries, signage issues, and underuse of facilities. Staff member Greg confirmed budget constraints with only three part-time parks staff and five full-time streets staff covering seven parks. The committee directed staff to compile a prioritized list with rough cost estimates for the next meeting, and noted that a full assessment cannot be completed until all parks are reviewed. ADA compliance was identified as a high-priority cross-park issue."
       },
       {
-        "item": "August 21, 2026 Concert at Towering Pine Fundraiser Event",
-        "body": "The committee was expected to review plans for a concert fundraiser event scheduled for August 21, 2026 at Towering Pine. This item was set to address event logistics, coordination, and related details."
+        "item": "August 21, 2026 Concert at Towering Pines Fundraiser Event",
+        "body": "Committee member Patty presented a plan for a fundraiser concert featuring donated band Living River on August 21, with proposed amenities including a bounce house, petting zoo, face painting, and free food funded by a $2,000 village board allocation from the community events budget. Trustees Mishka and Lesniak expressed concern about using village funds for a fundraising event with uncertain returns, and about event redundancy given National Night Out and the planned 5K. A motion by Patty for up to $2,000 from the village board was seconded for discussion purposes; the motion failed with only Patty voting yes. Following the failed vote, Patty indicated she would cancel the August 21 event and look at rescheduling to spring 2027."
       },
       {
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
-        "body": "The committee was scheduled to discuss an upcoming 5K run/walk fundraiser planned for September 12, 2026 at Buska Park. This item was set to address event planning and coordination for the community fundraising event."
+        "item": "September 12, 2026 Bushka Park 5K/3K Run-Walk Fundraiser",
+        "body": "Committee member Aaron presented a detailed plan for a 5K/3K run-walk starting at Bushka Park, passing through Towering Pines, and ending at Relocation Public Eatery, with music provided by a musician personally sponsored by Village President Dan Joling. Police Chief Terry McEwen confirmed police support for road closures. Relocation owner Jackie Fisher approved the event and proposed raffle baskets, 50/50 drawings, and potentially donating a percentage of food and drink sales. The committee discussed shirt pricing (roughly $9-$13 per shirt), registration fees ($25 per person or $50 per family discussed), and a shirt deadline for early registrants. A motion to recommend the village board approve this as an official village event passed unanimously 7-0."
       },
       {
-        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group",
-        "body": "The committee was expected to consider the establishment of a \"Friends of the Kronenwetter Parks\" support group. This item was set to discuss the formation, purpose, and structure of a community volunteer organization to support local parks."
+        "item": "Creating a Friends of Kronenwetter Parks Support Group",
+        "body": "Chair Mishka distributed a handout outlining steps to establish a Friends of Kronenwetter Parks nonprofit support group. The committee agreed by consensus to table detailed discussion and review the materials before the next meeting, with no vote taken."
+      },
+      {
+        "item": "Future Agenda Items",
+        "body": "Committee members proposed four future agenda items: Norm Plaza Park for a possible dog park, a disc golf course at the wellhead park (larger than Seville), water access points along the river for kayak and canoe landings, and placement of benches along walking trails. Additional future items suggested included further 5K planning details and a discussion of a 2027 village events calendar."
       }
     ],
-    "publicComment": "Public comment was on the agenda for a maximum of 15 minutes total, with a three-minute time limit per person, subject to extension at the Chief Presiding Officer's discretion.",
+    "publicComment": "No public comment was offered. Chair Mishka stated she did not receive any public comment requests.",
     "actionItems": [
-      "Scheduled to approve or consider June 29, 2026 meeting minutes",
-      "Expected to receive and discuss Buska Park Renovation Project update",
-      "Set to consider application or acceptance of Wausau & Marathon County Parks & Recreation Foundation Fund Grant",
-      "Scheduled to discuss post village parks tour plans",
-      "Expected to coordinate August 21, 2026 Concert at Towering Pine fundraiser event",
-      "Set to coordinate September 12, 2026 Buska Park 5K Run/Walk fundraiser event",
-      "Expected to consider creation of \"Friends of the Kronenwetter Parks\" support group"
+      "Staff to compile prioritized list of park improvements with rough cost estimates for all toured parks before the next meeting",
+      "Recommend village board approve $5,000 matching grant contribution for Marathon County Parks and Recreation Foundation Fund grant",
+      "Recommend village board approve September 12, 2026 Bushka Park 5K/3K Run-Walk as an official village event",
+      "Aaron to take lead on 5K planning details for the next meeting",
+      "August 21 Living River concert postponed; Patty to cancel and explore spring 2027 rescheduling",
+      "Greg to look into cost of renting vs. purchasing ADA-accessible porta-pottie units",
+      "Greg to assess condition of Little Free Libraries at all parks and remove or restock as needed",
+      "Staff to repaint pickleball court lines at Bushka Park in a brighter color after growing season",
+      "Staff to fix washout at Municipal Park (safety concern, already on list)",
+      "Craig to verify dog ordinance language at parks where 'no dogs' signs conflict with actual events",
+      "Committee members to review Friends of Kronenwetter Parks support group handout before next meeting",
+      "Future agenda: Norm Plaza Park dog park, disc golf at wellhead park, water access points, trail benches, 2027 events calendar"
     ],
     "topics": [
       "Parks",
-      "Buska Park",
-      "Community Fundraising",
-      "Grant Funding",
-      "Volunteer Engagement"
+      "Budget",
+      "ADA Accessibility",
+      "Fundraising",
+      "Bushka Park Renovation"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of June 29, 2026 Parks Committee meeting minutes",
+        "motion": "Motion to approve the June 29, 2026 Parks Committee meeting minutes",
+        "mover": "Patty",
+        "second": "Elizabeth",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend village board approve $5,000 village match for Marathon County Parks and Recreation Foundation Fund grant",
+        "motion": "Motion to accept a $5,000 match to match the grant we're receiving",
+        "mover": "Patty",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Request $2,000 from village board for August 21 Living River concert fundraiser event",
+        "motion": "Motion to ask for up to $2,000 from the board so that we can make a fundraising event that people come to and that we can raise funds",
+        "mover": "Patty",
+        "second": null,
+        "outcome": "Failed",
+        "tally": "1-5"
+      },
+      {
+        "item": "Recommend village board approve September 12, 2026 Bushka Park 5K/3K Run-Walk as an official village event",
+        "motion": null,
+        "mover": null,
+        "second": "Theresa Holowinsky",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Dan",
+        "second": "Tim",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "kw_e852a5448baa43e28ceb171e57576336",
