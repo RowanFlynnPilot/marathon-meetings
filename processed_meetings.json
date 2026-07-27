@@ -751,6 +751,39 @@
       "video_url": null,
       "processed_at": "2026-07-21T21:06:29.689246+00:00",
       "summary_file": "summaries/weston-board-of-trustees-ttu-6yyvtju.md"
+    },
+    "kw_905595b36d904377a0e86998afadd2e6": {
+      "title": "Village Board Meeting - 2026-07-27",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-905595b36d904377a0e86998afadd2e6.pdf",
+      "upload_date": "20260727",
+      "meeting_date": "20260727",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-62",
+      "processed_at": "2026-07-27T02:35:36.905436+00:00",
+      "summary_file": "summaries/kronenwetter-village-board-meeting-2026-07-27-kw-905595b36d904377a0e86998afadd2e6.md"
+    },
+    "kw_a66c13aff7484eba8c841b1d59dcc2b7": {
+      "title": "Police and Fire Commission Meeting - 2026-07-27",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a66c13aff7484eba8c841b1d59dcc2b7.pdf",
+      "upload_date": "20260727",
+      "meeting_date": "20260727",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-24",
+      "processed_at": "2026-07-27T02:35:42.789979+00:00",
+      "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-07-27-kw-a66c13aff7484eba8c841b1d59dcc2b7.md"
+    },
+    "kw_a1ac0fada0c14d79b3f4c6dd5983cd2c": {
+      "title": "Plan Commission Meeting - 2026-07-27",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a1ac0fada0c14d79b3f4c6dd5983cd2c.pdf",
+      "upload_date": "20260727",
+      "meeting_date": "20260727",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-28",
+      "processed_at": "2026-07-27T02:35:49.925331+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-07-27-kw-a1ac0fada0c14d79b3f4c6dd5983cd2c.md"
     }
   }
 }

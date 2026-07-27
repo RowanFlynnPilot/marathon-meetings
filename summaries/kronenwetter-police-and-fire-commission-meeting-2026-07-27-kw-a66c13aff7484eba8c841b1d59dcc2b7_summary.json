@@ -1,0 +1,59 @@
+{
+  "overview": "Based on the published agenda, the Kronenwetter Police and Fire Commission was scheduled to meet to address personnel matters in closed session and review charge form procedures. The meeting was set to include public comment and approval of previous meeting minutes.",
+  "committee": "Police and Fire Commission",
+  "presiding": "",
+  "agenda": [
+    {
+      "time": "N/A",
+      "item": "Public Comment"
+    },
+    {
+      "time": "N/A",
+      "item": "Closed Session - Consideration of motion to convene into closed session pursuant to Section 19.85(1)(f) to consider financial, medical, social or personal histories or disciplinary data of specific persons, preliminary consideration of specific personnel problems or the investigation of charges against specific persons"
+    },
+    {
+      "time": "N/A",
+      "item": "Approval of July 13, 2026 meeting minutes"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and possible action after review of Charge Form and Procedures"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Public Comment",
+      "body": "The commission was scheduled to receive information from the public with a 15-minute overall time limit and three minutes per person, subject to extension at the Chief Presiding Officer's discretion. The agenda noted that while limited discussion may occur on information received, no action was to be taken under public comments."
+    },
+    {
+      "item": "Closed Session - Personnel and Disciplinary Matters",
+      "body": "The commission was set to convene in closed session to consider personnel problems, disciplinary data, or investigations of specific persons as permitted under Wisconsin State Statute Section 19.85(1)(f). The session was scheduled to address matters that could have a substantial adverse effect on reputation if discussed publicly."
+    },
+    {
+      "item": "Approval of July 13, 2026 Meeting Minutes",
+      "body": "The commission was scheduled to consider approval of the minutes from the previous meeting held on July 13, 2026."
+    },
+    {
+      "item": "Discussion and Possible Action on Charge Form and Procedures",
+      "body": "The commission was set to review and potentially take action on charge form and procedures as part of old business. This item was scheduled for discussion and consideration following the closed session."
+    }
+  ],
+  "publicComment": "Public comment was indicated on the agenda with a 15-minute total period and three-minute limit per person.",
+  "actionItems": [
+    "Scheduled to vote on convening into closed session",
+    "Scheduled to vote on reconvening into open session",
+    "Expected to approve or consider July 13, 2026 meeting minutes",
+    "Scheduled to discuss and take possible action after review of Charge Form and Procedures"
+  ],
+  "topics": [
+    "Public Safety",
+    "Staffing",
+    "Personnel Procedures"
+  ],
+  "_source": "agenda",
+  "title": "Police and Fire Commission Meeting - 2026-07-27",
+  "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-24",
+  "source": "kronenwetter",
+  "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a66c13aff7484eba8c841b1d59dcc2b7.pdf",
+  "processed_at": "2026-07-27T02:35:42.789809+00:00"
+}
