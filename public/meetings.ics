@@ -117,16 +117,6 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
-UID:b5e28c1101835a3740ea@marathon-meetings
-DTSTAMP:20260803T000000Z
-DTSTART;TZID=America/Chicago:20260803T171500
-DTEND;TZID=America/Chicago:20260803T184500
-SUMMARY:City of Wausau: Parks & Recreation Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2455/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:b70bd73ce729b3c0ff37@marathon-meetings
 DTSTAMP:20260803T000000Z
 DTSTART;TZID=America/Chicago:20260803T180000
@@ -161,8 +151,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:3e85302185125df95aab@marathon-meetings
 DTSTAMP:20260804T000000Z
-DTSTART;TZID=America/Chicago:20260804T173000
-DTEND;TZID=America/Chicago:20260804T190000
+DTSTART;TZID=America/Chicago:20260804T180000
+DTEND;TZID=America/Chicago:20260804T193000
 SUMMARY:City of Wausau: Economic Development Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2403/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
@@ -195,6 +185,17 @@ DTSTART;TZID=America/Chicago:20260810T170000
 DTEND;TZID=America/Chicago:20260810T183000
 SUMMARY:Wausau School Board: Regular Board Meeting
 URL:https://meetings.boardbook.org/Public/Organization/1360
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:01325a4473641adfdf91@marathon-meetings
+DTSTAMP:20260810T000000Z
+DTSTART;TZID=America/Chicago:20260810T170000
+DTEND;TZID=America/Chicago:20260810T183000
+SUMMARY:Village of Kronenwetter: Police and Fire Commission Meeting
+URL:https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fir
+ e-commission-meeting-25
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
