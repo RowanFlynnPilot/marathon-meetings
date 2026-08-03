@@ -1,0 +1,38 @@
+# Parks Committee - 2026-08-03
+
+**Organization:** Village of Kronenwetter  
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-1  
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7c76106005794cfd92b961ca57869671.pdf  
+**Summarized:** 2026-08-03 02:29 UTC
+
+---
+
+## Meeting Overview
+Based on the published agenda, the Parks Committee of Kronenwetter was scheduled to review village park communications, explore additional parkland opportunities, and examine the draft 2027-2036 Capital Improvements Program budget. The committee was also set to discuss an upcoming 5K fundraiser at Buska Park and the formation of a community support group for parks.
+
+## Key Discussions
+### Village Communications About Our Parks Within the Community
+The committee was scheduled to discuss how the village communicates information about parks to residents. This item was set to address village messaging and outreach strategies regarding park facilities and services.
+
+### Additional Ideas for Other Parkland and Related Village Property
+The committee was expected to consider proposals for expanding or developing additional parkland and related village properties. This discussion was set to explore future opportunities for park expansion within the community.
+
+### 2027-2036 Capital Improvements Program (CIP) Budget – 1st Draft as of 07/31/2026
+The committee was scheduled to review the first draft of the ten-year capital improvements budget for parks and related infrastructure. This item was set for the committee to evaluate proposed capital projects and funding priorities for the 2027-2036 period.
+
+### September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event
+The committee was expected to discuss plans and logistics for the scheduled 5K run/walk fundraiser at Buska Park. This item was set to address event details and committee involvement in the fundraising effort.
+
+### Creating a "Friends of the Kronenwetter Parks" Support Group
+The committee was scheduled to consider the formation of a community support organization dedicated to promoting and funding village parks. This discussion was set to explore how to establish and structure a volunteer-based friends group for parks advocacy.
+
+## Public Comment
+Public comment was indicated on the agenda with a 15-minute total time limit and three-minute individual time limit per person, with discretionary extension by the presiding officer.
+
+## Action Items
+- Scheduled to review July 20, 2026 meeting minutes
+- Expected to consider village park communications strategies
+- Set to evaluate additional parkland and property development ideas
+- Scheduled to review the draft 2027-2036 Capital Improvements Program budget
+- Expected to discuss the September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event
+- Set to consider the creation of a "Friends of the Kronenwetter Parks" support group

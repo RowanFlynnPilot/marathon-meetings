@@ -795,6 +795,50 @@
       "video_url": null,
       "processed_at": "2026-07-28T21:05:42.109930+00:00",
       "summary_file": "summaries/weston-community-development-authority-wf4l6xgguc4.md"
+    },
+    "bb_754138": {
+      "title": "Board Workshop - 2026-08-03",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754138",
+      "upload_date": "20260803",
+      "meeting_date": "20260803",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-03T02:28:50.466124+00:00",
+      "summary_file": "summaries/school-board-board-workshop-2026-08-03-bb-754138.md"
+    },
+    "bb_754152": {
+      "title": "Special Meeting - 2026-08-03",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
+      "upload_date": "20260803",
+      "meeting_date": "20260803",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-03T02:28:54.922361+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-08-03-bb-754152.md"
+    },
+    "kw_37fdd6a47c8946c5af1dbe95d99eedea": {
+      "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting - 2026-08-03",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-37fdd6a47c8946c5af1dbe95d99eedea.pdf",
+      "upload_date": "20260803",
+      "meeting_date": "20260803",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-26",
+      "processed_at": "2026-08-03T02:29:03.836165+00:00",
+      "summary_file": "summaries/kronenwetter-community-life-infrastructure-and-public-property-clipp-committee-m-kw-37fdd6a47c8946c5af1dbe95d99eedea.md"
+    },
+    "kw_7c76106005794cfd92b961ca57869671": {
+      "title": "Parks Committee - 2026-08-03",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7c76106005794cfd92b961ca57869671.pdf",
+      "upload_date": "20260803",
+      "meeting_date": "20260803",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-1",
+      "processed_at": "2026-08-03T02:29:11.162854+00:00",
+      "summary_file": "summaries/kronenwetter-parks-committee-2026-08-03-kw-7c76106005794cfd92b961ca57869671.md"
     }
   }
 }
