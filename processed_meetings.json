@@ -839,6 +839,17 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-1",
       "processed_at": "2026-08-03T02:29:11.162854+00:00",
       "summary_file": "summaries/kronenwetter-parks-committee-2026-08-03-kw-7c76106005794cfd92b961ca57869671.md"
+    },
+    "kw_3ac7964efee943b284a49f1af88be58d": {
+      "title": "Utility Committee Meeting - 2026-08-04",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-3ac7964efee943b284a49f1af88be58d.pdf",
+      "upload_date": "20260804",
+      "meeting_date": "20260804",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-28",
+      "processed_at": "2026-08-04T02:08:32.284844+00:00",
+      "summary_file": "summaries/kronenwetter-utility-committee-meeting-2026-08-04-kw-3ac7964efee943b284a49f1af88be58d.md"
     }
   }
 }
