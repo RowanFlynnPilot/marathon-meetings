@@ -40,18 +40,26 @@ def fetch_transcript_ytapi(video_id: str) -> str | None:
 
 
 def _ytdlp_cmd():
-    """Return the yt-dlp command as a list (handles both PATH and module installs)."""
+    """Return the yt-dlp command as a list (handles both PATH and module installs).
+
+    Both probes must verify exit code 0: `python -m yt_dlp` on an interpreter
+    without the module exits 1 but doesn't raise, which silently disabled all
+    channel/audio matching for weeks after a Python upgrade (Aug 2026)."""
     try:
-        subprocess.run(["yt-dlp", "--version"], capture_output=True, timeout=5)
-        return ["yt-dlp"]
+        r = subprocess.run(["yt-dlp", "--version"], capture_output=True, timeout=5)
+        if r.returncode == 0:
+            return ["yt-dlp"]
     except FileNotFoundError:
         pass
     try:
-        subprocess.run([sys.executable, "-m", "yt_dlp", "--version"],
-                       capture_output=True, timeout=5)
-        return [sys.executable, "-m", "yt_dlp"]
+        r = subprocess.run([sys.executable, "-m", "yt_dlp", "--version"],
+                           capture_output=True, timeout=5)
+        if r.returncode == 0:
+            return [sys.executable, "-m", "yt_dlp"]
     except Exception:
         pass
+    print("  [err]  yt-dlp not available (neither on PATH nor as a module of "
+          f"{sys.executable}) — run: python -m pip install yt-dlp")
     return None
 
 
@@ -389,6 +397,63 @@ def find_school_board_video_matches() -> list[dict]:
     return out
 
 
+def find_unprocessed_channel_videos() -> list[dict]:
+    """Channel videos that never made it into the tracker at all.
+
+    CI creates marathon/wausau/weston meetings from captions (or an agenda
+    fallback); when both fail — cookie expiry plus doc hosts blocking cloud
+    IPs — the video is skipped WITHOUT creating an entry, so the agenda-only
+    scans above never see it. Sweeping the channel listings against processed
+    state catches those invisible gaps (Aug 2026: five weeks of Marathon /
+    Wausau / Weston meetings vanished this way). Transcripts fetched here are
+    turned into full entries by CI's inject_transcript step, which resolves
+    title/date/source from YouTube metadata.
+    """
+    import json as _json
+    from datetime import datetime as _dt, timedelta as _td
+    try:
+        from marathon_meeting_summarizer import (
+            fetch_channel_videos, GLOBAL_DATE_CUTOFF, SKIP_VIDEO_IDS,
+        )
+    except Exception as e:
+        print(f"  could not import channel config: {str(e)[:120]}")
+        return []
+
+    processed = {}
+    sp = Path("./processed_meetings.json")
+    if sp.exists():
+        try:
+            processed = _json.loads(sp.read_text(encoding="utf-8")).get("processed", {})
+        except _json.JSONDecodeError:
+            pass
+
+    # Meetings older than the display window can never surface (meetings.json
+    # is pruned to the newest 50), so summarizing them is pure API spend.
+    # GAP_SWEEP_DAYS bounds the sweep; widen it for one run to recover from a
+    # longer outage.
+    days = int(os.environ.get("GAP_SWEEP_DAYS", "45"))
+    window_start = (_dt.now() - _td(days=days)).strftime("%Y%m%d")
+    cutoff = max(GLOBAL_DATE_CUTOFF or "", window_start)
+
+    out = []
+    for source_key in ("marathon", "wausau", "weston"):
+        try:
+            videos = fetch_channel_videos(source_key)
+        except Exception as e:
+            print(f"  {source_key} channel fetch failed: {str(e)[:120]}")
+            continue
+        for v in videos:
+            vid = v.get("id", "")
+            if not vid or vid in processed or vid in SKIP_VIDEO_IDS:
+                continue
+            # Undated videos can't be placed in the tracker.
+            date = v.get("meeting_date") or v.get("upload_date") or ""
+            if not date or date < cutoff:
+                continue
+            out.append({"id": vid, "title": v.get("title") or vid})
+    return out
+
+
 def main():
     # Reconfigures stdout/stderr to UTF-8 — Task Scheduler consoles default to
     # cp1252, which crashes on the summarizer module's emoji output otherwise.
@@ -421,6 +486,9 @@ def main():
         jobs += [{"save": m["id"], "fetch": m["id"], "fetch_url": m["fetch_url"],
                   "method": "whisper", "source": "kronenwetter", "title": m["title"]}
                  for m in kw]
+        gap = find_unprocessed_channel_videos()
+        jobs += [{"save": m["id"], "fetch": m["id"], "title": m["title"]}
+                 for m in gap]
         if not jobs:
             print("No agenda-only meetings with available recordings found.")
             return

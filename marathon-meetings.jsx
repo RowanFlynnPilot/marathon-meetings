@@ -33,6 +33,7 @@ const BUILD_STAMP = (() => {
     return new Date(__BUILD_DATE__).toLocaleString("en-US", {
       timeZone: "America/Chicago",
       month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+      timeZoneName: "short",
     });
   } catch {
     return "";
@@ -1979,7 +1980,7 @@ export default function App() {
               <div style={{ padding: "10px 14px 12px", borderTop: `1px solid ${RULE}`, background: CREAM }}>
                 <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px", letterSpacing: "0.12em", color: "#5a5a5a", marginBottom: "5px" }}>
                   {newCount} NEW <span aria-hidden="true">·</span> {MEETINGS.length} TOTAL
-                  {BUILD_STAMP && <> <span aria-hidden="true">·</span> UPDATED {BUILD_STAMP} CT</>}
+                  {BUILD_STAMP && <> <span aria-hidden="true">·</span> UPDATED {BUILD_STAMP}</>}
                 </div>
                 <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "10px", color: "#666", lineHeight: 1.55 }}>
                   Coverage of{" "}

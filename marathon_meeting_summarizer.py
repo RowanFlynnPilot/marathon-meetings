@@ -217,6 +217,27 @@ def _parse_date_from_title(title):
     return ""
 
 
+_YTDLP_BASE = None
+
+
+def _ytdlp_base():
+    """yt-dlp invocation as a list. CI has the binary on PATH; the residential
+    Windows machine has a module-only install (Scripts/ not on PATH), where a
+    bare "yt-dlp" raises FileNotFoundError/WinError 2."""
+    global _YTDLP_BASE
+    if _YTDLP_BASE is None:
+        try:
+            r = subprocess.run(["yt-dlp", "--version"], capture_output=True, timeout=10)
+            _YTDLP_BASE = ["yt-dlp"] if r.returncode == 0 else None
+        except FileNotFoundError:
+            _YTDLP_BASE = None
+        if _YTDLP_BASE is None:
+            # Fail loud downstream if the module is missing too — the caller's
+            # subprocess call will surface "No module named yt_dlp".
+            _YTDLP_BASE = [sys.executable, "-m", "yt_dlp"]
+    return _YTDLP_BASE
+
+
 def fetch_channel_videos(source_key, dateafter=""):
     """
     Fetch video list for a YouTube channel using flat-playlist.
@@ -225,7 +246,7 @@ def fetch_channel_videos(source_key, dateafter=""):
     """
     ch = CHANNELS[source_key]
     print(f"\U0001f4e1  Fetching {ch['label']} video list...")
-    cmd = ["yt-dlp", "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
+    cmd = [*_ytdlp_base(), "--no-check-certificate", "--flat-playlist", "--dump-json", ch["url"]]
     result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     if result.returncode != 0 and not result.stdout.strip():
         raise RuntimeError(f"yt-dlp failed:\n{result.stderr[-300:]}")
@@ -315,7 +336,7 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
     with tempfile.TemporaryDirectory() as tmpdir:
         out = os.path.join(tmpdir, "meeting")
         cmd = [
-            "yt-dlp",
+            *_ytdlp_base(),
             "--no-check-certificate",
             # Some channels (e.g. DC Everest) return "video unavailable" on the
             # default web client but extract fine via the android client. Trying
@@ -434,7 +455,7 @@ def fetch_transcript_whisper(url: str, source_key: str = "",
         # Format 18 = 360p mp4 with audio - legacy format that doesn't need
         # JS runtime decryption, always available on YouTube videos
         dl_cmd = [
-            "yt-dlp",
+            *_ytdlp_base(),
             "--no-check-certificate",
             "--extractor-args", "youtube:player_client=default,android",
             "-f", "18",

@@ -51,9 +51,11 @@ concurrency:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    # Backstop for hung fetches: a normal run finishes in well under an
-    # hour, even the 23-day catch-up took ~20 minutes.
-    timeout-minutes: 60
+    # Backstop for hung fetches: a normal run finishes in ~15 minutes, but a
+    # post-outage recovery ingesting dozens of transcripts can run over an
+    # hour — nothing commits until the end, so a mid-run kill re-spends the
+    # API budget on retry.
+    timeout-minutes: 120
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -149,12 +151,21 @@ jobs:
             echo "No transcript files found — skipping."
             exit 0
           fi
+          # Per-file isolation: this step runs under bash -e, so without the
+          # guard one bad transcript (metadata query hiccup, API blip) would
+          # abort the loop and strand every file after it until a later run.
+          FAILED=0
           for TFILE in transcripts/*.txt; do
             VID=$(basename "$TFILE" .txt)
             echo "Processing transcript for: $VID"
-            python inject_transcript.py --video-id "$VID" --transcript "$TFILE"
+            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" \
+              || { echo "::warning::transcript ingest failed for $VID (will retry next run)"; FAILED=$((FAILED+1)); }
             echo ""
           done
+          if [ "$FAILED" -gt 0 ]; then
+            echo "::error::$FAILED transcript(s) failed to ingest"
+            exit 1
+          fi
 
       - name: Inject meeting summaries into JSX
         run: |

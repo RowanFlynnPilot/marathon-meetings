@@ -73,7 +73,9 @@ The deployed tracker keeps serving its last-built data while this persists — r
 
 **Runbook:** cancel any wedged run listed above, then dispatch a fresh run: \`gh workflow run $PIPELINE_WORKFLOW\`. After an outage longer than a few days, also run a recovery dispatch with \`upgrade_window_days\` widened (e.g. 90) so meetings that aged past their upgrade windows are re-attempted."
             if [ -n "$EXISTING" ]; then
-              gh issue comment "$EXISTING" --repo "$REPO" --body "$BODY"
+              # Edit rather than comment: during a long outage this fires
+              # every 6 hours and comments would pile up.
+              gh issue edit "$EXISTING" --repo "$REPO" --body "$BODY"
               echo "Updated existing sentinel issue #$EXISTING"
             else
               gh issue create --repo "$REPO" --title "$ISSUE_TITLE" --body "$BODY"
