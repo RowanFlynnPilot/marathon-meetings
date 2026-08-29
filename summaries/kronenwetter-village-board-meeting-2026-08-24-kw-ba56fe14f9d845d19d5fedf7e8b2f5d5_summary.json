@@ -1,0 +1,122 @@
+{
+  "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet to review financial statements, consider a capital improvements program budget, and evaluate a preliminary plat for the Green Tree Subdivision, along with a closed session discussion regarding police union collective bargaining.",
+  "committee": "Village Board of Kronenwetter",
+  "presiding": "",
+  "agenda": [
+    {
+      "time": "6:00 PM",
+      "item": "Call Meeting to Order - Pledge of Allegiance and Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Motion to Move Agenda Items"
+    },
+    {
+      "time": "N/A",
+      "item": "Chairperson Comments"
+    },
+    {
+      "time": "N/A",
+      "item": "Announcement of Closed Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Comment (15 minutes total, 3 minutes per person)"
+    },
+    {
+      "time": "N/A",
+      "item": "Administrator Report"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Works Director Report"
+    },
+    {
+      "time": "N/A",
+      "item": "Finance Director/Treasurer Report - July 31, 2026 Financial Statements (Budget Status Report)"
+    },
+    {
+      "time": "N/A",
+      "item": "Update on TID #1 Information from 2026 Equalized Valuation Report - Email Response from Wisconsin Department of Revenue"
+    },
+    {
+      "time": "N/A",
+      "item": "August 10, 2026 Village Board Meeting Minutes - Consent Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "July 2026 Check Register, ACH Register, and Credit Card Transactions Activity - Consent Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft as of 7/31/2026"
+    },
+    {
+      "time": "N/A",
+      "item": "Green Tree Subdivision Preliminary Plat Review"
+    },
+    {
+      "time": "N/A",
+      "item": "Closed Session - Negotiation of Collective Bargaining Agreement for Kronenwetter Professional Police Association"
+    },
+    {
+      "time": "N/A",
+      "item": "Reconvene Open Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Action After Closed Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Consideration of Items for Future Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Finance Director/Treasurer Report - July 31, 2026 Financial Statements",
+      "body": "The board was set to review the village's budget status report as of July 31, 2026, which would provide a financial overview of the current fiscal year's performance and expenditures."
+    },
+    {
+      "item": "Update on TID #1 Information from 2026 Equalized Valuation Report",
+      "body": "The board was scheduled to receive information regarding Tax Increment District #1 based on the 2026 equalized valuation report, including email correspondence from the Wisconsin Department of Revenue regarding this matter."
+    },
+    {
+      "item": "2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft",
+      "body": "The board was set to discuss and consider the first draft of the ten-year capital improvements program budget dated July 31, 2026, which would outline planned infrastructure and facility projects for the upcoming decade."
+    },
+    {
+      "item": "Green Tree Subdivision Preliminary Plat",
+      "body": "The board was scheduled to review and take possible action on the preliminary plat for the Green Tree Subdivision, a development proposal that was expected to require planning commission input and board consideration."
+    },
+    {
+      "item": "Kronenwetter Professional Police Association Collective Bargaining Agreement",
+      "body": "The board was set to convene in closed session to negotiate and deliberate the collective bargaining agreement with the Kronenwetter Professional Police Association, a personnel matter requiring confidential discussion per state statute."
+    }
+  ],
+  "publicComment": "Public comment was scheduled for 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.",
+  "actionItems": [
+    "Scheduled to consider approval of August 10, 2026 Village Board Meeting Minutes",
+    "Scheduled to consider approval of July 2026 Check Register, ACH Register, and Credit Card Transactions Activity",
+    "Expected to discuss and take possible action on 2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft",
+    "Expected to review and take possible action on Green Tree Subdivision Preliminary Plat",
+    "Scheduled to negotiate collective bargaining agreement for Kronenwetter Professional Police Association in closed session"
+  ],
+  "topics": [
+    "Budget",
+    "Capital Improvements",
+    "Development",
+    "TID #1",
+    "Public Safety Staffing"
+  ],
+  "_source": "agenda",
+  "title": "Village Board Meeting - 2026-08-24",
+  "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-65",
+  "source": "kronenwetter",
+  "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ba56fe14f9d845d19d5fedf7e8b2f5d5.pdf",
+  "processed_at": "2026-08-29T21:22:53.671881+00:00"
+}

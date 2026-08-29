@@ -1,0 +1,71 @@
+{
+  "overview": "Based on the published agenda, the Village of Kronenwetter Administrative Policy Committee was scheduled to meet to review financial reports, consider the 2027-2036 Capital Improvements Program budget, and receive an update on the 2026-2027 revaluation process. The meeting was set to address multiple fiscal matters impacting the village's budgeting and planning priorities.",
+  "committee": "Administrative Policy Committee",
+  "presiding": "",
+  "agenda": [
+    {
+      "time": "N/A",
+      "item": "Approval of July 21, 2026 Administrative Policy Committee Meeting Minutes"
+    },
+    {
+      "time": "N/A",
+      "item": "2026-2027 Revaluation Process Update from Village Assessor"
+    },
+    {
+      "time": "N/A",
+      "item": "Finance Director Report - 2026 Preliminary Equalized Valuation & TID Increments"
+    },
+    {
+      "time": "N/A",
+      "item": "July 2026 Budget Status Report"
+    },
+    {
+      "time": "N/A",
+      "item": "Review of Existing Debt Obligations Outstanding"
+    },
+    {
+      "time": "N/A",
+      "item": "2027-2036 Capital Improvements Program (CIP) Budget"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "2026-2027 Revaluation Process Update from Village Assessor",
+      "body": "The Village Assessor was scheduled to provide an update on the ongoing 2026-2027 revaluation process. This update was expected to inform the committee on the status and progress of the village's property revaluation efforts."
+    },
+    {
+      "item": "Finance Director Report - 2026 Preliminary Equalized Valuation & TID Increments",
+      "body": "The Finance Director was set to present a report on the 2026 preliminary equalized valuation and Tax Increment District (TID) increments. This report was expected to provide financial data relevant to the village's budget planning."
+    },
+    {
+      "item": "July 2026 Budget Status Report",
+      "body": "The committee was scheduled to review the budget status report for July 2026. This report was expected to provide an overview of the village's fiscal performance through the first month of the fiscal period."
+    },
+    {
+      "item": "Review of Existing Debt Obligations Outstanding",
+      "body": "The committee was set to review the village's existing outstanding debt obligations. This review was expected to assess the village's current debt position and obligations."
+    },
+    {
+      "item": "2027-2036 Capital Improvements Program (CIP) Budget",
+      "body": "The committee was scheduled to consider the 2027-2036 Capital Improvements Program budget. This item was set for discussion and possible action regarding the village's long-term capital planning."
+    }
+  ],
+  "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time limit per person, subject to extension at the discretion of the Chief Presiding Officer.",
+  "actionItems": [
+    "scheduled to vote on approval of July 21, 2026 meeting minutes",
+    "expected to consider the 2027-2036 Capital Improvements Program (CIP) Budget"
+  ],
+  "topics": [
+    "Budget",
+    "Capital Improvements",
+    "Debt Management",
+    "Equalized Valuation",
+    "Tax Increment Districts"
+  ],
+  "_source": "agenda",
+  "title": "Administrative Policy Committee Meeting - 2026-08-18",
+  "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
+  "source": "kronenwetter",
+  "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
+  "processed_at": "2026-08-29T21:23:03.460365+00:00"
+}

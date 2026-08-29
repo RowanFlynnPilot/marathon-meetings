@@ -861,6 +861,160 @@
       "video_url": null,
       "processed_at": "2026-08-05T02:08:25.972649+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-educational-meeting-7-tgja8f5dg3o.md"
+    },
+    "bb_762745": {
+      "title": "Special Meeting - 2026-08-24",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=762745",
+      "upload_date": "20260824",
+      "meeting_date": "20260824",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-29T21:22:20.119460+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-08-24-bb-762745.md"
+    },
+    "bb_759941": {
+      "title": "Committee of the Whole Meeting - 2026-08-24",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759941",
+      "upload_date": "20260824",
+      "meeting_date": "20260824",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-29T21:22:30.572969+00:00",
+      "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-08-24-bb-759941.md"
+    },
+    "bb_759354": {
+      "title": "Regular Meeting - 2026-08-10",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
+      "upload_date": "20260810",
+      "meeting_date": "20260810",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-29T21:22:41.091632+00:00",
+      "summary_file": "summaries/school-board-regular-meeting-2026-08-10-bb-759354.md"
+    },
+    "kw_9e62208180374bedb996ca66146bec4b": {
+      "title": "Special Village Board Meeting - 2026-08-27",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-9e62208180374bedb996ca66146bec4b.pdf",
+      "upload_date": "20260827",
+      "meeting_date": "20260827",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-13",
+      "processed_at": "2026-08-29T21:22:45.219085+00:00",
+      "summary_file": "summaries/kronenwetter-special-village-board-meeting-2026-08-27-kw-9e62208180374bedb996ca66146bec4b.md"
+    },
+    "kw_ba56fe14f9d845d19d5fedf7e8b2f5d5": {
+      "title": "Village Board Meeting - 2026-08-24",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ba56fe14f9d845d19d5fedf7e8b2f5d5.pdf",
+      "upload_date": "20260824",
+      "meeting_date": "20260824",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-65",
+      "processed_at": "2026-08-29T21:22:53.672055+00:00",
+      "summary_file": "summaries/kronenwetter-village-board-meeting-2026-08-24-kw-ba56fe14f9d845d19d5fedf7e8b2f5d5.md"
+    },
+    "kw_f432750fb1d34fbcb533fdcb37765323": {
+      "title": "Police and Fire Commission Meeting - 2026-08-24",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f432750fb1d34fbcb533fdcb37765323.pdf",
+      "upload_date": "20260824",
+      "meeting_date": "20260824",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-26",
+      "processed_at": "2026-08-29T21:22:57.447969+00:00",
+      "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-08-24-kw-f432750fb1d34fbcb533fdcb37765323.md"
+    },
+    "kw_c8a9c022aeb74b99af4d0767a1ce6fa0": {
+      "title": "Administrative Policy Committee Meeting - 2026-08-18",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
+      "upload_date": "20260818",
+      "meeting_date": "20260818",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
+      "processed_at": "2026-08-29T21:23:03.460486+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-meeting-2026-08-18-kw-c8a9c022aeb74b99af4d0767a1ce6fa0.md"
+    },
+    "kw_dfa01e306c3f48089c892a6df5855a3f": {
+      "title": "REVISED Special Village Board Meeting - 2026-08-18",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-dfa01e306c3f48089c892a6df5855a3f.pdf",
+      "upload_date": "20260818",
+      "meeting_date": "20260818",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-special-village-board-meeting-2",
+      "processed_at": "2026-08-29T21:23:07.891702+00:00",
+      "summary_file": "summaries/kronenwetter-revised-special-village-board-meeting-2026-08-18-kw-dfa01e306c3f48089c892a6df5855a3f.md"
+    },
+    "kw_a1cf1e0be9fb4217aeeb180d8ef4cbcf": {
+      "title": "Plan Commission Meeting - 2026-08-17",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a1cf1e0be9fb4217aeeb180d8ef4cbcf.pdf",
+      "upload_date": "20260817",
+      "meeting_date": "20260817",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-29",
+      "processed_at": "2026-08-29T21:23:13.754243+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-08-17-kw-a1cf1e0be9fb4217aeeb180d8ef4cbcf.md"
+    },
+    "kw_ff9da6dd27894cd58c787894e5044d7e": {
+      "title": "Parks Committee - 2026-08-17",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff9da6dd27894cd58c787894e5044d7e.pdf",
+      "upload_date": "20260817",
+      "meeting_date": "20260817",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-2",
+      "processed_at": "2026-08-29T21:23:23.945400+00:00",
+      "summary_file": "summaries/kronenwetter-parks-committee-2026-08-17-kw-ff9da6dd27894cd58c787894e5044d7e.md"
+    },
+    "kw_4b451bf64cea4053a801fe5073e865f5": {
+      "title": "Village Board Meeting - 2026-08-10",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-4b451bf64cea4053a801fe5073e865f5.pdf",
+      "upload_date": "20260810",
+      "meeting_date": "20260810",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-63",
+      "processed_at": "2026-08-29T21:23:31.590387+00:00",
+      "summary_file": "summaries/kronenwetter-village-board-meeting-2026-08-10-kw-4b451bf64cea4053a801fe5073e865f5.md"
+    },
+    "kw_91d8ac56afd64f8387fac2558d0280f4": {
+      "title": "Police and Fire Commission Meeting - 2026-08-10",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-91d8ac56afd64f8387fac2558d0280f4.pdf",
+      "upload_date": "20260810",
+      "meeting_date": "20260810",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-25",
+      "processed_at": "2026-08-29T21:23:49.745050+00:00",
+      "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-08-10-kw-91d8ac56afd64f8387fac2558d0280f4.md"
+    },
+    "bb_757113": {
+      "title": "Regular School Board Meeting - 2026-08-19",
+      "source": "dc_everest",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113",
+      "upload_date": "20260819",
+      "meeting_date": "20260819",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-08-29T21:23:59.858337+00:00",
+      "summary_file": "summaries/dc-everest-regular-school-board-meeting-2026-08-19-bb-757113.md"
+    },
+    "_6aNdLDBS4w": {
+      "title": "Board of Trustees - 8/17/2026",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260817",
+      "meeting_date": "20260817",
+      "duration": 9928,
+      "video_url": null,
+      "processed_at": "2026-08-29T21:26:13.126789+00:00",
+      "summary_file": "summaries/weston-board-of-trustees-8172026-6andldbs4w.md"
     }
   }
 }

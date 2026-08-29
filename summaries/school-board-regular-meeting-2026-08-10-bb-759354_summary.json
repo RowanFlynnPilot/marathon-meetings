@@ -1,0 +1,98 @@
+{
+  "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on August 10, 2026, to address staffing changes, construction updates on 2022 referendum projects, class size guidelines, and adoption of Act 89-related policies. The meeting included action items on consent agenda approvals and policy reviews that were expected to impact student supervision, staff conduct, and technology use across the district.",
+  "committee": "Regular Meeting",
+  "agenda": [
+    {
+      "time": "N/A",
+      "item": "Call to Order"
+    },
+    {
+      "time": "N/A",
+      "item": "Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Pledge of Allegiance"
+    },
+    {
+      "time": "N/A",
+      "item": "Reading of the Mission Statement"
+    },
+    {
+      "time": "N/A",
+      "item": "Public and Student Comment"
+    },
+    {
+      "time": "N/A",
+      "item": "Approve Consent Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "Education/Operations Committee Meeting (Old/Recurring Business)"
+    },
+    {
+      "time": "N/A",
+      "item": "Education/Operations Committee Meeting (New Business)"
+    },
+    {
+      "time": "N/A",
+      "item": "Referendum 2022 Construction Updates"
+    },
+    {
+      "time": "N/A",
+      "item": "Class Size Presentation"
+    },
+    {
+      "time": "N/A",
+      "item": "Act 89 Policies"
+    },
+    {
+      "time": "N/A",
+      "item": "Open Forum"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjourn"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Consent Agenda",
+      "body": "The Board was scheduled to consider a consent agenda covering multiple administrative items including appointments and replacement staff, separations, leaves of absence, retirements, and approval of minutes from the July 13, 2026 regular session, the August 3, 2026 special session, and the August 3, 2026 board workshop. The agenda also included payment of bills and budget status review, along with consideration of donations to the district."
+    },
+    {
+      "item": "Referendum 2022 Construction Updates",
+      "body": "Nexus was scheduled to present a 10-minute update on current referendum construction projects at John Marshall, Rib Mountain, Franklin, and Lincoln schools. The presentation was expected to provide the Board with progress reports on these district facility improvements."
+    },
+    {
+      "item": "Class Size Presentation",
+      "body": "Presenters Katie Colwell and Elizabeth Channel were scheduled to deliver a 20-minute presentation on district class size guidelines. The Administration was expected to provide an overview of current class sizes across the district and present updated guidelines for 2026."
+    },
+    {
+      "item": "Act 89 Policies",
+      "body": "The Board was scheduled to review and consider proposed policy language addressing Act 89 requirements over a 10-minute period. The review was expected to cover 10 policies including student supervision and welfare (policies 1213, 3213, and 4213), board member behavior and conduct, staff use of personal communication devices, student technology acceptable use and safety, social media use, volunteer standards, and child abuse and neglect protocols."
+    }
+  ],
+  "publicComment": "A public and student comment period was included on this agenda.",
+  "actionItems": [
+    "Board was expected to approve the consent agenda including appointments, separations, leaves of absence, retirements, and minutes",
+    "Action was requested for the Board to approve Act 89 policies addressing student supervision, staff conduct, technology use, and child protection"
+  ],
+  "topics": [
+    "Staffing",
+    "Facilities",
+    "Referendum 2022",
+    "Curriculum",
+    "Policy",
+    "John Marshall School",
+    "Rib Mountain School",
+    "Franklin School",
+    "Lincoln School"
+  ],
+  "_source": "boardbook_agenda",
+  "title": "Regular Meeting - 2026-08-10",
+  "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
+  "source": "school_board",
+  "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
+  "processed_at": "2026-08-29T21:22:41.091501+00:00"
+}
