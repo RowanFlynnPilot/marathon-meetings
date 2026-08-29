@@ -28,6 +28,10 @@ on:
         description: 'Generate the weekly newsletter roundup now (true/false; also auto-runs Mondays)'
         required: false
         default: 'false'
+      upgrade_window_days:
+        description: 'Widen the sb-video/kw-minutes upgrade windows to N days (recovery after an outage; default 45)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -37,11 +41,19 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: false
+  # A newer scheduled run supersedes an older one. In August 2026 a run
+  # wedged in "waiting" state held this group for 23 days while every later
+  # run queued behind it and was silently cancelled — with runs every 4h and
+  # a normal duration of ~15 min, cancelling an in-flight run only ever
+  # happens when something is already stuck.
+  cancel-in-progress: true
 
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
+    # Backstop for hung fetches: a normal run finishes in well under an
+    # hour, even the 23-day catch-up took ~20 minutes.
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -114,6 +126,10 @@ jobs:
           # download per run) and the summarizer no-ops the fallback when this
           # flag is false. Set to "true" locally if you want audio transcription.
           USE_WHISPER_FALLBACK: "false"
+          # Optional dispatch override — widens both upgrade-pass windows so
+          # meetings that aged past 45 days during an outage get re-attempted.
+          SCHOOL_BOARD_VIDEO_DAYS: ${{ github.event.inputs.upgrade_window_days || '45' }}
+          KRONENWETTER_MINUTES_DAYS: ${{ github.event.inputs.upgrade_window_days || '45' }}
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
             python marathon_meeting_summarizer.py --backfill

@@ -26,6 +26,19 @@ const CREAM   = "#F7F3EC";
 const INK     = "#1A1209";
 const RULE    = "#E0D8CC";
 
+// Build timestamp (vite define) rendered in the footer — CI rebuilds on
+// every pipeline run, so a stale stamp means the pipeline has stopped.
+const BUILD_STAMP = (() => {
+  try {
+    return new Date(__BUILD_DATE__).toLocaleString("en-US", {
+      timeZone: "America/Chicago",
+      month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+    });
+  } catch {
+    return "";
+  }
+})();
+
 // Sponsorship CTA configuration — matches the pattern used by the river-
 // conditions widget so a sponsor inquiry lands in the same inbox.
 const SPONSOR_EMAIL   = "rowan.flynn@wausaupilotandreview.com";
@@ -1966,6 +1979,7 @@ export default function App() {
               <div style={{ padding: "10px 14px 12px", borderTop: `1px solid ${RULE}`, background: CREAM }}>
                 <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "9px", letterSpacing: "0.12em", color: "#5a5a5a", marginBottom: "5px" }}>
                   {newCount} NEW <span aria-hidden="true">·</span> {MEETINGS.length} TOTAL
+                  {BUILD_STAMP && <> <span aria-hidden="true">·</span> UPDATED {BUILD_STAMP} CT</>}
                 </div>
                 <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: "10px", color: "#666", lineHeight: 1.55 }}>
                   Coverage of{" "}
