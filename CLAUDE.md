@@ -68,6 +68,7 @@ Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use
 
 ## Key Architecture Notes
 - YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
+- CI caption fetches need the `YOUTUBE_COOKIES` secret (exports last ~4-8 weeks). Expiry is self-detected: the workflow opens a "🍪 YouTube cookies expired" issue and auto-closes it after refresh — runbook in `docs/cookie-refresh.md`. Meanwhile the residential gap sweep covers all missing videos within ~12h, so nothing is lost.
 - `src/data/meetings.json` is the single source of truth for displayed past meetings; `inject_meetings.py` rewrites it newest-first, pruned to MAX_MEETINGS (30). The JSX imports it directly via `import MEETINGS from "./src/data/meetings.json"`
 - `src/data/upcoming.json` holds upcoming meetings keyed by source (`marathon`, `wausau`, `weston`, `school_board`). `update_upcoming.py` rewrites the whole file each run
 - State files: `processed_meetings.json` (scraper state — what's been summarized) and `injected_meetings.json` (which summaries have already been injected into JSX). Both files persist between CI runs and are committed back to the repo by the workflow.

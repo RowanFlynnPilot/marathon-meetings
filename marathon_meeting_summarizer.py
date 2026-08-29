@@ -308,6 +308,21 @@ from config import (
 )
 
 
+# Caption-fetch health for this run, written into agenda_only_report.json —
+# the workflow's cookie-expiry step reads it to open/close the "cookies
+# expired" issue. auth_blocks counts bot-block/cookie failures (distinct
+# from "this video has no captions"); successes counts caption transcripts
+# actually fetched. Cookie lifetime observed: ~4-8 weeks per export.
+CAPTION_HEALTH = {"auth_blocks": 0, "successes": 0}
+
+_AUTH_BLOCK_SIGNATURES = (
+    "sign in to confirm you're not a bot",
+    "confirm you’re not a bot",
+    "http error 429",
+    "use --cookies",
+)
+
+
 def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> str:
     """
     Fetch transcript for a YouTube video.
@@ -327,6 +342,7 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
             text = fetch_via_youtube_transcript_api(vid_id, cookies_file=COOKIES_FILE or None)
             if text:
                 print(f"     [ok]  Transcript via youtube-transcript-api ({len(text):,} chars)")
+                CAPTION_HEALTH["successes"] += 1
                 return text
             print(f"     [warn]  youtube-transcript-api returned no usable transcript - trying yt-dlp...")
         except Exception as e:
@@ -374,11 +390,15 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
                 text = _parse_vtt(f.read())
                 if len(text) > 200:
                     print(f"     [ok]  Transcript via yt-dlp ({len(text):,} chars)")
+                    CAPTION_HEALTH["successes"] += 1
                     return text
 
         # No .vtt file — check whether yt-dlp actually said captions are
         # unavailable (vs. failing to fetch them for some other reason).
         combined = (r.stdout + r.stderr).lower()
+        if any(sig in combined for sig in _AUTH_BLOCK_SIGNATURES):
+            CAPTION_HEALTH["auth_blocks"] += 1
+            print("     [warn]  YouTube is blocking caption fetch — cookie refresh likely needed")
         explicit_no_captions = [
             "no subtitles found",
             "subtitles are disabled",
@@ -2391,18 +2411,22 @@ def main():
             print(f"   [{label}] {m['title']}{vote_note}")
             print(f"            {m['url']}")
 
-        # Write report file for CI to create GitHub Issue
-        report = {
-            "agenda_only": agenda_only,
-            "transcript_based": [{"id": m["id"], "title": m["title"], "source": m["source"]}
-                                  for m in transcript_based],
-            "total_processed": ok,
-        }
-        report_path = Path("./agenda_only_report.json")
-        report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
-        print(f"\n   Report saved: {report_path.resolve()}")
     else:
         print(f"\n✅  All {ok} meetings have transcripts — no agenda-only fallbacks.")
+
+    # Write the run report for CI — always, even with zero agenda-only
+    # meetings: the caption-health fields drive the cookie-expiry issue.
+    report = {
+        "agenda_only": agenda_only,
+        "transcript_based": [{"id": m["id"], "title": m["title"], "source": m["source"]}
+                              for m in transcript_based],
+        "total_processed": ok,
+        "caption_auth_blocks": CAPTION_HEALTH["auth_blocks"],
+        "caption_successes": CAPTION_HEALTH["successes"],
+    }
+    report_path = Path("./agenda_only_report.json")
+    report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
+    print(f"\n   Report saved: {report_path.resolve()}")
 
     # Prune any summary files that are no longer referenced from state.
     prune_orphan_summaries(state)

@@ -66,12 +66,10 @@ jobs:
 
           if [ -n "$PROBLEMS" ]; then
             CHECKED=$(date -u '+%Y-%m-%d %H:%M UTC')
-            BODY="The pipeline watchdog found problems (checked ${CHECKED}):
-
-${PROBLEMS}
-The deployed tracker keeps serving its last-built data while this persists — readers see stale meetings.
-
-**Runbook:** cancel any wedged run listed above, then dispatch a fresh run: \`gh workflow run $PIPELINE_WORKFLOW\`. After an outage longer than a few days, also run a recovery dispatch with \`upgrade_window_days\` widened (e.g. 90) so meetings that aged past their upgrade windows are re-attempted."
+            BODY="The pipeline watchdog found problems (checked ${CHECKED}):"
+            BODY="${BODY}"$'\n\n'"${PROBLEMS}"
+            BODY="${BODY}"$'\n'"The deployed tracker keeps serving its last-built data while this persists — readers see stale meetings."
+            BODY="${BODY}"$'\n\n'"**Runbook:** cancel any wedged run listed above, then dispatch a fresh run: \`gh workflow run $PIPELINE_WORKFLOW\`. After an outage longer than a few days, also run a recovery dispatch with \`upgrade_window_days\` widened (e.g. 90) so meetings that aged past their upgrade windows are re-attempted."
             if [ -n "$EXISTING" ]; then
               # Edit rather than comment: during a long outage this fires
               # every 6 hours and comments would pile up.

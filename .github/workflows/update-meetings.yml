@@ -242,6 +242,10 @@ jobs:
           git add -f public/meetings/ public/sitemap.xml public/robots.txt || true
           git status
           git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
+          # Rebase before pushing: an operator push landing mid-run would
+          # otherwise make this push fail silently and discard the run's
+          # state (re-summarizing everything next run = double API spend).
+          git pull --rebase origin main || true
           git push || true
 
       - name: Build
@@ -300,6 +304,42 @@ jobs:
           else
             gh issue create --title "$TITLE" --body "$BODY" --label "transcript-needed" 2>/dev/null || \
             gh issue create --title "$TITLE" --body "$BODY"
+          fi
+
+      - name: Maintain cookie-expiry issue
+        # The summarizer counts caption bot-block failures vs successes in
+        # agenda_only_report.json. Blocks → open/update a loud issue with the
+        # refresh runbook (GitHub's notification email IS the reminder —
+        # exports last ~4-8 weeks and die without warning, so we detect
+        # rather than schedule). Successes with no blocks → auto-close it.
+        # Neither (no YouTube fetches this run) → leave it untouched.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f agenda_only_report.json ]; then
+            echo "No run report — skipping."
+            exit 0
+          fi
+          BLOCKS=$(python -c "import json; print(json.load(open('agenda_only_report.json')).get('caption_auth_blocks', 0))")
+          OKS=$(python -c "import json; print(json.load(open('agenda_only_report.json')).get('caption_successes', 0))")
+          EXISTING=$(gh issue list --state open --search "YouTube cookies expired in:title" --json number --jq '.[0].number // empty')
+          if [ "$BLOCKS" -gt 0 ]; then
+            TITLE="🍪 YouTube cookies expired — caption fetches blocked (detected $(date +%Y-%m-%d))"
+            BODY="This run hit ${BLOCKS} bot-block failure(s) fetching YouTube captions — the YOUTUBE_COOKIES secret has likely expired (exports last ~4-8 weeks)."
+            BODY="${BODY}"$'\n\n'"**Fix (~3 minutes):** follow [docs/cookie-refresh.md](https://github.com/${{ github.repository }}/blob/main/docs/cookie-refresh.md)."
+            BODY="${BODY}"$'\n\n'"Until refreshed, YouTube-sourced meetings (Marathon County, Wausau, Weston) arrive via the residential gap sweep instead — delayed up to ~12 hours, nothing is lost."
+            if [ -n "$EXISTING" ]; then
+              gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+              echo "Updated cookie issue #$EXISTING"
+            else
+              gh issue create --title "$TITLE" --body "$BODY"
+              echo "Opened cookie issue"
+            fi
+          elif [ "$OKS" -gt 0 ] && [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Caption fetches are succeeding again (${OKS} this run) — the refreshed cookies are working. Auto-closing."
+          else
+            echo "No cookie signal this run (blocks=$BLOCKS, successes=$OKS)."
           fi
 
       - name: Surface summarizer failures
