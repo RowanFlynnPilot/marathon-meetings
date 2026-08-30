@@ -158,7 +158,9 @@ jobs:
           for TFILE in transcripts/*.txt; do
             VID=$(basename "$TFILE" .txt)
             echo "Processing transcript for: $VID"
-            python inject_transcript.py --video-id "$VID" --transcript "$TFILE" \
+            # --video-id= (equals form): YouTube IDs can start with a dash
+            # (e.g. -SFidjEgoHg), which argparse otherwise eats as a flag.
+            python inject_transcript.py --video-id="$VID" --transcript "$TFILE" \
               || { echo "::warning::transcript ingest failed for $VID (will retry next run)"; FAILED=$((FAILED+1)); }
             echo ""
           done

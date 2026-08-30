@@ -218,7 +218,32 @@ def main():
         except json.JSONDecodeError:
             pass
 
-    if not vid_id.startswith(("bb_", "kw_")):
+    # Residential-sweep metadata sidecar: the gap sweep ships title/source/
+    # date alongside the transcript because CI cannot query YouTube for
+    # per-video metadata (cloud IPs get 'Only images are available'
+    # regardless of cookies). Prefer it over asking YouTube.
+    meta_path = Path("./transcripts") / f"{vid_id}.meta.json"
+    if meta_path.exists():
+        try:
+            _meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            if not source_key and _meta.get("source"):
+                source_key = _meta["source"]
+                print(f"[ok]  Source from sidecar: {source_key}")
+            if title == vid_id and _meta.get("title"):
+                title = re.sub(r'(\s*-\s*\d{1,2}[/-]\d{1,2}[/-]\d{2,4})+$', '',
+                               _meta["title"]).strip()
+                title = re.sub(r'\s*-\s*\d{4}-\d{2}-\d{2}$', '', title).strip()
+                print(f"[ok]  Title from sidecar: {title}")
+            if not meeting_date and _meta.get("meeting_date"):
+                meeting_date = _meta["meeting_date"]
+                print(f"[ok]  meeting_date from sidecar: {meeting_date}")
+            if not upload_date and _meta.get("upload_date"):
+                upload_date = _meta["upload_date"]
+        except json.JSONDecodeError:
+            print(f"[warn] Unreadable sidecar {meta_path} — ignoring")
+
+    if (not vid_id.startswith(("bb_", "kw_"))
+            and (not source_key or not meeting_date or title == vid_id)):
         print(f"[fetch] Querying YouTube for authoritative title and date...")
         try:
             import subprocess

@@ -450,8 +450,29 @@ def find_unprocessed_channel_videos() -> list[dict]:
             date = v.get("meeting_date") or v.get("upload_date") or ""
             if not date or date < cutoff:
                 continue
-            out.append({"id": vid, "title": v.get("title") or vid})
+            out.append({"id": vid, "title": v.get("title") or vid,
+                        "source": source_key,
+                        "meeting_date": v.get("meeting_date") or "",
+                        "upload_date": v.get("upload_date") or ""})
     return out
+
+
+def _write_meta_sidecar(job) -> None:
+    """Ship title/source/date alongside a gap-swept transcript.
+
+    CI cannot query YouTube for per-video metadata (cloud IPs get 'Only
+    images are available' regardless of cookies), so inject_transcript.py
+    reads this sidecar instead of asking YouTube. Written even when the
+    transcript already exists, to retro-fit files fetched before sidecars.
+    """
+    import json as _json
+    meta = job.get("meta")
+    if not meta:
+        return
+    mpath = TRANSCRIPTS_DIR / f"{job['save']}.meta.json"
+    if not mpath.exists():
+        mpath.write_text(_json.dumps(meta, indent=2), encoding="utf-8")
+        print(f"[meta] Wrote {mpath.name}")
 
 
 def main():
@@ -487,7 +508,10 @@ def main():
                   "method": "whisper", "source": "kronenwetter", "title": m["title"]}
                  for m in kw]
         gap = find_unprocessed_channel_videos()
-        jobs += [{"save": m["id"], "fetch": m["id"], "title": m["title"]}
+        jobs += [{"save": m["id"], "fetch": m["id"], "title": m["title"],
+                  "meta": {"title": m["title"], "source": m["source"],
+                           "meeting_date": m["meeting_date"],
+                           "upload_date": m["upload_date"]}}
                  for m in gap]
         if not jobs:
             print("No agenda-only meetings with available recordings found.")
@@ -511,6 +535,7 @@ def main():
     to_fetch = []
     for j in jobs:
         tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
+        _write_meta_sidecar(j)
         if tpath.exists():
             print(f"\n[skip] {j['save']} — transcript already exists ({tpath})")
         else:
