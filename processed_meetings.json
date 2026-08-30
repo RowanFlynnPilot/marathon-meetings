@@ -461,8 +461,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
       "upload_date": "20260617",
       "meeting_date": "20260617",
-      "duration": null,
-      "video_url": null,
+      "duration": 4086,
+      "video_url": "https://www.youtube.com/watch?v=j_8xEzhQrrI",
       "processed_at": "2026-06-17T03:43:29.603434+00:00",
       "summary_file": "summaries/dc-everest-regular-school-board-meeting-including-a-public-hearing-as-required-u-bb-747929.md"
     },
@@ -670,8 +670,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
       "upload_date": "20260715",
       "meeting_date": "20260715",
-      "duration": null,
-      "video_url": null,
+      "duration": 1513,
+      "video_url": "https://www.youtube.com/watch?v=emLgeM3YuZ8",
       "processed_at": "2026-07-15T02:04:41.666716+00:00",
       "summary_file": "summaries/dc-everest-regular-school-board-meeting-2026-07-15-bb-752240.md"
     },
@@ -813,8 +813,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
       "upload_date": "20260803",
       "meeting_date": "20260803",
-      "duration": null,
-      "video_url": null,
+      "duration": 675,
+      "video_url": "https://www.youtube.com/watch?v=oFltThftT1g",
       "processed_at": "2026-08-03T02:28:54.922361+00:00",
       "summary_file": "summaries/school-board-special-meeting-2026-08-03-bb-754152.md"
     },
@@ -890,8 +890,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
       "upload_date": "20260810",
       "meeting_date": "20260810",
-      "duration": null,
-      "video_url": null,
+      "duration": 5972,
+      "video_url": "https://www.youtube.com/watch?v=Dkt72jkA2jo",
       "processed_at": "2026-08-29T21:22:41.091632+00:00",
       "summary_file": "summaries/school-board-regular-meeting-2026-08-10-bb-759354.md"
     },
@@ -1000,13 +1000,13 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113",
       "upload_date": "20260819",
       "meeting_date": "20260819",
-      "duration": null,
-      "video_url": null,
+      "duration": 3140,
+      "video_url": "https://www.youtube.com/watch?v=uCg0cFqGqHU",
       "processed_at": "2026-08-29T21:23:59.858337+00:00",
       "summary_file": "summaries/dc-everest-regular-school-board-meeting-2026-08-19-bb-757113.md"
     },
     "_6aNdLDBS4w": {
-      "title": "Board of Trustees - 8/17/2026",
+      "title": "Board of Trustees",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260817",
@@ -1014,7 +1014,7 @@
       "duration": 9928,
       "video_url": null,
       "processed_at": "2026-08-29T21:26:13.126789+00:00",
-      "summary_file": "summaries/weston-board-of-trustees-8172026-6andldbs4w.md"
+      "summary_file": "summaries/weston-board-of-trustees-6andldbs4w.md"
     }
   }
 }

@@ -35,6 +35,163 @@
     "votes": []
   },
   {
+    "id": "kw_ba56fe14f9d845d19d5fedf7e8b2f5d5",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "August 24, 2026",
+    "shortDate": "AUG 24",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-65",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ba56fe14f9d845d19d5fedf7e8b2f5d5.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board held its August 24, 2026 regular meeting, covering a range of financial and operational matters including a 10-year capital improvement plan presentation, TID #1 valuation challenges, and a collective bargaining negotiation update. The board convened into closed session to address a police union contract and directed the administrator to continue negotiations before adjourning.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:05",
+        "item": "Motion to Move Agenda Items"
+      },
+      {
+        "time": "2:40",
+        "item": "Chairperson Comments"
+      },
+      {
+        "time": "3:20",
+        "item": "Public Comments"
+      },
+      {
+        "time": "7:00",
+        "item": "Administrative Staff Report"
+      },
+      {
+        "time": "22:00",
+        "item": "Public Works Director Report"
+      },
+      {
+        "time": "30:00",
+        "item": "Finance Director Report - General Fund and TID #1 Update"
+      },
+      {
+        "time": "55:00",
+        "item": "Consent Agenda - August 10 Minutes and July Check Register"
+      },
+      {
+        "time": "57:00",
+        "item": "New Business: 2027-2036 Capital Improvement Plan"
+      },
+      {
+        "time": "1:25:00",
+        "item": "Green Tree Subdivision Update"
+      },
+      {
+        "time": "1:30:00",
+        "item": "Closed Session - Police Union Collective Bargaining"
+      },
+      {
+        "time": "1:35:00",
+        "item": "Return from Closed Session - Direction to Administrator"
+      },
+      {
+        "time": "1:37:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comments",
+        "body": "One speaker, Mr. Cramer, addressed the board regarding a previous special meeting where a trustee took over the chairmanship, calling it unusual and raising accountability concerns. He also cited the village attorney's budget memo noting the village is $1,000 over budget after seven months due to personnel investigation costs, and criticized the ongoing investigation timeline as several months with no public answers, stating 'I think you have a major accountability problem.'"
+      },
+      {
+        "item": "Administrative Staff Report",
+        "body": "The administrator reported on a meeting with the Golden Pond HOA regarding pond level management, noting the village found seven homes still running sump pumps when the HOA claimed only two, and that the village declined to raise the pond level as a result. The administrator also flagged a significant increase in open records requests targeting the police department, particularly records from when Village President Joling was police chief, characterizing them as a personal vendetta. Staff discussed potentially charging for staff time associated with open records requests and updating public comment procedures."
+      },
+      {
+        "item": "Public Works Director Report",
+        "body": "Public Works Director Greg reported that a WPS transformer installed for a new electrical panel was the wrong wattage, causing a delay of a few days on Lift Station 2. He also noted that a road contractor is working on drainage and shoulder improvements near the municipal building and bridge areas. A generator battery failure was discovered and addressed in-house, with discussion about the aging generator fleet and the need for a long-term replacement plan."
+      },
+      {
+        "item": "Finance Director Report - General Fund and TID #1",
+        "body": "Finance Director John Jacobs reported the general fund revenues are tracking nearly identically to 2025 at about 62.7% collected through seven months, with most remaining revenue expected from the state in October. Three expenditure areas flagged as over budget - legal/investigation costs, municipal building operations, and garbage/recycling - are expected to be addressed via a transfer from the $60,000 contingency reserve later in the year. On TID #1, Jacobs explained a combined $2.5 million valuation reduction resulted from local assessor adjustments and a retroactive state correction, worsening the TID's cash flow. He recommended a status quo approach for six to nine months to allow a potential distribution center project to add tax increment, noting debt payments drop significantly starting in 2030 and TID #1 debt is eliminated by 2037-2044."
+      },
+      {
+        "item": "2027-2036 Capital Improvement Plan",
+        "body": "Finance Director Jacobs and Public Works Director Greg presented the 10-year CIP, noting the village currently has roughly $49 million in remaining borrowing capacity at 70% of the debt limit. The first-year 2027 program totals approximately $4.3 million across equipment, infrastructure, parks, and facilities. Trustee Erin Mishka (Parks Committee Chair) specifically noted that the $200,000 in park donations listed for 2027 is insufficient and that tax dollars should support parks improvements. Staff noted a potential $1.7 million general obligation borrowing target and discussed strategic timing of debt issuance to defer tax impact. No formal vote was taken; the presentation was informational ahead of the fall budget process."
+      },
+      {
+        "item": "Green Tree Subdivision Update",
+        "body": "Administrator Jim reported that the developer of the Green Tree subdivision indicated they expect to move forward within the next month and wants board action. The Plan Commission made a conditional recommendation in June, and staff noted some ordinance timing provisions require the board to act before the approval becomes automatic. A related factor is a pending decision regarding the golf course that may affect the subdivision layout. No vote was taken; the board noted this will return as a formal agenda item."
+      },
+      {
+        "item": "Closed Session and Return - Police Union Negotiations",
+        "body": "The board voted to convene in closed session to deliberate on the collective bargaining agreement with the Kronenwetter Professional Police Association / Wisconsin Professional Police Association. Upon returning to open session, the board voted to direct the administrator to continue negotiations with the union."
+      }
+    ],
+    "publicComment": "One speaker, identified as Mr. Cramer, addressed the board. He raised concerns about a recent special meeting where a trustee took over the chairmanship, questioned the transparency of an ongoing personnel investigation that has run over budget, and criticized the board for holding 'shadow meetings' without public answers. He stated residents 'expect better' and called it 'a major accountability problem.'",
+    "actionItems": [
+      "Administrator to bring public comment policy recommendations to a future APC meeting, including whether comments should be tied to agenda items and whether emailed comments should be accepted",
+      "Administrator to develop a schedule for charging for staff time on open records requests",
+      "Public Works to have mechanics inspect and repair municipal building generator battery and fuses",
+      "Finance Director to prepare tax levy affordability scenarios for multiple home values for next board meeting",
+      "Finance Director to update and date-stamp the CIP document monthly as a living document",
+      "Finance Director to research state shared revenue impact from potential Plover Plant 3 closure between 2031-2036",
+      "Administrator to bring Green Tree subdivision to a future board meeting for formal action",
+      "Administrator to continue collective bargaining negotiations with the Kronenwetter Professional Police Association",
+      "Budget amendment for investigation-related legal costs to be prepared once final costs are known, likely later in 2026",
+      "A special meeting was scheduled for Thursday at 4:30 PM"
+    ],
+    "topics": [
+      "Budget",
+      "TID District",
+      "Capital Improvement Plan",
+      "Development",
+      "Parks",
+      "Police Labor Negotiations"
+    ],
+    "votes": [
+      {
+        "item": "Consent Agenda - August 10, 2026 minutes and July 2026 check register and credit card transactions",
+        "motion": "Motion to approve the consent agenda as presented",
+        "mover": "Dan Lesniak",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Convene in closed session for police union collective bargaining deliberations",
+        "motion": "Motion to move into closed session",
+        "mover": "Kelly Coyle",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Direct administrator to continue negotiations with the police union",
+        "motion": "Motion to direct the administrator to continue negotiations with the union",
+        "mover": "Kelly Coyle",
+        "second": "Dan Lesniak",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Craig Mortensen",
+        "second": "Aaron Myszka",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "kw_f432750fb1d34fbcb533fdcb37765323",
     "source": "kronenwetter",
     "title": "Police and Fire Commission Meeting",
@@ -81,132 +238,6 @@
       "Public Safety",
       "Staffing",
       "Fire Department Recruitment"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_ba56fe14f9d845d19d5fedf7e8b2f5d5",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-65",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ba56fe14f9d845d19d5fedf7e8b2f5d5.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet to review financial statements, consider a capital improvements program budget, and evaluate a preliminary plat for the Green Tree Subdivision, along with a closed session discussion regarding police union collective bargaining.",
-    "agenda": [
-      {
-        "time": "6:00 PM",
-        "item": "Call Meeting to Order - Pledge of Allegiance and Roll Call"
-      },
-      {
-        "time": "N/A",
-        "item": "Motion to Move Agenda Items"
-      },
-      {
-        "time": "N/A",
-        "item": "Chairperson Comments"
-      },
-      {
-        "time": "N/A",
-        "item": "Announcement of Closed Session"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Comment (15 minutes total, 3 minutes per person)"
-      },
-      {
-        "time": "N/A",
-        "item": "Administrator Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Works Director Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Finance Director/Treasurer Report - July 31, 2026 Financial Statements (Budget Status Report)"
-      },
-      {
-        "time": "N/A",
-        "item": "Update on TID #1 Information from 2026 Equalized Valuation Report - Email Response from Wisconsin Department of Revenue"
-      },
-      {
-        "time": "N/A",
-        "item": "August 10, 2026 Village Board Meeting Minutes - Consent Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "July 2026 Check Register, ACH Register, and Credit Card Transactions Activity - Consent Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft as of 7/31/2026"
-      },
-      {
-        "time": "N/A",
-        "item": "Green Tree Subdivision Preliminary Plat Review"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed Session - Negotiation of Collective Bargaining Agreement for Kronenwetter Professional Police Association"
-      },
-      {
-        "time": "N/A",
-        "item": "Reconvene Open Session"
-      },
-      {
-        "time": "N/A",
-        "item": "Action After Closed Session"
-      },
-      {
-        "time": "N/A",
-        "item": "Consideration of Items for Future Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Finance Director/Treasurer Report - July 31, 2026 Financial Statements",
-        "body": "The board was set to review the village's budget status report as of July 31, 2026, which would provide a financial overview of the current fiscal year's performance and expenditures."
-      },
-      {
-        "item": "Update on TID #1 Information from 2026 Equalized Valuation Report",
-        "body": "The board was scheduled to receive information regarding Tax Increment District #1 based on the 2026 equalized valuation report, including email correspondence from the Wisconsin Department of Revenue regarding this matter."
-      },
-      {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft",
-        "body": "The board was set to discuss and consider the first draft of the ten-year capital improvements program budget dated July 31, 2026, which would outline planned infrastructure and facility projects for the upcoming decade."
-      },
-      {
-        "item": "Green Tree Subdivision Preliminary Plat",
-        "body": "The board was scheduled to review and take possible action on the preliminary plat for the Green Tree Subdivision, a development proposal that was expected to require planning commission input and board consideration."
-      },
-      {
-        "item": "Kronenwetter Professional Police Association Collective Bargaining Agreement",
-        "body": "The board was set to convene in closed session to negotiate and deliberate the collective bargaining agreement with the Kronenwetter Professional Police Association, a personnel matter requiring confidential discussion per state statute."
-      }
-    ],
-    "publicComment": "Public comment was scheduled for 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Scheduled to consider approval of August 10, 2026 Village Board Meeting Minutes",
-      "Scheduled to consider approval of July 2026 Check Register, ACH Register, and Credit Card Transactions Activity",
-      "Expected to discuss and take possible action on 2027-2036 Capital Improvements Program (CIP) Budget - 1st Draft",
-      "Expected to review and take possible action on Green Tree Subdivision Preliminary Plat",
-      "Scheduled to negotiate collective bargaining agreement for Kronenwetter Professional Police Association in closed session"
-    ],
-    "topics": [
-      "Budget",
-      "Capital Improvements",
-      "Development",
-      "TID #1",
-      "Public Safety Staffing"
     ],
     "votes": []
   },
@@ -381,118 +412,259 @@
     "date": "August 19, 2026",
     "shortDate": "AUG 19",
     "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113",
+    "duration": "52m",
+    "url": "https://www.youtube.com/watch?v=uCg0cFqGqHU",
     "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to convene for a regular meeting covering routine operational matters including staffing changes, financial reports, and policy updates, while also addressing substantive items such as a facilities study, ten-year capital plan approval, and employee handbook revisions. The meeting was expected to include superintendent reports on professional development initiatives and a summer school presentation.",
+    "overview": "The DC Everest School Board held its regular August meeting, approving the 10-year capital plan and employee handbook, receiving a summer school report, and hearing a public comment raising concerns about seclusion room practices at Evergreen Elementary. Board member Larry Schaefer received a commendation letter from CISA 9 administrator Al Betri recognizing his four years of service on the CISA 9 Board of Control.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Call to Order"
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Roll Call"
-      },
-      {
-        "time": "N/A",
+        "time": "1:10",
         "item": "Pledge of Allegiance"
       },
       {
-        "time": "N/A",
+        "time": "1:40",
         "item": "Approval of Agenda"
       },
       {
-        "time": "N/A",
+        "time": "2:05",
         "item": "Public Comment"
       },
       {
-        "time": "N/A",
+        "time": "8:30",
         "item": "Consent Agenda"
       },
       {
-        "time": "N/A",
-        "item": "Non-Certified Staff Employment Changes (Informational Only)"
+        "time": "9:20",
+        "item": "Non-Certified Staff Employment Changes (Informational)"
       },
       {
-        "time": "N/A",
-        "item": "Reports/Considerations"
+        "time": "9:45",
+        "item": "Background Reports – WASB, CISA 9, Superintendent Report"
       },
       {
-        "time": "N/A",
-        "item": "Unfinished Business"
+        "time": "32:00",
+        "item": "Summer School Report (Informational)"
       },
       {
-        "time": "N/A",
-        "item": "New Business"
+        "time": "57:00",
+        "item": "10-Year Capital Plan Annual Approval"
       },
       {
-        "time": "N/A",
-        "item": "Petitions and Communications"
+        "time": "1:01:00",
+        "item": "Employee Handbook Approval"
       },
       {
-        "time": "N/A",
-        "item": "Future Meeting Dates"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
+        "time": "1:04:00",
+        "item": "Petitions, Communications, and Future Meeting Dates"
       }
     ],
     "discussions": [
       {
-        "item": "Certified Staff Recommended Employment/Resignations/Contract Adjustments",
-        "body": "The board was expected to consider employment changes for certified staff for the 2026-2027 school year as part of the consent agenda. Documentation submitted on August 18, 2026 outlined the recommended personnel actions."
+        "item": "Public Comment – Seclusion Room at Evergreen Elementary",
+        "body": "Mary Soulheim, a district resident and parent of students at Evergreen Elementary, addressed the board about behavioral intervention practices. She stated the district was found in direct violation of Wisconsin Statute 118.305 for maintaining a seclusion room with a locked door and hazards at Evergreen Elementary during the 2024-2025 school year. She described the room as a former storage closet measuring just over 4 by 6 feet, and argued that retrofitting it with padding and training staff to use it for seclusion would be traumatizing to students and shift school culture away from proactive mental health support. She urged the board to halt the rollout of the plan and direct administration to conduct a review of legal and psychological risks, proposing the topic be brought back in September."
       },
       {
-        "item": "WASB Legislative Network Member",
-        "body": "Shannon Grabko was scheduled to present information regarding the Wisconsin Association of School Boards Legislative Network. The presentation was expected to provide an update on legislative matters relevant to the district."
+        "item": "CISA 9 Report and Commendation of Larry Schaefer",
+        "body": "Larry Schaefer reported on the CISA 9 annual meeting, noting that Gary Moon from North Lakeland was elected as the large-district representative, ending Schaefer's tenure on the CISA 9 Board of Control after four years. Board President Shannon Grabko read aloud a commendation letter from CISA 9 administrator Al Betri praising Schaefer's service, leadership, and professionalism. Schaefer encouraged any board member interested in attending future CISA 9 annual meetings or serving on the board of control to do so, describing it as a valuable perspective on upcoming educational issues."
       },
       {
-        "item": "CESA #9 Representative",
-        "body": "Larry Schaefer from the Cooperative Educational Service Agency #9 was scheduled to present to the board. The specific content of the presentation was not detailed in the agenda."
-      },
-      {
-        "item": "Superintendent Report",
-        "body": "Dr. Casey Nye was scheduled to present multiple reports including a district update, facilities study and community survey results, staff professional development initiatives focused on Responsive Classroom training, compensation study feedback, website follow-up, and safety training updates."
+        "item": "Superintendent Report – Facility Study, Staff PD, AI Bot, and Law Enforcement Training",
+        "body": "Superintendent Dr. Knight reported that the community survey on the facility study is being finalized, with staff receiving it September 14 and community members receiving it by USPS the week of September 21; a board workshop to review results is expected in November. Officer Matt Loveless described a four-day joint critical incident rescue task force training held at the middle school July 27-30, involving approximately 30 Mountain Bay Metro Police officers and 20 Riverside Fire District personnel, using student volunteers for realistic scenarios. Dr. Knight also reported that after a demo, the district decided not to implement a $4,000 AI chatbot from Final Site this year due to cost, quality concerns, and pending ADA compliance rules effective April 2026."
       },
       {
         "item": "Summer School Report",
-        "body": "Dr. Lindell was scheduled to present a report on the 2026 summer school program, providing an overview of summer programming and outcomes."
+        "body": "Mike Rayther and Nikki Matthews presented the summer learning report in Rayther's first year leading the program. Highlights included an Engineering Tomorrow partnership with Greenheck on sound mitigation, strength and conditioning programming with CTI, a patriotic musical performance called 'America 250' involving about 70 students, the Hmong enrichment program co-run with Wausau School District and CESA, new courses including podcasting, sign language ('Flying Fingers'), and an art course for first and second graders, and the Fuel for the Weekend food program serving 127 families. Board members praised the program and asked about challenges and staff retention; Rayther said returning staff significantly outnumbered new staff this summer."
       },
       {
-        "item": "Ten-Year Capital Plan Annual Approval",
-        "body": "Dr. Strike was scheduled to present the annual ten-year capital plan for board approval, with documentation submitted on August 10 and August 12, 2026 outlining capital projects for 2026-2027 and beyond."
+        "item": "10-Year Capital Plan Annual Approval",
+        "body": "Dr. Strike presented the annual 10-year capital plan, noting it is required because the district holds a Fund 46 capital trust fund. She highlighted that some items are marked 'hold for facility study' pending the outcome of the ongoing facility planning process, and that furniture replacement has become an increasing need. The board approved the plan without discussion."
       },
       {
         "item": "Employee Handbook",
-        "body": "Dr. Strike was scheduled to present the 2026-2027 Employee Handbook draft with track changes for board consideration. The handbook included updates and modifications to personnel policies and procedures."
-      },
-      {
-        "item": "Second Reading of Policies",
-        "body": "The board was scheduled to conduct second readings of nine policies covering student supervision and welfare, job descriptions, staff use of personal communication devices, student technology acceptable use and safety, social media use, volunteer procedures, and child abuse and neglect reporting procedures."
+        "body": "Dr. Strike presented the updated employee handbook for the upcoming school year, noting five themes of changes compiled by the talent and culture department, including Christy Eser and Sarah Trimmer. She noted most changes had been previously presented to the board earlier in the year and were being formalized through the handbook process. The board approved the handbook without discussion."
       }
     ],
-    "publicComment": "A public comment period was included on this agenda.",
+    "publicComment": "One speaker offered public comment. Mary Soulheim, of 2580 Sussex Place, a district resident and parent of students including one at Evergreen Elementary, raised concerns about the district's use of a seclusion room at Evergreen Elementary, alleging a violation of Wisconsin Statute 118.305. She described the room as a repurposed 4-by-6-foot storage closet and urged the board to halt plans to formally train staff to use it, calling for an administrative review of legal and psychological risks to be brought back to the board in September. A second person, Amy Evelyn, was called to the podium but no remarks from her were captured in the transcript.",
     "actionItems": [
-      "Board was expected to approve the minutes from the July 15, 2026 meeting",
-      "Board was expected to approve certified staff employment changes, resignations, and contract adjustments",
-      "Board was expected to approve the ten-year capital plan for 2026-2027",
-      "Board was expected to consider adoption of the 2026-2027 Employee Handbook",
-      "Board was expected to conduct second readings and likely approve nine school policies related to student supervision, staff communications, technology use, volunteers, and child abuse reporting"
+      "Community facility study survey to be sent to staff September 14 and to community via USPS the week of September 21",
+      "Board workshop to review facility study survey results expected in November",
+      "Certified staff compensation study presentation and recommendations to be brought to the board in late fall",
+      "AI chatbot from Final Site to be revisited during next year's planning cycle",
+      "Board photo scheduled for 6:15 p.m. before the September 16 meeting",
+      "Administration to meet with summer learning leaders for an end-of-year review and planning session",
+      "10-year capital plan approved as submitted",
+      "Employee handbook approved with changes as submitted",
+      "Next regular board meeting: September 16, 6:30 p.m., Administration Building",
+      "Annual meeting and budget hearing: October 28, 6:00 p.m., Administration Building"
     ],
     "topics": [
-      "Staffing",
-      "Budget",
-      "Facilities",
-      "Policy",
-      "Professional Development",
-      "Capital Projects",
-      "Employee Handbook"
+      "Student Safety",
+      "Facility Planning",
+      "Summer Learning",
+      "Behavioral Interventions",
+      "Capital Improvements"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of the agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Consent agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "10-year capital plan annual approval",
+        "motion": "To approve the 10-year capital plan as submitted",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Employee handbook with changes as submitted",
+        "motion": "To approve the employee handbook with the changes as submitted",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "kw_c8a9c022aeb74b99af4d0767a1ce6fa0",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "August 18, 2026",
+    "shortDate": "AUG 18",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter's Administrative Policy Committee met on August 18, 2026, with Finance Director John leading the majority of discussions focused on the upcoming property reassessment, 2026 equalized valuation data, existing debt obligations, and the newly drafted 2027-2036 Capital Improvement Program. The meeting was significant for residents as officials revealed the village is approximately 40% below required full market value assessment, that TID 1 faces serious financial pressure if the anticipated distribution center development does not proceed this fall, and that opportunities exist in 2029-2030 for strategic debt-financed infrastructure investment.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:30",
+        "item": "Approval of Minutes - June 15th Meeting"
+      },
+      {
+        "time": "2:20",
+        "item": "Finance Director Report: Property Reassessment Update"
+      },
+      {
+        "time": "15:00",
+        "item": "Finance Director Report: 2026 Preliminary Equalized Valuation and TID Increments"
+      },
+      {
+        "time": "40:00",
+        "item": "Finance Director Report: July 2026 Budget Status Report"
+      },
+      {
+        "time": "55:00",
+        "item": "Review of Existing Debt Obligations Outstanding"
+      },
+      {
+        "time": "1:15:00",
+        "item": "New Business: 2027-2036 Capital Improvement Program Budget"
+      },
+      {
+        "time": "1:35:00",
+        "item": "Consideration of Items for Future Agenda and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes - June 15th Meeting",
+        "body": "Trustee Mary Solheim moved to approve the June 15th meeting minutes as presented, seconded by Misty Swanson. The motion passed 4-0 with no discussion."
+      },
+      {
+        "item": "Property Reassessment Update",
+        "body": "Finance Director John reported that the exterior reassessment will begin the week of August 24th, with five assessors working in the field. He explained the village is approximately 40% below required full market value and faces a state takeover of the reassessment — at two to three times the cost — if not completed by end of 2027. The reassessment is being funded through budget surpluses from prior years when positions were unfilled, avoiding any new budget line item. Trustee Guy Fridale raised concerns about negative social media commentary and suggested early, repeated public messaging that the village only controls its portion of the tax levy. John noted that no valuation changes will appear on the December 2026 tax bill and that some property owners seeing a below-average valuation increase could actually see a tax reduction. The committee also discussed reviewing potentially tax-exempt parcels that may no longer qualify."
+      },
+      {
+        "item": "2026 Preliminary Equalized Valuation and TID Increments",
+        "body": "John reported that the village's equalized valuation rose by approximately $101 million in 2026, nearly a 10% increase, now exceeding $1.2 billion, but that assessed valuation remains around $700 million — only about 63% of full market value. Net new construction came in at just 0.65% for the third consecutive year, limiting the village's allowable tax levy increase without an exception to approximately $12,000. TID 1 was identified as the village's most significant financial concern: a 12% drop in valuation from $21 million to $19 million resulted from assessor adjustments on two parcels near Kowalski and Highway 39, compounded by a state-issued prior year correction of $1.4 million. John emphasized that if the anticipated distribution center in TID 1 does not break ground this fall, the village could face a shortfall of $1.5 million or more by 2044, potentially depleting the general fund reserve built over recent years. Fridale observed that TIDs 2 and 4 are performing well and noted TID 3 closed in February."
+      },
+      {
+        "item": "July 2026 Budget Status Report",
+        "body": "John reported that after seven months (58% of the year), the general fund had collected approximately 62% of budgeted revenues and spent about 49% of budgeted expenditures, indicating a healthy position. He cautioned that public works billing typically lags field work and that costs will increase. Three ongoing budget concerns — village attorney fees, municipal building costs, and garbage — remain unresolved. John acknowledged the 2025 audit has not yet been completed due to competing priorities including the reassessment launch and 2027 budget preparation, but expressed confidence that the audit could be finalized in time for the October budget workshops. Committee members praised John's work stabilizing village finances and noted the village operates with limited finance staff."
+      },
+      {
+        "item": "Review of Existing Debt Obligations Outstanding",
+        "body": "John reviewed all outstanding debt, totaling approximately $14.5 million, of which $10 million is general obligation debt — representing only 17% of the village's $59 million maximum borrowing capacity. He identified the 2016 TID 1 redevelopment lease revenue bonds as a wait-and-see situation given low interest rates of 2.45-3.2% and the pending distribution center development. The 2024 general obligation bonds at 4-5% interest were flagged as a future refinancing candidate once callable in April 2029. He highlighted that debt service tax levy obligations drop significantly in 2029 (by ~$226,000) and 2030 (by ~$165,000), creating an opportunity window for infrastructure investment. Fridale and others emphasized the importance of TID 2 and TID 4 closure timelines — estimated around 2032 and 2033 respectively — as additional fiscal opportunities."
+      },
+      {
+        "item": "2027-2036 Capital Improvement Program Budget",
+        "body": "John and Public Works Director Greg presented the village's first-ever 10-year Capital Improvement Program, drafted using dedicated CIP software rather than Excel to improve accuracy and fluidity. The draft CIP covers projects across fire, municipal center, parks, police, public works, sewer, and water utilities, with a preliminary 2027 total of approximately $4.3 million. Funding sources include approximately $1.2 million in unused TID 2 bond proceeds that must be redirected if not spent on a TID project by October 2027, potential borrowing, utility depreciation funds, and donations. John noted the parks committee provided additional input the prior evening and that figures will be updated before the September presentation. The committee discussed potential borrowing scenarios — ranging from $1 million to $10 million — and agreed that a formal affordability analysis presenting multiple options would be prepared for the September APC meeting and budget workshops. No final decisions were made."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Finance Director to finalize reassessment-related public information on the village website by August 24th, 2026",
+      "Finance Director to provide police department with assessor vehicle license plates for field verification",
+      "Finance Director to compile a list of potentially non-qualifying tax-exempt parcels for review by the assessor firm, targeting October-November delivery",
+      "Finance Director to complete the 2025 audit, with a goal of having final numbers available for the October budget workshops",
+      "Finance Director to update the CIP document with parks committee input and updated project figures for September APC meeting",
+      "Finance Director to prepare a CIP affordability analysis with multiple borrowing scenarios (e.g., $1M, $3M, $5M+) for September presentation",
+      "Finance Director to clarify status of TID 1 distribution center development with administrator and report back before budget workshops",
+      "Finance Director to bring back updated TID 2 and TID 4 fund balance and closure timeline information to next meeting",
+      "Committee to consider placing Crescent Road area development and potential infrastructure investment on a future APC agenda"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Development",
+      "TID 1 Distribution Center",
+      "Property Reassessment",
+      "Capital Improvement Program",
+      "Debt Management"
+    ],
+    "votes": [
+      {
+        "item": "Approval of June 15th meeting minutes",
+        "motion": "Motion to approve the minutes as presented",
+        "mover": "Mary Solheim",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn the meeting",
+        "mover": "Guy Fridale",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      }
+    ]
   },
   {
     "id": "kw_dfa01e306c3f48089c892a6df5855a3f",
@@ -536,79 +708,137 @@
     "votes": []
   },
   {
-    "id": "kw_c8a9c022aeb74b99af4d0767a1ce6fa0",
+    "id": "kw_ff9da6dd27894cd58c787894e5044d7e",
     "source": "kronenwetter",
-    "title": "Administrative Policy Committee Meeting",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Administrative Policy",
+    "title": "Parks Committee",
+    "date": "August 17, 2026",
+    "shortDate": "AUG 17",
+    "committee": "Parks Committee - Village of Kronenwetter",
     "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
-    "isAgendaOnly": true,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-2",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff9da6dd27894cd58c787894e5044d7e.pdf",
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Administrative Policy Committee was scheduled to meet to review financial reports, consider the 2027-2036 Capital Improvements Program budget, and receive an update on the 2026-2027 revaluation process. The meeting was set to address multiple fiscal matters impacting the village's budgeting and planning priorities.",
+    "overview": "The Kronenwetter Parks Committee held its August 17, 2026 meeting focused on two major items: developing a 10-year Capital Improvements Program (CIP) for village parks, and planning logistics for the September 12, 2026 Bushka Park 5K Run/Walk fundraiser. The committee used a card-sorting exercise to identify park improvement priorities and tentatively mapped projects across fiscal years 2027–2036, with Bushka Park playground replacement as the top priority for 2027.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of July 21, 2026 Administrative Policy Committee Meeting Minutes"
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "2026-2027 Revaluation Process Update from Village Assessor"
+        "time": "1:30",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Finance Director Report - 2026 Preliminary Equalized Valuation & TID Increments"
+        "time": "2:10",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "July 2026 Budget Status Report"
+        "time": "2:30",
+        "item": "Approval of Previous Meeting Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Review of Existing Debt Obligations Outstanding"
+        "time": "4:20",
+        "item": "Agenda 4E: Village Communications About Parks Within the Community"
       },
       {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget"
+        "time": "10:45",
+        "item": "Agenda 4F: Additional Ideas for Other Parkland and Related Village Property"
+      },
+      {
+        "time": "12:00",
+        "item": "Agenda 4F: 2026–2036 Capital Improvements Program Budget (Card-Sorting Exercise)"
+      },
+      {
+        "time": "45:00",
+        "item": "Agenda 4G: September 12, 2026 Bushka Park 5K Run/Walk Fundraiser Event"
+      },
+      {
+        "time": "1:05:00",
+        "item": "Agenda 5: Future Fundraising Ideas (Living River Concert)"
+      },
+      {
+        "time": "1:20:00",
+        "item": "Agenda 6: Consideration of Items for Future Agenda"
+      },
+      {
+        "time": "1:30:00",
+        "item": "Agenda 7: Next Meeting Date"
+      },
+      {
+        "time": "1:38:00",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "2026-2027 Revaluation Process Update from Village Assessor",
-        "body": "The Village Assessor was scheduled to provide an update on the ongoing 2026-2027 revaluation process. This update was expected to inform the committee on the status and progress of the village's property revaluation efforts."
+        "item": "Approval of Previous Meeting Minutes",
+        "body": "Dan moved to approve the previous meeting minutes as presented; Patty seconded. No discussion followed. The motion passed unanimously on a voice vote."
       },
       {
-        "item": "Finance Director Report - 2026 Preliminary Equalized Valuation & TID Increments",
-        "body": "The Finance Director was set to present a report on the 2026 preliminary equalized valuation and Tax Increment District (TID) increments. This report was expected to provide financial data relevant to the village's budget planning."
+        "item": "Village Communications About Parks Within the Community",
+        "body": "The committee reviewed the village website's park content, noting Jennifer had added videos in 2023 that were well-received. Members suggested promoting park videos on social media, adding short trail-walking videos, and including a notice in the village newsletter directing residents to check out park resources. Greg noted that once the Chromter Drive project wraps up, the village plans to add wayfinding signs near apartments directing people to trails at the municipal center."
       },
       {
-        "item": "July 2026 Budget Status Report",
-        "body": "The committee was scheduled to review the budget status report for July 2026. This report was expected to provide an overview of the village's fiscal performance through the first month of the fiscal period."
+        "item": "2026–2036 Capital Improvements Program Budget",
+        "body": "The committee conducted a card-sorting exercise where each member wrote capital improvement ideas on cards, which were then grouped by park to identify priorities. The top vote-getter was the Bushka Park playground replacement (five or more cards), followed by Friendship/Cercas Park rubber surfacing replacement (estimated $70,000–$80,000), Towering Pines Park shelter and restroom development (proposed as a multi-year civic-style park project), and the municipal center park (restroom and potential disc golf course, estimated $150,000+). The committee tentatively assigned Bushka Park playground for 2027, Friendship Park surfacing for 2029, Towering Pines for 2030–2032, and municipal center park for 2033. General park signage, ADA improvements, and branding were discussed as ongoing priorities, with 2030 floated as an 'ADA year.' Civil Park new playground was placed at the end of the plan, approximately 2036–2037. Greg noted approximately $20,000 remains in a parks fund that could be directed toward near-term improvements such as a trail connecting Friendship Park to the dog park."
       },
       {
-        "item": "Review of Existing Debt Obligations Outstanding",
-        "body": "The committee was set to review the village's existing outstanding debt obligations. This review was expected to assess the village's current debt position and obligations."
+        "item": "September 12, 2026 Bushka Park 5K Run/Walk Fundraiser",
+        "body": "Erin Mishka reported $1,000 in sponsorships secured with a goal of $1,225 to fund participant shirts; no registration fee is charged and donations are voluntary. Chief [Cherry McHugh] approved a list of priority intersections for volunteer safety coverage, and committee members offered to staff intersections wearing high-visibility vests. The route was adjusted from the original plan so both the 3K and 5K now start and end at Bushka Park. Relocation (a local business) is hosting a raffle and 50/50 drawing, with the 50/50 beginning the week prior. Water stations will be set up at Bushka Park and civil park (halfway point), with Jennifer volunteering to cover water costs. Start time is 10 a.m. on a Saturday."
       },
       {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget",
-        "body": "The committee was scheduled to consider the 2027-2036 Capital Improvements Program budget. This item was set for discussion and possible action regarding the village's long-term capital planning."
+        "item": "Future Fundraising Ideas — Living River Concert",
+        "body": "Erin Mishka announced plans for a Living River Concert in May, with $1,000 in sponsorship already secured and an anonymous donor covering the band cost, resulting in no cost to the village. She proposed holding the event at Towering Pines and directing proceeds to the Bushka Park Fund Reserve. A committee member (Tim) raised a constituent concern about why residents must fundraise for parks rather than relying on tax dollars; other members acknowledged the concern but noted the village board has been supportive, including a $5,000 match on a recent grant. A running total of approximately $16,000 raised for Bushka Park was referenced."
+      },
+      {
+        "item": "Quick Fixes and Small Improvements",
+        "body": "Members identified several non-capital quick fixes for parks crew attention: removing no-dog signs, repairing a broken plexiglass circle on old wooden playground equipment at Bushka, adding paper towel holders in restrooms, installing at least one handicap swing, adding a bike rack on the farmers market side of Bushka Park, refreshing old wooden park signs at Nor-a-Plaza, Friendship, and Gooding parks, adding sand and a net to the Savil Park volleyball court, and investigating bike route signage connectivity with Rothschild. Greg noted the parks crew has been pressure-washing slides, shelters, and equipment during the slow grass-cutting period."
+      },
+      {
+        "item": "Next Meeting Date",
+        "body": "The committee discussed transitioning from bi-weekly to monthly or as-needed meetings, noting that Dan's return to teaching makes the 4 p.m. time slot difficult. After discussion, the group tentatively agreed to meet Tuesday, September 8 (pending confirmation that a quorum can attend), at 4:30 p.m., with the primary focus of reviewing CIP dollar amounts to present to the village board and finalizing 5K run details."
       }
     ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time limit per person, subject to extension at the discretion of the Chief Presiding Officer.",
+    "publicComment": "No public comment was offered.",
     "actionItems": [
-      "scheduled to vote on approval of July 21, 2026 meeting minutes",
-      "expected to consider the 2027-2036 Capital Improvements Program (CIP) Budget"
+      "Greg to obtain updated pricing for CIP projects to present at next meeting so the committee can bring a dollar-amount recommendation to the village board",
+      "Erin to finalize 5K shirt order within days; goal is $1,225 in sponsorships",
+      "Jennifer to coordinate water supply for Bushka Park and Savil Park water stations for the September 12 5K",
+      "Greg to turn water back on at Friendship Park before the upcoming Friday event",
+      "Parks crew to remove no-dog signs and complete pressure-washing and minor repairs at parks",
+      "Greg to repair broken plexiglass on Bushka Park wooden playground equipment with epoxy as interim fix",
+      "Erin to reach out to company that made the library's fundraising tree display to get information for a Bushka Park fundraising brick or recognition program",
+      "Erin to bring Living River Concert event proposal to CLIP so it can be placed on the 2027 village event calendar",
+      "Greg to investigate bike route signage connectivity with Rothschild and assess condition of existing bike route signs",
+      "Committee to discuss at next meeting how many more meetings are needed and whether to transition ongoing work to Friends of Kronenwetter Parks",
+      "Next meeting tentatively scheduled for Tuesday, September 8, at 4:30 p.m., subject to quorum confirmation"
     ],
     "topics": [
-      "Budget",
-      "Capital Improvements",
-      "Debt Management",
-      "Equalized Valuation",
-      "Tax Increment Districts"
+      "Parks",
+      "Capital Improvements Program",
+      "Fundraising",
+      "Trails",
+      "Bushka Park 5K"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of previous Parks Committee meeting minutes",
+        "motion": "Motion to approve the meeting minutes as presented",
+        "mover": "Dan Lesniak",
+        "second": "Patty Tecaliski",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": "Tim Stracota",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "_6aNdLDBS4w",
@@ -617,331 +847,227 @@
     "date": "August 17, 2026",
     "shortDate": "AUG 17",
     "committee": "Board of Trustees",
-    "duration": null,
+    "duration": "2h 45m",
     "url": "https://www.youtube.com/watch?v=_6aNdLDBS4w",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_08172026-1956",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Village of Weston Board of Trustees was scheduled to hold a regular meeting on August 17, 2026, to address multiple ordinances, resolutions, and policy matters including police headquarters financing, zoning requests, and 2027 budget priorities. The meeting was set to cover routine departmental reports and several significant items affecting community infrastructure and operations.",
+    "overview": "The Village of Weston Board of Trustees held its regular meeting, addressing a range of topics including the farmers market location at Kennedy Park (approved to continue, 4-1), a new Mountain Bay Metropolitan Police Department headquarters financing agreement (approved with dissent), and a rezoning request for a storage facility on Weston Avenue (planning commission denial accepted). The meeting also featured substantive public comment on the farmers market, a dog-fancier licensing dispute, and the rezoning request.",
     "agenda": [
       {
-        "time": "6:00 p.m.",
-        "item": "Board of Trustees Meeting called to order"
+        "time": "0:00",
+        "item": "Call to Order, Pledge of Allegiance, Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Public Comments on non-agenda items"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of July 20, 2026, Board of Trustees Meeting minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Committee Chair Updates and acknowledgment of reports from boards and commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Acknowledge departmental reports and work product transmittals"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Vouchers – check numbers 67149-67298, 67304-67344 and 90260-90263"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance 26-013: Amending Sec. 50.103 of the Municipal Code regarding storage and disposal of property removed during nuisance abatement"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance 26-014: Amending Sec. 10.123 Animal Fanciers of the Code of Ordinances"
-      },
-      {
-        "time": "N/A",
-        "item": "Joint Resolution 2026-001: Joint Resolution for debt authorization and Mountain Bay Metropolitan Police Department intergovernmental agreement between Villages of Weston and Rothschild"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution 2026-021: Approving North Central Wisconsin Stormwater Coalition Cooperative Agreement"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution 2026-022: Authorizing Bayberry Street and Concord Avenue Reconstruction Project"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Establishing 2027 Budget Priorities"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Parks and Recreation Committee recommendation to continue the Farmers Market at Kennedy Park"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on the use of Municipal Center Rooms as Public Meeting/Gathering Spaces and accompanying draft policy"
-      },
-      {
-        "time": "N/A",
-        "item": "Consideration of Project #202600263 rezoning request for 4205 & 4307 Weston Avenue from B-2 Highway Business to LI Limited Industrial"
-      },
-      {
-        "time": "N/A",
-        "item": "Consideration of Buchkowski Animal Fancier License at 5512 N. Birch Lane"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on request from Lamar to purchase a perpetual easement over Village-owned real estate at 8702 Progress Way"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on President's appointments to committees and/or commissions"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on allocation of Everest Metro Police Department and Municipal Court fund balance"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on employee appreciation, including a standing monthly staff recognition agenda item"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Community Development Authority's role and responsibilities going forward"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on Aquatic Center operational and capital costs and possible future municipal/community partnerships"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on drafting a policy for receipt and handling of written comments received at public meetings"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on request for a letter of support for Greater Wausau Prosperity Partnership's Destination JEM Grant application for Ride Wisconsin Gravel"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on contract for final TIF#1 audit"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion and/or action on bank proposals for Village's portion of new police headquarters"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Ordinance 26-013: Nuisance Abatement Property Storage and Disposal",
-        "body": "The Board was scheduled to consider an ordinance amending Section 50.103 of the Municipal Code to establish procedures for the storage and disposal of property removed during nuisance abatement efforts. This measure was set to provide clear regulatory guidelines for handling materials seized during municipal code enforcement actions."
-      },
-      {
-        "item": "Ordinance 26-014: Animal Fanciers Code Amendment",
-        "body": "The Board was scheduled to consider an ordinance amending Section 10.123 regarding animal fanciers in the Village's Code of Ordinances. This agenda item was set to address regulatory changes related to the keeping of animals in the municipality."
-      },
-      {
-        "item": "Joint Resolution 2026-001: Police Headquarters Debt Authorization",
-        "body": "The Board was scheduled to consider a joint resolution with the Village of Rothschild and Mountain Bay Metropolitan Police Department authorizing debt for construction of a new police department headquarters and approving an intergovernmental agreement for sharing costs and expenses between the two villages. This significant capital project was set for discussion regarding financing mechanisms and cost-sharing arrangements."
-      },
-      {
-        "item": "Resolution 2026-021: Stormwater Coalition Cooperative Agreement",
-        "body": "The Board was scheduled to consider a resolution approving a cooperative agreement with the North Central Wisconsin Stormwater Coalition. This measure was set to establish or continue the Village's participation in regional stormwater management and environmental protection efforts."
-      },
-      {
-        "item": "Resolution 2026-022: Bayberry Street and Concord Avenue Reconstruction",
-        "body": "The Board was scheduled to consider an authorizing resolution for the reconstruction of Bayberry Street and Concord Avenue. This project was set for action to authorize design, engineering, and construction of roadway improvements in the Village."
-      },
-      {
-        "item": "Establishing 2027 Budget Priorities",
-        "body": "The Board was scheduled to discuss and take action on establishing budget priorities for the fiscal year 2027. This discussion was set to guide departmental budgeting and allocation of municipal resources for the upcoming year."
-      },
-      {
-        "item": "Parks and Recreation Committee Recommendation: Farmers Market at Kennedy Park",
-        "body": "The Board was scheduled to discuss and take action on the Parks and Recreation Committee's recommendation to continue operating the farmers market at Kennedy Park. This item was set to determine whether to maintain this recurring community event."
-      },
-      {
-        "item": "Municipal Center Rooms as Public Meeting/Gathering Spaces Policy",
-        "body": "The Board was scheduled to discuss and take action on the use of Municipal Center rooms as public meeting and gathering spaces, including consideration of an accompanying draft policy. This measure was set to establish guidelines and procedures for community use of Village facilities."
-      },
-      {
-        "item": "Project #202600263: Rezoning Request for 4205 & 4307 Weston Avenue",
-        "body": "The Board was scheduled to consider a rezoning request to change the classification of properties at 4205 and 4307 Weston Avenue from B-2 Highway Business to LI Limited Industrial. The Plan Commission recommended denial of this rezoning application, and the Board was set to make a final determination on the request."
-      },
-      {
-        "item": "Buchkowski Animal Fancier License at 5512 N. Birch Lane",
-        "body": "The Board was scheduled to consider an animal fancier license application for 5512 N. Birch Lane. The Plan Commission recommended denial of this application, and the Board was set to review and make a final determination."
-      },
-      {
-        "item": "Lamar Perpetual Easement Request at 8702 Progress Way",
-        "body": "The Board was scheduled to discuss and take action on a request from Lamar to purchase a perpetual easement over Village-owned real estate at 8702 Progress Way. This transaction was set for Board consideration regarding terms and conditions of the easement agreement."
-      },
-      {
-        "item": "President's Appointments to Committees and/or Commissions",
-        "body": "The Board was scheduled to discuss and take action on President Maloney's appointments to various Village committees and commissions. This agenda item was set to fill vacancies and ensure adequate board representation across municipal bodies."
-      },
-      {
-        "item": "Everest Metro Police Department and Municipal Court Fund Balance Allocation",
-        "body": "The Board was scheduled to discuss and take action on the allocation of fund balance from the Everest Metro Police Department and Municipal Court. This financial matter was set to determine appropriate use of accumulated reserves."
-      },
-      {
-        "item": "Employee Appreciation and Monthly Staff Recognition",
-        "body": "The Board was scheduled to discuss and take action on employee appreciation initiatives, including consideration of a standing monthly staff recognition agenda item. This measure was set to enhance employee morale and establish formal recognition procedures."
-      },
-      {
-        "item": "Community Development Authority Role and Responsibilities",
-        "body": "The Board was scheduled to discuss and take action on the Community Development Authority's role and responsibilities going forward. This discussion was set to clarify the CDA's mission and operational direction for future development efforts."
-      },
-      {
-        "item": "Aquatic Center Operational and Capital Costs and Partnerships",
-        "body": "The Board was scheduled to discuss and take action on the Aquatic Center's operational and capital costs and possible future municipal or community partnerships. This discussion was set to examine financial sustainability and alternative management models for the facility."
-      },
-      {
-        "item": "Policy for Receipt and Handling of Written Comments at Public Meetings",
-        "body": "The Board was scheduled to discuss and take action on drafting a policy for the receipt and handling of written comments received at public meetings. This procedural measure was set to establish standardized practices for managing public input."
-      },
-      {
-        "item": "Letter of Support for Greater Wausau Prosperity Partnership Destination JEM Grant",
-        "body": "The Board was scheduled to discuss and take action on a request for a letter of support for the Greater Wausau Prosperity Partnership's Destination JEM Grant application to the Wisconsin Department of Tourism for the Ride Wisconsin Gravel project. The Board was set to determine whether to endorse this regional tourism and economic development initiative."
-      },
-      {
-        "item": "Final TIF#1 Audit Contract",
-        "body": "The Board was scheduled to discuss and take action on a contract for the final Tax Increment Financing District #1 audit. This agenda item was set to select an auditor and authorize completion of financial review for the TIF district."
-      },
-      {
-        "item": "Bank Proposals for New Police Headquarters Financing",
-        "body": "The Board was scheduled to discuss and take action on bank proposals for financing the Village's portion of the new police headquarters construction. This financial matter was set to evaluate lending options and terms for the capital project."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda for any person wishing to address the Board for up to three (3) minutes regarding a non-agenda item, with time extension permitted at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "scheduled to vote on approval of July 20, 2026 Board of Trustees meeting minutes",
-      "expected to approve vouchers (check numbers 67149-67298, 67304-67344 and 90260-90263)",
-      "scheduled to vote on Ordinance 26-013 regarding nuisance abatement property storage and disposal",
-      "scheduled to vote on Ordinance 26-014 amending animal fanciers code",
-      "scheduled to vote on Joint Resolution 2026-001 for police headquarters debt authorization and intergovernmental agreement",
-      "scheduled to vote on Resolution 2026-021 for stormwater coalition cooperative agreement",
-      "scheduled to vote on Resolution 2026-022 authorizing Bayberry Street and Concord Avenue reconstruction",
-      "expected to establish 2027 budget priorities",
-      "expected to consider Parks and Recreation Committee recommendation regarding farmers market continuation",
-      "expected to consider and potentially adopt draft policy for Municipal Center rooms public use",
-      "expected to render final decision on rezoning request for 4205 & 4307 Weston Avenue",
-      "expected to render final decision on Buchkowski animal fancier license application",
-      "expected to consider Lamar perpetual easement request terms",
-      "expected to act on President's committee and commission appointments",
-      "expected to determine allocation of Everest Metro Police Department and Municipal Court fund balance",
-      "expected to establish employee appreciation and staff recognition procedures",
-      "expected to clarify Community Development Authority role and responsibilities",
-      "expected to examine Aquatic Center costs and partnership options",
-      "expected to draft or adopt written comment policy procedures",
-      "expected to consider letter of support for GWPP Destination JEM Grant",
-      "expected to approve contract for final TIF#1 audit",
-      "expected to evaluate and select bank proposal for police headquarters financing"
-    ],
-    "topics": [
-      "Police Headquarters Construction",
-      "Budget and Finances",
-      "Zoning and Land Use",
-      "Infrastructure and Roads",
-      "Parks and Recreation",
-      "Stormwater and Utilities",
-      "Code Enforcement",
-      "Municipal Governance"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_ff9da6dd27894cd58c787894e5044d7e",
-    "source": "kronenwetter",
-    "title": "Parks Committee",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Parks Committee",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-2",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff9da6dd27894cd58c787894e5044d7e.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Kronenwetter Parks Committee was scheduled to meet to review previous meeting minutes, discuss village park communications and potential new parkland, examine the 2027-2036 Capital Improvements Program budget, and consider a September fundraiser event and new support group for local parks.",
-    "agenda": [
-      {
-        "time": "N/A",
+        "time": "3:45",
         "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "August 3, 2026 Parks Committee Meeting Minutes"
+        "time": "28:10",
+        "item": "Approval of July 20, 2026 Board of Trustees Meeting Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Village Communications About Our Parks Within the Community"
+        "time": "29:20",
+        "item": "Acknowledge Reports from Boards, Committees, and Commissions"
       },
       {
-        "time": "N/A",
-        "item": "Additional Ideas for Other Parkland and Related Village Property"
+        "time": "48:30",
+        "item": "Acknowledge Reports from Departments (Administrator, Clerk, Finance, Fire/EMS, Parks & Rec, Plan & Development, Police, Public Works, Technology)"
       },
       {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 1st Draft as of 07/31/2026"
+        "time": "1:15:00",
+        "item": "Consent Agenda: Approve Vouchers (Check #67149-67298, 67304-67344, 90260-90263)"
       },
       {
-        "time": "N/A",
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event"
+        "time": "1:35:00",
+        "item": "Ordinance 26-013: Nuisance Abatement Property Storage and Disposal Procedures"
       },
       {
-        "time": "N/A",
-        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group"
+        "time": "1:37:00",
+        "item": "Ordinance 26-014: Amending Animal Fancier Ordinance (Section 10.123)"
       },
       {
-        "time": "N/A",
-        "item": "Future Fundraising Ideas for Parks Fund"
+        "time": "1:39:00",
+        "item": "Resolution 2026-0001: Joint Resolution with Village of Rothschild and Mountain Bay Metro PD for Police Headquarters Construction Debt Authorization"
       },
       {
-        "time": "N/A",
-        "item": "Consideration of Items for Future Agenda"
+        "time": "1:55:00",
+        "item": "Resolution 2026-021: North Central Wisconsin Stormwater Coalition Cooperative Agreement"
+      },
+      {
+        "time": "1:56:00",
+        "item": "Resolution 2026-022: Bayberry Street/Concord Avenue Reconstruction Project Special Assessments"
+      },
+      {
+        "time": "1:58:00",
+        "item": "Discussion/Action: 2027 Budget Priorities"
+      },
+      {
+        "time": "2:20:00",
+        "item": "Discussion/Action: Farmers Market Location at Kennedy Park"
+      },
+      {
+        "time": "2:55:00",
+        "item": "Discussion/Action: Municipal Center Rooms as Public Meeting/Gathering Spaces"
+      },
+      {
+        "time": "3:15:00",
+        "item": "Consideration of Rezoning Request (4205 & 4307 Weston Ave, B2 to LI) — Planning Commission Recommended Denial"
       }
     ],
     "discussions": [
       {
-        "item": "Village Communications About Our Parks Within the Community",
-        "body": "The committee was scheduled to discuss village communications regarding parks within the community. This item was set for review to assess current messaging and outreach efforts to residents."
+        "item": "Public Comment",
+        "body": "Six residents spoke during public comment. Jim Pensol encouraged civic engagement and described how public turnout once reversed a board decision to rename Schofield Avenue to DC Everest Boulevard. Kyra Lenzo addressed the animal fancier licensing issue, defending her care of four huskies and offering to expand her fenced outdoor space to comply with any space requirements. A neighbor, identified as a Borcart family member at 604 North Lane, complained about waste runoff from Lenzo's dogs onto their property citing ordinance sections 10.12, 10.19, and 10.29. Scott Borcart (County Road H) and Tony Hase (Danny's Girls vendor) both urged the board to keep the farmers market at Kennedy Park, with Hase noting business had improved significantly since the Alderson roundabout opened. Steve Mel spoke on the rezoning item (agenda item 43), arguing the planning commission's denial was improperly influenced by planner Jennifer Higgins's personal preference against storage facilities and citing Wisconsin Act 67's limitations on CUP denials."
       },
       {
-        "item": "Additional Ideas for Other Parkland and Related Village Property",
-        "body": "The committee was expected to consider ideas for additional parkland and related village property. This discussion was scheduled to explore potential expansion or development opportunities within Kronenwetter."
+        "item": "Joint Resolution 2026-0001: Mountain Bay Metro PD Headquarters Debt Authorization",
+        "body": "Trustee Ermeling raised significant concerns about the repayment structure, noting that at $130,000 per year minimum, it could take approximately 34-40 years for Mountain Bay Metro PD to fully repay the municipalities for the construction loan, while Weston would need to increase its levy by roughly $206,000 annually to service the 20-year debt. Village Administrator and police representatives clarified that $130,000 is a minimum and that the Oversight Board can direct additional fund balance payments to accelerate repayment, with a goal of $250,000-$275,000 annually total from both municipalities. Ermeling and another trustee (believed to be Kern) voted no; the resolution passed 3-2. The agreement had been reviewed by Rothschild's financial advisors and Mountain Bay Metro's attorney but not Weston's own attorney, which Ermeling flagged as a concern for a multi-million-dollar commitment."
       },
       {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 1st Draft as of 07/31/2026",
-        "body": "The committee was scheduled to review the first draft of the 10-year Capital Improvements Program budget for parks. This item was set for discussion to evaluate planned expenditures and capital projects for the parks system over the next decade."
+        "item": "Farmers Market Location at Kennedy Park",
+        "body": "The board voted 4-1 to continue the farmers market at Kennedy Park, with Trustee Ermeling casting the lone dissenting vote, expressing concern that the park's green space was being consumed. Trustee Olson outlined several proposed mitigation measures including enhanced parking enforcement, coning off intersections 15 feet in each direction, and reaching out to a neighboring property owner about sight-obscuring vegetation. Trustee Lopes-Serrao argued the market pays for itself, serves as a community gathering event, and that no viable alternative location exists. Village President Maloney said he has visited the market at least ten times and found it a positive experience. A suggestion to survey vendors and customers again after the Alderson roundabout opened was raised by Ermeling and supported by others as a future step."
       },
       {
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
-        "body": "The committee was expected to discuss the planned 5K Run/Walk fundraiser event scheduled for September 12, 2026 at Buska Park. This item was set to address planning and logistics for the event."
+        "item": "Municipal Center Rooms as Public Meeting/Gathering Spaces",
+        "body": "The board discussed but took no action on a proposal to open municipal center meeting rooms to the public for gatherings, a topic raised at a prior community engagement session. Multiple trustees and staff expressed opposition based on past experience with damage, cleaning costs, and supervision burdens — Clerk Pam described specific problems from her time at Schofield Township, including vandalism and post-party cleanup that exceeded security deposits. Trustee Olson said he was not firmly opposed but would not support it without an alternative to requiring staff supervision on weekends. No action was taken."
       },
       {
-        "item": "Creating a \"Friends of the Kronenwetter Parks\" Support Group",
-        "body": "The committee was scheduled to consider the establishment of a \"Friends of the Kronenwetter Parks\" support group. This discussion was set to explore the feasibility and structure of creating a volunteer organization to support local parks."
+        "item": "Rezoning Request: 4205 & 4307 Weston Avenue (B2 to LI) — Storage Facility",
+        "body": "Trustee Lopes-Serrao moved to accept the Planning Commission's recommendation of denial for the rezoning of 4205 and 4307 Weston Avenue from B2 Highway Business to LI Limited Industrial for a proposed personal storage unit facility. A procedural issue was raised: overturning the planning commission's denial requires a 2/3 supermajority (five of seven votes), but with only five trustees present, all five would need to vote in favor of rezoning — effectively requiring unanimity to override. The motion to accept the denial received a second, and the transcript ends before the vote is recorded."
       },
       {
-        "item": "Future Fundraising Ideas for Parks Fund",
-        "body": "The committee was expected to brainstorm and consider future fundraising ideas to support the parks fund. This item was scheduled to generate ideas for revenue generation and community engagement related to park initiatives."
+        "item": "2027 Budget Priorities",
+        "body": "The Finance and HR Committee brought three preliminary priorities to the full board: one robotic mower pilot, a new facilities and grounds maintenance position, and three SAFER grant-funded fire/EMS staff positions phased in over 2027. Trustees discussed broadening the scope to include public safety (EMS, fire, police), drinking water infrastructure, code enforcement, and cybersecurity. Trustee Beck emphasized multi-year budget planning similar to the CIP process used in public works. A recent village comprehensive plan survey was cited showing road maintenance and EMS tied as top community priorities. No formal action was taken; further discussion is scheduled for a budget session on the 24th at 5:30."
+      },
+      {
+        "item": "Ordinance 26-013: Nuisance Abatement Property Storage",
+        "body": "The ordinance establishing a 30-day storage and disposal procedure for property removed during nuisance abatement was approved unanimously with brief discussion. Trustees agreed the 30-day window was reasonable to give property owners time to retrieve belongings."
+      },
+      {
+        "item": "Ordinance 26-014: Animal Fancier Ordinance Amendment",
+        "body": "The amendment to Section 10.123, which shifts animal fancier hearings from the Planning Commission to the Eclipse body, was approved unanimously after brief clarification that this item was about the procedural change, not the specific Lenzo dog license case addressed in public comment."
       }
     ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with time extension at the Chief Presiding Officer's discretion.",
+    "publicComment": "Six residents spoke. Jim Pensol (52nd Street, Weston) praised village transparency initiatives and urged continued civic engagement, citing the successful reversal of the Schofield Avenue renaming as an example of public influence. Kyra Lenzo (5512 N. Birch Lane) spoke in defense of her four-husky household regarding the animal fancier licensing process, detailing her care practices and offering to build additional fenced space. A neighbor at 604 North Lane (identified as a Borcart) complained about dog waste runoff onto their adjoining property and cited specific ordinance violations. Scott Borcart (21732 County Road H) representing farmers market vendors urged the board to keep the market at Kennedy Park permanently, noting vendors are down 40% since the move. Tony Hase (County Road Q, Ringle), owner of Danny's Girls, also supported keeping the market at Kennedy Park and reported a marked improvement in business since the Alderson roundabout opened; he also criticized the timing and framing of the market location survey. Steve Mel spoke on the rezoning item, arguing the planning commission denial was improperly influenced by planner Jennifer Higgins's personal preference and citing Wisconsin Act 67 as limiting grounds for CUP denial.",
     "actionItems": [
-      "Scheduled to review August 3, 2026 Parks Committee Meeting Minutes",
-      "Expected to consider ideas for additional parkland and related village property",
-      "Scheduled to review 2027-2036 Capital Improvements Program budget first draft",
-      "Expected to discuss planning for September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
-      "Scheduled to consider creation of a \"Friends of the Kronenwetter Parks\" Support Group",
-      "Expected to consider future fundraising ideas for the parks fund"
+      "Farmers market to continue at Kennedy Park for 2027 and beyond pending alternative; staff to implement parking enforcement improvements including coned intersections and increased police patrols on market days",
+      "Technology department to solicit quotes from multiple vendors for boardroom audio/microphone upgrade and bring options to Capital Improvement Plan discussion",
+      "Planning Commission to bring three conditional use permit violation cases forward in September",
+      "Playground equipment inspection scheduled for Thursday; replacement parts largely received",
+      "Public Works to finalize punch list items on Fuller Street, Schofield Avenue, and Western Avenue concrete repairs this fall with single contractor mobilization",
+      "Budget priorities session scheduled for the 24th at 5:30 p.m.; staff to develop multi-year staffing and capital plans similar to CIP model",
+      "Village to reach out to property owner near Allnew intersection at Kennedy Park to request vegetation trimming for sight-line safety",
+      "Rezoning request vote on 4205 and 4307 Weston Avenue was still pending at end of transcript"
     ],
     "topics": [
-      "Parks",
+      "Public Safety",
       "Budget",
-      "Buska Park",
-      "Community Engagement",
-      "Capital Improvements"
+      "Farmers Market",
+      "Development",
+      "Staffing",
+      "Kennedy Park",
+      "Mountain Bay Metro PD Headquarters",
+      "Animal Fancier Ordinance"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of July 20, 2026 Board of Trustees meeting minutes",
+        "motion": null,
+        "mover": "Lisa Beck",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge reports from boards, committees, and commissions (items 6, 7, 9, 11B, 12, 13, 14B, 15B)",
+        "motion": null,
+        "mover": null,
+        "second": "Luis Lopes-Serrao",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge reports from departments",
+        "motion": null,
+        "mover": null,
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Work product transmittals items 28, 29, and 30",
+        "motion": null,
+        "mover": "Luis Lopes-Serrao",
+        "second": "Lisa Beck",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Consent agenda: approve vouchers",
+        "motion": null,
+        "mover": "Lisa Beck",
+        "second": "Luis Lopes-Serrao",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Ordinance 26-013: Nuisance abatement property storage and disposal procedures",
+        "motion": "Motion to approve",
+        "mover": "Barbara Ermeling",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Ordinance 26-014: Animal fancier ordinance amendment (Section 10.123)",
+        "motion": "Move to approve",
+        "mover": "Luis Lopes-Serrao",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Joint Resolution 2026-0001: Mountain Bay Metro PD headquarters debt authorization intergovernmental agreement",
+        "motion": "Move to approve joint resolution 2026-1, intergovernmental agreement between villages of Weston and Rothschild and MBMPD regarding debt and repayment for construction of new police headquarters",
+        "mover": "Lisa Beck",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "3-2"
+      },
+      {
+        "item": "Resolution 2026-021: North Central Wisconsin Stormwater Coalition cooperative agreement",
+        "motion": "Motion to approve",
+        "mover": null,
+        "second": "Luis Lopes-Serrao",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Resolution 2026-022: Bayberry Street/Concord Avenue reconstruction project special assessment authorizing resolution",
+        "motion": "Move to recommend village board approve authorizing resolution 2026-022 for special assessments for drive approach construction for Bayberry Street and Concord Avenue reconstruction project as presented in engineer's report",
+        "mover": "Barbara Ermeling",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Continue farmers market at Kennedy Park",
+        "motion": "Motion to approve",
+        "mover": "Mark Maloney",
+        "second": "Luis Lopes-Serrao",
+        "outcome": "Approved",
+        "tally": "4-1"
+      },
+      {
+        "item": "Accept Planning Commission recommendation to deny rezoning of 4205 and 4307 Weston Avenue from B2 to LI for storage facility",
+        "motion": "Move that the village board approves the recommendation to deny that came from the planning commission",
+        "mover": "Luis Lopes-Serrao",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
   },
   {
     "id": "kw_a1cf1e0be9fb4217aeeb180d8ef4cbcf",
@@ -1029,6 +1155,291 @@
       "Knetter Pond"
     ],
     "votes": []
+  },
+  {
+    "id": "kw_4b451bf64cea4053a801fe5073e865f5",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "August 10, 2026",
+    "shortDate": "AUG 10",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-63",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-4b451bf64cea4053a801fe5073e865f5.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board held its August 10, 2026 meeting with six of seven trustees present (Stowell absent/excused). The board approved two significant actions: eliminating the village's oak wilt ordinance and reimbursement policy, and passing a one-year moratorium on new data center development applications to allow planning and utility committees time to study the issue. The meeting also featured extensive financial updates on the village's tax increment districts, equalization values, and upcoming property reassessment process.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:15",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:10",
+        "item": "Motion to Move Items"
+      },
+      {
+        "time": "2:30",
+        "item": "Chairperson Comments"
+      },
+      {
+        "time": "2:55",
+        "item": "Public Comment - Written Submissions"
+      },
+      {
+        "time": "5:30",
+        "item": "Police Chief Report"
+      },
+      {
+        "time": "18:45",
+        "item": "Village Administrator Report"
+      },
+      {
+        "time": "31:00",
+        "item": "Revaluation Update - Village Assessor Report"
+      },
+      {
+        "time": "42:00",
+        "item": "Finance Director Report"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Consent Agenda - July 27, 2026 Village Board Meeting Minutes"
+      },
+      {
+        "time": "1:10:00",
+        "item": "New Business - Oak Wilt Ordinance Discussion and Action"
+      },
+      {
+        "time": "1:22:00",
+        "item": "New Business - Resolution 2026-011 Temporary Moratorium on Data Center Development"
+      },
+      {
+        "time": "1:35:00",
+        "item": "Consideration of Items for Next Agenda / Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - Written Submissions",
+        "body": "Two written public comments were read into the record. Lamont Yager of Civil Road submitted a lengthy letter requesting enforcement of oak wilt ordinance 389-1 against the owner of 1916 Civil Road, asking police enforcement of 389-2 regarding a dead tree defined as a nuisance, and calling for an investigation of Village President Joling for alleged obstruction of justice, accusing him of being 'petty, tyrannical and vindictive.' President Joling noted that the tree in question is being handled following administrator Deval's contact with the property owner, who is waiting until after August 15th to cut the oak. A second letter was entered into the minutes without being read aloud due to length."
+      },
+      {
+        "item": "Police Chief Report",
+        "body": "The police chief (referred to as 'Terry') reported on several notable incidents: a high number of domestic violence calls in July including one involving ten felony charges and three misdemeanors with a weapon; a 12-year sentence handed down in the Maple Ridge Road aggravated battery case, with the department receiving praise from the district attorney; and a high-speed pursuit of an attempted homicide suspect that came through Kronenwetter at speeds exceeding 120 mph, with KPD participating under their pursuit policy. Trustee Coyle asked about body camera status; the chief confirmed the department has had body cams since approximately 2021-2022, currently using updated units compatible with their in-car systems, with storage through City-County IT rather than higher-cost providers like Axon."
+      },
+      {
+        "item": "Village Administrator Report",
+        "body": "Administrator Deval welcomed new Community Development Director Nathan Samot, who began the previous Thursday. He updated the board on several matters: the Wausau School District superintendent plans to attend the October 12th board meeting to discuss a possible referendum; a meeting is planned with Green Tree regarding the Mortensen International Golf Course area and access issues; a lawsuit by St. Teresa Church over an open pit sand mine decision is pending a new judge after the original recused herself, with the village's attorney suggesting it may be thrown out; and an Act 10 update was referenced with no immediate action planned. Deval also noted that TID 1's prospective distribution center tenant may begin construction as early as September or October."
+      },
+      {
+        "item": "Revaluation Update - Village Assessor Report",
+        "body": "The administrator presented on behalf of the assessor, explaining that letters are being mailed today to all property owners informing them of an upcoming exterior revaluation process beginning the week of August 24th. A field team of five individuals from Associated Appraisal will survey the entire village. Property owners need take no action; the revaluation will affect December 2027 tax bills, not 2026. Assessment values are expected to need to increase on average approximately 40% to reach full value, as the current assessment ratio has fallen to 63%. The village must complete this revaluation by end of 2027 or the state will conduct it at two to three times the cost in 2028."
+      },
+      {
+        "item": "Finance Director Report",
+        "body": "Finance Director John presented preliminary 2027 budget figures from the state. The village's equalized valuation reached nearly $1.2 billion, a $100 million or 9.4% increase, but only $8.8 million is net new construction, meaning the assessment ratio dropped from 69% to 63%. The net new construction limit means the tax levy can technically only increase by about $12,000 for 2027, which does not cover staff raises or basic costs. TID 1 saw a concerning $2.5 million valuation reduction — partly from the local assessor's obsolescence adjustments on two parcels and partly from an unexplained $1.4 million state correction the finance director is still awaiting explanation on — meaning the general fund advance to TID 1 could rise from roughly $125,000 to as much as $200,000 in 2027. On a positive note, the village has $49 million remaining under its general obligation debt limit and still has room under the 12% TID valuation cap, with the finance director flagging a potential future TID 5 to help finance a new water tower."
+      },
+      {
+        "item": "Consent Agenda - July 27, 2026 Village Board Meeting Minutes",
+        "body": "Trustee Coyle moved and Trustee Mortensen seconded approval of the July 27, 2026 meeting minutes. The motion passed unanimously with no discussion."
+      },
+      {
+        "item": "Oak Wilt Ordinance Elimination",
+        "body": "The board discussed eliminating the village's oak wilt ordinance (389-1) and its associated reimbursement policy, following a unanimous recommendation from the CLIP committee on August 3rd. Key reasons cited included: the reimbursement fund has been depleted for several years, the village has no certified tree inspector on staff or under contract, and oak wilt is so prevalent throughout the village and surrounding municipalities that enforcement is not feasible. Trustee Solheim raised concern about losing the April-through-August pruning restriction window and its value for developers; staff noted the DNR classifies Marathon County in the north zone with a shorter April 15–July 15 restriction. The board agreed that DNR guidelines would be linked on the village website. Trustee Coyle moved and a trustee seconded to eliminate both the ordinance and reimbursement policy; the motion passed unanimously."
+      },
+      {
+        "item": "Resolution 2026-011 - Temporary Moratorium on New Data Center Development",
+        "body": "The board considered a one-year moratorium on new data center development applications, referring the matter to the planning commission and utility committee for study of zoning, utility, infrastructure, and land use implications. Administrator Deval noted there is significant misinformation circulating about data centers and the village simply needs better information before acting on any application. Nathan Samot flagged a minor typographical error in the resolution. Trustee Coyle moved and Trustee Mortensen seconded; the resolution passed 7-0 on a roll call vote. It was noted that Marathon County is considering similar action covering townships, and each municipality must pass its own."
+      },
+      {
+        "item": "Consideration of Items for Next Agenda",
+        "body": "Nathan Samot discussed the appeals process for conditional use permits, stating his research found no villages where CUP appeals go to the village board and recommending the matter be referred to the planning commission, partly because two board members sit on the planning commission, creating impartiality concerns. The board will also receive the 10-year Capital Improvement Plan (CIP) for the first time at the next meeting, after it completes review at the APC. Deval indicated funding mechanisms and affordability analysis will be ready at that time."
+      }
+    ],
+    "publicComment": "Two written public comments were submitted. Lamont Yager of Civil Road wrote requesting enforcement of the oak wilt ordinance against 1916 Civil Road, police enforcement of a nuisance ordinance regarding a dead tree on the same property, and an investigation of Village President Joling for alleged obstruction of justice, accusing him of favoritism and calling him 'petty, tyrannical and vindictive.' A second written submission was entered into the minutes without being read aloud due to its length. No members of the public spoke in person.",
+    "actionItems": [
+      "Oak wilt ordinance 389-1 and associated reimbursement policy eliminated by board vote",
+      "One-year moratorium on new data center development applications approved; matter referred to planning commission and utility committee for recommendations on zoning, utility, infrastructure, and land use",
+      "Village administrator to link DNR oak wilt guidelines on village website",
+      "Finance director to obtain explanation from state for unexplained $1.4 million TID 1 valuation reduction",
+      "10-year CIP to be presented to village board at next meeting following APC review",
+      "Appeals process for conditional use permits to be reviewed by planning commission with recommendation to come back to board",
+      "Village president to communicate to Lamont Yager that the tree at 1916 Civil Road is being addressed by the property owner",
+      "Wausau School District superintendent to attend October 12 board meeting to discuss potential referendum",
+      "Meeting to be held with Green Tree regarding Mortensen International Golf Course area access",
+      "Nathan Samot (new Community Development Director) beginning work; board members encouraged to meet him"
+    ],
+    "topics": [
+      "Budget",
+      "Zoning",
+      "Development",
+      "TID 1 Distribution Center",
+      "Data Center Moratorium",
+      "Oak Wilt Ordinance",
+      "Property Revaluation",
+      "Public Safety"
+    ],
+    "votes": [
+      {
+        "item": "Approval of July 27, 2026 Village Board Meeting Minutes",
+        "motion": "Motion to approve the July 27, 2026 meeting minutes",
+        "mover": "Kelly Coyle",
+        "second": "Craig Mortensen",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Elimination of oak wilt ordinance and reimbursement policy",
+        "motion": "Motion to eliminate the oak wilt ordinance as well as the oak wilt reimbursement policy",
+        "mover": "Kelly Coyle",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Resolution 2026-011 - One-year moratorium on new data center development applications",
+        "motion": "Motion to approve a one-year moratorium on data center creation and refer the matter to the planning commission and utility committee for recommendations regarding potential zoning, utility, infrastructure, and land use",
+        "mover": "Kelly Coyle",
+        "second": "Craig Mortensen",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Craig Mortensen",
+        "second": "Dan Lesniak",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "bb_759354",
+    "source": "school_board",
+    "title": "Regular Meeting",
+    "date": "August 10, 2026",
+    "shortDate": "AUG 10",
+    "committee": "Regular Meeting",
+    "duration": "1h 39m",
+    "url": "https://www.youtube.com/watch?v=Dkt72jkA2jo",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau School Board held its regular August 10, 2026 meeting, dominated by a lengthy discussion on elementary class sizes prompted by Rib Mountain Elementary parents concerned about a projected 25-student first grade class with no scheduling flexibility as a single-section school. The board also received a referendum construction update showing projects at John Marshall, Rib Mountain, Franklin, and Lincoln near completion, and unanimously approved eight policy updates required by Wisconsin Act 89, a new law governing staff-student communications and mandatory reporting timelines.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
+      },
+      {
+        "time": "1:30",
+        "item": "Pledge of Allegiance and Mission Statement"
+      },
+      {
+        "time": "2:15",
+        "item": "Agenda Item 5: Public and Student Comment"
+      },
+      {
+        "time": "14:20",
+        "item": "Agenda Item 6: Consent Agenda Approval"
+      },
+      {
+        "time": "16:10",
+        "item": "Agenda Item 8: Old Business - No items"
+      },
+      {
+        "time": "16:30",
+        "item": "Agenda Item 8 (New Business): Referendum 2022 Construction Updates - Nexus Presentation"
+      },
+      {
+        "time": "28:45",
+        "item": "Agenda Item 8C: Administration Presentation on District Class Size"
+      },
+      {
+        "time": "1:42:00",
+        "item": "Agenda Item 8D: Act 89 Policy Review and Approval"
+      },
+      {
+        "time": "2:08:00",
+        "item": "Agenda Item 9: Professional Growth, Legislative Liaison Update, and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment: Rib Mountain Elementary Class Size",
+        "body": "Two speakers addressed class size concerns at Rib Mountain Elementary. Ann Wicklund, a retired Wausau School District director of special education with 50 years in early childhood education, spoke about the developmental importance of K-3 class sizes and the risks of a projected 25-student first grade class, but was cut off slightly over her 3-minute limit. Nate Bartsch, a Rib Mountain parent speaking on behalf of many families present in the audience, argued that as a single-section school Rib Mountain has 'zero flexibility' to balance behavioral or academic needs across classrooms, and asked the board for immediate action for the 2026-27 school year rather than just acknowledgment."
+      },
+      {
+        "item": "Consent Agenda Approval",
+        "body": "Board President Bouché sought a motion to approve the consent agenda covering staff appointments, replacements, contract changes, separations, leaves, retirements, meeting minutes from July 13 and August 3 sessions, payment of bills, budget and investment reports, and donations from Lynn Miller, Nikki O'Neal, and an anonymous donor. The motion was approved, though Bouché acknowledged moving too quickly and noted he heard Vice President Trollop's (participating virtually) vote at the end."
+      },
+      {
+        "item": "Referendum 2022 Construction Updates - Nexus Presentation",
+        "body": "Representatives Chris and Kevin Hickman of Nexus provided updates on construction at John Marshall, Rib Mountain, Franklin, and Lincoln schools, noting occupancy inspections were scheduled for the following week and most classrooms had been turned over for cleaning. Kevin Hickman thanked the district for a 12-year partnership and credited the community-approved referendum with producing 'safer schools, renewed infrastructure, and improving environments.' Board member Pat McKee publicly noted that Nexus president Mike had not appeared before the board since threatening legal action years earlier, calling it a missed opportunity for a 'decent touch,' and asked Hickman to relay that message."
+      },
+      {
+        "item": "District Class Size Presentation and Discussion",
+        "body": "Administration presented current class size guidelines (K-1: max 25; 2-3: max 27; 4-5: max 29; AGR schools K-3: max 18), six years of average class size data showing district average of 20.2 for 2026-27, and modeled an alternative 21-23-25 framework that would require eight additional sections and approximately $1.1 million in staffing costs against a projected $1.36 million budget shortfall for 2027-28. Board members engaged in extensive debate: Pat McKee argued for a 'classroom complexity factor' beyond pure enrollment numbers, drawing applause; Lance Trollop (virtual) pushed back on media framing that class sizes had hit a six-year high, noting the increase was less than one student; Cory Sillars advocated for adding para support to younger grades and requested a school-by-school staffing model; Jennifer Paoli asked about para allocation processes and whether a lower-cost para increase could substitute for new sections; and Nick Crochiere raised the possibility of a future referendum targeted at class size reduction. Administration confirmed Rib Mountain first grade would receive an enrollment para given its enrollment at the maximum, and noted the district is already approximately 40 staff short with two weeks until school starts."
+      },
+      {
+        "item": "Act 89 Policy Review and Approval",
+        "body": "District administrator Tabitha Gundrum (identified as Ms. Gundrum/Mensley in transcript) walked the board through eight updated or new policies required by Wisconsin Act 89, passed in March 2026, covering staff-student communication standards, annual training requirements, and mandatory reporting timelines. Key changes include a statutory prohibition on direct staff-to-student personal device communication, with SportsYou and Google Chat identified as approved platforms; removal of 'preferential treatment' language from policies as unenforceable; new 'grooming' definition sections; and strict reporting deadlines requiring parent notification by 5:00 p.m. the same day if a report is received before end of school day, or by noon the next calendar day if received after hours. Gundrum noted training launched August 1 with a 25-minute attorney-produced video, with roughly 30% of staff already completing it, and that volunteer training remains a significant logistical challenge. The board voted unanimously to approve all eight policy changes."
+      },
+      {
+        "item": "Legislative Liaison Update and CESA 9 Report",
+        "body": "Cory Sillars reported on the CESA 9 annual convention held August 3, noting he chaired the meeting in the absence of regular chair Chris Petronek, that a new member from the Lakeland area joined, and that Larry Schaefer of DC Everest was recognized for 30 years of service. Sillars also mentioned speaking with Secretary Duffy over the weekend about construction costs and energy prices. Superintendent Bushman thanked Rib Mountain families for attending, announced the August 24 staff welcome-back event, and invited board members to attend."
+      }
+    ],
+    "publicComment": "Two speakers addressed the board. Ann Wicklund, 227-350 Bard Owl Avenue, Wausau, a retired Wausau School District director of special education with over 50 years in early childhood education, raised concerns about a projected 25-student first grade class at Rib Mountain Elementary and the importance of class size in early childhood development; she was cut off slightly over the 3-minute limit. Nate Bartsch, 151306 Kingfisher Lane, Rib Mountain, spoke on behalf of many Rib Mountain families present in the audience, arguing the school's single-section structure leaves no flexibility to manage behavioral or academic complexity and asking the board for concrete action for the 2026-27 school year. A third potential speaker, Jess Bartz, declined to speak.",
+    "actionItems": [
+      "Administration to return to the board with further analysis, potentially including a classroom complexity factor model for staffing decisions",
+      "Administration to provide a school-by-school staffing model showing all positions (teachers, paras, custodians, food service, etc.) per building",
+      "Administration to explore fiscal impact of modifying para allocation as an alternative or supplement to adding full sections",
+      "Administration to continue vetting approved communication apps to ensure Act 89 compliance for staff-student communication",
+      "Administration to develop a plan to deliver Act 89 training to all district volunteers",
+      "Administration and board to continue preliminary discussions about a possible future referendum; no timeline or final decision made",
+      "Nexus to complete remaining construction punch-list items at John Marshall, Rib Mountain, Franklin, and Lincoln ahead of occupancy inspections",
+      "Cory Sillars to deliver CESA 9 annual report packet to district staff"
+    ],
+    "topics": [
+      "Class Size",
+      "School Staffing",
+      "Budget Constraints",
+      "Act 89 Policy Compliance",
+      "Referendum Construction"
+    ],
+    "votes": [
+      {
+        "item": "Consent agenda including staff actions, meeting minutes, bill payments, and donations",
+        "motion": "Motion to approve the consent agenda",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Eight policy updates required by Wisconsin Act 89",
+        "motion": "Motion to approve the proposed changes to policies related to Act 89",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
   },
   {
     "id": "kw_91d8ac56afd64f8387fac2558d0280f4",
@@ -1135,186 +1546,6 @@
     ]
   },
   {
-    "id": "kw_4b451bf64cea4053a801fe5073e865f5",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "August 10, 2026",
-    "shortDate": "AUG 10",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-63",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-4b451bf64cea4053a801fe5073e865f5.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on August 10, 2026 to consider staff reports on police, fire, and financial matters, as well as new business including an Oak Wilt Ordinance and a resolution establishing a temporary moratorium on new data center development applications. The meeting was set to address zoning and development policy matters referred to planning committees for further study.",
-    "agenda": [
-      {
-        "time": "6:00 PM",
-        "item": "Police Chief's Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Fire Chief Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Administrator Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Revaluation Update Report from Village Assessor"
-      },
-      {
-        "time": "N/A",
-        "item": "Finance Director Report – Preliminary Equalized Valuation & TID Increments"
-      },
-      {
-        "time": "N/A",
-        "item": "July 27, 2026 Village Board Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Oak Wilt Ordinance (CLIPP)"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution 2026-011 Establishing a Temporary Moratorium on New Data Center Development Applications and Referring the Matter to the Planning and Utility Committees for Further Study (CLIPP)"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Oak Wilt Ordinance",
-        "body": "The board was scheduled to discuss and take possible action on an Oak Wilt Ordinance, a measure related to environmental or forestry management within the village."
-      },
-      {
-        "item": "Resolution 2026-011 Temporary Moratorium on New Data Center Development",
-        "body": "The board was set to consider Resolution 2026-011, which was scheduled to establish a temporary moratorium on new data center development applications while referring the matter to the Planning and Utility Committees for further study and analysis."
-      },
-      {
-        "item": "Finance Director Report – Preliminary Equalized Valuation & TID Increments",
-        "body": "The Finance Director was scheduled to present a report on preliminary equalized valuation and Tax Increment District (TID) increments for the village's review and consideration."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda, scheduled for up to 15 minutes total with a three-minute time period per person, subject to extension at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Scheduled to vote on approval of July 27, 2026 Village Board Meeting Minutes",
-      "Expected to consider and take action on the Oak Wilt Ordinance",
-      "Scheduled to vote on Resolution 2026-011 establishing a temporary moratorium on new data center development applications"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Data Centers",
-      "Environmental Policy",
-      "Budget",
-      "Property Valuation"
-    ],
-    "votes": []
-  },
-  {
-    "id": "bb_759354",
-    "source": "school_board",
-    "title": "Regular Meeting",
-    "date": "August 10, 2026",
-    "shortDate": "AUG 10",
-    "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on August 10, 2026, to address staffing changes, construction updates on 2022 referendum projects, class size guidelines, and adoption of Act 89-related policies. The meeting included action items on consent agenda approvals and policy reviews that were expected to impact student supervision, staff conduct, and technology use across the district.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Roll Call"
-      },
-      {
-        "time": "N/A",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "N/A",
-        "item": "Reading of the Mission Statement"
-      },
-      {
-        "time": "N/A",
-        "item": "Public and Student Comment"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Consent Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "Education/Operations Committee Meeting (Old/Recurring Business)"
-      },
-      {
-        "time": "N/A",
-        "item": "Education/Operations Committee Meeting (New Business)"
-      },
-      {
-        "time": "N/A",
-        "item": "Referendum 2022 Construction Updates"
-      },
-      {
-        "time": "N/A",
-        "item": "Class Size Presentation"
-      },
-      {
-        "time": "N/A",
-        "item": "Act 89 Policies"
-      },
-      {
-        "time": "N/A",
-        "item": "Open Forum"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Consent Agenda",
-        "body": "The Board was scheduled to consider a consent agenda covering multiple administrative items including appointments and replacement staff, separations, leaves of absence, retirements, and approval of minutes from the July 13, 2026 regular session, the August 3, 2026 special session, and the August 3, 2026 board workshop. The agenda also included payment of bills and budget status review, along with consideration of donations to the district."
-      },
-      {
-        "item": "Referendum 2022 Construction Updates",
-        "body": "Nexus was scheduled to present a 10-minute update on current referendum construction projects at John Marshall, Rib Mountain, Franklin, and Lincoln schools. The presentation was expected to provide the Board with progress reports on these district facility improvements."
-      },
-      {
-        "item": "Class Size Presentation",
-        "body": "Presenters Katie Colwell and Elizabeth Channel were scheduled to deliver a 20-minute presentation on district class size guidelines. The Administration was expected to provide an overview of current class sizes across the district and present updated guidelines for 2026."
-      },
-      {
-        "item": "Act 89 Policies",
-        "body": "The Board was scheduled to review and consider proposed policy language addressing Act 89 requirements over a 10-minute period. The review was expected to cover 10 policies including student supervision and welfare (policies 1213, 3213, and 4213), board member behavior and conduct, staff use of personal communication devices, student technology acceptable use and safety, social media use, volunteer standards, and child abuse and neglect protocols."
-      }
-    ],
-    "publicComment": "A public and student comment period was included on this agenda.",
-    "actionItems": [
-      "Board was expected to approve the consent agenda including appointments, separations, leaves of absence, retirements, and minutes",
-      "Action was requested for the Board to approve Act 89 policies addressing student supervision, staff conduct, technology use, and child protection"
-    ],
-    "topics": [
-      "Staffing",
-      "Facilities",
-      "Referendum 2022",
-      "Curriculum",
-      "Policy",
-      "John Marshall School",
-      "Rib Mountain School",
-      "Franklin School",
-      "Lincoln School"
-    ],
-    "votes": []
-  },
-  {
     "id": "kw_3ac7964efee943b284a49f1af88be58d",
     "source": "kronenwetter",
     "title": "Utility Committee Meeting",
@@ -1385,6 +1616,110 @@
       "Wastewater"
     ],
     "votes": []
+  },
+  {
+    "id": "bb_754152",
+    "source": "school_board",
+    "title": "Special Meeting",
+    "date": "August 3, 2026",
+    "shortDate": "AUG 3",
+    "committee": "Special Meeting",
+    "duration": "11m",
+    "url": "https://www.youtube.com/watch?v=oFltThftT1g",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau School Board held a special meeting on August 3, 2026, approving a consent agenda, a ratified teacher salary agreement with the WEA (0.714% schedule increase within the board's 2.63% parameter), and employee handbook changes including expanded longevity bonuses and a new flexible sick-to-personal-day conversion policy. Following the short special meeting, the board transitioned to a separate special meeting workshop covering a school perception survey, strategic plan, and potential referendum discussions.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:20",
+        "item": "Agenda Item 2: Approve Consent Agenda (appointments, staff changes, separations, leaves, retirements)"
+      },
+      {
+        "time": "0:45",
+        "item": "Agenda Item 3: Teacher Salary Approval for 2026-2027 (WEA ratified agreement)"
+      },
+      {
+        "time": "3:30",
+        "item": "Agenda Item 4: Employee Handbook Updates for 2026-27 (longevity bonus extension and sick-to-personal-day conversion)"
+      },
+      {
+        "time": "9:50",
+        "item": "Adjournment of Special Meeting and Transition to Special Meeting Workshop"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approve Consent Agenda",
+        "body": "The board moved quickly to approve the consent agenda covering appointments, additional and replacement staff, contract increases and decreases, separations, resignations, terminations, leaves of absence, and retirements. No discussion was recorded. The motion passed unanimously."
+      },
+      {
+        "item": "Teacher Salary Approval for 2026-2027",
+        "body": "A presenter (identified as Ms. Gundrum or Ms. Channel) reported that the WEA had ratified a settlement the prior week providing a 0.714% increase on the salary schedule, within the board's established parameter of 2.63%. She noted 11 staff members would receive two-step movement for earning master's degrees, and no staff earned new national board certification this year. A board member asked about competitive positioning relative to other districts; administration responded that recruitment has not been significantly hindered, with only one or two candidates per year lost due to salary expectations, and that neighboring districts made similar increases. The motion to accept the certified staff salary changes passed unanimously."
+      },
+      {
+        "item": "Employee Handbook Updates for 2026-27",
+        "body": "Ms. Gundrum presented two proposed handbook changes for teaching staff. First, the longevity bonus stipend of $500 (paid at 5, 10, 15, and 20 years of experience, established last year) would be extended to cover years 25, 30, 35, and 40. Second, a new provision would allow teachers to convert sick leave days into personal leave days on an escalating scale tied to years of service: 1 day at 5 years, 2 at 10, 3 at 15, 4 at 20, and 5 at 25 years. A board member raised the question of whether the longevity bonus should extend beyond 40 years to cover any employee who might work 45 or more years, citing unlikely but possible scenarios. Administration acknowledged the suggestion but noted no current teacher has reached that threshold. The motion to approve the handbook language changes passed unanimously."
+      },
+      {
+        "item": "Special Meeting Workshop (School Perception Survey, Strategic Plan, Potential Referendum)",
+        "body": "After adjourning the special meeting, Board President Bouché called the special meeting workshop to order, noting that Superintendent Bushman and administration would present on a school perception survey, strategic plan, and initial referendum discussions. The board relocated to the PDC (Professional Development Center) in the educational wing for a workshop-style setup. No votes or detailed discussion from that session were captured in the transcript."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Implement the ratified WEA salary agreement (0.714% schedule increase) for payroll for the 2026-27 school year",
+      "Apply two-step movement on salary schedule for the 11 staff members who earned master's degrees",
+      "Implement updated employee handbook language extending longevity bonuses to years 25, 30, 35, and 40",
+      "Implement new sick-to-personal-day conversion policy for teaching staff beginning 2026-27, with escalating allowances by years of service",
+      "Monitor sick-to-personal-day usage in year one or two for evaluation purposes",
+      "Proceed with Special Meeting Workshop on school perception survey, strategic plan, and potential referendum discussions in PDC"
+    ],
+    "topics": [
+      "Staffing",
+      "Teacher Salaries",
+      "Employee Benefits",
+      "Budget",
+      "Referendum Planning"
+    ],
+    "votes": [
+      {
+        "item": "Approve consent agenda",
+        "motion": "Approve the consent agenda",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Accept certified staff salary changes for 2026-27 (WEA ratified agreement, 0.714% schedule increase)",
+        "motion": "Accept the certified staff salary changes as presented by administration",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approve recommended changes to 2026-27 employee handbook (longevity bonus extension and sick-to-personal-day conversion)",
+        "motion": "Approval of the recommended changes to the 2026-27 employee handbook language",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjourn special meeting",
+        "motion": "Adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "kw_7c76106005794cfd92b961ca57869671",
@@ -1637,81 +1972,6 @@
         "tally": "4-0"
       }
     ]
-  },
-  {
-    "id": "bb_754152",
-    "source": "school_board",
-    "title": "Special Meeting",
-    "date": "August 3, 2026",
-    "shortDate": "AUG 3",
-    "committee": "Special Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to address personnel matters, teacher salary adjustments for the 2026-27 school year, and employee handbook updates. The board was expected to consider approval of a negotiated salary settlement and modifications to employee policies ahead of the upcoming school year.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Consent Agenda (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.A. Appointments (Additional Staff, Replacement Staff, Contract Increases)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.B. Separations (Resignations, Contract Decreases, Terminations)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.C. Leaves of Absence"
-      },
-      {
-        "time": "N/A",
-        "item": "II.D. Retirements"
-      },
-      {
-        "time": "N/A",
-        "item": "Teacher Salary Approval for 26-27 (Potential Action)"
-      },
-      {
-        "time": "N/A",
-        "item": "Employee Handbook Updates for 2026-27 (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Teacher Salary Approval for 26-27",
-        "body": "Elizabeth Channel and Tabatha Gundrum were scheduled to present on budget updates and potential changes to teaching staff salaries for the 2026-27 school year, with an estimated presentation time of 10 minutes. The presentation was expected to address a negotiations settlement and review the pending 2026-27 teacher salary schedule."
-      },
-      {
-        "item": "Employee Handbook Updates for 2026-27",
-        "body": "Tabatha Gundrum was scheduled to share additional employee handbook updates for the 2026-27 school year, with an estimated presentation time of 2 minutes. The presentation was expected to include a marked-up version of the handbook illustrating suggested edits for board review and approval."
-      }
-    ],
-    "publicComment": "No public comment period was included on this agenda.",
-    "actionItems": [
-      "Board was expected to approve the consent agenda including appointments, separations, leaves of absence, and retirements",
-      "Action was requested for approval of the 2026-27 teacher salary schedule based on the negotiations settlement",
-      "Action was requested for approval of the 2026-27 employee handbook updates"
-    ],
-    "topics": [
-      "Staffing",
-      "Budget",
-      "Policy",
-      "Compensation"
-    ],
-    "votes": []
   },
   {
     "id": "bb_754138",
@@ -3162,6 +3422,228 @@
     "votes": []
   },
   {
+    "id": "bb_752240",
+    "source": "dc_everest",
+    "title": "Regular School Board Meeting",
+    "date": "July 15, 2026",
+    "shortDate": "JUL 15",
+    "committee": "Regular Meeting",
+    "duration": "25m",
+    "url": "https://www.youtube.com/watch?v=emLgeM3YuZ8",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The DC Everest School Board held its regular July 2026 meeting, approving several routine annual items including the budget hearing date, academic standards, student handbooks, and independent hearing officers. Notable discussions included a board member's suggestion to implement an AI chatbot for student handbooks, updates on the GTCC cooling/rink project hosting the horseshoe pitching championship, and a facilities study timeline with upcoming community engagement sessions. The board then moved to closed session to discuss personnel matters.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
+      },
+      {
+        "time": "1:10",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "1:55",
+        "item": "Public Comment"
+      },
+      {
+        "time": "2:05",
+        "item": "Consent Agenda"
+      },
+      {
+        "time": "2:45",
+        "item": "Non-Certified Staff Employment Changes (Informational)"
+      },
+      {
+        "time": "3:05",
+        "item": "WASB Report"
+      },
+      {
+        "time": "5:20",
+        "item": "Curriculum and Instruction Report (Larry Schaefer)"
+      },
+      {
+        "time": "5:45",
+        "item": "Superintendent Report (Dr. Knight) - Certified Staff Compensation, Screen Time Study, Facilities Study, Summer Projects, GTCC Update"
+      },
+      {
+        "time": "18:00",
+        "item": "New Business A: Set Date for Annual Meeting Budget Hearing"
+      },
+      {
+        "time": "19:10",
+        "item": "New Business B: Academic Standards 2026-2027"
+      },
+      {
+        "time": "20:00",
+        "item": "New Business C: Approval of Independent Hearing Officers"
+      },
+      {
+        "time": "21:10",
+        "item": "New Business D: School Handbook Changes"
+      },
+      {
+        "time": "25:30",
+        "item": "New Business E: Review of Policy 2261.01 - Parent and Family Engagement in Title One Programs"
+      },
+      {
+        "time": "26:30",
+        "item": "New Business F: Annual Evaluation of Reading Curriculum Policy 2131.01 (Informational)"
+      },
+      {
+        "time": "27:10",
+        "item": "New Business G: Senior High Trip to Japan"
+      },
+      {
+        "time": "28:00",
+        "item": "New Business H: First Reading of Policies (including Policy 7544 Social Media)"
+      },
+      {
+        "time": "33:30",
+        "item": "Future Meeting Dates and Announcements"
+      },
+      {
+        "time": "34:30",
+        "item": "Adjournment to Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "WASB Report",
+        "body": "Grabko reported on the July legal and legislative update, the WASB summer symposium in Stevens Point which included a legislative recap, school safety discussions, and a presentation by Jesse Crow from the Wisconsin Department of Justice on emerging online safety trends for kids. She also highlighted a new WASB social media campaign called 'Setting the Record Straight' aimed at addressing misconceptions about public education, with its first focus on per-pupil spending."
+      },
+      {
+        "item": "Superintendent Report",
+        "body": "Dr. Knight acknowledged Ellen Suko's name appearing in the employment report, calling her an important district team member without providing further detail. He provided updates on certified staff compensation planning tied to staff survey and town hall feedback, noting that potential insurance increases could limit flexibility; staff will be invited to optional August sessions for feedback with a fall board update planned. He also reported on a facilities study with community engagement meetings beginning with the Village of Weston the following week, and summer projects including ongoing Riverside construction with a 22-week delay on an air handler replacement, new playground equipment at Hatley and Ratchild, and the GTCC cooling and rink project now hosting the World Horseshoe Pitching Championship."
+      },
+      {
+        "item": "School Handbook Changes",
+        "body": "Dr. Knight noted no significant substantive changes to the handbooks, with updates limited to calendars, meal prices, names, and policy updates. Board member Katie Felch raised the idea of implementing an AI chatbot to help families navigate the 37-page handbook more easily, referencing examples from LNS and UW-Stevens Point. Dr. Knight responded positively and suggested connecting with NTC, calling the handbook the most-referenced single resource for families."
+      },
+      {
+        "item": "First Reading of Policies (Policy 7544 - Social Media)",
+        "body": "Larry Schaefer raised a question about Policy 7544 on social media use, specifically whether employees were forbidden from communicating privately one-to-one with students. Felch clarified that the policy prohibits staff from using social media platforms like Instagram, Facebook, Snapchat, or X to privately message students, not from using district-approved communication channels like email. Dr. Knight added that the district is being firmer about prohibiting private messaging through social media platforms even when not used inappropriately, and that platforms like Band are the district-approved alternative for group communications."
+      },
+      {
+        "item": "Set Date for Annual Meeting Budget Hearing",
+        "body": "Dr. Strike explained that final budget numbers are available October 15th and the district needs time to adjust before adoption by end of October. The board approved October 28th, 2026 as the date for the annual meeting budget hearing without discussion."
+      },
+      {
+        "item": "Senior High Trip to Japan",
+        "body": "Dr. Knight explained the trip is designed for students engaged in the district's Chinese language program as an opportunity to experience a different part of the world, noting it is not offered every year. The board approved the senior high trip to Japan scheduled for March 2028."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Annual Meeting Budget Hearing set for October 28th, 2026",
+      "Academic standards approved for 2026-2027 school year",
+      "Steven Pufall and Renee Seby approved as independent expulsion hearing officers; Policy 5610.01 re-adopted",
+      "Student handbooks approved for 2026-2027; staff directed to explore AI chatbot for handbook navigation",
+      "Policy 2261.01 (Parent and Family Engagement in Title One Programs) approved as annual review",
+      "Senior high trip to Japan in March 2028 approved",
+      "First reading of policies approved including updated Policy 7544 on social media",
+      "Board members directed to provide Dr. Knight with community contacts for external perspectives on curriculum/facilities planning (October convening)",
+      "Staff optional feedback sessions on certified compensation to be held in August",
+      "Student screen time data collection to proceed with live data this fall for board report",
+      "Board members to register with Ellen for WASB Region 5 meeting September 29th in Rothschild or November 3rd online workshop",
+      "Board adjourned to closed session for personnel matters"
+    ],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "Facilities",
+      "School Safety",
+      "Curriculum"
+    ],
+    "votes": [
+      {
+        "item": "Approval of Agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Consent Agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Set October 28, 2026 as date for Annual Meeting Budget Hearing",
+        "motion": "Motion to set October 28th, 2026 as the date for the annual meeting budget hearing",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Academic Standards for 2026-2027",
+        "motion": "Motion to approve the academic standards for the 2026-2027 school year",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approval of Steven Pufall and Renee Seby as expulsion hearing officers and re-adoption of Policy 5610.01",
+        "motion": "Motion to approve Steven Pufall and Renee Seby as expulsion hearing officers and re-adopt policy 5610.01",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Student Handbook Changes for 2026-2027",
+        "motion": "Motion to approve the changes to the student handbooks for 2026-2027",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Policy 2261.01 - Parent and Family Engagement in Title One Programs",
+        "motion": "Motion to approve policy 2261.01 as required annually",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Senior High Trip to Japan in March 2028",
+        "motion": "Motion to approve the senior high trip to Japan in March of 2028",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "First Reading of Policies (including Policy 7544 Social Media)",
+        "motion": "Motion to approve the policies listed in the background on the first reading",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment to Closed Session per Wisconsin State Statute 19.851c",
+        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.851c for considering employment, promotion, compensation, or performance evaluation of any public employee",
+        "mover": "Shannon Grabko",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-0"
+      }
+    ]
+  },
+  {
     "id": "60YcRDpmqd4",
     "source": "marathon",
     "title": "Executive Committee Meeting Pt.2",
@@ -3259,238 +3741,6 @@
         "tally": null
       }
     ]
-  },
-  {
-    "id": "bb_752240",
-    "source": "dc_everest",
-    "title": "Regular School Board Meeting",
-    "date": "July 15, 2026",
-    "shortDate": "JUL 15",
-    "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=752240",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to conduct a regular meeting addressing staffing changes, budget matters, policy reviews, and several administrative updates. The board was expected to consider multiple policy approvals, school handbook revisions, curriculum evaluations, and facility planning discussions.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Roll Call"
-      },
-      {
-        "time": "N/A",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of Agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Comment"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Certified Staff Recommended Employment/Resignations/Contract Adjustments"
-      },
-      {
-        "time": "N/A",
-        "item": "Treasurer's Report - General/Other Fund Bills"
-      },
-      {
-        "time": "N/A",
-        "item": "Balance Sheet"
-      },
-      {
-        "time": "N/A",
-        "item": "Budget Transfers"
-      },
-      {
-        "time": "N/A",
-        "item": "Budget Revisions"
-      },
-      {
-        "time": "N/A",
-        "item": "Grant Application(s)/Budget(s) Approval"
-      },
-      {
-        "time": "N/A",
-        "item": "Fundraising Requests"
-      },
-      {
-        "time": "N/A",
-        "item": "Gift/Bequests"
-      },
-      {
-        "time": "N/A",
-        "item": "Bus Accident Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Second Reading of Policies (po0100 Definitions, po0167.3 Public Comment at Board Meetings, po3120 Employment of Professional Staff, po3120.05 Employment of Personnel in Community Education Programs, po3140 Non-Renewal Resignation and Termination, po4120.04 Employment of Substitutes, po5200.01 Full-Time Student)"
-      },
-      {
-        "time": "N/A",
-        "item": "Non-Certified Staff Employment Changes (Informational Only)"
-      },
-      {
-        "time": "N/A",
-        "item": "WASB Legislative Network Member Presentation"
-      },
-      {
-        "time": "N/A",
-        "item": "CESA #9 Representative Presentation"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Reports and Considerations"
-      },
-      {
-        "time": "N/A",
-        "item": "Unfinished Business"
-      },
-      {
-        "time": "N/A",
-        "item": "Set the Date for Annual Meeting/Budget Hearing"
-      },
-      {
-        "time": "N/A",
-        "item": "Academic Standards"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of Independent Hearing Officers"
-      },
-      {
-        "time": "N/A",
-        "item": "School Handbook Changes (Elementary, Middle School, Junior High, Senior High)"
-      },
-      {
-        "time": "N/A",
-        "item": "Review of po2261.01 - Parent and Family Engagement in Title 1 Programs"
-      },
-      {
-        "time": "N/A",
-        "item": "Annual Eval of Reading Curriculum po2131.01"
-      },
-      {
-        "time": "N/A",
-        "item": "Senior High Trip to Japan"
-      },
-      {
-        "time": "N/A",
-        "item": "First Reading of Policies (po1213, po3120.01, po3213, po4213, po7530.02, po7530.03, po7544, po8120, po8462)"
-      },
-      {
-        "time": "N/A",
-        "item": "WASB Fall Region Five Meeting Information"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications"
-      },
-      {
-        "time": "N/A",
-        "item": "Future Meeting Dates"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjournment to Closed Session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "WASB Legislative Network Member Presentation",
-        "body": "Shannon Grabko was scheduled to present on behalf of the Wisconsin Association of School Boards Legislative Network, providing updates on legislative matters relevant to the school district."
-      },
-      {
-        "item": "CESA #9 Representative Presentation",
-        "body": "Larry Schaefer from Cooperative Educational Service Agency #9 was scheduled to present, offering regional educational updates and support information."
-      },
-      {
-        "item": "Superintendent Reports",
-        "body": "Superintendent Dr. Casey Nye was scheduled to present multiple reports including District Update, Certified Staff Compensation Planning, Internal Review of Student Screen Time, Facilities Study Learning Focus, Responsive Classroom, Summer Projects Update, and information about the 2026 World Horseshoe Pitching Championship."
-      },
-      {
-        "item": "School Handbook Changes",
-        "body": "The board was expected to review and potentially approve handbook changes for Elementary (Riverside Sample), Middle School, Junior High, and Senior High schools for the 2026-27 school year."
-      },
-      {
-        "item": "Annual Evaluation of Reading Curriculum",
-        "body": "The Reading Specialist was scheduled to present the annual reading curriculum evaluation report including Reading Instructional Goals and Kindergarten Assessment updates for July 2026, as required by policy po2131.01."
-      },
-      {
-        "item": "Senior High Trip to Japan",
-        "body": "The board was expected to consider a request regarding a Senior High student trip to Japan."
-      },
-      {
-        "item": "Certified Staff Employment Changes",
-        "body": "The board was scheduled to approve recommended employment, resignations, and contract adjustments for certified staff based on documentation submitted on July 8 and July 14, 2026."
-      },
-      {
-        "item": "Budget and Financial Reports",
-        "body": "The board was expected to review the Treasurer's Report, Balance Sheet, Budget Transfers (25-00473 through 25-00515), and Budget Revisions (25-00053 through 25-00062) for July 2026."
-      },
-      {
-        "item": "Bus Accident Report",
-        "body": "A bus accident report from June 18, 2026 was scheduled for board review."
-      },
-      {
-        "item": "Policy Second Readings",
-        "body": "The board was scheduled to conduct second readings on seven policies including Definitions, Public Comment at Board Meetings, Employment of Professional Staff, Employment of Personnel in Community Education Programs, Non-Renewal/Resignation/Termination, Employment of Substitutes, and Full-Time Student definitions."
-      },
-      {
-        "item": "Policy First Readings",
-        "body": "The board was expected to conduct first readings on nine policies including Student Supervision and Welfare, Job Descriptions, Personal Communication Devices, Student Technology Acceptable Use and Safety, Use of Social Media, Volunteers, and Reporting of Child Abuse and Neglect and Sexual Misconduct."
-      },
-      {
-        "item": "Review of Parent and Family Engagement Policy",
-        "body": "The board was scheduled to review policy po2261.01 regarding Parent and Family Engagement in Title 1 Programs."
-      },
-      {
-        "item": "Independent Hearing Officers Approval",
-        "body": "The board was expected to approve a list of independent hearing officers for the district."
-      },
-      {
-        "item": "Academic Standards",
-        "body": "The board was scheduled to consider academic standards for the 2026-27 school year."
-      }
-    ],
-    "publicComment": "A public comment period was scheduled as part of the regular board meeting agenda.",
-    "actionItems": [
-      "Board was expected to approve the minutes from the June 17, 2026 meeting",
-      "Board was expected to approve certified staff employment, resignations, and contract adjustments",
-      "Board was expected to approve Treasurer's Report and financial statements",
-      "Board was expected to approve budget transfers and budget revisions",
-      "Board was expected to approve second readings of seven policies",
-      "Board was expected to conduct first readings of nine policies",
-      "Board was expected to approve independent hearing officers",
-      "Board was expected to set the date for the annual meeting and budget hearing",
-      "Board was expected to approve or modify school handbooks for all school levels",
-      "Board was expected to approve the Senior High trip to Japan",
-      "Board was expected to review and potentially approve academic standards for 2026-27"
-    ],
-    "topics": [
-      "Staffing and Employment",
-      "Budget and Finance",
-      "Policy Review",
-      "School Handbooks",
-      "Curriculum and Reading Instruction",
-      "Facilities Planning",
-      "Student Programs and Trips",
-      "Title 1 Programs",
-      "Technology and Acceptable Use"
-    ],
-    "votes": []
   },
   {
     "id": "kw_984daf117d4046ba8bdb30b6d98982e6",
@@ -5456,273 +5706,208 @@
     "date": "June 17, 2026",
     "shortDate": "JUN 17",
     "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
+    "duration": "1h 8m",
+    "url": "https://www.youtube.com/watch?v=j_8xEzhQrrI",
     "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a regular meeting on June 17, 2026, that included a public hearing regarding a waiver of instructional minutes for Riverside Elementary. The meeting was expected to address multiple action items including staff compensation plans for 2026-2027, the 2026-2027 budget update, student services reports, and approval of out-of-state trips for junior high and senior students.",
+    "overview": "The DC Everest School Board held its regular June meeting, highlighted by a public hearing and subsequent board approval of a waiver request to DPI for Riverside Elementary's 12.5 hours of lost instructional time due to the April 17, 2026 tornado. The board also approved a staff compensation plan, year-end spending directives, preliminary budget for 2026-27, and out-of-state trip requests, then adjourned into closed session.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Call to Order"
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Roll Call"
+        "time": "1:10",
+        "item": "Public Hearing - Waiver of Instructional Minutes for Riverside Elementary (Wis. Stat. 118.38(1)(b))"
       },
       {
-        "time": "N/A",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Hearing re: Waiver of Minutes for Riverside Elementary"
-      },
-      {
-        "time": "N/A",
+        "time": "2:30",
         "item": "Approval of Agenda"
       },
       {
-        "time": "N/A",
-        "item": "Public Comment"
+        "time": "3:10",
+        "item": "Consent Agenda"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Approval of Minutes"
+        "time": "4:30",
+        "item": "Reports: WASB, CESA, Superintendent's Report"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+        "time": "14:00",
+        "item": "Mission Moment - Weston Elementary Soaring into Summer Aviation Event"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Treasurer's Report - General/Other Fund Bills"
+        "time": "32:00",
+        "item": "New Business: Annual Required Student Data Reports including Crime Statistics"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Balance Sheet"
+        "time": "37:00",
+        "item": "Education for Employment ACP Report and Youth Apprenticeship Presentation"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Budget Transfers"
+        "time": "58:00",
+        "item": "Resolution: Riverside Elementary Waiver of Instructional Minutes"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Budget Revisions"
+        "time": "1:05:00",
+        "item": "Junior High and IDEA Out-of-State Trip Approvals"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Grant Application(s)/Budget(s) Approval"
+        "time": "1:08:00",
+        "item": "Staff Compensation Plan Approval"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Fundraising Requests"
+        "time": "1:10:00",
+        "item": "2026-2027 Budget Update (Informational) and Year-End Spending Approval"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Gift/Bequests"
+        "time": "1:35:00",
+        "item": "First Reading of Policies"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Bus Accident Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Consent Agenda - Second Reading of Policies - po5136 Personal Communication Devices"
-      },
-      {
-        "time": "N/A",
-        "item": "Consent Agenda - Second Reading of Policies - po9215 School Support Organizations"
-      },
-      {
-        "time": "N/A",
-        "item": "Non-Certified Staff Employment Changes (Informational Only)"
-      },
-      {
-        "time": "N/A",
-        "item": "WASB Legislative Network Member Report - Presenter: Shannon Grabko"
-      },
-      {
-        "time": "N/A",
-        "item": "CESA #9 Representative Report - Presenter: Larry Schaefer"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - District Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Semiquincentennial Celebration"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Data-Based Community Insights"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Portrait of a Graduate"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Facilities Study Updates"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Youth Apprenticeship Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Upcoming Everest Roots Podcast Topics"
-      },
-      {
-        "time": "N/A",
-        "item": "Unfinished Business - Soaring into Summer"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Annual Required Student Data Reports"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Education for Employment/ACP Report"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Resolution for Riverside Elementary Waiver of Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Junior High and Idea Out-of-State Trips"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Staff Compensation Plan"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - 2026-2027 Budget Update"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Year-End Spending 2025-2026"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - 2026-2027 Budgetary Spending Approval"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po0100 Definitions"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po0167.3 Public Comment at Board Meetings"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po3120 Employment of Professional Staff"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po3120.05 Employment of Personnel in Community Education Programs"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po3140 Non-Renewal, Resignation, and Termination"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po4120.04 Employment of Substitutes"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - First Reading of Policies - po5200.01 Full-Time Student"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications - Thank You from K. VanSlyke for Memorial"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications - Thank You from P. Pierce for Sympathy"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications - Thank You from T. Fischer for Retirement Recognition"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications - Thank You from J. Weller for Sympathy"
-      },
-      {
-        "time": "N/A",
-        "item": "Future Meeting Dates"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjournment to Closed Session"
+        "time": "1:37:00",
+        "item": "Motion to Adjourn to Closed Session"
       }
     ],
     "discussions": [
       {
-        "item": "Public Hearing re: Waiver of Minutes for Riverside Elementary",
-        "body": "The board was scheduled to hold a public hearing as required under Wisconsin Statute 118.38(1)(b) regarding a waiver of instructional minutes for Riverside Elementary. Supporting materials included a Notice of Public Hearing and waiver application documents."
+        "item": "Public Hearing - Riverside Elementary Instructional Minutes Waiver",
+        "body": "The board held the statutorily required public hearing under Wis. Stat. 118.38(1)(b) regarding a waiver request to DPI for Riverside Elementary's lost instructional time following the April 17, 2026 tornado. No members of the public offered comment at the hearing. The board subsequently passed the formal resolution directing the superintendent to apply to DPI for the waiver of 12.5 lost instructional hours by a 6-0 roll call vote (Yee Leng Xiong was absent)."
       },
       {
-        "item": "Soaring into Summer",
-        "body": "Presenters Kelly Ziegelbauer (Weston Principal), Lauren Doescher, and Katie Wochinski were scheduled to present information regarding a 'Soaring into Summer' initiative, with supporting presentation materials provided."
+        "item": "Superintendent's Report",
+        "body": "Superintendent Dr. [last name inaudible from transcript] discussed several topics including the district's participation in the Greater Wausau Prosperity Project community dashboard comparing Wausau-area strengths and challenges to similar communities, noting food insecurity, migration, and lack of young entrepreneurs as challenges while startup growth rates and PK-16 education ranked as strengths. He also updated the board on the facility study process, noting a community survey is planned for late September or October focused primarily on the junior high and pool questions. The district's youth apprenticeship program was highlighted as moving in-house after receiving DPI grant approval, having grown to 80 apprentices with 39 employers."
       },
       {
-        "item": "Annual Required Student Data Reports",
-        "body": "Dr. Lindell and Gina Lehman were scheduled to present annual required student data reports covering homeless and foster care status, seclusion and restraint incidents, crime statistics on school property, nursing reports, at-risk students nearing graduation, continuum of services, and emergency support services. The presentation was expected to include multiple supporting documents detailing student services and student support outcomes."
+        "item": "Mission Moment - Weston Elementary Soaring into Summer Aviation Event",
+        "body": "Fifth grade teacher Lauren Dasher and former kindergarten teacher Katie Winsky presented on the Weston Elementary 'Soaring into Summer' event, which took 500 students over three days to the Wausau Airport for hands-on aviation learning including airplane building with high school engineering students, simulator use, small plane tours, and Q&A with flight instructors. The event was funded by the Education Foundation and coordinated with the Wausau Airport's John [inaudible] and Aaron Huffman's high school Engineering Tomorrow class. Board members praised the community collaboration and connection to career pathway development."
       },
       {
-        "item": "Education for Employment/ACP Report",
-        "body": "Aaron Hoffman and student Takoda Rowland were scheduled to present a report on the Education for Employment and Alternative Career Pathway programs for the district."
+        "item": "Annual Required Student Data Reports / Crime Statistics",
+        "body": "Director Jeff [inaudible] explained the consolidated student data reports, noting that seclusion and restraint numbers involving fewer than five incidents are withheld as personally identifiable, and that 14 students (less than 0.25% of enrollment) experienced seclusion or restraint during the year. The board approved the 2025-2026 DC Everest Crime Statistics on School Property Report, the only item in the packet requiring formal board action, on a voice vote."
       },
       {
-        "item": "Resolution for Riverside Elementary Waiver of Minutes",
-        "body": "Dr. Strike was scheduled to present a resolution regarding the waiver of instructional hours for Riverside Elementary, with supporting documents including the waiver application and resolution language for board consideration."
+        "item": "Education for Employment ACP Report and Youth Apprenticeship Presentation",
+        "body": "Career and Technical Education Director Aaron Huffman presented the annual Academic and Career Planning report, highlighting 80 youth apprentices placed with 39 employers this year, a record exceeding 200 industry-recognized credentials earned by the senior class, and a drone competition where DC Everest teams took first and second place out of 28 schools. Student Dakota shared his experience pivoting from welding at J&D to electrical and machine control work at Imperial, illustrating the program's goal of allowing students to explore and modify career paths. The presentation was informational only and required no board action."
       },
       {
-        "item": "Junior High and Idea Out-of-State Trips",
-        "body": "Dr. Lindell was scheduled to present three out-of-state trip requests: a junior high trip to Washington, D.C. for 2026-27, a junior high world language trip, and an Idea senior class trip, with supporting documentation for each proposal."
+        "item": "Junior High and IDEA Out-of-State Trip Approvals",
+        "body": "The board approved out-of-state trips for the junior high to Washington, D.C. and Babi, Minnesota, and for the IDEA program's senior trip to Minneapolis, Minnesota. A brief exchange occurred in which a board member asked whether the language for the junior high trip destination was correctly stated this year, referencing an error in a prior year where Spain and France were listed incorrectly. Administration indicated the language was correct. The motion passed on a voice vote."
       },
       {
         "item": "Staff Compensation Plan",
-        "body": "Dr. Strike was scheduled to present the 2026-2027 staff compensation plans for board consideration, with supporting materials outlining compensation proposals for certified staff."
+        "body": "Dr. [inaudible] presented the comprehensive staff compensation plan for 2026-2027, explaining it consolidates all compensation information in one document. Most raises had already been approved; this action addressed remaining miscellaneous items including increased substitute wages, minor rate and title adjustments for part-time GTCC staff, and the addition of a girls wrestling coach position. The board approved the plan on a unanimous voice vote."
       },
       {
-        "item": "2026-2027 Budget Update",
-        "body": "Dr. Strike was scheduled to provide a comprehensive update on the 2026-2027 budget, including preliminary budget presentation materials for board review and discussion."
-      },
-      {
-        "item": "Year-End Spending 2025-2026",
-        "body": "Dr. Strike was scheduled to present a year-end spending report for the 2025-2026 fiscal year, providing financial details on district expenditures as the school year concludes."
-      },
-      {
-        "item": "2026-2027 Budgetary Spending Approval",
-        "body": "Dr. Strike was scheduled to request board approval for 2026-2027 budgetary spending authority, with supporting documentation outlining the proposed spending framework."
+        "item": "2026-2027 Budget Update and Year-End Spending",
+        "body": "The district's finance director presented the preliminary 2026-27 budget, noting the current year is projected to end with a surplus of $1.5 to $2 million, largely from salary and fringe savings and conservative revenue estimates. The 2026-27 budget is currently balanced in Funds 10 and 27. A significant concern raised was health insurance, with a 22% renewal increase assumed due to the highest claims loss ratio in district history. The board approved year-end spending authority directing administration to use surplus funds to pay back a $1,448,000 unfunded liability in Fund 73 (staff retirement benefit catch-up contributions approved last June) with remaining funds deposited into Fund 46 by July 30, 2026. The board also approved authority to spend from the preliminary budget until formal adoption in October 2026."
       },
       {
         "item": "First Reading of Policies",
-        "body": "Dr. Nye, Dr. Lindell, and Dr. Strike were scheduled to present first readings of seven policies including Definitions (po0100), Public Comment at Board Meetings (po0167.3), Employment of Professional Staff (po3120), Employment of Personnel in Community Education Programs (po3120.05), Non-Renewal, Resignation, and Termination (po3140), Employment of Substitutes (po4120.04), and Full-Time Student (po5200.01), with a memo regarding credit limits for senior high students."
+        "body": "The board approved the first reading of a list of policies, with a note that Policy 5200.01 had an explanatory memo attached regarding requested changes, to be directed to Dr. Lindell with any questions. No substantive debate occurred and the motion passed on a voice vote."
       }
     ],
-    "publicComment": "A public comment period was included on this agenda at item VI.",
+    "publicComment": "No public comment was offered. The board noted at the opening of the public hearing and again at the start of the regular meeting that no members of the public had submitted comments.",
     "actionItems": [
-      "Board was expected to vote on the Resolution for Riverside Elementary Waiver of Minutes following the public hearing",
-      "Board was expected to approve the Staff Compensation Plan for 2026-2027",
-      "Board was expected to approve the 2026-2027 Budgetary Spending Approval",
-      "Board was expected to approve out-of-state trips for junior high and senior students",
-      "Board was expected to consider first readings of seven policies with second readings anticipated at a future meeting",
-      "Board was expected to approve Second Reading of Policies po5136 Personal Communication Devices and po9215 School Support Organizations"
+      "Superintendent directed to submit DPI waiver application for Riverside Elementary's 12.5 lost instructional hours due to April 17, 2026 tornado",
+      "Administration authorized to spend year-end funds to repay $1,448,000 Fund 73 unfunded liability for staff retirement catch-up contributions, with remainder deposited into Fund 46 by July 30, 2026",
+      "Administration authorized to make necessary payments for 2026-2027 school year until formal budget adoption in October 2026",
+      "Staff compensation plan for 2026-2027 approved for implementation",
+      "Junior high out-of-state trips to Washington D.C. and Babi, Minnesota, and IDEA senior trip to Minneapolis approved",
+      "Youth apprenticeship program to transition fully in-house following DPI grant approval",
+      "Community facility study survey to be prepared for board feedback before late September/October distribution, focusing on junior high and pool questions",
+      "Board to register for WASB Summer Learning Symposium July 10-11 in Stevens Point (hotel registration deadline noted as Friday)",
+      "First reading of policies approved; second reading and action to follow at future meeting"
     ],
     "topics": [
-      "Curriculum",
+      "Budget",
       "Facilities",
-      "Riverside Elementary"
+      "Career and Technical Education",
+      "Youth Apprenticeship",
+      "Tornado Recovery"
+    ],
+    "votes": [
+      {
+        "item": "Approval of meeting agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Consent agenda",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "2025-2026 DC Everest Crime Statistics on School Property Report",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution to request DPI waiver of minimum instructional hours for Riverside Elementary (12.5 hours lost due to April 17, 2026 tornado)",
+        "motion": "Approval of resolution directing superintendent to apply to DPI for waiver of Wis. Stat. 121.02(1)(f) minimum instructional hours for 2025-2026 school year at Riverside Elementary",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Junior high out-of-state trips to Washington D.C. and Babi, Minnesota, and IDEA senior trip to Minneapolis",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Staff compensation plan for 2026-2027",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Year-end spending authority to repay Fund 73 unfunded liability and deposit remainder into Fund 46 by July 30, 2026",
+        "motion": "Allow administration to strategically spend end-of-year funds to best meet the needs of the district and deposit all remaining funds into Fund 73 and Fund 46 by the statutory date of July 30, 2026",
+        "mover": null,
+        "second": "Lindsey Lewitzke",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Budgetary spending approval for 2026-2027 school year prior to October budget adoption",
+        "motion": "Approve necessary payments for the 2026-2027 school year between now and the budget's official approval in October 2026",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "First reading of policies",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjourn to closed session under Wis. Stat. 19.85(1)(a) and (c)",
+        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(a) and (c)",
+        "mover": "Lindsey Lewitzke",
+        "second": "Katie Felch",
+        "outcome": "Approved",
+        "tally": "7-0"
+      }
     ]
   },
   {
