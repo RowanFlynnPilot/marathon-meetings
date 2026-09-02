@@ -879,8 +879,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759941",
       "upload_date": "20260824",
       "meeting_date": "20260824",
-      "duration": null,
-      "video_url": null,
+      "duration": 1030,
+      "video_url": "https://www.youtube.com/watch?v=wewasXFoF6c",
       "processed_at": "2026-08-29T21:22:30.572969+00:00",
       "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-08-24-bb-759941.md"
     },
@@ -1719,6 +1719,17 @@
       "video_url": null,
       "processed_at": "2026-09-02T02:42:01.396591+00:00",
       "summary_file": "summaries/wausau-wausau-parks-and-recreation-committee-meeting-huvrjjioe8g.md"
+    },
+    "ZpL4Vi5cbX4": {
+      "title": "Wausau Water Works Commission Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260901",
+      "meeting_date": "20260901",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-02T15:56:08.613798+00:00",
+      "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-zpl4vi5cbx4.md"
     }
   }
 }

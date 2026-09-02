@@ -1,39 +1,51 @@
 # Committee of the Whole Meeting - 2026-08-24
 
 **Organization:** Wausau School Board  
-**Source:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=759941  
+**Source:** https://www.youtube.com/watch?v=wewasXFoF6c  
 **Documents:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=759941  
-**Summarized:** 2026-08-29 21:22 UTC
+**Summarized:** 2026-09-02 15:56 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Wausau School District Committee of the Whole meeting on August 24, 2026, was scheduled to address fiscal planning and governance matters for the upcoming school year. Key action items included recommending the 2026-2027 budget and tax levy, approving a list of legal firms, and setting the date for the annual budget hearing and meeting.
+The Wausau School Board's Committee of the Whole met on August 24, 2026 to review and recommend approval of the district's preliminary 2026-2027 budget and related financial matters ahead of the annual meeting. The committee approved a balanced general fund budget of approximately $118.3 million and a projected tax levy of about $45.8 million, with the mill rate declining from $0.658 to $0.654 per $1,000 of equalized value. The board president highlighted that this marks a second consecutive year of a balanced budget, a notable turnaround from prior years.
 
 ## Key Discussions
-### Legal Expenses Summary for 2025-2026
-Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present a summary report of all legal counsel expenses incurred during 2025-2026, separated by law firm and by type of legal advice sought. The presentation was estimated to take 1 minute and required no action from the committee.
+### Public and Student Comment
+Board President Bouché asked whether anyone was on the public comment list. No members of the public or students were signed up to speak, and the meeting proceeded without any public comment.
 
-### Approve List of Legal Firms
-The committee was expected to consider and approve a list of legal firms that the District utilizes for various necessary legal needs. This action item was estimated to take 1 minute and required committee recommendation or approval.
+### Audit of the Bills
+The committee was asked to approve the audit of bills as presented. No questions were raised by board members. The motion was made, seconded, and approved unanimously.
 
-### Set Annual Meeting Date and Location
-Administration was scheduled to request that the Committee of the Whole recommend to the Board a date, time, and location for the budget hearing and annual meeting. The recommendation was necessary to ensure all notices and timelines are met for an annual meeting between May 15 and October 31 pursuant to Wisconsin statute (s.120.08(1)(a)), with an estimated presentation time of 2 minutes.
+### Legal Counsel Expenses Summary Report (2025-2026)
+Dr. Elizabeth Canol, Assistant Superintendent of Operations, presented a written summary report of all legal counsel expenses incurred during 2025-2026, separated by law firm and type of legal advice. No action was required or taken on this informational item.
 
-### Share Equalized Value Estimates
-The District was scheduled to share equalized value estimates for 2026-27, projecting a 4.03% increase in the District's property value for mill rate calculation purposes. Since certified property values would not be available until October 1, the projected values were expected to be used for the initial budget and annual meeting, with an estimated 5 minutes for presentation.
+### Approval of List of Legal Firms
+The committee considered a list of law firms the district uses for various legal needs. No additional firms were proposed. A motion was made and seconded to approve the list of law firms the board and district shall access for legal services as deemed necessary by the superintendent or designee, and it passed unanimously.
 
-### Recommendation for 2026-2027 Budget
-Dr. Elizabeth Channel was scheduled to present the 2026-27 Budget Booklet for initial review, containing a preliminary budget that the Committee was expected to recommend for use at the Budget Hearing and Annual Meeting. The presentation was estimated to take 15 minutes.
+### 2026-2027 Annual Meeting and Budget Hearing Date
+The committee recommended Monday, September 28, 2026 as the date for the 2026-2027 annual meeting and budget hearing, to be held at 5:00 p.m. in the Nicholson Boardroom at the Longfellow Administration Center, beginning with the budget hearing followed by the annual meeting. The motion was made, seconded, and approved unanimously with no questions raised.
 
-### Recommendation for 2026-2027 Tax Levy
-The committee was expected to consider the 2026-27 tax levy presented in the Budget Booklet to support the proposed budget. Once recommended for approval, this levy was expected to be presented at the Budget Hearing and Annual Meeting, with an estimated 10 minutes for discussion.
+### Shared Equalized Value Estimates – Information Only
+A district finance staff member presented shared equalized value estimates for 2026-2027. The district's equalized property value was estimated at $7.9 billion, reduced by approximately $9.2 million for TID value, yielding a net equalized value of approximately $7 billion. Property values in the district are projected to increase 4.03% for 2026-2027, compared to an 8.98% increase the prior year. No action was required; the information was presented for awareness ahead of the annual meeting.
+
+### Preliminary 2026-2027 General Fund Budget
+A finance presenter outlined the preliminary 2026-2027 general fund budget, noting budget opportunities including flat $325 per-pupil categorical aid now saved in perpetuity, a 2021 referendum adding $500 per-pupil revenue, and CPI of 2.63% distributed as raises across all employee groups. Budget challenges included a 10% health insurance premium increase, inflation outpacing revenue limit adjustments, and approximately $5 million in deferred maintenance needs. State general aid is projected to drop by about $2.6 million to approximately $75.3 million. Board President Bouché praised the balanced budget as a significant achievement, noting it is the second consecutive year the budget has been balanced after years of carrying a deficit forward. The committee recommended a preliminary general fund budget of $118,307,108 for both expenses and revenue; the motion passed unanimously.
+
+### Projected 2026-2027 Tax Levy
+The committee considered the projected tax levy of $45,848,693 for presentation at the annual meeting. A board member asked about the mill rate, and the presenter confirmed the rate had declined from $0.658 to $0.654 per $1,000 of equalized value, a reduction of $4 per $1,000. The motion to recommend this levy to the full Board of Education passed unanimously.
+
+### Consent Agenda
+The consent agenda covering appointments of additional and replacement staff, contract increases, separations, terminations, contract decreases, leaves of absence, and retirements was moved, seconded, and approved unanimously without discussion.
 
 ## Public Comment
-A public and student comment period was included on this agenda as Item III.
+No public comment was offered. Board President Bouché confirmed no members of the public or students were signed up to speak.
 
 ## Action Items
-- Action was requested to approve the list of legal firms for 2026-2027
-- Action was requested to set and recommend the annual meeting date and location
-- Action was requested to recommend the 2026-2027 preliminary budget for use at the Budget Hearing and Annual Meeting
-- Action was requested to recommend the 2026-2027 tax levy to support the budget
+- Full Board of Education to formally approve Monday, September 28, 2026 at 5:00 p.m. in the Nicholson Boardroom at Longfellow Administration Center as the date and location for the 2026-2027 annual meeting and budget hearing
+- Preliminary 2026-2027 general fund budget of $118,307,108 for expenses and revenue to be presented at the annual meeting and budget hearing
+- Projected 2026-2027 tax levy of $45,848,693 to be presented at the annual meeting and budget hearing
+- District to continue finalizing budget as final staffing counts, certified property values, state equalization aid, third Friday pupil count, and Wisconsin Parent Choice Program voucher costs are confirmed in coming months
+- Budget book draft to be posted on district website following the September 28 board meeting; current draft available in BoardBook
+- Approved list of legal firms for district legal services needs
+- Approved consent agenda items including staff appointments, separations, leaves, and retirements
