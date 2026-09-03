@@ -1741,6 +1741,17 @@
       "video_url": null,
       "processed_at": "2026-09-03T02:47:45.969758+00:00",
       "summary_file": "summaries/wausau-wausau-economic-development-committee-meeting-gfq6aglufee.md"
+    },
+    "2SPD3t6yHTk": {
+      "title": "Marathon County Health and Human Services Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260902",
+      "meeting_date": "20260902",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-03T15:45:33.140752+00:00",
+      "summary_file": "summaries/marathon-marathon-county-health-and-human-services-committee-meeting-2spd3t6yhtk.md"
     }
   }
 }
