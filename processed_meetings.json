@@ -1730,6 +1730,17 @@
       "video_url": null,
       "processed_at": "2026-09-02T15:56:08.613798+00:00",
       "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-zpl4vi5cbx4.md"
+    },
+    "GFQ6AgLUfeE": {
+      "title": "Wausau Economic Development Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260901",
+      "meeting_date": "20260901",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-03T02:47:45.969758+00:00",
+      "summary_file": "summaries/wausau-wausau-economic-development-committee-meeting-gfq6aglufee.md"
     }
   }
 }
