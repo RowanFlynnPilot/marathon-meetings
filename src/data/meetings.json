@@ -1,5 +1,125 @@
 [
   {
+    "id": "Z-11cXuMl58",
+    "source": "marathon",
+    "title": "Infrastructure Committee Meeting Pt.1",
+    "date": "September 3, 2026",
+    "shortDate": "SEP 3",
+    "committee": "Infrastructure",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=Z-11cXuMl58",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Infrastructure Committee met to discuss the Bug Tussle broadband project, which faces a significant scope modification because insufficient bond funds remain to complete the originally planned fiber loop. Bug Tussle representatives presented updates on current infrastructure, BEAD program awards, and marketing efforts before the committee voted to enter closed session to deliberate on the proposed scope change, potential litigation, and a new $45-50 million bonding request. The meeting is significant to residents because the southern fiber loop — a key component of the original broadband expansion agreement — is unlikely to be completed as planned.",
+    "agenda": [
+      {
+        "time": "0:02",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:15",
+        "item": "Public Comment"
+      },
+      {
+        "time": "3:10",
+        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes"
+      },
+      {
+        "time": "4:00",
+        "item": "Bug Tussle Broadband Project — Open Session Presentation: Current Infrastructure Status"
+      },
+      {
+        "time": "10:00",
+        "item": "Bug Tussle: BEAD Program Update and Awards"
+      },
+      {
+        "time": "22:00",
+        "item": "Bug Tussle: Marketing, Adoption, and Wholesale Business Update"
+      },
+      {
+        "time": "30:00",
+        "item": "Committee Q&A with Bug Tussle Representatives"
+      },
+      {
+        "time": "43:00",
+        "item": "Discussion of Scope Modification — Southern Loop and County Board Approval Requirements"
+      },
+      {
+        "time": "55:00",
+        "item": "Bug Tussle Future Bonding Request Overview ($45-50 Million)"
+      },
+      {
+        "time": "58:30",
+        "item": "Motion to Enter Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment — Salt Shed Road Condition on Duncan Road",
+        "body": "A man identified as chairman of the Town of Ringle addressed the committee about deteriorating pavement on the access road to the county salt shed off Highway 29 on Duncan Road. He described the road as 'alligatored' and noted the worst damage occurs where trucks turn toward the loading ramp, likely due to salt spillage. He passed photos to committee staff and suggested a possible cost-sharing agreement between the county and township for repaving the approximately 100-150 yard stretch. County Director/Commissioner Kevin [last name inaudible] acknowledged the issue and said it would be taken into consideration."
+      },
+      {
+        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes",
+        "body": "A motion to approve the minutes was made by Sarah [last name inaudible] and seconded by Tom [last name inaudible]. The motion carried unanimously."
+      },
+      {
+        "item": "Bug Tussle Broadband Project — Infrastructure Status Presentation",
+        "body": "Bug Tussle representatives — including George [Quins], Avery Shelbine, and Chris Hverson appearing virtually — presented current project status: 206 live fiber miles in Marathon County, 16 fixed wireless sites deployed, 19 multi-purpose towers, and approximately 5,800 locations passable by fixed wireless and 2,800 by fiber. They noted the original plan called for 288 miles of fiber; the current plan will deliver approximately 281 miles by year-end after completing 74 additional miles, with the southern loop (~45 miles) being dropped as financially infeasible due to insufficient homes along the route. Outstanding construction segments include the Huitt Tower (2.7 miles), Stratford Water Tower (7.19 miles), Hatley/East Side Sheriff's Tower (4.5 miles), and Brokaw East (3.86 miles), all contracted to United Electric for fall 2024 construction."
+      },
+      {
+        "item": "Subscription/Take Rate Decline",
+        "body": "Supervisor Aaron Griner questioned why subscription rates had declined from the June presentation — fixed fiber service from 4.15% to 2.99% and fixed wireless from 5.19% to 1.37%. Bug Tussle's Avery Shelbine attributed the decline partly to customer churn (subscribers moving to faster Bug Tussle fiber plans or SpaceX) and partly to a recalculation of the total addressable market using updated engineering assessments, which significantly increased the denominator for the take-rate calculation. George [Quins] acknowledged that Bug Tussle had not focused adequately on marketing during the construction phase and described new sales and digital marketing efforts now underway."
+      },
+      {
+        "item": "Scope Modification — Southern Loop Removal and County Board Approval",
+        "body": "Supervisor Robinson and County Attorney Jerry Klene led substantive discussion about whether the elimination of the southern fiber loop constitutes a formal scope change requiring county board approval. Klene stated Bug Tussle was told as early as a January meeting in Green Bay that dropping the southern loop would require board approval, and this was reiterated before the June educational meeting. Administrator Lance Leonard confirmed there are insufficient project funds remaining to complete the original scope and directed Bug Tussle to produce a formal addendum comparing the original bond issuance documents to the revised scope, including exact mileage differences, for a future committee review. Supervisor Guy asked whether microwave transmission could serve as an adequate substitute for the southern loop; Klene said it would not be ideal but could be made functional if Stratford Water Tower, Huitt Tower, and the east tower connections are completed to provide redundancy for public safety."
+      },
+      {
+        "item": "Bug Tussle Future Bonding Request",
+        "body": "George Quins briefly outlined a proposed new bond in the range of $45-50 million, described as primarily supporting the BEAD program match requirements, expanded fiber passings, marketing and sales investment, and refinancing of existing financial commitments. He indicated the bond would be structured as a multi-county instrument shared across Bug Tussle's partner counties in Wisconsin. Detailed financials were reserved for the closed session."
+      },
+      {
+        "item": "Motion to Enter Closed Session",
+        "body": "Administrator Leonard and County Attorney Brian [last name inaudible] recommended closed session to discuss scope modification details, litigation risk, and Bug Tussle's confidential financial projections. Supervisor Guyer moved to enter closed session under Wisconsin Statutes 19.85(1)(e) and 19.85(1)(g); the motion was seconded and passed on a roll call vote with all members voting aye."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: the chairman of the Town of Ringle, identified as Mr. Christensen, raised concerns about deteriorating pavement on the county salt shed access road on Duncan Road off Highway 29. He described alligatoring asphalt and pothole damage caused by salt truck traffic, passed photos to staff, and suggested exploring a county-township cost-sharing agreement for repaving the roughly 100-150 yard stretch.",
+    "actionItems": [
+      "Bug Tussle to produce a formal scope modification addendum comparing original bond issuance documents to revised project scope, including exact mileage differences, for future committee review",
+      "Committee to develop a formal recommendation to the county board regarding the proposed scope modification of the Bug Tussle broadband project",
+      "County staff (Kevin [inaudible]) to follow up with Town of Ringle chairman regarding salt shed access road repair on Duncan Road",
+      "Bug Tussle to complete remaining fiber construction segments (Huitt Tower, Stratford Water Tower, Hatley/East Side Sheriff's Tower, Brokaw East) by end of 2024",
+      "Bug Tussle to proceed with Edgar Tower and Rainbow Drive Tower engineering and equipment installation for county emergency paging",
+      "Committee to reconvene in closed session to discuss scope modification strategy, litigation risk, and Bug Tussle's $45-50 million future bonding request"
+    ],
+    "topics": [
+      "Broadband Expansion",
+      "Infrastructure Budget",
+      "Public Safety Communications",
+      "Bug Tussle Broadband Project",
+      "BEAD Program"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes",
+        "motion": "Motion to approve the August 26 meeting minutes",
+        "mover": "Sarah [last name inaudible]",
+        "second": "Tom [last name inaudible]",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Motion to enter closed session pursuant to Wis. Stat. 19.85(1)(e) and 19.85(1)(g) to deliberate on Bug Tussle broadband scope modification, litigation strategy, and future bonding",
+        "motion": "Move to go into closed session pursuant to 19.85 sub1 sub E and 19.85 sub1 subG",
+        "mover": "Supervisor Guyer",
+        "second": "Supervisor Striber [spelling unverified]",
+        "outcome": "Approved",
+        "tally": "Unanimous on roll call"
+      }
+    ]
+  },
+  {
     "id": "2SPD3t6yHTk",
     "source": "marathon",
     "title": "Health and Human Services Committee Meeting",
@@ -6244,119 +6364,6 @@
         "second": "Lucene Udulutch",
         "outcome": "Approved",
         "tally": "5-0"
-      }
-    ]
-  },
-  {
-    "id": "oU7D9m9RJsA",
-    "source": "marathon",
-    "title": "Joint Extension, Edu, and Econ Dev  & HR, Finance & Property Comm Pt.2",
-    "date": "August 6, 2026",
-    "shortDate": "AUG 6",
-    "committee": "HR, Finance & Property",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=oU7D9m9RJsA",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The joint Marathon County committee meeting covered 2027 budget development, heard a partnership funding request from the Marshfield Area Chamber of Commerce, received monthly reports from MCDEVCO and UW-Extension, and was updated on the Child Caring child care workforce scholarship program. The committee did not take formal action on the Marshfield Chamber's $25,000 funding request, as the item was listed for education only, and the child care program update positioned a proposed $50,000 continuation for future budget consideration.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "HR, Finance & Property Committee adjournment following consensus not to accept New Heights redevelopment proposal"
-      },
-      {
-        "time": "1:30",
-        "item": "7A - 2027 Annual Budget Development: Rates and fees discussion, net new construction revenue update"
-      },
-      {
-        "time": "5:10",
-        "item": "7A continued - Child care funding prioritization context within budget exercise"
-      },
-      {
-        "time": "7:00",
-        "item": "7B - Discussion of items to forward to County Board - None"
-      },
-      {
-        "time": "7:20",
-        "item": "8A - Marshfield Area Chamber of Commerce presentation and $25,000 partnership request"
-      },
-      {
-        "time": "28:00",
-        "item": "8B - MCDEVCO monthly report including revolving loan fund and incubator updates"
-      },
-      {
-        "time": "42:00",
-        "item": "8C - UW-Extension monthly report including Farm Technology Days, Marathon County Fair, and upcoming local officials nature-based mitigation workshop"
-      },
-      {
-        "time": "47:00",
-        "item": "Child Caring presentation: update on $200,000 child care workforce scholarship program and proposed $50,000 continuation"
-      },
-      {
-        "time": "1:05:00",
-        "item": "9 - Next meeting dates and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "HR, Finance & Property Committee - New Heights Redevelopment Proposal",
-        "body": "The committee reached consensus not to accept the New Heights proposal for property redevelopment at this time. The chair summarized that administration would communicate with New Heights regarding additional information requirements and that the property would remain open for redevelopment. New Heights could return to the agenda once additional information was provided. The committee then adjourned, with a motion moved and seconded by Hart, approved unanimously."
-      },
-      {
-        "item": "2027 Budget Development - Rates, Fees, and Revenue Update",
-        "body": "County Administrator Lance Leonard reported that the Department of Revenue released preliminary net new construction numbers at 1.54%, roughly 10% below the county's budget projection of 1.65%, meaning less revenue than anticipated. Staff circulated spreadsheets to department heads with a built-in 3% fee increase assumption, asking them to flag statutory limitations, areas where 3% doesn't cover costs, and fees where business reasons argue against increases. Leonard noted that unlike private businesses, county government cannot charge more than the cost of service delivery. A supervisor asked how child care ranked in the budget prioritization exercise, and Leonard said the $50,000 child care continuation proposal ranked highest among all new discretionary projects."
-      },
-      {
-        "item": "Marshfield Area Chamber of Commerce Partnership Request - $25,000",
-        "body": "Denise Sam, executive director of the Marshfield Area Chamber of Commerce and Industry, presented the chamber's work serving a 10-15 mile radius including Marathon County communities like Stratford, Spencer, and Rozellville, and requested $25,000 annually matching what Wood County provides. Supervisor Krums questioned how many other chambers serve Marathon County and whether the county contributes to any of them; Administrator Leonard noted the county is a member of Greater Wausau Chamber and that the airport belongs to the Mosinee chamber, but the county does not provide economic development funds to chambers. A supervisor raised concerns about redundancy with MCDEVCO and the county's limited discretionary spending, stating objection to the request. MCDEVCO Executive Director Kim Weber suggested the better path was a referral relationship rather than separate funding. Because the item was listed as an educational presentation, no action could be taken."
-      },
-      {
-        "item": "MCDEVCO Monthly Report",
-        "body": "MCDEVCO Executive Director Kim Weber reported that all $1 million of the Marathon County Revolving Loan Fund has been deployed into the community, with $962,000 dispersed last year. She highlighted loan recipients including Redwood Street Roasters in Edgar ($250,000), Sugar 'n Spice Cheesecakes, Peking Restaurant, and The Story Seller. The Pelzer Revolving Loan Fund for low-income rural septic system replacement has assisted over 17 systems with $256,000 disbursed and $250,000 remaining. The Wausau Business Incubator is 92% full across office, manufacturing, and kitchen spaces. Weber noted upcoming programming including an accounting workshop in partnership with NTC and UWSP and a personal financial statement lunch and learn with the Wausau River District."
-      },
-      {
-        "item": "Child Caring Scholarship Program Update and $50,000 Continuation Proposal",
-        "body": "Kelly from Child Caring reported that of the 30 scholarships funded by the county's $200,000 American Rescue Plan Act allocation (contracted October 2024, starting January 2025), 22 have been awarded and 20 individuals have completed training and been job-placed in child care settings, supporting approximately 350 children. Eight scholarships remain and three people are already enrolled in a new class. A proposed $50,000 continuation would fund 10 additional teachers at $4,000 each ($40,000 in scholarships, $10,000 to Child Caring for administration), and Child Caring has separately submitted a $50,000 grant request to the Women's Fund through the Community Foundation to potentially match county funds and support 20 total new teachers. Supervisor Lamers and Chair Gibbs expressed strong support. The loss of Child Care Counts subsidy funding at end of June—potentially millions of dollars in Marathon County—has already caused six programs and 60 slots to close in the last three months, with 15-20% cost increases to families anticipated."
-      },
-      {
-        "item": "UW-Extension Monthly Report and Upcoming Local Officials Workshop",
-        "body": "Extension staff reported participation in Farm Technology Days in Stratford in early July and the ongoing Marathon County Fair. Horticulture Educator Janelle Ware described an upcoming multi-disciplinary local officials workshop focused on nature-based solutions to reduce weather-related impacts and costs, designed as a networking event to connect government agencies across departments and disciplines so that low-cost mitigation opportunities can be acted on more effectively."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Administration to communicate with New Heights regarding additional information requirements for the redevelopment proposal and allow them to return to a future agenda",
-      "Department heads to review fee spreadsheets and flag statutory limitations, cost-recovery gaps, or business reasons not to increase fees at the standard 3% rate for 2027 budget development",
-      "Administrator Leonard to look into whether the county contributes financially to Centergy",
-      "Marshfield Chamber Director Denise Sam and MCDEVCO Executive Director Kim Weber to connect regarding referral relationships and coordination on serving Marathon County businesses",
-      "Child Caring $50,000 continuation proposal to be considered as part of 2027 budget process; Women's Fund $50,000 matching grant application pending",
-      "Next HRFC meeting: Wednesday, August 12, 2026 at 3:00 p.m.",
-      "Next TREED meeting: Thursday, September 3, 2026 at 3:00 p.m."
-    ],
-    "topics": [
-      "Budget",
-      "Economic Development",
-      "Child Care Workforce",
-      "Small Business",
-      "Marshfield Chamber Partnership"
-    ],
-    "votes": [
-      {
-        "item": "HR, Finance & Property Committee adjournment",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": "Hart",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Joint committee adjournment",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": "Cabelli",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
