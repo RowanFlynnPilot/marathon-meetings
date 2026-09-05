@@ -1,21 +1,28 @@
 # YouTube Cookie Refresh — Runbook
 
-The pipeline fetches YouTube captions from GitHub Actions using a cookies
-export stored in the `YOUTUBE_COOKIES` repo secret. Exports last roughly
-**4–8 weeks** (observed: mid-June 2026 set died ~Aug 1), then YouTube
-starts bot-blocking caption fetches from CI.
+**Status (Sept 2026): cookies are currently NOT needed.** On Aug 30, 2026
+a fresh export was tested from GitHub Actions and YouTube still refused
+caption *and* per-video metadata fetches ("Only images are available") —
+the block is on cloud IP ranges, not on the session. The workflow now sets
+`CAPTION_FETCH=false`, so CI never attempts YouTube fetches, and the
+**residential machine is the transcript path** (the
+`MarathonMeetings-RefreshTranscripts` task, 7 AM / 7 PM, which needs no
+cookies at all). The `YOUTUBE_COOKIES` secret is retained in case YouTube's
+posture relaxes: flip `CAPTION_FETCH` to `"true"` in the workflow and CI
+will use cookies again, at which point the rest of this runbook applies.
 
-**You don't need to refresh on a schedule.** The pipeline detects expiry
-itself: when a run hits the bot-block signature, it opens/updates a
-**"🍪 YouTube cookies expired"** issue in this repo (and auto-closes it
-once fetches succeed again). GitHub's notification email for that issue
-is the reminder.
+If CI caption fetching is re-enabled: exports last roughly **4–8 weeks**
+(observed: mid-June 2026 set died ~Aug 1). You don't need to refresh on a
+schedule — when a run hits the bot-block signature it opens/updates a
+**"🍪 YouTube cookies expired"** issue (auto-closed once fetches succeed
+again). GitHub's notification email is the reminder.
 
 **Stakes while expired:** low. Meetings are NOT lost — the residential
-gap sweep (`fetch_transcript.py --all`, scheduled 7 AM / 7 PM on the
-operator machine) fetches every missing transcript from a residential IP,
-so YouTube-sourced meetings (Marathon County, Wausau, Weston) just lag by
-up to ~12 hours until the refresh.
+gap sweep fetches every missing transcript from a residential IP, so
+YouTube-sourced meetings (Marathon County, Wausau, Weston) just lag by up
+to ~12 hours. If the residential path itself stops, CI opens a
+**"🏠 Residential transcript fetcher may be down"** issue after a video
+sits unprocessed for 36 hours.
 
 ## Refresh steps (~3 minutes)
 

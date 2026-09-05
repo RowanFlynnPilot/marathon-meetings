@@ -99,11 +99,23 @@ SKIP_VIDEO_IDS = frozenset(
 
 # ── YouTube / yt-dlp ──────────────────────────────────────────────────────────
 COOKIES_FILE = os.environ.get("YT_COOKIES_FILE", "")
+# YouTube blocks caption AND metadata fetches from cloud IPs regardless of
+# cookies (verified Aug 30, 2026 with a fresh export). CI sets this false so
+# runs skip the futile attempts (and the false "cookies expired" alarms they
+# triggered); the residential sweep is the transcript path. Flip back to
+# true in the workflow if YouTube's posture ever relaxes.
+CAPTION_FETCH = os.environ.get("CAPTION_FETCH", "true").lower() == "true"
+# Hours a YouTube video may sit unprocessed before CI flags the residential
+# fetcher as possibly down (it runs 7 AM / 7 PM, so ~12h is the normal lag).
+STALE_VIDEO_HOURS = int(os.environ.get("STALE_VIDEO_HOURS", "36"))
 
 
 # ── Whisper fallback (audio → text, local-only) ───────────────────────────────
 USE_WHISPER_FALLBACK = os.environ.get("USE_WHISPER_FALLBACK", "true").lower() == "true"
-WHISPER_MODEL        = os.environ.get("WHISPER_MODEL", "tiny")
+# "small" over "tiny": Kronenwetter is the only audio-transcribed body and
+# garbled names/dollar figures degrade the Sonnet summary; local CPU time is
+# the only cost (~15 min per hour of audio, within the task's 3h limit).
+WHISPER_MODEL        = os.environ.get("WHISPER_MODEL", "small")
 WHISPER_SOURCES      = [
     s.strip() for s in os.environ.get("WHISPER_SOURCES", "marathon,wausau,weston").split(",")
     if s.strip()

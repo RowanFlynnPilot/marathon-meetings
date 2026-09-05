@@ -301,11 +301,68 @@ def _vid_id_from_url(url: str) -> str | None:
 
 from config import (
     COOKIES_FILE,
+    CAPTION_FETCH,
+    STALE_VIDEO_HOURS,
     USE_WHISPER_FALLBACK,
     WHISPER_MODEL,
     WHISPER_SOURCES,
     WHISPER_CUTOFF,
 )
+
+
+# ── Stuck-video tracking (residential-fetcher watchdog) ─────────────────────
+# CI can't fetch YouTube captions (cloud IPs are blocked), so a video that
+# fails here is expected to be fetched by the residential sweep within ~12h.
+# Recording when CI first saw each skipped video lets the workflow flag the
+# residential path as possibly down when one lingers past STALE_VIDEO_HOURS.
+SKIPPED_FILE = Path(os.environ.get("SKIPPED_FILE", "./skipped_videos.json"))
+
+
+def _load_skipped() -> dict:
+    if SKIPPED_FILE.exists():
+        try:
+            return json.loads(SKIPPED_FILE.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            pass
+    return {}
+
+
+def _save_skipped(skipped: dict) -> None:
+    SKIPPED_FILE.write_text(json.dumps(skipped, indent=2), encoding="utf-8")
+
+
+def note_skipped_video(vid_id: str, title: str, source_key: str) -> None:
+    skipped = _load_skipped()
+    if vid_id not in skipped:
+        skipped[vid_id] = {
+            "first_seen": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "title": title, "source": source_key,
+        }
+        _save_skipped(skipped)
+
+
+def stale_skipped_videos(processed: dict) -> list[dict]:
+    """Skipped videos still unprocessed after STALE_VIDEO_HOURS. Entries that
+    have since been processed (by CI or via transcript ingest) are dropped."""
+    skipped = _load_skipped()
+    # SKIP_VIDEO_IDS is the operator's lever for a video that genuinely has
+    # no usable captions — listing it there clears it from the watchdog.
+    live = {vid: info for vid, info in skipped.items()
+            if vid not in processed and vid not in SKIP_VIDEO_IDS}
+    if len(live) != len(skipped):
+        _save_skipped(live)
+    now = datetime.now(timezone.utc)
+    stale = []
+    for vid, info in live.items():
+        try:
+            first = datetime.fromisoformat(info["first_seen"])
+        except (KeyError, ValueError):
+            continue
+        age_h = (now - first).total_seconds() / 3600
+        if age_h >= STALE_VIDEO_HOURS:
+            stale.append({"id": vid, "title": info.get("title", vid),
+                          "source": info.get("source", ""), "age_hours": round(age_h)})
+    return stale
 
 
 # Caption-fetch health for this run, written into agenda_only_report.json —
@@ -330,6 +387,11 @@ def fetch_transcript(url: str, source_key: str = "", upload_date: str = "") -> s
     Method 2: yt-dlp with cookies (fallback)
     """
     vid_id = _vid_id_from_url(url)
+
+    if not CAPTION_FETCH:
+        raise FileNotFoundError(
+            "Caption fetch disabled on this runner (CAPTION_FETCH=false — YouTube "
+            "blocks cloud IPs regardless of cookies); the residential sweep fetches it.")
 
     # -- Method 1: youtube-transcript-api with optional cookie session ---------
     if vid_id:
@@ -1286,6 +1348,7 @@ def process_video(video):
                 summary = summarize_from_agenda(agenda_text, title, source_key, url)
         else:
             print("  [err]  No transcript or agenda available - skipping.")
+            note_skipped_video(vid_id, title, source_key)
             return None
 
     path = save_summary(title, url, source_key, summary, doc_url, civic_data,
@@ -2415,7 +2478,14 @@ def main():
         print(f"\n✅  All {ok} meetings have transcripts — no agenda-only fallbacks.")
 
     # Write the run report for CI — always, even with zero agenda-only
-    # meetings: the caption-health fields drive the cookie-expiry issue.
+    # meetings: the caption-health and stale-video fields drive the
+    # cookie-expiry and residential-fetcher issues.
+    stale = stale_skipped_videos(state.get("processed", {}))
+    if stale:
+        print(f"\n⚠️  {len(stale)} video(s) unprocessed for {STALE_VIDEO_HOURS}h+ — "
+              f"is the residential fetcher running?")
+        for s in stale:
+            print(f"   [{s['source']}] {s['title']} ({s['age_hours']}h)")
     report = {
         "agenda_only": agenda_only,
         "transcript_based": [{"id": m["id"], "title": m["title"], "source": m["source"]}
@@ -2423,6 +2493,7 @@ def main():
         "total_processed": ok,
         "caption_auth_blocks": CAPTION_HEALTH["auth_blocks"],
         "caption_successes": CAPTION_HEALTH["successes"],
+        "stale_unprocessed": stale,
     }
     report_path = Path("./agenda_only_report.json")
     report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")

@@ -128,6 +128,11 @@ jobs:
           # download per run) and the summarizer no-ops the fallback when this
           # flag is false. Set to "true" locally if you want audio transcription.
           USE_WHISPER_FALLBACK: "false"
+          # YouTube blocks caption/metadata fetches from cloud IPs regardless
+          # of cookies (verified Aug 30, 2026); skipping the attempts avoids
+          # false "cookies expired" alarms. The residential sweep fetches
+          # transcripts. Flip to "true" if YouTube's posture relaxes.
+          CAPTION_FETCH: "false"
           # Optional dispatch override — widens both upgrade-pass windows so
           # meetings that aged past 45 days during an outage get re-attempted.
           SCHOOL_BOARD_VIDEO_DAYS: ${{ github.event.inputs.upgrade_window_days || '45' }}
@@ -211,12 +216,27 @@ jobs:
 
       - name: Generate weekly newsletter roundup
         # Mondays (UTC) or on demand via the roundup dispatch input — one
-        # Sonnet call per generation, so ~4-5 calls/month on autopilot.
+        # Sonnet call per generation. The cron fires ~6x on Mondays, so the
+        # guard checks whether today's roundup was already committed (via
+        # the API — the checkout is shallow, so local git log can't tell).
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event.inputs.roundup }}" = "true" ]; then
+          RUN=0
+          if [ "${{ github.event.inputs.roundup }}" = "true" ]; then
+            RUN=1
+          elif [ "$(date -u +%u)" = "1" ]; then
+            LAST=$(gh api "repos/${{ github.repository }}/commits?path=public/roundup.txt&per_page=1" \
+              --jq '.[0].commit.committer.date[:10] // empty' 2>/dev/null || echo "")
+            if [ "$LAST" = "$(date -u +%F)" ]; then
+              echo "Roundup already generated today ($LAST) — skipping."
+            else
+              RUN=1
+            fi
+          fi
+          if [ "$RUN" = "1" ]; then
             python generate_roundup.py
           else
             echo "Not Monday and roundup not requested — skipping."
@@ -237,6 +257,7 @@ jobs:
           git add -f src/data/upcoming.json || true
           git add -f injected_meetings.json || true
           git add -f processed_meetings.json || true
+          git add -f skipped_videos.json || true
           git add -f summaries/ || true
           git add -f public/digest.png || true
           git add -f public/meetings.ics || true
@@ -342,6 +363,45 @@ jobs:
             gh issue close "$EXISTING" --comment "Caption fetches are succeeding again (${OKS} this run) — the refreshed cookies are working. Auto-closing."
           else
             echo "No cookie signal this run (blocks=$BLOCKS, successes=$OKS)."
+          fi
+
+      - name: Maintain residential-fetcher issue
+        # The residential machine is the only transcript path (CI can't reach
+        # YouTube), and its scheduled task exits 0 even when the script fails
+        # internally. The summarizer records when it first saw each skipped
+        # video; one lingering past STALE_VIDEO_HOURS (36h — normal lag is
+        # ~12h) means the residential sweep has probably stopped.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f agenda_only_report.json ]; then
+            echo "No run report — skipping."
+            exit 0
+          fi
+          STALE=$(python -c "import json; print(len(json.load(open('agenda_only_report.json')).get('stale_unprocessed', [])))")
+          EXISTING=$(gh issue list --state open --search "Residential transcript fetcher may be down in:title" --json number --jq '.[0].number // empty')
+          if [ "$STALE" -gt 0 ]; then
+            LIST=$(python -c "
+          import json
+          for s in json.load(open('agenda_only_report.json'))['stale_unprocessed']:
+              print(f\"- [{s['source']}] {s['title']} — unprocessed for {s['age_hours']}h\")
+          ")
+            TITLE="🏠 Residential transcript fetcher may be down (${STALE} video(s) stuck, checked $(date +%Y-%m-%d))"
+            BODY="These YouTube videos have been unprocessed for over 36 hours. CI cannot fetch captions (cloud IPs are blocked), so they depend on the residential sweep — the MarathonMeetings-RefreshTranscripts task on the operator machine (7 AM / 7 PM). It normally clears a video within ~12 hours."
+            BODY="${BODY}"$'\n\n'"${LIST}"
+            BODY="${BODY}"$'\n\n'"**Check on the operator machine:** is the task running (Task Scheduler → last run result), and does \`python fetch_transcript.py --all\` succeed by hand? A silent break usually means a Python or yt-dlp environment change (see docs/cookie-refresh.md and CLAUDE.md notes). If the fetcher is fine and a video simply has no captions, add its ID to \`SKIP_VIDEO_IDS\` in config.py to dismiss it."
+            if [ -n "$EXISTING" ]; then
+              gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+              echo "Updated residential-fetcher issue #$EXISTING"
+            else
+              gh issue create --title "$TITLE" --body "$BODY"
+              echo "Opened residential-fetcher issue"
+            fi
+          elif [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "No videos stuck past the threshold anymore — the residential fetcher is delivering again. Auto-closing."
+          else
+            echo "No stale videos."
           fi
 
       - name: Surface summarizer failures
