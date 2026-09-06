@@ -1763,6 +1763,17 @@
       "video_url": null,
       "processed_at": "2026-09-04T15:43:41.654263+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-pt1-z-11cxuml58.md"
+    },
+    "vsEYQ8DPwio": {
+      "title": "Wausau Committee of the Whole Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260902",
+      "meeting_date": "20260902",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-06T02:44:18.820416+00:00",
+      "summary_file": "summaries/wausau-wausau-committee-of-the-whole-meeting-vseyq8dpwio.md"
     }
   }
 }
