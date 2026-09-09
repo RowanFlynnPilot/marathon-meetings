@@ -1818,6 +1818,28 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-3",
       "processed_at": "2026-09-08T02:53:23.901364+00:00",
       "summary_file": "summaries/kronenwetter-parks-committee-2026-09-08-kw-c7e3c49a63fe42c09c61aa2af3d8adbd.md"
+    },
+    "-GFcsOK1Wbs": {
+      "title": "Marathon County Public Safety Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-09T02:53:32.764238+00:00",
+      "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-gfcsok1wbs.md"
+    },
+    "AihRS-IoGfM": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-09T02:54:00.132619+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-aihrs-iogfm.md"
     }
   }
 }

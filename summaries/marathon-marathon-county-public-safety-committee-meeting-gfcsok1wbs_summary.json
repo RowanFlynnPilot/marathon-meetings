@@ -1,0 +1,61 @@
+{
+  "overview": "This transcript captures only the tail end of a Marathon County Public Safety Committee meeting, covering the deferral of an ordinance review item, announcement of the next meeting date, and adjournment. No substantive policy decisions or votes on major items are captured in the available recording.",
+  "committee": "Marathon County Public Safety Committee",
+  "presiding": "Unknown — name not stated in available transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Review of Section 5.14 of Code of Ordinances and consideration of revisions (deferred to next month)"
+    },
+    {
+      "time": "0:30",
+      "item": "Next meeting date, time, announcements, and future agenda items"
+    },
+    {
+      "time": "1:10",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Review of Section 5.14 of Code of Ordinances",
+      "body": "The committee deferred review of Section 5.14 of the county's code of ordinances to the next month's agenda. A staff member — likely the committee's legal or administrative liaison — noted that committee members should read the relevant packet materials in light of a prior closed session discussion, which would inform whether revisions are appropriate. Staff indicated they would bring recommendations at the next meeting."
+    },
+    {
+      "item": "Next Meeting Date, Announcements, and Future Agenda Items",
+      "body": "The presiding officer announced the next meeting is scheduled for Tuesday, October 6th, 2026 at 1:30 p.m. in the same room. One committee member indicated they had a future agenda item to suggest but was directed to contact the chair or Lance (a staff contact) via email rather than discussing it publicly at this time."
+    },
+    {
+      "item": "Adjournment",
+      "body": "A motion to adjourn was made by a member identified as Brandon and seconded by a member identified as Jason. The motion passed on a voice vote with no opposition."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Section 5.14 ordinance review deferred to October 6, 2026 meeting agenda; staff to prepare recommendations informed by closed session discussion",
+    "Committee members asked to read Section 5.14 packet materials before next meeting",
+    "Committee member with future agenda idea directed to contact chair or Lance via email"
+  ],
+  "topics": [
+    "Public Safety",
+    "Code of Ordinances",
+    "Committee Administration"
+  ],
+  "votes": [
+    {
+      "item": "Motion to adjourn",
+      "motion": "Move to adjourn",
+      "mover": "Brandon [last name inaudible]",
+      "second": "Jason [last name inaudible]",
+      "outcome": "Approved",
+      "tally": "Unanimous voice vote"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "a201da245c410f3f",
+  "title": "Marathon County Public Safety Committee Meeting",
+  "url": "https://www.youtube.com/watch?v=-GFcsOK1Wbs",
+  "source": "marathon",
+  "doc_url": null,
+  "processed_at": "2026-09-09T02:53:32.763681+00:00"
+}

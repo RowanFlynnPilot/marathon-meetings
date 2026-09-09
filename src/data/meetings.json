@@ -1,5 +1,237 @@
 [
   {
+    "id": "AihRS-IoGfM",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Board of Public Works",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=AihRS-IoGfM",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works met on September 8th and approved a series of contractor pay estimates and project change orders totaling over $800,000 across multiple active city projects, including the downtown mall redevelopment, water treatment plant demolition, and asphalt paving. The board also approved masonry contractor licenses and moved into closed session to deliberate on claims.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and review of August 25th Board of Public Works meeting minutes"
+      },
+      {
+        "time": "0:30",
+        "item": "Open bids — Pleasant View Park Ash timber harvest (Schreiber Logging)"
+      },
+      {
+        "time": "0:55",
+        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies pay estimate #2 ($102,282.35)"
+      },
+      {
+        "time": "1:20",
+        "item": "2026 Asphalt Paving Project A — RC Pavers change order #2 ($354.38, crosswalk at Packer Drive)"
+      },
+      {
+        "time": "1:55",
+        "item": "2026 Asphalt Paving Project A — RC Pavers pay estimate #4 ($103,122.41)"
+      },
+      {
+        "time": "2:20",
+        "item": "2025 Water Treatment Plant Demo — MRD Group pay estimates #6 and #7 ($235,405.25 and $164,350)"
+      },
+      {
+        "time": "2:55",
+        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies pay estimate #9 ($233,403.56)"
+      },
+      {
+        "time": "3:40",
+        "item": "Portland Cement Concrete licenses for ABG Masonry and A1 Western Masonry"
+      },
+      {
+        "time": "4:30",
+        "item": "Motion to enter closed session per Wisconsin State Statute 19.85(1)(g) to deliberate on claims"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "August 25th Meeting Minutes",
+        "body": "A board member moved to approve the minutes and another seconded. The motion passed on a voice vote with all members voting aye. No discussion was recorded."
+      },
+      {
+        "item": "Pleasant View Park Ash Timber Harvest — Open Bid",
+        "body": "One bid was received from Schreiber Logging. The board noted the bid would be reviewed by staff members identified as John and Jamie. No vote on award was recorded in this session."
+      },
+      {
+        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies Pay Estimate #2",
+        "body": "A board member noted the work has been completed and moved to approve the payment of $102,282.35. The motion was seconded and passed unanimously on a voice vote."
+      },
+      {
+        "item": "2026 Asphalt Paving Project A — RC Pavers Change Order #2",
+        "body": "A board member, identified as John, explained that a crosswalk at Packer Drive had not been included in the original plan and a contractor was brought in to repaint it, resulting in a change order of $354.38. The motion to approve was made, seconded, and passed unanimously."
+      },
+      {
+        "item": "2026 Asphalt Paving Project A — RC Pavers Pay Estimate #4",
+        "body": "A board member moved to approve the pay estimate of $103,122.41. The motion was seconded and passed unanimously on a voice vote with no notable discussion."
+      },
+      {
+        "item": "2025 Water Treatment Plant Demo — MRD Group Pay Estimates #6 and #7",
+        "body": "The board approved two pay estimates totaling $399,755.25. A board member remarked that the site looks 'really different down there,' suggesting visible demolition progress. The motion passed unanimously."
+      },
+      {
+        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies Pay Estimate #9",
+        "body": "A board member explained this represents near-final quantities, with $10,000 in retainage held pending concrete sealing work expected to be completed before fall. Once sealing is done, the $10,000 will be released. The payment of $233,403.56 was approved unanimously."
+      },
+      {
+        "item": "Portland Cement Concrete Licenses — ABG Masonry and A1 Western Masonry",
+        "body": "A board member, identified as John, stated he reviewed both license applications and bonds and moved to approve both. The motion was seconded and passed unanimously."
+      },
+      {
+        "item": "Closed Session — Deliberating on Claims",
+        "body": "A board member moved to enter closed session pursuant to Wisconsin State Statute 19.85(1)(g) to deliberate on claims. The motion was seconded and passed unanimously on a voice vote."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Staff (John and Jamie) to review the Schreiber Logging bid for Pleasant View Park Ash timber harvest",
+      "Release $10,000 retainage to Pembrooke Companies for Downtown Mall Redevelopment Phase 2 upon completion of concrete sealing work",
+      "Board to convene in closed session to deliberate on claims per Wisconsin State Statute 19.85(1)(g)"
+    ],
+    "topics": [
+      "Roads",
+      "Utilities",
+      "Parks",
+      "Downtown Mall Redevelopment",
+      "Water Treatment Plant Demolition"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 25th Board of Public Works meeting minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies pay estimate #2 ($102,282.35)",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2026 Asphalt Paving Project A — RC Pavers change order #2 ($354.38)",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2026 Asphalt Paving Project A — RC Pavers pay estimate #4 ($103,122.41)",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2025 Water Treatment Plant Demo — MRD Group pay estimates #6 and #7 ($399,755.25 total)",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies pay estimate #9 ($233,403.56)",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Portland Cement Concrete licenses for ABG Masonry and A1 Western Masonry",
+        "motion": "Move to approve the license applications and bonds of both A1 and ABG Masonry",
+        "mover": "John [inaudible]",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Enter closed session per Wisconsin State Statute 19.85(1)(g) to deliberate on claims",
+        "motion": "Move to go into closed session pursuant to Wisconsin State Statute 19.85(1)(g) for the purpose of deliberating on claims",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "-GFcsOK1Wbs",
+    "source": "marathon",
+    "title": "Public Safety Committee Meeting",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Public Safety",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=-GFcsOK1Wbs",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "This transcript captures only the tail end of a Marathon County Public Safety Committee meeting, covering the deferral of an ordinance review item, announcement of the next meeting date, and adjournment. No substantive policy decisions or votes on major items are captured in the available recording.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Review of Section 5.14 of Code of Ordinances and consideration of revisions (deferred to next month)"
+      },
+      {
+        "time": "0:30",
+        "item": "Next meeting date, time, announcements, and future agenda items"
+      },
+      {
+        "time": "1:10",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Review of Section 5.14 of Code of Ordinances",
+        "body": "The committee deferred review of Section 5.14 of the county's code of ordinances to the next month's agenda. A staff member — likely the committee's legal or administrative liaison — noted that committee members should read the relevant packet materials in light of a prior closed session discussion, which would inform whether revisions are appropriate. Staff indicated they would bring recommendations at the next meeting."
+      },
+      {
+        "item": "Next Meeting Date, Announcements, and Future Agenda Items",
+        "body": "The presiding officer announced the next meeting is scheduled for Tuesday, October 6th, 2026 at 1:30 p.m. in the same room. One committee member indicated they had a future agenda item to suggest but was directed to contact the chair or Lance (a staff contact) via email rather than discussing it publicly at this time."
+      },
+      {
+        "item": "Adjournment",
+        "body": "A motion to adjourn was made by a member identified as Brandon and seconded by a member identified as Jason. The motion passed on a voice vote with no opposition."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Section 5.14 ordinance review deferred to October 6, 2026 meeting agenda; staff to prepare recommendations informed by closed session discussion",
+      "Committee members asked to read Section 5.14 packet materials before next meeting",
+      "Committee member with future agenda idea directed to contact chair or Lance via email"
+    ],
+    "topics": [
+      "Public Safety",
+      "Code of Ordinances",
+      "Committee Administration"
+    ],
+    "votes": [
+      {
+        "item": "Motion to adjourn",
+        "motion": "Move to adjourn",
+        "mover": "Brandon [last name inaudible]",
+        "second": "Jason [last name inaudible]",
+        "outcome": "Approved",
+        "tally": "Unanimous voice vote"
+      }
+    ]
+  },
+  {
     "id": "kw_c7e3c49a63fe42c09c61aa2af3d8adbd",
     "source": "kronenwetter",
     "title": "Parks Committee",
@@ -5907,241 +6139,6 @@
         "second": "Gellhar",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "tcS9bwi3F08",
-    "source": "marathon",
-    "title": "Public Safety Committee Pt.1",
-    "date": "August 11, 2026",
-    "shortDate": "AUG 11",
-    "committee": "Public Safety",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=tcS9bwi3F08",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Public Safety Committee met on August 11, 2026 to discuss 2027 budget development, including nonprofit funding, sheriff's office fleet strategy, jail fees, new position requests, and ordinance updates. The committee approved forwarding several items to the county board, including new position reclassifications, an amendment to the chief deputy appointment ordinance, and creation of a non-lapsing contingency account for the medical examiner's office. A lengthy educational presentation on Flock Safety automated license plate reader (ALPR) technology was underway when the transcript ends.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:30",
-        "item": "Public comment (none offered)"
-      },
-      {
-        "time": "2:00",
-        "item": "Approval of July 7, 2026 Public Safety Committee minutes"
-      },
-      {
-        "time": "3:15",
-        "item": "5A1 - 2027 annual budget development: nonprofit funding review (Women's Community, $55,000 allocation)"
-      },
-      {
-        "time": "12:00",
-        "item": "5A1A - Sheriff's office fleet needs and long-term rolling stock strategy"
-      },
-      {
-        "time": "35:00",
-        "item": "5A1B - Jail stay fees review and collection analysis"
-      },
-      {
-        "time": "52:00",
-        "item": "5A2 - New position requests and reclassifications for 2027 budget (DA's office, Sheriff's office, Clerk of Courts, Medical Examiner)"
-      },
-      {
-        "time": "1:10:00",
-        "item": "5B1 - Update to Marathon County Ordinance 5.09, Chief Deputy Appointment"
-      },
-      {
-        "time": "1:22:00",
-        "item": "5B2 - Creation of non-lapsing contingency account for the Medical Examiner's Office"
-      },
-      {
-        "time": "1:45:00",
-        "item": "6A - Educational presentation: Flock Safety and ALPR technology use by the Sheriff's Office"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Nonprofit Funding - Women's Community ($55,000)",
-        "body": "Jane Graham Jennings, executive director of the Women's Community, presented on how the organization uses its $55,000 annual county contract, noting the funding covers approximately 16% of the $348,822 cost of contracted services and is used to leverage an additional $350,000 in state and federal grants. She highlighted services including lethality assessment protocol screening with the sheriff's department, domestic violence advocacy, sexual assault education in schools, and child advocacy center support. County Administrator Leonard indicated his plan is to keep nonprofit funding flat in the 2027 budget."
-      },
-      {
-        "item": "Sheriff's Office Fleet Strategy and Rolling Stock",
-        "body": "Finance Director Chris (last name not clearly stated) presented a memo outlining a plan developed with Enterprise fleet services to address the gap in vehicle acquisitions caused by flat funding and failure to follow through on a CPI-based increase plan. The plan involves rolling existing leases, extending others with remaining mileage, and moving 17 vehicles into the lease fleet program, with a projected funding gap of $138,876 between existing rolling stock funds and the proposed $456,548 CIP allocation for 2027. Committee members discussed the bottleneck caused by upfitting vehicles at Belco in Columbus, and the sheriff described an effort to pursue a state innovation grant to create a regional upfitting operation involving Wausau, Mountain Bay, and Kronenwetter police departments. Administrator Leonard confirmed outreach to NTC, McDevco, and WATTA workforce organizations to support that effort. No resolution was presented, as fleet funding is not formally approved until November budget adoption."
-      },
-      {
-        "item": "Jail Stay Fees",
-        "body": "Sheriff's Captain Chad (last name not clearly stated) presented a memo explaining that while the jail collected $303,666 in total fees in 2025, the portion attributable specifically to first-day fees ($30) and daily pay-for-stay fees ($20) is much smaller because roughly 90% of the jail population is pre-sentenced and not assessed those charges. Staff noted the population is largely indigent, making collections very difficult, and that even fee increases would not meaningfully increase actual revenue. Administrator Leonard noted a housekeeping amendment will be brought forward to update ordinance section 5.11 to reference the fee schedule rather than listing specific amounts, after an oversight was identified where the old fee remained in the ordinance text."
-      },
-      {
-        "item": "New Position Requests and Reclassifications for 2027 Budget",
-        "body": "Administrator Leonard presented four personnel actions: (1) DA's office - abolish a county-funded restitution specialist position and create a 1.0 victim witness specialist and 0.5 administrative specialist, leveraging state Chapter 950 reimbursement; (2) Sheriff's office - abolish a senior admin position and create a corrections officer position to address jail staffing needs; (3) Clerk of Courts - reclass an administrative assistant to administrative specialist to manage scheduling duties previously defunded; (4) Medical Examiner - abolish the vacant deputy chief medical examiner (physician) position and create a senior administrative assistant, generating significant cost savings. Medical Examiner Director Jess explained the physician position was unsustainable due to lower-than-projected case volumes, noting the office is building volume gradually with new county and hospital contracts. The committee approved forwarding all positions to HR, Finance and Property."
-      },
-      {
-        "item": "Marathon County Ordinance 5.09 - Chief Deputy Appointment Update",
-        "body": "Sheriff Chad presented an ordinance update required by 2025 Wisconsin Act 196, which merged the chief deputy and under sheriff roles so that the chief deputy automatically assumes the sheriff's duties if needed, and removed the chief deputy position from civil service oversight, making it solely the sheriff's appointment. Corporation Counsel Brian Desmond also recommended removing a provision barring the chief deputy from seeking the office of sheriff, citing both practical concerns about limiting the candidate pool and potential legal issues with restricting access to elective office. The committee approved forwarding the ordinance amendment to the county board."
-      },
-      {
-        "item": "Non-Lapsing Contingency Account for Medical Examiner's Office",
-        "body": "Administrator Leonard proposed creating a non-lapsing contingency account capped at $250,000 for the Medical Examiner's office, funded by year-end operating surpluses rather than levy, to cover volatile revenue years and expensive capital equipment needs such as the $300,000 full-body X-ray (Phobus) machine. Supervisor John Robinson expressed support but raised concerns that the $250,000 cap is high compared to other departments' accounts and that frequent periodic reviews should ensure the funds are not used as a budget workaround. Supervisor Jason raised questions about whether building expenses like roofs would draw from this fund, and Leonard confirmed it could serve as a blended funding source with board approval via supermajority vote. The committee approved forwarding the proposal to the county board."
-      },
-      {
-        "item": "6A - Flock Safety ALPR Technology Presentation",
-        "body": "Captain Jeff Stefanic of the sheriff's investigations division began an educational presentation on automated license plate reader (ALPR) technology, explaining the sheriff's office has used Flock Safety systems since 2023. He described how stationary cameras capture and read license plates using infrared illumination and character-recognition software, noting the technology is used commercially in toll systems and car washes. The presentation was ongoing at the end of the transcript and covered what the system is, its capabilities, data retention policies, and public safety outcomes, with the stated goal of educating the committee amid public questions generated by recent news coverage."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Forward all new position requests and reclassifications (DA's office, Sheriff's office, Clerk of Courts, Medical Examiner) to HR, Finance and Property Committee and inclusion in the proposed 2027 budget",
-      "Forward amended Ordinance 5.09 (Chief Deputy Appointment) to the county board for consideration",
-      "Forward creation of a $250,000 non-lapsing contingency account for the Medical Examiner's office to the county board for consideration",
-      "Administrator Leonard to bring forward a future ordinance amendment removing specific fee amounts from chapter 5 and chapter 12 ordinances, replacing them with references to the fee schedule",
-      "Sheriff's office and administration to develop a business plan and write a state innovation grant application for a regional squad car upfitting operation with municipal partners",
-      "Sheriff's office to provide a cost breakdown of the drone unit for a future agenda item",
-      "Administration and health departments to continue defining costs and funding strategies for expanding mobile crisis services beyond current 8-to-5 Monday-Friday CART operations",
-      "Administration to send committee members the link to the 2026 employee benefit summary regarding FTE benefit eligibility thresholds"
-    ],
-    "topics": [
-      "Budget",
-      "Public Safety",
-      "Staffing",
-      "Fleet Management",
-      "Medical Examiner",
-      "Women's Community Nonprofit",
-      "ALPR Technology",
-      "Jail Operations"
-    ],
-    "votes": [
-      {
-        "item": "Approval of July 7, 2026 Public Safety Committee minutes",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Forward new position requests and reclassifications to HR, Finance and Property Committee and into the proposed 2027 budget",
-        "motion": "Support inclusion of each of the new positions and reclasses into the proposed budget and move it forward to HR Finance and Property",
-        "mover": "Jennifer",
-        "second": "Deb",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Forward amended Ordinance 5.09 (Chief Deputy Appointment) to the county board",
-        "motion": null,
-        "mover": "Jason",
-        "second": "Deb",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Forward creation of non-lapsing contingency account for Medical Examiner's office to the county board",
-        "motion": null,
-        "mover": "Jen",
-        "second": "Jason",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "L9DOaVBOkJU",
-    "source": "marathon",
-    "title": "Public Safety Committee Pt.2",
-    "date": "August 11, 2026",
-    "shortDate": "AUG 11",
-    "committee": "Public Safety",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=L9DOaVBOkJU",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Public Safety Committee received two informational presentations: a data-driven update on the county's drug treatment court program (2018–2026 year-to-date) and an overview of North Central Health Care's Hope House supportive housing program. No formal votes were taken on substantive matters aside from adjournment. The meeting highlighted that Marathon County's treatment court success rate of 58.8% exceeds the state average of 56.6%, and that lack of supportive housing was identified as the top gap in a recent strategic intercept mapping exercise.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Treatment Court Program Overview — presented by Lori Ari, Justice Programs Coordinator"
-      },
-      {
-        "time": "4:30",
-        "item": "Treatment Court Data Presentation — presented by Michael Schultz, Data Officer"
-      },
-      {
-        "time": "8:00",
-        "item": "Treatment Court referrals, eligibility, admissions, and success rate data (2018–2025)"
-      },
-      {
-        "time": "15:00",
-        "item": "Treatment Court 2026 year-to-date data and state comparison"
-      },
-      {
-        "time": "22:00",
-        "item": "Committee Q&A on Treatment Court — questions from Jason and Kim"
-      },
-      {
-        "time": "28:00",
-        "item": "6C: North Central Health Care Hope House Program Overview — presented by Wendy Peterson"
-      },
-      {
-        "time": "35:00",
-        "item": "Committee Q&A on Hope House — questions on success rates, funding, vetting, and housing for women"
-      },
-      {
-        "time": "44:00",
-        "item": "Future agenda items and next meeting date announcement"
-      },
-      {
-        "time": "45:00",
-        "item": "Motion to adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Drug Treatment Court Program Overview and Data Presentation",
-        "body": "Justice Programs Coordinator Lori Ari and Data Officer Michael Schultz presented a comprehensive data report on the county's drug treatment court, covering 2018 through August 6, 2026. Schultz used Power BI dashboards connected to the DOJ's CORE system to show referrals, admissions, eligibility breakdowns, days in program, housing and employment status changes, and success rates. A notable highlight was that exactly 100 participants had either graduated, been terminated, or administratively discharged since the program's inception, with Marathon County's 58.8% success rate slightly exceeding the state average of 56.6% for the 2019–2023 period. Ari noted 15 participants have had children returned from out-of-home placement and six drug-free babies have been born to program participants."
-      },
-      {
-        "item": "Committee Q&A on Treatment Court",
-        "body": "Supervisor Jason asked whether graduates stay in contact with the program after completion; Ari explained graduates fill out a questionnaire about desired contact level, are required to check in at court at 30, 60, and 90 days post-graduation, and many continue to volunteer or sponsor new participants. Supervisor Kim asked about the reasons for the 40% termination rate seen in the state comparison data; Ari explained termination typically results from absconding, significant new criminal charges, or long-term failure to show any improvement. A committee member who identified as a former prosecutor noted the visible transformation in participants he had seen at graduations."
-      },
-      {
-        "item": "6C: North Central Health Care Hope House Program Overview",
-        "body": "Wendy Peterson, Director of Acute Care Services at North Central Health Care, presented an overview of Hope House, a supportive sober-living program operating under the Apricity model with two locations: an eight-bed men's facility in Wausau (average daily census 6.5) and an eight-bed women's facility in Antigo (average daily census 5.5), serving Marathon, Lincoln, and Langlade Counties. Residents must have completed treatment, maintained 30 days of sobriety, and engage in 40 hours per week of work, school, volunteering, or programming. Funding comes from resident rent supplemented by Marathon County cash levy for the Wausau location and Langlade County cash levy for the Antigo facility. County Administrator Jason noted that the recent Strategic Intercept Mapping exercise identified lack of supportive housing as the number-one gap in the community's justice and recovery system."
-      },
-      {
-        "item": "Future Agenda Items and Adjournment",
-        "body": "The chair noted that drone statistics were requested as a future agenda item and asked committee members to submit additional ideas to herself or administrator Lance. The next meeting was announced for Tuesday, September 8th at 1:30. Supervisor Joel moved to adjourn; Jen seconded; the motion passed unanimously by voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Drone statistics to be added as a future agenda item per chair's direction to the administrator.",
-      "Michael Schultz and Lori Ari to prepare a presentation on treatment court data for the Wisconsin Treatment Court Professionals Conference in the fall.",
-      "Committee members asked to submit ideas for future agenda items to the chair or administrator Lance.",
-      "Next Public Safety Committee meeting scheduled for Tuesday, September 8th at 1:30 p.m."
-    ],
-    "topics": [
-      "Public Safety",
-      "Treatment Court",
-      "Supportive Housing",
-      "Substance Use Recovery",
-      "Hope House"
-    ],
-    "votes": [
-      {
-        "item": "Adjourn the meeting",
-        "motion": "Move to adjourn",
-        "mover": "Joel",
-        "second": "Jen",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
