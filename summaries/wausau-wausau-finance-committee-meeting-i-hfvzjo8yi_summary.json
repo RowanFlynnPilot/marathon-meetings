@@ -1,0 +1,91 @@
+{
+  "overview": "The Wausau Finance Committee met on September 8th and took action on two items: rejecting a solar array project at the drinking water treatment facility after the city failed to receive an EPA grant, and approving a sole-source purchase of Lucas mechanical CPR devices for the fire department. The solar array project was defeated 1-4, while the CPR device purchase was approved unanimously pending correction of a minor math discrepancy in the documentation.",
+  "committee": "City of Wausau Finance Committee",
+  "presiding": "Unknown — chair not identified by name in transcript",
+  "agenda": [
+    {
+      "time": "4:01",
+      "item": "Call to Order"
+    },
+    {
+      "time": "4:20",
+      "item": "Public Comment on Agenda Items"
+    },
+    {
+      "time": "4:35",
+      "item": "Consideration of Minutes — August 25, 2026 Regular Finance Committee Meeting"
+    },
+    {
+      "time": "5:10",
+      "item": "Item 3A: Drinking Water Treatment Solar Array Project — Budget Modification and Sole Source Request for Engineering Design Services"
+    },
+    {
+      "time": "15:45",
+      "item": "Item 3B: Sole Source Request for Lucas Mechanical CPR Devices from Stryker for Fire Department"
+    },
+    {
+      "time": "22:10",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Approval of August 25, 2026 Minutes",
+      "body": "A motion was made by Watson and seconded by Neil to approve the minutes of the previous meeting. No discussion was noted and the motion carried."
+    },
+    {
+      "item": "Drinking Water Treatment Solar Array Project — Budget Modification and Sole Source Engineering Request",
+      "body": "Staff reported that the city did not receive the anticipated EPA grant, which would have significantly offset construction costs for the approximately $2.8 million solar array project. Without the grant, the payback period was estimated at roughly 21 years even with the 30% federal tax credit, which committee members characterized as too long to be financially viable. Alder Watson expressed disappointment but acknowledged the math was unfavorable, and noted that community engagement and 30% design work completed could be preserved for future efforts. The chair noted the city may have 'missed the window' for favorable incentives. A motion to approve moving forward was made and seconded, but defeated 1-4 with members voting no in anticipation of rejecting the project while expressing hope it would not be abandoned permanently."
+    },
+    {
+      "item": "Sole Source Request — Lucas Mechanical CPR Devices from Stryker for Fire Department",
+      "body": "The fire chief explained the department is switching back to Lucas devices from a previous brand, with existing devices to be traded in for an $18,000 credit. Alder Hani identified a approximately $750 math discrepancy in the sole source document between the stated total cost and the calculated cost after the trade-in, and also flagged what appeared to be a copy-paste reference to a video laryngoscope in the document. The chief acknowledged the error, attributed it to the EMS division chief who prepared the paperwork and was unavailable, and committed to providing corrected figures. The committee approved the purchase pending correction of the math error and typo, with the corrected net cost calculated as $72,692.92."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Solar array project motion was defeated 1-4; staff directed to preserve existing 30% design concepts and community engagement work for potential future use",
+    "Fire department sole source purchase of Lucas mechanical CPR devices from Stryker approved pending correction of approximately $750 math discrepancy and document typo",
+    "Fire chief to follow up with corrected cost figures from Lucas quote; corrected net cost confirmed at $72,692.92 after $18,000 trade-in"
+  ],
+  "topics": [
+    "Budget",
+    "Utilities",
+    "Public Safety",
+    "Renewable Energy",
+    "Solar Array Project"
+  ],
+  "votes": [
+    {
+      "item": "Approval of August 25, 2026 Finance Committee minutes",
+      "motion": null,
+      "mover": "Watson",
+      "second": "Neil",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Approve moving forward with drinking water treatment solar array project and associated budget modification and sole source engineering request",
+      "motion": "Motion to approve moving forward with the solar array project",
+      "mover": null,
+      "second": "Neil",
+      "outcome": "Failed",
+      "tally": "1-4"
+    },
+    {
+      "item": "Approve sole source purchase of Lucas mechanical CPR devices from Stryker for fire department, pending math correction",
+      "motion": "Motion to approve the sole source purchase request with the update on the math error and typo",
+      "mover": "Watson",
+      "second": "Hickeyi",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "a17e0f847d5092ed",
+  "title": "Wausau Finance Committee Meeting",
+  "url": "https://www.youtube.com/watch?v=I-HFVzJo8yI",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-09-10T15:46:56.594448+00:00"
+}

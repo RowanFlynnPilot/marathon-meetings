@@ -1,0 +1,54 @@
+{
+  "overview": "The Wausau Board of Public Works held an extremely brief meeting in which members approved a subrogated insurance claim from Acuity Insurance for $1,235.42 and immediately adjourned. The meeting lasted only seconds based on the transcript, with no substantive discussion recorded.",
+  "committee": "Wausau Board of Public Works",
+  "presiding": "Unknown — not identified in transcript",
+  "agenda": [
+    {
+      "time": "0:01",
+      "item": "Approval of subrogated claim from Acuity Insurance ($1,235.42)"
+    },
+    {
+      "time": "0:01",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Subrogated Claim — Acuity Insurance, $1,235.42",
+      "body": "A member immediately moved to approve the subrogated claim of Acuity Insurance in the amount of $1,235.42. The motion was seconded and approved on a voice vote with no discussion. No additional context about the nature of the claim was provided in the transcript."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Approve subrogated insurance claim from Acuity Insurance in the amount of $1,235.42"
+  ],
+  "topics": [
+    "Insurance Claims",
+    "Budget"
+  ],
+  "votes": [
+    {
+      "item": "Subrogated claim of Acuity Insurance — $1,235.42",
+      "motion": "Motion to approve the subrogated claim of Acuity Insurance in the amount of $1,235.42",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Adjournment",
+      "motion": "Motion to adjourn",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "23cadab78f8f18f3",
+  "title": "Wausau Board of Public Works Meeting",
+  "url": "https://www.youtube.com/watch?v=uPyfeNRFvqo",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-09-10T15:49:15.776147+00:00"
+}

@@ -1906,6 +1906,72 @@
       "video_url": null,
       "processed_at": "2026-09-10T02:58:32.881478+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-tpcw8s20ig8.md"
+    },
+    "I-HFVzJo8yI": {
+      "title": "Wausau Finance Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:46:56.595226+00:00",
+      "summary_file": "summaries/wausau-wausau-finance-committee-meeting-i-hfvzjo8yi.md"
+    },
+    "dfD93NP7R_E": {
+      "title": "Marathon County Public Safety Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:47:53.573137+00:00",
+      "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-dfd93np7r-e.md"
+    },
+    "mGDdhrEuEKs": {
+      "title": "Marathon County EEED & HRFC Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260909",
+      "meeting_date": "20260909",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:48:07.757443+00:00",
+      "summary_file": "summaries/marathon-marathon-county-eeed-hrfc-committee-meeting-mgddhreueks.md"
+    },
+    "teCDhlEQSKU": {
+      "title": "Marathon County EEED & HRFC Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260909",
+      "meeting_date": "20260909",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:49:06.451073+00:00",
+      "summary_file": "summaries/marathon-marathon-county-eeed-hrfc-committee-meeting-tecdhleqsku.md"
+    },
+    "uPyfeNRFvqo": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:49:15.776888+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-upyfenrfvqo.md"
+    },
+    "yDRMhNnLPuQ": {
+      "title": "Marathon County Human Resources, Finance, and Property Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260909",
+      "meeting_date": "20260909",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T15:50:02.853924+00:00",
+      "summary_file": "summaries/marathon-marathon-county-human-resources-finance-and-property-committee-meeting-ydrmhnnlpuq.md"
     }
   }
 }

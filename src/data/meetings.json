@@ -104,6 +104,334 @@
     "votes": []
   },
   {
+    "id": "yDRMhNnLPuQ",
+    "source": "marathon",
+    "title": "Human Resources, Finance, and Property Committee Meeting",
+    "date": "September 9, 2026",
+    "shortDate": "SEP 9",
+    "committee": "Marathon County Human Resources, Finance, and Property Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=yDRMhNnLPuQ",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Human Resources, Finance, and Property Committee met and addressed several significant items including a credit union lease situation at 400 Thomas Street, conduit financing consent for a local hotel project, an ARPA funding update, a detailed presentation on the sheriff's office contract with the Village of Rib Mountain, and a Wisconsin Public Service easement matter. The committee approved conduit financing for the Wasa Hotel Group and voted to enter closed session to discuss the Rib Mountain law enforcement contract and a WPS easement at Sunny Bell Park.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Approve August 25th minutes and August 8th joint meeting minutes with EEC"
+      },
+      {
+        "time": "0:45",
+        "item": "Operational functions / annual budget development (deferred)"
+      },
+      {
+        "time": "1:10",
+        "item": "Update on lease with credit union at 400 Thomas Street"
+      },
+      {
+        "time": "4:45",
+        "item": "August claims and question costs approval"
+      },
+      {
+        "time": "5:30",
+        "item": "Request for consent of conduit financing via Public Finance Authority for local construction project (Wasa Hotel Group)"
+      },
+      {
+        "time": "11:10",
+        "item": "Update on American Rescue Plan Act (ARPA) funding usage and plan for reallocation"
+      },
+      {
+        "time": "13:30",
+        "item": "Sheriff's office contract with the Village of Rib Mountain — open session overview"
+      },
+      {
+        "time": "34:00",
+        "item": "Wisconsin Public Service easement at Sunny Bell Park — open session overview"
+      },
+      {
+        "time": "35:30",
+        "item": "Motion to enter closed session for Rib Mountain contract and WPS easement"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approve August 25th and August 8th joint meeting minutes",
+        "body": "Chair Gibbs called for approval of the August 25th minutes and the August 8th joint meeting minutes with the EEC. Vice Chair Pool moved and Supervisor Hart seconded. The motion carried with no opposition noted."
+      },
+      {
+        "item": "Credit union lease at 400 Thomas Street",
+        "body": "County administrator reported that the credit union, which leases space at the former social services building at 400 Thomas Street, has not provided a firm move-out date despite multiple requests. Chair Gibbs asked whether the county could invoke the 180-day notice provision in the lease to force the issue. Administrator confirmed the authority exists under the lease. The administrator advised against formally directing termination that day, noting a closed session update was planned, and said he would convey to the credit union that the committee had discussed the possibility of issuing notice."
+      },
+      {
+        "item": "August claims and question costs",
+        "body": "A motion was made to approve claims and question costs for August 2026. The motion carried with no opposition. Chair Gibbs noted to staff that weekend work to prepare materials was appreciated but not expected."
+      },
+      {
+        "item": "Conduit financing consent via Public Finance Authority for Wasa Hotel Group",
+        "body": "County administrator Leonard explained that Wasa Hotel Group requested consent to access up to $10 million in bonding through the Public Finance Authority (PFA) for hotel renovations and debt refinancing, with no financial obligation or impact on the county's general obligation bonding capacity. Managing member John Kofi described the hotel's turnaround from being the second-worst performing Holiday Inn Express out of 2,600 to the top 2%, with $3.5 million invested since 2017 and approximately $285,000 in annual room tax contributions. Bond counsel Frank Gare (Corals and Brady) confirmed there is no statewide cap on PFA issuance. Vice Chair Pool moved to consent; Chair Gibbs seconded. The motion carried unanimously."
+      },
+      {
+        "item": "ARPA funding update and reallocation plan",
+        "body": "Finance staff reported that of the original $26,356,580 in ARPA funds, approximately $480,824.39 remains unspent. The most active remaining projects are the 9M forest septic system and Shelly renovation, and potentially the fiber optics Bug Tussle project. Staff indicated a resolution to reallocate unspent funds to a previously approved project will be brought to the committee next month to minimize clawback risk ahead of the December 31st expenditure deadline."
+      },
+      {
+        "item": "Sheriff's office contract with the Village of Rib Mountain",
+        "body": "Sheriff Chad Phillip and County Administrator Leonard presented detailed data analysis by Data Officer Michael Schultz showing that dedicated Rib Mountain deputies handle only about 29% of calls in the village, with 70-71% handled by non-dedicated county deputies. The data showed peak call volume occurring from noon through early evening, prompting a shift in deputy scheduling toward afternoon hours. Administrator Leonard noted the current contract undercharges Rib Mountain by approximately $30,000 per deputy annually when indirect costs are properly calculated. Vice Chair Pool asked whether the three Rib Mountain deputies also serve other areas; the sheriff confirmed they do, including SWAT, dive team, and crash reconstruction duties, with roughly 60 documented instances of responding outside Rib Mountain. The committee was advised that as a village, Rib Mountain is now legally mandated to provide law enforcement and that any contract requires county board ratification. Further discussion was deferred to closed session."
+      },
+      {
+        "item": "Wisconsin Public Service easement at Sunny Bell Park",
+        "body": "Administrator Leonard briefly described this as a carryover item from a previous meeting, noting that WPS had proposed a valuation for a natural gas regulator station easement at Sunny Bell Park that the committee had previously indicated was insufficient. Director Pauly was referenced as involved in the valuation discussions. No substantive open-session debate occurred; the matter was referred to closed session for direction to administration."
+      },
+      {
+        "item": "Motion to enter closed session",
+        "body": "Chair Gibbs read the motion to enter closed session under Wisconsin Statute 19.85(1)(e) for bargaining reasons, covering two topics: the sheriff's office contract with the Village of Rib Mountain and the WPS easement at Sunny Bell Park (Sunny Bell Park natural gas regulator station). Vice Chair Pool seconded. A roll call vote was taken and the motion carried."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Administration to convey to the credit union that the committee discussed invoking the 180-day lease termination notice, with a closed session update to follow at the next meeting",
+      "Forward Wasa Hotel Group conduit financing consent resolution to the full county board for approval",
+      "Staff to bring a resolution next month to reallocate remaining ARPA funds (~$480,824) to a previously approved project before the December 31st deadline",
+      "Continue closed-session negotiations with the Village of Rib Mountain on sheriff's office contract cost increases (~$30,000 per deputy annually) and staffing levels",
+      "Provide direction to administration and Director Pauly in closed session regarding WPS easement valuation at Sunny Bell Park",
+      "Data Officer Michael Schultz to continue refining data on how often Rib Mountain-dedicated deputies respond outside the village"
+    ],
+    "topics": [
+      "Budget",
+      "Public Safety",
+      "Staffing",
+      "Rib Mountain Law Enforcement Contract",
+      "Sunny Bell Park Easement",
+      "ARPA Funding"
+    ],
+    "votes": [
+      {
+        "item": "Approve August 25th minutes and August 8th joint meeting minutes with EEC",
+        "motion": null,
+        "mover": "Vice Chair Pool",
+        "second": "Supervisor Hart",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve August claims and question costs",
+        "motion": "Motion to approve claims and question costs for August 2026",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Consent to conduit financing via Public Finance Authority for Wasa Hotel Group (up to $10 million)",
+        "motion": "Move that we consent for conduit financing via the Public Finance Authority for this construction project",
+        "mover": "Vice Chair Pool",
+        "second": "Kurt Gibbs",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Enter closed session for Rib Mountain sheriff's contract and WPS Sunny Bell Park easement",
+        "motion": "Move to go into closed session pursuant to Wisconsin Statute 19.85(1)(e) for bargaining reasons",
+        "mover": "Kurt Gibbs",
+        "second": "Vice Chair Pool",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "teCDhlEQSKU",
+    "source": "marathon",
+    "title": "EEED & HRFC Committee Meeting",
+    "date": "September 9, 2026",
+    "shortDate": "SEP 9",
+    "committee": "Marathon County EEED (Extension Education Economic Development) & HRFC (Human Resources Finance Committee) Joint Meeting",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=teCDhlEQSKU",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County EEED and HRFC committees held a joint meeting to review four RFP responses for redevelopment of the UW-Stevens Point Wausau campus, plus hear an update on negotiations with the Marathon Center for Arts and Culture. Committees heard presentations from Wisconsin Ice Volleyball Club, the Center for the Visual Arts, Wausau Police Chief Barnes on the City of Wausau's public safety campus proposal, and Parks & Recreation staff before voting unanimously to enter closed session to discuss negotiation strategy on the RFP responses.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order / Pledge of Allegiance"
+      },
+      {
+        "time": "0:15",
+        "item": "Public Comment — No speakers signed up"
+      },
+      {
+        "time": "0:30",
+        "item": "Overview of RFP Process and Four Proposals — Administrator Leonard and Chris Holman"
+      },
+      {
+        "time": "1:30",
+        "item": "Proposal 1: Lone Wolf Works — Central Heating Plant automotive/fabrication reuse"
+      },
+      {
+        "time": "3:00",
+        "item": "Proposal 2: Wisconsin Ice Volleyball Club — Fieldhouse acquisition"
+      },
+      {
+        "time": "5:30",
+        "item": "Proposal 3: City of Wausau — Full campus public safety and government services redevelopment"
+      },
+      {
+        "time": "8:00",
+        "item": "Proposal 4: Center for the Visual Arts — East and West Arts Buildings satellite campus"
+      },
+      {
+        "time": "14:30",
+        "item": "Parks Department Fieldhouse Community Recreation Proposal — Jamie [Parks Director]"
+      },
+      {
+        "time": "23:00",
+        "item": "Wausau Police Chief Barnes presentation on City of Wausau proposal rationale"
+      },
+      {
+        "time": "30:00",
+        "item": "Public presentations from Wisconsin Ice Volleyball Club (Jody Davis) and CVA (Mara Mullen)"
+      },
+      {
+        "time": "42:00",
+        "item": "Marathon Center for Arts and Culture update — Administrator Leonard"
+      },
+      {
+        "time": "46:00",
+        "item": "Campus map orientation and questions"
+      },
+      {
+        "time": "57:00",
+        "item": "Motions and roll call votes to enter closed session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "RFP Overview — Four Proposals Summarized",
+        "body": "Administrator Leonard and Chris Holman presented four RFP responses at a high level, noting this was not a traditional scored RFP but a committee-driven criteria process allowing for negotiation. Holman clarified that the Lone Wolf Works proposal (central heating plant for automotive/fabrication) was essentially a contingency proposal dependent on the heating plant being decommissioned, and was not immediately actionable. A question arose about whether the county could counter-offer; Leonard confirmed further negotiations were anticipated and that any property transfer requires full county board ratification."
+      },
+      {
+        "item": "Wisconsin Ice Volleyball Club Proposal",
+        "body": "Board member Jody Davis explained the club's 25-year history and urgent need for dedicated gym space, citing displacement from Wisconsin Valley Lutheran, scheduling conflicts at Northland Lutheran, and costs of $25–$44/hour at facilities like CTI. Davis clarified that while the proposal included the East and West Arts buildings, the fieldhouse is the club's exclusive priority. The club indicated openness to subletting the pool and other spaces to organizations like the YMCA and youth hockey. In response to a question, Davis confirmed the arts buildings were included to help the county, not because the club needed them."
+      },
+      {
+        "item": "City of Wausau Proposal — Police Department Campus Relocation",
+        "body": "Police Chief Barnes explained the city's motivation: relocating the fire department into the existing police station to avoid an estimated $30–50 million new fire station construction cost, then moving the police department to the UW campus. He described a vision including the Wausau School District potentially occupying the south hall of North-South Hall to address $3 million in deferred maintenance on district offices, and creating a shared regional law enforcement training hub. Barnes emphasized the 6-month due diligence period is to hire third-party experts to assess renovation costs, not a commitment, and stressed the proposal could save taxpayers tens of millions of dollars long-term."
+      },
+      {
+        "item": "Center for the Visual Arts Proposal",
+        "body": "Executive Director Mara Mullen described CVA's 40-year history, 40,000 annual gallery visitors, 90-plus classes per year, and severe space constraints at their downtown location at 427 North Fourth Street — including a two-plus-year camp waitlist and inability to offer oil painting due to ventilation issues. She said the East and West Arts buildings would allow CVA to add a wood shop, print studio, expanded ceramics with a gas kiln, and more youth programming. She noted that building from scratch would cost millions, making the UW campus a highly attractive option, and proposed assuming full operational costs starting January."
+      },
+      {
+        "item": "Parks Department Community Recreation Proposal",
+        "body": "Parks Director Jamie presented a high-level concept for operating the fieldhouse as a county or city community recreation center, with programming including open gyms, leagues, pool use (noting YMCA interest in 5-days-per-week pool rental), county employee fitness center access, senior programming, and potential youth hockey dryland training. She was candid that the facility in its current form would likely require a tax subsidy rather than generate revenue, comparing it to the city's pools. She also flagged that Parks staff currently park in the UW lot and would have no alternative if that lot changed hands."
+      },
+      {
+        "item": "Marathon Center for Arts and Culture Update",
+        "body": "Administrator Leonard reported that negotiations with Marathon Center for Arts and Culture — directed by the committee after the first RFP round for the Center for Civic Engagement building — are ongoing but delayed because the group has not yet received its 501(c)3 nonprofit status, which is critical for a tax-exempt property transfer by the January 1, 2027 goal. He said they are discussing interim occupancy mechanisms and that the group may want to accelerate the move-in timeline. He also disclosed that the group informally requested the county act as employer for a new executive director position, fully reimbursed, but noted this raised serious liability concerns and no action was requested at this meeting."
+      },
+      {
+        "item": "Campus Map Orientation",
+        "body": "Supervisor Kremes requested a satellite map view of the campus. Holman oriented committee members to the layout, identifying the theater/Center for Civic Engagement as a standalone green parcel not connected to the central heating plant, with all other red parcels tied to the heating plant. He identified the fieldhouse, pool, fitness center, racquetball courts, art buildings, dorms (Marathon Hall), and central heating plant locations. Chief Barnes and Parks Director Jamie discussed parking constraints, noting the county has historically maintained Marathon Park lots for the university and that parking solutions would need to be negotiated among all parties."
+      },
+      {
+        "item": "Motion to Enter Closed Session — EEED Committee",
+        "body": "A supervisor identified as Leur moved to enter closed session under Wisconsin Statute 19.85(1)(e) for competitive bargaining reasons, specifically to discuss RFP responses for the UWSP Wausau campus and the Marathon Center for Arts and Culture executive director position request. Corporation Counsel Ryan confirmed the statutory requirements for closed session had been met. The motion passed 7-0 on a roll call vote."
+      },
+      {
+        "item": "Motion to Enter Closed Session — HRFC Committee",
+        "body": "Vice Chair moved to enter closed session under the same statutory authority with identical scope. The motion was seconded by Supervisor Hart and passed 4-0 on a roll call vote. Staff present were confirmed as authorized to remain for the closed session."
+      }
+    ],
+    "publicComment": "No public comment was offered. The presiding chair noted no one had signed up for public comment at the start of the meeting.",
+    "actionItems": [
+      "Both committees entered closed session to discuss negotiation strategy on the four RFP responses for the UWSP Wausau campus",
+      "Both committees entered closed session to discuss the Marathon Center for Arts and Culture request for the county to create and employ an executive director position",
+      "Staff to continue negotiations with Marathon Center for Arts and Culture on interim occupancy mechanisms pending 501(c)3 status",
+      "Administrator Leonard noted any property transfer must be ratified by the full county board",
+      "Administrator Leonard indicated the proposed executive director job description from Marathon Center for Arts and Culture would need significant revision to address liability concerns before any formal request is considered"
+    ],
+    "topics": [
+      "Economic Development",
+      "Campus Redevelopment",
+      "Public Safety",
+      "Arts and Culture",
+      "UW-Stevens Point Wausau Campus"
+    ],
+    "votes": [
+      {
+        "item": "EEED Committee motion to enter closed session to discuss RFP responses for UWSP Wausau campus and Marathon Center for Arts and Culture executive director position request",
+        "motion": "Move to go into closed session, roll call vote required pursuant to Wisconsin State Statute 19.85(1)(e), for the purposes of conducting specified public business whenever competitive or bargaining reasons require a closed session, specifically consideration of RFP responses for UWSP property and the request from the Marathon Center for Arts and Culture for the county to create an executive director position",
+        "mover": "Leur",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "HRFC Committee motion to enter closed session to discuss RFP responses for UWSP Wausau campus and Marathon Center for Arts and Culture executive director position request",
+        "motion": "Move to go into closed session, roll call vote required pursuant to Wisconsin Statutes 19.85(1)(e), for the purposes of conducting specified public business whenever competitive or bargaining reasons require a closed session, specifically consideration of RFP responses for UWSP property and the request from the Marathon Center for Arts and Culture for the county to create an executive director position",
+        "mover": "Vice Chair",
+        "second": "Supervisor Hart",
+        "outcome": "Approved",
+        "tally": "4-0"
+      }
+    ]
+  },
+  {
+    "id": "mGDdhrEuEKs",
+    "source": "marathon",
+    "title": "EEED & HRFC Committee Meeting",
+    "date": "September 9, 2026",
+    "shortDate": "SEP 9",
+    "committee": "Marathon County EEED & HRFC Committee (Joint Meeting)",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=mGDdhrEuEKs",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "This brief joint session of the Marathon County EEED and HRFC committees emerged from a closed session, with staff announcing they had received direction on next steps for evaluating proposals and beginning lease negotiations with the Marathon Center for Arts and Culture. The EEED Committee then adjourned, and the HRFC Committee took a brief recess. Any resulting agreements will require approval from the appropriate committees and the full board.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Announcement from closed session regarding proposals and lease negotiations"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session Announcement — Proposals and MCAC Lease Direction",
+        "body": "Staff announced that, following closed session, committees provided direction on next steps for engaging each of the submitted proposals for potential negotiation. Additionally, staff were directed to begin lease negotiations with the Marathon Center for Arts and Culture (MCAC). A speaker — identified as Chair Marash — emphasized that any resulting agreement must return to the appropriate committees and to the full board for approval before taking effect."
+      },
+      {
+        "item": "EEED Committee Adjournment",
+        "body": "A motion to adjourn the EEED Committee was made by Supervisor Cabell and seconded by Supervisor Foot. The motion passed on a voice vote with no opposition. The HRFC Committee then announced a brief five-minute recess, with a note that an ERC meeting was scheduled to begin at 2:30."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Staff directed to engage each submitted proposal for potential negotiation",
+      "Staff directed to begin lease negotiations with the Marathon Center for Arts and Culture",
+      "Any negotiated agreement must return to the appropriate committees and full board for approval"
+    ],
+    "topics": [
+      "Economic Development",
+      "Lease Negotiations",
+      "Marathon Center for Arts and Culture",
+      "Committee Governance"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment of the EEED Committee",
+        "motion": "Motion to adjourn the EEED Committee",
+        "mover": "Cabell",
+        "second": "Foot",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "NgQZ6-GLFT0",
     "source": "marathon",
     "title": "Human Resources, Finance, and Property Committee Meeting",
@@ -185,6 +513,261 @@
         "motion": "Motion to adjourn",
         "mover": null,
         "second": "Supervisor Hart",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "uPyfeNRFvqo",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Board of Public Works",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=uPyfeNRFvqo",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works held an extremely brief meeting in which members approved a subrogated insurance claim from Acuity Insurance for $1,235.42 and immediately adjourned. The meeting lasted only seconds based on the transcript, with no substantive discussion recorded.",
+    "agenda": [
+      {
+        "time": "0:01",
+        "item": "Approval of subrogated claim from Acuity Insurance ($1,235.42)"
+      },
+      {
+        "time": "0:01",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Subrogated Claim — Acuity Insurance, $1,235.42",
+        "body": "A member immediately moved to approve the subrogated claim of Acuity Insurance in the amount of $1,235.42. The motion was seconded and approved on a voice vote with no discussion. No additional context about the nature of the claim was provided in the transcript."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Approve subrogated insurance claim from Acuity Insurance in the amount of $1,235.42"
+    ],
+    "topics": [
+      "Insurance Claims",
+      "Budget"
+    ],
+    "votes": [
+      {
+        "item": "Subrogated claim of Acuity Insurance — $1,235.42",
+        "motion": "Motion to approve the subrogated claim of Acuity Insurance in the amount of $1,235.42",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "dfD93NP7R_E",
+    "source": "marathon",
+    "title": "Public Safety Committee Meeting",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Public Safety",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=dfD93NP7R_E",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Public Safety Committee met on September 8, 2026, and covered several significant topics including a Valor Award presentation to Deputy Edward Alt-Bneck for stopping a dangerous pursuit, an overview of the Recreation Deputy partnership between the Sheriff's Office and Parks & Recreation, radio paging challenges in rural areas, and a detailed discussion of the Rib Mountain law enforcement services contract. The committee also received budget updates and heard a presentation from Central Wisconsin Community Mediation on their court diversion program before moving toward a closed session on the Rib Mountain contract negotiations.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:30",
+        "item": "Public Comment"
+      },
+      {
+        "time": "0:45",
+        "item": "Approval of Minutes from August 11, 2026"
+      },
+      {
+        "time": "1:10",
+        "item": "6A: Sheriff's Office Valor Award Medal Presentation to Deputy Edward Alt-Bneck"
+      },
+      {
+        "time": "7:30",
+        "item": "6B: Overview of Recreation Deputy Program – Sheriff's Office and Parks, Recreation & Forestry Department"
+      },
+      {
+        "time": "29:30",
+        "item": "5A1: Discussion Regarding 2027 Annual Budget Development, including Central Wisconsin Community Mediation Presentation"
+      },
+      {
+        "time": "42:00",
+        "item": "6C: Update on Proposed Radio Paging and Strategy to Address Quality Challenges (Edgar, Hamburg, Texas)"
+      },
+      {
+        "time": "1:05:00",
+        "item": "6D: Year-to-Date Budget Reports"
+      },
+      {
+        "time": "1:10:00",
+        "item": "5B1: Sheriff's Office – Rib Mountain Law Enforcement Services Contract Review and Consideration of Next Steps (open session portion)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Valor Award Presentation to Deputy Edward Alt-Bneck",
+        "body": "The Sheriff presented the Sheriff's Office Valor Award to Deputy Edward Alt-Bneck (known informally as 'Sheriff Eddie') for his actions on August 5th during a 24-minute pursuit of an attempted homicide suspect. The Sheriff described how Deputy Alt-Bneck used his patrol vehicle to execute a ram maneuver — classified as a deadly force decision — to stop the fleeing suspect on Meer Street, putting himself in significant personal danger. The Sheriff noted Alt-Bneck was hospitalized afterward and that his first words upon being called were 'Sorry about your car.' Lieutenant Matt Bell was credited with authorizing the use of the ram. The committee applauded the deputy."
+      },
+      {
+        "item": "Recreation Deputy Program Overview",
+        "body": "Parks, Recreation & Forestry Director Jamie Py presented the county's Recreation Deputy program, which has been operating since 2020 and was highlighted at a national parks conference in Phoenix. The program embeds Sheriff's Office deputies — currently Brian Majeski and Ethan Burmeister — into the parks department to patrol 38 city parks, 17 county parks, and 10 county forest units, funded through the parks budget at one FTE. Py noted the program has increased compliance, improved camper safety perceptions, driven ordinance updates, and has been popular enough that eight strong internal candidates applied for the most recent opening. Committee members expressed support, and County Administrator Leonard praised it as a model for other intergovernmental partnerships."
+      },
+      {
+        "item": "Central Wisconsin Community Mediation – 2027 Budget Presentation",
+        "body": "Randy Westgate, director of Community Mediation of Wisconsin (which absorbed the program from Judicare/Legal Action), presented results of the $15,000 annual county contract. He reported that in the past year, 865 of 1,029 contested small claims cases (84%) were resolved without trial, including a 97% resolution rate for eviction cases. Westgate emphasized the program prevents homelessness and saves an estimated $60,000 in court time annually. Administrator Leonard indicated funding would remain at $15,000 for 2027, but Westgate signaled the 2028 request would likely be $20,000. No action was taken; the item was informational."
+      },
+      {
+        "item": "Radio Paging Quality Challenges – Edgar, Hamburg, Texas",
+        "body": "Sheriff Bilip and Captain Berdall presented two options to address paging dead zones in the Village of Edgar, Town of Hamburg, and Town of Texas: a $500,000–$520,000 infrastructure fix (new tower at Bug Tussle site) versus a pilot of the G2 app at $15 per user per year (approximately $720 annually for Edgar). The Sheriff and Administrator Leonard strongly recommended the G2 pilot, which simultaneously pushes call information via pager, the G2 app, and the 'I Am Responding' app. Captain Berdall confirmed the Edgar fire chief has provided a list of firefighters to begin the pilot. Radio tech Kellen Stouse addressed a question from Supervisor [inaudible] about satellite communications, explaining that public-safety satellite systems are not yet viable but may be in 10–20 years with Starlink-type technology. No formal vote was taken; this was an informational update."
+      },
+      {
+        "item": "Year-to-Date Budget Reports",
+        "body": "Finance staff member Sam reported all public safety departments are within their payroll benchmark of 46.74% and operating budgets are on track. The one area being monitored is a projected $130,000 revenue shortfall in the District Attorney's office due to a state-level change in discovery fee rules — the state public defender's office dramatically reduced what it will pay for discovery. Administrator Leonard noted DA Mayo is working with the DA association and the Wisconsin Counties Association lobbyist on a potential state-level fix. Supervisor [inaudible] asked about remaining ARPA funds; Leonard and Sam confirmed approximately $480,824 remains unspent of the original $26,356,580 award, with roughly $200,000 expected to be reallocated to a previously approved project before year-end."
+      },
+      {
+        "item": "Rib Mountain Law Enforcement Services Contract Review",
+        "body": "Administrator Leonard and Sheriff Bilip presented data showing that Rib Mountain-assigned deputies handle only about 29.2% of calls for service in the village, with non-assigned deputies covering the remaining ~71%. The county has provided law enforcement to Rib Mountain since 2020; since 2023, Rib Mountain (now a village) is legally required to have law enforcement. Three deputies are currently assigned to Rib Mountain, with a fourth planned. Sam reported those three deputies cost just under $400,000 from January 2024 to January 2025. The committee discussed the service-level implications of pulling deputies from other sectors to cover Rib Mountain calls, with Chair Gibbs asking about the volume of case numbers generated (estimated ~1,600 per year). Administrator Leonard noted the levy to support the sheriff's department grows faster than net new construction, making cost-recovery agreements like this one financially important. The committee prepared to move into closed session to continue contract negotiations discussion."
+      }
+    ],
+    "publicComment": "No public comment was offered. The clerk confirmed no one was signed up online or in person.",
+    "actionItems": [
+      "Sheriff's Office to launch G2 app pilot with Village of Edgar fire department using list of firefighters provided by Edgar fire chief",
+      "Captain Berdall to contact Town of Texas and Town of Hamburg fire departments to discuss G2 pilot",
+      "Captain Berdall and radio tech Kellen Stouse to research feasibility and cost of satellite communications for public safety use",
+      "Administration to continue Rib Mountain contract negotiations with goal of shifting deputy call coverage ratio toward 80% Rib Mountain-assigned deputies",
+      "Administration to present ARPA fund status and reallocation plan at HR Finance and Property Committee meeting the following day",
+      "DA Mayo and WCA lobbyist Marcy Rainbolt to pursue state-level fix for discovery fee revenue loss in DA's office",
+      "Committee to move into closed session to discuss Rib Mountain contract next steps"
+    ],
+    "topics": [
+      "Public Safety",
+      "Budget",
+      "Staffing",
+      "Rib Mountain Law Enforcement Contract",
+      "Radio Paging Infrastructure",
+      "Recreation Deputy Program"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from August 11, 2026",
+        "motion": null,
+        "mover": "Jen (last name inaudible)",
+        "second": "Jason (last name inaudible)",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "I-HFVzJo8yI",
+    "source": "wausau",
+    "title": "Finance Committee Meeting",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Finance",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=I-HFVzJo8yI",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Finance Committee met on September 8th and took action on two items: rejecting a solar array project at the drinking water treatment facility after the city failed to receive an EPA grant, and approving a sole-source purchase of Lucas mechanical CPR devices for the fire department. The solar array project was defeated 1-4, while the CPR device purchase was approved unanimously pending correction of a minor math discrepancy in the documentation.",
+    "agenda": [
+      {
+        "time": "4:01",
+        "item": "Call to Order"
+      },
+      {
+        "time": "4:20",
+        "item": "Public Comment on Agenda Items"
+      },
+      {
+        "time": "4:35",
+        "item": "Consideration of Minutes — August 25, 2026 Regular Finance Committee Meeting"
+      },
+      {
+        "time": "5:10",
+        "item": "Item 3A: Drinking Water Treatment Solar Array Project — Budget Modification and Sole Source Request for Engineering Design Services"
+      },
+      {
+        "time": "15:45",
+        "item": "Item 3B: Sole Source Request for Lucas Mechanical CPR Devices from Stryker for Fire Department"
+      },
+      {
+        "time": "22:10",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of August 25, 2026 Minutes",
+        "body": "A motion was made by Watson and seconded by Neil to approve the minutes of the previous meeting. No discussion was noted and the motion carried."
+      },
+      {
+        "item": "Drinking Water Treatment Solar Array Project — Budget Modification and Sole Source Engineering Request",
+        "body": "Staff reported that the city did not receive the anticipated EPA grant, which would have significantly offset construction costs for the approximately $2.8 million solar array project. Without the grant, the payback period was estimated at roughly 21 years even with the 30% federal tax credit, which committee members characterized as too long to be financially viable. Alder Watson expressed disappointment but acknowledged the math was unfavorable, and noted that community engagement and 30% design work completed could be preserved for future efforts. The chair noted the city may have 'missed the window' for favorable incentives. A motion to approve moving forward was made and seconded, but defeated 1-4 with members voting no in anticipation of rejecting the project while expressing hope it would not be abandoned permanently."
+      },
+      {
+        "item": "Sole Source Request — Lucas Mechanical CPR Devices from Stryker for Fire Department",
+        "body": "The fire chief explained the department is switching back to Lucas devices from a previous brand, with existing devices to be traded in for an $18,000 credit. Alder Hani identified a approximately $750 math discrepancy in the sole source document between the stated total cost and the calculated cost after the trade-in, and also flagged what appeared to be a copy-paste reference to a video laryngoscope in the document. The chief acknowledged the error, attributed it to the EMS division chief who prepared the paperwork and was unavailable, and committed to providing corrected figures. The committee approved the purchase pending correction of the math error and typo, with the corrected net cost calculated as $72,692.92."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Solar array project motion was defeated 1-4; staff directed to preserve existing 30% design concepts and community engagement work for potential future use",
+      "Fire department sole source purchase of Lucas mechanical CPR devices from Stryker approved pending correction of approximately $750 math discrepancy and document typo",
+      "Fire chief to follow up with corrected cost figures from Lucas quote; corrected net cost confirmed at $72,692.92 after $18,000 trade-in"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Public Safety",
+      "Renewable Energy",
+      "Solar Array Project"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 25, 2026 Finance Committee minutes",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Neil",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve moving forward with drinking water treatment solar array project and associated budget modification and sole source engineering request",
+        "motion": "Motion to approve moving forward with the solar array project",
+        "mover": null,
+        "second": "Neil",
+        "outcome": "Failed",
+        "tally": "1-4"
+      },
+      {
+        "item": "Approve sole source purchase of Lucas mechanical CPR devices from Stryker for fire department, pending math correction",
+        "motion": "Motion to approve the sole source purchase request with the update on the math error and typo",
+        "mover": "Watson",
+        "second": "Hickeyi",
         "outcome": "Approved",
         "tally": null
       }
@@ -5154,1041 +5737,6 @@
         "second": "Alder Trueblood",
         "outcome": "Approved",
         "tally": "4-0"
-      }
-    ]
-  },
-  {
-    "id": "91Tl-z8wqnA",
-    "source": "weston",
-    "title": "Finance and HR Committee",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Finance & Human Resources",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=91Tl-z8wqnA",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_08172026-1956",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Finance and HR Committee held its August meeting covering IT department budget review, July financial reports, TIF district updates, and 2027 budget priorities including potential new staff positions and robotic lawnmowers. The committee approved a contract for a final TIF One audit with Hawkins for $5,210 and voted to move forward with a pay grade reclassification recommendation following a closed session. A $4 million local bank loan for the Mountain Bay Police Headquarters was also announced as forthcoming to the full board.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:10",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:00",
-        "item": "Public Comment"
-      },
-      {
-        "time": "8:30",
-        "item": "Approval of Minutes from Previous Finance and HR Meeting"
-      },
-      {
-        "time": "9:30",
-        "item": "Work Product Transmissions - July Budget Status Report"
-      },
-      {
-        "time": "13:00",
-        "item": "TIF One and TIF Two Detail Reports for July"
-      },
-      {
-        "time": "17:00",
-        "item": "Legal Details for July"
-      },
-      {
-        "time": "30:00",
-        "item": "IT Department Budget Presentation by Nate Crow"
-      },
-      {
-        "time": "1:04:00",
-        "item": "Discussion and/or Action on Establishing 2027 Budget Priorities"
-      },
-      {
-        "time": "1:40:00",
-        "item": "Discussion and/or Action on Contract for Final Audit of TIF One"
-      },
-      {
-        "time": "1:43:00",
-        "item": "Discussion and/or Action on Employee Appreciation and Standing Monthly Staff Recognition Agenda Item"
-      },
-      {
-        "time": "2:05:00",
-        "item": "Discussion and/or Action on Ethics Function for Village Committees, Commissions, and Staff"
-      },
-      {
-        "time": "2:18:00",
-        "item": "Closed Session - Pay Grade Classifications for Utility Clerk and Fleet for Possible Reclassification"
-      },
-      {
-        "time": "2:25:00",
-        "item": "Return to Open Session and Action on Reclassification Recommendation"
-      },
-      {
-        "time": "2:28:00",
-        "item": "Staff and Committee Remarks, Future Items, Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "One public commenter, identified as Jim from Council 53, raised concerns about the lack of staff time quantification in budget reports, specifically calling out the IT department's in-house application development and the pool budget as examples of incomplete financial data. He argued that decisions should be data-driven, noting that the pool budget failed to account for tourism funding, general fund contributions, concession revenues, and staff hours. He also expressed concern that the 2027 budget wish list lacked cost detail and called for a more analytical approach to financial decision-making across the village."
-      },
-      {
-        "item": "Approval of Minutes",
-        "body": "A motion was made and seconded to approve the minutes from the previous Finance and HR meeting. The motion carried with no noted opposition."
-      },
-      {
-        "item": "July Budget Status Report and TIF Reports",
-        "body": "Finance staff (referred to as Jessica) explained a significant revenue difference in the water utility fund between 2025 and 2026, attributing it to additional PASS money received in the prior year. On TIF One, Jessica noted that large disbursements reflected grant payouts to Tommy Docks and Oak River under developers' agreements, accelerated because TIF One is closing. Discussion arose about Wandering Springs West properties still held by the original developer (Gold Key Investments) that were supposed to be conveyed to the village; the committee discussed the ongoing legal effort to obtain quitclaim deeds, with Trustee Brent Olson providing historical context. Items 5, 6, and 7 were acknowledged together and the motion carried."
-      },
-      {
-        "item": "IT Department Budget Presentation",
-        "body": "Technology Services Director Nate Crow presented a detailed overview of his department, noting it is a department of one covering GIS, network, servers, software, and phones. The 2026 operating budget is $141,745, with water and sewer utilities funding approximately 45-46% of his position. Total all-funds cost is approximately $361,000, with the general fund covering 62%. Crow highlighted cybersecurity risks to public water systems from a coordinated national attack originating in Minnesota, and explained $14,000 in outside services budget as a rapid-response cushion. Public Works staff endorsed the in-house Diggers Hotline mapping app, noting it eliminated the need for additional utility staff. Committee members asked about succession planning if Crow were unavailable; he noted Heartland Business Systems is on call for major incidents."
-      },
-      {
-        "item": "2027 Budget Priorities",
-        "body": "Finance Director Jessica and another staff member (Jamie) presented a priorities list for discussion. The committee discussed several items including: SAFER grant staffing positions (described as effectively already decided given public support), a new facilities and grounds maintenance position (committee requested a draft job description and discussion of utility cost-sharing, estimated at possibly 50/50 with utilities), robotic lawnmowers (committee expressed interest in starting with one unit to pilot at the safety building rather than two, noting concerns about cut quality), and the contracted mowing service of approximately $25,000/year that could partially offset a new position. The committee agreed to have staff price out all items on the list for upcoming joint budget meetings starting the week of August 24. The TIF One fund balance was discussed as a potential one-time capital funding source following required distribution to taxing jurisdictions."
-      },
-      {
-        "item": "Contract for Final Audit of TIF One",
-        "body": "Jessica presented a proposal to engage Hawkins auditors for the required final TIF One audit at a quoted price of $5,210, noting they have previously performed TIF audits for the village and have consistently offered competitive pricing. The motion to approve was made and seconded, and carried unanimously with no discussion opposing the selection."
-      },
-      {
-        "item": "Employee Appreciation and Standing Monthly Staff Recognition",
-        "body": "The committee discussed options for staff recognition, with public works director Michael cautioning that formal recognition programs have previously caused friction among staff who felt their contributions went unnoticed relative to those recognized. Several committee members suggested a standing monthly agenda item for department heads to voluntarily recognize staff accomplishments. The committee decided to table formal action and directed staff to raise the topic at the next all-staff meeting to gather employee input on what recognition approaches they would find meaningful."
-      },
-      {
-        "item": "Ethics Function Discussion",
-        "body": "The committee chair introduced the concept of establishing a formal ethics function for the village, noting the board of trustees had referred the topic to this committee. An 11-page ethics ordinance from a neighboring municipality (Wausau) was shared as a reference. Given the presence of new committee members, no substantive action was taken; members were asked to review the materials and return with feedback next month. The chair noted the current village ethics policy routes complaints to department heads and does not address elected officials."
-      },
-      {
-        "item": "Closed Session and Return to Open Session - Pay Grade Reclassification",
-        "body": "The committee moved into closed session under Wisconsin Statute 19.85(1)(c) to consider pay grade reclassifications for the utility clerk and fleet positions. Upon returning to open session, a motion was made and seconded to approve the reclassification recommendation, and it carried with no noted opposition."
-      },
-      {
-        "item": "Staff Remarks - Mountain Bay Police Headquarters Loan",
-        "body": "Jessica announced that following the village board's approval of the Mountain Bay Police Headquarters design and bid, the finance department solicited quotes from local banks for a $4 million loan to accelerate funding, as going to market would take several months. She reported the local bank responses were very competitive and said the board would be asked to approve the loan at the next meeting."
-      }
-    ],
-    "publicComment": "One speaker identified as Jim from Council 53 offered public comment. He raised concerns about incomplete financial reporting, specifically citing the IT department's in-house app development costs lacking staff time quantification, and the pool budget omitting key figures such as the $40,000 tourism contribution, general fund allocation, and concession revenues. He urged the committee to require data-backed financial analysis before making decisions and expressed concern that the 2027 budget wish list lacked cost detail.",
-    "actionItems": [
-      "Approve Hawkins contract for TIF One final audit at $5,210 (approved)",
-      "Approve pay grade reclassification for utility clerk and fleet positions (approved following closed session)",
-      "Staff to develop draft job description for proposed facilities and grounds maintenance position, including breakdown of duties across departments and potential utility cost-sharing",
-      "Staff to price out all items on 2027 budget priority list (both priority items and decision points) for joint budget meetings beginning August 24",
-      "Committee to pilot one robotic lawnmower rather than two; staff to research commercial-grade options",
-      "Jamie and staff to gather additional ethics ordinance examples from other municipalities beyond Wausau for next month's ethics discussion",
-      "Staff to raise employee recognition topic at next all-staff meeting and report back to committee on employee feedback",
-      "Finance department to bring Mountain Bay Police Headquarters local bank loan for board approval at next board meeting",
-      "Chair to send prior department budget presentation materials to new committee members for background"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Utilities",
-      "TIF Districts",
-      "Cybersecurity",
-      "Mountain Bay Police Headquarters",
-      "Employee Recognition",
-      "Ethics Policy"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from previous Finance and HR meeting",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge July budget status report, TIF One and TIF Two detail reports, and legal details for July (items 5, 6, and 7)",
-        "motion": "Motion to acknowledge items 5, 6, and 7",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Contract with Hawkins for final TIF One audit at $5,210",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Move into closed session under Wis. Stat. 19.85(1)(c) to consider pay grade reclassifications for utility clerk and fleet",
-        "motion": "Motion to move into closed session pursuant to Wisconsin Statutes 19.85(1)(c)",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Pay grade reclassification recommendation for utility clerk and fleet positions",
-        "motion": "Motion to go ahead with the recommendation",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "So move",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_ff9da6dd27894cd58c787894e5044d7e",
-    "source": "kronenwetter",
-    "title": "Parks Committee",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Parks Committee - Village of Kronenwetter",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-2",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff9da6dd27894cd58c787894e5044d7e.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Parks Committee held its August 17, 2026 meeting focused on two major items: developing a 10-year Capital Improvements Program (CIP) for village parks, and planning logistics for the September 12, 2026 Bushka Park 5K Run/Walk fundraiser. The committee used a card-sorting exercise to identify park improvement priorities and tentatively mapped projects across fiscal years 2027–2036, with Bushka Park playground replacement as the top priority for 2027.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "2:30",
-        "item": "Approval of Previous Meeting Minutes"
-      },
-      {
-        "time": "4:20",
-        "item": "Agenda 4E: Village Communications About Parks Within the Community"
-      },
-      {
-        "time": "10:45",
-        "item": "Agenda 4F: Additional Ideas for Other Parkland and Related Village Property"
-      },
-      {
-        "time": "12:00",
-        "item": "Agenda 4F: 2026–2036 Capital Improvements Program Budget (Card-Sorting Exercise)"
-      },
-      {
-        "time": "45:00",
-        "item": "Agenda 4G: September 12, 2026 Bushka Park 5K Run/Walk Fundraiser Event"
-      },
-      {
-        "time": "1:05:00",
-        "item": "Agenda 5: Future Fundraising Ideas (Living River Concert)"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Agenda 6: Consideration of Items for Future Agenda"
-      },
-      {
-        "time": "1:30:00",
-        "item": "Agenda 7: Next Meeting Date"
-      },
-      {
-        "time": "1:38:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Previous Meeting Minutes",
-        "body": "Dan moved to approve the previous meeting minutes as presented; Patty seconded. No discussion followed. The motion passed unanimously on a voice vote."
-      },
-      {
-        "item": "Village Communications About Parks Within the Community",
-        "body": "The committee reviewed the village website's park content, noting Jennifer had added videos in 2023 that were well-received. Members suggested promoting park videos on social media, adding short trail-walking videos, and including a notice in the village newsletter directing residents to check out park resources. Greg noted that once the Chromter Drive project wraps up, the village plans to add wayfinding signs near apartments directing people to trails at the municipal center."
-      },
-      {
-        "item": "2026–2036 Capital Improvements Program Budget",
-        "body": "The committee conducted a card-sorting exercise where each member wrote capital improvement ideas on cards, which were then grouped by park to identify priorities. The top vote-getter was the Bushka Park playground replacement (five or more cards), followed by Friendship/Cercas Park rubber surfacing replacement (estimated $70,000–$80,000), Towering Pines Park shelter and restroom development (proposed as a multi-year civic-style park project), and the municipal center park (restroom and potential disc golf course, estimated $150,000+). The committee tentatively assigned Bushka Park playground for 2027, Friendship Park surfacing for 2029, Towering Pines for 2030–2032, and municipal center park for 2033. General park signage, ADA improvements, and branding were discussed as ongoing priorities, with 2030 floated as an 'ADA year.' Civil Park new playground was placed at the end of the plan, approximately 2036–2037. Greg noted approximately $20,000 remains in a parks fund that could be directed toward near-term improvements such as a trail connecting Friendship Park to the dog park."
-      },
-      {
-        "item": "September 12, 2026 Bushka Park 5K Run/Walk Fundraiser",
-        "body": "Erin Mishka reported $1,000 in sponsorships secured with a goal of $1,225 to fund participant shirts; no registration fee is charged and donations are voluntary. Chief [Cherry McHugh] approved a list of priority intersections for volunteer safety coverage, and committee members offered to staff intersections wearing high-visibility vests. The route was adjusted from the original plan so both the 3K and 5K now start and end at Bushka Park. Relocation (a local business) is hosting a raffle and 50/50 drawing, with the 50/50 beginning the week prior. Water stations will be set up at Bushka Park and civil park (halfway point), with Jennifer volunteering to cover water costs. Start time is 10 a.m. on a Saturday."
-      },
-      {
-        "item": "Future Fundraising Ideas — Living River Concert",
-        "body": "Erin Mishka announced plans for a Living River Concert in May, with $1,000 in sponsorship already secured and an anonymous donor covering the band cost, resulting in no cost to the village. She proposed holding the event at Towering Pines and directing proceeds to the Bushka Park Fund Reserve. A committee member (Tim) raised a constituent concern about why residents must fundraise for parks rather than relying on tax dollars; other members acknowledged the concern but noted the village board has been supportive, including a $5,000 match on a recent grant. A running total of approximately $16,000 raised for Bushka Park was referenced."
-      },
-      {
-        "item": "Quick Fixes and Small Improvements",
-        "body": "Members identified several non-capital quick fixes for parks crew attention: removing no-dog signs, repairing a broken plexiglass circle on old wooden playground equipment at Bushka, adding paper towel holders in restrooms, installing at least one handicap swing, adding a bike rack on the farmers market side of Bushka Park, refreshing old wooden park signs at Nor-a-Plaza, Friendship, and Gooding parks, adding sand and a net to the Savil Park volleyball court, and investigating bike route signage connectivity with Rothschild. Greg noted the parks crew has been pressure-washing slides, shelters, and equipment during the slow grass-cutting period."
-      },
-      {
-        "item": "Next Meeting Date",
-        "body": "The committee discussed transitioning from bi-weekly to monthly or as-needed meetings, noting that Dan's return to teaching makes the 4 p.m. time slot difficult. After discussion, the group tentatively agreed to meet Tuesday, September 8 (pending confirmation that a quorum can attend), at 4:30 p.m., with the primary focus of reviewing CIP dollar amounts to present to the village board and finalizing 5K run details."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Greg to obtain updated pricing for CIP projects to present at next meeting so the committee can bring a dollar-amount recommendation to the village board",
-      "Erin to finalize 5K shirt order within days; goal is $1,225 in sponsorships",
-      "Jennifer to coordinate water supply for Bushka Park and Savil Park water stations for the September 12 5K",
-      "Greg to turn water back on at Friendship Park before the upcoming Friday event",
-      "Parks crew to remove no-dog signs and complete pressure-washing and minor repairs at parks",
-      "Greg to repair broken plexiglass on Bushka Park wooden playground equipment with epoxy as interim fix",
-      "Erin to reach out to company that made the library's fundraising tree display to get information for a Bushka Park fundraising brick or recognition program",
-      "Erin to bring Living River Concert event proposal to CLIP so it can be placed on the 2027 village event calendar",
-      "Greg to investigate bike route signage connectivity with Rothschild and assess condition of existing bike route signs",
-      "Committee to discuss at next meeting how many more meetings are needed and whether to transition ongoing work to Friends of Kronenwetter Parks",
-      "Next meeting tentatively scheduled for Tuesday, September 8, at 4:30 p.m., subject to quorum confirmation"
-    ],
-    "topics": [
-      "Parks",
-      "Capital Improvements Program",
-      "Fundraising",
-      "Trails",
-      "Bushka Park 5K"
-    ],
-    "votes": [
-      {
-        "item": "Approval of previous Parks Committee meeting minutes",
-        "motion": "Motion to approve the meeting minutes as presented",
-        "mover": "Dan Lesniak",
-        "second": "Patty Tecaliski",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": "Tim Stracota",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "_6aNdLDBS4w",
-    "source": "weston",
-    "title": "Board of Trustees",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Board of Trustees",
-    "duration": "2h 45m",
-    "url": "https://www.youtube.com/watch?v=_6aNdLDBS4w",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_08172026-1956",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Board of Trustees held its regular meeting, addressing a range of topics including the farmers market location at Kennedy Park (approved to continue, 4-1), a new Mountain Bay Metropolitan Police Department headquarters financing agreement (approved with dissent), and a rezoning request for a storage facility on Weston Avenue (planning commission denial accepted). The meeting also featured substantive public comment on the farmers market, a dog-fancier licensing dispute, and the rezoning request.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order, Pledge of Allegiance, Roll Call"
-      },
-      {
-        "time": "3:45",
-        "item": "Public Comment"
-      },
-      {
-        "time": "28:10",
-        "item": "Approval of July 20, 2026 Board of Trustees Meeting Minutes"
-      },
-      {
-        "time": "29:20",
-        "item": "Acknowledge Reports from Boards, Committees, and Commissions"
-      },
-      {
-        "time": "48:30",
-        "item": "Acknowledge Reports from Departments (Administrator, Clerk, Finance, Fire/EMS, Parks & Rec, Plan & Development, Police, Public Works, Technology)"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Consent Agenda: Approve Vouchers (Check #67149-67298, 67304-67344, 90260-90263)"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Ordinance 26-013: Nuisance Abatement Property Storage and Disposal Procedures"
-      },
-      {
-        "time": "1:37:00",
-        "item": "Ordinance 26-014: Amending Animal Fancier Ordinance (Section 10.123)"
-      },
-      {
-        "time": "1:39:00",
-        "item": "Resolution 2026-0001: Joint Resolution with Village of Rothschild and Mountain Bay Metro PD for Police Headquarters Construction Debt Authorization"
-      },
-      {
-        "time": "1:55:00",
-        "item": "Resolution 2026-021: North Central Wisconsin Stormwater Coalition Cooperative Agreement"
-      },
-      {
-        "time": "1:56:00",
-        "item": "Resolution 2026-022: Bayberry Street/Concord Avenue Reconstruction Project Special Assessments"
-      },
-      {
-        "time": "1:58:00",
-        "item": "Discussion/Action: 2027 Budget Priorities"
-      },
-      {
-        "time": "2:20:00",
-        "item": "Discussion/Action: Farmers Market Location at Kennedy Park"
-      },
-      {
-        "time": "2:55:00",
-        "item": "Discussion/Action: Municipal Center Rooms as Public Meeting/Gathering Spaces"
-      },
-      {
-        "time": "3:15:00",
-        "item": "Consideration of Rezoning Request (4205 & 4307 Weston Ave, B2 to LI) — Planning Commission Recommended Denial"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Six residents spoke during public comment. Jim Pensol encouraged civic engagement and described how public turnout once reversed a board decision to rename Schofield Avenue to DC Everest Boulevard. Kyra Lenzo addressed the animal fancier licensing issue, defending her care of four huskies and offering to expand her fenced outdoor space to comply with any space requirements. A neighbor, identified as a Borcart family member at 604 North Lane, complained about waste runoff from Lenzo's dogs onto their property citing ordinance sections 10.12, 10.19, and 10.29. Scott Borcart (County Road H) and Tony Hase (Danny's Girls vendor) both urged the board to keep the farmers market at Kennedy Park, with Hase noting business had improved significantly since the Alderson roundabout opened. Steve Mel spoke on the rezoning item (agenda item 43), arguing the planning commission's denial was improperly influenced by planner Jennifer Higgins's personal preference against storage facilities and citing Wisconsin Act 67's limitations on CUP denials."
-      },
-      {
-        "item": "Joint Resolution 2026-0001: Mountain Bay Metro PD Headquarters Debt Authorization",
-        "body": "Trustee Ermeling raised significant concerns about the repayment structure, noting that at $130,000 per year minimum, it could take approximately 34-40 years for Mountain Bay Metro PD to fully repay the municipalities for the construction loan, while Weston would need to increase its levy by roughly $206,000 annually to service the 20-year debt. Village Administrator and police representatives clarified that $130,000 is a minimum and that the Oversight Board can direct additional fund balance payments to accelerate repayment, with a goal of $250,000-$275,000 annually total from both municipalities. Ermeling and another trustee (believed to be Kern) voted no; the resolution passed 3-2. The agreement had been reviewed by Rothschild's financial advisors and Mountain Bay Metro's attorney but not Weston's own attorney, which Ermeling flagged as a concern for a multi-million-dollar commitment."
-      },
-      {
-        "item": "Farmers Market Location at Kennedy Park",
-        "body": "The board voted 4-1 to continue the farmers market at Kennedy Park, with Trustee Ermeling casting the lone dissenting vote, expressing concern that the park's green space was being consumed. Trustee Olson outlined several proposed mitigation measures including enhanced parking enforcement, coning off intersections 15 feet in each direction, and reaching out to a neighboring property owner about sight-obscuring vegetation. Trustee Lopes-Serrao argued the market pays for itself, serves as a community gathering event, and that no viable alternative location exists. Village President Maloney said he has visited the market at least ten times and found it a positive experience. A suggestion to survey vendors and customers again after the Alderson roundabout opened was raised by Ermeling and supported by others as a future step."
-      },
-      {
-        "item": "Municipal Center Rooms as Public Meeting/Gathering Spaces",
-        "body": "The board discussed but took no action on a proposal to open municipal center meeting rooms to the public for gatherings, a topic raised at a prior community engagement session. Multiple trustees and staff expressed opposition based on past experience with damage, cleaning costs, and supervision burdens — Clerk Pam described specific problems from her time at Schofield Township, including vandalism and post-party cleanup that exceeded security deposits. Trustee Olson said he was not firmly opposed but would not support it without an alternative to requiring staff supervision on weekends. No action was taken."
-      },
-      {
-        "item": "Rezoning Request: 4205 & 4307 Weston Avenue (B2 to LI) — Storage Facility",
-        "body": "Trustee Lopes-Serrao moved to accept the Planning Commission's recommendation of denial for the rezoning of 4205 and 4307 Weston Avenue from B2 Highway Business to LI Limited Industrial for a proposed personal storage unit facility. A procedural issue was raised: overturning the planning commission's denial requires a 2/3 supermajority (five of seven votes), but with only five trustees present, all five would need to vote in favor of rezoning — effectively requiring unanimity to override. The motion to accept the denial received a second, and the transcript ends before the vote is recorded."
-      },
-      {
-        "item": "2027 Budget Priorities",
-        "body": "The Finance and HR Committee brought three preliminary priorities to the full board: one robotic mower pilot, a new facilities and grounds maintenance position, and three SAFER grant-funded fire/EMS staff positions phased in over 2027. Trustees discussed broadening the scope to include public safety (EMS, fire, police), drinking water infrastructure, code enforcement, and cybersecurity. Trustee Beck emphasized multi-year budget planning similar to the CIP process used in public works. A recent village comprehensive plan survey was cited showing road maintenance and EMS tied as top community priorities. No formal action was taken; further discussion is scheduled for a budget session on the 24th at 5:30."
-      },
-      {
-        "item": "Ordinance 26-013: Nuisance Abatement Property Storage",
-        "body": "The ordinance establishing a 30-day storage and disposal procedure for property removed during nuisance abatement was approved unanimously with brief discussion. Trustees agreed the 30-day window was reasonable to give property owners time to retrieve belongings."
-      },
-      {
-        "item": "Ordinance 26-014: Animal Fancier Ordinance Amendment",
-        "body": "The amendment to Section 10.123, which shifts animal fancier hearings from the Planning Commission to the Eclipse body, was approved unanimously after brief clarification that this item was about the procedural change, not the specific Lenzo dog license case addressed in public comment."
-      }
-    ],
-    "publicComment": "Six residents spoke. Jim Pensol (52nd Street, Weston) praised village transparency initiatives and urged continued civic engagement, citing the successful reversal of the Schofield Avenue renaming as an example of public influence. Kyra Lenzo (5512 N. Birch Lane) spoke in defense of her four-husky household regarding the animal fancier licensing process, detailing her care practices and offering to build additional fenced space. A neighbor at 604 North Lane (identified as a Borcart) complained about dog waste runoff onto their adjoining property and cited specific ordinance violations. Scott Borcart (21732 County Road H) representing farmers market vendors urged the board to keep the market at Kennedy Park permanently, noting vendors are down 40% since the move. Tony Hase (County Road Q, Ringle), owner of Danny's Girls, also supported keeping the market at Kennedy Park and reported a marked improvement in business since the Alderson roundabout opened; he also criticized the timing and framing of the market location survey. Steve Mel spoke on the rezoning item, arguing the planning commission denial was improperly influenced by planner Jennifer Higgins's personal preference and citing Wisconsin Act 67 as limiting grounds for CUP denial.",
-    "actionItems": [
-      "Farmers market to continue at Kennedy Park for 2027 and beyond pending alternative; staff to implement parking enforcement improvements including coned intersections and increased police patrols on market days",
-      "Technology department to solicit quotes from multiple vendors for boardroom audio/microphone upgrade and bring options to Capital Improvement Plan discussion",
-      "Planning Commission to bring three conditional use permit violation cases forward in September",
-      "Playground equipment inspection scheduled for Thursday; replacement parts largely received",
-      "Public Works to finalize punch list items on Fuller Street, Schofield Avenue, and Western Avenue concrete repairs this fall with single contractor mobilization",
-      "Budget priorities session scheduled for the 24th at 5:30 p.m.; staff to develop multi-year staffing and capital plans similar to CIP model",
-      "Village to reach out to property owner near Allnew intersection at Kennedy Park to request vegetation trimming for sight-line safety",
-      "Rezoning request vote on 4205 and 4307 Weston Avenue was still pending at end of transcript"
-    ],
-    "topics": [
-      "Public Safety",
-      "Budget",
-      "Farmers Market",
-      "Development",
-      "Staffing",
-      "Kennedy Park",
-      "Mountain Bay Metro PD Headquarters",
-      "Animal Fancier Ordinance"
-    ],
-    "votes": [
-      {
-        "item": "Approval of July 20, 2026 Board of Trustees meeting minutes",
-        "motion": null,
-        "mover": "Lisa Beck",
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acknowledge reports from boards, committees, and commissions (items 6, 7, 9, 11B, 12, 13, 14B, 15B)",
-        "motion": null,
-        "mover": null,
-        "second": "Luis Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acknowledge reports from departments",
-        "motion": null,
-        "mover": null,
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Work product transmittals items 28, 29, and 30",
-        "motion": null,
-        "mover": "Luis Lopes-Serrao",
-        "second": "Lisa Beck",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Consent agenda: approve vouchers",
-        "motion": null,
-        "mover": "Lisa Beck",
-        "second": "Luis Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Ordinance 26-013: Nuisance abatement property storage and disposal procedures",
-        "motion": "Motion to approve",
-        "mover": "Barbara Ermeling",
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Ordinance 26-014: Animal fancier ordinance amendment (Section 10.123)",
-        "motion": "Move to approve",
-        "mover": "Luis Lopes-Serrao",
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Joint Resolution 2026-0001: Mountain Bay Metro PD headquarters debt authorization intergovernmental agreement",
-        "motion": "Move to approve joint resolution 2026-1, intergovernmental agreement between villages of Weston and Rothschild and MBMPD regarding debt and repayment for construction of new police headquarters",
-        "mover": "Lisa Beck",
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "3-2"
-      },
-      {
-        "item": "Resolution 2026-021: North Central Wisconsin Stormwater Coalition cooperative agreement",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": "Luis Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Resolution 2026-022: Bayberry Street/Concord Avenue reconstruction project special assessment authorizing resolution",
-        "motion": "Move to recommend village board approve authorizing resolution 2026-022 for special assessments for drive approach construction for Bayberry Street and Concord Avenue reconstruction project as presented in engineer's report",
-        "mover": "Barbara Ermeling",
-        "second": "Brent Olson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Continue farmers market at Kennedy Park",
-        "motion": "Motion to approve",
-        "mover": "Mark Maloney",
-        "second": "Luis Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "4-1"
-      },
-      {
-        "item": "Accept Planning Commission recommendation to deny rezoning of 4205 and 4307 Weston Avenue from B2 to LI for storage facility",
-        "motion": "Move that the village board approves the recommendation to deny that came from the planning commission",
-        "mover": "Luis Lopes-Serrao",
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_a1cf1e0be9fb4217aeeb180d8ef4cbcf",
-    "source": "kronenwetter",
-    "title": "Plan Commission Meeting",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-29",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a1cf1e0be9fb4217aeeb180d8ef4cbcf.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to meet to discuss several land use and zoning matters, including a Twin Home Zero Lot Line Ordinance, a Conditional Use Permit for Knetter Pond, a Marathon County Garage Site Plan, and a Septic Tank Ordinance. The meeting was also set to review the Land Use and Zoning Appeals Process and consider future review of the village's zoning and subdivisions codes.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Community Development Director Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Twin Home Zero Lot Line Ordinance"
-      },
-      {
-        "time": "N/A",
-        "item": "Conditional Use Permit Knetter Pond"
-      },
-      {
-        "time": "N/A",
-        "item": "Marathon County Garage Site Plan"
-      },
-      {
-        "time": "N/A",
-        "item": "Septic Tank Ordinance"
-      },
-      {
-        "time": "N/A",
-        "item": "Land Use and Zoning Appeals Process"
-      },
-      {
-        "time": "N/A",
-        "item": "Future Review of Zoning and Subdivisions Codes"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Twin Home Zero Lot Line Ordinance",
-        "body": "The Plan Commission was scheduled to discuss and take possible action on a Twin Home Zero Lot Line Ordinance. This item was listed under old business, suggesting it may have been carried over from a previous meeting for further consideration."
-      },
-      {
-        "item": "Conditional Use Permit Knetter Pond",
-        "body": "The Commission was set to discuss and consider possible action on a Conditional Use Permit related to Knetter Pond. This matter was scheduled as old business for the meeting."
-      },
-      {
-        "item": "Marathon County Garage Site Plan",
-        "body": "The Plan Commission was expected to review and discuss a site plan for a Marathon County Garage facility. This item was listed as new business scheduled for discussion and possible action."
-      },
-      {
-        "item": "Septic Tank Ordinance",
-        "body": "The Commission was set to discuss and consider possible action on a Septic Tank Ordinance. This new business item was scheduled for the meeting agenda."
-      },
-      {
-        "item": "Land Use and Zoning Appeals Process",
-        "body": "The Plan Commission was scheduled to review the Land Use and Zoning Appeals Process. This item was set for discussion and possible action as new business."
-      },
-      {
-        "item": "Future Review of Zoning and Subdivisions Codes",
-        "body": "The Commission was expected to consider scheduling a future review of the village's Zoning and Subdivisions Codes. This item was listed as new business for discussion and possible action."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda, limited to 15 minutes total with a three-minute time period per person, per Wisconsin State Statute Section 19.84(2).",
-    "actionItems": [
-      "Scheduled to consider possible action on Twin Home Zero Lot Line Ordinance",
-      "Scheduled to consider possible action on Conditional Use Permit for Knetter Pond",
-      "Scheduled to review and consider possible action on Marathon County Garage Site Plan",
-      "Scheduled to consider possible action on Septic Tank Ordinance",
-      "Scheduled to discuss and consider possible action on Land Use and Zoning Appeals Process",
-      "Scheduled to consider future review of Zoning and Subdivisions Codes"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Land Use",
-      "Twin Homes",
-      "Knetter Pond"
-    ],
-    "votes": []
-  },
-  {
-    "id": "xl_GSR48d5k",
-    "source": "marathon",
-    "title": "Executive Committee Meeting",
-    "date": "August 13, 2026",
-    "shortDate": "AUG 13",
-    "committee": "Executive Committee",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=xl_GSR48d5k",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Executive Committee held a lengthy meeting focused on the Hub City Wind project in southwestern Marathon County, featuring public comment from 10 residents, a panel discussion with legal experts and municipal officials, and concluding with a motion to forward the question of whether to pursue a Joint Development Agreement (JDA) to the full 38-member county board. The committee heard from attorneys, a UW-Extension local government educator, and a town chair from Wood County about the limited legal authority counties have over large-scale wind projects under Wisconsin statute, with experts uniformly concluding that a JDA is effectively the strongest tool available to the county.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:30",
-        "item": "Public Comment (10 speakers, 3 minutes each)"
-      },
-      {
-        "time": "28:00",
-        "item": "Approval of July 15, 2026 Executive Committee Meeting Minutes"
-      },
-      {
-        "time": "29:00",
-        "item": "Item 5a: Discussion of options regarding Hub City Wind project, including panel discussion with local municipal officials and experts"
-      },
-      {
-        "time": "31:00",
-        "item": "Staff Presentation by CPZ Director Lori Kimmons: PSC intervention process memo and county research memo"
-      },
-      {
-        "time": "48:00",
-        "item": "Panel Presentation: Laura Fure, Town Chair/Zoning Administrator, Town of Saratoga (Wood County)"
-      },
-      {
-        "time": "58:00",
-        "item": "Panel Presentation: Andy Phillips, Atollis Law (WCA general counsel)"
-      },
-      {
-        "time": "1:08:00",
-        "item": "Panel Presentation: Bill Oman, UW-Madison Division of Extension, local government law"
-      },
-      {
-        "time": "1:25:00",
-        "item": "Executive Committee Q&A with panelists"
-      },
-      {
-        "time": "1:55:00",
-        "item": "Motion to forward JDA discussion to full county board"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment – Hub City Wind Project",
-        "body": "Ten speakers addressed the committee on the Hub City Wind project. Speakers were divided: several opposed the project citing concerns about tourism impacts on Rib Mountain viewsheds, farmland destruction, health effects, wildlife harm, road damage, and skepticism about JDA benefits, with Joe Bergen urging the county to control any JDA drafting and Nikki Catrell calling for a moratorium and intervenor status. Supporters Dan Bar and Kathy Conley Bar argued for renewable energy as a climate response. Wendy Rogolski specifically demanded that any decision to pursue JDA negotiations be made in open session with a recorded vote, not behind closed doors. James Yeetus urged the county to fight the project through litigation or ordinance rather than negotiate."
-      },
-      {
-        "item": "Approval of July 15, 2026 Executive Committee Meeting Minutes",
-        "body": "Chair Gibbs called for a motion on the minutes. Supervisor Robinson moved and Supervisor Morash seconded. No discussion was offered and the minutes were approved unanimously."
-      },
-      {
-        "item": "Staff Presentation: PSC Intervention Process and County Research Memos",
-        "body": "CPZ Director Lori Kimmons presented two memos. The first summarized conversations with PSC staff about the intervention process, noting counties have a 14-day window to apply for intervenor status after a notice of proceeding, that the PSC staff could not recall any project ever being fully denied through intervention, and that intervention is costly and time-consuming. The second memo summarized conversations with staff and officials in Columbia, Iowa, Kenosha, St. Croix counties and the Town of Saratoga in Wood County, all of whom reported using JDAs as their primary tool and recommended early negotiation over PSC intervention. Staff's overall recommendation was to begin engaging the developer as soon as possible about a potential JDA."
-      },
-      {
-        "item": "Panel: Town of Saratoga Experience with JDA",
-        "body": "Laura Fure, Town Chair and Zoning Administrator for the Town of Saratoga in Wood County, described her community's experience with a 150-megawatt solar project owned outright by the developer (not leased). The town hired an independent Madison law firm paid for by the developer to draft the JDA, required a decommissioning plan, and receives approximately $350,000 per year in shared revenues (county receives about two-thirds). She said the biggest surprises were the size and danger of battery storage systems, enlarged transmission line easements, and that these unknowns are now being addressed in a second solar JDA currently underway. She stated the town felt it had significant control through the JDA process."
-      },
-      {
-        "item": "Panel: Legal Authority and JDA Framework – Andy Phillips (Atollis Law) and Bill Oman (UW Extension)",
-        "body": "Attorney Andy Phillips explained that under Wisconsin statute 66.0401(1m), counties can regulate renewable energy projects on a case-by-case basis but that statute 196.491 preempts local regulation for projects 100 megawatts or more once the PSC issues a CPCN, meaning the county has no authority to stop such a project through ordinance. He said JDAs are the most effective tool counties have to address decommissioning, road damage, setbacks, and emergency response. Bill Oman of UW-Extension agreed entirely, noting the legislature deliberately preempted local authority to promote renewable energy, that legislative efforts to restore local control failed in the most recent session, and that updating a comprehensive plan is the only other tool available but that the PSC has never denied a project based on inconsistency with a local comp plan. Both strongly recommended JDAs as the primary protective mechanism."
-      },
-      {
-        "item": "Executive Committee Q&A with Panelists",
-        "body": "Supervisors asked wide-ranging questions. On moratoriums, Phillips said a short-duration moratorium (6–18 months) aimed at developing new regulations is legally defensible but one designed simply to block a project would likely be struck down; Oman agreed. On intervention, Phillips noted his firm has filed appeals in two cases where JDA negotiations broke down after a CPCN was issued. On road damage, Phillips recommended addressing repairs proactively in a JDA rather than relying on retrospective treble-damage statutes (86.02 and 86.14). On decommissioning, Phillips said JDAs should require financial assurance such as bonds, especially because developers often sell projects to regulated utilities. On attorney fees, Phillips confirmed that in executed JDAs the developer has always paid county attorney fees, though fee caps are currently being contested in pending negotiations. Supervisor Hau asked about health damage compensation and energy going off the local grid; Phillips said neither falls within county authority and landowner health concerns should be addressed between landowners and the developer directly. Supervisor Dickinson questioned why a developer with no legal obligation to sign a JDA would do so, with Phillips responding that a signed JDA allows the developer to check off PSC decision-matrix issue number three — compliance with orderly land use — but that the other 10 PSC decision criteria still must be addressed independently."
-      },
-      {
-        "item": "Motion to Forward JDA Discussion to Full County Board",
-        "body": "Vice Chair Boots moved to forward to the full county board a recommendation to discuss whether to pursue a potential JDA, stating the full 38-member board should have input on a decision of this magnitude. Supervisor Morash seconded. Debate followed, with Supervisor Griner expressing concern that the committee had focused almost entirely on JDA options without adequately exploring other tools listed in the packet. Supervisor Morash said a moratorium was not a viable option given the existing ordinance and that all PSC-reviewed projects have been approved regardless of intervention. Supervisor Robinson agreed the sequence of decisions mattered — noting that pursuing a JDA does not guarantee Alliance will come to the table. Supervisor Dickinson noted the committee had not discussed the comprehensive plan amendment option in depth. Chair Gibbs clarified the motion: the board would discuss whether to pursue JDA negotiations, and any resulting agreement would still require future action. The motion carried, though the tally was not stated."
-      }
-    ],
-    "publicComment": "Ten speakers signed up and were given 3 minutes each. Joe Bergen (Town of Day) urged the county to control any JDA drafting and protect the Rib Mountain viewshed. Dan Bar (Town of Nolton) spoke in favor of renewable energy and entering a strong JDA. Kathy Conley Bar expressed support for climate action while acknowledging community concerns. Mary Clus (Wausau) argued that not pursuing a JDA would be fiscally irresponsible and spoke on behalf of Wisconsin Farmers Union's Marathon County chapter opposing giving away county power. Cindy Nielsen (Town of O'Plane) strongly opposed the project, citing impacts on farming, animal health, and road infrastructure, and warned supervisors of electoral consequences. Mark Radkey (Town of O'Plane) noted that the alternative energy advisory committee survey and public forums showed overwhelming opposition to a JDA. James Yeetus (Town of Easton) urged the county to fight the project through ordinances and litigation rather than negotiate. Dean Beck (Town of Easton) raised concerns about turbine efficiency loss from bug residue, requested utility payments be based on actual rather than projected production, and suggested revenues be held in escrow for impacted non-participating landowners. Wendy Rogolski (Town of Green Valley, appearing online) demanded that any decision to authorize JDA negotiations be made openly with a recorded public vote, not in closed session. Nikki Catrell (Town of Brighton) called for a moratorium, urged the county to apply for intervenor status, requested independent third-party analysis of Alliant's submissions, and presented an evidence matrix of 30 potential challenges tied to Wisconsin CPCN requirements.",
-    "actionItems": [
-      "Forward to the full Marathon County Board a recommendation to discuss whether to pursue a potential Joint Development Agreement with Alliant Energy regarding the Hub City Wind project",
-      "County legal staff to consult on whether intervenor status can be filed earlier than the standard 14-day window after notice of proceeding",
-      "Staff to continue monitoring Hub City Wind PSC pre-application timeline, particularly the engineering plan filing which triggers the county's notice ordinance requirement",
-      "Committee members directed to review all options in the packet, not only JDA, before full board discussion"
-    ],
-    "topics": [
-      "Wind Energy Development",
-      "Joint Development Agreement",
-      "Hub City Wind Project",
-      "PSC Intervention",
-      "Rib Mountain Viewshed"
-    ],
-    "votes": [
-      {
-        "item": "Approval of July 15, 2026 Executive Committee meeting minutes",
-        "motion": "Motion to approve the minutes of the July 15, 2026 executive committee meeting",
-        "mover": "Supervisor Robinson",
-        "second": "Supervisor Morash",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Forward to full county board a recommendation to discuss whether to pursue a potential JDA regarding Hub City Wind",
-        "motion": "Motion to forward to the full board the recommendation to discuss whether to pursue a potential JDA",
-        "mover": "Vice Chair Boots",
-        "second": "Supervisor Morash",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "REV8vKLbJqM",
-    "source": "wausau",
-    "title": "Infrastructure and Facilities Committee Meeting",
-    "date": "August 13, 2026",
-    "shortDate": "AUG 13",
-    "committee": "Infrastructure & Facilities",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=REV8vKLbJqM",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Infrastructure and Facilities Committee met on August 13th and approved multiple action items including parking restriction corrections, utility easements, DOT transportation agreements for Grand Avenue and Business 51 reconstruction, a mowing ordinance amendment, a stormwater maintenance agreement, a bicycle sidewalk ordinance change, retired city sign disposition, and a bollard encroachment permit. The committee rejected both a Lamar billboard easement and a rectangular rapid flashing beacon at Thomas Street and River Drive, and held a significant discussion about the potential purchase of county highway property at 1430, 1308, and 1212 West Street for a new fleet maintenance facility potentially shared with Metro Ride.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Public Comment"
-      },
-      {
-        "time": "2:10",
-        "item": "Approval of Minutes"
-      },
-      {
-        "time": "2:45",
-        "item": "A: Parking Restrictions on Greenfield Avenue from Fernwood Drive to Summit Drive"
-      },
-      {
-        "time": "4:20",
-        "item": "B: Easement with Wisconsin Public Service for Underground Utility Facilities at 1603 Martin Street"
-      },
-      {
-        "time": "5:30",
-        "item": "C: Approval of Easement for Win LLC at 814 North 1st Street"
-      },
-      {
-        "time": "7:00",
-        "item": "D/E/F/G: Business 51 Marathon DOT Transportation Project Plat and State-Municipal Agreements for Grand Avenue and Business 51"
-      },
-      {
-        "time": "25:00",
-        "item": "H: Amending Section 6.48.010 Mowing Requirement"
-      },
-      {
-        "time": "42:00",
-        "item": "I: Stormwater Maintenance Agreement with Beacon Resources LLC at 731 North First Street"
-      },
-      {
-        "time": "43:30",
-        "item": "J: Amending Section 10.40.040 Rules of the Road - Bicycling on Sidewalk near Thomas Street Bridge"
-      },
-      {
-        "time": "50:00",
-        "item": "K: Authorizing Sign Disposition Plan for Retired City Signs"
-      },
-      {
-        "time": "55:00",
-        "item": "L: Rectangular Rapid Flashing Beacon at Thomas Street and River Drive"
-      },
-      {
-        "time": "1:08:00",
-        "item": "M: Non-Binding Letter of Intent with TLC Properties/Lamar for Billboard Easement at 1514 North 3rd Street"
-      },
-      {
-        "time": "1:17:00",
-        "item": "O: Encroachment Permit for 630 North 3rd Street"
-      },
-      {
-        "time": "1:24:00",
-        "item": "Discussion: Consideration of County Highway Property at 1430, 1308, and 1212 West Street for Fleet Maintenance Facility"
-      },
-      {
-        "time": "1:45:00",
-        "item": "Future Agenda Items and Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "A: Parking Restrictions on Greenfield Avenue from Fernwood Drive to Summit Drive",
-        "body": "Staff described this as a housekeeping item: a November 1st to April 1st seasonal restriction tied to snow plowing had been approved at committee but was omitted when the item went to the full council. The amendment was moved, seconded, and approved unanimously with no notable debate."
-      },
-      {
-        "item": "B: Easement with Wisconsin Public Service at 1603 Martin Street",
-        "body": "Staff explained this utility easement allows Wisconsin Public Service to run electricity across a city-owned parcel to reach a wastewater lift station under construction. The item was approved without discussion."
-      },
-      {
-        "item": "C: Easement for Win LLC at 814 North 1st Street",
-        "body": "Staff described this as another housekeeping correction: the easement had previously been approved but was incorrectly labeled as going to Alexco rather than Win LLC, preventing council approval. The corrected easement was moved and approved unanimously."
-      },
-      {
-        "item": "D-G: Business 51/Grand Avenue DOT Transportation Agreements",
-        "body": "Staff walked through four related items: a transportation project plat for Grand Avenue (Lake View Drive to Kent Street) where DOT reimburses the city 100% for right-of-way acquisition; a revised state-municipal finance agreement for the same project with the city responsible for approximately $595,000 in utility costs and 25% of design; a financing agreement for Business 51 from County Trunk Highway U to West Campus Drive with the city responsible for only $5,340 in utility adjustments; and a maintenance agreement for the same Business 51 corridor committing the city to maintain crosswalks, ped ramps, and plow intersections. A committee member asked whether additional revisions to the Grand Avenue agreement were anticipated before 2029; staff said no given the 60% plan stage. Another member noted increased maintenance responsibilities for new ped ramps and crosswalks. All four items were approved."
-      },
-      {
-        "item": "H: Amending Section 6.48.010 Mowing Requirement",
-        "body": "A committee member raised concerns that the existing ordinance language was confusing—residents were receiving citations for boulevard mowing but the obligation was not clearly codified, and language about prohibited plantings could be interpreted to allow certain gardens. Staff confirmed enforcement had generally been complaint-driven and that the ordinance was intended to mirror lawn maintenance expectations. One member moved to approve as written, arguing the intent was clear; another requested a future agenda item to address broader boulevard use communication and potential pollinator garden policy. The mowing requirement amendment was approved, and a future agenda item on boulevard ordinance communication was requested."
-      },
-      {
-        "item": "I: Stormwater Maintenance Agreement with Beacon Resources LLC at 731 North First Street",
-        "body": "Staff described this as a routine maintenance agreement required for any property redeveloped over one acre to ensure stormwater facilities are maintained. A member asked about verification mechanisms; staff confirmed periodic inspections occur. The item was approved without significant debate."
-      },
-      {
-        "item": "J: Amending Section 10.40.040 - Bicycling on Sidewalk near Thomas Street Bridge",
-        "body": "Staff, presenting on behalf of the Bicycle and Pedestrian Advisory Committee, explained the amendment would legalize bicycling on the sidewalk along a short gap between Thomas Street Bridge and Oak Island Park on River Edge Parkway, with the long-term intent of building a multi-use path to close the infrastructure gap. One member raised safety concerns about cyclists encountering pedestrians on the curved, hilly sidewalk; staff noted bike-ped committee discussed this and found on-street risk greater, and that use of the sidewalk would be optional ('may' language). The item had already passed Public Health and Safety Committee. It was approved."
-      },
-      {
-        "item": "K: Sign Disposition Plan for Retired City Signs",
-        "body": "Staff reported four city signs were replaced, two retained, and that there is significant interest from both private buyers and the Marathon County Historical Society. The plan called for giving one sign to the historical society and selling the other per municipal code. A committee member moved to amend the motion so the Marathon County Historical Society could choose which sign they preferred rather than staff selecting for them. That amended motion was approved unanimously."
-      },
-      {
-        "item": "L: Rectangular Rapid Flashing Beacon at Thomas Street and River Drive",
-        "body": "Staff noted that engineering did not recommend approval because pedestrian count thresholds were not met, though the Bicycle and Pedestrian Advisory Committee had forwarded the item citing future development at 700 Grand and proximity to the River Edge Parkway system. One member said placing a beacon 500 feet from the recently approved Thomas and McCleary beacon did not make sense from a traffic standpoint and noted the county is soliciting redevelopment proposals for nearby property. Another member argued the committee should follow its own standards or render them meaningless. A motion to table until after completion of 700 Grand was withdrawn after a member argued denial was cleaner. A motion to approve was then made and seconded; the motion failed with multiple nay votes."
-      },
-      {
-        "item": "M: Non-Binding Letter of Intent with TLC Properties/Lamar for Billboard Easement at 1514 North 3rd Street",
-        "body": "Staff explained Lamar sought a permanent easement for the billboard on Bridge Street on city-owned property, but staff recommended against it to preserve future redevelopment flexibility. A member noted the city renewed Lamar's lease in short terms specifically to maintain that flexibility and characterized a permanent easement as a great deal for Lamar but not the city. Multiple members opposed granting a permanent easement. A motion to approve was made for procedural purposes; the motion failed on a nay vote."
-      },
-      {
-        "item": "O: Encroachment Permit for 630 North 3rd Street",
-        "body": "Staff explained that the property owner, Randy Williams, wants to install bollards to protect stone copings on a recently rehabbed building from snow plow damage; because the building sits at the right-of-way line, the bollards would encroach into city right-of-way. Engineering had no objection. Members discussed aesthetic compatibility with other downtown bollards and confirmed the property owner is responsible for installation, maintenance, and removal. The encroachment permit was approved."
-      },
-      {
-        "item": "Discussion: County Highway Property at 1430, 1308, and 1212 West Street for Fleet Maintenance Facility",
-        "body": "The DPW director reported that after approximately 18 months of conversations, the county administrator indicated openness to receiving a purchase offer for the roughly 12-acre property, which could house both a new city fleet maintenance facility and a Metro Ride transit facility, enabling shared wash stations, bulk fluid storage, and other infrastructure. Staff noted most or all existing county structures would need to be demolished and rebuilt. A member asked for valuations of the current DPW fleet facility and Metro Ride property to understand potential offsets. Staff noted up to three acres fronting 17th Street could potentially be sold for redevelopment. Members noted the property's proximity to the parks department and potentially the police department. No formal action could be taken as this was a discussion item; committee expressed general support for continuing negotiations."
-      }
-    ],
-    "publicComment": "No public comment was offered. The chair made three calls for public comment and received no response.",
-    "actionItems": [
-      "Parking restriction amendment (Nov. 1–April 1) on Greenfield Avenue codified and forwarded to council",
-      "Utility easement with Wisconsin Public Service at 1603 Martin Street approved",
-      "Corrected easement with Win LLC at 814 North 1st Street approved",
-      "Business 51/Grand Avenue DOT transportation project plat approved",
-      "Revised state-municipal finance agreement for Grand Avenue (city responsible for ~$595,000 in utility costs) approved",
-      "State-municipal financing agreement for Business 51 to West Campus Drive (city responsible for $5,340 in utility adjustments) approved",
-      "State-municipal maintenance agreement for Business 51 corridor approved, with city taking on new crosswalk painting and ped ramp snow plowing responsibilities",
-      "Boulevard mowing requirement ordinance amendment approved; staff to develop communications strategy and future agenda item on broader boulevard use policy",
-      "Stormwater maintenance agreement with Beacon Resources LLC at 731 North First Street approved",
-      "Ordinance amendment allowing bicycling on sidewalk near Thomas Street Bridge approved as interim measure pending multi-use path construction",
-      "Retired city sign disposition plan approved with amendment: Marathon County Historical Society given first choice of which sign to keep",
-      "Rectangular rapid flashing beacon at Thomas Street and River Drive denied",
-      "Lamar billboard permanent easement at 1514 North 3rd Street denied",
-      "Encroachment permit for bollards at 630 North 3rd Street approved",
-      "Staff directed to pursue appraisal/valuation of county highway property at 1430, 1308, and 1212 West Street and current fleet/Metro Ride properties for committee review",
-      "Snow plowing bid item deferred to next month's agenda",
-      "Committee definition review added to next month's agenda"
-    ],
-    "topics": [
-      "Infrastructure",
-      "Transportation",
-      "Utilities",
-      "Development",
-      "Fleet Maintenance Facility",
-      "Grand Avenue Reconstruction",
-      "Business 51",
-      "River Edge Parkway"
-    ],
-    "votes": [
-      {
-        "item": "Approval of preceding meeting minutes",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Parking restrictions on Greenfield Avenue (Nov. 1–April 1 seasonal restriction)",
-        "motion": "So moved",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Easement with Wisconsin Public Service at 1603 Martin Street",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Easement for Win LLC at 814 North 1st Street",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Business 51 transportation project plat for Grand Avenue (Lake View Drive to Kent Street)",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Revised state-municipal finance agreement for Grand Avenue",
-        "motion": null,
-        "mover": "Alderwoman Henke (seconded)",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "State-municipal financing agreement for Business 51 to West Campus Drive",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "State-municipal maintenance agreement for Business 51 corridor",
-        "motion": "I would move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amending Section 6.48.010 mowing requirement",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Stormwater maintenance agreement with Beacon Resources LLC at 731 North First Street",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amending Section 10.40.040 to allow bicycling on sidewalk near Thomas Street Bridge",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Sign disposition plan with amendment allowing Marathon County Historical Society to choose which sign to keep",
-        "motion": "Motion to adopt with amendment that Marathon County Historical Society choose which sign they would like to keep",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Rectangular rapid flashing beacon at Thomas Street and River Drive",
-        "motion": "Motion to approve the rectangular rapid flashing beacon at the pedestrian crossing at the intersection of Thomas Street and River Drive",
-        "mover": null,
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Non-binding letter of intent with Lamar for permanent billboard easement at 1514 North 3rd Street",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Encroachment permit for bollards at 630 North 3rd Street",
-        "motion": "I make a motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
