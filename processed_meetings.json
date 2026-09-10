@@ -1840,6 +1840,72 @@
       "video_url": null,
       "processed_at": "2026-09-09T02:54:00.132619+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-aihrs-iogfm.md"
+    },
+    "kw_298c0e85a9a64543ad0884f861e78744": {
+      "title": "Plan Commission Meeting - 2026-09-10",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-298c0e85a9a64543ad0884f861e78744.pdf",
+      "upload_date": "20260910",
+      "meeting_date": "20260910",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-30",
+      "processed_at": "2026-09-10T02:54:41.143722+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-09-10-kw-298c0e85a9a64543ad0884f861e78744.md"
+    },
+    "-_SwyOdDQfs": {
+      "title": "Community Life & Public Safety",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T02:55:42.079380+00:00",
+      "summary_file": "summaries/weston-community-life-public-safety-swyoddqfs.md"
+    },
+    "2BEGEZeHzS0": {
+      "title": "Board of Trustees and Finance/HR Committee (Budget Workshop)",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T02:56:52.910200+00:00",
+      "summary_file": "summaries/weston-board-of-trustees-and-financehr-committee-budget-workshop-2begezehzs0.md"
+    },
+    "NgQZ6-GLFT0": {
+      "title": "Marathon County Human Resources, Finance, and Property Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260909",
+      "meeting_date": "20260909",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T02:57:12.002623+00:00",
+      "summary_file": "summaries/marathon-marathon-county-human-resources-finance-and-property-committee-meeting-ngqz6-glft0.md"
+    },
+    "jT7gjnvxI5Y": {
+      "title": "Marathon County Public Safety Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T02:57:26.000562+00:00",
+      "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-jt7gjnvxi5y.md"
+    },
+    "tPcW8s20iG8": {
+      "title": "Wausau City Council Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260908",
+      "meeting_date": "20260908",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-10T02:58:32.881478+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-meeting-tpcw8s20ig8.md"
     }
   }
 }
