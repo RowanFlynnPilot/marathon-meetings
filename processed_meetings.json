@@ -1972,6 +1972,17 @@
       "video_url": null,
       "processed_at": "2026-09-10T15:50:02.853924+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-and-property-committee-meeting-ydrmhnnlpuq.md"
+    },
+    "Q1Ngys2nAI0": {
+      "title": "Wausau Infrastructure Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260910",
+      "meeting_date": "20260910",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-12T02:57:55.711902+00:00",
+      "summary_file": "summaries/wausau-wausau-infrastructure-committee-meeting-q1ngys2nai0.md"
     }
   }
 }
