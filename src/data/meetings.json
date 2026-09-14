@@ -1,5 +1,271 @@
 [
   {
+    "id": "kw_1f4e656e6e184d7982cd10cd0e6f91ca",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-66",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-1f4e656e6e184d7982cd10cd0e6f91ca.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 14, 2026, to address several matters including a Wisconsin Pollutant Discharge Elimination System memorandum of agreement, a zoning change request for property on Lea Road, and the appointment of an interim clerk. The meeting was set to convene at 6:00 PM at the Kronenwetter Municipal Center.",
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "item": "Call Meeting to Order - Pledge of Allegiance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Motion to Move Agenda Items"
+      },
+      {
+        "time": "N/A",
+        "item": "Chairperson Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment (15 minutes total, 3 minutes per person)"
+      },
+      {
+        "time": "N/A",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Police Chief's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of August 24, 2026 Village Board Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-012, Wisconsin Pollutant Discharge Elimination System (WPDES) Memorandum of Agreement"
+      },
+      {
+        "time": "N/A",
+        "item": "Zoning Change Request - William Cywinski, 1900 Lea Road, 26.7 acres from AR to RR5"
+      },
+      {
+        "time": "N/A",
+        "item": "Appointment of Interim Clerk and Wage Setting"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of Items for Future Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution 2026-012, Wisconsin Pollutant Discharge Elimination System (WPDES) Memorandum of Agreement",
+        "body": "The board was scheduled to discuss and consider action on a WPDES Memorandum of Agreement. The nature and specific provisions of this agreement were not detailed in the agenda document, though such agreements typically address stormwater discharge or water quality matters."
+      },
+      {
+        "item": "Zoning Change Request - 1904 Lea Road",
+        "body": "The board was set to consider a zoning change request from William Cywinski for 26.7 acres located at 1904 Lea Road, proposing a change from AR (Agriculture and Residential) to RR5 (Rural Residential 5) zoning. The property is identified by parcel number 145-2707-124-0977."
+      },
+      {
+        "item": "Appointment of Interim Clerk and Wage Setting",
+        "body": "The board was scheduled to address the appointment of an interim clerk position and establish an interim wage for this role. No details regarding the circumstances prompting this interim appointment were provided on the agenda."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with 3 minutes per person at the chief presiding officer's discretion.",
+    "actionItems": [
+      "Scheduled to vote on Resolution 2026-012 regarding the WPDES Memorandum of Agreement",
+      "Expected to take action on the zoning change request for 1904 Lea Road",
+      "Scheduled to appoint an interim clerk and establish an interim wage"
+    ],
+    "topics": [
+      "Zoning",
+      "Water Quality",
+      "Staffing",
+      "Lea Road Development"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_764202",
+    "source": "school_board",
+    "title": "Regular Meeting",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "Regular Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764202",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764202",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting to address routine consent agenda items, review legal expenses and budget projections for the 2026-2027 fiscal year, and consider a seclusion and restraint report for 2025-2026. Key action items included approval of the 2026-2027 budget and tax levy, establishment of the annual meeting date, and approval of the district's legal firm list.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Reading of the Mission Statement"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Excellence in Action: Wausau School Foundation"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Appointments (Additional Staff, Replacement Staff, Contract Increases)"
+      },
+      {
+        "time": "N/A",
+        "item": "Separations (Resignations, Contract Decreases, Terminations)"
+      },
+      {
+        "time": "N/A",
+        "item": "Leaves of Absence"
+      },
+      {
+        "time": "N/A",
+        "item": "Retirements"
+      },
+      {
+        "time": "N/A",
+        "item": "Minutes: Regular Session of August 10, 2026, and Special Session of August 24, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Payment of Bills/Budget Status and Investment Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Donations to the District"
+      },
+      {
+        "time": "N/A",
+        "item": "Legal Expenses Summary for 2025-2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve List of Legal Firms"
+      },
+      {
+        "time": "N/A",
+        "item": "Set Annual Meeting Date and Location"
+      },
+      {
+        "time": "N/A",
+        "item": "Share Equalized Value Estimates"
+      },
+      {
+        "time": "N/A",
+        "item": "Recommendation for 2026-2027 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Recommendation for 2026-2027 Tax Levy"
+      },
+      {
+        "time": "N/A",
+        "item": "Seclusion and Restraint Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Professional Growth & Development Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Legislative Liaison"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "Presiding Officer Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "Preliminary Discussion Regarding Potential Litigation"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene in Open Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Legal Expenses Summary for 2025-2026",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present a summary report of all legal counsel expenses incurred during 2025-2026, separated by law firm and by type of legal advice sought. The presentation was estimated at 1 minute and required no action."
+      },
+      {
+        "item": "Approve List of Legal Firms",
+        "body": "The Board was expected to consider a summary list of legal firms the District uses for a variety of necessary legal needs. The presentation was estimated at 1 minute and action was requested."
+      },
+      {
+        "item": "Set Annual Meeting Date and Location",
+        "body": "The Committee of the Whole was scheduled to recommend a date, time, and location for the budget hearing and annual meeting to allow full Board approval in a timely manner. This action was necessary to meet all notices and timelines for an annual meeting between May 15 and October 31 pursuant to Wisconsin statute."
+      },
+      {
+        "item": "Share Equalized Value Estimates",
+        "body": "The Board was scheduled to receive information on equalized value estimates, with the District's property value projected to increase 4.03% for the 2026-27 mill rate calculation purposes. Since certified property value would not be available until October 1, the projected property value was expected to be used for the initial budget and during the annual meeting."
+      },
+      {
+        "item": "Recommendation for 2026-2027 Budget",
+        "body": "Dr. Elizabeth Channel was scheduled to present the 2026-27 Budget Booklet for Board consideration, with the Committee recommending a preliminary budget for use at the Budget Hearing and Annual Meeting. The presentation was estimated at 2 minutes and action was requested."
+      },
+      {
+        "item": "Recommendation for 2026-2027 Tax Levy",
+        "body": "The Board was expected to consider the tax levy contained in the 2026-27 Budget Booklet to support the proposed budget. Once approved, this levy was expected to be presented at the Budget Hearing and Annual Meeting."
+      },
+      {
+        "item": "Seclusion and Restraint Report",
+        "body": "The Board was scheduled to receive an overview presentation of the 2025-26 Seclusion and Restraint report with a brief look at data over time. The presentation was estimated at 10 minutes with action requested, and the full report was included in the meeting attachments."
+      }
+    ],
+    "publicComment": "A public and student comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to approve the Consent Agenda including appointments, separations, leaves of absence, retirements, and meeting minutes",
+      "Action was requested to approve the list of legal firms for 2026-2027",
+      "Action was requested to set the annual meeting date and location",
+      "Board was expected to approve the 2026-2027 Budget recommendation",
+      "Board was expected to approve the 2026-2027 Tax Levy recommendation",
+      "Action was requested on the Seclusion and Restraint Report"
+    ],
+    "topics": [
+      "Budget",
+      "Policy",
+      "Staffing",
+      "Legal Affairs",
+      "Student Welfare"
+    ],
+    "votes": []
+  },
+  {
     "id": "Q1Ngys2nAI0",
     "source": "wausau",
     "title": "Infrastructure Committee Meeting",
@@ -5605,115 +5871,6 @@
         "second": "Misty Swanson",
         "outcome": "Approved",
         "tally": "4-0"
-      }
-    ]
-  },
-  {
-    "id": "kw_dfa01e306c3f48089c892a6df5855a3f",
-    "source": "kronenwetter",
-    "title": "REVISED Special Village Board Meeting",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Village of Kronenwetter Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-special-village-board-meeting-2",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-dfa01e306c3f48089c892a6df5855a3f.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, this revised special Village Board meeting was scheduled to address personnel matters in closed session, including concerns regarding a former employee and a current employment issue. The meeting was set for August 18, 2026, at the Kronenwetter Municipal Center.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Closed session pursuant to Wisconsin Statutes 19.85(1)(c) and 19.85(1)(f) regarding specific concerns with a former employee and current personnel employment issue"
-      },
-      {
-        "time": "N/A",
-        "item": "Action after closed session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Closed Session - Personnel and Employment Matters",
-        "body": "The board was scheduled to convene in closed session to consider employment, compensation, and performance evaluation matters of public employees under Wisconsin Statute 19.85(1)(c), as well as disciplinary data and personnel problems under statute 19.85(1)(f). The closed session was set to address specific concerns regarding a former employee and a current personnel employment issue with possible action to follow."
-      }
-    ],
-    "publicComment": "Not indicated on agenda.",
-    "actionItems": [
-      "scheduled to convene in closed session to address personnel matters",
-      "expected to consider possible action regarding former and current employee concerns"
-    ],
-    "topics": [
-      "Staffing",
-      "Personnel",
-      "Employment"
-    ],
-    "votes": []
-  },
-  {
-    "id": "UXCKA_TZnf8",
-    "source": "wausau",
-    "title": "Public Health & Safety Committee Meeting Pt.2",
-    "date": "August 17, 2026",
-    "shortDate": "AUG 17",
-    "committee": "Public Health & Safety",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=UXCKA_TZnf8",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Public Health and Safety Committee held a brief second session following a closed session deliberation on a rent abatement case. The committee voted unanimously to abate rent by 20% of monthly rent for a tenant at a property with building code violations, covering the period from April 29, 2026 through August 13, 2026. The decision provides retroactive compensation to the tenant for the diminished value of the rented premises due to the landlord's continued code violations.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Rent abatement motion following closed session deliberation"
-      },
-      {
-        "time": "1:45",
-        "item": "Roll call vote on rent abatement"
-      },
-      {
-        "time": "2:10",
-        "item": "Motion to adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Rent Abatement — Building Code Violation Property",
-        "body": "Following a closed session, Alder Lukens moved to abate rent by 20% of monthly rent retroactive to April 29, 2026 (the date of the initial inspection) through August 13, 2026 (the date the Wausau Inspection and Zoning Division verified the building code violation was corrected). The chair read the formal determination stating the abatement was intended to provide 'fair and equitable compensation to the tenant for the diminished value of the rented premises due to the landlord's continued violation of the City of Wausau's building code.' The motion passed unanimously 4-0 on roll call vote."
-      },
-      {
-        "item": "Adjournment",
-        "body": "Alder Watson moved to adjourn and Alder Trueblood seconded. The motion passed unanimously and the meeting was closed."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Rent abatement of 20% of monthly rent to be applied retroactively from April 29, 2026 through August 13, 2026 for the affected tenant",
-      "Wausau Inspection and Zoning Division verification of building code correction on August 13, 2026 serves as the end date for the abatement period"
-    ],
-    "topics": [
-      "Public Safety",
-      "Building Code Enforcement",
-      "Rent Abatement",
-      "Tenant Protections",
-      "Housing Inspection"
-    ],
-    "votes": [
-      {
-        "item": "Rent abatement of 20% of monthly rent from April 29, 2026 to August 13, 2026",
-        "motion": "Move to abate the rent by 20% of the monthly rent from April 29th, 2026 to August 13th, 2026",
-        "mover": "Alder Lukens",
-        "second": "Alder Trueblood",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Motion to adjourn",
-        "motion": "Move to adjourn",
-        "mover": "Alder Watson",
-        "second": "Alder Trueblood",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }

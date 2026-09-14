@@ -1,0 +1,87 @@
+{
+  "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 14, 2026, to address several matters including a Wisconsin Pollutant Discharge Elimination System memorandum of agreement, a zoning change request for property on Lea Road, and the appointment of an interim clerk. The meeting was set to convene at 6:00 PM at the Kronenwetter Municipal Center.",
+  "committee": "Village Board of Kronenwetter",
+  "presiding": "Not indicated on agenda",
+  "agenda": [
+    {
+      "time": "06:00 PM",
+      "item": "Call Meeting to Order - Pledge of Allegiance and Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Motion to Move Agenda Items"
+    },
+    {
+      "time": "N/A",
+      "item": "Chairperson Comments"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Comment (15 minutes total, 3 minutes per person)"
+    },
+    {
+      "time": "N/A",
+      "item": "Administrator Report"
+    },
+    {
+      "time": "N/A",
+      "item": "Police Chief's Report"
+    },
+    {
+      "time": "N/A",
+      "item": "Approval of August 24, 2026 Village Board Meeting Minutes"
+    },
+    {
+      "time": "N/A",
+      "item": "Resolution 2026-012, Wisconsin Pollutant Discharge Elimination System (WPDES) Memorandum of Agreement"
+    },
+    {
+      "time": "N/A",
+      "item": "Zoning Change Request - William Cywinski, 1900 Lea Road, 26.7 acres from AR to RR5"
+    },
+    {
+      "time": "N/A",
+      "item": "Appointment of Interim Clerk and Wage Setting"
+    },
+    {
+      "time": "N/A",
+      "item": "Consideration of Items for Future Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Resolution 2026-012, Wisconsin Pollutant Discharge Elimination System (WPDES) Memorandum of Agreement",
+      "body": "The board was scheduled to discuss and consider action on a WPDES Memorandum of Agreement. The nature and specific provisions of this agreement were not detailed in the agenda document, though such agreements typically address stormwater discharge or water quality matters."
+    },
+    {
+      "item": "Zoning Change Request - 1904 Lea Road",
+      "body": "The board was set to consider a zoning change request from William Cywinski for 26.7 acres located at 1904 Lea Road, proposing a change from AR (Agriculture and Residential) to RR5 (Rural Residential 5) zoning. The property is identified by parcel number 145-2707-124-0977."
+    },
+    {
+      "item": "Appointment of Interim Clerk and Wage Setting",
+      "body": "The board was scheduled to address the appointment of an interim clerk position and establish an interim wage for this role. No details regarding the circumstances prompting this interim appointment were provided on the agenda."
+    }
+  ],
+  "publicComment": "Public comment was on the agenda, limited to 15 minutes total with 3 minutes per person at the chief presiding officer's discretion.",
+  "actionItems": [
+    "Scheduled to vote on Resolution 2026-012 regarding the WPDES Memorandum of Agreement",
+    "Expected to take action on the zoning change request for 1904 Lea Road",
+    "Scheduled to appoint an interim clerk and establish an interim wage"
+  ],
+  "topics": [
+    "Zoning",
+    "Water Quality",
+    "Staffing",
+    "Lea Road Development"
+  ],
+  "_source": "agenda",
+  "title": "Village Board Meeting - 2026-09-14",
+  "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-66",
+  "source": "kronenwetter",
+  "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-1f4e656e6e184d7982cd10cd0e6f91ca.pdf",
+  "processed_at": "2026-09-14T03:10:42.092393+00:00"
+}
