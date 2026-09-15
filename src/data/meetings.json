@@ -70,6 +70,119 @@
     "votes": []
   },
   {
+    "id": "al28JiolCqg",
+    "source": "weston",
+    "title": "Plan Commission",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=al28JiolCqg",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09142026-1968",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Weston Plan Commission was scheduled to meet to review several development projects including a preliminary condominium plat, an amended final plat for a subdivision, and to discuss compliance with conditional use permits. The commission was also set to review staff-approved certifications and building permits from August 2026.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order – Roll Call & Declaration of Quorum"
+      },
+      {
+        "time": "N/A",
+        "item": "Open public comment period for items that do not appear on this agenda noted as public hearings"
+      },
+      {
+        "time": "N/A",
+        "item": "Written Communications, Disclosures and Recusals"
+      },
+      {
+        "time": "N/A",
+        "item": "Minutes from August 10, 2026, Plan Commission Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Project #20260315 – Preliminary Condominium Plat Review for 4603, 4605, 4607, 4609, 4611 and 4613 Camp Phillips Road"
+      },
+      {
+        "time": "N/A",
+        "item": "Project #20250424 – Amended Final Plat of Bull Junior View Subdivision (Reedy Builders/Vreeland)"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action regarding compliance with approved conditional use permits"
+      },
+      {
+        "time": "N/A",
+        "item": "August 2026 Staff-Approved Certified Survey Maps and Site Plans"
+      },
+      {
+        "time": "N/A",
+        "item": "August 2026 Building Permits"
+      },
+      {
+        "time": "N/A",
+        "item": "Planning & Development Department Monthly Project Update Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Announcements & Commissioner Remarks"
+      },
+      {
+        "time": "N/A",
+        "item": "Future Agenda Items or Staff Referrals"
+      },
+      {
+        "time": "N/A",
+        "item": "Next Meeting Dates"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn Plan Commission"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Project #20260315 – Preliminary Condominium Plat Review for 4603, 4605, 4607, 4609, 4611 and 4613 Camp Phillips Road",
+        "body": "The Plan Commission was scheduled to review a preliminary condominium plat for six properties on Camp Phillips Road. Staff was expected to present analysis and recommendations regarding the plat's compliance with Village zoning and development standards."
+      },
+      {
+        "item": "Project #20250424 – Amended Final Plat of Bull Junior View Subdivision (Reedy Builders/Vreeland)",
+        "body": "The commission was set to consider an amended final plat for the Bull Junior View Subdivision involving Reedy Builders and Vreeland. The meeting was expected to include staff review and potential action on the amended plat submission."
+      },
+      {
+        "item": "Discussion and possible action regarding compliance with approved conditional use permits",
+        "body": "The Plan Commission was scheduled to discuss identified violations of approved conditional use permits for three properties: USSAM at 3107 Concord Avenue (CUP No. 20240072), BUG Properties at 6406 Schofield Avenue (CUP No. 1890229), and Tommy's Car Wash at 1611 Schofield Avenue (CUP No. 20191300). The commission was expected to consider possible modification, revocation, or other appropriate action for these properties."
+      },
+      {
+        "item": "August 2026 Staff-Approved Certified Survey Maps and Site Plans",
+        "body": "The commission was scheduled to review a report on certified survey maps and site plans that were approved by staff during August 2026. This informational item was set for commission awareness and record."
+      },
+      {
+        "item": "August 2026 Building Permits",
+        "body": "The Plan Commission was set to receive a report on building permits issued in August 2026. This was expected to serve as an informational update for commission members."
+      },
+      {
+        "item": "Planning & Development Department Monthly Project Update Report",
+        "body": "Staff was scheduled to present the monthly project update report from the Planning & Development Department. This report was expected to provide an overview of ongoing projects and departmental activities."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda through both a general open public comment period and remote participation options via Zoom.",
+    "actionItems": [
+      "Scheduled to vote on approval of August 10, 2026 meeting minutes",
+      "Expected to consider preliminary condominium plat for Camp Phillips Road properties",
+      "Expected to consider amended final plat for Bull Junior View Subdivision",
+      "Scheduled to discuss and take possible action regarding conditional use permit compliance violations at three properties"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Conditional Use Permits",
+      "Subdivisions",
+      "Compliance Violations"
+    ],
+    "votes": []
+  },
+  {
     "id": "flPcB5hel4A",
     "source": "weston",
     "title": "Public Works Committee",
@@ -80,7 +193,7 @@
     "url": "https://www.youtube.com/watch?v=flPcB5hel4A",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09142026-1968",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Village of Weston Public Works & Utility Committee was scheduled to meet on September 14, 2026, to address multiple infrastructure projects including street reconstructions, utility easements, and operational updates. The meeting was set to discuss capital improvement projects, various street and utility assessments, and policy matters affecting village infrastructure.",
     "agenda": [
       {
@@ -5563,214 +5676,6 @@
         "second": null,
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "sjJQDI4Cb7I",
-    "source": "wausau",
-    "title": "City Council Meeting Pt.1",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "City Council",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=sjJQDI4Cb7I",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Common Council met on August 18, 2026 and took action on several significant financial matters, including two lead service line replacement bond resolutions that passed 8-0 despite council frustration over being 'painted into a corner' by prior commitments. A resolution to hire a full-time HR Coordinator and a resolution approving a $50,000 feasibility study for a combined police/fire facility at the former UWSP Wausau campus both failed to achieve the required 2/3 majority, with the feasibility study vote potentially subject to reconsideration at the September 8th meeting. The council adjourned into closed session to deliberate on responses to RFPs for redevelopment of the former UWSP campus at 518 South 7th Avenue.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Pre-meeting informal conversation"
-      },
-      {
-        "time": "4:12",
-        "item": "Call to order, Pledge of Allegiance, roll call — 8 voting members present"
-      },
-      {
-        "time": "5:10",
-        "item": "Approval of July 14, 2026 regular Common Council meeting minutes"
-      },
-      {
-        "time": "5:45",
-        "item": "Public comment — no speakers"
-      },
-      {
-        "time": "6:00",
-        "item": "Committee reports and consent agenda"
-      },
-      {
-        "time": "6:45",
-        "item": "File 26-0807: Joint resolution approving hiring of full-time HR Coordinator and related budget modification (requires 2/3 majority)"
-      },
-      {
-        "time": "8:00",
-        "item": "File 26-0806: Resolution approving $50,000 budget amendment for UWSP-Wausau/police and fire facility feasibility study (requires 2/3 majority)"
-      },
-      {
-        "time": "35:00",
-        "item": "File 26-0805: Resolution approving WEDC brownfield grant for 207 North 1st Avenue (former MBX property)"
-      },
-      {
-        "time": "36:00",
-        "item": "File 26-0802: Confirming mayoral appointments to police and fire commission, arts commission, and transit commission"
-      },
-      {
-        "time": "37:00",
-        "item": "File 26-0808: Resolution authorizing issuance of $3,469,102 water system revenue bond series 2026 for lead service line replacement"
-      },
-      {
-        "time": "1:10:00",
-        "item": "File 26-0809: Resolution authorizing issuance of up to $3,331,289 taxable general obligation promissory note series 2026B for lead service line replacement (homeowner side)"
-      },
-      {
-        "time": "1:13:00",
-        "item": "Suspension of rules — failed"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Announcements from mayor and alderpersons"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Motion to adjourn into closed session regarding RFPs for redevelopment of former UWSP Wausau campus, 518 South 7th Avenue"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "File 26-0807: HR Coordinator hiring and budget modification",
-        "body": "A motion was made by Larson and seconded by Kilian to approve the joint resolution from the Human Resources and Finance Committees to hire a full-time HR Coordinator with a related budget modification. No discussion was recorded in the transcript. The measure required a 2/3 majority (6 of 8 votes) and failed to achieve it, though the specific tally was not announced."
-      },
-      {
-        "item": "File 26-0806: UWSP/Police and Fire Facility Feasibility Study — $50,000 budget amendment",
-        "body": "Alder Larson questioned where the $50,000 would come from (answer: reserves) and pressed for clarity on where future construction funds — potentially $20 million or more — would originate before spending on a feasibility study. Fire Chief Barnes explained that the study allocates $25,000 to FGMA Architects for the police side, $15,000 to Five Bugles for the fire side, and a reserve for potential environmental studies; she also outlined potential funding sources including $2 million allocated to the county from the UW system, congressionally directed spending, and state Department of Administration funds. Alder Kilian confirmed the plan would keep the fire department on the current footprint at Central Fire while expanding into the police department space, with 800 Grand Avenue potentially vacated. Alder Henke changed his position from committee (where he voted no) to support, citing newly learned funding opportunities. The motion by Trueblood, seconded by Tierney, failed to reach the required 2/3 majority; after the vote, Kilian raised the possibility of reconsideration at the September 8th meeting, and Chief Barnes asked whether returning with an amended funding structure that reduces the reserve draw could come back through committee."
-      },
-      {
-        "item": "File 26-0805: WEDC Brownfield Grant — 207 North 1st Avenue (former MBX property)",
-        "body": "Motion by Henke, seconded by Neal. No discussion was recorded. The resolution passed 6-2."
-      },
-      {
-        "item": "File 26-0802: Mayoral appointments to commissions",
-        "body": "Motion by Watson, seconded by Tierney to confirm the mayor's appointments to the police and fire commission, arts commission, and transit commission. No discussion. Passed 8-0."
-      },
-      {
-        "item": "File 26-0808: $3,469,102 Water System Revenue Bond Series 2026 — lead service line replacement (utility side)",
-        "body": "Alder Kilian asked whether approval could lead to future water rate increases; Director Grote and Ehlers consultant John Cameron confirmed a rate increase is likely in the future — the current reserves are projected to run out by 2030 — but clarified this specific loan is approved by the state based on existing revenues, not a projected rate hike. Alder Trueblood raised concern that the council was being asked to approve bonds for work already underway and contracts already signed, calling it unorthodox and expressing frustration at 'building a plane while it's flying.' Alder Tierney questioned whether the program should be scaled back, as had been discussed in prior councils, and Director Grote confirmed those options would be presented at the next Finance Committee meeting. Alder Wiskowski expressed a desire to table the item for a full council but the mayor noted a quorum was present and business must proceed. Alder Henke said he would vote yes 'reluctantly,' citing the city's obligation to pay Community Infrastructure Partners for work already performed. The motion passed 8-0."
-      },
-      {
-        "item": "File 26-0809: Up to $3,331,289 General Obligation Promissory Note Series 2026B — lead service line replacement (homeowner side, includes $7.6M in principal forgiveness)",
-        "body": "Motion by Watson, seconded by Trueblood. Alder Trueblood noted he was seconding 'with the clear understanding that we've been painted into a corner,' to which the mayor acknowledged 'torpedoes put in the water 4-5 years ago that are still coming.' No further substantive debate. Passed 8-0."
-      },
-      {
-        "item": "Suspension of Rules",
-        "body": "A motion by Neal, seconded by Watson, to suspend rules — which had been listed to include both an athletic park item and the closed session — failed to achieve the required 2/3 majority. City attorney Fyfe then clarified that the closed session item had been properly agendized through committee and did not require suspension of rules, allowing the closed session motion to proceed separately."
-      },
-      {
-        "item": "Closed Session — RFPs for former UWSP Wausau Campus redevelopment",
-        "body": "Alder Henke read the statutory basis (Wis. Stat. 19.85(1)(e)) — deliberating or negotiating for competitive or bargaining reasons — for a closed session to respond to requests for proposals for redevelopment of the former UWSP Wausau campus at 518 South 7th Avenue. Motion by Henke, seconded by Wiskowski. Roll call: Kilian-aye, Neal-aye, Wiskowski-aye, Henke-aye, Watson-abstain, Tierney-aye, Larson-no, Trueblood-aye. Passed 6-1 with one abstention."
-      }
-    ],
-    "publicComment": "No public comment was offered. The mayor asked if anyone wished to speak and, seeing none, moved on.",
-    "actionItems": [
-      "HR Coordinator hiring resolution (File 26-0807) failed; potential reconsideration at September 8th meeting if a council member who voted no or an absent member requests it within 5 days",
-      "Police/Fire feasibility study resolution (File 26-0806) failed; potential reconsideration at September 8th meeting; Chief Barnes to explore whether an amended funding structure reducing reserve draw could be brought back through committee",
-      "WEDC brownfield grant for 207 North 1st Avenue (former MBX property) approved",
-      "Mayoral appointments to police/fire commission, arts commission, and transit commission confirmed",
-      "Water system revenue bond ($3,469,102) and GO promissory note ($3,331,289) for lead service line replacement authorized; closing to proceed",
-      "Finance Committee to present options for scaling back the lead service line replacement program in upcoming meeting",
-      "Ehlers/Brian Rohmer to present water rate study and financial projections to the next Water Commission meeting",
-      "Council adjourned into closed session to deliberate on RFP responses for redevelopment of former UWSP Wausau campus at 518 South 7th Avenue",
-      "Alder Larson announced Thomas Street neighborhood meeting the following Monday at 5:30 p.m. at Riverside Park Pavilion",
-      "Alder Wiskowski encouraged public and fellow alders to visit the Bridge Mission facility and noted laundry detergent as a key donation need"
-    ],
-    "topics": [
-      "Utilities",
-      "Lead Service Line Replacement",
-      "Public Safety",
-      "Development",
-      "UWSP Campus Redevelopment"
-    ],
-    "votes": [
-      {
-        "item": "Approval of July 14, 2026 Common Council meeting minutes",
-        "motion": null,
-        "mover": "Trueblood",
-        "second": "Henke",
-        "outcome": "Approved",
-        "tally": "8-0"
-      },
-      {
-        "item": "Consent agenda",
-        "motion": "Motion to approve",
-        "mover": "Neal",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "8-0"
-      },
-      {
-        "item": "File 26-0807: Hiring of full-time HR Coordinator and budget modification (required 2/3 majority)",
-        "motion": null,
-        "mover": "Larson",
-        "second": "Kilian",
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "File 26-0806: $50,000 budget amendment for UWSP/police and fire facility feasibility study (required 2/3 majority)",
-        "motion": "Move to adopt",
-        "mover": "Trueblood",
-        "second": "Tierney",
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "File 26-0805: WEDC brownfield grant for 207 North 1st Avenue (former MBX property)",
-        "motion": "So moved",
-        "mover": "Henke",
-        "second": "Neal",
-        "outcome": "Approved",
-        "tally": "6-2"
-      },
-      {
-        "item": "File 26-0802: Confirming mayoral appointments to commissions",
-        "motion": null,
-        "mover": "Watson",
-        "second": "Tierney",
-        "outcome": "Approved",
-        "tally": "8-0"
-      },
-      {
-        "item": "File 26-0808: $3,469,102 water system revenue bond series 2026 for lead service line replacement",
-        "motion": null,
-        "mover": "Watson",
-        "second": "Neal",
-        "outcome": "Approved",
-        "tally": "8-0"
-      },
-      {
-        "item": "File 26-0809: Up to $3,331,289 GO promissory note series 2026B for lead service line replacement (homeowner side)",
-        "motion": null,
-        "mover": "Watson",
-        "second": "Trueblood",
-        "outcome": "Approved",
-        "tally": "8-0"
-      },
-      {
-        "item": "Suspension of rules",
-        "motion": null,
-        "mover": "Neal",
-        "second": "Watson",
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Adjourn into closed session regarding RFPs for redevelopment of former UWSP Wausau campus at 518 South 7th Avenue",
-        "motion": null,
-        "mover": "Henke",
-        "second": "Wiskowski",
-        "outcome": "Approved",
-        "tally": "6-1 with one abstention (Watson abstained, Larson voted no)"
       }
     ]
   }
