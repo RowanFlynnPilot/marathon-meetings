@@ -70,6 +70,154 @@
     "votes": []
   },
   {
+    "id": "flPcB5hel4A",
+    "source": "weston",
+    "title": "Public Works Committee",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "Public Works",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=flPcB5hel4A",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09142026-1968",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Weston Public Works & Utility Committee was scheduled to meet on September 14, 2026, to address multiple infrastructure projects including street reconstructions, utility easements, and operational updates. The meeting was set to discuss capital improvement projects, various street and utility assessments, and policy matters affecting village infrastructure.",
+    "agenda": [
+      {
+        "time": "4:30 P.M.",
+        "item": "Meeting called to order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of 8/10/26 Public Works & Utility Committee Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Acknowledge August 2026 Water and Sewer Permits"
+      },
+      {
+        "time": "N/A",
+        "item": "CIP Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Street Operations Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Utility Operations Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Business 51 Reconstruction – Neupert Ave Pedestrian Crossing"
+      },
+      {
+        "time": "N/A",
+        "item": "Wausau Tile Sanitary Sewer Easement"
+      },
+      {
+        "time": "N/A",
+        "item": "Ferge Ave Project Typical Section Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Howland Ave Project Typical Section Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Gravel Road Maintenance Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "E Jelinek Ave Final Assessments"
+      },
+      {
+        "time": "N/A",
+        "item": "Weston Ave Final Assessments"
+      },
+      {
+        "time": "N/A",
+        "item": "Alderson St and Jelinek Ave Change Order #2"
+      },
+      {
+        "time": "N/A",
+        "item": "Winter Street Parking Ordinance Update"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Business 51 Reconstruction – Neupert Ave Pedestrian Crossing",
+        "body": "The committee was scheduled to review this pedestrian crossing project in detail, with additional information expected to be presented following a deferral from the August meeting. Discussion was set to address impacts on local businesses, parking lots, signage, and project costs, potentially including City of Schofield's involvement."
+      },
+      {
+        "item": "Wausau Tile Sanitary Sewer Easement",
+        "body": "The committee was scheduled to consider a sanitary sewer easement request with additional information anticipated after being deferred from the August meeting. The discussion was set to include review of easement agreements and the potential value of a survey to confirm alignment with previous property surveys."
+      },
+      {
+        "item": "Ferge Ave Project Typical Section Discussion",
+        "body": "The committee was set to discuss typical section design standards for the Ferge Avenue project as part of ongoing street improvement planning."
+      },
+      {
+        "item": "Howland Ave Project Typical Section Discussion",
+        "body": "The committee was scheduled to review and discuss typical section design standards for the Howland Avenue project."
+      },
+      {
+        "item": "Gravel Road Maintenance Discussion",
+        "body": "The committee was set to discuss maintenance practices and standards for village gravel roads."
+      },
+      {
+        "item": "E Jelinek Ave Final Assessments",
+        "body": "The committee was scheduled to consider final special assessments for the East Jelinek Avenue project."
+      },
+      {
+        "item": "Weston Ave Final Assessments",
+        "body": "The committee was set to review and consider final special assessments for the Weston Avenue project, which was noted as 100% complete in both east and west construction phases."
+      },
+      {
+        "item": "Alderson St and Jelinek Ave Change Order #2",
+        "body": "The committee was scheduled to review the second change order related to the Alderson Street and Jelinek Avenue projects."
+      },
+      {
+        "item": "Winter Street Parking Ordinance Update",
+        "body": "The committee was set to discuss proposed updates to the village's winter street parking ordinance."
+      },
+      {
+        "item": "CIP Update",
+        "body": "The committee was scheduled to receive an update on the status of ongoing Capital Improvement Plan projects, with comparative analysis of the village's street spending relative to neighboring communities in Central Wisconsin."
+      },
+      {
+        "item": "Street Operations Update",
+        "body": "The committee was set to receive a staff report on street operations activities and status."
+      },
+      {
+        "item": "Utility Operations Update",
+        "body": "The committee was scheduled to receive a staff report on utility operations activities and status."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda.",
+    "actionItems": [
+      "Expected to acknowledge August 2026 Water and Sewer Permits",
+      "Scheduled to consider Business 51 Reconstruction – Neupert Ave Pedestrian Crossing with additional information",
+      "Scheduled to consider Wausau Tile Sanitary Sewer Easement with additional details",
+      "Expected to review and discuss typical sections for Ferge Ave and Howland Ave projects",
+      "Scheduled to consider final assessments for E Jelinek Ave and Weston Ave",
+      "Expected to review Alderson St and Jelinek Ave Change Order #2",
+      "Scheduled to discuss Winter Street Parking Ordinance updates",
+      "Expected to receive CIP, Street Operations, and Utility Operations updates"
+    ],
+    "topics": [
+      "Capital Improvement Plan",
+      "Street Reconstruction",
+      "Utility Infrastructure",
+      "Special Assessments",
+      "Pedestrian Safety",
+      "Easements",
+      "Weston Avenue",
+      "Winter Parking Ordinance"
+    ],
+    "votes": []
+  },
+  {
     "id": "qgjeCvm4vts",
     "source": "wausau",
     "title": "City Council Joint Human Resources Committee and Finance Committee Meeting Pt.2",
@@ -5623,117 +5771,6 @@
         "second": "Wiskowski",
         "outcome": "Approved",
         "tally": "6-1 with one abstention (Watson abstained, Larson voted no)"
-      }
-    ]
-  },
-  {
-    "id": "jqaJm_u0uT4",
-    "source": "wausau",
-    "title": "City Council Meeting Pt.2",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Wausau City Council",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=jqaJm_u0uT4",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau City Council reconvened from closed session to consider two major items: approving submission of an RFP response to Marathon County for the former UWSP Wausau campus at 518 South 17th Avenue, and approving an alternate bid for construction of up to 153 parking stalls in Riverfront Parking Lot E. Both items passed 6-2 and 6-1 (with one abstention) respectively, with the campus proposal representing a potential major relocation of the Wausau Police Department and other city functions, while the parking lot project fulfills obligations under a developers agreement related to Athletic Park.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Reconvene from closed session"
-      },
-      {
-        "time": "0:30",
-        "item": "RFP response for former UWSP Wausau campus at 518 South 17th Avenue"
-      },
-      {
-        "time": "1:20",
-        "item": "Discussion of campus RFP scope: police HQ, field house, dormitories, fire station relocation"
-      },
-      {
-        "time": "8:45",
-        "item": "Discussion of 815 Floral Avenue property inclusion in RFP"
-      },
-      {
-        "time": "16:10",
-        "item": "Alder Larson raises concerns about city property acquisitions and spending priorities"
-      },
-      {
-        "time": "22:30",
-        "item": "Procedural dispute over calling the question and suspension of rules"
-      },
-      {
-        "time": "28:00",
-        "item": "Vote on RFP response for UWSP campus"
-      },
-      {
-        "time": "29:10",
-        "item": "Reconsideration of item 6 (suspension of rules / referral of resolution 26-0811)"
-      },
-      {
-        "time": "31:00",
-        "item": "Resolution 26-0811: Alternate bid from PGA Inc. for 2026 Riverfront Parking Lot E project (153 stalls)"
-      },
-      {
-        "time": "45:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "RFP Response for Former UWSP Wausau Campus",
-        "body": "City Director Randy Fyfe outlined the proposal, which includes relocating Wausau PD headquarters to the main campus building (potentially partnering with the Wausau School District), exploring public safety or recreation use for the field house, demolishing dormitories for new housing, converting the current police department building to a fire station, and identifying 815 Floral Avenue as a redevelopment opportunity. The purchase price offered is $1, with a requested 6-month due diligence period. Alder Larson expressed skepticism, citing past city land purchases that yielded no results and questioning the cost of maintaining a 66-year-old building versus DPW facility needs. Alder Watson, who serves on both the city council and county board, recused herself from active debate but voiced support. Alder Kilian raised concerns about including the Floral Avenue property in the RFP, and Fyfe indicated it could be removed at council's discretion. Alderwoman Trueblood emphasized the vote only commits the city to submitting the proposal, not to any final decision, and there is no cost to submit."
-      },
-      {
-        "item": "Procedural Dispute: Calling the Question on UWSP Campus RFP",
-        "body": "Alderwoman Trueblood moved to call the question on the UWSP campus RFP vote; an unnamed alderperson objected, triggering a procedural debate over council rules on terminating debate. After consultation with council rules, the objection was ultimately withdrawn, allowing the vote to proceed without a separate vote to call the question. A separate motion to suspend the rules related to item 6 (reconsideration of referral of resolution 26-0811) passed 6-2, with the presiding officer confirming that 6-2 constitutes the required two-thirds majority of members present."
-      },
-      {
-        "item": "Resolution 26-0811: Riverfront Parking Lot E Alternate Bid (PGA Inc.)",
-        "body": "Director Lindman explained that the city is obligated under a developers agreement to provide approximately 150 new parking spaces near Athletic Park by May 2027. A city attorney opinion concluded the legal obligation was closer to 118 stalls given prior lot construction, but the developer Mark McDonald anticipated 153. The Board of Public Works awarded the base bid to PGA Inc. and referred the alternate bid (adding stalls up to 153) to the council. The base bid came in at $500,000 and the alternate bid added $57,500, totaling under the $650,000 budget. Alder Henning called it a 'no-brainer' given the savings. Alder Witkowski raised concerns about year-round utilization of the large lot, garbage issues near Athletic Park, and parking enforcement during ball games. Alder Tierney stated she would not support the alternate bid above 120 stalls, calling the extra stalls a want rather than a need. The motion passed 6-2."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "City staff to submit RFP response to Marathon County for the former UWSP Wausau campus by the August 24th deadline, offering $1 purchase price and requesting a 6-month due diligence period",
-      "If RFP is accepted, staff to conduct feasibility study and return to council with cost estimates for police department relocation and related facility moves",
-      "Staff may remove 815 Floral Avenue from the RFP scope per council discussion",
-      "PGA Inc. alternate bid approved for Riverfront Parking Lot E, authorizing construction of up to 153 parking stalls including lighting",
-      "Staff to address signage, parking enforcement, and garbage collection concerns raised by Alder Witkowski regarding the Athletic Park parking area"
-    ],
-    "topics": [
-      "Development",
-      "Public Safety",
-      "Parking",
-      "UWSP Campus Redevelopment",
-      "Athletic Park Riverfront"
-    ],
-    "votes": [
-      {
-        "item": "Submit RFP response to Marathon County for former UWSP Wausau campus at $1 purchase price",
-        "motion": "Motion to go forward with submitting the RFP",
-        "mover": "Alder Neal",
-        "second": "Alder Trueblood",
-        "outcome": "Approved",
-        "tally": "6-1 with one abstention"
-      },
-      {
-        "item": "Suspend rules / reconsideration of referral of resolution 26-0811",
-        "motion": null,
-        "mover": "Alder Neal",
-        "second": "Alder Watson",
-        "outcome": "Approved",
-        "tally": "6-2"
-      },
-      {
-        "item": "Resolution 26-0811: Alternate bid from PGA Inc. for 2026 Riverfront Parking Lot E project, up to 153 parking stalls",
-        "motion": null,
-        "mover": "Alder Neal",
-        "second": "Alder Larson",
-        "outcome": "Approved",
-        "tally": "6-2"
       }
     ]
   }
