@@ -1,0 +1,59 @@
+{
+  "overview": "This was a very brief second part of a joint Human Resources and Finance Committee meeting in which a single motion regarding a termination was passed, followed immediately by adjournment. The meeting lasted only a matter of seconds in the recording, with minimal deliberation captured.",
+  "committee": "Wausau City Council Joint Human Resources Committee and Finance Committee",
+  "presiding": "Terry Kilian (Council President, District 3) — referenced as 'Alder Kellian' in transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Motion regarding termination"
+    },
+    {
+      "time": "0:30",
+      "item": "Motion for adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Termination Motion",
+      "body": "An alder identified in the transcript as 'Alder Lerson' made a motion regarding a termination (full wording of motion was largely inaudible). A second was provided by an alder referred to as 'Alder Wowski.' The motion passed with at least one opposed vote recorded. Following the vote, the presiding officer noted that the union would receive a letter within 10 working days regarding the termination decision."
+    },
+    {
+      "item": "Adjournment",
+      "body": "Terry Kilian moved for adjournment, seconded by Alder Wowski. The motion passed with at least one member voting opposed. The meeting was then closed."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "A letter regarding the termination decision is to be sent to the union within 10 working days."
+  ],
+  "topics": [
+    "Staffing",
+    "Employee Termination",
+    "Labor Relations"
+  ],
+  "votes": [
+    {
+      "item": "Motion for termination",
+      "motion": "[inaudible — motion for termination]",
+      "mover": "Alder Lerson [spelling unverified]",
+      "second": "Alder Wowski [spelling unverified]",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Motion for adjournment",
+      "motion": "Motion for adjournment",
+      "mover": "Terry Kilian",
+      "second": "Alder Wowski [spelling unverified]",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "b4db66004ac3d991",
+  "title": "Wausau City Council Joint Human Resources Committee and Finance Committee Meeting Pt.2",
+  "url": "https://www.youtube.com/watch?v=qgjeCvm4vts",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-09-15T03:13:28.241250+00:00"
+}

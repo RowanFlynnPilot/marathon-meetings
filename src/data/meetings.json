@@ -1,5 +1,274 @@
 [
   {
+    "id": "kw_2998b824c4a8402485d7752be7e3630a",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "September 15, 2026",
+    "shortDate": "SEP 15",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Village of Kronenwetter Administrative Policy Committee was scheduled to meet to review financial reports, discuss the 2027 operating budget preview, and consider the 2027-2036 Capital Improvement Plan with funding and debt service analyses. The meeting was set to address the village's financial planning and budgetary priorities for the coming year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of August 18, 2026 Administrative Policy Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director Report - Monthly Update"
+      },
+      {
+        "time": "N/A",
+        "item": "August 2026 Budget Status Report"
+      },
+      {
+        "time": "N/A",
+        "item": "2027 Operating Budget Preview"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-2036 CIP Budget - September 2026 Update"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of August 18, 2026 Meeting Minutes",
+        "body": "The committee was scheduled to review and take possible action on the minutes from the previous Administrative Policy Committee meeting held on August 18, 2026."
+      },
+      {
+        "item": "Finance Director Report - Monthly Update",
+        "body": "The Finance Director was set to provide a monthly update report to the committee regarding the village's financial status and activities."
+      },
+      {
+        "item": "August 2026 Budget Status Report",
+        "body": "The committee was expected to review the budget status report for August 2026 to assess financial performance through that period."
+      },
+      {
+        "item": "2027 Operating Budget Preview",
+        "body": "The committee was scheduled to discuss a preview of the 2027 operating budget to inform planning and deliberations on the upcoming year's financial priorities."
+      },
+      {
+        "item": "2027-2036 CIP Budget - September 2026 Update",
+        "body": "The committee was set to consider the Capital Improvement Plan for 2027-2036, including funding analysis, debt service analysis, and Tax Increment District projected closer analysis. This comprehensive capital planning review was expected to guide the village's long-term infrastructure and investment decisions."
+      }
+    ],
+    "publicComment": "Public comment was scheduled, with a 15-minute total limit and three minutes per person, subject to extension at the Chief Presiding Officer's discretion. No action was to be taken under public comments.",
+    "actionItems": [
+      "scheduled to vote on approval of August 18, 2026 meeting minutes",
+      "expected to consider the 2027-2036 Capital Improvement Plan with funding and debt service analyses"
+    ],
+    "topics": [
+      "Budget",
+      "Capital Improvement Plan",
+      "Debt Service",
+      "Tax Increment District"
+    ],
+    "votes": []
+  },
+  {
+    "id": "qgjeCvm4vts",
+    "source": "wausau",
+    "title": "City Council Joint Human Resources Committee and Finance Committee Meeting Pt.2",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "Wausau City Council Joint Human Resources Committee and Finance Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=qgjeCvm4vts",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "This was a very brief second part of a joint Human Resources and Finance Committee meeting in which a single motion regarding a termination was passed, followed immediately by adjournment. The meeting lasted only a matter of seconds in the recording, with minimal deliberation captured.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Motion regarding termination"
+      },
+      {
+        "time": "0:30",
+        "item": "Motion for adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Termination Motion",
+        "body": "An alder identified in the transcript as 'Alder Lerson' made a motion regarding a termination (full wording of motion was largely inaudible). A second was provided by an alder referred to as 'Alder Wowski.' The motion passed with at least one opposed vote recorded. Following the vote, the presiding officer noted that the union would receive a letter within 10 working days regarding the termination decision."
+      },
+      {
+        "item": "Adjournment",
+        "body": "Terry Kilian moved for adjournment, seconded by Alder Wowski. The motion passed with at least one member voting opposed. The meeting was then closed."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "A letter regarding the termination decision is to be sent to the union within 10 working days."
+    ],
+    "topics": [
+      "Staffing",
+      "Employee Termination",
+      "Labor Relations"
+    ],
+    "votes": [
+      {
+        "item": "Motion for termination",
+        "motion": "[inaudible — motion for termination]",
+        "mover": "Alder Lerson [spelling unverified]",
+        "second": "Alder Wowski [spelling unverified]",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Motion for adjournment",
+        "motion": "Motion for adjournment",
+        "mover": "Terry Kilian",
+        "second": "Alder Wowski [spelling unverified]",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "VCg2SK5tzng",
+    "source": "wausau",
+    "title": "City Council Joint Human Resources Committee and Finance Committee Meeting Pt.1",
+    "date": "September 14, 2026",
+    "shortDate": "SEP 14",
+    "committee": "City of Wausau Joint Human Resources Committee and Finance Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=VCg2SK5tzng",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau City Council held a joint Human Resources and Finance Committee meeting to consider the 2027 employee benefit design, which includes significant increases to deductibles and insurance premiums. Both committees approved the benefit package as presented after debate over the financial burden on employees, and the HR committee then moved into closed session to consider a union grievance regarding an employee termination.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order — Joint HR and Finance Committee meeting"
+      },
+      {
+        "time": "0:30",
+        "item": "Discussion and possible action: Approving 2027 benefit design for City of Wausau and City County Information Technology Commission employees"
+      },
+      {
+        "time": "4:50",
+        "item": "Public comment from city employee on proposed benefit changes"
+      },
+      {
+        "time": "5:10",
+        "item": "HR Director Keenan presents rationale for benefit design changes and market comparison"
+      },
+      {
+        "time": "8:00",
+        "item": "Alder discussion on deductible increases, HSA contributions, and budget impact"
+      },
+      {
+        "time": "13:30",
+        "item": "Finance Committee votes to approve 2027 benefit package"
+      },
+      {
+        "time": "14:50",
+        "item": "HR Committee votes to approve 2027 benefit package"
+      },
+      {
+        "time": "15:10",
+        "item": "Finance Committee adjourns from joint session"
+      },
+      {
+        "time": "15:30",
+        "item": "HR Committee: Public comment (none offered); Consideration of minutes from August 10th"
+      },
+      {
+        "time": "16:00",
+        "item": "Discussion and possible action: ATU Local 1168 union grievance regarding employee termination — motion to adjourn to closed session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2027 Benefit Design Approval",
+        "body": "Alan Wussellowski, city engineer with 26 years of service, addressed the committees expressing concern that the family deductible increase from $3,400 to $6,000 represents a roughly $3,000 per year additional burden on employees and warned it would hinder recruitment, citing a city surveyor position that has gone unfilled for two years with no applicants. HR Director Keenan responded that the city went to market and the Aspirus plan was the best available, noting the original premium increase proposed was 20.3% and was negotiated down to 9.6% in part through the deductible increases; she also noted the county's deductibles are higher ($4,000 single / $6,500 family) and city employees pay only 12% of premiums versus the county's 15%. Alder Hickeyi raised that the deductible increase for families represents roughly a 76% increase and questioned whether the city could increase HSA contributions, to which staff indicated that adding $600 per family plan would cost approximately $101,400 more on top of the already $550,000 premium increase, totaling over $650,000 in additional budget exposure. Keenan noted that 75% of employees with health insurance do not currently reach the maximum out-of-pocket and that the city also provides a 3% COLA plus merit increases, which is better than many employers."
+      },
+      {
+        "item": "Finance Committee Vote on 2027 Benefit Package",
+        "body": "Alder Neil moved to approve the benefit package as presented on the finance side; Alder Tierney seconded. The motion carried on a voice vote with no audible opposition."
+      },
+      {
+        "item": "HR Committee Vote on 2027 Benefit Package",
+        "body": "A motion was made to approve the benefit package as presented on the HR side; Alder Kilian seconded. The motion passed on a voice vote with no audible opposition."
+      },
+      {
+        "item": "Finance Committee Adjournment from Joint Session",
+        "body": "Alder Neil moved and Alder Heniki seconded a motion to adjourn the finance portion of the joint session. The motion carried unanimously on a voice vote and the Finance Committee stood adjourned."
+      },
+      {
+        "item": "HR Committee Minutes — August 10th",
+        "body": "Alder Wowski moved and Alder Laren seconded approval of the August 10th HR Committee minutes. The motion carried on a voice vote with no opposition."
+      },
+      {
+        "item": "ATU Local 1168 Union Grievance — Employee Termination (Closed Session)",
+        "body": "A motion was made to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(c) and (f) to consider the ATU Local 1168 union grievance regarding an employee termination. The motion required a roll call vote; Alders Mertin, Kilian, Wowski, and Laren all voted aye, and the chair voted in favor as well. The committee proceeded to closed session, with a note from staff that the committee would be required to return to open session before adjourning if any action needed to be taken."
+      }
+    ],
+    "publicComment": "One speaker addressed the joint committee during the benefit design discussion: Alan Wussellowski, identified as the city engineer residing on the third floor of city hall with 26 years of service, spoke against the scale of the deductible increase and urged the committees to consider increasing the city's HSA contribution to offset the burden on employees and to preserve the city's ability to attract and retain workers. No public comment was offered during the HR-only portion of the meeting.",
+    "actionItems": [
+      "2027 benefit design for City of Wausau and CCITC employees approved by both Finance and HR Committees as presented",
+      "Finance Committee adjourned from joint session",
+      "HR Committee approved August 10th meeting minutes",
+      "HR Committee moved to closed session to consider ATU Local 1168 grievance regarding employee termination; committee to return to open session before final adjournment"
+    ],
+    "topics": [
+      "Employee Benefits",
+      "Healthcare Costs",
+      "Staffing and Recruitment",
+      "Labor Relations",
+      "Budget"
+    ],
+    "votes": [
+      {
+        "item": "Approve 2027 benefit design — Finance Committee",
+        "motion": "Motion to approve the 2027 benefit package as presented",
+        "mover": "Alder Neil",
+        "second": "Alder Tierney",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve 2027 benefit design — HR Committee",
+        "motion": "Motion to approve as presented",
+        "mover": null,
+        "second": "Terry Kilian",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjourn Finance Committee from joint session",
+        "motion": "Motion to adjourn finance portion of joint session",
+        "mover": "Alder Neil",
+        "second": "Alder Heniki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve HR Committee minutes from August 10th",
+        "motion": "Motion to approve the minutes",
+        "mover": "Alder Wowski",
+        "second": "Alder Laren",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjourn to closed session to consider ATU Local 1168 union grievance regarding employee termination",
+        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(c) and (f)",
+        "mover": null,
+        "second": "Alder Wowski",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "kw_1f4e656e6e184d7982cd10cd0e6f91ca",
     "source": "kronenwetter",
     "title": "Village Board Meeting",
@@ -5465,412 +5734,6 @@
         "second": "Alder Larson",
         "outcome": "Approved",
         "tally": "6-2"
-      }
-    ]
-  },
-  {
-    "id": "NW0TR6Eoutw",
-    "source": "wausau",
-    "title": "Board of Public Works Meeting",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Board of Public Works",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=NW0TR6Eoutw",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Board of Public Works held a brief meeting on August 18, 2026, approving several pay estimates and a change order related to ongoing infrastructure projects including lead service line replacement and the Washington Street Retaining Wall. The board also acknowledged receipt of three RFPs for a sanitary sewer capacity assessment and flow monitoring study, with staff directed to review and return a recommendation.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and approval of minutes from August 12, 2026 meeting"
-      },
-      {
-        "time": "0:30",
-        "item": "2A: Discussion of possible action to open RFP for professional engineering services for sanitary sewer capacity assessment and flow monitoring"
-      },
-      {
-        "time": "1:20",
-        "item": "2B: Pay estimate number 32 with Community Infrastructure Partners for lead service line replacement — $1,349,998.30"
-      },
-      {
-        "time": "2:10",
-        "item": "2C: Pay estimate with Community Infrastructure Partners for Outreach Grants Program (July work) — $24,411.14"
-      },
-      {
-        "time": "2:45",
-        "item": "2D: Washington Street Retaining Wall — Yankee General Contractors change order number one — $2,917.89"
-      },
-      {
-        "time": "4:00",
-        "item": "2E: Washington Street Retaining Wall — Yankee General Contractors pay estimate number three — $72,187.25"
-      },
-      {
-        "time": "4:40",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes — August 12, 2026",
-        "body": "A board member moved to approve the minutes of the preceding meeting and a second was offered. The motion passed unanimously on a voice vote with no discussion."
-      },
-      {
-        "item": "2A: RFP for Sanitary Sewer Capacity Assessment and Flow Monitoring",
-        "body": "The presiding officer reported that three RFPs were received from HDR, Strand Associates, and Clark Dietz. No formal action was taken; the board acknowledged receipt and directed staff to review the proposals and return a recommendation at a future meeting."
-      },
-      {
-        "item": "2B: Pay Estimate Number 32 — Community Infrastructure Partners, Lead Service Line Replacement — $1,349,998.30",
-        "body": "The presiding officer noted that Director Lindman had confirmed the work was already performed and recommended approval. A motion was made and seconded; the board approved the payment unanimously on a voice vote."
-      },
-      {
-        "item": "2C: Pay Estimate — Community Infrastructure Partners, Outreach Grants Program (July) — $24,411.14",
-        "body": "A board member moved to approve the pay estimate for outreach grants program work completed in July; the motion was seconded and passed unanimously with no notable discussion."
-      },
-      {
-        "item": "2D: Washington Street Retaining Wall — Yankee General Contractors Change Order Number One — $2,917.89",
-        "body": "Staff member T.J. Niksich explained the change order covers the cost of raising utility structures to final grade that were intentionally left low during the adjacent lift station project to allow vehicle traffic, and for which no bid item existed in the Washington Street contract. The board approved the change order unanimously on a voice vote."
-      },
-      {
-        "item": "2E: Washington Street Retaining Wall — Yankee General Contractors Pay Estimate Number Three — $72,187.25",
-        "body": "The presiding officer noted the pay estimate had been reviewed by T.J. Niksich. A motion to approve was made and seconded; the board approved unanimously on a voice vote with no additional discussion."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Staff to review the three RFPs received (HDR, Strand Associates, Clark Dietz) for sanitary sewer capacity assessment and flow monitoring and return a recommendation to the board",
-      "Approved pay estimate number 32 with Community Infrastructure Partners for lead service line replacement in the amount of $1,349,998.30",
-      "Approved pay estimate with Community Infrastructure Partners for Outreach Grants Program (July work) in the amount of $24,411.14",
-      "Approved change order number one with Yankee General Contractors for Washington Street Retaining Wall in the amount of $2,917.89",
-      "Approved pay estimate number three with Yankee General Contractors for Washington Street Retaining Wall in the amount of $72,187.25"
-    ],
-    "topics": [
-      "Utilities",
-      "Lead Service Line Replacement",
-      "Washington Street Retaining Wall",
-      "Sanitary Sewer Assessment",
-      "Infrastructure Contracts"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from August 12, 2026 meeting",
-        "motion": "Move to approve the minutes",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Pay estimate number 32 — Community Infrastructure Partners, lead service line replacement — $1,349,998.30",
-        "motion": "Motion to approve the pay estimate",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Pay estimate — Community Infrastructure Partners, Outreach Grants Program (July) — $24,411.14",
-        "motion": "Make a motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Change order number one — Yankee General Contractors, Washington Street Retaining Wall — $2,917.89",
-        "motion": "Move to approve change order one in that amount",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Pay estimate number three — Yankee General Contractors, Washington Street Retaining Wall — $72,187.25",
-        "motion": "Motion to approve this pay estimate",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "LpbdTi24RtE",
-    "source": "wausau",
-    "title": "Plan Commission Meeting",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=LpbdTi24RtE",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Plan Commission met on August 18th, 2026, approving several land use items including a rezoning on South 2nd Avenue, a transportation project plat for Highway 52, a conditional use permit for an assisted living facility on Mackendrick Street, and a blade sign approval. The commission also held a preliminary discussion on the previously adopted data center zoning ordinance, following a request from Common Council to keep the matter under periodic review.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Quorum Confirmation"
-      },
-      {
-        "time": "0:55",
-        "item": "Item 1: Public Comment on Non-Hearing Agenda Items"
-      },
-      {
-        "time": "1:20",
-        "item": "Item 2: Consideration of Minutes from July 21st, 2026 Regular Meeting"
-      },
-      {
-        "time": "1:50",
-        "item": "Item 3A: Public Hearing – Conditional Use Permit for 1509 East Wausau Avenue (Patrick Meyer, TF10 Zoning District)"
-      },
-      {
-        "time": "12:10",
-        "item": "Item 3B: Public Hearing – Rezoning of 117 and 121 South 2nd Avenue (Christine Pierce / Zivel Fabric LLC)"
-      },
-      {
-        "time": "17:30",
-        "item": "Item 4A/B: Discussion and Action – Rezoning 117 and 121 South 2nd Avenue"
-      },
-      {
-        "time": "19:00",
-        "item": "Item 4B: Discussion and Action – State Highway 52 Transportation Project Plat (TPP Project ID 6999-00-01)"
-      },
-      {
-        "time": "21:30",
-        "item": "Item 4C: Discussion and Action – Conditional Use Permit for 151 Mackendrick Street (Beacon Resources LLC, Assisted Living Facility)"
-      },
-      {
-        "time": "23:00",
-        "item": "Item 4D: Discussion and Action – Blade Sign at 525 North 3rd Street (Finishing Touch Signs LLC)"
-      },
-      {
-        "time": "25:00",
-        "item": "Item 5: Preliminary Code Amendment Discussion – Data Centers"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment on Agenda Items",
-        "body": "The chair asked if anyone wished to offer public comment on non-hearing agenda items. No public comment was offered on non-hearing items, as those present indicated they were there for the public hearing."
-      },
-      {
-        "item": "Minutes from July 21st, 2026",
-        "body": "A motion was made by Paulkin and seconded by Barneman to accept the minutes. The commission approved them unanimously on a voice vote with no discussion."
-      },
-      {
-        "item": "3A: Conditional Use Permit – 1509 East Wausau Avenue (Patrick Meyer)",
-        "body": "Patrick Meyer, a Vietnam veteran, appeared to seek a conditional use permit allowing more than one detached accessory building on his 0.7-acre TF10-zoned lot. Staff explained that a 12x24 structure qualifies as a garage under municipal ordinance and requires permitting; Meyer stated he was unaware a permit was needed for a skid-mounted shed. Supporters Jeff Traska and neighbor Carla Wescott testified in favor, praising Meyer's well-kept property and noting no neighboring objections. One commission member noted Meyer was the resident who posted a sign comparing local roads unfavorably to Vietnam, prompting a light moment about the Highway 52 project on the agenda. The hearing was closed and the item was continued to the next meeting for a decision."
-      },
-      {
-        "item": "3B / 4A: Rezoning – 117 and 121 South 2nd Avenue (Christine Pierce / Zivel Fabric LLC)",
-        "body": "Christine Pierce appeared seeking a rezoning from urban mixed-use to neighborhood mixed-use zoning to enable a future lot split of two already-distinct buildings at 117 and 121 South 2nd Avenue. Staff noted the current zoning requires a 10,000 sq ft minimum lot, which the combined parcel falls just short of for a two-parcel split, and that the neighborhood mixed-use designation already applies across the street. No one opposed the rezoning at the public hearing. The commission then voted to approve the rezoning on a voice vote with no dissent."
-      },
-      {
-        "item": "State Highway 52 Transportation Project Plat (TPP, Project ID 6999-00-01)",
-        "body": "Staff member Eric Limon briefed the commission on the transportation project plat for the Highway 52 East Wausau Avenue corridor from North 6th Street to North 18th Avenue, explaining it identifies properties subject to potential temporary limited easements or permanent purchase. Approval by the commission would advance the plat to City Council, after which a real estate agent would contact affected property owners. No substantive debate occurred and the commission approved the plat unanimously on a voice vote."
-      },
-      {
-        "item": "Conditional Use Permit – 151 Mackendrick Street (Beacon Resources LLC, Assisted Living Facility)",
-        "body": "The commission considered a conditional use permit to allow construction of an assisted living facility in the downtown periphery mixed-use zoning district. Representatives from Beacon Resources LLC were present. No questions were raised by commissioners and the permit was approved unanimously on a voice vote."
-      },
-      {
-        "item": "Blade Sign – 525 North 3rd Street (Finishing Touch Signs LLC)",
-        "body": "The commission reviewed a proposed blade sign for 525 North 3rd Street in the downtown historic mixed-use zoning district. Commissioner Brugman raised a procedural suggestion that staff be empowered to approve blade signs administratively in the future to reduce commission workload, drawing laughter and informal support. Staff confirmed the sign met size and setback requirements but noted height clearance still needed field verification by the installing company. The sign was approved unanimously."
-      },
-      {
-        "item": "Preliminary Code Amendment Discussion – Data Centers",
-        "body": "Staff reported that the Common Council adopted the data center zoning ordinance at its July 14th meeting with one modification: a 200-foot distance buffer from residential properties. Staff stated they are satisfied with the ordinance as adopted and have fielded calls from other municipalities seeking guidance on the language. Commissioner Balkan expressed procedural concern about the Council modifying and then returning the ordinance to the Plan Commission. The City Attorney clarified that Council did not formally refer the matter back; rather, it was placed on the commission agenda in response to Alder Trueblood's informal request to keep the topic under review. Alderwoman Watson and others agreed periodic check-ins — perhaps annual or biannual — rather than monthly discussion would be appropriate, and no amendments were proposed."
-      }
-    ],
-    "publicComment": "Three speakers offered comment during the public hearing for 1509 East Wausau Avenue. Patrick Meyer (1509 East Wausau Avenue) explained he was unaware a conditional use permit was required for his outbuildings. Jeff Traska (157129 Landart Road) spoke in support of Meyer, describing the emotional toll the permit process had on the Vietnam veteran and noting the neighborhood has other unpermitted structures. Carla Wescott (1312 Sherwood Circle), representing owners of adjacent property at 1505 East Park Avenue, testified that she had no objection to Meyer's buildings and called them well-kept, while urging city inspectors to look into other code concerns farther east on Park Avenue, including a tree service company parking a truck on the street. No public comment was offered on any other agenda item.",
-    "actionItems": [
-      "Conditional use permit application for 1509 East Wausau Avenue (Patrick Meyer) continued to next meeting for decision by commission",
-      "Rezoning of 117 and 121 South 2nd Avenue approved; no further action noted",
-      "Highway 52 Transportation Project Plat forwarded to City Council for approval, after which real estate agent will contact affected property owners",
-      "Conditional use permit for 151 Mackendrick Street assisted living facility approved",
-      "Blade sign at 525 North 3rd Street approved; installer must verify height clearance in the field",
-      "Staff to add blade sign administrative approval authority to list of potential code amendments for future consideration",
-      "Data center ordinance discussion to return on an as-needed or annual/biannual basis rather than monthly",
-      "Next Plan Commission meeting set for September 15th"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Highway 52 Project",
-      "Data Centers",
-      "Assisted Living Facility"
-    ],
-    "votes": [
-      {
-        "item": "Minutes from July 21st, 2026 regular meeting",
-        "motion": null,
-        "mover": "Paulkin",
-        "second": "Barneman",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Rezoning 117 and 121 South 2nd Avenue from urban mixed-use to neighborhood mixed-use zoning district",
-        "motion": null,
-        "mover": "Brugman",
-        "second": "Borneman",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "State Highway 52 Transportation Project Plat (TPP Project ID 6999-00-01)",
-        "motion": "Motion to approve",
-        "mover": "Brugman",
-        "second": "Balken",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Conditional use permit for 151 Mackendrick Street – assisted living facility (Beacon Resources LLC)",
-        "motion": "Motion to approve",
-        "mover": "Brugman",
-        "second": "Borneman",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Blade sign at 525 North 3rd Street (Finishing Touch Signs LLC)",
-        "motion": null,
-        "mover": "Balkan",
-        "second": "Watson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Motion to adjourn",
-        "motion": null,
-        "mover": "Brugman",
-        "second": "Watson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "kw_c8a9c022aeb74b99af4d0767a1ce6fa0",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee Meeting",
-    "date": "August 18, 2026",
-    "shortDate": "AUG 18",
-    "committee": "Administrative Policy",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Kronenwetter's Administrative Policy Committee met on August 18, 2026, with Finance Director John leading the majority of discussions focused on the upcoming property reassessment, 2026 equalized valuation data, existing debt obligations, and the newly drafted 2027-2036 Capital Improvement Program. The meeting was significant for residents as officials revealed the village is approximately 40% below required full market value assessment, that TID 1 faces serious financial pressure if the anticipated distribution center development does not proceed this fall, and that opportunities exist in 2029-2030 for strategic debt-financed infrastructure investment.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "0:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "1:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "1:30",
-        "item": "Approval of Minutes - June 15th Meeting"
-      },
-      {
-        "time": "2:20",
-        "item": "Finance Director Report: Property Reassessment Update"
-      },
-      {
-        "time": "15:00",
-        "item": "Finance Director Report: 2026 Preliminary Equalized Valuation and TID Increments"
-      },
-      {
-        "time": "40:00",
-        "item": "Finance Director Report: July 2026 Budget Status Report"
-      },
-      {
-        "time": "55:00",
-        "item": "Review of Existing Debt Obligations Outstanding"
-      },
-      {
-        "time": "1:15:00",
-        "item": "New Business: 2027-2036 Capital Improvement Program Budget"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Consideration of Items for Future Agenda and Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes - June 15th Meeting",
-        "body": "Trustee Mary Solheim moved to approve the June 15th meeting minutes as presented, seconded by Misty Swanson. The motion passed 4-0 with no discussion."
-      },
-      {
-        "item": "Property Reassessment Update",
-        "body": "Finance Director John reported that the exterior reassessment will begin the week of August 24th, with five assessors working in the field. He explained the village is approximately 40% below required full market value and faces a state takeover of the reassessment — at two to three times the cost — if not completed by end of 2027. The reassessment is being funded through budget surpluses from prior years when positions were unfilled, avoiding any new budget line item. Trustee Guy Fridale raised concerns about negative social media commentary and suggested early, repeated public messaging that the village only controls its portion of the tax levy. John noted that no valuation changes will appear on the December 2026 tax bill and that some property owners seeing a below-average valuation increase could actually see a tax reduction. The committee also discussed reviewing potentially tax-exempt parcels that may no longer qualify."
-      },
-      {
-        "item": "2026 Preliminary Equalized Valuation and TID Increments",
-        "body": "John reported that the village's equalized valuation rose by approximately $101 million in 2026, nearly a 10% increase, now exceeding $1.2 billion, but that assessed valuation remains around $700 million — only about 63% of full market value. Net new construction came in at just 0.65% for the third consecutive year, limiting the village's allowable tax levy increase without an exception to approximately $12,000. TID 1 was identified as the village's most significant financial concern: a 12% drop in valuation from $21 million to $19 million resulted from assessor adjustments on two parcels near Kowalski and Highway 39, compounded by a state-issued prior year correction of $1.4 million. John emphasized that if the anticipated distribution center in TID 1 does not break ground this fall, the village could face a shortfall of $1.5 million or more by 2044, potentially depleting the general fund reserve built over recent years. Fridale observed that TIDs 2 and 4 are performing well and noted TID 3 closed in February."
-      },
-      {
-        "item": "July 2026 Budget Status Report",
-        "body": "John reported that after seven months (58% of the year), the general fund had collected approximately 62% of budgeted revenues and spent about 49% of budgeted expenditures, indicating a healthy position. He cautioned that public works billing typically lags field work and that costs will increase. Three ongoing budget concerns — village attorney fees, municipal building costs, and garbage — remain unresolved. John acknowledged the 2025 audit has not yet been completed due to competing priorities including the reassessment launch and 2027 budget preparation, but expressed confidence that the audit could be finalized in time for the October budget workshops. Committee members praised John's work stabilizing village finances and noted the village operates with limited finance staff."
-      },
-      {
-        "item": "Review of Existing Debt Obligations Outstanding",
-        "body": "John reviewed all outstanding debt, totaling approximately $14.5 million, of which $10 million is general obligation debt — representing only 17% of the village's $59 million maximum borrowing capacity. He identified the 2016 TID 1 redevelopment lease revenue bonds as a wait-and-see situation given low interest rates of 2.45-3.2% and the pending distribution center development. The 2024 general obligation bonds at 4-5% interest were flagged as a future refinancing candidate once callable in April 2029. He highlighted that debt service tax levy obligations drop significantly in 2029 (by ~$226,000) and 2030 (by ~$165,000), creating an opportunity window for infrastructure investment. Fridale and others emphasized the importance of TID 2 and TID 4 closure timelines — estimated around 2032 and 2033 respectively — as additional fiscal opportunities."
-      },
-      {
-        "item": "2027-2036 Capital Improvement Program Budget",
-        "body": "John and Public Works Director Greg presented the village's first-ever 10-year Capital Improvement Program, drafted using dedicated CIP software rather than Excel to improve accuracy and fluidity. The draft CIP covers projects across fire, municipal center, parks, police, public works, sewer, and water utilities, with a preliminary 2027 total of approximately $4.3 million. Funding sources include approximately $1.2 million in unused TID 2 bond proceeds that must be redirected if not spent on a TID project by October 2027, potential borrowing, utility depreciation funds, and donations. John noted the parks committee provided additional input the prior evening and that figures will be updated before the September presentation. The committee discussed potential borrowing scenarios — ranging from $1 million to $10 million — and agreed that a formal affordability analysis presenting multiple options would be prepared for the September APC meeting and budget workshops. No final decisions were made."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Finance Director to finalize reassessment-related public information on the village website by August 24th, 2026",
-      "Finance Director to provide police department with assessor vehicle license plates for field verification",
-      "Finance Director to compile a list of potentially non-qualifying tax-exempt parcels for review by the assessor firm, targeting October-November delivery",
-      "Finance Director to complete the 2025 audit, with a goal of having final numbers available for the October budget workshops",
-      "Finance Director to update the CIP document with parks committee input and updated project figures for September APC meeting",
-      "Finance Director to prepare a CIP affordability analysis with multiple borrowing scenarios (e.g., $1M, $3M, $5M+) for September presentation",
-      "Finance Director to clarify status of TID 1 distribution center development with administrator and report back before budget workshops",
-      "Finance Director to bring back updated TID 2 and TID 4 fund balance and closure timeline information to next meeting",
-      "Committee to consider placing Crescent Road area development and potential infrastructure investment on a future APC agenda"
-    ],
-    "topics": [
-      "Budget",
-      "Utilities",
-      "Development",
-      "TID 1 Distribution Center",
-      "Property Reassessment",
-      "Capital Improvement Program",
-      "Debt Management"
-    ],
-    "votes": [
-      {
-        "item": "Approval of June 15th meeting minutes",
-        "motion": "Motion to approve the minutes as presented",
-        "mover": "Mary Solheim",
-        "second": "Misty Swanson",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Move to adjourn the meeting",
-        "mover": "Guy Fridale",
-        "second": "Misty Swanson",
-        "outcome": "Approved",
-        "tally": "4-0"
       }
     ]
   }

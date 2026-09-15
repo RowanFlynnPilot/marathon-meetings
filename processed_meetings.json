@@ -2005,6 +2005,39 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-66",
       "processed_at": "2026-09-14T03:10:42.092567+00:00",
       "summary_file": "summaries/kronenwetter-village-board-meeting-2026-09-14-kw-1f4e656e6e184d7982cd10cd0e6f91ca.md"
+    },
+    "kw_2998b824c4a8402485d7752be7e3630a": {
+      "title": "Administrative Policy Committee Meeting - 2026-09-15",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf",
+      "upload_date": "20260915",
+      "meeting_date": "20260915",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32",
+      "processed_at": "2026-09-15T03:12:34.318699+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-meeting-2026-09-15-kw-2998b824c4a8402485d7752be7e3630a.md"
+    },
+    "VCg2SK5tzng": {
+      "title": "Wausau City Council Joint Human Resources Committee and Finance Committee Meeting Pt.1",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260914",
+      "meeting_date": "20260914",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-15T03:13:14.211374+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-joint-human-resources-committee-and-finance-committee-vcg2sk5tzng.md"
+    },
+    "qgjeCvm4vts": {
+      "title": "Wausau City Council Joint Human Resources Committee and Finance Committee Meeting Pt.2",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260914",
+      "meeting_date": "20260914",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-15T03:13:28.241911+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-joint-human-resources-committee-and-finance-committee-qgjecvm4vts.md"
     }
   }
 }
