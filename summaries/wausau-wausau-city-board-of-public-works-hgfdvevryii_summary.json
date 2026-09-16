@@ -1,0 +1,121 @@
+{
+  "overview": "The Wausau Board of Public Works held a brief meeting on September 15th, 2026, approving minutes, several contractor pay estimates, and a change order related to the city's PFAS water treatment upgrade. The board also received four engineering proposals for intersection signal design at key Bridge Street locations, which will be reviewed and brought back at a future meeting.",
+  "committee": "Wausau City Board of Public Works",
+  "presiding": "Unknown — presiding officer not identified by name in the transcript",
+  "agenda": [
+    {
+      "time": "0:01",
+      "item": "Call to order"
+    },
+    {
+      "time": "0:09",
+      "item": "Consideration of minutes from September 8th, 2026 meeting"
+    },
+    {
+      "time": "0:20",
+      "item": "Item 2A: Discussion/possible action — RFP for engineering design services for intersection signal design at WI-52/Bridge St & 5th St, WI-52/Bridge St & 6th St, and Business 51/Bridge St & 1st Ave"
+    },
+    {
+      "time": "1:05",
+      "item": "Item 2B: Drinking water facility PFAS treatment — Allas Stone Construction Company, Change Order No. 8"
+    },
+    {
+      "time": "1:50",
+      "item": "Item 2C: Drinking water treatment facility PFAS treatment — Allas Stone Construction Company, Pay Estimates No. 18 and No. 19"
+    },
+    {
+      "time": "2:40",
+      "item": "Item 2D: 2026 asphalt patching project — Zilch Asphalt LLC, Pay Estimate No. 5"
+    },
+    {
+      "time": "3:20",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Minutes from September 8th, 2026",
+      "body": "A board member moved to approve the minutes and another seconded. The motion passed unanimously on a voice vote with no discussion."
+    },
+    {
+      "item": "RFP for Intersection Signal Design Engineering Services",
+      "body": "Staff reported that four proposals were received for engineering design services covering signal design at three Bridge Street intersections: from Tadi, Ayres and Associates, Kapoor, and Mead and Hunt. No action was taken; staff indicated the proposals would be reviewed by the engineering department and brought back at a future meeting."
+    },
+    {
+      "item": "PFAS Treatment — Allas Stone Construction, Change Order No. 8",
+      "body": "Staff presented Change Order No. 8 totaling $109,500, described as covering a change in flooring for the PFAS upgrade. Staff noted the change order was reviewed and recommended by consultant Donahue and the water treatment plant superintendent. The presiding officer made the recommendation to approve, a member seconded, and it passed unanimously on a voice vote."
+    },
+    {
+      "item": "PFAS Treatment — Allas Stone Construction, Pay Estimates No. 18 and No. 19",
+      "body": "Staff moved to approve Pay Estimate No. 18 for $148,394.11 and Pay Estimate No. 19 for $377,272.28 together, both reviewed and recommended by consultant Donahue and the water treatment plant superintendent. A member seconded and both pay estimates were approved unanimously on a voice vote."
+    },
+    {
+      "item": "2026 Asphalt Patching Project — Zilch Asphalt LLC, Pay Estimate No. 5",
+      "body": "Staff presented Pay Estimate No. 5 for $1,192.21 covering work completed through September 4th, reviewed and recommended by project inspector Matt Guptail. A motion was made and seconded — with a brief mix-up in order of motion and second — and the pay estimate was approved unanimously on a voice vote."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Engineering department to review four engineering proposals (Tadi, Ayres and Associates, Kapoor, Mead and Hunt) for intersection signal design and bring recommendation back at a future meeting",
+    "Approved Change Order No. 8 for Allas Stone Construction for PFAS treatment flooring change in the amount of $109,500",
+    "Approved Pay Estimate No. 18 for Allas Stone Construction in the amount of $148,394.11",
+    "Approved Pay Estimate No. 19 for Allas Stone Construction in the amount of $377,272.28",
+    "Approved Pay Estimate No. 5 for Zilch Asphalt LLC for 2026 asphalt patching project in the amount of $1,192.21"
+  ],
+  "topics": [
+    "Utilities",
+    "PFAS Treatment",
+    "Roads",
+    "Intersection Signal Design",
+    "Asphalt Patching"
+  ],
+  "votes": [
+    {
+      "item": "Approval of minutes from September 8th, 2026",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "PFAS Treatment — Allas Stone Construction Change Order No. 8 ($109,500)",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "PFAS Treatment — Allas Stone Construction Pay Estimate No. 18 ($148,394.11) and Pay Estimate No. 19 ($377,272.28)",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "2026 Asphalt Patching — Zilch Asphalt LLC Pay Estimate No. 5 ($1,192.21)",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Adjournment",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "42ec0b92a521dc4f",
+  "title": "Wausau City Board of Public Works",
+  "url": "https://www.youtube.com/watch?v=HgFDvEvrYiI",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-09-16T03:09:48.906860+00:00"
+}

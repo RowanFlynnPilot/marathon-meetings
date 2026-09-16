@@ -2040,7 +2040,7 @@
       "summary_file": "summaries/wausau-wausau-city-council-joint-human-resources-committee-and-finance-committee-qgjecvm4vts.md"
     },
     "flPcB5hel4A": {
-      "title": "Public Works Committee - 9/14/2026",
+      "title": "Public Works Committee",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260914",
@@ -2048,10 +2048,10 @@
       "duration": 6057,
       "video_url": null,
       "processed_at": "2026-09-15T16:10:46.846546+00:00",
-      "summary_file": "summaries/weston-public-works-committee-9142026-flpcb5hel4a.md"
+      "summary_file": "summaries/weston-public-works-committee-flpcb5hel4a.md"
     },
     "al28JiolCqg": {
-      "title": "Plan Commission - 9/14/2026",
+      "title": "Plan Commission",
       "source": "weston",
       "doc_url": null,
       "upload_date": "20260914",
@@ -2059,7 +2059,29 @@
       "duration": 5905,
       "video_url": null,
       "processed_at": "2026-09-15T22:42:44.733212+00:00",
-      "summary_file": "summaries/weston-plan-commission-9142026-al28jiolcqg.md"
+      "summary_file": "summaries/weston-plan-commission-al28jiolcqg.md"
+    },
+    "bb_762740": {
+      "title": "Regular School Board Meeting - 2026-09-16",
+      "source": "dc_everest",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=762740",
+      "upload_date": "20260916",
+      "meeting_date": "20260916",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-16T03:09:21.280653+00:00",
+      "summary_file": "summaries/dc-everest-regular-school-board-meeting-2026-09-16-bb-762740.md"
+    },
+    "HgFDvEvrYiI": {
+      "title": "Wausau City Board of Public Works",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260915",
+      "meeting_date": "20260915",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-16T03:09:48.907685+00:00",
+      "summary_file": "summaries/wausau-wausau-city-board-of-public-works-hgfdvevryii.md"
     }
   }
 }
