@@ -1,5 +1,73 @@
 [
   {
+    "id": "kw_c9c92d2afc2a49afb51ba2b04743793b",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-68",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c9c92d2afc2a49afb51ba2b04743793b.pdf",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 17, 2026, to conduct general village business including a closed session for consideration of Village Clerk candidate interviews. The meeting was set to address personnel matters and consider items for inclusion on future agendas.",
+    "agenda": [
+      {
+        "time": "4:30 PM",
+        "item": "Call meeting to order with Pledge of Allegiance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Announcement of closed session"
+      },
+      {
+        "time": "N/A",
+        "item": "Public comment period (up to 15 minutes total, 3 minutes per person)"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed session to interview Village Clerk candidates"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene open session"
+      },
+      {
+        "time": "N/A",
+        "item": "Action after closed session"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of items for future agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Village Clerk Candidate Interviews",
+        "body": "The Board was scheduled to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and interview candidates for the Village Clerk position. The closed session was set to address employment and performance evaluation matters within the Board's jurisdiction."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, scheduled for up to 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to consider motion to convene into closed session for Village Clerk candidate interviews",
+      "Scheduled to consider motion to reconvene into open session",
+      "Expected to take action items following closed session",
+      "Scheduled to consider items for inclusion on future agendas"
+    ],
+    "topics": [
+      "Staffing",
+      "Village Clerk Position",
+      "Personnel",
+      "Government Operations"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_762740",
     "source": "dc_everest",
     "title": "Regular School Board Meeting",
@@ -253,6 +321,108 @@
       "Professional Development",
       "Rothschild Elementary",
       "Community Engagement"
+    ],
+    "votes": []
+  },
+  {
+    "id": "3EsPr2YO3v4",
+    "source": "wausau",
+    "title": "Town Hall Meeting: Overview of Professional City Management Models",
+    "date": "September 15, 2026",
+    "shortDate": "SEP 15",
+    "committee": "City of Wausau Town Hall",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=3EsPr2YO3v4",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The City of Wausau held a public town hall meeting to educate residents and council members about professional city management models, specifically the city administrator and city manager forms of government. Dr. Michael Ford of UW-Oshkosh and Jay Shambo, a current interim city administrator, presented information on governance structures, fiscal data, and practical experience. No votes were taken; the meeting was informational only, though Mayor Doug Diny indicated the city is actively exploring hiring a city administrator and looking at including funding in the budget, potentially phasing in as early as mid-2027.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Welcome and introduction by Mayor Doug Diny"
+      },
+      {
+        "time": "1:30",
+        "item": "Introduction of Dr. Michael Ford and Jay Shambo"
+      },
+      {
+        "time": "3:00",
+        "item": "Dr. Ford presentation: Logic of professional local management"
+      },
+      {
+        "time": "8:30",
+        "item": "Dr. Ford: City manager vs. city administrator models explained"
+      },
+      {
+        "time": "11:00",
+        "item": "Dr. Ford: Wisconsin data on administrator and manager forms"
+      },
+      {
+        "time": "15:00",
+        "item": "Dr. Ford: Council and administrator roles and responsibilities"
+      },
+      {
+        "time": "21:00",
+        "item": "Dr. Ford: Fiscal data, survey results, HR and recruitment considerations"
+      },
+      {
+        "time": "32:00",
+        "item": "Dr. Ford: Process for changing government form under Wisconsin law"
+      },
+      {
+        "time": "35:08",
+        "item": "Jay Shambo presentation: Practitioner perspective on city administration"
+      },
+      {
+        "time": "46:00",
+        "item": "Public question and comment session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Logic of Professional Local Management",
+        "body": "Dr. Ford explained that professional management refers to hiring an administrator or manager by the elected council to oversee day-to-day operations, insulating government from political volatility. He emphasized that the best form of government is the one that works for the community and is understood and accepted by residents. He stressed that role clarity is essential and that role confusion is a primary way this model fails."
+      },
+      {
+        "item": "City Manager vs. City Administrator Models",
+        "body": "Dr. Ford distinguished between the Chapter 64 city manager model, used by 12 Wisconsin cities, and the more common ordinance-based city administrator model used by 117 cities. Key differences include that under the city manager model police and fire report to the manager, while under the administrator model the mayor retains that authority. Mayor Diny noted Wausau has a robust police and fire commission and a long tradition of separation, suggesting the administrator model is more appropriate."
+      },
+      {
+        "item": "Wisconsin Data and Fiscal Comparisons",
+        "body": "Dr. Ford reported that 129 of 190 Wisconsin cities have an administrator or manager, making it the dominant form. Of Wausau's peer second-class cities, 10 of 15 have an administrator or manager. Fiscal data from the Wisconsin Department of Revenue showed professionally managed cities have lower general government operational spending per capita but slightly higher overall tax burden per capita. Jay Shambo argued a single $2 million grant could offset 10 years of administrator salary costs."
+      },
+      {
+        "item": "Roles, Accountability, and Democratic Concerns",
+        "body": "Dr. Ford addressed whether the model is anti-democratic, acknowledging that residents cannot directly vote out an administrator but retain accountability through the council. Survey data was presented showing council members under administrator forms report better group dynamics, stronger strategic planning, and clearer performance measures. Jay Shambo and a former fire chief who worked in Wausau both spoke strongly in favor of the model, with the former fire chief stating the strong mayor form is 'really inefficient' from his experience working in Wausau starting in 2000."
+      },
+      {
+        "item": "Process for Changing Government Form",
+        "body": "Dr. Ford outlined the statutory options: a two-thirds council vote to modify the charter ordinance, with a 60-day public petition window to force a referendum; a direct council vote to go to referendum; a community petition drive; or a simple ordinance change not requiring two-thirds. He cautioned against the simple ordinance route for reasons of public legitimacy and hiring attractiveness. He noted a non-binding referendum is no longer permitted under current state law."
+      },
+      {
+        "item": "Mayor's Intent and Budget Timeline",
+        "body": "Mayor Diny stated he has attempted to advance this idea previously, including trying to insert it into the budget, but it did not gain council traction. He indicated the city is looking at including administrator funding in an upcoming budget, possibly phasing in starting July of a future year to put half the cost in the 2027 budget. He acknowledged only one of 11 council members, Bruce Trueblood, was present at the town hall."
+      },
+      {
+        "item": "Public Comment on Council Dysfunction and Control",
+        "body": "Multiple residents expressed support for the administrator model. A former council member who served 1998-2006 described budget meetings as inefficient and said an administrator would have greatly helped. Alderperson Bruce Trueblood asked attendees not to assign negative motives to absent council members, noting several were working or dealing with family emergencies. One resident raised concerns about retaining democratic control and keeping taxes manageable. A resident asked about the audit process and noted a 2021 motorpool audit whose recommendations were not fully followed."
+      }
+    ],
+    "publicComment": "Numerous residents spoke from the podium. A man asked about severance costs for administrators (answered: typically 4-9 months salary, average 6 months, with no payment for cause). A resident identified as 'Ken' asked about the difference between city manager and administrator models. A woman expressed concern about retaining democratic control and the importance of elections. A former fire chief and Wausau employee from 2000 spoke at length endorsing the administrator model based on personal experience. Alderperson Bruce Trueblood defended absent council members. A long-time resident raised concerns about a 'headstrong council.' A former council member named Christine praised the administrator model's efficiency benefits. A man named David asked about why Stevens Point declined to adopt the model and whether any city has reversed course. A resident asked how the decision would be made - council or voters. A reporter identified as BC Kowalski from the Wasonian asked the mayor why this is coming up now. Eric Fonce from the Wausau Daily Herald asked about staggering alderperson terms. Additional residents asked about debt management, protected employee classes, and administrator contract structures.",
+    "actionItems": [
+      "Mayor Diny indicated the city will look at including city administrator funding in an upcoming budget, potentially phasing in starting July with half-year cost in the 2027 budget",
+      "Residents encouraged to contact their city council members to share opinions on the administrator model",
+      "Council members encouraged to review the recorded town hall presentation on YouTube",
+      "Handouts distributed including model ordinances from Dodgeville and West Allis policy manual available for public review",
+      "Alderperson Bruce Trueblood's pending audit resolution noted as a separate but related ongoing item regarding motorpool and departmental oversight"
+    ],
+    "topics": [
+      "City Administration",
+      "Government Structure",
+      "Budget",
+      "Staffing",
+      "Economic Development"
     ],
     "votes": []
   },
@@ -5617,176 +5787,6 @@
       "Public Safety",
       "Staffing",
       "Fire Department Recruitment"
-    ],
-    "votes": []
-  },
-  {
-    "id": "bb_762745",
-    "source": "school_board",
-    "title": "Special Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Special Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=762745",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=762745",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to consider personnel matters including appointments, separations, leaves of absence, and retirements through a consent agenda process. The meeting represented a streamlined session focused on staffing and human resources actions for the district.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Approve Consent Agenda (Action Requested)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.A. Appointments (Additional Staff, Replacement Staff, Contract Increases)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.B. Separations (Resignations, Contract Decreases, Terminations)"
-      },
-      {
-        "time": "N/A",
-        "item": "II.C. Leaves of Absence"
-      },
-      {
-        "time": "N/A",
-        "item": "II.D. Retirements"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approve Consent Agenda",
-        "body": "The board was expected to consider approval of a consent agenda encompassing multiple personnel categories. The consent agenda included attachments last modified on 8/20/2026 and an addendum modified on 8/24/2026, covering staffing appointments, separations, leaves of absence, and retirements as distinct action items."
-      }
-    ],
-    "publicComment": "No public comment period was included on this agenda.",
-    "actionItems": [
-      "Board was expected to vote on approval of the consent agenda",
-      "Action was requested for consideration of staff appointments, including additional staff, replacement staff, and contract increases",
-      "Action was requested for consideration of separations, including resignations, contract decreases, and terminations",
-      "Action was requested for consideration of leaves of absence",
-      "Action was requested for consideration of retirements"
-    ],
-    "topics": [
-      "Staffing",
-      "Personnel Actions",
-      "Human Resources"
-    ],
-    "votes": []
-  },
-  {
-    "id": "KZNY9-RZASI",
-    "source": "marathon",
-    "title": "Board Educational Meeting Pt.2",
-    "date": "August 20, 2026",
-    "shortDate": "AUG 20",
-    "committee": "County Board",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=KZNY9-RZASI",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board held a lengthy educational meeting reviewing upcoming voting items including zoning ordinance amendments for battery energy storage systems, a data center moratorium, and a large electric generating facility ordinance. The board also received an extensive briefing on plans for a new county highway facility estimated at $50-55 million, with staff presenting a financing strategy using existing debt and North Central Healthcare revenues to avoid new long-term borrowing. No binding votes were taken as this was an educational/review session ahead of the formal voting meeting.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Item 9A1 - Appointment: Aaron Griner as Chair of Infrastructure Committee"
-      },
-      {
-        "time": "2:10",
-        "item": "Item 9A2 - Appointment: Supervisor Deb Hapa to Community Development Block Grant Housing Regional Board"
-      },
-      {
-        "time": "3:05",
-        "item": "Item 9A3 - Reappointment: Darren Westover to Rib Mountain Metropolitan Sewage District Commission"
-      },
-      {
-        "time": "3:45",
-        "item": "Item 9B1 - Town of Brighton Rezone (Ordinance 0-26-26)"
-      },
-      {
-        "time": "4:10",
-        "item": "Items 9B2-9B4 - Zoning Ordinance Amendments: Battery Energy Storage Systems, Data Center Moratorium, and Large Electric Generating Facility Ordinance (Ordinances 27-26, 28-26, 29-26)"
-      },
-      {
-        "time": "32:00",
-        "item": "Item 9B5 - Parks Department Fees Ordinance 0-30-26 (staff requested delay for broader fee schedule review)"
-      },
-      {
-        "time": "34:20",
-        "item": "Item 9B6 - Ordinance amending deputy chief deputy sheriff appointment process (0-31-26)"
-      },
-      {
-        "time": "34:50",
-        "item": "Item 9B7 - County Road XX and Tabani intersection ordinance (0-32-26)"
-      },
-      {
-        "time": "35:30",
-        "item": "Resolutions 46-53: Environmental Resources, Health and Human Services, Infrastructure Committee items including Highway Facility Phase 3 Resolution 49-26"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Item 9C6C - Health Department Fee Schedule: Tattoo and Piercing Establishments (Resolution 53-26)"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Appointment of Aaron Griner as Infrastructure Committee Chair",
-        "body": "Supervisor Arstead questioned why the committee's vice chair was passed over for the chair position, noting that prior practice had been for the vice chair to assume the role when a chair vacates. Chair Gibbs explained that he and Vice Chair Dickinson reviewed supervisors by tenure and recommended Griner. Supervisor Robinson asked whether a new vice chair would be designated; Gibbs confirmed the existing vice chair remains in place."
-      },
-      {
-        "item": "Battery Energy Storage Systems Ordinance (0-27-26)",
-        "body": "Zoning Administrator Shad Harvey explained the ordinance updates an existing BEST chapter to add emergency response plan requirements, first responder training and PPE obligations, system owner liability for EMS costs, and clearer decommissioning standards. Supervisor Sundowski announced he planned to offer two amendments at the voting meeting: an 1,800-foot setback from dwellings and waterways, and a secondary concrete containment requirement. Harvey cautioned that an 1,800-foot setback would effectively prohibit BEST systems in Marathon County given its wetlands, and questioned whether rigid secondary containment could interfere with manufacturer safety requirements. Supervisor Gao raised concerns about distinguishing residential from commercial BEST systems and appropriate setbacks for larger systems above 5 megawatts. Supervisor Ritter argued the ordinance should be passed now and amended later as more information becomes available; Gao agreed. The board reached consensus to move forward."
-      },
-      {
-        "item": "Data Center Moratorium Ordinance (0-28-26)",
-        "body": "Harvey explained the proposed 12-month moratorium would allow the county to develop a zoning ordinance for data centers, as none currently exists. Supervisor Gao cautioned that public perception of the moratorium as an outright ban on data centers is inaccurate, stating the moratorium only provides time to draft regulations. Supervisor Leur clarified the moratorium applies only to county-zoned towns, not incorporated municipalities or unzoned townships."
-      },
-      {
-        "item": "Large Electric Generating Facility Ordinance (0-29-26)",
-        "body": "Harvey explained that because Wisconsin Statute 196.401 grants the PSC authority over facilities over 100 megawatts once a CPCN is issued, the county cannot regulate such facilities directly. The ordinance is designed to strengthen county notification within the PSC process so the board can decide whether to intervene. Supervisor Gao strongly supported the ordinance, noting the Town of Easton situation as an example where a solar farm proceeded without the county board having any advance information."
-      },
-      {
-        "item": "Parks Department Fee Ordinance (0-30-26)",
-        "body": "County Administrator Leonard requested that the ordinance be pulled from the voting agenda, explaining that a broader review of all county ordinances containing fee references is needed to eliminate conflicts between ordinances and the fee schedule. Leonard's goal is to remove specific dollar amounts from ordinances and replace them with references to the fee schedule, with a target of completing that review within a month. The board indicated a committee member would formally move to pull Ordinance 0-30-26 at the voting meeting."
-      },
-      {
-        "item": "Highway Facility Phase 3 Resolution (Resolution 49-26)",
-        "body": "Staff presented a two-part resolution: directing finalization of design and release of bid documents to determine actual cost of the new highway facility (previously estimated at $50-55 million), and directing staff to build the 2027 budget around a financing strategy that shifts North Central Healthcare debt service revenues to a project fund rather than issuing new long-term bonds. Financial advisor Kristen Hansen reported current municipal bond rates at approximately 4.16-4.17% for 20-year general obligation notes, compared to the county's existing debt issued at roughly 1.2-3.8%. Administrator Leonard explained the strategy avoids new 20-year borrowing by transitioning existing debt to debt levy over roughly two years and accumulating North Central Healthcare revenues over six to seven years. The highway fund balance totals approximately $79.4 million, of which $30 million is reserved for the highway shop, leaving only $91,000 truly unallocated. Supervisors questioned phased construction, staging of the West Street facility divestment, and contingency plans if North Central Healthcare revenues fall short. The City of Wausau has expressed interest in the West Street property."
-      },
-      {
-        "item": "Tattoo and Piercing Fee Schedule (Resolution 53-26)",
-        "body": "Administrator Leonard and Health Department representative Kate Floric explained that the county's interpretation of DSPS regulations requires licensing each individual practitioner area separately at temporary events, which organizers of the Cedar Creek Inkfest convention argued would be costly. Staff proposed a tiered fee structure allowing up to six practitioners to share one license. Supervisor Pool proposed amending the resolution to delay the effective date until after the mid-October Cedar Creek Inkfest event to avoid disrupting the organizers on short notice. Supervisor Mash expressed support for Pool's proposal, and Administrator Leonard agreed staff would meet with event organizers to clarify how many shops would be involved and how the existing versus proposed fee structure would apply to them."
-      }
-    ],
-    "publicComment": "Public comment was not taken as a formal agenda item at this educational meeting, though meeting references indicate tattoo convention organizers (Cedar Creek Inkfest) had previously provided public comment at committee meetings about the impact of the tattoo and piercing fee schedule on their event. No public speakers addressed the board during this session.",
-    "actionItems": [
-      "All three zoning ordinance amendments (BEST, data center moratorium, large electric generating facility) to proceed to voting meeting for approval",
-      "Supervisor Sundowski to formally offer setback and secondary containment amendments to the BEST ordinance at the voting meeting",
-      "Ordinance 0-30-26 (parks fees) to be pulled from voting agenda pending broader fee schedule review across all county ordinances",
-      "Staff to finalize highway facility design and release bid documents to determine actual construction cost",
-      "Staff to build 2027 budget incorporating strategy to shift North Central Healthcare debt service to debt levy and accumulate project funds",
-      "Staff to meet with Cedar Creek Inkfest organizers to clarify fee structure impact and potentially delay effective date of tattoo/piercing fee schedule change",
-      "Supervisor Pool to offer amendment delaying effective date of Resolution 53-26 tattoo/piercing fee schedule change until after the October event",
-      "Donation policy (Resolution 43-26) to be updated by HR Finance Committee to address Supervisor Jensen's concerns before voting meeting",
-      "River Drive and Thomas Street properties to continue RFP and commercial real estate listing process"
-    ],
-    "topics": [
-      "Zoning",
-      "Budget",
-      "Battery Energy Storage Systems",
-      "Highway Facility",
-      "Data Centers"
     ],
     "votes": []
   }
