@@ -1,75 +1,148 @@
 {
-  "overview": "Based on the published agenda, the Kronenwetter Parks Committee was scheduled to meet to address multiple park development and fundraising initiatives, including components for Buska Park improvements, an upcoming 5K fundraiser event, capital project costs, and consideration of a zipline installation at Friendship Park.",
-  "committee": "Parks Committee",
-  "presiding": "",
+  "overview": "The Village of Kronenwetter Parks Committee held its September 8, 2026 meeting, approving a fundraising brick program for Bushka Park and voting to add a zipline to the 2029 Friendship Park capital improvement plan. The committee also reviewed the full 10-year capital improvement plan and discussed logistics for the upcoming September 12 Bushka Park 5K Run/Walk fundraiser. The meeting concluded with the committee's apparent final session, with members noting the parks committee may reconvene in January 2027.",
+  "committee": "Parks Committee - Village of Kronenwetter",
+  "presiding": "Erin Mishka, Parks Committee Chair",
   "agenda": [
     {
-      "time": "N/A",
-      "item": "Approval of August 17, 2026 Parks Committee Meeting Minutes"
+      "time": "0:00",
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
-      "time": "N/A",
-      "item": "Buska Park Fundraising Components (Bricks, Signage, Etc.)"
+      "time": "0:30",
+      "item": "Roll Call"
     },
     {
-      "time": "N/A",
-      "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event"
+      "time": "1:00",
+      "item": "Public Comment"
     },
     {
-      "time": "N/A",
-      "item": "Capital Improvement Projects Costs"
+      "time": "1:20",
+      "item": "Approval of August 17, 2026 Park Meeting Minutes"
     },
     {
-      "time": "N/A",
+      "time": "2:30",
+      "item": "New Business: Bushka Park Fundraising Brick Components"
+    },
+    {
+      "time": "22:00",
+      "item": "Old Business: September 12 Bushka Park 5K Run/Walk Fundraiser Event"
+    },
+    {
+      "time": "31:00",
+      "item": "Capital Improvement Project Costs"
+    },
+    {
+      "time": "52:00",
       "item": "Quick Fix Item List"
     },
     {
-      "time": "N/A",
+      "time": "62:00",
       "item": "Friendship Park Zipline"
+    },
+    {
+      "time": "85:00",
+      "item": "Consideration of Items for Future Agenda and Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Buska Park Fundraising Components (Bricks, Signage, Etc.)",
-      "body": "The committee was scheduled to discuss new fundraising components for Buska Park, including the implementation of bricks, signage, and other related elements. This item was set for consideration as new business to advance the park development initiative."
+      "item": "Approval of August 17, 2026 Park Meeting Minutes",
+      "body": "A committee member noted a spelling error in the minutes — 'bike rakes' should read 'bike racks.' A motion to approve with that correction was made by Patty and seconded by Tim. The motion carried on a voice vote with no opposition."
     },
     {
-      "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
-      "body": "The committee was expected to review details and logistics for the scheduled Buska Park 5K Run/Walk Fundraiser Event set for September 12, 2026. This item was set to address ongoing coordination and planning for the community fundraising event."
+      "item": "Bushka Park Fundraising Brick Components",
+      "body": "Greg (Director of Public Works) presented a fundraising brick program through a company called Gift Bricks, noting that Wastatile agreed to donate all bricks needed and that the etching would be handled by Gift Bricks in southern Wisconsin. The committee agreed to offer three brick sizes — 4x8 at $50, 8x8 at $120, and 8x16 at $250 — representing roughly a 150% markup over cost, with black epoxy fill only for simplicity. The committee discussed advertising at the upcoming 5K, the farmers market, and via QR codes, and agreed to post ordering information on the village website. A motion was made by Patty and seconded by Elizabeth to direct the director of public works to move forward with the brick fundraiser at the agreed sizes and pricing; the motion carried unanimously."
     },
     {
-      "item": "Capital Improvement Projects Costs",
-      "body": "The committee was scheduled to review and consider costs associated with capital improvement projects. This agenda item was set to address financial planning and budget implications for planned park infrastructure upgrades."
+      "item": "September 12 Bushka Park 5K Run/Walk Fundraiser Event",
+      "body": "Mishka reported that all nine police-recommended intersection volunteer positions had been filled with high-visibility vests, and that water bottles and a digital timer clock had been purchased. The start and finish line will be near the shelter at Bushka Park at 10 a.m. Committee members discussed volunteer assignments at intersections, the absence of a rain backup plan ('all weather' event), and the need for a first aid station. A staff member raised the concern that a quorum of trustees attending could constitute a walking quorum, and members were advised to be mindful of that. A donation box with a QR code, created by Kim, will be stationed at the main table."
+    },
+    {
+      "item": "Capital Improvement Project Costs",
+      "body": "Greg presented a 10-year CIP list including: Bushka Park playground ($200,000), Norm Plaza Dog Park fencing ($50,000), Friendship Park rubberized surfacing ($80,000, 2029), a bandstand and bathrooms ($150,000), and Municipal Park bathrooms ($100,000). Significant debate arose over the Municipal Park bathroom, with Tim arguing the remote location, high maintenance costs, vandalism risk, and distance from water and sewer made it a poor investment, while other members countered that a disc golf course at that site would increase usage and justify the facility. Greg noted staff prefer porter potties due to vandalism and maintenance issues. The committee agreed to keep the bathroom line item but defer the decision, and also agreed to add the disc golf course to the quick fix/future list. A motion by Dan to recommend the capital improvement plan as presented to the village board was seconded and carried unanimously."
     },
     {
       "item": "Quick Fix Item List",
-      "body": "The committee was expected to consider a list of quick fix maintenance and improvement items for village parks. This item was set for review as part of ongoing park maintenance and operational planning."
+      "body": "Greg reviewed completed and in-progress quick fix items, including power washing playground equipment, ordering a replacement slide for North Plaza, ordering inclusive swings, and updating park signage to reflect current ordinances. A committee member asked that park benches along walking trails be added to the list. Greg confirmed the broken globe piece at Bushka Park is on order and that the volleyball net at Smith Park has not yet been installed. Greg also noted he would investigate a boundary encroachment concern at Towering Pines park involving bike path users the following day using GIS."
     },
     {
       "item": "Friendship Park Zipline",
-      "body": "The committee was scheduled to discuss the proposed zipline installation at Friendship Park. This item was set for consideration regarding the feasibility, design, and implementation of this recreational amenity."
+      "body": "Mishka proposed using approximately $20,000 in savings from the reduced wellhead trail project to install a zipline at Friendship Park, citing a price of roughly $20,000 and noting it could boost community excitement and generate positive press for park fundraising. Greg confirmed there is adequate space at Friendship Park. Members debated whether the expenditure would undermine Bushka Park fundraising momentum, with some arguing it would signal village investment in parks while others felt Bushka Park should remain the clear priority. The committee ultimately declined to fund a zipline immediately due to uncertainty about trail project final costs and the desire to focus on Bushka Park, but Dan moved to add the zipline to the 2029 Friendship Park CIP line, increasing that budget from $80,000 to $100,000. The motion was seconded by Tim and carried unanimously. The committee also discussed the ADA accessibility advantage of using the bucket seat option on the zipline, which costs approximately $1,000 more."
+    },
+    {
+      "item": "Consideration of Items for Future Agenda",
+      "body": "Members discussed the uncertain future of the 'Friends of the Parks' volunteer fundraising group, noting that the staff member who had been organizing it (Jennifer) is no longer with the village and little progress appears to have been made. Members discussed whether the CLIP committee would absorb parks oversight in the interim, with Dan and Patty both serving on CLIP. Members expressed interest in reviving the Friends of the Parks effort, possibly tied to Saturday's 5K event as a recruitment opportunity. A brief discussion occurred about committee compensation being deposited into the general parks fund rather than specifically to Bushka Park donations, with Greg clarifying it goes to the overall parks fund and could be redirected by committee vote with board approval."
     }
   ],
-  "publicComment": "Public comment was indicated on the agenda, limited to 15 minutes total with a three-minute time period per person, with discretionary extension by the Chief Presiding Officer.",
+  "publicComment": "No public comment was offered.",
   "actionItems": [
-    "Expected to approve or address August 17, 2026 meeting minutes",
-    "Scheduled to consider Buska Park fundraising components including bricks and signage",
-    "Set to review September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event planning",
-    "Expected to review capital improvement project costs",
-    "Scheduled to consider quick fix maintenance item list",
-    "Set to discuss Friendship Park zipline proposal"
+    "Director of Public Works Greg to move forward with Gift Bricks fundraising program at three sizes (4x8/$50, 8x8/$120, 8x16/$250) with black epoxy fill only",
+    "Staff (Greg and Kim) to post brick fundraising information and ordering process on the village website with a QR code",
+    "Greg to look into obtaining a sample engraved brick for display at the election table and farmers market",
+    "Mishka to reach out to local media about a story on the brick fundraising program",
+    "All committee intersection volunteers to be at their positions 10-15 minutes before the 5K start at 10 a.m. on September 12",
+    "Greg to place barricades at 5K route corners on Friday, September 11",
+    "Greg to investigate boundary encroachment at Towering Pines park using GIS the following day",
+    "Staff to research the status of the Friends of the Parks group and what, if anything, Jennifer had organized",
+    "Disc golf course at Municipal Park to be added to the quick fix/future needs list",
+    "Capital improvement plan as presented to be forwarded as a recommendation to the Village Board",
+    "2029 Friendship Park CIP line to be increased by $20,000 (to $100,000) to include a zipline alongside rubberized surfacing",
+    "Volleyball net installation at Smith Park to be completed as a quick fix"
   ],
   "topics": [
     "Parks",
-    "Buska Park",
-    "Friendship Park",
-    "Capital Improvement Projects",
-    "Community Fundraising"
+    "Capital Improvement Plan",
+    "Fundraising",
+    "Bushka Park",
+    "Friendship Park"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Approval of August 17, 2026 Parks Committee meeting minutes",
+      "motion": "Motion to approve the minutes from August 17, 2026",
+      "mover": "Patty",
+      "second": "Tim",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Direct Director of Public Works to proceed with Bushka Park brick fundraiser at agreed sizes and pricing",
+      "motion": "Motion for the director to go forward with the fundraising bricks and the sizes and pricing discussed",
+      "mover": "Patty",
+      "second": "Elizabeth",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Recommend 10-year capital improvement plan to the Village Board",
+      "motion": "Motion to recommend the capital improvement plan as stated to the village board",
+      "mover": "Dan",
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Add zipline to 2029 Friendship Park CIP, increasing budget by $20,000 to $100,000",
+      "motion": "Motion to increase the 2029 Friendship Park improvement line in the capital improvement plan by $20,000 to include a zip line in addition to the rubberized surfacing",
+      "mover": "Dan",
+      "second": "Tim",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Adjournment",
+      "motion": "Motion to adjourn",
+      "mover": "Patty",
+      "second": "Dan",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "2fcbb8a27e08b087",
   "title": "Parks Committee - 2026-09-08",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-3",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c7e3c49a63fe42c09c61aa2af3d8adbd.pdf",
-  "processed_at": "2026-09-08T02:53:23.901185+00:00"
+  "processed_at": "2026-09-18T03:01:47.451915+00:00"
 }

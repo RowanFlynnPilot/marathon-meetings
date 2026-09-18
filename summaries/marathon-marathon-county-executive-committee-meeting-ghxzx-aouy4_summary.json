@@ -1,0 +1,71 @@
+{
+  "overview": "The Marathon County Executive Committee meeting was brief, covering only a few items before adjourning. Key administrative updates included direction to move forward on a comprehensive ordinance revision referencing the fee schedule, and a planned email update on strategic plan development in lieu of a full presentation due to time constraints.",
+  "committee": "Marathon County Executive Committee",
+  "presiding": "Kurt Gibbs, Board Chair",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Return from closed session and announcements"
+    },
+    {
+      "time": "0:15",
+      "item": "Item B6: Update regarding comprehensive revision to ordinance referencing fee schedule"
+    },
+    {
+      "time": "0:45",
+      "item": "Item 6: Educational presentation / committee discussion – strategic plan development updates"
+    },
+    {
+      "time": "1:20",
+      "item": "Next meeting announcement and adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Closed Session Announcements",
+      "body": "Chair Gibbs noted that administration had been given direction by the Executive Committee to move forward with matters discussed in closed session. No further details were provided publicly."
+    },
+    {
+      "item": "Comprehensive Revision to Ordinance Referencing Fee Schedule (Item B6)",
+      "body": "Administrator Leonard indicated there was a memo in the packet and stated the plan is to bring the item back to this committee rather than routing it through all committees. Leonard invited any members with concerns to contact Chair Gibbs or himself so alternative action could be taken. No vote was taken."
+    },
+    {
+      "item": "Strategic Plan Development Updates (Item 6)",
+      "body": "Vice Chair [Boots] explained that due to time constraints, Administrator Leonard would instead send an email update to committee members regarding the status of the strategic plan and its planned public release. The full educational presentation was bypassed."
+    },
+    {
+      "item": "Next Meeting and Adjournment",
+      "body": "Chair Gibbs announced the next meeting is scheduled for October 15th at 3 p.m. and asked members to bring ideas for future discussion. A motion to adjourn was made by Supervisor Mash and seconded by Supervisor Arstead; the committee adjourned unanimously."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Administrator Leonard to bring comprehensive ordinance revision referencing fee schedule back to the Executive Committee (not all committees); members with concerns to contact Chair Gibbs or Leonard",
+    "Administrator Leonard to send email update to committee members on strategic plan development status and public release timeline",
+    "Committee members asked to bring ideas for future discussion to the October 15th meeting",
+    "Next Executive Committee meeting scheduled for October 15th at 3 p.m."
+  ],
+  "topics": [
+    "Ordinance Revision",
+    "Fee Schedule",
+    "Strategic Plan",
+    "Administration"
+  ],
+  "votes": [
+    {
+      "item": "Adjournment",
+      "motion": "Motion to adjourn",
+      "mover": "Supervisor Mash",
+      "second": "Supervisor Arstead",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "d9de5c4790314ff4",
+  "title": "Marathon County Executive Committee Meeting",
+  "url": "https://www.youtube.com/watch?v=GhxZX-Aouy4",
+  "source": "marathon",
+  "doc_url": null,
+  "processed_at": "2026-09-18T03:00:22.451531+00:00"
+}

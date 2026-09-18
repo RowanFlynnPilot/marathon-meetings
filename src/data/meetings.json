@@ -1,5 +1,168 @@
 [
   {
+    "id": "PZMqtIIHwGw",
+    "source": "marathon",
+    "title": "Infrastructure Committee Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "Infrastructure",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=PZMqtIIHwGw",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Infrastructure Committee held a brief meeting focused primarily on public comment from two Town of Texas residents about dangerous conditions on County Road W, followed by approval of the 2026 Marathon County Culvert Bridge Aid resolution. The committee voted to forward the bridge aid resolution to the county board, covering approximately $64,000 in culvert and bridge projects completed by county crews for local municipalities.",
+    "agenda": [
+      {
+        "time": "0:03",
+        "item": "Call to order / quorum established"
+      },
+      {
+        "time": "0:15",
+        "item": "Public comment - County Road W safety concerns"
+      },
+      {
+        "time": "6:45",
+        "item": "4B: Discussion and possible action - 2026 Marathon County Culvert Bridge Aid (Resolution 5726) for county board consideration"
+      },
+      {
+        "time": "8:30",
+        "item": "Item 5: Education presentation and committee discussion"
+      },
+      {
+        "time": "8:45",
+        "item": "Item 6: Next meeting date, time, and future agenda items"
+      },
+      {
+        "time": "9:10",
+        "item": "Announcements - North Central Region fall legislative meeting"
+      },
+      {
+        "time": "9:50",
+        "item": "Item 7: Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - County Road W Safety Concerns",
+        "body": "Two Town of Texas residents, Tracy Delaney (236617 County Road W) and Donald Hillbrand (236493 County Road W), spoke about dangerous conditions on County Road W. Delaney requested no-engine-braking signs due to noise from increased truck traffic from Hos, and asked the committee to add guardrails on the east side of County Road W north of Marshall Hill Road when road improvements are planned, noting her house is only 30 feet from the road. Hillbrand echoed concerns about out-of-control speeds, outdated and unsafe guardrails, vehicles crossing into driveways and nearly striking his house, and a semi that refused to yield to an ambulance — for which Sheriff Chad Bilip fined the driver and firm $500 each. Hillbrand noted that a consulting firm had agreed guardrails were needed."
+      },
+      {
+        "item": "2026 Marathon County Culvert Bridge Aid (Resolution 5726)",
+        "body": "Kevin [last name not stated] presented the 2026 Culvert Bridge Aid program, describing it as a fairly typical year with approximately $64,000 in projects, with county crews completing five projects for municipalities. A larger box culvert project for the Town of McMillan was excluded from this resolution because it received 90% state funding through the Local Small Structure Improvement Program (LSSIP) for 6-to-20-foot structures, though crews still plan to complete it in October. The committee voted unanimously to forward Resolution 5726 to the county board; the motion was made by Griner and seconded by [inaudible, referred to as 'AC']."
+      },
+      {
+        "item": "Announcements - North Central Region Fall Legislative Meeting",
+        "body": "Kevin announced that the North Central Region fall legislative meeting is scheduled for October 23rd in Stevens Point, featuring a breakfast at 8:30 a.m. with presentations from commissioners and transportation officials, and with all legislators invited. He noted the registration deadline is October 2nd and asked interested committee members to contact him."
+      }
+    ],
+    "publicComment": "Two speakers offered public comment. Tracy Delaney of 236617 County Road W in the Town of Texas requested no-engine-braking signs due to noise from increased truck traffic and asked that guardrails be added to the east side of County Road W north of Marshall Hill Road during planned road improvements. Donald Hillbrand of 236493 County Road W in the Town of Texas described dangerous speeding, vehicles entering his property, a trailer nearly striking his house, and a semi blocking an ambulance — citing video evidence shared with Sheriff Chad Bilip. Both residents called for updated guardrails and traffic safety improvements.",
+    "actionItems": [
+      "Resolution 5726 (2026 Marathon County Culvert Bridge Aid) forwarded to the full county board for consideration",
+      "Kevin to register interested committee members for the North Central Region fall legislative meeting by October 2nd deadline",
+      "County highway staff to consider guardrail and engine-brake signage requests on County Road W from public commenters when planning road improvements",
+      "Next committee meeting scheduled for Tuesday, October 1st, 2026 at 9:00 a.m."
+    ],
+    "topics": [
+      "Roads",
+      "Budget",
+      "County Road W Safety",
+      "Culvert Bridge Aid",
+      "Infrastructure Funding"
+    ],
+    "votes": [
+      {
+        "item": "2026 Marathon County Culvert Bridge Aid (Resolution 5726) - forward to county board",
+        "motion": "Motion to move forward with Resolution 5726, County Bridge Aid, to the county board",
+        "mover": "Aaron Griner",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Stacy Watson",
+        "second": "Aaron Griner",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "GhxZX-Aouy4",
+    "source": "marathon",
+    "title": "Executive Committee Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "Executive Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=GhxZX-Aouy4",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Executive Committee meeting was brief, covering only a few items before adjourning. Key administrative updates included direction to move forward on a comprehensive ordinance revision referencing the fee schedule, and a planned email update on strategic plan development in lieu of a full presentation due to time constraints.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Return from closed session and announcements"
+      },
+      {
+        "time": "0:15",
+        "item": "Item B6: Update regarding comprehensive revision to ordinance referencing fee schedule"
+      },
+      {
+        "time": "0:45",
+        "item": "Item 6: Educational presentation / committee discussion – strategic plan development updates"
+      },
+      {
+        "time": "1:20",
+        "item": "Next meeting announcement and adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session Announcements",
+        "body": "Chair Gibbs noted that administration had been given direction by the Executive Committee to move forward with matters discussed in closed session. No further details were provided publicly."
+      },
+      {
+        "item": "Comprehensive Revision to Ordinance Referencing Fee Schedule (Item B6)",
+        "body": "Administrator Leonard indicated there was a memo in the packet and stated the plan is to bring the item back to this committee rather than routing it through all committees. Leonard invited any members with concerns to contact Chair Gibbs or himself so alternative action could be taken. No vote was taken."
+      },
+      {
+        "item": "Strategic Plan Development Updates (Item 6)",
+        "body": "Vice Chair [Boots] explained that due to time constraints, Administrator Leonard would instead send an email update to committee members regarding the status of the strategic plan and its planned public release. The full educational presentation was bypassed."
+      },
+      {
+        "item": "Next Meeting and Adjournment",
+        "body": "Chair Gibbs announced the next meeting is scheduled for October 15th at 3 p.m. and asked members to bring ideas for future discussion. A motion to adjourn was made by Supervisor Mash and seconded by Supervisor Arstead; the committee adjourned unanimously."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Administrator Leonard to bring comprehensive ordinance revision referencing fee schedule back to the Executive Committee (not all committees); members with concerns to contact Chair Gibbs or Leonard",
+      "Administrator Leonard to send email update to committee members on strategic plan development status and public release timeline",
+      "Committee members asked to bring ideas for future discussion to the October 15th meeting",
+      "Next Executive Committee meeting scheduled for October 15th at 3 p.m."
+    ],
+    "topics": [
+      "Ordinance Revision",
+      "Fee Schedule",
+      "Strategic Plan",
+      "Administration"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Supervisor Mash",
+        "second": "Supervisor Arstead",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "kw_c9c92d2afc2a49afb51ba2b04743793b",
     "source": "kronenwetter",
     "title": "Village Board Meeting",
@@ -1946,6 +2109,156 @@
     ]
   },
   {
+    "id": "kw_c7e3c49a63fe42c09c61aa2af3d8adbd",
+    "source": "kronenwetter",
+    "title": "Parks Committee",
+    "date": "September 8, 2026",
+    "shortDate": "SEP 8",
+    "committee": "Parks Committee - Village of Kronenwetter",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-3",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c7e3c49a63fe42c09c61aa2af3d8adbd.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter Parks Committee held its September 8, 2026 meeting, approving a fundraising brick program for Bushka Park and voting to add a zipline to the 2029 Friendship Park capital improvement plan. The committee also reviewed the full 10-year capital improvement plan and discussed logistics for the upcoming September 12 Bushka Park 5K Run/Walk fundraiser. The meeting concluded with the committee's apparent final session, with members noting the parks committee may reconvene in January 2027.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:00",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:20",
+        "item": "Approval of August 17, 2026 Park Meeting Minutes"
+      },
+      {
+        "time": "2:30",
+        "item": "New Business: Bushka Park Fundraising Brick Components"
+      },
+      {
+        "time": "22:00",
+        "item": "Old Business: September 12 Bushka Park 5K Run/Walk Fundraiser Event"
+      },
+      {
+        "time": "31:00",
+        "item": "Capital Improvement Project Costs"
+      },
+      {
+        "time": "52:00",
+        "item": "Quick Fix Item List"
+      },
+      {
+        "time": "62:00",
+        "item": "Friendship Park Zipline"
+      },
+      {
+        "time": "85:00",
+        "item": "Consideration of Items for Future Agenda and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of August 17, 2026 Park Meeting Minutes",
+        "body": "A committee member noted a spelling error in the minutes — 'bike rakes' should read 'bike racks.' A motion to approve with that correction was made by Patty and seconded by Tim. The motion carried on a voice vote with no opposition."
+      },
+      {
+        "item": "Bushka Park Fundraising Brick Components",
+        "body": "Greg (Director of Public Works) presented a fundraising brick program through a company called Gift Bricks, noting that Wastatile agreed to donate all bricks needed and that the etching would be handled by Gift Bricks in southern Wisconsin. The committee agreed to offer three brick sizes — 4x8 at $50, 8x8 at $120, and 8x16 at $250 — representing roughly a 150% markup over cost, with black epoxy fill only for simplicity. The committee discussed advertising at the upcoming 5K, the farmers market, and via QR codes, and agreed to post ordering information on the village website. A motion was made by Patty and seconded by Elizabeth to direct the director of public works to move forward with the brick fundraiser at the agreed sizes and pricing; the motion carried unanimously."
+      },
+      {
+        "item": "September 12 Bushka Park 5K Run/Walk Fundraiser Event",
+        "body": "Mishka reported that all nine police-recommended intersection volunteer positions had been filled with high-visibility vests, and that water bottles and a digital timer clock had been purchased. The start and finish line will be near the shelter at Bushka Park at 10 a.m. Committee members discussed volunteer assignments at intersections, the absence of a rain backup plan ('all weather' event), and the need for a first aid station. A staff member raised the concern that a quorum of trustees attending could constitute a walking quorum, and members were advised to be mindful of that. A donation box with a QR code, created by Kim, will be stationed at the main table."
+      },
+      {
+        "item": "Capital Improvement Project Costs",
+        "body": "Greg presented a 10-year CIP list including: Bushka Park playground ($200,000), Norm Plaza Dog Park fencing ($50,000), Friendship Park rubberized surfacing ($80,000, 2029), a bandstand and bathrooms ($150,000), and Municipal Park bathrooms ($100,000). Significant debate arose over the Municipal Park bathroom, with Tim arguing the remote location, high maintenance costs, vandalism risk, and distance from water and sewer made it a poor investment, while other members countered that a disc golf course at that site would increase usage and justify the facility. Greg noted staff prefer porter potties due to vandalism and maintenance issues. The committee agreed to keep the bathroom line item but defer the decision, and also agreed to add the disc golf course to the quick fix/future list. A motion by Dan to recommend the capital improvement plan as presented to the village board was seconded and carried unanimously."
+      },
+      {
+        "item": "Quick Fix Item List",
+        "body": "Greg reviewed completed and in-progress quick fix items, including power washing playground equipment, ordering a replacement slide for North Plaza, ordering inclusive swings, and updating park signage to reflect current ordinances. A committee member asked that park benches along walking trails be added to the list. Greg confirmed the broken globe piece at Bushka Park is on order and that the volleyball net at Smith Park has not yet been installed. Greg also noted he would investigate a boundary encroachment concern at Towering Pines park involving bike path users the following day using GIS."
+      },
+      {
+        "item": "Friendship Park Zipline",
+        "body": "Mishka proposed using approximately $20,000 in savings from the reduced wellhead trail project to install a zipline at Friendship Park, citing a price of roughly $20,000 and noting it could boost community excitement and generate positive press for park fundraising. Greg confirmed there is adequate space at Friendship Park. Members debated whether the expenditure would undermine Bushka Park fundraising momentum, with some arguing it would signal village investment in parks while others felt Bushka Park should remain the clear priority. The committee ultimately declined to fund a zipline immediately due to uncertainty about trail project final costs and the desire to focus on Bushka Park, but Dan moved to add the zipline to the 2029 Friendship Park CIP line, increasing that budget from $80,000 to $100,000. The motion was seconded by Tim and carried unanimously. The committee also discussed the ADA accessibility advantage of using the bucket seat option on the zipline, which costs approximately $1,000 more."
+      },
+      {
+        "item": "Consideration of Items for Future Agenda",
+        "body": "Members discussed the uncertain future of the 'Friends of the Parks' volunteer fundraising group, noting that the staff member who had been organizing it (Jennifer) is no longer with the village and little progress appears to have been made. Members discussed whether the CLIP committee would absorb parks oversight in the interim, with Dan and Patty both serving on CLIP. Members expressed interest in reviving the Friends of the Parks effort, possibly tied to Saturday's 5K event as a recruitment opportunity. A brief discussion occurred about committee compensation being deposited into the general parks fund rather than specifically to Bushka Park donations, with Greg clarifying it goes to the overall parks fund and could be redirected by committee vote with board approval."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Director of Public Works Greg to move forward with Gift Bricks fundraising program at three sizes (4x8/$50, 8x8/$120, 8x16/$250) with black epoxy fill only",
+      "Staff (Greg and Kim) to post brick fundraising information and ordering process on the village website with a QR code",
+      "Greg to look into obtaining a sample engraved brick for display at the election table and farmers market",
+      "Mishka to reach out to local media about a story on the brick fundraising program",
+      "All committee intersection volunteers to be at their positions 10-15 minutes before the 5K start at 10 a.m. on September 12",
+      "Greg to place barricades at 5K route corners on Friday, September 11",
+      "Greg to investigate boundary encroachment at Towering Pines park using GIS the following day",
+      "Staff to research the status of the Friends of the Parks group and what, if anything, Jennifer had organized",
+      "Disc golf course at Municipal Park to be added to the quick fix/future needs list",
+      "Capital improvement plan as presented to be forwarded as a recommendation to the Village Board",
+      "2029 Friendship Park CIP line to be increased by $20,000 (to $100,000) to include a zipline alongside rubberized surfacing",
+      "Volleyball net installation at Smith Park to be completed as a quick fix"
+    ],
+    "topics": [
+      "Parks",
+      "Capital Improvement Plan",
+      "Fundraising",
+      "Bushka Park",
+      "Friendship Park"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 17, 2026 Parks Committee meeting minutes",
+        "motion": "Motion to approve the minutes from August 17, 2026",
+        "mover": "Patty",
+        "second": "Tim",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Direct Director of Public Works to proceed with Bushka Park brick fundraiser at agreed sizes and pricing",
+        "motion": "Motion for the director to go forward with the fundraising bricks and the sizes and pricing discussed",
+        "mover": "Patty",
+        "second": "Elizabeth",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Recommend 10-year capital improvement plan to the Village Board",
+        "motion": "Motion to recommend the capital improvement plan as stated to the village board",
+        "mover": "Dan",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Add zipline to 2029 Friendship Park CIP, increasing budget by $20,000 to $100,000",
+        "motion": "Motion to increase the 2029 Friendship Park improvement line in the capital improvement plan by $20,000 to include a zip line in addition to the rubberized surfacing",
+        "mover": "Dan",
+        "second": "Tim",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Patty",
+        "second": "Dan",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "uPyfeNRFvqo",
     "source": "wausau",
     "title": "Board of Public Works Meeting",
@@ -2942,85 +3255,6 @@
         "tally": "Unanimous voice vote"
       }
     ]
-  },
-  {
-    "id": "kw_c7e3c49a63fe42c09c61aa2af3d8adbd",
-    "source": "kronenwetter",
-    "title": "Parks Committee",
-    "date": "September 8, 2026",
-    "shortDate": "SEP 8",
-    "committee": "Parks Committee",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-3",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c7e3c49a63fe42c09c61aa2af3d8adbd.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Kronenwetter Parks Committee was scheduled to meet to address multiple park development and fundraising initiatives, including components for Buska Park improvements, an upcoming 5K fundraiser event, capital project costs, and consideration of a zipline installation at Friendship Park.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of August 17, 2026 Parks Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Buska Park Fundraising Components (Bricks, Signage, Etc.)"
-      },
-      {
-        "time": "N/A",
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event"
-      },
-      {
-        "time": "N/A",
-        "item": "Capital Improvement Projects Costs"
-      },
-      {
-        "time": "N/A",
-        "item": "Quick Fix Item List"
-      },
-      {
-        "time": "N/A",
-        "item": "Friendship Park Zipline"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Buska Park Fundraising Components (Bricks, Signage, Etc.)",
-        "body": "The committee was scheduled to discuss new fundraising components for Buska Park, including the implementation of bricks, signage, and other related elements. This item was set for consideration as new business to advance the park development initiative."
-      },
-      {
-        "item": "September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event",
-        "body": "The committee was expected to review details and logistics for the scheduled Buska Park 5K Run/Walk Fundraiser Event set for September 12, 2026. This item was set to address ongoing coordination and planning for the community fundraising event."
-      },
-      {
-        "item": "Capital Improvement Projects Costs",
-        "body": "The committee was scheduled to review and consider costs associated with capital improvement projects. This agenda item was set to address financial planning and budget implications for planned park infrastructure upgrades."
-      },
-      {
-        "item": "Quick Fix Item List",
-        "body": "The committee was expected to consider a list of quick fix maintenance and improvement items for village parks. This item was set for review as part of ongoing park maintenance and operational planning."
-      },
-      {
-        "item": "Friendship Park Zipline",
-        "body": "The committee was scheduled to discuss the proposed zipline installation at Friendship Park. This item was set for consideration regarding the feasibility, design, and implementation of this recreational amenity."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda, limited to 15 minutes total with a three-minute time period per person, with discretionary extension by the Chief Presiding Officer.",
-    "actionItems": [
-      "Expected to approve or address August 17, 2026 meeting minutes",
-      "Scheduled to consider Buska Park fundraising components including bricks and signage",
-      "Set to review September 12, 2026 Buska Park 5K Run/Walk Fundraiser Event planning",
-      "Expected to review capital improvement project costs",
-      "Scheduled to consider quick fix maintenance item list",
-      "Set to discuss Friendship Park zipline proposal"
-    ],
-    "topics": [
-      "Parks",
-      "Buska Park",
-      "Friendship Park",
-      "Capital Improvement Projects",
-      "Community Fundraising"
-    ],
-    "votes": []
   },
   {
     "id": "lybTn6YEszc",
@@ -5582,212 +5816,5 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_ba56fe14f9d845d19d5fedf7e8b2f5d5",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-65",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ba56fe14f9d845d19d5fedf7e8b2f5d5.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Village Board held its August 24, 2026 regular meeting, covering a range of financial and operational matters including a 10-year capital improvement plan presentation, TID #1 valuation challenges, and a collective bargaining negotiation update. The board convened into closed session to address a police union contract and directed the administrator to continue negotiations before adjourning.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:10",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:05",
-        "item": "Motion to Move Agenda Items"
-      },
-      {
-        "time": "2:40",
-        "item": "Chairperson Comments"
-      },
-      {
-        "time": "3:20",
-        "item": "Public Comments"
-      },
-      {
-        "time": "7:00",
-        "item": "Administrative Staff Report"
-      },
-      {
-        "time": "22:00",
-        "item": "Public Works Director Report"
-      },
-      {
-        "time": "30:00",
-        "item": "Finance Director Report - General Fund and TID #1 Update"
-      },
-      {
-        "time": "55:00",
-        "item": "Consent Agenda - August 10 Minutes and July Check Register"
-      },
-      {
-        "time": "57:00",
-        "item": "New Business: 2027-2036 Capital Improvement Plan"
-      },
-      {
-        "time": "1:25:00",
-        "item": "Green Tree Subdivision Update"
-      },
-      {
-        "time": "1:30:00",
-        "item": "Closed Session - Police Union Collective Bargaining"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Return from Closed Session - Direction to Administrator"
-      },
-      {
-        "time": "1:37:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comments",
-        "body": "One speaker, Mr. Cramer, addressed the board regarding a previous special meeting where a trustee took over the chairmanship, calling it unusual and raising accountability concerns. He also cited the village attorney's budget memo noting the village is $1,000 over budget after seven months due to personnel investigation costs, and criticized the ongoing investigation timeline as several months with no public answers, stating 'I think you have a major accountability problem.'"
-      },
-      {
-        "item": "Administrative Staff Report",
-        "body": "The administrator reported on a meeting with the Golden Pond HOA regarding pond level management, noting the village found seven homes still running sump pumps when the HOA claimed only two, and that the village declined to raise the pond level as a result. The administrator also flagged a significant increase in open records requests targeting the police department, particularly records from when Village President Joling was police chief, characterizing them as a personal vendetta. Staff discussed potentially charging for staff time associated with open records requests and updating public comment procedures."
-      },
-      {
-        "item": "Public Works Director Report",
-        "body": "Public Works Director Greg reported that a WPS transformer installed for a new electrical panel was the wrong wattage, causing a delay of a few days on Lift Station 2. He also noted that a road contractor is working on drainage and shoulder improvements near the municipal building and bridge areas. A generator battery failure was discovered and addressed in-house, with discussion about the aging generator fleet and the need for a long-term replacement plan."
-      },
-      {
-        "item": "Finance Director Report - General Fund and TID #1",
-        "body": "Finance Director John Jacobs reported the general fund revenues are tracking nearly identically to 2025 at about 62.7% collected through seven months, with most remaining revenue expected from the state in October. Three expenditure areas flagged as over budget - legal/investigation costs, municipal building operations, and garbage/recycling - are expected to be addressed via a transfer from the $60,000 contingency reserve later in the year. On TID #1, Jacobs explained a combined $2.5 million valuation reduction resulted from local assessor adjustments and a retroactive state correction, worsening the TID's cash flow. He recommended a status quo approach for six to nine months to allow a potential distribution center project to add tax increment, noting debt payments drop significantly starting in 2030 and TID #1 debt is eliminated by 2037-2044."
-      },
-      {
-        "item": "2027-2036 Capital Improvement Plan",
-        "body": "Finance Director Jacobs and Public Works Director Greg presented the 10-year CIP, noting the village currently has roughly $49 million in remaining borrowing capacity at 70% of the debt limit. The first-year 2027 program totals approximately $4.3 million across equipment, infrastructure, parks, and facilities. Trustee Erin Mishka (Parks Committee Chair) specifically noted that the $200,000 in park donations listed for 2027 is insufficient and that tax dollars should support parks improvements. Staff noted a potential $1.7 million general obligation borrowing target and discussed strategic timing of debt issuance to defer tax impact. No formal vote was taken; the presentation was informational ahead of the fall budget process."
-      },
-      {
-        "item": "Green Tree Subdivision Update",
-        "body": "Administrator Jim reported that the developer of the Green Tree subdivision indicated they expect to move forward within the next month and wants board action. The Plan Commission made a conditional recommendation in June, and staff noted some ordinance timing provisions require the board to act before the approval becomes automatic. A related factor is a pending decision regarding the golf course that may affect the subdivision layout. No vote was taken; the board noted this will return as a formal agenda item."
-      },
-      {
-        "item": "Closed Session and Return - Police Union Negotiations",
-        "body": "The board voted to convene in closed session to deliberate on the collective bargaining agreement with the Kronenwetter Professional Police Association / Wisconsin Professional Police Association. Upon returning to open session, the board voted to direct the administrator to continue negotiations with the union."
-      }
-    ],
-    "publicComment": "One speaker, identified as Mr. Cramer, addressed the board. He raised concerns about a recent special meeting where a trustee took over the chairmanship, questioned the transparency of an ongoing personnel investigation that has run over budget, and criticized the board for holding 'shadow meetings' without public answers. He stated residents 'expect better' and called it 'a major accountability problem.'",
-    "actionItems": [
-      "Administrator to bring public comment policy recommendations to a future APC meeting, including whether comments should be tied to agenda items and whether emailed comments should be accepted",
-      "Administrator to develop a schedule for charging for staff time on open records requests",
-      "Public Works to have mechanics inspect and repair municipal building generator battery and fuses",
-      "Finance Director to prepare tax levy affordability scenarios for multiple home values for next board meeting",
-      "Finance Director to update and date-stamp the CIP document monthly as a living document",
-      "Finance Director to research state shared revenue impact from potential Plover Plant 3 closure between 2031-2036",
-      "Administrator to bring Green Tree subdivision to a future board meeting for formal action",
-      "Administrator to continue collective bargaining negotiations with the Kronenwetter Professional Police Association",
-      "Budget amendment for investigation-related legal costs to be prepared once final costs are known, likely later in 2026",
-      "A special meeting was scheduled for Thursday at 4:30 PM"
-    ],
-    "topics": [
-      "Budget",
-      "TID District",
-      "Capital Improvement Plan",
-      "Development",
-      "Parks",
-      "Police Labor Negotiations"
-    ],
-    "votes": [
-      {
-        "item": "Consent Agenda - August 10, 2026 minutes and July 2026 check register and credit card transactions",
-        "motion": "Motion to approve the consent agenda as presented",
-        "mover": "Dan Lesniak",
-        "second": "Jessica Stowell",
-        "outcome": "Approved",
-        "tally": "6-0"
-      },
-      {
-        "item": "Convene in closed session for police union collective bargaining deliberations",
-        "motion": "Motion to move into closed session",
-        "mover": "Kelly Coyle",
-        "second": "Jessica Stowell",
-        "outcome": "Approved",
-        "tally": "6-0"
-      },
-      {
-        "item": "Direct administrator to continue negotiations with the police union",
-        "motion": "Motion to direct the administrator to continue negotiations with the union",
-        "mover": "Kelly Coyle",
-        "second": "Dan Lesniak",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": null,
-        "mover": "Craig Mortensen",
-        "second": "Aaron Myszka",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_f432750fb1d34fbcb533fdcb37765323",
-    "source": "kronenwetter",
-    "title": "Police and Fire Commission Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Police & Fire Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-26",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f432750fb1d34fbcb533fdcb37765323.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Police and Fire Commission of Kronenwetter was scheduled to meet to approve previous meeting minutes, receive public comment, and conduct a closed session to interview Fire Department applicant(s). The meeting was set to address personnel matters related to the Fire Department.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approve 08/10/2026 meeting minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Public comment period"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed session to interview Fire Department applicant(s)"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes",
-        "body": "The commission was scheduled to approve the minutes from the August 10, 2026 meeting."
-      },
-      {
-        "item": "Fire Department Applicant Interviews",
-        "body": "The commission was set to convene in closed session to interview Fire Department applicant(s) pursuant to Wisconsin Statute provisions regarding consideration of employment and personnel matters. The closed session was scheduled to address preliminary consideration of specific personnel issues and employment evaluation data."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, with a 15-minute total period and three-minute time limit per person, subject to extension at the presiding officer's discretion.",
-    "actionItems": [
-      "scheduled to vote on approval of 08/10/2026 meeting minutes",
-      "scheduled to interview Fire Department applicant(s) in closed session",
-      "expected to consider action after closed session"
-    ],
-    "topics": [
-      "Public Safety",
-      "Staffing",
-      "Fire Department Recruitment"
-    ],
-    "votes": []
   }
 ]
