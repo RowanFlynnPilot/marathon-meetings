@@ -1,5 +1,66 @@
 [
   {
+    "id": "J_WX4t3layw",
+    "source": "marathon",
+    "title": "Board Meeting Pt.2",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "County Board",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=J_WX4t3layw",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "This was a very brief return to open session following a closed session of the Marathon County Board. The only substantive announcement was administrative direction given following the closed session, and the board quickly adjourned. No major votes or policy decisions were recorded in this segment.",
+    "agenda": [
+      {
+        "time": "0:34",
+        "item": "Return to open session and announcement from closed session"
+      },
+      {
+        "time": "0:50",
+        "item": "Announcements and requests from the chair"
+      },
+      {
+        "time": "1:10",
+        "item": "Motion to adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session Announcement",
+        "body": "Upon returning to open session, the chair announced that administration had been given direction on how to move forward, without specifying the subject matter of the closed session. No further detail was provided publicly."
+      },
+      {
+        "item": "Supervisor Mailboxes",
+        "body": "The chair relayed a request from the county clerk asking all supervisors to check and clean out their mailboxes, noting that some were 'plum full.' This was the only substantive announcement made before adjournment."
+      },
+      {
+        "item": "Motion to Adjourn",
+        "body": "A motion to adjourn was made and seconded. The chair called for a voice vote and declared the motion carried, adjourning the meeting. The transcript indicates some confusion over who made the motion and seconded it, with names including Dre Beck and Enen mentioned."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Administration directed to move forward based on guidance received in closed session",
+      "Supervisors requested to clean out their county mailboxes"
+    ],
+    "topics": [
+      "County Administration",
+      "Board Operations"
+    ],
+    "votes": [
+      {
+        "item": "Motion to adjourn",
+        "motion": "Motion to adjourn",
+        "mover": "Dre Beck",
+        "second": "Enen",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "PZMqtIIHwGw",
     "source": "marathon",
     "title": "Infrastructure Committee Meeting",
@@ -5699,119 +5760,6 @@
         "motion": "Motion that trustee compensation for the 2027–2029 term remains the same at $7,200 for trustee and $8,400 for president",
         "mover": "Maloney (reading motion; Ermeling indicated as mover per transcript reference to 'Mling')",
         "second": "Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "QraPzTCVe1c",
-    "source": "wausau",
-    "title": "City Council Rules Review Committee Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Wausau City Council Rules Review Committee",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=QraPzTCVe1c",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau City Council Rules Review Committee met to examine possible language changes regarding how all committee personnel are selected. The committee's scope was clarified as limited to Chapter 216 (common council rules), not commissions or bodies like the ethics board. The committee approved one concrete rule change: amending Rule 13D so that subcommittee and special committee chairpersons are elected by majority vote of the subcommittee at the start of the term, rather than being named by the standing committee chairperson.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and introduction of agenda item: possible language in ordinance regarding how all committee personnel are selected"
-      },
-      {
-        "time": "1:30",
-        "item": "Public comment period"
-      },
-      {
-        "time": "2:10",
-        "item": "Parliamentarian overview of current Rule 13A on committee appointments"
-      },
-      {
-        "time": "4:00",
-        "item": "Discussion: alderperson ability to decline or resign from committee appointments"
-      },
-      {
-        "time": "8:30",
-        "item": "Discussion: midterm vacancies and whether rules should address reappointments"
-      },
-      {
-        "time": "12:00",
-        "item": "Discussion: subcommittee chair appointment process and bike and pedestrian committee precedent"
-      },
-      {
-        "time": "16:00",
-        "item": "Motion to amend Rule 13D — subcommittee chairperson elected by majority vote rather than named by standing committee chair"
-      },
-      {
-        "time": "28:00",
-        "item": "Discussion: scope of rules review committee limited to Chapter 216; ethics board and commissions outside scope"
-      },
-      {
-        "time": "40:00",
-        "item": "Motion to adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Parliamentarian overview of Rule 13A and appointment process",
-        "body": "The city's parliamentarian explained that Rule 13A states the mayor shall appoint members to standing committees at the organizational meeting, but provides no further guidance. He noted that appointment processes for other bodies are generally specified in the ordinance or resolution creating the committee, or by statute for commissions. He confirmed that alderpersons may decline appointments, leaving the position vacant for the mayor to fill again."
-      },
-      {
-        "item": "Alderperson ability to decline or step down from committee assignments",
-        "body": "Alder Watson raised the difficulty of declining scheduling-incompatible assignments in a formal way. Alder Killian said she had always felt comfortable communicating with the mayor and felt the current process worked, though she acknowledged scheduling could be challenging for those with regular employment. The parliamentarian confirmed no rule requires acceptance of an appointment and suggested spelling this out in the rules would be helpful. The chair noted she had personally stepped down from a committee mid-term in a prior session and that this informal process had worked, but that midterm vacancies are not currently addressed in writing."
-      },
-      {
-        "item": "Amendment to Rule 13D — subcommittee chairperson election process",
-        "body": "Alder Killian raised that a controversy arose this term over the bike and pedestrian subcommittee chair, where members were surprised to learn the infrastructure committee chair had authority to appoint the subcommittee chair rather than the subcommittee electing its own. Alder Watson moved to amend Rule 13D to strike the sentence giving the standing committee chairperson power to name subcommittee chairs and replace it with language requiring the subcommittee or special committee to elect its own chairperson by majority vote at the start of the term. After discussion refining the language, the amendment passed unanimously, as did the underlying amended motion. The amendment will go to the full council, where a two-thirds vote is required to amend the rules."
-      },
-      {
-        "item": "Scope of rules review committee and citizen/ethics board appointments",
-        "body": "The chair raised whether the impetus for the meeting — a challenge by Alderpersons Lucans and Larson related to an ethics committee appointment — could be addressed by the rules committee. The parliamentarian clarified the committee's resolution limits its scope to Chapter 216, the common council's standing rules, and does not extend to ethics board appointments (governed by a separate ordinance, Chapter 203) or to commissions governed by state statute. Alder Watson asked whether amendments to other chapters were possible but was informed those fall outside this committee's purview."
-      },
-      {
-        "item": "Clarification on committees vs. commissions",
-        "body": "The parliamentarian explained the distinction between commissions (created by state statute, with composition and appointment rules dictated by the legislature, such as the police and fire commission and transit commission) and committees or boards (created by the council, with more flexibility in how they are composed and governed). Standing committee chairs, with two exceptions — transit (governed by statute) and rules review (appointed by mayor per the creating resolution) — are elected by committee members, not appointed by the mayor."
-      }
-    ],
-    "publicComment": "No public comment was offered. The chair opened the floor for public comment and, seeing no members of the public present, closed the public comment period.",
-    "actionItems": [
-      "Amended Rule 13D — striking language giving standing committee chairs power to name subcommittee chairs and replacing it with a requirement that subcommittees and special committees elect their own chairperson by majority vote at the start of the term — to be forwarded to the full City Council for a two-thirds vote.",
-      "City attorney's office to review and potentially spell out midterm vacancy appointment process in the rules.",
-      "Consider distributing a memo clarifying existing rules on standing committee and subcommittee appointments so members are better informed (suggested by Alder Killian, not formally acted on)."
-    ],
-    "topics": [
-      "Council Rules",
-      "Committee Appointments",
-      "Subcommittee Governance",
-      "Ethics Board",
-      "Bike and Pedestrian Committee"
-    ],
-    "votes": [
-      {
-        "item": "Amendment to the motion — language for Rule 13D subcommittee chair election",
-        "motion": "The subcommittee or special committee chairperson shall be elected by majority vote at the start of the subcommittee or special committee's term.",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Alder Watson's motion to amend Rule 13D as amended",
-        "motion": "Amend Rule 13D to strike the final sentence — 'The committee chairperson shall also name the chairperson of the subcommittee or special committee' — and replace it with language requiring the subcommittee or special committee to elect its own chairperson by majority vote at the start of the term.",
-        "mover": "Alder Watson",
-        "second": "Alder Killian",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Motion to adjourn",
-        "motion": "Move to adjourn",
-        "mover": "Alder Watson",
-        "second": "Alder Killian",
         "outcome": "Approved",
         "tally": "Unanimous"
       }

@@ -1,0 +1,59 @@
+{
+  "overview": "This was a very brief return to open session following a closed session of the Marathon County Board. The only substantive announcement was administrative direction given following the closed session, and the board quickly adjourned. No major votes or policy decisions were recorded in this segment.",
+  "committee": "Marathon County Board",
+  "presiding": "Kurt Gibbs, Board Chair",
+  "agenda": [
+    {
+      "time": "0:34",
+      "item": "Return to open session and announcement from closed session"
+    },
+    {
+      "time": "0:50",
+      "item": "Announcements and requests from the chair"
+    },
+    {
+      "time": "1:10",
+      "item": "Motion to adjourn"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Closed Session Announcement",
+      "body": "Upon returning to open session, the chair announced that administration had been given direction on how to move forward, without specifying the subject matter of the closed session. No further detail was provided publicly."
+    },
+    {
+      "item": "Supervisor Mailboxes",
+      "body": "The chair relayed a request from the county clerk asking all supervisors to check and clean out their mailboxes, noting that some were 'plum full.' This was the only substantive announcement made before adjournment."
+    },
+    {
+      "item": "Motion to Adjourn",
+      "body": "A motion to adjourn was made and seconded. The chair called for a voice vote and declared the motion carried, adjourning the meeting. The transcript indicates some confusion over who made the motion and seconded it, with names including Dre Beck and Enen mentioned."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Administration directed to move forward based on guidance received in closed session",
+    "Supervisors requested to clean out their county mailboxes"
+  ],
+  "topics": [
+    "County Administration",
+    "Board Operations"
+  ],
+  "votes": [
+    {
+      "item": "Motion to adjourn",
+      "motion": "Motion to adjourn",
+      "mover": "Dre Beck",
+      "second": "Enen",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "971d41745d4ab6aa",
+  "title": "Marathon County Board Meeting Pt.2",
+  "url": "https://www.youtube.com/watch?v=J_WX4t3layw",
+  "source": "marathon",
+  "doc_url": null,
+  "processed_at": "2026-09-18T15:45:53.959304+00:00"
+}
