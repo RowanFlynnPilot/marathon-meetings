@@ -2148,6 +2148,17 @@
       "video_url": null,
       "processed_at": "2026-09-19T02:59:47.688634+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-meeting-vvrcwxclale.md"
+    },
+    "4cM06GyeKcU": {
+      "title": "Marathon County Executive Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260917",
+      "meeting_date": "20260917",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-19T15:17:53.225170+00:00",
+      "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-4cm06gyekcu.md"
     }
   }
 }

@@ -1,5 +1,132 @@
 [
   {
+    "id": "4cM06GyeKcU",
+    "source": "marathon",
+    "title": "Executive Committee Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "Executive Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=4cM06GyeKcU",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Executive Committee held a lengthy public meeting dominated by debate over the proposed Hub City Wind project by Alliant Energy. After 10 public commenters urged the committee to reject a Joint Development Agreement (JDA) with Alliant and instead pursue PSC intervention, the committee voted 8-2 to forward a resolution to the full County Board directing Alliant Energy to submit a proposed agreement addressing concerns raised by the alternative energy work group, with the agreement to be shared with affected townships upon receipt. The committee also received an update on the troubled Bug Tussle broadband project before moving into closed session.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:45",
+        "item": "Public Comment – Hub City Wind Project / JDA (10 speakers)"
+      },
+      {
+        "time": "22:00",
+        "item": "Approval of August 13, 2026 Executive Committee Meeting Minutes"
+      },
+      {
+        "time": "24:00",
+        "item": "2027 Annual Budget Development and Policy Recommendations, including Mandatory/Discretionary Program Documents and Rates and Fees"
+      },
+      {
+        "time": "27:30",
+        "item": "Discussion Regarding Request from Supervisor Endrris (Andre's) – County Intervention in Hub City Wind Project"
+      },
+      {
+        "time": "47:00",
+        "item": "Discussion and Possible Action: Consideration of Potential Engagement with Alliant Energy Regarding Hub City Wind Project (CPZ Department Pros/Cons Presentation)"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Motion and Vote: Robinson Resolution – Direct Alliant Energy to Submit Proposed Agreement by November 1"
+      },
+      {
+        "time": "1:29:30",
+        "item": "Update Regarding Bug Tussle Presentation to Infrastructure Committee"
+      },
+      {
+        "time": "1:38:00",
+        "item": "Motion and Vote to Enter Closed Session – Bug Tussle Update (Wis. Stat. 19.85(1)(e))"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment – Hub City Wind Project",
+        "body": "Ten speakers signed up, with nearly all opposing a JDA with Alliant Energy and urging the county to instead pursue intervenor status at the PSC. Speakers including Tom Wilcox of Farmland First argued a county-level JDA risks preempting township zoning authority and asked the committee to join the townships' intergovernmental committee at the PSC. Joe Kiwok of the Town of Cleveland cited Columbia County's intervention as a model to follow. Mary Clues, speaking on behalf of the Marathon County Farmers Union, urged the county to negotiate hard rather than cede its power. Dean Beck warned against signing any NDA and urged baseline road assessments before construction. Glenn Regowski cited a Wausau Pilot poll showing the Hub City Wind Farm generated the strongest reader opposition of any poll, and noted he had seen no supporters from the five affected townships at any meeting."
+      },
+      {
+        "item": "Approval of August 13, 2026 Executive Committee Meeting Minutes",
+        "body": "Chair Gibbs called for approval of the minutes as presented in the packet. Supervisor Robinson moved and Supervisor Morash seconded. No discussion was held. The motion passed with an abstention granted to Supervisor Gao."
+      },
+      {
+        "item": "2027 Annual Budget Development and Policy Recommendations",
+        "body": "Administrator Leonard briefly noted that budget work is proceeding toward a September 29th presentation deadline, at which point the budget becomes the board's budget. Supervisor Robinson reminded all standing committees to weigh in at their September meetings, noting the Human Resource Finance Property Committee meets at 1:00 p.m. and the ERC at 3:00 p.m. on the 29th. No action was taken."
+      },
+      {
+        "item": "Discussion Regarding Request from Supervisor Endrris",
+        "body": "Supervisor Mask questioned how Endrris contacted all his constituents given reports that his phone was out of service. Supervisor Boots disclosed that two AI detection tools rated the document 82–85% likely AI-generated, and he demonstrated by generating a counter-resolution using AI himself. Supervisor Robinson said regardless of authorship, the request raised real concerns but was 'overly broad' and potentially very expensive—estimating intervention costs at $50,000 to $200,000 or more depending on scope. Supervisor Gao recommended placing the request on file for now. No formal motion or vote was taken; the item was effectively deferred pending further scoping and cost analysis."
+      },
+      {
+        "item": "Consideration of Potential Engagement with Alliant Energy – Hub City Wind Project",
+        "body": "CPZ staff presented a pros/cons matrix of four options: JDA negotiation (estimated up to $20,000), PSC intervention ($50,000–$200,000), moratorium (viewed as legally unenforceable for a 100+ MW project under Wis. Stat. 66.0401), and post-CPCN appeal. Staff noted the PSC could not recall any case where intervention stopped a wind project. Supervisor Robinson moved the 'Robinson resolution,' which directs Alliant Energy to submit a proposed agreement addressing work group concerns by November 1, 2025, with a further amendment added requiring the agreement be shared with governing bodies of affected townships upon receipt. Supervisor Gao proposed an alternative amendment drawing on the second resolution (putting negotiations on hold) but it was ruled out of order as it did not amend the Robinson resolution. Corporation Counsel clarified the committee's task was simply to forward a resolution to the full County Board, not to finalize county policy. The amendment to share the agreement with townships passed with one or more opposed; the full amended resolution passed 8-2 on a roll call vote."
+      },
+      {
+        "item": "Bug Tussle Broadband Update",
+        "body": "Administrator Leonard summarized the history: a 2021 $25 million conduit financing for Bug Tussle Wireless to build a fiber ring around Marathon County, followed by a county-approved $8 million loan ($5M to complete the ring, $3M as match for a PSC broadband grant). The ring was never completed—only half was built due to cost overruns—and Bug Tussle has now requested an additional approximately $45 million from Marathon County as part of a $500 million ask across all participating counties for BEAD projects. Infrastructure committee received the Bug Tussle presentation September 3rd. The item was moved to closed session due to bargaining considerations and potential litigation."
+      }
+    ],
+    "publicComment": "Ten speakers signed up and addressed the committee, nearly all opposing a JDA with Alliant Energy and urging PSC intervention. Speakers included Joe Bergen (Town of Day), Christine Hafer (Town of McMillan), Tom Wilcox (Farmland First executive director), Joe Kiwok (Town of Cleveland), Mark Radkkey (Town of Plain), Mary Clues (Marathon County Farmers Union), Dean Beck (Town of Easton), Heidi Pesky (Town of McMillan, appearing online), and Glenn Regowski (Town of Green Valley). One speaker's audio was partially cut in transcript. Common themes: distrust of Alliant Energy, opposition to a JDA, support for PSC intervention, concern about long-term land use and health impacts, and citing public survey results showing strong opposition to the project.",
+    "actionItems": [
+      "Forward amended Robinson resolution to the full County Board directing Alliant Energy to submit a proposed agreement addressing alternative energy work group concerns by no later than November 1, 2025, and share that agreement with governing bodies of affected townships upon receipt",
+      "Supervisor Endrris intervention request placed on file; administration to review potential scope and cost of narrowed intervention topics against work group findings and report back",
+      "Administrator Leonard to follow up with Bug Tussle on their response to the county's requested alternative scope for completing the conduit project",
+      "Budget: all standing committees to discuss administrator's and county board budgets at September meetings ahead of the September 29th budget presentation",
+      "Proceed to closed session on Bug Tussle update only; Alliant Energy/Hub City Wind topic excluded from closed session per corporation counsel"
+    ],
+    "topics": [
+      "Wind Energy",
+      "Hub City Wind Project",
+      "Broadband Infrastructure",
+      "Budget",
+      "PSC Intervention"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 13, 2026 Executive Committee meeting minutes",
+        "motion": "Motion to approve the August 13th executive committee meeting minutes",
+        "mover": "Supervisor Robinson",
+        "second": "Supervisor Morash",
+        "outcome": "Approved",
+        "tally": "Unanimous with abstention by Supervisor Gao"
+      },
+      {
+        "item": "Amendment to Robinson resolution – share Alliant's proposed agreement with governing bodies of affected townships upon receipt",
+        "motion": "Amendment to add 'be it further resolved' language requiring the proposed agreement be provided to governing bodies of each town in which the project is located",
+        "mover": "Supervisor Rosenberg",
+        "second": "Supervisor Rosenberg (self-seconded per transcript context)",
+        "outcome": "Approved",
+        "tally": "Not unanimous; one or more opposed"
+      },
+      {
+        "item": "Robinson resolution as amended – direct Alliant Energy to submit proposed agreement by November 1 and share with affected townships",
+        "motion": "Move the resolution as amended to the full County Board for its consideration",
+        "mover": "Supervisor Robinson",
+        "second": "Supervisor Mask",
+        "outcome": "Approved",
+        "tally": "8-2 (Gao and Hapa voting no)"
+      },
+      {
+        "item": "Motion to enter closed session for Bug Tussle update (Wis. Stat. 19.85(1)(e))",
+        "motion": "Move pursuant to Wisconsin Statutes 19.85(1)(e) for purposes of conducting specific public business where competitive or bargaining reasons require closed session on Bug Tussle update",
+        "mover": "Supervisor Robinson",
+        "second": "Supervisor Morash",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "vVRCWXClAlE",
     "source": "marathon",
     "title": "Board Meeting",
@@ -5610,138 +5737,6 @@
         "second": null,
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "e6QpiKhBgMI",
-    "source": "weston",
-    "title": "Parks Committee",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Parks Committee, Village of Weston",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=e6QpiKhBgMI",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_08242026-1960",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Parks Committee met on August 24, 2026, to hear a concept presentation from Everest Youth Hockey for a 30,000-square-foot flexible indoor community space at Kennedy Park, review a draft master plan for Mock Miller Park, and receive staff updates on park maintenance. The committee expressed general openness to further study of the hockey facility concept without committing any village funds, and reviewed the Miller Park master plan ahead of a planned public input meeting tentatively scheduled for September 3rd.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:10",
-        "item": "Roll Call"
-      },
-      {
-        "time": "1:40",
-        "item": "Item 4: Approval of Minutes from July 27, 2026"
-      },
-      {
-        "time": "2:20",
-        "item": "Item 5: Public Comments"
-      },
-      {
-        "time": "5:10",
-        "item": "Item 6: Written Communications"
-      },
-      {
-        "time": "5:25",
-        "item": "Item 7: Update on Kennedy Park Renovation and Everest Youth Hockey Presentation"
-      },
-      {
-        "time": "51:00",
-        "item": "Item 7 (continued): Kennedy Park Baseball/Softball User Group Update"
-      },
-      {
-        "time": "56:30",
-        "item": "Item 8: Discussion and Possible Action – Mock Miller Park Master Plan"
-      },
-      {
-        "time": "1:22:00",
-        "item": "Future Items and Next Meeting Date"
-      },
-      {
-        "time": "1:23:00",
-        "item": "Remarks from Staff – Pool Season, Playground Inspection, Park Wall Repairs"
-      },
-      {
-        "time": "1:32:00",
-        "item": "Remarks from Committee Members – Mountain Bay State Trail, Sunflower Seed Policy"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes – July 27, 2026",
-        "body": "A committee member moved to accept the minutes as presented; a second was offered. The motion carried without opposition after a brief call for discussion."
-      },
-      {
-        "item": "Public Comment – Kennedy Park Master Plan",
-        "body": "Jim Pensel, 5002 Arrow Street, Weston, expressed disappointment that the Kennedy Park master plan contained no preliminary cost estimates, contrasting it with a prior master plan that included a $15 million figure. He also questioned the origins of proposed features like a band shell and food trucks, and raised concerns that key planning documents were being withheld from the committee packet."
-      },
-      {
-        "item": "Everest Youth Hockey – Concept Proposal for Indoor Community Space at Kennedy Park",
-        "body": "Brad Hansen (communications director), Nick Melsha (president), and Josh (vice president) of Everest Youth Hockey presented a concept for a 30,000-square-foot flexible indoor facility at the northwest corner of Kennedy Park, emphasizing year-round community use—farmers markets, childcare, recreation—with winter ice as the primary use. They stated they were not requesting funding, only endorsement to conduct a feasibility study largely funded by Everest itself. Committee members raised questions about overlap with Green Heck Turner Community Center, fundraising plans, and village financial exposure; Melsha noted that Green Heck's Aaron Mole is supportive and that their own prior $30,000 engineering study showed hockey-only sustainability. Committee members expressed general support for allowing further exploration, with one member noting 'I don't see the harm in letting them explore this further,' while another (Barb) cautioned that residents would not be happy if village money were committed at this stage. No formal vote was taken."
-      },
-      {
-        "item": "Kennedy Park Baseball/Softball User Group Update",
-        "body": "A representative identified as Olson, 5503 Wing Creek Drive, Weston, gave a brief update stating the group had productive discussions over the past month, expressed full support for youth hockey, and indicated willingness to alter plans and share space. The committee thanked the group for its social media outreach promoting shared park use and collaborative spirit with other user groups."
-      },
-      {
-        "item": "Mock Miller Park Master Plan Review",
-        "body": "Staff presented a concept master plan for Mock Miller Park incorporating existing features (T-ball fields, large field, shelter, restrooms) and proposed additions including a new playground, expanded walking trails, pickleball courts with shade, a food truck pavilion, outdoor fitness area, band shell with grass seating, and additional restrooms tied to a planned 2028 Ross Avenue utility reconstruction. Committee members discussed parking adequacy (estimated 120 stalls plus 30 additional proposed), potential for pickleball court expansion, the rationale for pickleball placement away from Kennedy Park due to noise concerns, and the importance of showing concept renderings of the band shell at the upcoming public input meeting. Staff clarified no cost estimates were requested yet pending committee and public input, and that a public input meeting is tentatively set for September 3rd at 6:00 p.m."
-      },
-      {
-        "item": "Staff Report – Pool Season, Playground Inspections, Park Wall Repairs",
-        "body": "Staff reported the pool season wrapped up August 16th, one week earlier than typical due to school starting. A final inspection of all seven new playgrounds was completed with Jessica Belowski; minor issues (loose bolts, cracked panel) were found and largely resolved, but three net structure pieces at Sand Hill Meadows need warranty replacement, possibly due to oversized users. Staff also noted a pool contractor will perform leak detection and pump valve replacement this fall, and that the concrete wall contractor (PGA) will return to address spalling at Kennedy Park retaining walls before a final walkthrough."
-      },
-      {
-        "item": "Committee Remarks – Mountain Bay State Trail Expansion",
-        "body": "A committee member raised the recurring interest of Trustee Hooshang Zeyghami in expanding the Mountain Bay State Trail beyond its current terminus. Staff clarified that Marathon County and the City of Wausau manage the trail under a state agreement, and that conversations have been ongoing but require resolution of whether expansion would serve pedestrian use or become a snowmobile corridor. Staff noted the segment from Messenger to Camp Phillips has had rails removed and that the village has requested a voice in planning discussions, but coordination with county and state parties remains ongoing."
-      },
-      {
-        "item": "Committee Remarks – Sunflower Seed Policy at Turf Fields",
-        "body": "A committee member raised the issue of sunflower seeds being consumed at the turf fields, noting signs in dugouts prohibit seeds on the turf but that enforcement and signage for spectator areas is lacking. The committee discussed establishing clear posted restrictions before next baseball season, with members acknowledging the problem involves both players and spectators. No formal action was taken but the committee agreed to revisit the policy before next season."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Jim Pensel, 5002 Arrow Street, Weston, who appeared online. He criticized the Kennedy Park master plan for lacking preliminary cost estimates unlike the prior master plan, questioned where proposed features like a band shell and food trucks originated, and expressed concern that important planning documents were absent from the committee packet.",
-    "actionItems": [
-      "Everest Youth Hockey to proceed with feasibility and operating plan development for the proposed indoor community space at Kennedy Park's northwest corner, with committee's implicit openness to further study pending no village funding commitment",
-      "Staff to schedule public input meeting for Mock Miller Park master plan tentatively for September 3rd at 6:00 p.m., to be confirmed after checking staff availability",
-      "Staff to obtain concept images of band shell options to present at the public input meeting",
-      "Cost estimates to be developed for Mock Miller Park master plan once concept is refined following public input",
-      "Staff to contact playground equipment manufacturer regarding weight limit signage for the spinning net structure at Sand Hill Meadows",
-      "Pool contractor to perform leak detection and pump valve replacement this fall",
-      "PGA contractor to return to address concrete spalling on retaining walls at Kennedy Park; final walkthrough to be scheduled",
-      "Staff to circle back with Marathon County and state contacts regarding Mountain Bay State Trail expansion and clarify maintenance responsibilities and use designations",
-      "Committee to revisit sunflower seed/food policy for turf fields before next baseball season",
-      "Next Parks Committee meeting tentatively set for September 28, 2026; update on September 3rd public input meeting to be a future agenda item"
-    ],
-    "topics": [
-      "Parks",
-      "Kennedy Park",
-      "Mock Miller Park",
-      "Mountain Bay State Trail",
-      "Youth Sports Facilities"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from July 27, 2026 meeting",
-        "motion": "Move that we accept the minutes as presented",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": null,
-        "mover": "Scott",
-        "second": "Roger",
-        "outcome": "Approved",
-        "tally": null
       }
     ]
   }
