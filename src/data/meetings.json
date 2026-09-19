@@ -1,5 +1,205 @@
 [
   {
+    "id": "vVRCWXClAlE",
+    "source": "marathon",
+    "title": "Board Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "County Board",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=vVRCWXClAlE",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Board of Supervisors met on September 17th and took action on multiple agenda items, most notably approving an amendment to Chapter 11.02 of the county's General Code of Ordinances updating the animal waste management ordinance after an extensive 18-month collaborative process with farmers and conservation groups. The board also approved numerous rezoning ordinances and postponed a vote on an infrastructure committee appointment after a supervisor raised concerns that the previous month's 'no' votes were based on 'sour grapes' rather than qualifications.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Pledge of Allegiance, reading of notice, and roll call"
+      },
+      {
+        "time": "2:30",
+        "item": "Public comment (8 speakers)"
+      },
+      {
+        "time": "28:30",
+        "item": "Standing committee chairperson reports and announcements"
+      },
+      {
+        "time": "30:00",
+        "item": "Recognition of Finance Department for GFOA Distinguished Budget Presentation Award"
+      },
+      {
+        "time": "31:30",
+        "item": "Educational presentation: DC Everest School District facility study by Dr. Casey Nye"
+      },
+      {
+        "time": "39:30",
+        "item": "Announcements and requests, including Wisconsin Counties Association resolution on solar/wind local control"
+      },
+      {
+        "time": "42:00",
+        "item": "Consent agenda items C11 through C13"
+      },
+      {
+        "time": "43:30",
+        "item": "Item D14: Infrastructure committee appointment vote (postponed)"
+      },
+      {
+        "time": "45:30",
+        "item": "Environmental Resources Committee rezoning ordinances (E15 through E23)"
+      },
+      {
+        "time": "1:07:00",
+        "item": "Item E24: Amendment to Chapter 11.02 animal waste management ordinance (Ordinance 41-26)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment: Animal Waste Ordinance",
+        "body": "Seven of eight public speakers addressed the proposed animal waste ordinance amendment. Dairy farmers Kevin Schmiky (River Run Dairy, ~90 cows), Andrew Belter (~250 cows), Shannon Niclay (~300 cows, 2,100 acres), and Patrick Suchka (~400 acres) all expressed support, citing the value of nutrient management plans for farm finances and water quality. Michael Toris of the River Alliance of Wisconsin praised Marathon County as a statewide leader in collaborative watershed work. Tom Mueller of Miltrim Farms (~3,000 cows) supported the ordinance while stating it 'does not go far enough.' James Yetus spoke in opposition, calling the ordinance 'government overreach' and arguing that his 135-year farm operation should not be forced to adopt a nutrient management plan, and that the work group was stacked with supporters."
+      },
+      {
+        "item": "Public Comment: Town of Green Valley Rezoning",
+        "body": "Mitch Maguire, speaking on behalf of the Town of Green Valley town board, argued that the board formally disapproved a rezoning of a parcel from urban agricultural zoning, that the county board must honor the town's statutory authority, and that the half-acre parcel was commercially used by a shoreline protection contractor (Lakeside Rip) and should be zoned commercial, not agricultural. Neighbor Rosley Maguire raised concerns about precedent, saying other residents had already expressed intent to rezone their own half-acre lots for storage if the petitioner's request was approved."
+      },
+      {
+        "item": "Infrastructure Committee Appointment (Item D14)",
+        "body": "Supervisor Sybert addressed the item, reporting that after the previous month's 19-vote 'no' result, he called 15 of those 19 supervisors and 'not one of those 15 could say he wasn't qualified,' characterizing the opposition as 'sour grapes.' Sybert moved to postpone the vote until next month so supervisors could better evaluate the candidates. Supervisor Straw asked whether the infrastructure committee could function without a chair, and was told the vice chair would serve as acting chair and the committee could appoint an acting chair under Robert's Rules. The motion to postpone passed."
+      },
+      {
+        "item": "Town of Green Valley Sawyer Daget Rezoning (Ordinance 33-26, Item E16)",
+        "body": "County land resources manager Shad Harvey explained that the 27-acre parcel is split-zoned and adjacent to general agricultural land, and that staff recommended rezoning to general agriculture to allow the property owner to build a large structure to store commercial equipment. Harvey clarified that the parcel is not a half-acre — it is 27 acres — and that the town's formal disapproval resolution did not meet statutory certification requirements. ERC voted unanimously to approve. Supervisor Ritter noted ERC considered sending it back to the town but both the petitioner and town representatives wanted a decision at the committee meeting. Supervisor Straw said he would vote against it out of deference to the town's position. Supervisor Morash noted that delay would leave the owner's equipment exposed outdoors over winter. The board approved the rezoning on a non-unanimous vote."
+      },
+      {
+        "item": "Animal Waste Ordinance Amendment (Chapter 11.02, Ordinance 41-26, Item E24)",
+        "body": "County conservationist Kirsty Hidenrike and conservation analyst Matt Repang presented the ordinance, which was also reviewed by outside attorney Jane Landredy of Stafford Rosenbaum. Hidenrike described an 18-month process involving six public open houses, 13 ERC meetings, six farmer workgroup sessions, and 2,500 mailed notices. The ordinance targets winter spreading of liquid manure on frozen soils in February and March, requires nutrient management plans for relevant operations, and includes phased implementation timelines and emergency spreading provisions. Supervisor Sundowski asked detailed questions about which farms are covered, what monitoring is planned, and whether storm water from cities also contributes to algae blooms. Supervisor Morash raised concern about approving the ordinance without knowing the fee amount; Hidenrike explained that fees only apply to farms that winter-spread liquid manure and refuse to obtain a nutrient management plan, and that fee amounts would go through ERC and the county board before the 2028 implementation deadline. The amendment was approved."
+      },
+      {
+        "item": "DC Everest School District Facility Study (Educational Presentation)",
+        "body": "DC Everest Superintendent Dr. Casey Nye and Director of Buildings and Grounds Jason Jablonski presented a two-year facility study driven by declining enrollment and an aging 75-year-old junior high building. The proposal involves decommissioning the junior high, redistributing grades to existing buildings, adding bus drop-off improvements at Mountain Bay Middle School, and adding a wing at the senior high. Enrollment has dropped from approximately 6,000 to 5,700 students with incoming classes of 300-350 versus graduating classes of 450. Dr. Nye said the projects could be completed with no additional tax impact if a pool renovation is excluded. Board Chair Gibbs asked about long-term enrollment trajectory. Nye noted a junior high walkthrough is scheduled for October 6th for interested supervisors."
+      }
+    ],
+    "publicComment": "Eight speakers signed up for public comment. Seven spoke on the animal waste ordinance: dairy farmers Kevin Schmiky, Andrew Belter, Shannon Niclay, and Patrick Suchka all expressed support, citing the collaborative process and financial and environmental benefits of nutrient management plans. Michael Toris of the River Alliance of Wisconsin praised Marathon County's watershed collaboration. Tom Mueller of Miltrim Farms (3,000 cows) supported the ordinance but said it did not go far enough. James Yetus of the town of Easton spoke in opposition, calling it government overreach and arguing the workgroup was not representative of opponents. Two speakers — Mitch Maguire and Rosley Maguire — spoke on the Town of Green Valley rezoning, urging the board to honor the town's formal disapproval and warning of precedent-setting risk if agricultural zoning is applied to a commercial contractor's parcel.",
+    "actionItems": [
+      "Animal waste management ordinance amendment (Ordinance 41-26) approved; implementation phased with 2028 effective date for winter spreading restrictions",
+      "Infrastructure committee chair appointment vote postponed to next month's board meeting",
+      "Town of Green Valley Sawyer Daget rezoning (Ordinance 33-26) approved over town's objection; town retains veto authority",
+      "Town of Green Valley rezoning (Ordinance 34-26), Town of Gunther reszones (Ordinances 35-26, 36-26, 37-26), Town of Hall rezoning (Ordinance 38-26), Town of McMillan rezoning (Ordinance 39-26), and Town of Reed rezoning (Ordinance 40-26) all approved",
+      "Consent agenda items C11 through C13 approved unanimously",
+      "Finance department recognized for GFOA Distinguished Budget Presentation Award for 2026 budget",
+      "County administrator to deliver budget on September 29th; special Human Resource Finance and Property Committee meeting at 1 p.m. that day",
+      "Wisconsin Counties Association conference resolution on local control for large-scale solar and wind projects — Supervisor Pool requested Marathon County vote yes",
+      "ERC and conservation staff directed to develop KPIs and regular check-in reporting on water quality improvements following ordinance implementation",
+      "Fee structure for winter spreading license to be developed through ERC and county board before 2028 implementation"
+    ],
+    "topics": [
+      "Animal Waste Ordinance",
+      "Water Quality",
+      "Rezoning",
+      "Budget",
+      "Agricultural Conservation"
+    ],
+    "votes": [
+      {
+        "item": "Consent agenda items C11 through C13",
+        "motion": null,
+        "mover": "Aaron Griner",
+        "second": "Supervisor Robinson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Postpone infrastructure committee chair appointment vote (Item D14) to next month",
+        "motion": "Motion to postpone",
+        "mover": "Supervisor Sybert",
+        "second": "Supervisor Conway",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Town of Brighton rezoning Lind Farms LLC (Ordinance 32-26, Item E15)",
+        "motion": null,
+        "mover": "Supervisor Krebs",
+        "second": "Supervisor Enzy",
+        "outcome": "Approved",
+        "tally": "Not unanimous"
+      },
+      {
+        "item": "Town of Green Valley Sawyer Daget rezoning (Ordinance 33-26, Item E16)",
+        "motion": null,
+        "mover": null,
+        "second": "Supervisor Morash",
+        "outcome": "Approved",
+        "tally": "Not unanimous"
+      },
+      {
+        "item": "Town of Green Valley rezoning (Ordinance 34-26, Item E17)",
+        "motion": null,
+        "mover": "Supervisor Drebeck",
+        "second": "Supervisor Enzy",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of Gunther Thomas and Sarah Gottle rezoning (Ordinance 35-26, Item E18)",
+        "motion": null,
+        "mover": "Supervisor Shane",
+        "second": "Supervisor Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of Gunther James Wulmer and Derek G. rezoning (Ordinance 36-26, Item E19)",
+        "motion": null,
+        "mover": "Supervisor Morash",
+        "second": "Supervisor Leur",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of Gunther Tim Vand on behalf of Noah Winky rezoning (Ordinance 37-26, Item E20)",
+        "motion": null,
+        "mover": "Supervisor Coyle",
+        "second": "Supervisor Krebs",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of Hall Tyler Monkey rezoning (Ordinance 38-26, Item E21)",
+        "motion": null,
+        "mover": "Supervisor Shaneborn",
+        "second": "Supervisor Nisth",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of McMillan Tim Veland for Mike Nikolai and Lauren Anderson rezoning (Ordinance 39-26, Item E22)",
+        "motion": null,
+        "mover": "Supervisor Arstead",
+        "second": "Supervisor Coyle",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Town of Reed Tim Veland for Matt and Angela Brabender rezoning (Ordinance 40-26, Item E23)",
+        "motion": null,
+        "mover": "Supervisor Krebs",
+        "second": "Supervisor Gao",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment to Chapter 11.02 animal waste management ordinance (Ordinance 41-26, Item E24)",
+        "motion": null,
+        "mover": "Supervisor Enzy",
+        "second": "Supervisor Gao",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "J_WX4t3layw",
     "source": "marathon",
     "title": "Board Meeting Pt.2",
@@ -298,255 +498,174 @@
     "date": "September 16, 2026",
     "shortDate": "SEP 16",
     "committee": "Regular Meeting",
-    "duration": null,
-    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=762740",
+    "duration": "1h 4m",
+    "url": "https://www.youtube.com/watch?v=OcKTzXVAwq4",
     "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=762740",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a regular meeting to address employment changes, financial reports, health insurance renewal, and several administrative updates for the 2026-2027 school year. The meeting was expected to include superintendent reports on Act 89 implementation, facility studies, and a social media class action suit, as well as consideration of closed session matters related to seclusion and restraint policies.",
+    "overview": "The DC Everest School Board held its September 2026 regular meeting, approving a 19.1% health insurance premium increase with Aspirus Health Plan for the 2027 plan year and receiving updates on the planned relocation of the IDEA and Odyssey alternative schools as part of an ongoing district facility consolidation effort driven by declining enrollment. The board also heard reports on teacher hiring trends, summer professional development, and community economic impact from the GTCC facility before adjourning to closed session to discuss seclusion and restraint matters.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Meet in Admin Lobby for group photo"
+        "time": "0:42",
+        "item": "Call to Order and Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Call to Order"
-      },
-      {
-        "time": "N/A",
-        "item": "Roll Call"
-      },
-      {
-        "time": "N/A",
+        "time": "1:30",
         "item": "Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Approval of Agenda"
+        "time": "1:50",
+        "item": "Approval of Meeting Agenda"
       },
       {
-        "time": "N/A",
-        "item": "Public Comment"
+        "time": "2:20",
+        "item": "Consent Agenda Approval"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Approval of Minutes"
+        "time": "3:00",
+        "item": "Non-Certified Staff Employment Changes (Information Only)"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+        "time": "3:10",
+        "item": "WASB September Legal and Legislative Update / Reports and Considerations"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Treasurer's Report - General/Other Fund Bills"
+        "time": "4:30",
+        "item": "Student Representative Report - Bin Campman, Student Council President"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Balance Sheet"
+        "time": "7:00",
+        "item": "Superintendent Report - Dr. Nye"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Budget Transfers"
+        "time": "16:00",
+        "item": "Unfinished Business: IDEA and Odyssey Relocation Update - Dr. Lindell"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Budget Revisions"
+        "time": "33:00",
+        "item": "Mission Moment: Rothschild Raptor Mural - Mr. Alexen"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Grant Application(s)/Budget(s) Approval"
+        "time": "38:00",
+        "item": "New Business: Health Insurance Renewal - Aspirus Health Plan"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Fundraising Requests"
+        "time": "41:00",
+        "item": "Approval of Agenda for Annual Meeting and Budget Hearing"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Gift/Bequests - Senior High Science Models"
+        "time": "42:00",
+        "item": "General Annual Hiring Report"
       },
       {
-        "time": "N/A",
-        "item": "Consent Agenda - Bus Accident Report"
+        "time": "58:00",
+        "item": "Summer Professional Development Update - Dr. Lindell"
       },
       {
-        "time": "N/A",
-        "item": "Non-Certified Staff Employment Changes (Informational Only)"
-      },
-      {
-        "time": "N/A",
-        "item": "WASB Legislative Network Member Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Student Representative Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Welcome to 2026-2027"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - School Board Appreciation Oct. 5-11"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - District Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Act 89 Implementation"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Bright Spots National Cohort"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Facility Study Information"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - GTCC Programming"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Social Media Class Action Suit"
-      },
-      {
-        "time": "N/A",
-        "item": "Superintendent Report - Executive Assistant Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Unfinished Business - Idea/Odyssey Update"
-      },
-      {
-        "time": "N/A",
-        "item": "Unfinished Business - Mission Moment - Rothschild Raptor Mural"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Health Insurance"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Approve Agenda for Annual Meeting/Budget Hearing"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - General Annual Hiring Report"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - Summer Professional Development Update"
-      },
-      {
-        "time": "N/A",
-        "item": "New Business - State Education Convention Attendance Commitment"
-      },
-      {
-        "time": "N/A",
-        "item": "Petitions and Communications - S. Maciaz Thank You for Memorial Tribute"
-      },
-      {
-        "time": "N/A",
-        "item": "Future Meeting Dates"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed Session Contemplation - Seclusion and Restraint"
+        "time": "1:02:00",
+        "item": "Future Meeting Dates and Adjournment to Closed Session"
       }
     ],
     "discussions": [
       {
-        "item": "Certified Staff Recommended Employment/Resignations/Contract Adjustments",
-        "body": "The board was scheduled to review employment changes for certified staff, with documents updated as recently as September 15, 2026. Two employment change documents were attached for consideration regarding the 2026-2027 school year."
-      },
-      {
-        "item": "Treasurer's Report - General/Other Fund Bills",
-        "body": "The board was expected to review the September 2026 Treasury Report detailing general and other fund bills. This financial overview was prepared as of September 9, 2026, at 4:00 PM."
-      },
-      {
-        "item": "Balance Sheet",
-        "body": "The board was scheduled to review the Balance Sheet for accounts 10, 27, 50, and 80 as of September 9, 2026. This financial statement was expected to provide an overview of the district's account balances."
-      },
-      {
-        "item": "Gift/Bequests - Senior High Science Models",
-        "body": "The board was scheduled to consider a gift of science models for the Senior High. Documentation for this gift was prepared on August 25, 2026."
-      },
-      {
-        "item": "WASB Legislative Network Member",
-        "body": "Shannon Grabko was scheduled to present on behalf of the WASB Legislative Network. This presentation was expected to provide updates on legislative advocacy matters relevant to the district."
+        "item": "WASB Legislative Update and Statewide Referendum Landscape",
+        "body": "Grabko reported that the WASB September update noted 71 Wisconsin school districts will have 78 referendum questions on the November ballot, bringing the 2026 statewide total to 154 questions across 145 districts — down from a record 241 in 2024. She noted this context was relevant given DC Everest's ongoing facility study and community survey. WASB's four legislative priorities for the 2027-29 budget cycle were also outlined, including increasing special education categorical aid and providing inflationary increases to spendable resources."
       },
       {
         "item": "Student Representative Report",
-        "body": "Brynn Kampmann was scheduled to present as the student representative. This report was expected to provide student perspective on district initiatives and school climate."
+        "body": "New student council president Bin Campman, a senior at DC Everest Senior High, reported on the school year's start including a sophomore orientation assembly, homecoming plans with a board games theme, and strong athletic results. Notable highlights included the girls tennis team's 14-3 record and a 5-0 sweep, boys soccer wins including a 'Derby' rivalry victory over Wausau West, and the first-ever inclusion of freshmen in homecoming activities such as powderpuff and hallway decorating."
       },
       {
         "item": "Superintendent Report",
-        "body": "Dr. Casey Nye was scheduled to present multiple updates including welcome remarks for 2026-2027, school board appreciation week information, district updates, Act 89 implementation status, participation in the Bright Spots National Cohort, facility study information, GTCC programming details, a social media class action suit update, and an executive assistant update."
+        "body": "Superintendent Dr. Nye discussed several topics: implementation of Wisconsin Act 89 tightening adult-student communication expectations; DC Everest's participation in the national Brightspots cohort with a site visit to Rothschild Elementary highlighted; launch of the community-wide facility survey running through October 9th; GTCC being fully booked every weekend for the coming year with the World Horseshoe Tournament generating an estimated $5.1 million total economic impact this summer; and a potential social media class action lawsuit that the district has been invited to join, which Nye said would be discussed in closed session next month. He also announced Rachel Rentmester as the incoming executive assistant, succeeding the retiring Ellen."
       },
       {
-        "item": "Idea/Odyssey Update",
-        "body": "Jeff Lindell, Assistant Superintendent, was scheduled to present an update on the transition of Idea and Odyssey programs. Supporting documentation on the transition was prepared on September 11, 2026."
+        "item": "IDEA and Odyssey Relocation Update",
+        "body": "Dr. Lindell presented plans to relocate both alternative schools from their current shared building, citing declining enrollment creating feasibility for decommissioning the facility. IDEA, which transitioned from a charter school to a district program in April, is planned to move to the high school campus footprint for the next school year, enabling students greater access to senior high courses. Odyssey is planned to relocate to the 'blue wing' of Evergreen Elementary, with a separate entrance maintained. Board members asked about parent concerns; Lindell and Dr. Nye acknowledged difficult community conversations, noting parents are particularly concerned about the loss of dedicated square footage, and that fundraising suggestions were raised but cannot resolve the underlying staffing cost issues from declining enrollment. Current enrollment caps are 72 students per school; IDEA is in the upper 60s and Odyssey is also in the upper 60s."
       },
       {
-        "item": "Mission Moment - Rothschild Raptor Mural",
-        "body": "Ted Aleckson, Principal, was scheduled to present a mission moment focused on community engagement related to the Rothschild Raptor Mural project. This presentation highlighted community involvement in school initiatives."
+        "item": "Mission Moment: Rothschild Raptor Mural",
+        "body": "Principal Mr. Alexen presented the completed Rothschild Raptor mural installed in August on the school's gymnasium stage. The project was funded through community partnerships including People's State Bank, the DC Everest Foundation, Clover Belt Credit Union, Brokaw Credit Union, and others. The mural features a raptor alongside imagery of Rib Mountain, Lake Wausau, and the local landscape, and was designed by local muralist Jessica Copeki. Alexen noted the school's theme this year is 'Raptor Nation.'"
       },
       {
-        "item": "Health Insurance",
-        "body": "The board was expected to consider the 2027 health insurance renewal, with presentations prepared on September 9, 2026. Two documents regarding the health insurance renewal and alternative health plan options were attached for board review."
-      },
-      {
-        "item": "Approve Agenda for Annual Meeting/Budget Hearing",
-        "body": "The board was scheduled to approve the agenda for the Annual Meeting and Budget Hearing. The proposed agenda was prepared on September 8, 2026, for a meeting scheduled for October 28, 2026."
+        "item": "Health Insurance Renewal - Aspirus Health Plan",
+        "body": "Dr. Nye presented the recommended renewal with Aspirus Health Plan for the 2027 plan year, noting an initial proposed increase of 44% was negotiated down to 31% and ultimately to 19.1% with plan design changes including increased deductibles and co-insurance. The district will maintain a 0% premium option for full-time employees, add employer HSA contributions of $1,000 single/$2,000 family, and cap part-time employee premium contributions at 30% for family coverage. Nye estimated approximately 75% of staff would not see an increase in out-of-pocket costs based on historical claims. The board approved the renewal without discussion."
       },
       {
         "item": "General Annual Hiring Report",
-        "body": "The Talent and Culture department was scheduled to present the General Annual Hiring Report for September 2026. This report was expected to provide an overview of hiring activities and staffing updates for the district."
+        "body": "HR Director Sarah presented the hiring report, noting 28 teacher hires this year consistent with 29 last year, with 71% having five or fewer years of experience and 40% previously connected to DC Everest. The teacher candidate pool has rebounded to pre-COVID levels. Support staff openings dropped from 17 to 11 since the report was compiled. Board members including Yee Leng Xiong, Larry Schaefer, and Lindsey Lewitzke asked about geographic origins of hires, retention of early-career teachers, and what board policies contribute to successful hiring. Schaefer raised concerns about the well-documented pattern of losing teachers with under five years of experience. Special education was identified as the greatest area of ongoing hiring need."
       },
       {
         "item": "Summer Professional Development Update",
-        "body": "Dr. Lindell and Dr. Raether were scheduled to present an update on Summer 2026 Professional Development activities. This report documented professional learning opportunities provided to district staff during the summer months."
+        "body": "Dr. Lindell reported over 2,100 hours of professional development completed over the summer, with a focus on PLC work, academic clarity, and responsive classroom training. Over 50 staff attended responsive classroom training funded by grants, with Rothschild Elementary serving as the pilot school. Lindell noted teachers are reporting this as among the best starts to a school year they can remember, with staff physically tired but not emotionally depleted — a meaningful shift in teacher experience."
       },
       {
-        "item": "State Education Convention Attendance",
-        "body": "The board was expected to commit to attendance at the State Education Convention scheduled for January 19-22 to meet early registration and hotel room reservation deadlines. This action was needed to plan for district representation at the state-level education event."
-      },
-      {
-        "item": "Non-Certified Staff Employment Changes",
-        "body": "The board was scheduled to receive informational updates on non-certified staff employment changes for 2026-2027. Two employment change documents, updated through September 15, 2026, were provided for informational purposes."
+        "item": "Adjournment to Closed Session",
+        "body": "The board voted unanimously to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(f) to discuss seclusion and restraint matters involving specific persons whose personal or disciplinary data, if discussed publicly, could adversely affect their reputation."
       }
     ],
-    "publicComment": "A public comment period was included on this agenda.",
+    "publicComment": "No public comment was offered. Board President Grabko explicitly stated 'we do not have public comment at this time' and moved on.",
     "actionItems": [
-      "Board was expected to approve the minutes from the August 19/September 11, 2026 meeting",
-      "Board was expected to approve certified staff employment, resignations, and contract adjustments for 2026-2027",
-      "Board was expected to approve the Treasurer's Report for September 2026",
-      "Board was expected to approve the Balance Sheet for accounts 10, 27, 50, and 80",
-      "Board was expected to consider and approve any budget transfers",
-      "Board was expected to consider and approve any budget revisions",
-      "Board was expected to approve grant applications and budgets",
-      "Board was expected to consider fundraising requests",
-      "Board was expected to accept the gift of science models for Senior High",
-      "Board was expected to review and approve the agenda for the Annual Meeting/Budget Hearing scheduled for October 28, 2026",
-      "Board was expected to approve the 2027 health insurance renewal",
-      "Board was expected to commit to attendance at the State Education Convention (January 19-22) to meet registration and hotel deadlines",
-      "Board was expected to convene in closed session to discuss seclusion and restraint matters"
+      "Health insurance renewal with Aspirus Health Plan approved for 2027 plan year at 19.1% increase with noted plan design changes",
+      "Annual meeting and budget hearing agenda approved for October 28, 2026 at 6 p.m.",
+      "Community-wide facility survey open through October 9; staff and board to distribute four-page facility planning summary",
+      "Board members to notify Ellen of intent to attend State Education Convention (January 19-22) before November deadline",
+      "Dr. Nye to bring additional details on social media class action lawsuit to next month's meeting for board consideration in closed session",
+      "IDEA relocation to high school campus footprint planned for start of next school year",
+      "Odyssey relocation to Evergreen Elementary blue wing in planning; letter to families to be sent Friday with FAQ document",
+      "WASB region representatives expected to contact board members for legislative priority feedback",
+      "Board will attend fall Region 5 WASB meeting September 29 at Holiday Inn Cedar Creek (registration open)",
+      "Board adjourned to closed session to discuss seclusion and restraint matters"
     ],
     "topics": [
-      "Staffing",
       "Budget",
+      "Staffing",
+      "Facility Planning",
       "Health Insurance",
-      "Facilities",
-      "Act 89 Implementation",
-      "Professional Development",
-      "Rothschild Elementary",
-      "Community Engagement"
+      "Alternative Schools Relocation"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Approval of meeting agenda",
+        "motion": "Motion to approve the agenda for this meeting",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Approval of consent agenda",
+        "motion": "Motion to approve the consent agenda",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Health insurance renewal with Aspirus Health Plan for 2027 plan year including 19.1% premium increase, employer HSA contributions, and premium contribution cap adjustments",
+        "motion": "Motion to approve renewal with Aspirus Health Plan for the 2027 plan year including overall 19.1% premium increase with noted plan design changes, employer HSA contribution of $1,000 single/$2,000 family, 30% employee premium contribution cap for family coverage for less than 1.0 FTE employees, no changes to Freedom Plan employee contributions, and continued evaluation of health insurance alternative strategies",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approval of agenda for annual meeting and budget hearing",
+        "motion": "Motion to approve the agenda for the annual meeting budget hearing as presented in the background",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment to closed session pursuant to Wisconsin State Statute 19.85(1)(f) for seclusion and restraint matters",
+        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(f) for seclusion and restraint",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      }
+    ]
   },
   {
     "id": "3EsPr2YO3v4",
@@ -5623,145 +5742,6 @@
         "second": "Roger",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "bL_-RxB_PWA",
-    "source": "weston",
-    "title": "Board of Trustees and Finance/HR",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Board of Trustees",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=bL_-RxB_PWA",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_08242026-1960",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Board of Trustees and Finance/HR Committee held a joint budget workshop — the first such joint meeting in several years — focused on educating board members about governmental fund accounting, reviewing equalized values and levy limits for the 2027 budget cycle, and beginning preliminary budget discussions. Key decisions included approving a $1.29 million waterworks revenue bond for a water system project and voting to keep trustee compensation unchanged for the 2027–2029 term at $7,200 for trustees and $8,400 for the village president.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order, Pledge of Allegiance, and roll call"
-      },
-      {
-        "time": "2:30",
-        "item": "Public comment"
-      },
-      {
-        "time": "6:10",
-        "item": "Resolution 2026-023: Authorization of waterworks system revenue bonds up to $1,291,283"
-      },
-      {
-        "time": "12:45",
-        "item": "Budget process overview and fund accounting presentation by Finance Director"
-      },
-      {
-        "time": "28:00",
-        "item": "State requirements, levy limits, and equalized value / net new construction review"
-      },
-      {
-        "time": "48:00",
-        "item": "Seventh-inning stretch video break"
-      },
-      {
-        "time": "50:00",
-        "item": "Expenditure restraint program and tax levy worksheet discussion"
-      },
-      {
-        "time": "1:08:00",
-        "item": "Discussion on 2027 budget priorities (continued from prior meetings)"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Pay plan adjustments, 2027 wage increases, health benefits, and direct primary care update"
-      },
-      {
-        "time": "2:10:00",
-        "item": "Trustee compensation for 2027–2029 term — discussion and vote"
-      },
-      {
-        "time": "2:25:00",
-        "item": "Capital improvement plan review — 2026–2027 projects and 2028–2029 planning"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Resolution 2026-023: Waterworks Revenue Bonds",
-        "body": "The board approved a resolution authorizing the issuance of up to $1,291,283 in waterworks system revenue bonds. Staff explained that the broader project totals approximately $4.3 million but the village received roughly $3 million in principal forgiveness through a state safe drinking water loan, and an additional $272,460 was removed from the project amount due to PFAS class action lawsuit proceeds. The interest rate on the borrowing is 0.365% with total interest of approximately $333,000. The motion was approved unanimously by the board; the Finance/HR committee did not vote separately as staff confirmed this was a board-only item."
-      },
-      {
-        "item": "Governmental Fund Accounting and Budget Process Presentation",
-        "body": "Finance Director Jessica provided an extensive educational presentation on governmental fund accounting, covering the general fund, special revenue funds, debt service, capital projects, and proprietary/enterprise funds for water, sewer, and storm. She explained the modified accrual basis of accounting, why long-term liabilities and receivables such as the Mountain Bay repayment do not appear on fund balance sheets in the traditional sense, and the distinction between the capital improvement program and the capital projects fund. Village President Maloney noted the timeline requires budget adoption at the November board meeting to meet county tax bill printing deadlines."
-      },
-      {
-        "item": "Levy Limits, Equalized Value, and Net New Construction",
-        "body": "Staff presented the state's August 11 equalized value report showing the village's net new construction at approximately $31.3 million, representing a 1.624% increase — the maximum allowable levy increase for 2027. The village's total equalized value change was 9%. Staff noted that fixed cost increases such as a workers' compensation modifier increase from 0.86 to 1.17 (a roughly $30,000 hit), Mountain Bay cost increases, and stagnant state aids like cable franchise fees and personal property aid effectively consume most or all of the allowable levy increase before any discretionary spending decisions are made. Staff also flagged uncertainty around how the TIF 2 closure — expected to yield roughly $400,000 in additional levy capacity — will be treated by the state on the levy limit worksheet."
-      },
-      {
-        "item": "Expenditure Restraint Program",
-        "body": "Staff explained the village currently receives $138,000 under the state expenditure restraint program — $88,000 in the general fund and $50,000 in capital — and expressed concern that the TIF 2 closure could push general fund expenditures above program thresholds and disqualify the village. A potential strategy discussed was moving general transportation aid and associated street maintenance expenditures out of the general fund into Fund 42 to keep general fund expenditures within restraint limits. Staff acknowledged the rules have significant complexity and work-arounds but emphasized compliance."
-      },
-      {
-        "item": "2027 Budget Priorities Discussion",
-        "body": "Trustees debated whether the stated budget priorities aligned with community priorities identified in the comprehensive plan, where road maintenance (86% importance, 13% satisfaction) and public safety topped the list. Trustee Clark questioned whether items like a robotic lawnmower reflected village priorities or staff wish-list items, and suggested reframing such items around staff retention and reallocation rather than equipment purchases. Trustee Ermeling and others raised the process concern that discussing wages before knowing available revenues was backwards. A citizen Finance/HR committee member requested data on the number of employees at various pay ranges, supervisor-to-employee compression, merit pay examples, and the total all-in cost per 1% salary change. Staff confirmed SAFER-funded firefighters (approximately 68% of their cost) would migrate to the general fund upon program transition, representing a significant budget pressure."
-      },
-      {
-        "item": "Wages, Benefits, and Health Insurance Update",
-        "body": "Staff reported that Spectrum (the village's health insurance consortium) has preliminarily estimated a 15% premium increase for 2027, though last year's preliminary estimate of 20% came in at negative 5%. The budget currently carries a 10% placeholder. Staff will conduct a form-fire analysis to price the village independently as a contingency. A 3% COLA placeholder has been included for staff wages along with a merit and market component. The average hourly wage is approximately $63,382 and average salary is approximately $88,724, with the highest salary at $127,000. Trustees discussed alternatives to straight percentage raises including HSA contribution increases, additional holidays (Martin Luther King Day, Juneteenth, Veterans Day), and 4x10 work schedules. The village has an 85/15 premium split with employees and has absorbed premium increases the past two years without passing costs to employees."
-      },
-      {
-        "item": "Trustee Compensation for 2027–2029 Term",
-        "body": "Village President Maloney stated he did not believe trustee compensation needed to change, noting trustees earn $7,200 per year and the president earns $8,400 — rates set approximately eight years ago after 24 years with no adjustment. He cited comparators including the Town of Weston chair at $14,000, the City of Schofield at $12,000–$13,000, and Marathon County supervisors at $4,600. The Finance/HR committee moved and seconded to leave compensation unchanged for the 2027–2029 term; the motion carried. The full board then made the same motion, which also passed unanimously."
-      },
-      {
-        "item": "Capital Improvement Plan Review",
-        "body": "Staff reviewed the 2026–2027 capital improvement fund accounts covering facilities, streets, and equipment. Most 2026 projects are already underway with engineering and contracts in place. A $1 million line item for the Howland project was identified as a coding error — correctly budgeted but placed under 'workers comp' rather than 'contracted services/street and curb.' A $100,000 placeholder was included for pool leak detection, described as a rough estimate pending ongoing exploration. Staff confirmed no capital expenditures move forward without final board approval regardless of CIP inclusion."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Jim Pensel, 512 [address partially inaudible]. He expressed concern about the 6 p.m. (originally 5:30 p.m.) start time limiting public participation and asked future meetings be held at 6 p.m. He also raised concern that no formal goals agenda item was included and that costs for the staff/director wish list were not in the packet. Most critically, he argued that discussing pay increases as the first budget item was premature and inappropriate given that revenue figures and mandated costs are not yet known, and that citizen-identified priorities like public safety and streets should come first.",
-    "actionItems": [
-      "Finance Director to bring back data on number of employees at each pay range tier, supervisor-to-employee compression ratios, merit pay usage examples, and total all-in cost per 1% salary change",
-      "Staff to conduct form-fire health insurance pricing analysis as contingency to leaving the Spectrum consortium",
-      "Staff to explore whether general transportation aid and street maintenance expenditures can be moved to Fund 42 to preserve expenditure restraint program eligibility after TIF 2 closure",
-      "Staff to add 2027 budget strategic plan review discussion to an upcoming budget workshop meeting agenda; current plan (through 2025) available on village website",
-      "Staff to correct capital improvement fund coding error placing Howland project costs under workers comp line instead of contracted services",
-      "Lisa Beck to distribute 2025 Marathon County municipal elected official compensation spreadsheet to all trustees",
-      "Staff to explore requiring departments to submit 1-year, 3-year, and 5-year goal projections alongside budget requests beginning with 2027 cycle",
-      "Trustee compensation for 2027–2029 term set at $7,200 (trustee) and $8,400 (president) — no change from current term",
-      "Borrowing resolution to support 2026–2027 capital improvement plan expenditures to be brought to next board meeting"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Utilities",
-      "Roads",
-      "TIF District Closure"
-    ],
-    "votes": [
-      {
-        "item": "Resolution 2026-023: Authorization of waterworks system revenue bonds up to $1,291,283",
-        "motion": "Motion to approve",
-        "mover": "Ermeling (referenced as 'early' in transcript, consistent with Ermeling)",
-        "second": "Zeyghami",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Finance/HR Committee motion: Trustee compensation for 2027–2029 term remains unchanged",
-        "motion": "Motion to leave trustee compensation as it is going forward for the 2027–2029 term",
-        "mover": "Daniels (citizen committee member)",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Board of Trustees motion: Trustee compensation for 2027–2029 term remains at $7,200 (trustee) and $8,400 (president)",
-        "motion": "Motion that trustee compensation for the 2027–2029 term remains the same at $7,200 for trustee and $8,400 for president",
-        "mover": "Maloney (reading motion; Ermeling indicated as mover per transcript reference to 'Mling')",
-        "second": "Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
