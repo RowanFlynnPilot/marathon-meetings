@@ -2159,6 +2159,39 @@
       "video_url": null,
       "processed_at": "2026-09-19T15:17:53.225170+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-4cm06gyekcu.md"
+    },
+    "bb_766616": {
+      "title": "Closed Meeting - 2026-09-21",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766616",
+      "upload_date": "20260921",
+      "meeting_date": "20260921",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-21T03:07:42.638919+00:00",
+      "summary_file": "summaries/school-board-closed-meeting-2026-09-21-bb-766616.md"
+    },
+    "bb_766613": {
+      "title": "Closed Meeting - 2026-09-21",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766613",
+      "upload_date": "20260921",
+      "meeting_date": "20260921",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-09-21T03:07:46.028653+00:00",
+      "summary_file": "summaries/school-board-closed-meeting-2026-09-21-bb-766613.md"
+    },
+    "kw_2f716f7f5f6946adac8f233327e64e60": {
+      "title": "Plan Commission Meeting - 2026-09-21",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2f716f7f5f6946adac8f233327e64e60.pdf",
+      "upload_date": "20260921",
+      "meeting_date": "20260921",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-31",
+      "processed_at": "2026-09-21T03:07:53.299724+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-09-21-kw-2f716f7f5f6946adac8f233327e64e60.md"
     }
   }
 }

@@ -1,5 +1,167 @@
 [
   {
+    "id": "kw_2f716f7f5f6946adac8f233327e64e60",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "September 21, 2026",
+    "shortDate": "SEP 21",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-31",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2f716f7f5f6946adac8f233327e64e60.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Kronenwetter Village Plan Commission was scheduled to meet on September 21, 2026, to consider a land division request, review a conditional use permit for a Marathon County highway garage, and discuss potential amendments to the Green Tree Trails Subdivision preliminary plat recommendation. The meeting also included a scheduled update on the village's ongoing zoning and subdivision ordinance review.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Community Development Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Shaina Daris land division by Certified Survey Map - 2172 Wood Rd and 2208 Tracy Ct (PIN: 14527080730008 and PIN: 14527080730011)"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Permit - Marathon County Facility - Highway Garage"
+      },
+      {
+        "time": "N/A",
+        "item": "Update on Green Tree Trails Subdivision Preliminary Plat application and possible action to rescind or amend prior recommendation"
+      },
+      {
+        "time": "N/A",
+        "item": "Next Steps in Ongoing Review of Zoning and Subdivision Ordinances"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Shaina Daris Land Division Request",
+        "body": "The Plan Commission was scheduled to consider a Certified Survey Map application that would change property boundaries between two parcels located in Glen Arbor subdivision. The request involved adjusting the line between 2172 Wood Road and 2208 Tracy Court to reconfigure the two affected properties."
+      },
+      {
+        "item": "Conditional Use Permit - Marathon County Highway Garage",
+        "body": "The Commission was set to discuss and potentially take action on a conditional use permit application related to a Marathon County facility highway garage. No additional details regarding the location or specific conditions were provided in the agenda."
+      },
+      {
+        "item": "Green Tree Trails Subdivision Preliminary Plat",
+        "body": "The Commission was scheduled to receive an update on the Green Tree Trails Subdivision preliminary plat application and was expected to consider whether to rescind or amend a prior recommendation made regarding this development."
+      },
+      {
+        "item": "Zoning and Subdivision Ordinance Review",
+        "body": "The Commission was set to discuss next steps in an ongoing review of the village's zoning and subdivision ordinances. This item was scheduled for discussion regarding the path forward for potential updates to these regulatory documents."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, at the discretion of the presiding officer.",
+    "actionItems": [
+      "Scheduled to vote on or make recommendation regarding Shaina Daris Certified Survey Map land division",
+      "Expected to consider conditional use permit for Marathon County highway garage",
+      "Scheduled to consider rescinding or amending prior recommendation on Green Tree Trails Subdivision preliminary plat",
+      "Expected to discuss next steps for ongoing zoning and subdivision ordinance review"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Land Division",
+      "Green Tree Trails Subdivision",
+      "Ordinance Review"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_766613",
+    "source": "school_board",
+    "title": "Closed Meeting",
+    "date": "September 21, 2026",
+    "shortDate": "SEP 21",
+    "committee": "Closed Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766613",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766613",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to convene in closed session on September 21, 2026, to hold a pupil expulsion hearing pursuant to Wisconsin Statutes. The Board was expected to consider expulsion proceedings and may have taken action in closed session as deemed necessary and appropriate.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call To Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Motion to convene in closed session pursuant to s. 19.85(1)(a), (f), and (g), and s. 118.125 of the Wisconsin Statutes to hold a pupil expulsion hearing"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Pupil Expulsion Hearing",
+        "body": "The Board was scheduled to convene in closed session to hold a pupil expulsion hearing under Wisconsin Statutes s. 19.85(1)(a), (f), and (g), as well as s. 118.125. The Board was expected to deliberate privately at the conclusion of the expulsion hearing and was authorized to take action in closed session if necessary and appropriate. Following the closed session, the Board was expected to consider reconvening into open session and taking further action if warranted."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on a motion to convene in closed session for the pupil expulsion hearing",
+      "Board was expected to deliberate and potentially take action regarding the expulsion proceeding",
+      "Board was expected to vote on a motion to reconvene in open session following the closed deliberation"
+    ],
+    "topics": [
+      "Policy",
+      "Student Discipline",
+      "Legal/Compliance"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_766616",
+    "source": "school_board",
+    "title": "Closed Meeting",
+    "date": "September 21, 2026",
+    "shortDate": "SEP 21",
+    "committee": "Closed Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766616",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=766616",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to convene in a closed session on September 21, 2026, to hold a pupil expulsion hearing. The Board was expected to deliberate privately and potentially take action in closed session as necessary and appropriate, with the option to reconvene in open session for any further proceedings.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call To Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Motion to convene in closed session pursuant to s. 19.85(1)(a), (f), and (g), and s. 118.125 of the Wisconsin Statutes to hold a pupil expulsion hearing"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Pupil Expulsion Hearing",
+        "body": "The Board was scheduled to convene in closed session to hold a pupil expulsion hearing pursuant to Wisconsin Statutes s. 19.85(1)(a), (f), and (g), as well as s. 118.125. The Board was expected to deliberate privately at the conclusion of the hearing and may take action in closed session if necessary and/or appropriate. Following the closed session, the Board was scheduled to consider reconvening in open session and may take further action if necessary and/or appropriate."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on a motion to convene in closed session for the pupil expulsion hearing",
+      "Board was expected to consider taking action in closed session if necessary and/or appropriate",
+      "Board was expected to vote on a motion to reconvene in open session following the closed session",
+      "Board was expected to adjourn the meeting"
+    ],
+    "topics": [
+      "Student Discipline",
+      "Board Governance",
+      "Expulsion Hearing"
+    ],
+    "votes": []
+  },
+  {
     "id": "4cM06GyeKcU",
     "source": "marathon",
     "title": "Executive Committee Meeting",
@@ -5278,465 +5440,6 @@
         "second": "Watson",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "4FQUvADOROU",
-    "source": "marathon",
-    "title": "Board Regular Meeting Pt.1",
-    "date": "August 25, 2026",
-    "shortDate": "AUG 25",
-    "committee": "County Board",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=4FQUvADOROU",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board of Supervisors held its regular meeting on August 25, covering several significant items including a contested infrastructure committee chair appointment, amendments to battery energy storage and large energy facility ordinances, a data center moratorium, and a pivotal vote on whether to proceed with Phase 3 of a new county highway facility estimated to potentially cost up to $60 million. The meeting was significant for residents as it set new zoning rules for battery storage systems, established a temporary moratorium on data centers, and moved the controversial highway garage project forward toward competitive bidding.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order, Pledge of Allegiance, Moment of Reflection"
-      },
-      {
-        "time": "1:45",
-        "item": "Reading of Notice"
-      },
-      {
-        "time": "3:10",
-        "item": "Roll Call and Welcome"
-      },
-      {
-        "time": "4:30",
-        "item": "Educational Presentations / Standing Committee Reports"
-      },
-      {
-        "time": "5:00",
-        "item": "Consent Agenda Items C8 through C13C1 (excluding C11A)"
-      },
-      {
-        "time": "7:00",
-        "item": "C11A - Infrastructure Committee Chair Appointment (Supervisor Griner vs. Supervisor Gao)"
-      },
-      {
-        "time": "25:00",
-        "item": "Ordinance 27-26 - Amending General Code Chapter 17: Battery Energy Storage Systems (BESS)"
-      },
-      {
-        "time": "1:10:00",
-        "item": "Ordinance 28-26 - Amending General Code Chapter 17: Moratorium on Data Centers"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Ordinance 29-26 - Amending General Code Chapter 17: Large Energy Generating Facilities"
-      },
-      {
-        "time": "1:55:00",
-        "item": "Resolution 49-26 (E18) - Authorizing Staff to Proceed with Phase 3 Construction of Proposed New Highway Facility"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Consent Agenda C8 through C13C1 (excluding C11A)",
-        "body": "Motion by Supervisor Rosenberg, seconded by Supervisor Jeang. Supervisor Arstead requested C11A be pulled for a separate vote. A supervisor also briefly confused this agenda block with Resolution 49-26 (highway facility), which Chair Gibbs clarified was a separate item. The remaining consent agenda passed unanimously."
-      },
-      {
-        "item": "C11A - Infrastructure Committee Chair Appointment",
-        "body": "The contested appointment pitted Supervisor Griner (a second-term supervisor) against Supervisor Gao (a first-term supervisor serving as vice chair of infrastructure). Supervisor Arstead argued Gao had proven himself through his response to the Ringle tornado and his experience as a supervisor in Dane County. Vice Chair Dickinson echoed support for Gao, noting Gao had chaired meetings in Dickinson's absence and was more experienced overall. Chair Gibbs and Vice Chair Boots defended Griner, citing a tradition of not placing first-term supervisors as committee chairs. Supervisor Drebeck suggested the matter go to the Rules Review Committee in the future. The motion to approve Griner as Infrastructure Committee chair failed, and Gibbs said he and the vice chair would meet to recommend a chair for next month."
-      },
-      {
-        "item": "Ordinance 27-26 - Battery Energy Storage Systems (BESS) Amendment",
-        "body": "Staff planner Shad Harvey presented the ordinance as strengthening existing Chapter 17 BESS protections. Supervisor Dickinson raised the question of whether the 300-foot residential setback was adequate given ember travel in fires, and staff recommended 500 feet as a defensible middle ground. Supervisor Sundoski moved to refer the ordinance back to the Environmental Resources Committee (ERC) citing concerns about missing provisions on waterways, decommissioning, and liability; this motion was seconded by Supervisor Hapa but failed on a vote. Supervisor Dickinson then moved to amend the setback from 300 to 500 feet, and Supervisor Sundoski moved a further amendment to extend that setback to all structures, not just residences. Both amendments passed. The ordinance as twice-amended was then approved, though not unanimously. Staff clarified that standalone BESS under county zoning require conditional use permits reviewed by the Board of Adjustment, and system owners are required to provide and replace specialized firefighting equipment for first responders."
-      },
-      {
-        "item": "Ordinance 28-26 - Moratorium on Data Centers",
-        "body": "Motion by Supervisor Drebeck, seconded by Supervisor Conway. Chair Gibbs noted the county currently has no Chapter 17 provisions for data centers, and the moratorium of up to 12 months gives staff time to develop an ordinance. No significant debate was recorded. The ordinance passed but was not unanimous."
-      },
-      {
-        "item": "Ordinance 29-26 - Large Energy Generating Facilities Amendment",
-        "body": "This novel ordinance — described by outside counsel Rebecca Roker as the first of its kind in Wisconsin — would require developers to submit engineering plans to the county 60 days before filing a CPCN application with the PSC, giving the county an early engagement opportunity. Supervisor Leur expressed concern about vague, unmeasurable language in sections 3 and 4 regarding 'undue adverse impact' and 'unreasonably interfere.' Supervisor Sundoski moved to refer back to ERC for consideration of a moratorium; that motion failed. Supervisor Dickinson then moved to amend the ordinance to require the county to share received engineering plan information with all municipalities in Marathon County, seconded by Supervisor Arstead; that amendment passed unanimously. The ordinance as amended was then approved, though not unanimously. Supervisor Gao cautioned that vague moratorium language would be dismissed by the PSC."
-      },
-      {
-        "item": "Resolution 49-26 (E18) - Phase 3 Construction of New Highway Facility",
-        "body": "Supervisor Krebs gave a lengthy statement opposing the project on fiscal grounds, comparing the potential $55-60 million price tag unfavorably to a fire station, police department, and DPW garage combined, and calling for a public referendum. Supervisors Robinson, Dickinson, Griner, Ness, and Vice Chair Boots defended the resolution, emphasizing it only authorizes staff to release bid documents to obtain a guaranteed maximum price — not to break ground — and that construction costs continue to rise annually. Concerns were raised about coal dust from the adjacent WPS plant affecting employee health; staff noted HVAC filtration is designed to address particulate matter and WPS is expected to transition from coal to natural gas by the early 2030s. Administrator Leonard confirmed the resolution accomplishes two things: authorizing bid release and approving a general financial plan using previously issued debt to reduce new borrowing needs. The vote outcome was not explicitly stated in the transcript before the recording ended."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Chair Gibbs and Vice Chair to meet and recommend a new Infrastructure Committee chair for next month's meeting",
-      "Rules Review Committee to consider establishing clearer protocol for filling committee chair vacancies",
-      "BESS ordinance (27-26) adopted with 500-foot setback from all structures; staff to implement amended Chapter 17 provisions",
-      "Data center moratorium (Ordinance 28-26) adopted; staff to develop a data center zoning ordinance within 12 months",
-      "Large energy generating facilities ordinance (29-26) adopted as amended; staff to share engineering plan information with all county municipalities upon receipt",
-      "Staff directed to release bid documents for Phase 3 highway facility construction and return with guaranteed maximum price for board consideration",
-      "Staff to prepare operational cost comparison between current and proposed highway facilities for HR Finance and Property Committee review in October",
-      "Administrator Leonard to look into air quality data near proposed highway facility site related to WPS coal dust drift"
-    ],
-    "topics": [
-      "Budget",
-      "Zoning",
-      "Renewable Energy",
-      "Highway Facility",
-      "Battery Energy Storage Systems"
-    ],
-    "votes": [
-      {
-        "item": "Consent Agenda C8 through C13C1 (excluding C11A)",
-        "motion": null,
-        "mover": "Supervisor Rosenberg",
-        "second": "Supervisor Jeang",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "C11A - Approve Supervisor Griner as Infrastructure Committee Chair",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Motion to refer BESS Ordinance 27-26 back to ERC committee",
-        "motion": null,
-        "mover": "Supervisor Sundoski",
-        "second": "Supervisor Hapa",
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Amendment to BESS Ordinance 27-26: increase residential setback from 300 to 500 feet",
-        "motion": null,
-        "mover": "Supervisor Dickinson",
-        "second": "Supervisor Jensen",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment to the amendment: extend 500-foot setback to all structures, not just residences",
-        "motion": null,
-        "mover": "Supervisor Sundoski",
-        "second": "Supervisor Enzide",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "BESS Ordinance 27-26 as amended (500-foot setback for all structures)",
-        "motion": null,
-        "mover": "Supervisor Leur",
-        "second": "Supervisor Shaneborn",
-        "outcome": "Approved",
-        "tally": "Not unanimous"
-      },
-      {
-        "item": "Data Center Moratorium Ordinance 28-26",
-        "motion": null,
-        "mover": "Supervisor Drebeck",
-        "second": "Supervisor Conway",
-        "outcome": "Approved",
-        "tally": "Not unanimous"
-      },
-      {
-        "item": "Motion to refer Large Energy Generating Facilities Ordinance 29-26 back to ERC and consider moratorium",
-        "motion": null,
-        "mover": "Supervisor Sundoski",
-        "second": "Supervisor Andress",
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Amendment to Ordinance 29-26: share engineering plan information with all municipalities in Marathon County",
-        "motion": null,
-        "mover": "Supervisor Dickinson",
-        "second": "Supervisor Arstead",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Large Energy Generating Facilities Ordinance 29-26 as amended",
-        "motion": null,
-        "mover": "Supervisor Coyle",
-        "second": "Supervisor Ritter",
-        "outcome": "Approved",
-        "tally": "Not unanimous"
-      },
-      {
-        "item": "Resolution 49-26: Authorize staff to proceed with Phase 3 of proposed new highway facility",
-        "motion": null,
-        "mover": "Supervisor Robinson",
-        "second": "Supervisor Gao",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "bb_759941",
-    "source": "school_board",
-    "title": "Committee of the Whole Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Committee of the Whole",
-    "duration": "17m",
-    "url": "https://www.youtube.com/watch?v=wewasXFoF6c",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759941",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau School Board's Committee of the Whole met on August 24, 2026 to review and recommend approval of the district's preliminary 2026-2027 budget and related financial matters ahead of the annual meeting. The committee approved a balanced general fund budget of approximately $118.3 million and a projected tax levy of about $45.8 million, with the mill rate declining from $0.658 to $0.654 per $1,000 of equalized value. The board president highlighted that this marks a second consecutive year of a balanced budget, a notable turnaround from prior years.",
-    "agenda": [
-      {
-        "time": "0:01",
-        "item": "Call to Order / Opening Vote"
-      },
-      {
-        "time": "0:10",
-        "item": "Public and Student Comment"
-      },
-      {
-        "time": "0:20",
-        "item": "Agenda Item 4: Audit of the Bills"
-      },
-      {
-        "time": "0:45",
-        "item": "Agenda Item 5: Legal Counsel Expenses Summary Report (2025-2026) – Information Only"
-      },
-      {
-        "time": "1:15",
-        "item": "Agenda Item 6: Approval of List of Legal Firms"
-      },
-      {
-        "time": "1:45",
-        "item": "Agenda Item 7: Recommendation of Date, Time, and Location for 2026-2027 Budget Hearing and Annual Meeting"
-      },
-      {
-        "time": "2:30",
-        "item": "Agenda Item 8: Shared Equalized Value Estimates for 2026-2027 – Information Only"
-      },
-      {
-        "time": "5:00",
-        "item": "Agenda Items 9-10: Preliminary 2026-2027 General Fund Budget and Tax Levy Recommendations"
-      },
-      {
-        "time": "15:00",
-        "item": "Consent Agenda: Staffing Appointments, Separations, Leaves, Retirements"
-      },
-      {
-        "time": "15:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public and Student Comment",
-        "body": "Board President Bouché asked whether anyone was on the public comment list. No members of the public or students were signed up to speak, and the meeting proceeded without any public comment."
-      },
-      {
-        "item": "Audit of the Bills",
-        "body": "The committee was asked to approve the audit of bills as presented. No questions were raised by board members. The motion was made, seconded, and approved unanimously."
-      },
-      {
-        "item": "Legal Counsel Expenses Summary Report (2025-2026)",
-        "body": "Dr. Elizabeth Canol, Assistant Superintendent of Operations, presented a written summary report of all legal counsel expenses incurred during 2025-2026, separated by law firm and type of legal advice. No action was required or taken on this informational item."
-      },
-      {
-        "item": "Approval of List of Legal Firms",
-        "body": "The committee considered a list of law firms the district uses for various legal needs. No additional firms were proposed. A motion was made and seconded to approve the list of law firms the board and district shall access for legal services as deemed necessary by the superintendent or designee, and it passed unanimously."
-      },
-      {
-        "item": "2026-2027 Annual Meeting and Budget Hearing Date",
-        "body": "The committee recommended Monday, September 28, 2026 as the date for the 2026-2027 annual meeting and budget hearing, to be held at 5:00 p.m. in the Nicholson Boardroom at the Longfellow Administration Center, beginning with the budget hearing followed by the annual meeting. The motion was made, seconded, and approved unanimously with no questions raised."
-      },
-      {
-        "item": "Shared Equalized Value Estimates – Information Only",
-        "body": "A district finance staff member presented shared equalized value estimates for 2026-2027. The district's equalized property value was estimated at $7.9 billion, reduced by approximately $9.2 million for TID value, yielding a net equalized value of approximately $7 billion. Property values in the district are projected to increase 4.03% for 2026-2027, compared to an 8.98% increase the prior year. No action was required; the information was presented for awareness ahead of the annual meeting."
-      },
-      {
-        "item": "Preliminary 2026-2027 General Fund Budget",
-        "body": "A finance presenter outlined the preliminary 2026-2027 general fund budget, noting budget opportunities including flat $325 per-pupil categorical aid now saved in perpetuity, a 2021 referendum adding $500 per-pupil revenue, and CPI of 2.63% distributed as raises across all employee groups. Budget challenges included a 10% health insurance premium increase, inflation outpacing revenue limit adjustments, and approximately $5 million in deferred maintenance needs. State general aid is projected to drop by about $2.6 million to approximately $75.3 million. Board President Bouché praised the balanced budget as a significant achievement, noting it is the second consecutive year the budget has been balanced after years of carrying a deficit forward. The committee recommended a preliminary general fund budget of $118,307,108 for both expenses and revenue; the motion passed unanimously."
-      },
-      {
-        "item": "Projected 2026-2027 Tax Levy",
-        "body": "The committee considered the projected tax levy of $45,848,693 for presentation at the annual meeting. A board member asked about the mill rate, and the presenter confirmed the rate had declined from $0.658 to $0.654 per $1,000 of equalized value, a reduction of $4 per $1,000. The motion to recommend this levy to the full Board of Education passed unanimously."
-      },
-      {
-        "item": "Consent Agenda",
-        "body": "The consent agenda covering appointments of additional and replacement staff, contract increases, separations, terminations, contract decreases, leaves of absence, and retirements was moved, seconded, and approved unanimously without discussion."
-      }
-    ],
-    "publicComment": "No public comment was offered. Board President Bouché confirmed no members of the public or students were signed up to speak.",
-    "actionItems": [
-      "Full Board of Education to formally approve Monday, September 28, 2026 at 5:00 p.m. in the Nicholson Boardroom at Longfellow Administration Center as the date and location for the 2026-2027 annual meeting and budget hearing",
-      "Preliminary 2026-2027 general fund budget of $118,307,108 for expenses and revenue to be presented at the annual meeting and budget hearing",
-      "Projected 2026-2027 tax levy of $45,848,693 to be presented at the annual meeting and budget hearing",
-      "District to continue finalizing budget as final staffing counts, certified property values, state equalization aid, third Friday pupil count, and Wisconsin Parent Choice Program voucher costs are confirmed in coming months",
-      "Budget book draft to be posted on district website following the September 28 board meeting; current draft available in BoardBook",
-      "Approved list of legal firms for district legal services needs",
-      "Approved consent agenda items including staff appointments, separations, leaves, and retirements"
-    ],
-    "topics": [
-      "Budget",
-      "Tax Levy",
-      "Staffing",
-      "Legal Services",
-      "Annual Meeting"
-    ],
-    "votes": [
-      {
-        "item": "Audit of the Bills",
-        "motion": "Approve the audit of the bills as presented",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approval of List of Legal Firms",
-        "motion": "Approve the attached list of law firms the board and district shall access for legal services deemed necessary by the superintendent or designee",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "2026-2027 Annual Meeting and Budget Hearing Date",
-        "motion": "Recommend to the full board approval of Monday, September 28, 2026 as the date for the 2026-2027 annual meeting and budget hearing at 5:00 p.m. in the Nicholson Boardroom at Longfellow Administration Center",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Preliminary 2026-2027 General Fund Budget",
-        "motion": "Recommend to the Board of Education a preliminary 2026-2027 general fund budget of $118,307,108 for expenses and $118,307,108 for revenue for presentation at the annual meeting and budget hearing",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Projected 2026-2027 Tax Levy",
-        "motion": "Recommend to the Board of Education a projected tax levy of $45,848,693 for presentation at the annual meeting and budget hearing",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Consent Agenda",
-        "motion": "Approve the consent agenda",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "u4JqC0FMt8U",
-    "source": "wausau",
-    "title": "Police & Fire Commission Meeting",
-    "date": "August 24, 2026",
-    "shortDate": "AUG 24",
-    "committee": "Wausau Police & Fire Commission",
-    "duration": null,
-    "url": "https://www.youtube.com/watch?v=u4JqC0FMt8U",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Police & Fire Commission met on August 24, 2025, welcoming new member Lisa Nowak and appointing V Lesky as secretary. The commission approved a new deputy chief promotional process designed as an early step in police chief succession planning, and received updates from both fire and police chiefs highlighting ongoing staffing shortages, budget pressures, a viral use-of-force incident, and a fundraiser for an officer with stage four cancer.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Welcome of New Commissioner Lisa Nowak"
-      },
-      {
-        "time": "1:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "2:30",
-        "item": "New Business: Appointment of Secretary"
-      },
-      {
-        "time": "3:30",
-        "item": "Approval of Minutes (July 27, June 22, August 3)"
-      },
-      {
-        "time": "5:00",
-        "item": "Discussion and Possible Action on Deputy Chief Promotional Process"
-      },
-      {
-        "time": "20:00",
-        "item": "Monthly Presentation: Fire Department Update (Chief Cobb)"
-      },
-      {
-        "time": "27:00",
-        "item": "Monthly Presentation: Police Department Update (Chief Barnes)"
-      },
-      {
-        "time": "50:00",
-        "item": "Other Business / Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Welcome of New Commissioner Lisa Nowak and Appointment of Secretary",
-        "body": "The commission president welcomed Lisa Nowak as the newest member, filling the seat vacated by Cheryl Barr, with a term ending April 30, 2028. Her HR background was cited as an asset. The president also announced the appointment of V Lesky as commission secretary, citing his legal background, to fill the vacancy left by Cheryl Barr's retirement from the commission."
-      },
-      {
-        "item": "Approval of Minutes (July 27, June 22, August 3)",
-        "body": "The commission president noted that the June 22nd minutes were returning for correction — a date error listed 'April 2026' had been corrected to 'April 2025' in reference to when a complaint started. A motion was made to approve all three sets of minutes together; it was seconded and passed unanimously with no objection."
-      },
-      {
-        "item": "Discussion and Possible Action on Deputy Chief Promotional Process",
-        "body": "The commission president outlined a new, more robust internal deputy chief promotional process developed collaboratively with the police chief, framed as an early step in chief succession planning given that the deputy chief is retiring in January 2027 and the chief intends to retire in early 2028. The process would include listening sessions with officers, detectives, clerical staff, and lieutenants; formal candidate presentations to the commission on financial and operational challenges; written department assessments; panel interviews; and the chief's one-on-one interviews before making a final recommendation. Commissioners expressed general support, with one asking whether public participation should be incorporated; the president suggested that level of public involvement may be more appropriate at the chief selection stage. The chief suggested that annual listening sessions with staff could benefit the commission's ongoing understanding of department culture. The commission agreed to proceed, targeting applications in September, screening in November, and a decision at the December PFC meeting. A commissioner flagged that a special December meeting may be needed given potential overlap with a police hiring process."
-      },
-      {
-        "item": "Fire Department Monthly Update (Chief Cobb)",
-        "body": "Fire Chief Cobb reported that the apprenticeship program is on track with 45 applicants for nine positions, led by Deputy Chief Ploussard in partnership with NTC. However, the department remains six positions down with another retirement in December. One of two candidates from a prior special meeting failed the psychological exam and will not advance; the other is awaiting a physical agility test delayed by a broken stair stepper at NTC. The chief also noted significant budget pressure, with direction from the mayor's office to cut approximately 2% from the budget, requiring creative solutions alongside Deputy Chief."
-      },
-      {
-        "item": "Police Department Monthly Update (Chief Barnes)",
-        "body": "Chief Barnes described a difficult recent period including a use-of-force incident that went viral on social media, generating hundreds of critical emails, as well as a fatal fire and multiple death-related calls affecting officer mental health. The department has three current openings and anticipates six retirements in early 2027, creating a need to hire nine officers — historically difficult in a single process. The chief said 22 candidates are currently in the queue with the application period still open. He explained the complexity of the state's maintenance-of-effort requirement tied to shared revenue, noting that the penalty for falling short far exceeds the ~$300,000 in budget cuts being requested. He expressed optimism about 2027 and mentioned a fundraiser for 24-year-old Officer Rafael 'Buddy' Carey, who is battling stage four cancer. The commission president suggested adding the annual report to the next agenda for further questions."
-      }
-    ],
-    "publicComment": "No public comment was offered. The commission president noted no members of the public were present and moved directly to new business.",
-    "actionItems": [
-      "V Lesky appointed as commission secretary",
-      "Deputy chief promotional process to launch this fall: applications open in September, listening sessions begin mid-October, screening in November, decision and announcement at December PFC meeting",
-      "Staff to work with Noelle to schedule listening sessions and interviews for deputy chief process",
-      "Annual police department report to be added to September 28 agenda for commissioner questions",
-      "Consider scheduling a special meeting in December if police hiring process and deputy chief promotion overlap",
-      "Next regular meeting set for Monday, September 28"
-    ],
-    "topics": [
-      "Public Safety",
-      "Staffing",
-      "Budget",
-      "Police Chief Succession",
-      "Firefighter Recruitment"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from July 27, June 22, and August 3 meetings",
-        "motion": "Motion to approve all three sets of minutes",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
