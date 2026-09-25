@@ -154,7 +154,9 @@ def main() -> int:
                         help="print 'TRIPPED <usd>' or 'OK <usd>' for the last 24h")
     args = parser.parse_args()
 
-    rows = _load(ledger_path())
+    # Reports read the committed ledger wherever they run; only record()
+    # diverts local writes (see ledger_path).
+    rows = _load(Path(os.environ.get("COST_LEDGER", "costs.json")))
     day, week = _window(rows, 24), _window(rows, 24 * 7)
 
     if args.summary:
