@@ -2183,13 +2183,17 @@ def main():
             finally:
                 save_state(state)
 
+    # No early return when nothing is new: the upgrade passes below
+    # (Kronenwetter minutes, BoardBook recordings) and the run report that
+    # drives the watchdog issues must run every time. Returning here skipped
+    # them on every quiet run until Sept 2026.
     if not all_pending:
-        print("[ok]  No new meetings to process."); return
-
-    print(f"\n[agenda]  {len(all_pending)} meeting(s) to process:")
-    for v in all_pending:
-        ch = CHANNELS[v["source"]]
-        print(f"   [{ch['label']}] {v['title']}")
+        print("[ok]  No new meetings to process.")
+    else:
+        print(f"\n[agenda]  {len(all_pending)} meeting(s) to process:")
+        for v in all_pending:
+            ch = CHANNELS[v["source"]]
+            print(f"   [{ch['label']}] {v['title']}")
 
     if args.dry_run:
         print("\n[DRY RUN] No files written."); return

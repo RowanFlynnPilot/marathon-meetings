@@ -372,7 +372,7 @@ jobs:
               print(f\"- [{s['source']}] {s['title']} — unprocessed for {s['age_hours']}h\")
           ")
             TITLE="🏠 Residential transcript fetcher may be down (${STALE} video(s) stuck, checked $(date +%Y-%m-%d))"
-            BODY="These YouTube videos have been unprocessed for over 36 hours. CI cannot fetch captions (cloud IPs are blocked), so they depend on the residential sweep — the MarathonMeetings-RefreshTranscripts task on the operator machine (7 AM / 7 PM). It normally clears a video within ~12 hours."
+            BODY="These YouTube videos have been unprocessed for over 36 hours. CI cannot fetch captions (cloud IPs are blocked), so they depend on the residential sweep — the MarathonMeetings-RefreshTranscripts task on the operator machine (7 AM, noon, 5 PM, 10 PM). It normally clears a video within ~12 hours; its per-run logs are in logs/ on that machine."
             BODY="${BODY}"$'\n\n'"${LIST}"
             BODY="${BODY}"$'\n\n'"**Check on the operator machine:** is the task running (Task Scheduler → last run result), and does \`python fetch_transcript.py --all\` succeed by hand? A silent break usually means a Python or yt-dlp environment change (see docs/cookie-refresh.md and CLAUDE.md notes). If the fetcher is fine and a video simply has no captions, add its ID to \`SKIP_VIDEO_IDS\` in config.py to dismiss it."
             if [ -n "$EXISTING" ]; then
