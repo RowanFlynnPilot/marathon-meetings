@@ -5,7 +5,10 @@ on:
     # Every 4 hours. Catches freshly-uploaded videos in the same evening so
     # auto-captions have ~6 attempts in the first 24 hours before falling
     # back to agenda-only.
-    - cron: '0 */4 * * *'
+    # :17 rather than :00 — GitHub drops scheduled runs under load and names
+    # the top of the hour as its busiest time; at :00 we got ~4.7 runs/day
+    # instead of 6 (Sept 2026).
+    - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
       backfill:
@@ -283,50 +286,31 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Create agenda-only issue (if any)
+      - name: Maintain overdue-upgrade issue
+        # Agenda-only is the normal first state for most meetings; only an
+        # upgrade that's LATE for its source signals a break (a SoundCloud
+        # title-format change stranded Kronenwetter for four weeks while the
+        # old list-everything issue signaled nothing). check_overdue.py holds
+        # the per-source expected lags. One issue; closes itself when clear.
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ ! -f agenda_only_report.json ]; then
-            echo "No agenda-only report — skipping issue creation."
-            exit 0
-          fi
-          COUNT=$(python -c "import json; d=json.load(open('agenda_only_report.json')); print(len(d.get('agenda_only',[])))")
-          if [ "$COUNT" = "0" ]; then
-            echo "No agenda-only meetings — skipping issue creation."
-            exit 0
-          fi
-          BODY=$(python -c "
-          import json
-          d = json.load(open('agenda_only_report.json'))
-          lines = ['## Agenda-Only Meetings Need Transcripts\n']
-          lines.append(f'{len(d[\"agenda_only\"])} meeting(s) were summarized from agenda documents only.')
-          lines.append('These summaries show what was *scheduled*, not what *actually happened*.\n')
-          lines.append('**To fix:** Grab the transcript from the YouTube app and run:')
-          lines.append('\`\`\`')
-          lines.append('python inject_transcript.py --video-id VIDEO_ID --transcript transcript.txt')
-          lines.append('\`\`\`\n')
-          lines.append('| Meeting | Source | Status |')
-          lines.append('|---------|--------|--------|')
-          for m in d['agenda_only']:
-              vote = ' (has votes)' if m.get('_source') == 'agenda_with_votes' else ''
-              lines.append(f'| [{m[\"title\"]}]({m[\"url\"]}) | {m[\"source\"]} | Agenda only{vote} |')
-          if d.get('transcript_based'):
-              lines.append(f'\n---\n*{len(d[\"transcript_based\"])} other meeting(s) have full transcripts.*')
-          print('\n'.join(lines))
-          ")
-          # Maintain ONE standing status issue instead of filing a new one every
-          # run (6x/day created hundreds of duplicates). Update the open issue
-          # if present; only create when none exists.
-          EXISTING=$(gh issue list --state open --search "Agenda-only meetings need transcripts in:title" --json number --jq '.[0].number // empty')
-          TITLE="📋 Agenda-only meetings need transcripts (updated $(date +%Y-%m-%d))"
-          if [ -n "$EXISTING" ]; then
-            echo "Updating standing issue #$EXISTING"
-            gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+          COUNT=$(python check_overdue.py --print-count --markdown overdue_body.md)
+          EXISTING=$(gh issue list --state open --search "Meeting summaries overdue in:title" --json number --jq '.[0].number // empty')
+          if [ "$COUNT" -gt 0 ]; then
+            TITLE="⏰ Meeting summaries overdue for an upgrade (${COUNT}, checked $(date +%Y-%m-%d))"
+            if [ -n "$EXISTING" ]; then
+              gh issue edit "$EXISTING" --title "$TITLE" --body-file overdue_body.md
+              echo "Updated overdue issue #$EXISTING"
+            else
+              gh issue create --title "$TITLE" --body-file overdue_body.md
+              echo "Opened overdue issue"
+            fi
+          elif [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Nothing is overdue anymore — every displayed agenda-only meeting is within its source's normal recording window. Auto-closing."
           else
-            gh issue create --title "$TITLE" --body "$BODY" --label "transcript-needed" 2>/dev/null || \
-            gh issue create --title "$TITLE" --body "$BODY"
+            echo "No overdue upgrades."
           fi
 
       - name: Maintain cookie-expiry issue

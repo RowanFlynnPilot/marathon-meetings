@@ -19,7 +19,7 @@ Usage:
 Defaults to ./src/data/upcoming.json.
 """
 
-import json, logging, re, sys
+import json, logging, re, sys, time
 import requests
 from datetime import date, datetime, timedelta
 from calendar import monthrange
@@ -60,9 +60,43 @@ def _months_between(start: date, end: date):
     return sorted(seen)
 
 
+def _get(url: str, *, timeout: int = 30, attempts: int = 3, **kwargs) -> requests.Response:
+    """GET with retries. Municipal APIs are occasionally slow: CivicClerk timed
+    out at a 10s limit five times between Aug 20 and Sept 24, 2026, and each
+    time one slow response blanked Wausau from the tracker, calendar feed, and
+    newsletter image."""
+    last = None
+    for i in range(attempts):
+        try:
+            r = requests.get(url, timeout=timeout, **kwargs)
+            r.raise_for_status()
+            return r
+        except requests.RequestException as e:
+            last = e
+            if i < attempts - 1:
+                time.sleep(2 * (i + 1) ** 2)
+    raise last
+
+
+def _keep_last_known_good(source: str, fresh: list[dict] | None,
+                          previous: dict) -> list[dict]:
+    """A fetcher returns None when its upstream didn't answer. Keep that
+    source's previously published meetings that haven't happened yet rather
+    than replacing them with nothing."""
+    if fresh is not None:
+        return fresh
+    today = date.today().isoformat()
+    kept = [e for e in previous.get(source, []) if e.get("date", "") >= today]
+    print(f"  ⚠️  {source}: upstream fetch failed — keeping {len(kept)} "
+          f"last-known-good upcoming meeting(s)")
+    return kept
+
+
 # ── City of Wausau — CivicClerk API ──────────────────────────────────────────
 
-def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
+def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict] | None:
+    """None means CivicClerk didn't answer (after retries) — see
+    _keep_last_known_good. An empty list means it answered with no meetings."""
     today = date.today()
     end   = today + timedelta(days=days_ahead)
 
@@ -74,15 +108,11 @@ def fetch_wausau_upcoming(days_ahead: int = 45) -> list[dict]:
         "&%24orderby=eventDate&%24top=30"
     )
     try:
-        r = requests.get(
-            url,
-            headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
-            timeout=10,
-        )
+        r = _get(url, headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"})
         events = r.json().get("value", [])
     except Exception as e:
         logger.warning("Wausau CivicClerk fetch failed: %s", e)
-        return []
+        return None
 
     results = []
     for e in events:
@@ -146,11 +176,8 @@ def fetch_weston_upcoming(days_ahead: int = 60) -> list[dict]:
     results   = {}
 
     try:
-        r = requests.get(
-            f"{WESTON_CALENDAR_BASE}/agendacenter",
-            headers={"User-Agent": "Mozilla/5.0"},
-            timeout=10,
-        )
+        r = _get(f"{WESTON_CALENDAR_BASE}/agendacenter",
+                 headers={"User-Agent": "Mozilla/5.0"})
         section_pattern = r'<h2[^>]*>([^<]+)</h2>(.*?)(?=<h2|$)'
         sections = re.findall(section_pattern, r.text, re.DOTALL)
 
@@ -310,19 +337,19 @@ SCHOOL_BOARD_SCHEDULE = [
 
 def fetch_boardbook_upcoming(source_key: str = "school_board",
                              days_ahead: int = 60,
-                             rule_schedule: list | None = None) -> list[dict]:
+                             rule_schedule: list | None = None) -> list[dict] | None:
     """Posted future meetings from a district's BoardBook org, plus an optional
-    rule-based projection for months the org hasn't posted yet."""
+    rule-based projection for months the org hasn't posted yet. None means
+    BoardBook didn't answer — the last-known-good list (posted meetings with
+    their real times) beats a rules-only projection."""
     today    = date.today()
     end_date = today + timedelta(days=days_ahead)
     org      = BOARDBOOK_DISTRICTS.get(source_key, {}).get("org", BOARDBOOK_ORG)
     results  = {}
 
     try:
-        r = requests.get(
-            f"{BOARDBOOK_BASE}/Public/Organization/{org}",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=15,
-        )
+        r = _get(f"{BOARDBOOK_BASE}/Public/Organization/{org}",
+                 headers={"User-Agent": "Mozilla/5.0"})
         rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
         for row in rows:
             id_m = re.search(r"/Public/Agenda/\d+\?meeting=(\d+)", row)
@@ -355,6 +382,7 @@ def fetch_boardbook_upcoming(source_key: str = "school_board",
         print(f"  📄  {source_key} BoardBook: {len(results)} posted future meetings")
     except Exception as e:
         logger.warning("BoardBook scrape failed for %s: %s", source_key, e)
+        return None
 
     rule_added = 0
     for yr, mo in _months_between(today, end_date):
@@ -386,16 +414,16 @@ def fetch_school_board_upcoming(days_ahead: int = 60) -> list[dict]:
 from config import KRONENWETTER_BASE
 
 
-def fetch_kronenwetter_upcoming(days_ahead: int = 60) -> list[dict]:
+def fetch_kronenwetter_upcoming(days_ahead: int = 60) -> list[dict] | None:
     """Scrape the Municode hub table for posted future meetings.
-    The portal lists meetings weeks ahead (newest first on page 0)."""
+    The portal lists meetings weeks ahead (newest first on page 0).
+    None means the hub didn't answer."""
     today    = date.today()
     end_date = today + timedelta(days=days_ahead)
     results  = {}
 
     try:
-        r = requests.get(KRONENWETTER_BASE + "/",
-                         headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        r = _get(KRONENWETTER_BASE + "/", headers={"User-Agent": "Mozilla/5.0"})
         rows = re.findall(r"<tr[^>]*>(.*?)</tr>", r.text, re.DOTALL)
         for row in rows:
             text = re.sub(r"&[a-z]+;", " ", row)
@@ -430,6 +458,7 @@ def fetch_kronenwetter_upcoming(days_ahead: int = 60) -> list[dict]:
         print(f"  📄  Kronenwetter Municode hub: {len(results)} posted future meetings")
     except Exception as e:
         logger.warning("Kronenwetter hub scrape failed: %s", e)
+        return None
 
     return sorted(results.values(), key=lambda x: (x["date"], x["time"]))
 
@@ -442,8 +471,15 @@ def main():
     print(f"\n🔄  Updating upcoming meetings → {DATA_PATH}")
     print("=" * 60)
 
+    previous = {}
+    if DATA_PATH.exists():
+        try:
+            previous = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            logger.warning("Existing %s is not valid JSON — no last-known-good fallback", DATA_PATH)
+
     print("\n📡  City of Wausau (CivicClerk API)…")
-    wausau = fetch_wausau_upcoming(days_ahead=45)
+    wausau = _keep_last_known_good("wausau", fetch_wausau_upcoming(days_ahead=45), previous)
 
     print("\n🏘️   Village of Weston (AgendaCenter + rules)…")
     weston = fetch_weston_upcoming(days_ahead=60)
@@ -452,13 +488,13 @@ def main():
     marathon = fetch_marathon_upcoming(days_ahead=60)
 
     print("\n🏫  Wausau School Board (BoardBook + rules)…")
-    school = fetch_school_board_upcoming(days_ahead=60)
+    school = _keep_last_known_good("school_board", fetch_school_board_upcoming(days_ahead=60), previous)
 
     print("\n👑  Village of Kronenwetter (Municode hub)…")
-    kronenwetter = fetch_kronenwetter_upcoming(days_ahead=60)
+    kronenwetter = _keep_last_known_good("kronenwetter", fetch_kronenwetter_upcoming(days_ahead=60), previous)
 
     print("\n🎓  DC Everest School Board (BoardBook)…")
-    dc_everest = fetch_boardbook_upcoming("dc_everest", days_ahead=60)
+    dc_everest = _keep_last_known_good("dc_everest", fetch_boardbook_upcoming("dc_everest", days_ahead=60), previous)
 
     payload = {
         "marathon":     marathon,

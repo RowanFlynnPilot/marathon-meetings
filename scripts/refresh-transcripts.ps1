@@ -1,22 +1,23 @@
 <#
 .SYNOPSIS
-    Fetch transcripts for any agenda-only YouTube meetings, commit, and push.
+    Fetch transcripts for stuck meetings from this machine, commit, and push.
 
 .DESCRIPTION
-    Runs from your residential IP (which YouTube trusts), uses fetch_transcript.py
-    to pull captions for every meeting currently stuck in agenda-only state, then
-    drops the .txt files into transcripts/, commits, and pushes. The CI workflow
-    will pick them up on its next run (every 4 hours) and re-summarize from real
-    transcripts.
+    YouTube blocks GitHub Actions from captions and per-video metadata, so this
+    machine's residential IP is the tracker's only transcript path. Task
+    Scheduler (MarathonMeetings-RefreshTranscripts) runs this four times a day.
 
-    Intended to be run by Windows Task Scheduler twice a day so freshly-uploaded
-    meetings get real summaries on the next CI cycle.
+    fetch_transcript.py --all pulls captions for agenda-only and never-ingested
+    YouTube meetings, matches school-board recordings, and Whisper-transcribes
+    Kronenwetter's SoundCloud audio (capped per run by MAX_AUDIO_JOBS). This
+    script then commits everything new or changed under transcripts/ and
+    pushes; CI re-summarizes on its next run. No API key is needed here.
+
+    The task has no console, so every run writes logs\refresh-<time>.log
+    (kept 14 days), the only record of what a scheduled run did.
 
 .PARAMETER NoPush
     Fetch transcripts but don't commit or push. Useful for dry-runs.
-
-.PARAMETER Verbose
-    PowerShell's built-in -Verbose switch; passed through to subprocess output.
 
 .EXAMPLE
     .\scripts\refresh-transcripts.ps1
@@ -32,93 +33,111 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-# --Locate the project root regardless of where Task Scheduler invokes us ──────
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location $ProjectRoot
 
-Write-Host ""
-Write-Host "--refresh-transcripts.ps1 ------------------------------------------" -ForegroundColor Cyan
-Write-Host "Project: $ProjectRoot"
-Write-Host "Started: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-Write-Host ""
+$LogDir = Join-Path $ProjectRoot "logs"
+New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
+$LogFile = Join-Path $LogDir ("refresh-{0}.log" -f (Get-Date -Format "yyyy-MM-dd_HHmm"))
+Get-ChildItem $LogDir -Filter "refresh-*.log" |
+    Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-14) } |
+    Remove-Item -Force -Confirm:$false
 
-# --Sanity check that the venv + fetch script exist ---------------------──────
-# fetch_transcript.py doesn't call Anthropic — it just downloads .vtt captions
-# and writes them to transcripts/. CI handles the re-summarization later, using
-# its own ANTHROPIC_API_KEY secret. So no API key needed locally.
+function Write-Log([string]$Message) {
+    $line = "{0} {1}" -f (Get-Date -Format "HH:mm:ss"), $Message
+    Write-Host $line
+    Add-Content -Path $LogFile -Value $line -Encoding UTF8
+}
 
-$Python = ".\.venv\Scripts\python.exe"
+# cmd.exe does the redirection so a native command's stderr never becomes a
+# PowerShell ErrorRecord ($ErrorActionPreference = "Stop" would turn git's
+# informational stderr into a crash). Returns the exit code.
+function Invoke-Logged([string]$CommandLine) {
+    Add-Content -Path $LogFile -Value "> $CommandLine" -Encoding UTF8
+    cmd /c "$CommandLine >> `"$LogFile`" 2>&1"
+    return $LASTEXITCODE
+}
+
+$env:PYTHONIOENCODING = "utf-8"
+$exitCode = 0
+Write-Log "refresh-transcripts: $ProjectRoot"
+
+$Python = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
 if (-not (Test-Path $Python)) {
-    Write-Host "[error] Python venv not found at $Python" -ForegroundColor Red
-    exit 2
-}
-if (-not (Test-Path .\fetch_transcript.py)) {
-    Write-Host "[error] fetch_transcript.py not found in $ProjectRoot" -ForegroundColor Red
+    Write-Log "[error] Python venv not found at $Python"
     exit 2
 }
 
-# --Make sure we're up to date with origin before fetching ---------------------
-# Note: git writes informational messages to stderr; redirecting 2>&1 in
-# PowerShell would surface them as ErrorRecords. We let them flow to stderr.
-Write-Host "[git] Pulling latest from origin/main..." -ForegroundColor DarkGray
-git pull --rebase origin main
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "[warn] Could not pull cleanly. Proceeding anyway." -ForegroundColor Yellow
+# Weekly: keep the YouTube-facing libraries current. yt-dlp has to track
+# YouTube's changes; a five-month-old copy (Sept 2026) was already warning
+# about YouTube's new streaming format.
+$Stamp = Join-Path $LogDir ".deps-updated"
+if (-not (Test-Path $Stamp) -or ((Get-Date) - (Get-Item $Stamp).LastWriteTime).TotalDays -ge 7) {
+    Write-Log "[pip] Weekly update of yt-dlp and youtube-transcript-api"
+    $code = Invoke-Logged "`"$Python`" -m pip install --upgrade --quiet yt-dlp youtube-transcript-api"
+    if ($code -eq 0) {
+        Set-Content -Path $Stamp -Value (Get-Date -Format o)
+    } else {
+        Write-Log "[warn] pip upgrade failed (exit $code); continuing with installed versions"
+    }
 }
 
-# --Snapshot transcripts/ so we can tell what's new after fetching -------──────
-$BeforeFiles = @()
-if (Test-Path .\transcripts) {
-    $BeforeFiles = Get-ChildItem .\transcripts -Filter *.txt | ForEach-Object { $_.Name }
+Write-Log "[git] Pulling latest from origin/main"
+$code = Invoke-Logged "git pull --rebase --autostash origin main"
+if ($code -ne 0) {
+    Write-Log "[warn] git pull failed (exit $code); proceeding with the local copy"
 }
 
-# --Fetch all stuck agenda-only meetings -----------------------------------────
-Write-Host ""
-Write-Host "[fetch] Running fetch_transcript.py --all" -ForegroundColor Cyan
-& $Python .\fetch_transcript.py --all
-$fetchExit = $LASTEXITCODE
-
-# --See what landed --------------------------------------------------------────
-$AfterFiles = @()
-if (Test-Path .\transcripts) {
-    $AfterFiles = Get-ChildItem .\transcripts -Filter *.txt | ForEach-Object { $_.Name }
-}
-$NewFiles = $AfterFiles | Where-Object { $BeforeFiles -notcontains $_ }
-
-Write-Host ""
-if ($NewFiles.Count -eq 0) {
-    Write-Host "[done] No new transcripts fetched." -ForegroundColor Green
-    Write-Host ""
-    exit 0
+Write-Log "[fetch] fetch_transcript.py --all"
+$fetchExit = Invoke-Logged "`"$Python`" fetch_transcript.py --all"
+if ($fetchExit -ne 0) {
+    Write-Log "[error] fetch_transcript.py exited $fetchExit (details above)"
+    $exitCode = 1
 }
 
-Write-Host "[ok] $($NewFiles.Count) new transcript(s):" -ForegroundColor Green
-$NewFiles | ForEach-Object { Write-Host "       transcripts/$_" }
+# Commit everything new or changed under transcripts/, not just what this run
+# created: a run killed at the time limit leaves finished transcripts on disk
+# that a before/after comparison would never push.
+Invoke-Logged "git add transcripts/" | Out-Null
+$staged = @(git diff --cached --name-only -- transcripts/)
+if ($staged.Count -eq 0) {
+    Write-Log "[done] Nothing new under transcripts/."
+    exit $exitCode
+}
+$txt = @($staged | Where-Object { $_ -like "*.txt" })
+Write-Log "[ok] $($staged.Count) changed file(s) under transcripts/, $($txt.Count) transcript(s)"
+$staged | ForEach-Object { Write-Log "       $_" }
 
 if ($NoPush) {
-    Write-Host ""
-    Write-Host "[skip] -NoPush set; not committing." -ForegroundColor Yellow
-    exit 0
+    Write-Log "[skip] -NoPush set; changes left staged."
+    exit $exitCode
 }
 
-# --Commit + push --------------------------------------------------------──────
-Write-Host ""
-Write-Host "[git] Committing and pushing..." -ForegroundColor Cyan
-git add transcripts/
-$commitMsg = "chore: fetch transcripts for $($NewFiles.Count) stuck meeting(s) [skip ci]`n`n" + ($NewFiles -join "`n")
-git commit -m $commitMsg
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "[warn] git commit failed or nothing to commit." -ForegroundColor Yellow
-    exit 0
+$MsgFile = Join-Path $LogDir ".commit-msg"
+if ($txt.Count -gt 0) {
+    $names = ($txt | ForEach-Object { Split-Path $_ -Leaf }) -join "`n"
+    $msg = "chore: fetch transcripts for $($txt.Count) stuck meeting(s) [skip ci]`n`n$names"
+} else {
+    $msg = "chore: update transcript metadata [skip ci]"
 }
-git push origin main
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "[error] git push failed." -ForegroundColor Red
+Set-Content -Path $MsgFile -Value $msg -Encoding ASCII
+
+$code = Invoke-Logged "git commit -F `"$MsgFile`""
+if ($code -ne 0) {
+    Write-Log "[error] git commit failed (exit $code)"
     exit 1
 }
 
-Write-Host ""
-Write-Host "[done] Pushed. CI will pick these up on its next run." -ForegroundColor Green
-Write-Host "       https://github.com/RowanFlynnPilot/marathon-meetings/actions"
-Write-Host ""
-exit 0
+$code = Invoke-Logged "git push origin main"
+if ($code -ne 0) {
+    Write-Log "[warn] Push rejected; rebasing on origin/main and retrying"
+    Invoke-Logged "git pull --rebase --autostash origin main" | Out-Null
+    $code = Invoke-Logged "git push origin main"
+}
+if ($code -ne 0) {
+    Write-Log "[error] git push failed (exit $code)"
+    exit 1
+}
+
+Write-Log "[done] Pushed. CI ingests these on its next run."
+exit $exitCode

@@ -27,6 +27,42 @@ from pathlib import Path
 
 
 TRANSCRIPTS_DIR = Path("./transcripts")
+# Videos YouTube reports as private/removed. Committed with the transcripts so
+# CI's stuck-video watchdog can dismiss them and this script stops retrying.
+UNAVAILABLE_FILE = TRANSCRIPTS_DIR / "unavailable.json"
+
+# Only explicit, permanent signals. A bare "Video unavailable" is NOT here:
+# DC Everest videos return it spuriously on yt-dlp's default web client.
+_GONE_SIGNALS = (
+    "private video",
+    "has been removed",
+    "no longer available",
+    "account associated with this video has been terminated",
+)
+
+
+class VideoGone(Exception):
+    """YouTube says the video is private or removed — retrying won't help."""
+
+
+def _load_unavailable() -> dict:
+    if UNAVAILABLE_FILE.exists():
+        try:
+            return json.loads(UNAVAILABLE_FILE.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            pass
+    return {}
+
+
+def _mark_unavailable(video_id: str, reason: str, title: str = "") -> None:
+    from datetime import datetime, timezone
+    gone = _load_unavailable()
+    gone[video_id] = {
+        "reason": reason[:200],
+        "title": title,
+        "detected": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    UNAVAILABLE_FILE.write_text(json.dumps(gone, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def fetch_transcript_ytapi(video_id: str) -> str | None:
@@ -98,6 +134,9 @@ def fetch_transcript_ytdlp(video_id: str) -> str | None:
             "subtitles are disabled", "no captions", "there are no captions",
         ]
         combined = (r.stdout + r.stderr).lower()
+        if any(sig in combined for sig in _GONE_SIGNALS):
+            err = next((l for l in r.stderr.splitlines() if "ERROR" in l), r.stderr.strip())
+            raise VideoGone(err.strip()[:200])
         if any(sig in combined for sig in no_caption_signals):
             print(f"  yt-dlp: no captions available")
             return None
@@ -168,7 +207,9 @@ def find_agenda_only_meetings() -> list[dict]:
 
 def _parse_kw_track_date(title: str) -> str:
     """Parse YYYYMMDD from a Kronenwetter SoundCloud track title. Formats seen:
-    'June 8, 2026 ...', 'May 19th 2026 ...', '05052026 UC ...', 'April  30, 2026 ...'."""
+    'June 8, 2026 ...', 'May 19th 2026 ...', '05052026 UC ...', 'April  30, 2026 ...',
+    and since late Aug 2026 '2026 09 21 PC Meeting Recording' (unrecognized, it
+    silently left every Kronenwetter meeting agenda-only for four weeks)."""
     import re as _re
     from datetime import datetime as _dt
     t = _re.sub(r"\s+", " ", title)
@@ -177,6 +218,12 @@ def _parse_kw_track_date(title: str) -> str:
         try:
             return _dt.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}",
                                 "%B %d %Y").strftime("%Y%m%d")
+        except ValueError:
+            pass
+    m = _re.search(r"\b(20\d{2})[ ._-]+(\d{1,2})[ ._-]+(\d{1,2})\b", t)   # YYYY MM DD
+    if m:
+        try:
+            return _dt(int(m.group(1)), int(m.group(2)), int(m.group(3))).strftime("%Y%m%d")
         except ValueError:
             pass
     m = _re.search(r"\b(\d{2})(\d{2})(20\d{2})\b", t)   # MMDDYYYY
@@ -263,6 +310,13 @@ def find_kronenwetter_audio_matches() -> list[dict]:
         print(f"  SoundCloud list fetch failed: {str(e)[:100]}")
         return []
 
+    # A format change shows up in the newest uploads; older oddities (an
+    # April 2026 track is titled "260407_1437") aren't news.
+    undated = [t["title"] for t in tracks[:5] if not t["date"]]
+    if undated:
+        print(f"  [warn] {len(undated)} of the 5 newest SoundCloud titles have no "
+              f"recognizable date (format change?) e.g. {undated[0]!r}")
+
     out = []
     for m in kw:
         try:
@@ -271,7 +325,11 @@ def find_kronenwetter_audio_matches() -> list[dict]:
             continue
         mtype = _kw_meeting_type(f"{m.get('title','')} {m.get('committee','')}")
         cands = [t for t in tracks if t["date"] == mdate and t["type"] == mtype]
-        if len(cands) == 1:
+        # Kronenwetter sometimes uploads the same recording twice under an
+        # identical title; that's a duplicate, not an ambiguous match. The
+        # listing is newest-first, so cands[0] is the latest upload.
+        titles = {re.sub(r"\s+", " ", c["title"]).strip().lower() for c in cands}
+        if len(titles) == 1:
             out.append({"id": m["id"], "fetch_url": cands[0]["url"],
                         "title": m.get("title") or m["id"]})
     return out
@@ -531,15 +589,31 @@ def main():
         parser.print_help()
         return
 
-    # Skip meetings that already have transcripts
+    # Skip meetings that already have transcripts, and videos YouTube has
+    # already reported as private/removed.
+    gone_ids = set(_load_unavailable())
     to_fetch = []
     for j in jobs:
         tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
+        if j.get("method") != "whisper" and j["fetch"] in gone_ids:
+            print(f"\n[skip] {j['save']} — video is private/removed (transcripts/unavailable.json)")
+            continue
         _write_meta_sidecar(j)
         if tpath.exists():
             print(f"\n[skip] {j['save']} — transcript already exists ({tpath})")
         else:
             to_fetch.append(j)
+
+    # Caption fetches take seconds; Whisper jobs take ~15+ minutes each. Run
+    # the fast ones first and cap the slow ones per run, so a backlog can't
+    # push a run past Task Scheduler's time limit and lose everything before
+    # the push — the remainder is picked up by the next run.
+    max_audio = int(os.environ.get("MAX_AUDIO_JOBS", "3"))
+    audio = [j for j in to_fetch if j.get("method") == "whisper"]
+    to_fetch = [j for j in to_fetch if j.get("method") != "whisper"] + audio[:max_audio]
+    if len(audio) > max_audio:
+        print(f"\n[defer] {len(audio) - max_audio} audio transcription(s) left for the "
+              f"next run (MAX_AUDIO_JOBS={max_audio})")
 
     if not to_fetch:
         print("\nAll transcripts already fetched. Nothing to do.")
@@ -556,7 +630,13 @@ def main():
             text = fetch_transcript_whisper_url(j["fetch_url"], source_key=j.get("source"))
         else:
             print(f"  https://www.youtube.com/watch?v={j['fetch']}")
-            text = fetch_transcript(j["fetch"])
+            try:
+                text = fetch_transcript(j["fetch"])
+            except VideoGone as e:
+                print(f"  [gone] {e} — recorded in {UNAVAILABLE_FILE}")
+                _mark_unavailable(j["fetch"], str(e), j.get("title", ""))
+                failed.append(j["save"])
+                continue
         if text:
             tpath = TRANSCRIPTS_DIR / f"{j['save']}.txt"
             tpath.write_text(text, encoding="utf-8")
@@ -581,8 +661,8 @@ def main():
     # Git push if requested
     if args.push and fetched:
         print(f"\nPushing to GitHub...")
-        files = [str(TRANSCRIPTS_DIR / f"{vid}.txt") for vid in fetched]
-        subprocess.run(["git", "add"] + files, check=True)
+        # The whole directory: metadata sidecars and unavailable.json ship too.
+        subprocess.run(["git", "add", str(TRANSCRIPTS_DIR)], check=True)
         msg = f"chore: add {len(fetched)} transcript(s) for re-summarization"
         subprocess.run(["git", "commit", "-m", msg], check=True)
 

@@ -284,6 +284,9 @@ def fetch_channel_videos(source_key, dateafter=""):
         except json.JSONDecodeError:
             continue
 
+    if result.returncode == 0 and videos:
+        LISTED_IDS[source_key] = {v["id"] for v in videos}
+
     if dateafter:
         total = len(videos)
         videos = [v for v in videos
@@ -316,6 +319,14 @@ from config import (
 # Recording when CI first saw each skipped video lets the workflow flag the
 # residential path as possibly down when one lingers past STALE_VIDEO_HOURS.
 SKIPPED_FILE = Path(os.environ.get("SKIPPED_FILE", "./skipped_videos.json"))
+# Written by the residential fetcher when YouTube reports a video private or
+# removed (fetch_transcript.py _mark_unavailable).
+UNAVAILABLE_FILE = Path(os.environ.get("UNAVAILABLE_FILE", "./transcripts/unavailable.json"))
+# Every video ID each channel listing returned this run, before date
+# filtering. A skipped video that was made private or deleted vanishes from
+# its channel's listing (Sept 2026: a Wausau Plan Commission video) and can
+# never be fetched, so the watchdog dismisses it instead of alarming forever.
+LISTED_IDS: dict[str, set] = {}
 
 
 def _load_skipped() -> dict:
@@ -345,10 +356,24 @@ def stale_skipped_videos(processed: dict) -> list[dict]:
     """Skipped videos still unprocessed after STALE_VIDEO_HOURS. Entries that
     have since been processed (by CI or via transcript ingest) are dropped."""
     skipped = _load_skipped()
+    gone = set()
+    if UNAVAILABLE_FILE.exists():
+        try:
+            gone = set(json.loads(UNAVAILABLE_FILE.read_text(encoding="utf-8")))
+        except json.JSONDecodeError:
+            pass
     # SKIP_VIDEO_IDS is the operator's lever for a video that genuinely has
     # no usable captions — listing it there clears it from the watchdog.
-    live = {vid: info for vid, info in skipped.items()
-            if vid not in processed and vid not in SKIP_VIDEO_IDS}
+    live = {}
+    for vid, info in skipped.items():
+        if vid in processed or vid in SKIP_VIDEO_IDS or vid in gone:
+            continue
+        listed = LISTED_IDS.get(info.get("source", ""))
+        if listed is not None and vid not in listed:
+            print(f"   [gone] {vid} ({info.get('title', '')}) is no longer on its channel "
+                  f"(made private or deleted) — dismissing from the watchdog")
+            continue
+        live[vid] = info
     if len(live) != len(skipped):
         _save_skipped(live)
     now = datetime.now(timezone.utc)
