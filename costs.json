@@ -1,5 +1,8 @@
 [
 {"ts":"2026-09-25T03:12:59+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":18794,"output_tokens":2097,"usd":0.08784},
 {"ts":"2026-09-25T03:13:48+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":12085,"output_tokens":2211,"usd":0.06942},
-{"ts":"2026-09-25T03:14:09+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":1586,"output_tokens":899,"usd":0.01824}
+{"ts":"2026-09-25T03:14:09+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":1586,"output_tokens":899,"usd":0.01824},
+{"ts":"2026-09-25T09:37:50+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":8106,"output_tokens":2840,"usd":0.06692},
+{"ts":"2026-09-25T09:38:38+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":20670,"output_tokens":2061,"usd":0.09292},
+{"ts":"2026-09-25T09:39:30+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":16250,"output_tokens":1845,"usd":0.07643}
 ]
