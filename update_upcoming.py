@@ -334,6 +334,19 @@ SCHOOL_BOARD_SCHEDULE = [
     ("Education & Operations Committee", 0, 4, "5:00 PM"),
 ]
 
+# DC Everest posts agendas only about a week ahead, so without a rule its
+# upcoming list was empty ~80% of the time. Regular meetings are the 3rd
+# Wednesday at 6:30 PM (May 20, June 17, July 15, Aug 19, Sept 16, 2026).
+DC_EVEREST_SCHEDULE = [
+    ("Regular School Board Meeting", 2, 3, "6:30 PM"),
+]
+
+_NAME_FILLER = {"meeting", "board", "school", "of", "the", "and", "a"}
+
+
+def _name_tokens(name: str) -> set:
+    return {w for w in re.findall(r"[a-z]+", name.lower()) if w not in _NAME_FILLER}
+
 
 def fetch_boardbook_upcoming(source_key: str = "school_board",
                              days_ahead: int = 60,
@@ -391,7 +404,14 @@ def fetch_boardbook_upcoming(source_key: str = "school_board",
             if not meeting_date or not (today <= meeting_date <= end_date):
                 continue
             key = (meeting_date.isoformat(), name[:30])
-            if key not in results:
+            # A posted meeting on the same date covers the projection even
+            # when BoardBook words it differently ("Regular Meeting", "Regular
+            # School Board Meeting Including a Public Hearing ...").
+            covered = any(
+                d == meeting_date.isoformat() and _name_tokens(name) <= _name_tokens(v["name"])
+                for (d, _), v in results.items()
+            )
+            if key not in results and not covered:
                 results[key] = {
                     "date":   meeting_date.isoformat(),
                     "time":   time_str,
@@ -493,8 +513,11 @@ def main():
     print("\n👑  Village of Kronenwetter (Municode hub)…")
     kronenwetter = _keep_last_known_good("kronenwetter", fetch_kronenwetter_upcoming(days_ahead=60), previous)
 
-    print("\n🎓  DC Everest School Board (BoardBook)…")
-    dc_everest = _keep_last_known_good("dc_everest", fetch_boardbook_upcoming("dc_everest", days_ahead=60), previous)
+    print("\n🎓  DC Everest School Board (BoardBook + rules)…")
+    dc_everest = _keep_last_known_good(
+        "dc_everest",
+        fetch_boardbook_upcoming("dc_everest", days_ahead=60, rule_schedule=DC_EVEREST_SCHEDULE),
+        previous)
 
     payload = {
         "marathon":     marathon,

@@ -261,6 +261,7 @@ jobs:
           git add -f injected_meetings.json || true
           git add -f processed_meetings.json || true
           git add -f skipped_videos.json || true
+          git add -f costs.json || true
           git add -f summaries/ || true
           git add -f public/digest.png || true
           git add -f public/meetings.ics || true
@@ -285,6 +286,31 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Maintain spending-alarm issue
+        # costs.json records every Claude call (cost_ledger.py, hooked into
+        # call_anthropic_with_retry). A regression like June 2026's
+        # re-summarization loop now surfaces within a day instead of on the
+        # monthly bill. Normal spend is well under $1/day.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SPEND_ALARM_DAY_USD: '2.00'
+          SPEND_ALARM_DAY_CALLS: '40'
+        run: |
+          read -r STATUS DAY_USD <<< "$(python cost_ledger.py --check --print-status --markdown spend_body.md)"
+          echo "Claude spend, last 24h: \$${DAY_USD} (${STATUS})"
+          EXISTING=$(gh issue list --state open --search "Unusual Claude API spend in:title" --json number --jq '.[0].number // empty')
+          if [ "$STATUS" = "TRIPPED" ]; then
+            TITLE="💸 Unusual Claude API spend (\$${DAY_USD} in the last 24h, checked $(date +%Y-%m-%d))"
+            if [ -n "$EXISTING" ]; then
+              gh issue edit "$EXISTING" --title "$TITLE" --body-file spend_body.md
+            else
+              gh issue create --title "$TITLE" --body-file spend_body.md
+            fi
+          elif [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Claude spend over the last 24 hours is back under the alarm thresholds (\$${DAY_USD}). Auto-closing."
+          fi
 
       - name: Maintain overdue-upgrade issue
         # Agenda-only is the normal first state for most meetings; only an

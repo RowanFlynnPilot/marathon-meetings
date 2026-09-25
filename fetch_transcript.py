@@ -511,7 +511,8 @@ def find_unprocessed_channel_videos() -> list[dict]:
             out.append({"id": vid, "title": v.get("title") or vid,
                         "source": source_key,
                         "meeting_date": v.get("meeting_date") or "",
-                        "upload_date": v.get("upload_date") or ""})
+                        "upload_date": v.get("upload_date") or "",
+                        "duration": v.get("duration")})
     return out
 
 
@@ -569,7 +570,8 @@ def main():
         jobs += [{"save": m["id"], "fetch": m["id"], "title": m["title"],
                   "meta": {"title": m["title"], "source": m["source"],
                            "meeting_date": m["meeting_date"],
-                           "upload_date": m["upload_date"]}}
+                           "upload_date": m["upload_date"],
+                           "duration": m["duration"]}}
                  for m in gap]
         if not jobs:
             print("No agenda-only meetings with available recordings found.")

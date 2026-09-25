@@ -25,6 +25,7 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 - `python backfill_topics.py` — tag meetings that predate the `topics` field (batched Haiku; no-ops once everything is tagged)
 - `python backfill_votes.py` — extract structured `votes` for outcome-based meetings that predate the field (batched Haiku; presence of the votes key = processed)
 - `python generate_pages.py` — static indexable HTML per meeting at `public/meetings/<id>/` + `sitemap.xml` + `robots.txt`; old pages persist as the archive. `PAGES_BASE_URL` env overrides the base for a future custom domain.
+- `python cost_ledger.py --summary` — measured Claude spend (24h / 7d / 30d, by script and model) from `costs.json`. Every Claude call goes through `call_anthropic_with_retry`, which records its token usage; CI commits the ledger (120 days) and opens one self-closing "💸 Unusual Claude API spend" issue when the last 24h exceed $2 or 40 calls. Local runs log to `logs/costs-local.json` instead. Add new models to `PRICES` (unknown models are priced at the highest known rate).
 - `python check_overdue.py` — list displayed meetings still agenda-only past their source's normal recording lag (`EXPECTED_LAG_DAYS`; closed sessions excluded). CI turns a nonzero count into one self-closing "⏰ Meeting summaries overdue" issue — several overdue from one source usually means a matcher broke upstream.
 
 ## GitHub Actions Pipeline Order
@@ -65,7 +66,7 @@ Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use
 - **Village of Weston:** AgendaCenter HTML scrape + rule-based fallback
 - **School Board:** BoardBook scrape + rule-based (2nd Monday = Regular, 4th Monday = Ed/Op Committee)
 - **Kronenwetter:** Municode hub scrape (portal posts real future meetings weeks ahead)
-- **DC Everest:** BoardBook scrape (org 1315; posts agendas in advance, no rule-based fill)
+- **DC Everest:** BoardBook scrape (org 1315; posts agendas ~1 week ahead) + rule-based fill (Regular School Board Meeting, 3rd Wednesday 6:30 PM). Rule projections are suppressed when a posted meeting on the same date covers them, even if BoardBook words it differently
 
 ## Key Architecture Notes
 - YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)

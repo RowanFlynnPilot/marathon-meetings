@@ -26,6 +26,8 @@ from pathlib import Path
 import logging
 import anthropic
 
+import cost_ledger
+
 logger = logging.getLogger(__name__)
 
 # -- Channels ------------------------------------------------------------------
@@ -109,7 +111,11 @@ def call_anthropic_with_retry(client, *, model, max_tokens, messages, system=Non
     last_err = None
     for attempt in range(ANTHROPIC_MAX_RETRIES):
         try:
-            return client.messages.create(**kwargs)
+            msg = client.messages.create(**kwargs)
+            # Every Claude call in the repo passes through here, so this is
+            # the one place the cost ledger (and spending alarm) hooks in.
+            cost_ledger.record(model, getattr(msg, "usage", None))
+            return msg
         except anthropic.RateLimitError as e:
             last_err = e
         except anthropic.APIConnectionError as e:
@@ -286,6 +292,7 @@ def fetch_channel_videos(source_key, dateafter=""):
 
     if result.returncode == 0 and videos:
         LISTED_IDS[source_key] = {v["id"] for v in videos}
+    LISTED_DURATIONS.update({v["id"]: v["duration"] for v in videos if v.get("duration")})
 
     if dateafter:
         total = len(videos)
@@ -327,6 +334,10 @@ UNAVAILABLE_FILE = Path(os.environ.get("UNAVAILABLE_FILE", "./transcripts/unavai
 # its channel's listing (Sept 2026: a Wausau Plan Commission video) and can
 # never be fetched, so the watchdog dismisses it instead of alarming forever.
 LISTED_IDS: dict[str, set] = {}
+# Running time (seconds) of every listed video. Meetings ingested from
+# residential transcripts never had one recorded (36 of 38 YouTube cards
+# showed no length in Sept 2026); main() fills the gaps from here.
+LISTED_DURATIONS: dict[str, int] = {}
 
 
 def _load_skipped() -> dict:
@@ -2182,6 +2193,17 @@ def main():
                 logger.error("kronenwetter processing failed: %s", e)
             finally:
                 save_state(state)
+
+    # Fill running times the channel listings just gave us for meetings that
+    # lack one; inject_meetings re-reads durations from state for carried-over
+    # cards, so this alone restores the "1h 20m" line. No API calls.
+    filled = [vid for vid, info in state["processed"].items()
+              if not info.get("duration") and LISTED_DURATIONS.get(vid)]
+    if filled and not args.dry_run:
+        for vid in filled:
+            state["processed"][vid]["duration"] = LISTED_DURATIONS[vid]
+        save_state(state)
+        print(f"[duration]  Filled running time for {len(filled)} meeting(s) from channel listings")
 
     # No early return when nothing is new: the upgrade passes below
     # (Kronenwetter minutes, BoardBook recordings) and the run report that

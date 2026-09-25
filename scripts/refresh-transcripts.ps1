@@ -59,6 +59,9 @@ function Invoke-Logged([string]$CommandLine) {
 }
 
 $env:PYTHONIOENCODING = "utf-8"
+# Unbuffered, so the log is live and a run killed at the time limit still
+# shows how far it got.
+$env:PYTHONUNBUFFERED = "1"
 $exitCode = 0
 Write-Log "refresh-transcripts: $ProjectRoot"
 

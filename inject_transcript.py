@@ -223,6 +223,7 @@ def main():
     # per-video metadata (cloud IPs get 'Only images are available'
     # regardless of cookies). Prefer it over asking YouTube.
     meta_path = Path("./transcripts") / f"{vid_id}.meta.json"
+    sidecar_duration = None
     if meta_path.exists():
         try:
             _meta = json.loads(meta_path.read_text(encoding="utf-8"))
@@ -239,6 +240,7 @@ def main():
                 print(f"[ok]  meeting_date from sidecar: {meeting_date}")
             if not upload_date and _meta.get("upload_date"):
                 upload_date = _meta["upload_date"]
+            sidecar_duration = _meta.get("duration")
         except json.JSONDecodeError:
             print(f"[warn] Unreadable sidecar {meta_path} — ignoring")
 
@@ -399,7 +401,7 @@ def main():
         "doc_url":      doc_url,
         "upload_date":  upload_date_value,
         "meeting_date": meeting_date_value,
-        "duration":     video_duration or prior.get("duration"),
+        "duration":     video_duration or sidecar_duration or prior.get("duration"),
         "video_url":    video_url or prior.get("video_url"),
         "processed_at": processed_at_value,
         "summary_file": str(path),
