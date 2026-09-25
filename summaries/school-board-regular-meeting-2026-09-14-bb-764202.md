@@ -1,44 +1,54 @@
 # Regular Meeting - 2026-09-14
 
 **Organization:** Wausau School Board  
-**Source:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=764202  
+**Source:** https://www.youtube.com/watch?v=QXRErZ3g7J4  
 **Documents:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=764202  
-**Summarized:** 2026-09-14 03:10 UTC
+**Summarized:** 2026-09-25 01:26 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting to address routine consent agenda items, review legal expenses and budget projections for the 2026-2027 fiscal year, and consider a seclusion and restraint report for 2025-2026. Key action items included approval of the 2026-2027 budget and tax levy, establishment of the annual meeting date, and approval of the district's legal firm list.
+The Wausau School Board held its regular September 14, 2026 meeting, approving several budget-related items including a preliminary 2026-27 general fund budget of approximately $118.37 million and a projected tax levy of $45,848,693. The board also received a seclusion and restraint report showing 30 students required such interventions during the 2025-26 school year, up from 22 the prior year, and closed the meeting to enter executive session regarding potential litigation.
 
 ## Key Discussions
-### Legal Expenses Summary for 2025-2026
-Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present a summary report of all legal counsel expenses incurred during 2025-2026, separated by law firm and by type of legal advice sought. The presentation was estimated at 1 minute and required no action.
+### Public Comment
+One speaker, identified only as Jeff, addressed the board regarding what he characterized as a cover-up of incidents at Horace Mann Middle School involving a vice principal allegedly lying to police and the principal subsequently lying to the community. He alleged the district spent nearly $100,000 in legal fees related to open records violations and said the board paid approximately $20,000 to his attorney. He called on the board to hold unnamed administrators accountable and referenced a prior conversation with Vice President Lance Trollop, saying Trollop acknowledged the board only acts on matters presented to them. Board President Bouché thanked him and moved on.
 
-### Approve List of Legal Firms
-The Board was expected to consider a summary list of legal firms the District uses for a variety of necessary legal needs. The presentation was estimated at 1 minute and action was requested.
+### Wausau School Foundation Presentation
+Executive Director Debbie Trader presented an update on the Wausau School Foundation, noting their third annual comedy night is planned for March 2026. She highlighted the Reach for the Stars classroom grant program (up to $2,000 per classroom) currently accepting applications, the foundation's role as fiscal agent for the Dolly Parton Imagination Library in Marathon County, and a current Olsen Cares fundraising vote opportunity worth at least $1,000. Board Member Sarah Brock noted that Venol Latte is donating proceeds from a specialty coffee drink to the Imagination Library. No vote was taken.
 
-### Set Annual Meeting Date and Location
-The Committee of the Whole was scheduled to recommend a date, time, and location for the budget hearing and annual meeting to allow full Board approval in a timely manner. This action was necessary to meet all notices and timelines for an annual meeting between May 15 and October 31 pursuant to Wisconsin statute.
+### Consent Agenda
+The consent agenda covering staffing appointments, replacements, separations, resignations, leaves, retirements, meeting minutes from August 10 and August 24 regular and special sessions, payment of bills, budget status, investment report, and donations from multiple community businesses and organizations was approved without discussion. Donors included the Wausau Woodchucks, Wausau School Foundation, McDonald Foundation, and several local businesses.
 
-### Share Equalized Value Estimates
-The Board was scheduled to receive information on equalized value estimates, with the District's property value projected to increase 4.03% for the 2026-27 mill rate calculation purposes. Since certified property value would not be available until October 1, the projected property value was expected to be used for the initial budget and during the annual meeting.
+### Approved List of Legal Firms (Agenda Item 8A2)
+The board voted to approve the list of law firms the district and board may access for legal services as deemed necessary by the superintendent or designee. President Bouché noted that a summary report of all 2025-26 legal council expenses had been presented by Assistant Superintendent of Operations Dr. Elizabeth Channel at the August Committee of the Whole meeting and required no separate action. The motion to approve the firm list passed.
 
-### Recommendation for 2026-2027 Budget
-Dr. Elizabeth Channel was scheduled to present the 2026-27 Budget Booklet for Board consideration, with the Committee recommending a preliminary budget for use at the Budget Hearing and Annual Meeting. The presentation was estimated at 2 minutes and action was requested.
+### Set Annual Meeting Date (Agenda Item 8A3)
+The board approved Monday, September 28, 2026 as the date for the 2026-27 annual meeting and budget hearing, to be held at 5:00 p.m. in the Nicholson Boardroom at the Longfellow Administration Center. The budget hearing will precede the annual meeting, consistent with statutory requirements under Wis. Stat. 120.081A.
 
-### Recommendation for 2026-2027 Tax Levy
-The Board was expected to consider the tax levy contained in the 2026-27 Budget Booklet to support the proposed budget. Once approved, this levy was expected to be presented at the Budget Hearing and Annual Meeting.
+### 2026-27 Budget Recommendation (Agenda Item 8A5)
+The board approved a preliminary 2026-27 general fund budget of $118,037,018 (as stated verbally, though the exact figure was slightly garbled in the transcript) for both expenses and revenue for presentation at the annual meeting and budget hearing. Property values in the district are projected to increase 4.03% for mill rate calculation purposes, with certified values not available until October 1.
 
-### Seclusion and Restraint Report
-The Board was scheduled to receive an overview presentation of the 2025-26 Seclusion and Restraint report with a brief look at data over time. The presentation was estimated at 10 minutes with action requested, and the full report was included in the meeting attachments.
+### 2026-27 Tax Levy (Agenda Item 8A6)
+The board approved a projected tax levy of $45,848,693 for presentation at the annual meeting and budget hearing. No discussion was recorded before the vote.
+
+### Seclusion and Restraint Report (Agenda Item 9)
+A presenter (name not clearly identified in transcript) reported that 30 students districtwide required seclusion or restraint interventions in 2025-26, up from 22 the prior year, with a combined total of 34 incidents (six seclusions, 24 restraints, four combined). Board Member Pat McKee asked how often classrooms are evacuated due to a single student's behavior and whether that data is tracked; the presenter noted such evacuations would not be counted as seclusion or restraint unless the student was physically confined. Board Member Jennifer Paoli asked for clarification on the definitions of seclusion and restraint. The board voted to approve the report as presented.
+
+### Board Member Reports and Superintendent Update
+Board Member Cory Sillars highlighted the Build My Future event on September 23 at KBY Window and Door, open houses at Rib Mountain, Franklin, and Jimmy Jones schools, and raised legislative concerns about potential impacts if Act 10 is repealed or if DPI undergoes leadership changes after the upcoming election. Superintendent Bushman reported nine days of school completed, acknowledged early-year HVAC issues at Marshall and Franklin schools, praised the Wausau West community for managing traffic congestion, and recognized First Student bus manager Dennis Gart for improved busing operations. President Bouché noted upcoming WIAA regional meeting at Antigo on September 17 and WASB Region 5 annual meeting in Wausau/Rothschild on September 29.
+
+### Closed Session for Potential Litigation
+The board voted unanimously via roll call to enter closed session for preliminary discussion regarding potential litigation under Wisconsin Statute 19.85(g). All eight members present voted yes.
 
 ## Public Comment
-A public and student comment period was included on this agenda.
+One speaker identified as Jeff addressed the board, alleging that district administrators at Horace Mann Middle School lied to police and the community following an incident captured on video, and that the board spent nearly $100,000 in legal fees — including approximately $20,000 paid to his attorney — to resist open records requests related to the matter. He called on the board to hold the superintendent and an unnamed vice principal accountable and characterized the board as unwilling to exercise independent oversight.
 
 ## Action Items
-- Board was expected to approve the Consent Agenda including appointments, separations, leaves of absence, retirements, and meeting minutes
-- Action was requested to approve the list of legal firms for 2026-2027
-- Action was requested to set the annual meeting date and location
-- Board was expected to approve the 2026-2027 Budget recommendation
-- Board was expected to approve the 2026-2027 Tax Levy recommendation
-- Action was requested on the Seclusion and Restraint Report
+- Annual meeting and budget hearing scheduled for September 28, 2026 at 5:00 p.m., Nicholson Boardroom, Longfellow Administration Center
+- Preliminary 2026-27 general fund budget approved for presentation at annual meeting
+- Projected tax levy of $45,848,693 approved for presentation at annual meeting
+- Approved list of legal firms for district use
+- Staff directed to track and report data on classroom evacuations related to student behavior incidents
+- Board members encouraged to register with Cassie for WASB Region 5 annual meeting on September 29
+- Board entered closed session to discuss potential litigation under Wis. Stat. 19.85(g)
