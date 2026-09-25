@@ -272,6 +272,13 @@
     },
     {
       "date": "2026-10-15",
+      "time": "",
+      "name": "Election Notices",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10152026-1975",
+      "source": "weston"
+    },
+    {
+      "date": "2026-10-15",
       "time": "6:00 PM",
       "name": "Mountain Bay Metro Police Oversight",
       "url": "https://www.westonwi.gov/agendacenter",
@@ -359,8 +366,29 @@
     {
       "date": "2026-09-28",
       "time": "5:00 PM",
+      "name": "Annual Meeting Budget Hearing",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764221",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "5:00 PM",
       "name": "Education & Operations Committee",
       "url": "https://meetings.boardbook.org/Public/Organization/1360",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "5:15 PM",
+      "name": "Special Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
+      "source": "school_board"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "5:20 PM",
+      "name": "Committee of the Whole Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764224",
       "source": "school_board"
     },
     {
