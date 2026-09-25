@@ -62,7 +62,7 @@
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18350/639126184295330000",
       "upload_date": "20260429",
       "meeting_date": "20260428",
-      "duration": null,
+      "duration": 4488,
       "processed_at": "2026-05-28T02:08:33.619564+00:00",
       "summary_file": "summaries/marathon-marathon-county-regular-meeting.md"
     },
@@ -92,7 +92,7 @@
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18402/639132213564100000",
       "upload_date": "20260507",
       "meeting_date": "20260506",
-      "duration": null,
+      "duration": 5594,
       "processed_at": "2026-05-28T02:09:06.108037+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting.md"
     },
@@ -102,7 +102,7 @@
       "doc_url": "https://www.marathoncounty.gov/home/showpublisheddocument/18384/639131339701200000",
       "upload_date": "20260506",
       "meeting_date": "20260505",
-      "duration": null,
+      "duration": 6792,
       "processed_at": "2026-05-28T02:08:03.630009+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting.md"
     },
@@ -143,7 +143,7 @@
       "doc_url": null,
       "upload_date": "20260511",
       "meeting_date": "20260504",
-      "duration": null,
+      "duration": 4925,
       "processed_at": "2026-05-28T02:07:34.094833+00:00",
       "summary_file": "summaries/weston-community-life-and-public-safety.md"
     },
@@ -153,7 +153,7 @@
       "doc_url": null,
       "upload_date": "20260512",
       "meeting_date": "20260511",
-      "duration": null,
+      "duration": 5406,
       "processed_at": "2026-05-28T02:10:17.977050+00:00",
       "summary_file": "summaries/weston-public-works-committee.md"
     },
@@ -163,7 +163,7 @@
       "doc_url": null,
       "upload_date": "20260512",
       "meeting_date": "20260511",
-      "duration": null,
+      "duration": 2092,
       "processed_at": "2026-05-28T02:09:33.305320+00:00",
       "summary_file": "summaries/weston-plan-commission.md"
     },
@@ -1022,7 +1022,7 @@
       "doc_url": null,
       "upload_date": "20260806",
       "meeting_date": "20260806",
-      "duration": null,
+      "duration": 3672,
       "video_url": null,
       "processed_at": "2026-08-30T04:00:26.392251+00:00",
       "summary_file": "summaries/marathon-marathon-county-joint-extension-edu-and-econ-dev-hr-finance-property-co-sfidjegohg.md"
@@ -1033,7 +1033,7 @@
       "doc_url": null,
       "upload_date": "20260707",
       "meeting_date": "20260707",
-      "duration": null,
+      "duration": 4867,
       "video_url": null,
       "processed_at": "2026-08-30T04:01:23.662899+00:00",
       "summary_file": "summaries/wausau-wausau-economic-development-committee-meeting-0mqwh9hwvlm.md"
@@ -1044,7 +1044,7 @@
       "doc_url": null,
       "upload_date": "20260630",
       "meeting_date": "20260630",
-      "duration": null,
+      "duration": 3730,
       "video_url": null,
       "processed_at": "2026-08-30T04:02:38.298065+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting-0wjb0hfk6om.md"
@@ -1055,7 +1055,7 @@
       "doc_url": null,
       "upload_date": "20260727",
       "meeting_date": "20260727",
-      "duration": null,
+      "duration": 1176,
       "video_url": null,
       "processed_at": "2026-08-30T04:03:16.473300+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-meeting-pt2-1-h4qnmawqi.md"
@@ -1066,7 +1066,7 @@
       "doc_url": null,
       "upload_date": "20260806",
       "meeting_date": "20260806",
-      "duration": null,
+      "duration": 5369,
       "video_url": null,
       "processed_at": "2026-08-30T04:04:27.210246+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-1rmb19yvqak.md"
@@ -1077,7 +1077,7 @@
       "doc_url": null,
       "upload_date": "20260714",
       "meeting_date": "20260714",
-      "duration": null,
+      "duration": 10525,
       "video_url": null,
       "processed_at": "2026-08-30T04:05:36.152755+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-3xmnlwyczug.md"
@@ -1088,7 +1088,7 @@
       "doc_url": null,
       "upload_date": "20260825",
       "meeting_date": "20260825",
-      "duration": null,
+      "duration": 8332,
       "video_url": null,
       "processed_at": "2026-08-30T04:06:32.437855+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-regular-meeting-pt1-4fquvadorou.md"
@@ -1099,7 +1099,7 @@
       "doc_url": null,
       "upload_date": "20260727",
       "meeting_date": "20260727",
-      "duration": null,
+      "duration": 5282,
       "video_url": null,
       "processed_at": "2026-08-30T04:07:29.305807+00:00",
       "summary_file": "summaries/weston-parks-committee-54hhruxro9a.md"
@@ -1110,7 +1110,7 @@
       "doc_url": null,
       "upload_date": "20260817",
       "meeting_date": "20260817",
-      "duration": null,
+      "duration": 4517,
       "video_url": null,
       "processed_at": "2026-08-30T04:08:30.537910+00:00",
       "summary_file": "summaries/weston-finance-and-hr-committee-91tl-z8wqna.md"
@@ -1121,7 +1121,7 @@
       "doc_url": null,
       "upload_date": "20260714",
       "meeting_date": "20260714",
-      "duration": null,
+      "duration": 3305,
       "video_url": null,
       "processed_at": "2026-08-30T04:09:20.081041+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-meeting-9vnk7rzgvxk.md"
@@ -1132,7 +1132,7 @@
       "doc_url": null,
       "upload_date": "20260825",
       "meeting_date": "20260825",
-      "duration": null,
+      "duration": 7265,
       "video_url": null,
       "processed_at": "2026-08-30T04:10:21.865259+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-meeting-b6bazwcekzi.md"
@@ -1143,7 +1143,7 @@
       "doc_url": null,
       "upload_date": "20260825",
       "meeting_date": "20260825",
-      "duration": null,
+      "duration": 133,
       "video_url": null,
       "processed_at": "2026-08-30T04:10:43.909326+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-bsqkuontupe.md"
@@ -1154,7 +1154,7 @@
       "doc_url": null,
       "upload_date": "20260707",
       "meeting_date": "20260707",
-      "duration": null,
+      "duration": 3602,
       "video_url": null,
       "processed_at": "2026-08-30T04:11:28.879507+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-cgejsb-rtms.md"
@@ -1165,7 +1165,7 @@
       "doc_url": null,
       "upload_date": "20260714",
       "meeting_date": "20260714",
-      "duration": null,
+      "duration": 509,
       "video_url": null,
       "processed_at": "2026-08-30T04:12:07.299853+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt1-dcgxuem5nnc.md"
@@ -1176,7 +1176,7 @@
       "doc_url": null,
       "upload_date": "20260721",
       "meeting_date": "20260721",
-      "duration": null,
+      "duration": 3348,
       "video_url": null,
       "processed_at": "2026-08-30T04:12:43.838561+00:00",
       "summary_file": "summaries/wausau-wausau-plan-commission-meeting-etovnf31sdu.md"
@@ -1187,7 +1187,7 @@
       "doc_url": null,
       "upload_date": "20260702",
       "meeting_date": "20260702",
-      "duration": null,
+      "duration": 3015,
       "video_url": null,
       "processed_at": "2026-08-30T04:13:34.332978+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-fqk3u1lzda8.md"
@@ -1198,7 +1198,7 @@
       "doc_url": null,
       "upload_date": "20260817",
       "meeting_date": "20260817",
-      "duration": null,
+      "duration": 3091,
       "video_url": null,
       "processed_at": "2026-08-30T04:14:21.861109+00:00",
       "summary_file": "summaries/wausau-wausau-public-health-safety-committee-meeting-pt1-h3of08bb3mi.md"
@@ -1209,7 +1209,7 @@
       "doc_url": null,
       "upload_date": "20260820",
       "meeting_date": "20260820",
-      "duration": null,
+      "duration": 12657,
       "video_url": null,
       "processed_at": "2026-08-30T04:15:19.912073+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-educational-meeting-pt1-jty9vbil9xo.md"
@@ -1220,7 +1220,7 @@
       "doc_url": null,
       "upload_date": "20260820",
       "meeting_date": "20260820",
-      "duration": null,
+      "duration": 4541,
       "video_url": null,
       "processed_at": "2026-08-30T04:16:14.270815+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-educational-meeting-pt2-kzny9-rzasi.md"
@@ -1231,7 +1231,7 @@
       "doc_url": null,
       "upload_date": "20260708",
       "meeting_date": "20260708",
-      "duration": null,
+      "duration": 5995,
       "video_url": null,
       "processed_at": "2026-08-30T04:17:21.005023+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-kaxls7kv8us.md"
@@ -1242,7 +1242,7 @@
       "doc_url": null,
       "upload_date": "20260811",
       "meeting_date": "20260811",
-      "duration": null,
+      "duration": 2025,
       "video_url": null,
       "processed_at": "2026-08-30T04:17:52.598959+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-pt2-l9doavbokju.md"
@@ -1253,7 +1253,7 @@
       "doc_url": null,
       "upload_date": "20260818",
       "meeting_date": "20260818",
-      "duration": null,
+      "duration": 1873,
       "video_url": null,
       "processed_at": "2026-08-30T04:18:45.835535+00:00",
       "summary_file": "summaries/wausau-wausau-plan-commission-meeting-lpbdti24rte.md"
@@ -1264,7 +1264,7 @@
       "doc_url": null,
       "upload_date": "20260709",
       "meeting_date": "20260709",
-      "duration": null,
+      "duration": 6772,
       "video_url": null,
       "processed_at": "2026-08-30T04:20:03.094399+00:00",
       "summary_file": "summaries/wausau-wausau-infrastructure-and-facilities-committee-meeting-m565cf8hwzc.md"
@@ -1275,7 +1275,7 @@
       "doc_url": null,
       "upload_date": "20260825",
       "meeting_date": "20260825",
-      "duration": null,
+      "duration": 3258,
       "video_url": null,
       "processed_at": "2026-08-30T04:21:03.728434+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finances-property-committee-meeting-mkxrby89rwo.md"
@@ -1286,7 +1286,7 @@
       "doc_url": null,
       "upload_date": "20260717",
       "meeting_date": "20260717",
-      "duration": null,
+      "duration": 5722,
       "video_url": null,
       "processed_at": "2026-08-30T04:21:59.522787+00:00",
       "summary_file": "summaries/wausau-wausau-capital-improvement-projects-committee-meeting-nse4f5ba-na.md"
@@ -1297,7 +1297,7 @@
       "doc_url": null,
       "upload_date": "20260818",
       "meeting_date": "20260818",
-      "duration": null,
+      "duration": 263,
       "video_url": null,
       "processed_at": "2026-08-30T04:22:22.812192+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-nw0tr6eoutw.md"
@@ -1308,7 +1308,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 4310,
       "video_url": null,
       "processed_at": "2026-08-30T04:23:08.288877+00:00",
       "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-prds-p-9bfk.md"
@@ -1319,7 +1319,7 @@
       "doc_url": null,
       "upload_date": "20260824",
       "meeting_date": "20260824",
-      "duration": null,
+      "duration": 2786,
       "video_url": null,
       "processed_at": "2026-08-30T04:23:46.126339+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-rules-review-committee-meeting-qrapztcve1c.md"
@@ -1330,7 +1330,7 @@
       "doc_url": null,
       "upload_date": "20260813",
       "meeting_date": "20260813",
-      "duration": null,
+      "duration": 3635,
       "video_url": null,
       "processed_at": "2026-08-30T04:25:01.881943+00:00",
       "summary_file": "summaries/wausau-wausau-infrastructure-and-facilities-committee-meeting-rev8vklbjqm.md"
@@ -1341,7 +1341,7 @@
       "doc_url": null,
       "upload_date": "20260825",
       "meeting_date": "20260825",
-      "duration": null,
+      "duration": 2333,
       "video_url": null,
       "processed_at": "2026-08-30T04:25:35.583143+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-regular-meeting-pt2-skqhbfab600.md"
@@ -1352,7 +1352,7 @@
       "doc_url": null,
       "upload_date": "20260728",
       "meeting_date": "20260728",
-      "duration": null,
+      "duration": 935,
       "video_url": null,
       "processed_at": "2026-08-30T04:26:02.675120+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-meeting-thbp-lpeqlm.md"
@@ -1363,7 +1363,7 @@
       "doc_url": null,
       "upload_date": "20260720",
       "meeting_date": "20260720",
-      "duration": null,
+      "duration": 1957,
       "video_url": null,
       "processed_at": "2026-08-30T04:26:52.811053+00:00",
       "summary_file": "summaries/wausau-wausau-public-health-safety-committee-meeting-u6r1v-sm37y.md"
@@ -1374,7 +1374,7 @@
       "doc_url": null,
       "upload_date": "20260817",
       "meeting_date": "20260817",
-      "duration": null,
+      "duration": 153,
       "video_url": null,
       "processed_at": "2026-08-30T04:27:06.722355+00:00",
       "summary_file": "summaries/wausau-wausau-public-health-safety-committee-meeting-pt2-uxcka-tznf8.md"
@@ -1385,7 +1385,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 23,
       "video_url": null,
       "processed_at": "2026-08-30T04:27:17.233235+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt2-wle-ryh2jge.md"
@@ -1396,7 +1396,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 1495,
       "video_url": null,
       "processed_at": "2026-08-30T04:28:02.720725+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-meeting-zcds2pv8db4.md"
@@ -1407,7 +1407,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 98,
       "video_url": null,
       "processed_at": "2026-08-30T04:28:21.481278+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt1-kisrz3-dqu.md"
@@ -1418,7 +1418,7 @@
       "doc_url": null,
       "upload_date": "20260715",
       "meeting_date": "20260715",
-      "duration": null,
+      "duration": 2972,
       "video_url": null,
       "processed_at": "2026-08-30T04:29:05.005516+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-pt1-aezak2qspla.md"
@@ -1429,7 +1429,7 @@
       "doc_url": null,
       "upload_date": "20260824",
       "meeting_date": "20260824",
-      "duration": null,
+      "duration": 7396,
       "video_url": null,
       "processed_at": "2026-08-30T04:30:11.263879+00:00",
       "summary_file": "summaries/weston-board-of-trustees-and-financehr-bl-rxb-pwa.md"
@@ -1440,7 +1440,7 @@
       "doc_url": null,
       "upload_date": "20260810",
       "meeting_date": "20260810",
-      "duration": null,
+      "duration": 4499,
       "video_url": null,
       "processed_at": "2026-08-30T04:31:14.102238+00:00",
       "summary_file": "summaries/weston-plan-commission-bzc9mr7o7ie.md"
@@ -1451,7 +1451,7 @@
       "doc_url": null,
       "upload_date": "20260714",
       "meeting_date": "20260714",
-      "duration": null,
+      "duration": 1993,
       "video_url": null,
       "processed_at": "2026-08-30T04:31:52.105749+00:00",
       "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-bmzdoskw3b0.md"
@@ -1462,7 +1462,7 @@
       "doc_url": null,
       "upload_date": "20260727",
       "meeting_date": "20260727",
-      "duration": null,
+      "duration": 178,
       "video_url": null,
       "processed_at": "2026-08-30T04:32:08.442500+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-meeting-pt1-cdcmvautb1c.md"
@@ -1473,7 +1473,7 @@
       "doc_url": null,
       "upload_date": "20260824",
       "meeting_date": "20260824",
-      "duration": null,
+      "duration": 4220,
       "video_url": null,
       "processed_at": "2026-08-30T04:33:00.385362+00:00",
       "summary_file": "summaries/weston-parks-committee-e6qpikhbgmi.md"
@@ -1484,7 +1484,7 @@
       "doc_url": null,
       "upload_date": "20260706",
       "meeting_date": "20260706",
-      "duration": null,
+      "duration": 5528,
       "video_url": null,
       "processed_at": "2026-08-30T04:34:00.065881+00:00",
       "summary_file": "summaries/wausau-wausau-parks-recreation-committee-meeting-ezqgbiiurgc.md"
@@ -1495,7 +1495,7 @@
       "doc_url": null,
       "upload_date": "20260713",
       "meeting_date": "20260713",
-      "duration": null,
+      "duration": 6003,
       "video_url": null,
       "processed_at": "2026-08-30T04:34:58.939720+00:00",
       "summary_file": "summaries/wausau-wausau-human-resources-committee-meeting-iaamupsyr5u.md"
@@ -1506,7 +1506,7 @@
       "doc_url": null,
       "upload_date": "20260818",
       "meeting_date": "20260818",
-      "duration": null,
+      "duration": 2415,
       "video_url": null,
       "processed_at": "2026-08-30T04:35:38.422035+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-pt2-jqajm-u0ut4.md"
@@ -1517,7 +1517,7 @@
       "doc_url": null,
       "upload_date": "20260723",
       "meeting_date": "20260723",
-      "duration": null,
+      "duration": 5869,
       "video_url": null,
       "processed_at": "2026-08-30T04:36:32.537199+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-educational-meeting-jtvwp5rsdaw.md"
@@ -1528,7 +1528,7 @@
       "doc_url": null,
       "upload_date": "20260713",
       "meeting_date": "20260713",
-      "duration": null,
+      "duration": 8627,
       "video_url": null,
       "processed_at": "2026-08-30T04:37:12.154928+00:00",
       "summary_file": "summaries/wausau-wausau-committee-of-the-whole-meeting-komiokvtxxq.md"
@@ -1539,7 +1539,7 @@
       "doc_url": null,
       "upload_date": "20260714",
       "meeting_date": "20260714",
-      "duration": null,
+      "duration": 24,
       "video_url": null,
       "processed_at": "2026-08-30T04:37:23.830435+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-pt2-lz-kzjyjyku.md"
@@ -1550,7 +1550,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 579,
       "video_url": null,
       "processed_at": "2026-08-30T04:37:40.856159+00:00",
       "summary_file": "summaries/wausau-wausau-presentation-ldxnn-ifwu8.md"
@@ -1561,7 +1561,7 @@
       "doc_url": null,
       "upload_date": "20260806",
       "meeting_date": "20260806",
-      "duration": null,
+      "duration": 2949,
       "video_url": null,
       "processed_at": "2026-08-30T04:38:29.677328+00:00",
       "summary_file": "summaries/marathon-marathon-county-joint-extension-edu-and-econ-dev-hr-finance-property-co-ou7d9m9rjsa.md"
@@ -1572,7 +1572,7 @@
       "doc_url": null,
       "upload_date": "20260810",
       "meeting_date": "20260810",
-      "duration": null,
+      "duration": 3899,
       "video_url": null,
       "processed_at": "2026-08-30T04:39:09.994176+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-human-resources-committee-meeting-pwiyd6js2ei.md"
@@ -1583,7 +1583,7 @@
       "doc_url": null,
       "upload_date": "20260728",
       "meeting_date": "20260728",
-      "duration": null,
+      "duration": 6203,
       "video_url": null,
       "processed_at": "2026-08-30T04:40:18.360260+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-ramalo5ir38.md"
@@ -1594,7 +1594,7 @@
       "doc_url": null,
       "upload_date": "20260812",
       "meeting_date": "20260812",
-      "duration": null,
+      "duration": 9344,
       "video_url": null,
       "processed_at": "2026-08-30T04:41:23.385783+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-rjbulweyxsy.md"
@@ -1605,7 +1605,7 @@
       "doc_url": null,
       "upload_date": "20260818",
       "meeting_date": "20260818",
-      "duration": null,
+      "duration": 4325,
       "video_url": null,
       "processed_at": "2026-08-30T04:42:26.668148+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-pt1-sjjqdi4cb7i.md"
@@ -1616,7 +1616,7 @@
       "doc_url": null,
       "upload_date": "20260811",
       "meeting_date": "20260811",
-      "duration": null,
+      "duration": 8619,
       "video_url": null,
       "processed_at": "2026-08-30T04:43:23.854930+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-pt1-tcs9bwi3f08.md"
@@ -1627,7 +1627,7 @@
       "doc_url": null,
       "upload_date": "20260701",
       "meeting_date": "20260701",
-      "duration": null,
+      "duration": 3336,
       "video_url": null,
       "processed_at": "2026-08-30T04:44:05.901145+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting-topd91yo4oq.md"
@@ -1638,7 +1638,7 @@
       "doc_url": null,
       "upload_date": "20260824",
       "meeting_date": "20260824",
-      "duration": null,
+      "duration": 1437,
       "video_url": null,
       "processed_at": "2026-08-30T04:44:43.113171+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-meeting-u4jqc0fmt8u.md"
@@ -1649,7 +1649,7 @@
       "doc_url": null,
       "upload_date": "20260630",
       "meeting_date": "20260630",
-      "duration": null,
+      "duration": 564,
       "video_url": null,
       "processed_at": "2026-08-30T04:45:22.844203+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-vucovppinie.md"
@@ -1660,7 +1660,7 @@
       "doc_url": null,
       "upload_date": "20260813",
       "meeting_date": "20260813",
-      "duration": null,
+      "duration": 10224,
       "video_url": null,
       "processed_at": "2026-08-30T04:46:34.510351+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-xl-gsr48d5k.md"
@@ -1671,7 +1671,7 @@
       "doc_url": null,
       "upload_date": "20260804",
       "meeting_date": "20260804",
-      "duration": null,
+      "duration": 9540,
       "video_url": null,
       "processed_at": "2026-08-30T04:47:40.515999+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting-ydwubztd7ry.md"
@@ -1682,7 +1682,7 @@
       "doc_url": null,
       "upload_date": "20260721",
       "meeting_date": "20260721",
-      "duration": null,
+      "duration": 378,
       "video_url": null,
       "processed_at": "2026-08-30T04:48:11.109943+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-zjfik5o37f4.md"
@@ -1693,7 +1693,7 @@
       "doc_url": null,
       "upload_date": "20260803",
       "meeting_date": "20260803",
-      "duration": null,
+      "duration": 5619,
       "video_url": null,
       "processed_at": "2026-08-30T04:49:15.030809+00:00",
       "summary_file": "summaries/weston-community-life-public-safety-committee-zehd-sg4g-0.md"
@@ -1715,7 +1715,7 @@
       "doc_url": null,
       "upload_date": "20260831",
       "meeting_date": "20260831",
-      "duration": null,
+      "duration": 7340,
       "video_url": null,
       "processed_at": "2026-09-02T02:42:01.396591+00:00",
       "summary_file": "summaries/wausau-wausau-parks-and-recreation-committee-meeting-huvrjjioe8g.md"
@@ -1726,7 +1726,7 @@
       "doc_url": null,
       "upload_date": "20260901",
       "meeting_date": "20260901",
-      "duration": null,
+      "duration": 4063,
       "video_url": null,
       "processed_at": "2026-09-02T15:56:08.613798+00:00",
       "summary_file": "summaries/wausau-wausau-water-works-commission-meeting-zpl4vi5cbx4.md"
@@ -1737,7 +1737,7 @@
       "doc_url": null,
       "upload_date": "20260901",
       "meeting_date": "20260901",
-      "duration": null,
+      "duration": 3787,
       "video_url": null,
       "processed_at": "2026-09-03T02:47:45.969758+00:00",
       "summary_file": "summaries/wausau-wausau-economic-development-committee-meeting-gfq6aglufee.md"
@@ -1748,7 +1748,7 @@
       "doc_url": null,
       "upload_date": "20260902",
       "meeting_date": "20260902",
-      "duration": null,
+      "duration": 5381,
       "video_url": null,
       "processed_at": "2026-09-03T15:45:33.140752+00:00",
       "summary_file": "summaries/marathon-marathon-county-health-and-human-services-committee-meeting-2spd3t6yhtk.md"
@@ -1759,7 +1759,7 @@
       "doc_url": null,
       "upload_date": "20260903",
       "meeting_date": "20260903",
-      "duration": null,
+      "duration": 3615,
       "video_url": null,
       "processed_at": "2026-09-04T15:43:41.654263+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-pt1-z-11cxuml58.md"
@@ -1770,7 +1770,7 @@
       "doc_url": null,
       "upload_date": "20260902",
       "meeting_date": "20260902",
-      "duration": null,
+      "duration": 4481,
       "video_url": null,
       "processed_at": "2026-09-06T02:44:18.820416+00:00",
       "summary_file": "summaries/wausau-wausau-committee-of-the-whole-meeting-vseyq8dpwio.md"
@@ -1781,7 +1781,7 @@
       "doc_url": null,
       "upload_date": "20260903",
       "meeting_date": "20260903",
-      "duration": null,
+      "duration": 130,
       "video_url": null,
       "processed_at": "2026-09-06T14:52:24.195376+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-pt2-eikgva3ivei.md"
@@ -1792,7 +1792,7 @@
       "doc_url": null,
       "upload_date": "20260903",
       "meeting_date": "20260903",
-      "duration": null,
+      "duration": 168,
       "video_url": null,
       "processed_at": "2026-09-07T02:41:14.421845+00:00",
       "summary_file": "summaries/marathon-marathon-county-extension-education-and-economic-development-committee--a-zoj9eo6xi.md"
@@ -1803,7 +1803,7 @@
       "doc_url": null,
       "upload_date": "20260903",
       "meeting_date": "20260903",
-      "duration": null,
+      "duration": 6679,
       "video_url": null,
       "processed_at": "2026-09-07T02:42:21.939433+00:00",
       "summary_file": "summaries/marathon-marathon-county-extension-education-and-economic-development-committee--lybtn6yeszc.md"
@@ -1825,7 +1825,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 91,
       "video_url": null,
       "processed_at": "2026-09-09T02:53:32.764238+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-gfcsok1wbs.md"
@@ -1836,7 +1836,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 338,
       "video_url": null,
       "processed_at": "2026-09-09T02:54:00.132619+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-aihrs-iogfm.md"
@@ -1858,7 +1858,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 3797,
       "video_url": null,
       "processed_at": "2026-09-10T02:55:42.079380+00:00",
       "summary_file": "summaries/weston-community-life-public-safety-swyoddqfs.md"
@@ -1869,7 +1869,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 7331,
       "video_url": null,
       "processed_at": "2026-09-10T02:56:52.910200+00:00",
       "summary_file": "summaries/weston-board-of-trustees-and-financehr-committee-budget-workshop-2begezehzs0.md"
@@ -1880,7 +1880,7 @@
       "doc_url": null,
       "upload_date": "20260909",
       "meeting_date": "20260909",
-      "duration": null,
+      "duration": 132,
       "video_url": null,
       "processed_at": "2026-09-10T02:57:12.002623+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-and-property-committee-meeting-ngqz6-glft0.md"
@@ -1891,7 +1891,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 93,
       "video_url": null,
       "processed_at": "2026-09-10T02:57:26.000562+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-jt7gjnvxi5y.md"
@@ -1902,7 +1902,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 9728,
       "video_url": null,
       "processed_at": "2026-09-10T02:58:32.881478+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-tpcw8s20ig8.md"
@@ -1913,7 +1913,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 1361,
       "video_url": null,
       "processed_at": "2026-09-10T15:46:56.595226+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-meeting-i-hfvzjo8yi.md"
@@ -1924,7 +1924,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 5454,
       "video_url": null,
       "processed_at": "2026-09-10T15:47:53.573137+00:00",
       "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-dfd93np7r-e.md"
@@ -1935,7 +1935,7 @@
       "doc_url": null,
       "upload_date": "20260909",
       "meeting_date": "20260909",
-      "duration": null,
+      "duration": 82,
       "video_url": null,
       "processed_at": "2026-09-10T15:48:07.757443+00:00",
       "summary_file": "summaries/marathon-marathon-county-eeed-hrfc-committee-meeting-mgddhreueks.md"
@@ -1946,7 +1946,7 @@
       "doc_url": null,
       "upload_date": "20260909",
       "meeting_date": "20260909",
-      "duration": null,
+      "duration": 3545,
       "video_url": null,
       "processed_at": "2026-09-10T15:49:06.451073+00:00",
       "summary_file": "summaries/marathon-marathon-county-eeed-hrfc-committee-meeting-tecdhleqsku.md"
@@ -1957,7 +1957,7 @@
       "doc_url": null,
       "upload_date": "20260908",
       "meeting_date": "20260908",
-      "duration": null,
+      "duration": 39,
       "video_url": null,
       "processed_at": "2026-09-10T15:49:15.776888+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-upyfenrfvqo.md"
@@ -1968,7 +1968,7 @@
       "doc_url": null,
       "upload_date": "20260909",
       "meeting_date": "20260909",
-      "duration": null,
+      "duration": 2209,
       "video_url": null,
       "processed_at": "2026-09-10T15:50:02.853924+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-and-property-committee-meeting-ydrmhnnlpuq.md"
@@ -1979,7 +1979,7 @@
       "doc_url": null,
       "upload_date": "20260910",
       "meeting_date": "20260910",
-      "duration": null,
+      "duration": 6633,
       "video_url": null,
       "processed_at": "2026-09-12T02:57:55.711902+00:00",
       "summary_file": "summaries/wausau-wausau-infrastructure-committee-meeting-q1ngys2nai0.md"
@@ -2023,7 +2023,7 @@
       "doc_url": null,
       "upload_date": "20260914",
       "meeting_date": "20260914",
-      "duration": null,
+      "duration": 1130,
       "video_url": null,
       "processed_at": "2026-09-15T03:13:14.211374+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-joint-human-resources-committee-and-finance-committee-vcg2sk5tzng.md"
@@ -2034,7 +2034,7 @@
       "doc_url": null,
       "upload_date": "20260914",
       "meeting_date": "20260914",
-      "duration": null,
+      "duration": 55,
       "video_url": null,
       "processed_at": "2026-09-15T03:13:28.241911+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-joint-human-resources-committee-and-finance-committee-qgjecvm4vts.md"
@@ -2078,7 +2078,7 @@
       "doc_url": null,
       "upload_date": "20260915",
       "meeting_date": "20260915",
-      "duration": null,
+      "duration": 285,
       "video_url": null,
       "processed_at": "2026-09-16T03:09:48.907685+00:00",
       "summary_file": "summaries/wausau-wausau-city-board-of-public-works-hgfdvevryii.md"
@@ -2100,7 +2100,7 @@
       "doc_url": null,
       "upload_date": "20260915",
       "meeting_date": "20260915",
-      "duration": null,
+      "duration": 5674,
       "video_url": null,
       "processed_at": "2026-09-17T03:14:03.410595+00:00",
       "summary_file": "summaries/wausau-wausau-town-hall-meeting-overview-of-professional-city-management-models-3espr2yo3v4.md"
@@ -2111,7 +2111,7 @@
       "doc_url": null,
       "upload_date": "20260917",
       "meeting_date": "20260917",
-      "duration": null,
+      "duration": 113,
       "video_url": null,
       "processed_at": "2026-09-18T03:00:22.452284+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-ghxzx-aouy4.md"
@@ -2122,7 +2122,7 @@
       "doc_url": null,
       "upload_date": "20260917",
       "meeting_date": "20260917",
-      "duration": null,
+      "duration": 628,
       "video_url": null,
       "processed_at": "2026-09-18T03:00:52.577641+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-pzmqtiihwgw.md"
@@ -2133,7 +2133,7 @@
       "doc_url": null,
       "upload_date": "20260917",
       "meeting_date": "20260917",
-      "duration": null,
+      "duration": 118,
       "video_url": null,
       "processed_at": "2026-09-18T15:45:53.959942+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-meeting-pt2-j-wx4t3layw.md"
@@ -2144,7 +2144,7 @@
       "doc_url": null,
       "upload_date": "20260917",
       "meeting_date": "20260917",
-      "duration": null,
+      "duration": 8482,
       "video_url": null,
       "processed_at": "2026-09-19T02:59:47.688634+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-meeting-vvrcwxclale.md"
@@ -2155,7 +2155,7 @@
       "doc_url": null,
       "upload_date": "20260917",
       "meeting_date": "20260917",
-      "duration": null,
+      "duration": 6027,
       "video_url": null,
       "processed_at": "2026-09-19T15:17:53.225170+00:00",
       "summary_file": "summaries/marathon-marathon-county-executive-committee-meeting-4cm06gyekcu.md"
@@ -2199,7 +2199,7 @@
       "doc_url": null,
       "upload_date": "20260921",
       "meeting_date": "20260921",
-      "duration": null,
+      "duration": 5944,
       "video_url": null,
       "processed_at": "2026-09-23T03:08:26.246146+00:00",
       "summary_file": "summaries/weston-joint-board-of-trustees-and-finance-and-hr-committee-budget-workshop-fp3vfba3-nq.md"
@@ -2210,7 +2210,7 @@
       "doc_url": null,
       "upload_date": "20260921",
       "meeting_date": "20260921",
-      "duration": null,
+      "duration": 6096,
       "video_url": null,
       "processed_at": "2026-09-23T03:09:34.002270+00:00",
       "summary_file": "summaries/weston-board-of-trustees-regular-meeting-qzcf-m-zhv8.md"
@@ -2221,7 +2221,7 @@
       "doc_url": null,
       "upload_date": "20260922",
       "meeting_date": "20260922",
-      "duration": null,
+      "duration": 4883,
       "video_url": null,
       "processed_at": "2026-09-24T02:59:27.506401+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-meeting-ts02lfdldvw.md"

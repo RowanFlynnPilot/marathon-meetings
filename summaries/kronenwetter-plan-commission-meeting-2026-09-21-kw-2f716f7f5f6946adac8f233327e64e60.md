@@ -3,31 +3,40 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-31  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2f716f7f5f6946adac8f233327e64e60.pdf  
-**Summarized:** 2026-09-21 03:07 UTC
+**Summarized:** 2026-09-25 03:13 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Kronenwetter Village Plan Commission was scheduled to meet on September 21, 2026, to consider a land division request, review a conditional use permit for a Marathon County highway garage, and discuss potential amendments to the Green Tree Trails Subdivision preliminary plat recommendation. The meeting also included a scheduled update on the village's ongoing zoning and subdivision ordinance review.
+The Kronenwetter Plan Commission held its September 21, 2026 meeting with five of seven members present. The commission approved two significant items: a certified survey map adjusting a lot line on Wood Road/Tracy Court, and a conditional use permit for the Marathon County Highway Department garage. The Green Tree subdivision preliminary plat was discussed with no new action taken, as the matter has already been forwarded to the Village Board, and commissioners began preliminary discussion of a zoning ordinance review.
 
 ## Key Discussions
-### Shaina Daris Land Division Request
-The Plan Commission was scheduled to consider a Certified Survey Map application that would change property boundaries between two parcels located in Glen Arbor subdivision. The request involved adjusting the line between 2172 Wood Road and 2208 Tracy Court to reconfigure the two affected properties.
+### Public Comment – Green Tree Subdivision and Marathon County Facility
+Two residents spoke during public comment. Guy Fridtelt of 2240 Ruby Drive argued that the proposed Green Tree subdivision is in a strategic location within the village's sewer service area and that approving private wells and septics there could block future municipal sewer and water extension to the east and south, citing the village's own comprehensive plan maps. He asked the commission to consult a civil engineer before proceeding. Bernie Kramer of 2150 East State Highway 153 expressed broader frustration with village leadership and economic development decisions, including the Marathon County Highway Department facility, calling it a 'total misfit' and criticizing a lack of accountability in local government. An email from Ken Charnusky was also entered into the record.
 
-### Conditional Use Permit - Marathon County Highway Garage
-The Commission was set to discuss and potentially take action on a conditional use permit application related to a Marathon County facility highway garage. No additional details regarding the location or specific conditions were provided in the agenda.
+### Community Development Director's Report
+Community Development Director Nathan [last name not stated] highlighted a Zoning Board of Appeals training opportunity in Wood County on October 13th and asked commissioners to respond by the following week if interested. He noted economic development prospects in the pipeline and emphasized the importance of clearing current old business items to allow staff capacity to address new applications. He also previewed that a short-term rental industry representative may be invited to a future meeting.
 
-### Green Tree Trails Subdivision Preliminary Plat
-The Commission was scheduled to receive an update on the Green Tree Trails Subdivision preliminary plat application and was expected to consider whether to rescind or amend a prior recommendation made regarding this development.
+### New Business Item D: Certified Survey Map – 2172 Wood Road / 2208 Tracy Court
+The director described the request as a straightforward lot line adjustment between two parcels that would grant one parcel creek access it currently lacks. He noted both landowners were aware of and involved in the application and recommended approval, adding he brought it before the commission out of caution given the resulting parcel shape. Trustee Stowell (Jessica) moved to approve and Bruce Sinkula seconded; the motion was approved 5-0.
 
-### Zoning and Subdivision Ordinance Review
-The Commission was set to discuss next steps in an ongoing review of the village's zoning and subdivision ordinances. This item was scheduled for discussion regarding the path forward for potential updates to these regulatory documents.
+### Old Business Item E: Conditional Use Permit – Marathon County Highway Department Garage
+The chair noted the commission had resolved most issues at a prior meeting approximately a week and a half earlier and was down to one remaining issue: an agreement between Marathon County and Saint Ries Parish on seven listed items. The director recommended approval, noting updated findings were included in the packet and that the county should be allowed flexibility to adjust fencing following neighbor discussions. He cautioned commissioners to ensure that any referenced memo conditions were their own conditions to the applicant, not third-party agreements. Bruce Sinkula moved and Trustee Stowell seconded to approve the CUP including the seven-item agreement; the motion passed 5-0.
+
+### Old Business Item F: Green Tree Subdivision – Update and Possible Action
+The director provided an update noting the application was submitted June 11 and that the developer has agreed to an extension but state law presumes approval if the village board does not act within 90 days. He reported that the two previously flagged issues — stormwater management and emergency access via Nick Avenue — have been substantially addressed: stormwater details are underway, and a gated emergency access road with a Knox box will be built by the seller north of the centerline to preserve space near an existing residence. Developer representative Jill Schofield spoke, clarifying the history of the project including a prior higher-density proposal that was rejected, the engineering study of a lift station that was deemed cost-prohibitive, and the design of the emergency access. A commissioner noted that Roth Engineering had studied a connector to Tower subdivision but found a lift station would cost close to $1 million. The director acknowledged the proposal does not fully align with the village's comprehensive plan but recommended approval under the circumstances. No formal action was taken; the matter remains with the Village Board.
+
+### Old Business Item G: Zoning and Subdivision Ordinance Review
+The chair and director held a wide-ranging discussion about priorities for the ordinance review. Chapter 520 (zoning) was identified as more urgent than Chapter 460. Specific issues raised included: clarity on accessory structures and sheds on vacant residential lots; storage containers; goat-raising for 4-H on residential property; accessory dwelling units (three recent inquiries noted); short-term rentals/B&Bs; and future planning for data centers and power-generating facilities. The director noted a Northland Lutheran High School concession stand septic issue has been referred to the utility committee for an ordinance change. Commissioners agreed each member would identify three items of concern within Chapter 520 to bring to the October 19th meeting, and the director suggested inviting a short-term rental industry representative to that meeting as well.
 
 ## Public Comment
-Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, at the discretion of the presiding officer.
+Two residents spoke. Guy Fridtelt (2240 Ruby Drive) argued the Green Tree subdivision's location within the village's sewer service area makes approving private wells and septics there strategically unwise, as it could block future municipal utility extension eastward and southward; he asked the commission to get a civil engineer's opinion. Bernie Kramer (2150 East State Highway 153, Rib Mountain area) expressed general frustration with village leadership and economic development decisions, particularly the Marathon County Highway Department facility, saying he sees no demonstrated benefits and criticizing a lack of accountability in local government. An email from Ken Charnusky was also entered into the record.
 
 ## Action Items
-- Scheduled to vote on or make recommendation regarding Shaina Daris Certified Survey Map land division
-- Expected to consider conditional use permit for Marathon County highway garage
-- Scheduled to consider rescinding or amending prior recommendation on Green Tree Trails Subdivision preliminary plat
-- Expected to discuss next steps for ongoing zoning and subdivision ordinance review
+- Certified survey map for 2172 Wood Road / 2208 Tracy Court lot line adjustment approved — village staff to process
+- Conditional use permit for Marathon County Highway Department garage approved — county may adjust fencing per neighbor discussions
+- Green Tree subdivision preliminary plat forwarded to Village Board with no new plan commission action; board should consider adding a condition preventing future subdivision of the one-acre lots
+- Each plan commission member to identify three items of concern within Chapter 520 of the zoning ordinance before the October 19th meeting
+- Director to invite short-term rental industry representative to October 19th meeting
+- Commissioners interested in October 13th ZBA training in Wood County to respond to director's email by the following week
+- Commission to begin no later than December or January on zoning code updates related to data centers and power-generating facilities

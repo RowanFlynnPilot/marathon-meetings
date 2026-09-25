@@ -422,5 +422,20 @@
       "source": "kronenwetter"
     }
   ],
-  "dc_everest": []
+  "dc_everest": [
+    {
+      "date": "2026-10-21",
+      "time": "6:30 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Organization/1315",
+      "source": "dc_everest"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "6:30 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Organization/1315",
+      "source": "dc_everest"
+    }
+  ]
 }

@@ -400,6 +400,16 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:b6ab50efcc606f87c760@marathon-meetings
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=America/Chicago:20261021T183000
+DTEND;TZID=America/Chicago:20261021T200000
+SUMMARY:DC Everest School Board: Regular School Board Meeting
+URL:https://meetings.boardbook.org/Public/Organization/1315
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:b876c8b2345c99c9ceeb@marathon-meetings
 DTSTAMP:20261026T000000Z
 DTSTART;TZID=America/Chicago:20261026T170000
@@ -556,6 +566,16 @@ DTSTART;TZID=America/Chicago:20261116T180000
 DTEND;TZID=America/Chicago:20261116T193000
 SUMMARY:Village of Weston: Board of Trustees
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:3bee1f2523f3dfe70812@marathon-meetings
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=America/Chicago:20261118T183000
+DTEND;TZID=America/Chicago:20261118T200000
+SUMMARY:DC Everest School Board: Regular School Board Meeting
+URL:https://meetings.boardbook.org/Public/Organization/1315
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT

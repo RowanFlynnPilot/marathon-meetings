@@ -3,22 +3,29 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-68  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c9c92d2afc2a49afb51ba2b04743793b.pdf  
-**Summarized:** 2026-09-17 03:13 UTC
+**Summarized:** 2026-09-25 03:14 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 17, 2026, to conduct general village business including a closed session for consideration of Village Clerk candidate interviews. The meeting was set to address personnel matters and consider items for inclusion on future agendas.
+The Village of Kronenwetter held a special board meeting on September 17, 2026, focused primarily on interviewing village clerk candidates in closed session. The board voted to convene in closed session, conducted interviews, and then directed the village administrator to take action on the hiring process as determined in closed session. A final decision on hiring may come at the next regular board meeting depending on outcomes of the administrator's follow-up actions.
 
 ## Key Discussions
-### Village Clerk Candidate Interviews
-The Board was scheduled to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and interview candidates for the Village Clerk position. The closed session was set to address employment and performance evaluation matters within the Board's jurisdiction.
+### Public Comment
+No members of the public signed up to speak during the public comment period. Village President Dan Joling briefly noted the absence of public commenters and moved the meeting forward.
+
+### Closed Session - Village Clerk Candidate Interviews
+The board voted unanimously to convene in closed session under Wisconsin Statute §19.85(1)(c) for the purpose of interviewing village clerk candidates. Trustee Lesniak made the motion and Trustee Mishka seconded. Trustees Stowell and Solheim were excused from the meeting. The board then conducted the closed session interviews off the record.
+
+### After Action - Direction to Administrator Following Closed Session
+Upon returning to open session, Trustee Lesniak moved and Trustee Mishka seconded a motion to direct the village administrator to take action as directed during the closed session. Village President Joling initially called for a roll call vote but then recognized a voice vote was sufficient; the motion carried with all ayes and no opposition. Discussion noted that a formal approval of the hired candidate may come at the next regular board meeting depending on how the administrator's follow-up actions proceed.
+
+### Future Agenda Items
+Village President Joling and at least one trustee discussed whether a special meeting would be needed to formally approve a clerk hire, or whether that action could wait for the next regular board meeting. It was determined the decision would be made at the next regular board meeting, contingent on what comes to fruition from the administrator's directed actions.
 
 ## Public Comment
-Public comment was on the agenda, scheduled for up to 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.
+No public comment was offered. Village President Joling confirmed no one had signed up to speak.
 
 ## Action Items
-- Scheduled to consider motion to convene into closed session for Village Clerk candidate interviews
-- Scheduled to consider motion to reconvene into open session
-- Expected to take action items following closed session
-- Scheduled to consider items for inclusion on future agendas
+- Village administrator directed to take action as determined in closed session regarding village clerk candidate selection
+- Board to consider formal approval of village clerk hire at the next regular board meeting, depending on outcome of administrator's follow-up

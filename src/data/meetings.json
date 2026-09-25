@@ -6,7 +6,7 @@
     "date": "September 22, 2026",
     "shortDate": "SEP 22",
     "committee": "Finance",
-    "duration": null,
+    "duration": "1h 21m",
     "url": "https://www.youtube.com/watch?v=tS02LFDlDVw",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -166,13 +166,140 @@
     ]
   },
   {
+    "id": "kw_2f716f7f5f6946adac8f233327e64e60",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "September 21, 2026",
+    "shortDate": "SEP 21",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-31",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2f716f7f5f6946adac8f233327e64e60.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Plan Commission held its September 21, 2026 meeting with five of seven members present. The commission approved two significant items: a certified survey map adjusting a lot line on Wood Road/Tracy Court, and a conditional use permit for the Marathon County Highway Department garage. The Green Tree subdivision preliminary plat was discussed with no new action taken, as the matter has already been forwarded to the Village Board, and commissioners began preliminary discussion of a zoning ordinance review.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:15",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "14:30",
+        "item": "Community Development Director's Report"
+      },
+      {
+        "time": "18:00",
+        "item": "New Business Item D: Certified Survey Map – 2172 Wood Road / 2208 Tracy Court lot line adjustment"
+      },
+      {
+        "time": "24:00",
+        "item": "Old Business Item E: Conditional Use Permit – Marathon County Highway Department Garage"
+      },
+      {
+        "time": "36:00",
+        "item": "Old Business Item F: Green Tree Subdivision Preliminary Plat – Update and Possible Action to Rescind or Amend Prior Recommendation"
+      },
+      {
+        "time": "1:05:00",
+        "item": "Old Business Item G: Next Steps in Ongoing Review of Zoning and Subdivision Ordinances"
+      },
+      {
+        "time": "1:45:00",
+        "item": "Next Meeting Date and Future Agenda Items"
+      },
+      {
+        "time": "1:48:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment – Green Tree Subdivision and Marathon County Facility",
+        "body": "Two residents spoke during public comment. Guy Fridtelt of 2240 Ruby Drive argued that the proposed Green Tree subdivision is in a strategic location within the village's sewer service area and that approving private wells and septics there could block future municipal sewer and water extension to the east and south, citing the village's own comprehensive plan maps. He asked the commission to consult a civil engineer before proceeding. Bernie Kramer of 2150 East State Highway 153 expressed broader frustration with village leadership and economic development decisions, including the Marathon County Highway Department facility, calling it a 'total misfit' and criticizing a lack of accountability in local government. An email from Ken Charnusky was also entered into the record."
+      },
+      {
+        "item": "Community Development Director's Report",
+        "body": "Community Development Director Nathan [last name not stated] highlighted a Zoning Board of Appeals training opportunity in Wood County on October 13th and asked commissioners to respond by the following week if interested. He noted economic development prospects in the pipeline and emphasized the importance of clearing current old business items to allow staff capacity to address new applications. He also previewed that a short-term rental industry representative may be invited to a future meeting."
+      },
+      {
+        "item": "New Business Item D: Certified Survey Map – 2172 Wood Road / 2208 Tracy Court",
+        "body": "The director described the request as a straightforward lot line adjustment between two parcels that would grant one parcel creek access it currently lacks. He noted both landowners were aware of and involved in the application and recommended approval, adding he brought it before the commission out of caution given the resulting parcel shape. Trustee Stowell (Jessica) moved to approve and Bruce Sinkula seconded; the motion was approved 5-0."
+      },
+      {
+        "item": "Old Business Item E: Conditional Use Permit – Marathon County Highway Department Garage",
+        "body": "The chair noted the commission had resolved most issues at a prior meeting approximately a week and a half earlier and was down to one remaining issue: an agreement between Marathon County and Saint Ries Parish on seven listed items. The director recommended approval, noting updated findings were included in the packet and that the county should be allowed flexibility to adjust fencing following neighbor discussions. He cautioned commissioners to ensure that any referenced memo conditions were their own conditions to the applicant, not third-party agreements. Bruce Sinkula moved and Trustee Stowell seconded to approve the CUP including the seven-item agreement; the motion passed 5-0."
+      },
+      {
+        "item": "Old Business Item F: Green Tree Subdivision – Update and Possible Action",
+        "body": "The director provided an update noting the application was submitted June 11 and that the developer has agreed to an extension but state law presumes approval if the village board does not act within 90 days. He reported that the two previously flagged issues — stormwater management and emergency access via Nick Avenue — have been substantially addressed: stormwater details are underway, and a gated emergency access road with a Knox box will be built by the seller north of the centerline to preserve space near an existing residence. Developer representative Jill Schofield spoke, clarifying the history of the project including a prior higher-density proposal that was rejected, the engineering study of a lift station that was deemed cost-prohibitive, and the design of the emergency access. A commissioner noted that Roth Engineering had studied a connector to Tower subdivision but found a lift station would cost close to $1 million. The director acknowledged the proposal does not fully align with the village's comprehensive plan but recommended approval under the circumstances. No formal action was taken; the matter remains with the Village Board."
+      },
+      {
+        "item": "Old Business Item G: Zoning and Subdivision Ordinance Review",
+        "body": "The chair and director held a wide-ranging discussion about priorities for the ordinance review. Chapter 520 (zoning) was identified as more urgent than Chapter 460. Specific issues raised included: clarity on accessory structures and sheds on vacant residential lots; storage containers; goat-raising for 4-H on residential property; accessory dwelling units (three recent inquiries noted); short-term rentals/B&Bs; and future planning for data centers and power-generating facilities. The director noted a Northland Lutheran High School concession stand septic issue has been referred to the utility committee for an ordinance change. Commissioners agreed each member would identify three items of concern within Chapter 520 to bring to the October 19th meeting, and the director suggested inviting a short-term rental industry representative to that meeting as well."
+      }
+    ],
+    "publicComment": "Two residents spoke. Guy Fridtelt (2240 Ruby Drive) argued the Green Tree subdivision's location within the village's sewer service area makes approving private wells and septics there strategically unwise, as it could block future municipal utility extension eastward and southward; he asked the commission to get a civil engineer's opinion. Bernie Kramer (2150 East State Highway 153, Rib Mountain area) expressed general frustration with village leadership and economic development decisions, particularly the Marathon County Highway Department facility, saying he sees no demonstrated benefits and criticizing a lack of accountability in local government. An email from Ken Charnusky was also entered into the record.",
+    "actionItems": [
+      "Certified survey map for 2172 Wood Road / 2208 Tracy Court lot line adjustment approved — village staff to process",
+      "Conditional use permit for Marathon County Highway Department garage approved — county may adjust fencing per neighbor discussions",
+      "Green Tree subdivision preliminary plat forwarded to Village Board with no new plan commission action; board should consider adding a condition preventing future subdivision of the one-acre lots",
+      "Each plan commission member to identify three items of concern within Chapter 520 of the zoning ordinance before the October 19th meeting",
+      "Director to invite short-term rental industry representative to October 19th meeting",
+      "Commissioners interested in October 13th ZBA training in Wood County to respond to director's email by the following week",
+      "Commission to begin no later than December or January on zoning code updates related to data centers and power-generating facilities"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Utilities",
+      "Green Tree Subdivision",
+      "Marathon County Highway Garage",
+      "Zoning Ordinance Review",
+      "Data Centers"
+    ],
+    "votes": [
+      {
+        "item": "Certified survey map – lot line adjustment between 2172 Wood Road and 2208 Tracy Court",
+        "motion": "Approve the certified survey map as presented",
+        "mover": "Jessica Stowell",
+        "second": "Bruce Sinkula",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Conditional use permit for Marathon County Highway Department garage",
+        "motion": "Approve the conditional use permit for the Marathon County Highway Department garage as presented with the facts and findings and the agreement between the county and Saint Ries on the seven items listed",
+        "mover": "Bruce Sinkula",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Jessica Stowell",
+        "second": "Bruce Sinkula",
+        "outcome": "Approved",
+        "tally": "5-0"
+      }
+    ]
+  },
+  {
     "id": "QZCF_m_zhv8",
     "source": "weston",
     "title": "Board of Trustees Regular Meeting",
     "date": "September 21, 2026",
     "shortDate": "SEP 21",
     "committee": "Board of Trustees",
-    "duration": null,
+    "duration": "1h 41m",
     "url": "https://www.youtube.com/watch?v=QZCF_m_zhv8",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09212026-1971",
     "isAgendaOnly": false,
@@ -372,7 +499,7 @@
     "date": "September 21, 2026",
     "shortDate": "SEP 21",
     "committee": "Board of Trustees",
-    "duration": null,
+    "duration": "1h 39m",
     "url": "https://www.youtube.com/watch?v=Fp3vfBA3-nQ",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09212026-1971",
     "isAgendaOnly": false,
@@ -554,75 +681,6 @@
     ]
   },
   {
-    "id": "kw_2f716f7f5f6946adac8f233327e64e60",
-    "source": "kronenwetter",
-    "title": "Plan Commission Meeting",
-    "date": "September 21, 2026",
-    "shortDate": "SEP 21",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-31",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2f716f7f5f6946adac8f233327e64e60.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Kronenwetter Village Plan Commission was scheduled to meet on September 21, 2026, to consider a land division request, review a conditional use permit for a Marathon County highway garage, and discuss potential amendments to the Green Tree Trails Subdivision preliminary plat recommendation. The meeting also included a scheduled update on the village's ongoing zoning and subdivision ordinance review.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Community Development Director Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Shaina Daris land division by Certified Survey Map - 2172 Wood Rd and 2208 Tracy Ct (PIN: 14527080730008 and PIN: 14527080730011)"
-      },
-      {
-        "time": "N/A",
-        "item": "Conditional Use Permit - Marathon County Facility - Highway Garage"
-      },
-      {
-        "time": "N/A",
-        "item": "Update on Green Tree Trails Subdivision Preliminary Plat application and possible action to rescind or amend prior recommendation"
-      },
-      {
-        "time": "N/A",
-        "item": "Next Steps in Ongoing Review of Zoning and Subdivision Ordinances"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Shaina Daris Land Division Request",
-        "body": "The Plan Commission was scheduled to consider a Certified Survey Map application that would change property boundaries between two parcels located in Glen Arbor subdivision. The request involved adjusting the line between 2172 Wood Road and 2208 Tracy Court to reconfigure the two affected properties."
-      },
-      {
-        "item": "Conditional Use Permit - Marathon County Highway Garage",
-        "body": "The Commission was set to discuss and potentially take action on a conditional use permit application related to a Marathon County facility highway garage. No additional details regarding the location or specific conditions were provided in the agenda."
-      },
-      {
-        "item": "Green Tree Trails Subdivision Preliminary Plat",
-        "body": "The Commission was scheduled to receive an update on the Green Tree Trails Subdivision preliminary plat application and was expected to consider whether to rescind or amend a prior recommendation made regarding this development."
-      },
-      {
-        "item": "Zoning and Subdivision Ordinance Review",
-        "body": "The Commission was set to discuss next steps in an ongoing review of the village's zoning and subdivision ordinances. This item was scheduled for discussion regarding the path forward for potential updates to these regulatory documents."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, at the discretion of the presiding officer.",
-    "actionItems": [
-      "Scheduled to vote on or make recommendation regarding Shaina Daris Certified Survey Map land division",
-      "Expected to consider conditional use permit for Marathon County highway garage",
-      "Scheduled to consider rescinding or amending prior recommendation on Green Tree Trails Subdivision preliminary plat",
-      "Expected to discuss next steps for ongoing zoning and subdivision ordinance review"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Land Division",
-      "Green Tree Trails Subdivision",
-      "Ordinance Review"
-    ],
-    "votes": []
-  },
-  {
     "id": "bb_766613",
     "source": "school_board",
     "title": "Closed Meeting",
@@ -716,13 +774,116 @@
     "votes": []
   },
   {
+    "id": "kw_c9c92d2afc2a49afb51ba2b04743793b",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "September 17, 2026",
+    "shortDate": "SEP 17",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-68",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c9c92d2afc2a49afb51ba2b04743793b.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter held a special board meeting on September 17, 2026, focused primarily on interviewing village clerk candidates in closed session. The board voted to convene in closed session, conducted interviews, and then directed the village administrator to take action on the hiring process as determined in closed session. A final decision on hiring may come at the next regular board meeting depending on outcomes of the administrator's follow-up actions.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:00",
+        "item": "Announcement of Closed Session"
+      },
+      {
+        "time": "1:15",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:25",
+        "item": "Closed Session - Interviewing Village Clerk Candidates (Wis. Stat. §19.85(1)(c))"
+      },
+      {
+        "time": "3:00",
+        "item": "Return to Open Session - After Action / Direction to Administrator"
+      },
+      {
+        "time": "4:30",
+        "item": "Consideration of Items for Future Agenda"
+      },
+      {
+        "time": "5:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "No members of the public signed up to speak during the public comment period. Village President Dan Joling briefly noted the absence of public commenters and moved the meeting forward."
+      },
+      {
+        "item": "Closed Session - Village Clerk Candidate Interviews",
+        "body": "The board voted unanimously to convene in closed session under Wisconsin Statute §19.85(1)(c) for the purpose of interviewing village clerk candidates. Trustee Lesniak made the motion and Trustee Mishka seconded. Trustees Stowell and Solheim were excused from the meeting. The board then conducted the closed session interviews off the record."
+      },
+      {
+        "item": "After Action - Direction to Administrator Following Closed Session",
+        "body": "Upon returning to open session, Trustee Lesniak moved and Trustee Mishka seconded a motion to direct the village administrator to take action as directed during the closed session. Village President Joling initially called for a roll call vote but then recognized a voice vote was sufficient; the motion carried with all ayes and no opposition. Discussion noted that a formal approval of the hired candidate may come at the next regular board meeting depending on how the administrator's follow-up actions proceed."
+      },
+      {
+        "item": "Future Agenda Items",
+        "body": "Village President Joling and at least one trustee discussed whether a special meeting would be needed to formally approve a clerk hire, or whether that action could wait for the next regular board meeting. It was determined the decision would be made at the next regular board meeting, contingent on what comes to fruition from the administrator's directed actions."
+      }
+    ],
+    "publicComment": "No public comment was offered. Village President Joling confirmed no one had signed up to speak.",
+    "actionItems": [
+      "Village administrator directed to take action as determined in closed session regarding village clerk candidate selection",
+      "Board to consider formal approval of village clerk hire at the next regular board meeting, depending on outcome of administrator's follow-up"
+    ],
+    "topics": [
+      "Staffing",
+      "Village Clerk Hiring",
+      "Closed Session",
+      "Village Administration"
+    ],
+    "votes": [
+      {
+        "item": "Convene in closed session to interview village clerk candidates",
+        "motion": "Motion to convene in closed session per Wis. Stat. §19.85(1)(c) for interviewing village clerk candidates",
+        "mover": "Dan Lesniak",
+        "second": "Erin Mishka",
+        "outcome": "Approved",
+        "tally": "5-0"
+      },
+      {
+        "item": "Direct administrator to take action as directed in closed session",
+        "motion": "Move to direct the administrator to take action as directed in closed session",
+        "mover": "Dan Lesniak",
+        "second": "Erin Mishka",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Craig Mortensen",
+        "second": "Erin Mishka",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "4cM06GyeKcU",
     "source": "marathon",
     "title": "Executive Committee Meeting",
     "date": "September 17, 2026",
     "shortDate": "SEP 17",
     "committee": "Executive Committee",
-    "duration": null,
+    "duration": "1h 40m",
     "url": "https://www.youtube.com/watch?v=4cM06GyeKcU",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -849,7 +1010,7 @@
     "date": "September 17, 2026",
     "shortDate": "SEP 17",
     "committee": "County Board",
-    "duration": null,
+    "duration": "2h 21m",
     "url": "https://www.youtube.com/watch?v=vVRCWXClAlE",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1049,7 +1210,7 @@
     "date": "September 17, 2026",
     "shortDate": "SEP 17",
     "committee": "County Board",
-    "duration": null,
+    "duration": "1m",
     "url": "https://www.youtube.com/watch?v=J_WX4t3layw",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1110,7 +1271,7 @@
     "date": "September 17, 2026",
     "shortDate": "SEP 17",
     "committee": "Infrastructure",
-    "duration": null,
+    "duration": "10m",
     "url": "https://www.youtube.com/watch?v=PZMqtIIHwGw",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1200,7 +1361,7 @@
     "date": "September 17, 2026",
     "shortDate": "SEP 17",
     "committee": "Executive Committee",
-    "duration": null,
+    "duration": "1m",
     "url": "https://www.youtube.com/watch?v=GhxZX-Aouy4",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1265,74 +1426,6 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_c9c92d2afc2a49afb51ba2b04743793b",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "September 17, 2026",
-    "shortDate": "SEP 17",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-68",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c9c92d2afc2a49afb51ba2b04743793b.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 17, 2026, to conduct general village business including a closed session for consideration of Village Clerk candidate interviews. The meeting was set to address personnel matters and consider items for inclusion on future agendas.",
-    "agenda": [
-      {
-        "time": "4:30 PM",
-        "item": "Call meeting to order with Pledge of Allegiance and Roll Call"
-      },
-      {
-        "time": "N/A",
-        "item": "Announcement of closed session"
-      },
-      {
-        "time": "N/A",
-        "item": "Public comment period (up to 15 minutes total, 3 minutes per person)"
-      },
-      {
-        "time": "N/A",
-        "item": "Closed session to interview Village Clerk candidates"
-      },
-      {
-        "time": "N/A",
-        "item": "Reconvene open session"
-      },
-      {
-        "time": "N/A",
-        "item": "Action after closed session"
-      },
-      {
-        "time": "N/A",
-        "item": "Consideration of items for future agenda"
-      },
-      {
-        "time": "N/A",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Village Clerk Candidate Interviews",
-        "body": "The Board was scheduled to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and interview candidates for the Village Clerk position. The closed session was set to address employment and performance evaluation matters within the Board's jurisdiction."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, scheduled for up to 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Scheduled to consider motion to convene into closed session for Village Clerk candidate interviews",
-      "Scheduled to consider motion to reconvene into open session",
-      "Expected to take action items following closed session",
-      "Scheduled to consider items for inclusion on future agendas"
-    ],
-    "topics": [
-      "Staffing",
-      "Village Clerk Position",
-      "Personnel",
-      "Government Operations"
-    ],
-    "votes": []
   },
   {
     "id": "bb_762740",
@@ -1511,13 +1604,121 @@
     ]
   },
   {
+    "id": "kw_2998b824c4a8402485d7752be7e3630a",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "September 15, 2026",
+    "shortDate": "SEP 15",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Administrative Policy Committee met on September 15, 2026, focusing primarily on a lengthy finance director update covering the 2027 budget process, debt restructuring, staffing concerns, garbage fee increases driven by diesel surcharges, and the 10-year Capital Improvement Plan. No formal votes were taken; the meeting was largely a working session to prepare trustees for October budget workshops. Key issues included a $54,000 unplanned fuel surcharge cost from Harter's garbage contract, a proposed restructuring of $863,200 in unspent TID 2 borrowing proceeds, and concerns about understaffing across village departments.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Pledge of Allegiance and Roll Call"
+      },
+      {
+        "time": "2:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "7:45",
+        "item": "Approval of Minutes (August 18th) - deferred to next meeting"
+      },
+      {
+        "time": "8:20",
+        "item": "Finance Director Report - Monthly Update (mid-July through mid-September 2026)"
+      },
+      {
+        "time": "44:00",
+        "item": "August 2026 Budget Status Report"
+      },
+      {
+        "time": "46:00",
+        "item": "2027 Operating Budget Review - staffing, union contracts, garbage fee discussion"
+      },
+      {
+        "time": "1:22:00",
+        "item": "2027-2036 CIP Budget - Debt Restructuring Discussion"
+      },
+      {
+        "time": "1:47:00",
+        "item": "Consideration of Items for Future Agenda - committee ordinance, public comment policy"
+      },
+      {
+        "time": "1:53:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - Traffic on Old Highway 51 and Long-Range Planning",
+        "body": "Bernie Kramer of 2150 East State Highway 153 addressed the committee, raising concerns about traffic management on Old Highway 51, arguing it is Kronenwetter's responsibility to coordinate with the county on traffic improvements rather than remaining passive. He also expressed skepticism about 10-year planning given how frequently elected boards change. An unidentified trustee noted she had spoken with Kramer earlier and agreed his suggestion about a potential turning lane for heavy equipment was worth considering."
+      },
+      {
+        "item": "Finance Director Report - Staffing and Operational Concerns",
+        "body": "Finance Director John Jacobs provided an extensive update covering the financial audit (targeting mid-October), TID 3 closure audit (joint review board planned for November), property reassessment by Associated Appraisal (fieldwork underway on 3,000 parcels with buildings and 4,400 land parcels), and a potential future RFP for auditing services. Village Administrator Jim [last name inaudible] and Jacobs both emphasized the village is severely understaffed, with Jacobs noting there were days he was the only person in the office. Discussion centered on the need for a deputy finance director and the strain on interim clerk Kim, who is also managing election duties."
+      },
+      {
+        "item": "Garbage Fee - Diesel Fuel Surcharge",
+        "body": "Jacobs presented a handout analyzing the impact of diesel fuel prices exceeding $4 per gallon — the threshold triggering a fuel surcharge clause in the Harter's garbage contract. Since March 2026, diesel has exceeded $4 (reaching over $6 per gallon), creating approximately $54,000 in unplanned costs for 2026, which the village plans to absorb using the $60,000 contingency reserve and $43,000 from TID 3 closure revenue. For the 2027 budget, trustees discussed three diesel price scenarios ($5.75, $6.00, $6.25 per gallon) that would add $28–$30 per household to garbage charges on top of the contract's standard 4% increase. Trustees agreed to plan for the worst-case $6.25 scenario, adding approximately $30 to the rate."
+      },
+      {
+        "item": "2027 Operating Budget Preview",
+        "body": "Jacobs and the administrator outlined anticipated 2027 budget additions: a deputy clerk position (funded 100% by general fund), a possible fourth utility crew member (funded by water/sewer rates), and retention of funding for the planning tech position. Police officers union contract negotiations are ongoing for a proposed three-year contract; a first bargaining session with the teamsters is scheduled for September 24. The state-mandated levy limit increase for 2027 is only $16,306, well short of anticipated cost increases, meaning the village will again need to use the general obligation debt service exception — similar to the $874,000 exception used in 2026."
+      },
+      {
+        "item": "2027-2036 CIP Budget - Debt Restructuring",
+        "body": "Jacobs detailed a proposed restructuring of $863,200 in unspent TID 2 borrowing proceeds that cannot be used for TID 2 projects (the Flannery Jamrose project was scrapped after bids came in over $1.2 million). The funds must be spent by late 2027 and will be transferred to the village's general capital project fund, with the associated debt absorbed by the tax levy debt service fund. This eliminates one of two previously anticipated debt service 'drops' — the 2030 drop — while preserving the 2029 drop of approximately $226,000. Jacobs noted the restructuring may allow TID 2 to close a year or two earlier than scheduled. Budget workshops are scheduled for October 13 (full budget review at 5:30 p.m.), October 19 (3:00 p.m. start to accommodate Plan Commission at 6:00 p.m.), and October 20 (6:00 p.m.)."
+      },
+      {
+        "item": "Future Agenda Items - Committee Ordinance and Public Comment Policy",
+        "body": "The administrator noted that Village President Dan Joling had referenced a potential ordinance change at the prior village board meeting to allow a member of the Police and Fire Commission to simultaneously serve on another committee — currently prohibited by ordinance. The administrator said the matter will go to the village attorney before coming to APC. Trustee Mary Solheim raised the topic of revising public comment procedures at APC, and the administrator indicated a recommendation will be brought forward, noting that allowing emailed public comment on non-agenda items is unusual statewide and has created problems."
+      }
+    ],
+    "publicComment": "One speaker appeared in person: Bernie Kramer, 2150 East State Highway 153, Kronenwetter. Kramer expressed skepticism about long-range 10-year planning given board turnover, and criticized village inaction on Old Highway 51 traffic issues, arguing Kronenwetter bears responsibility for working with the county to address traffic concerns — particularly as heavy commercial development increases. He urged the village to take the first step in coordinating with Marathon County rather than treating Old 51 as someone else's problem.",
+    "actionItems": [
+      "Finance director to finalize August 2026 budget status report and distribute before next meeting",
+      "Finance director to plan for worst-case $6.25/gallon diesel scenario in 2027 garbage fee budget",
+      "Finance director to restructure debt service amortization to transfer $863,200 from TID 2 to village capital project and debt service funds",
+      "Finance director to run scenarios on how debt restructuring shortens TID 2 payoff timeline for October meetings",
+      "Administrator to take committee ordinance (PFC dual-service question) to village attorney before bringing to APC",
+      "Administrator to bring recommendation on public comment policy revisions to future APC meeting",
+      "Budget workshops scheduled: October 13 at 5:30 p.m. (full budget review), October 19 at 3:00 p.m., October 20 at 6:00 p.m.",
+      "Budget hearing set for November 9 for 2027 budget adoption",
+      "Approval of August 18 APC meeting minutes deferred to October 13 meeting",
+      "Finance director to investigate Old Highway 51 coordination opportunities with Marathon County per public comment"
+    ],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "Development",
+      "TID Districts",
+      "Debt Restructuring"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion for adjournment",
+        "mover": "Mary Solheim",
+        "second": "Chris Clues",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "3EsPr2YO3v4",
     "source": "wausau",
     "title": "Town Hall Meeting: Overview of Professional City Management Models",
     "date": "September 15, 2026",
     "shortDate": "SEP 15",
     "committee": "City of Wausau Town Hall",
-    "duration": null,
+    "duration": "1h 34m",
     "url": "https://www.youtube.com/watch?v=3EsPr2YO3v4",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1619,7 +1820,7 @@
     "date": "September 15, 2026",
     "shortDate": "SEP 15",
     "committee": "Board of Public Works",
-    "duration": null,
+    "duration": "4m",
     "url": "https://www.youtube.com/watch?v=HgFDvEvrYiI",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -1734,76 +1935,6 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_2998b824c4a8402485d7752be7e3630a",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee Meeting",
-    "date": "September 15, 2026",
-    "shortDate": "SEP 15",
-    "committee": "Administrative Policy",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Administrative Policy Committee was scheduled to meet to review financial reports, discuss the 2027 operating budget preview, and consider the 2027-2036 Capital Improvement Plan with funding and debt service analyses. The meeting was set to address the village's financial planning and budgetary priorities for the coming year.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of August 18, 2026 Administrative Policy Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Finance Director Report - Monthly Update"
-      },
-      {
-        "time": "N/A",
-        "item": "August 2026 Budget Status Report"
-      },
-      {
-        "time": "N/A",
-        "item": "2027 Operating Budget Preview"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2036 CIP Budget - September 2026 Update"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of August 18, 2026 Meeting Minutes",
-        "body": "The committee was scheduled to review and take possible action on the minutes from the previous Administrative Policy Committee meeting held on August 18, 2026."
-      },
-      {
-        "item": "Finance Director Report - Monthly Update",
-        "body": "The Finance Director was set to provide a monthly update report to the committee regarding the village's financial status and activities."
-      },
-      {
-        "item": "August 2026 Budget Status Report",
-        "body": "The committee was expected to review the budget status report for August 2026 to assess financial performance through that period."
-      },
-      {
-        "item": "2027 Operating Budget Preview",
-        "body": "The committee was scheduled to discuss a preview of the 2027 operating budget to inform planning and deliberations on the upcoming year's financial priorities."
-      },
-      {
-        "item": "2027-2036 CIP Budget - September 2026 Update",
-        "body": "The committee was set to consider the Capital Improvement Plan for 2027-2036, including funding analysis, debt service analysis, and Tax Increment District projected closer analysis. This comprehensive capital planning review was expected to guide the village's long-term infrastructure and investment decisions."
-      }
-    ],
-    "publicComment": "Public comment was scheduled, with a 15-minute total limit and three minutes per person, subject to extension at the Chief Presiding Officer's discretion. No action was to be taken under public comments.",
-    "actionItems": [
-      "scheduled to vote on approval of August 18, 2026 meeting minutes",
-      "expected to consider the 2027-2036 Capital Improvement Plan with funding and debt service analyses"
-    ],
-    "topics": [
-      "Budget",
-      "Capital Improvement Plan",
-      "Debt Service",
-      "Tax Increment District"
-    ],
-    "votes": []
   },
   {
     "id": "bb_764202",
@@ -2215,7 +2346,7 @@
     "date": "September 14, 2026",
     "shortDate": "SEP 14",
     "committee": "Wausau City Council Joint Human Resources Committee and Finance Committee",
-    "duration": null,
+    "duration": "0m",
     "url": "https://www.youtube.com/watch?v=qgjeCvm4vts",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -2276,7 +2407,7 @@
     "date": "September 14, 2026",
     "shortDate": "SEP 14",
     "committee": "City of Wausau Joint Human Resources Committee and Finance Committee",
-    "duration": null,
+    "duration": "18m",
     "url": "https://www.youtube.com/watch?v=VCg2SK5tzng",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -2505,7 +2636,7 @@
     "date": "September 10, 2026",
     "shortDate": "SEP 10",
     "committee": "Infrastructure & Facilities",
-    "duration": null,
+    "duration": "1h 50m",
     "url": "https://www.youtube.com/watch?v=Q1Ngys2nAI0",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -2729,7 +2860,7 @@
     "date": "September 9, 2026",
     "shortDate": "SEP 9",
     "committee": "Marathon County Human Resources, Finance, and Property Committee",
-    "duration": null,
+    "duration": "36m",
     "url": "https://www.youtube.com/watch?v=yDRMhNnLPuQ",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -2866,7 +2997,7 @@
     "date": "September 9, 2026",
     "shortDate": "SEP 9",
     "committee": "Marathon County EEED (Extension Education Economic Development) & HRFC (Human Resources Finance Committee) Joint Meeting",
-    "duration": null,
+    "duration": "59m",
     "url": "https://www.youtube.com/watch?v=teCDhlEQSKU",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3005,7 +3136,7 @@
     "date": "September 9, 2026",
     "shortDate": "SEP 9",
     "committee": "Marathon County EEED & HRFC Committee (Joint Meeting)",
-    "duration": null,
+    "duration": "1m",
     "url": "https://www.youtube.com/watch?v=mGDdhrEuEKs",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3057,7 +3188,7 @@
     "date": "September 9, 2026",
     "shortDate": "SEP 9",
     "committee": "Marathon County Human Resources, Finance, and Property Committee",
-    "duration": null,
+    "duration": "2m",
     "url": "https://www.youtube.com/watch?v=NgQZ6-GLFT0",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3294,7 +3425,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Board of Public Works",
-    "duration": null,
+    "duration": "0m",
     "url": "https://www.youtube.com/watch?v=uPyfeNRFvqo",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3350,7 +3481,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Public Safety",
-    "duration": null,
+    "duration": "1h 30m",
     "url": "https://www.youtube.com/watch?v=dfD93NP7R_E",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3456,7 +3587,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Finance",
-    "duration": null,
+    "duration": "22m",
     "url": "https://www.youtube.com/watch?v=I-HFVzJo8yI",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3549,7 +3680,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "City Council",
-    "duration": null,
+    "duration": "2h 42m",
     "url": "https://www.youtube.com/watch?v=tPcW8s20iG8",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3741,7 +3872,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Public Safety",
-    "duration": null,
+    "duration": "1m",
     "url": "https://www.youtube.com/watch?v=jT7gjnvxI5Y",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -3787,7 +3918,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Board of Trustees",
-    "duration": null,
+    "duration": "2h 2m",
     "url": "https://www.youtube.com/watch?v=2BEGEZeHzS0",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09082026-1963",
     "isAgendaOnly": false,
@@ -3927,7 +4058,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Community Life & Public Safety",
-    "duration": null,
+    "duration": "1h 3m",
     "url": "https://www.youtube.com/watch?v=-_SwyOdDQfs",
     "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09082026-1963",
     "isAgendaOnly": false,
@@ -4060,7 +4191,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Board of Public Works",
-    "duration": null,
+    "duration": "5m",
     "url": "https://www.youtube.com/watch?v=AihRS-IoGfM",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4229,7 +4360,7 @@
     "date": "September 8, 2026",
     "shortDate": "SEP 8",
     "committee": "Public Safety",
-    "duration": null,
+    "duration": "1m",
     "url": "https://www.youtube.com/watch?v=-GFcsOK1Wbs",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4292,7 +4423,7 @@
     "date": "September 3, 2026",
     "shortDate": "SEP 3",
     "committee": "Marathon County Extension, Education, and Economic Development Committee",
-    "duration": null,
+    "duration": "1h 51m",
     "url": "https://www.youtube.com/watch?v=lybTn6YEszc",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4414,7 +4545,7 @@
     "date": "September 3, 2026",
     "shortDate": "SEP 3",
     "committee": "Marathon County Extension, Education, and Economic Development Committee",
-    "duration": null,
+    "duration": "2m",
     "url": "https://www.youtube.com/watch?v=A-ZOJ9eo6XI",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4485,7 +4616,7 @@
     "date": "September 3, 2026",
     "shortDate": "SEP 3",
     "committee": "Infrastructure",
-    "duration": null,
+    "duration": "2m",
     "url": "https://www.youtube.com/watch?v=eIkGVA3IvEI",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4554,7 +4685,7 @@
     "date": "September 3, 2026",
     "shortDate": "SEP 3",
     "committee": "Infrastructure",
-    "duration": null,
+    "duration": "1h",
     "url": "https://www.youtube.com/watch?v=Z-11cXuMl58",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4674,7 +4805,7 @@
     "date": "September 2, 2026",
     "shortDate": "SEP 2",
     "committee": "City of Wausau Committee of the Whole",
-    "duration": null,
+    "duration": "1h 14m",
     "url": "https://www.youtube.com/watch?v=vsEYQ8DPwio",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4802,7 +4933,7 @@
     "date": "September 2, 2026",
     "shortDate": "SEP 2",
     "committee": "Health & Human Services",
-    "duration": null,
+    "duration": "1h 29m",
     "url": "https://www.youtube.com/watch?v=2SPD3t6yHTk",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -4928,7 +5059,7 @@
     "date": "September 1, 2026",
     "shortDate": "SEP 1",
     "committee": "Economic Development",
-    "duration": null,
+    "duration": "1h 3m",
     "url": "https://www.youtube.com/watch?v=GFQ6AgLUfeE",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -5079,7 +5210,7 @@
     "date": "September 1, 2026",
     "shortDate": "SEP 1",
     "committee": "Water Works",
-    "duration": null,
+    "duration": "1h 7m",
     "url": "https://www.youtube.com/watch?v=ZpL4Vi5cbX4",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -5260,7 +5391,7 @@
     "date": "August 31, 2026",
     "shortDate": "AUG 31",
     "committee": "Parks & Recreation",
-    "duration": null,
+    "duration": "2h 2m",
     "url": "https://www.youtube.com/watch?v=HUvRjJIoe8g",
     "docUrl": null,
     "isAgendaOnly": false,
@@ -5432,7 +5563,7 @@
     "date": "August 25, 2026",
     "shortDate": "AUG 25",
     "committee": "County Board",
-    "duration": null,
+    "duration": "38m",
     "url": "https://www.youtube.com/watch?v=SkQhbfab600",
     "docUrl": null,
     "isAgendaOnly": false,

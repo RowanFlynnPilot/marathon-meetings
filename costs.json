@@ -1,0 +1,5 @@
+[
+{"ts":"2026-09-25T03:12:59+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":18794,"output_tokens":2097,"usd":0.08784},
+{"ts":"2026-09-25T03:13:48+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":12085,"output_tokens":2211,"usd":0.06942},
+{"ts":"2026-09-25T03:14:09+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":1586,"output_tokens":899,"usd":0.01824}
+]

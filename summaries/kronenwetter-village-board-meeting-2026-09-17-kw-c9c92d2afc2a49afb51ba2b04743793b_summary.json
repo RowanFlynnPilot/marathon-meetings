@@ -1,64 +1,101 @@
 {
-  "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on September 17, 2026, to conduct general village business including a closed session for consideration of Village Clerk candidate interviews. The meeting was set to address personnel matters and consider items for inclusion on future agendas.",
-  "committee": "Village Board of Kronenwetter",
-  "presiding": "Not indicated on agenda",
+  "overview": "The Village of Kronenwetter held a special board meeting on September 17, 2026, focused primarily on interviewing village clerk candidates in closed session. The board voted to convene in closed session, conducted interviews, and then directed the village administrator to take action on the hiring process as determined in closed session. A final decision on hiring may come at the next regular board meeting depending on outcomes of the administrator's follow-up actions.",
+  "committee": "Village of Kronenwetter Village Board",
+  "presiding": "Dan Joling, Village President",
   "agenda": [
     {
-      "time": "4:30 PM",
-      "item": "Call meeting to order with Pledge of Allegiance and Roll Call"
+      "time": "0:00",
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
-      "time": "N/A",
-      "item": "Announcement of closed session"
+      "time": "0:30",
+      "item": "Roll Call"
     },
     {
-      "time": "N/A",
-      "item": "Public comment period (up to 15 minutes total, 3 minutes per person)"
+      "time": "1:00",
+      "item": "Announcement of Closed Session"
     },
     {
-      "time": "N/A",
-      "item": "Closed session to interview Village Clerk candidates"
+      "time": "1:15",
+      "item": "Public Comment"
     },
     {
-      "time": "N/A",
-      "item": "Reconvene open session"
+      "time": "1:25",
+      "item": "Closed Session - Interviewing Village Clerk Candidates (Wis. Stat. §19.85(1)(c))"
     },
     {
-      "time": "N/A",
-      "item": "Action after closed session"
+      "time": "3:00",
+      "item": "Return to Open Session - After Action / Direction to Administrator"
     },
     {
-      "time": "N/A",
-      "item": "Consideration of items for future agenda"
+      "time": "4:30",
+      "item": "Consideration of Items for Future Agenda"
     },
     {
-      "time": "N/A",
+      "time": "5:00",
       "item": "Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Village Clerk Candidate Interviews",
-      "body": "The Board was scheduled to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and interview candidates for the Village Clerk position. The closed session was set to address employment and performance evaluation matters within the Board's jurisdiction."
+      "item": "Public Comment",
+      "body": "No members of the public signed up to speak during the public comment period. Village President Dan Joling briefly noted the absence of public commenters and moved the meeting forward."
+    },
+    {
+      "item": "Closed Session - Village Clerk Candidate Interviews",
+      "body": "The board voted unanimously to convene in closed session under Wisconsin Statute §19.85(1)(c) for the purpose of interviewing village clerk candidates. Trustee Lesniak made the motion and Trustee Mishka seconded. Trustees Stowell and Solheim were excused from the meeting. The board then conducted the closed session interviews off the record."
+    },
+    {
+      "item": "After Action - Direction to Administrator Following Closed Session",
+      "body": "Upon returning to open session, Trustee Lesniak moved and Trustee Mishka seconded a motion to direct the village administrator to take action as directed during the closed session. Village President Joling initially called for a roll call vote but then recognized a voice vote was sufficient; the motion carried with all ayes and no opposition. Discussion noted that a formal approval of the hired candidate may come at the next regular board meeting depending on how the administrator's follow-up actions proceed."
+    },
+    {
+      "item": "Future Agenda Items",
+      "body": "Village President Joling and at least one trustee discussed whether a special meeting would be needed to formally approve a clerk hire, or whether that action could wait for the next regular board meeting. It was determined the decision would be made at the next regular board meeting, contingent on what comes to fruition from the administrator's directed actions."
     }
   ],
-  "publicComment": "Public comment was on the agenda, scheduled for up to 15 minutes total with a three-minute time limit per person, with possible extension at the Chief Presiding Officer's discretion.",
+  "publicComment": "No public comment was offered. Village President Joling confirmed no one had signed up to speak.",
   "actionItems": [
-    "Scheduled to consider motion to convene into closed session for Village Clerk candidate interviews",
-    "Scheduled to consider motion to reconvene into open session",
-    "Expected to take action items following closed session",
-    "Scheduled to consider items for inclusion on future agendas"
+    "Village administrator directed to take action as determined in closed session regarding village clerk candidate selection",
+    "Board to consider formal approval of village clerk hire at the next regular board meeting, depending on outcome of administrator's follow-up"
   ],
   "topics": [
     "Staffing",
-    "Village Clerk Position",
-    "Personnel",
-    "Government Operations"
+    "Village Clerk Hiring",
+    "Closed Session",
+    "Village Administration"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Convene in closed session to interview village clerk candidates",
+      "motion": "Motion to convene in closed session per Wis. Stat. §19.85(1)(c) for interviewing village clerk candidates",
+      "mover": "Dan Lesniak",
+      "second": "Erin Mishka",
+      "outcome": "Approved",
+      "tally": "5-0"
+    },
+    {
+      "item": "Direct administrator to take action as directed in closed session",
+      "motion": "Move to direct the administrator to take action as directed in closed session",
+      "mover": "Dan Lesniak",
+      "second": "Erin Mishka",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Adjournment",
+      "motion": "Motion to adjourn",
+      "mover": "Craig Mortensen",
+      "second": "Erin Mishka",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "d524b9eff7eb9539",
   "title": "Village Board Meeting - 2026-09-17",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-68",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c9c92d2afc2a49afb51ba2b04743793b.pdf",
-  "processed_at": "2026-09-17T03:13:15.203139+00:00"
+  "processed_at": "2026-09-25T03:14:09.098710+00:00"
 }
