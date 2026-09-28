@@ -1,0 +1,48 @@
+{
+  "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to consider an early start resolution for the 2027-2028 school year and approve routine personnel actions through the consent agenda. The meeting focused on administrative matters including staffing changes and calendar planning for the upcoming academic year.",
+  "committee": "Special Meeting",
+  "agenda": [
+    {
+      "time": "N/A",
+      "item": "Call to Order"
+    },
+    {
+      "time": "N/A",
+      "item": "Resolution of Starting School Prior to September 1 for the 2027-2028 School Year (Action Requested)"
+    },
+    {
+      "time": "N/A",
+      "item": "Approve Consent Agenda (Action Requested)"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjourn"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Resolution of Starting School Prior to September 1 for the 2027-2028 School Year",
+      "body": "Diana White was scheduled to present an early start resolution for the 2027-2028 school year for Board consideration. The presentation was estimated to take 5 minutes and addressed the district's calendar planning for the upcoming academic year."
+    },
+    {
+      "item": "Approve Consent Agenda",
+      "body": "The Board was expected to consider and approve a consent agenda encompassing multiple personnel matters, including appointments of additional and replacement staff with contract increases, separations including resignations and terminations, leaves of absence, and retirements."
+    }
+  ],
+  "publicComment": "No public comment period was included on this agenda.",
+  "actionItems": [
+    "Board was expected to vote on the early start resolution for the 2027-2028 school year",
+    "Action was requested to approve the consent agenda including staffing appointments, separations, leaves of absence, and retirements"
+  ],
+  "topics": [
+    "Calendar Planning",
+    "Staffing",
+    "Personnel Management"
+  ],
+  "_source": "boardbook_agenda",
+  "title": "Special Meeting - 2026-09-28",
+  "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
+  "source": "school_board",
+  "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
+  "processed_at": "2026-09-28T05:22:26.882477+00:00"
+}

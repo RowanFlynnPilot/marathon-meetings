@@ -1,5 +1,401 @@
 [
   {
+    "id": "kw_2fd54e3e6ac4461bb316c1b084abbaed",
+    "source": "kronenwetter",
+    "title": "Police and Fire Commission Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Police & Fire Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-27",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2fd54e3e6ac4461bb316c1b084abbaed.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Kronenwetter Police and Fire Commission was scheduled to meet to approve previous meeting minutes, receive public comment, and conduct a closed session to interview a Fire Department applicant regarding employment matters.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of August 24, 2026 meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session - Consideration of employment, promotion, compensation or performance evaluation data regarding Fire Department applicant interview"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene into open session"
+      },
+      {
+        "time": "N/A",
+        "item": "Action after closed session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of August 24, 2026 Meeting Minutes",
+        "body": "The commission was scheduled to approve the minutes from its previous meeting held on August 24, 2026."
+      },
+      {
+        "item": "Closed Session - Fire Department Applicant Interview",
+        "body": "The commission was set to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and performance evaluation matters related to a Fire Department applicant interview. The closed session was scheduled to address personnel matters over which the commission has jurisdiction."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with a maximum of 15 minutes total and three minutes per person, with time extensions at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "scheduled to approve August 24, 2026 meeting minutes",
+      "scheduled to convene in closed session for Fire Department applicant interview",
+      "expected to reconvene in open session following closed session",
+      "anticipated to take action following closed session deliberations"
+    ],
+    "topics": [
+      "Public Safety",
+      "Staffing",
+      "Fire Department Hiring"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_e9a1b3cffe95400f8dedac37aa676107",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to address financial reports, licensing matters, and significant planning items including a subdivision preliminary plat and text amendments regarding zero lot line structures. The meeting was also set to preview the 2027 budget and review the 2027-2036 Capital Improvements Program.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Director of Public Works and Utilities Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director/Treasurer reports - Monthly Report, August 2026 Financial Statements, and August 2026 Financial Statistical Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Operator Bartender License - Michelle Gee"
+      },
+      {
+        "time": "N/A",
+        "item": "August 2026 Check Register, ACH Register, and Credit Card Transactions Activity"
+      },
+      {
+        "time": "N/A",
+        "item": "Green Tree Trails Subdivision Preliminary Plat"
+      },
+      {
+        "time": "N/A",
+        "item": "Text Amendment of Chapter 520 of the General Code of Ordinances: Zero Lot Line Structures"
+      },
+      {
+        "time": "N/A",
+        "item": "2027 Budget Preview - State Aids Listing, Refuse/Recycling fee, and Debt Service Fund Tax Levy"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-2036 Capital Improvements Program Budget - 2nd Draft: Focus on Funding Sources"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Operator Bartender License - Michelle Gee",
+        "body": "The Village Board was scheduled to consider and possibly act on an operator bartender license application for Michelle Gee. This item was listed under the consent agenda, allowing for discussion and possible action."
+      },
+      {
+        "item": "August 2026 Check Register, ACH Register, and Credit Card Transactions Activity",
+        "body": "The Board was set to review financial transaction records from August 2026, including checks, automated clearing house transactions, and credit card activity. This item was scheduled under the consent agenda for discussion and possible action."
+      },
+      {
+        "item": "Green Tree Trails Subdivision Preliminary Plat",
+        "body": "The Village Board was scheduled to discuss and consider action on the preliminary plat for the Green Tree Trails subdivision. This development item was set for review under new business."
+      },
+      {
+        "item": "Text Amendment of Chapter 520 of the General Code of Ordinances: Zero Lot Line Structures",
+        "body": "The Board was expected to consider a text amendment to the village ordinances regarding zero lot line structures. This zoning code modification was scheduled for discussion and possible action."
+      },
+      {
+        "item": "2027 Budget Preview",
+        "body": "The Village Board was set to review a preview of the 2027 budget, including state aids listings, proposed refuse and recycling fee changes, and the debt service fund tax levy. This comprehensive budget discussion was scheduled to provide direction for the upcoming fiscal year."
+      },
+      {
+        "item": "2027-2036 Capital Improvements Program Budget - 2nd Draft",
+        "body": "The Board was expected to review the second draft of the ten-year capital improvements program with a specific focus on funding sources. This long-range planning document was scheduled for discussion and possible action."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with potential extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to vote on operator bartender license for Michelle Gee",
+      "Expected to consider approval of August 2026 check register, ACH register, and credit card transactions",
+      "Scheduled to consider and possibly act on Green Tree Trails Subdivision Preliminary Plat",
+      "Expected to consider text amendment to Chapter 520 regarding zero lot line structures",
+      "Scheduled to preview and discuss 2027 budget components including state aids, refuse/recycling fees, and debt service fund tax levy",
+      "Expected to review second draft of 2027-2036 Capital Improvements Program with focus on funding sources"
+    ],
+    "topics": [
+      "Budget",
+      "Development",
+      "Zoning",
+      "Capital Improvements",
+      "Licensing"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_764221",
+    "source": "school_board",
+    "title": "Annual Meeting Budget Hearing",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Annual Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764221",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764221",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District's Annual Meeting and Budget Hearing on September 28, 2026, was scheduled to address the 2026-2027 proposed budget, consider eight resolutions for voter approval including tax levy measures, and conduct routine annual business. The meeting was expected to include a State of the District presentation from Superintendent Bushman and a public hearing regarding an early start date for the 2027-2028 school year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order/Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Hearing for Resolution Requesting Starting School Prior to September 1 for 2027-2028"
+      },
+      {
+        "time": "N/A",
+        "item": "Election of Chairperson"
+      },
+      {
+        "time": "N/A",
+        "item": "Designate Secretary for Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Designate Vote Counters"
+      },
+      {
+        "time": "N/A",
+        "item": "Enter the Thirty-Third Annual Meeting Minutes into the Record"
+      },
+      {
+        "time": "N/A",
+        "item": "State of the District Presentation"
+      },
+      {
+        "time": "N/A",
+        "item": "Treasurer's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Other Post Employment Benefits Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Budget Hearing - Review Proposed 2026-2027 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Old Business"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business - Eight Motions for Electorate Consideration"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Hearing for Resolution Requesting Starting School Prior to September 1 for 2027-2028",
+        "body": "The board was scheduled to hold a public hearing on a resolution that would request approval to begin the 2027-2028 school year prior to September 1. This hearing provided an opportunity for community members to comment on the proposed early start date before any action was taken."
+      },
+      {
+        "item": "State of the District Presentation",
+        "body": "Superintendent Bushman was scheduled to present a brief State of the District update, providing an overview of district operations, accomplishments, and challenges for stakeholders and board members."
+      },
+      {
+        "item": "Treasurer's Report",
+        "body": "The board was scheduled to receive the Treasurer's Report for June 2026, which would provide financial information regarding the district's fiscal status heading into the new budget year."
+      },
+      {
+        "item": "Other Post Employment Benefits Report",
+        "body": "The board was scheduled to review the OPEB Annual Report for June 2026, addressing the district's obligations and liabilities related to post-employment benefits for retirees."
+      },
+      {
+        "item": "Review Proposed 2026-2027 Budget",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present the proposed 2026-2027 budget to the board and electorate. The presentation was expected to include a comprehensive budget booklet with detailed financial information and a summary presentation in Canva format."
+      },
+      {
+        "item": "New Business - Eight Motions for Electorate Consideration",
+        "body": "The board was scheduled to consider eight different resolutions for voter approval, including measures addressing tax levies for the general fund, community service fund, and debt service fund; school lunch operations; school board member reimbursement and salaries; real estate authorizations; and establishment of the 2027 annual meeting date."
+      }
+    ],
+    "publicComment": "A public comment period was included on this agenda as part of the public hearing for the resolution requesting an early school start date for 2027-2028.",
+    "actionItems": [
+      "Board was expected to consider and vote on a resolution requesting starting school prior to September 1 for 2027-2028",
+      "Board was expected to vote on the tax levy for General Fund and Community Service Fund",
+      "Board was expected to vote on the tax levy for Debt Service Fund",
+      "Board was expected to vote on furnishing school lunches",
+      "Board was expected to vote on authorizing reimbursement of expenses for school board members",
+      "Board was expected to vote on salaries of school board members",
+      "Board was expected to vote on authorizing resolution regarding continuing authorization to lease suitable buildings and/or land for school sites",
+      "Board was expected to vote on authorizing resolution regarding continuing authorizations to convey partial interests in real estate",
+      "Board was expected to vote on establishing the 2027 annual meeting date"
+    ],
+    "topics": [
+      "Budget",
+      "Policy",
+      "Finance",
+      "School Calendar",
+      "Employee Compensation"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_764225",
+    "source": "school_board",
+    "title": "Special Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Special Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to consider an early start resolution for the 2027-2028 school year and approve routine personnel actions through the consent agenda. The meeting focused on administrative matters including staffing changes and calendar planning for the upcoming academic year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution of Starting School Prior to September 1 for the 2027-2028 School Year (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution of Starting School Prior to September 1 for the 2027-2028 School Year",
+        "body": "Diana White was scheduled to present an early start resolution for the 2027-2028 school year for Board consideration. The presentation was estimated to take 5 minutes and addressed the district's calendar planning for the upcoming academic year."
+      },
+      {
+        "item": "Approve Consent Agenda",
+        "body": "The Board was expected to consider and approve a consent agenda encompassing multiple personnel matters, including appointments of additional and replacement staff with contract increases, separations including resignations and terminations, leaves of absence, and retirements."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on the early start resolution for the 2027-2028 school year",
+      "Action was requested to approve the consent agenda including staffing appointments, separations, leaves of absence, and retirements"
+    ],
+    "topics": [
+      "Calendar Planning",
+      "Staffing",
+      "Personnel Management"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_764224",
+    "source": "school_board",
+    "title": "Committee of the Whole Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Committee of the Whole",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764224",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764224",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this Committee of the Whole meeting was scheduled to address the 2027-28 school calendar and the Wisconsin Seal of Biliteracy program through a Policy 2370 update. The board was expected to consider approval of both items, alongside routine business including minute approval and bill audit.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve the Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Excellence in Action: Wausau East"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Audit of the Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-28 School Calendar (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy) (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Excellence in Action: Wausau East",
+        "body": "The agenda included a presentation highlighting excellence and achievements at Wausau East High School, though specific details about the focus or content were not provided in the published materials."
+      },
+      {
+        "item": "2027-28 School Calendar (Action Requested)",
+        "body": "Diana White, Communications Coordinator, and Dr. Katie Colwell, Assistant Superintendent of Academics, were scheduled to present the proposed school calendar for 2027-2028 with an estimated presentation time of 10 minutes. The presentation included draft calendar materials and supporting documentation."
+      },
+      {
+        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy) (Action Requested)",
+        "body": "The board was scheduled to receive a 10-minute presentation regarding the Wisconsin Seal of Biliteracy program and was expected to consider updating Policy 2370 to formally recognize it as an educational opportunity offered in the district. Supporting materials included policy documentation and a presentation on the Seal of Biliteracy."
+      }
+    ],
+    "publicComment": "Public and Student Comment was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on approval of the 2027-28 school calendar as presented by Diana White and Dr. Katie Colwell",
+      "Board was expected to vote on updating Policy 2370 to recognize the Wisconsin Seal of Biliteracy as an educational opportunity in the district"
+    ],
+    "topics": [
+      "Policy",
+      "Curriculum",
+      "Academics",
+      "Biliteracy Program",
+      "Wausau East High School"
+    ],
+    "votes": []
+  },
+  {
     "id": "tS02LFDlDVw",
     "source": "wausau",
     "title": "Finance Committee Meeting",
@@ -5235,612 +5631,6 @@
         "second": null,
         "outcome": "Approved",
         "tally": "4-1 (Trustee Stowell yes, Jim Buck yes, Trustee Mortensen yes, Dan Raskowski yes, Alex Fedwick no)"
-      }
-    ]
-  },
-  {
-    "id": "GFQ6AgLUfeE",
-    "source": "wausau",
-    "title": "Economic Development Committee Meeting",
-    "date": "September 1, 2026",
-    "shortDate": "SEP 1",
-    "committee": "Economic Development",
-    "duration": "1h 3m",
-    "url": "https://www.youtube.com/watch?v=GFQ6AgLUfeE",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Economic Development Committee met on September 15, 2025, covering several significant development matters including survey results for the contaminated 1300 Cleveland Avenue site, a proposed mixed-use development agreement with Wangard for the Riverlife South project, and an early-stage public housing expansion proposal from the CDA. The Wangard development agreement failed to pass after a 2-1 vote, while the committee directed staff to schedule a green team meeting with the DNR and prepare a formal deed restriction formalizing non-industrial use of the Cleveland Avenue property.",
-    "agenda": [
-      {
-        "time": "0:17",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:45",
-        "item": "Public Comment"
-      },
-      {
-        "time": "11:30",
-        "item": "Approval of Minutes from July 7th Economic Development Committee Meeting"
-      },
-      {
-        "time": "12:15",
-        "item": "Discussion and Direction: Survey Results for 1300 Cleveland Avenue"
-      },
-      {
-        "time": "37:30",
-        "item": "Discussion and Possible Action: East Thomas Street and McClary Street RFI Update"
-      },
-      {
-        "time": "41:00",
-        "item": "Discussion and Possible Action: Development Agreement with Wangard for Riverlife South Project (920 North First Street and 15 Fulton Street)"
-      },
-      {
-        "time": "47:30",
-        "item": "Proposed Meeting Time Change for Economic Development Committee"
-      },
-      {
-        "time": "49:00",
-        "item": "Accepting Donation of 313 North 1st Avenue Property"
-      },
-      {
-        "time": "54:30",
-        "item": "Presentation: Wausau Community Development Authority Proposed New Public Housing Development"
-      },
-      {
-        "time": "1:01:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Four members of the public spoke. Colleen Armstrong, owner of property adjacent to the proposed Eminent Development Corporation site at Second Street and 2011 East Bridge Street, said she received no formal notification about the multi-story mixed-use project and demanded the city explain the oversight and pause the agreement until a neighborhood meeting is held. Tom Kian, identified as the neighborhood representative for the Cleveland Avenue project, urged the committee to ensure remediation is done concurrently with redevelopment rather than in advance, and asked that the new comprehensive plan formally reflect a non-industrial future land use for the property. Drew Wowski expressed support for accelerating Cleveland Avenue development, noting survey respondents favored green space and community amenities paired with housing. Becky Hda, a Cleveland Avenue-area resident, read directly from the survey's open-ended responses to emphasize that neighbors overwhelmingly want contamination cleanup before any other decisions are made."
-      },
-      {
-        "item": "Approval of Minutes from July 7th Economic Development Committee Meeting",
-        "body": "A motion was made by Alder Kilian and seconded by Alder Lukans to approve the minutes. The vote passed unanimously with no opposition noted."
-      },
-      {
-        "item": "Survey Results for 1300 Cleveland Avenue",
-        "body": "Assistant City Planner Carrie Edmonson presented results from 39 completed surveys following a May 28 neighborhood meeting. The top preferred non-industrial land use was a community center or senior center, followed by active outdoor recreation; a majority supported integrating housing if it enabled funding of preferred uses. Alder Kilian directed staff to schedule a green team meeting with the DNR before the next ED meeting to discuss remediation funding and align cleanup plans with development, and called for a formal deed restriction or resolution cementing non-industrial status for the property. The chair agreed and directed staff to bring a deed restriction proposal to the next meeting. Alder Neil emphasized that remediation depth is project-specific and that the city has previously committed to remediating to residential standards. Alder Lukans requested a cost breakdown for remediation under different development scenarios. No vote was taken on this item as it was informational with direction given to staff."
-      },
-      {
-        "item": "East Thomas Street and McClary Street RFI Update",
-        "body": "Economic Development Manager Patrick reported that no formal proposals were received after the RFI was released in April, though informal discussions continue with entities including Habitat for Humanity. Staff recommended keeping the RFI open to allow continued negotiations and marketing. Alder Kilian noted approximately $600,000 in ARPA funds had been transferred to the CDA for infill housing. The committee voted unanimously to keep the RFI open and continue marketing the sites."
-      },
-      {
-        "item": "Development Agreement with Wangard for Riverlife South Project",
-        "body": "Director Fifick presented a development agreement for 920 North First Street and 15 Fulton Street, translating the previously approved term sheet into a binding contract. Key terms include the developer purchasing city land for $100,000, a total anticipated development cost of $36.1 million, and the developer receiving 80% of new property tax generated via pay-as-you-go TIF reimbursement up to $4.84 million over a maximum of 17 years, with a 5.75% interest rate and a maximum total reimbursement of $8.35 million plus a look-back provision. Isaac from Quarles confirmed the material terms matched the approved term sheet. Alder Kilian stated she had never supported the project and would vote no. Alder Neil moved to approve, stating the numbers make sense and he could find no negatives. The motion was seconded by Alder Lukans. The vote resulted in two in favor and one opposed (Alder Kilian), with the chair also voting no, causing the motion to fail as it did not achieve a majority."
-      },
-      {
-        "item": "Proposed Meeting Time Change",
-        "body": "The committee discussed moving the meeting start time from 5:15 to 5:30 p.m. The chair relayed that absent committee member Alder Tierney had communicated she was fine with 5:15 but not earlier. The motion to change the meeting time passed unanimously."
-      },
-      {
-        "item": "Accepting Donation of 313 North 1st Avenue Property",
-        "body": "Director Fifick explained the 0.06-acre parcel, located behind Bridge Street Mission, was being donated by former owners MBX after the city's attorney's office worked through the chain of title. Alder Kilian raised concerns about potential contamination given the property's prior use as an ice and fuel company, and questioned whether a phase one or phase two environmental assessment had been done. The chair noted the property has no road access and is essentially a lawn strip between two residential properties, suggesting possible sale to an adjacent owner. Despite contamination concerns, the committee voted to accept the donation."
-      },
-      {
-        "item": "Wausau CDA Proposed New Public Housing Development",
-        "body": "CDA Assistant Director Julie Burkinmeer presented an early-stage proposal to develop 18 to 64 new public housing units by repositioning the CDA's existing 46 scattered-site units to a Section 18 project-based voucher funding model, freeing up HUD Faircloth units for new construction. She emphasized the extreme demand—the wait list for the CDA's single one-bedroom unit is over five years—and that rents would remain income-based at 30% of household income. The proposed development would be in one consolidated location rather than scattered sites, requiring at least one acre. No specific site has been identified yet. The CDA board is expected to consider the repositioning plan in October. No vote was taken; this was an informational presentation."
-      }
-    ],
-    "publicComment": "Four speakers addressed the committee. Colleen Armstrong (205 East Bridge Street) objected to lack of notification about the Eminent Development Corporation project adjacent to her property and requested a pause pending a neighborhood meeting. Tom Kian (133 East Thomas Street), the Cleveland Avenue neighborhood representative, urged concurrent remediation and redevelopment and asked that the comprehensive plan formally reflect non-industrial future land use. Drew Wowski (708 Park Avenue) expressed support for accelerating Cleveland Avenue development with green space and community amenities. Becky Hda (1625 Cleveland Avenue) read aloud from survey responses showing neighbors prioritize contamination cleanup above all other considerations for the Cleveland Avenue site.",
-    "actionItems": [
-      "Staff to schedule a green team meeting with the DNR before the next Economic Development Committee meeting to discuss public input results and DNR funding for remediation and redevelopment of 1300 Cleveland Avenue",
-      "Staff to prepare a formal deed restriction or resolution formalizing non-industrial land use designation for 1300 Cleveland Avenue, to be brought to the next ED meeting for action",
-      "Staff to work with GEI consultants to provide a cost breakdown for remediation under different development scenarios (community center, park, indoor facility) for 1300 Cleveland Avenue",
-      "East Thomas Street and McClary Street RFI to remain open with continued marketing of the sites",
-      "Meeting time for the Economic Development Committee to be changed to 5:30 p.m. going forward",
-      "313 North 1st Avenue property donation accepted; staff to explore possible sale to adjacent property owners",
-      "CDA board to consider public housing repositioning plan in October; CDA and city to continue identifying suitable sites of one acre or more for new public housing development",
-      "Wangard Riverlife South development agreement failed; no immediate next step directed by committee"
-    ],
-    "topics": [
-      "Development",
-      "Brownfield Remediation",
-      "Affordable Housing",
-      "TIF Financing",
-      "Riverlife South",
-      "1300 Cleveland Avenue"
-    ],
-    "votes": [
-      {
-        "item": "Approval of July 7th Economic Development Committee meeting minutes",
-        "motion": null,
-        "mover": "Alder Kilian",
-        "second": "Alder Lukans",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Keep the East Thomas Street and McClary Street RFI open and continue marketing the sites",
-        "motion": "Motion to keep the RFI open and continue marketing the sites",
-        "mover": "Alder Neil",
-        "second": "Alder Kilian",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Wangard development agreement for Riverlife South project (920 North First Street and 15 Fulton Street)",
-        "motion": "Motion to accept the developers agreement as presented as it is in line with the term sheet previously approved",
-        "mover": "Alder Neil",
-        "second": "Alder Lukans",
-        "outcome": "Failed",
-        "tally": "2-2"
-      },
-      {
-        "item": "Change Economic Development Committee meeting start time to 5:30 p.m.",
-        "motion": null,
-        "mover": "Alder Kilian",
-        "second": "Alder Lukans",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Accept donation of 313 North 1st Avenue property",
-        "motion": null,
-        "mover": "Alder Lukans",
-        "second": "Alder Neil",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "ZpL4Vi5cbX4",
-    "source": "wausau",
-    "title": "Water Works Commission Meeting",
-    "date": "September 1, 2026",
-    "shortDate": "SEP 1",
-    "committee": "Water Works",
-    "duration": "1h 7m",
-    "url": "https://www.youtube.com/watch?v=ZpL4Vi5cbX4",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Water Works Commission met on September 1, 2026, primarily to receive a detailed financial presentation from Brian Ramer of Ehlers on long-range cash flow projections and potential rate adjustments for both the water and wastewater utilities. The commission heard that the water utility is currently about 13% rate-deficient under PSC math, with deficiency growing to 20% by 2027 if no action is taken, and received an update on a PFAS exceedance detected in wastewater effluent. No formal rate decisions were made; staff indicated they would bring the rate discussion back next month for a possible decision.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and quorum confirmation"
-      },
-      {
-        "time": "0:30",
-        "item": "Item 1: Consideration of minutes from August 12th meeting"
-      },
-      {
-        "time": "1:10",
-        "item": "Item 2: Director's report - wastewater updates (Cherry Street, Headworks Screening, Crocker Street Lift Station)"
-      },
-      {
-        "time": "2:45",
-        "item": "Item 3: Presentation and discussion - Ehlers water and sewer financial analysis and possible future rate changes"
-      },
-      {
-        "time": "5:00",
-        "item": "Water utility rate analysis - financial benchmarks, debt coverage, and reserve targets"
-      },
-      {
-        "time": "20:00",
-        "item": "Water utility rate options - simplified vs. conventional rate case scenarios"
-      },
-      {
-        "time": "40:30",
-        "item": "Sewer utility rate analysis and recommendations"
-      },
-      {
-        "time": "1:00:01",
-        "item": "Item 4A: Update on wastewater effluent PFAS monitoring and exceedances"
-      },
-      {
-        "time": "1:05:00",
-        "item": "Item 4B: WDNR response letter to 2025 compliance maintenance annual report"
-      },
-      {
-        "time": "1:07:30",
-        "item": "Adjournment and next meeting announcement"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Minutes of August 12th Meeting",
-        "body": "A motion was made by Galire and seconded by Martins to approve the minutes of the August 12th meeting. There was no discussion. The motion passed unanimously."
-      },
-      {
-        "item": "Director's Report - Wastewater Project Updates",
-        "body": "Staff reported that the Cherry Street project is essentially complete with one punch list item remaining, to be addressed on-site Thursday. The Headworks Screening project remains ongoing with a substantial completion deadline of October 15 and final completion of November 15. The Crocker Street Lift Station project was noted as new, with a pre-construction meeting scheduled for September 2nd. No questions were raised by commission members."
-      },
-      {
-        "item": "Ehlers Financial Presentation - Water Utility Rate Analysis",
-        "body": "Brian Ramer of Ehlers presented a 10-year financial forecast for the water utility, explaining that under PSC math the utility is currently about 7.3% rate-deficient for 2026, growing to approximately 13% now and 20% by August 2027 if no action is taken. He outlined three options: do nothing (infeasible), use simplified rate adjustments of 3% in 2027 and 2028 followed by a 16% conventional rate case, or file a conventional rate case sooner yielding approximately a 14% adjustment. Commission member Hadley questioned how approximately $5 million in PFAS lawsuit proceeds (PAS funds) and the payment-in-lieu-of-taxes (pilot) would affect rate calculations; Ramer explained the PSC has not consistently reduced rate adjustments based on lawsuit proceeds and that reducing the pilot would lower the rate adjustment but create a general fund revenue gap. Martins asked about the timeline for filing, and Ramer confirmed the commission has until July 31, 2027 before the PSC math resets. Staff director Eric noted the commission had previously expressed interest in monthly billing and tiered rate structures for low-volume users, and recommended a small rate increase for 2027 with planning for a larger rate case in 2028 or 2029. No vote was taken; the director indicated the matter would return next month for a possible decision."
-      },
-      {
-        "item": "Ehlers Financial Presentation - Sewer Utility Rate Analysis",
-        "body": "Ramer presented the sewer utility financial outlook, noting debt coverage has been creeping back toward minimum thresholds and that the last rate adjustment was April 1, 2023. He recommended small, more frequent inflationary rate adjustments — using 4% as an illustrative example — which would increase an average residential quarterly sewer bill by approximately $4.30. Unlike the water utility, the sewer utility is not regulated by the PSC and the commission has full authority to set rates. No vote was taken."
-      },
-      {
-        "item": "PFAS Monitoring Update - Wastewater Effluent",
-        "body": "Ben Brooks reported that the first compliance-required effluent sample taken May 7th returned a PFOS level of 9.44 parts per trillion, above the proposed limit of 8 parts per trillion, which he described as unexpected given prior favorable readings. Staff has reviewed sampling protocols and found no evidence of cross-contamination, concluding the PFAS is entering the system from external sources. Brooks indicated plans to test collection system locations to identify the contamination source and noted the commission may need to consider amending the city sewer ordinance to require testing by large industrial users. Biosolids results were noted as favorable; an additional biosolids test is planned to establish compliance under the permit effective May 1st. Commission members raised no formal objections; the item was informational."
-      },
-      {
-        "item": "WDNR Response to 2025 Compliance Maintenance Annual Report",
-        "body": "Brooks reported that the DNR's response letter to the 2025 annual compliance report was entirely positive, with all grade A ratings. The DNR commended the utility for properly reporting a sanitary sewer overflow (SSO) in September 2024 and noted the utility cleaned 48.9% of the collection system and televised 10%. The DNR letter stated the utility met all requirements and encouraged staff to keep up the good work."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Staff to bring water and sewer rate discussion back to the October 6th commission meeting for possible decision on rate case direction",
-      "Staff to conduct PFAS collection system sampling at suspected contamination source areas and report results to commission",
-      "Staff to complete additional biosolids PFAS testing to establish compliance under discharge permit effective May 1st",
-      "Commission to consider whether to request a reanalysis of the payment-in-lieu-of-taxes (pilot) impact on water rates",
-      "Staff to clarify use and allocation of approximately $5 million in PFAS lawsuit (PAS) proceeds and their potential impact on water utility rates",
-      "Commission to consider monthly billing and tiered low-volume rate structure changes in conjunction with a future conventional rate case",
-      "Members to notify Gina of agenda topics before October meeting; commission transitioning to electronic binders going forward"
-    ],
-    "topics": [
-      "Utilities",
-      "Budget",
-      "Water Rates",
-      "PFAS Contamination",
-      "Wastewater"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from August 12th meeting",
-        "motion": "Motion to approve",
-        "mover": "Galire",
-        "second": "Martins",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Motion to adjourn",
-        "motion": "Motion to adjourn",
-        "mover": "Hadley",
-        "second": "Galhar",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "HUvRjJIoe8g",
-    "source": "wausau",
-    "title": "Parks and Recreation Committee Meeting",
-    "date": "August 31, 2026",
-    "shortDate": "AUG 31",
-    "committee": "Parks & Recreation",
-    "duration": "2h 2m",
-    "url": "https://www.youtube.com/watch?v=HUvRjJIoe8g",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Parks and Recreation Committee met on August 31, 2026 and took action on several items including unanimously approving acceptance of a donated scoreboard for Memorial Park, unanimously recommending historic landmark designation for Yaki Park, approving amendments to Chapter 2 of the city's comprehensive plan addressing natural resources, and directing staff to paint a centerline on the River Edge Trail. The committee also received and debated a detailed 2027 department budget overview that included proposals for pool staffing reductions, dock consolidation, and a potential urban forestry fee, with no final budget votes taken but significant discussion about the financial sustainability of city pools and other park amenities.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Public Comment"
-      },
-      {
-        "time": "2:30",
-        "item": "Consideration of Minutes from July 6, 2026 Regular Meeting"
-      },
-      {
-        "time": "3:30",
-        "item": "3A: Acceptance of Scoreboard Donation at Memorial Park and Sponsorship Recognition"
-      },
-      {
-        "time": "7:45",
-        "item": "3B: Yaki Park Historical Landmark Designation"
-      },
-      {
-        "time": "15:30",
-        "item": "3C: Review of Natural Resources Section of Chapter 2 of the City Comprehensive Plan"
-      },
-      {
-        "time": "39:00",
-        "item": "3D: Request to Paint a Centerline Lane on the River Edge Trail"
-      },
-      {
-        "time": "54:00",
-        "item": "3E: Department Budget Overview and Proposed Changes for 2027"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment – Yaki Park Historic Designation",
-        "body": "Kathy Foley, former director of the Leigh Yawkey Woodson Art Museum, spoke on behalf of five Yawkey heirs — great-grandchildren of Cyrus Yawkey — reading a signed statement expressing full support for designating Yaki Park as a historic landmark. Foley noted the park is 106 years old and deeded for public use in perpetuity. She left the signed statement for the committee record."
-      },
-      {
-        "item": "Minutes Approval – July 6, 2026 Meeting",
-        "body": "The chair asked for any corrections to the minutes of the July 6, 2026 regular meeting. With none offered, Alder Slonsky moved to approve and Alder Lukans seconded. The minutes were approved unanimously."
-      },
-      {
-        "item": "3A: Scoreboard Donation at Memorial Park",
-        "body": "Parks staff (identified as Jamie) explained that Wausau Youth Baseball is funding the entire scoreboard donation, which replaces an old Pepsi-branded board. No sponsor has been secured yet; if one is found, it would require approval through the parks office per the sponsorship policy. The item came before the committee due to the scoreboard's 15-to-20-year lifespan exceeding the threshold requiring committee review even though the cost is under $5,000. Alder Slonsky moved to accept the donation, Alder Neil seconded, and it passed unanimously."
-      },
-      {
-        "item": "3B: Yaki Park Historical Landmark Designation",
-        "body": "Staff clarified that the designation applies only to the park grounds — including the colonnade and fountain — not to the Yawkey family home located a block away. City staff member Brad explained that as a landmark, the historic preservation commission would have binding authority (not merely advisory) over any substantial changes to the park. Staff noted that if the city ever ceased to use the property as public space, it reverts to the Yawkey family per the deed. A public hearing at the Historic Preservation Commission is set for September 23, followed by plan commission and ultimately city council approval. Alder Troub moved to adopt the designation, Alder Slonsky seconded, and it passed unanimously."
-      },
-      {
-        "item": "3C: Natural Resources Chapter 2 – Comprehensive Plan Review",
-        "body": "City planner Carrie Edmonson and parks staff presented proposed updates to Chapter 2, informed heavily by the City of Madison's comprehensive plan and work with city forester John Kahhan. Committee members proposed several additions: Alder Lukans raised concerns about pesticide drift, native plantings, and the environmental impacts of artificial turf with crumb rubber infill; Alder Slonsky requested strengthening language around restoring damaged wetlands from 'consider developing' to a firmer commitment; Alder Troub raised the need to address native grasses and lawn alternatives in parks and residential areas; Alder Lukans also raised light pollution as it relates to bird habitat. Alder Neil moved to approve Chapter 2 as presented with the new feedback incorporated, Alder Slonsky seconded, and the motion passed unanimously. The chapter next goes to plan commission and then city council."
-      },
-      {
-        "item": "3D: Painting a Centerline Lane on the River Edge Trail",
-        "body": "Alder Neil proposed painting a broken centerline stripe on the River Edge Trail from Winton to Oak Island, citing a successful example in Marquette, Michigan and safety benefits for mixed-use path users. Alder Troub supported the idea but emphasized the need for accompanying signage such as 'keep right except to pass,' noting that lines alone may be ignored without reinforcement. Alder Slonsky expressed mild hesitation about creating the appearance of an enforceable rule that would not actually be enforced. Staff noted a prior example of painting 'slow, children present' markings near a playground that appeared to reduce complaints. Alder Troub moved to proceed with painting the line using city staff on staff's own timeline to avoid additional costs, with a cost report back to the committee for future budget planning; Alder Neil seconded. The motion passed unanimously."
-      },
-      {
-        "item": "3E: 2027 Department Budget Overview and Proposed Changes",
-        "body": "Parks Director Jamie presented a budget built to the mayor's directive of a flat 'cost of doing business' increase, coming in at approximately 1% over last year. The largest proposed cost-reduction measure was rotating pool closures across the three aquatic centers to reduce staffing costs; the department spends $449,000 on pools annually with only a 19% cost recovery rate. Two pool rotation options were presented — one keeping two pools open five days a week with all three open on weekends, and one closing all three pools one day per week for higher savings of approximately $29,781. Committee members generally favored keeping all three pools open Saturday and Sunday. Other proposals included reducing warf docks from seven to three (consolidating into a wider central platform), pausing goat use on Barker Stewart Island for one year with mowing as an alternative, switching from tablet to liquid chlorine in bulk, reducing the small projects budget by $5,000, and adding a $2-per-household-per-month urban forestry fee. Alder Troub strongly opposed the urban forestry fee as an additional burden on taxpayers already funding forestry through the property tax levy; Alder Slonsky expressed interest in exploring it but acknowledged its regressive nature for single-family homeowners. No formal votes were taken on budget items; the committee was asked to provide direction to staff on which operational changes to include in the budget submission to the mayor."
-      }
-    ],
-    "publicComment": "One public commenter spoke: Kathy Foley of 1209 East Hill Drive, Wausau, appeared on behalf of five Yawkey heirs (great-grandchildren of Cyrus Yawkey) to read and submit a signed statement fully supporting the designation of Yaki Park as a historic landmark, citing its 106-year history and deed restriction requiring it remain public in perpetuity.",
-    "actionItems": [
-      "Staff to finalize acceptance of scoreboard donation from Wausau Youth Baseball at Memorial Park and ensure any future sponsorship goes through parks office approval process",
-      "Yaki Park historic landmark designation recommendation forwarded to Historic Preservation Commission public hearing on September 23, then to plan commission, then city council for final approval",
-      "City planner Carrie Edmonson to incorporate committee feedback into Chapter 2 of the comprehensive plan and advance to plan commission",
-      "Parks staff to paint a centerline stripe on the River Edge Trail from Winton to Oak Island using city staff on staff's timeline, and report cost back to committee for budget planning purposes",
-      "Staff to research signage options (e.g., 'keep right except to pass') for the River Edge Trail to accompany the painted centerline",
-      "Parks Director Jamie to incorporate committee-approved operational budget changes into the 2027 budget submission to the mayor",
-      "Staff to report back on feasibility and cost of pool rotation schedules for 2027, including option to close all pools one day per week while keeping at least one open every day",
-      "Staff to explore alternatives to goat use on Barker Stewart Island including mowing and potential volunteer/community invasive species removal events",
-      "Parks department to track chlorine costs more precisely to evaluate savings from switching to liquid bulk chlorine"
-    ],
-    "topics": [
-      "Parks",
-      "Budget",
-      "Urban Forestry",
-      "Historic Preservation",
-      "Yaki Park",
-      "River Edge Trail",
-      "Aquatic Centers"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from July 6, 2026 regular meeting",
-        "motion": null,
-        "mover": "Alder Slonsky",
-        "second": "Alder Lukans",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acceptance of scoreboard donation at Memorial Park with sponsorship recognition provisions",
-        "motion": "Move to accept the donation",
-        "mover": "Alder Slonsky",
-        "second": "Alder Neil",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Recommendation to designate Yaki Park as a historic landmark",
-        "motion": "Move to adopt the historic landmark designation",
-        "mover": "Alder Troub",
-        "second": "Alder Slonsky",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approval of amended Chapter 2 Natural Resources section of the comprehensive plan incorporating committee feedback",
-        "motion": "Move to approve Chapter 2 as presented, incorporating new feedback, to advance to plan commission",
-        "mover": "Alder Neil",
-        "second": "Alder Slonsky",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Direction to paint a centerline stripe on the River Edge Trail using city staff on staff's timeline with cost report back to committee",
-        "motion": "Move to proceed with painting the line with city staff on staff's timeline so as not to incur additional costs, and to report back on cost to the committee",
-        "mover": "Alder Troub",
-        "second": "Alder Neil",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "kw_9e62208180374bedb996ca66146bec4b",
-    "source": "kronenwetter",
-    "title": "Special Village Board Meeting",
-    "date": "August 27, 2026",
-    "shortDate": "AUG 27",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/special-village-board-meeting-13",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-9e62208180374bedb996ca66146bec4b.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Village Board held a special meeting on August 27, 2026, with one primary action item: accepting the resignation of Village Clerk Jennifer Poyer, which passed 6-0. The meeting was preceded by pointed public comment from three residents criticizing the board over two costly workplace investigations totaling $105,000, vague closed session notices, and broader governance concerns. Trustee Stowell was absent.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:20",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:45",
-        "item": "Roll Call"
-      },
-      {
-        "time": "1:30",
-        "item": "Public Comment"
-      },
-      {
-        "time": "12:00",
-        "item": "New Business - Acceptance of Clerk's Resignation"
-      },
-      {
-        "time": "15:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Three residents spoke critically of the village board. Bruny Kramer of 2150 E. State Hwy 153 criticized a pattern of poor governance over the past six months, referencing a mining situation and excessive closed sessions, and suggested board members seek training. Chris Johnson of 1998 Woodgate Lane delivered an extended rebuke, alleging that a workplace investigation costing approximately $40,000 was rooted in ego between President Joling and former administrator Sorenson, that closed session notices were improperly vague, and that employee privacy was mishandled through inadequate redactions; Johnson also addressed an apparent comment made about her Facebook posts before the meeting, calling it unprofessional. Guy Fredl of 2240 Ruby Drive, identifying himself as a longtime village volunteer, presented specific cost figures—$60,000 for a first investigation by Von Briesen and Roper and $45,000 for a second, totaling $105,000—and noted the village had lost three employees and three female board members in recent years, warning of potential litigation from Peter Wagner and Jennifer Poyer and suggesting the village hire a contracted HR professional to handle such matters."
-      },
-      {
-        "item": "Acceptance of Clerk's Resignation",
-        "body": "The board voted 6-0 to accept the resignation of Village Clerk Jennifer Poyer as submitted. Following the vote, a trustee—identified in the transcript as raising additional comments—asked that staff coordinate a transition plan covering return of village property, system and social media passwords, and a status report from Poyer on outstanding work items. The same trustee thanked Poyer for her work on community events, social media, and elections, and wished her well. President Joling noted the village may need to call an additional meeting if an interim clerk is secured."
-      }
-    ],
-    "publicComment": "Three residents offered public comment. Bruny Kramer (2150 E. State Hwy 153) criticized the board's governance over six months, citing the mining situation and closed sessions, and suggested board members attend seminars on proper governance. Chris Johnson (1998 Woodgate Lane) challenged the administrator's characterization that she 'hates the village,' disputed legal explanations for delays in releasing an investigation report, alleged the $40,000-plus investigation was driven by ego rather than necessity, and criticized overly vague closed session notices and inadequate redactions that failed to protect staff. Guy Fredl (2240 Ruby Drive), a longtime village volunteer, cited $105,000 in total investigation costs across two outside law firm engagements, noted loss of three employees and three female board members, warned of potential state and civil litigation from Wagner and Poyer, and recommended the village retain a contracted HR professional.",
-    "actionItems": [
-      "Staff to develop a coordinated transition plan for the clerk position, including return of village property and transfer of system, program, and social media passwords",
-      "Outgoing clerk Jennifer Poyer requested (though not required) to provide a status report on outstanding work items",
-      "Board may convene an additional special meeting if an interim clerk arrangement is reached"
-    ],
-    "topics": [
-      "Staffing",
-      "Personnel Investigations",
-      "Clerk Resignation",
-      "Public Records",
-      "Village Governance"
-    ],
-    "votes": [
-      {
-        "item": "Acceptance of Village Clerk's resignation as submitted",
-        "motion": "Motion to accept the resignation of the employee as submitted to the board",
-        "mover": null,
-        "second": "Dan Lesniak",
-        "outcome": "Approved",
-        "tally": "6-0"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Dan Lesniak",
-        "second": "Kelly Coyle",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "SkQhbfab600",
-    "source": "marathon",
-    "title": "Board Regular Meeting Pt.2",
-    "date": "August 25, 2026",
-    "shortDate": "AUG 25",
-    "committee": "County Board",
-    "duration": "38m",
-    "url": "https://www.youtube.com/watch?v=SkQhbfab600",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board met to address the Hub City Wind project resolution from the Executive Committee, which lacked a concrete 'therefore be it resolved' clause. After extensive debate, the board voted to refer the matter back to the Executive Committee for a clearer recommendation, with supervisors expressing frustration over procedural issues and the county's limited authority to constrain the project given state PSC jurisdiction over large wind projects.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call back to order from recess"
-      },
-      {
-        "time": "0:30",
-        "item": "H-25: Executive Committee – County Engagement with Alliant Energy Relative to Hub City Wind Project, Resolution 55-26"
-      },
-      {
-        "time": "1:10",
-        "item": "Dickinson raises procedural objection – resolution lacks 'therefore be it resolved' clause"
-      },
-      {
-        "time": "4:20",
-        "item": "Corp Counsel explains resolution was designed to allow amendment from the floor"
-      },
-      {
-        "time": "6:00",
-        "item": "Dickinson moves to refer back to Executive Committee for September meeting"
-      },
-      {
-        "time": "8:30",
-        "item": "Robinson presents proposed amendment directing County Administrator to engage Alliant Energy on concerns"
-      },
-      {
-        "time": "12:00",
-        "item": "Debate on motion to refer – moratorium discussion and PSC authority clarified by legal counsel"
-      },
-      {
-        "time": "35:00",
-        "item": "Previous question called by Supervisor Ritter; debate ended by vote"
-      },
-      {
-        "time": "37:00",
-        "item": "Vote on motion to refer back to Executive Committee"
-      },
-      {
-        "time": "38:30",
-        "item": "Announcements and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Hub City Wind Project Resolution – Procedural Objection",
-        "body": "Vice Chair Chris Dickinson raised an immediate procedural objection, arguing the resolution was invalid because it contained no 'therefore be it resolved' clause — effectively resolving nothing. Corp Counsel confirmed the resolution was intentionally written that way to allow the board to amend it in whatever direction they chose. Dickinson called this unprecedented in his experience and expressed concern about setting a bad procedural precedent."
-      },
-      {
-        "item": "Motion to Refer Back to Executive Committee",
-        "body": "Dickinson moved to refer the matter back to the Executive Committee to develop a concrete recommendation and bring it to the September board meeting. Supervisor Caravelli supported the referral, noting the item had been confusing even at the Thursday discussion. Vice Chair Boots explained she had brought it to the full board so all 38 supervisors could weigh in, but expressed no objection to referring it back."
-      },
-      {
-        "item": "Robinson Amendment (Not Voted On)",
-        "body": "Supervisor Robinson described a proposed amendment that would direct the County Administrator to send Alliant Energy the Alternative Energy Project Local Impact Advisory Committee report and request a contractual response addressing community concerns by October 1st. Corp Counsel ruled this amendment was not germane to the motion to refer and therefore out of order while the referral motion was on the floor. Robinson noted the 180-day PSC application window made timely action important."
-      },
-      {
-        "item": "Moratorium Debate and PSC Jurisdiction",
-        "body": "Multiple supervisors including Gaul, Hagan, Hopper, and Sendelbach advocated for a moratorium, citing constituent demand and the project's unprecedented tower height of 620 feet. Corp Counsel and Rebecca (a PSC representative on the line) clarified repeatedly that while the county could legally pass a moratorium, the PSC is not required to consider it for projects over 100 MW, rendering it largely symbolic. Supervisor Gaul pushed for the board to investigate formal intervention in the PSC process as an alternative approach."
-      },
-      {
-        "item": "Vote to End Debate and Refer to Executive Committee",
-        "body": "Supervisor Ritter called the previous question, which was seconded by Supervisor Krebs. The motion to end debate passed, though not unanimously. The board then voted on the referral motion, which also carried but was not unanimous. The matter will return to the Executive Committee for a recommendation before coming back to the full board."
-      }
-    ],
-    "publicComment": "No public comment was offered during this portion of the meeting, though supervisors referenced extensive prior public input with multiple speakers noting that over 90% of constituents at prior meetings opposed the Hub City Wind project or a joint development agreement with Alliant Energy.",
-    "actionItems": [
-      "Hub City Wind Project resolution referred back to Executive Committee to develop a concrete recommendation",
-      "Executive Committee directed to bring a recommendation back to the full County Board at the September meeting",
-      "Supervisors encouraged to check mailboxes in the clerk's office before leaving",
-      "Board members invited to Senior Summit on September 24th, 1:00–4:00 PM at Lake View Campus (RSVP requested)",
-      "Board members notified of Wausau Labor Day Parade on September 7th, lineup at 3:00 PM, parade at 4:00 PM, grand marshal Ann Lemmer"
-    ],
-    "topics": [
-      "Wind Energy",
-      "Hub City Wind Project",
-      "Alliant Energy",
-      "PSC Jurisdiction",
-      "Moratorium",
-      "Public Engagement"
-    ],
-    "votes": [
-      {
-        "item": "Motion to end debate (previous question) on referral of Hub City Wind resolution",
-        "motion": "Call the question",
-        "mover": "Supervisor Ritter",
-        "second": "Supervisor Krebs",
-        "outcome": "Approved",
-        "tally": "Not unanimous; exact count not stated"
-      },
-      {
-        "item": "Motion to refer Hub City Wind Project resolution back to Executive Committee for a recommendation at the September board meeting",
-        "motion": "Refer back to Executive Committee to make a decision and bring that back to the county board in September",
-        "mover": "Chris Dickinson",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Not unanimous; exact count not stated"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Supervisor Robinson",
-        "second": "Supervisor Lemmer",
-        "outcome": "Approved",
-        "tally": null
       }
     ]
   }
