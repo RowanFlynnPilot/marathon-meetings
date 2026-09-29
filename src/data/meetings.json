@@ -1,5 +1,264 @@
 [
   {
+    "id": "THUscF8F2PE",
+    "source": "wausau",
+    "title": "Police & Fire Commission Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Wausau Police & Fire Commission",
+    "duration": "31m",
+    "url": "https://www.youtube.com/watch?v=THUscF8F2PE",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Police & Fire Commission met on September 28, 2026, conducting organizational business including electing a new vice president and secretary after Commissioner Tom Garver's departure from the commission. The meeting featured substantive updates from Fire Deputy Chief Justin and Police Chief Barnes covering apprenticeship hiring, budget constraints, the proposed UW campus acquisition, and the department's Flock license plate recognition camera system.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
+      },
+      {
+        "time": "2:10",
+        "item": "Public Comment – Tom Garver farewell remarks"
+      },
+      {
+        "time": "7:45",
+        "item": "New Business – Election of Vice President to replace departing Commissioner Tom Garver"
+      },
+      {
+        "time": "11:20",
+        "item": "Appointment of Commission Secretary"
+      },
+      {
+        "time": "12:30",
+        "item": "Approval of August 24 Meeting Minutes"
+      },
+      {
+        "time": "13:45",
+        "item": "Monthly Presentation – Fire Department Update (Deputy Chief Justin)"
+      },
+      {
+        "time": "22:00",
+        "item": "Monthly Presentation – Police Department Update (Chief Barnes)"
+      },
+      {
+        "time": "44:00",
+        "item": "Deputy Chief Promotional Process Update"
+      },
+      {
+        "time": "52:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment – Tom Garver Farewell",
+        "body": "Outgoing Commissioner Tom Garver, of 4620 Huntington Court, addressed the commission to mark his departure, citing 'circumstances beyond our control' requiring him to leave. He praised the commission's culture of hiring for character, commended department leadership, and expressed confidence in newly appointed commissioners. The chair noted Garver was recently inducted into the Army Sports Hall of Fame in September for his hockey career at West Point, where he holds the program's all-time wins record with 75 victories."
+      },
+      {
+        "item": "Election of Commission Vice President",
+        "body": "With Garver's departure creating a vacancy in the vice president role, Commissioner Lisa nominated Veta Perkins (referred to as 'V') for vice president. Another commissioner moved to close nominations, and the motion to elect Perkins as VP passed unanimously. The chair also appointed Lisa as commission secretary without a formal vote, stating it was an appointment rather than an election."
+      },
+      {
+        "item": "Approval of August 24 Meeting Minutes",
+        "body": "The chair asked for corrections to the August 24 minutes. None were raised. A motion to approve was made and seconded, passing unanimously with no discussion."
+      },
+      {
+        "item": "Fire Department Monthly Update",
+        "body": "Fire Deputy Chief Justin reported nine new apprentices starting that day from a pool of 45 applicants, calling the field strong. He noted six current vacancies in the department; seven candidates were interviewed for firefighter-paramedic positions but only two will advance to the PFC for approval, leaving four vacancies remaining. He also highlighted new scheduling software intended to reduce administrative burden on battalion chiefs and reduce mandatory overtime, new training software in development, a successful DEA audit of the department's controlled substances practices led by Division Chief Matt Tormolan, and the widely publicized rescue of two occupants of a small aircraft that made an emergency water landing in Lake Wausau after dark, one of whom was later identified as a gubernatorial candidate."
+      },
+      {
+        "item": "Police Department Monthly Update",
+        "body": "Chief Barnes reported that a recent police hiring process drew 40 applicants after targeted social media advertising in Wisconsin, and described the preliminary interview pool as the best the department has seen. He said the department anticipates hiring eight or nine officers in the next 12 months due to three current openings and five or six expected retirements. On budget, Barnes said the department is leaving two positions unfilled through August to meet required savings, and that the overall authorized FTE count is dropping from 81 to 80 in 2027 as foundation funding for one of two downtown homeless outreach officer positions expires — the city will fund one position and the other will simply not be backfilled. Barnes also updated the commission on the city's proposal to acquire the UW-Wausau campus, noting the city is seeking six months for due diligence and has requested a $50,000 budget modification for expert consultants; a first council vote failed due to lack of quorum and one abstention, but the finance committee has since approved the modification and it will return to the full council. Barnes addressed the Flock license plate recognition camera system, stating the department owns 20 cameras at $50,000 per year on a five-year contract, that Flock does not sell city data, and that data is deleted after 30 days; a formal presentation to the PFC is planned for October or November."
+      },
+      {
+        "item": "Deputy Chief Promotional Process",
+        "body": "Chief Barnes outlined the timeline for selecting a new deputy chief: letters of interest and resumes were due October 2nd, officer listening sessions with the commission (without Barnes or Fire Chief Todd present) are planned for mid-October, candidate written assignments and interviews with Barnes are set for November 11th, and PFC interviews and a vote are planned for mid-to-late November with a January 17th promotional date. Commissioners discussed whether the PFC interviews could be held during the regular November 23rd meeting; Barnes said it was feasible but noted interviews could take several hours and might require a reduced agenda."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: outgoing Commissioner Tom Garver, 4620 Huntington Court, who used the public comment period to formally address the commission upon his departure. He praised department leadership, emphasized the importance of hiring for character, and thanked his fellow commissioners.",
+    "actionItems": [
+      "Veta Perkins elected as commission Vice President",
+      "Lisa appointed as commission Secretary",
+      "Two firefighter-paramedic candidates to be brought before the PFC for approval at the October meeting",
+      "Flock camera system formal presentation to be scheduled for the October or November PFC meeting",
+      "Deputy chief candidate listening sessions with commission planned for mid-October",
+      "Deputy chief candidate written assignments and interviews with Chief Barnes set for November 11th",
+      "PFC interviews and vote on deputy chief selection planned for November, potentially at the regular November 23rd meeting",
+      "$50,000 budget modification for UW campus due diligence to go before the full city council at its next meeting",
+      "Next PFC meeting scheduled for Monday, October 19th at 7:30 a.m. at City Hall"
+    ],
+    "topics": [
+      "Public Safety",
+      "Staffing",
+      "Budget",
+      "Flock License Plate Recognition",
+      "UW Campus Acquisition"
+    ],
+    "votes": [
+      {
+        "item": "Election of Veta Perkins as Commission Vice President",
+        "motion": "Motion to elect Veta Perkins as Vice President",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approval of August 24 meeting minutes",
+        "motion": "Motion to approve the minutes",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to close the meeting",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "-mjUBSlW93w",
+    "source": "wausau",
+    "title": "Public Health & Safety Committee Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Public Health & Safety",
+    "duration": "8m",
+    "url": "https://www.youtube.com/watch?v=-mjUBSlW93w",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Public Health & Safety Committee held a brief meeting on September 28th, approving minutes, a batch of license applications, and two 90-day liquor license extensions for businesses under construction. Two discussion items — an update on the Marathon County/City of Wausau homelessness response framework and the August tavern activities report — were tabled to the October 19th meeting due to the absence of scheduled presenters.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order"
+      },
+      {
+        "time": "0:30",
+        "item": "Public comment"
+      },
+      {
+        "time": "0:50",
+        "item": "Consideration of minutes of preceding meetings (regular and special Public Health & Safety Committee meetings)"
+      },
+      {
+        "time": "2:10",
+        "item": "3A: Approval or denial of various license applications"
+      },
+      {
+        "time": "3:05",
+        "item": "3B: 90-day extension request for 2510 Delhi and Bakery, 2510 Stewart Avenue (2510 Bakery LLC, agent Alexandria McKibben)"
+      },
+      {
+        "time": "5:00",
+        "item": "3C: 90-day extension request for True North #855, 4611 Stewart Avenue (True North Energy LLC, agent Michelle Knox)"
+      },
+      {
+        "time": "7:10",
+        "item": "4A: Update on Marathon County and City of Wausau foundational framework for homelessness response and strategic plan development"
+      },
+      {
+        "time": "8:45",
+        "item": "4B: Tavern activities report from August 2026"
+      },
+      {
+        "time": "11:30",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Minutes of preceding meetings",
+        "body": "The chair asked if members had reviewed the regular and special Public Health & Safety Committee minutes. No revisions or questions were raised. Alder Slonsky moved to approve and Alder Watson seconded; the motion passed unanimously."
+      },
+      {
+        "item": "3A: Various license applications",
+        "body": "The chair noted no applications were being denied and asked if members were in agreement to approve the batch. No discussion occurred. Alder Watson moved to approve and Alder True Blood seconded; the motion passed unanimously."
+      },
+      {
+        "item": "3B: 90-day extension for 2510 Delhi and Bakery (2510 Stewart Avenue)",
+        "body": "A staff member provided context that the bakery had experienced construction delays but expected to open within the 90-day extension period. No objections were raised. Alder Slonsky moved to approve and Alder Watson seconded; the motion passed unanimously."
+      },
+      {
+        "item": "3C: 90-day extension for True North #855 (4611 Stewart Avenue)",
+        "body": "A staff member noted receiving an email that morning indicating True North expected to be done by November 1st, within the 90-day window. Alder Slonsky moved to approve and Alder True Blood seconded; the motion passed unanimously."
+      },
+      {
+        "item": "4A: Update on Marathon County and City of Wausau homelessness response framework",
+        "body": "The scheduled presenter was absent. Committee members questioned whether the item was related to the homelessness task force and whether the presenter would be Tracy or Megan Bernett, described as the new health coordinator. The chair indicated no motion was needed and the item would be carried over; a committee member suggested asking Alder Larson to place it on the October agenda."
+      },
+      {
+        "item": "4B: Tavern activities report from August 2026",
+        "body": "No presenter was available to report. A committee member noted there were items of potential public interest, including 'pretty intense demerit points' addressed during the month, and suggested circling back next month when staff could be present to answer questions. The item was deferred to the October 19th meeting."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Minutes of regular and special Public Health & Safety Committee meetings approved and placed on file",
+      "Batch of license applications approved",
+      "90-day liquor license extension approved for 2510 Bakery LLC at 2510 Stewart Avenue",
+      "90-day liquor license extension approved for True North Energy LLC at 4611 Stewart Avenue",
+      "Homelessness response framework update (4A) deferred to October 19th meeting; Alder Larson to place on next agenda",
+      "Tavern activities report (4B) deferred to October 19th meeting for fuller discussion with presenter present"
+    ],
+    "topics": [
+      "Public Safety",
+      "Liquor Licenses",
+      "Homelessness",
+      "Tavern Activity Reports",
+      "License Applications"
+    ],
+    "votes": [
+      {
+        "item": "Approval of regular and special Public Health & Safety Committee meeting minutes",
+        "motion": "Motion to approve the minutes",
+        "mover": "Alder Slonsky",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approval of various license applications (3A)",
+        "motion": "Motion to approve license applications",
+        "mover": "Alder Watson",
+        "second": "Alder True Blood",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "90-day extension for 2510 Bakery LLC at 2510 Stewart Avenue (3B)",
+        "motion": "Motion to approve the 90-day extension",
+        "mover": "Alder Slonsky",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "90-day extension for True North Energy LLC at 4611 Stewart Avenue (3C)",
+        "motion": "Motion to approve the 90-day extension",
+        "mover": "Alder Slonsky",
+        "second": "Alder True Blood",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Alder Watson",
+        "second": "Alder Slonsky",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "kw_2fd54e3e6ac4461bb316c1b084abbaed",
     "source": "kronenwetter",
     "title": "Police and Fire Commission Meeting",
@@ -5387,250 +5646,6 @@
         "second": "Alder Slonski",
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "2SPD3t6yHTk",
-    "source": "marathon",
-    "title": "Health and Human Services Committee Meeting",
-    "date": "September 2, 2026",
-    "shortDate": "SEP 2",
-    "committee": "Health & Human Services",
-    "duration": "1h 29m",
-    "url": "https://www.youtube.com/watch?v=2SPD3t6yHTk",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Health and Human Services Committee held its regular meeting, receiving budget presentations from North Central Community Action Program, United Way of Marathon County (211 services), and the ADRC of Central Wisconsin, all of which highlighted growing financial pressures amid flat or reduced funding streams. The committee also received a quarterly update on the county-city homelessness response foundational framework and a preview of the strategic plan survey process. No significant funding changes were approved; the ADRC's requested levy increase was confirmed as already built into the 2027 budget.",
-    "agenda": [
-      {
-        "time": "0:01",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:15",
-        "item": "Public Comment"
-      },
-      {
-        "time": "0:20",
-        "item": "Approval of August 5th, 2026 Health and Human Services Committee meeting minutes"
-      },
-      {
-        "time": "0:45",
-        "item": "5A: 2027 Annual Budget Development - Presentation from North Central Community Action Program (Diane Senholtz)"
-      },
-      {
-        "time": "9:30",
-        "item": "5A continued: Presentation from United Way of Marathon County / 211 Services (Ben Lee)"
-      },
-      {
-        "time": "26:00",
-        "item": "5A continued: Presentation from ADRC of Central Wisconsin (Mike Ray) - levy request and program update"
-      },
-      {
-        "time": "52:00",
-        "item": "5B: Discussion and possible action to forward items to county board"
-      },
-      {
-        "time": "57:00",
-        "item": "6A: Foundational Framework for Homelessness Response Update (Megan Barnett, Health Department)"
-      },
-      {
-        "time": "1:23:00",
-        "item": "6B: Strategic Plan Survey Update"
-      },
-      {
-        "time": "1:26:00",
-        "item": "7A: Committee member ideas for future discussion / next meeting date"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of August 5th, 2026 Meeting Minutes",
-        "body": "Minutes were moved and seconded without discussion. The chair called for a voice vote and the motion carried."
-      },
-      {
-        "item": "North Central Community Action Program - 2027 Budget Presentation",
-        "body": "Executive Director Diane Senholtz presented CAP's 2025 impact in Marathon County: $2.6 million in goods and services including weatherization of 130 homes, emergency furnace repairs for 100 households, crisis rental payments of $289,000 for 681 households, and $300,000 in transitional housing for 10 households. Administrator Leonard noted the county's annual funding of $33,757 is used as match to leverage additional federal and state dollars, and stated his plan is to fund North Central CAP at the same level as prior years absent committee direction otherwise. Supervisor Rosenberg asked about gaps in service; Senholtz indicated rental assistance typically runs out by end of October. The committee raised the loss of AmeriCorps funding and Senholtz confirmed it is gone entirely."
-      },
-      {
-        "item": "United Way of Marathon County / 211 Services - 2027 Budget Presentation",
-        "body": "Ben Lee presented 211 operations, noting the service covers nine counties and is on pace to exceed 2025 call volumes due to increased income support and assistance calls and the Ringle tornado response. He described how 211 data directly informs United Way's $2.1 million in annual community investments, citing child care and food pantry access as examples where data-driven investments shifted community outcomes. Administrator Leonard noted the county's annual 211 contract is $40,000, also planned to remain flat. Lee highlighted new rural outreach efforts including the Athens Caring Circle food pantry, which arose from 211 zip code data identifying unmet need."
-      },
-      {
-        "item": "ADRC of Central Wisconsin - Levy Request and Budget Update",
-        "body": "Executive Director Mike Ray reported that nutrition program costs have risen nearly 50% over five years while funding has remained flat, forcing service reductions including cutting home-delivered meals from five to four per week for highest-need clients and three per week for moderate-need clients. The ADRC requested a $41,000 levy increase, which Administrator Leonard confirmed is already built into the 2027 budget draft; all four member counties must agree to the increase. Ray noted the Older Americans Act has not been reauthorized in nearly four years and Wisconsin provides only $650,000 statewide for nutrition programs compared to Minnesota's roughly $11 million. Supervisor Rosenberg suggested the committee consider passing resolutions advocating for increased state and federal funding. Ray also noted the ADRC's food vendor contract for Marathon, Lincoln, and Langlade counties is going out for RFP imminently and he hopes competitive bidding will help control costs."
-      },
-      {
-        "item": "5B: Discussion and Possible Action to Forward to County Board - PFAS Well Sampling and Mobile Crisis",
-        "body": "Supervisor Robinson (identified as John in transcript) raised two items: the need to expand mobile crisis services beyond business hours, and an emerging PFAS-related well sampling grant opportunity through the DNR's PAS trust fund ($131 million pool). He noted the village of Maine area near the Greystone 3M facility has some of the state's highest PFAS readings and no current coordinated sampling. Robinson indicated grant proposals may be released in late September or October with an initial six-month award window and a 20% match that could be met with in-kind services. Chair Boots committed to discussing with Administrator Leonard and potentially scheduling a presentation at the next meeting, and asked Robinson to keep the committee apprised of DNR developments. The chair noted the topic needed to be formally agendized before further discussion."
-      },
-      {
-        "item": "6A: Homelessness Response Foundational Framework - Quarterly Update",
-        "body": "Public Health Coordinator Megan Barnett delivered her quarter-three update, reporting progress across four foundational framework focus areas: a steering committee has been formed with city and county leadership, a standardized intake form collecting uniform population data launched August 10th, a 5-year strategic planning session with 50-plus partners is scheduled for October, and 16 key informant interviews with people experiencing homelessness have been completed to inform the plan. She reported 25% of WMC intake data from last year showed out-of-county residents (primarily Milwaukee, Madison, and Chicago), and confirmed at least two individuals were recently dropped off at Bridge Street Mission by Lincoln County law enforcement. Supervisor Rosenberg raised the question of communities petitioning the state attorney general regarding unlawful transport of unhoused individuals; Administrator Leonard explained a legal opinion has been requested, likely by Eau Claire, and outlined the Chapter 51 transfer process. Supervisor Conway praised the framework as exactly what the county board had asked for. Barnett also highlighted recent community wins: 15 Bridge Street Mission residents secured jobs, the Mong American Center and Open Door landed a grant for two 15-passenger vans for second and third shift transportation, and the first 'Stability Starts Here' multi-agency service expo was held at the community partners campus."
-      },
-      {
-        "item": "6B: Strategic Plan Survey Update",
-        "body": "Chair Boots summarized results of 35 survey responses (roughly half from county board members, half from department heads) identifying top strategic plan priorities. 'Healthiest' and 'Safest' categories ranked highest overall. He noted 19 strategic objectives will go to the community for input, with a 20th to be added regarding preservation of agricultural land, added in part due to community interest around wind and solar development. He committed to emailing the full list to supervisors and presenting to other committees in October."
-      },
-      {
-        "item": "Future Agenda Items and Tour of Bridge Street Mission",
-        "body": "The committee tentatively agreed to add a tour of Bridge Street Mission following the September 30th meeting. Barnett agreed to coordinate with Bridge Street Mission to confirm the date. Ben Lee also highlighted that 47% of Marathon County residents 55 and older do not have enough to get by per the ALICE report, and urged a coordinated county and nonprofit advocacy effort for aging-related funding, noting Representative Schneider is authoring a bill for increased 211 funding."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Administrator Leonard to fund North Central CAP and United Way at existing contract levels ($33,757 and $40,000 respectively) in the 2027 budget draft, absent contrary direction from committee",
-      "ADRC $41,000 levy increase already built into 2027 budget; Mike Ray to present request to all four member county boards for approval",
-      "Administrator Leonard to discuss PFAS/PAS trust fund well sampling grant opportunity with relevant departments (Health Department, CPZ) and potentially schedule a formal presentation at the next committee meeting",
-      "Supervisor Robinson to keep the committee apprised of DNR PFAS grant program developments",
-      "Megan Barnett to coordinate with Bridge Street Mission to confirm a tour following the September 30th committee meeting; tour to be added to the agenda as an informal post-meeting activity",
-      "Chair Boots to email full strategic plan survey results to all supervisors; to present to other committees in October",
-      "Megan Barnett to share homelessness intake dashboard data publicly via the PULSE platform once launched; full data report expected at December joint city-county update",
-      "Committee to consider passing advocacy resolutions supporting increased state and federal funding for aging services and nutrition programs (raised by Supervisor Rosenberg, no formal action taken)"
-    ],
-    "topics": [
-      "Budget",
-      "Housing and Homelessness",
-      "Aging Services",
-      "Public Health",
-      "PFAS Contamination"
-    ],
-    "votes": [
-      {
-        "item": "Approval of August 5th, 2026 Health and Human Services Committee meeting minutes",
-        "motion": "To approve the minutes",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "To adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_9adb9f79c8f14abe84d5def75546f357",
-    "source": "kronenwetter",
-    "title": "Utility Committee Meeting",
-    "date": "September 1, 2026",
-    "shortDate": "SEP 1",
-    "committee": "Utility",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-29",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-9adb9f79c8f14abe84d5def75546f357.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Village Utility Committee held its September 1, 2026 meeting covering financial reports for both water and sewer utilities, a staffing update, ongoing lift station construction delays with liquidated damages, and several policy discussions including a water tower cell lease renewal with AT&T, a septic/holding tank request from Northland Lutheran High School, data center ordinance planning, and the proposed county highway garage project. The committee approved the AT&T water tower lease renewal and directed staff to invite Northland Lutheran representatives to a future meeting to advance discussion on a possible ordinance amendment allowing seasonal holding tanks.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:20",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:05",
-        "item": "Public Comment"
-      },
-      {
-        "time": "2:20",
-        "item": "Utility Director Report - Lift Station Updates, Staffing, and Televising/Cleaning"
-      },
-      {
-        "time": "6:30",
-        "item": "Financial Report - Water and Sewer Utility Fund Comparison (Seven Months Through July)"
-      },
-      {
-        "time": "28:00",
-        "item": "Water Tower Cell Lease - AT&T Agreement Discussion and Action"
-      },
-      {
-        "time": "38:00",
-        "item": "Septic Tank/Holding Tank Ordinance - Northland Lutheran High School Request"
-      },
-      {
-        "time": "1:03:00",
-        "item": "Data Center Ordinance Discussion and Village Board Moratorium Update"
-      },
-      {
-        "time": "1:21:00",
-        "item": "County Highway Garage Update - State Approval and Construction Timeline"
-      },
-      {
-        "time": "1:24:00",
-        "item": "County Highway Garage Water/Sewer Usage and Brine/Salt Environmental Concerns"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Utility Director Report",
-        "body": "Utility Director Greg reported that lift station 2 panel installation is scheduled for the following Wednesday after WPS installed the wrong transformer. He also reported that a water department employee gave two weeks notice, requiring the position to be posted, and that the 2027 budget will include a request for an additional utility department employee due to growth and treatment plant demands. Green Bay Python TV is performing televising and cleaning of manholes on Kowalski Road."
-      },
-      {
-        "item": "Lift Station 8 Construction Delays and Liquidated Damages",
-        "body": "Lift station 8 remains visually incomplete with the original substantial completion date of July 15 having passed. The contractor now estimates completion by end of September, though committee members expressed skepticism. Liquidated damages of $500 per day are being imposed on the contractor covering the entire project scope, including boring under Highway 51/52 and connection to lift station 7. Approximately 35% of the roughly $2.4 million contract remains unpaid, giving the village leverage."
-      },
-      {
-        "item": "Financial Report - Water and Sewer Utility Funds",
-        "body": "Finance staff reported water utility revenues through seven months at $450,000 versus $449,000 last year, with operational expenses at $282,000 versus $261,000 — essentially flat. The sewer utility showed a $121,000 surplus versus $268,000 last year, with expenses at $559,000 versus $414,000, driven largely by Remote Metro Sewage District charges of $324,000 compared to $216,000 the prior year. Discussion centered on whether the elevated Remote Metro costs reflect a new normal due to infiltration from a wet spring, and whether rate adjustments will be needed in 2027. General obligation debt capacity stands at 17% used with $49 million available; staff discussed scenarios for upcoming sewer utility borrowing using either revenue bonds or general obligation debt pending completion of the 2025 audit."
-      },
-      {
-        "item": "Water Tower AT&T Cell Lease Agreement",
-        "body": "The committee reviewed a proposed five-year lease agreement with AT&T for antenna space on the village water tower at $27,000 in year one with a 2% annual escalator, down from the most recent payment of $35,123 and previous years' rate of $31,360. One committee member (Alex Fedwick) voted no, expressing concern that insufficient time was spent negotiating a better rate, while others acknowledged the need to move forward. The motion passed 4-1."
-      },
-      {
-        "item": "Septic Tank/Holding Tank Ordinance - Northland Lutheran High School",
-        "body": "Greg explained that Northland Lutheran High School has sought approval for a holding tank near their athletic fields' concession stand for approximately 18 months, initially with informal encouragement from former development director Peter Wagner who is no longer with the village. The current ordinance prohibits septic tanks within the sewage district. Committee members expressed willingness to work with the school but raised concerns about opening the door to other applicants and noted the need for strict, narrow ordinance language covering seasonal use, non-residential nature, distance requirements, and tank size limits. The committee directed staff to invite Northland Lutheran representatives, including their plumber, to the next utility committee meeting."
-      },
-      {
-        "item": "Data Center Ordinance Discussion",
-        "body": "The committee discussed the village board's one-year moratorium on data center approvals and the need for utility-side input on what regulations to pursue over the next 12 months. Key concerns included water consumption limits, requirements for closed-loop cooling systems, sewer discharge capacity, and the difficulty of identifying data center customers before projects are finalized. Committee members noted the wide range of data center sizes and that high water and power consumers could mask their identity as industrial customers. No action was taken; the committee agreed to continue researching ordinances from other municipalities."
-      },
-      {
-        "item": "County Highway Garage Update",
-        "body": "Greg reported that SD Ellenbacker is ready to begin construction on the county highway garage pending state plan approval, which could come any day or take several more weeks. The contractor is seeking preliminary approval just for the foundation to begin work before cold weather. Discussion also addressed the garage's planned use of a private well for brine-making operations, with committee member Craig Mortensen raising detailed concerns about salt runoff contaminating groundwater given historical problems at other county facilities, and recommending the village review the stormwater and drainage plan for the site."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Post open position for water department employee who submitted two weeks notice",
-      "Impose $500 per day liquidated damages on lift station 8 contractor for all outstanding project items past July 15 substantial completion date",
-      "Finance staff to post August billing to period 8 (August) not period 9 following software update delay",
-      "Finance staff to obtain depreciation schedules from current auditors for water and sewer utility assets before potential auditor change",
-      "Staff to contact AT&T to execute signed five-year cell lease agreement at $27,000 year one with 2% annual escalator",
-      "Invite Northland Lutheran High School representatives and their plumber to next utility committee meeting to discuss holding tank request and potential ordinance language",
-      "Research data center ordinances from other counties and municipalities for future discussion",
-      "Monitor Marathon County garage state plan approval and coordinate utility connections once approved",
-      "Review Marathon County highway garage stormwater and drainage plan regarding brine and salt runoff concerns"
-    ],
-    "topics": [
-      "Utilities",
-      "Budget",
-      "Staffing",
-      "Development",
-      "Lift Station 8",
-      "AT&T Water Tower Lease",
-      "Northland Lutheran Holding Tank",
-      "Data Centers"
-    ],
-    "votes": [
-      {
-        "item": "AT&T five-year water tower cell lease agreement at $27,000 year one with 2% annual increase",
-        "motion": "Motion to sign with AT&T for the five-year agreement for $27,000 with 2% increase every year",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "4-1 (Trustee Stowell yes, Jim Buck yes, Trustee Mortensen yes, Dan Raskowski yes, Alex Fedwick no)"
       }
     ]
   }
