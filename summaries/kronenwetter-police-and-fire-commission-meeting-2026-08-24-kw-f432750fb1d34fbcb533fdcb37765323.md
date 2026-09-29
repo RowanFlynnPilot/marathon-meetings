@@ -3,24 +3,29 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-26  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f432750fb1d34fbcb533fdcb37765323.pdf  
-**Summarized:** 2026-08-29 21:22 UTC
+**Summarized:** 2026-09-29 18:06 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Police and Fire Commission of Kronenwetter was scheduled to meet to approve previous meeting minutes, receive public comment, and conduct a closed session to interview Fire Department applicant(s). The meeting was set to address personnel matters related to the Fire Department.
+The Kronenwetter Police and Fire Commission dismissed a complaint filed June 30, 2026, determining it did not rise to the level of termination, suspension, or demotion, voting 5-0. The commission also advanced two candidates, Andrew Phillips and Rebecca Kiey, in the firefighter/first responder hiring process following closed-session interviews, also by a 5-0 vote.
 
 ## Key Discussions
-### Approval of Minutes
-The commission was scheduled to approve the minutes from the August 10, 2026 meeting.
+### Approval of August 10, 2026 Meeting Minutes
+Vice President Rick Smith moved, and Commissioner Donna Rule seconded, to approve the August 10, 2026 meeting minutes as written. The motion carried 5-0 by voice vote.
 
-### Fire Department Applicant Interviews
-The commission was set to convene in closed session to interview Fire Department applicant(s) pursuant to Wisconsin Statute provisions regarding consideration of employment and personnel matters. The closed session was scheduled to address preliminary consideration of specific personnel issues and employment evaluation data.
+### Closed Session — Fire Department Applicant Interviews and Personnel Matters
+Vice President Smith moved, and Commissioner Lucene Udulutch seconded, to convene into closed session pursuant to Wis. Stat. 19.85(1)(f) and 19.85(1)(c) to interview Fire Department applicants and consider personnel matters. The motion carried 5-0 by roll call vote, and the commission entered closed session at 5:10 p.m., reconvening in open session at 6:42 p.m.
+
+### Disposition of June 30, 2026 Complaint
+Following the closed session, Vice President Smith moved, and Commissioner Rule seconded, that the commission determined the complaint dated June 30, 2026 does not rise to the level of termination, suspension, or demotion, and therefore dismissed the complaint. The motion carried 5-0 by roll call vote.
+
+### Firefighter/First Responder Hiring Process
+Vice President Smith moved, and Commissioner Chet Rucinski seconded, to advance Andrew Phillips and Rebecca Kiey in the firefighter/first responder hiring process. The motion carried 5-0 by voice vote.
 
 ## Public Comment
-Public comment was on the agenda, with a 15-minute total period and three-minute time limit per person, subject to extension at the presiding officer's discretion.
+Kenneth Charneski, of 2604 16th Road, Kronenwetter, appeared before the commission to voice concern over whether members of the commission were appropriately nominated and appointed by the Village Board.
 
 ## Action Items
-- scheduled to vote on approval of 08/10/2026 meeting minutes
-- scheduled to interview Fire Department applicant(s) in closed session
-- expected to consider action after closed session
+- Complaint dated June 30, 2026 dismissed — commission determined it did not rise to the level of termination, suspension, or demotion.
+- Andrew Phillips and Rebecca Kiey advanced to the next stage of the firefighter/first responder hiring process.

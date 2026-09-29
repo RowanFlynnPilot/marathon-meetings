@@ -2302,6 +2302,39 @@
       "video_url": null,
       "processed_at": "2026-09-29T10:42:08.182584+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-meeting-thuscf8f2pe.md"
+    },
+    "Kx1TnavosZ8": {
+      "title": "Comprehensive Plan Steering Committee",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260928",
+      "meeting_date": "20260928",
+      "duration": 5232,
+      "video_url": null,
+      "processed_at": "2026-09-29T18:06:08.244175+00:00",
+      "summary_file": "summaries/weston-comprehensive-plan-steering-committee-kx1tnavosz8.md"
+    },
+    "BuG4S4Q-V2k": {
+      "title": "Parks Committee",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20260928",
+      "meeting_date": "20260928",
+      "duration": 3758,
+      "video_url": null,
+      "processed_at": "2026-09-29T18:07:19.136903+00:00",
+      "summary_file": "summaries/weston-parks-committee-bug4s4q-v2k.md"
+    },
+    "UKTnU2uCCDw": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20260929",
+      "meeting_date": "20260929",
+      "duration": 239,
+      "video_url": null,
+      "processed_at": "2026-09-29T18:09:05.935155+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uktnu2uccdw.md"
     }
   }
 }

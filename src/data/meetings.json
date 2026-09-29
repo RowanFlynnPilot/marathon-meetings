@@ -1,5 +1,433 @@
 [
   {
+    "id": "UKTnU2uCCDw",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "September 29, 2026",
+    "shortDate": "SEP 29",
+    "committee": "Board of Public Works",
+    "duration": "3m",
+    "url": "https://www.youtube.com/watch?v=UKTnU2uCCDw",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works held a brief meeting on September 29th, approving minutes, a parking lot lighting bid, two Community Infrastructure Partners payment requests related to lead service line replacement, and two construction project pay estimates. All items passed unanimously with no debate or public comment.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:15",
+        "item": "Approval of September 22, 2026 Regular Board of Public Works Minutes"
+      },
+      {
+        "time": "0:40",
+        "item": "Recommendation on 2026 Parking Lot Lighting Proposals"
+      },
+      {
+        "time": "1:45",
+        "item": "Payment Estimate #34 – Community Infrastructure Partners – Lead Service Line Replacement"
+      },
+      {
+        "time": "2:20",
+        "item": "Pay Estimate – Community Infrastructure Partners – Outreach Grant Program (August Work)"
+      },
+      {
+        "time": "2:50",
+        "item": "Pay Estimate #11 – 2025 Street Construction Project A, Randolph Street (Hos Suns Incorporated)"
+      },
+      {
+        "time": "3:40",
+        "item": "Pay Estimate #1 – 2026 Sidewalk Repair Project B (Pember Companies)"
+      },
+      {
+        "time": "4:20",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of September 22, 2026 Regular Board of Public Works Minutes",
+        "body": "A board member moved to approve the minutes and another seconded. The motion passed unanimously with no discussion."
+      },
+      {
+        "item": "Recommendation on 2026 Parking Lot Lighting Proposals",
+        "body": "Staff reported that proposals were opened on September 26 and only one bid was received from Lighting Design Solutions at $14,447 per twin-head pole unit. A staff member identified as Rick confirmed the amount. The board moved to approve the sole bid, which passed unanimously."
+      },
+      {
+        "item": "Payment Estimate #34 – Community Infrastructure Partners – Lead Service Line Replacement",
+        "body": "Staff presented Payment Estimate #34 from Community Infrastructure Partners covering a mix of engineering, construction, and other costs totaling $2,115,477.27 for the lead service line replacement program. The board moved to approve and the motion passed unanimously without debate."
+      },
+      {
+        "item": "Pay Estimate – Community Infrastructure Partners – Outreach Grant Program (August Work)",
+        "body": "Staff described this as a separate pot of money covering outreach costs for work completed in August, totaling $24,882.13. The board approved the payment unanimously with no discussion."
+      },
+      {
+        "item": "Pay Estimate #11 – 2025 Street Construction Project A, Randolph Street (Hos Suns Incorporated)",
+        "body": "Staff explained this is the final pay estimate for all work completed on the Randolph Street project from Cherry Street, with retainage being reduced to $10,000 pending spring restoration verification. The total payment recommended was $160,458.60. The board approved unanimously."
+      },
+      {
+        "item": "Pay Estimate #1 – 2026 Sidewalk Repair Project B (Pember Companies)",
+        "body": "Staff noted this is expected to be the one and only pay estimate for the project until final retainage release, with retainage reduced to $1,000 and a total pay estimate of $97,721. The board approved unanimously with no discussion."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Approve the sole bid from Lighting Design Solutions for 2026 parking lot lighting at $14,447 per twin-head pole unit",
+      "Approve Payment Estimate #34 from Community Infrastructure Partners for lead service line replacement totaling $2,115,477.27",
+      "Approve pay estimate from Community Infrastructure Partners for August outreach grant program costs totaling $24,882.13",
+      "Approve Pay Estimate #11 from Hos Suns Incorporated for 2025 Randolph Street construction project totaling $160,458.60 with retainage reduced to $10,000 pending spring restoration verification",
+      "Approve Pay Estimate #1 from Pember Companies for 2026 Sidewalk Repair Project B totaling $97,721 with retainage reduced to $1,000"
+    ],
+    "topics": [
+      "Infrastructure",
+      "Lead Service Line Replacement",
+      "Street Construction",
+      "Sidewalk Repair",
+      "Parking Lot Lighting"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 22, 2026 Board of Public Works minutes",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "2026 Parking Lot Lighting – Lighting Design Solutions bid at $14,447 per twin-head pole unit",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Payment Estimate #34 – Community Infrastructure Partners – Lead Service Line Replacement – $2,115,477.27",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Pay Estimate – Community Infrastructure Partners – Outreach Grant Program – $24,882.13",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Pay Estimate #11 – Hos Suns Incorporated – Randolph Street Construction – $160,458.60 with retainage reduced to $10,000",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Pay Estimate #1 – Pember Companies – 2026 Sidewalk Repair Project B – $97,721 with retainage reduced to $1,000",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "Kx1TnavosZ8",
+    "source": "weston",
+    "title": "Comprehensive Plan Steering Committee",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Board of Trustees",
+    "duration": "1h 27m",
+    "url": "https://www.youtube.com/watch?v=Kx1TnavosZ8",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09282026-1973",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston held a joint Comprehensive Plan Steering Committee meeting of the Village Board of Trustees and Planning Commission to review progress on a 10-year comprehensive plan update. Consultant Mark Roers of MD Roers Consulting presented survey results, stakeholder interview findings, draft vision statements, and preliminary chapter goals and initiatives covering land use, economic development, housing, transportation, and intergovernmental cooperation. The committee reached consensus on using draft vision statement 'C' for public presentation and set a public workshop for November 12, 2024, from 5 to 7 p.m.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Roll call"
+      },
+      {
+        "time": "3:10",
+        "item": "Public comment"
+      },
+      {
+        "time": "5:20",
+        "item": "Meetings and milestones update — Mark Roers, MD Roers Consulting"
+      },
+      {
+        "time": "12:45",
+        "item": "Review stakeholder interview and young adult questionnaire results"
+      },
+      {
+        "time": "27:00",
+        "item": "Review draft vision statements (A, B, C) and discussion"
+      },
+      {
+        "time": "40:00",
+        "item": "Community growth map and geographic vision overview"
+      },
+      {
+        "time": "55:00",
+        "item": "Chapter goals and initiatives: land use, economic development, housing, environment, transportation, intergovernmental cooperation"
+      },
+      {
+        "time": "1:18:00",
+        "item": "Hyperscale data center policy discussion"
+      },
+      {
+        "time": "1:32:00",
+        "item": "Pre-meeting initiative prioritization results reported"
+      },
+      {
+        "time": "1:38:00",
+        "item": "Discuss general plan for 'Shaping Weston's Tomorrow' public workshop"
+      },
+      {
+        "time": "1:43:00",
+        "item": "Board and commissioner announcements; adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "No speakers appeared in person or online. An emailed written comment from resident Sarah Prather regarding an indoor playground, addressed to Jennifer Higgins, Jamie Sean, Mark Roers, and Audrey Webster, was distributed to the board. President Maloney noted it would be entered into the record and included in the packet."
+      },
+      {
+        "item": "Meetings and Milestones Update",
+        "body": "Consultant Mark Roers outlined the comprehensive plan update process, noting that a community survey drew nearly 700 respondents, stakeholder interviews reached 24 identified contacts with 10 completing interviews, and a young adult questionnaire targeting ages 20–35 yielded 48 responses via social media. Roers explained the plan is divided into three volumes, with Volume 2 (Vision and Directions) as the current focus, targeting a public hearing by March. The board noted that 48 young adult responses exceeded the typical weekly newsletter poll response of about 27."
+      },
+      {
+        "item": "Stakeholder Interview and Young Adult Questionnaire Results",
+        "body": "Roers summarized cross-cutting themes from all input channels: safety ranked as the top community value across all age groups; residents want more retail, restaurants, and groceries; interviewees emphasized need for workforce housing, particularly entry-level single-family homes and duplexes over large apartment complexes; and intergovernmental respondents favored expanding collaborative services while keeping Weston's suburban character distinct from larger neighbors. Young adults specifically cited school quality, parks, family orientation, housing affordability, and indoor recreation as priorities."
+      },
+      {
+        "item": "Draft Vision Statement Review",
+        "body": "Roers presented three vision statement options (A from 2016, B from the recent strategic plan, and C newly drafted by Roers with AI assistance). Pre-meeting homework showed C received seven votes, A received one, and B received none. Discussion focused on tweaking C: Trustee Brent Olson suggested removing the word 'thoughtfully' from 'Weston will grow thoughtfully,' with others suggesting 'intentionally' as a substitute; one reviewer had suggested removing 'and welcoming' from the opening line, which drew pushback; another suggested adding 'can' language in multiple places, which was debated. The committee reached consensus to bring a refined version of C to the November 12 public workshop."
+      },
+      {
+        "item": "Community Growth Map and Geographic Vision",
+        "body": "Roers presented a generalized growth pattern map highlighting three mixed-use corridors (Scoffield Avenue, County Road X/Camp Phillips Road, and Weston Avenue) and identified a potential third interchange at Ryan Street as a priority transportation and land use initiative. Trustee or commissioner Gary Garn noted that Marathon County has a no-trucking restriction on Highway J south of Weston Avenue, which would need to be addressed for future southern industrial expansion. Extended discussion covered a potential bridge crossing north from the Caleb Drive area of Sandy Lane subdivision to improve connectivity, with staff noting the Oakclair River floodplain narrows at that point and that the northeast annexation area is known to the town chair."
+      },
+      {
+        "item": "Hyperscale Data Center Policy",
+        "body": "Roers recommended a draft initiative to 'support more industrial development while restricting hyperscale projects,' defining hyperscale as typically requiring 100 or more acres. He cited the DeForest example of a 1,500-acre proposal that was rejected and noted concerns about power consumption, long construction periods, land obsolescence, and community division. Board members expressed agreement with establishing a policy and raised questions about when to address related issues such as solar fields, wind turbines, and EV chargers. Roers noted solar field incentives are diminishing and cited a 2,500-acre proposal near Cambridge. The committee appeared to support the proposed policy direction without a formal vote."
+      },
+      {
+        "item": "Housing Chapter and State Law Initiatives",
+        "body": "Roers outlined new state-level tools including a pay-as-you-go TIF district specifically for residential development on lots no larger than 7,500 square feet with house size caps (1,500 sq ft single-story, 2,000 sq ft two-story), aimed at starter homes. He also noted infrastructure reimbursement mechanisms for developers and referenced the Truth in Planning law requiring communities to plan for sufficient housing land and be open to rezoning consistent with their plans. The board asked whether developer-fronted infrastructure costs could deter development; Roers said hybrid approaches are possible and that lenders are generally familiar with these structures."
+      },
+      {
+        "item": "Tax Incremental Financing — New Generation",
+        "body": "Roers explained that TID No. 1, the larger of Weston's two active districts, will close at year-end, creating room to establish new, smaller, project-specific TIDs. He cited DeForest's model of seven active TIDs and described the shift toward pay-as-you-go (PAYGO) structures where developers front infrastructure costs and are reimbursed through incremental tax revenue, closing districts faster. No vote was taken."
+      },
+      {
+        "item": "Pre-Meeting Initiative Prioritization Results",
+        "body": "Staff reported results of a pre-meeting homework exercise in which board and commission members ranked draft initiatives. 'Continue existing and pursue more opportunities for collaborative services' ranked first with six votes. Tied for second with five votes each were 'maintain the function and condition of Weston's roads' and 'help expand and attract retailers, restaurants, grocers, and industries in targeted sectors.' Tied for third with four votes each were 'phase growth according to utility, road, stormwater, and service capacity,' 'reinvest in older neighborhoods and housing,' and 'update Weston's five-year strategic plan.'"
+      },
+      {
+        "item": "Shaping Weston's Tomorrow Public Workshop",
+        "body": "The committee confirmed a public workshop titled 'Shaping Weston's Tomorrow' for November 12, 2024, from 5 to 7 p.m. Roers outlined plans for interactive small-group discussions rather than a lecture format, organized around topics such as transportation and natural resources. A board member requested a poster be created within 22 hours to publicize the event at a community event the following evening; staff confirmed they could produce one using Canva. Roers encouraged board members who attend to listen rather than actively participate in small groups."
+      }
+    ],
+    "publicComment": "No speakers appeared in person or online. A written email from resident Sarah Prather regarding an indoor playground was distributed to the board and entered into the record.",
+    "actionItems": [
+      "Consultant Mark Roers to revise draft vision statement C incorporating committee feedback (replace or remove 'thoughtfully,' consider 'intentionally,' review 'and welcoming' and 'can' language) and incorporate Trustee Lisa Beck's written submission",
+      "Staff to create a poster publicizing the November 12 public workshop for display at a community event the following evening",
+      "Staff to send calendar invitations to board and commission members for the November 12, 5–7 p.m. public workshop",
+      "Roers to refine the community growth map for clarity and update the future transportation map to better highlight the Caleb Drive north crossing opportunity",
+      "Roers to develop draft plan language on hyperscale data center restrictions, solar fields, and related large-scale energy/technology land uses",
+      "Roers to revise the future land use plan map to reflect potential industrial redesignation near a potential Ryan Street interchange",
+      "Staff and Roers to develop interactive small-group program format for the November 12 public workshop",
+      "Roers to follow up with Marathon County regarding Highway J load restrictions and implications for potential southern industrial expansion area"
+    ],
+    "topics": [
+      "Comprehensive Plan Update",
+      "Housing Affordability",
+      "Zoning",
+      "Economic Development",
+      "Transportation Infrastructure",
+      "Hyperscale Data Centers",
+      "Tax Increment Financing"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Dave [last name inaudible]",
+        "second": "Lisa Beck",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "BuG4S4Q-V2k",
+    "source": "weston",
+    "title": "Parks Committee",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Parks and Recreation Committee, Village of Weston",
+    "duration": "1h 2m",
+    "url": "https://www.youtube.com/watch?v=BuG4S4Q-V2k",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09282026-1973",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Parks and Recreation Committee met on September 30, 2024, covering updates on Kennedy Park renovations, the Muler Park master plan, aquatic center repairs, and a farmers market end-of-season survey. The committee voted to conduct a fall farmers market survey with an added question about Kennedy Park usage, and approved moving forward with an updated aquatic center facility evaluation.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and pledge of allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll call"
+      },
+      {
+        "time": "1:30",
+        "item": "Approval of minutes from August 24th meeting"
+      },
+      {
+        "time": "2:05",
+        "item": "Public comments"
+      },
+      {
+        "time": "7:45",
+        "item": "Update on Kennedy Park renovation"
+      },
+      {
+        "time": "13:20",
+        "item": "Update on Muler Park master plan"
+      },
+      {
+        "time": "25:10",
+        "item": "Update on aquatic center repairs"
+      },
+      {
+        "time": "32:00",
+        "item": "Discussion and action on farmers market end-of-season survey"
+      },
+      {
+        "time": "57:30",
+        "item": "Discussion and action on collecting feedback regarding ice skating rinks at Kennedy Park"
+      },
+      {
+        "time": "1:24:00",
+        "item": "Discussion and action on completing an updated aquatic center evaluation"
+      },
+      {
+        "time": "1:38:00",
+        "item": "Future agenda items, staff remarks, and adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of minutes from August 24th meeting",
+        "body": "Minutes were moved by Scott and seconded by Roger. The committee approved them unanimously on a voice vote."
+      },
+      {
+        "item": "Public comments",
+        "body": "A resident named Grace, of 603 Jessica Street, offered three comments: she thanked committee members for asking probing questions about the ice rink proposal at Kennedy Park; she requested a more formal, structured presentation on Kennedy Park's progress and future plans, rather than informal monthly updates; and she asked whether Prohaska Park has a sign, bathrooms, and regular mowing. Staff confirmed the park has a sign and that only the walking trails are mowed, with no formal amenity area."
+      },
+      {
+        "item": "Update on Kennedy Park renovation",
+        "body": "Staff reported that contractors are scheduled to arrive the following week to address touch-up paint on poles, crack block and missing mortar, dugout door adjustments, sod restoration from irrigation leak repairs, and irrigation system restoration. Lights are scheduled for delivery the week of the 19th and will be installed immediately upon delivery. A representative from Friends of Kennedy Park said there were no additional updates. No action was taken."
+      },
+      {
+        "item": "Update on Muler Park master plan",
+        "body": "Staff reported that following the September 3rd public input meeting, the consultant revised the concept design to add tennis and basketball courts and relocated the shelter near the pickleball/basketball/tennis area. Public feedback on the concept was largely positive with few suggested changes. Three emails were received requesting that any future playground addition be fully ADA-accessible. Staff noted playground equipment at Muler was intentionally excluded from the seven-playground replacement project due to its relative newness (installed 2007), but replacement would be planned if the master plan moves forward. A cost estimate is being prepared and will return to the committee for approval or denial. No action was taken."
+      },
+      {
+        "item": "Update on aquatic center repairs",
+        "body": "Staff reported the contractor moved up their schedule and now expects to begin work at the aquatic center the week of October 5th, earlier than the previously anticipated late October window. Work includes leak detection, a valve and motor replacement, and winterization. Staff is preparing the mechanical room for the contractor's arrival. Electrical and commercial pool permits through the village are being processed. No action was taken."
+      },
+      {
+        "item": "Discussion and action on farmers market end-of-season survey",
+        "body": "Staff presented revised survey questions for a second end-of-season farmers market survey, noting the first survey was issued too early in the season. The proposed survey has nine questions including an open-ended final question. Committee members discussed whether to include a vendor-specific survey; staff noted the existing survey already asks respondents to identify as vendors. A committee member suggested adding a 10th question asking how respondents otherwise use Kennedy Park, which received broad support. Trustee Beck, participating online, supported conducting the survey now while the season is fresh. The committee voted to proceed with the survey, to be released around October 1st and run approximately 30 days."
+      },
+      {
+        "item": "Discussion on collecting feedback regarding ice skating rinks at Kennedy Park",
+        "body": "Staff recapped discussions from March and April about the cost and usage of the Kennedy Park outdoor ice rink, noting that since the warming house closed in 2019, attendance tracking has been limited but staff observe regular use. Cost to maintain the rink is primarily utilities—approximately $800 in water usage annually—since labor costs remain fixed regardless. Committee members debated whether a public survey would be useful, with concern that respondents without context might vote against a low-cost community amenity. One member noted the rink is the only full-size outdoor hockey rink (200x85 feet) in the area. The committee reached a consensus not to conduct a standalone ice rink survey, but agreed to add a question about Kennedy Park usage to the existing farmers market survey. No formal vote was taken on the ice rink item."
+      },
+      {
+        "item": "Discussion and action on completing an updated aquatic center evaluation",
+        "body": "Staff noted the last aquatic center evaluation was completed in 2016 at just under $7,000, and that significant capital expenditures have followed, including over $102,000 in leak repairs this year and another motor and valve replacement project exceeding $100,000. Staff estimated a new evaluation could cost $7,000–$12,000. A committee member raised the question of whether to wait given ongoing discussions about a possible pool partnership with the Everest School District, which recently mailed a facilities survey to residents. After discussion, the committee agreed that an evaluation could actually inform the partnership decision. A motion was made and seconded to proceed with the aquatic center evaluation; the motion was approved unanimously on a voice vote."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: Grace, of 603 Jessica Street. She thanked committee members for questioning the ice rink proposal at Kennedy Park at a previous meeting, requested more formal and structured presentations on Kennedy Park's progress and future direction (including from Friends of Kennedy Park), and asked about the status of Prohaska Park—specifically whether it has a sign, bathrooms, and is regularly mowed. Staff answered that it does have a sign, and that only the walking trails are mowed. A person identified as David joined the meeting online but declined to offer public comment when invited.",
+    "actionItems": [
+      "Release farmers market end-of-season survey around October 1st, running approximately 30 days, including an added 10th question about other ways respondents use Kennedy Park",
+      "Do not conduct a standalone ice rink survey; instead capture Kennedy Park usage data via the farmers market survey question",
+      "Proceed with updated aquatic center facility evaluation; staff to contact Water Technology for a cost estimate",
+      "Contractors scheduled to arrive week of October 5th for aquatic center leak detection, valve and motor replacement, and winterization prep",
+      "Kennedy Park renovation: contractors arriving following week for touch-up paint, crack block/mortar repair, dugout door adjustment, sod restoration, and irrigation repairs; lights to be delivered and installed week of the 19th",
+      "Sand Hill playground spinner warranty parts expected to ship September 29th; staff to consult manufacturer about weight restriction signage",
+      "Next meeting tentatively set for October 26th at 4:00 p.m."
+    ],
+    "topics": [
+      "Parks",
+      "Aquatic Center",
+      "Farmers Market",
+      "Kennedy Park",
+      "Muler Park Master Plan"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 24th meeting minutes",
+        "motion": null,
+        "mover": "Scott",
+        "second": "Roger",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Proceed with farmers market end-of-season survey",
+        "motion": "Motion to proceed with the survey to go out this fall",
+        "mover": null,
+        "second": "Pam",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Proceed with updated aquatic center facility evaluation",
+        "motion": "Motion to go ahead and have the evaluation done",
+        "mover": null,
+        "second": "Roger",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Scott",
+        "second": "Roger",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "THUscF8F2PE",
     "source": "wausau",
     "title": "Police & Fire Commission Meeting",
@@ -5327,323 +5755,6 @@
         "motion": "Motion to adjourn",
         "mover": "Seefeldt",
         "second": "Lammer",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "eIkGVA3IvEI",
-    "source": "marathon",
-    "title": "Infrastructure Committee Meeting Pt.2",
-    "date": "September 3, 2026",
-    "shortDate": "SEP 3",
-    "committee": "Infrastructure",
-    "duration": "2m",
-    "url": "https://www.youtube.com/watch?v=eIkGVA3IvEI",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "This brief segment captures the tail end of a Marathon County Infrastructure Committee meeting, following a closed session. The committee returned from closed session and passed a motion requiring Bug Tussle — a broadband internet provider — to submit a detailed project scope change document outlining mileage and tower modifications, a completion schedule, and a plan to increase subscriber take rate by the November Infrastructure Committee meeting before the matter can advance to the full County Board of Supervisors. The meeting then adjourned.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Return from closed session"
-      },
-      {
-        "time": "0:15",
-        "item": "Motion regarding Bug Tussle project scope change requirements"
-      },
-      {
-        "time": "1:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Bug Tussle Broadband Project — Scope Change Requirements",
-        "body": "Following closed session, a committee member made a motion requiring Bug Tussle to provide a detailed project scope change explaining specific mileage changes, tower changes, a completion schedule for each proposed modification, and a plan to increase subscriber take rate — all due by the November Infrastructure Committee meeting as a condition of advancing the matter to the County Board of Supervisors. Supervisor Watson seconded the motion. The motion carried on a voice vote with all members present voting aye. A staff member identified as Lance indicated he would send the formal request to the Bug Tussle team, addressing someone named George on the Bug Tussle side."
-      },
-      {
-        "item": "Adjournment",
-        "body": "Supervisor Watson moved to adjourn and the motion was seconded. The motion carried unanimously on a voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Staff member Lance to send formal written request to Bug Tussle requiring a detailed project scope change including specific mileage changes, tower changes, completion schedule for each modification, and a take rate improvement plan",
-      "Bug Tussle must provide the requested scope change documentation by the November Infrastructure Committee meeting",
-      "Matter will be considered for forwarding to the County Board of Supervisors only after Bug Tussle submits the required documentation"
-    ],
-    "topics": [
-      "Broadband Internet",
-      "Bug Tussle",
-      "Project Scope Change",
-      "Rural Connectivity",
-      "County Board Referral"
-    ],
-    "votes": [
-      {
-        "item": "Require Bug Tussle to submit detailed project scope change with mileage, tower, and schedule specifics plus take rate plan by November Infrastructure Committee meeting",
-        "motion": "Motion to request Bug Tussle provide a detailed project scope change explaining specific mileage changes, tower changes, and a specific completion schedule for each proposed modification, and a plan relative to increasing the take rate by the November Infrastructure meeting to be considered and moved to the County Board of Supervisors",
-        "mover": "Unknown (committee member, name inaudible)",
-        "second": "Supervisor Watson",
-        "outcome": "Approved",
-        "tally": "Unanimous (voice vote)"
-      },
-      {
-        "item": "Adjourn the meeting",
-        "motion": "Motion to adjourn",
-        "mover": "Supervisor Watson",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous (voice vote)"
-      }
-    ]
-  },
-  {
-    "id": "Z-11cXuMl58",
-    "source": "marathon",
-    "title": "Infrastructure Committee Meeting Pt.1",
-    "date": "September 3, 2026",
-    "shortDate": "SEP 3",
-    "committee": "Infrastructure",
-    "duration": "1h",
-    "url": "https://www.youtube.com/watch?v=Z-11cXuMl58",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Infrastructure Committee met to discuss the Bug Tussle broadband project, which faces a significant scope modification because insufficient bond funds remain to complete the originally planned fiber loop. Bug Tussle representatives presented updates on current infrastructure, BEAD program awards, and marketing efforts before the committee voted to enter closed session to deliberate on the proposed scope change, potential litigation, and a new $45-50 million bonding request. The meeting is significant to residents because the southern fiber loop — a key component of the original broadband expansion agreement — is unlikely to be completed as planned.",
-    "agenda": [
-      {
-        "time": "0:02",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:15",
-        "item": "Public Comment"
-      },
-      {
-        "time": "3:10",
-        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes"
-      },
-      {
-        "time": "4:00",
-        "item": "Bug Tussle Broadband Project — Open Session Presentation: Current Infrastructure Status"
-      },
-      {
-        "time": "10:00",
-        "item": "Bug Tussle: BEAD Program Update and Awards"
-      },
-      {
-        "time": "22:00",
-        "item": "Bug Tussle: Marketing, Adoption, and Wholesale Business Update"
-      },
-      {
-        "time": "30:00",
-        "item": "Committee Q&A with Bug Tussle Representatives"
-      },
-      {
-        "time": "43:00",
-        "item": "Discussion of Scope Modification — Southern Loop and County Board Approval Requirements"
-      },
-      {
-        "time": "55:00",
-        "item": "Bug Tussle Future Bonding Request Overview ($45-50 Million)"
-      },
-      {
-        "time": "58:30",
-        "item": "Motion to Enter Closed Session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment — Salt Shed Road Condition on Duncan Road",
-        "body": "A man identified as chairman of the Town of Ringle addressed the committee about deteriorating pavement on the access road to the county salt shed off Highway 29 on Duncan Road. He described the road as 'alligatored' and noted the worst damage occurs where trucks turn toward the loading ramp, likely due to salt spillage. He passed photos to committee staff and suggested a possible cost-sharing agreement between the county and township for repaving the approximately 100-150 yard stretch. County Director/Commissioner Kevin [last name inaudible] acknowledged the issue and said it would be taken into consideration."
-      },
-      {
-        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes",
-        "body": "A motion to approve the minutes was made by Sarah [last name inaudible] and seconded by Tom [last name inaudible]. The motion carried unanimously."
-      },
-      {
-        "item": "Bug Tussle Broadband Project — Infrastructure Status Presentation",
-        "body": "Bug Tussle representatives — including George [Quins], Avery Shelbine, and Chris Hverson appearing virtually — presented current project status: 206 live fiber miles in Marathon County, 16 fixed wireless sites deployed, 19 multi-purpose towers, and approximately 5,800 locations passable by fixed wireless and 2,800 by fiber. They noted the original plan called for 288 miles of fiber; the current plan will deliver approximately 281 miles by year-end after completing 74 additional miles, with the southern loop (~45 miles) being dropped as financially infeasible due to insufficient homes along the route. Outstanding construction segments include the Huitt Tower (2.7 miles), Stratford Water Tower (7.19 miles), Hatley/East Side Sheriff's Tower (4.5 miles), and Brokaw East (3.86 miles), all contracted to United Electric for fall 2024 construction."
-      },
-      {
-        "item": "Subscription/Take Rate Decline",
-        "body": "Supervisor Aaron Griner questioned why subscription rates had declined from the June presentation — fixed fiber service from 4.15% to 2.99% and fixed wireless from 5.19% to 1.37%. Bug Tussle's Avery Shelbine attributed the decline partly to customer churn (subscribers moving to faster Bug Tussle fiber plans or SpaceX) and partly to a recalculation of the total addressable market using updated engineering assessments, which significantly increased the denominator for the take-rate calculation. George [Quins] acknowledged that Bug Tussle had not focused adequately on marketing during the construction phase and described new sales and digital marketing efforts now underway."
-      },
-      {
-        "item": "Scope Modification — Southern Loop Removal and County Board Approval",
-        "body": "Supervisor Robinson and County Attorney Jerry Klene led substantive discussion about whether the elimination of the southern fiber loop constitutes a formal scope change requiring county board approval. Klene stated Bug Tussle was told as early as a January meeting in Green Bay that dropping the southern loop would require board approval, and this was reiterated before the June educational meeting. Administrator Lance Leonard confirmed there are insufficient project funds remaining to complete the original scope and directed Bug Tussle to produce a formal addendum comparing the original bond issuance documents to the revised scope, including exact mileage differences, for a future committee review. Supervisor Guy asked whether microwave transmission could serve as an adequate substitute for the southern loop; Klene said it would not be ideal but could be made functional if Stratford Water Tower, Huitt Tower, and the east tower connections are completed to provide redundancy for public safety."
-      },
-      {
-        "item": "Bug Tussle Future Bonding Request",
-        "body": "George Quins briefly outlined a proposed new bond in the range of $45-50 million, described as primarily supporting the BEAD program match requirements, expanded fiber passings, marketing and sales investment, and refinancing of existing financial commitments. He indicated the bond would be structured as a multi-county instrument shared across Bug Tussle's partner counties in Wisconsin. Detailed financials were reserved for the closed session."
-      },
-      {
-        "item": "Motion to Enter Closed Session",
-        "body": "Administrator Leonard and County Attorney Brian [last name inaudible] recommended closed session to discuss scope modification details, litigation risk, and Bug Tussle's confidential financial projections. Supervisor Guyer moved to enter closed session under Wisconsin Statutes 19.85(1)(e) and 19.85(1)(g); the motion was seconded and passed on a roll call vote with all members voting aye."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: the chairman of the Town of Ringle, identified as Mr. Christensen, raised concerns about deteriorating pavement on the county salt shed access road on Duncan Road off Highway 29. He described alligatoring asphalt and pothole damage caused by salt truck traffic, passed photos to staff, and suggested exploring a county-township cost-sharing agreement for repaving the roughly 100-150 yard stretch.",
-    "actionItems": [
-      "Bug Tussle to produce a formal scope modification addendum comparing original bond issuance documents to revised project scope, including exact mileage differences, for future committee review",
-      "Committee to develop a formal recommendation to the county board regarding the proposed scope modification of the Bug Tussle broadband project",
-      "County staff (Kevin [inaudible]) to follow up with Town of Ringle chairman regarding salt shed access road repair on Duncan Road",
-      "Bug Tussle to complete remaining fiber construction segments (Huitt Tower, Stratford Water Tower, Hatley/East Side Sheriff's Tower, Brokaw East) by end of 2024",
-      "Bug Tussle to proceed with Edgar Tower and Rainbow Drive Tower engineering and equipment installation for county emergency paging",
-      "Committee to reconvene in closed session to discuss scope modification strategy, litigation risk, and Bug Tussle's $45-50 million future bonding request"
-    ],
-    "topics": [
-      "Broadband Expansion",
-      "Infrastructure Budget",
-      "Public Safety Communications",
-      "Bug Tussle Broadband Project",
-      "BEAD Program"
-    ],
-    "votes": [
-      {
-        "item": "Approval of August 26 Infrastructure Committee Meeting Minutes",
-        "motion": "Motion to approve the August 26 meeting minutes",
-        "mover": "Sarah [last name inaudible]",
-        "second": "Tom [last name inaudible]",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Motion to enter closed session pursuant to Wis. Stat. 19.85(1)(e) and 19.85(1)(g) to deliberate on Bug Tussle broadband scope modification, litigation strategy, and future bonding",
-        "motion": "Move to go into closed session pursuant to 19.85 sub1 sub E and 19.85 sub1 subG",
-        "mover": "Supervisor Guyer",
-        "second": "Supervisor Striber [spelling unverified]",
-        "outcome": "Approved",
-        "tally": "Unanimous on roll call"
-      }
-    ]
-  },
-  {
-    "id": "vsEYQ8DPwio",
-    "source": "wausau",
-    "title": "Committee of the Whole Meeting",
-    "date": "September 2, 2026",
-    "shortDate": "SEP 2",
-    "committee": "City of Wausau Committee of the Whole",
-    "duration": "1h 14m",
-    "url": "https://www.youtube.com/watch?v=vsEYQ8DPwio",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Committee of the Whole met on September 2, 2026 to consider a proposal by Alders Heni and True Blood to commission a comprehensive, independent systemic audit of city government. After an extensive presentation and discussion, the committee unanimously approved a motion directing the executive committee to develop a scope of work, procurement process, and timeline for the audit, with the full proposal to return to the common council for approval before any contract is awarded. The meeting also addressed growing public concern about city financial reporting accuracy, including a reported $14 million discrepancy in motorpool fund history tables, a $36 million sewer debt understatement, and a material weakness flagged by external auditors tied to a $1 million prior period adjustment.",
-    "agenda": [
-      {
-        "time": "0:13",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:45",
-        "item": "Public Comment on Agenda Items"
-      },
-      {
-        "time": "11:30",
-        "item": "Approval of Minutes of Preceding Committee of the Whole Meeting (July 13, 2026)"
-      },
-      {
-        "time": "12:30",
-        "item": "Presentation by Alders Heni and True Blood: Comprehensive Independent Systemic Audit of City Hall — Discussion and Possible Action"
-      },
-      {
-        "time": "35:00",
-        "item": "Motion: Recommend Council Proceed with Development of Independent Systemic Audit"
-      },
-      {
-        "time": "38:30",
-        "item": "Amendment to Motion: Audit Scope Not to Duplicate Annual Financial Audit"
-      },
-      {
-        "time": "41:00",
-        "item": "Discussion of Motion as Amended — Council Member Comments"
-      },
-      {
-        "time": "1:06:30",
-        "item": "Reading of Written Statements from Absent Alders Watson and Tierney"
-      },
-      {
-        "time": "1:09:30",
-        "item": "Vote on Main Motion as Amended"
-      },
-      {
-        "time": "1:10:30",
-        "item": "Motion to Direct Alder Heni to Prepare Staff Memo and Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment on Agenda Items",
-        "body": "Three speakers addressed the council. Joanne Leonard (923 Maple Hill Road), a former Marathon County Board member and retired Wisconsin Public Service manager, called for a comprehensive financial audit by outside experts, criticizing what she described as inadequate financial controls and expressed opposition to the mayor's alternative plan. Liz Hower (1106 North Third Street) called for an independent audit conducted by a firm with no prior ties to the city, citing the need for transparency and accountability. Deborah Ryan (702 Elm Street), a former alder (2020–2022) and retired accountant, raised a series of specific historical financial concerns including an allegedly unauthorized $5,000 legal opinion obtained by a former finance director, an unrecorded housing authority loan, vendor contracts signed without required authorization, and incomplete records requests; she called for the finance director to be relieved of daily duties."
-      },
-      {
-        "item": "Approval of Minutes of Preceding Committee of the Whole Meeting (July 13, 2026)",
-        "body": "Alder Larson moved to approve the minutes as presented; Alder Lukans seconded. The motion passed on a voice vote with no opposition."
-      },
-      {
-        "item": "Presentation: Comprehensive Independent Systemic Audit",
-        "body": "Alders Heni and True Blood jointly presented a detailed proposal for a citywide systemic audit, explicitly framing it as not a forensic audit and not intended to assign blame or uncover wrongdoing. Heni cited specific financial reporting concerns including a $14 million discrepancy in motorpool fund budget history tables over 10 years, a $36 million understatement of sewer debt in published schedules, and a material weakness identified by the city's own independent auditors linked to a $1 million prior period adjustment reported the same day. True Blood emphasized structural inefficiencies, including equipment and staff whose purposes are unclear, outdated organizational practices unchanged since the 1960s, a lack of meaningful exit interview processes, and the city hiring outside contractors at higher rates than employees for work existing departments are supposed to perform."
-      },
-      {
-        "item": "Discussion of Motion as Amended",
-        "body": "Multiple council members expressed support while raising concerns about implementation. Alders Slonski and Drew cautioned that audit findings might reveal the need for additional spending — including new staff, software, or equipment — rather than yielding tax savings, and urged clear public communication about realistic timelines for implementing changes. Alder Martins noted the prior Mercury motorpool study took over six to eight months and its recommendations were largely unimplemented due to levy limits and expenditure restraint, warning the same constraints could hinder this audit's outcomes. Alder Larson asked whether the audit would cover the potential purchase of the old WMC/NTC campus for police and fire, and was told the audit was intended to work in tandem with normal city functions rather than halt them. Mayor Doug Diny stated the city would continue normal operations and cited ongoing improvements already underway, including new budget presentation formats with bar charts for the 2027 budget. Absent Alder Tierney's written statement was read aloud, expressing strong support for the audit and stating her first preference would actually be a forensic audit; Alder Watson's written statement was noted as in the packet but not read at her request."
-      },
-      {
-        "item": "Motion to Direct Alder Heni to Prepare All-Staff Memo",
-        "body": "Following passage of the main motion, Alder Lukans moved to direct Alder Heni to prepare a concise memo to all city staff — including fire and police — summarizing the evening's discussion and inviting them to the future council meeting where the audit proposal will be considered. Alder Slonski seconded. A brief procedural question was raised about whether the motion was germane to the agenda; the presiding officer indicated she had confirmed with the city attorney it would be, and Alder Heni volunteered to write the memo regardless of the vote. The motion passed on a voice vote with no opposition."
-      }
-    ],
-    "publicComment": "Three speakers offered public comment. Joanne Leonard (923 Maple Hill Road), a 57-year Wausau resident and former Marathon County Board member, called for a comprehensive independent financial audit by outside experts and opposed what she described as the mayor's insufficient alternative plan. Liz Hower (1106 North Third Street) called for an independent audit by a firm with no prior ties to the city, emphasizing transparency and public trust. Deborah Ryan (702 Elm Street), a retired accountant and former alder (2020–2022), raised specific historical financial irregularities under prior administrations and called for the current finance director to be relieved of daily duties pending development of new procedures.",
-    "actionItems": [
-      "Executive committee assigned to develop scope of work, vendor qualifications, cost options, funding plan, and timeline for the independent systemic audit",
-      "Completed audit proposal to return to the common council for review and approval before any contract is awarded or funds committed",
-      "Executive committee to consider recommendations for phased zero-based and priority-based budgeting as part of long-term budget reform",
-      "Audit scope must not duplicate work already covered by the city's regular annual financial audit",
-      "Alder Heni to prepare a concise memo to all city staff (including fire and police) summarizing the audit discussion and inviting them to the council meeting where the proposal will be considered",
-      "Mayor Diny indicated new budget history presentation formats (bar charts/graphs) will be implemented for 2027 budget cycle"
-    ],
-    "topics": [
-      "Financial Audit",
-      "Budget",
-      "Staffing",
-      "TIF Districts",
-      "Motorpool Fund"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes of July 13, 2026 Committee of the Whole meeting",
-        "motion": "Move to approve the minutes as presented",
-        "mover": "Alder Larson",
-        "second": "Alder Lukans",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amendment to main motion: audit scope not to duplicate the existing annual financial audit",
-        "motion": "That the proposed financial audit not duplicate efforts already covered by the usual annual audit but rather go outside that scope",
-        "mover": "Alder Neil",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Main motion as amended: recommend council proceed with independent systemic audit of city hall, with executive committee oversight of scope and procurement, returning to council for approval before contract award",
-        "motion": "That the committee of the whole recommend to the common council that the city proceed with the development of an independent systemic audit of city hall covering financial management, internal controls, TIF/TID activities, procurement, debt, capital planning, staffing, operational efficiency, and governance; with executive committee assigned oversight of scope, procurement, qualifications, cost options, funding, and timeline; completed proposal to return to council before any contract is awarded; and executive committee to consider phased zero-based and priority-based budgeting recommendations",
-        "mover": "Alder Heni",
-        "second": "Alder True Blood",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Direct Alder Heni to prepare all-staff memo summarizing audit discussion and inviting staff to future council meeting",
-        "motion": "That Alder Heni put together a concise memo to the whole city staff including fire and police outlining the discussion of the night and inviting them to the future council meeting where this will come up",
-        "mover": "Alder Lukans",
-        "second": "Alder Slonski",
         "outcome": "Approved",
         "tally": "Unanimous"
       }
