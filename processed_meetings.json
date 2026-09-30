@@ -2335,6 +2335,28 @@
       "video_url": null,
       "processed_at": "2026-09-29T18:09:05.935155+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uktnu2uccdw.md"
+    },
+    "bUPT--DJgAo": {
+      "title": "Marathon County Human Resources Finance & Property Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260929",
+      "meeting_date": "20260929",
+      "duration": 5530,
+      "video_url": null,
+      "processed_at": "2026-09-30T14:56:24.746525+00:00",
+      "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-bupt-djgao.md"
+    },
+    "nSSFoE_EWhA": {
+      "title": "Marathon County Environmental Resources Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260929",
+      "meeting_date": "20260929",
+      "duration": 5212,
+      "video_url": null,
+      "processed_at": "2026-09-30T14:57:51.098274+00:00",
+      "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting-nssfoe-ewha.md"
     }
   }
 }

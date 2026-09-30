@@ -1,5 +1,158 @@
 [
   {
+    "id": "nSSFoE_EWhA",
+    "source": "marathon",
+    "title": "Environmental Resources Committee Meeting",
+    "date": "September 29, 2026",
+    "shortDate": "SEP 29",
+    "committee": "Environmental Resources",
+    "duration": "1h 26m",
+    "url": "https://www.youtube.com/watch?v=nSSFoE_EWhA",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "{\n  \"overview\": \"The Marathon County Environmental Resources Committee met on September 29, 2026, to conduct public hearings on nine rezoning petitions, approve land acquisition and a boat donation for parks, review three independent town ordinances, and begin initial discussions on developing a data center ordinance under an existing 12-month moratorium. Eight of nine rezoning petitions were approved unanimously; one was postponed pending town board action. The data center ordinance discussion highlighted committee concerns about water use, electricity demand, noise, and the need for independent expert education before drafting standards.\",\n  \"committee\": \"Marathon County Environmental Resources Committee\",\n  \"presiding\": \"Supervisor Mike Ritter, Chair\",\n  \"agenda\": [\n    {\"time\": \"0:00\", \"item\": \"Call to Order and Pledge of Allegiance\"},\n    {\"time\": \"1:10\", \"item\": \"Public Comment\"},\n    {\"time\": \"1:20\", \"item\": \"Approval of September 1, 2026 Committee Minutes\"},\n    {\"time\": \"2:05\", \"item\": \"5A1: Rezoning - White Knight Acres LLC, General Agriculture to Rural Residential, Town of Wayne\"},\n    {\"time\": \"7:30\", \"item\": \"5A2: Rezoning - Elizabeth Kurt and Doug and Barb Kurt, General Agriculture/Rural Residential to General Agriculture/Rural Residential, Town of Huitt\"},\n    {\"time\": \"13:00\", \"item\": \"5A3: Rezoning - Donna Klein Tippy, General Agriculture to Rural Residential, Town of Reed\"},\n    {\"time\": \"18:30\", \"item\": \"5A4: Rezoning - Dwayne Johnson, Low Density Residential and Farmland Preservation to Rural Estate, Town of Hull\"},\n    {\"time\": \"25:00\", \"item\": \"5A5: Rezoning - Thomas and Pamela Balls and Devon and Louisa Lammansky, General Agriculture to Low Density Residential, Town of Rib Falls\"},\n    {\"time\": \"30:00\", \"item\": \"5A6: Rezoning - Austin Leel, General Agriculture to Rural Estate, Town of Holton\"},\n    {\"time\": \"35:00\", \"item\": \"5A7: Rezoning - Marvin Martin, Farmland Preservation to Light Industrial, Town of Hull\"},\n    {\"time\": \"39:30\", \"item\": \"5A8: Rezoning - Jordan Reynolds, Farmland Preservation to Rural Estate, Town of Hull\"},\n    {\"time\": \"44:30\", \"item\": \"5A9: Rezoning - Spencer Joint Revocable Trust, Farmland Preservation to General Agriculture, Town of McMillan - POSTPONED\"},\n    {\"time\": \"49:00\", \"item\": \"5C1: Possible Recommendation to County Board - Acquisition of Land Adjacent to Cherokee Park\"},\n    {\"time\": \"1:02:00\", \"item\": \"5C2: Possible Recommendation to County Board - Donation of Pontoon Boat to Parks Department\"},\n    {\"time\": \"1:10:00\", \"item\": \"5B1: Town of Reb Rock Wind Energy Ordinance\"},\n    {\"time\": \"1:18:00\", \"item\": \"5B2: Town of Reb Rock Solar Energy Ordinance\"},\n    {\"time\": \"1:22:00\", \"item\": \"5B3: Town of Wausau Data Center Ordinance\"},\n    {\"time\": \"1:33:00\", \"item\": \"6A1: Initial Conversation on Development of Data Center Ordinance - Issues to Research\"},\n    {\"time\": \"2:00:00\", \"item\": \"6A2: Strategic Plan Development Update\"},\n    {\"time\": \"2:06:00\", \"item\": \"Year-to-Date Budget Report for CPZ, PRF, and SWD\"},\n    {\"time\": \"2:12:00\", \"item\": \"Announcements and Next Meeting\"}\n  ],\n  \"discussions\": [\n    {\n      \"item\": \"5A1: White Knight Acres LLC Rezoning - Town of Wayne\",\n      \"body\": \"Staff presenter Garrett Pogle reported the petition to rezone from General Agriculture to Rural Residential near Chesk Road and Aspen Drive. The Town of Wayne recommended approval and staff also recommended approval. No public testified. Supervisor Drebeck moved to approve based on findings of fact, conclusions of law, and town approval; Supervisor Sefelt seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A2: Elizabeth Kurt and Doug and Barb Kurt Rezoning - Town of Huitt\",\n      \"body\": \"Staff reported a rezoning of parcels near Mile Road and Sunrise Road, reorganizing boundaries between General Agriculture and Rural Residential designations. The Town of Huitt recommended approval and staff concurred. No public testified. Supervisor Shaneborn moved to approve; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A3: Donna Klein Tippy Rezoning - Town of Reed\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Rural Residential at the corner of Martin Road and County Road J. The Town of Reed recommended approval and staff concurred. No public testified. Supervisor Sefelt moved to approve and forward to the county board; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A4: Dwayne Johnson Rezoning - Town of Hull\",\n      \"body\": \"Staff reported a petition to rezone approximately 8 acres from Low Density Residential and Farmland Preservation to Rural Estate west of Chestnut Hill Lane and Elderberry Road. Property owner Dwayne Johnson testified, explaining the land was a former cow yard with a waterway running through it, of little farming value, and he intended to sell it to a neighboring property owner. Town of Hull and staff recommended approval. Supervisor Sefelt moved to approve; Supervisor Shaneborn seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A5: Thomas and Pamela Balls and Devon and Louisa Lammansky Rezoning - Town of Rib Falls\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Low Density Residential south of Schoolhouse Lane and Countryside Drive. Town of Rib Falls and staff recommended approval. No public testified. Supervisor Brew moved to approve; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A6: Austin Leel Rezoning - Town of Holton\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Rural Estate at the corner of Pope Road and County Line Road. Town of Holton and staff recommended approval. No public testified. Supervisor Shaneborn moved to approve; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A7: Marvin Martin Rezoning - Town of Hull\",\n      \"body\": \"Staff reported a petition to rezone from Farmland Preservation to Light Industrial west of the intersection of County Road N and Silver Maple Lane. Town of Hull and staff recommended approval. No public testified. Supervisor Drebeck moved to approve; Supervisor Shaneborn seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A8: Jordan Reynolds Rezoning - Town of Hull\",\n      \"body\": \"Staff noted the agenda incorrectly listed this as Farmland Preservation to Light Industrial; the correct and publicly noticed rezoning was Farmland Preservation to Rural Estate. Staff reported the petition for land south of the intersection of Choke Cherry Road and Dill Creek Lane. Town of Hull and staff recommended approval. No public testified. Supervisor Sefelt moved to approve and forward to the county board; Supervisor Drebeck seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A9: Spencer Joint Revocable Trust Rezoning - Town of McMillan (POSTPONED)\",\n      \"body\": \"Staff reported a petition to rezone from Farmland Preservation to General Agriculture at the intersection of Galvan Avenue and Weeping Willow Lane, but noted the Town of McMillan had not submitted a required resolution. Staff recommended postponement until the town submits its resolution. The committee agreed, with Supervisor [inaudible] moving to postpone and Supervisor Enson seconding. Motion to postpone carried unanimously.\"\n    },\n    {\n      \"item\": \"5C1: Acquisition of Land Adjacent to Cherokee Park\",\n      \"body\": \"Parks and Recreation Director Jamie Paulie presented a proposal to acquire approximately 14 acres of wooded land adjacent to Cherokee Park from a private landowner at an assessed value of $4,450 per acre, funded from the county's Parkland Dedication Account which currently holds $344,043. Paulie clarified only the wooded parcel would be purchased; farmland would remain in private ownership. Supervisor Enson noted a discrepancy between the 14-acre figure and the appraisal's 19-acre figure; Paulie acknowledged this and explained the appraisal was for per-acre valuation only. Supervisor Drebeck asked about potential timber harvesting; Paulie said no assessment had been done but noted access could be through the park. The Parks, Forestry, and Recreation Committee had already recommended approval. Supervisor Sefelt moved to approve and forward to the HR Finance and Property Committee; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5C2: Donation of Pontoon Boat to Parks Department\",\n      \"body\": \"Director Paulie presented a proposal to accept donation of a 1990 19-foot aluminum pontoon boat with a 50-horsepower motor from a local school district that was divesting from its fishing program. The boat, valued at approximately $4,000, would expand the county's youth fishing program at no cost. Paulie noted it would be added to the county fleet for routine maintenance and could be sold if upkeep became excessive. Supervisor Sefelt quipped the next Parks, Forestry, and Recreation Committee meeting would be held on the pontoon boat. Supervisor Brew moved to accept the donation; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5B1: Town of Reb Rock Wind Energy Ordinance\",\n      \"body\": \"Land Resources Manager Shad Harvey explained a new procedural change: the county now only reviews independent town ordinances for procedural compliance rather than legal content, with towns assuming legal responsibility via a signed application. Corporation Counsel confirmed the county is not vouching for the legality of the ordinance language. Supervisor Leur expressed concern about the word 'hope' regarding liability and sought clarification; Corp Counsel acknowledged the procedure is untested in Marathon County and that while liability probability is low, it cannot be guaranteed at 0%. Supervisor Drebeck moved to accept the Town of Reb Rock Wind Energy Ordinance; Supervisor Sefelt seconded. Motion carried, but was noted as not unanimous.\"\n    },\n    {\n      \"item\": \"5B2: Town of Reb Rock Solar Energy Ordinance\",\n      \"body\": \"Harvey presented the same procedural review framework for the solar energy ordinance. Supervisor Sefelt asked whether towns could sign an agreement holding the county harmless; Harvey confirmed the application form serves that function. Chair Gibbs asked whether Corp Counsel reviews ordinance language for legality; Corp Counsel confirmed they do not review the language itself, only procedural compliance. Supervisor Sefelt moved to accept; Supervisor Brew seconded. Motion carried, with at least one 'no' vote noted.\"\n    },\n    {\n      \"item\": \"5B3: Town of Wausau Data Center Ordinance\",\n      \"body\": \"Harvey presented the Town of Wausau data center ordinance under the same procedural review. Chair Gibbs noted the application had only one supervisor's signature, no second supervisor, and the clerk had not dated it. A Town of Wausau supervisor present at the meeting explained that one supervisor position is currently vacant due to a resignation and that the clerk's auto-signature was pre-approved by staff. The town representative expressed frustration with the statutory requirement that independent town ordinances go through the county, arguing that if towns bear full legal responsibility they should have full authority. Corp Counsel acknowledged the procedural anomaly and agreed with the sentiment but noted it is required by state law. Supervisor Shaneborn moved to approve; Supervisor Drebeck seconded. Motion carried, with at least one 'no' vote noted.\"\n    },\n    {\n      \"item\": \"6A1: Initial Conversation on Data Center Ordinance Development\",\n      \"body\": \"Shad Harvey opened a brainstorming discussion on what issues a future data center ordinance should address, noting the county is under a 12-month moratorium on data centers and has no comprehensive standards. Key concerns raised included accurate information on water and electricity use (Supervisor Brew cited conversation with an IT instructor who argued water use is far lower than perceived), indirect water use tied to energy generation (Supervisor Leur), zoning classification and scale thresholds such as distinguishing large-scale hyperscale facilities from school server rooms (Shad Harvey and Supervisor Drebeck), state authority versus local authority, cumulative impacts of stacked projects, noise, decommissioning, and backup generator emissions. Chair Robinson noted WCA has two model ordinances from the Tulsa law firm and suggested a data center notification ordinance to ensure county awareness of projects in incorporated municipalities. Supervisor Brew asked if there had been any data center inquiries; Garrett Pogle confirmed one developer inquiry approximately a year to a year and a half ago. The committee directed staff to continue research, seek independent expert speakers, and examine what other communities have done, with no ordinance drafting yet to occur.\"\n    },\n    {\n      \"item\": \"6A2: Strategic Plan Development Update\",\n      \"body\": \"Staff briefly reported that a public survey of the top 20 objectives from the comprehensive plan would be released in October, asking the public to rank their top 10 priorities to help narrow the strategic plan to 10 objectives. The survey will be published online. No vote was taken.\"\n    },\n    {\n      \"item\": \"Year-to-Date Budget Report\",\n      \"body\": \"Finance staff reported that the payroll benchmark for the period is 46.74%. All three departments — CPZ, Parks/Forestry/Recreation, and Solid Waste — are below that benchmark on expenditures. CPZ is at 59.5% of revenue budget and 35.27% of expenditure budget. Parks is at 53.79% of revenue and 30.9% of expenditure. Solid Waste is at 29.84% of revenue and 26.8% of expenditure, with low revenue figures attributed to use of fund balance transfer for new landfill cell construction. No concerns were flagged.\"\n    },\n    {\n      \"item\": \"Announcements\",\n      \"body\": \"Staff announced 2027 ERC meeting dates were included in the packet, a Wisconsin Saltwise smart salting event at Uncommon Pints in Rothschild on October 21 at 4 p.m., and a special county board meeting Thursday. County Administrator announced the 2027 proposed budget had been delivered to the county board and outlined the amendment and adoption timeline, including HR Finance and Property Committee action on October 12, a public hearing on November 2, and county board adoption on November 10.\"\n    }\n  ],\n  \"publicComment\": \"No public comment was offered during the designated public comment period. A Town of Wausau supervisor spoke during the agenda item on the Town of Wausau data center ordinance to explain the incomplete application signatures and to express frustration with the statutory requirement that independent town ordinances pass through the county board process.\",\n  \"actionItems\": [\n    \"Forward approval of eight rezoning petitions to the Marathon County Board of Supervisors for final action\",\n    \"Postpone Spencer Joint Revocable Trust rezoning petition (Town of McMillan) until town submits required resolution\",\n    \"Forward Cherokee Park land acquisition proposal to HR Finance and Property Committee for consideration; landowner to complete formal survey of wooded parcel if approved\",\n    \"Forward acceptance of donated pontoon boat to HR Finance and Property Committee\",\n    \"Staff to research data center ordinance issues including water use, electricity demand, noise, zoning classification by scale, state versus local authority, decommissioning, and cumulative impacts\",\n    \"Staff to seek independent expert speakers on data centers for future committee education\",\n    \"Staff to examine model ordinances from WCA/Tulsa law firm and data center notification ordinance concept\",\n    \"Public survey on top 20 comprehensive plan objectives to be released online in October\",\n    \"Committee members to submit budget amendments to administrator's office and HR Finance and Property Committee chair by October 9 if desired\"\n  ],\n  \"topics\": [\"Rezoning\", \"Data Centers\", \"Parks and Land Acquisition\", \"Budget\", \"Town Ordinances\"],\n  \"votes\": [\n    {\"item\": \"Approval of September 1, 2026 committee minutes\", \"motion\": null, \"mover\": \"Supervisor Shaneborn\", \"second\": \"Supervisor Brew\", \"outcome\": \"Approved\", \"tally\": \"Unanimous\"},\n    {\"item\": \"5A1: Rezoning White Knight Acres LLC, GA to RR, Town of Wayne\", \"motion\": \"Motion to approve the rezone based on findings of fact, conclusions of law, and town approval\", \"mover\": \"Supervisor D",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Meeting convened"
+      }
+    ],
+    "discussions": [],
+    "publicComment": "",
+    "actionItems": [],
+    "topics": [
+      "Zoning",
+      "Parks",
+      "Development",
+      "Data Center Ordinance"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bUPT--DJgAo",
+    "source": "marathon",
+    "title": "Human Resources Finance & Property Committee Meeting",
+    "date": "September 29, 2026",
+    "shortDate": "SEP 29",
+    "committee": "Marathon County Human Resources Finance & Property Committee",
+    "duration": "1h 32m",
+    "url": "https://www.youtube.com/watch?v=bUPT--DJgAo",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Human Resources Finance & Property Committee met to receive and formally accept the administrator's proposed 2027 annual budget and capital improvement funding plan. County Administrator Leonard presented a status-quo-in-services budget featuring a 1-cent reduction in the tax rate while the average property tax bill rises modestly due to equalized value growth; the committee unanimously accepted the budget, which now becomes the county board's document subject to amendment. Key features include a $3.5 million allocation from North Central Healthcare revenues toward a new highway shop, continued homelessness and childcare workforce funding, and significant capital investments after a scaled-back 2026 CIP year.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "0:40",
+        "item": "Establish quorum — four members in assembly room, Supervisor Jean participating remotely"
+      },
+      {
+        "time": "1:05",
+        "item": "Public comment — none offered"
+      },
+      {
+        "time": "1:15",
+        "item": "Approval of minutes from September 9th meeting"
+      },
+      {
+        "time": "2:10",
+        "item": "Presentation of administrator's proposed 2027 annual budget — overview by County Administrator Leonard"
+      },
+      {
+        "time": "35:00",
+        "item": "2027 Capital Improvement Project funding plan presentation by Deputy Administrator Holman"
+      },
+      {
+        "time": "55:00",
+        "item": "Department-by-department budget summary presented by Sam [last name inaudible]"
+      },
+      {
+        "time": "1:20:00",
+        "item": "Budget timeline and next steps overview by Chair Robinson"
+      },
+      {
+        "time": "1:28:00",
+        "item": "Motion to accept the administrator's proposed 2027 budget"
+      },
+      {
+        "time": "1:32:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of September 9th meeting minutes",
+        "body": "Supervisor N[inaudible] moved approval of the minutes; Chair Gibbs seconded. No discussion occurred. The motion carried on a voice vote with no opposition noted."
+      },
+      {
+        "item": "2027 Annual Budget presentation",
+        "body": "County Administrator Leonard presented a 2027 budget he described as 'status quo' in programs and services, with the tax rate dropping 1 cent to $3.48 per $1,000 of equalized value while the average county property tax bill rises approximately $52.58 to $936.92 due to equalized value growth of 6.25%. He highlighted continued funding for homelessness emergency shelter ($150,000), childcare workforce expansion ($50,000 reduced level), a minimum revenue guarantee for Central Wisconsin Airport ($150,000 tied to a $950,000 federal air service development grant requiring local match), and $100,000 for PC replacements. He emphasized the cornerstone of the budget is a funding plan for a new highway shop using $30 million in designated highway reserves and $3.5 million in North Central Healthcare revenues routed through the capital plan, avoiding new borrowing. He also noted one-step wage advancement and a 1% scale shift for employees, budgeted 8% health insurance increase against a 6.5% renewal rate, and no new levy-funded positions. Areas of risk flagged included health insurance costs, high-cost social services placements (one Level 5 treatment foster care placement alone can exceed $595,000/year), and competitive labor market pressures."
+      },
+      {
+        "item": "2027 Capital Improvement Project funding plan presentation",
+        "body": "Deputy Administrator Holman walked through the CIP funding plan, noting total traditional CIP projects of approximately $7.175 million plus $3.5 million for the highway facility and $7 million in bituminous resurfacing. Highlights included increased sheriff's office fleet funding of $595,424 to catch up on 2026 and implement 2027 replacements, new election tabulator equipment for the county clerk, library elevator modernization, courthouse annex roof replacement, LVP (Lake View Professional Plaza) underground piping and interior updates, air handler replacement design near the jail, and an Adele Olson-area parking lot paving project timed to coincide with nearby highway work. He noted approximately $1 million in tax levy and nearly $900,000 in sales tax fund the capital plan, with six TID closures generating roughly $700,000 in additional operating levy capacity redirected to capital."
+      },
+      {
+        "item": "Department-by-department budget summary",
+        "body": "Deputy Administrator Sam [last name inaudible] reviewed all county departments, noting notable changes including: the District Attorney's office restructured staffing to save roughly $20,000 while absorbing loss of discovery fee revenue from a state rate change; the Medical Examiner abolished the deputy chief medical examiner position; Social Services restructured rent calculations and indirect cost allocations; the Sheriff's office unfunded several positions and utilized jail assessment funds; North Central Healthcare submitted a flat levy request; and a new 'state special charges' budget line of just under $6,000 was established for civil mental health commitment proceedings in other counties. ADRC, CCITC, and Birth to Three were the only support agencies receiving funding increases."
+      },
+      {
+        "item": "Motion to accept the 2027 administrator's proposed budget",
+        "body": "Chair Robinson outlined the remaining budget calendar and invited questions. Vice Chair P[inaudible] moved to accept the budget; Chair Gibbs seconded. No substantive discussion was recorded before the vote. The motion carried unanimously on a voice vote. Chair Robinson asked supervisors to direct questions in advance of the October 7 committee meeting and noted outstanding items including the Rib Mountain deputy contract still being finalized."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Committee accepted the administrator's proposed 2027 annual budget and 2027 CIP funding plan, making it the county board's budget",
+      "Supervisors directed to submit proposed budget amendments by October 7 deadline for pre-publication consideration",
+      "Committee to meet October 7 for deeper budget review and amendment consideration",
+      "Committee to meet October 12 at 8:30 a.m. to authorize budget publication, freezing the document",
+      "Public hearing on the budget scheduled for November 2 at 6 p.m. before the full county board",
+      "Deadline for post-publication amendments set for November 6; committee to meet November 9 to consider and make recommendations",
+      "Budget adoption by full county board scheduled for November 10",
+      "Administrator Leonard asked to identify external policy impacts (e.g., public defender discovery fee decision) for potential legislative action",
+      "Chair Robinson asked for future discussion on cybersecurity risks including AI threats at next meeting"
+    ],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "Highway Facility",
+      "Capital Improvement Plan",
+      "Public Health and Homelessness"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 9th meeting minutes",
+        "motion": "Move approval",
+        "mover": "Supervisor N[inaudible]",
+        "second": "Chair Gibbs",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Accept the administrator's proposed 2027 annual budget and capital improvement funding plan",
+        "motion": "Move to accept the budget",
+        "mover": "Vice Chair P[inaudible]",
+        "second": "Chair Gibbs",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn",
+        "mover": "Chair Gibbs",
+        "second": "Supervisor N[inaudible]",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "UKTnU2uCCDw",
     "source": "wausau",
     "title": "Board of Public Works Meeting",
@@ -5564,199 +5717,6 @@
         "second": "Jason [last name inaudible]",
         "outcome": "Approved",
         "tally": "Unanimous voice vote"
-      }
-    ]
-  },
-  {
-    "id": "lybTn6YEszc",
-    "source": "marathon",
-    "title": "Extension, Education, and Economic Development Committee Meeting Pt.1",
-    "date": "September 3, 2026",
-    "shortDate": "SEP 3",
-    "committee": "Marathon County Extension, Education, and Economic Development Committee",
-    "duration": "1h 51m",
-    "url": "https://www.youtube.com/watch?v=lybTn6YEszc",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Extension, Education, and Economic Development Committee met to receive budget-related updates and presentations from several organizations seeking county support or providing program updates. Key discussions included a McDevco annual funding update, a presentation on the LifeWorks justice-involved workforce program from Advance Wisconsin seeking $25,000 in annual county funding, a WEDC talent recruitment grant update from the Greater Wausau Prosperity Partnership, and multiple presentations on proposals for the future of the UWSP Marathon County campus, with the committee directing staff to evaluate legal authority and feasibility for several initiatives.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and Pledge of Allegiance"
-      },
-      {
-        "time": "0:30",
-        "item": "Public comment deferred to later in meeting"
-      },
-      {
-        "time": "1:00",
-        "item": "Approval of August 6th, 2026 joint committee meeting minutes"
-      },
-      {
-        "time": "1:45",
-        "item": "5A1: 2027 annual budget development and policy recommendations, including McDevco annual update presentation by Kim Weber"
-      },
-      {
-        "time": "20:30",
-        "item": "5A6 (taken out of order): LifeWorks program presentation from Advance Wisconsin and consideration of potential county engagement"
-      },
-      {
-        "time": "44:30",
-        "item": "6A: Greater Wausau Prosperity Partnership update on WEDC Talent Recruitment Grant"
-      },
-      {
-        "time": "1:05:30",
-        "item": "6B: UW Extension monthly report"
-      },
-      {
-        "time": "1:09:30",
-        "item": "6C: UWSP Wausau report"
-      },
-      {
-        "time": "1:13:30",
-        "item": "6D: Year-to-date budget reports"
-      },
-      {
-        "time": "1:15:30",
-        "item": "5A2 & 5A3: RFP proposals for UWSP Marathon County campus — City of Wausau proposal and Wisconsin Ice Volleyball Club proposal"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of August 6th, 2026 joint committee meeting minutes",
-        "body": "Chair Morash called for a motion and second, which were obtained without named movers or seconders identified in the transcript. There was brief clarifying exchange before a voice vote was taken. The minutes were approved without opposition."
-      },
-      {
-        "item": "McDevco Annual Update — 2027 Budget Development",
-        "body": "Kim Weber, executive director of McDevco, presented on McDevco's three pillars: educate, incubate, and finance. She reported the Wausau Business Incubator is now 93% full (up from 61% post-COVID), with manufacturing at 100% capacity. She noted McDevco has deployed the full $1 million in Marathon County revolving loan funds, with lending approaching $1 million in 2024. McDevco receives $40,000 annually from Marathon County for educational programming. A supervisor asked about agricultural loan demand; Weber said most farm-related activity involves septic system loans rather than business expansion loans. Another supervisor asked about the microloan default rate; Weber reported approximately 0.12%. The administrator indicated the plan absent contrary direction is to continue funding McDevco in 2027 at prior levels."
-      },
-      {
-        "item": "LifeWorks Program — Advance Wisconsin Employment (taken out of order)",
-        "body": "Brian Kish, executive director of Advance Wisconsin Employment, and Amy Hopa, program operations manager, presented the LifeWorks pilot program targeting justice-involved individuals for manufacturing workforce placement. The pilot cohort of six referrals saw three participants successfully complete three weeks of training including move-to-manufacturing skills at NTC, with employer tours and guaranteed interviews scheduled at Wausau Tile, Green Heck, Crystal Finishing, and Schooty Metals. Kish requested $25,000 annually from the county to fund quarterly cohorts at approximately $12,000 each. Committee members raised questions about legal authority to fund such a program, KPI reporting requirements, whether funding could be structured as a match with participating manufacturers, and whether the program was regional or Marathon County-specific (Kish confirmed funds would be designated for Marathon County). Corporation Counsel Desmond cautioned that statutory restrictions may limit the county's legal authority to fund the program. Administrator Leonard referenced a prior committee allocation process and suggested re-establishing a competitive application process. The committee directed staff to evaluate legal authority, feasibility, and potential KPI and match structures and report back."
-      },
-      {
-        "item": "Greater Wausau Prosperity Partnership — WEDC Talent Recruitment Grant Update",
-        "body": "Renee Kings, senior director of GWPP, reported that GWPP was selected as one of 17 recipients of a WEDC talent recruitment grant, receiving $500,000 — the largest award tied with one other community — out of a statewide $5 million investment. The program aims to recruit 30 out-of-state households to the greater Wausau region by providing a $10,000 relocation grant, personalized relocation support, and community integration services. Eligibility requires residing outside Wisconsin at application, combined household income of at least $55,000, and relocation within six months of acceptance. A supervisor asked about recapture provisions if the 24-month residency commitment is not met; Kings confirmed there is no financial recapture provision but that quarterly check-ins and employer reporting are planned. The program website was previewed and is set to launch the following week."
-      },
-      {
-        "item": "UW Extension Monthly Report",
-        "body": "Jen (last name not stated) provided monthly reports for June, July, and August. Highlights included a successful county fair, a youth summer theater camp with over 40 enrollees, and the conclusion of three AmeriCorps staff terms with one returning. She noted UW Extension expert Bill McKen has been providing information on joint development agreements to a local work group and that a community resilience workshop on green infrastructure was held that day with staff from Marathon, Portage, Waupaca, and Wood counties. No questions or concerns were raised by committee members."
-      },
-      {
-        "item": "UWSP Wausau Report",
-        "body": "Miranda (last name not stated) reported that UWSP Wausau held its first day of classes at the new NTC location, with students successfully finding the new site. UWSP signage has been removed from the Marathon County campus to avoid student confusion, except at the Center for Civic Engagement which continues programming. Enrollment is slightly down as expected during the transition, with official 10th-day figures to be presented at the October meeting. Miranda noted ongoing coordination with the county on items to be left behind for future occupants."
-      },
-      {
-        "item": "Year-to-Date Budget Reports",
-        "body": "Sam (last name not stated) reported no concerns in either the library or UW Extension budgets. The library is at 93.1% of non-levy revenue budget and under its payroll benchmark, with overall expenditures at 43.2% of budget. UW Extension expenditures are anticipated to come in below budget due to a vacancy, with a corresponding reduction in donations revenue. A coding discrepancy in the professional services line was noted as a budget transfer issue with no fiscal concern."
-      },
-      {
-        "item": "RFP Proposals for UWSP Marathon County Campus — City of Wausau Proposal",
-        "body": "Randy Fifick, representing the City of Wausau, presented the city's proposal requesting a six-month due diligence and planning option before committing to acquisition. He noted that a budget modification to fund architectural, engineering, and environmental studies was delayed due to a lack of quorum at the August council meeting and would be introduced at the next meeting. Supervisor Robinson asked whether the proposal was divisible (specifically regarding the dormitory demolition), whether the city could provide an early exit clause if feasibility is determined sooner than six months, and whether the city would cover holding costs during the study period. Fifick indicated all items are negotiable but noted that industry practice would have the existing property owner (the county) bear holding costs, drawing a pointed response about the county's fiscal constraints. Committee members also raised questions about parking allocation and the central heating plant operation relative to multiple potential tenants."
-      },
-      {
-        "item": "RFP Proposals — Wisconsin Ice Volleyball Club and Other Proposals",
-        "body": "Zod Davis, representing Wisconsin Ice Volleyball Club, joined by phone and proposed either purchasing three buildings for $5 each ($15 total) or leasing all three buildings and parking lots for $540 annually for a minimum of five years, with the club covering utilities and snow removal. Davis emphasized the fieldhouse meets all their needs for a nine-month-per-year program drawing players from a wide regional area. Chris (staff, last name not stated) summarized the Lone Wolf Works proposal for the central heating plant, which proposed a $75,000 purchase for conversion to a small automotive restoration and custom fabrication business, with no external financing required. Staff noted CVA could not attend but would present at the HR Finance and Property Committee meeting the following week. The proposals were noted as not scored in a traditional RFP sense per county board direction, but evaluated against criteria established in the RFP document."
-      }
-    ],
-    "publicComment": "No public comment was offered at this meeting. The chair indicated public comment would be taken later during the RFP discussion, but no public comment was recorded in the transcript.",
-    "actionItems": [
-      "Staff directed to evaluate legal authority under Wisconsin statutes for county funding of the LifeWorks justice-involved workforce program and report back to committee",
-      "Staff directed to assess potential KPI requirements, match funding structures with manufacturers, and a competitive grant application process framework for any future workforce program funding",
-      "City of Wausau to introduce budget modification for campus due diligence studies at next city council meeting",
-      "City of Wausau to consider including early-exit clause in due diligence option agreement if feasibility is determined before six months",
-      "CVA to present their campus proposal at the HR Finance and Property Committee meeting the following week",
-      "UWSP Wausau to present official 10th-day enrollment figures at the October committee meeting",
-      "Administrator Leonard to continue 2027 budget development with planned continuation of McDevco funding at prior levels absent contrary direction from committee",
-      "GWPP talent recruitment program to begin accepting applications the week following the meeting"
-    ],
-    "topics": [
-      "Workforce Development",
-      "Economic Development",
-      "UWSP Campus Redevelopment",
-      "Budget",
-      "Nonprofit Funding"
-    ],
-    "votes": [
-      {
-        "item": "Approval of August 6th, 2026 joint Extension Education and Economic Development Committee and Human Resource and Finance Committee meeting minutes",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "A-ZOJ9eo6XI",
-    "source": "marathon",
-    "title": "Extension, Education, and Economic Development Committee Meeting Pt.2",
-    "date": "September 3, 2026",
-    "shortDate": "SEP 3",
-    "committee": "Marathon County Extension, Education, and Economic Development Committee",
-    "duration": "2m",
-    "url": "https://www.youtube.com/watch?v=A-ZOJ9eo6XI",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "This brief portion of the Marathon County Extension, Education, and Economic Development Committee meeting returned from closed session and focused on scheduling a joint meeting with HR, Finance, and Property committees. The committee confirmed a joint meeting for September 9th at 3:00 p.m. to continue discussions on an unspecified matter decided in closed session, then adjourned.",
-    "agenda": [
-      {
-        "time": "0:28",
-        "item": "Return to open session and announcement of joint meeting"
-      },
-      {
-        "time": "0:28",
-        "item": "Quorum confirmation for September 9th joint meeting with HR, Finance, and Property"
-      },
-      {
-        "time": "0:28",
-        "item": "Next meeting date and time announcements — September 9th and October 1st"
-      },
-      {
-        "time": "0:28",
-        "item": "Future agenda items — STRAP plan for October 1st meeting"
-      },
-      {
-        "time": "0:28",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Joint Meeting Scheduling with HR, Finance, and Property",
-        "body": "Upon returning from closed session, the presiding official announced a joint meeting with HR, Finance, and Property committees scheduled for Wednesday, September 9th at 3:00 p.m. to continue discussions and determine how to move forward on the matter addressed in closed session. Committee members online, including Supervisor Foot, confirmed their availability to attend and meet quorum requirements."
-      },
-      {
-        "item": "Future Agenda Items",
-        "body": "The presiding official announced that the October 1st meeting would include the STRAP plan on the agenda, and encouraged committee members to review it ahead of time to be prepared for discussion."
-      },
-      {
-        "item": "Adjournment",
-        "body": "A motion to adjourn was made by Seefeldt and seconded by Lammer. The motion passed on a voice vote with all members saying 'I.'"
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Joint meeting with HR, Finance, and Property committees to be held September 9th at 3:00 p.m. to continue closed-session discussions and determine next steps",
-      "Committee members asked to review the STRAP plan ahead of the October 1st meeting"
-    ],
-    "topics": [
-      "Economic Development",
-      "Joint Committee Meeting",
-      "STRAP Plan",
-      "Scheduling"
-    ],
-    "votes": [
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Seefeldt",
-        "second": "Lammer",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
