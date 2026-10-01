@@ -2357,6 +2357,17 @@
       "video_url": null,
       "processed_at": "2026-09-30T14:57:51.098274+00:00",
       "summary_file": "summaries/marathon-marathon-county-environmental-resources-committee-meeting-nssfoe-ewha.md"
+    },
+    "won1HJVxsM4": {
+      "title": "Marathon County Health and Human Services Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20260930",
+      "meeting_date": "20260930",
+      "duration": 1595,
+      "video_url": null,
+      "processed_at": "2026-10-01T15:27:57.602222+00:00",
+      "summary_file": "summaries/marathon-marathon-county-health-and-human-services-committee-meeting-won1hjvxsm4.md"
     }
   }
 }
