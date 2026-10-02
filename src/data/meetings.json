@@ -1,5 +1,108 @@
 [
   {
+    "id": "BHzFs3uCrl8",
+    "source": "marathon",
+    "title": "Board Special Meeting",
+    "date": "October 1, 2026",
+    "shortDate": "OCT 1",
+    "committee": "County Board",
+    "duration": "50m",
+    "url": "https://www.youtube.com/watch?v=BHzFs3uCrl8",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Board held a special meeting on October 1, 2026 to consider Resolution 55-26, directing Alliant Energy to submit a draft proposal addressing community concerns about the Hub City Wind Project by November 1st. The resolution passed, though not unanimously, signaling the board's intent to assess Alliant's willingness to negotiate without formally committing to a joint developer agreement. The meeting also included announcements about the county's upcoming budget process and a public strategic plan survey.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Pledge of Allegiance and moment of reflection"
+      },
+      {
+        "time": "1:10",
+        "item": "Reading of the meeting notice"
+      },
+      {
+        "time": "2:05",
+        "item": "Roll call and quorum confirmation"
+      },
+      {
+        "time": "3:20",
+        "item": "Public comment (Item 7)"
+      },
+      {
+        "time": "3:45",
+        "item": "Item 8B: Executive Committee resolution 55-26 — County Board engagement with Alliant Energy relative to the Hub City Wind Project"
+      },
+      {
+        "time": "5:00",
+        "item": "Staff presentation: pros and cons of JDA, intervention, moratorium, and PSC appeal options"
+      },
+      {
+        "time": "20:00",
+        "item": "Supervisor discussion and debate on Resolution 55-26"
+      },
+      {
+        "time": "55:00",
+        "item": "Vote on Resolution 55-26"
+      },
+      {
+        "time": "57:00",
+        "item": "Announcements: expense reporting update, strategic plan public survey, budget process timeline"
+      },
+      {
+        "time": "1:02:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Staff presentation: Options for county engagement with Alliant Energy",
+        "body": "County Administrator Lori McSkimmons presented a table of four options for the board: (1) negotiating a Joint Developer Agreement (JDA), estimated cost up to $20,000; (2) intervening in the PSC permitting process, estimated $75,000–$200,000+; (3) adopting a moratorium, cost unknown and noted as likely unenforceable on a 100-megawatt project; and (4) appealing the PSC's decision after issuance, estimated $20,000–$50,000. She noted PSC staff confirmed no intervention has ever stopped a project and that Columbia County's similar moratorium effort was sent back to committee. She emphasized options are not mutually exclusive and that the county could not file for intervention until after Alliant submits its formal PSC application, which could come as early as mid-December 2026."
+      },
+      {
+        "item": "Resolution 55-26 — Hub City Wind Project engagement with Alliant Energy",
+        "body": "Supervisor Robinson, who authored the resolution and chaired the alternative energy advisory committee, explained it does not commit the county to a JDA but rather asks Alliant Energy to submit a draft proposal addressing community concerns by November 1st, after which the board would evaluate next steps. Supervisor Dickinson expressed strong opposition, stating he would not vote for anything that moved toward a JDA and questioned whether Alliant would engage in good faith. Supervisor Leur raised concerns that the resolution puts the county in a reactive position and called for an energy summit to address broader regional energy policy. Supervisor Ritter, Supervisor Nath, Supervisor Rosenberg, and Supervisor Robinson defended the resolution as a proactive first step to gauge Alliant's willingness to address constituents' concerns on issues including decommissioning, setbacks, emergency response, property values, and health impacts. The resolution passed but was noted by Chair Gibbs as not unanimous."
+      },
+      {
+        "item": "Announcements: Budget process and strategic plan survey",
+        "body": "Supervisor Robinson announced that the county administrator's proposed budget was accepted by the Human Resources Finance Property Committee and is now the county board's budget. Key dates include: amendment submissions by October 9th, committee authorization for publication on October 12th, a public hearing on November 2nd at 3:00 p.m., and full board budget adoption on November 10th. Chair Gibbs noted the public hearing was moved to 3:00 p.m. on November 2nd to avoid conflicts with Election Day on November 3rd. McSkimmons announced that a public survey on the county's strategic plan — narrowing 20 objectives down to 10 priorities — would open October 2nd and run through October 23rd."
+      }
+    ],
+    "publicComment": "No public comment was offered. Chair Gibbs noted no one had signed up for public comment.",
+    "actionItems": [
+      "Resolution 55-26 approved: staff to transmit the board's request to Alliant Energy for a draft proposal addressing community concerns by November 1, 2026",
+      "Upon receipt of Alliant Energy's proposal, staff to schedule a properly noticed county board meeting to review it and simultaneously transmit the proposal to governing bodies of affected towns",
+      "Chair Gibbs to work with CCIT to send supervisors guidance on updated expense/mileage reporting link in Workday for Q3",
+      "Public strategic plan survey to open October 2nd and run through October 23rd; supervisors encouraged to share with constituents",
+      "Supervisors directed to submit any budget amendments by October 9th; public hearing scheduled November 2nd at 3:00 p.m.; budget adoption set for November 10th"
+    ],
+    "topics": [
+      "Wind Energy",
+      "Joint Developer Agreement",
+      "Hub City Wind Project",
+      "Budget",
+      "PSC Intervention"
+    ],
+    "votes": [
+      {
+        "item": "Resolution 55-26 — directing Alliant Energy to submit a draft proposal addressing community concerns about the Hub City Wind Project by November 1, 2026",
+        "motion": "Motion to approve Resolution 55-26",
+        "mover": "Supervisor Robinson",
+        "second": "Supervisor Morash",
+        "outcome": "Approved",
+        "tally": "Not stated; noted as not unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Supervisor Rosenberg",
+        "second": "Supervisor Sefeld",
+        "outcome": "Approved",
+        "tally": "Voice vote, unanimous"
+      }
+    ]
+  },
+  {
     "id": "IzLefrJhtQo",
     "source": "marathon",
     "title": "Infrastructure Committee Meeting",
@@ -5668,139 +5771,6 @@
         "motion": "Motion to approve reclassification retroactive to July 6 start date",
         "mover": "Hooshang Zeyghami (approximate — 'Hushin' in transcript)",
         "second": "Barbara Ermeling (approximate — 'Barb' in transcript)",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "-_SwyOdDQfs",
-    "source": "weston",
-    "title": "Community Life & Public Safety",
-    "date": "September 8, 2026",
-    "shortDate": "SEP 8",
-    "committee": "Community Life & Public Safety",
-    "duration": "1h 3m",
-    "url": "https://www.youtube.com/watch?v=-_SwyOdDQfs",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09082026-1963",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Community Life & Public Safety Committee met on September 8th to address overnight parking regulations for winter snow removal, animal fancier license standards, and code enforcement updates. The committee approved a recommendation to the village board to modify the winter overnight parking ordinance, adding alternating-day parking restrictions on six high-density streets from October 31st to May 1st. The animal fancier license size standards discussion was tabled pending input from a humane officer at the next meeting.",
-    "agenda": [
-      {
-        "time": "0:01",
-        "item": "Call to Order, Pledge of Allegiance, and Roll Call"
-      },
-      {
-        "time": "1:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "4:20",
-        "item": "Approval of Minutes from August 3, 2026 Meeting"
-      },
-      {
-        "time": "4:50",
-        "item": "Item 5: Code Enforcement Update"
-      },
-      {
-        "time": "9:30",
-        "item": "Items 6 & 7: Police and Fire Department Monthly Reports"
-      },
-      {
-        "time": "14:45",
-        "item": "Item 8: Discussion and/or Action on Section 82.107 Overnight Parking Regulations (October 31 to May 1)"
-      },
-      {
-        "time": "36:00",
-        "item": "Item 9: Discussion and/or Action on Section 10-123 Animal Fancier License Approval Standards Regarding Size and Configuration Requirements"
-      },
-      {
-        "time": "49:30",
-        "item": "Unfinished Business: Code Enforcement Follow-up on 1706 Newport Avenue (Homework Report)"
-      },
-      {
-        "time": "1:02:30",
-        "item": "Announcements and Next Meeting Date"
-      },
-      {
-        "time": "1:03:10",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Jim Pinsenalt of PC Street West addressed the committee with two concerns. First, he expressed alarm that code enforcement cases are rising while the village board was simultaneously considering reducing building hours and granting additional paid holidays to staff, questioning how existing cases could be handled under those conditions. Second, he argued that the animal fancier license ordinance lacks specific standards for dogs and other animals, noting that guidelines exist for chickens but not for dogs or cats, and called for defined minimums for space, food, water, shelter, and outdoor exercise areas to enable fact-based rather than feelings-based decisions."
-      },
-      {
-        "item": "Code Enforcement Update",
-        "body": "Staff noted that the increase in August code enforcement cases was largely attributable to grass complaints following the end of a drought period. The committee discussed the ongoing situation at 4020 Scoffield Avenue, with staff reporting that Lock Reinvestments had been in contact and was preparing new plans for dumpster enclosures for the entire property; once approved by staff and their hauler Harters, permits would be entered into the system at no charge and work was expected to be completed that fall. Staff also raised the ongoing issue of violation notice letters taking up to 10 days to reach residents, exceeding the required response windows, and noted that staff was working to address this through email outreach and planned ordinance review during the slower winter months."
-      },
-      {
-        "item": "Police and Fire Department Monthly Reports",
-        "body": "Police Chief Hunt reported that calls for service stood at approximately 2,367, with traffic citations at 311 and traffic stops at 437, describing numbers as consistent and stable. He noted that citations would increase slightly with school back in session, and that traffic crashes were up slightly to 60. The chief also reported that skate park calls for service had been down compared to prior years, attributed informally to the prevalence of e-scooters and e-bikes, and that e-moto enforcement had resulted in at least one tow and citations with cooperative parents. A question was raised about the 'other' category in the fire response report, which could not be answered and was flagged for follow-up at the next SAFER board meeting."
-      },
-      {
-        "item": "Overnight Parking Regulations (Section 82.107)",
-        "body": "Staff member Michael presented a revised proposal to reduce the number of streets with alternating-day parking restrictions from over a dozen to six high-density locations, primarily near apartment complexes like Foxrun, where snow plows have historically been unable to pass due to cars parked on both sides. After extensive discussion, the committee agreed on a uniform 2:00 a.m. to 7:00 a.m. no-parking restriction on all village streets to align with neighboring municipalities, plus alternating-day restrictions (Monday/Wednesday/Friday/Sunday on one side, Tuesday/Thursday/Saturday on the other) on the six listed streets from 7:00 a.m. to 4:00 p.m. The police chief expressed a preference for overnight enforcement as officers are less busy then, and noted tickets are approximately $10. A committee member also requested that ordinance language be added to formalize the process by which streets are added to the restricted list, requiring justification and committee/board approval. A motion was made and passed to recommend these changes to the village board, including sign cost estimated at just over $2,000."
-      },
-      {
-        "item": "Animal Fancier License Size and Configuration Requirements (Section 10-123)",
-        "body": "Trustee Brent raised this item following a recent animal fancier permit denial by the village board, where a lack of specific size standards in the ordinance created difficulty in the decision-making process. Chief Hunt strongly advised against adding detailed size requirements, arguing the ordinance's current subjectivity allows humane officers to use professional judgment, and that setting explicit standards could invite more applications and reduce enforcement flexibility. He noted 18 calls for service at the property in question from May through August. Staff noted that the humane officers receive specialized training through UW-Madison's veterinary school. The committee agreed to table the ordinance amendment discussion and invite one or more humane officers to a future meeting to provide education on what standards they apply, before deciding whether changes are needed."
-      },
-      {
-        "item": "Code Enforcement Follow-up: 1706 Newport Avenue",
-        "body": "A committee member reported homework assigned at the prior meeting regarding citations issued at 1706 Newport Avenue, a chronic nuisance/hoarding property. Citations totaling $4,145 were issued to one resident (with $1,300 remaining delinquent) and $2,656 to another (with $969 remaining delinquent), across 38 citations dating back to 2022. Staff noted 47 total cases at that address going back to 2008, and that staff invested 15–18 hours on the most recent case alone. The property has been cleaned up three times through non-summary abatement, with costs including dumpster rental billed to the property and subject to tax intercept if unpaid. Staff noted that administrative fees were added to bills this cycle for the first time to begin recouping staff time costs, and discussed the contrast with cities like Oshkosh that charge $50 per enforcement letter sent."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Jim Pinsenalt of PC Street West. He raised two issues: (1) concern that rising code enforcement cases were incompatible with a proposal before the board to reduce building hours and add paid holidays for staff, and (2) a call for the committee to establish defined size, sanitation, food, water, and outdoor exercise standards for the animal fancier license ordinance, noting that standards exist for chickens but not for dogs or other animals.",
-    "actionItems": [
-      "Recommend to the village board adoption of amended overnight parking ordinance: uniform 2:00 a.m. to 7:00 a.m. no-parking on all village streets, plus alternating-day restrictions (Monday/Wednesday/Friday/Sunday and Tuesday/Thursday/Saturday) on six identified high-density streets from 7:00 a.m. to 4:00 p.m., effective October 31 to May 1",
-      "Add ordinance language formalizing the process and criteria for adding streets to the alternating-day parking restriction list, requiring justification and committee/board approval",
-      "Invite one or more village humane officers to next committee meeting to provide education on training and standards used in animal fancier license evaluations before any ordinance amendments are considered",
-      "Place 4020 Scoffield Avenue dumpster enclosure permit status on the October meeting agenda for follow-up",
-      "Staff to review all code sections and ordinance time frames for violation notices to address the 10-day delivery problem, including items requiring plan commission public hearings, to be addressed during the slower winter months",
-      "Follow up on the 'other' category in the fire response report at the next SAFER board meeting",
-      "Next meeting scheduled for Monday, October 26, at 5:00 p.m. (immediately following Parks Committee at 4:00 p.m.)"
-    ],
-    "topics": [
-      "Code Enforcement",
-      "Public Safety",
-      "Parking Regulations",
-      "Animal Fancier License",
-      "Winter Snow Removal"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from August 3, 2026 meeting",
-        "motion": null,
-        "mover": "Stephanie [last name inaudible]",
-        "second": "[inaudible] Shimona/Sherwanka",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge department reports (Items 5, 6, and 7: Code Enforcement, Police, Fire)",
-        "motion": null,
-        "mover": "Brett [last name inaudible]",
-        "second": "[inaudible] Sherwanka",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Recommend to village board amendment of Section 82.107 overnight parking ordinance with alternating-day restrictions on six streets, uniform 2 a.m. to 7 a.m. restriction village-wide, Monday/Wednesday/Friday/Sunday and Tuesday/Thursday/Saturday sign format, and added ordinance language for street designation criteria",
-        "motion": "Motion to recommend to the village board changing the overnight parking ordinance to no overnight parking between 2:00 a.m. and 7:00 a.m. on all village streets, with alternating-day parking restrictions on the six streets listed in the packet, with signs reading Monday/Wednesday/Friday/Sunday and Tuesday/Thursday/Saturday, effective October 31 to May 1, and adding ordinance language formalizing the process for designating streets",
-        "mover": "Brett [last name inaudible]",
-        "second": "[inaudible]",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "So moved",
-        "mover": "Daniels [first name inaudible]",
-        "second": "Shimona [last name inaudible]",
         "outcome": "Approved",
         "tally": null
       }

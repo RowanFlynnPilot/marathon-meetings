@@ -2379,6 +2379,17 @@
       "video_url": null,
       "processed_at": "2026-10-02T05:36:06.669537+00:00",
       "summary_file": "summaries/marathon-marathon-county-infrastructure-committee-meeting-izlefrjhtqo.md"
+    },
+    "BHzFs3uCrl8": {
+      "title": "Marathon County Board Special Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261001",
+      "meeting_date": "20261001",
+      "duration": 3038,
+      "video_url": null,
+      "processed_at": "2026-10-02T14:45:14.323195+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-special-meeting-bhzfs3ucrl8.md"
     }
   }
 }
