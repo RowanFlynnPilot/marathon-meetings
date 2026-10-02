@@ -3,39 +3,52 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf  
-**Summarized:** 2026-09-28 05:22 UTC
+**Summarized:** 2026-10-02 05:37 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Board was scheduled to address financial reports, licensing matters, and significant planning items including a subdivision preliminary plat and text amendments regarding zero lot line structures. The meeting was also set to preview the 2027 budget and review the 2027-2036 Capital Improvements Program.
+The Kronenwetter Village Board held its September 28, 2026 meeting, approving the Green Tree Trails subdivision preliminary plan (60+ one-acre lots with private wells and septic) unanimously after significant public comment and board discussion, and also approved a zoning text amendment allowing zero-lot-line (twin home) structures. The board received extensive budget previews including a $56,000 increase in state transportation aid for 2027, a proposed $39/year garbage fee increase driven by diesel fuel surcharges, and a 10-year Capital Improvement Plan with two 2027 borrowing projects: Maple Ridge Road and Bushna Park improvements.
 
 ## Key Discussions
-### Operator Bartender License - Michelle Gee
-The Village Board was scheduled to consider and possibly act on an operator bartender license application for Michelle Gee. This item was listed under the consent agenda, allowing for discussion and possible action.
+### Public Comment - Green Tree Trails Subdivision
+Three residents spoke during public comment. Guy Friedel of Ruby Drive argued the village should pursue smaller lots with municipal sewer and water to double the tax base, suggesting referral to the utilities and APC committees and the use of special assessments. Marie Kramer of Highway 153 questioned the wisdom of private wells and septic given groundwater concerns and proximity to existing sewer service, saying 'we're walking backwards.' Joanne Mansel of Pine Road asked about minimum lot size and frontage requirements and stated she disagrees with more density, saying 'I think 60 homes is plenty' and that one-acre lots would be appropriate for the area.
 
-### August 2026 Check Register, ACH Register, and Credit Card Transactions Activity
-The Board was set to review financial transaction records from August 2026, including checks, automated clearing house transactions, and credit card activity. This item was scheduled under the consent agenda for discussion and possible action.
+### Administrator Report
+Administrator Jim Dabel announced the new Village Clerk will start October 19 and will be introduced at that time, noting strong experienced applicants. He reported FedEx ground-breaking is expected by mid-to-late November, which is significant for TID 1 revenues. He also praised DPW staff for site preparation work behind the municipal building, saving significant money, and noted budget materials in the packet are a precursor to the 2027 budget process.
 
-### Green Tree Trails Subdivision Preliminary Plat
-The Village Board was scheduled to discuss and consider action on the preliminary plat for the Green Tree Trails subdivision. This development item was set for review under new business.
+### DPW Report - Green Acres Road School Bus Turnaround
+DPW Director Greg [last name inaudible] reported that a resident's concern about school buses not being able to turn around on Green Acres Road is being investigated; the existing turnaround used by plow and garbage trucks was found too small for school buses. He is coordinating with the school district and bus company to evaluate options, including a possible hammerhead turnaround, but noted the village does not control the bus company contract. Trustee Solheim asked for an update by the next meeting. The director also reported that the new employee parking garage is on track, with permits approved and concrete work expected to begin within a week and a half.
 
-### Text Amendment of Chapter 520 of the General Code of Ordinances: Zero Lot Line Structures
-The Board was expected to consider a text amendment to the village ordinances regarding zero lot line structures. This zoning code modification was scheduled for discussion and possible action.
+### Finance Director Report - Per-Capita Spending Comparisons
+Finance Director John Jacobs presented a detailed comparison of Kronenwetter against nine other north-central Wisconsin communities using 2024 state data. Key findings: Kronenwetter is near the bottom for per-capita spending on streets ($147/person), fire ($47/person), and police ($163/person); property taxes are the lowest at $317/person but 84% comes from residential versus 60-70% for peer communities. Jacobs emphasized the need for commercial and manufacturing diversification, noting TID 1 and TID 2 as critical tools, and that the FedEx distribution center could stop the $100,000-$120,000 annual general fund bleeding into TID 1.
 
-### 2027 Budget Preview
-The Village Board was set to review a preview of the 2027 budget, including state aids listings, proposed refuse and recycling fee changes, and the debt service fund tax levy. This comprehensive budget discussion was scheduled to provide direction for the upcoming fiscal year.
+### Green Tree Trails Subdivision Preliminary Plan
+Community Development Director Nathan Sandwick presented the preliminary plan for approximately 60+ one-acre lots with private wells and septic systems, noting unanimous planning commission approval in June. Board discussion focused on the history of the property (turned down nine times under previous developer), the decision not to extend municipal sewer and water due to costs over $1.6 million, and the compromise of one-acre lots meeting septic minimums. Concerns were raised about traffic on Nick Avenue, which will be gated as emergency access only. Trustee Mishka moved to approve, seconded by Trustee Coyle; the motion passed 7-0.
 
-### 2027-2036 Capital Improvements Program Budget - 2nd Draft
-The Board was expected to review the second draft of the ten-year capital improvements program with a specific focus on funding sources. This long-range planning document was scheduled for discussion and possible action.
+### Text Amendment Chapter 520 - Zero Lot Line Structures
+Sandwick presented a zoning ordinance amendment to allow twin homes (zero-lot-line structures) where duplexes are currently permitted on 20,000 square foot parcels, enabling each half to be individually owned. Trustee Lesniak moved to approve, seconded by Trustee Stowell. No notable debate was recorded; the amendment passed 7-0 on a roll call vote.
+
+### Budget Preview - Garbage Fees and Debt
+Jacobs reported a $56,000 increase in state transportation aid for the 2027 budget. On garbage fees, he presented scenarios driven by diesel fuel surcharges in the Harder's contract; with diesel exceeding $6.50/gallon, the village faces a $57,000 shortfall in 2026. The planning figure recommended by APC of $6.25/gallon would raise household garbage fees from $228 to approximately $267.24 per year (a $39 increase). Administrator Dabel recommended using $6.25 as the planning factor for the budget while monitoring prices. Jacobs also outlined a debt restructuring plan to shift $863,000 in unused TID 2 bond proceeds to the capital project fund, reducing TID 2 debt and freeing resources, with the tax levy absorbing a small $12,000 increase in annual debt service.
+
+### 10-Year Capital Improvement Plan (CIP) - 2027 Projects
+Jacobs presented the second review of the 10-year CIP, emphasizing only 43% of the $30 million plan relies on general obligation borrowing. For 2027, two borrowing projects are proposed: Maple Ridge Road (total ~$2.9M, with $1.2M already on hand reducing new borrowing to ~$1.7M) and Bushna Park improvements (~$25,000 from the park fund plus borrowed remainder). Board discussion touched on building security upgrades including key fob access (~$100,000 estimate) and cameras, audio-visual improvements to the meeting room, and the need for a long-range plan for municipal center maintenance. Jacobs noted the plan is a fluid document to be reviewed annually.
 
 ## Public Comment
-Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with potential extension at the Chief Presiding Officer's discretion.
+Three residents spoke. Guy Friedel (2240 Ruby Drive) argued the village should pursue municipal sewer and water for Green Tree Trails to allow smaller lots and double the tax base, recommending referral to utilities and APC committees and use of special assessments. Marie Kramer (2150 E. State Highway 153) raised groundwater concerns about private wells and septic systems adjacent to existing sewer service, questioning why the village would not connect to existing infrastructure. Joanne Mansel (2954 Pine Road) asked clarifying questions about minimum lot sizes and frontage requirements, noting regulations appeared to have changed since she built 27 years ago, and stated she preferred one-acre lots and opposed higher density, saying 'I think 60 homes is plenty.'
 
 ## Action Items
-- Scheduled to vote on operator bartender license for Michelle Gee
-- Expected to consider approval of August 2026 check register, ACH register, and credit card transactions
-- Scheduled to consider and possibly act on Green Tree Trails Subdivision Preliminary Plat
-- Expected to consider text amendment to Chapter 520 regarding zero lot line structures
-- Scheduled to preview and discuss 2027 budget components including state aids, refuse/recycling fees, and debt service fund tax levy
-- Expected to review second draft of 2027-2036 Capital Improvements Program with focus on funding sources
+- Green Tree Trails subdivision preliminary plan approved; developer agreement to be finalized including emergency-only gated Nick Avenue access, stormwater pond easement between lots 14 and 15, and street lighting provisions; final plat to return possibly as early as late October
+- Zero lot line structure ordinance amendment to be codified in Chapter 520
+- New Village Clerk to begin October 19
+- DPW to coordinate with school district and bus company on Green Acres Road turnaround and report back by next meeting
+- New employee parking garage foundation work to begin within approximately 10 days
+- Finance Director to proceed with $863,000 debt transfer from TID 2 to capital project fund by end of 2026
+- Budget to be built using $6.25/gallon diesel planning factor, resulting in proposed ~$39/year garbage fee increase
+- CIP and budget to proceed through committee review cycle: CLIP October 5, Utility October 6, APC October 13, budget workshops October 19-20
+- Staff to add audiovisual system upgrades and additional municipal center maintenance items to CIP
+- Staff to bring key fob/door access and camera security estimate to board when finalized
+- Park dedication fee increase to be discussed as future agenda item
+- Police union contract renewal and team support union one-year renewal to come in closed session
+- Open records request costs and fee structure to be reviewed at next APC meeting

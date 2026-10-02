@@ -1,5 +1,147 @@
 [
   {
+    "id": "IzLefrJhtQo",
+    "source": "marathon",
+    "title": "Infrastructure Committee Meeting",
+    "date": "October 1, 2026",
+    "shortDate": "OCT 1",
+    "committee": "Infrastructure",
+    "duration": "23m",
+    "url": "https://www.youtube.com/watch?v=IzLefrJhtQo",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Infrastructure Committee held a brief meeting covering several operational items including a resolution recognizing Crash Responder Safety Week, a quick claim deed transfer of county-owned right-of-way property to a local township, a strategic plan public survey update, and a detailed update on the highway shop construction project. The highway shop project bid opening was moved to October 5th due to high bidder interest, with the county board education meeting on the project scheduled for October 15th and a guaranteed maximum price contract expected to come before the full county board later in October.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:30",
+        "item": "Approval of September 9th and September 17th, 2026 Infrastructure Committee Meeting Minutes"
+      },
+      {
+        "time": "2:45",
+        "item": "Resolution Recognizing November 2nd–6th as Crash Responder Safety Week"
+      },
+      {
+        "time": "3:30",
+        "item": "Consideration of Transfer of Property Adjacent to County Trunk Highway via Quit Claim Deed"
+      },
+      {
+        "time": "6:00",
+        "item": "Education Presentation: Strategic Plan Development Update Including Public Survey Opportunity"
+      },
+      {
+        "time": "16:00",
+        "item": "CIT Project Update"
+      },
+      {
+        "time": "17:00",
+        "item": "Year-to-Date Budget Report"
+      },
+      {
+        "time": "19:30",
+        "item": "Highway Shop Project Update"
+      },
+      {
+        "time": "33:00",
+        "item": "Next Meeting Date, Future Agenda Items, and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of September 9th and September 17th, 2026 Meeting Minutes",
+        "body": "Minutes were approved with a motion by Griner and a second by Coyle. Chair Gibbs noted that a couple of items from the last meeting were not discussed and said he received a call regarding the safety routes program in Corona, requesting it be added to the next agenda."
+      },
+      {
+        "item": "Resolution Recognizing November 2nd–6th as Crash Responder Safety Week",
+        "body": "A motion was made by a member identified as Kelly to forward the resolution to the county board, seconded by another member. The resolution was approved unanimously without significant debate."
+      },
+      {
+        "item": "Transfer of Property Adjacent to County Trunk Highway via Quit Claim Deed",
+        "body": "Staff explained this was a legacy co-ownership issue where the county and a town jointly held a right-of-way parcel, and that Commissioner Lang worked with the town to resolve it by transferring the county's interest back to local control via quit claim deed of Lot 1 of CSM 87-79. A motion to recommend approval to the county board was made by Coyle and seconded by Griner, passing unanimously with no discussion."
+      },
+      {
+        "item": "Strategic Plan Development Update Including Public Survey Opportunity",
+        "body": "Staff described a forthcoming public online survey narrowed to the top 20 priorities already identified by the county board and department heads from the comprehensive plan, aimed at further guiding the strategic plan. Supervisor Dickinson, participating online, questioned how the survey would reach county residents, expressing skepticism about whether a small number of responses (he estimated around 1,400) would meaningfully guide committee work, and asked how infrastructure-specific objectives would be distinguished. Staff said the approach would mirror the county's life report process using press releases, the county website, and outreach at town meetings, and acknowledged that ultimately the board and standing committees would need to keep the strategic plan at the forefront of their discussions."
+      },
+      {
+        "item": "CIT Project Update",
+        "body": "Staff noted that the relevant staff member was not present and there was no update in the packet. Members were directed to contact staff directly with any specific project questions."
+      },
+      {
+        "item": "Year-to-Date Budget Report",
+        "body": "Finance staff reported that through June, the highway department was at 68.67% of revenue budget and 40.16% of expenditure budget, with payroll at 43.24% against a 46.74% benchmark, noting no expenditure concerns. Supervisor Griner asked about fuel cost impacts in the current quarter; staff said the impacts were not yet known but acknowledged the county could be affected."
+      },
+      {
+        "item": "Highway Shop Project Update",
+        "body": "Staff reported that site plan approval and the conditional use permit through the Village of Kronau were recently completed. The bid package has been on the street since September 8th, with the bid opening moved from September 29th to October 5th at 2 p.m. at the Lake View Conference Center due to high bidder interest — approximately 80 to 90 questions were fielded from prospective bidders. The construction manager is Miron Construction. Staff said a guaranteed maximum price would be prepared for presentation at the county board education meeting on October 15th, with a formal contract vote expected at the county board's voting meeting later in October. Supervisor Griner asked about the bid unsealing time; staff confirmed 2 p.m."
+      },
+      {
+        "item": "2027 Budget Announcement",
+        "body": "An administrator (not a committee member) announced that the proposed 2027 budget had been delivered to the HR Finance and Property Committee and is available online. He noted that any supervisor wishing to propose amendments must submit them by October 9th ahead of the HR Finance and Property Committee meeting on October 12th, which will authorize the budget for publication. The formal county board adoption meeting is scheduled for November 10th. The highway facility project was described as a cornerstone of the budget presentation."
+      }
+    ],
+    "publicComment": "No public comment was offered. The chair noted no one had registered to speak during the public comment period.",
+    "actionItems": [
+      "Add the safety routes program in Corona to the next Infrastructure Committee agenda",
+      "Forward the Crash Responder Safety Week resolution to the full county board for approval",
+      "Forward the quit claim deed transfer of Lot 1 of CSM 87-79 to the full county board for approval",
+      "Release public online survey on top 20 strategic plan priorities with press releases and outreach to townships",
+      "Conduct public bid opening for highway shop project on October 5th at 2 p.m. at Lake View Conference Center",
+      "Prepare guaranteed maximum price and present highway shop project overview to county board at October 15th education meeting",
+      "Supervisors wishing to propose 2027 budget amendments must submit them by October 9th",
+      "Next Infrastructure Committee meeting scheduled for Tuesday, November 5th, 2026 at 9:00 a.m."
+    ],
+    "topics": [
+      "Infrastructure",
+      "Highway Shop Project",
+      "Budget",
+      "Strategic Plan",
+      "Roads"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 9th and September 17th, 2026 meeting minutes",
+        "motion": null,
+        "mover": "Aaron Griner",
+        "second": "Coyle",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Forward Crash Responder Safety Week resolution to county board",
+        "motion": "Move this forward to the board",
+        "mover": "Kelly",
+        "second": "Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend approval of quit claim deed transfer of Lot 1 of CSM 87-79 to county board",
+        "motion": "Motion to recommend approval of the quick claim of Lot 1 of CSM 87-79 for approval to the county board",
+        "mover": "Coyle",
+        "second": "Aaron Griner",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Coyle",
+        "second": "Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "won1HJVxsM4",
     "source": "marathon",
     "title": "Health and Human Services Committee Meeting",
@@ -420,6 +562,153 @@
         "second": null,
         "outcome": "Approved",
         "tally": "Unanimous"
+      }
+    ]
+  },
+  {
+    "id": "kw_e9a1b3cffe95400f8dedac37aa676107",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "September 28, 2026",
+    "shortDate": "SEP 28",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board held its September 28, 2026 meeting, approving the Green Tree Trails subdivision preliminary plan (60+ one-acre lots with private wells and septic) unanimously after significant public comment and board discussion, and also approved a zoning text amendment allowing zero-lot-line (twin home) structures. The board received extensive budget previews including a $56,000 increase in state transportation aid for 2027, a proposed $39/year garbage fee increase driven by diesel fuel surcharges, and a 10-year Capital Improvement Plan with two 2027 borrowing projects: Maple Ridge Road and Bushna Park improvements.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:05",
+        "item": "Public Comment - Green Tree Trails Subdivision and Village Development"
+      },
+      {
+        "time": "13:30",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "18:45",
+        "item": "DPW Report - Green Acres Road Bus Turnaround and New Garage Construction"
+      },
+      {
+        "time": "26:00",
+        "item": "Finance Director Report - Financial Comparisons, August Financials, Budget Preview"
+      },
+      {
+        "time": "55:00",
+        "item": "Consent Agenda - Operator's License and August Check Register"
+      },
+      {
+        "time": "57:30",
+        "item": "New Business Item H: Green Tree Trails Subdivision Preliminary Plan"
+      },
+      {
+        "time": "1:28:00",
+        "item": "New Business Item I: Text Amendment Chapter 520 - Zero Lot Line Structures"
+      },
+      {
+        "time": "1:33:00",
+        "item": "New Business Item J: Budget Discussion - State Aids, Garbage Fees, Debt"
+      },
+      {
+        "time": "1:55:00",
+        "item": "New Business Item K: Capital Improvement Plan (CIP) Second Review"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - Green Tree Trails Subdivision",
+        "body": "Three residents spoke during public comment. Guy Friedel of Ruby Drive argued the village should pursue smaller lots with municipal sewer and water to double the tax base, suggesting referral to the utilities and APC committees and the use of special assessments. Marie Kramer of Highway 153 questioned the wisdom of private wells and septic given groundwater concerns and proximity to existing sewer service, saying 'we're walking backwards.' Joanne Mansel of Pine Road asked about minimum lot size and frontage requirements and stated she disagrees with more density, saying 'I think 60 homes is plenty' and that one-acre lots would be appropriate for the area."
+      },
+      {
+        "item": "Administrator Report",
+        "body": "Administrator Jim Dabel announced the new Village Clerk will start October 19 and will be introduced at that time, noting strong experienced applicants. He reported FedEx ground-breaking is expected by mid-to-late November, which is significant for TID 1 revenues. He also praised DPW staff for site preparation work behind the municipal building, saving significant money, and noted budget materials in the packet are a precursor to the 2027 budget process."
+      },
+      {
+        "item": "DPW Report - Green Acres Road School Bus Turnaround",
+        "body": "DPW Director Greg [last name inaudible] reported that a resident's concern about school buses not being able to turn around on Green Acres Road is being investigated; the existing turnaround used by plow and garbage trucks was found too small for school buses. He is coordinating with the school district and bus company to evaluate options, including a possible hammerhead turnaround, but noted the village does not control the bus company contract. Trustee Solheim asked for an update by the next meeting. The director also reported that the new employee parking garage is on track, with permits approved and concrete work expected to begin within a week and a half."
+      },
+      {
+        "item": "Finance Director Report - Per-Capita Spending Comparisons",
+        "body": "Finance Director John Jacobs presented a detailed comparison of Kronenwetter against nine other north-central Wisconsin communities using 2024 state data. Key findings: Kronenwetter is near the bottom for per-capita spending on streets ($147/person), fire ($47/person), and police ($163/person); property taxes are the lowest at $317/person but 84% comes from residential versus 60-70% for peer communities. Jacobs emphasized the need for commercial and manufacturing diversification, noting TID 1 and TID 2 as critical tools, and that the FedEx distribution center could stop the $100,000-$120,000 annual general fund bleeding into TID 1."
+      },
+      {
+        "item": "Green Tree Trails Subdivision Preliminary Plan",
+        "body": "Community Development Director Nathan Sandwick presented the preliminary plan for approximately 60+ one-acre lots with private wells and septic systems, noting unanimous planning commission approval in June. Board discussion focused on the history of the property (turned down nine times under previous developer), the decision not to extend municipal sewer and water due to costs over $1.6 million, and the compromise of one-acre lots meeting septic minimums. Concerns were raised about traffic on Nick Avenue, which will be gated as emergency access only. Trustee Mishka moved to approve, seconded by Trustee Coyle; the motion passed 7-0."
+      },
+      {
+        "item": "Text Amendment Chapter 520 - Zero Lot Line Structures",
+        "body": "Sandwick presented a zoning ordinance amendment to allow twin homes (zero-lot-line structures) where duplexes are currently permitted on 20,000 square foot parcels, enabling each half to be individually owned. Trustee Lesniak moved to approve, seconded by Trustee Stowell. No notable debate was recorded; the amendment passed 7-0 on a roll call vote."
+      },
+      {
+        "item": "Budget Preview - Garbage Fees and Debt",
+        "body": "Jacobs reported a $56,000 increase in state transportation aid for the 2027 budget. On garbage fees, he presented scenarios driven by diesel fuel surcharges in the Harder's contract; with diesel exceeding $6.50/gallon, the village faces a $57,000 shortfall in 2026. The planning figure recommended by APC of $6.25/gallon would raise household garbage fees from $228 to approximately $267.24 per year (a $39 increase). Administrator Dabel recommended using $6.25 as the planning factor for the budget while monitoring prices. Jacobs also outlined a debt restructuring plan to shift $863,000 in unused TID 2 bond proceeds to the capital project fund, reducing TID 2 debt and freeing resources, with the tax levy absorbing a small $12,000 increase in annual debt service."
+      },
+      {
+        "item": "10-Year Capital Improvement Plan (CIP) - 2027 Projects",
+        "body": "Jacobs presented the second review of the 10-year CIP, emphasizing only 43% of the $30 million plan relies on general obligation borrowing. For 2027, two borrowing projects are proposed: Maple Ridge Road (total ~$2.9M, with $1.2M already on hand reducing new borrowing to ~$1.7M) and Bushna Park improvements (~$25,000 from the park fund plus borrowed remainder). Board discussion touched on building security upgrades including key fob access (~$100,000 estimate) and cameras, audio-visual improvements to the meeting room, and the need for a long-range plan for municipal center maintenance. Jacobs noted the plan is a fluid document to be reviewed annually."
+      }
+    ],
+    "publicComment": "Three residents spoke. Guy Friedel (2240 Ruby Drive) argued the village should pursue municipal sewer and water for Green Tree Trails to allow smaller lots and double the tax base, recommending referral to utilities and APC committees and use of special assessments. Marie Kramer (2150 E. State Highway 153) raised groundwater concerns about private wells and septic systems adjacent to existing sewer service, questioning why the village would not connect to existing infrastructure. Joanne Mansel (2954 Pine Road) asked clarifying questions about minimum lot sizes and frontage requirements, noting regulations appeared to have changed since she built 27 years ago, and stated she preferred one-acre lots and opposed higher density, saying 'I think 60 homes is plenty.'",
+    "actionItems": [
+      "Green Tree Trails subdivision preliminary plan approved; developer agreement to be finalized including emergency-only gated Nick Avenue access, stormwater pond easement between lots 14 and 15, and street lighting provisions; final plat to return possibly as early as late October",
+      "Zero lot line structure ordinance amendment to be codified in Chapter 520",
+      "New Village Clerk to begin October 19",
+      "DPW to coordinate with school district and bus company on Green Acres Road turnaround and report back by next meeting",
+      "New employee parking garage foundation work to begin within approximately 10 days",
+      "Finance Director to proceed with $863,000 debt transfer from TID 2 to capital project fund by end of 2026",
+      "Budget to be built using $6.25/gallon diesel planning factor, resulting in proposed ~$39/year garbage fee increase",
+      "CIP and budget to proceed through committee review cycle: CLIP October 5, Utility October 6, APC October 13, budget workshops October 19-20",
+      "Staff to add audiovisual system upgrades and additional municipal center maintenance items to CIP",
+      "Staff to bring key fob/door access and camera security estimate to board when finalized",
+      "Park dedication fee increase to be discussed as future agenda item",
+      "Police union contract renewal and team support union one-year renewal to come in closed session",
+      "Open records request costs and fee structure to be reviewed at next APC meeting"
+    ],
+    "topics": [
+      "Development",
+      "Budget",
+      "Roads",
+      "Parks",
+      "Zoning",
+      "Green Tree Trails Subdivision",
+      "Bushna Park",
+      "Maple Ridge Road",
+      "TID 1 TID 2"
+    ],
+    "votes": [
+      {
+        "item": "Consent Agenda - Operator's License for Michelle G and August 2026 check register and credit card transactions",
+        "motion": "Motion to approve the consent agenda as presented",
+        "mover": "Dan Lesniak",
+        "second": "Kelly Coyle",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Green Tree Trails Subdivision Preliminary Plan",
+        "motion": "Motion to approve the Green Tree Trails subdivision preliminary plan as proposed",
+        "mover": "Aaron Myszka",
+        "second": "Kelly Coyle",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Text Amendment Chapter 520 - Zero Lot Line Structures",
+        "motion": "Motion to amend the ordinance as proposed to allow zero lot line residences",
+        "mover": "Dan Lesniak",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "7-0"
       }
     ]
   },
@@ -1019,101 +1308,6 @@
       "Public Safety",
       "Staffing",
       "Fire Department Hiring"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_e9a1b3cffe95400f8dedac37aa676107",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "September 28, 2026",
-    "shortDate": "SEP 28",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to address financial reports, licensing matters, and significant planning items including a subdivision preliminary plat and text amendments regarding zero lot line structures. The meeting was also set to preview the 2027 budget and review the 2027-2036 Capital Improvements Program.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Administrator Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Director of Public Works and Utilities Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Finance Director/Treasurer reports - Monthly Report, August 2026 Financial Statements, and August 2026 Financial Statistical Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Operator Bartender License - Michelle Gee"
-      },
-      {
-        "time": "N/A",
-        "item": "August 2026 Check Register, ACH Register, and Credit Card Transactions Activity"
-      },
-      {
-        "time": "N/A",
-        "item": "Green Tree Trails Subdivision Preliminary Plat"
-      },
-      {
-        "time": "N/A",
-        "item": "Text Amendment of Chapter 520 of the General Code of Ordinances: Zero Lot Line Structures"
-      },
-      {
-        "time": "N/A",
-        "item": "2027 Budget Preview - State Aids Listing, Refuse/Recycling fee, and Debt Service Fund Tax Levy"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program Budget - 2nd Draft: Focus on Funding Sources"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Operator Bartender License - Michelle Gee",
-        "body": "The Village Board was scheduled to consider and possibly act on an operator bartender license application for Michelle Gee. This item was listed under the consent agenda, allowing for discussion and possible action."
-      },
-      {
-        "item": "August 2026 Check Register, ACH Register, and Credit Card Transactions Activity",
-        "body": "The Board was set to review financial transaction records from August 2026, including checks, automated clearing house transactions, and credit card activity. This item was scheduled under the consent agenda for discussion and possible action."
-      },
-      {
-        "item": "Green Tree Trails Subdivision Preliminary Plat",
-        "body": "The Village Board was scheduled to discuss and consider action on the preliminary plat for the Green Tree Trails subdivision. This development item was set for review under new business."
-      },
-      {
-        "item": "Text Amendment of Chapter 520 of the General Code of Ordinances: Zero Lot Line Structures",
-        "body": "The Board was expected to consider a text amendment to the village ordinances regarding zero lot line structures. This zoning code modification was scheduled for discussion and possible action."
-      },
-      {
-        "item": "2027 Budget Preview",
-        "body": "The Village Board was set to review a preview of the 2027 budget, including state aids listings, proposed refuse and recycling fee changes, and the debt service fund tax levy. This comprehensive budget discussion was scheduled to provide direction for the upcoming fiscal year."
-      },
-      {
-        "item": "2027-2036 Capital Improvements Program Budget - 2nd Draft",
-        "body": "The Board was expected to review the second draft of the ten-year capital improvements program with a specific focus on funding sources. This long-range planning document was scheduled for discussion and possible action."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with potential extension at the Chief Presiding Officer's discretion.",
-    "actionItems": [
-      "Scheduled to vote on operator bartender license for Michelle Gee",
-      "Expected to consider approval of August 2026 check register, ACH register, and credit card transactions",
-      "Scheduled to consider and possibly act on Green Tree Trails Subdivision Preliminary Plat",
-      "Expected to consider text amendment to Chapter 520 regarding zero lot line structures",
-      "Scheduled to preview and discuss 2027 budget components including state aids, refuse/recycling fees, and debt service fund tax levy",
-      "Expected to review second draft of 2027-2036 Capital Improvements Program with focus on funding sources"
-    ],
-    "topics": [
-      "Budget",
-      "Development",
-      "Zoning",
-      "Capital Improvements",
-      "Licensing"
     ],
     "votes": []
   },
@@ -5607,175 +5801,6 @@
         "motion": "So moved",
         "mover": "Daniels [first name inaudible]",
         "second": "Shimona [last name inaudible]",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "AihRS-IoGfM",
-    "source": "wausau",
-    "title": "Board of Public Works Meeting",
-    "date": "September 8, 2026",
-    "shortDate": "SEP 8",
-    "committee": "Board of Public Works",
-    "duration": "5m",
-    "url": "https://www.youtube.com/watch?v=AihRS-IoGfM",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Board of Public Works met on September 8th and approved a series of contractor pay estimates and project change orders totaling over $800,000 across multiple active city projects, including the downtown mall redevelopment, water treatment plant demolition, and asphalt paving. The board also approved masonry contractor licenses and moved into closed session to deliberate on claims.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and review of August 25th Board of Public Works meeting minutes"
-      },
-      {
-        "time": "0:30",
-        "item": "Open bids — Pleasant View Park Ash timber harvest (Schreiber Logging)"
-      },
-      {
-        "time": "0:55",
-        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies pay estimate #2 ($102,282.35)"
-      },
-      {
-        "time": "1:20",
-        "item": "2026 Asphalt Paving Project A — RC Pavers change order #2 ($354.38, crosswalk at Packer Drive)"
-      },
-      {
-        "time": "1:55",
-        "item": "2026 Asphalt Paving Project A — RC Pavers pay estimate #4 ($103,122.41)"
-      },
-      {
-        "time": "2:20",
-        "item": "2025 Water Treatment Plant Demo — MRD Group pay estimates #6 and #7 ($235,405.25 and $164,350)"
-      },
-      {
-        "time": "2:55",
-        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies pay estimate #9 ($233,403.56)"
-      },
-      {
-        "time": "3:40",
-        "item": "Portland Cement Concrete licenses for ABG Masonry and A1 Western Masonry"
-      },
-      {
-        "time": "4:30",
-        "item": "Motion to enter closed session per Wisconsin State Statute 19.85(1)(g) to deliberate on claims"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "August 25th Meeting Minutes",
-        "body": "A board member moved to approve the minutes and another seconded. The motion passed on a voice vote with all members voting aye. No discussion was recorded."
-      },
-      {
-        "item": "Pleasant View Park Ash Timber Harvest — Open Bid",
-        "body": "One bid was received from Schreiber Logging. The board noted the bid would be reviewed by staff members identified as John and Jamie. No vote on award was recorded in this session."
-      },
-      {
-        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies Pay Estimate #2",
-        "body": "A board member noted the work has been completed and moved to approve the payment of $102,282.35. The motion was seconded and passed unanimously on a voice vote."
-      },
-      {
-        "item": "2026 Asphalt Paving Project A — RC Pavers Change Order #2",
-        "body": "A board member, identified as John, explained that a crosswalk at Packer Drive had not been included in the original plan and a contractor was brought in to repaint it, resulting in a change order of $354.38. The motion to approve was made, seconded, and passed unanimously."
-      },
-      {
-        "item": "2026 Asphalt Paving Project A — RC Pavers Pay Estimate #4",
-        "body": "A board member moved to approve the pay estimate of $103,122.41. The motion was seconded and passed unanimously on a voice vote with no notable discussion."
-      },
-      {
-        "item": "2025 Water Treatment Plant Demo — MRD Group Pay Estimates #6 and #7",
-        "body": "The board approved two pay estimates totaling $399,755.25. A board member remarked that the site looks 'really different down there,' suggesting visible demolition progress. The motion passed unanimously."
-      },
-      {
-        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies Pay Estimate #9",
-        "body": "A board member explained this represents near-final quantities, with $10,000 in retainage held pending concrete sealing work expected to be completed before fall. Once sealing is done, the $10,000 will be released. The payment of $233,403.56 was approved unanimously."
-      },
-      {
-        "item": "Portland Cement Concrete Licenses — ABG Masonry and A1 Western Masonry",
-        "body": "A board member, identified as John, stated he reviewed both license applications and bonds and moved to approve both. The motion was seconded and passed unanimously."
-      },
-      {
-        "item": "Closed Session — Deliberating on Claims",
-        "body": "A board member moved to enter closed session pursuant to Wisconsin State Statute 19.85(1)(g) to deliberate on claims. The motion was seconded and passed unanimously on a voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Staff (John and Jamie) to review the Schreiber Logging bid for Pleasant View Park Ash timber harvest",
-      "Release $10,000 retainage to Pembrooke Companies for Downtown Mall Redevelopment Phase 2 upon completion of concrete sealing work",
-      "Board to convene in closed session to deliberate on claims per Wisconsin State Statute 19.85(1)(g)"
-    ],
-    "topics": [
-      "Roads",
-      "Utilities",
-      "Parks",
-      "Downtown Mall Redevelopment",
-      "Water Treatment Plant Demolition"
-    ],
-    "votes": [
-      {
-        "item": "Approval of August 25th Board of Public Works meeting minutes",
-        "motion": null,
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2026 Sidewalk Repair Project A — Pembrooke Companies pay estimate #2 ($102,282.35)",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2026 Asphalt Paving Project A — RC Pavers change order #2 ($354.38)",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2026 Asphalt Paving Project A — RC Pavers pay estimate #4 ($103,122.41)",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2025 Water Treatment Plant Demo — MRD Group pay estimates #6 and #7 ($399,755.25 total)",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2025 Downtown Mall Redevelopment Phase 2 — Pembrooke Companies pay estimate #9 ($233,403.56)",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Portland Cement Concrete licenses for ABG Masonry and A1 Western Masonry",
-        "motion": "Move to approve the license applications and bonds of both A1 and ABG Masonry",
-        "mover": "John [inaudible]",
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Enter closed session per Wisconsin State Statute 19.85(1)(g) to deliberate on claims",
-        "motion": "Move to go into closed session pursuant to Wisconsin State Statute 19.85(1)(g) for the purpose of deliberating on claims",
-        "mover": null,
-        "second": null,
         "outcome": "Approved",
         "tally": null
       }
