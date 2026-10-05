@@ -25,5 +25,7 @@
 {"ts":"2026-10-01T15:27:57+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":6411,"output_tokens":1564,"usd":0.04269},
 {"ts":"2026-10-02T05:36:06+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":5596,"output_tokens":1993,"usd":0.04668},
 {"ts":"2026-10-02T05:37:14+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":22127,"output_tokens":2741,"usd":0.1075},
-{"ts":"2026-10-02T14:45:14+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":10623,"output_tokens":1527,"usd":0.05477}
+{"ts":"2026-10-02T14:45:14+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":10623,"output_tokens":1527,"usd":0.05477},
+{"ts":"2026-10-05T05:37:03+00:00","script":"marathon_meeting_summarizer","model":"claude-haiku-4-5-20251001","input_tokens":1040,"output_tokens":342,"usd":0.00275},
+{"ts":"2026-10-05T05:37:41+00:00","script":"generate_roundup","model":"claude-sonnet-4-6","input_tokens":3714,"output_tokens":407,"usd":0.01725}
 ]
