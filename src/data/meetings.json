@@ -1,5 +1,77 @@
 [
   {
+    "id": "kw_d2ac75594e524e2e822fe02807f72756",
+    "source": "kronenwetter",
+    "title": "Utility Committee Meeting",
+    "date": "October 6, 2026",
+    "shortDate": "OCT 6",
+    "committee": "Utility",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d2ac75594e524e2e822fe02807f72756.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Utility Committee of the Village of Kronenwetter was scheduled to meet to address the 2027 budget, a second draft of the 2027-2036 Capital Improvements Program, and discussion of a septic tank ordinance. The meeting was also set to receive reports from the Director of Public Works and Utilities and the Finance/Treasurer.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes - June 2, 2026 Utility Committee Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Director of Public Works and Utilities Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance/Treasurer Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Septic Tank Ordinance Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "2027 Budget Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes",
+        "body": "The committee was scheduled to review and consider approval of the June 2, 2026 Utility Committee meeting minutes."
+      },
+      {
+        "item": "Septic Tank Ordinance Discussion",
+        "body": "The committee was set to discuss the septic tank ordinance as old business, with possible action to be taken on this matter."
+      },
+      {
+        "item": "2027 Budget Discussion",
+        "body": "The committee was scheduled to discuss the 2027 budget as new business, with possible action anticipated on this item."
+      },
+      {
+        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft",
+        "body": "The committee was expected to consider the second draft of the Capital Improvements Program budget covering the period 2027-2036, with possible action to be taken."
+      }
+    ],
+    "publicComment": "Public comment was scheduled to be received for up to 15 minutes total, with a three-minute time limit per person, subject to extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to vote on approval of June 2, 2026 meeting minutes",
+      "Expected to consider action on septic tank ordinance discussion",
+      "Expected to consider action on 2027 budget",
+      "Expected to consider action on 2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Capital Improvements",
+      "Septic Tank Ordinance"
+    ],
+    "votes": []
+  },
+  {
     "id": "kw_7d8d40bd5c914413b079613170d2d052",
     "source": "kronenwetter",
     "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
@@ -5623,52 +5695,6 @@
         "second": "Watson",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "jT7gjnvxI5Y",
-    "source": "marathon",
-    "title": "Public Safety Committee Meeting",
-    "date": "September 8, 2026",
-    "shortDate": "SEP 8",
-    "committee": "Public Safety",
-    "duration": "1m",
-    "url": "https://www.youtube.com/watch?v=jT7gjnvxI5Y",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Public Safety Committee convened briefly to vote on entering closed session to discuss negotiation strategy related to the Village of Rib Mountain. The committee approved the closed session motion on a roll call vote with all present members voting yes. No open session business or public comment was recorded in the available transcript.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Motion to enter closed session to discuss strategy related to negotiations with the Village of Rib Mountain"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Motion to Enter Closed Session — Village of Rib Mountain Negotiations",
-        "body": "A member identified as Jen made a motion to enter closed session pursuant to Wisconsin Statutes 19.851(e) for the purpose of discussing negotiation strategy related to the Village of Rib Mountain, citing competitive or bargaining reasons. Brandon Johnson provided the second. A roll call vote was conducted; members Mask, Arstad, Hoppa, Johnson, Strobe, and Wilhelm all voted yes. Sandusky was noted as absent. The chair declared the motion carried and the committee proceeded into closed session."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Committee entered closed session to discuss negotiation strategy related to the Village of Rib Mountain per Wisconsin Statutes 19.851(e)"
-    ],
-    "topics": [
-      "Public Safety",
-      "Intergovernmental Negotiations",
-      "Village of Rib Mountain",
-      "Closed Session"
-    ],
-    "votes": [
-      {
-        "item": "Motion to enter closed session to discuss strategy related to negotiations with the Village of Rib Mountain",
-        "motion": "Motion to go into closed session pursuant to Wisconsin Statutes 19.851(e) to discuss strategy related to negotiations with the Village of Rib Mountain",
-        "mover": "Jen [last name inaudible]",
-        "second": "Brandon Johnson",
-        "outcome": "Approved",
-        "tally": "6-0 (Sandusky absent)"
       }
     ]
   }
