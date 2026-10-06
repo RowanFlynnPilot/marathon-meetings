@@ -2423,6 +2423,28 @@
       "video_url": null,
       "processed_at": "2026-10-06T11:16:28.208483+00:00",
       "summary_file": "summaries/wausau-wausau-parks-recreation-committee-meeting-1mzgr7vumjs.md"
+    },
+    "8JTzhYsjmgM": {
+      "title": "Wausau Finance Committee Budget Session #1",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261005",
+      "meeting_date": "20261005",
+      "duration": 5628,
+      "video_url": null,
+      "processed_at": "2026-10-06T18:22:26.180379+00:00",
+      "summary_file": "summaries/wausau-wausau-finance-committee-budget-session-1-8jtzhysjmgm.md"
+    },
+    "sX1w_FeXB0Y": {
+      "title": "Wausau Parks & Recreation Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261005",
+      "meeting_date": "20261005",
+      "duration": 3887,
+      "video_url": null,
+      "processed_at": "2026-10-06T18:23:21.087804+00:00",
+      "summary_file": "summaries/wausau-wausau-parks-recreation-committee-meeting-sx1w-fexb0y.md"
     }
   }
 }
