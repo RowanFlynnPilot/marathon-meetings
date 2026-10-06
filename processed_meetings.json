@@ -2412,6 +2412,17 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
       "processed_at": "2026-10-06T01:18:51.674672+00:00",
       "summary_file": "summaries/kronenwetter-utility-committee-meeting-2026-10-06-kw-d2ac75594e524e2e822fe02807f72756.md"
+    },
+    "1MZGR7vUMJs": {
+      "title": "Wausau Parks & Recreation Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261005",
+      "meeting_date": "20261005",
+      "duration": 172,
+      "video_url": null,
+      "processed_at": "2026-10-06T11:16:28.208483+00:00",
+      "summary_file": "summaries/wausau-wausau-parks-recreation-committee-meeting-1mzgr7vumjs.md"
     }
   }
 }
