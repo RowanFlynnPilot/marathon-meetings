@@ -2445,6 +2445,28 @@
       "video_url": null,
       "processed_at": "2026-10-06T18:23:21.087804+00:00",
       "summary_file": "summaries/wausau-wausau-parks-recreation-committee-meeting-sx1w-fexb0y.md"
+    },
+    "8YQwbJW8i_U": {
+      "title": "Wausau Water Works",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261006",
+      "meeting_date": "20261006",
+      "duration": 1542,
+      "video_url": null,
+      "processed_at": "2026-10-07T15:33:56.948925+00:00",
+      "summary_file": "summaries/wausau-wausau-water-works-8yqwbjw8i-u.md"
+    },
+    "l-273tDD5Hs": {
+      "title": "Marathon County Public Safety Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261006",
+      "meeting_date": "20261006",
+      "duration": 2999,
+      "video_url": null,
+      "processed_at": "2026-10-07T15:34:37.477164+00:00",
+      "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-l-273tdd5hs.md"
     }
   }
 }
