@@ -2478,6 +2478,28 @@
       "video_url": null,
       "processed_at": "2026-10-08T06:02:45.244822+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-economic-development-committee-meeting-qtafpj2jsl0.md"
+    },
+    "-npwmRTKxi8": {
+      "title": "Wausau Finance Committee Budget Session #2",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261006",
+      "meeting_date": "20261006",
+      "duration": 8958,
+      "video_url": null,
+      "processed_at": "2026-10-08T15:36:33.722989+00:00",
+      "summary_file": "summaries/wausau-wausau-finance-committee-budget-session-2-npwmrtkxi8.md"
+    },
+    "qTcZ095oNCU": {
+      "title": "Marathon County Human Resources, Finance & Property Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261007",
+      "meeting_date": "20261007",
+      "duration": 5260,
+      "video_url": null,
+      "processed_at": "2026-10-08T15:38:11.336182+00:00",
+      "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-qtcz095oncu.md"
     }
   }
 }
