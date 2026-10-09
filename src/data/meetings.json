@@ -1,5 +1,123 @@
 [
   {
+    "id": "aljQa_V9Aos",
+    "source": "wausau",
+    "title": "Finance Committee Budget Session #3",
+    "date": "October 7, 2026",
+    "shortDate": "OCT 7",
+    "committee": "Finance",
+    "duration": "1h 42m",
+    "url": "https://www.youtube.com/watch?v=aljQa_V9Aos",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Finance Committee held its third budget session for the 2027 budget, covering special revenue funds, capital projects, TID districts, debt service, and enterprise funds. A significant portion of the meeting focused on the city's growing debt burden, with Alderperson Hani presenting eight budget proposals including capping borrowing, finding $4.2-5.2 million in deferrable capital projects, cutting the city administrator position, and requesting a 1% general fund reduction. The committee agreed not to meet Thursday as planned, instead giving time for members to submit written amendments for a future meeting.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and opening remarks"
+      },
+      {
+        "time": "1:20",
+        "item": "Public comment on agenda items"
+      },
+      {
+        "time": "2:10",
+        "item": "Special revenue funds overview"
+      },
+      {
+        "time": "16:45",
+        "item": "Capital projects discussion"
+      },
+      {
+        "time": "38:00",
+        "item": "TID districts (TID 8, 11, 12) project review"
+      },
+      {
+        "time": "58:30",
+        "item": "Debt service analysis and strategies to reduce debt reliance"
+      },
+      {
+        "time": "1:14:00",
+        "item": "Enterprise funds: Metro Ride, municipal airport, parking"
+      },
+      {
+        "time": "1:27:00",
+        "item": "Storm water utility discussion"
+      },
+      {
+        "time": "1:35:00",
+        "item": "Fee schedule changes"
+      },
+      {
+        "time": "1:48:00",
+        "item": "Next steps, amendment process, and adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Special Revenue Funds Overview",
+        "body": "Finance Director Maryanne presented the special revenue funds including community development block grant, economic development, environmental cleanup, room tax, recycling, animal control, hazmat, and the 400 Block Riverlife fund. She noted the environmental cleanup fund reserves are declining now that an insurance annuity from the Holtz Kroy settlement has ended, and costs from EPA oversight — including a $121,000 bill last year — will eventually return to the levy. She also suggested consolidating some special revenue funds into the general fund to build up the expenditure restraint base, noting the city receives over $1 million in expenditure restraint grant funding."
+      },
+      {
+        "item": "Capital Projects Discussion",
+        "body": "Engineering staff walked through 2027 infrastructure projects including Ethel Street reconstruction, 11th Avenue, 17th Avenue STP Urban design, asphalt overlay (proposed increase from $600,000 to $800,000), lead service line replacement, and sidewalk repair. Alderperson Hani raised concern about borrowing for basic infrastructure and asked whether projects like Ethel Street could be deferred to 2028; engineering staff explained deferral simply shifts the entire street reconstruction schedule back a year and increases ongoing maintenance costs. A committee member questioned why the city pays for alley paving excavation costs while residents are assessed only for asphalt, prompting discussion about revisiting that policy."
+      },
+      {
+        "item": "TID Districts Review",
+        "body": "Economic Development Manager Patrick presented TID 8 (MBX South demolition and environmental cleanup, with a $250,000 WEDC brownfield grant applied for), TID 11 (business campus site prep and marketing for a large development site off Innovation Way), and TID 12 (limited expenditures due to ongoing deficits, projected to remain in deficit for approximately 10 years). Jefferson parking ramp HVAC replacement was identified as a critical project after one of two redundant systems failed. The former Sears ramp east wall — exposed after the Sears building demolition — needs $700,000 in waterproofing and rehabilitation. A Forest Street engineering and planning project of $150,000 was discussed as enabling future LRIP and STP Urban grant applications."
+      },
+      {
+        "item": "Debt Service Analysis",
+        "body": "Maryanne presented a detailed debt analysis showing the city's outstanding general obligation debt at approximately 33.38% of equalized value (limit is 5%), projected to rise to 33.81% after proposed 2027 borrowing. She compared the 2016 infrastructure borrowing of $2.8 million at 1.54% interest (resulting in a $338,000 annual payment) to the proposed 2027 borrowing of $6.2 million estimated at approximately 4.27% (resulting in roughly $770,000 annually plus $216,000 for the lead service line loan). She proposed using TID 8's approximately $11 million in remaining increment capacity to absorb roughly $2.18 million in infrastructure costs, reducing the levy impact by approximately $275,000 annually. She also suggested a 10-year plan to incrementally add $130,000 per year to levy-funded capital to eventually take asphalt overlay and concrete repairs off debt."
+      },
+      {
+        "item": "Enterprise Funds: Metro Ride, Airport, Parking",
+        "body": "The committee discussed that Metro Ride and the municipal airport operate at deficits covered by the general fund. Alderperson Hani raised constituent concerns about deficit operations, while Alderperson Tierney noted some municipal services like transit are inherently not self-sustaining but enhance quality of life. It was explained that Metro Ride cannot expand service to surrounding municipalities like Rib Mountain because those communities have not invited the city in and would need to help subsidize service, as Wisconsin does not permit regional transit authorities. New Metro Ride buses are coming through the Volkswagen emissions settlement. Airport revenue discussion included land lease payments, property taxes on privately-owned hangars, and past fuel-flow surcharge revenue that was discontinued when aviation fuel prices rose."
+      },
+      {
+        "item": "Storm Water Utility Discussion",
+        "body": "Engineering Director Eric provided an overview of a storm water utility concept at committee request, explaining that currently 65% of storm water costs are borne by residential taxpayers rather than major impervious-surface users such as large parking lots and commercial buildings. A storm water utility would distribute costs based on equivalent dwelling units tied to impervious surface area, bringing in non-taxable entities like nonprofits as payers, with a corresponding reduction in the levy. Maryanne noted a consultant study funded by a grant is completed and a presentation is scheduled for the October 27th city council meeting."
+      },
+      {
+        "item": "Alderperson Hani's Budget Proposals and Next Steps",
+        "body": "Alderperson Hani presented eight budget proposals including: capping 2027 borrowing at $17-18 million or reducing debt by $1 million; identifying $4.2-5.2 million in deferrable capital projects; a 1% general fund spending reduction; removing $150,000 for the city administrator position; a motorpool charge reconciliation; a current accounting of committed versus unassigned general fund balance; asking the mayor to direct Metro Ride, airport, and parking to develop 5-year financial plans; a reconciled capital project schedule; and a 5-year debt forecast separated by general government, water, and wastewater. The committee agreed not to meet Thursday, directing members to submit written amendments to Maryanne, who will distribute them and incorporate approved changes as a budget insert. Alder Watson was noted as also having proposals to submit."
+      }
+    ],
+    "publicComment": "No public comment was offered. The chair noted no members of the public were present.",
+    "actionItems": [
+      "Thursday October 8th budget session cancelled; staff to notify Alders Watson and Neil",
+      "Committee members to submit individual budget amendment proposals in writing to Finance Director Maryanne for distribution to full committee",
+      "Maryanne to consolidate amendments as a budget book insert reflecting proposed changes before council consideration",
+      "Ellers financial advisors to prepare formal debt amortization scenarios for committee review at a future meeting, potentially Tuesday",
+      "Chair to poll committee members for quorum availability for a future budget session",
+      "Engineering to prepare a presentation breaking down capital projects by mission-critical criteria as requested by Alderperson Hani",
+      "Finance Director to research and report on inspection fee structure for multifamily versus single-family buildings, and consider 2% fee increase",
+      "Eric to explore adding fleet facility as a placeholder line item (up to $4.5 million) in the 2027 capital budget",
+      "Storm water utility consultant presentation scheduled for October 27th city council meeting",
+      "Maryanne to calculate property tax revenue attributable to airport hangars for committee reference",
+      "Maryanne to complete consolidation of budget cut figures requested by committee member and distribute",
+      "Mayor directed to consider having Metro Ride, airport, and parking departments develop 5-year financial projections"
+    ],
+    "topics": [
+      "Budget",
+      "Debt Service",
+      "Capital Projects",
+      "TID Districts",
+      "Storm Water Utility"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Hani",
+        "second": "Tierney",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "qTcZ095oNCU",
     "source": "marathon",
     "title": "Human Resources, Finance & Property Committee Meeting",
@@ -28,6 +146,128 @@
       "Parks"
     ],
     "votes": []
+  },
+  {
+    "id": "kw_d2ac75594e524e2e822fe02807f72756",
+    "source": "kronenwetter",
+    "title": "Utility Committee Meeting",
+    "date": "October 6, 2026",
+    "shortDate": "OCT 6",
+    "committee": "Utility",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d2ac75594e524e2e822fe02807f72756.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Utility Committee met October 6, 2026, addressing a resident water quality complaint involving black and orange sludge at a dead-end line, approving a change to the septic tank ordinance to allow holding tanks under specific conditions, reviewing the 2027 utility budget with no rate increases proposed for either water or sewer, and discussing ongoing issues with wipes clogging Lift Station No. 3. Key decisions included recommending an ordinance amendment to allow holding tanks and directing staff to explore looping options and water sampling for the affected resident.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:15",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:00",
+        "item": "Public Comment"
+      },
+      {
+        "time": "38:30",
+        "item": "Approval of Minutes (June meeting)"
+      },
+      {
+        "time": "40:00",
+        "item": "Director of Public Works and Utilities Report - Lift Station No. 3 wipes issue and Village Garage project update"
+      },
+      {
+        "time": "52:00",
+        "item": "Finance and Treasurer Report - August financial statements"
+      },
+      {
+        "time": "1:04:00",
+        "item": "Old Business - Septic Tank Ordinance Discussion (Northland Lutheran High School holding tank request)"
+      },
+      {
+        "time": "1:35:00",
+        "item": "2027 Budget Discussion - Water and Sewer Utility revenues and expenses"
+      },
+      {
+        "time": "2:20:00",
+        "item": "Capital Improvement Plan (CIP) discussion referenced in context of new well, water tower, and looping projects"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - Resident Water Quality Complaint",
+        "body": "Resident Lori Foundry of Rainbow Drive/County Road XX described severe black and orange sludge in her water supply, corroded fixtures, clogged drains, and water she considers unsafe to drink or use for washing food. Greg (Public Works Director) explained the problem stems from manganese buildup at a dead-end line serving only two customers, and that flushing every six to eight weeks has not resolved the issue. The committee discussed options including pipe scrubbing, installing an RO filtration system, exploring a pipe-looping project estimated at $300,000–$400,000, and potentially obtaining an easement from a neighboring property. Staff committed to having lead water utility worker Mark Mackey visit the property to take water samples, and the committee expressed willingness to provide some form of bill compensation. The looping project was identified as a candidate for the Capital Improvement Plan."
+      },
+      {
+        "item": "Approval of Minutes",
+        "body": "Jim Buck moved and Jessica Stowell seconded to approve the June committee meeting minutes. No discussion was noted. The motion carried unanimously 4-0 on a voice vote."
+      },
+      {
+        "item": "Director of Public Works and Utilities Report - Lift Station No. 3",
+        "body": "Greg reported that wipes are clogging the vacuum-style Lift Station No. 3 nearly every day, requiring staff to spend roughly 1.5 hours daily clearing pumps at significant cost. Letters were mailed to customers warning against flushing wipes. The committee discussed using sewer cameras to identify offending addresses once a new utility employee starts the following Monday, and confirmed the village ordinance allows billing customers for damages caused by illegal dumping. Greg noted plans to televise sewer lines and work with Green Bay Pipe and TV to pinpoint problem sources."
+      },
+      {
+        "item": "Director of Public Works and Utilities Report - Village Garage Project",
+        "body": "Greg reported that the public works crew completed site excavation and gravel base work for the village garage project, and that ST Ellenbecker is expected to begin pouring concrete imminently, before cold weather requires heat blankets."
+      },
+      {
+        "item": "Finance and Treasurer Report - August Financial Statements",
+        "body": "John (Finance/Treasurer) reported that the water utility showed revenues of approximately $513,000 through eight months against a positive fund balance of $183,000 after expenses, slightly below the prior year's $217,000 surplus. The sewer utility showed revenues of $786,000 against a surplus of $198,000, lower than the prior year's $312,000 due to elevated Rib Mountain Metro Sewage District charges that surged from a budgeted $460,000 to an estimated $572,000 for 2026. Total water utility debt stands at approximately $2.949 million, scheduled for payoff in 2043; the sewer utility currently carries no debt. No rate increases are anticipated for 2027."
+      },
+      {
+        "item": "Septic Tank Ordinance Discussion - Northland Lutheran High School Holding Tank Request",
+        "body": "A representative from Northland Lutheran High School presented the school's request to install a holding tank for a small concession stand with two single-stall bathrooms used seasonally for soccer and baseball games, located approximately 407 feet from the nearest utility lateral. The committee developed amended ordinance language including: non-residential use only, seasonal use up to seven months, minimum 400 feet from nearest lateral, minimum lot size of one acre, tank size meeting Marathon County minimum requirements, and requiring approval from both the Public Works Director and the Utility Committee. Jim Buck moved and Dan Raskowski seconded to recommend the amended ordinance change to the Plan Commission and Village Board; the motion carried 4-0. Staff will draft language and consult the village attorney on whether a public hearing is required."
+      },
+      {
+        "item": "2027 Budget Discussion - Water and Sewer Utilities",
+        "body": "John and Greg presented the proposed 2027 utility budgets. No water or sewer rate increases are proposed for 2027. On the sewer side, projected revenues of approximately $1.371 million and inclusion of $548,100 in Rib Mountain Metro costs still yield a projected net profit of roughly $7,800, making a rate increase unnecessary. On the water side, revenues are projected at $947,000 driven in part by an estimated $90,000 in connection fees from the Marathon County garage project; after accounting for expenses including one additional half-time crew employee shared between water and sewer, the water utility is near break-even. The committee also discussed the Marathon County garage's plans to use wells for brine-making and car wash operations rather than municipal water, with committee member Alex Fedbeck pushing for a cost-benefit analysis on requiring municipal water connection to capture long-term revenue. Borrowing for the 2027–2029 CIP is proposed to be delayed until after July 1, 2027, to defer principal and interest costs to the 2028 budget."
+      }
+    ],
+    "publicComment": "Two speakers signed up for public comment. Lori Foundry spoke at length about severe water quality problems — black and orange sludge, corroded fixtures, and water she considers unfit for drinking or cooking — at her home near Rainbow Drive and County Road XX, which sits at a dead end of the municipal water system. She requested action and expressed frustration over unreturned calls. A second attendee identified as 'Guy Russ' from 3013 North Road indicated he was present only for the septic item and did not offer additional comment.",
+    "actionItems": [
+      "Staff to schedule water sampling visit with Mark Mackey at Lori Foundry's residence and her neighbor at approximately 1885 County Road XX",
+      "Staff to explore pipe scrubbing, RO system installation, and easement options for looping the dead-end line serving Foundry's property; looping project to be considered for the Capital Improvement Plan",
+      "Staff to provide Foundry with a water bill adjustment or compensation for unusable water service",
+      "Greg to knock on doors at 1994 Eva Road to inquire about easement willingness for potential pipe loop",
+      "Staff to begin popping manholes and deploying cameras at Lift Station No. 3 once new employee starts Monday to identify residents flushing wipes",
+      "Staff to draft revised septic tank ordinance language as discussed and submit to village attorney to determine if a public hearing is required before forwarding to Plan Commission",
+      "Staff to contact Nathan (administrator) regarding Marathon County garage conditional use permit conditions related to municipal water connection",
+      "Staff to contact City of Wausau DPW for comparable brine-making water usage data to inform analysis of requiring Marathon County garage to connect to municipal water",
+      "John to reduce water purchase line item in 2027 budget from $300,000 to $250,000",
+      "Staff to proceed with engineering firm contract for well exploration study; project expected to roll into 2027"
+    ],
+    "topics": [
+      "Utilities",
+      "Budget",
+      "Water Quality",
+      "Development",
+      "Lift Station No. 3",
+      "Marathon County Garage",
+      "Septic Tank Ordinance"
+    ],
+    "votes": [
+      {
+        "item": "Approval of June Utility Committee meeting minutes",
+        "motion": "Motion to approve the minutes",
+        "mover": "Jim Buck",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Recommend ordinance amendment to allow holding tanks under specified conditions (septic tank ordinance change 508.37)",
+        "motion": "Motion to recommend change in ordinance 508.37 as discussed and amended, allowing holding tanks with approval from Marathon County and Public Works Director, 400 feet from nearest utility, non-residential only, utility committee review and approval, county minimum tank size, minimum five-acre lot, and seven months seasonal use",
+        "mover": "Jim Buck",
+        "second": "Dan Raskowski",
+        "outcome": "Approved",
+        "tally": "4-0"
+      }
+    ]
   },
   {
     "id": "-npwmRTKxi8",
@@ -462,76 +702,135 @@
     ]
   },
   {
-    "id": "kw_d2ac75594e524e2e822fe02807f72756",
+    "id": "kw_7d8d40bd5c914413b079613170d2d052",
     "source": "kronenwetter",
-    "title": "Utility Committee Meeting",
-    "date": "October 6, 2026",
-    "shortDate": "OCT 6",
-    "committee": "Utility",
+    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
+    "date": "October 5, 2026",
+    "shortDate": "OCT 5",
+    "committee": "CLIPP",
     "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d2ac75594e524e2e822fe02807f72756.pdf",
-    "isAgendaOnly": true,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-27",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7d8d40bd5c914413b079613170d2d052.pdf",
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Utility Committee of the Village of Kronenwetter was scheduled to meet to address the 2027 budget, a second draft of the 2027-2036 Capital Improvements Program, and discussion of a septic tank ordinance. The meeting was also set to receive reports from the Director of Public Works and Utilities and the Finance/Treasurer.",
+    "overview": "The Kronenwetter CLIPP Committee held its second review of the proposed 2027-2036 Capital Improvement Program (CIP), a 10-year plan totaling approximately $4.3 million in 2027 expenditures across roads, parks, utilities, public safety equipment, and facilities. No formal vote was taken on the CIP itself, as adoption is scheduled for the November 9 budget hearing; discussion focused on project priorities including Maple Ridge Road reconstruction, fire truck preordering timelines, lift station upgrades, a future water tower and well, and parks improvements at Bushga Park. The committee also briefly addressed a $1.2 million borrowing deadline of October 2027 and the fiscal implications of shifting $863,000 in TID 2 proceeds back to the village's general debt service.",
     "agenda": [
       {
-        "time": "N/A",
-        "item": "Approval of Minutes - June 2, 2026 Utility Committee Meeting Minutes"
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Director of Public Works and Utilities Report"
+        "time": "0:30",
+        "item": "Roll Call"
       },
       {
-        "time": "N/A",
-        "item": "Finance/Treasurer Report"
+        "time": "1:00",
+        "item": "Public Comments"
       },
       {
-        "time": "N/A",
-        "item": "Septic Tank Ordinance Discussion"
+        "time": "1:20",
+        "item": "New Business: 2027-2036 Capital Improvements Program (CIP) Budget - Second Review"
       },
       {
-        "time": "N/A",
-        "item": "2027 Budget Discussion"
+        "time": "3:00",
+        "item": "Fire Department: Rescue Truck Preorder Discussion (2029)"
       },
       {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+        "time": "8:00",
+        "item": "Street Infrastructure: Maple Ridge Road Project Discussion"
+      },
+      {
+        "time": "25:00",
+        "item": "Parks Committee Additions to CIP"
+      },
+      {
+        "time": "40:00",
+        "item": "Sewer and Water Utility CIP Items (Lift Stations, Back Truck, New Well/Water Tower)"
+      },
+      {
+        "time": "58:00",
+        "item": "Revenue and Debt Service Overview (Page 11 and Page 15)"
+      },
+      {
+        "time": "1:15:00",
+        "item": "Next Meeting Date - November 2nd / Consideration of Future Agenda Items"
+      },
+      {
+        "time": "1:20:00",
+        "item": "Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Approval of Minutes",
-        "body": "The committee was scheduled to review and consider approval of the June 2, 2026 Utility Committee meeting minutes."
+        "item": "2027-2036 Capital Improvements Program - Overview",
+        "body": "Village Administrator John presented the second draft of the 10-year CIP, noting the primary additions since the first draft were park committee items with cost estimates placed into specific years. He emphasized the 2027 year is the only year being formally adopted in the upcoming budget cycle, with 2028-2036 serving as a planning tool. The total proposed 2027 CIP expenditure is approximately $4.3 million spread across the general fund, capital projects fund, capital equipment fund, utility funds, and the park improvement fund. The administrator stressed the village has historically failed to invest in infrastructure — one employee noted it had been 26 years since the village last paved a road."
       },
       {
-        "item": "Septic Tank Ordinance Discussion",
-        "body": "The committee was set to discuss the septic tank ordinance as old business, with possible action to be taken on this matter."
+        "item": "Fire Department Rescue Truck Preorder (2029)",
+        "body": "The administrator noted the rescue/fire truck slotted for 2029 requires a formal commitment to preorder three to four years in advance, meaning an order placed now would likely not be received until 2030 or later. No down payment is required at order time, but the village board would need to sign a preorder agreement in a future budget year. The committee acknowledged this commitment does not need to be finalized in the next few months but cannot be deferred indefinitely without pushing delivery further out."
       },
       {
-        "item": "2027 Budget Discussion",
-        "body": "The committee was scheduled to discuss the 2027 budget as new business, with possible action anticipated on this item."
+        "item": "Maple Ridge Road Reconstruction",
+        "body": "Trustee Myszka and President Joling identified Maple Ridge Road as the highest priority road project, noting it is the only village road with freeway access and the county recently improved adjacent county roads. Public Works Director Greg confirmed that core samples have been taken but a full engineering design is still needed; realistically, construction would begin in 2028 at the earliest. The administrator proposed potentially splitting the project across 2027 (engineering/design) and 2028 (construction), and noted that $1.2 million in leftover 2024 borrowing proceeds — which must be spent by October 2027 — could be committed to Maple Ridge. The committee discussed that approved bids from the village board may be sufficient to legally 'commit' those funds by the deadline. A question was raised about whether the steep hill section east of Spring could be graded down; Greg cautioned this would involve significant excavation costs, slope design, and potential DNR involvement."
       },
       {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft",
-        "body": "The committee was expected to consider the second draft of the Capital Improvements Program budget covering the period 2027-2036, with possible action to be taken."
+        "item": "Municipal Building Maintenance",
+        "body": "Trustee [Patty Tukowski] raised concerns that only modest capital funds were set aside in 2027 for the municipal building despite known maintenance issues including roof leaks. The administrator acknowledged the building has suffered from years of inconsistent maintenance and explained that some repairs — such as heated roof tape and handicap entrance fixes — would be absorbed into the operational budget rather than the capital plan. He framed the CIP as a working document that will evolve as priorities shift."
+      },
+      {
+        "item": "Parks CIP Items and Fundraising Update",
+        "body": "The parks committee additions, including playground equipment for Bushga Park and fencing for other parks, were incorporated into the CIP with 2027 borrowing projected at approximately $175,000, partially offset by $25,000 from the park improvement fund. Trustee [Patty Tukowski] noted the parks committee had unanimously recommended adding a zip line and rubber surface to Friendship Park for the 2029 improvement cycle; the administrator acknowledged this was not yet in the document and committed to adding it before the October 19-20 budget workshops. On fundraising, Trustee Myszka reported approximately $20,000 raised to date, including $1,348 from the 5K event and a $236 donation from the 50/50 raffle winner."
+      },
+      {
+        "item": "Sewer and Water Utility CIP Items",
+        "body": "Public Works Director Greg detailed planned lift station upgrades (stations 5, 7, 9 panel replacements and generator additions), the removal of lift station 10 serving approximately 60 homes, and the in-progress removal of lift station 3 which uses a vacuum system prone to daily clogging. He highlighted the need for a vac/jet back truck (approximately $500,000) and a waste truck, both of which are dependent on the new garage being completed around February. The water utility section flagged a projected $11 million need for a new well and water tower, with the administrator cautioning this is a rough high estimate spread over multiple years and subject to a five-to-six-year Public Service Commission approval process. A potential TIF district was discussed as a way to offset water infrastructure costs, though TID 1 in the target area is severely distressed and cannot be overlaid with a new TID boundary."
+      },
+      {
+        "item": "Debt Service and Revenue Structure",
+        "body": "The administrator explained that shifting $863,000 in TID 2 bond proceeds back to the village's general debt service — because the Flanner Jamerals project came in over budget and did not use those proceeds — will modestly increase the village's tax levy debt service obligation but allow TID 2 to close earlier, potentially releasing approximately $80 million in valuation and generating an estimated $250,000 annually in additional property tax revenue. Trustee [Paul Maja] recalled the administrator's earlier explanation that a significant drop in existing debt service around 2029 would help absorb new borrowing, which the administrator confirmed but noted the restructuring has reduced two prior projected drops to one drop of approximately $200,000 in 2029. For 2027, general obligation borrowing is proposed for only two projects: Bushga Park playground equipment and Maple Ridge Road, totaling approximately $1.8 million."
+      },
+      {
+        "item": "Highway Aid Formula Impact",
+        "body": "The administrator noted that completing Kronenwetter Drive in 2025 ($2.2 million project) has already increased the village's annual state highway aid by over $50,000 for the 2027 budget year due to the state's three-year and six-year spending averages. He projected that continuing capital investments in roads and police staffing would further increase highway aid in 2028 and beyond, framing infrastructure investment as self-reinforcing from a revenue standpoint."
+      },
+      {
+        "item": "Next Meeting and Future Agenda Items",
+        "body": "The committee noted the November 2nd meeting falls the day before the general election. Trustee [Patty Tukowski] indicated she would be working the election and would need to start at 6:30 a.m.; the committee briefly discussed moving the meeting start time to 5:30 p.m. with general agreement but no formal action. The administrator stated the November 2nd meeting would primarily provide a CIP update and possibly address the fire truck commitment timeline. Trustee Myszka requested a follow-up on the park bricks project for a future agenda."
       }
     ],
-    "publicComment": "Public comment was scheduled to be received for up to 15 minutes total, with a three-minute time limit per person, subject to extension at the Chief Presiding Officer's discretion.",
+    "publicComment": "No public comment was offered.",
     "actionItems": [
-      "Scheduled to vote on approval of June 2, 2026 meeting minutes",
-      "Expected to consider action on septic tank ordinance discussion",
-      "Expected to consider action on 2027 budget",
-      "Expected to consider action on 2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+      "Administrator to add Friendship Park zip line and rubber surface (estimated $20,000) to the CIP document before the October 19-20 budget workshops",
+      "Administrator and Public Works Director to explore engineering timeline and potential 2027/2028 split for Maple Ridge Road project",
+      "Administrator to work with financial advisors (Ehlers) to structure proposed debt service layers and model tax levy impact for budget workshops on October 19-20",
+      "Administrator to bring CIP to Utility Committee (October 6) and APC (following Tuesday) before full budget workshops",
+      "Administrator to determine whether approved bids by October 2027 are sufficient to legally commit the $1.2 million in leftover 2024 borrowing proceeds",
+      "Public Works Director to continue lift station 3 removal engineering and finalize plans",
+      "Administrator to investigate potential state safety grant for Maple Ridge Road hill grading",
+      "Consider moving November 2nd CLIPP meeting start time to 5:30 p.m. due to election day conflicts",
+      "Administrator to finalize year-end 2025 audit and transfer unused park fund balance (~$18,000-$19,000) to park improvement fund pending village board/APC approval",
+      "Fire truck preorder commitment timeline to be addressed at budget workshops and potentially as a 2027 village board action item"
     ],
     "topics": [
-      "Budget",
+      "Capital Improvement Plan",
+      "Roads",
+      "Parks",
       "Utilities",
-      "Capital Improvements",
-      "Septic Tank Ordinance"
+      "Budget",
+      "Maple Ridge Road",
+      "Bushga Park",
+      "Lift Station Upgrades"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn",
+        "mover": "Dan Joling",
+        "second": "Patty Tukowski",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "sX1w_FeXB0Y",
@@ -872,42 +1171,6 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_7d8d40bd5c914413b079613170d2d052",
-    "source": "kronenwetter",
-    "title": "Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting",
-    "date": "October 5, 2026",
-    "shortDate": "OCT 5",
-    "committee": "CLIPP",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-27",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7d8d40bd5c914413b079613170d2d052.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Community Life, Infrastructure and Public Property Committee of Kronenwetter was scheduled to meet to address the 2027-2036 Capital Improvements Program budget. This ten-year capital planning document is significant for guiding the village's infrastructure investments and development priorities over the coming decade.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget",
-        "body": "The committee was scheduled to discuss and take possible action on the ten-year Capital Improvements Program budget covering fiscal years 2027 through 2036. This agenda item was set to review the village's planned infrastructure investments and capital projects for the upcoming decade."
-      }
-    ],
-    "publicComment": "Public comment was scheduled on the agenda, limited to 15 minutes total with three minutes per person.",
-    "actionItems": [
-      "Scheduled to discuss and take possible action on the 2027-2036 Capital Improvements Program Budget"
-    ],
-    "topics": [
-      "Capital Improvements",
-      "Budget",
-      "Infrastructure"
-    ],
-    "votes": []
   },
   {
     "id": "BHzFs3uCrl8",
@@ -5483,143 +5746,6 @@
         "motion": "Motion to establish a special exploratory subcommittee to consider and develop a boulevard planting scheme, amended to require cooperation with the sustainability commission",
         "mover": "Alder Wiskowski",
         "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "yDRMhNnLPuQ",
-    "source": "marathon",
-    "title": "Human Resources, Finance, and Property Committee Meeting",
-    "date": "September 9, 2026",
-    "shortDate": "SEP 9",
-    "committee": "Marathon County Human Resources, Finance, and Property Committee",
-    "duration": "36m",
-    "url": "https://www.youtube.com/watch?v=yDRMhNnLPuQ",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Human Resources, Finance, and Property Committee met and addressed several significant items including a credit union lease situation at 400 Thomas Street, conduit financing consent for a local hotel project, an ARPA funding update, a detailed presentation on the sheriff's office contract with the Village of Rib Mountain, and a Wisconsin Public Service easement matter. The committee approved conduit financing for the Wasa Hotel Group and voted to enter closed session to discuss the Rib Mountain law enforcement contract and a WPS easement at Sunny Bell Park.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Approve August 25th minutes and August 8th joint meeting minutes with EEC"
-      },
-      {
-        "time": "0:45",
-        "item": "Operational functions / annual budget development (deferred)"
-      },
-      {
-        "time": "1:10",
-        "item": "Update on lease with credit union at 400 Thomas Street"
-      },
-      {
-        "time": "4:45",
-        "item": "August claims and question costs approval"
-      },
-      {
-        "time": "5:30",
-        "item": "Request for consent of conduit financing via Public Finance Authority for local construction project (Wasa Hotel Group)"
-      },
-      {
-        "time": "11:10",
-        "item": "Update on American Rescue Plan Act (ARPA) funding usage and plan for reallocation"
-      },
-      {
-        "time": "13:30",
-        "item": "Sheriff's office contract with the Village of Rib Mountain — open session overview"
-      },
-      {
-        "time": "34:00",
-        "item": "Wisconsin Public Service easement at Sunny Bell Park — open session overview"
-      },
-      {
-        "time": "35:30",
-        "item": "Motion to enter closed session for Rib Mountain contract and WPS easement"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approve August 25th and August 8th joint meeting minutes",
-        "body": "Chair Gibbs called for approval of the August 25th minutes and the August 8th joint meeting minutes with the EEC. Vice Chair Pool moved and Supervisor Hart seconded. The motion carried with no opposition noted."
-      },
-      {
-        "item": "Credit union lease at 400 Thomas Street",
-        "body": "County administrator reported that the credit union, which leases space at the former social services building at 400 Thomas Street, has not provided a firm move-out date despite multiple requests. Chair Gibbs asked whether the county could invoke the 180-day notice provision in the lease to force the issue. Administrator confirmed the authority exists under the lease. The administrator advised against formally directing termination that day, noting a closed session update was planned, and said he would convey to the credit union that the committee had discussed the possibility of issuing notice."
-      },
-      {
-        "item": "August claims and question costs",
-        "body": "A motion was made to approve claims and question costs for August 2026. The motion carried with no opposition. Chair Gibbs noted to staff that weekend work to prepare materials was appreciated but not expected."
-      },
-      {
-        "item": "Conduit financing consent via Public Finance Authority for Wasa Hotel Group",
-        "body": "County administrator Leonard explained that Wasa Hotel Group requested consent to access up to $10 million in bonding through the Public Finance Authority (PFA) for hotel renovations and debt refinancing, with no financial obligation or impact on the county's general obligation bonding capacity. Managing member John Kofi described the hotel's turnaround from being the second-worst performing Holiday Inn Express out of 2,600 to the top 2%, with $3.5 million invested since 2017 and approximately $285,000 in annual room tax contributions. Bond counsel Frank Gare (Corals and Brady) confirmed there is no statewide cap on PFA issuance. Vice Chair Pool moved to consent; Chair Gibbs seconded. The motion carried unanimously."
-      },
-      {
-        "item": "ARPA funding update and reallocation plan",
-        "body": "Finance staff reported that of the original $26,356,580 in ARPA funds, approximately $480,824.39 remains unspent. The most active remaining projects are the 9M forest septic system and Shelly renovation, and potentially the fiber optics Bug Tussle project. Staff indicated a resolution to reallocate unspent funds to a previously approved project will be brought to the committee next month to minimize clawback risk ahead of the December 31st expenditure deadline."
-      },
-      {
-        "item": "Sheriff's office contract with the Village of Rib Mountain",
-        "body": "Sheriff Chad Phillip and County Administrator Leonard presented detailed data analysis by Data Officer Michael Schultz showing that dedicated Rib Mountain deputies handle only about 29% of calls in the village, with 70-71% handled by non-dedicated county deputies. The data showed peak call volume occurring from noon through early evening, prompting a shift in deputy scheduling toward afternoon hours. Administrator Leonard noted the current contract undercharges Rib Mountain by approximately $30,000 per deputy annually when indirect costs are properly calculated. Vice Chair Pool asked whether the three Rib Mountain deputies also serve other areas; the sheriff confirmed they do, including SWAT, dive team, and crash reconstruction duties, with roughly 60 documented instances of responding outside Rib Mountain. The committee was advised that as a village, Rib Mountain is now legally mandated to provide law enforcement and that any contract requires county board ratification. Further discussion was deferred to closed session."
-      },
-      {
-        "item": "Wisconsin Public Service easement at Sunny Bell Park",
-        "body": "Administrator Leonard briefly described this as a carryover item from a previous meeting, noting that WPS had proposed a valuation for a natural gas regulator station easement at Sunny Bell Park that the committee had previously indicated was insufficient. Director Pauly was referenced as involved in the valuation discussions. No substantive open-session debate occurred; the matter was referred to closed session for direction to administration."
-      },
-      {
-        "item": "Motion to enter closed session",
-        "body": "Chair Gibbs read the motion to enter closed session under Wisconsin Statute 19.85(1)(e) for bargaining reasons, covering two topics: the sheriff's office contract with the Village of Rib Mountain and the WPS easement at Sunny Bell Park (Sunny Bell Park natural gas regulator station). Vice Chair Pool seconded. A roll call vote was taken and the motion carried."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Administration to convey to the credit union that the committee discussed invoking the 180-day lease termination notice, with a closed session update to follow at the next meeting",
-      "Forward Wasa Hotel Group conduit financing consent resolution to the full county board for approval",
-      "Staff to bring a resolution next month to reallocate remaining ARPA funds (~$480,824) to a previously approved project before the December 31st deadline",
-      "Continue closed-session negotiations with the Village of Rib Mountain on sheriff's office contract cost increases (~$30,000 per deputy annually) and staffing levels",
-      "Provide direction to administration and Director Pauly in closed session regarding WPS easement valuation at Sunny Bell Park",
-      "Data Officer Michael Schultz to continue refining data on how often Rib Mountain-dedicated deputies respond outside the village"
-    ],
-    "topics": [
-      "Budget",
-      "Public Safety",
-      "Staffing",
-      "Rib Mountain Law Enforcement Contract",
-      "Sunny Bell Park Easement",
-      "ARPA Funding"
-    ],
-    "votes": [
-      {
-        "item": "Approve August 25th minutes and August 8th joint meeting minutes with EEC",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Hart",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve August claims and question costs",
-        "motion": "Motion to approve claims and question costs for August 2026",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Consent to conduit financing via Public Finance Authority for Wasa Hotel Group (up to $10 million)",
-        "motion": "Move that we consent for conduit financing via the Public Finance Authority for this construction project",
-        "mover": "Vice Chair Pool",
-        "second": "Kurt Gibbs",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Enter closed session for Rib Mountain sheriff's contract and WPS Sunny Bell Park easement",
-        "motion": "Move to go into closed session pursuant to Wisconsin Statute 19.85(1)(e) for bargaining reasons",
-        "mover": "Kurt Gibbs",
-        "second": "Vice Chair Pool",
         "outcome": "Approved",
         "tally": null
       }

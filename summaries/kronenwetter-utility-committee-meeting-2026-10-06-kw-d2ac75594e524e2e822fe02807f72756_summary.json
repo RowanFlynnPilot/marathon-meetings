@@ -1,68 +1,120 @@
 {
-  "overview": "Based on the published agenda, the Utility Committee of the Village of Kronenwetter was scheduled to meet to address the 2027 budget, a second draft of the 2027-2036 Capital Improvements Program, and discussion of a septic tank ordinance. The meeting was also set to receive reports from the Director of Public Works and Utilities and the Finance/Treasurer.",
-  "committee": "Utility Committee",
-  "presiding": "",
+  "overview": "The Kronenwetter Utility Committee met October 6, 2026, addressing a resident water quality complaint involving black and orange sludge at a dead-end line, approving a change to the septic tank ordinance to allow holding tanks under specific conditions, reviewing the 2027 utility budget with no rate increases proposed for either water or sewer, and discussing ongoing issues with wipes clogging Lift Station No. 3. Key decisions included recommending an ordinance amendment to allow holding tanks and directing staff to explore looping options and water sampling for the affected resident.",
+  "committee": "Utility Committee - Village of Kronenwetter",
+  "presiding": "Jim Buck, Committee Chair (based on running the meeting)",
   "agenda": [
     {
-      "time": "N/A",
-      "item": "Approval of Minutes - June 2, 2026 Utility Committee Meeting Minutes"
+      "time": "0:00",
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
-      "time": "N/A",
-      "item": "Director of Public Works and Utilities Report"
+      "time": "1:15",
+      "item": "Roll Call"
     },
     {
-      "time": "N/A",
-      "item": "Finance/Treasurer Report"
+      "time": "2:00",
+      "item": "Public Comment"
     },
     {
-      "time": "N/A",
-      "item": "Septic Tank Ordinance Discussion"
+      "time": "38:30",
+      "item": "Approval of Minutes (June meeting)"
     },
     {
-      "time": "N/A",
-      "item": "2027 Budget Discussion"
+      "time": "40:00",
+      "item": "Director of Public Works and Utilities Report - Lift Station No. 3 wipes issue and Village Garage project update"
     },
     {
-      "time": "N/A",
-      "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+      "time": "52:00",
+      "item": "Finance and Treasurer Report - August financial statements"
+    },
+    {
+      "time": "1:04:00",
+      "item": "Old Business - Septic Tank Ordinance Discussion (Northland Lutheran High School holding tank request)"
+    },
+    {
+      "time": "1:35:00",
+      "item": "2027 Budget Discussion - Water and Sewer Utility revenues and expenses"
+    },
+    {
+      "time": "2:20:00",
+      "item": "Capital Improvement Plan (CIP) discussion referenced in context of new well, water tower, and looping projects"
     }
   ],
   "discussions": [
     {
+      "item": "Public Comment - Resident Water Quality Complaint",
+      "body": "Resident Lori Foundry of Rainbow Drive/County Road XX described severe black and orange sludge in her water supply, corroded fixtures, clogged drains, and water she considers unsafe to drink or use for washing food. Greg (Public Works Director) explained the problem stems from manganese buildup at a dead-end line serving only two customers, and that flushing every six to eight weeks has not resolved the issue. The committee discussed options including pipe scrubbing, installing an RO filtration system, exploring a pipe-looping project estimated at $300,000–$400,000, and potentially obtaining an easement from a neighboring property. Staff committed to having lead water utility worker Mark Mackey visit the property to take water samples, and the committee expressed willingness to provide some form of bill compensation. The looping project was identified as a candidate for the Capital Improvement Plan."
+    },
+    {
       "item": "Approval of Minutes",
-      "body": "The committee was scheduled to review and consider approval of the June 2, 2026 Utility Committee meeting minutes."
+      "body": "Jim Buck moved and Jessica Stowell seconded to approve the June committee meeting minutes. No discussion was noted. The motion carried unanimously 4-0 on a voice vote."
     },
     {
-      "item": "Septic Tank Ordinance Discussion",
-      "body": "The committee was set to discuss the septic tank ordinance as old business, with possible action to be taken on this matter."
+      "item": "Director of Public Works and Utilities Report - Lift Station No. 3",
+      "body": "Greg reported that wipes are clogging the vacuum-style Lift Station No. 3 nearly every day, requiring staff to spend roughly 1.5 hours daily clearing pumps at significant cost. Letters were mailed to customers warning against flushing wipes. The committee discussed using sewer cameras to identify offending addresses once a new utility employee starts the following Monday, and confirmed the village ordinance allows billing customers for damages caused by illegal dumping. Greg noted plans to televise sewer lines and work with Green Bay Pipe and TV to pinpoint problem sources."
     },
     {
-      "item": "2027 Budget Discussion",
-      "body": "The committee was scheduled to discuss the 2027 budget as new business, with possible action anticipated on this item."
+      "item": "Director of Public Works and Utilities Report - Village Garage Project",
+      "body": "Greg reported that the public works crew completed site excavation and gravel base work for the village garage project, and that ST Ellenbecker is expected to begin pouring concrete imminently, before cold weather requires heat blankets."
     },
     {
-      "item": "2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft",
-      "body": "The committee was expected to consider the second draft of the Capital Improvements Program budget covering the period 2027-2036, with possible action to be taken."
+      "item": "Finance and Treasurer Report - August Financial Statements",
+      "body": "John (Finance/Treasurer) reported that the water utility showed revenues of approximately $513,000 through eight months against a positive fund balance of $183,000 after expenses, slightly below the prior year's $217,000 surplus. The sewer utility showed revenues of $786,000 against a surplus of $198,000, lower than the prior year's $312,000 due to elevated Rib Mountain Metro Sewage District charges that surged from a budgeted $460,000 to an estimated $572,000 for 2026. Total water utility debt stands at approximately $2.949 million, scheduled for payoff in 2043; the sewer utility currently carries no debt. No rate increases are anticipated for 2027."
+    },
+    {
+      "item": "Septic Tank Ordinance Discussion - Northland Lutheran High School Holding Tank Request",
+      "body": "A representative from Northland Lutheran High School presented the school's request to install a holding tank for a small concession stand with two single-stall bathrooms used seasonally for soccer and baseball games, located approximately 407 feet from the nearest utility lateral. The committee developed amended ordinance language including: non-residential use only, seasonal use up to seven months, minimum 400 feet from nearest lateral, minimum lot size of one acre, tank size meeting Marathon County minimum requirements, and requiring approval from both the Public Works Director and the Utility Committee. Jim Buck moved and Dan Raskowski seconded to recommend the amended ordinance change to the Plan Commission and Village Board; the motion carried 4-0. Staff will draft language and consult the village attorney on whether a public hearing is required."
+    },
+    {
+      "item": "2027 Budget Discussion - Water and Sewer Utilities",
+      "body": "John and Greg presented the proposed 2027 utility budgets. No water or sewer rate increases are proposed for 2027. On the sewer side, projected revenues of approximately $1.371 million and inclusion of $548,100 in Rib Mountain Metro costs still yield a projected net profit of roughly $7,800, making a rate increase unnecessary. On the water side, revenues are projected at $947,000 driven in part by an estimated $90,000 in connection fees from the Marathon County garage project; after accounting for expenses including one additional half-time crew employee shared between water and sewer, the water utility is near break-even. The committee also discussed the Marathon County garage's plans to use wells for brine-making and car wash operations rather than municipal water, with committee member Alex Fedbeck pushing for a cost-benefit analysis on requiring municipal water connection to capture long-term revenue. Borrowing for the 2027–2029 CIP is proposed to be delayed until after July 1, 2027, to defer principal and interest costs to the 2028 budget."
     }
   ],
-  "publicComment": "Public comment was scheduled to be received for up to 15 minutes total, with a three-minute time limit per person, subject to extension at the Chief Presiding Officer's discretion.",
+  "publicComment": "Two speakers signed up for public comment. Lori Foundry spoke at length about severe water quality problems — black and orange sludge, corroded fixtures, and water she considers unfit for drinking or cooking — at her home near Rainbow Drive and County Road XX, which sits at a dead end of the municipal water system. She requested action and expressed frustration over unreturned calls. A second attendee identified as 'Guy Russ' from 3013 North Road indicated he was present only for the septic item and did not offer additional comment.",
   "actionItems": [
-    "Scheduled to vote on approval of June 2, 2026 meeting minutes",
-    "Expected to consider action on septic tank ordinance discussion",
-    "Expected to consider action on 2027 budget",
-    "Expected to consider action on 2027-2036 Capital Improvements Program (CIP) Budget – 2nd Draft"
+    "Staff to schedule water sampling visit with Mark Mackey at Lori Foundry's residence and her neighbor at approximately 1885 County Road XX",
+    "Staff to explore pipe scrubbing, RO system installation, and easement options for looping the dead-end line serving Foundry's property; looping project to be considered for the Capital Improvement Plan",
+    "Staff to provide Foundry with a water bill adjustment or compensation for unusable water service",
+    "Greg to knock on doors at 1994 Eva Road to inquire about easement willingness for potential pipe loop",
+    "Staff to begin popping manholes and deploying cameras at Lift Station No. 3 once new employee starts Monday to identify residents flushing wipes",
+    "Staff to draft revised septic tank ordinance language as discussed and submit to village attorney to determine if a public hearing is required before forwarding to Plan Commission",
+    "Staff to contact Nathan (administrator) regarding Marathon County garage conditional use permit conditions related to municipal water connection",
+    "Staff to contact City of Wausau DPW for comparable brine-making water usage data to inform analysis of requiring Marathon County garage to connect to municipal water",
+    "John to reduce water purchase line item in 2027 budget from $300,000 to $250,000",
+    "Staff to proceed with engineering firm contract for well exploration study; project expected to roll into 2027"
   ],
   "topics": [
-    "Budget",
     "Utilities",
-    "Capital Improvements",
+    "Budget",
+    "Water Quality",
+    "Development",
+    "Lift Station No. 3",
+    "Marathon County Garage",
     "Septic Tank Ordinance"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Approval of June Utility Committee meeting minutes",
+      "motion": "Motion to approve the minutes",
+      "mover": "Jim Buck",
+      "second": "Jessica Stowell",
+      "outcome": "Approved",
+      "tally": "4-0"
+    },
+    {
+      "item": "Recommend ordinance amendment to allow holding tanks under specified conditions (septic tank ordinance change 508.37)",
+      "motion": "Motion to recommend change in ordinance 508.37 as discussed and amended, allowing holding tanks with approval from Marathon County and Public Works Director, 400 feet from nearest utility, non-residential only, utility committee review and approval, county minimum tank size, minimum five-acre lot, and seven months seasonal use",
+      "mover": "Jim Buck",
+      "second": "Dan Raskowski",
+      "outcome": "Approved",
+      "tally": "4-0"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "bb0558f9329e9690",
   "title": "Utility Committee Meeting - 2026-10-06",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d2ac75594e524e2e822fe02807f72756.pdf",
-  "processed_at": "2026-10-06T01:18:51.674508+00:00"
+  "processed_at": "2026-10-09T06:09:51.675738+00:00"
 }
