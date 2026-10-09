@@ -57,12 +57,12 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
-UID:eb618212c881c94cd964@marathon-meetings
+UID:939ef0be8b551fad3b11@marathon-meetings
 DTSTAMP:20261012T000000Z
 DTSTART;TZID=America/Chicago:20261012T170000
 DTEND;TZID=America/Chicago:20261012T183000
-SUMMARY:Wausau School Board: Regular Board Meeting
-URL:https://meetings.boardbook.org/Public/Organization/1360
+SUMMARY:Wausau School Board: Regular Meeting
+URL:https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -144,7 +144,7 @@ DTSTAMP:20261013T000000Z
 DTSTART;TZID=America/Chicago:20261013T180000
 DTEND;TZID=America/Chicago:20261013T193000
 SUMMARY:Village of Weston: S.A.F.E.R. Board of Directors
-URL:https://www.westonwi.gov/agendacenter
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10132026-1980
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -278,6 +278,16 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:796a8dd6240aab8a08a2@marathon-meetings
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=America/Chicago:20261021T160000
+DTEND;TZID=America/Chicago:20261021T173000
+SUMMARY:City of Wausau: Board of Zoning Appeals Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3642/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:b54f0cb4ce3d2426a9ce@marathon-meetings
 DTSTAMP:20261021T000000Z
 DTSTART;TZID=America/Chicago:20261021T170000
@@ -304,16 +314,6 @@ DTSTART;TZID=America/Chicago:20261021T183000
 DTEND;TZID=America/Chicago:20261021T200000
 SUMMARY:DC Everest School Board: Regular School Board Meeting
 URL:https://meetings.boardbook.org/Public/Organization/1315
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:1b978c3de5531071a0bf@marathon-meetings
-DTSTAMP:20261026T000000Z
-DTSTART;TZID=America/Chicago:20261026T160000
-DTEND;TZID=America/Chicago:20261026T173000
-SUMMARY:City of Wausau: Room Tax Commission Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2338/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
