@@ -1,5 +1,76 @@
 [
   {
+    "id": "7uG0YZACZUY",
+    "source": "marathon",
+    "title": "Human Resources, Finance & Property Committee Meeting",
+    "date": "October 12, 2026",
+    "shortDate": "OCT 12",
+    "committee": "HR, Finance & Property",
+    "duration": "6m",
+    "url": "https://www.youtube.com/watch?v=7uG0YZACZUY",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Human Resources, Finance & Property Committee held a brief meeting focused on authorizing publication of the proposed 2027 county budget. The committee unanimously approved publication of the budget notice, which includes a proposed tax levy of $66,248,545 and a mill rate of 3.4773, advancing the budget process toward a public hearing on November 2nd and final county board action on November 10th.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:30",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "0:50",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:05",
+        "item": "Consideration of Amendments to the 2027 Budget and Authorization of Publication"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Consideration of Amendments to the 2027 Budget and Authorization of Publication",
+        "body": "County Administrator and Finance Director Brian Fensky reported that no proposed amendments to the budget had been received since the previous meeting. Fensky provided a high-level overview of the publication notice, which includes actual 2025 figures, amended and estimated 2026 figures, and the proposed 2027 budget broken down by category; he noted that state special charges were included in the general fund this year as a new addition. Chair Gibbs asked Fensky to clarify a significant increase in 'other financing uses' under expenditures, which Fensky explained represents transfers to other funds, including $5,884,464 in transfers proposed for 2027. The committee then approved publication unanimously, with the public hearing set for November 2nd and final county board action on November 10th."
+      }
+    ],
+    "publicComment": "No public comment was offered. Chair Gibbs noted that no one had approached the clerk or himself prior to the meeting.",
+    "actionItems": [
+      "Authorize publication of the 2027 proposed budget notice as presented",
+      "Schedule public hearing on the 2027 budget for November 2, 2026",
+      "County board to take final action on the 2027 budget on November 10, 2026",
+      "Committee to meet on October 20 for next regular meeting",
+      "Committee to meet on November 9 for normal business plus consideration of any budget amendments"
+    ],
+    "topics": [
+      "Budget",
+      "Tax Levy",
+      "2027 County Budget",
+      "Mill Rate",
+      "Public Hearing"
+    ],
+    "votes": [
+      {
+        "item": "Authorize publication of the 2027 proposed county budget",
+        "motion": "To allow and authorize the publication of the 2027 budget and bring it back to the board with the public hearing on November 2nd, 2026",
+        "mover": "Kurt Gibbs",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Supervisor Hart",
+        "second": "Kurt Gibbs",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
     "source": "kronenwetter",
     "title": "Village Board Meeting",
@@ -10,7 +81,7 @@
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on October 12, 2026, to receive staff reports and consider new business including updates on DC Everest building plans and discussion of establishing an ethics committee and code of conduct. The meeting was set to take place at the Kronenwetter Municipal Center.",
     "agenda": [
       {
@@ -64,7 +135,7 @@
     "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
     "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on October 12, 2026, to consider several action items including approval of the 2027-28 school calendar, a policy update recognizing the Wisconsin Seal of Biliteracy, and a potential class action lawsuit against social media companies. The board was also expected to receive updates on career and technical education programs and work-based learning opportunities.",
     "agenda": [
       {
@@ -5691,67 +5762,6 @@
         "motion": "Motion to adjourn",
         "mover": null,
         "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "qgjeCvm4vts",
-    "source": "wausau",
-    "title": "City Council Joint Human Resources Committee and Finance Committee Meeting Pt.2",
-    "date": "September 14, 2026",
-    "shortDate": "SEP 14",
-    "committee": "Wausau City Council Joint Human Resources Committee and Finance Committee",
-    "duration": "0m",
-    "url": "https://www.youtube.com/watch?v=qgjeCvm4vts",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "This was a very brief second part of a joint Human Resources and Finance Committee meeting in which a single motion regarding a termination was passed, followed immediately by adjournment. The meeting lasted only a matter of seconds in the recording, with minimal deliberation captured.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Motion regarding termination"
-      },
-      {
-        "time": "0:30",
-        "item": "Motion for adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Termination Motion",
-        "body": "An alder identified in the transcript as 'Alder Lerson' made a motion regarding a termination (full wording of motion was largely inaudible). A second was provided by an alder referred to as 'Alder Wowski.' The motion passed with at least one opposed vote recorded. Following the vote, the presiding officer noted that the union would receive a letter within 10 working days regarding the termination decision."
-      },
-      {
-        "item": "Adjournment",
-        "body": "Terry Kilian moved for adjournment, seconded by Alder Wowski. The motion passed with at least one member voting opposed. The meeting was then closed."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "A letter regarding the termination decision is to be sent to the union within 10 working days."
-    ],
-    "topics": [
-      "Staffing",
-      "Employee Termination",
-      "Labor Relations"
-    ],
-    "votes": [
-      {
-        "item": "Motion for termination",
-        "motion": "[inaudible — motion for termination]",
-        "mover": "Alder Lerson [spelling unverified]",
-        "second": "Alder Wowski [spelling unverified]",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Motion for adjournment",
-        "motion": "Motion for adjournment",
-        "mover": "Terry Kilian",
-        "second": "Alder Wowski [spelling unverified]",
         "outcome": "Approved",
         "tally": null
       }
