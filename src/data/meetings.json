@@ -1,5 +1,185 @@
 [
   {
+    "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "October 12, 2026",
+    "shortDate": "OCT 12",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on October 12, 2026, to receive staff reports and consider new business including updates on DC Everest building plans and discussion of establishing an ethics committee and code of conduct. The meeting was set to take place at the Kronenwetter Municipal Center.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Police Chief's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Administrator Report"
+      },
+      {
+        "time": "N/A",
+        "item": "DC Everest Superintendent updated building plans"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion on reestablishing the ethics committee and a code of conduct"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "DC Everest Superintendent updated building plans",
+        "body": "The board was scheduled to consider updates to building plans presented by the DC Everest Superintendent. This item was set for discussion and possible action during the new business portion of the meeting."
+      },
+      {
+        "item": "Discussion on reestablishing the ethics committee and a code of conduct",
+        "body": "The board was scheduled to discuss the reestablishment of an ethics committee and the development of a code of conduct for the village. This item was set for discussion and possible action during the new business portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, limited to 15 minutes total with a three-minute time period per person, at the discretion of the Chief Presiding Officer.",
+    "actionItems": [
+      "Scheduled to consider DC Everest building plan updates",
+      "Expected to discuss reestablishing ethics committee and code of conduct"
+    ],
+    "topics": [
+      "Development",
+      "Governance",
+      "Ethics Committee",
+      "DC Everest"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_769562",
+    "source": "school_board",
+    "title": "Regular Meeting",
+    "date": "October 12, 2026",
+    "shortDate": "OCT 12",
+    "committee": "Regular Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on October 12, 2026, to consider several action items including approval of the 2027-28 school calendar, a policy update recognizing the Wisconsin Seal of Biliteracy, and a potential class action lawsuit against social media companies. The board was also expected to receive updates on career and technical education programs and work-based learning opportunities.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Reading of the Mission Statement"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Committee of the Whole Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Career and Technical Education & Work-Based Learning Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Opportunity to Join Class Action Suit"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-28 School Calendar"
+      },
+      {
+        "time": "N/A",
+        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy)"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Professional Growth & Development Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Legislative Liaison"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "WASB Recognitions"
+      },
+      {
+        "time": "N/A",
+        "item": "Presiding Officer Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "Request for Closed Session Pursuant to State Statutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Evaluation of Superintendent of Schools"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Career and Technical Education & Work-Based Learning Update",
+        "body": "Jon Winter, CTE Coordinator, was scheduled to provide information on Youth Apprenticeships and opportunities available within the CTE program. The presentation was estimated to take 10 minutes and was expected to highlight work-based learning initiatives in the district."
+      },
+      {
+        "item": "Opportunity to Join Class Action Suit",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to share details of a class action lawsuit against social media companies whose platforms have affected youth in education. The board was expected to consider joining this litigation, with the presentation estimated at 10 minutes."
+      },
+      {
+        "item": "2027-28 School Calendar",
+        "body": "The board was scheduled to act on the proposed school calendar for the 2027-28 school year, which had been previously presented by Diana White, Communications Coordinator, and Dr. Katie Colwell, Assistant Superintendent of Academics, at the September Committee of the Whole meeting. This action item was expected to require a brief one-minute presentation."
+      },
+      {
+        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy)",
+        "body": "Dr. Jon Tomski was scheduled to present information regarding the Wisconsin Seal of Biliteracy, with the board expected to update Policy 2370 to recognize it as an educational opportunity offered in the district. The presentation was estimated at one minute and built on information previously shared at the September Committee of the Whole meeting."
+      }
+    ],
+    "publicComment": "A public and student comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to approve the Consent Agenda, including appointments, separations, leaves of absence, retirements, and previous meeting minutes",
+      "Board was expected to vote on the 2027-28 School Calendar",
+      "Board was expected to vote on updating Policy 2370 to recognize the Wisconsin Seal of Biliteracy as an educational opportunity",
+      "Board was expected to consider joining a class action lawsuit against social media companies"
+    ],
+    "topics": [
+      "Career and Technical Education",
+      "Work-Based Learning",
+      "Policy",
+      "Biliteracy",
+      "Social Media",
+      "Youth Education"
+    ],
+    "votes": []
+  },
+  {
     "id": "ubLxX0CnB20",
     "source": "wausau",
     "title": "Infrastructure and Facilities Meeting",
@@ -5574,246 +5754,6 @@
         "second": "Alder Wowski [spelling unverified]",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "VCg2SK5tzng",
-    "source": "wausau",
-    "title": "City Council Joint Human Resources Committee and Finance Committee Meeting Pt.1",
-    "date": "September 14, 2026",
-    "shortDate": "SEP 14",
-    "committee": "City of Wausau Joint Human Resources Committee and Finance Committee",
-    "duration": "18m",
-    "url": "https://www.youtube.com/watch?v=VCg2SK5tzng",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau City Council held a joint Human Resources and Finance Committee meeting to consider the 2027 employee benefit design, which includes significant increases to deductibles and insurance premiums. Both committees approved the benefit package as presented after debate over the financial burden on employees, and the HR committee then moved into closed session to consider a union grievance regarding an employee termination.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order — Joint HR and Finance Committee meeting"
-      },
-      {
-        "time": "0:30",
-        "item": "Discussion and possible action: Approving 2027 benefit design for City of Wausau and City County Information Technology Commission employees"
-      },
-      {
-        "time": "4:50",
-        "item": "Public comment from city employee on proposed benefit changes"
-      },
-      {
-        "time": "5:10",
-        "item": "HR Director Keenan presents rationale for benefit design changes and market comparison"
-      },
-      {
-        "time": "8:00",
-        "item": "Alder discussion on deductible increases, HSA contributions, and budget impact"
-      },
-      {
-        "time": "13:30",
-        "item": "Finance Committee votes to approve 2027 benefit package"
-      },
-      {
-        "time": "14:50",
-        "item": "HR Committee votes to approve 2027 benefit package"
-      },
-      {
-        "time": "15:10",
-        "item": "Finance Committee adjourns from joint session"
-      },
-      {
-        "time": "15:30",
-        "item": "HR Committee: Public comment (none offered); Consideration of minutes from August 10th"
-      },
-      {
-        "time": "16:00",
-        "item": "Discussion and possible action: ATU Local 1168 union grievance regarding employee termination — motion to adjourn to closed session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "2027 Benefit Design Approval",
-        "body": "Alan Wussellowski, city engineer with 26 years of service, addressed the committees expressing concern that the family deductible increase from $3,400 to $6,000 represents a roughly $3,000 per year additional burden on employees and warned it would hinder recruitment, citing a city surveyor position that has gone unfilled for two years with no applicants. HR Director Keenan responded that the city went to market and the Aspirus plan was the best available, noting the original premium increase proposed was 20.3% and was negotiated down to 9.6% in part through the deductible increases; she also noted the county's deductibles are higher ($4,000 single / $6,500 family) and city employees pay only 12% of premiums versus the county's 15%. Alder Hickeyi raised that the deductible increase for families represents roughly a 76% increase and questioned whether the city could increase HSA contributions, to which staff indicated that adding $600 per family plan would cost approximately $101,400 more on top of the already $550,000 premium increase, totaling over $650,000 in additional budget exposure. Keenan noted that 75% of employees with health insurance do not currently reach the maximum out-of-pocket and that the city also provides a 3% COLA plus merit increases, which is better than many employers."
-      },
-      {
-        "item": "Finance Committee Vote on 2027 Benefit Package",
-        "body": "Alder Neil moved to approve the benefit package as presented on the finance side; Alder Tierney seconded. The motion carried on a voice vote with no audible opposition."
-      },
-      {
-        "item": "HR Committee Vote on 2027 Benefit Package",
-        "body": "A motion was made to approve the benefit package as presented on the HR side; Alder Kilian seconded. The motion passed on a voice vote with no audible opposition."
-      },
-      {
-        "item": "Finance Committee Adjournment from Joint Session",
-        "body": "Alder Neil moved and Alder Heniki seconded a motion to adjourn the finance portion of the joint session. The motion carried unanimously on a voice vote and the Finance Committee stood adjourned."
-      },
-      {
-        "item": "HR Committee Minutes — August 10th",
-        "body": "Alder Wowski moved and Alder Laren seconded approval of the August 10th HR Committee minutes. The motion carried on a voice vote with no opposition."
-      },
-      {
-        "item": "ATU Local 1168 Union Grievance — Employee Termination (Closed Session)",
-        "body": "A motion was made to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(c) and (f) to consider the ATU Local 1168 union grievance regarding an employee termination. The motion required a roll call vote; Alders Mertin, Kilian, Wowski, and Laren all voted aye, and the chair voted in favor as well. The committee proceeded to closed session, with a note from staff that the committee would be required to return to open session before adjourning if any action needed to be taken."
-      }
-    ],
-    "publicComment": "One speaker addressed the joint committee during the benefit design discussion: Alan Wussellowski, identified as the city engineer residing on the third floor of city hall with 26 years of service, spoke against the scale of the deductible increase and urged the committees to consider increasing the city's HSA contribution to offset the burden on employees and to preserve the city's ability to attract and retain workers. No public comment was offered during the HR-only portion of the meeting.",
-    "actionItems": [
-      "2027 benefit design for City of Wausau and CCITC employees approved by both Finance and HR Committees as presented",
-      "Finance Committee adjourned from joint session",
-      "HR Committee approved August 10th meeting minutes",
-      "HR Committee moved to closed session to consider ATU Local 1168 grievance regarding employee termination; committee to return to open session before final adjournment"
-    ],
-    "topics": [
-      "Employee Benefits",
-      "Healthcare Costs",
-      "Staffing and Recruitment",
-      "Labor Relations",
-      "Budget"
-    ],
-    "votes": [
-      {
-        "item": "Approve 2027 benefit design — Finance Committee",
-        "motion": "Motion to approve the 2027 benefit package as presented",
-        "mover": "Alder Neil",
-        "second": "Alder Tierney",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve 2027 benefit design — HR Committee",
-        "motion": "Motion to approve as presented",
-        "mover": null,
-        "second": "Terry Kilian",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjourn Finance Committee from joint session",
-        "motion": "Motion to adjourn finance portion of joint session",
-        "mover": "Alder Neil",
-        "second": "Alder Heniki",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve HR Committee minutes from August 10th",
-        "motion": "Motion to approve the minutes",
-        "mover": "Alder Wowski",
-        "second": "Alder Laren",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjourn to closed session to consider ATU Local 1168 union grievance regarding employee termination",
-        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(c) and (f)",
-        "mover": null,
-        "second": "Alder Wowski",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_298c0e85a9a64543ad0884f861e78744",
-    "source": "kronenwetter",
-    "title": "Plan Commission Meeting",
-    "date": "September 10, 2026",
-    "shortDate": "SEP 10",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-30",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-298c0e85a9a64543ad0884f861e78744.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Plan Commission held a special September 10, 2026 meeting focused primarily on a conditional use permit for a Marathon County Highway Facility proposed at 2384-2388 Old Highway 51. The meeting drew significant public comment raising concerns about coal dust health hazards, road maintenance responsibility, tax revenue loss, and cemetery compatibility. The commission did not take a final vote, instead discussing conditions and leaning toward postponing a decision to its September 21 meeting to allow time for a written agreement between the county and St. Therese Gate of Heaven Cemetery and to resolve outstanding issues around road cost-sharing and zoning ordinance completion.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order, Pledge of Allegiance, Roll Call"
-      },
-      {
-        "time": "2:30",
-        "item": "Announcement of Public Hearing"
-      },
-      {
-        "time": "3:10",
-        "item": "Public Hearing Item C: Conditional Use Permit - Marathon County Highway Facility at 2384/2388 Old Highway 51"
-      },
-      {
-        "time": "56:20",
-        "item": "Public Hearing Item D: Zoning Change Request - William Sywinsky, 1900/1904 Lea Road (AG-Residential to RR-5)"
-      },
-      {
-        "time": "59:10",
-        "item": "Public Hearing Item E: Text Amendment to Chapter 520 - Zero Lot Line Homes"
-      },
-      {
-        "time": "1:03:00",
-        "item": "General Public Comment"
-      },
-      {
-        "time": "1:05:30",
-        "item": "Approval of Minutes (Items F and G)"
-      },
-      {
-        "time": "1:07:00",
-        "item": "New Business Item H: Conditional Use Permit for Marathon County Highway Facility - Commission Discussion and Action"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Conditional Use Permit - Marathon County Highway Facility (Public Hearing)",
-        "body": "Multiple public speakers addressed the commission. Joel Straub, Marathon County Supervisor for District 15, raised health and safety concerns about coal dust drift from the adjacent WPS power plant, citing state statute 709 on property condition disclosures, and urged the commission to require air quality data before approving. Speaker (identified as Mr. Baker) requested two conditions: a jurisdictional transfer of Business 51 from the village to the county for road maintenance, and widening Business 51 to four lanes from south of Village Way to the facility driveway. Kent Sharnosky argued the application failed all five conditional use criteria, challenged whether the required M2 zoning ordinance amendment had been properly completed, cited Wisconsin court cases placing the burden of proof on the applicant, and called the deal one-sided with no benefit to Kronenwetter residents. Bernie Kramer criticized the absence of village administrative leadership and echoed road upgrade concerns. Attorney Matt Edie spoke on behalf of St. Therese Gate of Heaven Cemetery, noting potential notice issues with the prior zoning change and requesting conditions to protect cemetery operations regarding noise, hours, and buffers."
-      },
-      {
-        "item": "Marathon County Response to Public Hearing Concerns",
-        "body": "Marathon County Deputy Administrator Chris Holman described a hastily drafted two-page memo outlining a voluntary condition proposal to address St. Therese Cemetery concerns: a solid 8-foot fence along approximately 1,200 feet of the property line, supplemented by evergreen trees and shrubs, to be triggered when the active cemetery operations approach within 100 feet of the property line within a 12-month notice window. Highway Commissioner Kevin Lane addressed traffic concerns, stating JT Engineering analysis found no turn lanes would be required at current 5,000 vehicles/day volume on Old 51, and that the new location would have far fewer conflict points than the existing facility on 17th Avenue. Holman acknowledged coal dust concerns but stated WPS is federally and state regulated, noted a 2010 lawsuit resolved particulate emissions issues, and said they planned a higher MERV-rated HVAC filter as a proactive measure. He could not commit to jurisdictional road transfer or cost-sharing, stating those decisions require county committee and board approval."
-      },
-      {
-        "item": "Commission Discussion on Conditions and Path Forward",
-        "body": "Commission members discussed the open-ended nature of unresolved conditions including the cemetery buffer agreement (not yet finalized), road maintenance cost-sharing on Old Business 51, and whether the M2 zoning ordinance change had been properly completed as required by village ordinance. Commissioner Bruce noted he wanted to see the fence/buffer agreement in writing before approving it as a condition. Trustee Lesniak summarized three key issues requiring resolution: finalization of the cemetery buffer agreement, a road cost-sharing or maintenance arrangement for Old Business 51, and confirmation the zoning change was properly codified by ordinance. The commission did not reach a vote, with members leaning toward postponing to the September 21 meeting to allow conditions to be properly documented, while county representatives requested specific direction on outstanding issues to address before that meeting."
-      },
-      {
-        "item": "Zoning Change - William Sywinsky, 1900/1904 Lea Road",
-        "body": "William Sywinsky appeared and briefly explained the request to rezone 26.7 acres from Agricultural-Residential to RR-5 Rural Residential, stating the property has been in the family since 1972, his parents have passed, the family is trying to sell the home, and the rezoning is needed because the parcel is under 10 acres and they wish to adjust property lines. No other public speakers addressed this item. No vote was taken at this stage as it was the public hearing portion."
-      },
-      {
-        "item": "Text Amendment - Chapter 520 Zero Lot Line Homes",
-        "body": "Bernie Kramer was the only public speaker, asking for more information on how zero lot line homes would be integrated with existing large lots in Kronenwetter, whether all homes in a new development could be zero lot line, and what the strategy would be for mixing lot sizes. No commission discussion or vote was recorded on this item beyond receiving public input."
-      },
-      {
-        "item": "Approval of Meeting Minutes (Items F and G)",
-        "body": "Commissioner Bruce moved to approve two sets of minutes as presented; Dick seconded. No discussion. Motion carried 6-0."
-      }
-    ],
-    "publicComment": "Seven speakers addressed the commission. Joel Straub (860 West Nelson Road, Kronenwetter), Marathon County Supervisor District 15, raised coal dust health and safety concerns and urged denial pending air quality data. An unidentified speaker referred to as Mr. Baker requested road jurisdictional transfer and four-lane widening of Business 51 as permit conditions. Kent Sharnosky (2604 16th Road) argued the application failed all five conditional use criteria and raised a procedural zoning ordinance deficiency. Bernie Kramer (2150 East State Highway 153, Peplin) criticized the absence of village administrative leadership and echoed road upgrade concerns. Attorney Matt Edie spoke for St. Therese Gate of Heaven Cemetery regarding notice deficiencies and requesting noise/buffer conditions. Straub returned a second time to reiterate health concerns and call for denial. Sharnosky made a brief second appearance to note the estimated $240,000 annual tax revenue loss from a $60 million facility.",
-    "actionItems": [
-      "Commission to reconvene likely at September 21 regular meeting to act on Marathon County Highway Facility CUP after outstanding conditions are resolved",
-      "Marathon County to finalize written memorandum of agreement with St. Therese Gate of Heaven Cemetery regarding solid fence buffer and vegetative screening, to be submitted to village before September 21 meeting",
-      "County to return with direction or proposal on Old Business 51 road maintenance cost-sharing or jurisdictional transfer",
-      "Village staff (Nathan Sandwick) to confirm and document that the M2 zoning ordinance amendment was properly published and adopted by ordinance per village code Section 518",
-      "Commission members to provide specific direction to county on remaining outstanding condition items prior to the September 21 meeting"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Public Safety",
-      "Roads",
-      "Marathon County Highway Facility",
-      "Old Business 51",
-      "St. Therese Gate of Heaven Cemetery",
-      "Zero Lot Line Housing"
-    ],
-    "votes": [
-      {
-        "item": "Approval of meeting minutes (two sets, Items F and G)",
-        "motion": "Approve the sets of minutes as presented",
-        "mover": "Bruce (Sinkula)",
-        "second": "Dick (Kwaful)",
-        "outcome": "Approved",
-        "tally": "6-0"
       }
     ]
   }
