@@ -1,0 +1,69 @@
+{
+  "overview": "The Wausau Board of Public Works held a brief meeting that included a closed session before returning to open session to approve pre-qualifications for the 2026 sewer rehabilitation project. Four contractors were approved, with one — Hawson Suns Incorporated — receiving conditional approval pending proof of relevant project experience.",
+  "committee": "City of Wausau Board of Public Works",
+  "presiding": "Unknown — presiding officer not identified by name in transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Closed session (referenced at start of open session return)"
+    },
+    {
+      "time": "0:15",
+      "item": "Return to open session"
+    },
+    {
+      "time": "0:20",
+      "item": "Approval of pre-qualifications for 2026 sewer rehabilitation project contractors"
+    },
+    {
+      "time": "1:10",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Pre-qualifications for 2026 Sewer Rehabilitation Project",
+      "body": "Upon returning from closed session, a board member moved to approve pre-qualifications for the 2026 sewer rehabilitation project for four contractors: Vizu Sewer, National Power Rodding Corporation, Situ Technologies USA, and Hawson Suns Incorporated. The approval of Hawson Suns Incorporated was made contingent on the company providing proof that it has completed work within the scope of the project. The motion was seconded and passed, though individual vote tallies and names of the mover and seconder were not clearly identified in the transcript."
+    },
+    {
+      "item": "Adjournment",
+      "body": "A board member moved to adjourn immediately following the contractor approval vote. The motion was seconded and approved by voice vote with no objection."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Approve pre-qualifications for Vizu Sewer, National Power Rodding Corporation, and Situ Technologies USA for the 2026 sewer rehabilitation project",
+    "Conditionally approve Hawson Suns Incorporated pending submission of proof of completed work within the project scope"
+  ],
+  "topics": [
+    "Utilities",
+    "Sewer Rehabilitation",
+    "Contractor Pre-Qualification",
+    "2026 Capital Projects"
+  ],
+  "votes": [
+    {
+      "item": "Approval of pre-qualifications for 2026 sewer rehabilitation project contractors (Vizu Sewer, National Power Rodding Corporation, Situ Technologies USA, and Hawson Suns Incorporated — the latter contingent on proof of relevant experience)",
+      "motion": "Move to approve pre-qualifications for the 2026 sewer rehabilitation project for Vizu Sewer, National Power Rodding Corporation, Situ Technologies USA, and Hawson Suns Incorporated, contingent on Hawson Suns Incorporated providing proof they have completed this type of work within the scope",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Adjournment",
+      "motion": "Move to adjourn",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "ba1a590c9da70ab7",
+  "title": "Wausau Board of Public Works Meeting",
+  "url": "https://www.youtube.com/watch?v=QfiAQ7Ecgu0",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-10-13T19:18:24.888062+00:00"
+}

@@ -1,0 +1,90 @@
+{
+  "overview": "The Wausau Human Resources Committee met on October 12th and took action on two items: approving a request for an additional HR staff member (to be incorporated into the 2027 budget rather than a budget modification), and voting to maintain the existing summer hours schedule and traditional full-week winter hours rather than adopting year-round summer hours. The HR staffing approval is significant as a previous attempt to add the position had failed at common council.",
+  "committee": "City of Wausau Human Resources Committee",
+  "presiding": "Madam Chair (name not clearly stated in transcript)",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Call to Order and Public Comment"
+    },
+    {
+      "time": "0:45",
+      "item": "Approval of Minutes from Preceding Meetings"
+    },
+    {
+      "time": "1:30",
+      "item": "Discussion and Possible Action: Reintroduction of Request to Approve Additional Human Resource Department Staff Member"
+    },
+    {
+      "time": "12:00",
+      "item": "Discussion and Possible Action: Recommendation to Establish Summer Hours as Year-Round City Hall Schedule"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Approval of Minutes from Preceding Meetings",
+      "body": "Alder Wowski moved to approve the minutes from preceding meetings and Alder Larson seconded. The motion passed on a voice vote with no opposition."
+    },
+    {
+      "item": "Reintroduction of Request to Approve Additional HR Department Staff Member",
+      "body": "The acting HR director presented a detailed case for an additional HR coordinator, citing 24 active workers' compensation cases, complex FMLA administration, and an overall unsustainable workload. Alder Killian expressed full support, saying the workload 'looks unsustainable.' Alder Martins moved for approval, seconded by Alder Buscowski, and the motion passed. Discussion followed about timing: a prior budget modification had already been approved by finance and sent to common council but did not pass, so the committee agreed the position would instead be built into the 2027 budget, with posting anticipated on or after January 2nd."
+    },
+    {
+      "item": "Recommendation to Establish Summer Hours as Year-Round City Hall Schedule",
+      "body": "HR staff proposed making summer hours (Monday–Thursday 7:15 a.m.–4:30 p.m., half-day Friday) permanent year-round, noting that extended Tuesday evening hours attracted only five visitors all summer, three of whom came between 5:00 and 6:00 p.m. Alder Killian opposed year-round summer hours, arguing the city has a responsibility to be open during standard business hours including Friday afternoons, and moved to keep summer hours in summer while restoring full business hours in winter with one extended evening; that motion received no second. Alder Martins raised concern about closing Friday afternoons in winter and suggested a pilot for evening hours. Alder Larson moved to keep summer hours as summer hours and restore traditional full five-day winter hours, seconded by Alder Martins; that motion passed on a voice vote."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Additional HR staff member position approved; to be incorporated into the 2027 budget with posting anticipated on or after January 2nd rather than via immediate budget modification",
+    "Summer hours schedule maintained for summer months; traditional full five-day business-hours schedule maintained for winter months — year-round summer hours proposal rejected"
+  ],
+  "topics": [
+    "Staffing",
+    "Human Resources",
+    "City Hall Hours",
+    "Budget",
+    "Workers Compensation"
+  ],
+  "votes": [
+    {
+      "item": "Approval of minutes from preceding meetings",
+      "motion": "Motion to approve",
+      "mover": "Alder Wowski",
+      "second": "Alder Larson",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Approval of additional HR department staff member",
+      "motion": "Motion to approve the additional human resources department staff member",
+      "mover": "Alder Martins",
+      "second": "Alder Buscowski",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Motion to keep summer hours in summer and restore full winter business hours with one extended evening",
+      "motion": "Motion to maintain summer hours as they are and remain open normal business hours with one extended evening hour",
+      "mover": "Alder Killian",
+      "second": null,
+      "outcome": "Failed",
+      "tally": null
+    },
+    {
+      "item": "Keep summer hours as summer schedule and restore traditional full five-day winter business hours",
+      "motion": "Motion to keep summer hours as summer hours and keep winter business hours as past practice, full days five days per week",
+      "mover": "Alder Larson",
+      "second": "Alder Martins",
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "e98b5c92d5f4f183",
+  "title": "Wausau Human Resources Committee Meeting",
+  "url": "https://www.youtube.com/watch?v=5iujFRVxBrA",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-10-13T19:16:52.867555+00:00"
+}
