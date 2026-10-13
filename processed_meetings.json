@@ -2555,6 +2555,17 @@
       "video_url": null,
       "processed_at": "2026-10-12T17:54:05.531000+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-7ug0yzaczuy.md"
+    },
+    "kw_ce13270669aa4a64b57622505ca5c6a6": {
+      "title": "Administrative Policy Committee Meeting - 2026-10-13",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ce13270669aa4a64b57622505ca5c6a6.pdf",
+      "upload_date": "20261013",
+      "meeting_date": "20261013",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-33",
+      "processed_at": "2026-10-13T02:01:40.066701+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-meeting-2026-10-13-kw-ce13270669aa4a64b57622505ca5c6a6.md"
     }
   }
 }
