@@ -86,6 +86,15 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:3af0979936252bfdb5ec@marathon-meetings
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+SUMMARY:Village of Weston: Tourism Commission
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10192026-1981
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:94af7f8e1275b4234656@marathon-meetings
 DTSTAMP:20261019T000000Z
 DTSTART;TZID=America/Chicago:20261019T073000
@@ -177,6 +186,16 @@ SUMMARY:Village of Kronenwetter: Administrative Policy Committee and Villag
  e Board - Budget Workshop 2
 URL:https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative
  -policy-committee-and-village-board-budget-workshop-2
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:5eed0eb15b6cd67b30bc@marathon-meetings
+DTSTAMP:20261020T000000Z
+DTSTART;TZID=America/Chicago:20261020T183000
+DTEND;TZID=America/Chicago:20261020T200000
+SUMMARY:City of Wausau: Finance Committee Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3643/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -307,16 +326,6 @@ DTSTART;TZID=America/Chicago:20261027T190000
 DTEND;TZID=America/Chicago:20261027T203000
 SUMMARY:Marathon County: County Board Meeting
 URL:https://www.marathoncounty.gov/about-us/county-calendar
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:61df1b9047b479f35c56@marathon-meetings
-DTSTAMP:20261028T000000Z
-DTSTART;TZID=America/Chicago:20261028T163000
-DTEND;TZID=America/Chicago:20261028T180000
-SUMMARY:City of Wausau: Historic Preservation Commission Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2503/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
