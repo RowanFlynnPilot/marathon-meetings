@@ -2610,6 +2610,17 @@
       "video_url": null,
       "processed_at": "2026-10-13T19:19:10.226744+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-acuszdzg3ze.md"
+    },
+    "Jh604oscGRM": {
+      "title": "Plan Commission",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20261012",
+      "meeting_date": "20261012",
+      "duration": 6812,
+      "video_url": null,
+      "processed_at": "2026-10-14T04:52:28.893350+00:00",
+      "summary_file": "summaries/weston-plan-commission-jh604oscgrm.md"
     }
   }
 }
