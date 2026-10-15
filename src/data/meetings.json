@@ -1,5 +1,585 @@
 [
   {
+    "id": "kw_ce13270669aa4a64b57622505ca5c6a6",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee Meeting",
+    "date": "October 13, 2026",
+    "shortDate": "OCT 13",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-33",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ce13270669aa4a64b57622505ca5c6a6.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter's Administrative Policy Committee met on October 13, 2026 and worked through a lengthy budget preview session ahead of upcoming workshops, with Finance Director John presenting utility budget projections showing no rate increases needed for water or sewer in 2027. The committee voted to recommend the village board close municipal center offices to walk-in traffic on Friday afternoons, keep a dual-committee service prohibition in place on the Police and Fire Commission, and approve a written public comment procedure for village meetings. The session was dominated by financial analysis including an 8-month budget surplus, rising diesel costs impacting garbage collection, new state transportation aids, and a 10-year capital improvement plan featuring Maple Ridge Road reconstruction and Bushka Park playground equipment as 2027 priorities.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "2:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "2:40",
+        "item": "Approval of Minutes - August 18 and September 15, 2026 APC Meetings"
+      },
+      {
+        "time": "4:00",
+        "item": "Reports and Discussions - Comparative Internal Financial Statements Year to Date August 2026"
+      },
+      {
+        "time": "18:30",
+        "item": "2025-27 State Aids Listings for 2027 Budget"
+      },
+      {
+        "time": "24:00",
+        "item": "August 2026 Financial Satisfaction Report from Wisconsin Policy Forum"
+      },
+      {
+        "time": "38:00",
+        "item": "Capital Improvement Program 2027-2036 Second Draft"
+      },
+      {
+        "time": "58:00",
+        "item": "Debt Service Fund Tax Levy Strategy"
+      },
+      {
+        "time": "1:10:00",
+        "item": "New Business - Municipal Center Hours"
+      },
+      {
+        "time": "1:21:00",
+        "item": "Written Public Comment Procedure for Village Meetings"
+      },
+      {
+        "time": "1:27:00",
+        "item": "Ordinance 14-16 Police and Fire Commission and Utilities Committee Dual Service"
+      },
+      {
+        "time": "1:43:00",
+        "item": "2027 Operating Budget Preview - Utility Funds and General Fund"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes - August 18 and September 15, 2026 APC Meetings",
+        "body": "Trustee Solheim moved to approve both sets of minutes and Misty Swanson seconded. The motion passed 3-0 with all three members present voting in favor."
+      },
+      {
+        "item": "Comparative Internal Financial Statements Year to Date August 2026",
+        "body": "Finance Director John reported a general fund budget surplus of $364,000 at the end of August versus $667,000 at the same point in 2025, with 57% of budget spent at 67% of the year elapsed. He flagged the village attorney, municipal building, and garbage/refuse/solid waste accounts as likely to exceed budget, with a budget amendment expected at the November board meeting. Trustee Fridell asked about the surplus and noted concern about whether expenditures are outpacing revenues due to insufficient net new construction, and expressed enthusiasm about the distribution center project as a financial turning point. John noted that excess TID 1 revenues can annually repay the $2.7-2.8 million village advance without waiting until 2044, and said details would be shared at the upcoming Monday-Tuesday budget workshops."
+      },
+      {
+        "item": "2025-27 State Aids Listings for 2027 Budget",
+        "body": "John reported a $56,000 increase in total state aids for 2027, driven primarily by a $52,000 increase in transportation aids attributable to capital spending on Kronenwetter Drive and the new public works garage. He noted that the aid formula has not yet captured 2026-2027 staffing increases, and anticipated the trend would continue upward as road miles grow with the Green Tree subdivision and FAA property development."
+      },
+      {
+        "item": "August 2026 Financial Satisfaction Report from Wisconsin Policy Forum",
+        "body": "John presented charts comparing Kronenwetter to 10 North Central Wisconsin communities using 2024 data, showing the village near the bottom in general government spending per person ($120), street surface maintenance ($147 per person), police spending ($163 per person), net basic spending ($477), and net operating spending. He highlighted that 84% of the tax base is residential — the highest of all compared communities — contrasted with low per-person property taxes ($317). Trustee Fridell commented that the data supports the case for sound financial management and urged clear public communication of these facts to build resident credibility. The presentation was framed as context for the upcoming budget discussions."
+      },
+      {
+        "item": "Capital Improvement Program 2027-2036 Second Draft",
+        "body": "Administrator Dave and John presented the second draft of the 10-year CIP, noting the parks committee had now added their numbers across the full plan period. For 2027, the plan totals approximately $4.3 million with only 43% as general obligation debt; the two borrowing items are Maple Ridge Road reconstruction and Bushka Park playground equipment. John noted $1.2 million in unspent 2024 borrowing proceeds available for the Maple Ridge project, which must be spent by October 2027. Discussion included a new Wisconsin residential TIF law effective October 1, 2026 that developers have already raised with the administrator as a possible infrastructure financing tool, with suggestions to engage the DOR or the village's financial advisor Ellers for guidance. Martin Road was discussed as a future high-cost full reconstruction project. Dave noted the CIP will be a separate board resolution from the budget."
+      },
+      {
+        "item": "Debt Service Fund Tax Levy Strategy",
+        "body": "John explained that $863,200 in unused TID 2 borrowing proceeds will be transferred to the capital project fund, shifting the associated debt obligation from TID 2 to the village tax levy fund. This restructuring reduces the originally projected two drops in debt service payments (in 2029 and 2035) to a single drop around $200,000 in 2029. The move accelerates TID 2's closure timeline, which John said he would discuss further at the budget workshop with additional detail from Ellers."
+      },
+      {
+        "item": "Municipal Center Hours",
+        "body": "Administrator Dave proposed closing the municipal center to walk-in foot traffic on Friday afternoons to allow administrative catch-up time, while continuing to answer phones. He noted this mirrors Marathon County, City of Wausau, and other area municipalities. Trustee Solheim moved to recommend to the village board that hours be changed to Monday-Thursday 7:30 a.m.-4:30 p.m. and Friday 7:30 a.m.-noon, with Friday afternoons as an administrative day. The motion was amended to specify Friday as an all-day administrative day after noon. The roll call vote was 4-0 (Fridell, Swanson, Solheim, Stowell all yes) to send the recommendation to the board."
+      },
+      {
+        "item": "Written Public Comment Procedure for Village Meetings",
+        "body": "Administrator Dave introduced a revised policy for Gen O10 governing written public comment submitted to village meetings, including a Wednesday deadline for inclusion in packets. He noted board members had requested this formalized procedure. Guy Fridell moved and Misty Swanson seconded to recommend the revisions to the village board. The roll call vote was 4-0 to forward to the board."
+      },
+      {
+        "item": "Ordinance 14-16 Police and Fire Commission and Utilities Committee Dual Service",
+        "body": "Administrator Dave recommended against changing Ordinance 14-16, which prohibits an individual from serving simultaneously on the Police and Fire Commission and the Utilities Committee. He said village staff, both chiefs, and village counsel all oppose the change, citing the importance of keeping the PFC free from political influence. Both chiefs expressed concern about political bias affecting public safety departments. The committee agreed that the ordinance encourages broader citizen participation and diversity on boards. Trustee Fridell moved to recommend to the board that no changes be made to Ordinance 14-16; Trustee Solheim seconded. The roll call vote was 4-0 to send that recommendation to the board."
+      },
+      {
+        "item": "2027 Operating Budget Preview - Utility Funds and General Fund",
+        "body": "John reported that neither the water nor sewer utility rates will need to increase for 2027. The Red Mountain Metro assessment rose from $460,000 to an estimated $540,000 for 2027, but delaying sewer utility borrowing until after July 1, 2027 means no new debt service kicks in until 2028, enabling a near-balanced sewer utility budget ($7,800 projected surplus). A new half-time utility crew position will be split 50/50 between water and sewer utilities. On the general fund, diesel fuel surcharges on garbage collection are running approximately $57,000 over budget for the remainder of 2026 (over $9,000 per month), driven by diesel at $6.35/gallon; the village will absorb the overrun rather than issue a supplemental bill to residents. The garbage rate for 2027 will increase approximately $39-40 on the annual tax bill; Dave and John agreed to draft a joint explanatory letter to accompany the tax bill. Dave noted police union insurance costs came in at a 14% increase and the village is exploring switching officers to TeamCare as a cost-saving alternative, with union reps expressing openness to the change. Budget workshops were set for Monday at 3 p.m. and Tuesday at 6 p.m., with printed budget binders to be distributed Friday."
+      }
+    ],
+    "publicComment": "The chairperson asked two individuals by name — 'Bernie' and 'Mrs. Kramer' — if they had anything to say. Neither offered comment. No written public comment had been forwarded to the chair. No public comment was offered.",
+    "actionItems": [
+      "Forward recommendation to village board to change municipal center hours to Monday-Thursday 7:30 a.m.-4:30 p.m. and Friday 7:30 a.m.-noon with Friday afternoons as administrative time",
+      "Forward recommendation to village board to approve revisions to Gen O10 written public comment procedure with Wednesday submission deadline",
+      "Forward recommendation to village board that Ordinance 14-16 dual-service prohibition on Police and Fire Commission remain unchanged and affected individual be asked to choose one committee",
+      "Prepare budget amendment for November board meeting to cover overages in village attorney, municipal building, and garbage/refuse/solid waste accounts",
+      "Distribute 2027 budget binders to trustees by Friday ahead of Monday 3 p.m. and Tuesday 6 p.m. budget workshops",
+      "John and Administrator Dave to co-author explanatory letter to accompany December tax bills addressing garbage rate increase and absorbed costs",
+      "Contact DOR or financial advisor Ellers to understand the new Wisconsin residential TIF law (effective October 1, 2026) and its applicability to village infrastructure financing",
+      "John to work with Ellers to model 10-, 15-, and 20-year borrowing scenarios for CIP capital projects",
+      "Post 10-year CIP document to village website for public transparency following budget adoption"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Roads",
+      "Capital Improvement Program",
+      "Maple Ridge Road",
+      "TID Development",
+      "Staffing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of August 18 and September 15, 2026 APC meeting minutes",
+        "motion": "Move to approve the meeting minutes of the August 18, 2026 and September 15, 2026 Administrative Policy Committee meetings as presented",
+        "mover": "Mary Solheim",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "3-0"
+      },
+      {
+        "item": "Recommend to village board to change municipal center hours with Friday afternoons as administrative time",
+        "motion": "Move to recommend to the village board that the municipal center hours be modified to Monday-Thursday 7:30 a.m.-4:30 p.m. and Friday 7:30 a.m.-noon, with Friday afternoon as an administrative day",
+        "mover": "Mary Solheim",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Recommend to village board approval of revisions to Gen O10 written public comment procedure",
+        "motion": "Move that we recommend to the village board revisions to Gen O10 as presented",
+        "mover": "Guy Fridell",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Recommend to village board that no changes be made to Ordinance 14-16 dual-service prohibition",
+        "motion": "Move that we recommend to the village board that no changes be made to Ordinance 14-16",
+        "mover": "Guy Fridell",
+        "second": "Mary Solheim",
+        "outcome": "Approved",
+        "tally": "4-0"
+      }
+    ]
+  },
+  {
+    "id": "7OLPXH8UYC8",
+    "source": "wausau",
+    "title": "City council Meeting",
+    "date": "October 13, 2026",
+    "shortDate": "OCT 13",
+    "committee": "City Council",
+    "duration": "2h 52m",
+    "url": "https://www.youtube.com/watch?v=7OLPXH8UYC8",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau City Council held its first regular meeting in five weeks on October 13th, taking action on several significant items including approving full city funding for the private-side lead service line replacement program (estimated $4.5 million gap), passing a rezoning ordinance for Honey Locust Court over objections from the district alder, approving a transit fare collection system upgrade for Metroride, and defeating a drinking water treatment solar array project after EPA grant funding fell through. The meeting also featured extensive public comment on the Flock license plate reader camera system and boulevard snow plowing policy.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Roll Call"
+      },
+      {
+        "time": "2:15",
+        "item": "Proclamations: Fire Prevention Week, Wausau Fire Department Aircraft Rescue Commendation, Pedestrian Safety Month"
+      },
+      {
+        "time": "18:40",
+        "item": "Approval of Minutes from September 8th Regular Meeting"
+      },
+      {
+        "time": "20:10",
+        "item": "Public Comment (6 pre-registered speakers)"
+      },
+      {
+        "time": "43:30",
+        "item": "Consent Agenda"
+      },
+      {
+        "time": "45:00",
+        "item": "File 26-10003: Ordinance Rezoning Honey Locust Court Properties from SR2 to DR8"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Item 7: Request to Schedule Committee of the Whole on Youth Engagement"
+      },
+      {
+        "time": "1:20:00",
+        "item": "File 26-0921: Reconsideration of Lead and Galvanized Service Line Replacement Ordinance"
+      },
+      {
+        "time": "1:25:00",
+        "item": "File 26-10005: Resolution Approving Drinking Water Treatment Solar Array Project"
+      },
+      {
+        "time": "1:35:00",
+        "item": "File 26-10006: Resolution Approving Funding Option for Private-Side Lead Service Line Replacement"
+      },
+      {
+        "time": "2:05:00",
+        "item": "File 260905: WISGO/Cubic Fare Collection System Contract for Metroride"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Proclamations",
+        "body": "Mayor Diny presented three proclamations: one designating 2026 Fire Prevention Week with a focus on lithium-ion battery safety; one commending the Wausau Fire Department for rescuing two occupants — including a member of the U.S. House of Representatives — from a downed aircraft in Lake Wausau on September 12th; and one proclaiming October as Pedestrian Safety Month. Fire Chief Jeremy Cop accepted the rescue commendation on behalf of department personnel. Chris Filtz from the Bike and Pedestrian Advisory Committee accepted the pedestrian safety proclamation and highlighted committee accomplishments including the e-bike ordinance and faster sidewalk clearing requirements."
+      },
+      {
+        "item": "Public Comment on Flock License Plate Reader Cameras",
+        "body": "Multiple speakers urged the council to terminate the city's contract with Flock Safety, a license plate reader camera vendor. Courtney Olsen and Felix Gallow, both of 1206 Highland Park Boulevard, asked the council to omit the $50,000 Flock payment from the 2027 budget, deliver written notice of termination under contract section 11.16, and pass a surveillance technology ordinance requiring a council vote before future acquisitions. Gallow cited a website at unflockwausau.org and alleged Flock improperly shares and monetizes resident data. Danielle Fischer echoed those concerns, stating studies showing crime reduction were funded by Flock or similar companies. No council action was taken on this issue at this meeting."
+      },
+      {
+        "item": "Public Comment on Boulevard Snow Plowing Policy",
+        "body": "Five residents from Highland Park Boulevard and surrounding streets — Karen Briggs, Danielle Fischer, Carrie Mor, Alice Kether, and Mary Broadhead — thanked the Infrastructure Committee for passing a resolution (Resolution 5526) to permit counterflow plowing so that snow is directed to the median strip rather than to residents' driveways. Speakers asked the council to tighten the language of the resolution so it cannot be changed at departmental discretion, with Broadhead proposing specific amended wording directing that plowing on boulevard streets push snow to the median strip."
+      },
+      {
+        "item": "File 26-10003: Rezoning Honey Locust Court from SR2 to DR8",
+        "body": "Alder Tierney (District 9) pulled this item and asked for postponement so residents could meet with the Planning Commission before a vote, arguing that placing eight twin-home structures per acre on the cul-de-sac represented a significant change for the Great Tree subdivision area. Director Feifer and city staff clarified that the adjacent 40 lots are already zoned DR8, the land is privately owned by the developer, and a public hearing had already been held. Alder Killian supported postponement, citing the importance of resident feedback. Alder Martins opposed postponement, arguing zoning would be consistent with the rest of Honey Locust Court. A motion to postpone to the next meeting (moved by Alder Neil, seconded by Killian) failed 3-8. The main motion to approve the rezoning then passed 8-3."
+      },
+      {
+        "item": "Youth Engagement Committee of the Whole",
+        "body": "Alders Wiscowski and Terry Kilian brought forward a request to schedule a committee of the whole focused on youth engagement and retention in Wausau. Wiscowski outlined four objectives: directly engaging young people, gathering firsthand perspectives on leaving and staying in Wausau, workshopping ideas collaboratively, and identifying actionable endeavors for 2027. The format would involve student councils from Wausau East and Wausau West high schools in a relaxed workshop environment, with a follow-up session planned for April. Alder Lukans asked that the scope include youth who stay locally rather than only those who leave for college. The motion passed unanimously 11-0, with a tentative date in the first two weeks of December."
+      },
+      {
+        "item": "File 26-10005: Drinking Water Treatment Solar Array Project",
+        "body": "Alder Martins explained that the Finance Committee had voted against the solar array project after the city failed to receive a U.S. EPA grant that would have covered up to 50% of costs. Without the grant, city borrowing would extend the payback period to nearly 20 years — close to the panels' expected 25-30 year lifespan. The Finance Committee voted to deny the project. The full council voted 0-11 against approving the project, effectively killing it."
+      },
+      {
+        "item": "File 26-10006: Funding Option for Private-Side Lead Service Line Replacement",
+        "body": "Consultants from CIP presented data showing Wausau leads the nation in per-capita lead service line replacements, with over 3,500 lines replaced and approximately 2,850-2,900 remaining. Construction costs in Wisconsin have risen 56% over two years, and the current low-interest BIL (Bipartisan Infrastructure Law) funding at 0.25% is set to sunset. The Finance Committee recommended Option C — the city covers the full estimated $4.5 million private-side gap for 2027 rather than charging homeowners — on a 3-0 vote. Alder Martins explained the rationale was equity across all residents. The full council approved Option C unanimously 11-0."
+      },
+      {
+        "item": "File 26-0921: Lead and Galvanized Service Line Replacement Ordinance (Reconsidered)",
+        "body": "The council first voted 9-2 to reconsider this ordinance, which had previously failed. Alder Hanniki proposed an amendment adding incremental repayment schedules (3-6 month or 1-2 year periods) for property owners responsible for remaining balances, but withdrew the amendment after the council passed full city funding under File 26-10006, making the repayment language largely moot. City Attorney Jacobson clarified that Section 9 of the ordinance regarding property owner responsibility is not inconsistent with the funding resolution but serves as a contingency for any stragglers after grant funding expires. Alder Wiscowski raised concerns about enforcement language (shall/may/will) and the penalty timeline. Staff indicated enforcement would focus on landlords who repeatedly refuse access. The ordinance was passed, though the final vote tally was not clearly stated in the transcript."
+      },
+      {
+        "item": "File 260905: WISGO/Cubic Fare Collection System for Metroride",
+        "body": "Deputy Director Melinda presented on behalf of Metroride, explaining the new fare collection system allows payment via app, card, or traditional cash vault. Alder Killian confirmed cash payment remains an option for those without digital access. Alder Martins noted the system is largely grant-funded and also includes automated vehicle location (AVL) technology so riders can track bus arrival times. Alder True Blood raised access concerns, suggesting a vending machine at the transit depot be considered for future planning. The motion passed 11-0."
+      }
+    ],
+    "publicComment": "Six pre-registered speakers addressed the council. Courtney Olsen and Felix Gallow (both of 1206 Highland Park Blvd) opposed the Flock license plate camera contract and urged termination and adoption of a surveillance technology ordinance. Karen Briggs (154 Oaklair Blvd), Danielle Fischer (1212 Highland Park Blvd), Carrie Mor (1025 Everest Blvd), and Alice Kether (1106 Highland Park Blvd) spoke in favor of reverting boulevard snow plowing to the center-median method; Fischer and Mor also opposed the Flock cameras. An additional speaker, Mary Broadhead (1101 Highland Park Blvd), spoke after the formal public comment period and proposed specific amended language for the snow plowing resolution directing plows to push snow toward the median strip.",
+    "actionItems": [
+      "Honey Locust Court properties (7100-7123) rezoned from SR2 to DR8 for twin-home development",
+      "Committee of the Whole on youth engagement to be scheduled in first two weeks of December with Wausau East and West high school student councils",
+      "City to fund full private-side lead service line replacement gap (estimated $4.5 million for 2027) under Option C",
+      "Lead and galvanized service line replacement ordinance (Chapter 13.66) adopted following reconsideration",
+      "WISGO/Cubic fare collection and AVL system contract approved for Metroride",
+      "Solar array project at drinking water treatment plant rejected after EPA grant not awarded",
+      "Mike McKenna confirmed to Bicycle and Pedestrian Advisory Committee",
+      "Comprehensive city audit approved",
+      "700 Grand Avenue development agreement tax increment grant payment approved following developer reaching total development costs",
+      "Council directed to consider tightening language in boulevard snow plowing policy; item to come forward via Larsson/Lukans committee-of-the-whole request",
+      "Staff and city attorney to monitor consistency between lead service line ordinance Section 9 and funding resolution as program nears completion"
+    ],
+    "topics": [
+      "Lead Service Line Replacement",
+      "Flock Camera Surveillance",
+      "Boulevard Snow Plowing",
+      "Transit Fare Collection",
+      "Youth Engagement",
+      "Housing Development"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 8th meeting minutes",
+        "motion": "Motion as presented",
+        "mover": "Alder Neil",
+        "second": "Terry Kilian",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "Consent agenda (with File 26-10003 pulled)",
+        "motion": null,
+        "mover": "Alder Trueblood",
+        "second": "Alder Wiscowski",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "Postponement of File 26-10003 rezoning to next meeting",
+        "motion": "Motion to postpone until next meeting",
+        "mover": "Alder Neil",
+        "second": "Terry Kilian",
+        "outcome": "Failed",
+        "tally": "3-8"
+      },
+      {
+        "item": "File 26-10003: Rezoning Honey Locust Court from SR2 to DR8",
+        "motion": null,
+        "mover": "Alder Watson",
+        "second": "Alder Trueblood",
+        "outcome": "Approved",
+        "tally": "8-3"
+      },
+      {
+        "item": "Request to schedule Committee of the Whole on youth engagement",
+        "motion": null,
+        "mover": "Alder Neil",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "Reconsideration of File 26-0921: Lead and Galvanized Service Line Replacement Ordinance",
+        "motion": "Motion to reconsider",
+        "mover": "Alder Slansky",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": "9-2"
+      },
+      {
+        "item": "File 26-0921: Lead and Galvanized Service Line Replacement Ordinance (on merits after reconsideration)",
+        "motion": null,
+        "mover": "Alder Lukans",
+        "second": "Alder Martins",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "File 26-10002: Confirming mayoral appointment of Mike McKenna to Bicycle and Pedestrian Advisory Committee",
+        "motion": null,
+        "mover": "Alder Slansky",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "File 26-0924: Resolution approving comprehensive audit of City of Wausau",
+        "motion": null,
+        "mover": "Alder Larson",
+        "second": "Alder Hanniki",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "File 260905: WISGO/Cubic Fare Collection System contract for Metroride",
+        "motion": null,
+        "mover": "Alder Neil",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "File 25-427: Multi-year budget modification for 700 Grand Avenue development agreement and tax increment grant",
+        "motion": null,
+        "mover": "Alder Lukans",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "11-0"
+      },
+      {
+        "item": "File 26-10005: Resolution approving drinking water treatment solar array project",
+        "motion": null,
+        "mover": "Alder Lukans",
+        "second": "Alder Martins",
+        "outcome": "Failed",
+        "tally": "0-11"
+      },
+      {
+        "item": "File 26-10006: Resolution approving city funding of full private-side lead service line replacement gap (Option C)",
+        "motion": null,
+        "mover": "Alder Watson",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": "11-0"
+      }
+    ]
+  },
+  {
+    "id": "50NScWtJpvw",
+    "source": "wausau",
+    "title": "Finance Committee Meeting",
+    "date": "October 13, 2026",
+    "shortDate": "OCT 13",
+    "committee": "Finance",
+    "duration": "1h 7m",
+    "url": "https://www.youtube.com/watch?v=50NScWtJpvw",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Finance Committee met on October 13, 2026, taking action on several budget and operational items including pet licensing fee changes, sale of America 250 banners, a lead hazard grant amendment, and a lead service line loan resolution. The meeting featured significant public comment opposing the city's Flock license plate reader camera system, and concluded with the committee scheduling a final 2027 budget workshop for October 20 at 6:30 p.m. to address outstanding amendments including liquor license fees, capital spending, and motor pool financing.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "1:10",
+        "item": "Public Comment on Agenda Items"
+      },
+      {
+        "time": "13:45",
+        "item": "Consideration of Minutes – September 22, 2026 Regular Finance Committee Meeting"
+      },
+      {
+        "time": "14:20",
+        "item": "Item 3A: Amend Dog and Cat License Fees on Comprehensive Fee Schedule"
+      },
+      {
+        "time": "24:10",
+        "item": "Item 3B: Approving Sale and Selling Price of America 250 Wausau Banners"
+      },
+      {
+        "time": "27:00",
+        "item": "Item 3C: Approving Second Amendment to Service Agreement with Marathon County Health Department for Lead Hazard Reduction Capacity Building Grant"
+      },
+      {
+        "time": "33:10",
+        "item": "Item 3D: Approving Resolution to Reimburse Expenditures from Safe Drinking Water Revolving Loan Program for BIL SFY 27-28 Lead Service Line Replacement Program"
+      },
+      {
+        "time": "38:20",
+        "item": "Item 3E: Approving Sole Source Request for Zoll Monitors and Ventilators for Fire Department"
+      },
+      {
+        "time": "40:00",
+        "item": "Item 3F: Approving Third Amendment to Community Infrastructure Partners (CIP) Master Partnership Agreement for 2027-28 Lead Service Line Replacement Project"
+      },
+      {
+        "time": "44:30",
+        "item": "Item 4: August 2026 General Fund Financial Report Review"
+      },
+      {
+        "time": "53:00",
+        "item": "Item 3G: Recommending 2027 Budget Including Setting 2027 Fee Schedule"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment – Flock Camera System",
+        "body": "Three residents from the Highland Park Boulevard area spoke in opposition to the city's Flock automated license plate reader (ALPR) camera contract. Danielle Fischer argued the cameras are not a proven crime deterrent and raised concerns about facial recognition, cell phone geo-fencing, and data storage by Flock. Felix Gallo asked the committee to remove the $50,000 Flock appropriation from the 2027 budget, issue a written termination notice under section 11.16 of the agreement, and pass an ordinance requiring a public council vote before future surveillance technology acquisitions; he also alleged Police Chief Barnes had been misinformed about camera placement. Courtney Olson, identifying herself as a domestic violence agency director, cited documented misuse of Flock data to track victims and noted that the Wisconsin Institute for Law and Liberty is suing Waukesha County over warrantless Flock database searches; she asked for a written legal opinion from the city attorney on whether the December payment could still be stopped."
+      },
+      {
+        "item": "Item 3A: Dog and Cat License Fees",
+        "body": "Alder Watson proposed adjusting the spayed/neutered dog or cat fee to $25 and the microchip discount to $10 for 2027, with any funding shortfall covered by reserves. Staff noted that puppies and kittens are currently licensed at a half-year rate, which can result in the city paying the county more than it collects, and suggested potentially eliminating the half-year puppy/kitten rate via ordinance amendment in the future. Watson's motion on the two fee changes was seconded by Alder Neil and approved by the committee."
+      },
+      {
+        "item": "Item 3B: Sale of America 250 Wausau Banners",
+        "body": "Staff reported receiving calls from residents interested in purchasing the decorative banners used during the summer. The proposed prices were $25 for tapered banners and $35 for rectangular banners. Alder Watson moved to approve the sale at the prices recommended in the staff memo; the motion was seconded by Alder Tierney and approved unanimously."
+      },
+      {
+        "item": "Item 3C: Second Amendment to Marathon County Health Department Lead Hazard Reduction Grant Agreement",
+        "body": "Staff presenter Tammy Strasser explained the amendment addresses audit findings requiring updated monitoring language, authorizes the county health department to purchase an XRF lead-testing machine using grant funds, and broadens the reimbursable positions to a catch-all category. She also noted the health department received a new $4 million state grant to expand lead abatement countywide. The motion was made by Alder Neil, seconded by Alder Hennekey, and approved."
+      },
+      {
+        "item": "Item 3D: Resolution to Reimburse Expenditures – Safe Drinking Water Revolving Loan Program (BIL SFY 27-28)",
+        "body": "Staff explained this is a standard reimbursement resolution allowing the city to incur lead service line replacement costs before the loan closes, then get reimbursed. The city has requested approximately $18.16 million for 2027, though final allocations from the DNR could come in lower, which would reduce the scope of the program. Alder Henke asked about the risk of lower-than-expected reimbursement and was told the program would simply be scaled back. The motion was made by Alder Watson, seconded by Alder Neil, and approved."
+      },
+      {
+        "item": "Item 3E: Sole Source Request – Zoll Monitors and Ventilators for Fire Department",
+        "body": "Fire Chief [name not stated] requested the item be postponed two weeks so the EMS Division Chief could present details. Alder Tyrrell raised concerns that the cardiac monitors appeared on the capital deferred projects list at $215,000 while simultaneously being brought forward as a sole source purchase, calling it 'disingenuous.' The chief explained the intent is to use Fire Assistance to Firefighters (FAT) money to save approximately $80,000 by acting before an April deadline, avoiding CIP funds. The committee agreed by consensus to table the item for two weeks."
+      },
+      {
+        "item": "Item 3F: Third Amendment – CIP Master Partnership Agreement (2027-28 Lead Service Line Replacement)",
+        "body": "Staff explained this is an annual amendment to authorize Community Infrastructure Partners to continue professional services for the lead service line replacement program, now covering both 2027 and 2028 contingent on DNR funding. Alder Henke asked whether costs would scale with any reduction in project scope and was told yes. Alder Watson moved approval, seconded by Alder Henke, and the committee approved."
+      },
+      {
+        "item": "Item 4: August 2026 General Fund Financial Report Review",
+        "body": "Finance staff reported that motor pool costs allocated to police, fire, and public works are expected to exceed budget and a budget amendment will be brought to the October 27th meeting. The refuse budget is also running over due to a diesel fuel escalator clause in the current contract. Revenue is tracking well, with licenses and permits strong, investment income exceeding budget despite slightly lower rates, and municipal court fee revenues expected to increase following a state adjustment raising court costs from $38 to $48 per citation in Q1 2026. No action was taken; the report was placed on file."
+      },
+      {
+        "item": "Item 3G: 2027 Budget – Discussion of Amendments and Fee Schedule",
+        "body": "The committee discussed a spreadsheet of implemented and non-implemented 2% budget reduction measures. Members raised concerns that several of the four or five vacant positions counted as savings may not represent genuine permanent reductions — particularly the surveyor position (offset by contracted services), two fire positions (6-month deferrals only), and a third city attorney position. The chair emphasized the need to address long-term debt, noting that capital borrowing will significantly impact the 2028 levy, and called for a closer look at deferrable capital projects. Discussion of liquor and cigarette license fee increases was raised by Alder Tyrrell, with staff noting state statute caps and the need to benchmark against neighboring municipalities. The committee scheduled a final budget workshop for Tuesday, October 20, 2026 at 6:30 p.m."
+      }
+    ],
+    "publicComment": "Three residents spoke in opposition to the city's Flock ALPR camera contract. Danielle Fischer (1212 Highland Park Blvd) argued the cameras are not a proven crime deterrent and raised privacy concerns about data use and storage. Felix Gallo (1206 Highland Park Blvd) asked the committee to remove the $50,000 Flock appropriation from the 2027 budget, issue a termination notice under contract section 11.16, and pass a surveillance technology ordinance; he alleged cameras are positioned inside city neighborhoods including near residents' homes and disputed Police Chief Barnes's characterization of their placement. Courtney Olson (1206 Highland Park Blvd) cited domestic violence victim tracking as a documented misuse, referenced ongoing litigation in Waukesha County over warrantless Flock database searches, and asked the city attorney for a written opinion on the termination clause and whether the December payment could be stopped by an 8-of-11 council vote.",
+    "actionItems": [
+      "Pet license fee schedule amended: spayed/neutered fee set at $25, microchip discount set at $10 for 2027",
+      "Sale of America 250 banners approved at $25 (tapered) and $35 (rectangular)",
+      "Second amendment to Marathon County Health Department lead hazard grant agreement approved",
+      "Resolution to reimburse expenditures from Safe Drinking Water Revolving Loan Program (BIL SFY 27-28) approved",
+      "Zoll monitors and ventilators sole source request tabled for two weeks pending EMS Division Chief presentation",
+      "Third amendment to CIP Master Partnership Agreement for 2027-28 lead service line replacement approved",
+      "Budget amendment for motor pool, mayor's office, and refuse fund to be brought to October 27 Finance Committee meeting",
+      "Staff to prepare capital projects list and motor pool financial documentation prior to next budget session",
+      "Ehlers to prepare debt impact calculations (dollar amount per unit of assessed value)",
+      "Committee members to submit proposed budget amendments in writing before October 20 workshop",
+      "Final 2027 budget workshop scheduled for Tuesday, October 20, 2026 at 6:30 p.m.",
+      "Staff to review liquor and cigarette license fees for state statute compliance and comparability with neighboring municipalities",
+      "City attorney to be consulted on whether third attorney FTE should be formally removed from organizational chart"
+    ],
+    "topics": [
+      "Budget",
+      "Public Safety",
+      "Staffing",
+      "Utilities",
+      "Flock Camera Surveillance",
+      "Lead Service Line Replacement",
+      "Motor Pool Financing"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 22, 2026 Finance Committee minutes",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Tierney",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amend dog and cat license fee schedule: spayed/neutered fee to $25, microchip discount to $10",
+        "motion": "Move to adjust the spay/neuter dog or cat fee to $25 for 2027 and adjust the microchip discount fee to $10",
+        "mover": "Watson",
+        "second": "Neil",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve sale of America 250 Wausau banners at staff-recommended prices",
+        "motion": "Move to approve the sale of the Wausau 250 banners for the sale price recommended in the staff memo",
+        "mover": "Watson",
+        "second": "Tierney",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve second amendment to service agreement with Marathon County Health Department for lead hazard reduction grant",
+        "motion": "Motion to approve the request for second amendment to the lead hazard reduction capacity building grant",
+        "mover": "Neil",
+        "second": "Hennekey",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approve resolution to reimburse expenditures from Safe Drinking Water Revolving Loan Program (BIL SFY 27-28)",
+        "motion": "Move to approve the resolution to reimburse expenditures from the safe drinking water revolving loan program from the BIL SFY 27-28 lead service line replacement program",
+        "mover": "Watson",
+        "second": "Neil",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Sole source request for Zoll monitors and ventilators – tabled",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Tabled",
+        "tally": null
+      },
+      {
+        "item": "Approve third amendment to CIP Master Partnership Agreement for 2027-28 lead service line replacement",
+        "motion": "Move to approve the third amendment to the community infrastructure master partnership agreement for the 27-28 lead service line replacement project",
+        "mover": "Watson",
+        "second": "Henke",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Motion to adjourn",
+        "motion": "Move to adjourn",
+        "mover": null,
+        "second": "Hanicky",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "aCUSzDZG3ZE",
     "source": "wausau",
     "title": "Board of Public Works Meeting",
@@ -286,120 +866,6 @@
         "tally": null
       }
     ]
-  },
-  {
-    "id": "kw_ce13270669aa4a64b57622505ca5c6a6",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee Meeting",
-    "date": "October 13, 2026",
-    "shortDate": "OCT 13",
-    "committee": "Administrative Policy",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-33",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ce13270669aa4a64b57622505ca5c6a6.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Administrative Policy Committee of Kronenwetter was scheduled to review financial reports, consider the 2027-2036 Capital Improvements Program budget, and address several policy matters including municipal center hours, public comment procedures, and a dual service ordinance affecting the Police and Fire Commission.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of August 18, 2026 Administrative Policy Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of September 15, 2026 Administrative Policy Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Comparative Internal Financial Statements Year-To-Date: August 2026"
-      },
-      {
-        "time": "N/A",
-        "item": "2025-2027 State Aids Listing for 2027 Budget"
-      },
-      {
-        "time": "N/A",
-        "item": "August 2026 Financial Statistical Report from Wisconsin Policy Forum"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget-2nd Draft"
-      },
-      {
-        "time": "N/A",
-        "item": "Debt Service Fund Tax Levy Strategy"
-      },
-      {
-        "time": "N/A",
-        "item": "Municipal Center Hours"
-      },
-      {
-        "time": "N/A",
-        "item": "Written Public Comment Procedures for Village Meetings"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance 14-16 (Police and Fire Commission and Utilities Committee Dual Service)"
-      },
-      {
-        "time": "N/A",
-        "item": "2027 Operating Budget Preview"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Comparative Internal Financial Statements Year-To-Date: August 2026",
-        "body": "The committee was scheduled to review comparative internal financial statements for the year-to-date period through August 2026. This report was expected to provide financial performance data for the village's operations."
-      },
-      {
-        "item": "2025-2027 State Aids Listing for 2027 Budget",
-        "body": "The committee was set to review state aids allocations that would inform the 2027 budget planning process. This discussion was expected to address revenue sources available to the village for the upcoming fiscal year."
-      },
-      {
-        "item": "August 2026 Financial Statistical Report from Wisconsin Policy Forum",
-        "body": "The committee was scheduled to consider financial statistical information from the Wisconsin Policy Forum for August 2026. This external report was expected to provide comparative analysis or benchmarking data for the village's finances."
-      },
-      {
-        "item": "2027-2036 Capital Improvements Program (CIP) Budget-2nd Draft",
-        "body": "The committee was set to review the second draft of the Capital Improvements Program budget covering the ten-year period from 2027 to 2036. This item was expected to guide long-term capital planning and infrastructure decisions for the village."
-      },
-      {
-        "item": "Debt Service Fund Tax Levy Strategy",
-        "body": "The committee was scheduled to discuss the tax levy strategy related to the debt service fund. This discussion was expected to address how the village would finance debt obligations through tax levy allocations."
-      },
-      {
-        "item": "Municipal Center Hours",
-        "body": "The committee was set to consider and possibly act on changes to the hours of operation for the Municipal Center. This item was expected to address operational scheduling for the village facility."
-      },
-      {
-        "item": "Written Public Comment Procedures for Village Meetings",
-        "body": "The committee was scheduled to discuss and possibly adopt procedures governing written public comments submitted to village meetings. This discussion was expected to establish or clarify how the village would accept and process written comments from the public."
-      },
-      {
-        "item": "Ordinance 14-16 (Police and Fire Commission and Utilities Committee Dual Service)",
-        "body": "The committee was set to consider Ordinance 14-16 regarding dual service by members of the Police and Fire Commission and the Utilities Committee. This item was expected to address policies related to individuals serving on multiple village boards simultaneously."
-      },
-      {
-        "item": "2027 Operating Budget Preview",
-        "body": "The committee was scheduled to receive a preview of the 2027 operating budget, including separate reviews of proposed utility funds and operating and capital funds. This discussion was expected to prepare the committee for detailed budget deliberations."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, with a maximum of 15 minutes total and three minutes per person, subject to extension at the presiding officer's discretion.",
-    "actionItems": [
-      "Scheduled to approve minutes from August 18, 2026 meeting",
-      "Scheduled to approve minutes from September 15, 2026 meeting",
-      "Expected to consider action on Municipal Center Hours",
-      "Expected to consider action on Written Public Comment Procedures for Village Meetings",
-      "Expected to consider action on Ordinance 14-16 regarding dual service"
-    ],
-    "topics": [
-      "Budget",
-      "Capital Improvements",
-      "Debt Service",
-      "Municipal Operations",
-      "Policy"
-    ],
-    "votes": []
   },
   {
     "id": "Jh604oscGRM",
@@ -5573,290 +6039,6 @@
         "motion": "Motion to adjourn",
         "mover": "Supervisor Mash",
         "second": "Supervisor Arstead",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "bb_762740",
-    "source": "dc_everest",
-    "title": "Regular School Board Meeting",
-    "date": "September 16, 2026",
-    "shortDate": "SEP 16",
-    "committee": "Regular Meeting",
-    "duration": "1h 4m",
-    "url": "https://www.youtube.com/watch?v=OcKTzXVAwq4",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=762740",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The DC Everest School Board held its September 2026 regular meeting, approving a 19.1% health insurance premium increase with Aspirus Health Plan for the 2027 plan year and receiving updates on the planned relocation of the IDEA and Odyssey alternative schools as part of an ongoing district facility consolidation effort driven by declining enrollment. The board also heard reports on teacher hiring trends, summer professional development, and community economic impact from the GTCC facility before adjourning to closed session to discuss seclusion and restraint matters.",
-    "agenda": [
-      {
-        "time": "0:42",
-        "item": "Call to Order and Roll Call"
-      },
-      {
-        "time": "1:30",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "1:50",
-        "item": "Approval of Meeting Agenda"
-      },
-      {
-        "time": "2:20",
-        "item": "Consent Agenda Approval"
-      },
-      {
-        "time": "3:00",
-        "item": "Non-Certified Staff Employment Changes (Information Only)"
-      },
-      {
-        "time": "3:10",
-        "item": "WASB September Legal and Legislative Update / Reports and Considerations"
-      },
-      {
-        "time": "4:30",
-        "item": "Student Representative Report - Bin Campman, Student Council President"
-      },
-      {
-        "time": "7:00",
-        "item": "Superintendent Report - Dr. Nye"
-      },
-      {
-        "time": "16:00",
-        "item": "Unfinished Business: IDEA and Odyssey Relocation Update - Dr. Lindell"
-      },
-      {
-        "time": "33:00",
-        "item": "Mission Moment: Rothschild Raptor Mural - Mr. Alexen"
-      },
-      {
-        "time": "38:00",
-        "item": "New Business: Health Insurance Renewal - Aspirus Health Plan"
-      },
-      {
-        "time": "41:00",
-        "item": "Approval of Agenda for Annual Meeting and Budget Hearing"
-      },
-      {
-        "time": "42:00",
-        "item": "General Annual Hiring Report"
-      },
-      {
-        "time": "58:00",
-        "item": "Summer Professional Development Update - Dr. Lindell"
-      },
-      {
-        "time": "1:02:00",
-        "item": "Future Meeting Dates and Adjournment to Closed Session"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "WASB Legislative Update and Statewide Referendum Landscape",
-        "body": "Grabko reported that the WASB September update noted 71 Wisconsin school districts will have 78 referendum questions on the November ballot, bringing the 2026 statewide total to 154 questions across 145 districts — down from a record 241 in 2024. She noted this context was relevant given DC Everest's ongoing facility study and community survey. WASB's four legislative priorities for the 2027-29 budget cycle were also outlined, including increasing special education categorical aid and providing inflationary increases to spendable resources."
-      },
-      {
-        "item": "Student Representative Report",
-        "body": "New student council president Bin Campman, a senior at DC Everest Senior High, reported on the school year's start including a sophomore orientation assembly, homecoming plans with a board games theme, and strong athletic results. Notable highlights included the girls tennis team's 14-3 record and a 5-0 sweep, boys soccer wins including a 'Derby' rivalry victory over Wausau West, and the first-ever inclusion of freshmen in homecoming activities such as powderpuff and hallway decorating."
-      },
-      {
-        "item": "Superintendent Report",
-        "body": "Superintendent Dr. Nye discussed several topics: implementation of Wisconsin Act 89 tightening adult-student communication expectations; DC Everest's participation in the national Brightspots cohort with a site visit to Rothschild Elementary highlighted; launch of the community-wide facility survey running through October 9th; GTCC being fully booked every weekend for the coming year with the World Horseshoe Tournament generating an estimated $5.1 million total economic impact this summer; and a potential social media class action lawsuit that the district has been invited to join, which Nye said would be discussed in closed session next month. He also announced Rachel Rentmester as the incoming executive assistant, succeeding the retiring Ellen."
-      },
-      {
-        "item": "IDEA and Odyssey Relocation Update",
-        "body": "Dr. Lindell presented plans to relocate both alternative schools from their current shared building, citing declining enrollment creating feasibility for decommissioning the facility. IDEA, which transitioned from a charter school to a district program in April, is planned to move to the high school campus footprint for the next school year, enabling students greater access to senior high courses. Odyssey is planned to relocate to the 'blue wing' of Evergreen Elementary, with a separate entrance maintained. Board members asked about parent concerns; Lindell and Dr. Nye acknowledged difficult community conversations, noting parents are particularly concerned about the loss of dedicated square footage, and that fundraising suggestions were raised but cannot resolve the underlying staffing cost issues from declining enrollment. Current enrollment caps are 72 students per school; IDEA is in the upper 60s and Odyssey is also in the upper 60s."
-      },
-      {
-        "item": "Mission Moment: Rothschild Raptor Mural",
-        "body": "Principal Mr. Alexen presented the completed Rothschild Raptor mural installed in August on the school's gymnasium stage. The project was funded through community partnerships including People's State Bank, the DC Everest Foundation, Clover Belt Credit Union, Brokaw Credit Union, and others. The mural features a raptor alongside imagery of Rib Mountain, Lake Wausau, and the local landscape, and was designed by local muralist Jessica Copeki. Alexen noted the school's theme this year is 'Raptor Nation.'"
-      },
-      {
-        "item": "Health Insurance Renewal - Aspirus Health Plan",
-        "body": "Dr. Nye presented the recommended renewal with Aspirus Health Plan for the 2027 plan year, noting an initial proposed increase of 44% was negotiated down to 31% and ultimately to 19.1% with plan design changes including increased deductibles and co-insurance. The district will maintain a 0% premium option for full-time employees, add employer HSA contributions of $1,000 single/$2,000 family, and cap part-time employee premium contributions at 30% for family coverage. Nye estimated approximately 75% of staff would not see an increase in out-of-pocket costs based on historical claims. The board approved the renewal without discussion."
-      },
-      {
-        "item": "General Annual Hiring Report",
-        "body": "HR Director Sarah presented the hiring report, noting 28 teacher hires this year consistent with 29 last year, with 71% having five or fewer years of experience and 40% previously connected to DC Everest. The teacher candidate pool has rebounded to pre-COVID levels. Support staff openings dropped from 17 to 11 since the report was compiled. Board members including Yee Leng Xiong, Larry Schaefer, and Lindsey Lewitzke asked about geographic origins of hires, retention of early-career teachers, and what board policies contribute to successful hiring. Schaefer raised concerns about the well-documented pattern of losing teachers with under five years of experience. Special education was identified as the greatest area of ongoing hiring need."
-      },
-      {
-        "item": "Summer Professional Development Update",
-        "body": "Dr. Lindell reported over 2,100 hours of professional development completed over the summer, with a focus on PLC work, academic clarity, and responsive classroom training. Over 50 staff attended responsive classroom training funded by grants, with Rothschild Elementary serving as the pilot school. Lindell noted teachers are reporting this as among the best starts to a school year they can remember, with staff physically tired but not emotionally depleted — a meaningful shift in teacher experience."
-      },
-      {
-        "item": "Adjournment to Closed Session",
-        "body": "The board voted unanimously to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(f) to discuss seclusion and restraint matters involving specific persons whose personal or disciplinary data, if discussed publicly, could adversely affect their reputation."
-      }
-    ],
-    "publicComment": "No public comment was offered. Board President Grabko explicitly stated 'we do not have public comment at this time' and moved on.",
-    "actionItems": [
-      "Health insurance renewal with Aspirus Health Plan approved for 2027 plan year at 19.1% increase with noted plan design changes",
-      "Annual meeting and budget hearing agenda approved for October 28, 2026 at 6 p.m.",
-      "Community-wide facility survey open through October 9; staff and board to distribute four-page facility planning summary",
-      "Board members to notify Ellen of intent to attend State Education Convention (January 19-22) before November deadline",
-      "Dr. Nye to bring additional details on social media class action lawsuit to next month's meeting for board consideration in closed session",
-      "IDEA relocation to high school campus footprint planned for start of next school year",
-      "Odyssey relocation to Evergreen Elementary blue wing in planning; letter to families to be sent Friday with FAQ document",
-      "WASB region representatives expected to contact board members for legislative priority feedback",
-      "Board will attend fall Region 5 WASB meeting September 29 at Holiday Inn Cedar Creek (registration open)",
-      "Board adjourned to closed session to discuss seclusion and restraint matters"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Facility Planning",
-      "Health Insurance",
-      "Alternative Schools Relocation"
-    ],
-    "votes": [
-      {
-        "item": "Approval of meeting agenda",
-        "motion": "Motion to approve the agenda for this meeting",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "7-0"
-      },
-      {
-        "item": "Approval of consent agenda",
-        "motion": "Motion to approve the consent agenda",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "7-0"
-      },
-      {
-        "item": "Health insurance renewal with Aspirus Health Plan for 2027 plan year including 19.1% premium increase, employer HSA contributions, and premium contribution cap adjustments",
-        "motion": "Motion to approve renewal with Aspirus Health Plan for the 2027 plan year including overall 19.1% premium increase with noted plan design changes, employer HSA contribution of $1,000 single/$2,000 family, 30% employee premium contribution cap for family coverage for less than 1.0 FTE employees, no changes to Freedom Plan employee contributions, and continued evaluation of health insurance alternative strategies",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approval of agenda for annual meeting and budget hearing",
-        "motion": "Motion to approve the agenda for the annual meeting budget hearing as presented in the background",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment to closed session pursuant to Wisconsin State Statute 19.85(1)(f) for seclusion and restraint matters",
-        "motion": "Motion to adjourn to closed session pursuant to Wisconsin State Statute 19.85(1)(f) for seclusion and restraint",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "7-0"
-      }
-    ]
-  },
-  {
-    "id": "kw_2998b824c4a8402485d7752be7e3630a",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee Meeting",
-    "date": "September 15, 2026",
-    "shortDate": "SEP 15",
-    "committee": "Administrative Policy",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Administrative Policy Committee met on September 15, 2026, focusing primarily on a lengthy finance director update covering the 2027 budget process, debt restructuring, staffing concerns, garbage fee increases driven by diesel surcharges, and the 10-year Capital Improvement Plan. No formal votes were taken; the meeting was largely a working session to prepare trustees for October budget workshops. Key issues included a $54,000 unplanned fuel surcharge cost from Harter's garbage contract, a proposed restructuring of $863,200 in unspent TID 2 borrowing proceeds, and concerns about understaffing across village departments.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Pledge of Allegiance and Roll Call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "7:45",
-        "item": "Approval of Minutes (August 18th) - deferred to next meeting"
-      },
-      {
-        "time": "8:20",
-        "item": "Finance Director Report - Monthly Update (mid-July through mid-September 2026)"
-      },
-      {
-        "time": "44:00",
-        "item": "August 2026 Budget Status Report"
-      },
-      {
-        "time": "46:00",
-        "item": "2027 Operating Budget Review - staffing, union contracts, garbage fee discussion"
-      },
-      {
-        "time": "1:22:00",
-        "item": "2027-2036 CIP Budget - Debt Restructuring Discussion"
-      },
-      {
-        "time": "1:47:00",
-        "item": "Consideration of Items for Future Agenda - committee ordinance, public comment policy"
-      },
-      {
-        "time": "1:53:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment - Traffic on Old Highway 51 and Long-Range Planning",
-        "body": "Bernie Kramer of 2150 East State Highway 153 addressed the committee, raising concerns about traffic management on Old Highway 51, arguing it is Kronenwetter's responsibility to coordinate with the county on traffic improvements rather than remaining passive. He also expressed skepticism about 10-year planning given how frequently elected boards change. An unidentified trustee noted she had spoken with Kramer earlier and agreed his suggestion about a potential turning lane for heavy equipment was worth considering."
-      },
-      {
-        "item": "Finance Director Report - Staffing and Operational Concerns",
-        "body": "Finance Director John Jacobs provided an extensive update covering the financial audit (targeting mid-October), TID 3 closure audit (joint review board planned for November), property reassessment by Associated Appraisal (fieldwork underway on 3,000 parcels with buildings and 4,400 land parcels), and a potential future RFP for auditing services. Village Administrator Jim [last name inaudible] and Jacobs both emphasized the village is severely understaffed, with Jacobs noting there were days he was the only person in the office. Discussion centered on the need for a deputy finance director and the strain on interim clerk Kim, who is also managing election duties."
-      },
-      {
-        "item": "Garbage Fee - Diesel Fuel Surcharge",
-        "body": "Jacobs presented a handout analyzing the impact of diesel fuel prices exceeding $4 per gallon — the threshold triggering a fuel surcharge clause in the Harter's garbage contract. Since March 2026, diesel has exceeded $4 (reaching over $6 per gallon), creating approximately $54,000 in unplanned costs for 2026, which the village plans to absorb using the $60,000 contingency reserve and $43,000 from TID 3 closure revenue. For the 2027 budget, trustees discussed three diesel price scenarios ($5.75, $6.00, $6.25 per gallon) that would add $28–$30 per household to garbage charges on top of the contract's standard 4% increase. Trustees agreed to plan for the worst-case $6.25 scenario, adding approximately $30 to the rate."
-      },
-      {
-        "item": "2027 Operating Budget Preview",
-        "body": "Jacobs and the administrator outlined anticipated 2027 budget additions: a deputy clerk position (funded 100% by general fund), a possible fourth utility crew member (funded by water/sewer rates), and retention of funding for the planning tech position. Police officers union contract negotiations are ongoing for a proposed three-year contract; a first bargaining session with the teamsters is scheduled for September 24. The state-mandated levy limit increase for 2027 is only $16,306, well short of anticipated cost increases, meaning the village will again need to use the general obligation debt service exception — similar to the $874,000 exception used in 2026."
-      },
-      {
-        "item": "2027-2036 CIP Budget - Debt Restructuring",
-        "body": "Jacobs detailed a proposed restructuring of $863,200 in unspent TID 2 borrowing proceeds that cannot be used for TID 2 projects (the Flannery Jamrose project was scrapped after bids came in over $1.2 million). The funds must be spent by late 2027 and will be transferred to the village's general capital project fund, with the associated debt absorbed by the tax levy debt service fund. This eliminates one of two previously anticipated debt service 'drops' — the 2030 drop — while preserving the 2029 drop of approximately $226,000. Jacobs noted the restructuring may allow TID 2 to close a year or two earlier than scheduled. Budget workshops are scheduled for October 13 (full budget review at 5:30 p.m.), October 19 (3:00 p.m. start to accommodate Plan Commission at 6:00 p.m.), and October 20 (6:00 p.m.)."
-      },
-      {
-        "item": "Future Agenda Items - Committee Ordinance and Public Comment Policy",
-        "body": "The administrator noted that Village President Dan Joling had referenced a potential ordinance change at the prior village board meeting to allow a member of the Police and Fire Commission to simultaneously serve on another committee — currently prohibited by ordinance. The administrator said the matter will go to the village attorney before coming to APC. Trustee Mary Solheim raised the topic of revising public comment procedures at APC, and the administrator indicated a recommendation will be brought forward, noting that allowing emailed public comment on non-agenda items is unusual statewide and has created problems."
-      }
-    ],
-    "publicComment": "One speaker appeared in person: Bernie Kramer, 2150 East State Highway 153, Kronenwetter. Kramer expressed skepticism about long-range 10-year planning given board turnover, and criticized village inaction on Old Highway 51 traffic issues, arguing Kronenwetter bears responsibility for working with the county to address traffic concerns — particularly as heavy commercial development increases. He urged the village to take the first step in coordinating with Marathon County rather than treating Old 51 as someone else's problem.",
-    "actionItems": [
-      "Finance director to finalize August 2026 budget status report and distribute before next meeting",
-      "Finance director to plan for worst-case $6.25/gallon diesel scenario in 2027 garbage fee budget",
-      "Finance director to restructure debt service amortization to transfer $863,200 from TID 2 to village capital project and debt service funds",
-      "Finance director to run scenarios on how debt restructuring shortens TID 2 payoff timeline for October meetings",
-      "Administrator to take committee ordinance (PFC dual-service question) to village attorney before bringing to APC",
-      "Administrator to bring recommendation on public comment policy revisions to future APC meeting",
-      "Budget workshops scheduled: October 13 at 5:30 p.m. (full budget review), October 19 at 3:00 p.m., October 20 at 6:00 p.m.",
-      "Budget hearing set for November 9 for 2027 budget adoption",
-      "Approval of August 18 APC meeting minutes deferred to October 13 meeting",
-      "Finance director to investigate Old Highway 51 coordination opportunities with Marathon County per public comment"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Development",
-      "TID Districts",
-      "Debt Restructuring"
-    ],
-    "votes": [
-      {
-        "item": "Adjournment",
-        "motion": "Motion for adjournment",
-        "mover": "Mary Solheim",
-        "second": "Chris Clues",
         "outcome": "Approved",
         "tally": "Unanimous"
       }

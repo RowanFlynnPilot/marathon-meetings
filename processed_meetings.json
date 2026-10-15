@@ -2621,6 +2621,28 @@
       "video_url": null,
       "processed_at": "2026-10-14T04:52:28.893350+00:00",
       "summary_file": "summaries/weston-plan-commission-jh604oscgrm.md"
+    },
+    "50NScWtJpvw": {
+      "title": "Wausau Finance Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261013",
+      "meeting_date": "20261013",
+      "duration": 4053,
+      "video_url": null,
+      "processed_at": "2026-10-15T04:37:49.910014+00:00",
+      "summary_file": "summaries/wausau-wausau-finance-committee-meeting-50nscwtjpvw.md"
+    },
+    "7OLPXH8UYC8": {
+      "title": "Wausau City council Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261013",
+      "meeting_date": "20261013",
+      "duration": 10364,
+      "video_url": null,
+      "processed_at": "2026-10-15T04:39:06.302096+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-meeting-7olpxh8uyc8.md"
     }
   }
 }

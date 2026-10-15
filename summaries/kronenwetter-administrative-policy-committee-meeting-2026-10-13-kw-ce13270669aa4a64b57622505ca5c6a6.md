@@ -3,47 +3,54 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-33  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ce13270669aa4a64b57622505ca5c6a6.pdf  
-**Summarized:** 2026-10-13 02:01 UTC
+**Summarized:** 2026-10-15 04:40 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Administrative Policy Committee of Kronenwetter was scheduled to review financial reports, consider the 2027-2036 Capital Improvements Program budget, and address several policy matters including municipal center hours, public comment procedures, and a dual service ordinance affecting the Police and Fire Commission.
+The Village of Kronenwetter's Administrative Policy Committee met on October 13, 2026 and worked through a lengthy budget preview session ahead of upcoming workshops, with Finance Director John presenting utility budget projections showing no rate increases needed for water or sewer in 2027. The committee voted to recommend the village board close municipal center offices to walk-in traffic on Friday afternoons, keep a dual-committee service prohibition in place on the Police and Fire Commission, and approve a written public comment procedure for village meetings. The session was dominated by financial analysis including an 8-month budget surplus, rising diesel costs impacting garbage collection, new state transportation aids, and a 10-year capital improvement plan featuring Maple Ridge Road reconstruction and Bushka Park playground equipment as 2027 priorities.
 
 ## Key Discussions
-### Comparative Internal Financial Statements Year-To-Date: August 2026
-The committee was scheduled to review comparative internal financial statements for the year-to-date period through August 2026. This report was expected to provide financial performance data for the village's operations.
+### Approval of Minutes - August 18 and September 15, 2026 APC Meetings
+Trustee Solheim moved to approve both sets of minutes and Misty Swanson seconded. The motion passed 3-0 with all three members present voting in favor.
 
-### 2025-2027 State Aids Listing for 2027 Budget
-The committee was set to review state aids allocations that would inform the 2027 budget planning process. This discussion was expected to address revenue sources available to the village for the upcoming fiscal year.
+### Comparative Internal Financial Statements Year to Date August 2026
+Finance Director John reported a general fund budget surplus of $364,000 at the end of August versus $667,000 at the same point in 2025, with 57% of budget spent at 67% of the year elapsed. He flagged the village attorney, municipal building, and garbage/refuse/solid waste accounts as likely to exceed budget, with a budget amendment expected at the November board meeting. Trustee Fridell asked about the surplus and noted concern about whether expenditures are outpacing revenues due to insufficient net new construction, and expressed enthusiasm about the distribution center project as a financial turning point. John noted that excess TID 1 revenues can annually repay the $2.7-2.8 million village advance without waiting until 2044, and said details would be shared at the upcoming Monday-Tuesday budget workshops.
 
-### August 2026 Financial Statistical Report from Wisconsin Policy Forum
-The committee was scheduled to consider financial statistical information from the Wisconsin Policy Forum for August 2026. This external report was expected to provide comparative analysis or benchmarking data for the village's finances.
+### 2025-27 State Aids Listings for 2027 Budget
+John reported a $56,000 increase in total state aids for 2027, driven primarily by a $52,000 increase in transportation aids attributable to capital spending on Kronenwetter Drive and the new public works garage. He noted that the aid formula has not yet captured 2026-2027 staffing increases, and anticipated the trend would continue upward as road miles grow with the Green Tree subdivision and FAA property development.
 
-### 2027-2036 Capital Improvements Program (CIP) Budget-2nd Draft
-The committee was set to review the second draft of the Capital Improvements Program budget covering the ten-year period from 2027 to 2036. This item was expected to guide long-term capital planning and infrastructure decisions for the village.
+### August 2026 Financial Satisfaction Report from Wisconsin Policy Forum
+John presented charts comparing Kronenwetter to 10 North Central Wisconsin communities using 2024 data, showing the village near the bottom in general government spending per person ($120), street surface maintenance ($147 per person), police spending ($163 per person), net basic spending ($477), and net operating spending. He highlighted that 84% of the tax base is residential — the highest of all compared communities — contrasted with low per-person property taxes ($317). Trustee Fridell commented that the data supports the case for sound financial management and urged clear public communication of these facts to build resident credibility. The presentation was framed as context for the upcoming budget discussions.
+
+### Capital Improvement Program 2027-2036 Second Draft
+Administrator Dave and John presented the second draft of the 10-year CIP, noting the parks committee had now added their numbers across the full plan period. For 2027, the plan totals approximately $4.3 million with only 43% as general obligation debt; the two borrowing items are Maple Ridge Road reconstruction and Bushka Park playground equipment. John noted $1.2 million in unspent 2024 borrowing proceeds available for the Maple Ridge project, which must be spent by October 2027. Discussion included a new Wisconsin residential TIF law effective October 1, 2026 that developers have already raised with the administrator as a possible infrastructure financing tool, with suggestions to engage the DOR or the village's financial advisor Ellers for guidance. Martin Road was discussed as a future high-cost full reconstruction project. Dave noted the CIP will be a separate board resolution from the budget.
 
 ### Debt Service Fund Tax Levy Strategy
-The committee was scheduled to discuss the tax levy strategy related to the debt service fund. This discussion was expected to address how the village would finance debt obligations through tax levy allocations.
+John explained that $863,200 in unused TID 2 borrowing proceeds will be transferred to the capital project fund, shifting the associated debt obligation from TID 2 to the village tax levy fund. This restructuring reduces the originally projected two drops in debt service payments (in 2029 and 2035) to a single drop around $200,000 in 2029. The move accelerates TID 2's closure timeline, which John said he would discuss further at the budget workshop with additional detail from Ellers.
 
 ### Municipal Center Hours
-The committee was set to consider and possibly act on changes to the hours of operation for the Municipal Center. This item was expected to address operational scheduling for the village facility.
+Administrator Dave proposed closing the municipal center to walk-in foot traffic on Friday afternoons to allow administrative catch-up time, while continuing to answer phones. He noted this mirrors Marathon County, City of Wausau, and other area municipalities. Trustee Solheim moved to recommend to the village board that hours be changed to Monday-Thursday 7:30 a.m.-4:30 p.m. and Friday 7:30 a.m.-noon, with Friday afternoons as an administrative day. The motion was amended to specify Friday as an all-day administrative day after noon. The roll call vote was 4-0 (Fridell, Swanson, Solheim, Stowell all yes) to send the recommendation to the board.
 
-### Written Public Comment Procedures for Village Meetings
-The committee was scheduled to discuss and possibly adopt procedures governing written public comments submitted to village meetings. This discussion was expected to establish or clarify how the village would accept and process written comments from the public.
+### Written Public Comment Procedure for Village Meetings
+Administrator Dave introduced a revised policy for Gen O10 governing written public comment submitted to village meetings, including a Wednesday deadline for inclusion in packets. He noted board members had requested this formalized procedure. Guy Fridell moved and Misty Swanson seconded to recommend the revisions to the village board. The roll call vote was 4-0 to forward to the board.
 
-### Ordinance 14-16 (Police and Fire Commission and Utilities Committee Dual Service)
-The committee was set to consider Ordinance 14-16 regarding dual service by members of the Police and Fire Commission and the Utilities Committee. This item was expected to address policies related to individuals serving on multiple village boards simultaneously.
+### Ordinance 14-16 Police and Fire Commission and Utilities Committee Dual Service
+Administrator Dave recommended against changing Ordinance 14-16, which prohibits an individual from serving simultaneously on the Police and Fire Commission and the Utilities Committee. He said village staff, both chiefs, and village counsel all oppose the change, citing the importance of keeping the PFC free from political influence. Both chiefs expressed concern about political bias affecting public safety departments. The committee agreed that the ordinance encourages broader citizen participation and diversity on boards. Trustee Fridell moved to recommend to the board that no changes be made to Ordinance 14-16; Trustee Solheim seconded. The roll call vote was 4-0 to send that recommendation to the board.
 
-### 2027 Operating Budget Preview
-The committee was scheduled to receive a preview of the 2027 operating budget, including separate reviews of proposed utility funds and operating and capital funds. This discussion was expected to prepare the committee for detailed budget deliberations.
+### 2027 Operating Budget Preview - Utility Funds and General Fund
+John reported that neither the water nor sewer utility rates will need to increase for 2027. The Red Mountain Metro assessment rose from $460,000 to an estimated $540,000 for 2027, but delaying sewer utility borrowing until after July 1, 2027 means no new debt service kicks in until 2028, enabling a near-balanced sewer utility budget ($7,800 projected surplus). A new half-time utility crew position will be split 50/50 between water and sewer utilities. On the general fund, diesel fuel surcharges on garbage collection are running approximately $57,000 over budget for the remainder of 2026 (over $9,000 per month), driven by diesel at $6.35/gallon; the village will absorb the overrun rather than issue a supplemental bill to residents. The garbage rate for 2027 will increase approximately $39-40 on the annual tax bill; Dave and John agreed to draft a joint explanatory letter to accompany the tax bill. Dave noted police union insurance costs came in at a 14% increase and the village is exploring switching officers to TeamCare as a cost-saving alternative, with union reps expressing openness to the change. Budget workshops were set for Monday at 3 p.m. and Tuesday at 6 p.m., with printed budget binders to be distributed Friday.
 
 ## Public Comment
-Public comment was on the agenda, with a maximum of 15 minutes total and three minutes per person, subject to extension at the presiding officer's discretion.
+The chairperson asked two individuals by name — 'Bernie' and 'Mrs. Kramer' — if they had anything to say. Neither offered comment. No written public comment had been forwarded to the chair. No public comment was offered.
 
 ## Action Items
-- Scheduled to approve minutes from August 18, 2026 meeting
-- Scheduled to approve minutes from September 15, 2026 meeting
-- Expected to consider action on Municipal Center Hours
-- Expected to consider action on Written Public Comment Procedures for Village Meetings
-- Expected to consider action on Ordinance 14-16 regarding dual service
+- Forward recommendation to village board to change municipal center hours to Monday-Thursday 7:30 a.m.-4:30 p.m. and Friday 7:30 a.m.-noon with Friday afternoons as administrative time
+- Forward recommendation to village board to approve revisions to Gen O10 written public comment procedure with Wednesday submission deadline
+- Forward recommendation to village board that Ordinance 14-16 dual-service prohibition on Police and Fire Commission remain unchanged and affected individual be asked to choose one committee
+- Prepare budget amendment for November board meeting to cover overages in village attorney, municipal building, and garbage/refuse/solid waste accounts
+- Distribute 2027 budget binders to trustees by Friday ahead of Monday 3 p.m. and Tuesday 6 p.m. budget workshops
+- John and Administrator Dave to co-author explanatory letter to accompany December tax bills addressing garbage rate increase and absorbed costs
+- Contact DOR or financial advisor Ellers to understand the new Wisconsin residential TIF law (effective October 1, 2026) and its applicability to village infrastructure financing
+- John to work with Ellers to model 10-, 15-, and 20-year borrowing scenarios for CIP capital projects
+- Post 10-year CIP document to village website for public transparency following budget adoption
