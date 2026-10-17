@@ -609,4 +609,14 @@ URL:https://www.westonwi.gov/agendacenter
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
+BEGIN:VEVENT
+UID:8ace6d8325e2e48f838b@marathon-meetings
+DTSTAMP:20261216T000000Z
+DTSTART;TZID=America/Chicago:20261216T183000
+DTEND;TZID=America/Chicago:20261216T200000
+SUMMARY:DC Everest School Board: Regular School Board Meeting
+URL:https://meetings.boardbook.org/Public/Organization/1315
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
 END:VCALENDAR
