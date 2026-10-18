@@ -2643,6 +2643,17 @@
       "video_url": null,
       "processed_at": "2026-10-15T04:39:06.302096+00:00",
       "summary_file": "summaries/wausau-wausau-city-council-meeting-7olpxh8uyc8.md"
+    },
+    "6EGr6wbw5Do": {
+      "title": "Marathon County Board Educational Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261015",
+      "meeting_date": "20261015",
+      "duration": 6333,
+      "video_url": null,
+      "processed_at": "2026-10-18T22:26:27.761308+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-educational-meeting-6egr6wbw5do.md"
     }
   }
 }
