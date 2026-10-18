@@ -39,6 +39,8 @@ Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview
 8. `npm run build` → `dist/` (copies everything in `public/`)
 9. Commit updated data files, deploy to Pages
 
+Reel drafts: before step 1 the run snapshots which meetings have transcript-built summaries (`reel_candidates.py --snapshot`). After the commit, any city council or county board meeting that became transcript-built in this run is sent to RowanFlynnPilot/wpr-reels as a `transcript-ingested` dispatch (video ID + this commit). That repo's draft-reel workflow opens a draft reel PR. The step needs the `REELS_DISPATCH_TOKEN` secret (fine-grained, wpr-reels Contents: read and write), skips quietly without it, and never fails the run. Tests: `python -m pytest test_reel_candidates.py`.
+
 Summaries carry a `topics` array (3-5 Title Case tags, emitted by all five summarization prompts). The frontend renders them as clickable chips in the detail view; clicking one runs a full-text search (title + committee + topics + overview + discussions + action items) across all jurisdictions.
 
 Transcript/minutes summaries also emit a structured `votes` array ({item, motion, mover, second, outcome, tally}); the Votes tab renders it for non-CivicClerk sources (CivicClerk's `civicItems` takes precedence). `assets/rosters.json` holds per-source officials — used as Whisper vocabulary hints AND as authoritative name spellings in transcript/minutes prompts. **Update rosters after each April election.**
