@@ -28,6 +28,12 @@ def test_only_council_and_county_board_meetings_want_reels():
     assert not wants_reel("Marathon County Board Educational Meeting")
     assert not wants_reel("Wausau Finance Committee Meeting")
     assert not wants_reel("Marathon County Public Safety Committee")
+    # Real tracker titles: committees carry the council's name, and split meetings.
+    assert not wants_reel("Wausau City Council Economic Development Committee Meeting - 10/6/26")
+    assert not wants_reel("Wausau City Council Joint Human Resources Committee and Finance Committee Meeting Pt.1 - 9/14/26")
+    assert not wants_reel("Wausau City Council Meeting Pt.2 - 8/18/26")
+    assert not wants_reel("Marathon County Board Regular Meeting Pt.1 - 8/25/26")
+    assert wants_reel("Marathon County Board Special Meeting - 10/1/26")
 
 
 def test_a_missing_or_malformed_snapshot_prints_nothing(tmp_path):

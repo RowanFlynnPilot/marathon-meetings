@@ -7,8 +7,11 @@ at the end; only meetings that flipped during the run are new. (The
 injected_meetings.json ledger can't say this: inject_transcript.py clears a
 video from it on every run so inject_meetings.py rebuilds it.)
 
-Only city council and county board meetings get reels; committee meetings and
-educational sessions don't.
+Only full city council and county board meetings get reels. Committees don't,
+though the tracker titles some "Wausau City Council ... Committee Meeting", and
+neither do educational sessions. A meeting split into parts ("Pt.1", "Pt.2")
+isn't auto-drafted either: each part alone would miss the other's votes, so a
+person drafts it with /reel and picks the part that carries them.
 
   python reel_candidates.py --snapshot /tmp/reel_ready.json
   python reel_candidates.py --since /tmp/reel_ready.json   # prints new IDs, one per line
@@ -22,7 +25,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 VIDEO_ID = re.compile(r"(?:[?&]v=|youtu\.be/)([A-Za-z0-9_-]{11})")
 BODIES = re.compile(r"\bcity council\b|\bcounty board\b", re.I)
-NOT_A_MEETING = re.compile(r"educational|workshop|training|orientation|listening session", re.I)
+NOT_A_MEETING = re.compile(r"committee|commission|educational|workshop|training|orientation|listening session", re.I)
+SPLIT = re.compile(r"\bpt\.?\s*\d|\bpart\s*\d", re.I)
 
 
 def reel_ready(root: Path = ROOT) -> dict[str, str]:
@@ -40,7 +44,7 @@ def reel_ready(root: Path = ROOT) -> dict[str, str]:
 
 
 def wants_reel(title: str) -> bool:
-    return bool(BODIES.search(title)) and not NOT_A_MEETING.search(title)
+    return bool(BODIES.search(title)) and not NOT_A_MEETING.search(title) and not SPLIT.search(title)
 
 
 def new_candidates(before: set[str], now: dict[str, str]) -> list[str]:
