@@ -1,0 +1,62 @@
+{
+  "overview": "The Wausau Police & Fire Commission held a brief meeting in which it approved promotions for two firefighters and one police detective, then moved into closed session to consider an appeal of a dismissed citizen complaint. The closed session was convened to protect the reputation of the individuals referenced in the complaint.",
+  "committee": "Wausau Police & Fire Commission",
+  "presiding": "Unknown — name not stated in transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Approval of promotions for fire and police department personnel"
+    },
+    {
+      "time": "0:30",
+      "item": "Motion to enter closed session — reconsideration request of dismissed citizen complaint of JV"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Personnel Promotions",
+      "body": "The commission voted to approve the promotions of Brett Krueger and Brandon Stikley in the Wausau Fire Department, and Mike Hores in the Wausau Police Department to the rank of detective. A motion was made and seconded, and the vote passed unanimously. The chair offered congratulations to the newly promoted personnel."
+    },
+    {
+      "item": "Closed Session — Reconsideration of Dismissed Citizen Complaint",
+      "body": "Following the promotions, the commission moved to enter closed session pursuant to Wisconsin Statute Section 19.85(1)(f) to consider a reconsideration request regarding the dismissal of a citizen complaint identified only as 'JV.' A staff member identified as Lisa read the statutory basis for the closed session. A motion was made and seconded, and the commission voted unanimously to go into closed session."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Promotions of Brett Krueger and Brandon Stikley (Fire Department) and Mike Hores (Police Department, detective) officially approved",
+    "Commission entered closed session to consider reconsideration request of dismissed citizen complaint of JV under Wisconsin Statute Section 19.85(1)(f)"
+  ],
+  "topics": [
+    "Public Safety",
+    "Staffing",
+    "Personnel Promotions",
+    "Citizen Complaint Appeal",
+    "Closed Session"
+  ],
+  "votes": [
+    {
+      "item": "Approval of promotions for Brett Krueger and Brandon Stikley (Fire Department) and Mike Hores (Police Department, detective)",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Motion to enter closed session for reconsideration of dismissed citizen complaint of JV",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "fc5b914bc3e758e1",
+  "title": "Wausau Police & Fire Commission",
+  "url": "https://www.youtube.com/watch?v=o1ODqgKozo8",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-10-19T21:03:47.874844+00:00"
+}
