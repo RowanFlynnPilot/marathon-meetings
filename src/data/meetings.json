@@ -1,5 +1,131 @@
 [
   {
+    "id": "kw_d0f58e7cc36042c8a67098eda7feab03",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee and Village Board - Budget Workshop 1",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Administrative Policy Committee and Village Board of Kronenwetter held a budget workshop scheduled to begin discussions on the 2027 budget. This was the first of what appears to be multiple budget workshops planned to review and shape the village's fiscal year 2027 spending plan.",
+    "agenda": [
+      {
+        "time": "3:00 PM",
+        "item": "2027 Budget Workshop Discussion #1"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2027 Budget Workshop Discussion #1",
+        "body": "The committee and board were scheduled to discuss the village's 2027 budget during this first workshop session. This agenda item was set for discussion and possible action regarding the fiscal year 2027 spending plan and priorities."
+      }
+    ],
+    "publicComment": "Public comment was scheduled, with a 15-minute total period and three-minute individual time limit per speaker, at the Chief Presiding Officer's discretion for extensions.",
+    "actionItems": [
+      "Expected to discuss 2027 budget priorities and framework during Workshop Discussion #1",
+      "Scheduled to consider possible action items related to 2027 budget planning"
+    ],
+    "topics": [
+      "Budget",
+      "2027 Fiscal Planning",
+      "Village Administration"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-32",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bdf4cc06c02749e6864bd0e30592f00b.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to hold a public hearing and take action on three significant development proposals: a conditional use permit for a nonmetallic mine operation, a zoning change request, and a certified survey map for land division. The meeting was also set to include a community development director report and zoning code review discussion.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Announcement of Public Hearing - Conditional Use Permit (Eau Claire River LLC) for nonmetallic mine at 1320 Kowalski Rd"
+      },
+      {
+        "time": "6:00 PM",
+        "item": "Announcement of Public Hearing - Zoning Change Request (Jean Pochinski) at 3115 Aspen Rd from RR5 to RR2"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Community Development Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Certified Survey Map (Jean Pochinski) - land division to create two lots"
+      },
+      {
+        "time": "N/A",
+        "item": "Zoning Change Request (Jean Pochinski) - RR5 to RR2 zoning change"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Permit (Eau Claire River LLC) - nonmetallic mine permit"
+      },
+      {
+        "time": "N/A",
+        "item": "Zoning Code Review"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Conditional Use Permit (Eau Claire River LLC)",
+        "body": "Eau Claire River, LLC was scheduled to present a request for a Conditional Use Permit to operate a nonmetallic mine on a 35.58-acre parcel at 1320 Kowalski Rd in Kronenwetter. The commission was set to hold a public hearing on this proposal and expected to consider action on the permit application."
+      },
+      {
+        "item": "Zoning Change Request (Jean Pochinski)",
+        "body": "Jean Pochinski was scheduled to request a zoning change of 2.89 acres at 3115 Aspen Rd from RR5 (Rural Residential 5) to RR2 (Rural Residential 2) zoning classification. The commission was set to hold a public hearing and expected to consider this zoning reclassification request."
+      },
+      {
+        "item": "Certified Survey Map (Jean Pochinski)",
+        "body": "Jean Pochinski was scheduled to request approval of a Certified Survey Map to divide an 11-acre parcel into two lots at 3115 Aspen Rd. The commission was expected to review and possibly act on this land division application."
+      },
+      {
+        "item": "Community Development Director Report",
+        "body": "The Plan Commission was scheduled to receive a report from the Community Development Director regarding ongoing village development matters and planning initiatives."
+      },
+      {
+        "item": "Zoning Code Review",
+        "body": "The commission was set to discuss and review the village's zoning code as part of its ongoing regulatory oversight responsibilities."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, with a 15-minute total time limit and three-minute per-person limit, subject to extension by the presiding officer.",
+    "actionItems": [
+      "Expected to vote on Conditional Use Permit for nonmetallic mine (Eau Claire River LLC)",
+      "Expected to vote on Zoning Change Request from RR5 to RR2 (Jean Pochinski)",
+      "Expected to vote on Certified Survey Map for land division (Jean Pochinski)",
+      "Scheduled to review and discuss Zoning Code"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Mining Operations",
+      "Land Division",
+      "Nonmetallic Mine"
+    ],
+    "votes": []
+  },
+  {
     "id": "6EGr6wbw5Do",
     "source": "marathon",
     "title": "Board Educational Meeting",
@@ -5904,157 +6030,6 @@
         "second": "Supervisor Gao",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "J_WX4t3layw",
-    "source": "marathon",
-    "title": "Board Meeting Pt.2",
-    "date": "September 17, 2026",
-    "shortDate": "SEP 17",
-    "committee": "County Board",
-    "duration": "1m",
-    "url": "https://www.youtube.com/watch?v=J_WX4t3layw",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "This was a very brief return to open session following a closed session of the Marathon County Board. The only substantive announcement was administrative direction given following the closed session, and the board quickly adjourned. No major votes or policy decisions were recorded in this segment.",
-    "agenda": [
-      {
-        "time": "0:34",
-        "item": "Return to open session and announcement from closed session"
-      },
-      {
-        "time": "0:50",
-        "item": "Announcements and requests from the chair"
-      },
-      {
-        "time": "1:10",
-        "item": "Motion to adjourn"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Closed Session Announcement",
-        "body": "Upon returning to open session, the chair announced that administration had been given direction on how to move forward, without specifying the subject matter of the closed session. No further detail was provided publicly."
-      },
-      {
-        "item": "Supervisor Mailboxes",
-        "body": "The chair relayed a request from the county clerk asking all supervisors to check and clean out their mailboxes, noting that some were 'plum full.' This was the only substantive announcement made before adjournment."
-      },
-      {
-        "item": "Motion to Adjourn",
-        "body": "A motion to adjourn was made and seconded. The chair called for a voice vote and declared the motion carried, adjourning the meeting. The transcript indicates some confusion over who made the motion and seconded it, with names including Dre Beck and Enen mentioned."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Administration directed to move forward based on guidance received in closed session",
-      "Supervisors requested to clean out their county mailboxes"
-    ],
-    "topics": [
-      "County Administration",
-      "Board Operations"
-    ],
-    "votes": [
-      {
-        "item": "Motion to adjourn",
-        "motion": "Motion to adjourn",
-        "mover": "Dre Beck",
-        "second": "Enen",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "PZMqtIIHwGw",
-    "source": "marathon",
-    "title": "Infrastructure Committee Meeting",
-    "date": "September 17, 2026",
-    "shortDate": "SEP 17",
-    "committee": "Infrastructure",
-    "duration": "10m",
-    "url": "https://www.youtube.com/watch?v=PZMqtIIHwGw",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Infrastructure Committee held a brief meeting focused primarily on public comment from two Town of Texas residents about dangerous conditions on County Road W, followed by approval of the 2026 Marathon County Culvert Bridge Aid resolution. The committee voted to forward the bridge aid resolution to the county board, covering approximately $64,000 in culvert and bridge projects completed by county crews for local municipalities.",
-    "agenda": [
-      {
-        "time": "0:03",
-        "item": "Call to order / quorum established"
-      },
-      {
-        "time": "0:15",
-        "item": "Public comment - County Road W safety concerns"
-      },
-      {
-        "time": "6:45",
-        "item": "4B: Discussion and possible action - 2026 Marathon County Culvert Bridge Aid (Resolution 5726) for county board consideration"
-      },
-      {
-        "time": "8:30",
-        "item": "Item 5: Education presentation and committee discussion"
-      },
-      {
-        "time": "8:45",
-        "item": "Item 6: Next meeting date, time, and future agenda items"
-      },
-      {
-        "time": "9:10",
-        "item": "Announcements - North Central Region fall legislative meeting"
-      },
-      {
-        "time": "9:50",
-        "item": "Item 7: Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment - County Road W Safety Concerns",
-        "body": "Two Town of Texas residents, Tracy Delaney (236617 County Road W) and Donald Hillbrand (236493 County Road W), spoke about dangerous conditions on County Road W. Delaney requested no-engine-braking signs due to noise from increased truck traffic from Hos, and asked the committee to add guardrails on the east side of County Road W north of Marshall Hill Road when road improvements are planned, noting her house is only 30 feet from the road. Hillbrand echoed concerns about out-of-control speeds, outdated and unsafe guardrails, vehicles crossing into driveways and nearly striking his house, and a semi that refused to yield to an ambulance — for which Sheriff Chad Bilip fined the driver and firm $500 each. Hillbrand noted that a consulting firm had agreed guardrails were needed."
-      },
-      {
-        "item": "2026 Marathon County Culvert Bridge Aid (Resolution 5726)",
-        "body": "Kevin [last name not stated] presented the 2026 Culvert Bridge Aid program, describing it as a fairly typical year with approximately $64,000 in projects, with county crews completing five projects for municipalities. A larger box culvert project for the Town of McMillan was excluded from this resolution because it received 90% state funding through the Local Small Structure Improvement Program (LSSIP) for 6-to-20-foot structures, though crews still plan to complete it in October. The committee voted unanimously to forward Resolution 5726 to the county board; the motion was made by Griner and seconded by [inaudible, referred to as 'AC']."
-      },
-      {
-        "item": "Announcements - North Central Region Fall Legislative Meeting",
-        "body": "Kevin announced that the North Central Region fall legislative meeting is scheduled for October 23rd in Stevens Point, featuring a breakfast at 8:30 a.m. with presentations from commissioners and transportation officials, and with all legislators invited. He noted the registration deadline is October 2nd and asked interested committee members to contact him."
-      }
-    ],
-    "publicComment": "Two speakers offered public comment. Tracy Delaney of 236617 County Road W in the Town of Texas requested no-engine-braking signs due to noise from increased truck traffic and asked that guardrails be added to the east side of County Road W north of Marshall Hill Road during planned road improvements. Donald Hillbrand of 236493 County Road W in the Town of Texas described dangerous speeding, vehicles entering his property, a trailer nearly striking his house, and a semi blocking an ambulance — citing video evidence shared with Sheriff Chad Bilip. Both residents called for updated guardrails and traffic safety improvements.",
-    "actionItems": [
-      "Resolution 5726 (2026 Marathon County Culvert Bridge Aid) forwarded to the full county board for consideration",
-      "Kevin to register interested committee members for the North Central Region fall legislative meeting by October 2nd deadline",
-      "County highway staff to consider guardrail and engine-brake signage requests on County Road W from public commenters when planning road improvements",
-      "Next committee meeting scheduled for Tuesday, October 1st, 2026 at 9:00 a.m."
-    ],
-    "topics": [
-      "Roads",
-      "Budget",
-      "County Road W Safety",
-      "Culvert Bridge Aid",
-      "Infrastructure Funding"
-    ],
-    "votes": [
-      {
-        "item": "2026 Marathon County Culvert Bridge Aid (Resolution 5726) - forward to county board",
-        "motion": "Motion to move forward with Resolution 5726, County Bridge Aid, to the county board",
-        "mover": "Aaron Griner",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": null,
-        "mover": "Stacy Watson",
-        "second": "Aaron Griner",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }

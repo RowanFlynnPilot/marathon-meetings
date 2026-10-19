@@ -2654,6 +2654,28 @@
       "video_url": null,
       "processed_at": "2026-10-18T22:26:27.761308+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-educational-meeting-6egr6wbw5do.md"
+    },
+    "kw_bdf4cc06c02749e6864bd0e30592f00b": {
+      "title": "Plan Commission Meeting - 2026-10-19",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bdf4cc06c02749e6864bd0e30592f00b.pdf",
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-32",
+      "processed_at": "2026-10-19T04:38:44.521255+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-10-19-kw-bdf4cc06c02749e6864bd0e30592f00b.md"
+    },
+    "kw_d0f58e7cc36042c8a67098eda7feab03": {
+      "title": "Administrative Policy Committee and Village Board - Budget Workshop 1 - 2026-10-19",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
+      "processed_at": "2026-10-19T04:38:48.780110+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-and-village-board-budget-workshop-1-kw-d0f58e7cc36042c8a67098eda7feab03.md"
     }
   }
 }
