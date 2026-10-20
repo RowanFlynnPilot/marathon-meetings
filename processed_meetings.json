@@ -2529,8 +2529,8 @@
       "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
       "upload_date": "20261012",
       "meeting_date": "20261012",
-      "duration": null,
-      "video_url": null,
+      "duration": 3732,
+      "video_url": "https://www.youtube.com/watch?v=Jk4iqCHGIJE",
       "processed_at": "2026-10-12T05:55:01.788929+00:00",
       "summary_file": "summaries/school-board-regular-meeting-2026-10-12-bb-769562.md"
     },
@@ -2720,6 +2720,50 @@
       "video_url": null,
       "processed_at": "2026-10-20T04:48:56.498123+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-vsipbxhhwlg.md"
+    },
+    "0bScOP-rhOE": {
+      "title": "Board of Trustees",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": 5298,
+      "video_url": null,
+      "processed_at": "2026-10-20T20:00:54.625769+00:00",
+      "summary_file": "summaries/weston-board-of-trustees-0bscop-rhoe.md"
+    },
+    "svZQYS81_uI": {
+      "title": "Tourism Commission",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": 2149,
+      "video_url": null,
+      "processed_at": "2026-10-20T20:01:17.804307+00:00",
+      "summary_file": "summaries/weston-tourism-commission-svzqys81-ui.md"
+    },
+    "8m5OZcOtN4A": {
+      "title": "Wausau Public Health & Safety Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": 3316,
+      "video_url": null,
+      "processed_at": "2026-10-20T20:03:29.235588+00:00",
+      "summary_file": "summaries/wausau-wausau-public-health-safety-committee-meeting-8m5ozcotn4a.md"
+    },
+    "VwT65b86_JM": {
+      "title": "Joint Budget Workshop Meeting",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": 6824,
+      "video_url": null,
+      "processed_at": "2026-10-20T20:04:36.133480+00:00",
+      "summary_file": "summaries/weston-joint-budget-workshop-meeting-vwt65b86-jm.md"
     }
   }
 }
