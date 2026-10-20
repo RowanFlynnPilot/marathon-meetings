@@ -2698,6 +2698,28 @@
       "video_url": null,
       "processed_at": "2026-10-19T21:03:47.875369+00:00",
       "summary_file": "summaries/wausau-wausau-police-fire-commission-o1odqgkozo8.md"
+    },
+    "kw_781b3450287040eaac31f72144fa1b7d": {
+      "title": "Administrative Policy Committee and Village Board - Budget Workshop 2 - 2026-10-20",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-781b3450287040eaac31f72144fa1b7d.pdf",
+      "upload_date": "20261020",
+      "meeting_date": "20261020",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-2",
+      "processed_at": "2026-10-20T04:48:04.109496+00:00",
+      "summary_file": "summaries/kronenwetter-administrative-policy-committee-and-village-board-budget-workshop-2-kw-781b3450287040eaac31f72144fa1b7d.md"
+    },
+    "vsipbXHhWLg": {
+      "title": "Wausau Police & Fire Commission",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261019",
+      "meeting_date": "20261019",
+      "duration": 1815,
+      "video_url": null,
+      "processed_at": "2026-10-20T04:48:56.498123+00:00",
+      "summary_file": "summaries/wausau-wausau-police-fire-commission-vsipbxhhwlg.md"
     }
   }
 }
