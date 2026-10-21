@@ -93,6 +93,193 @@
     "votes": []
   },
   {
+    "id": "_TTqHhdr3jQ",
+    "source": "wausau",
+    "title": "Finance Committee Budget Session #4 Meeting",
+    "date": "October 20, 2026",
+    "shortDate": "OCT 20",
+    "committee": "Finance",
+    "duration": "2h 22m",
+    "url": "https://www.youtube.com/watch?v=_TTqHhdr3jQ",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Finance Committee held its fourth budget session for the 2027 budget on October 20, 2026, working through a series of amendments to the proposed budget including removing Flock camera funding, redirecting the city administrator allocation toward an audit, and approving new fee schedules. The committee approved several amendments by voice vote, including eliminating $50,000 in Flock ALPR camera funding, $45,000 in alley paving, $150,000 for the city administrator position, and $20,000 in trail planning, while rejecting a proposal to remove $25,000 for street tree planting.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "1:05",
+        "item": "Item 1: Public Comment on Agenda Items"
+      },
+      {
+        "time": "20:30",
+        "item": "Item 2: Discussion and Possible Action — Recommending 2027 Budget Including Setting 2027 Fee Schedule"
+      },
+      {
+        "time": "22:00",
+        "item": "Flock Camera Invoice Timing Clarification"
+      },
+      {
+        "time": "25:30",
+        "item": "Property Record Maintenance Fee Proposal (Assessor's Office)"
+      },
+      {
+        "time": "32:00",
+        "item": "Updated Assessed Value and Revised Tax Rate Presentation"
+      },
+      {
+        "time": "38:00",
+        "item": "Motor Pool Reconciliation for 2027"
+      },
+      {
+        "time": "44:00",
+        "item": "Debt Service Impact and Capital Financing Scenarios (10-year, 15-year, structured)"
+      },
+      {
+        "time": "58:00",
+        "item": "TID 8 Project Plan Amendment and Capital Projects Overview"
+      },
+      {
+        "time": "1:22:00",
+        "item": "Budget Motion and Amendments (Flock cameras, fees, administrator, alley paving, trail planning, trees, TID 12 tool design)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment — Flock ALPR Cameras",
+        "body": "Six members of the public spoke, all urging the committee to remove Flock camera funding from the 2027 and 2028 budgets. Felix Gallow, citing the Wisconsin Supreme Court and Flock's own chief legal officer's blog post, argued that non-appropriation carries negligible litigation risk and that over a dozen Wisconsin agencies have ended Flock contracts without being sued. Courtney Olsen, executive director of a domestic violence agency, warned that ALPR systems can be misused as stalking tools, citing cases in Milwaukee and Menasha. Mary Clus, Danielle Fischer, and Carrie Morola also spoke in favor of removal, with speakers noting the Public Health and Safety Committee had voted 5-0 the prior evening to recommend striking the Flock appropriation."
+      },
+      {
+        "item": "Property Record Maintenance Fee",
+        "body": "City Assessor Rick Rubo presented a proposal for new property record maintenance fees, noting that approximately 12 other Wisconsin municipalities have adopted similar fees to recoup staff time for updating physical and electronic property record cards when permits are issued and when parcels are split or combined. He described the administrative burden of processing condominium plat combinations affecting 55+ units. The committee approved the new fees by voice vote as an amendment to the fee schedule."
+      },
+      {
+        "item": "Updated Assessed Value and Tax Rate Impact",
+        "body": "Finance Director Maryanne reported that the final assessed value came in at a 2.56% increase (approximately $464.9 million above estimates), significantly stronger than the projected 1%. This revised the estimated tax rate downward from $9.24 to $9.10 per $1,000, reducing the estimated annual tax impact on a $200,000 home from $9,973 to $7,152. The committee noted remaining tax rate unknowns pending school, technical college, and county levies."
+      },
+      {
+        "item": "Motor Pool Reconciliation",
+        "body": "The finance director presented a 2027 motor pool reconciliation showing departmental charges totaling $4.018 million in the general fund and $4.5 million entity-wide, with budgeted revenues of $4.8 million, expenses of $3.5 million, capital purchases of $1.8 million, and a shortfall of $448,000. She noted the target to fully recover costs would require an additional $1.3 million but that a 2026 budget modification was anticipated and the general fund was performing well enough to support the fee structure for the next two years, though not solving the long-term problem."
+      },
+      {
+        "item": "Debt Service Scenarios and TID 8 Capital Projects",
+        "body": "The finance director presented three debt financing scenarios for 2027 and 2028 infrastructure: a standard 10-year even amortization, a structured 10-year with reduced early payments, and a 15-year term. She recommended the structured 10-year approach to manage levy growth, noting the 2027 borrowing of approximately $6.365 million and 2028 borrowing of approximately $6.151 million. She also proposed amending the TID 8 project plan to include $2.5 million for lead service line replacement, $300,000 in asphalt overlay, and $250,000 for 17th Avenue design, projecting the district could close as early as 2035 with $9.3 million remaining even without new growth."
+      },
+      {
+        "item": "Alcohol License and Fee Schedule Changes",
+        "body": "City Clerk staff reported that most alcohol license fees are capped by state statute, limiting the city's ability to increase them. Proposed changes included a modest increase to the Class A beer license, a new $100 late publication fee for licenses renewed after deadline, reducing the group publication fee from $30 to $25, adding a $150 late renewal fee, increasing the lapsed bartender license fee from $125 to $130, and reducing the alcohol premises amendment fee from $150 to $25 to increase compliance. The committee approved the alcohol and cigarette fee changes by voice vote as moved by Alder Tierney and seconded by Alder Watson."
+      },
+      {
+        "item": "Flock Camera Funding Removal — Budget Amendment",
+        "body": "Alder Tierney moved to remove $50,000 allocated for Flock cameras from the 2027 budget and reallocate it to the motor pool rather than reduce the tax levy. After discussion about whether to place the funds in the police department, street maintenance, or elsewhere, the committee agreed the $50,000 would be reallocated within the general fund toward motor pool expenses in one of the underfunded departments. Mayor Doug Diny recommended keeping it within public safety for items like crowd control barricades. The motion was seconded by Alder Watson and approved by voice vote."
+      },
+      {
+        "item": "City Administrator Budget Line — $150,000 Amendment",
+        "body": "Alder Tierney moved to remove the $150,000 budgeted for a city administrator, with discussion about redirecting those funds to support the recently council-approved city audit. Alders Watson and Hincki expressed support for using the funds for the audit, noting a third-party assessment should inform any future administrator hiring decision. The amendment was approved with the $150,000 moved from general government to the council's consulting services line item to serve as a placeholder for audit expenditures in 2027."
+      },
+      {
+        "item": "Alley Paving — $45,000 Removal",
+        "body": "Alder Tierney moved to remove $45,000 for alley paving; Alder Hincki seconded. Public Works Director confirmed no petitions for alley paving in 2027 have been received, making the appropriation a placeholder; any future petitioners would simply be told to reapply for the 2028 budget. The amendment passed by voice vote."
+      },
+      {
+        "item": "Trail Planning — $20,000 Removal",
+        "body": "Alder Tierney moved and Alder Hincki seconded removing $20,000 for trail planning, which was funded through TID-Today (TID near west side). Parks Director Feifer clarified the funding was intended to plan an extension of the Riverlife Trail on the MBX property for eventual 2028 construction. Alders Watson and Neil voted no, noting the funds came from TID revenues rather than the general tax levy. The motion passed 3-2."
+      },
+      {
+        "item": "Street Tree Planting — $25,000 Removal",
+        "body": "Alder Hincki moved to remove $25,000 for street tree planting, seconded by Alder Watson, arguing it was inappropriate to incur 10-year debt for trees and suggesting cash funding instead. Alders Neil, Tierney (chair), and Watson strongly opposed removal, with Alder Neil invoking the Fulton Street reconstruction as an example of neighborhoods 'denuded' of trees and citing the city's duty to restore what was taken. Multiple members cited economic research on trees increasing property values. Alder Watson stated she seconded only to get the motion on the floor and would not support it. The motion failed 4-1, with only Hincki voting in favor."
+      },
+      {
+        "item": "TID 12 Tool Design Engineering — $150,000 Removal",
+        "body": "Alder Tierney moved to remove $150,000 for tool design engineering in TID 12, characterizing it as desirable but deferrable. Alder Hincki seconded. Discussion was cut off in the transcript before a vote was recorded."
+      }
+    ],
+    "publicComment": "Six residents spoke in opposition to Flock ALPR camera funding. Mary Clus (127 Kent Street) asked the committee to remove Flock from the budget citing privacy concerns and poor use of resources. Felix Gallow (1206 Highland Park) presented a legal analysis arguing non-appropriation is a routine discretionary tool under Wisconsin law, that Flock's own chief legal officer acknowledged municipalities retain discretion over appropriations, and that no Wisconsin agency that dropped Flock has been sued. Courtney Olsen (Highland Park Boulevard), a domestic violence agency executive director, warned ALPR systems can be misused as stalking tools, citing documented officer misuse cases in Milwaukee and Menasha, and outlined specific procedural steps for contract termination. Danielle Fischer (1212 Highland Park Boulevard) noted community support on social media for removing the cameras. Carrie Morola (1025 Everest Boulevard) framed removal as a double win — saving taxpayer money and rebuilding constituent trust.",
+    "actionItems": [
+      "Remove $50,000 Flock ALPR camera appropriation from 2027 budget and reallocate to motor pool within general fund (police, fire, or street maintenance department)",
+      "Amend 2027 fee schedule to include updated alcohol and cigarette license late fees and new publication fee structure as presented by the City Clerk",
+      "Amend 2027 fee schedule to add property record maintenance fees as proposed by the Assessor's Office",
+      "Redirect $150,000 from city administrator line item to council consulting services to serve as 2027 audit funding placeholder",
+      "Remove $45,000 alley paving appropriation from 2027 budget",
+      "Remove $20,000 trail planning appropriation from TID (Today district) budget",
+      "Retain $25,000 street tree planting budget line (amendment to remove failed)",
+      "Staff to prepare initial resolution for TID 8 project plan amendment for Finance Committee's next regular meeting",
+      "Finance staff to continue work on five-year capital plan for presentation at second Finance Committee meeting in November or December",
+      "Council to consider TID 12 tool design engineering removal at next meeting (discussion cut off in transcript)"
+    ],
+    "topics": [
+      "Budget",
+      "Public Safety",
+      "Debt Service",
+      "Flock ALPR Cameras",
+      "17th Avenue Reconstruction",
+      "TID 8 Project Plan",
+      "Lead Service Line Replacement",
+      "Street Tree Planting"
+    ],
+    "votes": [
+      {
+        "item": "Amendment: Alcohol and cigarette license fee schedule changes",
+        "motion": "Amend fees under alcohol cigarette category to fees advised by staff",
+        "mover": "Alder Tierney",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment: Property record maintenance fees",
+        "motion": "Amend fee schedule to incorporate property record maintenance fees suggested by the assessor's office",
+        "mover": "Alder Watson",
+        "second": "Alder Hincki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment: Remove $50,000 Flock camera funding from 2027 budget and reallocate to motor pool",
+        "motion": "Remove funding for the Flock cameras for 2027 and 2028 at $50,000 each year, with 2027 funds moved to motor pool",
+        "mover": "Alder Tierney",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment: Remove $150,000 city administrator appropriation and redirect to council consulting services for audit",
+        "motion": "Remove $150,000 budgeted for city administrator and move to council consulting services line item",
+        "mover": "Alder Tierney",
+        "second": "Alder Neilette (Watson seconded per transcript context)",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment: Remove $45,000 alley paving appropriation",
+        "motion": "Remove $45,000 allocated to alley paving",
+        "mover": "Alder Tierney",
+        "second": "Alder Hincki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment: Remove $20,000 trail planning from TID budget",
+        "motion": "Remove $20,000 for trail planning from the 2027 budget",
+        "mover": "Alder Tierney",
+        "second": "Alder Hincki",
+        "outcome": "Approved",
+        "tally": "3-2 (Watson and Neil voted no)"
+      },
+      {
+        "item": "Amendment: Remove $25,000 street tree planting appropriation",
+        "motion": "Remove $25,000 allocated for tree planting",
+        "mover": "Alder Hincki",
+        "second": "Alder Watson",
+        "outcome": "Failed",
+        "tally": "1-4 (only Hincki in favor)"
+      }
+    ]
+  },
+  {
     "id": "kw_781b3450287040eaac31f72144fa1b7d",
     "source": "kronenwetter",
     "title": "Administrative Policy Committee and Village Board - Budget Workshop 2",
@@ -744,6 +931,264 @@
         "second": "Balkin",
         "outcome": "Approved",
         "tally": null
+      }
+    ]
+  },
+  {
+    "id": "kw_d0f58e7cc36042c8a67098eda7feab03",
+    "source": "kronenwetter",
+    "title": "Administrative Policy Committee and Village Board - Budget Workshop 1",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter held its first budget workshop for the 2027 fiscal year on October 19, 2026, with joint participation from the Administrative Policy Committee and Village Board. Village Administrator John and Finance Director Jim presented a comprehensive budget overview proposing a 5.7% tax rate increase (from $4.03 to $4.26 per $1,000 assessed value), a 6.99% levy increase to $2.9 million, and a $30 garbage fee surcharge due to diesel fuel costs, with the combined residential impact estimated at $62–$97 annually. No formal votes were taken; the session was a discussion and review workshop with a second session planned for October 20.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "3:00",
+        "item": "Public Comment"
+      },
+      {
+        "time": "8:30",
+        "item": "Budget Workshop Overview - Tax Levy and Tax Rate"
+      },
+      {
+        "time": "15:00",
+        "item": "Water and Sewer Rates Discussion"
+      },
+      {
+        "time": "22:00",
+        "item": "Department Budget Overviews - General Government, Village Board, Attorney, Municipal Court"
+      },
+      {
+        "time": "45:00",
+        "item": "Police Department Budget"
+      },
+      {
+        "time": "1:10:00",
+        "item": "Fire and EMS Budget"
+      },
+      {
+        "time": "1:25:00",
+        "item": "Public Works, Parks, and Community Development Budgets"
+      },
+      {
+        "time": "2:15:00",
+        "item": "General Fund Revenue Overview and Fund Balance Discussion"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "One member of the public, Bernie Kramer of 2150 East State Highway 153, Mosinee, spoke during public comment. He expressed concern about the village moving away from municipal water service toward private wells and septic systems in new residential development, arguing this would hurt utility revenue (90% of which comes from residential users), increase costs for future homeowners, and undermine the village's own long-range planning within the septic service area utility."
+      },
+      {
+        "item": "Tax Levy and Tax Rate",
+        "body": "Village Administrator John presented a proposed tax rate increase from $4.03 to $4.26 per $1,000 assessed value, a 5.7% increase, and a levy increase from $2.7 million to $2.9 million (6.99%, approximately $190,000). He noted the village could legally levy as high as $4 million and a rate of $5.87 but was proposing well below that maximum. Trustee Mary Solheim raised concern that a 7% levy increase is unsustainable given only 0.651% net new construction, and staff acknowledged this while pointing to incoming developments (Green Tree, FAA property, TID 1 distribution center) as reasons for optimism."
+      },
+      {
+        "item": "Garbage Fee Surcharge",
+        "body": "Staff proposed a $30 garbage fee increase per household attributable entirely to a diesel fuel surcharge from Harter's contract, triggered when diesel exceeds $4 per gallon. The village has been absorbing roughly $6,000 per month in extra fuel costs since March 2026 (approximately $60,000 total) from contingency reserves and TID III closure revenues. Staff recommended the surcharge remain until diesel prices drop below $4, at which point it would be removed. The base rate increase of $9.12 previously planned was set aside in favor of this surcharge-only approach."
+      },
+      {
+        "item": "Water and Sewer Rates",
+        "body": "Staff reported no proposed rate increases for water or sewer in 2027. A 2.5% sewer rate increase had been anticipated for January 2027 tied to a borrowing, but the borrowing was delayed, pushing the first debt service payment to 2028. A new water well and water tower are planned but unlikely to be funded until 2028 or later, pending PSC review. No action was taken."
+      },
+      {
+        "item": "Police Department Budget",
+        "body": "A second new officer budgeted for Q4 2026 will not be hired this year due to a thin applicant pool; Chief Terry plans to wait for a stronger candidate pool, possibly December academy graduates. Both new officers will be fully funded for 12 months in 2027. Health insurance for the police union came in at 14.2% increase (down from an initial 17% quote). Staff are exploring moving police union employees to the TeamCare plan to reduce per-employee health costs, with the union reportedly not opposed. Crossing guard pay was proposed to increase from $16.48 to $20 per hour due to recruitment difficulties."
+      },
+      {
+        "item": "Fire and EMS Budget",
+        "body": "EMS ambulance runs are tracking at approximately 492 for 2026 against a budget of 420, and staff are projecting up to 500 runs for 2027, up from 390 actual in 2025. Administrator John said this requires a budget adjustment for 2026 and elevated funding in 2027. The Riverside formula for billing runs does not change for 2027 but includes a 1% increase effective 2028."
+      },
+      {
+        "item": "Public Works Budget",
+        "body": "The road maintenance budget is proposed to increase from $386,000 to $400,000 (3.63%), roughly in line with CPI at 3.7%. Winter plow blades are up $5,000 and road salt is up approximately $8,000. Marathon County landfill tipping fees are increasing about $7,000. The grader lease payment was already reduced by $4,000 after a prior board-approved trade-in. State highway aid to the village increased $52,000 (the maximum 15% allowed) due to increased infrastructure spending, including the Kronenwetter Drive project."
+      },
+      {
+        "item": "Community Development and Planning Tech Position",
+        "body": "Staff reported they are close to making an offer to a planning technician candidate to assist Planning Director Nathan. The position was only funded for nine months in 2026; it will be funded for a full 12 months in 2027. Administrator Jim emphasized urgency in hiring given high foot traffic at village hall for zoning questions and incoming development activity."
+      },
+      {
+        "item": "TID 1 Expenditure Period - Trustee Challenge",
+        "body": "Trustee Dan Lesniak raised a concern that it may not be legally permissible to make new expenditures from TID 1 because its expenditure period has ended, except potentially for administration costs. Administrator John said auditors and financial advisor Ehlers had previously indicated administration costs, assessment costs, and audit costs can flow through, but agreed to confirm the question definitively at the next night's meeting."
+      },
+      {
+        "item": "General Fund Revenue Overview",
+        "body": "Staff identified several revenue improvements: shared revenue up about $10,000 (2%); a $54,000 annual Magellan termination payment that had never been budgeted previously; highway aid up $52,000; and building permits trending up from $40,000 budget to an estimated $60,000. Cable franchise fee revenue is declining significantly, estimated at $60,500 for 2027 versus a prior budget of $90,000, attributed to residents switching to streaming services. Total general fund revenue is proposed to increase approximately $657,000 or 11%, with fund balance drawdowns for one-time items including $90,000 for year two of the revaluation, $75,000 for municipal building CIP projects, and a $10,000 carryover for potential TID 5 creation work."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: Bernie Kramer, 2150 East State Highway 153, Mosinee. He criticized the village for allowing new residential development to proceed with private wells and septic systems rather than connecting to municipal water and sewer, arguing this undermines utility revenue, increases long-term costs for homeowners, and contradicts the village's own planning documents. He also criticized what he characterized as illogical decision-making and the reduction in lot count in some developments.",
+    "actionItems": [
+      "Staff to confirm with Ehlers financial advisors whether administration-related expenditures from TID 1 are permissible after the expenditure period has ended, and report back at the October 20 budget workshop",
+      "Police Chief Terry to provide data on crossing guard pay rates in comparable communities",
+      "Staff to explore moving police union employees to the TeamCare health insurance plan and report results; changes may be incorporated on the night of budget adoption if logistics align",
+      "Staff to publish the proposed budget by end of the week or early the following week to start the required two-week public review period before November adoption",
+      "Staff to review the village fee schedule including water/sewer hookup fees and park dedication fees to determine if updates are warranted",
+      "Staff to identify an expert on the new residential TID law (effective October 1, 2026) and arrange a presentation to the board",
+      "Administrator John to prepare a 2028 budget preview list of known upcoming cost increases and decreases, to be shared at an upcoming meeting",
+      "Planning Director Nathan to proceed toward making an offer to a planning technician candidate",
+      "Second budget workshop session scheduled for October 20, covering TIF districts, public safety (police and fire), and community development in detail"
+    ],
+    "topics": [
+      "Budget",
+      "Tax Levy",
+      "Utilities",
+      "Development",
+      "Public Safety",
+      "Roads",
+      "Staffing",
+      "TID Districts"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-32",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bdf4cc06c02749e6864bd0e30592f00b.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Plan Commission held its October 19, 2026 meeting with only four of seven members present — a bare quorum. The commission approved a zoning change and certified survey map for a residential parcel split on Aspen Road, but voted to postpone action on a controversial conditional use permit for a non-metallic mine at 1320 Kowalski Road, citing the reduced commission membership and the significance of the decision.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "0:30",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:30",
+        "item": "Public Hearing: Conditional Use Permit — Oakley River LLC / Eau Claire River LLC, 1320 Kowalski Road (non-metallic mine)"
+      },
+      {
+        "time": "38:00",
+        "item": "Public Hearing: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road (RR5 to RR2)"
+      },
+      {
+        "time": "40:00",
+        "item": "Public Comment (general)"
+      },
+      {
+        "time": "41:00",
+        "item": "Community Development Director Report — Nathan Sandwick"
+      },
+      {
+        "time": "48:00",
+        "item": "New Business: Certified Survey Map — Gene Pachinsky, 3115 Aspen Road"
+      },
+      {
+        "time": "49:30",
+        "item": "New Business: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road"
+      },
+      {
+        "time": "55:00",
+        "item": "New Business: Conditional Use Permit — Eau Claire River LLC, 1320 Kowalski Road"
+      },
+      {
+        "time": "1:10:00",
+        "item": "Zoning Code Review Discussion"
+      },
+      {
+        "time": "1:20:00",
+        "item": "Agenda Items for Future Meetings / Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Hearing: Conditional Use Permit — Eau Claire River LLC, Non-Metallic Mine at 1320 Kowalski Road",
+        "body": "Multiple speakers addressed the commission. Guy Fridell, a longtime advocate for a Kowalski Road interchange, strongly opposed the permit, arguing it would undermine decades of village planning and investment, conflict with the comprehensive plan, and that the economic benefits of the interchange — 1,000–1,200 jobs and $100–125 million in new tax base — far outweigh speculative benefits from sand mining. Tom Redens, representing applicant Eau Claire River LLC with Gary Gert and Kurt Sebert, argued the mine would allow the flood-prone site to be graded to a buildable pad and that the village board had already voted months earlier to abandon the interchange committee, making the mine plan the viable path forward for TID-1 development. Neighbors Rich Barker, Dawn Barker (who raised concerns about fish — including walleye — in the existing pond), Dale Champagne, and others also spoke. A public commenter questioned the source of the projected 1,200 jobs and flood storage development challenges."
+      },
+      {
+        "item": "New Business: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road (RR5 to RR2)",
+        "body": "Community Development Director Nathan Sandwick explained the request: Pachinsky wants to split an 11-acre parcel so the 2.89-acre portion containing the existing home can be sold, but that parcel is too small for RR5 zoning. The commission discussed road frontage (118 feet, deemed sufficient) and the dead-end, low-traffic nature of Aspen Road. Trustee Stowell moved to recommend approval to the village board; Terry Lewis-Burkett seconded. The motion carried 4-0 on a roll call vote."
+      },
+      {
+        "item": "New Business: Certified Survey Map — Gene Pachinsky, 3115 Aspen Road",
+        "body": "The commission considered approval of the CSM contingent on the village board enacting the zoning change to RR2. Sandwick clarified the plan commission — not the village board — approves CSMs of this type. Trustee Stowell moved approval contingent on the zoning change; Terry Lewis-Burkett seconded. The motion carried 4-0 on roll call."
+      },
+      {
+        "item": "New Business: Conditional Use Permit — Eau Claire River LLC, 1320 Kowalski Road",
+        "body": "After the public hearing, commissioners expressed reluctance to act with only four of seven members present on such a significant matter. Rick Grundman moved to postpone action; Trustee Stowell seconded. Commissioners noted a 60-day window from the public hearing to render a decision and agreed a special meeting would be scheduled. The postponement motion carried 4-0. Commissioners encouraged absent members to listen to the recorded public hearing testimony before the next meeting."
+      },
+      {
+        "item": "Community Development Director Report",
+        "body": "Nathan Sandwick highlighted the recent zoning workshop, upcoming Green Tree Trail subdivision final plat review, a potential public hearing on private sewage disposal system ordinance changes, and his attendance at the Wisconsin APA conference. He also flagged a new state law requiring more specificity in comprehensive plans regarding residential growth areas, with compliance required before January 2028 — recommending the village update its plan before that deadline."
+      },
+      {
+        "item": "Zoning Code Review",
+        "body": "The commission briefly discussed the zoning code review but deferred substantive discussion to the November 16th regular meeting due to the late hour and small attendance. Sandwick noted new state legislation allowing residential TIDs with smaller maximum lot sizes, which could require zoning code amendments if the village wishes to participate. A commissioner requested that someone with expertise on flood storage districts present at a future meeting to help commissioners better understand how flood storage, fill requirements, and development interact."
+      }
+    ],
+    "publicComment": "No general public comment was offered during the public comment period. However, multiple speakers testified during the public hearing on the Eau Claire River LLC conditional use permit: Guy Fridell (2240 Ruby Drive) opposed the permit at length, citing interchange planning history and economic impact studies; Tom Redens of Land Planning Services spoke on behalf of the applicant; Rich Barker (1290 Kowalski Road) spoke in opposition (brief); Dale Champagne (1292 Kowalski Road) asked a clarifying question about the acreage to be mined; Dawn Barker (1290 Kowalski Road) raised a concern about fish, including walleye, currently in the existing pond; and an unidentified speaker asked where the projected 1,200 jobs would come from. No speakers addressed the Pachinsky zoning change public hearing.",
+    "actionItems": [
+      "Schedule a special Plan Commission meeting to take up the Eau Claire River LLC conditional use permit with a fuller commission membership present",
+      "Forward the Pachinsky RR5-to-RR2 zoning change recommendation to the Village Board for action at the next Monday board meeting",
+      "CSM for Pachinsky parcel approved contingent on village board enacting zoning change",
+      "Place procedures for plan commission public hearings on the November 16 agenda",
+      "Sandwick to prepare a presentation or arrange an expert to explain flood storage district rules and TID implications for a future meeting",
+      "Village to begin comprehensive plan updates for residential growth area specificity before December 31, 2027 compliance deadline",
+      "Kim (clerk) to email all commissioners to identify a special meeting date for the Eau Claire River LLC CUP decision"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Non-Metallic Mining",
+      "Kowalski Road Interchange",
+      "Flood Storage District"
+    ],
+    "votes": [
+      {
+        "item": "Recommend approval of zoning change for Gene Pachinsky, 3115 Aspen Road, from RR5 to RR2",
+        "motion": "Motion to recommend to the village board approval of the zoning change from RR5 to RR2",
+        "mover": "Jessica Stowell",
+        "second": "Terry Lewis-Burkett",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Approve certified survey map for Gene Pachinsky, 3115 Aspen Road, contingent on zoning change to RR2",
+        "motion": "Motion to approve the CSM contingent upon enactment of the proposed zoning change to RR2",
+        "mover": "Jessica Stowell",
+        "second": "Terry Lewis-Burkett",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Postpone action on Eau Claire River LLC conditional use permit for non-metallic mine at 1320 Kowalski Road",
+        "motion": "Motion to postpone action on this item until a fuller group of the commission is present",
+        "mover": "Rick Grundman",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Adjourn",
+        "motion": null,
+        "mover": "Rick Grundman",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "Unanimous"
       }
     ]
   },
@@ -1681,132 +2126,6 @@
         "tally": null
       }
     ]
-  },
-  {
-    "id": "kw_d0f58e7cc36042c8a67098eda7feab03",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee and Village Board - Budget Workshop 1",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Administrative Policy Committee and Village Board of Kronenwetter held a budget workshop scheduled to begin discussions on the 2027 budget. This was the first of what appears to be multiple budget workshops planned to review and shape the village's fiscal year 2027 spending plan.",
-    "agenda": [
-      {
-        "time": "3:00 PM",
-        "item": "2027 Budget Workshop Discussion #1"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Comment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "2027 Budget Workshop Discussion #1",
-        "body": "The committee and board were scheduled to discuss the village's 2027 budget during this first workshop session. This agenda item was set for discussion and possible action regarding the fiscal year 2027 spending plan and priorities."
-      }
-    ],
-    "publicComment": "Public comment was scheduled, with a 15-minute total period and three-minute individual time limit per speaker, at the Chief Presiding Officer's discretion for extensions.",
-    "actionItems": [
-      "Expected to discuss 2027 budget priorities and framework during Workshop Discussion #1",
-      "Scheduled to consider possible action items related to 2027 budget planning"
-    ],
-    "topics": [
-      "Budget",
-      "2027 Fiscal Planning",
-      "Village Administration"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
-    "source": "kronenwetter",
-    "title": "Plan Commission Meeting",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-32",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bdf4cc06c02749e6864bd0e30592f00b.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to hold a public hearing and take action on three significant development proposals: a conditional use permit for a nonmetallic mine operation, a zoning change request, and a certified survey map for land division. The meeting was also set to include a community development director report and zoning code review discussion.",
-    "agenda": [
-      {
-        "time": "6:00 PM",
-        "item": "Announcement of Public Hearing - Conditional Use Permit (Eau Claire River LLC) for nonmetallic mine at 1320 Kowalski Rd"
-      },
-      {
-        "time": "6:00 PM",
-        "item": "Announcement of Public Hearing - Zoning Change Request (Jean Pochinski) at 3115 Aspen Rd from RR5 to RR2"
-      },
-      {
-        "time": "N/A",
-        "item": "Public Comment"
-      },
-      {
-        "time": "N/A",
-        "item": "Community Development Director Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Certified Survey Map (Jean Pochinski) - land division to create two lots"
-      },
-      {
-        "time": "N/A",
-        "item": "Zoning Change Request (Jean Pochinski) - RR5 to RR2 zoning change"
-      },
-      {
-        "time": "N/A",
-        "item": "Conditional Use Permit (Eau Claire River LLC) - nonmetallic mine permit"
-      },
-      {
-        "time": "N/A",
-        "item": "Zoning Code Review"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Conditional Use Permit (Eau Claire River LLC)",
-        "body": "Eau Claire River, LLC was scheduled to present a request for a Conditional Use Permit to operate a nonmetallic mine on a 35.58-acre parcel at 1320 Kowalski Rd in Kronenwetter. The commission was set to hold a public hearing on this proposal and expected to consider action on the permit application."
-      },
-      {
-        "item": "Zoning Change Request (Jean Pochinski)",
-        "body": "Jean Pochinski was scheduled to request a zoning change of 2.89 acres at 3115 Aspen Rd from RR5 (Rural Residential 5) to RR2 (Rural Residential 2) zoning classification. The commission was set to hold a public hearing and expected to consider this zoning reclassification request."
-      },
-      {
-        "item": "Certified Survey Map (Jean Pochinski)",
-        "body": "Jean Pochinski was scheduled to request approval of a Certified Survey Map to divide an 11-acre parcel into two lots at 3115 Aspen Rd. The commission was expected to review and possibly act on this land division application."
-      },
-      {
-        "item": "Community Development Director Report",
-        "body": "The Plan Commission was scheduled to receive a report from the Community Development Director regarding ongoing village development matters and planning initiatives."
-      },
-      {
-        "item": "Zoning Code Review",
-        "body": "The commission was set to discuss and review the village's zoning code as part of its ongoing regulatory oversight responsibilities."
-      }
-    ],
-    "publicComment": "Public comment was on the agenda, with a 15-minute total time limit and three-minute per-person limit, subject to extension by the presiding officer.",
-    "actionItems": [
-      "Expected to vote on Conditional Use Permit for nonmetallic mine (Eau Claire River LLC)",
-      "Expected to vote on Zoning Change Request from RR5 to RR2 (Jean Pochinski)",
-      "Expected to vote on Certified Survey Map for land division (Jean Pochinski)",
-      "Scheduled to review and discuss Zoning Code"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Mining Operations",
-      "Land Division",
-      "Nonmetallic Mine"
-    ],
-    "votes": []
   },
   {
     "id": "6EGr6wbw5Do",
@@ -2764,6 +3083,48 @@
     ]
   },
   {
+    "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "October 12, 2026",
+    "shortDate": "OCT 12",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter Village Board convened its October 12, 2026 meeting at 6:00 p.m. The available transcript captures only the opening moments of the meeting, including the call to order, Pledge of Allegiance, and the beginning of roll call. No substantive agenda items, votes, or decisions are documented in the provided transcript.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:10",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "0:40",
+        "item": "Roll Call"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Call to Order and Pledge of Allegiance",
+        "body": "Village President Dan Joling called the October 12, 2026 Village Board meeting to order at 6:00 p.m. The Pledge of Allegiance was recited. Roll call began, with Trustee Aaron Myszka (referenced as 'Mishka' in the transcript, matched to known official) and Trustee Craig Mortensen both answering present before the transcript ends. No further business is captured in the available transcript."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Transcript is incomplete; no action items or decisions are documented beyond the opening call to order and partial roll call."
+    ],
+    "topics": [
+      "Village Board"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_769562",
     "source": "school_board",
     "title": "Regular Meeting",
@@ -3456,60 +3817,6 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to meet on October 12, 2026, to receive staff reports and consider new business including updates on DC Everest building plans and discussion of establishing an ethics committee and code of conduct. The meeting was set to take place at the Kronenwetter Municipal Center.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Police Chief's Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Administrator Report"
-      },
-      {
-        "time": "N/A",
-        "item": "DC Everest Superintendent updated building plans"
-      },
-      {
-        "time": "N/A",
-        "item": "Discussion on reestablishing the ethics committee and a code of conduct"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "DC Everest Superintendent updated building plans",
-        "body": "The board was scheduled to consider updates to building plans presented by the DC Everest Superintendent. This item was set for discussion and possible action during the new business portion of the meeting."
-      },
-      {
-        "item": "Discussion on reestablishing the ethics committee and a code of conduct",
-        "body": "The board was scheduled to discuss the reestablishment of an ethics committee and the development of a code of conduct for the village. This item was set for discussion and possible action during the new business portion of the meeting."
-      }
-    ],
-    "publicComment": "Public comment was scheduled on the agenda, limited to 15 minutes total with a three-minute time period per person, at the discretion of the Chief Presiding Officer.",
-    "actionItems": [
-      "Scheduled to consider DC Everest building plan updates",
-      "Expected to discuss reestablishing ethics committee and code of conduct"
-    ],
-    "topics": [
-      "Development",
-      "Governance",
-      "Ethics Committee",
-      "DC Everest"
-    ],
-    "votes": []
   },
   {
     "id": "ubLxX0CnB20",
@@ -6085,142 +6392,6 @@
         "motion": "Motion to close the meeting",
         "mover": null,
         "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "-mjUBSlW93w",
-    "source": "wausau",
-    "title": "Public Health & Safety Committee Meeting",
-    "date": "September 28, 2026",
-    "shortDate": "SEP 28",
-    "committee": "Public Health & Safety",
-    "duration": "8m",
-    "url": "https://www.youtube.com/watch?v=-mjUBSlW93w",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Public Health & Safety Committee held a brief meeting on September 28th, approving minutes, a batch of license applications, and two 90-day liquor license extensions for businesses under construction. Two discussion items — an update on the Marathon County/City of Wausau homelessness response framework and the August tavern activities report — were tabled to the October 19th meeting due to the absence of scheduled presenters.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order"
-      },
-      {
-        "time": "0:30",
-        "item": "Public comment"
-      },
-      {
-        "time": "0:50",
-        "item": "Consideration of minutes of preceding meetings (regular and special Public Health & Safety Committee meetings)"
-      },
-      {
-        "time": "2:10",
-        "item": "3A: Approval or denial of various license applications"
-      },
-      {
-        "time": "3:05",
-        "item": "3B: 90-day extension request for 2510 Delhi and Bakery, 2510 Stewart Avenue (2510 Bakery LLC, agent Alexandria McKibben)"
-      },
-      {
-        "time": "5:00",
-        "item": "3C: 90-day extension request for True North #855, 4611 Stewart Avenue (True North Energy LLC, agent Michelle Knox)"
-      },
-      {
-        "time": "7:10",
-        "item": "4A: Update on Marathon County and City of Wausau foundational framework for homelessness response and strategic plan development"
-      },
-      {
-        "time": "8:45",
-        "item": "4B: Tavern activities report from August 2026"
-      },
-      {
-        "time": "11:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Minutes of preceding meetings",
-        "body": "The chair asked if members had reviewed the regular and special Public Health & Safety Committee minutes. No revisions or questions were raised. Alder Slonsky moved to approve and Alder Watson seconded; the motion passed unanimously."
-      },
-      {
-        "item": "3A: Various license applications",
-        "body": "The chair noted no applications were being denied and asked if members were in agreement to approve the batch. No discussion occurred. Alder Watson moved to approve and Alder True Blood seconded; the motion passed unanimously."
-      },
-      {
-        "item": "3B: 90-day extension for 2510 Delhi and Bakery (2510 Stewart Avenue)",
-        "body": "A staff member provided context that the bakery had experienced construction delays but expected to open within the 90-day extension period. No objections were raised. Alder Slonsky moved to approve and Alder Watson seconded; the motion passed unanimously."
-      },
-      {
-        "item": "3C: 90-day extension for True North #855 (4611 Stewart Avenue)",
-        "body": "A staff member noted receiving an email that morning indicating True North expected to be done by November 1st, within the 90-day window. Alder Slonsky moved to approve and Alder True Blood seconded; the motion passed unanimously."
-      },
-      {
-        "item": "4A: Update on Marathon County and City of Wausau homelessness response framework",
-        "body": "The scheduled presenter was absent. Committee members questioned whether the item was related to the homelessness task force and whether the presenter would be Tracy or Megan Bernett, described as the new health coordinator. The chair indicated no motion was needed and the item would be carried over; a committee member suggested asking Alder Larson to place it on the October agenda."
-      },
-      {
-        "item": "4B: Tavern activities report from August 2026",
-        "body": "No presenter was available to report. A committee member noted there were items of potential public interest, including 'pretty intense demerit points' addressed during the month, and suggested circling back next month when staff could be present to answer questions. The item was deferred to the October 19th meeting."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Minutes of regular and special Public Health & Safety Committee meetings approved and placed on file",
-      "Batch of license applications approved",
-      "90-day liquor license extension approved for 2510 Bakery LLC at 2510 Stewart Avenue",
-      "90-day liquor license extension approved for True North Energy LLC at 4611 Stewart Avenue",
-      "Homelessness response framework update (4A) deferred to October 19th meeting; Alder Larson to place on next agenda",
-      "Tavern activities report (4B) deferred to October 19th meeting for fuller discussion with presenter present"
-    ],
-    "topics": [
-      "Public Safety",
-      "Liquor Licenses",
-      "Homelessness",
-      "Tavern Activity Reports",
-      "License Applications"
-    ],
-    "votes": [
-      {
-        "item": "Approval of regular and special Public Health & Safety Committee meeting minutes",
-        "motion": "Motion to approve the minutes",
-        "mover": "Alder Slonsky",
-        "second": "Alder Watson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approval of various license applications (3A)",
-        "motion": "Motion to approve license applications",
-        "mover": "Alder Watson",
-        "second": "Alder True Blood",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "90-day extension for 2510 Bakery LLC at 2510 Stewart Avenue (3B)",
-        "motion": "Motion to approve the 90-day extension",
-        "mover": "Alder Slonsky",
-        "second": "Alder Watson",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "90-day extension for True North Energy LLC at 4611 Stewart Avenue (3C)",
-        "motion": "Motion to approve the 90-day extension",
-        "mover": "Alder Slonsky",
-        "second": "Alder True Blood",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Alder Watson",
-        "second": "Alder Slonsky",
         "outcome": "Approved",
         "tally": "Unanimous"
       }
