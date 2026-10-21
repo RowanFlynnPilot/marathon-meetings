@@ -2797,6 +2797,28 @@
       "video_url": null,
       "processed_at": "2026-10-21T04:44:50.729902+00:00",
       "summary_file": "summaries/wausau-wausau-plan-commission-meeting-fnn432j7r0.md"
+    },
+    "3Xl6NL9Pn3Y": {
+      "title": "Marathon County Board Human Resources, Finance & Property Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261020",
+      "meeting_date": "20261020",
+      "duration": 3004,
+      "video_url": null,
+      "processed_at": "2026-10-21T20:10:45.985985+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-human-resources-finance-property-meeting-3xl6nl9pn3y.md"
+    },
+    "auNi3i3H8YE": {
+      "title": "Marathon County Board Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261020",
+      "meeting_date": "20261020",
+      "duration": 7566,
+      "video_url": null,
+      "processed_at": "2026-10-21T20:11:35.251521+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-meeting-auni3i3h8ye.md"
     }
   }
 }
