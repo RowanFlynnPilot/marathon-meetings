@@ -1034,7 +1034,7 @@ def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None,
 def fetch_agenda_text_wausau(doc_url: str) -> str | None:
     """
     For Wausau CivicClerk videos, fetch the agenda text via the CivicClerk
-    published files API (blob URL method - no PDF parsing needed).
+    published files API (GetMeetingFileStream plain text - no PDF parsing needed).
     Returns plain text of the agenda, or None on failure.
     """
     import requests as _req
@@ -1066,20 +1066,14 @@ def fetch_agenda_text_wausau(doc_url: str) -> str | None:
         file_id = agenda_file.get("fileId")
         if not file_id:
             return None
-        # Step 3: get blob URL for plain text
+        # Step 3: fetch the agenda as plain text. GetMeetingFile (blob URL)
+        # returns 404 as of Oct 2026; GetMeetingFileStream serves the text directly.
         r3 = _req.get(
-            f"{base}/Meetings/GetMeetingFile(fileId={file_id},plainText=true)",
-            headers=hdrs, timeout=10
+            f"{base}/Meetings/GetMeetingFileStream(fileId={file_id},plainText=true)",
+            headers=hdrs, timeout=15
         )
-        if r3.status_code != 200:
-            return None
-        blob_url = r3.json().get("blobUri", "")
-        if not blob_url:
-            return None
-        # Step 4: fetch the actual text
-        r4 = _req.get(blob_url, timeout=15)
-        if r4.status_code == 200 and len(r4.text) > 100:
-            return r4.text.strip()
+        if r3.status_code == 200 and len(r3.text) > 100:
+            return r3.text.strip()
     except Exception as e:
         print(f"       Wausau agenda fetch failed: {e}")
     return None
