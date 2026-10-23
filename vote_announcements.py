@@ -11,10 +11,15 @@ can find it without a model. Two uses:
     chair said "Motion failed. 5 to six.");
   - audit_votes.py compares each transcript summary's votes against them.
 
-Only announcements with "motion" right before the outcome count: "That passed
-five to zero at finance" (a committee's earlier vote, recalled in debate) is
-not a result. Results announced without a tally ("motion carries") aren't
-found; nor are bodies that don't say tallies aloud (Marathon County's board).
+Chairs say it many ways: "Motion passes 9 to2" (Oct. 13, 2026), "Vote passed 11
+to zero", "and that passed 11 to zero", "Pass seven to four", and "Past 8 to
+three", the captions' spelling of "passed" (July 14). What isn't a result:
+  - a span of time: "over the past 3 to 5 years";
+  - a vote recalled from elsewhere: "That passed five to zero at finance",
+    "that did pass 4 to 1 at the arts commission", "it did pass 5 to 0 is
+    what we have recorded".
+Results announced without a tally ("motion carries") aren't found; nor are
+bodies that don't say tallies aloud (Marathon County's board).
 """
 
 import html
@@ -25,14 +30,19 @@ SMALL = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
          "nineteen", "twenty"]
 TENS = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
 UNITS = SMALL[1:10]
-PASSED = r"pass|passes|passed|carries|carried|approved|adopted"
+PASSED = r"pass|passes|passed|past|carries|carried|approved|adopted"
 FAILED = r"fail|fails|failed|defeated"
 ANNOUNCEMENT = re.compile(
-    rf"\b(?:the\s+|that\s+)?motion\s+(?P<outcome>{PASSED}|{FAILED})\b[.,]?\s+(?P<yes>\d+)\s*(?:to|-|–)\s*(?P<no>\d+)\b"
+    rf"(?P<lead>\S*)\s(?P<outcome>{PASSED}|{FAILED})\b[.,]?\s+(?P<yes>\d+)\s*(?:to|-|–)\s*(?P<no>\d+)\b"
     # A chair who misspeaks corrects it in the same breath: "Motion passes 9 to 11
     # or 11 to zero, sorry" (Oct. 13, 2026). The tally after "or" is the result.
     r"(?:\s+or\s+(?P<yes2>\d+)\s*(?:to|-|–)\s*(?P<no2>\d+))?"
     r"(?:[,.]?\s+with\s+(?P<abstain>\d+)\s+(?:\w+\s+)?(?:abstain\w*|abstention\w*))?")
+# After the tally: a unit (a span of time, not a vote), or the place an earlier vote was taken.
+NOT_A_RESULT = re.compile(
+    r"\s*(?:(?:years?|months?|weeks?|days?|hours?|minutes?|percent|feet|foot|miles?)\b"
+    r"|(?:at|in|out of|from|by)\s+(?:the\s+)?(?:\w+\s+)?(?:committee|commission|finance|board|council|ed|hr)\b"
+    r"|is what we have recorded|(?:last|earlier|previously)\b)")
 TIMESTAMP = re.compile(r"\[(\d{1,2}:\d{2}(?::\d{2})?)\]")
 
 
@@ -55,6 +65,9 @@ def announcements(transcript: str) -> list[dict]:
     stamps = [(m.start(), m.group(1)) for m in TIMESTAMP.finditer(said)]
     found = []
     for m in ANNOUNCEMENT.finditer(said):
+        # "the past 3 to 5", "did pass" (recalling a vote), or a unit or venue after the tally.
+        if m.group("lead") in ("the", "did") or NOT_A_RESULT.match(said, m.end()):
+            continue
         at = next((s for pos, s in reversed(stamps) if pos < m.start()), None)
         passed = not re.fullmatch(FAILED, m.group("outcome"))
         yes, no = (int(m.group("yes2")), int(m.group("no2"))) if m.group("yes2") else (int(m.group("yes")), int(m.group("no")))
@@ -64,7 +77,7 @@ def announcements(transcript: str) -> list[dict]:
             "no": no,
             "abstain": int(m.group("abstain") or 0),
             "at": at,
-            "said": m.group(0),
+            "said": m.group(0).strip(),
             "check": passed and yes <= no,
         })
     return found

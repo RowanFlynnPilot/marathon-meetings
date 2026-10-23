@@ -29,8 +29,22 @@ def test_reads_each_result_the_chair_announced():
                               (False, 5, 6, 0), (True, 7, 4, 0), (True, 10, 1, 0)]
 
 
-def test_a_recalled_committee_vote_is_not_a_result():
-    assert announcements("is That passed five to zero at finance.") == []
+@pytest.mark.parametrize("text", [
+    "is That passed five to zero at finance.",
+    "uh that did pass 4 to 1 at the arts commission. so they have",
+    "I believe it did pass 5 to 0 is what we have recorded.",
+    "we've seen over the past 4 to 5 years.",
+])
+def test_recalled_votes_and_spans_of_time_are_not_results(text):
+    assert announcements(text) == []
+
+
+def test_july_14_style_announcements():
+    # The chair didn't say "motion"; the captions spell "passed" as "past".
+    text = ("Voting is now open. Vote passed 11 to zero. Up next. Voting is now open. past 8 to three. Okay. "
+            "Voting is open. >> Passed 9 to2. >> Okay. Voting is now open. Pass seven to four. All right. "
+            "Voting was opened and it has passed 11 to zero.")
+    assert tallies(text) == [(True, 11, 0, 0), (True, 8, 3, 0), (True, 9, 2, 0), (True, 7, 4, 0), (True, 11, 0, 0)]
 
 
 def test_timestamps_and_spellings():
