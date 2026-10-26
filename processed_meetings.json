@@ -2830,6 +2830,39 @@
       "video_url": null,
       "processed_at": "2026-10-21T23:19:32.172202+00:00",
       "summary_file": "summaries/wausau-wausau-finance-committee-budget-session-4-meeting-ttqhhdr3jq.md"
+    },
+    "bb_773231": {
+      "title": "Special Meeting - 2026-10-26",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773231",
+      "upload_date": "20261026",
+      "meeting_date": "20261026",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-10-26T04:44:35.672236+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-10-26-bb-773231.md"
+    },
+    "bb_773225": {
+      "title": "Committee of the Whole Meeting - 2026-10-26",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773225",
+      "upload_date": "20261026",
+      "meeting_date": "20261026",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-10-26T04:44:45.431152+00:00",
+      "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-10-26-bb-773225.md"
+    },
+    "kw_bc64bc1cee794958999a4d624864a28e": {
+      "title": "Revised Village Board Meeting - 2026-10-26",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf",
+      "upload_date": "20261026",
+      "meeting_date": "20261026",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6",
+      "processed_at": "2026-10-26T04:44:55.802501+00:00",
+      "summary_file": "summaries/kronenwetter-revised-village-board-meeting-2026-10-26-kw-bc64bc1cee794958999a4d624864a28e.md"
     }
   }
 }

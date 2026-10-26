@@ -1,5 +1,267 @@
 [
   {
+    "id": "kw_bc64bc1cee794958999a4d624864a28e",
+    "source": "kronenwetter",
+    "title": "Revised Village Board Meeting",
+    "date": "October 26, 2026",
+    "shortDate": "OCT 26",
+    "committee": "Village of Kronenwetter Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to convene on October 26, 2026, to address a zoning change request, review municipal operations reports, and consider contract renewals for legal services. The meeting was set to handle routine financial matters and a significant land-use decision affecting a residential property on Aspen Road.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Director of Public Works Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director/Treasurer Report: Projected Closure Dates for Tax Increment Districts"
+      },
+      {
+        "time": "N/A",
+        "item": "Vouchers, ACH Transactions, and Credit Card Activity Transactions – September 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Operator Bartender License - Dennie Wiedeman"
+      },
+      {
+        "time": "N/A",
+        "item": "Zoning Change Request from Jean Pochinski"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Center Hours"
+      },
+      {
+        "time": "N/A",
+        "item": "Ordinance 14-16"
+      },
+      {
+        "time": "N/A",
+        "item": "2027-2029 Proposed Renewal for Legal Services"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Zoning Change Request (Jean Pochinski)",
+        "body": "The board was scheduled to consider a zoning change request for 2.89 acres located at 3115 Aspen Road, Kronenwetter. The property, identified by Parcel ID 145-2708-212-0987, was set for discussion regarding reclassification from RR5 (Rural Residential 5) to RR2 (Rural Residential 2) zoning designation."
+      },
+      {
+        "item": "Finance Director/Treasurer Report: Projected Closure Dates for Tax Increment Districts",
+        "body": "The Finance Director was scheduled to present a report on projected closure dates for tax increment districts. This report was expected to provide updates on the financial planning and timeline for TID closures affecting the village."
+      },
+      {
+        "item": "Municipal Center Hours",
+        "body": "The board was set to discuss and take possible action on municipal center hours of operation. This agenda item was scheduled for discussion and potential decision-making regarding facility operations."
+      },
+      {
+        "item": "Ordinance 14-16",
+        "body": "The board was scheduled to discuss and potentially act on Ordinance 14-16. Specific details regarding the ordinance content were not provided on the published agenda."
+      },
+      {
+        "item": "2027-2029 Proposed Renewal for Legal Services",
+        "body": "The board was expected to consider renewal of legal services for the three-year period from 2027 through 2029. This agenda item was set for discussion and possible action regarding the village's legal representation contract."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, scheduled for up to 15 minutes total with a three-minute time period per person, at the discretion of the Chief Presiding Officer.",
+    "actionItems": [
+      "Scheduled to vote on zoning change request for 3115 Aspen Road",
+      "Expected to consider operator bartender license for Dennie Wiedeman",
+      "Scheduled to approve or discuss vouchers, ACH transactions, and credit card activity for September 2026",
+      "Expected to take possible action on municipal center hours",
+      "Scheduled to review and potentially act on Ordinance 14-16",
+      "Expected to consider 2027-2029 legal services contract renewal"
+    ],
+    "topics": [
+      "Zoning",
+      "Municipal Operations",
+      "Budget and Finance",
+      "Legal Services",
+      "Tax Increment Districts"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_773225",
+    "source": "school_board",
+    "title": "Committee of the Whole Meeting",
+    "date": "October 26, 2026",
+    "shortDate": "OCT 26",
+    "committee": "Committee of the Whole",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773225",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773225",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Committee of the Whole was scheduled to consider several curriculum and operational updates, including a potential Hmong language offering, technology education course adjustments, facility usage fee changes, and annual student fees for the 2027-2028 school year. The meeting also included a presentation from Red Granite Charter School and a review of first-quarter legal expenses.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve the Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Excellence in Action: Red Granite Charter School"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Audit of the Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "Facilities Usage (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Legal Expense Summary for 1st Quarter"
+      },
+      {
+        "time": "N/A",
+        "item": "Hmong Language Offering (Possible Action)"
+      },
+      {
+        "time": "N/A",
+        "item": "Course Approvals (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "District ACP Plan (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Annual Student Fees (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Excellence in Action: Red Granite Charter School",
+        "body": "Red Granite Charter School was scheduled to present an Excellence in Action presentation to the board, highlighting achievements and initiatives at the charter school."
+      },
+      {
+        "item": "Facilities Usage",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was expected to present the first phase of updates to the Facility Usage Fee Schedule. The presentation was estimated to take 5 minutes and aimed to inform the board of proposed changes to facility rental fees."
+      },
+      {
+        "item": "Legal Expense Summary for 1st Quarter",
+        "body": "Dr. Elizabeth Channel was scheduled to present a summary report of legal counsel expenses incurred during the first quarter of 2026-2027, broken down by law firm and type of legal advice sought. This was a written report requiring no action."
+      },
+      {
+        "item": "Hmong Language Offering",
+        "body": "Director of Secondary Education Dr. Jon Tomski was expected to present information on a potential Hmong language offering, with the board scheduled to provide input on next steps. The presentation was estimated at 15 minutes, indicating a substantive discussion of curriculum expansion."
+      },
+      {
+        "item": "Course Approvals",
+        "body": "Dr. Jon Tomski was scheduled to present adjustments to Technology Education programming and course approvals. The presentation was estimated at 10 minutes and focused on updates to the Tech Ed. curriculum."
+      },
+      {
+        "item": "District ACP Plan",
+        "body": "CTE Coordinator Jon Winter was expected to provide a brief update on the District ACP plan, with supporting materials including a student success story. The presentation was estimated at 10 minutes and focused on career and technical education initiatives."
+      },
+      {
+        "item": "Annual Student Fees",
+        "body": "The board was scheduled to review and consider annual student fees for the 2027-2028 school year. The presentation was estimated at 3 minutes."
+      }
+    ],
+    "publicComment": "A public and student comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on updates to the Facility Usage Fee Schedule.",
+      "Board was expected to consider and possibly take action on a potential Hmong language offering.",
+      "Board was expected to approve or reject adjustments to Technology Education programming and course approvals.",
+      "Board was expected to take action on the District ACP Plan update.",
+      "Board was expected to approve annual student fees for the 2027-2028 school year."
+    ],
+    "topics": [
+      "Curriculum",
+      "Facilities",
+      "Budget",
+      "Technology Education",
+      "Career and Technical Education",
+      "Red Granite Charter School",
+      "Language Programs"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_773231",
+    "source": "school_board",
+    "title": "Special Meeting",
+    "date": "October 26, 2026",
+    "shortDate": "OCT 26",
+    "committee": "Special Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773231",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773231",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special meeting of the Wausau School District Board of Education was scheduled to adopt the final 2026-27 budget and district levy. The board was expected to approve a tax levy of $44,385,271 and finalize spending plans for the upcoming school year, representing key fiscal decisions for district operations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Adopt Final 2026-27 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Adopt Final 2026-27 District Levy"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approve Consent Agenda",
+        "body": "The consent agenda was scheduled to include personnel matters across multiple categories: appointments of additional and replacement staff with contract increases, separations including resignations and terminations, leaves of absence, and retirements. The board was expected to consider all consent items as a single action."
+      },
+      {
+        "item": "Adopt Final 2026-27 Budget",
+        "body": "Administration was scheduled to present the final 2026-27 budget over an estimated 15 minutes, with Board Book attachments including expenditure budgets by function and revenue budgets by source as required by Wisconsin State Statutes. A presentation was included to highlight budget changes since the Annual Meeting and key features of the final spending plan."
+      },
+      {
+        "item": "Adopt Final 2026-27 District Levy",
+        "body": "Dr. Elizabeth Channel was scheduled to present on the final district levy over an estimated 10 minutes, with administration recommending a tax levy of $44,385,271 for the 2026-27 school year."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to vote on approval of the consent agenda",
+      "Board was expected to vote on adoption of the final 2026-27 budget",
+      "Board was expected to vote on adoption of the final 2026-27 district levy of $44,385,271"
+    ],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "District Levy",
+      "Fiscal Planning"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_771083",
     "source": "school_board",
     "title": "Closed Meeting",
@@ -5990,410 +6252,6 @@
         "second": "Jessica Stowell",
         "outcome": "Approved",
         "tally": "7-0"
-      }
-    ]
-  },
-  {
-    "id": "Kx1TnavosZ8",
-    "source": "weston",
-    "title": "Comprehensive Plan Steering Committee",
-    "date": "September 28, 2026",
-    "shortDate": "SEP 28",
-    "committee": "Board of Trustees",
-    "duration": "1h 27m",
-    "url": "https://www.youtube.com/watch?v=Kx1TnavosZ8",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09282026-1973",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston held a joint Comprehensive Plan Steering Committee meeting of the Village Board of Trustees and Planning Commission to review progress on a 10-year comprehensive plan update. Consultant Mark Roers of MD Roers Consulting presented survey results, stakeholder interview findings, draft vision statements, and preliminary chapter goals and initiatives covering land use, economic development, housing, transportation, and intergovernmental cooperation. The committee reached consensus on using draft vision statement 'C' for public presentation and set a public workshop for November 12, 2024, from 5 to 7 p.m.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:30",
-        "item": "Roll call"
-      },
-      {
-        "time": "3:10",
-        "item": "Public comment"
-      },
-      {
-        "time": "5:20",
-        "item": "Meetings and milestones update — Mark Roers, MD Roers Consulting"
-      },
-      {
-        "time": "12:45",
-        "item": "Review stakeholder interview and young adult questionnaire results"
-      },
-      {
-        "time": "27:00",
-        "item": "Review draft vision statements (A, B, C) and discussion"
-      },
-      {
-        "time": "40:00",
-        "item": "Community growth map and geographic vision overview"
-      },
-      {
-        "time": "55:00",
-        "item": "Chapter goals and initiatives: land use, economic development, housing, environment, transportation, intergovernmental cooperation"
-      },
-      {
-        "time": "1:18:00",
-        "item": "Hyperscale data center policy discussion"
-      },
-      {
-        "time": "1:32:00",
-        "item": "Pre-meeting initiative prioritization results reported"
-      },
-      {
-        "time": "1:38:00",
-        "item": "Discuss general plan for 'Shaping Weston's Tomorrow' public workshop"
-      },
-      {
-        "time": "1:43:00",
-        "item": "Board and commissioner announcements; adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "No speakers appeared in person or online. An emailed written comment from resident Sarah Prather regarding an indoor playground, addressed to Jennifer Higgins, Jamie Sean, Mark Roers, and Audrey Webster, was distributed to the board. President Maloney noted it would be entered into the record and included in the packet."
-      },
-      {
-        "item": "Meetings and Milestones Update",
-        "body": "Consultant Mark Roers outlined the comprehensive plan update process, noting that a community survey drew nearly 700 respondents, stakeholder interviews reached 24 identified contacts with 10 completing interviews, and a young adult questionnaire targeting ages 20–35 yielded 48 responses via social media. Roers explained the plan is divided into three volumes, with Volume 2 (Vision and Directions) as the current focus, targeting a public hearing by March. The board noted that 48 young adult responses exceeded the typical weekly newsletter poll response of about 27."
-      },
-      {
-        "item": "Stakeholder Interview and Young Adult Questionnaire Results",
-        "body": "Roers summarized cross-cutting themes from all input channels: safety ranked as the top community value across all age groups; residents want more retail, restaurants, and groceries; interviewees emphasized need for workforce housing, particularly entry-level single-family homes and duplexes over large apartment complexes; and intergovernmental respondents favored expanding collaborative services while keeping Weston's suburban character distinct from larger neighbors. Young adults specifically cited school quality, parks, family orientation, housing affordability, and indoor recreation as priorities."
-      },
-      {
-        "item": "Draft Vision Statement Review",
-        "body": "Roers presented three vision statement options (A from 2016, B from the recent strategic plan, and C newly drafted by Roers with AI assistance). Pre-meeting homework showed C received seven votes, A received one, and B received none. Discussion focused on tweaking C: Trustee Brent Olson suggested removing the word 'thoughtfully' from 'Weston will grow thoughtfully,' with others suggesting 'intentionally' as a substitute; one reviewer had suggested removing 'and welcoming' from the opening line, which drew pushback; another suggested adding 'can' language in multiple places, which was debated. The committee reached consensus to bring a refined version of C to the November 12 public workshop."
-      },
-      {
-        "item": "Community Growth Map and Geographic Vision",
-        "body": "Roers presented a generalized growth pattern map highlighting three mixed-use corridors (Scoffield Avenue, County Road X/Camp Phillips Road, and Weston Avenue) and identified a potential third interchange at Ryan Street as a priority transportation and land use initiative. Trustee or commissioner Gary Garn noted that Marathon County has a no-trucking restriction on Highway J south of Weston Avenue, which would need to be addressed for future southern industrial expansion. Extended discussion covered a potential bridge crossing north from the Caleb Drive area of Sandy Lane subdivision to improve connectivity, with staff noting the Oakclair River floodplain narrows at that point and that the northeast annexation area is known to the town chair."
-      },
-      {
-        "item": "Hyperscale Data Center Policy",
-        "body": "Roers recommended a draft initiative to 'support more industrial development while restricting hyperscale projects,' defining hyperscale as typically requiring 100 or more acres. He cited the DeForest example of a 1,500-acre proposal that was rejected and noted concerns about power consumption, long construction periods, land obsolescence, and community division. Board members expressed agreement with establishing a policy and raised questions about when to address related issues such as solar fields, wind turbines, and EV chargers. Roers noted solar field incentives are diminishing and cited a 2,500-acre proposal near Cambridge. The committee appeared to support the proposed policy direction without a formal vote."
-      },
-      {
-        "item": "Housing Chapter and State Law Initiatives",
-        "body": "Roers outlined new state-level tools including a pay-as-you-go TIF district specifically for residential development on lots no larger than 7,500 square feet with house size caps (1,500 sq ft single-story, 2,000 sq ft two-story), aimed at starter homes. He also noted infrastructure reimbursement mechanisms for developers and referenced the Truth in Planning law requiring communities to plan for sufficient housing land and be open to rezoning consistent with their plans. The board asked whether developer-fronted infrastructure costs could deter development; Roers said hybrid approaches are possible and that lenders are generally familiar with these structures."
-      },
-      {
-        "item": "Tax Incremental Financing — New Generation",
-        "body": "Roers explained that TID No. 1, the larger of Weston's two active districts, will close at year-end, creating room to establish new, smaller, project-specific TIDs. He cited DeForest's model of seven active TIDs and described the shift toward pay-as-you-go (PAYGO) structures where developers front infrastructure costs and are reimbursed through incremental tax revenue, closing districts faster. No vote was taken."
-      },
-      {
-        "item": "Pre-Meeting Initiative Prioritization Results",
-        "body": "Staff reported results of a pre-meeting homework exercise in which board and commission members ranked draft initiatives. 'Continue existing and pursue more opportunities for collaborative services' ranked first with six votes. Tied for second with five votes each were 'maintain the function and condition of Weston's roads' and 'help expand and attract retailers, restaurants, grocers, and industries in targeted sectors.' Tied for third with four votes each were 'phase growth according to utility, road, stormwater, and service capacity,' 'reinvest in older neighborhoods and housing,' and 'update Weston's five-year strategic plan.'"
-      },
-      {
-        "item": "Shaping Weston's Tomorrow Public Workshop",
-        "body": "The committee confirmed a public workshop titled 'Shaping Weston's Tomorrow' for November 12, 2024, from 5 to 7 p.m. Roers outlined plans for interactive small-group discussions rather than a lecture format, organized around topics such as transportation and natural resources. A board member requested a poster be created within 22 hours to publicize the event at a community event the following evening; staff confirmed they could produce one using Canva. Roers encouraged board members who attend to listen rather than actively participate in small groups."
-      }
-    ],
-    "publicComment": "No speakers appeared in person or online. A written email from resident Sarah Prather regarding an indoor playground was distributed to the board and entered into the record.",
-    "actionItems": [
-      "Consultant Mark Roers to revise draft vision statement C incorporating committee feedback (replace or remove 'thoughtfully,' consider 'intentionally,' review 'and welcoming' and 'can' language) and incorporate Trustee Lisa Beck's written submission",
-      "Staff to create a poster publicizing the November 12 public workshop for display at a community event the following evening",
-      "Staff to send calendar invitations to board and commission members for the November 12, 5–7 p.m. public workshop",
-      "Roers to refine the community growth map for clarity and update the future transportation map to better highlight the Caleb Drive north crossing opportunity",
-      "Roers to develop draft plan language on hyperscale data center restrictions, solar fields, and related large-scale energy/technology land uses",
-      "Roers to revise the future land use plan map to reflect potential industrial redesignation near a potential Ryan Street interchange",
-      "Staff and Roers to develop interactive small-group program format for the November 12 public workshop",
-      "Roers to follow up with Marathon County regarding Highway J load restrictions and implications for potential southern industrial expansion area"
-    ],
-    "topics": [
-      "Comprehensive Plan Update",
-      "Housing Affordability",
-      "Zoning",
-      "Economic Development",
-      "Transportation Infrastructure",
-      "Hyperscale Data Centers",
-      "Tax Increment Financing"
-    ],
-    "votes": [
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Dave [last name inaudible]",
-        "second": "Lisa Beck",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "BuG4S4Q-V2k",
-    "source": "weston",
-    "title": "Parks Committee",
-    "date": "September 28, 2026",
-    "shortDate": "SEP 28",
-    "committee": "Parks and Recreation Committee, Village of Weston",
-    "duration": "1h 2m",
-    "url": "https://www.youtube.com/watch?v=BuG4S4Q-V2k",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_09282026-1973",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Parks and Recreation Committee met on September 30, 2024, covering updates on Kennedy Park renovations, the Muler Park master plan, aquatic center repairs, and a farmers market end-of-season survey. The committee voted to conduct a fall farmers market survey with an added question about Kennedy Park usage, and approved moving forward with an updated aquatic center facility evaluation.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and pledge of allegiance"
-      },
-      {
-        "time": "1:10",
-        "item": "Roll call"
-      },
-      {
-        "time": "1:30",
-        "item": "Approval of minutes from August 24th meeting"
-      },
-      {
-        "time": "2:05",
-        "item": "Public comments"
-      },
-      {
-        "time": "7:45",
-        "item": "Update on Kennedy Park renovation"
-      },
-      {
-        "time": "13:20",
-        "item": "Update on Muler Park master plan"
-      },
-      {
-        "time": "25:10",
-        "item": "Update on aquatic center repairs"
-      },
-      {
-        "time": "32:00",
-        "item": "Discussion and action on farmers market end-of-season survey"
-      },
-      {
-        "time": "57:30",
-        "item": "Discussion and action on collecting feedback regarding ice skating rinks at Kennedy Park"
-      },
-      {
-        "time": "1:24:00",
-        "item": "Discussion and action on completing an updated aquatic center evaluation"
-      },
-      {
-        "time": "1:38:00",
-        "item": "Future agenda items, staff remarks, and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of minutes from August 24th meeting",
-        "body": "Minutes were moved by Scott and seconded by Roger. The committee approved them unanimously on a voice vote."
-      },
-      {
-        "item": "Public comments",
-        "body": "A resident named Grace, of 603 Jessica Street, offered three comments: she thanked committee members for asking probing questions about the ice rink proposal at Kennedy Park; she requested a more formal, structured presentation on Kennedy Park's progress and future plans, rather than informal monthly updates; and she asked whether Prohaska Park has a sign, bathrooms, and regular mowing. Staff confirmed the park has a sign and that only the walking trails are mowed, with no formal amenity area."
-      },
-      {
-        "item": "Update on Kennedy Park renovation",
-        "body": "Staff reported that contractors are scheduled to arrive the following week to address touch-up paint on poles, crack block and missing mortar, dugout door adjustments, sod restoration from irrigation leak repairs, and irrigation system restoration. Lights are scheduled for delivery the week of the 19th and will be installed immediately upon delivery. A representative from Friends of Kennedy Park said there were no additional updates. No action was taken."
-      },
-      {
-        "item": "Update on Muler Park master plan",
-        "body": "Staff reported that following the September 3rd public input meeting, the consultant revised the concept design to add tennis and basketball courts and relocated the shelter near the pickleball/basketball/tennis area. Public feedback on the concept was largely positive with few suggested changes. Three emails were received requesting that any future playground addition be fully ADA-accessible. Staff noted playground equipment at Muler was intentionally excluded from the seven-playground replacement project due to its relative newness (installed 2007), but replacement would be planned if the master plan moves forward. A cost estimate is being prepared and will return to the committee for approval or denial. No action was taken."
-      },
-      {
-        "item": "Update on aquatic center repairs",
-        "body": "Staff reported the contractor moved up their schedule and now expects to begin work at the aquatic center the week of October 5th, earlier than the previously anticipated late October window. Work includes leak detection, a valve and motor replacement, and winterization. Staff is preparing the mechanical room for the contractor's arrival. Electrical and commercial pool permits through the village are being processed. No action was taken."
-      },
-      {
-        "item": "Discussion and action on farmers market end-of-season survey",
-        "body": "Staff presented revised survey questions for a second end-of-season farmers market survey, noting the first survey was issued too early in the season. The proposed survey has nine questions including an open-ended final question. Committee members discussed whether to include a vendor-specific survey; staff noted the existing survey already asks respondents to identify as vendors. A committee member suggested adding a 10th question asking how respondents otherwise use Kennedy Park, which received broad support. Trustee Beck, participating online, supported conducting the survey now while the season is fresh. The committee voted to proceed with the survey, to be released around October 1st and run approximately 30 days."
-      },
-      {
-        "item": "Discussion on collecting feedback regarding ice skating rinks at Kennedy Park",
-        "body": "Staff recapped discussions from March and April about the cost and usage of the Kennedy Park outdoor ice rink, noting that since the warming house closed in 2019, attendance tracking has been limited but staff observe regular use. Cost to maintain the rink is primarily utilities—approximately $800 in water usage annually—since labor costs remain fixed regardless. Committee members debated whether a public survey would be useful, with concern that respondents without context might vote against a low-cost community amenity. One member noted the rink is the only full-size outdoor hockey rink (200x85 feet) in the area. The committee reached a consensus not to conduct a standalone ice rink survey, but agreed to add a question about Kennedy Park usage to the existing farmers market survey. No formal vote was taken on the ice rink item."
-      },
-      {
-        "item": "Discussion and action on completing an updated aquatic center evaluation",
-        "body": "Staff noted the last aquatic center evaluation was completed in 2016 at just under $7,000, and that significant capital expenditures have followed, including over $102,000 in leak repairs this year and another motor and valve replacement project exceeding $100,000. Staff estimated a new evaluation could cost $7,000–$12,000. A committee member raised the question of whether to wait given ongoing discussions about a possible pool partnership with the Everest School District, which recently mailed a facilities survey to residents. After discussion, the committee agreed that an evaluation could actually inform the partnership decision. A motion was made and seconded to proceed with the aquatic center evaluation; the motion was approved unanimously on a voice vote."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Grace, of 603 Jessica Street. She thanked committee members for questioning the ice rink proposal at Kennedy Park at a previous meeting, requested more formal and structured presentations on Kennedy Park's progress and future direction (including from Friends of Kennedy Park), and asked about the status of Prohaska Park—specifically whether it has a sign, bathrooms, and is regularly mowed. Staff answered that it does have a sign, and that only the walking trails are mowed. A person identified as David joined the meeting online but declined to offer public comment when invited.",
-    "actionItems": [
-      "Release farmers market end-of-season survey around October 1st, running approximately 30 days, including an added 10th question about other ways respondents use Kennedy Park",
-      "Do not conduct a standalone ice rink survey; instead capture Kennedy Park usage data via the farmers market survey question",
-      "Proceed with updated aquatic center facility evaluation; staff to contact Water Technology for a cost estimate",
-      "Contractors scheduled to arrive week of October 5th for aquatic center leak detection, valve and motor replacement, and winterization prep",
-      "Kennedy Park renovation: contractors arriving following week for touch-up paint, crack block/mortar repair, dugout door adjustment, sod restoration, and irrigation repairs; lights to be delivered and installed week of the 19th",
-      "Sand Hill playground spinner warranty parts expected to ship September 29th; staff to consult manufacturer about weight restriction signage",
-      "Next meeting tentatively set for October 26th at 4:00 p.m."
-    ],
-    "topics": [
-      "Parks",
-      "Aquatic Center",
-      "Farmers Market",
-      "Kennedy Park",
-      "Muler Park Master Plan"
-    ],
-    "votes": [
-      {
-        "item": "Approval of August 24th meeting minutes",
-        "motion": null,
-        "mover": "Scott",
-        "second": "Roger",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Proceed with farmers market end-of-season survey",
-        "motion": "Motion to proceed with the survey to go out this fall",
-        "mover": null,
-        "second": "Pam",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Proceed with updated aquatic center facility evaluation",
-        "motion": "Motion to go ahead and have the evaluation done",
-        "mover": null,
-        "second": "Roger",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": null,
-        "mover": "Scott",
-        "second": "Roger",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "THUscF8F2PE",
-    "source": "wausau",
-    "title": "Police & Fire Commission Meeting",
-    "date": "September 28, 2026",
-    "shortDate": "SEP 28",
-    "committee": "Wausau Police & Fire Commission",
-    "duration": "31m",
-    "url": "https://www.youtube.com/watch?v=THUscF8F2PE",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Police & Fire Commission met on September 28, 2026, conducting organizational business including electing a new vice president and secretary after Commissioner Tom Garver's departure from the commission. The meeting featured substantive updates from Fire Deputy Chief Justin and Police Chief Barnes covering apprenticeship hiring, budget constraints, the proposed UW campus acquisition, and the department's Flock license plate recognition camera system.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Roll Call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment – Tom Garver farewell remarks"
-      },
-      {
-        "time": "7:45",
-        "item": "New Business – Election of Vice President to replace departing Commissioner Tom Garver"
-      },
-      {
-        "time": "11:20",
-        "item": "Appointment of Commission Secretary"
-      },
-      {
-        "time": "12:30",
-        "item": "Approval of August 24 Meeting Minutes"
-      },
-      {
-        "time": "13:45",
-        "item": "Monthly Presentation – Fire Department Update (Deputy Chief Justin)"
-      },
-      {
-        "time": "22:00",
-        "item": "Monthly Presentation – Police Department Update (Chief Barnes)"
-      },
-      {
-        "time": "44:00",
-        "item": "Deputy Chief Promotional Process Update"
-      },
-      {
-        "time": "52:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment – Tom Garver Farewell",
-        "body": "Outgoing Commissioner Tom Garver, of 4620 Huntington Court, addressed the commission to mark his departure, citing 'circumstances beyond our control' requiring him to leave. He praised the commission's culture of hiring for character, commended department leadership, and expressed confidence in newly appointed commissioners. The chair noted Garver was recently inducted into the Army Sports Hall of Fame in September for his hockey career at West Point, where he holds the program's all-time wins record with 75 victories."
-      },
-      {
-        "item": "Election of Commission Vice President",
-        "body": "With Garver's departure creating a vacancy in the vice president role, Commissioner Lisa nominated Veta Perkins (referred to as 'V') for vice president. Another commissioner moved to close nominations, and the motion to elect Perkins as VP passed unanimously. The chair also appointed Lisa as commission secretary without a formal vote, stating it was an appointment rather than an election."
-      },
-      {
-        "item": "Approval of August 24 Meeting Minutes",
-        "body": "The chair asked for corrections to the August 24 minutes. None were raised. A motion to approve was made and seconded, passing unanimously with no discussion."
-      },
-      {
-        "item": "Fire Department Monthly Update",
-        "body": "Fire Deputy Chief Justin reported nine new apprentices starting that day from a pool of 45 applicants, calling the field strong. He noted six current vacancies in the department; seven candidates were interviewed for firefighter-paramedic positions but only two will advance to the PFC for approval, leaving four vacancies remaining. He also highlighted new scheduling software intended to reduce administrative burden on battalion chiefs and reduce mandatory overtime, new training software in development, a successful DEA audit of the department's controlled substances practices led by Division Chief Matt Tormolan, and the widely publicized rescue of two occupants of a small aircraft that made an emergency water landing in Lake Wausau after dark, one of whom was later identified as a gubernatorial candidate."
-      },
-      {
-        "item": "Police Department Monthly Update",
-        "body": "Chief Barnes reported that a recent police hiring process drew 40 applicants after targeted social media advertising in Wisconsin, and described the preliminary interview pool as the best the department has seen. He said the department anticipates hiring eight or nine officers in the next 12 months due to three current openings and five or six expected retirements. On budget, Barnes said the department is leaving two positions unfilled through August to meet required savings, and that the overall authorized FTE count is dropping from 81 to 80 in 2027 as foundation funding for one of two downtown homeless outreach officer positions expires — the city will fund one position and the other will simply not be backfilled. Barnes also updated the commission on the city's proposal to acquire the UW-Wausau campus, noting the city is seeking six months for due diligence and has requested a $50,000 budget modification for expert consultants; a first council vote failed due to lack of quorum and one abstention, but the finance committee has since approved the modification and it will return to the full council. Barnes addressed the Flock license plate recognition camera system, stating the department owns 20 cameras at $50,000 per year on a five-year contract, that Flock does not sell city data, and that data is deleted after 30 days; a formal presentation to the PFC is planned for October or November."
-      },
-      {
-        "item": "Deputy Chief Promotional Process",
-        "body": "Chief Barnes outlined the timeline for selecting a new deputy chief: letters of interest and resumes were due October 2nd, officer listening sessions with the commission (without Barnes or Fire Chief Todd present) are planned for mid-October, candidate written assignments and interviews with Barnes are set for November 11th, and PFC interviews and a vote are planned for mid-to-late November with a January 17th promotional date. Commissioners discussed whether the PFC interviews could be held during the regular November 23rd meeting; Barnes said it was feasible but noted interviews could take several hours and might require a reduced agenda."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: outgoing Commissioner Tom Garver, 4620 Huntington Court, who used the public comment period to formally address the commission upon his departure. He praised department leadership, emphasized the importance of hiring for character, and thanked his fellow commissioners.",
-    "actionItems": [
-      "Veta Perkins elected as commission Vice President",
-      "Lisa appointed as commission Secretary",
-      "Two firefighter-paramedic candidates to be brought before the PFC for approval at the October meeting",
-      "Flock camera system formal presentation to be scheduled for the October or November PFC meeting",
-      "Deputy chief candidate listening sessions with commission planned for mid-October",
-      "Deputy chief candidate written assignments and interviews with Chief Barnes set for November 11th",
-      "PFC interviews and vote on deputy chief selection planned for November, potentially at the regular November 23rd meeting",
-      "$50,000 budget modification for UW campus due diligence to go before the full city council at its next meeting",
-      "Next PFC meeting scheduled for Monday, October 19th at 7:30 a.m. at City Hall"
-    ],
-    "topics": [
-      "Public Safety",
-      "Staffing",
-      "Budget",
-      "Flock License Plate Recognition",
-      "UW Campus Acquisition"
-    ],
-    "votes": [
-      {
-        "item": "Election of Veta Perkins as Commission Vice President",
-        "motion": "Motion to elect Veta Perkins as Vice President",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approval of August 24 meeting minutes",
-        "motion": "Motion to approve the minutes",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to close the meeting",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
