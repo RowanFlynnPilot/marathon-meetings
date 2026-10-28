@@ -2896,6 +2896,17 @@
       "video_url": null,
       "processed_at": "2026-10-28T05:40:15.986076+00:00",
       "summary_file": "summaries/dc-everest-annual-meetingbudget-hearing-2026-10-28-bb-763081.md"
+    },
+    "UpcAT4xAvZc": {
+      "title": "Wausau Finance Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261027",
+      "meeting_date": "20261027",
+      "duration": 3382,
+      "video_url": null,
+      "processed_at": "2026-10-28T21:03:31.401468+00:00",
+      "summary_file": "summaries/wausau-wausau-finance-committee-meeting-upcat4xavzc.md"
     }
   }
 }

@@ -126,6 +126,336 @@
     "votes": []
   },
   {
+    "id": "UpcAT4xAvZc",
+    "source": "wausau",
+    "title": "Finance Committee Meeting",
+    "date": "October 27, 2026",
+    "shortDate": "OCT 27",
+    "committee": "Finance",
+    "duration": "56m",
+    "url": "https://www.youtube.com/watch?v=UpcAT4xAvZc",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Finance Committee met on October 27, 2026, receiving a clean audit opinion from new auditing firm Maldin Jenkins CPAs for fiscal year 2025, with one minor single audit finding related to suspension and debarment recordkeeping. The committee approved several items including a federal justice grant, a TIF development payment, airport hangar lease increases, and a fire department apprentice program budget amendment, while tabling the Wausau Cemetery Association agreement pending cost estimates and additional information.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:30",
+        "item": "Public Comment on Agenda Items"
+      },
+      {
+        "time": "0:55",
+        "item": "Consideration of Minutes – October 5, 6, 7, and 13, 2026"
+      },
+      {
+        "time": "2:10",
+        "item": "Presentation of 2025 Financial and Single Audit by Maldin Jenkins CPAs"
+      },
+      {
+        "time": "22:45",
+        "item": "Approving Fiscal Year 2026 Edward Byrne Memorial Justice Assistance Grant and Interlocal Agreement with Marathon County"
+      },
+      {
+        "time": "25:30",
+        "item": "Approving Budget Amendment for 415 South 1st Avenue Development Agreement with Gorman Company"
+      },
+      {
+        "time": "27:30",
+        "item": "Authorizing Staff to Prepare Project Plan Amendment for Tax Increment District 8"
+      },
+      {
+        "time": "29:10",
+        "item": "Approving Sole Source Request for ZO Monitors and Ventilators for Fire Department (PULLED)"
+      },
+      {
+        "time": "30:00",
+        "item": "Approving Agreement Between City of Wausau and Wausau Cemetery Association"
+      },
+      {
+        "time": "58:00",
+        "item": "Approving Budget Amendment for 2026 Budget Modifications Based on Year-End Projections (PULLED)"
+      },
+      {
+        "time": "58:30",
+        "item": "Reviewing General Fund Reserves Policy Regarding One-Time Uses (PULLED)"
+      },
+      {
+        "time": "59:00",
+        "item": "Approving 3% Increase to Hangar Lease Agreements at Wausau Downtown Airport Beginning 2027"
+      },
+      {
+        "time": "1:04:00",
+        "item": "Approving Multi-Year Budget Amendment for Wausau Fire Department Apprentice Program Paid by Federal Grant"
+      },
+      {
+        "time": "1:10:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Presentation of 2025 Financial and Single Audit by Maldin Jenkins CPAs",
+        "body": "Lucas Hand, CPA and director at Maldin Jenkins, presented the city's fiscal year 2025 audit results, reporting a clean, unmodified opinion on both the financial statements and the single audit compliance report. The city ended the year with total net position of $300.3 million, general fund revenues of $46.3 million versus expenditures of $47 million, and an overall net position increase of $12.7 million. One single audit finding was noted — a significant deficiency for suspension and debarment recordkeeping, which Hand described as a common checklist issue with no impact on federal funds. Hand also issued a management point (not an audit finding) recommending cross-training and documentation of key processes, noting that finance department knowledge is concentrated in a limited number of individuals. Alderperson Hincki asked Hand to expand on succession planning concerns, and the chair asked about upcoming GASB standards 103 and 104, with Hand expressing confidence the city is prepared."
+      },
+      {
+        "item": "Approving Fiscal Year 2026 Edward Byrne Memorial Justice Assistance Grant and Interlocal Agreement with Marathon County",
+        "body": "Captain Graham presented the annual formula-based federal grant of $15,920, awarded jointly to the City of Wausau and Marathon County, requiring an interlocal agreement for Marathon County to receive funds. The grant is historically used to fund equipment in the regional forensic lab, such as GrayKey or Cellebrite technology. No significant debate occurred and the item was approved unanimously."
+      },
+      {
+        "item": "Approving Budget Amendment for 415 South 1st Avenue Development Agreement with Gorman Company (Westside Commons)",
+        "body": "Patrick from economic development explained that Gorman Company had met all milestones under their development agreement, including minimum spend, project completion, and obtaining 90% occupancy for three or more months, as well as securing permanent financing. The committee approved a $650,000 Tax Increment Grant (TIG) payment to Gorman Company, which will come before the full council as a budget modification. The vote carried without notable debate."
+      },
+      {
+        "item": "Authorizing Staff to Prepare Project Plan Amendment for Tax Increment District 8",
+        "body": "The chair described this item as moving private-side lead service line replacement costs to TID 8 where appropriate, along with 17th Avenue reconstruction and asphalt overlay within the district — topics previously discussed during budget sessions. The motion passed without discussion."
+      },
+      {
+        "item": "Approving Agreement Between City of Wausau and Wausau Cemetery Association",
+        "body": "Staff presented a revised, consolidated cemetery agreement reflecting a current annual payment of $76,721.44 and new language giving the public works director authority to offer surplus vehicles to the cemetery at no cost on a right-of-first-refusal basis. Parks Director Jamie raised significant concerns about a new, large tree removal and stump grinding request from the cemetery — nine trees and 23 total stumps — which would take city urban forestry crews approximately two weeks, raising questions about liability for headstone damage, worker safety on non-city property, and cost. Alder Watson moved to table the agreement until the next finance committee meeting pending cost estimates, a map of the requested work, copies of the prior agreements, and potential cemetery board attendance; Alder Hincki seconded. The motion passed with one nay and the chair abstaining, citing his wife's service on the cemetery board. Items G and H were also pulled to the next meeting."
+      },
+      {
+        "item": "Approving 3% Increase to Hangar Lease Agreements at Wausau Downtown Airport Beginning 2027",
+        "body": "The committee discussed a 3% rate increase for T-hangar leases at Wausau Downtown Airport, with current monthly rates ranging from approximately $3 to $6 depending on hangar size. Staff noted the airport is below market compared to peer facilities. Alder Hincki asked for more detail on how rates are set and how far behind market the city is. Alder Neil moved to approve; Alder Hincki seconded. The item passed unanimously."
+      },
+      {
+        "item": "Approving Multi-Year Budget Amendment for Wausau Fire Department Apprentice Program Paid by Federal Grant",
+        "body": "Fire Chief Jeremy explained this was a bookkeeping amendment to create a budget line matching the previously approved federal apprenticeship grant, enabling staff to track spending across the three-year grant period. He confirmed all costs — including gear, equipment, and collaboration with Northcentral Technical College — are covered within the grant for two cohorts of nine apprentices each. Alder Hincki asked whether apprentices would have a direct path to city employment; the chief clarified they would need to apply for open positions through the standard process. The motion from Hincki with a second from Tyranny passed unanimously."
+      }
+    ],
+    "publicComment": "No public comment was offered. The chair noted only staff were present when public comment was called.",
+    "actionItems": [
+      "Staff to execute interlocal agreement with Marathon County for $15,920 Edward Byrne Memorial Justice Assistance Grant",
+      "Budget modification for $650,000 TIG payment to Gorman Company to be brought to full council",
+      "Staff to prepare project plan amendment for Tax Increment District 8 covering lead service lines, 17th Avenue reconstruction, and asphalt overlay",
+      "Sole source request for fire department ZO monitors and ventilators to be brought to next finance committee meeting",
+      "Cemetery agreement tabled: parks staff to prepare cost estimates for tree removal and stump grinding (9 trees, 23 stumps), provide map, compile prior agreements and trust agreement, and invite cemetery board to attend next finance committee meeting",
+      "2026 general fund budget modifications based on year-end projections deferred to next finance committee meeting",
+      "General fund reserves policy one-time uses review deferred to next finance committee meeting",
+      "3% hangar lease rate increase to take effect January 1, 2027 at Wausau Downtown Airport",
+      "Multi-year budget amendment entered for fire department apprentice program to track federal grant spending"
+    ],
+    "topics": [
+      "Budget",
+      "Audit",
+      "Economic Development",
+      "Tax Increment Financing",
+      "Public Safety",
+      "Wausau Cemetery Association",
+      "Wausau Downtown Airport",
+      "Fire Department Apprentice Program"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from October 5, 6, 7, and 13, 2026 finance committee meetings",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Neil",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approving FY2026 Edward Byrne Memorial Justice Assistance Grant and interlocal agreement with Marathon County",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Hincki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approving budget amendment for 415 South 1st Avenue development agreement with Gorman Company – $650,000 TIG payment",
+        "motion": null,
+        "mover": "Neil",
+        "second": "Watson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Authorizing staff to prepare project plan amendment for Tax Increment District 8",
+        "motion": null,
+        "mover": "Tyranny",
+        "second": "Watson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Tabling the Wausau Cemetery Association agreement to the next finance committee meeting",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Hincki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approving 3% increase to hangar lease agreements at Wausau Downtown Airport beginning 2027",
+        "motion": null,
+        "mover": "Neil",
+        "second": "Hincki",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approving multi-year budget amendment for Wausau Fire Department apprentice program",
+        "motion": null,
+        "mover": "Hincki",
+        "second": "Tyranny",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "kw_bc64bc1cee794958999a4d624864a28e",
+    "source": "kronenwetter",
+    "title": "Revised Village Board Meeting",
+    "date": "October 26, 2026",
+    "shortDate": "OCT 26",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Kronenwetter Village Board held its October 26, 2026 meeting with six of seven trustees present, taking action on several items including a zoning change request, new municipal center hours, and retaining Ordinance 14-16 as written. Finance Director John provided a detailed TID closure update projecting significant future tax levy benefits, while a public commenter raised concerns about the Green Tree development and well contamination near the project site.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:40",
+        "item": "Public Comment"
+      },
+      {
+        "time": "4:50",
+        "item": "Staff Reports - Public Works (Greg Allman)"
+      },
+      {
+        "time": "7:00",
+        "item": "Finance Director/Treasurer's Report - TID Update and Budget"
+      },
+      {
+        "time": "30:00",
+        "item": "Consent Agenda - Vouchers, ACH Transactions, Credit Card Activity (Items E & F)"
+      },
+      {
+        "time": "38:00",
+        "item": "New Business Item G - Zoning Change Request, 3115 Aspen Road (Boshensky)"
+      },
+      {
+        "time": "41:00",
+        "item": "Item H - Municipal Center Hours"
+      },
+      {
+        "time": "48:00",
+        "item": "Item I - Ordinance 14-16, Police and Fire Commission Composition"
+      },
+      {
+        "time": "55:00",
+        "item": "Item J - Legal Services Renewal Agreement (Wolfgram)"
+      },
+      {
+        "time": "1:03:00",
+        "item": "Consideration for Future Board Agenda / Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment - Green Tree Development",
+        "body": "Bruny Kramer of 2150 East State Highway 153, Schofield, addressed the board criticizing the Green Tree development decision, alleging the village did not follow Kronenwetter in-place standards and that no one is accountable for the decision. He also reported that a well service person told him a well on the corner of Pine and Pleasant had 40 feet of contamination and required a full system replacement costing over $10,000, which Kramer said was located near the planned development site."
+      },
+      {
+        "item": "Finance Director/Treasurer's Report - TID Update",
+        "body": "Finance Director John provided an extensive update on Tax Increment District closures, projecting that TID 3 is already in closure mode adding $4,139 to the 2027 tax levy, TID 2 could close five years early in 2029 releasing $80 million in valuation, TID 4 could close two years early in 2032, and TID 1 could close by 2039 with the distribution center coming online. He projected cumulative annual tax levy benefits of up to $400,000-$441,000 once all TIDs are closed, calling it major future benefit to village operations, debt service, and capital projects."
+      },
+      {
+        "item": "Consent Agenda - Item E (Vouchers/ACH/Credit Cards) and Item F (Operator License)",
+        "body": "The board separated the consent agenda after trustee questions. Regarding Item E, Trustee Coyle noted approximately $41,000 in legal costs over 2026 related to open records requests from a specific individual; Finance Director John confirmed the line item on page 13-14 was for one person's requests and pledged a full cost breakdown at the November meeting. Item F, an operator's license application with a missing or incorrect item on the form, was directed back to the clerk for the applicant to correct and resubmit rather than being approved or denied, consistent with prior board practice. Item E was approved 6-0 on roll call; Item F was not voted on and was returned to staff."
+      },
+      {
+        "item": "Zoning Change Request - 3115 Aspen Road (Boshensky)",
+        "body": "The board considered a request by Ms. Boshensky to rezone 2.89 acres at 3115 Aspen Road from R-5 to R-2. There was no notable debate. Trustee Lesniak moved to approve both the zoning change and the accompanying ordinance; Trustee Stowell seconded. The motion passed 6-0 on roll call."
+      },
+      {
+        "item": "Municipal Center Hours",
+        "body": "The board discussed a proposed change to municipal center public hours: 7:30 a.m. to 4:30 p.m. Monday through Thursday, and 7:30 a.m. to noon on Fridays (with staff working internally through 4:30 on Fridays), year-round. Finance Director John raised a concern about December tax collection season and Friday hours but said he would discuss with staff and the administrator before proposing any changes. The board noted that by-appointment access on Fridays has been accommodated previously. Trustee Mortensen moved to approve the new schedule; Trustee Stowell seconded. Motion passed by voice vote."
+      },
+      {
+        "item": "Ordinance 14-16 - Police and Fire Commission Composition",
+        "body": "President Joling acknowledged he had made an appointment to the Police and Fire Commission without accounting for the ordinance's composition requirements, resulting in the appointee also serving on the Utility Commission in violation of the ordinance. The board discussed and agreed not to change the ordinance; instead, President Joling will ask the individual (identified as Alex) to choose which commission he wishes to remain on, and a new appointment will be sought for the other. Trustee Coyle moved to keep Ordinance 14-16 as written; motion was seconded and passed by voice vote."
+      },
+      {
+        "item": "Legal Services Renewal - Wolfgram Agreement",
+        "body": "Finance Director John presented a proposed renewal of the municipal court legal services agreement with attorney Wolfgram, increasing the rate from $185 to $200 per hour (8.1% increase) locked in for three years. Trustee Solheim raised a concern about the 10-year records retention requirement in Section 5 of the agreement, questioning whether it differed from prior contract language and noting cost implications. The board agreed to table the item and bring it back at the next meeting to allow Clerk Noak time to compare the language with the prior agreement, noting a 60-day termination notice deadline of approximately November 1."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: Bruny Kramer of 2150 East State Highway 153 criticized the Green Tree development decision, alleging the village failed to follow its own in-place standards, that no one faces consequences, and that a well at the corner of Pine and Pleasant had been severely contaminated, requiring a full replacement costing over $10,000 — located near the proposed development.",
+    "actionItems": [
+      "Finance Director to prepare a full 2026 legal cost breakdown by individual/request category for the November board meeting with a proposed budget amendment",
+      "President Joling to contact Alex Biddy by end of week to choose between Police and Fire Commission and Utility Commission membership, then seek a replacement appointment for the vacated seat",
+      "Clerk Noak to compare current Wolfgram legal services agreement language on records retention with the proposed renewal; item to return at next board meeting",
+      "Staff to explore options for December tax collection season Friday hours and report back",
+      "Official formal appointment/confirmation of village clerk Connie Noak to be placed on next board agenda",
+      "Discussion of moving to one board meeting per month to be placed on next board agenda"
+    ],
+    "topics": [
+      "Tax Increment Districts",
+      "Zoning",
+      "Municipal Operations",
+      "Legal Services",
+      "Green Tree Development"
+    ],
+    "votes": [
+      {
+        "item": "Consent Agenda Item E - Vouchers, ACH Transactions, Credit Card Activity",
+        "motion": "Motion to approve Item E of the consent agenda",
+        "mover": "Kelly Coyle",
+        "second": "Mary Solheim",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Zoning change request - 3115 Aspen Road, R-5 to R-2, with accompanying ordinance",
+        "motion": "Motion to approve the zoning change request and approve the ordinance connected to the zoning change request",
+        "mover": "Dan Lesniak",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "New Municipal Center public hours schedule",
+        "motion": "Motion to approve the new time schedule for the office",
+        "mover": "Craig Mortensen",
+        "second": "Jessica Stowell",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Keep Ordinance 14-16 as written (Police and Fire Commission composition)",
+        "motion": "Motion to keep Ordinance 14-16 as is",
+        "mover": "Kelly Coyle",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Kelly Coyle",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "vqL23xM50t8",
     "source": "weston",
     "title": "Community Life & Public Safety",
@@ -394,93 +724,6 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "kw_bc64bc1cee794958999a4d624864a28e",
-    "source": "kronenwetter",
-    "title": "Revised Village Board Meeting",
-    "date": "October 26, 2026",
-    "shortDate": "OCT 26",
-    "committee": "Village of Kronenwetter Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to convene on October 26, 2026, to address a zoning change request, review municipal operations reports, and consider contract renewals for legal services. The meeting was set to handle routine financial matters and a significant land-use decision affecting a residential property on Aspen Road.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Director of Public Works Report"
-      },
-      {
-        "time": "N/A",
-        "item": "Finance Director/Treasurer Report: Projected Closure Dates for Tax Increment Districts"
-      },
-      {
-        "time": "N/A",
-        "item": "Vouchers, ACH Transactions, and Credit Card Activity Transactions – September 2026"
-      },
-      {
-        "time": "N/A",
-        "item": "Operator Bartender License - Dennie Wiedeman"
-      },
-      {
-        "time": "N/A",
-        "item": "Zoning Change Request from Jean Pochinski"
-      },
-      {
-        "time": "N/A",
-        "item": "Municipal Center Hours"
-      },
-      {
-        "time": "N/A",
-        "item": "Ordinance 14-16"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2029 Proposed Renewal for Legal Services"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Zoning Change Request (Jean Pochinski)",
-        "body": "The board was scheduled to consider a zoning change request for 2.89 acres located at 3115 Aspen Road, Kronenwetter. The property, identified by Parcel ID 145-2708-212-0987, was set for discussion regarding reclassification from RR5 (Rural Residential 5) to RR2 (Rural Residential 2) zoning designation."
-      },
-      {
-        "item": "Finance Director/Treasurer Report: Projected Closure Dates for Tax Increment Districts",
-        "body": "The Finance Director was scheduled to present a report on projected closure dates for tax increment districts. This report was expected to provide updates on the financial planning and timeline for TID closures affecting the village."
-      },
-      {
-        "item": "Municipal Center Hours",
-        "body": "The board was set to discuss and take possible action on municipal center hours of operation. This agenda item was scheduled for discussion and potential decision-making regarding facility operations."
-      },
-      {
-        "item": "Ordinance 14-16",
-        "body": "The board was scheduled to discuss and potentially act on Ordinance 14-16. Specific details regarding the ordinance content were not provided on the published agenda."
-      },
-      {
-        "item": "2027-2029 Proposed Renewal for Legal Services",
-        "body": "The board was expected to consider renewal of legal services for the three-year period from 2027 through 2029. This agenda item was set for discussion and possible action regarding the village's legal representation contract."
-      }
-    ],
-    "publicComment": "Public comment was indicated on the agenda, scheduled for up to 15 minutes total with a three-minute time period per person, at the discretion of the Chief Presiding Officer.",
-    "actionItems": [
-      "Scheduled to vote on zoning change request for 3115 Aspen Road",
-      "Expected to consider operator bartender license for Dennie Wiedeman",
-      "Scheduled to approve or discuss vouchers, ACH transactions, and credit card activity for September 2026",
-      "Expected to take possible action on municipal center hours",
-      "Scheduled to review and potentially act on Ordinance 14-16",
-      "Expected to consider 2027-2029 legal services contract renewal"
-    ],
-    "topics": [
-      "Zoning",
-      "Municipal Operations",
-      "Budget and Finance",
-      "Legal Services",
-      "Tax Increment Districts"
-    ],
-    "votes": []
   },
   {
     "id": "bb_773225",
@@ -6203,35 +6446,5 @@
         "tally": null
       }
     ]
-  },
-  {
-    "id": "nSSFoE_EWhA",
-    "source": "marathon",
-    "title": "Environmental Resources Committee Meeting",
-    "date": "September 29, 2026",
-    "shortDate": "SEP 29",
-    "committee": "Environmental Resources",
-    "duration": "1h 26m",
-    "url": "https://www.youtube.com/watch?v=nSSFoE_EWhA",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "{\n  \"overview\": \"The Marathon County Environmental Resources Committee met on September 29, 2026, to conduct public hearings on nine rezoning petitions, approve land acquisition and a boat donation for parks, review three independent town ordinances, and begin initial discussions on developing a data center ordinance under an existing 12-month moratorium. Eight of nine rezoning petitions were approved unanimously; one was postponed pending town board action. The data center ordinance discussion highlighted committee concerns about water use, electricity demand, noise, and the need for independent expert education before drafting standards.\",\n  \"committee\": \"Marathon County Environmental Resources Committee\",\n  \"presiding\": \"Supervisor Mike Ritter, Chair\",\n  \"agenda\": [\n    {\"time\": \"0:00\", \"item\": \"Call to Order and Pledge of Allegiance\"},\n    {\"time\": \"1:10\", \"item\": \"Public Comment\"},\n    {\"time\": \"1:20\", \"item\": \"Approval of September 1, 2026 Committee Minutes\"},\n    {\"time\": \"2:05\", \"item\": \"5A1: Rezoning - White Knight Acres LLC, General Agriculture to Rural Residential, Town of Wayne\"},\n    {\"time\": \"7:30\", \"item\": \"5A2: Rezoning - Elizabeth Kurt and Doug and Barb Kurt, General Agriculture/Rural Residential to General Agriculture/Rural Residential, Town of Huitt\"},\n    {\"time\": \"13:00\", \"item\": \"5A3: Rezoning - Donna Klein Tippy, General Agriculture to Rural Residential, Town of Reed\"},\n    {\"time\": \"18:30\", \"item\": \"5A4: Rezoning - Dwayne Johnson, Low Density Residential and Farmland Preservation to Rural Estate, Town of Hull\"},\n    {\"time\": \"25:00\", \"item\": \"5A5: Rezoning - Thomas and Pamela Balls and Devon and Louisa Lammansky, General Agriculture to Low Density Residential, Town of Rib Falls\"},\n    {\"time\": \"30:00\", \"item\": \"5A6: Rezoning - Austin Leel, General Agriculture to Rural Estate, Town of Holton\"},\n    {\"time\": \"35:00\", \"item\": \"5A7: Rezoning - Marvin Martin, Farmland Preservation to Light Industrial, Town of Hull\"},\n    {\"time\": \"39:30\", \"item\": \"5A8: Rezoning - Jordan Reynolds, Farmland Preservation to Rural Estate, Town of Hull\"},\n    {\"time\": \"44:30\", \"item\": \"5A9: Rezoning - Spencer Joint Revocable Trust, Farmland Preservation to General Agriculture, Town of McMillan - POSTPONED\"},\n    {\"time\": \"49:00\", \"item\": \"5C1: Possible Recommendation to County Board - Acquisition of Land Adjacent to Cherokee Park\"},\n    {\"time\": \"1:02:00\", \"item\": \"5C2: Possible Recommendation to County Board - Donation of Pontoon Boat to Parks Department\"},\n    {\"time\": \"1:10:00\", \"item\": \"5B1: Town of Reb Rock Wind Energy Ordinance\"},\n    {\"time\": \"1:18:00\", \"item\": \"5B2: Town of Reb Rock Solar Energy Ordinance\"},\n    {\"time\": \"1:22:00\", \"item\": \"5B3: Town of Wausau Data Center Ordinance\"},\n    {\"time\": \"1:33:00\", \"item\": \"6A1: Initial Conversation on Development of Data Center Ordinance - Issues to Research\"},\n    {\"time\": \"2:00:00\", \"item\": \"6A2: Strategic Plan Development Update\"},\n    {\"time\": \"2:06:00\", \"item\": \"Year-to-Date Budget Report for CPZ, PRF, and SWD\"},\n    {\"time\": \"2:12:00\", \"item\": \"Announcements and Next Meeting\"}\n  ],\n  \"discussions\": [\n    {\n      \"item\": \"5A1: White Knight Acres LLC Rezoning - Town of Wayne\",\n      \"body\": \"Staff presenter Garrett Pogle reported the petition to rezone from General Agriculture to Rural Residential near Chesk Road and Aspen Drive. The Town of Wayne recommended approval and staff also recommended approval. No public testified. Supervisor Drebeck moved to approve based on findings of fact, conclusions of law, and town approval; Supervisor Sefelt seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A2: Elizabeth Kurt and Doug and Barb Kurt Rezoning - Town of Huitt\",\n      \"body\": \"Staff reported a rezoning of parcels near Mile Road and Sunrise Road, reorganizing boundaries between General Agriculture and Rural Residential designations. The Town of Huitt recommended approval and staff concurred. No public testified. Supervisor Shaneborn moved to approve; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A3: Donna Klein Tippy Rezoning - Town of Reed\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Rural Residential at the corner of Martin Road and County Road J. The Town of Reed recommended approval and staff concurred. No public testified. Supervisor Sefelt moved to approve and forward to the county board; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A4: Dwayne Johnson Rezoning - Town of Hull\",\n      \"body\": \"Staff reported a petition to rezone approximately 8 acres from Low Density Residential and Farmland Preservation to Rural Estate west of Chestnut Hill Lane and Elderberry Road. Property owner Dwayne Johnson testified, explaining the land was a former cow yard with a waterway running through it, of little farming value, and he intended to sell it to a neighboring property owner. Town of Hull and staff recommended approval. Supervisor Sefelt moved to approve; Supervisor Shaneborn seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A5: Thomas and Pamela Balls and Devon and Louisa Lammansky Rezoning - Town of Rib Falls\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Low Density Residential south of Schoolhouse Lane and Countryside Drive. Town of Rib Falls and staff recommended approval. No public testified. Supervisor Brew moved to approve; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A6: Austin Leel Rezoning - Town of Holton\",\n      \"body\": \"Staff reported a petition to rezone from General Agriculture to Rural Estate at the corner of Pope Road and County Line Road. Town of Holton and staff recommended approval. No public testified. Supervisor Shaneborn moved to approve; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A7: Marvin Martin Rezoning - Town of Hull\",\n      \"body\": \"Staff reported a petition to rezone from Farmland Preservation to Light Industrial west of the intersection of County Road N and Silver Maple Lane. Town of Hull and staff recommended approval. No public testified. Supervisor Drebeck moved to approve; Supervisor Shaneborn seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A8: Jordan Reynolds Rezoning - Town of Hull\",\n      \"body\": \"Staff noted the agenda incorrectly listed this as Farmland Preservation to Light Industrial; the correct and publicly noticed rezoning was Farmland Preservation to Rural Estate. Staff reported the petition for land south of the intersection of Choke Cherry Road and Dill Creek Lane. Town of Hull and staff recommended approval. No public testified. Supervisor Sefelt moved to approve and forward to the county board; Supervisor Drebeck seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5A9: Spencer Joint Revocable Trust Rezoning - Town of McMillan (POSTPONED)\",\n      \"body\": \"Staff reported a petition to rezone from Farmland Preservation to General Agriculture at the intersection of Galvan Avenue and Weeping Willow Lane, but noted the Town of McMillan had not submitted a required resolution. Staff recommended postponement until the town submits its resolution. The committee agreed, with Supervisor [inaudible] moving to postpone and Supervisor Enson seconding. Motion to postpone carried unanimously.\"\n    },\n    {\n      \"item\": \"5C1: Acquisition of Land Adjacent to Cherokee Park\",\n      \"body\": \"Parks and Recreation Director Jamie Paulie presented a proposal to acquire approximately 14 acres of wooded land adjacent to Cherokee Park from a private landowner at an assessed value of $4,450 per acre, funded from the county's Parkland Dedication Account which currently holds $344,043. Paulie clarified only the wooded parcel would be purchased; farmland would remain in private ownership. Supervisor Enson noted a discrepancy between the 14-acre figure and the appraisal's 19-acre figure; Paulie acknowledged this and explained the appraisal was for per-acre valuation only. Supervisor Drebeck asked about potential timber harvesting; Paulie said no assessment had been done but noted access could be through the park. The Parks, Forestry, and Recreation Committee had already recommended approval. Supervisor Sefelt moved to approve and forward to the HR Finance and Property Committee; Supervisor Brew seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5C2: Donation of Pontoon Boat to Parks Department\",\n      \"body\": \"Director Paulie presented a proposal to accept donation of a 1990 19-foot aluminum pontoon boat with a 50-horsepower motor from a local school district that was divesting from its fishing program. The boat, valued at approximately $4,000, would expand the county's youth fishing program at no cost. Paulie noted it would be added to the county fleet for routine maintenance and could be sold if upkeep became excessive. Supervisor Sefelt quipped the next Parks, Forestry, and Recreation Committee meeting would be held on the pontoon boat. Supervisor Brew moved to accept the donation; Supervisor Enson seconded. Motion carried unanimously.\"\n    },\n    {\n      \"item\": \"5B1: Town of Reb Rock Wind Energy Ordinance\",\n      \"body\": \"Land Resources Manager Shad Harvey explained a new procedural change: the county now only reviews independent town ordinances for procedural compliance rather than legal content, with towns assuming legal responsibility via a signed application. Corporation Counsel confirmed the county is not vouching for the legality of the ordinance language. Supervisor Leur expressed concern about the word 'hope' regarding liability and sought clarification; Corp Counsel acknowledged the procedure is untested in Marathon County and that while liability probability is low, it cannot be guaranteed at 0%. Supervisor Drebeck moved to accept the Town of Reb Rock Wind Energy Ordinance; Supervisor Sefelt seconded. Motion carried, but was noted as not unanimous.\"\n    },\n    {\n      \"item\": \"5B2: Town of Reb Rock Solar Energy Ordinance\",\n      \"body\": \"Harvey presented the same procedural review framework for the solar energy ordinance. Supervisor Sefelt asked whether towns could sign an agreement holding the county harmless; Harvey confirmed the application form serves that function. Chair Gibbs asked whether Corp Counsel reviews ordinance language for legality; Corp Counsel confirmed they do not review the language itself, only procedural compliance. Supervisor Sefelt moved to accept; Supervisor Brew seconded. Motion carried, with at least one 'no' vote noted.\"\n    },\n    {\n      \"item\": \"5B3: Town of Wausau Data Center Ordinance\",\n      \"body\": \"Harvey presented the Town of Wausau data center ordinance under the same procedural review. Chair Gibbs noted the application had only one supervisor's signature, no second supervisor, and the clerk had not dated it. A Town of Wausau supervisor present at the meeting explained that one supervisor position is currently vacant due to a resignation and that the clerk's auto-signature was pre-approved by staff. The town representative expressed frustration with the statutory requirement that independent town ordinances go through the county, arguing that if towns bear full legal responsibility they should have full authority. Corp Counsel acknowledged the procedural anomaly and agreed with the sentiment but noted it is required by state law. Supervisor Shaneborn moved to approve; Supervisor Drebeck seconded. Motion carried, with at least one 'no' vote noted.\"\n    },\n    {\n      \"item\": \"6A1: Initial Conversation on Data Center Ordinance Development\",\n      \"body\": \"Shad Harvey opened a brainstorming discussion on what issues a future data center ordinance should address, noting the county is under a 12-month moratorium on data centers and has no comprehensive standards. Key concerns raised included accurate information on water and electricity use (Supervisor Brew cited conversation with an IT instructor who argued water use is far lower than perceived), indirect water use tied to energy generation (Supervisor Leur), zoning classification and scale thresholds such as distinguishing large-scale hyperscale facilities from school server rooms (Shad Harvey and Supervisor Drebeck), state authority versus local authority, cumulative impacts of stacked projects, noise, decommissioning, and backup generator emissions. Chair Robinson noted WCA has two model ordinances from the Tulsa law firm and suggested a data center notification ordinance to ensure county awareness of projects in incorporated municipalities. Supervisor Brew asked if there had been any data center inquiries; Garrett Pogle confirmed one developer inquiry approximately a year to a year and a half ago. The committee directed staff to continue research, seek independent expert speakers, and examine what other communities have done, with no ordinance drafting yet to occur.\"\n    },\n    {\n      \"item\": \"6A2: Strategic Plan Development Update\",\n      \"body\": \"Staff briefly reported that a public survey of the top 20 objectives from the comprehensive plan would be released in October, asking the public to rank their top 10 priorities to help narrow the strategic plan to 10 objectives. The survey will be published online. No vote was taken.\"\n    },\n    {\n      \"item\": \"Year-to-Date Budget Report\",\n      \"body\": \"Finance staff reported that the payroll benchmark for the period is 46.74%. All three departments — CPZ, Parks/Forestry/Recreation, and Solid Waste — are below that benchmark on expenditures. CPZ is at 59.5% of revenue budget and 35.27% of expenditure budget. Parks is at 53.79% of revenue and 30.9% of expenditure. Solid Waste is at 29.84% of revenue and 26.8% of expenditure, with low revenue figures attributed to use of fund balance transfer for new landfill cell construction. No concerns were flagged.\"\n    },\n    {\n      \"item\": \"Announcements\",\n      \"body\": \"Staff announced 2027 ERC meeting dates were included in the packet, a Wisconsin Saltwise smart salting event at Uncommon Pints in Rothschild on October 21 at 4 p.m., and a special county board meeting Thursday. County Administrator announced the 2027 proposed budget had been delivered to the county board and outlined the amendment and adoption timeline, including HR Finance and Property Committee action on October 12, a public hearing on November 2, and county board adoption on November 10.\"\n    }\n  ],\n  \"publicComment\": \"No public comment was offered during the designated public comment period. A Town of Wausau supervisor spoke during the agenda item on the Town of Wausau data center ordinance to explain the incomplete application signatures and to express frustration with the statutory requirement that independent town ordinances pass through the county board process.\",\n  \"actionItems\": [\n    \"Forward approval of eight rezoning petitions to the Marathon County Board of Supervisors for final action\",\n    \"Postpone Spencer Joint Revocable Trust rezoning petition (Town of McMillan) until town submits required resolution\",\n    \"Forward Cherokee Park land acquisition proposal to HR Finance and Property Committee for consideration; landowner to complete formal survey of wooded parcel if approved\",\n    \"Forward acceptance of donated pontoon boat to HR Finance and Property Committee\",\n    \"Staff to research data center ordinance issues including water use, electricity demand, noise, zoning classification by scale, state versus local authority, decommissioning, and cumulative impacts\",\n    \"Staff to seek independent expert speakers on data centers for future committee education\",\n    \"Staff to examine model ordinances from WCA/Tulsa law firm and data center notification ordinance concept\",\n    \"Public survey on top 20 comprehensive plan objectives to be released online in October\",\n    \"Committee members to submit budget amendments to administrator's office and HR Finance and Property Committee chair by October 9 if desired\"\n  ],\n  \"topics\": [\"Rezoning\", \"Data Centers\", \"Parks and Land Acquisition\", \"Budget\", \"Town Ordinances\"],\n  \"votes\": [\n    {\"item\": \"Approval of September 1, 2026 committee minutes\", \"motion\": null, \"mover\": \"Supervisor Shaneborn\", \"second\": \"Supervisor Brew\", \"outcome\": \"Approved\", \"tally\": \"Unanimous\"},\n    {\"item\": \"5A1: Rezoning White Knight Acres LLC, GA to RR, Town of Wayne\", \"motion\": \"Motion to approve the rezone based on findings of fact, conclusions of law, and town approval\", \"mover\": \"Supervisor D",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Meeting convened"
-      }
-    ],
-    "discussions": [],
-    "publicComment": "",
-    "actionItems": [],
-    "topics": [
-      "Zoning",
-      "Parks",
-      "Development",
-      "Data Center Ordinance"
-    ],
-    "votes": []
   }
 ]
