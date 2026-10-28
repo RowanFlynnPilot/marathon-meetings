@@ -2885,6 +2885,17 @@
       "video_url": null,
       "processed_at": "2026-10-27T20:43:59.155702+00:00",
       "summary_file": "summaries/weston-community-life-public-safety-vql23xm50t8.md"
+    },
+    "bb_763081": {
+      "title": "Annual Meeting/Budget Hearing - 2026-10-28",
+      "source": "dc_everest",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=763081",
+      "upload_date": "20261028",
+      "meeting_date": "20261028",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-10-28T05:40:15.986076+00:00",
+      "summary_file": "summaries/dc-everest-annual-meetingbudget-hearing-2026-10-28-bb-763081.md"
     }
   }
 }
