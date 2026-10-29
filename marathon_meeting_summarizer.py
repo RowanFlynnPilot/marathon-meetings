@@ -1319,6 +1319,14 @@ Rules:
 
 # -- Core processing -----------------------------------------------------------
 
+def _has_votes(items: list) -> bool:
+    """True when CivicClerk has recorded a vote on any agenda item or sub-item.
+    Votes are posted with the minutes, often after a meeting is processed;
+    until then the vote prompt can only say, item by item, that none was
+    recorded, so the agenda prompt summarizes it instead."""
+    return any(i["votes"] or _has_votes(i["children"]) for i in items)
+
+
 def process_video(video):
     vid_id, title, url, source_key, doc_url = (
         video["id"], video["title"], video["url"],
@@ -1362,14 +1370,15 @@ def process_video(video):
         print("    Fetching CivicClerk vote data...")
         civic_data = fetch_civicclerk_data(doc_url)
         if civic_data:
-            print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items with votes")
+            print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items, "
+                  f"{'votes recorded' if _has_votes(civic_data.get('items', [])) else 'no votes recorded yet'}")
 
     # -- Agenda fallback -------------------------------------------------------
     if summary is None:
         agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
         if agenda_text:
-            # If we have CivicClerk vote data, enrich the agenda summary with it
-            if civic_data and civic_data.get("items"):
+            # If CivicClerk has recorded votes, enrich the agenda summary with them
+            if civic_data and _has_votes(civic_data.get("items", [])):
                 print("  [claude]  Summarizing from agenda + CivicClerk vote data...")
                 summary = summarize_from_agenda_with_votes(
                     agenda_text, title, source_key, url, civic_data)
