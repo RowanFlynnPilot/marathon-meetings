@@ -63,6 +63,12 @@ def main():
 
     # ── Check if already transcript-based (skip unless --force) ──────────────
     vid_id = args.video_id
+    # The workflow's "resummarize" input names meetings to redo even though
+    # their transcript hasn't changed (a prompt or limit fix: audit_votes.py
+    # lists the ones that need it).
+    if vid_id in {i.strip() for i in os.environ.get("RESUMMARIZE_IDS", "").split(",") if i.strip()}:
+        print(f"[force] {vid_id} is in RESUMMARIZE_IDS")
+        args.force = True
     summaries_dir = Path(os.environ.get("SUMMARIES_DIR", "./summaries"))
 
     # Compute a hash of the transcript to detect content changes
