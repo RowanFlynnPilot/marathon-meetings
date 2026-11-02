@@ -2918,6 +2918,17 @@
       "video_url": null,
       "processed_at": "2026-10-29T05:47:00.107441+00:00",
       "summary_file": "summaries/wausau-wausau-common-council-meeting-noayeu-ma2g.md"
+    },
+    "bb_772792": {
+      "title": "Closed Meeting - 2026-11-02",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=772792",
+      "upload_date": "20261102",
+      "meeting_date": "20261102",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-02T05:59:10.825397+00:00",
+      "summary_file": "summaries/school-board-closed-meeting-2026-11-02-bb-772792.md"
     }
   }
 }
