@@ -1,5 +1,159 @@
 [
   {
+    "id": "kw_590ae932796b451bb27e6e444f98e22a",
+    "source": "kronenwetter",
+    "title": "Plan Commission Meeting",
+    "date": "November 4, 2026",
+    "shortDate": "NOV 4",
+    "committee": "Plan Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-33",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-590ae932796b451bb27e6e444f98e22a.pdf",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to meet to consider a Conditional Use Permit application for a nonmetallic mine operation on Kowalski Road. The meeting represented a significant land-use decision for the community, involving a 35.58-acre property proposed for mining operations.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call Meeting to Order - Pledge of Allegiance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Old Business - Conditional Use Permit (Eau Claire River LLC) for nonmetallic mine at 1320 Kowalski Road"
+      },
+      {
+        "time": "N/A",
+        "item": "Next Meeting: November 16, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of Items for Future Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Conditional Use Permit - Eau Claire River LLC Nonmetallic Mine",
+        "body": "The Plan Commission was scheduled to review and consider action on a Conditional Use Permit application submitted by Eau Claire River, LLC for a nonmetallic mine operation at 1320 Kowalski Road in Kronenwetter. The 35.58-acre property was expected to be evaluated for compliance with local zoning and land-use regulations governing mining operations in the village."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with possible extension at the presiding officer's discretion.",
+    "actionItems": [
+      "scheduled to vote on or take action regarding the Conditional Use Permit application from Eau Claire River LLC for the nonmetallic mine operation"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Mining Operations",
+      "Land Use",
+      "Conditional Use Permits"
+    ],
+    "votes": []
+  },
+  {
+    "id": "P2GhbpI7KkY",
+    "source": "marathon",
+    "title": "Board (Budget Hearing)",
+    "date": "November 2, 2026",
+    "shortDate": "NOV 2",
+    "committee": "County Board",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=P2GhbpI7KkY",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Board of Supervisors held its annual budget hearing on November 2, 2026 for the proposed 2027 budget. HR Finance Committee Chair Robinson and County Administrator Leonard presented a status quo budget that drops the property tax rate by one cent to $3.48, funds a new highway facility without new debt, and maintains current service levels. Three members of the public testified, two raising concerns about the county's Flock license plate reader camera system and one questioning the highway facility funding strategy.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Pledge of Allegiance and moment of silence"
+      },
+      {
+        "time": "1:30",
+        "item": "Reading of the meeting notice"
+      },
+      {
+        "time": "2:30",
+        "item": "Roll call"
+      },
+      {
+        "time": "3:15",
+        "item": "Public comment on agenda items — none offered"
+      },
+      {
+        "time": "3:45",
+        "item": "Budget hearing overview by HR Finance Committee Chair Robinson"
+      },
+      {
+        "time": "8:00",
+        "item": "2027 budget overview presentation by County Administrator Leonard"
+      },
+      {
+        "time": "28:00",
+        "item": "Overview of changes adopted by committee for publication — none"
+      },
+      {
+        "time": "30:00",
+        "item": "Public hearing on proposed 2027 budget — three speakers"
+      },
+      {
+        "time": "45:00",
+        "item": "Board discussion of proposed 2027 budget"
+      },
+      {
+        "time": "1:25:00",
+        "item": "Discussion of Flock license plate reader system and budget implications"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2027 Budget Overview",
+        "body": "HR Finance Committee Chair Robinson outlined the year-long budget development process including a 'bucket challenge' prioritization exercise by board members, review of fees, and direction to avoid new debt. Administrator Leonard presented key budget metrics: the property tax rate drops one cent to $3.48, equalized value grew 6.25%, net new construction was 1.545%, and the county ranks 13th lowest in per capita spending statewide. Leonard emphasized the highway facility funding plan — moving the $3.5 million North Central Healthcare payment onto the debt levy to avoid new borrowing for the nearly $55 million project — as the cornerstone of the budget."
+      },
+      {
+        "item": "Social Services Department Staffing Increases",
+        "body": "Supervisor Sundowski questioned a proposed increase of 12 positions and roughly $4 million in the Social Services budget. Administrator Leonard and Social Services Director Christa explained that the Children's Long-Term Support (CLTS) social worker positions are fully federally funded through Medicaid billing and driven by state wait-list requirements, while the economic support specialist positions are funded through a state contract related to federal quality assurance requirements tied to the 'big beautiful bill.' Leonard clarified that positions are added incrementally as caseloads require, and that if funding streams disappear, the positions are eliminated without board action."
+      },
+      {
+        "item": "Highway Facility Funding Strategy",
+        "body": "Supervisor Cavelli and Supervisor Nisth questioned the phased implementation of the highway facility debt levy strategy, citing concerns raised by former supervisor David Baker in public testimony. Baker had argued that placing the full $3.5 million NCHC payment on the debt levy in year one contradicted the phased approach described in Resolution 4926, and asked whether proceeds from property sales or reserves could reduce the $25 million funding gap. Administrator Leonard defended the approach, explaining that delay increases risk of having to borrow for other capital projects in 2029-2031, and that proceeds from the sale of West Street shop, 28th Avenue parcels, and the Thomas Street property (400 East Thomas) could shorten the inter-fund loan period but are best evaluated after the annual audit."
+      },
+      {
+        "item": "Flock License Plate Reader System — Budget Implications",
+        "body": "Following public testimony from Courtney Olsen and Felix Gallow calling for defunding the Flock camera system, Supervisor Morash asked what budget options exist. Administrator Leonard explained that grant funds for the original five cameras are fully expended and $6,300 is in the sheriff's budget to continue that contract through the remainder of 2027; a second grant covering three cameras does not expire until March 2029 with no budget funds required. Sheriff Bip addressed the board, defending the technology as a legitimate law enforcement tool, stating that searches require a case number and are limited to specific personnel, that data is not shared with private entities, that audits occur twice monthly, and that the system is not used for immigration enforcement. Supervisor Robinson announced he had arranged a meeting between the sheriff and Gallow to work toward resolution. The board agreed to refer detailed discussion to the November 10 Public Safety Committee meeting."
+      },
+      {
+        "item": "User Fees and Equity Concerns",
+        "body": "Supervisor Leur raised concerns that increased user fees disproportionately burden lower-income residents and asked whether the county tracks the impact of fee increases on service utilization. Administrator Leonard acknowledged the concern, noted that the marriage license fee was deliberately not increased at the county clerk's recommendation, and emphasized that fee-setting is ultimately a board policy decision. He also noted two additional fee changes — a professional services fee in the medical examiner's office and minor solid waste adjustments — would be brought to the board before final budget adoption."
+      }
+    ],
+    "publicComment": "Three speakers testified at the formal public hearing. Courtney Olsen, executive director of a domestic violence agency, asked the board to amend the 2027 budget to prohibit county funds from being used for Flock or any license plate reader contract without a public hearing and board vote, and to request a corporate counsel opinion on board authority and county liability. Felix Gallow, also a Wausau resident, asked the board to prohibit budget funds from going to Flock without additional board study, and requested the sheriff commit to mandatory audits with oversight, quarterly public reports, and limiting data sharing to adjacent jurisdictions, state patrol, and DCI. David Baker of Kronenwetter supported the new highway facility and the no-new-debt strategy but questioned why the full $3.5 million payment was placed on the debt levy in year one rather than phased in, and asked the board to consider using property sale proceeds and reserves to reduce the $25 million funding gap.",
+    "actionItems": [
+      "Board members who wish to amend the 2027 budget must submit amendments to the clerk, administrator, or Finance Committee Chair Robinson by Friday for Finance Committee consideration on Monday",
+      "Full board to adopt the 2027 budget and capital improvement plan on Tuesday, November 10, 2026 at 6 p.m.",
+      "Sheriff Bip to deliver a detailed Flock camera presentation at the November 10 Public Safety Committee meeting; all supervisors invited to attend",
+      "Supervisor Robinson to arrange a meeting between Sheriff Bip and Felix Gallow to address oversight and accountability concerns about the Flock system",
+      "Staff to bring two fee schedule amendments — medical examiner professional services fee and minor solid waste fee changes — before the board prior to budget adoption",
+      "Joint meeting of HR Finance & Property Committee and Extension/Education/Economic Development Committee scheduled for Thursday to review second round of RFPs on River Drive properties",
+      "Post-audit review to assess excess highway reserve funds and other available revenues (West Street shop sale proceeds, 28th Avenue parcels, Thomas Street property, Social Improvement funds) to shorten the highway facility inter-fund loan period"
+    ],
+    "topics": [
+      "Budget",
+      "Public Safety",
+      "Highway Facility Funding",
+      "Flock License Plate Readers",
+      "Social Services Staffing"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_772792",
     "source": "school_board",
     "title": "Closed Meeting",
@@ -6249,188 +6403,6 @@
         "second": "Hanie (identified as Hincki in transcript)",
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "1MZGR7vUMJs",
-    "source": "wausau",
-    "title": "Parks & Recreation Committee Meeting",
-    "date": "October 5, 2026",
-    "shortDate": "OCT 5",
-    "committee": "Parks & Recreation",
-    "duration": "2m",
-    "url": "https://www.youtube.com/watch?v=1MZGR7vUMJs",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Parks & Recreation Committee held a brief reconvening session following a closed session for a quasi-judicial matter. The committee voted to affirm an unspecified motion from closed session and declined to pursue acquisition of a county-owned property on 28th Street for park development.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Reconvene from closed session — quasi-judicial matter"
-      },
-      {
-        "time": "0:30",
-        "item": "Motion to affirm closed session quasi-judicial decision"
-      },
-      {
-        "time": "1:10",
-        "item": "Closed session consideration — county-owned property at 625 N. 28th Street"
-      },
-      {
-        "time": "2:00",
-        "item": "Committee discussion on interest in purchasing 28th Street property for park development"
-      },
-      {
-        "time": "3:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Quasi-judicial closed session — affirmation vote",
-        "body": "Upon reconvening from closed session, Alder Neil moved to affirm the quasi-judicial decision and the motion was seconded by Alder Trueblood. The committee approved the motion 4-0 with no opposition noted."
-      },
-      {
-        "item": "County-owned property at 625 N. 28th Street — potential park acquisition",
-        "body": "The committee discussed whether to enter closed session regarding possible acquisition of a county-owned property on 28th Street for park development. Alder Sho stated agreement with Alder Neil that the committee had no interest in purchasing the property, citing the conditional cost of rehabilitating it. Alder Slonsky concurred, saying she saw no reason the city would have interest in purchasing the property for park development. With consensus against pursuing the acquisition, no motion was made and the item was passed over without action."
-      },
-      {
-        "item": "Adjournment",
-        "body": "Alder Trueblood moved to adjourn and Alder Slonsky seconded. The motion passed unanimously on a voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Quasi-judicial closed session decision was affirmed by a 4-0 vote",
-      "No action taken on potential acquisition of county-owned property at 625 N. 28th Street — committee consensus was against pursuing purchase for park development"
-    ],
-    "topics": [
-      "Parks",
-      "Property Acquisition",
-      "28th Street Property",
-      "Quasi-Judicial Proceedings"
-    ],
-    "votes": [
-      {
-        "item": "Affirm quasi-judicial closed session decision",
-        "motion": "Motion to affirm",
-        "mover": "Alder Neil",
-        "second": "Alder Trueblood",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Alder Trueblood",
-        "second": "Alder Slonsky",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "BHzFs3uCrl8",
-    "source": "marathon",
-    "title": "Board Special Meeting",
-    "date": "October 1, 2026",
-    "shortDate": "OCT 1",
-    "committee": "County Board",
-    "duration": "50m",
-    "url": "https://www.youtube.com/watch?v=BHzFs3uCrl8",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Board held a special meeting on October 1, 2026 to consider Resolution 55-26, directing Alliant Energy to submit a draft proposal addressing community concerns about the Hub City Wind Project by November 1st. The resolution passed, though not unanimously, signaling the board's intent to assess Alliant's willingness to negotiate without formally committing to a joint developer agreement. The meeting also included announcements about the county's upcoming budget process and a public strategic plan survey.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Pledge of Allegiance and moment of reflection"
-      },
-      {
-        "time": "1:10",
-        "item": "Reading of the meeting notice"
-      },
-      {
-        "time": "2:05",
-        "item": "Roll call and quorum confirmation"
-      },
-      {
-        "time": "3:20",
-        "item": "Public comment (Item 7)"
-      },
-      {
-        "time": "3:45",
-        "item": "Item 8B: Executive Committee resolution 55-26 — County Board engagement with Alliant Energy relative to the Hub City Wind Project"
-      },
-      {
-        "time": "5:00",
-        "item": "Staff presentation: pros and cons of JDA, intervention, moratorium, and PSC appeal options"
-      },
-      {
-        "time": "20:00",
-        "item": "Supervisor discussion and debate on Resolution 55-26"
-      },
-      {
-        "time": "55:00",
-        "item": "Vote on Resolution 55-26"
-      },
-      {
-        "time": "57:00",
-        "item": "Announcements: expense reporting update, strategic plan public survey, budget process timeline"
-      },
-      {
-        "time": "1:02:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Staff presentation: Options for county engagement with Alliant Energy",
-        "body": "County Administrator Lori McSkimmons presented a table of four options for the board: (1) negotiating a Joint Developer Agreement (JDA), estimated cost up to $20,000; (2) intervening in the PSC permitting process, estimated $75,000–$200,000+; (3) adopting a moratorium, cost unknown and noted as likely unenforceable on a 100-megawatt project; and (4) appealing the PSC's decision after issuance, estimated $20,000–$50,000. She noted PSC staff confirmed no intervention has ever stopped a project and that Columbia County's similar moratorium effort was sent back to committee. She emphasized options are not mutually exclusive and that the county could not file for intervention until after Alliant submits its formal PSC application, which could come as early as mid-December 2026."
-      },
-      {
-        "item": "Resolution 55-26 — Hub City Wind Project engagement with Alliant Energy",
-        "body": "Supervisor Robinson, who authored the resolution and chaired the alternative energy advisory committee, explained it does not commit the county to a JDA but rather asks Alliant Energy to submit a draft proposal addressing community concerns by November 1st, after which the board would evaluate next steps. Supervisor Dickinson expressed strong opposition, stating he would not vote for anything that moved toward a JDA and questioned whether Alliant would engage in good faith. Supervisor Leur raised concerns that the resolution puts the county in a reactive position and called for an energy summit to address broader regional energy policy. Supervisor Ritter, Supervisor Nath, Supervisor Rosenberg, and Supervisor Robinson defended the resolution as a proactive first step to gauge Alliant's willingness to address constituents' concerns on issues including decommissioning, setbacks, emergency response, property values, and health impacts. The resolution passed but was noted by Chair Gibbs as not unanimous."
-      },
-      {
-        "item": "Announcements: Budget process and strategic plan survey",
-        "body": "Supervisor Robinson announced that the county administrator's proposed budget was accepted by the Human Resources Finance Property Committee and is now the county board's budget. Key dates include: amendment submissions by October 9th, committee authorization for publication on October 12th, a public hearing on November 2nd at 3:00 p.m., and full board budget adoption on November 10th. Chair Gibbs noted the public hearing was moved to 3:00 p.m. on November 2nd to avoid conflicts with Election Day on November 3rd. McSkimmons announced that a public survey on the county's strategic plan — narrowing 20 objectives down to 10 priorities — would open October 2nd and run through October 23rd."
-      }
-    ],
-    "publicComment": "No public comment was offered. Chair Gibbs noted no one had signed up for public comment.",
-    "actionItems": [
-      "Resolution 55-26 approved: staff to transmit the board's request to Alliant Energy for a draft proposal addressing community concerns by November 1, 2026",
-      "Upon receipt of Alliant Energy's proposal, staff to schedule a properly noticed county board meeting to review it and simultaneously transmit the proposal to governing bodies of affected towns",
-      "Chair Gibbs to work with CCIT to send supervisors guidance on updated expense/mileage reporting link in Workday for Q3",
-      "Public strategic plan survey to open October 2nd and run through October 23rd; supervisors encouraged to share with constituents",
-      "Supervisors directed to submit any budget amendments by October 9th; public hearing scheduled November 2nd at 3:00 p.m.; budget adoption set for November 10th"
-    ],
-    "topics": [
-      "Wind Energy",
-      "Joint Developer Agreement",
-      "Hub City Wind Project",
-      "Budget",
-      "PSC Intervention"
-    ],
-    "votes": [
-      {
-        "item": "Resolution 55-26 — directing Alliant Energy to submit a draft proposal addressing community concerns about the Hub City Wind Project by November 1, 2026",
-        "motion": "Motion to approve Resolution 55-26",
-        "mover": "Supervisor Robinson",
-        "second": "Supervisor Morash",
-        "outcome": "Approved",
-        "tally": "Not stated; noted as not unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Supervisor Rosenberg",
-        "second": "Supervisor Sefeld",
-        "outcome": "Approved",
-        "tally": "Voice vote, unanimous"
       }
     ]
   }
