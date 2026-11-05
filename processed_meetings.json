@@ -2958,10 +2958,54 @@
       "doc_url": null,
       "upload_date": "20261103",
       "meeting_date": "20261103",
-      "duration": null,
+      "duration": 6048,
       "video_url": null,
       "processed_at": "2026-11-04T19:45:22.583086+00:00",
       "summary_file": "summaries/marathon-marathon-county-board-environmental-resources-committee-lwyezodlqq.md"
+    },
+    "1MuGCAijiwY": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": 778,
+      "video_url": null,
+      "processed_at": "2026-11-05T00:55:50.777497+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1mugcaijiwy.md"
+    },
+    "1XBXalxLhkw": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": 51,
+      "video_url": null,
+      "processed_at": "2026-11-05T00:56:01.065789+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1xbxalxlhkw.md"
+    },
+    "QfKwZ4nvAjc": {
+      "title": "Wausau Waterworks Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": 679,
+      "video_url": null,
+      "processed_at": "2026-11-05T00:56:36.394548+00:00",
+      "summary_file": "summaries/wausau-wausau-waterworks-works-meeting-qfkwz4nvajc.md"
+    },
+    "x5ndfhfruMg": {
+      "title": "Marathon County Health & Human Services Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": 617,
+      "video_url": null,
+      "processed_at": "2026-11-05T00:57:08.699081+00:00",
+      "summary_file": "summaries/marathon-marathon-county-health-human-services-committee-meeting-x5ndfhfrumg.md"
     }
   }
 }
