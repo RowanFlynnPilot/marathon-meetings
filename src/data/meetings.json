@@ -1,5 +1,128 @@
 [
   {
+    "id": "sMlUgUewkq4",
+    "source": "wausau",
+    "title": "Economic Development Meeting",
+    "date": "November 4, 2026",
+    "shortDate": "NOV 4",
+    "committee": "Economic Development",
+    "duration": "1h 12m",
+    "url": "https://www.youtube.com/watch?v=sMlUgUewkq4",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Economic Development Committee met on November 4th and took action on three substantive items: authorizing staff to prepare a TID 8 project plan amendment for infrastructure projects, approving the $1 purchase of a tax-delinquent property at 108 Myron Street for future affordable housing, and debating a deed restriction and resolution for city-owned property at 1300 Cleveland Avenue. The Cleveland Avenue item resulted in a procedural deadlock, with a 2-2 tie on the amended resolution, sending the matter to the full city council on November 24th with section 4 removed from the deed restriction.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and public comment period"
+      },
+      {
+        "time": "1:30",
+        "item": "Approval of minutes from October 6th, 2026 meeting"
+      },
+      {
+        "time": "2:45",
+        "item": "3A: TID 8 project plan amendment - authorization of staff to prepare amendment"
+      },
+      {
+        "time": "8:10",
+        "item": "3B: Purchase of county-owned property at 108 Myron Street"
+      },
+      {
+        "time": "20:00",
+        "item": "3C: Deed restriction and resolution for city-owned property at 1300 Cleveland Avenue"
+      },
+      {
+        "time": "1:12:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of October 6th Meeting Minutes",
+        "body": "A motion to approve was made by Alder Neil and seconded by Alder Killian (noted in transcript as 'Kellian'). No discussion occurred and the minutes were approved by voice vote."
+      },
+      {
+        "item": "TID 8 Project Plan Amendment",
+        "body": "Director Fifick explained the amendment would authorize staff to engage a consultant to draft a project plan amendment for Tax Increment District 8, adding infrastructure project costs including lead service line replacement, asphalt overlay, 17th Avenue reconstruction, water and sewer upgrades, and traffic signal replacement. Alder Killian expressed she was not prepared to vote without knowing whether lead line replacement funding covered private or entire replacement, but the motion carried 3-1. Staff noted the item had already been approved 5-0 at the Finance Committee and was placed on the November city council agenda."
+      },
+      {
+        "item": "Purchase of County-Owned Property at 108 Myron Street",
+        "body": "Staff member Tammy presented details on the tax-delinquent property, which has been vacant for years due to a broken pipe causing black mold, rendering it too dangerous to enter. The county approved the city's $1 offer unanimously on October 20th, with full county board consideration set for November 10th. Funding for purchase and demolition would come from Community Development Block Grant funds, not tax levy, with DPW performing the demolition. The end goal is disposition for affordable housing for income-qualifying households. Alder Killian expressed safety concerns about demolition given the black mold but said she would support the motion. Alder Lukans noted for viewers that CDBG/HUD funds, not taxpayer levy money, would be used. The motion carried unanimously by voice vote."
+      },
+      {
+        "item": "Deed Restriction and Resolution for 1300 Cleveland Avenue",
+        "body": "Director Fifick and the committee debated a draft deed restriction prohibiting industrial uses on the city-owned property at 1300 Cleveland Avenue, while preserving existing non-conforming uses including Marathon County/Wausau Parks log and wood chip storage and DPW training approved by a 2024 resolution. Alder Tierney's written comments, read into the record by Director Fifick, argued that non-conforming uses should end and the property cleaned up as promised to neighbors. Parks representative Jamie testified that relocating log storage requires council direction on an alternative site of approximately one acre, noting the ongoing Emerald Ash Borer program creates continuous need. Mayor Diny reported that fire training had already been relocated, and miscellaneous DPW equipment and a trailer had been cleaned up. Alder Killian moved an amendment to remove section 4A from the deed restriction, discontinue DPW training by February 1st, and give Parks 6 months to relocate; that amendment failed 2-2. Chair Heniki then moved a narrower amendment to remove only section 4 from the deed restriction, which passed 3-1. The main motion on the resolution as amended then failed 2-2, sending the matter to the November 24th city council meeting with section 4 removed from the deed restriction and a redrafted resolution to be prepared by staff."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Staff authorized to engage consultant to prepare TID 8 project plan amendment covering lead service line replacement, asphalt overlay, 17th Avenue reconstruction, water and sewer upgrades, and traffic signal replacement, to return for public process and council approval",
+      "City to proceed with $1 purchase of 108 Myron Street from Marathon County pending county full board approval on November 10th, with CDBG funds used for purchase and demolition, and property targeted for affordable housing disposition",
+      "Deed restriction for 1300 Cleveland Avenue (with section 4 removed) and a redrafted resolution to be forwarded to city council for consideration at the November 24th meeting",
+      "Director Fifick to forward Jamie's aerial photos and acreage calculations for the Cleveland Avenue log storage site to the committee",
+      "Staff, mayor, and department heads directed to investigate alternative storage and training sites for parks and DPW uses currently at 1300 Cleveland Avenue"
+    ],
+    "topics": [
+      "Development",
+      "Tax Increment Financing",
+      "Affordable Housing",
+      "Public Works",
+      "1300 Cleveland Avenue"
+    ],
+    "votes": [
+      {
+        "item": "Approval of October 6th meeting minutes",
+        "motion": "Motion to approve",
+        "mover": "Alder Neil",
+        "second": "Alder Killian",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Authorize staff to prepare TID 8 project plan amendment",
+        "motion": "Motion to authorize staff to prepare a project plan amendment for Tax Increment District 8 adding infrastructure project costs described in the staff memo",
+        "mover": "Alder Lukans",
+        "second": "Alder Neil",
+        "outcome": "Approved",
+        "tally": "3-1"
+      },
+      {
+        "item": "Purchase of 108 Myron Street for $1 and subsequent demolition",
+        "motion": "Motion to approve the purchase of the building and subsequent razing of the structure",
+        "mover": "Alder Neil",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Amendment to deed restriction/resolution for 1300 Cleveland Avenue: remove section 4A, discontinue DPW training by February 1st, give Parks 6 months to relocate",
+        "motion": "Motion to remove language under 4A of the deed restriction, define protected non-conforming uses in resolution, discontinue training by February 1st, and give Parks 6 months to relocate",
+        "mover": "Alder Killian",
+        "second": "Chair Heniki",
+        "outcome": "Failed",
+        "tally": "2-2"
+      },
+      {
+        "item": "Amendment to remove section 4 from the deed restriction for 1300 Cleveland Avenue",
+        "motion": "Motion to amend to remove section 4 from the deed restriction",
+        "mover": "Chair Heniki",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": "3-1"
+      },
+      {
+        "item": "Main motion: deed restriction resolution for 1300 Cleveland Avenue as amended (section 4 removed)",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Failed",
+        "tally": "2-2"
+      }
+    ]
+  },
+  {
     "id": "x5ndfhfruMg",
     "source": "marathon",
     "title": "Health & Human Services Committee Meeting",
@@ -6304,140 +6427,5 @@
       "Transit Fleet Replacement"
     ],
     "votes": []
-  },
-  {
-    "id": "QtAfpJ2JSl0",
-    "source": "wausau",
-    "title": "City Council Economic Development Committee Meeting",
-    "date": "October 6, 2026",
-    "shortDate": "OCT 6",
-    "committee": "Economic Development",
-    "duration": "50m",
-    "url": "https://www.youtube.com/watch?v=QtAfpJ2JSl0",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau City Council Economic Development Committee met on October 6th and took action on several items including directing staff to draft a deed restriction for 1300 Cleveland Avenue to prevent industrial use, approving a planning and due diligence agreement for the UWSP at Wausau campus, and approving a Habitat for Humanity development proposal at 424 Burns Street. The meeting concluded with the committee voting to adjourn into closed session to negotiate a potential city purchase of 108 Myron Street.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:30",
-        "item": "Public Comment on Agenda Items"
-      },
-      {
-        "time": "1:15",
-        "item": "Approval of Minutes"
-      },
-      {
-        "time": "3:20",
-        "item": "Consideration of November Meeting Reschedule Due to Election Day Conflict"
-      },
-      {
-        "time": "6:45",
-        "item": "4A: 1300 Cleveland Avenue - EPA Technical Assistance Grant Update and Deed Restriction Motion"
-      },
-      {
-        "time": "40:10",
-        "item": "4B: UWSP at Wausau Campus - Planning and Due Diligence Agreement"
-      },
-      {
-        "time": "52:30",
-        "item": "4C: 424 Burns Street - Habitat for Humanity Development Proposal and Sale of City-Owned Property"
-      },
-      {
-        "time": "57:00",
-        "item": "108 Myron Street - Motion to Enter Closed Session for Property Purchase Negotiations"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes",
-        "body": "Alder Tierney moved and Alder Kilian seconded approval of the minutes. Alder Kilian raised a correction, noting that the minutes referred to her with male pronouns and requested the error be fixed. The chair acknowledged the error under item C and confirmed it would be corrected. Minutes were approved as corrected."
-      },
-      {
-        "item": "November Meeting Reschedule",
-        "body": "Staff recommended moving the November 3rd meeting (Election Day) to Wednesday, November 4th, as Monday and Thursday were booked with other committees. The chair noted it would not work for Alder Tierney and that absent member Alder Lucans needed to be consulted. No formal motion was taken; staff was directed to confirm availability with Alder Lucans before finalizing the date."
-      },
-      {
-        "item": "4A: 1300 Cleveland Avenue - EPA Technical Assistance and Deed Restriction",
-        "body": "Staff reported the city has been confirmed eligible for EPA technical assistance, which would provide a consultant to conduct a financial feasibility analysis of reuse options identified through public engagement. Alder Kilian expressed concern that an email sent to the EPA by city staff characterized the public-identified reuse options as 'too narrow,' saying the committee and residents had never been told that. Kilian also raised that the property continues to be used for industrial purposes—including storage of trailers, old lampposts, and vehicles by DPW and the fire department—which she said undermined resident trust. City Attorney Jacobson confirmed it is legally permissible to place a deed restriction on city-owned property but noted the zoning has already been changed to residential and that any future council could remove a deed restriction. The committee debated how specific the restriction should be, with Alder Neil cautioning against language so narrow it might deter beneficial development. The committee ultimately directed staff and the city attorney, with input from Alder Kilian, to draft a deed restriction prohibiting industrial use consistent with public input meeting outcomes, to be brought back for formal approval at the next meeting. Staff also noted a 2024 council resolution allows limited DPW training use of the site, which may need to be revisited."
-      },
-      {
-        "item": "4B: UWSP at Wausau Campus - Planning and Due Diligence Agreement",
-        "body": "Director Fick explained the planning and due diligence agreement would give the city exclusive access to the county-owned UWSP campus property for six months to conduct architectural, engineering, and environmental review, contingent on a budget modification for the fire and police departments also passing at the next council meeting. Alder Neil noted a prior council vote on feasibility funding had failed but that the item was reintroduced after the required 30-day waiting period and would come before council the following Tuesday. The chair asked about Wausau School District interest in joint use; staff confirmed Chief Barnes has been meeting with the school district and they have expressed interest in partnering to share space and defray costs. Alder Killian moved to approve and the motion carried."
-      },
-      {
-        "item": "4C: 424 Burns Street - Habitat for Humanity Proposal",
-        "body": "Staff presented a Habitat for Humanity offer to purchase city-owned property at 424 Burns Street for approximately $12,000, with the plan to subdivide the parcel, sell a portion to an adjoining property owner, and build a Habitat home on the remainder. Alder Neil noted a strong track record with Habitat as a development partner and saw no need for closed session. He moved to approve the application, which was seconded by Alder Tierney and passed unanimously."
-      },
-      {
-        "item": "108 Myron Street - Closed Session for Purchase Negotiations",
-        "body": "Staff recommended entering closed session to discuss the potential city purchase of 108 Myron Street, citing that open discussion would compromise the city's negotiating position. Alder Neil made a formal motion citing Wisconsin Statute 19.85(1)(e) for deliberating on the purchase of public property for competitive or bargaining reasons. The motion passed on a voice roll call vote and the committee adjourned to closed session."
-      }
-    ],
-    "publicComment": "No public comment was offered. The chair asked three times and received no response.",
-    "actionItems": [
-      "Staff and city attorney to draft a deed restriction for 1300 Cleveland Avenue prohibiting industrial use, with input from Alder Kilian, to be brought back for committee approval at the next meeting",
-      "Staff to research any prior council resolutions regarding 1300 Cleveland Avenue and compile a summary of public input meeting outcomes",
-      "Administration to address and halt unauthorized industrial-style uses of 1300 Cleveland Avenue (storage of trailers, old lampposts, vehicles, etc.) beyond what the 2024 council resolution permits",
-      "Staff to confirm Alder Lucans' availability for a November 4th committee meeting date",
-      "Staff to bring formal details of the EPA technical assistance program for 1300 Cleveland Avenue to the next committee meeting for consideration",
-      "Planning and due diligence agreement for UWSP at Wausau campus forwarded to full council along with the budget modification request",
-      "Habitat for Humanity proposal for 424 Burns Street approved and to proceed",
-      "Committee adjourned to closed session to negotiate potential purchase of 108 Myron Street"
-    ],
-    "topics": [
-      "Development",
-      "Brownfields Remediation",
-      "1300 Cleveland Avenue",
-      "UWSP Wausau Campus",
-      "Habitat for Humanity",
-      "Zoning"
-    ],
-    "votes": [
-      {
-        "item": "Approval of meeting minutes with pronoun correction",
-        "motion": "Approve minutes as corrected",
-        "mover": "Alder Tierney",
-        "second": "Alder Kilian",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Direct staff and city attorney to draft a deed restriction for 1300 Cleveland Avenue prohibiting industrial use",
-        "motion": "Motion to draft a deed restriction reflecting non-industrial use of 1300 Cleveland Avenue consistent with public input, to be brought back for committee approval",
-        "mover": "Alder Kilian",
-        "second": "Alder Tierney",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Planning and Due Diligence Agreement for UWSP at Wausau campus",
-        "motion": "Motion to approve as recommended by staff",
-        "mover": "Alder Killian",
-        "second": "Alder Tierney",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Habitat for Humanity proposal and sale of 424 Burns Street",
-        "motion": "Motion to approve application",
-        "mover": "Alder Neil",
-        "second": "Alder Tierney",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Motion to enter closed session to negotiate purchase of 108 Myron Street",
-        "motion": "Motion to go to closed session pursuant to Wisconsin Statute 19.85(1)(e) for deliberating or negotiating the purchasing of public property for the purpose of negotiating the purchase of 108 Myron Street",
-        "mover": "Alder Neil",
-        "second": "Alder Tierney",
-        "outcome": "Approved",
-        "tally": "4-0"
-      }
-    ]
   }
 ]
