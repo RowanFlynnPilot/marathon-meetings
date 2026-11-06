@@ -23,6 +23,10 @@ on:
         description: 'Comma-separated video IDs to force reprocess'
         required: false
         default: ''
+      resummarize:
+        description: 'Comma-separated video IDs whose transcript summaries to redo (python audit_votes.py lists them)'
+        required: false
+        default: ''
       inject_transcript:
         description: 'Video ID to inject transcript for (file must be in transcripts/VIDEO_ID.txt)'
         required: false
@@ -154,6 +158,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESUMMARIZE_IDS: ${{ github.event.inputs.resummarize }}
         run: |
           if [ ! -d transcripts ] || [ -z "$(ls transcripts/*.txt 2>/dev/null)" ]; then
             echo "No transcript files found — skipping."
