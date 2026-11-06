@@ -1,5 +1,290 @@
 [
   {
+    "id": "Y4xzT50_kRY",
+    "source": "marathon",
+    "title": "Infrastructure Committee Meeting",
+    "date": "November 5, 2026",
+    "shortDate": "NOV 5",
+    "committee": "Infrastructure",
+    "duration": "1h 14m",
+    "url": "https://www.youtube.com/watch?v=Y4xzT50_kRY",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Infrastructure Committee met on November 5th, 2026 and took several significant actions, most notably approving an ordinance to allow ATV/UTV access on State Highway 34 and separately voting to request the state DOT approve flashing warning signs for that segment. The committee also received updates on the 2027 budget, the routine state highway maintenance agreement, the Wausau MPO long-range transportation plan, and IT department projects, though no votes were taken on those informational items.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Public Comment"
+      },
+      {
+        "time": "1:40",
+        "item": "Item 4: Approval of October 1, 2026 Infrastructure Committee Meeting Minutes"
+      },
+      {
+        "time": "2:30",
+        "item": "Item 5A1: Overview of 2027 Annual Budget Highlights"
+      },
+      {
+        "time": "6:20",
+        "item": "Item 5B1: Consideration of Support for ATV/UTV Access on State Highway 34"
+      },
+      {
+        "time": "55:00",
+        "item": "Item 6A: Safe Routes to School Program Overview and Cronin Area Request"
+      },
+      {
+        "time": "1:04:00",
+        "item": "Item 6B: Routine Maintenance Agreement Update"
+      },
+      {
+        "time": "1:38:00",
+        "item": "Item 6C: November Highway Department Report"
+      },
+      {
+        "time": "1:39:00",
+        "item": "Item 6D: Draft Metropolitan Planning Organization Long Range Transportation Plan Update"
+      },
+      {
+        "time": "1:47:00",
+        "item": "Item 6E: CCIT Projects Update"
+      },
+      {
+        "time": "2:04:00",
+        "item": "Item 7: Next Meeting, Announcements, and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of October 1, 2026 Minutes",
+        "body": "The minutes were approved without discussion. A motion was made by Watson and seconded by Coyle. The motion carried on a voice vote."
+      },
+      {
+        "item": "2027 Annual Budget Overview",
+        "body": "County Administrator Leonard and HR/Finance/Property Committee Chair Robinson presented a brief overview, noting the deadline for proposed budget amendments was 8:00 a.m. the following morning for Finance Committee review before county board adoption. Robinson highlighted that one driver of budget growth is funding for the highway facility. No amendments were proposed and no votes were taken."
+      },
+      {
+        "item": "ATV/UTV Access on State Highway 34",
+        "body": "Supervisor Gal raised safety concerns about ATV/UTV traffic mixing with high-volume truck traffic on State Highway 34, citing approximately 6,000 vehicles per day compared to the county's 1,500-vehicle threshold for county trunk highways, and noting that ATVs traveling at 35 mph would share the road with trucks doing 60 mph. Jeff Gates, a member of the public, stated that hundreds of riders would use the route and that the current detour adds roughly 25 minutes of travel time. DOT representative Mike Crutchmer confirmed the DOT reviewed the draft ordinance but noted he deferred to access engineer Rich Hendrick on specifics. Vice Chair Gal moved to approve the ordinance with a condition requiring flashing warning lights; Supervisor Dickinson argued the signage question was separate and moved to divide the question into two parts. After procedural discussion involving corporation counsel, the motion was split: the original ordinance was approved unanimously on a voice vote, and a separate motion requesting the state DOT approve flashing warning signage for the ATV route on State Highway 34 passed 5-2."
+      },
+      {
+        "item": "Safe Routes to School Program and Cronin Area Request",
+        "body": "Commissioner Lang explained that Marathon County's historical practice is to co-sign Safe Routes to School applications rather than serve as the primary sponsor, as the primary benefit is local. He noted the next application window is fall 2027, and that North Central Regional Planning assists communities with applications. No action was taken."
+      },
+      {
+        "item": "Routine Maintenance Agreement Update",
+        "body": "Commissioner Lang and DOT Operations Manager Mike Crutchmer reviewed the annual routine maintenance agreement under which Marathon County maintains state roads. Discussion focused on cost reimbursement concerns, particularly the dramatic increase in plow blade costs — from roughly $300 to $750 for a 3-foot blade — and the inadequacy of the 5-year rolling average reimbursement rate to keep pace. Supervisors Gal and Sybert asked for data on the county's overall financial partnership with the state. No vote was taken; staff was directed to gather reimbursement and cost-sharing figures."
+      },
+      {
+        "item": "MPO Long Range Transportation Plan Update",
+        "body": "Staff member Lori presented the update, noting four roadway segments identified as Level of Service D: State Highway 153/Main Street between 4th and Old Highway 51, Bridge Street over the Wisconsin River, West Thomas Street between South 3rd and Cleveland Avenue, and Grand Avenue between Townline Road and Thomas Street. The draft plan will be released for public review later in November through December. No vote was taken."
+      },
+      {
+        "item": "CCIT Projects Update",
+        "body": "CCIT Director Greg Klein highlighted open enrollment IT support for the city and county, an upgrade to NetMotion VPN software across 128 squad cars to meet new criminal justice encryption requirements, and ongoing transition of network support for the UWSP campus on River Drive ahead of a January 1st handoff. A question arose about the status of the former Marathon County Credit Union building on Thomas Street, with the administrator confirming the occupant has not yet vacated. No vote was taken."
+      }
+    ],
+    "publicComment": "No public comment was offered. The chair asked if anyone wished to speak and seeing none, moved on.",
+    "actionItems": [
+      "Marathon County ordinance allowing ATV/UTV access on State Highway 34 approved and forwarded to county board for adoption",
+      "Staff directed to consult with Wisconsin DOT regarding approval of flashing warning signage for the ATV/UTV route on State Highway 34 and report back to committee",
+      "Any proposed 2027 budget amendments to be submitted by 8:00 a.m. the following morning to Administrator Leonard, Finance Director Fensky, or corporation counsel",
+      "Commissioner Lang to provide data on county cost-sharing and reimbursement rates with the state under the routine maintenance agreement",
+      "Draft MPO long range transportation plan to be distributed to Infrastructure Committee members for review and comment in late November through December",
+      "Next Infrastructure Committee meeting set for Thursday, December 3, 2026 at 9:00 a.m."
+    ],
+    "topics": [
+      "Roads",
+      "ATV UTV Access",
+      "Budget",
+      "Routine Maintenance Agreement",
+      "Transportation Planning"
+    ],
+    "votes": [
+      {
+        "item": "Approval of October 1, 2026 Infrastructure Committee meeting minutes",
+        "motion": null,
+        "mover": "Watson",
+        "second": "Coyle",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Division of ATV/UTV motion into two separate questions: (1) ordinance approval and (2) flashing signage request",
+        "motion": "Motion to divide the question into the original ordinance and a separate request to DOT regarding flashing signs",
+        "mover": "Supervisor Dickinson",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Ordinance allowing ATV/UTV access on State Highway 34",
+        "motion": "Motion to approve the ordinance as presented",
+        "mover": "Supervisor Sybert",
+        "second": "Supervisor Dickinson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Request to DOT to approve flashing warning signage for ATV/UTV route on State Highway 34",
+        "motion": "Motion that Marathon County formally request the state approve flashing warning signage for the ATV/UTV section on State Highway 34",
+        "mover": "Vice Chair Gal",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "5-2"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Supervisor Sybert",
+        "second": "Supervisor Dickinson",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "IF_YvRGk-64",
+    "source": "marathon",
+    "title": "Joint Ext, Edu, Econ. Dev. and HR, Fin, Property Committee Meeting",
+    "date": "November 5, 2026",
+    "shortDate": "NOV 5",
+    "committee": "Marathon County Joint Extension, Education, Economic Development and Human Resources, Finance, and Property Committee",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=IF_YvRGk-64",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Joint Extension, Education, Economic Development and Human Resources, Finance, and Property Committees met to consider a one-year operating lease for the former UWSP campus theater building with the Marathon Center for Arts and Culture (MCAC), and to review two new proposals for the River Drive properties. The committees approved the MCAC lease with a modification requiring the tenant to cover approximately $7,428 in annual building insurance costs, then voted to enter closed session to discuss negotiation strategy on the River Drive RFP responses.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Public comment"
+      },
+      {
+        "time": "7:45",
+        "item": "Approval of September 9, 2026 joint HRFC and Triple-ED meeting minutes"
+      },
+      {
+        "time": "9:30",
+        "item": "Update on continued efforts to redevelop and transfer the UWSP campus property"
+      },
+      {
+        "time": "12:00",
+        "item": "One-year operating lease with Marathon Center for Arts and Culture (MCAC) for theater building"
+      },
+      {
+        "time": "28:00",
+        "item": "Consideration of RFP proposals received for River Drive parcels"
+      },
+      {
+        "time": "30:00",
+        "item": "Presentation by Justin and Elena Oswald – Raise and Roast Cafe proposal for 210 River Drive"
+      },
+      {
+        "time": "38:00",
+        "item": "Presentation by Tamara Sillers, VFW Post 388 – Veterans and Community Campus proposal for 210, 212, and 326 River Drive"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Motion and vote to enter closed session regarding River Drive RFP negotiation strategy"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "Two speakers offered public comment. Jim Davo, Village Administrator of Kronenwetter, thanked county staff in the clerk's office, highway shop, and sheriff's department for their professionalism and cooperative work with the village. Gail Marshall, speaking by phone, urged the committees to reject the current RFP proposals for the River Drive properties, arguing the process had failed to produce meaningful results and recommending the county instead hire a commercial real estate broker — estimating a 3% commission would still yield 97% of sale proceeds to taxpayers. She also asked what the county currently insures the River Drive properties for."
+      },
+      {
+        "item": "Approval of September 9, 2026 Joint Meeting Minutes",
+        "body": "Minutes were approved by both committees in separate motions. For the Extension, Education, and Economic Development (Triple-ED) committee, Supervisor Hagen moved and the motion was seconded; it passed. For the HR, Finance, and Property (HRFC) committee, Vice Chair Pool moved and Supervisor Watson seconded; it passed."
+      },
+      {
+        "item": "UWSP Campus Redevelopment Update and MCAC One-Year Lease",
+        "body": "Administrator Chris Holman reported that a city feasibility study agreement is in place, building systems are being inventoried and winterized, and staff are working with the UW exit committee. The proposed one-year operating lease with the Marathon Center for Arts and Culture (MCAC) was presented to bridge the gap while MCAC finalizes its 501c3 property tax exemption with the state. Tim Parker, CEO of the Community Foundation of North Central Wisconsin and MCAC fiscal agent, told committees that 95% of office spaces are leased and theater bookings are at 60% through June, with January and February already full. Kurt Gibbs raised the issue of insurance costs, noting the building is insured for approximately $13 million and the annual premium is roughly $7,428; he argued that cost should be borne by the tenant. Vice Chair Pool moved to approve the lease with a modification directing staff to negotiate inclusion of the $7,428 insurance cost spread over monthly payments; the motion was seconded and passed."
+      },
+      {
+        "item": "River Drive RFP Proposals – Raise and Roast Cafe (Oswald)",
+        "body": "Justin and Elena Oswald presented their proposal to purchase 210 River Drive for $1 to develop 'Raise and Roast Cafe,' envisioning an affordable community cafe on the ground floor and a fundraising event venue on the second floor, with free recreational activities and partnerships with downtown institutions. Holman noted the proposal has strong alignment with criteria for activating unused property, community benefit, and local ownership, with moderate alignment on job creation and tax base reactivation. No formal vote or counter-offer was made in open session."
+      },
+      {
+        "item": "River Drive RFP Proposals – VFW Post 388 Veterans and Community Campus",
+        "body": "Tamara Sillers, VFW Post 388 events coordinator, presented the VFW's proposal to acquire all three River Drive buildings (210, 212, and 326) to create a veterans and community campus, with 210 as an event venue, 212 as a community lounge with mental health counseling space and bingo, and 326 as garage and storage. She noted the VFW vacated River Drive around 2017 and the move was a mistake for community connectivity. Supervisors questioned how the new model differs from the bar-and-restaurant model that led to the prior departure, the organization's current revenue sources, and its nonprofit status (501c19). Holman disclosed the appraised market value of the River Drive parcel at $2,268,000 (land $87,000, improvements $1,261,000 as of November 2025) and insurance values: 210 at $2,635,700, 212 at $3,734,400, and 326 at $1,271,100. The presiding chair expressed disappointment at dollar-sale proposals given significant county investment, stating an obligation to taxpayers to maximize return."
+      },
+      {
+        "item": "Motion to Enter Closed Session on River Drive RFP",
+        "body": "Corp Counsel explained that closed session was appropriate to discuss negotiation strategy and potential counter-proposals without revealing the county's position to the proposing parties. Both committees voted separately by roll call to enter closed session pursuant to Wisconsin Statute 19.85(1)(e) for competitive or bargaining reasons, specifically consideration of RFP responses for River Drive property. Both roll call votes passed unanimously."
+      }
+    ],
+    "publicComment": "Two speakers offered public comment. Jim Davo, Village Administrator of Kronenwetter, thanked county clerk's office, highway shop team, and sheriff's department staff for their professionalism. Gail Marshall, speaking by phone after initial audio difficulties, urged committees to reject current RFP proposals for River Drive and instead hire a commercial real estate broker, arguing a 3% commission structure would still return 97% of proceeds to taxpayers; she also asked what the county currently insures the River Drive properties for.",
+    "actionItems": [
+      "Execute one-year operating lease with Marathon Center for Arts and Culture (MCAC) for the theater building, with administration directed to negotiate inclusion of approximately $7,428 annual building insurance cost spread over monthly payments",
+      "Staff to confirm exact 2027 insurance premium with the county's insurance carrier for inclusion in the MCAC lease",
+      "Consider adjusting MCAC lease term end date to December 31 rather than carrying into the following year",
+      "Plan to bring formal MCAC building acquisition/sale to full county board for approval prior to January 2028",
+      "Both committees to continue closed session discussion of negotiation strategy and potential counter-proposals for River Drive RFP responses",
+      "Committees encouraged to consider payment in lieu of taxes (PILOT) agreements for any nonprofit property transfers on River Drive"
+    ],
+    "topics": [
+      "Economic Development",
+      "Property Disposition",
+      "Veterans Services",
+      "Arts and Culture",
+      "River Drive Parcels",
+      "UWSP Campus Redevelopment"
+    ],
+    "votes": [
+      {
+        "item": "Approval of September 9, 2026 joint meeting minutes – Triple-ED committee",
+        "motion": "Motion to approve minutes",
+        "mover": "Supervisor Hagen",
+        "second": "Foot",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Approval of September 9, 2026 joint meeting minutes – HRFC committee",
+        "motion": "Motion to approve minutes",
+        "mover": "Vice Chair Pool",
+        "second": "Supervisor Watson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "One-year operating lease with Marathon Center for Arts and Culture, with modification to include insurance cost recovery",
+        "motion": "Motion to approve the lease with direction to administration to negotiate inclusion of the $7,428 building insurance carrying cost over the one-year term",
+        "mover": "Vice Chair Pool (Roger Pool)",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Enter closed session – HRFC committee – River Drive RFP negotiation strategy",
+        "motion": "Motion to go into closed session pursuant to Wisconsin Statute 19.85(1)(e) for competitive or bargaining reasons, specifically consideration of RFP responses for River Drive property",
+        "mover": "Supervisor Nice (Nisth)",
+        "second": "Kurt Gibbs",
+        "outcome": "Approved",
+        "tally": "Unanimous (Robinson, Pool, Gibbs, Hart, Nice, Watson all Aye)"
+      },
+      {
+        "item": "Enter closed session – Triple-ED committee – River Drive RFP negotiation strategy",
+        "motion": "Motion to go into closed session via roll call vote pursuant to Wisconsin Statute 19.85(1)(e) for competitive or bargaining reasons, specifically consideration of RFP responses for River Drive property",
+        "mover": "Supervisor Kremes",
+        "second": "Foot",
+        "outcome": "Approved",
+        "tally": "Unanimous (Morash, Cavelli, Foot, Hagen, KS, Leur, Sefeld all Aye)"
+      }
+    ]
+  },
+  {
     "id": "FbHVlv1qUyI",
     "source": "marathon",
     "title": "Joint Ext, Edu, Econ. Dev. and HR, Fin, Property Committee Meeting",
@@ -6303,158 +6588,6 @@
         "second": "Tierney",
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "qTcZ095oNCU",
-    "source": "marathon",
-    "title": "Human Resources, Finance & Property Committee Meeting",
-    "date": "October 7, 2026",
-    "shortDate": "OCT 7",
-    "committee": "HR, Finance & Property",
-    "duration": "1h 27m",
-    "url": "https://www.youtube.com/watch?v=qTcZ095oNCU",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "{\n  \"overview\": \"The Marathon County Human Resources, Finance & Property Committee held a wide-ranging meeting covering property transactions, budget updates, and several infrastructure decisions. Key actions included authorizing utility shutoff at Marathon Hall at UWMC in preparation for likely demolition, approving a parking lot lease with Olson Tire (AOK Property LLC), approving a WPS easement for a natural gas regulator station at Sunnyville Park, reclassifying approximately $388,750 in remaining ARPA funds back to the forensic science center project, and approving acquisition of roughly 14 acres adjacent to Cherokee Park. The committee also received an update on the proposed highway facility project, with bids coming in under planning assumptions and a full presentation planned for the county board on October 15.\",\n  \"committee\": \"Marathon County Human Resources, Finance & Property Committee\",\n  \"presiding\": \"Chair Robinson (acting chair, as Chair Gibbs was excused)\",\n  \"agenda\": [\n    {\"time\": \"0:00\", \"item\": \"Call to Order, Pledge of Allegiance, Roll Call, and Establish Quorum\"},\n    {\"time\": \"2:10\", \"item\": \"Public Comment\"},\n    {\"time\": \"2:25\", \"item\": \"Approval of September 29th Minutes\"},\n    {\"time\": \"3:30\", \"item\": \"Marathon County Strategic Plan Development Update and Public Survey Opportunity\"},\n    {\"time\": \"12:45\", \"item\": \"Consideration of Shutoff of Utilities at Marathon Hall at UWMC\"},\n    {\"time\": \"18:30\", \"item\": \"Overview of Dorm Fund Anticipated Uses in 2026 and 2027\"},\n    {\"time\": \"21:00\", \"item\": \"Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)\"},\n    {\"time\": \"26:10\", \"item\": \"Claim Disallowance\"},\n    {\"time\": \"29:00\", \"item\": \"2027 Budget Discussion\"},\n    {\"time\": \"44:00\", \"item\": \"Approval of September Claims and Question Costs\"},\n    {\"time\": \"46:00\", \"item\": \"Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park\"},\n    {\"time\": \"51:00\", \"item\": \"ARPA Funding Usage Update and Consideration of Budget Amendment Regarding Reallocation\"},\n    {\"time\": \"1:01:00\", \"item\": \"Creation of $150 Imprest Fund within Administration Department\"},\n    {\"time\": \"1:06:00\", \"item\": \"Update on Rib Mountain Law Enforcement Services Contract Review and Next Steps\"},\n    {\"time\": \"1:17:00\", \"item\": \"Tax Deed Property - Parcel in Town of Reed\"},\n    {\"time\": \"1:24:00\", \"item\": \"Tax Deed Property - Parcel in Village of Athens\"},\n    {\"time\": \"1:30:00\", \"item\": \"Acquire Land Adjacent to Cherokee Park\"},\n    {\"time\": \"1:55:00\", \"item\": \"Donation of Pontoon Boat from DC Everest\"},\n    {\"time\": \"2:02:00\", \"item\": \"Proposed Highway Facility Project Update\"},\n    {\"time\": \"2:18:00\", \"item\": \"Adjournment\"}\n  ],\n  \"discussions\": {\n    \"Strategic Plan Survey\": {\n      \"item\": \"Marathon County Strategic Plan Development Update and Public Survey Opportunity\",\n      \"body\": \"Vice Chair Boots (appearing remotely) updated the committee on an ongoing public survey effort, noting they hope to narrow 20 questions down to 10. Vice Chair Pool raised concerns about interest groups or nonprofits potentially skewing survey results and asked whether responses could be tracked by district. Boots and Chair Robinson noted the survey includes name and employment status fields, and that a radio button for retired residents was recently added. Robinson noted the strategic plan work would be revisited in December after the budget process concludes.\"\n    },\n    \"Marathon Hall Utilities\": {\n      \"item\": \"Shutoff of Utilities at Marathon Hall at UWMC\",\n      \"body\": \"Administrator Leonard presented a proposal to shut off utilities at Marathon Hall, a dormitory on the UWMC campus that has been vacant and is likely headed for demolition, at a cost of approximately $7,700 funded from dormitory funds. He noted dormitory funds could also cover asbestos testing and first-quarter utilities for other campus buildings. Supervisor Hart confirmed there has been no developer interest due to mold, asbestos, and construction limitations, and that the City of Wausau may be interested in housing on the site. The committee approved the utility shutoff unanimously.\"\n    },\n    \"Olson Tire Parking Lot Lease\": {\n      \"item\": \"Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)\",\n      \"body\": \"Deputy Administrator Homeman explained the county owns a parking lot behind the BP station near the courthouse, half of which is used by county departments including corrections. The proposed annual lease would have Olson Tire's corporate entity AOK Property LLC pay just under $1,100 per year for half the lot, and in exchange handle all winter maintenance of the entire lot, removing that burden from Parks, Recreation, and Forestry. The committee approved the lease unanimously, clarifying the motion incorporates the AOK Property LLC entity.\"\n    },\n    \"Claim Disallowance\": {\n      \"item\": \"Claim Disallowance\",\n      \"body\": \"Corporation Counsel Brian [inaudible] presented a recommendation from the county's insurance company to disallow a claim. He explained that sheriff's deputies had taken action to slow traffic during a pursuit and deployed stop sticks, and that the claimant did not follow deputy instructions, resulting in their vehicle hitting the stop sticks. The committee unanimously approved the disallowance.\"\n    },\n    \"2027 Budget Discussion\": {\n      \"item\": \"2027 Budget Discussion\",\n      \"body\": \"Administrator Leonard and Finance Director Sam addressed questions previously submitted by Chair Robinson. The total 2027 proposed budget is approximately $238.6 million, a substantial increase from 2026 driven primarily by the highway facility project — approximately $30 million in funds applied for the highway building plus equipment, and a $3.5 million transfer from capital improvements. Robinson raised questions about tracking university costs, contingency fund adequacy given federal uncertainty around SNAP and other programs, and nonprofit oversight. The $600,000 contingency fund no longer has earmarks for homelessness or the Central Wisconsin Airport minimum revenue guarantee as in prior years. No action was taken; the committee was reminded that budget amendments are due by Friday, with a brief publication authorization meeting set for Monday, October 12 at 8:30 a.m., a public hearing on November 2, and final committee review of amendments on November 9.\"\n    },\n    \"September Claims\": {\n      \"item\": \"Approval of September Claims and Question Costs\",\n      \"body\": \"Finance Director Sam presented the September claims and question costs with modifications requested by Robinson to improve transparency, including adding department budget information. The committee approved the claims unanimously with no discussion.\"\n    },\n    \"WPS Easement at Sunnyville Park\": {\n      \"item\": \"Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park\",\n      \"body\": \"Deputy Administrator Homeman reported that WPS met the county's previously stated price requirement for the easement at Sunnyville Park. Under the proposed terms, WPS would pay the county $1,000 upon approval as a non-refundable option fee, then proceed through other permitting; if all permits are approved, a finalized easement would generate an additional $1,000 payment. Robinson asked whether the committee could conditionally accept the offer and avoid a future return to committee if WPS complies with terms; Corporation Counsel confirmed this was possible. The committee approved unanimously.\"\n    },\n    \"ARPA Reallocation\": {\n      \"item\": \"ARPA Funding Usage and Reallocation Resolution\",\n      \"body\": \"Administrator Leonard and Finance Director Sam presented a resolution to reclassify approximately $388,750 in remaining ARPA funds — primarily from the 9-Mile Forest septic system and chalet renovation project — back to the forensic science center project, which would allow those funds to flow into the capital improvement program. Deputy Administrator Homeman noted all other ARPA projects are closed out and the 9-Mile project work is being finalized by end of October. Robinson requested the resolution be amended to reference a specific table of projects and dollar amounts to protect against potential federal clawbacks, and that a reference to 'budget amendment' be corrected to 'reclassification' to reflect that only a simple majority vote is needed. The committee approved the amended resolution unanimously.\"\n    },\n    \"Imprest Fund\": {\n      \"item\": \"Creation of $150 Imprest Fund within Administration Department\",\n      \"body\": \"Administrator Leonard explained the need for a small cash drawer in the county administration suite at the Lakeview location, primarily to support Michelle's centralized tax deed work and UW Extension finance functions where residents may need to make payments in person. Finance Director Sam addressed audit concerns, explaining controls including segregation of duties, weekly deposits, reconciliation requirements, and random cash audits reported to the administrator. The committee approved unanimously, with Robinson noting he was satisfied with the controls described.\"\n    },\n    \"Rib Mountain Law Enforcement Contract\": {\n      \"item\": \"Rib Mountain Law Enforcement Services Contract Update\",\n      \"body\": \"Administrator Leonard and Sheriff [inaudible] provided an update, noting they are close to a final agreement with the Village of Rib Mountain but a vote was not taken today. The most notable change from the prior draft is removal of a requirement for a mandatory fifth deputy assigned to Rib Mountain in 2028, replaced by a collaborative data analysis using a 90/10 split benchmark — meaning 90% of calls for service in the village should be handled by village-assigned deputies. The proposed 2027 contract total is $593,667.96. Supervisor Hart asked about whether Rib Mountain deputies responding outside the village would be weighted against the split; the sheriff noted this occurs rarely (about 15 times this year) and the data officer is working to capture it. A meeting with village officials is scheduled for the following week, and both the village board and county board must formally approve any final contract.\"\n    },\n    \"Town of Reed Parcel\": {\n      \"item\": \"Tax Deed Property Sale - Town of Reed\",\n      \"body\": \"Administrator Leonard presented a narrow sliver parcel in the Town of Reed that Marathon County has owned since 1935 and has no practical use except to an adjacent property owner. An appraisal from Phillips Valuation set the value at $1,500, and the adjacent owner submitted an offer to purchase at that amount. Because county code requires listing on Wisconsin Surplus or offering to the municipality rather than direct sale, the resolution was brought to the committee to authorize the exception. The committee approved the sale unanimously.\"\n    },\n    \"Village of Athens Parcel\": {\n      \"item\": \"Tax Deed Property Sale - Village of Athens\",\n      \"body\": \"Administrator Leonard presented a unique tax deed parcel in the Village of Athens acquired in July 2026. The county is owed over $937 in delinquent taxes; Phillips Valuation estimated fair market value at $875; the Village of Athens offered $200. Leonard acknowledged the county will not recoup the amount owed regardless of sale price, and recommended selling to the village as they are best positioned to address the parcel. Supervisor Hart, noting his affiliation with the village, suggested the parcel is part of a trail corridor. Corporation Counsel raised a procedural question about Chapter 75 statutes, which was clarified. The committee approved the $200 sale unanimously.\"\n    },\n    \"Cherokee Park Land Acquisition\": {\n      \"item\": \"Acquire Land Adjacent to Cherokee Park\",\n      \"body\": \"Parks Director Jamie Polly presented a proposal to purchase approximately 14 acres of wooded land directly west of Cherokee Park along the Big Eau Pleine River from a willing seller, appraised at $4,450 per acre (not to exceed 15 acres or $4,450/acre). The property would expand the park, add trail opportunities, and bring a river section fully within park boundaries. Both the Parks and Recreation Committee and Environmental Resources Committee recommended proceeding. The Parkland and Products account has sufficient funds. Vice Chair Pool raised the possibility of waiting to see if the Knowles-Nelson Stewardship Fund is reauthorized by the legislature, while Supervisor Hart opposed waiting given legislative uncertainty. After discussion, the committee approved a motion amended to include language that staff evaluate all funding sources including Knowles-Nelson if available at time of acquisition, with final purchase authorized pending survey and property division by the landowner.\"\n    },\n    \"Pontoon Boat Donation\": {\n      \"item\": \"Donation of Pontoon Boat from DC Everest\",\n      \"body\": \"Administrator Leonard presented a donation offer from DC Everest of an older but well-maintained pontoon boat for use in youth recreation, fishing, and similar activities. Director Polly noted that if maintenance costs exceeded the boat's value, the department would dispose of it rather than invest further. Both the Parks and Recreation Committee and Environmental Resources Committee recommended acceptance. The committee approved the donation unanimously.\"\n    },\n    \"Highway Facility Project Update\": {\n      \"item\": \"Proposed Highway Facility Project Update\",\n      \"body\": \"Deputy Administrator Homeman reported that bids for the highway facility project were received Monday, October 6, after a deadline extension to October 5 due to high interest. He stated bids 'came in under our planning assumptions,' though emphasized this was not below the original estimate. Staff are validating bids across multiple divisions and preparing a full presentation for a county board education meeting on October 15 with the architect, construction manager, and project lead present. A special committee meeting is scheduled for October 20 — the same day as a county board voting meeting — for this committee to consider approving the project and forwarding to the full board. Robinson suggested a possible joint meeting with the Infrastructure Committee on October 20. Finance Director Sam and Leonard credited the facilities and highway team for their work managing the complex bid process.\"\n    }\n  },\n  \"publicComment\": \"No public comment was offered. The chair noted that no one had approached the clerk or himself prior to the meeting.\",\n  \"actionItems\": [\n    \"Authorize shutoff of utilities at Marathon Hall at UWMC using dormitory funds (~$7,700); proceed with asbestos testing\",\n    \"Execute one-year parking lot lease with AOK Property LLC (Olson Tire) at just under $1,100/year plus winter maintenance\",\n    \"Disallow insurance claim related to stop sticks during law enforcement pursuit\",\n    \"Send budget amendment proposals to administrator by Friday; hold publication authorization meeting Monday October 12 at 8:30 a.m.\",\n    \"Approve WPS easement option for natural gas regulator station at Sunnyville Park ($1,000 option fee, $1,000 upon final easement)\",\n    \"Adopt ARPA reallocation resolution (reclassifying ~$388,750 to forensic science center project) with amended language including project table and corrected majority vote threshold\",\n    \"Establish $150 imprest cash fund in county administration department at Lakeview\",\n    \"Finalize Rib Mountain law enforcement services contract; bring final agreement to both village board and county board for approval\",\n    \"Sell Town of Reed tax deed sliver parcel to adjacent property owner for $1,500\",\n    \"Sell Village of Athens tax deed parcel to the village for $200\",\n    \"Proceed with acquisition of up to 15 acres adjacent to Cherokee Park at no more than $4,450/acre; landowner to fund survey; staff to evaluate Knowles-Nelson funding if available at time of purchase\",\n    \"Accept donation of DC Everest pontoon boat for Parks Department youth recreation use\",\n    \"Prepare highway facility project resolution and presentation for county board education meeting October 15; bring to committee October 20 for approval vote\",\n    \"Share strategic plan public survey with constituents, town chairs, and city councils to maximize responses\"\n  ],\n  \"topics\": [\"Budget\", \"Staffing\", \"Parks\", \"Economic Development\", \"Law Enforcement Contract\", \"Highway Facility Project\", \"ARPA Reallocation\", \"Property Sales\"],\n  \"votes\": [\n    {\n      \"item\": \"Approval of September 29th minutes\",\n      \"motion\": \"Approve minutes\",\n      \"mover\": \"Supervisor Hart\",\n      \"second\": \"Vice Chair Pool\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Shutoff of utilities at Marathon Hall at UWMC\",\n      \"motion\": \"Authorize shutoff of utilities at Marathon Hall\",\n      \"mover\": \"Supervisor Hart\",\n      \"second\": null,\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Parking lot lease agreement with Olson Tire / AOK Property LLC\",\n      \"motion\": \"Proceed with lease agreement with Olson Tire\",\n      \"mover\": \"Vice Chair Pool\",\n      \"second\": \"Supervisor Nath\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Claim disallowance\",\n      \"motion\": \"Approve disallowance of claim\",\n      \"mover\": \"Supervisor Hart\",\n      \"second\": \"Supervisor Nisth\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Meeting convened"
-      }
-    ],
-    "discussions": [],
-    "publicComment": "",
-    "actionItems": [],
-    "topics": [
-      "Budget",
-      "Facilities",
-      "Utilities",
-      "Parks"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_d2ac75594e524e2e822fe02807f72756",
-    "source": "kronenwetter",
-    "title": "Utility Committee Meeting",
-    "date": "October 6, 2026",
-    "shortDate": "OCT 6",
-    "committee": "Utility",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-30",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d2ac75594e524e2e822fe02807f72756.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Utility Committee met October 6, 2026, addressing a resident water quality complaint involving black and orange sludge at a dead-end line, approving a change to the septic tank ordinance to allow holding tanks under specific conditions, reviewing the 2027 utility budget with no rate increases proposed for either water or sewer, and discussing ongoing issues with wipes clogging Lift Station No. 3. Key decisions included recommending an ordinance amendment to allow holding tanks and directing staff to explore looping options and water sampling for the affected resident.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:15",
-        "item": "Roll Call"
-      },
-      {
-        "time": "2:00",
-        "item": "Public Comment"
-      },
-      {
-        "time": "38:30",
-        "item": "Approval of Minutes (June meeting)"
-      },
-      {
-        "time": "40:00",
-        "item": "Director of Public Works and Utilities Report - Lift Station No. 3 wipes issue and Village Garage project update"
-      },
-      {
-        "time": "52:00",
-        "item": "Finance and Treasurer Report - August financial statements"
-      },
-      {
-        "time": "1:04:00",
-        "item": "Old Business - Septic Tank Ordinance Discussion (Northland Lutheran High School holding tank request)"
-      },
-      {
-        "time": "1:35:00",
-        "item": "2027 Budget Discussion - Water and Sewer Utility revenues and expenses"
-      },
-      {
-        "time": "2:20:00",
-        "item": "Capital Improvement Plan (CIP) discussion referenced in context of new well, water tower, and looping projects"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment - Resident Water Quality Complaint",
-        "body": "Resident Lori Foundry of Rainbow Drive/County Road XX described severe black and orange sludge in her water supply, corroded fixtures, clogged drains, and water she considers unsafe to drink or use for washing food. Greg (Public Works Director) explained the problem stems from manganese buildup at a dead-end line serving only two customers, and that flushing every six to eight weeks has not resolved the issue. The committee discussed options including pipe scrubbing, installing an RO filtration system, exploring a pipe-looping project estimated at $300,000–$400,000, and potentially obtaining an easement from a neighboring property. Staff committed to having lead water utility worker Mark Mackey visit the property to take water samples, and the committee expressed willingness to provide some form of bill compensation. The looping project was identified as a candidate for the Capital Improvement Plan."
-      },
-      {
-        "item": "Approval of Minutes",
-        "body": "Jim Buck moved and Jessica Stowell seconded to approve the June committee meeting minutes. No discussion was noted. The motion carried unanimously 4-0 on a voice vote."
-      },
-      {
-        "item": "Director of Public Works and Utilities Report - Lift Station No. 3",
-        "body": "Greg reported that wipes are clogging the vacuum-style Lift Station No. 3 nearly every day, requiring staff to spend roughly 1.5 hours daily clearing pumps at significant cost. Letters were mailed to customers warning against flushing wipes. The committee discussed using sewer cameras to identify offending addresses once a new utility employee starts the following Monday, and confirmed the village ordinance allows billing customers for damages caused by illegal dumping. Greg noted plans to televise sewer lines and work with Green Bay Pipe and TV to pinpoint problem sources."
-      },
-      {
-        "item": "Director of Public Works and Utilities Report - Village Garage Project",
-        "body": "Greg reported that the public works crew completed site excavation and gravel base work for the village garage project, and that ST Ellenbecker is expected to begin pouring concrete imminently, before cold weather requires heat blankets."
-      },
-      {
-        "item": "Finance and Treasurer Report - August Financial Statements",
-        "body": "John (Finance/Treasurer) reported that the water utility showed revenues of approximately $513,000 through eight months against a positive fund balance of $183,000 after expenses, slightly below the prior year's $217,000 surplus. The sewer utility showed revenues of $786,000 against a surplus of $198,000, lower than the prior year's $312,000 due to elevated Rib Mountain Metro Sewage District charges that surged from a budgeted $460,000 to an estimated $572,000 for 2026. Total water utility debt stands at approximately $2.949 million, scheduled for payoff in 2043; the sewer utility currently carries no debt. No rate increases are anticipated for 2027."
-      },
-      {
-        "item": "Septic Tank Ordinance Discussion - Northland Lutheran High School Holding Tank Request",
-        "body": "A representative from Northland Lutheran High School presented the school's request to install a holding tank for a small concession stand with two single-stall bathrooms used seasonally for soccer and baseball games, located approximately 407 feet from the nearest utility lateral. The committee developed amended ordinance language including: non-residential use only, seasonal use up to seven months, minimum 400 feet from nearest lateral, minimum lot size of one acre, tank size meeting Marathon County minimum requirements, and requiring approval from both the Public Works Director and the Utility Committee. Jim Buck moved and Dan Raskowski seconded to recommend the amended ordinance change to the Plan Commission and Village Board; the motion carried 4-0. Staff will draft language and consult the village attorney on whether a public hearing is required."
-      },
-      {
-        "item": "2027 Budget Discussion - Water and Sewer Utilities",
-        "body": "John and Greg presented the proposed 2027 utility budgets. No water or sewer rate increases are proposed for 2027. On the sewer side, projected revenues of approximately $1.371 million and inclusion of $548,100 in Rib Mountain Metro costs still yield a projected net profit of roughly $7,800, making a rate increase unnecessary. On the water side, revenues are projected at $947,000 driven in part by an estimated $90,000 in connection fees from the Marathon County garage project; after accounting for expenses including one additional half-time crew employee shared between water and sewer, the water utility is near break-even. The committee also discussed the Marathon County garage's plans to use wells for brine-making and car wash operations rather than municipal water, with committee member Alex Fedbeck pushing for a cost-benefit analysis on requiring municipal water connection to capture long-term revenue. Borrowing for the 2027–2029 CIP is proposed to be delayed until after July 1, 2027, to defer principal and interest costs to the 2028 budget."
-      }
-    ],
-    "publicComment": "Two speakers signed up for public comment. Lori Foundry spoke at length about severe water quality problems — black and orange sludge, corroded fixtures, and water she considers unfit for drinking or cooking — at her home near Rainbow Drive and County Road XX, which sits at a dead end of the municipal water system. She requested action and expressed frustration over unreturned calls. A second attendee identified as 'Guy Russ' from 3013 North Road indicated he was present only for the septic item and did not offer additional comment.",
-    "actionItems": [
-      "Staff to schedule water sampling visit with Mark Mackey at Lori Foundry's residence and her neighbor at approximately 1885 County Road XX",
-      "Staff to explore pipe scrubbing, RO system installation, and easement options for looping the dead-end line serving Foundry's property; looping project to be considered for the Capital Improvement Plan",
-      "Staff to provide Foundry with a water bill adjustment or compensation for unusable water service",
-      "Greg to knock on doors at 1994 Eva Road to inquire about easement willingness for potential pipe loop",
-      "Staff to begin popping manholes and deploying cameras at Lift Station No. 3 once new employee starts Monday to identify residents flushing wipes",
-      "Staff to draft revised septic tank ordinance language as discussed and submit to village attorney to determine if a public hearing is required before forwarding to Plan Commission",
-      "Staff to contact Nathan (administrator) regarding Marathon County garage conditional use permit conditions related to municipal water connection",
-      "Staff to contact City of Wausau DPW for comparable brine-making water usage data to inform analysis of requiring Marathon County garage to connect to municipal water",
-      "John to reduce water purchase line item in 2027 budget from $300,000 to $250,000",
-      "Staff to proceed with engineering firm contract for well exploration study; project expected to roll into 2027"
-    ],
-    "topics": [
-      "Utilities",
-      "Budget",
-      "Water Quality",
-      "Development",
-      "Lift Station No. 3",
-      "Marathon County Garage",
-      "Septic Tank Ordinance"
-    ],
-    "votes": [
-      {
-        "item": "Approval of June Utility Committee meeting minutes",
-        "motion": "Motion to approve the minutes",
-        "mover": "Jim Buck",
-        "second": "Jessica Stowell",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Recommend ordinance amendment to allow holding tanks under specified conditions (septic tank ordinance change 508.37)",
-        "motion": "Motion to recommend change in ordinance 508.37 as discussed and amended, allowing holding tanks with approval from Marathon County and Public Works Director, 400 feet from nearest utility, non-residential only, utility committee review and approval, county minimum tank size, minimum five-acre lot, and seven months seasonal use",
-        "mover": "Jim Buck",
-        "second": "Dan Raskowski",
-        "outcome": "Approved",
-        "tally": "4-0"
       }
     ]
   }
