@@ -77,6 +77,13 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Snapshot reel-ready meetings
+        # Which meetings already have transcript-built summaries, before this
+        # run adds any. The dispatch step after the commit compares against it
+        # so only meetings that became reel-ready in this run get a reel draft.
+        continue-on-error: true
+        run: python reel_candidates.py --snapshot /tmp/reel_ready.json
+
       - name: Set up Deno
         # yt-dlp needs a JavaScript runtime to solve YouTube's "n challenge"
         # that wraps subtitle URLs. Without it, fetches fall back to the
@@ -274,6 +281,36 @@ jobs:
           # state (re-summarizing everything next run = double API spend).
           git pull --rebase origin main || true
           git push || true
+
+      - name: Ask wpr-reels to draft reels
+        # City council and county board meetings that became transcript-built
+        # in this run get a draft reel PR in RowanFlynnPilot/wpr-reels
+        # (its draft-reel.yml). Sends the commit just pushed, so the draft is
+        # built from exactly this data. Never fails the tracker's own run.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.REELS_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "No REELS_DISPATCH_TOKEN secret — skipping reel drafts."
+            exit 0
+          fi
+          SHA=$(git rev-parse HEAD)
+          if ! git branch -r --contains "$SHA" | grep -q "origin/main"; then
+            echo "::warning::This run's commit didn't reach main; no reel drafts sent."
+            exit 0
+          fi
+          python reel_candidates.py --since /tmp/reel_ready.json | while read -r VID; do
+            case "$VID" in
+              *[!A-Za-z0-9_-]*|"") echo "::warning::skipping malformed video id '$VID'"; continue ;;
+            esac
+            echo "Requesting a reel draft for $VID"
+            gh api repos/RowanFlynnPilot/wpr-reels/dispatches \
+              -f event_type=transcript-ingested \
+              -f "client_payload[video_id]=$VID" \
+              -f "client_payload[tracker_sha]=$SHA" \
+              || echo "::warning::reel draft request failed for $VID"
+          done
 
       - name: Build
         run: npm run build
