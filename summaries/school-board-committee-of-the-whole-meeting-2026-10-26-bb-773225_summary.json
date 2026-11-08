@@ -1,107 +1,209 @@
 {
-  "overview": "Based on the published agenda, the Wausau School District Committee of the Whole was scheduled to consider several curriculum and operational updates, including a potential Hmong language offering, technology education course adjustments, facility usage fee changes, and annual student fees for the 2027-2028 school year. The meeting also included a presentation from Red Granite Charter School and a review of first-quarter legal expenses.",
-  "committee": "Committee of the Whole Meeting",
+  "overview": "The Wausau School Board held a Committee of the Whole meeting on October 26, 2026, covering a range of topics including a charter school update, facilities fee changes, secondary education programming, and a special meeting to adopt the 2026-27 budget and set the tax levy. The board approved a final tax levy of $44,385,271—the same as the prior year—with a mill rate of $6.26 per thousand, 28 cents less than projected at the annual meeting. Key decisions included approving modifications to facility usage fees, tech education course restructuring, and the district's Academic Career Plan.",
+  "committee": "Wausau School Board Committee of the Whole",
+  "presiding": "James Bouché, President",
   "agenda": [
     {
-      "time": "N/A",
-      "item": "Call to Order"
+      "time": "0:00",
+      "item": "Call to Order and Approval of Minutes (September 28, 2026)"
     },
     {
-      "time": "N/A",
-      "item": "Approve the Minutes"
+      "time": "1:30",
+      "item": "Red Granite Charter School Principal Presentation"
     },
     {
-      "time": "N/A",
-      "item": "Excellence in Action: Red Granite Charter School"
+      "time": "18:45",
+      "item": "Public and Student Comment (skipped - none offered)"
     },
     {
-      "time": "N/A",
-      "item": "Public and Student Comment"
+      "time": "19:00",
+      "item": "Audit of the Bills Approval"
     },
     {
-      "time": "N/A",
-      "item": "Audit of the Bills"
+      "time": "19:45",
+      "item": "Facilities Usage Fee Schedule - Phase One Modifications"
     },
     {
-      "time": "N/A",
-      "item": "Facilities Usage (Action Requested)"
+      "time": "27:30",
+      "item": "Legal Counsel Expenses - First Quarter 2026-27 Report (informational)"
     },
     {
-      "time": "N/A",
-      "item": "Legal Expense Summary for 1st Quarter"
+      "time": "28:30",
+      "item": "Hmong Language Offering - Board Input on Next Steps"
     },
     {
-      "time": "N/A",
-      "item": "Hmong Language Offering (Possible Action)"
+      "time": "52:00",
+      "item": "Tech Ed Course Approvals - Digital Design and Manufacturing"
     },
     {
-      "time": "N/A",
-      "item": "Course Approvals (Action Requested)"
+      "time": "1:04:00",
+      "item": "Academic Career Plan (ACP) 2026-27 Update and Approval"
     },
     {
-      "time": "N/A",
-      "item": "District ACP Plan (Action Requested)"
+      "time": "1:22:00",
+      "item": "Annual Student Fees 2027-28 Approval"
     },
     {
-      "time": "N/A",
-      "item": "Annual Student Fees (Action Requested)"
-    },
-    {
-      "time": "N/A",
-      "item": "Adjourn"
+      "time": "1:25:00",
+      "item": "Special Meeting: Consent Agenda, Final 2026-27 Budget Adoption, and Tax Levy Setting"
     }
   ],
   "discussions": [
     {
-      "item": "Excellence in Action: Red Granite Charter School",
-      "body": "Red Granite Charter School was scheduled to present an Excellence in Action presentation to the board, highlighting achievements and initiatives at the charter school."
+      "item": "Approval of Minutes",
+      "body": "Board President James Bouché sought a motion to approve minutes from September 28, 2026. The motion carried with two members voting in opposition; exact names of those opposed were not stated."
     },
     {
-      "item": "Facilities Usage",
-      "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was expected to present the first phase of updates to the Facility Usage Fee Schedule. The presentation was estimated to take 5 minutes and aimed to inform the board of proposed changes to facility rental fees."
+      "item": "Red Granite Charter School Principal Presentation",
+      "body": "Principal Ma Mangan presented on the school's third year of operation as a public Waldorf school, reporting approximately 65 students including 24 new 4K students, 100% teacher retention, and expansion to a second early childhood classroom. Board members, including one identified as Pat McKee, praised word-of-mouth marketing and noted the school's no-screen and outdoor-focused approach as enrollment drivers. The board asked questions about space and what drove the enrollment increase but took no formal action."
     },
     {
-      "item": "Legal Expense Summary for 1st Quarter",
-      "body": "Dr. Elizabeth Channel was scheduled to present a summary report of legal counsel expenses incurred during the first quarter of 2026-2027, broken down by law firm and type of legal advice sought. This was a written report requiring no action."
+      "item": "Audit of the Bills",
+      "body": "Bouché sought a motion to approve the audit of bills as presented in board books. The motion carried with opposition noted but not counted by name."
+    },
+    {
+      "item": "Facilities Usage Fee Schedule - Phase One Modifications",
+      "body": "Assistant Superintendent Dr. Elizabeth Channel and Buildings and Grounds Director Ryan Ormansky presented a first phase of modifications allowing 501(c)(3) organizations, Title 36 youth groups (such as scouts), and governmental agencies to request fee waivers for facility use during normal operating hours (6:30 a.m. to 10:00 p.m.). A board member noted the importance of stewardship of taxpayer-funded buildings while supporting community partnerships. The motion to recommend the first phase to the full board carried."
+    },
+    {
+      "item": "Legal Counsel Expenses Q1 2026-27 (Informational)",
+      "body": "Dr. Channel confirmed no additional information beyond what was in board books; no action was taken on this written informational report."
     },
     {
       "item": "Hmong Language Offering",
-      "body": "Director of Secondary Education Dr. Jon Tomski was expected to present information on a potential Hmong language offering, with the board scheduled to provide input on next steps. The presentation was estimated at 15 minutes, indicating a substantive discussion of curriculum expansion."
+      "body": "Director of Secondary Education Dr. John Tossky and Dr. Cwell presented findings on potentially offering Hmong as a language course, noting highlights such as community engagement, college credit potential, and innovative positioning, as well as challenges including declining enrollment in existing global languages, difficulty finding and retaining a licensed Hmong teacher (no licensure programs exist in Wisconsin for the DPI 1389 license), and curriculum development costs. Board members Charles Burger and others asked about Wave virtual delivery, summer program pilots, and demand measurement. Lance Trollop and Pat McKee cautioned that adding a language amid declining enrollment and budget constraints could come at the expense of existing language offerings. Board President Bouché noted Act 31 obligations regarding Southeast Asian heritage language instruction. The board directed staff to gauge student interest before the next presentation on this topic; no vote was taken."
     },
     {
-      "item": "Course Approvals",
-      "body": "Dr. Jon Tomski was scheduled to present adjustments to Technology Education programming and course approvals. The presentation was estimated at 10 minutes and focused on updates to the Tech Ed. curriculum."
+      "item": "Tech Ed Course Approvals - Digital Design and Manufacturing",
+      "body": "CTE Coordinator John Wy presented a restructuring of the graphics and Fab Lab pathways, combining Graphics 1 and Fab Lab into a new 'Digital Design and Manufacturing' course, renaming Graphics 2 to 'Graphic Design and Software,' and reducing Graphics 3 (Warrior/Lumberjack Graphics) from a double block to a single block while retaining NTC dual credit. Teachers and administration were reported to be fully supportive. The motion to recommend approval to the full board carried."
     },
     {
-      "item": "District ACP Plan",
-      "body": "CTE Coordinator Jon Winter was expected to provide a brief update on the District ACP plan, with supporting materials including a student success story. The presentation was estimated at 10 minutes and focused on career and technical education initiatives."
+      "item": "Academic Career Plan (ACP) 2026-27",
+      "body": "CTE Coordinator John Wy presented the district's ACP in alignment with PI26, highlighting student success stories, innovative pathways including aviation, robotics, auto collision, and math and construction, and two goals: expanding work-based learning participation by 10% and reducing undecided seniors from 11-15% to under 8%. Board members praised the presentation and noted the importance of ACP for community awareness. The motion to recommend approval to the full board carried."
     },
     {
-      "item": "Annual Student Fees",
-      "body": "The board was scheduled to review and consider annual student fees for the 2027-2028 school year. The presentation was estimated at 3 minutes."
+      "item": "Annual Student Fees 2027-28",
+      "body": "Dr. Kempky reported no increases to student fees for 2027-28, noting ongoing monthly collaboration with Dr. Channel and athletic directors on athletics funding. The motion to recommend approval to the full board carried with opposition noted."
+    },
+    {
+      "item": "Special Meeting: Final 2026-27 Budget Adoption and Tax Levy",
+      "body": "Dr. Channel presented the finalized 2026-27 budget, reporting a mill rate of $6.26 per thousand—28 cents less than projected at the annual meeting—driven by increased equalization aid and increased property values. Enrollment declined by 215 students from fall 2025 to fall 2026, with a three-year rolling average down 133 students. The district is approximately $13 million behind inflationary pace, representing a cumulative $71 million deficit since 2011. The private school voucher aid deduction totals $4,629,595, adding about $65 per $100,000 home. The board approved the final budget and set the tax levy at $44,385,271—the same as the prior year—while defeasing approximately $11 million in debt. A board member requested additional data on equalized value trends, transportation reimbursements, and special education enrollment for use in legislative discussions."
     }
   ],
-  "publicComment": "A public and student comment period was included on this agenda.",
+  "publicComment": "No public comment was offered. Bouché noted agenda item four for public and student comment and skipped it, stating nothing was submitted.",
   "actionItems": [
-    "Board was expected to vote on updates to the Facility Usage Fee Schedule.",
-    "Board was expected to consider and possibly take action on a potential Hmong language offering.",
-    "Board was expected to approve or reject adjustments to Technology Education programming and course approvals.",
-    "Board was expected to take action on the District ACP Plan update.",
-    "Board was expected to approve annual student fees for the 2027-2028 school year."
+    "Staff to gauge student interest in Hmong language offering before next presentation to the board",
+    "Dr. Channel to provide board member with data on equalized value trends and state aid formula history, transportation reimbursement trends, and special education enrollment and reimbursement data",
+    "Full board to consider recommendation on Phase One facility usage fee schedule modifications",
+    "Full board to consider recommendation on Tech Ed course restructuring (Digital Design and Manufacturing)",
+    "Full board to consider recommendation on 2027-28 student fees (no increases)",
+    "Full board to consider recommendation on 2026-27 ACP plan approval",
+    "Final 2026-27 budget adopted at $44,385,271 tax levy; defeasance of approximately $11 million to proceed"
   ],
   "topics": [
-    "Curriculum",
-    "Facilities",
     "Budget",
-    "Technology Education",
-    "Career and Technical Education",
+    "Staffing",
+    "Curriculum Development",
+    "Hmong Language Education",
     "Red Granite Charter School",
-    "Language Programs"
+    "Career and Technical Education",
+    "Facility Usage Fees"
   ],
-  "_source": "boardbook_agenda",
+  "votes": [
+    {
+      "item": "Approval of September 28, 2026 minutes",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Audit of the bills as presented in board books",
+      "motion": "So move",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Phase One modifications to facility usage fee schedule",
+      "motion": "Motion to recommend to the full board the first phase of modifications to the facility usage fee schedule",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Tech Ed course adjustments (Digital Design and Manufacturing)",
+      "motion": "Motion to recommend to the full board the approval of the adjustment to the teched programming as presented",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "2026-27 Academic Career Plan (ACP)",
+      "motion": "Motion to recommend to the full board the approval of the district 2026 Education for Employment and Academic Career Plan",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "2027-28 annual student fees (no increases)",
+      "motion": "Motion to recommend to the full board the approval of the 2027-2028 annual student fee as presented",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Committee of the Whole adjournment",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Special Meeting consent agenda (appointments, staffing actions)",
+      "motion": "So move",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Final 2026-27 budget adoption",
+      "motion": "Motion to approve the final 2026-27 budgets as presented across all funds",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Final tax levy of $44,385,271 for 2026-27",
+      "motion": "Motion to adopt a final tax levy of $44,385,271",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Special Meeting adjournment",
+      "motion": "So move",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "2a4e8addd7f0a1e5",
   "title": "Committee of the Whole Meeting - 2026-10-26",
-  "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773225",
+  "url": "https://www.youtube.com/watch?v=aLS2rm132CE",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=773225",
-  "processed_at": "2026-10-26T04:44:45.430967+00:00"
+  "processed_at": "2026-11-08T15:11:52.179647+00:00"
 }
