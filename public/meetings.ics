@@ -72,7 +72,7 @@ DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Chicago:20261109T180000
 DTEND;TZID=America/Chicago:20261109T193000
 SUMMARY:Village of Weston: Plan Commission
-URL:https://www.westonwi.gov/agendacenter
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11092026-1987
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -82,7 +82,7 @@ DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Chicago:20261109T180000
 DTEND;TZID=America/Chicago:20261109T193000
 SUMMARY:Village of Weston: Public Works Committee
-URL:https://www.westonwi.gov/agendacenter
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11092026-1988
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
