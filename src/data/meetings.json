@@ -1,5 +1,340 @@
 [
   {
+    "id": "bb_771386",
+    "source": "dc_everest",
+    "title": "Special School Board Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Special Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=771386",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=771386",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a special meeting to discuss results from a community survey. The meeting was expected to address feedback gathered from the school community, which may inform district decision-making on key issues.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion of Community Survey Results"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Discussion of Community Survey Results",
+        "body": "The board was scheduled to discuss results from a community survey. The agenda did not specify presenter names or detailed topics the survey addressed, but this discussion was expected to provide the board with community input on district matters."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [],
+    "topics": [
+      "Community Engagement",
+      "Survey Results"
+    ],
+    "votes": []
+  },
+  {
+    "id": "kw_0649d76bc4ba4c3da152038af6e9845c",
+    "source": "kronenwetter",
+    "title": "Village Board Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Village Board",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-67",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-0649d76bc4ba4c3da152038af6e9845c.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to hold a public hearing and vote on the proposed 2027 operating budget, along with related budget resolutions and the appointment of a village clerk. The meeting was set to address multiple budget allocations across general, debt service, special revenue, capital projects, and enterprise funds.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Announcement of Public Hearing - Village of Kronenwetter Proposed 2027 Operating Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Close Public Hearing"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - August 27, 2026 Special Village Board meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - September 14, 2026 Village Board meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - September 17, 2026 Village Board meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Budget Presentation for Proposed 2027 Operating Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-013: Adopt 2027 General Fund Operating Budget and Authorize Tax Levy"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-014: Adopt 2027 Budgets for Debt Service, Special Revenue, Capital Projects, and Proprietary/Enterprise Funds"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-015: Adopt 2027 Capital Improvements Program Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 2026-016: Appoint Connie Nowak as Village Clerk"
+      },
+      {
+        "time": "N/A",
+        "item": "Agreement for Legal Services with Wolfgram, Gamoke & Hutchinson, S.C"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Village of Kronenwetter Proposed 2027 Operating Budget",
+        "body": "A public hearing was scheduled to receive community input on the proposed 2027 operating budget. The board was set to close the public hearing and consider adoption of the budget through multiple resolutions addressing different fund categories."
+      },
+      {
+        "item": "Budget Presentation for Proposed 2027 Operating Budget",
+        "body": "The board was scheduled to receive a detailed presentation of the proposed 2027 operating budget prior to consideration of adoption resolutions."
+      },
+      {
+        "item": "Resolution 2026-013: Adopt 2027 General Fund Operating Budget",
+        "body": "The board was expected to consider and vote on a resolution to adopt the 2027 general fund operating budget and authorize the levy of taxes therefor."
+      },
+      {
+        "item": "Resolution 2026-014: Adopt 2027 Budgets for Multiple Funds",
+        "body": "The board was set to consider a resolution to adopt 2027 budgets for the debt service, special revenue, capital projects, and proprietary/enterprise funds."
+      },
+      {
+        "item": "Resolution 2026-015: Adopt 2027 Capital Improvements Program Budget",
+        "body": "The board was scheduled to consider a resolution adopting the 2027 capital improvements program budget."
+      },
+      {
+        "item": "Resolution 2026-016: Appoint Connie Nowak as Village Clerk",
+        "body": "The board was set to consider a resolution appointing Connie Nowak to the position of village clerk."
+      },
+      {
+        "item": "Agreement for Legal Services with Wolfgram, Gamoke & Hutchinson, S.C",
+        "body": "The board was scheduled to consider and possibly approve an agreement for legal services with the law firm Wolfgram, Gamoke & Hutchinson, S.C."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda, with a 15-minute total limit and three-minute per-person time limit at the Chief Presiding Officer's discretion. The agenda noted that limited discussion may occur but no action would be taken under public comments.",
+    "actionItems": [
+      "Expected to vote on Resolution 2026-013 to adopt the 2027 General Fund Operating Budget and authorize tax levy",
+      "Expected to vote on Resolution 2026-014 to adopt 2027 budgets for debt service, special revenue, capital projects, and enterprise funds",
+      "Expected to vote on Resolution 2026-015 to adopt the 2027 Capital Improvements Program budget",
+      "Expected to vote on Resolution 2026-016 to appoint Connie Nowak as Village Clerk",
+      "Scheduled to consider approval of legal services agreement with Wolfgram, Gamoke & Hutchinson, S.C"
+    ],
+    "topics": [
+      "Budget",
+      "2027 Operating Budget",
+      "Capital Improvements",
+      "Staffing",
+      "Legal Services"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_774423",
+    "source": "school_board",
+    "title": "Regular Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Regular Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=774423",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=774423",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to hold a regular meeting on November 9, 2026, to address multiple action items including facility usage fees, course approvals in technology education, student fees for the upcoming school year, and a boys hockey co-op discussion. The agenda also included routine consent items covering staffing changes, meeting minutes, budget reports, and donations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Reading of the Mission Statement"
+      },
+      {
+        "time": "N/A",
+        "item": "Excellence in Action: Maine Elementary"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Appointments (Additional Staff, Replacement Staff, Contract Increases)"
+      },
+      {
+        "time": "N/A",
+        "item": "Separations (Resignations, Contract Decreases, Terminations)"
+      },
+      {
+        "time": "N/A",
+        "item": "Leaves of Absence"
+      },
+      {
+        "time": "N/A",
+        "item": "Retirements"
+      },
+      {
+        "time": "N/A",
+        "item": "Minutes: Regular Session of October 12, 2026; Closed Session of October 21, 2026; Closed II Session of October 21, 2026; and Special Session of October 26, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Payment of Bills/Budget Status and Investment Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Donations to the District"
+      },
+      {
+        "time": "N/A",
+        "item": "Legal Expense Summary for 1st Quarter"
+      },
+      {
+        "time": "N/A",
+        "item": "Boys Hockey Co-Op Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Facilities Usage"
+      },
+      {
+        "time": "N/A",
+        "item": "Course Approvals"
+      },
+      {
+        "time": "N/A",
+        "item": "District ACP Plan"
+      },
+      {
+        "time": "N/A",
+        "item": "Annual Student Fees"
+      },
+      {
+        "time": "N/A",
+        "item": "Hmong Language Offering Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Professional Growth & Development Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Legislative Liaison"
+      },
+      {
+        "time": "N/A",
+        "item": "Superintendent Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "Presiding Officer Commentary"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Excellence in Action: Maine Elementary",
+        "body": "The board was scheduled to recognize Maine Elementary for excellence in action as part of the meeting's opening business."
+      },
+      {
+        "item": "Legal Expense Summary for 1st Quarter",
+        "body": "Assistant Superintendent Dr. Elizabeth Channel was scheduled to present a written summary report of all legal counsel expenses incurred during the first quarter of 2026-2027, broken down by law firm and by type of legal advice sought. This presentation was estimated to take 2 minutes and required no action."
+      },
+      {
+        "item": "Boys Hockey Co-Op Discussion",
+        "body": "The board was scheduled to discuss a boys hockey co-op arrangement at a board member's request. This discussion was expected to take approximately 10 minutes and possible action was anticipated."
+      },
+      {
+        "item": "Facilities Usage",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to present the first phase of updates to the Facility Usage Fee Schedule for board consideration. Action was requested on this item, with an estimated presentation time of 2 minutes."
+      },
+      {
+        "item": "Course Approvals",
+        "body": "Director of Secondary Education Dr. Jon Tomski was scheduled to present adjustments to the Technology Education programming for course approval. The board was expected to request action on these adjustments, with an estimated presentation time of 2 minutes."
+      },
+      {
+        "item": "District ACP Plan",
+        "body": "CTE Coordinator Jon Winter was scheduled to give a brief update on the District ACP plan, including a student success story. Action was requested on this item, with an estimated presentation time of 2 minutes."
+      },
+      {
+        "item": "Annual Student Fees",
+        "body": "The board was scheduled to consider the annual student fees for the 2027-2028 school year, following a presentation at the October Committee of the Whole meeting. Action was requested for approval, with an estimated presentation time of 2 minutes."
+      },
+      {
+        "item": "Hmong Language Offering Update",
+        "body": "Director of Secondary Education Dr. Jon Tomski was scheduled to share an update on the progress of exploring the potential Hmong Language offering as a new course option. The presentation was estimated to take 2 minutes."
+      }
+    ],
+    "publicComment": "A public and student comment period was scheduled as part of the agenda.",
+    "actionItems": [
+      "Board was expected to approve the consent agenda including appointments, separations, leaves of absence, retirements, meeting minutes, budget status reports, and donations",
+      "Action was requested for approval of updates to the Facility Usage Fee Schedule",
+      "Action was requested for approval of course adjustments in Technology Education programming",
+      "Action was requested regarding the District ACP Plan",
+      "Action was requested for approval of annual student fees for the 2027-2028 school year",
+      "Board was expected to consider possible action on the boys hockey co-op discussion"
+    ],
+    "topics": [
+      "Budget",
+      "Curriculum",
+      "Facilities",
+      "Staffing",
+      "Technology Education",
+      "CTE",
+      "Student Fees",
+      "Athletics",
+      "Maine Elementary",
+      "Hmong Language Program"
+    ],
+    "votes": []
+  },
+  {
     "id": "Y4xzT50_kRY",
     "source": "marathon",
     "title": "Infrastructure Committee Meeting",
@@ -6312,381 +6647,6 @@
         "second": "Alder Martins",
         "outcome": "Approved",
         "tally": null
-      }
-    ]
-  },
-  {
-    "id": "7uG0YZACZUY",
-    "source": "marathon",
-    "title": "Human Resources, Finance & Property Committee Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "HR, Finance & Property",
-    "duration": "6m",
-    "url": "https://www.youtube.com/watch?v=7uG0YZACZUY",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Human Resources, Finance & Property Committee held a brief meeting focused on authorizing publication of the proposed 2027 county budget. The committee unanimously approved publication of the budget notice, which includes a proposed tax levy of $66,248,545 and a mill rate of 3.4773, advancing the budget process toward a public hearing on November 2nd and final county board action on November 10th.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:30",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:50",
-        "item": "Public Comment"
-      },
-      {
-        "time": "1:05",
-        "item": "Consideration of Amendments to the 2027 Budget and Authorization of Publication"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Consideration of Amendments to the 2027 Budget and Authorization of Publication",
-        "body": "County Administrator and Finance Director Brian Fensky reported that no proposed amendments to the budget had been received since the previous meeting. Fensky provided a high-level overview of the publication notice, which includes actual 2025 figures, amended and estimated 2026 figures, and the proposed 2027 budget broken down by category; he noted that state special charges were included in the general fund this year as a new addition. Chair Gibbs asked Fensky to clarify a significant increase in 'other financing uses' under expenditures, which Fensky explained represents transfers to other funds, including $5,884,464 in transfers proposed for 2027. The committee then approved publication unanimously, with the public hearing set for November 2nd and final county board action on November 10th."
-      }
-    ],
-    "publicComment": "No public comment was offered. Chair Gibbs noted that no one had approached the clerk or himself prior to the meeting.",
-    "actionItems": [
-      "Authorize publication of the 2027 proposed budget notice as presented",
-      "Schedule public hearing on the 2027 budget for November 2, 2026",
-      "County board to take final action on the 2027 budget on November 10, 2026",
-      "Committee to meet on October 20 for next regular meeting",
-      "Committee to meet on November 9 for normal business plus consideration of any budget amendments"
-    ],
-    "topics": [
-      "Budget",
-      "Tax Levy",
-      "2027 County Budget",
-      "Mill Rate",
-      "Public Hearing"
-    ],
-    "votes": [
-      {
-        "item": "Authorize publication of the 2027 proposed county budget",
-        "motion": "To allow and authorize the publication of the 2027 budget and bring it back to the board with the public hearing on November 2nd, 2026",
-        "mover": "Kurt Gibbs",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": null,
-        "mover": "Supervisor Hart",
-        "second": "Kurt Gibbs",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "ubLxX0CnB20",
-    "source": "wausau",
-    "title": "Infrastructure and Facilities Meeting",
-    "date": "October 8, 2026",
-    "shortDate": "OCT 8",
-    "committee": "Infrastructure & Facilities",
-    "duration": "1h 48m",
-    "url": "https://www.youtube.com/watch?v=ubLxX0CnB20",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Infrastructure and Facilities Committee met on October 8, 2026, taking several significant actions including approving an amendment to the city's winter street maintenance policy to allow snowplow counterflow to traffic on center median boulevard streets — a change sought by southeast side and Highland Park residents for three years. The committee also set 2027 construction assessment rates, approved two alley/road vacations, approved a painted curb extension project downtown, and reviewed ongoing 2026 construction projects.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and public comment period"
-      },
-      {
-        "time": "18:45",
-        "item": "Consent agenda — authorizing downtown snow/ice removal"
-      },
-      {
-        "time": "19:20",
-        "item": "Consideration of minutes of the preceding meeting"
-      },
-      {
-        "time": "19:55",
-        "item": "Public hearing: vacating and discontinuing alley bounded by Lake View Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard"
-      },
-      {
-        "time": "20:45",
-        "item": "Public hearing: vacating and discontinuing 134-foot southerly extension of Liberty Ridge Way"
-      },
-      {
-        "time": "22:10",
-        "item": "5A — Discussion and possible action on vacating alley bounded by Lake View Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard"
-      },
-      {
-        "time": "24:30",
-        "item": "5B — Discussion and possible action on vacating 134-foot southerly extension of Liberty Ridge Way"
-      },
-      {
-        "time": "27:00",
-        "item": "5C — Assessment rates for 2027 construction projects"
-      },
-      {
-        "time": "45:00",
-        "item": "5D — Winter street maintenance policy amendment"
-      },
-      {
-        "time": "1:05:00",
-        "item": "5E — West Hill First Addition preliminary plat"
-      },
-      {
-        "time": "1:07:00",
-        "item": "5F — Approving painted curb extension project proposed by the Wausau River District"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Discussion: 2027-2028 capital infrastructure projects"
-      },
-      {
-        "time": "1:30:00",
-        "item": "2026 construction projects update"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Winter Street Maintenance Policy — Counterflow Plowing on Center Median Boulevard Streets",
-        "body": "After extensive public comment from roughly ten speakers over several months of meetings, Alder Slonsky moved to amend the Department of Public Works winter maintenance policy to permit snowplow counterflow to traffic whenever otherwise safe to do so; the motion passed unanimously. City Attorney Ann Jacobson confirmed Wisconsin Statute 346.05(2) allows vehicles engaged in highway maintenance to operate on the left-hand side of the road, and that a written internal policy would protect plow drivers under city liability. DPW Director Dustin [last name inaudible] acknowledged the counterflow practice had been discontinued based on a misinterpretation — originally prompted by a state patrol comment about one-way streets that was incorrectly applied to divided two-way boulevard streets. Alder Slonsky criticized DPW for not providing requested cost/time comparisons between plowing methods as asked at the prior meeting, while Alder Martins and others praised community advocates for their thorough, data-driven advocacy over three years. District 1 Alder Carol Lukans appeared as a public commenter urging the committee to act that night so residents would not face another winter under the old policy."
-      },
-      {
-        "item": "Assessment Rates for 2027 Construction Projects",
-        "body": "City engineering staff presented proposed 2027 assessment rates, noting that at $55 per accessible foot the city recovers roughly 22% of roadway reconstruction costs — down from a historical target of 60%. Staff recommended raising the sewer lateral replacement assessment from $500 (unchanged for approximately 25 years) to $1,000, noting actual city costs range from $1,500 to $2,500 per lateral. Alder Martins moved to approve the rates with street reconstruction raised to $60 per accessible foot and the sewer lateral assessment raised to $1,000; the motion passed unanimously. Alders Heni and Slonsky raised questions about whether percentage-based assessments would be fairer than flat dollar rates, but staff explained that flat rates are required for statutory notice purposes and provide more equity across projects of varying complexity."
-      },
-      {
-        "item": "Vacating Alley Bounded by Lake View Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard",
-        "body": "A motion was made and seconded to vacate the alley; city engineering noted a sanitary sewer runs through the alley and the city must retain an easement. A friendly amendment was adopted to include easement retention language, and the motion passed unanimously. Public commenter Michael Moran (2513 Elmwood Boulevard) spoke in support of the vacation during public comment."
-      },
-      {
-        "item": "Vacating 134-Foot Southerly Extension of Liberty Ridge Way",
-        "body": "A speaker at the public hearing representing property owners Chris and Margaret [Gdori, phonetic] testified in support, explaining the owners want to secure the end of the road as a private drive. City engineering confirmed both sewer and water infrastructure are present and easements must be retained. Alder Heni moved to vacate with easement language; Alder Slonsky seconded after confirming engineering had no objection. A committee member asked for clarification that the remainder of Liberty Ridge Way remains a public road, which staff confirmed. The motion passed unanimously."
-      },
-      {
-        "item": "Painted Curb Extension Project — Fourth Street and Scott Street (Wausau River District)",
-        "body": "TJ [last name not stated] from city staff presented a River District proposal to install plastic bollards and road paint at the east side of the Fourth and Scott intersection downtown to create pedestrian refuge areas and shorten crossing distances. The project had already been approved by the Bike and Pedestrian Committee. The River District committed in writing to cover bollard replacement costs through 2032; the Center for Visual Arts provided verbal assurance of low- or no-cost repainting assistance. Alder Slonsky moved to approve; Alder Martins seconded and expressed strong support, noting it was a proven traffic-calming method at a difficult intersection. The motion passed unanimously. Alder Wizkowski suggested exploring additional painted intersection treatments downtown, with staff noting that could be brought to a joint Bike Ped and Arts Commission meeting."
-      },
-      {
-        "item": "2027-2028 Capital Infrastructure Projects Review",
-        "body": "Alder Heni raised concerns about the sustainability of current borrowing levels, noting the levy is rising again, and said he is working with Director Linman to identify capital projects that could be deferred to reduce borrowing by $4–5 million. Alder Martins noted that the drinking water treatment facility solar array (projected at $1.98 million) effectively failed after a U.S. EPA grant was not received, and that a downtown street traffic flow redesign at $150,000 is still under discussion tied to TID 12. Staff emphasized that deferring road reconstruction has ripple effects pushing all subsequent projects back and frustrating residents expecting scheduled work."
-      },
-      {
-        "item": "2026 Construction Projects Update",
-        "body": "Staff reported that the downtown utility project (Second Street and Division Street), Grant Street utility upgrades, and Stark Street reconstruction (5th to 12th) are all 100% complete. Eighth Avenue reconstruction (Bridge to Spruce) is approximately 90% complete with final paving expected the week of October 19th. Asphalt overlays and sidewalk projects are complete city-wide. The riverfront parking lot near Athletic Park is under construction with paving expected the following week. Staff noted this is one of the earliest project completion years in recent memory. Discussion touched on coordination challenges with the lead service line replacement contractor, and committee members advocated for better public-facing communication tools — including a simpler website flowchart and use of the existing pothole hotline (715-261-6960) and Wausau Streets email — to reduce resident confusion about road work timelines."
-      }
-    ],
-    "publicComment": "Ten speakers offered public comment. V. Leis (1010 Everest Boulevard) argued that Wisconsin statute authorizes counterflow plowing and that DPW's safety and efficiency concerns had been overstated or debunked. Scott Johnson and Michael Johnson (1014 Everest Boulevard) advocated for vulnerable residents — elderly, disabled, single parents — who struggle with large snow piles left at driveways under the current plowing method. Tom Neil (916 Hamilton Street, Alder for District 4) stated he would support the counterflow plowing petition at full council. Jean Krooks (119 Oaklair Boulevard) described how snow plowed to the outer curb blocks a shared narrow driveway and raised safety concerns. Lou Larson (904 South 21st Place, representing District 10 alder) challenged what he called inconsistencies and misrepresentations in DPW staff memos, including claims about CDL risk and equipment costs that he said were contradicted by the Wisconsin statute. Jean Rolnki (146 Oaklair Boulevard) thanked committee member Andrew Wascowski for responding to her email and asked the committee to pass a motion directing counterflow plowing and send it to full council. Karen Briggs (154 Oaklair Boulevard, third appearance before the committee) described the hardship of shared driveway access in winter and urged the committee to vote and move the issue to council before the first snowfall. Michael Moran (2513 Elmwood Boulevard) spoke in support of both the alley vacation and counterflow plowing. Carrie Marole (1025 Everest Boulevard) criticized the absence of DPW staff and real data at the meeting and expressed frustration that it took a year to get usable information. Felix Gallow (1206 Highland Park Boulevard) summarized the neighborhood's data-driven case and cited city attorney confirmation that counterflow plowing conforms with Wisconsin law, arguing the worst-case DPW cost estimate of $6,000/year is far less than the $17,000–$31,000 estimated to maintain median sidewalks. District 1 Alder Carol Lukans (725 Ethel Street) appeared as a public commenter formally requesting the committee recommend counterflow plowing policy and forward the item to the October 13th council meeting.",
-    "actionItems": [
-      "Amend the Department of Public Works winter street maintenance policy to permit snowplow counterflow to traffic where safe, effective immediately",
-      "DPW to draft internal policy notifying plow drivers of legal authorization and liability protections for counterflow plowing",
-      "Committee recommends the winter maintenance policy amendment be placed on the October 13th city council agenda",
-      "Set 2027 street reconstruction assessment rate at $60 per accessible foot; sewer lateral replacement assessment at $1,000; driveway approaches at 100% of actual cost; new sidewalk at 50% of actual cost; replacement sidewalk at no assessment",
-      "City attorney's office to prepare easement documents for vacated alley (Lake View Drive/Bertha/Elmwood/Midway) prior to final vacation",
-      "City attorney's office to prepare easement documents for sewer and water infrastructure on vacated Liberty Ridge Way extension",
-      "Approve River District painted curb extension at Fourth Street and Scott Street for installation",
-      "Staff to explore grant funding (Arbor Day, DNR) for boulevard tree replanting as part of road reconstruction projects",
-      "Alder Heni to work with Director Linman to identify capital projects that could be deferred to reduce borrowing by $4–5 million",
-      "Staff to include pothole hotline number and road construction communication information in next city newsletter",
-      "Director Linman to place list of vacant, disused, or unplanned city properties on the next Infrastructure and Facilities Committee agenda",
-      "Alder Wizkowski to bring boulevard planting discussion to a future agenda"
-    ],
-    "topics": [
-      "Roads",
-      "Snow Plowing Policy",
-      "Special Assessments",
-      "Capital Infrastructure",
-      "Development"
-    ],
-    "votes": [
-      {
-        "item": "Consent agenda — authorizing downtown snow/ice removal",
-        "motion": "Move to approve",
-        "mover": "Alder Slonsky",
-        "second": "Alder Wascowski",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Minutes of the preceding meeting",
-        "motion": "Move to approve",
-        "mover": "Alder Wascowski",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Vacating alley bounded by Lake View Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard, with city retaining easement for sanitary sewer",
-        "motion": "Motion to vacate with amendment to retain city easement for sanitary sewer",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Vacating 134-foot southerly extension of Liberty Ridge Way, with city retaining easements for sewer and water",
-        "motion": "Motion to vacate with consideration of easements for city infrastructure",
-        "mover": "Alder Heni",
-        "second": "Alder Slonsky",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Assessment rates for 2027 construction projects — street reconstruction at $60/accessible foot, sewer lateral at $1,000, driveway at 100%, new sidewalk at 50%, replacement sidewalk at no assessment",
-        "motion": "Motion to accept assessment rates for 2027 construction projects with street reconstruction at $60 per accessible foot and sewer lateral at $1,000",
-        "mover": "Alder Martins",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amending winter street maintenance policy to permit snowplow counterflow to traffic when otherwise safe",
-        "motion": "Motion to amend the Department of Public Works winter maintenance policy to permit snowplow counterflow to traffic whenever it is otherwise safe to do so",
-        "mover": "Alder Slonsky",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "West Hill First Addition preliminary plat",
-        "motion": "Motion to approve",
-        "mover": "Alder Heni",
-        "second": "Alder Wascowski",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Painted curb extension project at Fourth Street and Scott Street proposed by the Wausau River District",
-        "motion": "Move to approve",
-        "mover": "Alder Slonsky",
-        "second": "Alder Martins",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "aljQa_V9Aos",
-    "source": "wausau",
-    "title": "Finance Committee Budget Session #3",
-    "date": "October 7, 2026",
-    "shortDate": "OCT 7",
-    "committee": "Finance",
-    "duration": "1h 42m",
-    "url": "https://www.youtube.com/watch?v=aljQa_V9Aos",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Finance Committee held its third budget session for the 2027 budget, covering special revenue funds, capital projects, TID districts, debt service, and enterprise funds. A significant portion of the meeting focused on the city's growing debt burden, with Alderperson Hani presenting eight budget proposals including capping borrowing, finding $4.2-5.2 million in deferrable capital projects, cutting the city administrator position, and requesting a 1% general fund reduction. The committee agreed not to meet Thursday as planned, instead giving time for members to submit written amendments for a future meeting.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and opening remarks"
-      },
-      {
-        "time": "1:20",
-        "item": "Public comment on agenda items"
-      },
-      {
-        "time": "2:10",
-        "item": "Special revenue funds overview"
-      },
-      {
-        "time": "16:45",
-        "item": "Capital projects discussion"
-      },
-      {
-        "time": "38:00",
-        "item": "TID districts (TID 8, 11, 12) project review"
-      },
-      {
-        "time": "58:30",
-        "item": "Debt service analysis and strategies to reduce debt reliance"
-      },
-      {
-        "time": "1:14:00",
-        "item": "Enterprise funds: Metro Ride, municipal airport, parking"
-      },
-      {
-        "time": "1:27:00",
-        "item": "Storm water utility discussion"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Fee schedule changes"
-      },
-      {
-        "time": "1:48:00",
-        "item": "Next steps, amendment process, and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Special Revenue Funds Overview",
-        "body": "Finance Director Maryanne presented the special revenue funds including community development block grant, economic development, environmental cleanup, room tax, recycling, animal control, hazmat, and the 400 Block Riverlife fund. She noted the environmental cleanup fund reserves are declining now that an insurance annuity from the Holtz Kroy settlement has ended, and costs from EPA oversight — including a $121,000 bill last year — will eventually return to the levy. She also suggested consolidating some special revenue funds into the general fund to build up the expenditure restraint base, noting the city receives over $1 million in expenditure restraint grant funding."
-      },
-      {
-        "item": "Capital Projects Discussion",
-        "body": "Engineering staff walked through 2027 infrastructure projects including Ethel Street reconstruction, 11th Avenue, 17th Avenue STP Urban design, asphalt overlay (proposed increase from $600,000 to $800,000), lead service line replacement, and sidewalk repair. Alderperson Hani raised concern about borrowing for basic infrastructure and asked whether projects like Ethel Street could be deferred to 2028; engineering staff explained deferral simply shifts the entire street reconstruction schedule back a year and increases ongoing maintenance costs. A committee member questioned why the city pays for alley paving excavation costs while residents are assessed only for asphalt, prompting discussion about revisiting that policy."
-      },
-      {
-        "item": "TID Districts Review",
-        "body": "Economic Development Manager Patrick presented TID 8 (MBX South demolition and environmental cleanup, with a $250,000 WEDC brownfield grant applied for), TID 11 (business campus site prep and marketing for a large development site off Innovation Way), and TID 12 (limited expenditures due to ongoing deficits, projected to remain in deficit for approximately 10 years). Jefferson parking ramp HVAC replacement was identified as a critical project after one of two redundant systems failed. The former Sears ramp east wall — exposed after the Sears building demolition — needs $700,000 in waterproofing and rehabilitation. A Forest Street engineering and planning project of $150,000 was discussed as enabling future LRIP and STP Urban grant applications."
-      },
-      {
-        "item": "Debt Service Analysis",
-        "body": "Maryanne presented a detailed debt analysis showing the city's outstanding general obligation debt at approximately 33.38% of equalized value (limit is 5%), projected to rise to 33.81% after proposed 2027 borrowing. She compared the 2016 infrastructure borrowing of $2.8 million at 1.54% interest (resulting in a $338,000 annual payment) to the proposed 2027 borrowing of $6.2 million estimated at approximately 4.27% (resulting in roughly $770,000 annually plus $216,000 for the lead service line loan). She proposed using TID 8's approximately $11 million in remaining increment capacity to absorb roughly $2.18 million in infrastructure costs, reducing the levy impact by approximately $275,000 annually. She also suggested a 10-year plan to incrementally add $130,000 per year to levy-funded capital to eventually take asphalt overlay and concrete repairs off debt."
-      },
-      {
-        "item": "Enterprise Funds: Metro Ride, Airport, Parking",
-        "body": "The committee discussed that Metro Ride and the municipal airport operate at deficits covered by the general fund. Alderperson Hani raised constituent concerns about deficit operations, while Alderperson Tierney noted some municipal services like transit are inherently not self-sustaining but enhance quality of life. It was explained that Metro Ride cannot expand service to surrounding municipalities like Rib Mountain because those communities have not invited the city in and would need to help subsidize service, as Wisconsin does not permit regional transit authorities. New Metro Ride buses are coming through the Volkswagen emissions settlement. Airport revenue discussion included land lease payments, property taxes on privately-owned hangars, and past fuel-flow surcharge revenue that was discontinued when aviation fuel prices rose."
-      },
-      {
-        "item": "Storm Water Utility Discussion",
-        "body": "Engineering Director Eric provided an overview of a storm water utility concept at committee request, explaining that currently 65% of storm water costs are borne by residential taxpayers rather than major impervious-surface users such as large parking lots and commercial buildings. A storm water utility would distribute costs based on equivalent dwelling units tied to impervious surface area, bringing in non-taxable entities like nonprofits as payers, with a corresponding reduction in the levy. Maryanne noted a consultant study funded by a grant is completed and a presentation is scheduled for the October 27th city council meeting."
-      },
-      {
-        "item": "Alderperson Hani's Budget Proposals and Next Steps",
-        "body": "Alderperson Hani presented eight budget proposals including: capping 2027 borrowing at $17-18 million or reducing debt by $1 million; identifying $4.2-5.2 million in deferrable capital projects; a 1% general fund spending reduction; removing $150,000 for the city administrator position; a motorpool charge reconciliation; a current accounting of committed versus unassigned general fund balance; asking the mayor to direct Metro Ride, airport, and parking to develop 5-year financial plans; a reconciled capital project schedule; and a 5-year debt forecast separated by general government, water, and wastewater. The committee agreed not to meet Thursday, directing members to submit written amendments to Maryanne, who will distribute them and incorporate approved changes as a budget insert. Alder Watson was noted as also having proposals to submit."
-      }
-    ],
-    "publicComment": "No public comment was offered. The chair noted no members of the public were present.",
-    "actionItems": [
-      "Thursday October 8th budget session cancelled; staff to notify Alders Watson and Neil",
-      "Committee members to submit individual budget amendment proposals in writing to Finance Director Maryanne for distribution to full committee",
-      "Maryanne to consolidate amendments as a budget book insert reflecting proposed changes before council consideration",
-      "Ellers financial advisors to prepare formal debt amortization scenarios for committee review at a future meeting, potentially Tuesday",
-      "Chair to poll committee members for quorum availability for a future budget session",
-      "Engineering to prepare a presentation breaking down capital projects by mission-critical criteria as requested by Alderperson Hani",
-      "Finance Director to research and report on inspection fee structure for multifamily versus single-family buildings, and consider 2% fee increase",
-      "Eric to explore adding fleet facility as a placeholder line item (up to $4.5 million) in the 2027 capital budget",
-      "Storm water utility consultant presentation scheduled for October 27th city council meeting",
-      "Maryanne to calculate property tax revenue attributable to airport hangars for committee reference",
-      "Maryanne to complete consolidation of budget cut figures requested by committee member and distribute",
-      "Mayor directed to consider having Metro Ride, airport, and parking departments develop 5-year financial projections"
-    ],
-    "topics": [
-      "Budget",
-      "Debt Service",
-      "Capital Projects",
-      "TID Districts",
-      "Storm Water Utility"
-    ],
-    "votes": [
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Hani",
-        "second": "Tierney",
-        "outcome": "Approved",
-        "tally": "Unanimous"
       }
     ]
   }
