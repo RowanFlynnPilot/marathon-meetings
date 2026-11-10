@@ -1,5 +1,63 @@
 [
   {
+    "id": "8cbyiMGaNPQ",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "November 10, 2026",
+    "shortDate": "NOV 10",
+    "committee": "Board of Public Works",
+    "duration": "1m",
+    "url": "https://www.youtube.com/watch?v=8cbyiMGaNPQ",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works held a brief meeting in which members approved a list of contractors for city work. The meeting was extremely short, consisting of a single contractor approval vote followed by adjournment.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Approval of contractor list"
+      },
+      {
+        "time": "1:30",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Contractor List",
+        "body": "A board member made a motion to approve a list of contractors for city work, briefly pausing mid-list to correct course ('Scratch that' regarding Mavo Systems before continuing). The list included CA Excavating Construction LLC, Collard Doran Associates Inc., Eert Wrecking Inc., Firebird Construction, Hos Suns Inc., Hoser Worldwide Inc., Integrity Grading and Excavating Inc., Lineco Inc., PGA Inc., RC Pavers, Robinson Brothers Environmental, The MRD Group, Velt and Company, Waller Excavating LLC, Wolverine Construction LLC, and WS Trucking and Construction LLC. The motion was seconded and passed unanimously on a voice vote."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Approve the listed contractors: CA Excavating Construction LLC, Collard Doran Associates Inc., Eert Wrecking Inc., Firebird Construction, Hos Suns Inc., Hoser Worldwide Inc., Integrity Grading and Excavating Inc., Lineco Inc., PGA Inc., RC Pavers, Robinson Brothers Environmental, The MRD Group, Velt and Company, Waller Excavating LLC, Wolverine Construction LLC, and WS Trucking and Construction LLC"
+    ],
+    "topics": [
+      "Contractor Approvals",
+      "Public Works",
+      "Construction",
+      "Excavating"
+    ],
+    "votes": [
+      {
+        "item": "Approval of contractor list for city work",
+        "motion": "Motion to approve the listed contractors",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous voice vote"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous voice vote"
+      }
+    ]
+  },
+  {
     "id": "kw_321dc8f6baf04e6bbb0b624a422ad98b",
     "source": "kronenwetter",
     "title": "Police and Fire Commission Meeting",
@@ -57,6 +115,352 @@
       "Police Department Hiring"
     ],
     "votes": []
+  },
+  {
+    "id": "S_UGYvK2peI",
+    "source": "weston",
+    "title": "Public Works Committee",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Public Works",
+    "duration": "1h 27m",
+    "url": "https://www.youtube.com/watch?v=S_UGYvK2peI",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11092026-1988",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Public Works Committee held its regular meeting on November 10, 2026, covering a detailed infiltration and inflow (I&I) study presentation for the Rothschild sewer basin, a sewer rate increase recommendation, and approvals of several intergovernmental agreements and design contracts. Key decisions included recommending Option F for 2027 sewer rates, approving a pedestrian crossing design contract at County Trunk X and Sternberg Avenue, approving a storm pond construction agreement, and approving an intergovernmental agreement with the Town of Weston for Ross Avenue reconstruction.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:45",
+        "item": "Public Comment"
+      },
+      {
+        "time": "2:10",
+        "item": "Item 6: Approval of October 2, 2026 Public Works and Utility Committee Minutes"
+      },
+      {
+        "time": "2:50",
+        "item": "Item 7: Acknowledge October 2026 Water and Sewer Permits"
+      },
+      {
+        "time": "3:30",
+        "item": "Item 8: I&I (Infiltration and Inflow) Study Presentation by Sean Dudy of Inpipe Technology"
+      },
+      {
+        "time": "28:00",
+        "item": "Item 9: VIP (Village Improvement Projects) Update"
+      },
+      {
+        "time": "46:00",
+        "item": "Item 10: Street Operations Update"
+      },
+      {
+        "time": "58:00",
+        "item": "Item 11: Fleet and Maintenance Equipment Update / Utility Report"
+      },
+      {
+        "time": "1:12:00",
+        "item": "Item 12: 2027 Sanitary Sewer Rate Policy Discussion and Recommendation"
+      },
+      {
+        "time": "1:35:00",
+        "item": "Item 13: Sidewalk Snow Removal Policy Discussion"
+      },
+      {
+        "time": "1:52:00",
+        "item": "Item 14: County Trunk X and Sternberg Avenue Pedestrian Design Contract"
+      },
+      {
+        "time": "2:04:00",
+        "item": "Item 15: Business 51 Storm Pond Construction Intergovernmental Agreement"
+      },
+      {
+        "time": "2:12:00",
+        "item": "Item 16: Ross Avenue/Town of Weston Intergovernmental Agreement"
+      },
+      {
+        "time": "2:25:00",
+        "item": "Items 17-21: Future Meeting Dates, Future Topics, Staff Remarks, Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "I&I Study Presentation",
+        "body": "Sean Dudy of Inpipe Technology presented results of a 44-day infiltration and inflow study covering approximately 26,000 feet of sewer pipe in the Rothschild area south of Highway 29. The study identified two 'red' priority areas — basin 2 and basin 3 — totaling about 3,300 feet, where groundwater infiltration and rain-driven inflow were highest, with one area showing 500-600% flow increases during rain events. Staff noted they had already identified a low manhole in one hot spot and discussed potential slip lining as a remediation tool. Committee members asked about flow volumes (approximately 1.9 to 5 gallons per minute in problem areas) and whether CCTV inspection had been done; staff confirmed historical televising exists but has not yet targeted these specific areas. Staff framed the study as providing data-driven direction to focus limited maintenance dollars rather than treating the entire neighborhood."
+      },
+      {
+        "item": "VIP (Village Improvement Projects) Update",
+        "body": "Public Works Director Michael provided updates on numerous active projects: Weston A special assessments are expected for the board next Monday; Scullfield A has concrete work remaining for spring 2027 with Treweiler as subcontractor; Bladl Avenue final paving is complete; Concord and Bayberry paving began the morning of the meeting; Ross Avenue Metro to Alderson project is targeted for February bid; Fuller Street punch list work was completed. The Ross Avenue and County Road X design contract (item 14) was previewed, with committee members raising concerns about insurance and liability limitation language in the consultant contract. Staff confirmed they would align the contract with the village's standard attorney-reviewed template before board execution."
+      },
+      {
+        "item": "Street Operations Update",
+        "body": "Staff reported completion of storm sewer work at wells 7 and 8 near the golf course, reconstruction of the outfall structure at Kathy Street including a new trash guard to prevent children from entering the pipe, overlay of Heron Street's northbound lane using a combination of contracted RC Pavers equipment and village-hauled asphalt, and replacement of a culvert on Harney Avenue. Fall curbside yard waste and leaf pickup operations were described as requiring at least four DPW staff members daily, with vac trucks averaging 10 loads each at 20 cubic yards per load. A committee member asked staff to quantify the cost savings from using in-house labor alongside contracted paving services; staff agreed to compile those figures for the December meeting, noting two competing bids differed by about $15,000."
+      },
+      {
+        "item": "2027 Sanitary Sewer Rate Policy Discussion and Recommendation",
+        "body": "Staff presented updated rate options following the previous month's discussion, noting that simply breaking even (Option A) was not considered viable by committee members. Discussion centered on Options G (projected net income ~$160,000) and F (projected net revenue ~$113,000). One member noted that at average usage of 12,000 gallons per year, the difference between G and F is roughly $5 per quarter or $20 per year per household. Committee members cited the need for funds to support slip lining projects, rising Mountain Metro treatment costs (up nearly $800,000 since 2019), and aging infrastructure including 10 miles of asbestos water main. The committee voted to recommend Option F, with staff noting rates could be lowered in future years if significant surplus developed."
+      },
+      {
+        "item": "Sidewalk Snow Removal Policy",
+        "body": "Discussion was prompted by a resident letter from someone abutting Fuller Street who is handicapped and cannot clear their sidewalk. Committee members unanimously agreed that creating an individual exception would be unworkable and set a problematic precedent, with one member stating 'if you don't follow it, you just don't even have one really.' The committee voted to make no substantive change to the snow removal policy but directed staff to update the written policy to reflect current actual practices, including newly added paths not previously listed. One member suggested the village newsletter could solicit volunteer 'sidewalk angels' to assist residents in need; staff agreed to include that in the newsletter."
+      },
+      {
+        "item": "County Trunk X and Sternberg Avenue Pedestrian Design Contract",
+        "body": "Staff explained the village did not receive the TAP (Transportation Alternatives Program) grant it had applied for, meaning pedestrian crossing improvements at County Trunk X and Sternberg Avenue — identified in the West Elementary School Safe Routes to School plan — would now be fully at village expense, estimated at $150,000-$200,000 construction cost with a design fee around $45,000. The improvements include a refuge island and pedestrian-activated warning lights. The committee voted to recommend awarding the design contract, contingent on staff reviewing and aligning the consultant's liability limitation language with the village's standard contract template before execution."
+      },
+      {
+        "item": "Business 51 Storm Pond Construction Intergovernmental Agreement",
+        "body": "Staff presented a construction-phase intergovernmental agreement for the Highway 29/Business 51 storm water pond shared with the Village of Rothschild and City of Schofield. Staff noted updated hydraulic modeling now shows the pond will remove 225 pounds of phosphorus annually — nearly double the originally estimated 122 pounds — which will delay the need for additional phosphorus removal projects. The village's cost share percentage increases slightly as a result, but staff framed this as favorable overall. The committee voted to recommend the village board approve the agreement."
+      },
+      {
+        "item": "Ross Avenue/Town of Weston Intergovernmental Agreement",
+        "body": "Staff presented a draft intergovernmental agreement with the Town of Weston for reconstruction of Ross Avenue from Riverbend Road to Paula's Avenue, programmed for 2028 construction with a surface transportation grant covering approximately 75% of costs (over $2.2 million). The cost split is approximately 51% village and 49% town based on right-of-way analysis. The agreement includes annexation provisions so that if town land annexes to the village post-construction, the village would reimburse the town for its proportionate remaining debt payments. A committee member raised a question about whether driveways should be explicitly included in the annexation reimbursement language, and staff agreed to refine that language. The committee voted to recommend approval with possible minor clarifications on pre- and post-annexation cost provisions."
+      }
+    ],
+    "publicComment": "No public comment was offered. A representative from Inpipe Technology (Sean Dudy) was present to deliver the I&I study presentation as a scheduled agenda item, not as a public commenter.",
+    "actionItems": [
+      "Staff to compile cost comparison data showing village savings from using in-house labor alongside contracted paving services, for presentation at December meeting",
+      "Staff to compile full fall leaf/yard waste pickup cost figures for December meeting as part of annual recycling grant report",
+      "Staff to review County Trunk X pedestrian design contract insurance and liability limitation language against village standard contract template before board execution",
+      "Staff to update sidewalk snow removal policy in writing to reflect current actual maintenance routes and newly added paths",
+      "Staff to include volunteer 'sidewalk angel' call-to-action in village newsletter",
+      "Staff to recommend Option F for 2027 sanitary sewer rates to the village board",
+      "Village board to consider approval of Business 51 storm pond construction intergovernmental agreement with Rothschild and Schofield",
+      "Village board to consider approval of Ross Avenue intergovernmental agreement with Town of Weston, with refined annexation/driveway cost language",
+      "Staff to review full I&I study report and begin planning CCTV inspection and potential slip lining of identified red priority areas in Rothschild",
+      "Staff to progress MSA survey work for water main replacement topic ahead of next meeting",
+      "Staff to present leaf pickup and Shirley Avenue project cost-savings information to full village board",
+      "Next regular meeting: Monday, December 14, 2026 at 4:30 p.m.",
+      "Following regular meeting: Monday, January 11, 2027 at 4:30 p.m."
+    ],
+    "topics": [
+      "Utilities",
+      "Roads",
+      "Budget",
+      "I&I Study Rothschild Sewer Basin",
+      "Ross Avenue Reconstruction",
+      "Sternberg Avenue Pedestrian Safety",
+      "Business 51 Storm Pond"
+    ],
+    "votes": [
+      {
+        "item": "Approval of October 2, 2026 Public Works and Utility Committee minutes",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge October 2026 water and sewer permits",
+        "motion": "Motion to acknowledge October 2026 water and sewer permits",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "2027 sanitary sewer rate — recommend Option F",
+        "motion": "Move to have them consider utilizing Weston F as the rate to be used in the future",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Sidewalk snow removal policy — no change, update to reflect current practice",
+        "motion": "Move that the village does not change its policy regarding snow removal or sidewalks but does update to reflect current roads and routes",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "County Trunk X and Sternberg Avenue pedestrian crossing design contract award",
+        "motion": "Move to recommend staff awards the contract to incorporate Sternberg Avenue intersection improvements into the county highway X and Ross Avenue project slated for construction in 2028",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Business 51 storm pond construction intergovernmental agreement with Rothschild and Schofield",
+        "motion": "Move to recommend the village board approve the agreement with the Village of Rothschild and the City of Schofield for the construction of the Business 51 storm water pond",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Ross Avenue intergovernmental agreement with Town of Weston",
+        "motion": "Move to recommend the village board approve the intergovernmental agreement with the Town of Weston for the reconstruction of Ross Avenue from Riverbend Road to Paula's Avenue with possible minor clarifications of the before and after annexation costs",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "So move",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "PZjmUPDVbTE",
+    "source": "marathon",
+    "title": "Human Resources, Finance & Property Committee Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "HR, Finance & Property",
+    "duration": null,
+    "url": "https://www.youtube.com/watch?v=PZjmUPDVbTE",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "{\n  \"overview\": \"The Marathon County Human Resources, Finance & Property Committee met to consider four proposed 2027 budget amendments and review the property tax levy resolution ahead of the full county board meeting the following day. The committee approved forwarding three of the four amendments to the board — including one to hold $6,300 in Flock license plate reader funding in contingency pending policy development, one to set aside $250,000 for potential legal intervention and litigation costs, and one updating medical examiner fee schedules — while voting not to recommend a $3.5 million capital improvement fund reduction. The levy resolution was approved unanimously for board consideration.\",\n  \"committee\": \"Marathon County Human Resources, Finance & Property Committee\",\n  \"presiding\": \"Chair Robinson (first name not stated in transcript)\",\n  \"agenda\": [\n    {\"time\": \"0:00\", \"item\": \"Pledge of Allegiance\"},\n    {\"time\": \"0:45\", \"item\": \"Public Comment\"},\n    {\"time\": \"9:30\", \"item\": \"Approval of October 20th Minutes\"},\n    {\"time\": \"10:10\", \"item\": \"Approval of October Claims and Question Costs\"},\n    {\"time\": \"11:00\", \"item\": \"2027 Budget Amendment and Capital Improvement Plan — Consideration of Potential Amendments and Review of Property Tax Levy Resolution\"},\n    {\"time\": \"11:30\", \"item\": \"Amendment 1: Flock Automated License Plate Reader Funding ($6,300) Transfer to HR/Finance Committee Contingency\"},\n    {\"time\": \"22:00\", \"item\": \"Amendment 2: $250,000 Sales Tax Revenue Increase for Legal Services (Authored by Supervisor Jensen)\"},\n    {\"time\": \"38:00\", \"item\": \"Amendment 3: Medical Examiner Fee Schedule — Pathologist Travel Fees for Civil and Criminal Testimony\"},\n    {\"time\": \"43:00\", \"item\": \"Amendment 4: $3.5 Million Reduction in Capital Improvement Fund Facilities (Authored by Supervisor Sundelski)\"},\n    {\"time\": \"1:08:00\", \"item\": \"Property Tax Levy Resolution 78-26 — Recommendation to County Board\"},\n    {\"time\": \"1:14:00\", \"item\": \"28th Avenue Properties — Divestiture Discussion\"},\n    {\"time\": \"1:22:00\", \"item\": \"Year-to-Date Budget Reports (August 2026)\"},\n    {\"time\": \"1:45:00\", \"item\": \"Miscellaneous / Cherokee County Park Land Acquisition Update\"},\n    {\"time\": \"1:48:00\", \"item\": \"Adjournment\"}\n  ],\n  \"discussions\": [\n    {\n      \"item\": \"Public Comment — Opioid Settlement Fund\",\n      \"body\": \"Former Supervisor Gail Marshall (remote) urged the committee to use the opioid settlement fund — currently at approximately $2.58 million with an additional $3.68 million expected — to offset opioid-related costs already being incurred in the sheriff's department, clerk of courts, and DA's office rather than holding the funds idle while taxing residents. She suggested that spreading the fund over 10 years, minus a reserve for jail treatment mandated by law, could yield approximately $490,000 annually for direct cost offsets. Administrator Leonard later responded that he is developing a perpetuity trust model, similar to Oklahoma's tobacco settlement approach, and expects to present a formal plan to the board in January.\"\n    },\n    {\n      \"item\": \"Public Comment — NCHC Transfer and Highway Department Budget Forecasting\",\n      \"body\": \"David Baker, an engineer and finance professional, addressed the committee urging consideration of phasing in the North Central Healthcare (NCHC) transfer to debt levy over two years rather than all at once. He presented a spreadsheet showing that a $2 million phased reduction in the transfer this year and $1–1.5 million less the following year would still leave $3.1 million above required policy reserves by 2031. He also argued that the highway department has historically spent only 62–66% of its budgeted expenditures, suggesting the county has been systematically over-budgeting, which complicates sound fiscal decision-making, and asked supervisors to consider a budget amendment reflecting this analysis.\"\n    },\n    {\n      \"item\": \"Public Comment — Flock License Plate Reader System\",\n      \"body\": \"Felix Gallow urged the committee to pause further funding of the Flock license plate reader system, citing serious data privacy and civil liberties concerns. He stated that 30 days of location data on approximately 450,000 people is accessible to over 1,000 entities across multiple states, that ICE has conducted hundreds or thousands of proxy searches through the system, and that officers have misused it to stalk individuals and surveil people suspected of having abortions. He called the current implementation a violation of the Fourth Amendment and recommended that Marathon County reduce data retention from 30 to 7 days, limit external data sharing, implement rigorous audits, and report results to the public safety committee, directing attendees to unflockwausau.org/marathon for more information.\"\n    },\n    {\n      \"item\": \"Amendment 1: Flock Automated License Plate Reader Funding ($6,300)\",\n      \"body\": \"Chair Robinson authored an amendment to transfer $6,300 budgeted for the Flock system out of the sheriff's department and into the HR/Finance/Property Committee contingency fund, to be released only upon a committee vote. Supervisor [inaudible — Knight or Nath] indicated he planned to introduce a competing amendment at the full board meeting the next day to strip the $6,300 entirely and return it to the levy rather than holding it in contingency. Vice Chair Pool raised concerns about handcuffing the sheriff's flexibility on data sharing, particularly regarding legitimate public safety uses, and suggested oversight should rest with the public safety committee rather than a two-member subcommittee. Chair Robinson clarified that a subsequent resolution would need to establish data-sharing and access policies, noting that a productive morning meeting had occurred with Administrator Leonard, Sheriff [inaudible — Bilip], and Felix Gallow. The motion to transfer funds to contingency passed but was not unanimous.\"\n    },\n    {\n      \"item\": \"Amendment 2: $250,000 for Legal Services (Jensen Amendment)\",\n      \"body\": \"With Supervisor Jensen absent, Administrator Leonard explained that the amendment would increase projected sales tax revenue by $250,000 and place a corresponding appropriation in the administrator's special projects cost center for legal services, intended primarily for potential county intervention before the Public Service Commission if Alliant Energy files an application for the Hub City wind project. Chair Gibbs supported the amendment but sought to broaden its scope to also cover potential litigation related to Bug Tussle broadband bond default, noting the county faces approximately $1.5 million in annual obligations that cannot simply be levied due to state levy limit laws. Vice Chair Pool asked whether unspent funds would roll into CIP — Leonard confirmed they would under existing policy unless separately directed otherwise. Finance Director Fensky noted that sales tax projections are historically about 11.68% below Forward Analytics projections. The motion passed but was not unanimous, with at least one member (identified as Cody) voting no.\"\n    },\n    {\n      \"item\": \"Amendment 3: Medical Examiner Pathologist Travel Fee Schedule\",\n      \"body\": \"Administrator Leonard presented an amendment — not attributed to any supervisor, as it was a staff oversight identified during budget development — adding two new fee schedule entries for the medical examiner: a travel time fee for pathologist testimony in civil cases and a corresponding travel time fee for criminal cases, both at a rate substantially lower than the existing testimony fee. Chair Gibbs agreed to put his name on the amendment. The committee approved it unanimously with no notable debate.\"\n    },\n    {\n      \"item\": \"Amendment 4: $3.5 Million CIP/NCHC Reduction (Sundelski Amendment)\",\n      \"body\": \"Authored by Supervisor Sundelski (who did not attend), this amendment would have reduced capital improvement fund revenues and expenditures by $3.5 million, effectively pulling back the North Central Healthcare transfer being used to fund the new highway shop and instead directing those funds toward debt service. Administrator Leonard explained the risks at length: the county already faces a $25 million hole in the general fund for the highway shop (three times larger than the $8.6 million that zeroed out CIP rollover in 2025–26), a $37 million residual liability from the Bug Tussle conduit bond guarantee including a $1.5 million obligation in 2027 that cannot legally be levied, potential Act 10 elimination impacts on labor costs, federal Medicaid and social services uncertainties from the 'one big beautiful bill,' and loss of roughly 30% of the county's investment portfolio income as construction bills come due. Chair Gibbs moved not to recommend the amendment, stating the county cannot support a measure that undermines long-term financial commitments including the highway shop and Bug Tussle obligations. The motion not to recommend passed but was not unanimous.\"\n    },\n    {\n      \"item\": \"Property Tax Levy Resolution 78-26\",\n      \"body\": \"Finance Director Fensky walked the committee through the 2027 budget and property tax levy resolution, noting the total proposed budget of $238,631,841 and explaining components including the operational levy, special purpose levies exempt from levy limits (bridge/culvert aid and library), debt levy, prior year unused levy adjustment, and state special charges. She noted the resolution includes $50,000 of contingency funding for the committee, which may change based on board amendments the following day. Chair Gibbs moved to approve and forward the resolution to the full county board, which passed unanimously.\"\n    },\n    {\n      \"item\": \"28th Avenue Properties Divestiture\",\n      \"body\": \"Administrator Leonard explained that the county had acquired properties along 28th Avenue years ago anticipating a highway corridor realignment, but after consulting with the City of Wausau and Village of Maine, determined that realignment is no longer planned. Staff have obtained desktop property evaluations and Leonard proposed listing developable parcels on Wisconsin Surplus to return them to the tax rolls, with proceeds going back to the highway reserve given they were purchased with highway funds. At least one parcel is not developable and will need separate disposition planning. The committee reached consensus to have Leonard return with a parcel-by-parcel breakdown including evaluation prices and proposed course of action for each before proceeding.\"\n    },\n    {\n      \"item\": \"Year-to-Date Budget Reports (August 2026)\",\n      \"body\": \"Finance Director Fensky reported no major concerns with August year-to-date figures, with payroll at 65.9% and overall budget at 66.67% through the year. She flagged several areas for monitoring: the homeless shelter budget is fully expended with contingency now covering remaining costs; the clerk of courts is running high on attorney and psychology evaluation fees but expected to remain within budget; corporation counsel legal fees are higher than anticipated but should be covered; and social services will require a budget amendment before year-end related to consortia accounting and a working capital transfer from the social improvement fund. Chair Robinson asked staff to investigate whether permit revenue in CPZ/zoning is trending downward compared to the 2027 budget projections. Fensky also explained that an apparent April investment loss was a paper/market-value loss that was subsequently recouped, not a realized loss.\"\n    },\n    {\n      \"item\": \"Cherokee County Park Land Acquisition — Potential Delay\",\n      \"body\": \"Vice Chair Pool raised the previously approved acquisition of land adjacent to Cherokee County Park and suggested the committee consider delaying the purchase given near-certain renewal of the Knowles-Nelson Stewardship Program by the incoming legislature, which could allow the county to secure grant funding for the purchase instead of using county taxpayer funds. He estimated the budget process would likely be complete by July, suggesting an 8–10 month delay was feasible and that the land was not at risk of being lost. Administrator Leonard acknowledged the suggestion and indicated administration would take it under advisement.\"\n    }\n  ],\n  \"publicComment\": \"Three speakers offered public comment. Former Supervisor Gail Marshall (appearing remotely) urged the committee to use the opioid settlement fund — projected to exceed $6.5 million — to offset opioid-related costs already being incurred in county departments rather than holding the funds idle while taxing residents. David Baker, an engineer and finance professional, presented a spreadsheet analysis arguing that a phased two-year reduction in the NCHC-to-debt-levy transfer would still leave reserves above policy minimums, and urged the committee to consider a budget amendment reducing the transfer by $2 million this year. Felix Gallow urged the committee to pause Flock license plate reader funding, citing mass surveillance risks, Fourth Amendment concerns, ICE proxy searches, and inadequate data security, and recommended specific policy reforms including reducing data retention to 7 days and limiting external data sharing.\",\n  \"actionItems\": [\n    \"Forward Amendment 1 (Flock $6,300 to HR/Finance contingency) to full county board for consideration at November budget adoption meeting\",\n    \"Forward Amendment 2 ($250,000 sales tax increase for legal/intervention costs) to full county board, broadened to cover both PSC intervention and potential Bug Tussle litigation\",\n    \"Forward Amendment 3 (medical examiner pathologist travel fee schedule additions) to full county board\",\n    \"Do not recommend Amendment 4 ($3.5 million CIP/NCHC reduction) to county board\",\n    \"Forward Property Tax Levy Resolution 78-26 to full county board for adoption\",\n    \"Administrator Leonard to return with parcel-by-parcel breakdown of 28th Avenue properties including evaluations, developability assessments, and proposed disposition for each parcel\",\n    \"Administrator Leonard and Health Officer to prepare presentation on opioid settlement fund — restrictions, current balance, perpetuity trust model analysis — for full board in January\",\n    \"Finance Director Fensky to investigate CPZ/zoning permit revenue trends relative to 2027 budget projections and report at next meeting\",\n    \"Administration to evaluate potential delay of Cherokee County Park land acquisition pending possible Knowles-Nelson Stewardship Program renewal and grant eligibility\",\n    \"Committee members to identify areas where state or federal policy changes may affect the county budget\",\n    \"Second November committee meeting cancelled; December will likely have only one meeting covering year-end items\"\n  ],\n  \"topics\": [\"Budget\", \"Public Safety\", \"Staffing\", \"Flock License Plate Readers\", \"Bug Tussle Broadband Bond\", \"Highway Shop Capital Project\", \"Opioid Settlement Fund\", \"28th Avenue Properties\"],\n  \"votes\": [\n    {\n      \"item\": \"Approval of October 20th minutes\",\n      \"motion\": null,\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Knight\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Approval of October claims and question costs\",\n      \"motion\": null,\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Nisth\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Amendment 1 — Transfer $6,300 Flock funding from sheriff's budget to HR/Finance/Property Committee contingency\",\n      \"motion\": \"Motion to support the resolution to transfer the $6,300 out of the sheriff's department budget and put it into the HR Finance committee contingency with the understanding that a future discussion will happen as it pertains to the use of those $6,300 that are contractually obligated by the sheriff's department\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Watson\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — at least one no vote\"\n    },\n    {\n      \"item\": \"Amendment 2 — Increase sales tax revenue projection by $250,000 and set aside for legal/intervention costs\",\n      \"motion\": \"Motion to approve amendment two, broadened to cover intervention and/or legal costs related to other county entities involved in litigation\",\n      \"mover\": null,\n      \"second\": \"Chair Gibbs\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — Cody voted no\"\n    },\n    {\n      \"item\": \"Amendment 3 — Add medical examiner pathologist travel fees for civil and criminal testimony to fee schedule\",\n      \"motion\": \"Motion to incorporate the fees for testifying pathologist travel for testifying in civil and criminal cases\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Nath\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Amendment 4 — Do not recommend $3.5 million CIP/NCHC reduction to county board\",\n      \"motion\": \"Motion that we not approve or recommend amendment 4 and the $3.5 million reduction\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Jean\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — at least one no vote\"\n    },\n    {\n      \"item\": \"Property Tax Levy Resolution 78-26 — Forward to county board\",\n      \"motion\": \"Motion to approve and forward to the full board for its consideration resolution 78-26 as presented\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Sean\",\n      \"outcome\": \"Approved\",\n      \"tally\":",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Meeting convened"
+      }
+    ],
+    "discussions": [],
+    "publicComment": "",
+    "actionItems": [],
+    "topics": [
+      "Budget",
+      "Staffing",
+      "Flock License Plate Reader Program"
+    ],
+    "votes": []
+  },
+  {
+    "id": "68FOdDdxyIg",
+    "source": "wausau",
+    "title": "Rules Review Committee Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "City of Wausau Rules Review Committee",
+    "duration": "1h 15m",
+    "url": "https://www.youtube.com/watch?v=68FOdDdxyIg",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Rules Review Committee held an organizational 'table-setting' session on November 9th to identify potential revisions to the City of Wausau's standing rules (Chapter 2.16 of municipal code). No formal votes or rule changes were made; the committee identified several areas for future revision including public comment procedures, standing committee appointments, absence notification, subcommittee chair elections, and the reporting chain from this committee to council. The committee agreed to reconvene in mid-January 2027 after members submit redlined proposed changes to the city attorney.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and confirmation of quorum"
+      },
+      {
+        "time": "0:45",
+        "item": "Public comment and reading of public comment statement"
+      },
+      {
+        "time": "3:20",
+        "item": "Review of standing rules Chapter 2.16 - general discussion"
+      },
+      {
+        "time": "5:10",
+        "item": "Discussion: reporting chain - committee of the whole vs. direct to council"
+      },
+      {
+        "time": "14:30",
+        "item": "Rule 1A - organizational meeting date language revision"
+      },
+      {
+        "time": "15:10",
+        "item": "Rule 1B - special meeting notice update (telephone vs. email)"
+      },
+      {
+        "time": "15:40",
+        "item": "Rule 4 - alder absence notification"
+      },
+      {
+        "time": "16:00",
+        "item": "Rule 13 - subcommittee chair and vice chair election; executive committee chairperson"
+      },
+      {
+        "time": "18:30",
+        "item": "Rule 16 - public comment engagement policy"
+      },
+      {
+        "time": "32:00",
+        "item": "Standing committee appointments by mayor - proposed rule addition"
+      },
+      {
+        "time": "48:00",
+        "item": "Suspension of rules, consent agenda, and committee structure efficiency"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Next meeting scheduling and adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Reporting chain: committee of the whole vs. direct to council",
+        "body": "Committee members, including Alder Tierney and Terry Kilian, questioned why recommendations must go to the committee of the whole before the full council, calling it redundant since the committee of the whole is essentially the same body. City Attorney Vinnie confirmed the reporting structure was set by the resolution creating this subcommittee. Mayor Doug Diny suggested the committee of the whole step allows all alders to weigh in on rule changes before council action. No formal change was made; it was noted the resolution could be amended via suspension of the rules at a future council meeting."
+      },
+      {
+        "item": "Rule 16 - public comment engagement policy",
+        "body": "The chair raised whether the existing practice of not engaging with public commenters should be codified in the rules, prompted by recent media coverage. Alder Hanei argued the current practice was proper and warned against a 'knee-jerk reaction to a mischaracterization by a media outlet.' Terry Kilian said a brief response to a direct question from a commenter could be respectful and appropriate. Alder Tierney raised concerns about managing time and consistency in contentious situations. Mayor Diny noted responses have historically been limited to procedural direction from the chair, and that the practice only became controversial after media reported on it. No rule change was finalized; members were asked to submit proposed language."
+      },
+      {
+        "item": "Standing committee appointments - proposed rule addition",
+        "body": "Alderperson Lou Larson raised during public comment that he and Alder Rasmussen were removed from long-held committee assignments, which he attributed to retribution. The chair noted two alders had requested a rule providing continuity for experienced alders in committee appointments. Alder Hanei and Terry Kilian both stated they were not in favor of changing the rule giving the mayor appointment authority, with Hanei noting it could undermine the mayor's prerogative and citing Marshfield's annual reappointment model as a possible alternative. No change was recommended."
+      },
+      {
+        "item": "Rule 13 - subcommittee chairs and executive committee chairperson",
+        "body": "Alder Tierney argued subcommittees such as bike and pedestrian should elect their own chair and vice chair, consistent with how standing committees operate. Terry Kilian additionally questioned why the executive committee — a standing committee — is required by Rule 13H to be chaired by the council president rather than electing its own chair. The city attorney noted some boards and commissions are governed by statute and cannot be changed, but council standing committees and subcommittees are within the rules' scope. No formal change was made; proposed language would be drafted for the next meeting."
+      },
+      {
+        "item": "Suspension of rules and consent agenda efficiency",
+        "body": "Alder Tierney expressed strong opposition to routine suspension of the rules, noting a previous rules committee under Gary Gelman had addressed the same recurring problem. Alder Hanei raised concerns about consent agendas containing items from committees some alders did not serve on, and suggested items that failed in committee should never appear on the consent agenda. Mayor Diny noted the old agenda software listed committee vote tallies alongside resolutions and suggested that practice be restored. The city attorney cited Rule 14 as already allowing committee chairs to give brief reports to council on their items. No rule changes were made; members encouraged to submit redlined proposals."
+      },
+      {
+        "item": "Number and structure of standing committees",
+        "body": "Alder Hanei raised the question of whether the city has too many committees, noting items sometimes travel through multiple committees before reaching council. He suggested exploring whether fewer committees with more members could mean more efficient city business and broader aldermanic awareness of issues before council votes. The chair acknowledged this was raised by the mayor at the organizational meeting and said the door remains open for the committee to consider recommending structural changes. No action taken."
+      }
+    ],
+    "publicComment": "One speaker offered public comment: Lou Larson, 904 South 21st Place, Wausau, identified himself as the alderperson for District 10. He raised two concerns: first, that placing public comment before the meeting sets a negative tone and risks turning council meetings into 'all-night extravaganzas' when contentious topics draw large crowds; second, that experienced alders including himself and Alder Rasmussen were removed from long-held committee assignments this term, which he characterized as retribution for disagreements with the mayor.",
+    "actionItems": [
+      "City attorney Vinnie to resend the Word version of Chapter 2.16 rules so committee members can submit redlined proposed changes",
+      "Committee members to send redlined proposed changes only to the city attorney, the chair, and the clerk to avoid a walking quorum",
+      "Clerk Rachel to send out a scheduling poll targeting mid-January 2027 for the next committee meeting",
+      "Chair to provide city attorney with proposed wording for Rules 1A, 1B, 4, 13, and 16",
+      "Mayor Diny to confer with city attorney on process for amending the resolution to allow this committee to report directly to council rather than through the committee of the whole",
+      "Committee to consider at next meeting whether to recommend changes to standing committee structure and number"
+    ],
+    "topics": [
+      "Rules Review",
+      "Public Comment Policy",
+      "Standing Committee Appointments",
+      "Consent Agenda",
+      "Council Procedures"
+    ],
+    "votes": [
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": "Alder Watson",
+        "second": "Alder Tierney",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "bb_771386",
@@ -6037,579 +6441,6 @@
       {
         "item": "Adjournment",
         "motion": "Move to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Kronenwetter Village Board convened its October 12, 2026 meeting at 6:00 p.m. The available transcript captures only the opening moments of the meeting, including the call to order, Pledge of Allegiance, and the beginning of roll call. No substantive agenda items, votes, or decisions are documented in the provided transcript.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:10",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:40",
-        "item": "Roll Call"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Call to Order and Pledge of Allegiance",
-        "body": "Village President Dan Joling called the October 12, 2026 Village Board meeting to order at 6:00 p.m. The Pledge of Allegiance was recited. Roll call began, with Trustee Aaron Myszka (referenced as 'Mishka' in the transcript, matched to known official) and Trustee Craig Mortensen both answering present before the transcript ends. No further business is captured in the available transcript."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Transcript is incomplete; no action items or decisions are documented beyond the opening call to order and partial roll call."
-    ],
-    "topics": [
-      "Village Board"
-    ],
-    "votes": []
-  },
-  {
-    "id": "bb_769562",
-    "source": "school_board",
-    "title": "Regular Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Regular Meeting",
-    "duration": "1h 2m",
-    "url": "https://www.youtube.com/watch?v=Jk4iqCHGIJE",
-    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau School Board held its regular October 12, 2026 meeting, approving consent agenda items, voting to join a nationwide class action lawsuit against Meta, TikTok, Snap, and Google over social media harm to youth, approving the 2027-2028 school calendar with an early start date waiver already granted by DPI, and updating policy 2370 to recognize the Wisconsin Seal of Biliteracy. The board also received an update on Career and Technical Education programs including youth apprenticeships, and postponed a closed session superintendent evaluation to October 28 due to three board members being absent.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Roll Call"
-      },
-      {
-        "time": "1:20",
-        "item": "Pledge of Allegiance and Mission Statement"
-      },
-      {
-        "time": "1:50",
-        "item": "Public Comment"
-      },
-      {
-        "time": "2:00",
-        "item": "Agenda Item 6: Consent Agenda Approval"
-      },
-      {
-        "time": "3:10",
-        "item": "Agenda Item 7: Old Business / Committee of the Whole"
-      },
-      {
-        "time": "3:25",
-        "item": "Agenda Item 8A: Career and Technical Education and Work-Based Learning Update (John Winter, CTE Coordinator)"
-      },
-      {
-        "time": "31:00",
-        "item": "Agenda Item 8B: Opportunity to Join Class Action Suit Against Social Media Companies (Dr. Elizabeth Channel)"
-      },
-      {
-        "time": "56:00",
-        "item": "Agenda Item 8C1: Approval of 2027-2028 School Calendar"
-      },
-      {
-        "time": "58:00",
-        "item": "Agenda Item 8C2: Policy 2370 - Educational Opportunities / Wisconsin Seal of Biliteracy"
-      },
-      {
-        "time": "59:30",
-        "item": "Agenda Item 9: Board Member Professional Growth and Development Report / Recognitions / Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Consent Agenda Approval",
-        "body": "The consent agenda was approved unanimously without discussion. It included staff appointments, replacements, contract changes, separations, leaves, retirements, minutes from four prior sessions (September 14, September 21 closed sessions, and September 28 special session), payment of bills, budget status, board member salaries, and donations from numerous community donors including Kulie Cards and Gaming, St. Andrew Lutheran Church, Walmart, and others."
-      },
-      {
-        "item": "Career and Technical Education and Work-Based Learning Update",
-        "body": "CTE Coordinator John Winter presented an overview of CTE programs, recent community partnership events including a career day at Green Heck (60 students from East and West), the Build My Future event at Kobe Window with 400 students and 60 businesses, Food for America for fourth graders, and an Army Humvee visit to the auto shop. Winter detailed three work-based learning programs—Advanced Marketing Internship (48 students), Business Opportunities at West, and Youth Apprenticeship (72 students)—explaining the DWD grant structure, 450-hour requirement, and dual grant funding. Board members Charles Burger, Sarah Brock, and Cory Sillars asked questions about AI's impact on career clusters, the transition from 16 to 14 state career clusters, potential state budget funding for high school trades programs, and the possibility of county-wide or regional collaboration on CTE programs. Sillars raised the idea of inter-district collaboration to save costs, and Winter noted the aviation 101 WAVE program as an existing model."
-      },
-      {
-        "item": "Class Action Lawsuit Against Social Media Companies",
-        "body": "Assistant Superintendent of Operations Dr. Elizabeth Channel presented details of a nationwide class action lawsuit against Meta, TikTok, Snap, and Google, alleging the companies designed platforms to addict youth, causing mental health harms including anxiety, depression, and suicidal ideation. Channel noted recent litigation victories including a $375 million New Mexico judgment against Meta and a $27 million settlement in a Kentucky school district case, and explained there is no upfront cost to the district—only a 25% contingency fee if damages are recovered. The board voted unanimously to approve a resolution authorizing retention of legal counsel and initiation of litigation. Board President Bouché read the full resolution aloud before the vote."
-      },
-      {
-        "item": "2027-2028 School Calendar Approval",
-        "body": "The board was informed that the DPI waiver for an early school start date—previously presented at the September Committee of the Whole by Communications Coordinator Diana White and Assistant Superintendent of Academics Dr. Katie Caswell—had been approved by DPI as of the prior week. The board voted unanimously to approve the 2027-2028 school calendar pending that waiver, which had already been granted to allow an early start due to anticipated construction."
-      },
-      {
-        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy)",
-        "body": "The board voted unanimously to approve proposed changes to Policy 2370, Educational Opportunities, to formally recognize the Wisconsin Seal of Biliteracy as an educational opportunity offered in the district. Dr. [Johnsky/Tossky - name unclear in transcript] had presented the background information at the September Committee of the Whole meeting. No additional discussion was noted at this meeting."
-      },
-      {
-        "item": "Board Member Professional Growth, Recognitions, and Closed Session Postponement",
-        "body": "Board President Bouché recognized Sarah Brock for achieving WASB Level 2 status and acknowledged his own WASB Level 5 recognition, both awarded at the Region 5 WASB meeting. Sillars noted he would attend DPI boundary appeal board hearings on October 20-21 in Hortonville regarding a potential school district dissolution, which could reduce Wisconsin's 421 districts. Bouché announced the closed session for superintendent evaluation was postponed to October 28 because three board members were absent and he wanted all nine members present for the evaluation."
-      }
-    ],
-    "publicComment": "No public comment was offered. Board President Bouché noted no one was present to speak and moved on.",
-    "actionItems": [
-      "Wausau School District will join nationwide class action litigation against Meta, TikTok, Snap, and Google; Superintendent authorized to execute all necessary legal documents",
-      "2027-2028 school calendar approved with early start date; DPI waiver already granted",
-      "Policy 2370 updated to recognize Wisconsin Seal of Biliteracy as an offered educational opportunity",
-      "Board member liaison district activity report to be entered into the official record",
-      "Superintendent evaluation closed session rescheduled to October 28, 2026 Committee of the Whole meeting",
-      "Cory Sillars to attend DPI boundary appeal board public hearings October 20-21 regarding Hortonville district dissolution",
-      "Administration to explore potential regional/county-wide CTE collaboration with other Marathon County and Region 5 school districts"
-    ],
-    "topics": [
-      "Career and Technical Education",
-      "Youth Apprenticeship",
-      "Social Media Litigation",
-      "School Calendar",
-      "Board Professional Development"
-    ],
-    "votes": [
-      {
-        "item": "Consent Agenda",
-        "motion": "Approve the consent agenda",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Resolution to join class action lawsuit against social media companies and retain legal counsel",
-        "motion": "Approve and adopt the resolution as presented authorizing litigation against social media companies",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "2027-2028 School Calendar with early start date waiver",
-        "motion": "Approval of the 2027-2028 school calendar pending DPI approval of early start date waiver",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Policy 2370 - Educational Opportunities (Wisconsin Seal of Biliteracy)",
-        "motion": "Approval of proposed changes to Policy 2370, Educational Opportunities",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Move to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "Jh604oscGRM",
-    "source": "weston",
-    "title": "Plan Commission",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Plan Commission, Village of Weston",
-    "duration": "1h 53m",
-    "url": "https://www.youtube.com/watch?v=Jh604oscGRM",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10122026-1979",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Plan Commission held its regular meeting on October 13, 2026, approving a conditional use permit for US Venture/US Auto Force to operate a tire cross-dock freight terminal at 6002 Industrial Drive, and approving an amended extension for Bug Properties LLC to complete site improvements at 6406 Scoffield Avenue by staggered deadlines. The commission also acknowledged site plan modifications for the Mountain Bay Metropolitan Police Department facility and authorized staff to issue an early start permit for footings and foundation pending setback verification.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and roll call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public comment period"
-      },
-      {
-        "time": "8:45",
-        "item": "Item 3: Receive written communications and commissioner conflict of interest disclosures"
-      },
-      {
-        "time": "11:30",
-        "item": "Item 4: Approval of minutes from September 14, 2026"
-      },
-      {
-        "time": "12:20",
-        "item": "Item 5: Public hearing – US Venture Inc. conditional use permit for freight terminal at 6002 Industrial Drive (Project 2026-0333)"
-      },
-      {
-        "time": "45:00",
-        "item": "Item 6: Public hearing – Bug Properties LLC amendment to conditional use permit 2023-0129 at 6406 Scoffield Avenue (Project 2023-0129)"
-      },
-      {
-        "time": "1:25:00",
-        "item": "Item 7: Special exception sign permit for Turf MD at 5605 Meer Street (Project 2026-03308)"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Item 8: Review proposed site plan modification for Mountain Bay Metropolitan Police Department at 3600 Community Center Drive (Project 2026-0116)"
-      },
-      {
-        "time": "1:58:00",
-        "item": "Items 9 & 10: September 26 staff report, certified survey maps and site plans"
-      },
-      {
-        "time": "2:02:00",
-        "item": "Item 11: Planning and development department monthly project update – US AM31/47 Grand Avenue CUP 2024-0072 and Tommy's Express"
-      },
-      {
-        "time": "2:18:00",
-        "item": "Items 12-14: Commissioner remarks, future agenda items, next meeting dates"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment – General",
-        "body": "One speaker (identified as Jim) delivered pointed criticism of the planning and zoning department's reactive rather than proactive approach to conditional use permit compliance, specifically questioning how a property owner was allowed to occupy a non-ADA-compliant, unsafe building for months without enforcement action. Jim questioned why there was no ongoing dialogue with applicants during the two-year permit window and stated, 'Does it take for someone to get killed in that building and then oh my goodness, now we'll do something.' A second online commenter, Jacob Beldock, confirmed his written email regarding US AM31/47 Grand Avenue CUP 2024-0072 had been included in the packet."
-      },
-      {
-        "item": "Item 5: US Venture Inc. – Conditional Use Permit for Freight Terminal at 6002 Industrial Drive",
-        "body": "Planner Jennifer presented the request for a CUP for a cross-dock tire distribution operation with two inbound 53-foot semis per day, seven delivery box trucks, and no outdoor storage. Applicant representative James Fland (Director of Real Estate, US Venture/US Auto Force) participated online, explaining the operation relocates from Rib Mountain and employs seven people. A neighbor, Brian (305 [street name]), raised concerns about traffic safety on the recently rebuilt path along the street given e-bikes and scooters, as well as noise and hours of operation. Jim P. spoke in support, noting he had a 20-year relationship with the company and stating the commission was acting in a quasi-judicial role under Wisconsin's 'shall issue' standard for conditional use permits. A motion to approve including a stormwater/tracking condition initially failed for lack of a second; a revised motion was approved removing condition D (limiting on-site trailer staging) and adding a condition requiring the applicant to work with village staff on preventing gravel/dirt tracking onto the road. An amendment adding the tracking/stormwater condition was voted on separately and approved before the main motion passed."
-      },
-      {
-        "item": "Item 6: Bug Properties LLC – Amendment to CUP 2023-0129 at 6406 Scoffield Avenue",
-        "body": "Staff planner Jennifer and code official Roman presented the noncompliance status of Bug Properties LLC, with approximately 30% of required concrete installed and multiple accessibility, signage, and permit issues outstanding nearly three years after original CUP approval. The applicant, Bruce Gus, was not present at the start of the hearing and joined Zoom late, after the public hearing had already been closed. Jim P. (public commenter) expressed frustration that the applicant was not present and questioned the department's lack of proactive communication. Commissioners debated whether to grant the requested one-year extension to September 30, 2027, with several members objecting to that timeline. The commission approved a staggered amendment: all items except concrete must be completed by November 30, 2026, with concrete work extended to September 30, 2027."
-      },
-      {
-        "item": "Item 7: Special Exception Sign Permit – Turf MD at 5605 Meer Street",
-        "body": "Staff presented a request to replace the cabinet on an existing 20-foot freestanding pylon sign that has a 5-foot setback where current code requires a 20-foot setback equal to sign height. Staff noted the pylon was originally installed in 1996 under old standards. Commissioners agreed the sign could not practically be relocated and approved the special exception sign permit unanimously with minimal debate."
-      },
-      {
-        "item": "Item 8: Mountain Bay Metro Police Department Site Plan Modification – 3600 Community Center Drive",
-        "body": "Police Chief and project representatives explained that a TC Energy gas pipeline was found to be located outside its recorded 1960s easement, forcing the building footprint to shift approximately 12 feet west and the parking lot to be reconfigured, including adding a pedestrian walkway to the front entrance. The commission acknowledged the site plan changes and voted to recommend the Village Board authorize staff to issue an early start permit for footings and foundation only, contingent on verification that setback requirements are met, with a full amended site plan to return for formal approval in November 2026. Commissioner Zeyghami raised concern about whether TC Energy could excavate the parking lot in the future, and a commissioner suggested consulting the village attorney to explore whether TC Energy bears any cost obligations given the mislocated pipeline."
-      },
-      {
-        "item": "Item 11: Monthly Project Update – Tommy's Express and US AM31",
-        "body": "Jennifer reported that Tommy's Express car wash had allowed its certificate of environmental insurance to lapse, with a new certificate in progress through corporate. Commissioners expressed serious concern about operating in a wellhead protection area without insurance coverage. One commissioner recommended that future conditional use permits include an automatic termination provision if the certificate of insurance expires, with a 30-day advance notification requirement, arguing staff should not have to bring this to the commission — it should be an automatic enforcement mechanism."
-      }
-    ],
-    "publicComment": "Two speakers provided in-person and online public comment. Jim (last name inaudible) spoke generally criticizing the department's reactive approach to CUP compliance enforcement, asking how a property owner was allowed to occupy a non-compliant building without action for months. Brian (305 [street name inaudible]) raised concerns about traffic safety near the US Venture site given e-bikes and scooters on a newly built path and asked about operating hours and noise. Jim P. spoke in support of the US Venture CUP, disclosing a 20-year business relationship with the applicant and asserting the commission was legally required to approve the permit under Wisconsin's shall-issue standard. Jacob Beldock confirmed via online comment that his prior email regarding US AM31/47 Grand Avenue CUP had been included in the packet.",
-    "actionItems": [
-      "Issue conditional use permit to US Venture/US Auto Force for freight terminal at 6002 Industrial Drive, subject to 14 conditions including WHPA environmental assessment approval and a new condition requiring applicant to work with village staff to address gravel/dirt tracking onto roadway",
-      "Amend Bug Properties LLC CUP 2023-0129: all non-concrete site improvements due November 30, 2026; concrete work due September 30, 2027, subject to seven conditions including written progress updates and final compliance inspection",
-      "Staff to verify Mountain Bay Metro Police Department building setback compliance with revised plans and issue early start permit for footings and foundation; full amended site plan to return to Plan Commission and Village Board in November 2026",
-      "Staff to follow up with TC Energy and consider consulting village attorney regarding cost responsibility for easement rewriting and potential future excavation on Mountain Bay Metro property",
-      "Staff to follow up with Tommy's Express on obtaining certificate of environmental insurance and receiving complete tank inspection video/photography with tanks fully drained",
-      "Planning staff to develop a future agenda item proposing automatic conditional use permit termination or enforcement trigger when certificate of insurance expires, particularly for wellhead protection area operators, including 30-day advance notification to the village"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Wellhead Protection",
-      "Code Enforcement",
-      "Mountain Bay Metro Police Station"
-    ],
-    "votes": [
-      {
-        "item": "Approval of September 14, 2026 Plan Commission minutes",
-        "motion": "Motion to approve as presented",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amendment to add stormwater/tracking condition to US Venture CUP",
-        "motion": "Move to amend to include a condition that Michael work with the property owner to address gravel/dirt tracking onto the road and the well protection area",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "US Venture Inc. CUP for freight terminal at 6002 Industrial Drive (Project 2026-0333)",
-        "motion": "Motion to approve per option one, including all proposed conditions, striking condition D (limit on-site trailer staging), and adding stormwater/tracking condition as amended",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Bug Properties LLC amendment to CUP 2023-0129 at 6406 Scoffield Avenue",
-        "motion": "Motion to approve the amendment extending the completion deadline to November 30, 2026 for all items excluding concrete and to September 30, 2027 for the concrete, subject to seven conditions, with all other terms of CUP 2023-0129 remaining in full force",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Special exception sign permit for Turf MD at 5605 Meer Street (Project 2026-03308)",
-        "motion": "Move to approve the special exemption sign permit per staff recommendation allowing replacement of the cabinet on the existing freestanding pylon sign not meeting setback requirements",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Mountain Bay Metro Police Department site plan modification and early start permit authorization (Project 2026-0116)",
-        "motion": "Motion to acknowledge potential amendments to the previously approved site plan, direct staff to continue technical review, and recommend to the Board of Trustees that staff be authorized to issue an early start permit limited to footings and foundation only after setback verification, with final amended site plan returning to Plan Commission and Board in November 2026",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "September 26 staff report, certified survey maps and site plans (Items 9 and 10)",
-        "motion": "Motion to approve items nine and ten",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment at 8:05 p.m.",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "NmOIKtAOxEU",
-    "source": "weston",
-    "title": "Public Works Committee",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Public Works",
-    "duration": "1h 37m",
-    "url": "https://www.youtube.com/watch?v=NmOIKtAOxEU",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10122026-1979",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Public Works Committee met on October 12, 2026, covering a range of infrastructure and utility topics including ongoing road construction projects, a proposed pedestrian crossing on Business 51, sewer rate options for 2027, and an infiltration/inflow study. The committee approved several engineering contracts and directed staff to develop additional sewer rate scenarios for a future decision, with a goal of reaching at least a break-even position.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "2:10",
-        "item": "Roll Call"
-      },
-      {
-        "time": "3:05",
-        "item": "Sidewalk snow plowing policy discussion (email from resident on Fuller Street)"
-      },
-      {
-        "time": "4:45",
-        "item": "Item 6: Approval of September 14, 2026 Public Works Committee Minutes"
-      },
-      {
-        "time": "5:20",
-        "item": "Acknowledge September 2026 water and sewer permit"
-      },
-      {
-        "time": "5:55",
-        "item": "Staff Report: CIP/DIP Update (Michael) — road and utility projects"
-      },
-      {
-        "time": "18:30",
-        "item": "Street Operations Report (Forest) — sand stockpile, signage, fleet maintenance"
-      },
-      {
-        "time": "35:10",
-        "item": "Item 11: Business 51 sidewalk crossing at Newport — DOT coordination update"
-      },
-      {
-        "time": "52:00",
-        "item": "Item 12: Proclamation 2026-002 recognizing Crash Responder Safety Week, November 2–6, 2026"
-      },
-      {
-        "time": "55:30",
-        "item": "Item 13: 2027 Sanitary Sewer Rate Options"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Item 14: Sanitary Sewer INI Study Results (Inpipe Technologies)"
-      },
-      {
-        "time": "1:38:00",
-        "item": "Item 15: Potential utility easement from Executive Court to Kramer Lane"
-      },
-      {
-        "time": "1:44:00",
-        "item": "Item 16: Engineering design contract for Vulkman Street, Business 51 to McIntyre"
-      },
-      {
-        "time": "1:49:00",
-        "item": "Item 17: Business 51 storm pond construction services contract (Strand Associates)"
-      },
-      {
-        "time": "1:56:00",
-        "item": "Item 18: Draft 2027 Street Maintenance Plan"
-      },
-      {
-        "time": "2:05:00",
-        "item": "Item 19: Next meeting dates and future agenda items"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Sidewalk Snow Plowing Policy",
-        "body": "Staff noted receipt of an email from a resident whose side yard abuts Fuller Street regarding sidewalk snow plowing. Staff explained the village generally does not plow residential sidewalks except where there is no boulevard and snow is plowed directly onto the sidewalk. A committee member requested it be placed on next month's agenda for discussion, and staff agreed."
-      },
-      {
-        "item": "CIP/DIP Project Update",
-        "body": "Staff reported Western Avenue is substantially complete with warranty concrete work ongoing; contractor Treeweiler requested that some larger concrete panel replacements be deferred to spring to avoid fresh concrete being damaged by road salt, which staff said would remain under warranty at no extra cost. Committee members debated the cause of widespread concrete spalling in central Wisconsin, noting it is not isolated to Weston. Bladel Avenue and Concord at Bayberry Street were described as nearing asphalt paving. Well Four is complete, Well Three rehabilitation is ongoing with an April go-live target. The Military Road project is finished. Granite Ridge subdivision has four homes under construction."
-      },
-      {
-        "item": "Fleet and Street Operations Report",
-        "body": "Street operations staff reported stockpiling over 52,000 yards of sand from ongoing projects for future road subgrade improvements in areas like Howland Avenue and Woodland Drive. A committee member raised a question about respiratory PPE for the employee spray-painting crosswalks and requested staff check the SDS for the latex-based paint given it is being spray-applied. Staff agreed to follow up on that safety question."
-      },
-      {
-        "item": "Business 51 Sidewalk Crossing at Newport",
-        "body": "Staff reported following up with the DOT after last month's meeting. The DOT indicated their preliminary safety evaluation found no documented pedestrian impacts (no one hit), which did not meet their threshold for warranted crossing funds. Staff and committee members argued that pedestrians are observed walking in the median to reach signalized intersections, which is unsafe even if no collision has occurred. The DOT indicated they need the village to formally indicate interest in the crossing before refining cost estimates; current figures of $20,000 for road widening and $10,000–$30,000 for behind-sidewalk grading were described as very preliminary. A committee member moved to proceed with pursuing the crossing including flashing beacons and to also refer the matter to the Public Safety Committee; the motion passed unanimously."
-      },
-      {
-        "item": "Proclamation 2026-002: Crash Responder Safety Week",
-        "body": "Staff explained the Wisconsin DOT's Traffic Incident Management Enhancement program requested municipalities issue a proclamation for Crash Responder Safety Week (November 2–6, 2026) to raise awareness about slowing down and moving over for crash responders. The committee moved to recommend approval of the proclamation, which passed unanimously."
-      },
-      {
-        "item": "2027 Sanitary Sewer Rate Options",
-        "body": "Staff presented six rate scenarios to address a 2025 operating loss of approximately $440,000 and a projected $100,000 increase in Rim Mountain Metro costs for 2027. Options ranged from doing nothing to recovering losses over two or three years or matching neighboring community rates. Committee members discussed the trade-offs between rate shock and gradual increases, whether to establish a tiered industrial rate, and whether INI study results reducing inflow could affect future costs. No rate was set; the committee directed staff to bring back additional scenarios (described informally as options G and H between scenarios E and F), historical Weston cost trend data, and Rim Mountain Metro multi-year billing history for further discussion next month, with a goal of implementing a new rate by January."
-      },
-      {
-        "item": "Sanitary Sewer INI Study Results",
-        "body": "Staff presented a preliminary excerpt from Inpipe Technologies' infiltration and inflow study covering the sewer system in the Rothschild boundary area (Alderson/Weston Ave to Vulkman, west to Highway 29). Staff explained the study uses flow trackers to distinguish groundwater infiltration from rain-driven inflow and can prioritize problem pipe reaches. Staff identified basins 3.0 and 2.0 near Highway 29 and Alderson as areas of concern not yet addressed. The committee acknowledged the report and directed staff to invite Inpipe Technologies to present the full study results at the next meeting, with 20 minutes allocated."
-      },
-      {
-        "item": "Potential Utility Easement: Executive Court to Kramer Lane",
-        "body": "Staff described an opportunity to secure a utility easement as a private property owner at 7209 Executive Court purchases a strip of land from a neighbor to the north, which would enable future water main looping out to Kramer Lane. Without the loop, the entire Edgewood Estates subdivision relies on a single connection at North Apache and Edgewood. The committee agreed it was worth pursuing and voted to direct staff to analyze potential easement costs and return with findings at a future meeting."
-      },
-      {
-        "item": "Engineering Design Contract: Vulkman Street, Business 51 to McIntyre",
-        "body": "Staff presented a revised quote from Becker Hoppy for $22,500 to design water main infrastructure on Vulkman Street from Business 51 to McIntyre, matching Rothschild's shared cost for their half of a water main redundancy project. Staff recommended pausing the McIntyre portion pending clarity on the junior high school's future. The committee approved the $22,500 contract."
-      },
-      {
-        "item": "Business 51 Storm Pond Construction Services Contract",
-        "body": "Staff presented Strand Associates' proposal of $92,800 for construction oversight and clean water fund loan administration for the Business 51 storm pond project, with Weston's share at $65,424 and the remainder split with Rothschild and Scoffield. Staff noted the DOT has not yet confirmed participation. A committee member suggested making approval contingent on partner community approval; the motion passed as amended with that contingency."
-      },
-      {
-        "item": "2027 Street Maintenance Plan",
-        "body": "Staff presented a draft plan totaling approximately 2.36 miles of asphalt overlay and just under 4.5 miles of GSB sealant, plus concrete repairs on Scoffield Avenue (westbound lanes), repaving of East Everest Avenue (rated 2 on PASER scale) near the new Mountain Bay Metro Police Department entrance, and a portion of Woodland Drive. Total budget is $850,000 across operating and CIP funds. Staff noted the plan hits the budget limit and the goal is to get bids out over winter to avoid spring scrambles. The committee approved the plan as presented."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Add sidewalk snow plowing policy to next month's agenda for discussion",
-      "Staff to check SDS for spray-applied latex crosswalk paint regarding respiratory PPE requirements",
-      "Staff (Isaac) to follow up with DOT traffic engineer regarding Business 51 pedestrian crossing and refer matter to Public Safety Committee",
-      "Staff to bring back additional sewer rate scenarios (options between E and F), multi-year Weston cost trend data, and Rim Mountain Metro historical billing for next month; goal is rate decision in time for January implementation",
-      "Staff to invite Inpipe Technologies to present full INI study results at next meeting (20 minutes allocated)",
-      "Staff to analyze potential cost of utility easement from Executive Court to Kramer Lane and return with findings",
-      "Staff to coordinate with partner communities (Rothschild, Scoffield) on storm pond project approval contingency",
-      "Staff to get 2027 street maintenance bid packages prepared over winter",
-      "Staff to follow up with MSA on water main replacement surveys for next month update",
-      "Sidewalk snow plowing history/policy to be added to next month's agenda"
-    ],
-    "topics": [
-      "Roads",
-      "Utilities",
-      "Budget",
-      "Business 51 Pedestrian Crossing",
-      "Sanitary Sewer Rates",
-      "Storm Pond",
-      "INI Infiltration Study"
-    ],
-    "votes": [
-      {
-        "item": "Approval of September 14, 2026 Public Works Committee minutes",
-        "motion": "Move to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge September 2026 water and sewer permit",
-        "motion": "Move to acknowledge",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Proceed with Business 51 pedestrian crossing including flashing beacons and refer to Public Safety Committee",
-        "motion": "Move that we proceed forward with addressing this, that it's a good idea to potentially add that, and also that it be brought to the safety committee",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Recommend approval of Proclamation 2026-002 recognizing Crash Responder Safety Week, November 2–6, 2026",
-        "motion": "Motion to recommend approval of proclamation 2026-002 recognizing crash responder safety",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge INI infiltration/inflow study results from Inpipe Technologies",
-        "motion": "Move to acknowledge this study",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Direct staff to analyze potential cost of utility easement from Executive Court to Kramer Lane and return for future action",
-        "motion": "Move to recommend that staff analyze the potential cost of an easement and bring it back for subsequent action at a future meeting",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Engineering design contract with Becker Hoppy for Vulkman Street infrastructure, Business 51 to McIntyre, $22,500",
-        "motion": "Recommend that we have Becker Hoppy design the infrastructure work on Vulkman Street between Business 51 and McIntyre at a cost of $22,500",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Contract amendment with Strand Associates for storm pond construction oversight and clean water fund loan administration, $92,800, contingent on partner community approval",
-        "motion": "Move to recommend the village board approve the contract amendment with Strand Associates for construction and clean water fund loan oversight for the storm pond project in the amount of $92,800 contingent on approval from our partner communities",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve 2027 Street Maintenance Plan as presented",
-        "motion": "Recommend the village board approve the 2027 street maintenance plan as presented",
         "mover": null,
         "second": null,
         "outcome": "Approved",

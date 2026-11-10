@@ -3094,6 +3094,50 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-28",
       "processed_at": "2026-11-10T02:44:29.340419+00:00",
       "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-11-10-kw-321dc8f6baf04e6bbb0b624a422ad98b.md"
+    },
+    "S_UGYvK2peI": {
+      "title": "Public Works Committee",
+      "source": "weston",
+      "doc_url": null,
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": 5271,
+      "video_url": null,
+      "processed_at": "2026-11-10T21:48:59.591383+00:00",
+      "summary_file": "summaries/weston-public-works-committee-s-ugyvk2pei.md"
+    },
+    "68FOdDdxyIg": {
+      "title": "Wausau Rules Review Committee Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": 4533,
+      "video_url": null,
+      "processed_at": "2026-11-10T21:49:48.487280+00:00",
+      "summary_file": "summaries/wausau-wausau-rules-review-committee-meeting-68fodddxyig.md"
+    },
+    "8cbyiMGaNPQ": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 101,
+      "video_url": null,
+      "processed_at": "2026-11-10T21:50:01.161398+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-8cbyimganpq.md"
+    },
+    "PZjmUPDVbTE": {
+      "title": "Marathon County Human Resources, Finance & Property Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-10T21:51:38.742772+00:00",
+      "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-pzjmupdvbte.md"
     }
   }
 }
