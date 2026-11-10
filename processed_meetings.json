@@ -3083,6 +3083,17 @@
       "video_url": null,
       "processed_at": "2026-11-09T06:23:23.982673+00:00",
       "summary_file": "summaries/dc-everest-special-school-board-meeting-2026-11-09-bb-771386.md"
+    },
+    "kw_321dc8f6baf04e6bbb0b624a422ad98b": {
+      "title": "Police and Fire Commission Meeting - 2026-11-10",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-321dc8f6baf04e6bbb0b624a422ad98b.pdf",
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-28",
+      "processed_at": "2026-11-10T02:44:29.340419+00:00",
+      "summary_file": "summaries/kronenwetter-police-and-fire-commission-meeting-2026-11-10-kw-321dc8f6baf04e6bbb0b624a422ad98b.md"
     }
   }
 }

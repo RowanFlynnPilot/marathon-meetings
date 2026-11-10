@@ -1,5 +1,64 @@
 [
   {
+    "id": "kw_321dc8f6baf04e6bbb0b624a422ad98b",
+    "source": "kronenwetter",
+    "title": "Police and Fire Commission Meeting",
+    "date": "November 10, 2026",
+    "shortDate": "NOV 10",
+    "committee": "Police & Fire Commission",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-28",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-321dc8f6baf04e6bbb0b624a422ad98b.pdf",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Kronenwetter Police and Fire Commission was scheduled to meet to review meeting minutes, receive public comment, and conduct a closed session to interview Police Department applicants regarding employment matters.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of September 28, 2026 meeting minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session - Consideration of motion to convene into closed session pursuant to Wis. Stat. 19.85 (1)(c) for consideration of employment, promotion, compensation or performance evaluation data of any public employee - to wit, interview Police Department applicants"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene Open Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Action After Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of September 28, 2026 meeting minutes",
+        "body": "The commission was scheduled to review and approve the minutes from the previous Police and Fire Commission meeting held on September 28, 2026."
+      },
+      {
+        "item": "Police Department Applicant Interviews",
+        "body": "The commission was set to convene into closed session to interview Police Department applicants and consider employment, promotion, compensation, or performance evaluation matters in accordance with Wisconsin Statute 19.85(1)(c). The commission was expected to return to open session following the closed session proceedings."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda with a 15-minute total period and three-minute limit per person, with time extension at the Chief Presiding Officer's discretion.",
+    "actionItems": [
+      "Scheduled to approve September 28, 2026 meeting minutes",
+      "Expected to consider motion to convene into closed session for Police Department applicant interviews",
+      "Expected to consider motion to reconvene into open session",
+      "Scheduled to consider action items following closed session"
+    ],
+    "topics": [
+      "Public Safety",
+      "Staffing",
+      "Police Department Hiring"
+    ],
+    "votes": []
+  },
+  {
     "id": "bb_771386",
     "source": "dc_everest",
     "title": "Special School Board Meeting",
@@ -6553,98 +6612,6 @@
         "motion": "Recommend the village board approve the 2027 street maintenance plan as presented",
         "mover": null,
         "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "5iujFRVxBrA",
-    "source": "wausau",
-    "title": "Human Resources Committee Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "City of Wausau Human Resources Committee",
-    "duration": "24m",
-    "url": "https://www.youtube.com/watch?v=5iujFRVxBrA",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Human Resources Committee met on October 12th and took action on two items: approving a request for an additional HR staff member (to be incorporated into the 2027 budget rather than a budget modification), and voting to maintain the existing summer hours schedule and traditional full-week winter hours rather than adopting year-round summer hours. The HR staffing approval is significant as a previous attempt to add the position had failed at common council.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Public Comment"
-      },
-      {
-        "time": "0:45",
-        "item": "Approval of Minutes from Preceding Meetings"
-      },
-      {
-        "time": "1:30",
-        "item": "Discussion and Possible Action: Reintroduction of Request to Approve Additional Human Resource Department Staff Member"
-      },
-      {
-        "time": "12:00",
-        "item": "Discussion and Possible Action: Recommendation to Establish Summer Hours as Year-Round City Hall Schedule"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of Minutes from Preceding Meetings",
-        "body": "Alder Wowski moved to approve the minutes from preceding meetings and Alder Larson seconded. The motion passed on a voice vote with no opposition."
-      },
-      {
-        "item": "Reintroduction of Request to Approve Additional HR Department Staff Member",
-        "body": "The acting HR director presented a detailed case for an additional HR coordinator, citing 24 active workers' compensation cases, complex FMLA administration, and an overall unsustainable workload. Alder Killian expressed full support, saying the workload 'looks unsustainable.' Alder Martins moved for approval, seconded by Alder Buscowski, and the motion passed. Discussion followed about timing: a prior budget modification had already been approved by finance and sent to common council but did not pass, so the committee agreed the position would instead be built into the 2027 budget, with posting anticipated on or after January 2nd."
-      },
-      {
-        "item": "Recommendation to Establish Summer Hours as Year-Round City Hall Schedule",
-        "body": "HR staff proposed making summer hours (Monday–Thursday 7:15 a.m.–4:30 p.m., half-day Friday) permanent year-round, noting that extended Tuesday evening hours attracted only five visitors all summer, three of whom came between 5:00 and 6:00 p.m. Alder Killian opposed year-round summer hours, arguing the city has a responsibility to be open during standard business hours including Friday afternoons, and moved to keep summer hours in summer while restoring full business hours in winter with one extended evening; that motion received no second. Alder Martins raised concern about closing Friday afternoons in winter and suggested a pilot for evening hours. Alder Larson moved to keep summer hours as summer hours and restore traditional full five-day winter hours, seconded by Alder Martins; that motion passed on a voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Additional HR staff member position approved; to be incorporated into the 2027 budget with posting anticipated on or after January 2nd rather than via immediate budget modification",
-      "Summer hours schedule maintained for summer months; traditional full five-day business-hours schedule maintained for winter months — year-round summer hours proposal rejected"
-    ],
-    "topics": [
-      "Staffing",
-      "Human Resources",
-      "City Hall Hours",
-      "Budget",
-      "Workers Compensation"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes from preceding meetings",
-        "motion": "Motion to approve",
-        "mover": "Alder Wowski",
-        "second": "Alder Larson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approval of additional HR department staff member",
-        "motion": "Motion to approve the additional human resources department staff member",
-        "mover": "Alder Martins",
-        "second": "Alder Buscowski",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Motion to keep summer hours in summer and restore full winter business hours with one extended evening",
-        "motion": "Motion to maintain summer hours as they are and remain open normal business hours with one extended evening hour",
-        "mover": "Alder Killian",
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Keep summer hours as summer schedule and restore traditional full five-day winter business hours",
-        "motion": "Motion to keep summer hours as summer hours and keep winter business hours as past practice, full days five days per week",
-        "mover": "Alder Larson",
-        "second": "Alder Martins",
         "outcome": "Approved",
         "tally": null
       }
