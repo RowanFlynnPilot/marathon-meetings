@@ -3134,10 +3134,21 @@
       "doc_url": null,
       "upload_date": "20261109",
       "meeting_date": "20261109",
-      "duration": null,
+      "duration": 5010,
       "video_url": null,
       "processed_at": "2026-11-10T21:51:38.742772+00:00",
       "summary_file": "summaries/marathon-marathon-county-human-resources-finance-property-committee-meeting-pzjmupdvbte.md"
+    },
+    "UclNYQZAFAo": {
+      "title": "Wausau Board of Public Works Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 339,
+      "video_url": null,
+      "processed_at": "2026-11-11T06:13:00.021631+00:00",
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uclnyqzafao.md"
     }
   }
 }

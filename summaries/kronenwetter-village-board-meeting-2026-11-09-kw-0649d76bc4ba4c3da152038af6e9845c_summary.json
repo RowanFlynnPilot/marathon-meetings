@@ -1,106 +1,174 @@
 {
-  "overview": "Based on the published agenda, the Village of Kronenwetter Board was scheduled to hold a public hearing and vote on the proposed 2027 operating budget, along with related budget resolutions and the appointment of a village clerk. The meeting was set to address multiple budget allocations across general, debt service, special revenue, capital projects, and enterprise funds.",
-  "committee": "Village Board of Kronenwetter",
-  "presiding": "Not indicated on agenda",
+  "overview": "The Village of Kronenwetter Board held its November 9, 2026 meeting primarily to adopt the 2027 operating budget, including all three budget resolutions covering the general fund, all other funds, and the capital improvements program. The board also formally appointed Connie Nowak as village clerk and renewed its legal services agreement with Wolfram, Gamoke and Hutchinson. All items passed unanimously 7-0, with Finance Director John presenting a detailed budget overview highlighting a proposed assessed tax rate of $4.25, a 6.79% tax levy increase, and no water or sewer rate increases for 2027.",
+  "committee": "Village Board - Village of Kronenwetter",
+  "presiding": "Dan Joling, Village President",
   "agenda": [
     {
-      "time": "N/A",
-      "item": "Announcement of Public Hearing - Village of Kronenwetter Proposed 2027 Operating Budget"
+      "time": "0:00",
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
-      "time": "N/A",
-      "item": "Close Public Hearing"
+      "time": "1:10",
+      "item": "Roll Call"
     },
     {
-      "time": "N/A",
+      "time": "2:30",
+      "item": "Public Hearing - Village of Kronenwetter Proposed 2027 Operating Budget"
+    },
+    {
+      "time": "5:00",
       "item": "Public Comment"
     },
     {
-      "time": "N/A",
-      "item": "Consent Agenda - August 27, 2026 Special Village Board meeting minutes"
+      "time": "14:30",
+      "item": "Close Public Hearing"
     },
     {
-      "time": "N/A",
-      "item": "Consent Agenda - September 14, 2026 Village Board meeting minutes"
+      "time": "15:30",
+      "item": "Consent Agenda - Approval of August 27, September 14, and September 17, 2026 Meeting Minutes"
     },
     {
-      "time": "N/A",
-      "item": "Consent Agenda - September 17, 2026 Village Board meeting minutes"
+      "time": "17:00",
+      "item": "New Business - 2027 Budget Presentation and Adoption (Resolutions 2026-013, 2026-014, 2026-015)"
     },
     {
-      "time": "N/A",
-      "item": "Budget Presentation for Proposed 2027 Operating Budget"
+      "time": "58:00",
+      "item": "Resolution 2026-016 - Appointment of Connie Nowak as Village Clerk"
     },
     {
-      "time": "N/A",
-      "item": "Resolution 2026-013: Adopt 2027 General Fund Operating Budget and Authorize Tax Levy"
+      "time": "64:00",
+      "item": "Resolution - Legal Services Agreement with Wolfram, Gamoke and Hutchinson"
     },
     {
-      "time": "N/A",
-      "item": "Resolution 2026-014: Adopt 2027 Budgets for Debt Service, Special Revenue, Capital Projects, and Proprietary/Enterprise Funds"
-    },
-    {
-      "time": "N/A",
-      "item": "Resolution 2026-015: Adopt 2027 Capital Improvements Program Budget"
-    },
-    {
-      "time": "N/A",
-      "item": "Resolution 2026-016: Appoint Connie Nowak as Village Clerk"
-    },
-    {
-      "time": "N/A",
-      "item": "Agreement for Legal Services with Wolfgram, Gamoke & Hutchinson, S.C"
+      "time": "69:00",
+      "item": "Future Agenda Items and Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Village of Kronenwetter Proposed 2027 Operating Budget",
-      "body": "A public hearing was scheduled to receive community input on the proposed 2027 operating budget. The board was set to close the public hearing and consider adoption of the budget through multiple resolutions addressing different fund categories."
+      "item": "Public Hearing - 2027 Operating Budget",
+      "body": "One member of the public, identified as Bernie, spoke during the public hearing. He commented on the state levy limit calculations, the disparity between Kronenwetter's high residential tax base (84%) versus commercial-heavy communities like Schofield (39%), questioned the need for a deputy clerk given Friday office closures, and expressed strong opposition to the village's ethics committee, calling it 'totally meaningless.' No other members of the public spoke during the hearing."
     },
     {
-      "item": "Budget Presentation for Proposed 2027 Operating Budget",
-      "body": "The board was scheduled to receive a detailed presentation of the proposed 2027 operating budget prior to consideration of adoption resolutions."
+      "item": "2027 Budget Presentation",
+      "body": "Finance Director John presented a detailed budget overview. Key highlights included a proposed assessed tax rate of $4.25 (equalized equivalent of $2.71), a total tax levy of approximately $2.9 million representing a 6.79% increase, no water or sewer rate increases, a garbage fee increase of $39.24 largely due to a diesel fuel surcharge, and a 3.5% COLA for non-elected positions. John noted the village's unassigned fund balance has grown from 3.52% in 2023 to approximately 34% for 2025, and previewed that a 2027 revaluation will likely drop the assessed tax rate significantly in 2028. Trustee Coyle thanked staff for presenting a 'competent budget,' implicitly referencing past budget shortfalls in 2023-2024 when debt service was underfunded by approximately $1.2 million over two years."
     },
     {
-      "item": "Resolution 2026-013: Adopt 2027 General Fund Operating Budget",
-      "body": "The board was expected to consider and vote on a resolution to adopt the 2027 general fund operating budget and authorize the levy of taxes therefor."
+      "item": "Resolution 2026-013 - Adopt 2027 General Fund Operating Budget",
+      "body": "Trustee Lesniak moved and Trustee Stowell seconded adoption of the 2027 general fund operating budget with a total appropriation of $6.5 million and a tax levy increase of 6.79%. The resolution passed unanimously 7-0 on roll call vote with no dissent or notable debate."
     },
     {
-      "item": "Resolution 2026-014: Adopt 2027 Budgets for Multiple Funds",
-      "body": "The board was set to consider a resolution to adopt 2027 budgets for the debt service, special revenue, capital projects, and proprietary/enterprise funds."
+      "item": "Resolution 2026-014 - Adopt 2027 Budget for Debt Service, Special Revenue, Capital Projects, and Proprietary Funds",
+      "body": "Trustee Stowell moved and Trustee Mishka seconded adoption of the resolution covering all other funds including debt service, special revenue, capital projects, TID districts, and utility funds. The resolution passed unanimously 7-0 on roll call with no discussion."
     },
     {
-      "item": "Resolution 2026-015: Adopt 2027 Capital Improvements Program Budget",
-      "body": "The board was scheduled to consider a resolution adopting the 2027 capital improvements program budget."
+      "item": "Resolution 2026-015 - Adopt 2027 Capital Improvements Program Budget",
+      "body": "Trustee Coyle moved and Trustee Solheim seconded adoption of the 2027 CIP budget totaling approximately $4.3 million, with proposed general obligation borrowing of roughly $1.865 million. John clarified that approving the CIP budget does not authorize immediate borrowing; separate borrowing resolutions must come before the board in 2027. The resolution passed unanimously 7-0."
     },
     {
-      "item": "Resolution 2026-016: Appoint Connie Nowak as Village Clerk",
-      "body": "The board was set to consider a resolution appointing Connie Nowak to the position of village clerk."
+      "item": "Resolution 2026-016 - Appointment of Connie Nowak as Village Clerk",
+      "body": "Trustee Mishka moved and Trustee Mortensen seconded appointing Connie Nowak as village clerk. Finance Director John flagged a potential error in the resolution's first 'whereas' clause, noting the charter ordinance specifies April as the start of the term rather than October; the board agreed to accept an abbreviated appointment now and clean up the language consistent with charter requirements. Multiple trustees praised Nowak, with Joling noting residents had already given her positive feedback. The resolution passed unanimously 7-0."
     },
     {
-      "item": "Agreement for Legal Services with Wolfgram, Gamoke & Hutchinson, S.C",
-      "body": "The board was scheduled to consider and possibly approve an agreement for legal services with the law firm Wolfgram, Gamoke & Hutchinson, S.C."
+      "item": "Legal Services Agreement with Wolfram, Gamoke and Hutchinson",
+      "body": "Trustee Mortensen moved and Trustee Solheim seconded approval of the legal services agreement. Brief discussion noted the contract is essentially the same as the existing one and that Village Attorney Wolfram has been well regarded, including by the former police chief. The agreement passed unanimously 7-0."
+    },
+    {
+      "item": "Future Agenda Items",
+      "body": "Village Administrator Jim raised the possibility of moving from two board meetings per month to one meeting per month on the fourth Monday, framing it as a way to streamline committee-to-board workflow and reduce scheduling burdens on trustees. He noted an ordinance change would be required and indicated it would be a discussion item at the next meeting. Discussion also touched on the rationale for Friday afternoon office closures, with staff explaining that uninterrupted time is needed for meeting minutes and audit tasks, and that a deputy clerk hire is planned for late first quarter 2027."
     }
   ],
-  "publicComment": "Public comment was on the agenda, with a 15-minute total limit and three-minute per-person time limit at the Chief Presiding Officer's discretion. The agenda noted that limited discussion may occur but no action would be taken under public comments.",
+  "publicComment": "One public speaker, identified as Bernie, addressed the board during the public hearing on the 2027 budget. He commented on the state levy limit worksheet and debt service adjustment figures, challenged the accuracy of per-capita tax comparisons between Kronenwetter (317 per capita, 84% residential) and commercial-heavy communities like Schofield (39% residential), questioned the proposed deputy clerk position given the village's Friday afternoon office closure policy, and criticized the village ethics committee as 'totally meaningless' and unworkable. No other members of the public spoke.",
   "actionItems": [
-    "Expected to vote on Resolution 2026-013 to adopt the 2027 General Fund Operating Budget and authorize tax levy",
-    "Expected to vote on Resolution 2026-014 to adopt 2027 budgets for debt service, special revenue, capital projects, and enterprise funds",
-    "Expected to vote on Resolution 2026-015 to adopt the 2027 Capital Improvements Program budget",
-    "Expected to vote on Resolution 2026-016 to appoint Connie Nowak as Village Clerk",
-    "Scheduled to consider approval of legal services agreement with Wolfgram, Gamoke & Hutchinson, S.C"
+    "Adopt 2027 General Fund Operating Budget with assessed tax rate of $4.25 and 6.79% levy increase (Resolution 2026-013 approved)",
+    "Adopt 2027 budgets for debt service, special revenue, capital projects, TID districts, and utility funds with no water or sewer rate increases (Resolution 2026-014 approved)",
+    "Adopt 2027 Capital Improvements Program budget of approximately $4.3 million; borrowing resolutions to follow separately in 2027 (Resolution 2026-015 approved)",
+    "Appoint Connie Nowak as village clerk; correct charter language in resolution from October to April term start (Resolution 2026-016 approved)",
+    "Renew legal services agreement with Wolfram, Gamoke and Hutchinson",
+    "Staff to review remaining funds from Old Highway 51 drainage project and assess options",
+    "Staff to develop deputy clerk job description in December; begin hiring process end of January 2027",
+    "Discuss changing board meeting structure from two meetings per month to one at next meeting",
+    "Explore shifting police union health insurance into Teamsters group plan to reduce 14.2% insurance cost increase",
+    "Consider utility commission citizen appointments; seek applicants who are utility customers"
   ],
   "topics": [
     "Budget",
-    "2027 Operating Budget",
-    "Capital Improvements",
     "Staffing",
-    "Legal Services"
+    "Utilities",
+    "TID Districts",
+    "Kronenwetter Drive Project"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Close Public Hearing on 2027 Budget",
+      "motion": null,
+      "mover": "Mortensen",
+      "second": "Stowell",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Consent Agenda - Approval of August 27, September 14, and September 17, 2026 Meeting Minutes",
+      "motion": "Motion to accept three respective meeting minutes with correction to add Solheim as present at September 14 meeting",
+      "mover": "Solheim",
+      "second": "Coyle",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Resolution 2026-013 - Adopt 2027 General Fund Operating Budget and authorize tax levy",
+      "motion": "Motion to approve Resolution 2026-013",
+      "mover": "Lesniak",
+      "second": "Stowell",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Resolution 2026-014 - Adopt 2027 budget for debt service, special revenue, capital projects, and proprietary funds",
+      "motion": "Motion to approve Resolution 2026-014",
+      "mover": "Stowell",
+      "second": "Mishka",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Resolution 2026-015 - Adopt 2027 Capital Improvements Program budget",
+      "motion": "Motion to approve Resolution 2026-015",
+      "mover": "Coyle",
+      "second": "Solheim",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Resolution 2026-016 - Appoint Connie Nowak as Village Clerk",
+      "motion": "Motion to approve Resolution 2026-016 to appoint Connie Nowak as village clerk",
+      "mover": "Mishka",
+      "second": "Mortensen",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Legal Services Agreement with Wolfram, Gamoke and Hutchinson",
+      "motion": "Motion to approve the contract with Wolfram",
+      "mover": "Mortensen",
+      "second": "Solheim",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Adjourn",
+      "motion": null,
+      "mover": "Stowell",
+      "second": "Coyle",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "fd35d4b39ce866d3",
   "title": "Village Board Meeting - 2026-11-09",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-67",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-0649d76bc4ba4c3da152038af6e9845c.pdf",
-  "processed_at": "2026-11-09T06:23:20.564813+00:00"
+  "processed_at": "2026-11-11T06:13:54.874627+00:00"
 }

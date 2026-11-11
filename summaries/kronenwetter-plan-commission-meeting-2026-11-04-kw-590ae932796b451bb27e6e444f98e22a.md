@@ -3,19 +3,28 @@
 **Organization:** Village of Kronenwetter  
 **Source:** https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-33  
 **Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-590ae932796b451bb27e6e444f98e22a.pdf  
-**Summarized:** 2026-11-04 00:37 UTC
+**Summarized:** 2026-11-11 06:14 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the Village of Kronenwetter Plan Commission was scheduled to meet to consider a Conditional Use Permit application for a nonmetallic mine operation on Kowalski Road. The meeting represented a significant land-use decision for the community, involving a 35.58-acre property proposed for mining operations.
+The Kronenwetter Plan Commission held its November 4, 2026 meeting primarily to deliberate and act on a conditional use permit for Eau Claire River LLC to operate an aggregate mine and pond expansion at 1320 Kowalski Road. After extensive discussion of operating conditions, noise, flood storage, and future development potential, the commission unanimously approved the CUP 7-0 with conditions. The decision is significant to residents as it sets the stage for potential industrial development of a long-stalled TIF district property by creating flood storage capacity that could unlock adjacent parcels.
 
 ## Key Discussions
-### Conditional Use Permit - Eau Claire River LLC Nonmetallic Mine
-The Plan Commission was scheduled to review and consider action on a Conditional Use Permit application submitted by Eau Claire River, LLC for a nonmetallic mine operation at 1320 Kowalski Road in Kronenwetter. The 35.58-acre property was expected to be evaluated for compliance with local zoning and land-use regulations governing mining operations in the village.
+### Public Comment
+No members of the public came to the microphone to speak during the public comment period. The chair noted no speakers and moved on.
+
+### Conditional Use Permit - Eau Claire River LLC, 1320 Kowalski Road
+The commission deliberated extensively on the CUP for an approximately 35.58-acre aggregate mining and pond expansion operation. Community Development Director Nathan Sandwick (referred to as 'Nathan' throughout) guided the commission through findings of fact and proposed conditions. Applicant representatives Tom and Gary provided extensive background on the site's history, flood storage engineering, prior interchange planning discussions, the settlement agreement with the Diocese that led to dropping a lawsuit, and confirmed no blasting or asphalt batching plant would occur. After working through roughly 14 proposed condition bullet points, the commission agreed to include conditions on: permitted hours of operation (6 a.m.–7 p.m. Monday–Friday, 6 a.m.–noon Saturday, year-round); a five-year renewal review period; perimeter staking of the excavation area; requiring trucks to be covered to suppress dust and debris; implementation of a reclamation plan; compliance with Village erosion and stormwater control standards; a geotechnical analysis by a qualified engineer to confirm excavation will not compromise adjacent roadways; and compliance with all applicable laws. Conditions on road repair monitoring, specific noise monitoring by either party, and redundant buffer yard language already covered by code were not included.
+
+### Future Agenda Items
+Following the vote, commissioners discussed scheduling a future educational session on flood district regulations ('Flood District 101') before Eau Claire River LLC returns with a Certified Survey Map to subdivide the nine-acre northern parcel as part of their settlement agreement with the Diocese. Commissioner Dick raised concern that the commission understand fill and flood zone restrictions before approving any future subdivision. Nathan Sandwick also flagged the need to update the village's conditional use permit tracking spreadsheet, which had not been maintained in several years.
 
 ## Public Comment
-Public comment was on the agenda, limited to 15 minutes total with a three-minute time period per person, with possible extension at the presiding officer's discretion.
+No public comment was offered.
 
 ## Action Items
-- scheduled to vote on or take action regarding the Conditional Use Permit application from Eau Claire River LLC for the nonmetallic mine operation
+- Conditional Use Permit approved for Eau Claire River LLC for aggregate mining at 1320 Kowalski Road with seven conditions: permitted hours (Mon–Fri 6 a.m.–7 p.m., Sat 6 a.m.–noon, 12 months/year); five-year renewal review period; perimeter of excavation area to be properly staked per site plan; trucks to be covered to suppress dust and debris; implementation of a reclamation plan in compliance with Marathon County requirements; compliance with Village erosion and stormwater control standards; geotechnical analysis and confirmation by a qualified engineer that excavation will not compromise structural integrity of adjacent roadways or structures.
+- Schedule a future commission meeting agenda item (targeting January or February) for a Flood District 101 educational session before Eau Claire River LLC returns with a CSM to subdivide the northern parcel.
+- Nathan Sandwick to update and maintain the Village's conditional use permit tracking spreadsheet.
+- Next Plan Commission meeting scheduled for November 16, with zoning ordinance changes carried over for discussion.
