@@ -58,8 +58,14 @@ CLAUDE_MODEL_AGENDA       = os.environ.get("CLAUDE_MODEL_AGENDA", "claude-haiku-
 ANTHROPIC_TIMEOUT_SECONDS = int(os.environ.get("ANTHROPIC_TIMEOUT_SECONDS", "180"))
 ANTHROPIC_MAX_RETRIES     = int(os.environ.get("ANTHROPIC_MAX_RETRIES", "4"))
 
-# Max characters of transcript to send to Claude in a single call.
-MAX_TRANSCRIPT_CHARS = int(os.environ.get("MAX_TRANSCRIPT_CHARS", "90000"))
+# Max characters of transcript to send to Claude in a single call. It was
+# 90,000 until Oct. 2026, which cut 33 of 193 transcripts, every council and
+# county board meeting among them, and the cut fell where the night's big votes
+# come: Sept. 8's summary called the lead ordinance "Approved" because the
+# "Motion failed. 5 to six." at character 95,595 never reached the model. The
+# longest transcript so far is ~184,000 characters (~46k tokens, ~$0.14 a
+# summary on Sonnet), well inside the model's context.
+MAX_TRANSCRIPT_CHARS = int(os.environ.get("MAX_TRANSCRIPT_CHARS", "300000"))
 
 
 # ── Filesystem layout ─────────────────────────────────────────────────────────
