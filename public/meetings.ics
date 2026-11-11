@@ -128,6 +128,17 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:9c8b1dfe693480f430e7@marathon-meetings
+DTSTAMP:20261116T000000Z
+DTSTART;TZID=America/Chicago:20261116T180000
+DTEND;TZID=America/Chicago:20261116T193000
+SUMMARY:Village of Kronenwetter: Plan Commission Meeting
+URL:https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission
+ -meeting-34
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:2bc3e7f056fd40dec8b4@marathon-meetings
 DTSTAMP:20261117T000000Z
 DTSTART;TZID=America/Chicago:20261117T103000
