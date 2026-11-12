@@ -3149,6 +3149,17 @@
       "video_url": null,
       "processed_at": "2026-11-11T06:13:00.021631+00:00",
       "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uclnyqzafao.md"
+    },
+    "kw_72cd279271474fd5bb5d5a83fb451c72": {
+      "title": "Redevelopment Authority Meeting - 2026-11-12",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-72cd279271474fd5bb5d5a83fb451c72.pdf",
+      "upload_date": "20261112",
+      "meeting_date": "20261112",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ra/page/redevelopment-authority-meeting-6",
+      "processed_at": "2026-11-12T07:08:16.470820+00:00",
+      "summary_file": "summaries/kronenwetter-redevelopment-authority-meeting-2026-11-12-kw-72cd279271474fd5bb5d5a83fb451c72.md"
     }
   }
 }
