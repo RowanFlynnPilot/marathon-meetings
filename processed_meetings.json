@@ -3160,6 +3160,94 @@
       "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-ra/page/redevelopment-authority-meeting-6",
       "processed_at": "2026-11-12T07:08:16.470820+00:00",
       "summary_file": "summaries/kronenwetter-redevelopment-authority-meeting-2026-11-12-kw-72cd279271474fd5bb5d5a83fb451c72.md"
+    },
+    "kw_d474242dcfbd49508eb066a59cb8f3da": {
+      "title": "Plan Commission Meeting - 2026-11-16",
+      "source": "kronenwetter",
+      "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d474242dcfbd49508eb066a59cb8f3da.pdf",
+      "upload_date": "20261116",
+      "meeting_date": "20261116",
+      "duration": null,
+      "video_url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-34",
+      "processed_at": "2026-11-16T06:24:52.060741+00:00",
+      "summary_file": "summaries/kronenwetter-plan-commission-meeting-2026-11-16-kw-d474242dcfbd49508eb066a59cb8f3da.md"
+    },
+    "EwyT8MJXctI": {
+      "title": "Marathon County Public Safety Committee Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 5429,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:25:45.200992+00:00",
+      "summary_file": "summaries/marathon-marathon-county-public-safety-committee-meeting-ewyt8mjxcti.md"
+    },
+    "JlCDth7F-RQ": {
+      "title": "Marathon County (Budget) Meeting",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 9863,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:26:40.646983+00:00",
+      "summary_file": "summaries/marathon-marathon-county-budget-meeting-jlcdth7f-rq.md"
+    },
+    "LJW8KBfFsaY": {
+      "title": "Wausau City Council Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 7719,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:27:56.162368+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-meeting-ljw8kbffsay.md"
+    },
+    "NK80DZtCkNg": {
+      "title": "Marathon County Board Executive Committee Meeting Pt.1",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261111",
+      "meeting_date": "20261111",
+      "duration": 4597,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:28:49.930123+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-executive-committee-meeting-pt1-nk80dztckng.md"
+    },
+    "QiphgzDv_zE": {
+      "title": "Marathon County Board Executive Committee Meeting Pt.2",
+      "source": "marathon",
+      "doc_url": null,
+      "upload_date": "20261111",
+      "meeting_date": "20261111",
+      "duration": 813,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:29:15.422227+00:00",
+      "summary_file": "summaries/marathon-marathon-county-board-executive-committee-meeting-pt2-qiphgzdv-ze.md"
+    },
+    "VQysP2OBjfI": {
+      "title": "Wausau Joint Finance and Human Resources Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261110",
+      "meeting_date": "20261110",
+      "duration": 4703,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:30:27.014260+00:00",
+      "summary_file": "summaries/wausau-wausau-joint-finance-and-human-resources-meeting-vqysp2objfi.md"
+    },
+    "oLNO7g9EenE": {
+      "title": "Wausau City Council Infrastructure and Facilities Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261112",
+      "meeting_date": "20261112",
+      "duration": 3323,
+      "video_url": null,
+      "processed_at": "2026-11-16T06:31:26.675135+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-infrastructure-and-facilities-meeting-olno7g9eene.md"
     }
   }
 }

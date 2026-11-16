@@ -119,5 +119,14 @@
 {"ts":"2026-11-11T06:13:54+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":14567,"output_tokens":2341,"usd":0.07882},
 {"ts":"2026-11-11T06:14:28+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":15850,"output_tokens":1405,"usd":0.06863},
 {"ts":"2026-11-11T16:09:50+00:00","script":"marathon_meeting_summarizer","model":"claude-sonnet-4-6","input_tokens":1490,"output_tokens":1080,"usd":0.02067},
-{"ts":"2026-11-12T07:08:16+00:00","script":"marathon_meeting_summarizer","model":"claude-haiku-4-5-20251001","input_tokens":1220,"output_tokens":1373,"usd":0.00809}
+{"ts":"2026-11-12T07:08:16+00:00","script":"marathon_meeting_summarizer","model":"claude-haiku-4-5-20251001","input_tokens":1220,"output_tokens":1373,"usd":0.00809},
+{"ts":"2026-11-16T06:24:52+00:00","script":"marathon_meeting_summarizer","model":"claude-haiku-4-5-20251001","input_tokens":1305,"output_tokens":983,"usd":0.00622},
+{"ts":"2026-11-16T06:25:45+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":18844,"output_tokens":1856,"usd":0.08437},
+{"ts":"2026-11-16T06:26:40+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":21875,"output_tokens":2603,"usd":0.10467},
+{"ts":"2026-11-16T06:27:56+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":22056,"output_tokens":3351,"usd":0.11643},
+{"ts":"2026-11-16T06:28:49+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":15757,"output_tokens":2180,"usd":0.07997},
+{"ts":"2026-11-16T06:29:15+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":3453,"output_tokens":981,"usd":0.02507},
+{"ts":"2026-11-16T06:30:27+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":14885,"output_tokens":3943,"usd":0.1038},
+{"ts":"2026-11-16T06:31:26+00:00","script":"inject_transcript","model":"claude-sonnet-4-6","input_tokens":11075,"output_tokens":2407,"usd":0.06933},
+{"ts":"2026-11-16T06:31:50+00:00","script":"generate_roundup","model":"claude-sonnet-4-6","input_tokens":4383,"output_tokens":520,"usd":0.02095}
 ]
