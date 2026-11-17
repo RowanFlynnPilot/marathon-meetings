@@ -1,83 +1,164 @@
 {
-  "overview": "Based on the published agenda, the Kronenwetter Plan Commission was scheduled to hold a public hearing and vote on a text amendment to Chapter 508 of the village ordinances regarding septic tank use in the sewer system area, and to consider several development and infrastructure matters including a subdivision plat review and stormwater maintenance agreement.",
-  "committee": "Plan Commission",
-  "presiding": "",
+  "overview": "The Kronenwetter Village Plan Commission held its November 16, 2026 meeting, approving recommendations on a septic tank ordinance amendment, the Green Tree Trails subdivision final plat, and a stormwater maintenance agreement for the County Road XX distribution center. The commission also received updates on the Pleasant Haven subdivision proposal for the former FAA site, discussed upcoming zoning code review priorities, and flagged traffic safety concerns on Pleasant Road near growing residential development.",
+  "committee": "Village of Kronenwetter Plan Commission",
+  "presiding": "Rick Grundman, Chair (based on context; name confirmed from roll call)",
   "agenda": [
     {
-      "time": "6:00 PM",
-      "item": "Text Amendment of Chapter 508 - Water and Sewers regarding septic tank restrictions"
+      "time": "0:00",
+      "item": "Call to Order and Pledge of Allegiance"
     },
     {
-      "time": "N/A",
-      "item": "Approval of Minutes from July 20, 2026 Plan Commission Meeting"
+      "time": "1:30",
+      "item": "Motion to Reorder Agenda Items (move Item 8G to after new business)"
     },
     {
-      "time": "N/A",
-      "item": "Approval of Minutes from July 27, 2026 Plan Commission Meeting"
+      "time": "3:00",
+      "item": "Public Hearing: Text Amendment to Chapter 508 - Septic Tanks in Village Sewer System Area"
     },
     {
-      "time": "N/A",
-      "item": "Community Development Director Report"
+      "time": "4:00",
+      "item": "Public Comment"
     },
     {
-      "time": "N/A",
-      "item": "Zoning Code Review"
+      "time": "4:30",
+      "item": "Approval of Minutes - July 20 and July 27, 2026"
     },
     {
-      "time": "N/A",
-      "item": "Septic Tank Ordinance"
+      "time": "6:00",
+      "item": "Community Development Director Report (Nathan)"
     },
     {
-      "time": "N/A",
-      "item": "Subdivision final plat and draft development agreement review for Green Tree Trails"
+      "time": "15:00",
+      "item": "Item 9H - Septic Tank Ordinance Amendment (Chapter 508-37)"
     },
     {
-      "time": "N/A",
-      "item": "Resolution to authorize a stormwater maintenance agreement with 2027 Wausau LLC for distribution center at 1619 County Road XX"
+      "time": "28:00",
+      "item": "Item 9I - Green Tree Trails Subdivision Final Plat and Draft Development Agreement Review"
+    },
+    {
+      "time": "52:00",
+      "item": "Item 9J - Resolution to Authorize Stormwater Maintenance Agreement with 2027 WASA LLC, 1619 County Road XX"
+    },
+    {
+      "time": "57:00",
+      "item": "Item 8G - Zoning Code Review (Old Business)"
+    },
+    {
+      "time": "1:10:00",
+      "item": "Next Meeting, Future Agenda Items, and Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Text Amendment of Chapter 508 - Water and Sewers",
-      "body": "The Plan Commission was scheduled to hold a public hearing on proposed amendments to Chapter 508 subsection 508-37 regarding septic tanks. The amendments were set to establish criteria allowing septic tanks as exceptions in the village's sewer system area, where they are currently prohibited."
+      "item": "Motion to Reorder Agenda",
+      "body": "The chair moved to shift Item 8G (zoning code review) to after new business items to accommodate the energy levels and public present for those discussions. The motion was seconded and passed 7-0 with no discussion."
     },
     {
-      "item": "Zoning Code Review",
-      "body": "The Commission was scheduled to discuss ongoing zoning code review matters as part of old business. Details regarding specific aspects of the code under review were not provided in the agenda."
+      "item": "Public Hearing: Chapter 508 Septic Tank Ordinance Amendment",
+      "body": "No members of the public appeared to speak at the public hearing. The chair announced no sign-ups and closed the hearing without testimony."
     },
     {
-      "item": "Septic Tank Ordinance",
-      "body": "The Plan Commission was set to take action on septic tank ordinance matters, which relates to the text amendment being considered and was expected to be addressed as new business."
+      "item": "Approval of Minutes - July 20 and July 27, 2026",
+      "body": "Bruce moved and Dick seconded approval of both sets of meeting minutes. One commissioner noted the minutes lacked a 'prepared by' attribution, which staff acknowledged as an oversight related to catching up after a clerk departure. Minutes were approved 7-0."
     },
     {
-      "item": "Green Tree Trails Subdivision",
-      "body": "The Commission was scheduled to review the final plat and draft development agreement for the Green Tree Trails subdivision project. This was set for discussion and possible action under new business."
+      "item": "Community Development Director Report",
+      "body": "Community Development Director Nathan reported on several developments: the DNR notified the village of a Rothschild dam failure analysis requiring updated floodplain maps within roughly a year; the Pleasant Haven subdivision application has been submitted for the former FAA site, requiring both a rezoning and a public hearing likely at the December 21st meeting; and he flagged two zoning code gaps — the lack of a use variance provision and the potential need for zoning changes to enable residential Tax Increment Districts, a new statewide tool. He urged commissioners to confirm December 21st availability soon so a public hearing notice can be published by December 1st."
     },
     {
-      "item": "Stormwater Maintenance Agreement Resolution",
-      "body": "The Plan Commission was scheduled to consider a resolution authorizing a stormwater maintenance agreement with 2027 Wausau LLC for a distribution center located at 1619 County Road XX. This was expected to involve discussion and possible action."
+      "item": "Chapter 508-37 Septic Tank Ordinance Amendment",
+      "body": "Rick Grundman recused himself. The ordinance amendment would allow restricted use of septic tanks within the village sewer service area under specific criteria including a 400-foot distance threshold, minimum 5-acre parcel, and no more than seven months of use per year. A commissioner asked about the basis for those numbers; a commissioner who sits on the utility committee explained they came from DPW Director Greg Almond and the utility foreman, informed by a specific case involving the school's concessions operation. Bruce moved and Dick seconded approval; the motion carried 6-0 (with Grundman recused) and will go to the village board."
+    },
+    {
+      "item": "Green Tree Trails Subdivision Final Plat and Draft Development Agreement",
+      "body": "Nathan reported the final plat conforms with the previously approved preliminary plat from September, with one addition of access detail for the stormwater pond. Developer representative Bill Schofield (Pilgrims Landing, Menomonee Falls) addressed the commission, disclosing several key items: an emergency gated access to Nick Avenue is under contract with PGA Construction, funded by developer J. Shutey; the development is phased over potentially five to seven years with Phase 1 (lots on Pleasant/Pine), Phase 2 (interior lots and road), and Phase 3 (northern section); and Lot 54 is proposed to be sold ahead of its phase due to its proximity to a neighbor's patio, as a goodwill resolution. Commissioners asked about emergency access adequacy; one commissioner with nearly 20 years of emergency services experience said dead-end subdivisions are routinely handled and was not concerned. A commissioner raised traffic safety on Pleasant Road, noting a rear-end accident that evening. Jessica moved and Rick seconded to recommend board approval of the final plat; the motion passed 7-0 on a roll call vote."
+    },
+    {
+      "item": "Stormwater Maintenance Agreement - 2027 WASA LLC Distribution Center, 1619 County Road XX",
+      "body": "Nathan explained the stormwater maintenance agreement fulfills a condition of the site plan approval granted last spring for the large distribution facility on County Road XX. A 170-page stormwater management report was received in September. The agreement ensures ongoing maintenance of the stormwater infiltration system by any future property owner. Bruce moved and Rick seconded to recommend board authorization; the motion passed 7-0."
+    },
+    {
+      "item": "Zoning Code Review (Item 8G)",
+      "body": "Commissioners discussed priorities for zoning code updates. Nathan flagged the lack of a use variance provision (illustrated by a Wilson High School parcel situation involving TID restrictions), driveway clarity, and the need to enable residential TID districts which may require smaller lot size allowances. Commissioners also discussed the potential for mixed-use zoning provisions, noting the existing mixed-use TID district has developed mostly residential. Nathan agreed to compile his running list of code issues for the next meeting agenda. The discussion was informational with no action taken."
+    },
+    {
+      "item": "Future Agenda Items",
+      "body": "A commissioner raised traffic and pedestrian safety concerns on Pleasant Road/Camp Phillips Road, citing a rear-end accident that evening and the lack of a pedestrian pathway, noting that Green Tree Trails and Pleasant Haven will add significant new residents to the area. The group suggested raising this at the board level, researching any existing county traffic studies, and engaging county board members. The appeals process for conditional use permits was also mentioned as a code review item. No formal action was taken."
     }
   ],
-  "publicComment": "Public comment was indicated on the agenda with a 15-minute limit total and three minutes per person, with possible time extensions at the presiding officer's discretion.",
+  "publicComment": "Bill Schofield of Pilgrims Landing, Menomonee Falls, signed up for public comment but chose to address the commission during the Green Tree Trails agenda item instead. No other members of the public offered comment. No speakers appeared at the Chapter 508 public hearing.",
   "actionItems": [
-    "Scheduled to vote on text amendment to Chapter 508 regarding septic tank restrictions",
-    "Expected to approve or take action on July 20 and July 27 Plan Commission meeting minutes",
-    "Scheduled to discuss and possibly act on Zoning Code Review",
-    "Expected to take action on Septic Tank Ordinance",
-    "Scheduled to review and possibly approve Green Tree Trails subdivision final plat and development agreement",
-    "Expected to consider and possibly authorize stormwater maintenance agreement resolution with 2027 Wausau LLC"
+    "Recommend village board approve Chapter 508-37 septic tank ordinance amendment (6-0)",
+    "Recommend village board approve Green Tree Trails subdivision final plat (7-0)",
+    "Recommend village board authorize execution of stormwater maintenance agreement with 2027 WASA LLC for County Road XX distribution center (7-0)",
+    "Nathan to compile running list of zoning code issues for next meeting agenda",
+    "Commissioners to notify Kim and Nathan ASAP of any December 21st availability conflicts to ensure quorum before publishing public hearing notice",
+    "Staff and commissioners to research county traffic study status for Camp Phillips/Pleasant Road corridor and identify contacts to initiate safety review",
+    "Raise Pleasant Road traffic and pedestrian safety concerns as agenda item at village board level"
   ],
   "topics": [
-    "Utilities",
-    "Zoning",
+    "Zoning Code Review",
     "Development",
-    "Stormwater",
-    "Septic Systems"
+    "Stormwater Management",
+    "Green Tree Trails Subdivision",
+    "Pleasant Haven Subdivision",
+    "Traffic Safety"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Motion to reorder agenda (move Item 8G after new business)",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Approval of July 20 and July 27, 2026 meeting minutes",
+      "motion": "Approve the meeting minutes as presented for July 20th and July 27th, 2026",
+      "mover": "Bruce Linkela",
+      "second": "Dick Kwaful",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Chapter 508-37 Septic Tank Ordinance Amendment recommendation to village board",
+      "motion": "Approve the change to ordinance 508-37 as presented",
+      "mover": "Bruce Linkela",
+      "second": "Dick Kwaful",
+      "outcome": "Approved",
+      "tally": "6-0"
+    },
+    {
+      "item": "Green Tree Trails subdivision final plat recommendation to village board",
+      "motion": "Recommend to the village board to approve the plat presented for the Green Tree subdivision",
+      "mover": "Jessica Stowell",
+      "second": "Rick Grundman",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Stormwater maintenance agreement with 2027 WASA LLC recommendation to village board",
+      "motion": "Recommend that the village board authorize the execution of the stormwater maintenance agreement",
+      "mover": "Bruce Linkela",
+      "second": "Rick Grundman",
+      "outcome": "Approved",
+      "tally": "7-0"
+    },
+    {
+      "item": "Motion to adjourn",
+      "motion": null,
+      "mover": "Rick Grundman",
+      "second": "Dick Kwaful",
+      "outcome": "Approved",
+      "tally": "7-0"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "7db1437625a0e2c9",
   "title": "Plan Commission Meeting - 2026-11-16",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-34",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d474242dcfbd49508eb066a59cb8f3da.pdf",
-  "processed_at": "2026-11-16T06:24:52.060562+00:00"
+  "processed_at": "2026-11-17T23:35:21.323954+00:00"
 }

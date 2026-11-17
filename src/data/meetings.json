@@ -1,5 +1,172 @@
 [
   {
+    "id": "d4d1DWUqlLs",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Board of Public Works",
+    "duration": "0m",
+    "url": "https://www.youtube.com/watch?v=d4d1DWUqlLs",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works held a brief meeting in which two claims were acted upon: one approved and one denied. The meeting concluded quickly with no extended discussion or public comment.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62"
+      },
+      {
+        "time": "0:20",
+        "item": "Claim of John and Jennifer Havl — $180"
+      },
+      {
+        "time": "0:40",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62",
+        "body": "A motion was made and seconded to approve the claim of Aaron Isaac Munoz Granados in the amount of $9,878.62. The motion passed with no audible dissent. No discussion of the nature of the claim was captured in the transcript."
+      },
+      {
+        "item": "Claim of John and Jennifer Havl — $180",
+        "body": "A motion was made and seconded to deny the claim of John and Jennifer Havl in the amount of $180. The motion to deny passed with no audible dissent. No explanation for the denial was provided in the transcript."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Approve payment of claim from Aaron Isaac Munoz Granados in the amount of $9,878.62",
+      "Deny claim from John and Jennifer Havl in the amount of $180"
+    ],
+    "topics": [
+      "Claims",
+      "Budget",
+      "Public Works Administration"
+    ],
+    "votes": [
+      {
+        "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62",
+        "motion": "Motion to approve the claim in the amount of $9,878.62",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Claim of John and Jennifer Havl — $180",
+        "motion": "Motion to deny the claim in the amount of $180",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "JMnn_Xfhsm0",
+    "source": "wausau",
+    "title": "Board of Public Works Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Board of Public Works",
+    "duration": "4m",
+    "url": "https://www.youtube.com/watch?v=JMnn_Xfhsm0",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Board of Public Works met on November 17th and handled three items: approving prior meeting minutes, opening 15 bids for the 2026 demolition of the former MBX South building at 207 North 1st Avenue (with no award made pending funding confirmation), and approving a contractor pay estimate before moving into closed session. The demolition bid opening is significant as it represents a major redevelopment step for the former MBX South site downtown.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:15",
+        "item": "Item 1: Approval of minutes from November 10th meeting"
+      },
+      {
+        "time": "0:35",
+        "item": "Item 2A: Open bids for 2026 demolition of 207 North 1st Avenue (former MBX South)"
+      },
+      {
+        "time": "2:45",
+        "item": "Item 2B: 2026 Sidewalk Repair Project A — Pember Company Pay Estimate No. 3"
+      },
+      {
+        "time": "3:30",
+        "item": "Item 3: Closed session pursuant to Wisconsin State Statutes 19.85(1)(g) to deliberate on claims"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of November 10th Meeting Minutes",
+        "body": "A board member moved to approve the minutes and another seconded. The motion passed on a voice vote with all members in favor."
+      },
+      {
+        "item": "2026 Demolition of 207 North 1st Avenue (Former MBX South) — Bid Opening",
+        "body": "Staff (identified as Patrick) read 15 bids aloud, ranging from a low of $150,000 (WS Trucking and Construction) to a high of $440,362.70 (RC Pavers). The apparent low bidder was WS Trucking and Construction at $150,000. No award was made at this time; Patrick explained that community development must first work through funding to confirm the project is ready to proceed, and the item will be brought back to the board."
+      },
+      {
+        "item": "2026 Sidewalk Repair Project A — Pember Company Pay Estimate No. 3",
+        "body": "Staff presented pay estimate number three from Pember Company in the amount of $8,285 for work to date, as approved by project inspector Matt Guptail. A board member moved to approve the payment, another seconded, and the motion passed unanimously on a voice vote."
+      },
+      {
+        "item": "Closed Session — Deliberation on Claims",
+        "body": "The board voted to enter closed session pursuant to Wisconsin State Statutes 19.85(1)(g) for the purpose of deliberating on claims. The motion was seconded and approved on a voice vote."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Community development to work through funding for the 207 North 1st Avenue demolition project before an award recommendation is brought back to the board",
+      "Payment of $8,285 to Pember Company for Sidewalk Repair Project A Pay Estimate No. 3 approved",
+      "Board entered closed session to deliberate on claims"
+    ],
+    "topics": [
+      "Demolition",
+      "Roads",
+      "Development",
+      "207 North 1st Avenue",
+      "Sidewalk Repair"
+    ],
+    "votes": [
+      {
+        "item": "Approval of November 10th meeting minutes",
+        "motion": "Move to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Pember Company Pay Estimate No. 3 — $8,285 for 2026 Sidewalk Repair Project A",
+        "motion": "Move to approve payment of $8,285",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Enter closed session pursuant to Wisconsin State Statutes 19.85(1)(g) to deliberate on claims",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "kw_ff35b6b75e12487c9fcbce664abe1fbf",
     "source": "kronenwetter",
     "title": "Revised Administrative Policy Committee Meeting",
@@ -104,6 +271,150 @@
     "votes": []
   },
   {
+    "id": "rr4xY0W5ETo",
+    "source": "weston",
+    "title": "Finance and HR Committee",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Finance and HR Committee, Village of Weston",
+    "duration": "1h 6m",
+    "url": "https://www.youtube.com/watch?v=rr4xY0W5ETo",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11162026-1992",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Finance and HR Committee met on November 16 and took action on accounts receivable write-offs and 2026 budget amendments, both of which were approved unanimously for forwarding to the village board. The committee deadlocked 3-3 on a motion to recommend Option G for sanitary sewer rate increases, with the item deferred to the December 21 meeting for updated financial figures.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:15",
+        "item": "Public Comment"
+      },
+      {
+        "time": "3:45",
+        "item": "Approval of Minutes from Previous Meeting"
+      },
+      {
+        "time": "4:30",
+        "item": "Work Product Transmittals: October Budget Status Reports, TIF 1 and TIF 2 Detail Reports, Legal Details"
+      },
+      {
+        "time": "8:50",
+        "item": "New Business: Discussion and Action on Accounts Receivable Write-Off Transfers to Tax Roll"
+      },
+      {
+        "time": "22:10",
+        "item": "Discussion and Action on 2026 Budget Amendments"
+      },
+      {
+        "time": "35:00",
+        "item": "Discussion and Action on Sanitary Sewer Rates"
+      },
+      {
+        "time": "1:18:00",
+        "item": "Future Agenda Items"
+      },
+      {
+        "time": "1:19:30",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Comment",
+        "body": "One resident, identified as Jim, spoke about the budget amendments on page 86, questioning $20,000 and $6,000 line items for computer equipment and asking what specific equipment was being purchased and whether purchases had already been made. He also questioned the $20,000 allocated to fix the boardroom audio system, noting the audio has not worked properly since the data system was installed over five years ago and arguing it was improper to budget funds for a project without a contract or firm price tag."
+      },
+      {
+        "item": "Approval of Minutes",
+        "body": "Minutes from the previous meeting were approved without discussion. A motion was made and seconded; the vote was unanimous in favor."
+      },
+      {
+        "item": "Work Product Transmittals: October Budget Status Reports, TIF 1 and TIF 2, Legal Details",
+        "body": "Committee members reviewed the reports with limited questions. One member asked whether refuse and recycling invoices were paid to date and was told there is a one-month billing delay. Another member asked about a $240 charge for a pet open records request on top of a prior $1,560 charge, and staff confirmed it was a timing error and should be the final billing. A question was raised about when salaries would move from TIF funds back to the general fund; staff said the TIF closure audit is still in progress with no definitive date. The transmittals were acknowledged and approved unanimously."
+      },
+      {
+        "item": "Accounts Receivable Write-Off Transfers to Tax Roll",
+        "body": "Staff presented a list of unpaid accounts receivable to be written off and placed on the property tax roll for collection. Committee members raised questions about the village's billing policy, noting that an older 2018 policy called for three reminder statements and 1.5% monthly interest accrual, while the current 2020 policy calls for only one additional statement. Staff acknowledged the interest accrual provision has not been followed and recommended updating the policy to reflect actual practice. One committee member noted that a recently listed debtor had personally called the individual, who paid that morning after being informed of the bill. The committee approved the write-offs as presented and directed staff to bring the accounts receivable policy back for review at a future meeting."
+      },
+      {
+        "item": "2026 Budget Amendments",
+        "body": "Staff presented budget amendments, explaining that many line items in the 40-series funds reflect projects already approved through debt borrowing and are being formally coded into accounts. Questions were raised about carryover items from 2025 including server equipment, Kennedy Park work, and road projects not completed before winter. A committee member asked about the $20,000 boardroom audio improvement; staff acknowledged estimates coming in are higher than $20,000 and that the figure was a placeholder to signal commitment to the project. Staff also explained that pickle ball court funds were reallocated after a planned partnership with a pickle ball organization fell through, and that a Mach Miller master plan including pickle ball courts would be presented to the board that same evening. The amendments were approved unanimously with a recommendation to the village board."
+      },
+      {
+        "item": "Sanitary Sewer Rates",
+        "body": "Staff and committee engaged in extended discussion of eight rate increase options (A through H) for 2027 sewer rates, driven by rising costs from the Rib Mountain Metropolitan Sewage District, which accounts for roughly 50% of the sewer budget and is mid-construction on a capital project financed by a 20-year clean water fund loan. The Public Works and Utility Committee had recommended Option F, which would generate an estimated net income of $318,000 in 2027. Several committee members expressed preference for Option G as a middle ground, while others questioned whether the financial projections were reliable given discrepancies between staff narrative and the income statement figures. A motion was made to recommend Option G; the motion failed on a 3-3 tie vote. The committee reached consensus to defer the item to the December 21 meeting so staff could return with reconciled and updated financial figures."
+      }
+    ],
+    "publicComment": "One speaker, identified as Jim, addressed the committee. He questioned two line items in the budget amendments — $20,000 and $6,000 for computer equipment (asking what specific equipment and whether purchases had been made) and $20,000 for boardroom audio improvements — arguing it was improper to budget funds for a project with no contract or firm price tag. He noted the boardroom audio system has been faulty for over five years.",
+    "actionItems": [
+      "Forward accounts receivable write-offs to the village board with a recommendation for approval",
+      "Bring the accounts receivable billing policy back to a future committee meeting for review and update",
+      "Forward 2026 budget amendments to the village board with a recommendation for approval",
+      "Staff to return to the December 21 meeting with updated, reconciled sanitary sewer rate financial projections",
+      "Place accounts receivable policy review and ethics policy discussion on future agenda",
+      "Nate to provide additional update on boardroom audio system at the board meeting"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Staffing",
+      "Sanitary Sewer Rates",
+      "Rib Mountain Metropolitan Sewage District"
+    ],
+    "votes": [
+      {
+        "item": "Approval of minutes from previous meeting",
+        "motion": "Motion to approve",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Acknowledge work product transmittals (October budget status, TIF 1, TIF 2, legal details)",
+        "motion": "Motion to acknowledge",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend approval of accounts receivable write-offs to be transferred to tax roll",
+        "motion": "Motion to approve the rates as presented and forward to the village board with recommendation for approval",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend approval of 2026 budget amendments",
+        "motion": "Motion to recommend to the board to approve the budget amendments as presented",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Recommend village proceed with Option G for 2027 sanitary sewer rates",
+        "motion": "Move to recommend the village proceed with Option G for the sanitary sewer rates in 2027",
+        "mover": null,
+        "second": null,
+        "outcome": "Failed",
+        "tally": "3-3"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Motion to adjourn",
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
+  },
+  {
     "id": "kw_d474242dcfbd49508eb066a59cb8f3da",
     "source": "kronenwetter",
     "title": "Plan Commission Meeting",
@@ -113,82 +424,506 @@
     "duration": null,
     "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-34",
     "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d474242dcfbd49508eb066a59cb8f3da.pdf",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": null,
-    "overview": "Based on the published agenda, the Kronenwetter Plan Commission was scheduled to hold a public hearing and vote on a text amendment to Chapter 508 of the village ordinances regarding septic tank use in the sewer system area, and to consider several development and infrastructure matters including a subdivision plat review and stormwater maintenance agreement.",
+    "overview": "The Kronenwetter Village Plan Commission held its November 16, 2026 meeting, approving recommendations on a septic tank ordinance amendment, the Green Tree Trails subdivision final plat, and a stormwater maintenance agreement for the County Road XX distribution center. The commission also received updates on the Pleasant Haven subdivision proposal for the former FAA site, discussed upcoming zoning code review priorities, and flagged traffic safety concerns on Pleasant Road near growing residential development.",
     "agenda": [
       {
-        "time": "6:00 PM",
-        "item": "Text Amendment of Chapter 508 - Water and Sewers regarding septic tank restrictions"
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
       },
       {
-        "time": "N/A",
-        "item": "Approval of Minutes from July 20, 2026 Plan Commission Meeting"
+        "time": "1:30",
+        "item": "Motion to Reorder Agenda Items (move Item 8G to after new business)"
       },
       {
-        "time": "N/A",
-        "item": "Approval of Minutes from July 27, 2026 Plan Commission Meeting"
+        "time": "3:00",
+        "item": "Public Hearing: Text Amendment to Chapter 508 - Septic Tanks in Village Sewer System Area"
       },
       {
-        "time": "N/A",
-        "item": "Community Development Director Report"
+        "time": "4:00",
+        "item": "Public Comment"
       },
       {
-        "time": "N/A",
-        "item": "Zoning Code Review"
+        "time": "4:30",
+        "item": "Approval of Minutes - July 20 and July 27, 2026"
       },
       {
-        "time": "N/A",
-        "item": "Septic Tank Ordinance"
+        "time": "6:00",
+        "item": "Community Development Director Report (Nathan)"
       },
       {
-        "time": "N/A",
-        "item": "Subdivision final plat and draft development agreement review for Green Tree Trails"
+        "time": "15:00",
+        "item": "Item 9H - Septic Tank Ordinance Amendment (Chapter 508-37)"
       },
       {
-        "time": "N/A",
-        "item": "Resolution to authorize a stormwater maintenance agreement with 2027 Wausau LLC for distribution center at 1619 County Road XX"
+        "time": "28:00",
+        "item": "Item 9I - Green Tree Trails Subdivision Final Plat and Draft Development Agreement Review"
+      },
+      {
+        "time": "52:00",
+        "item": "Item 9J - Resolution to Authorize Stormwater Maintenance Agreement with 2027 WASA LLC, 1619 County Road XX"
+      },
+      {
+        "time": "57:00",
+        "item": "Item 8G - Zoning Code Review (Old Business)"
+      },
+      {
+        "time": "1:10:00",
+        "item": "Next Meeting, Future Agenda Items, and Adjournment"
       }
     ],
     "discussions": [
       {
-        "item": "Text Amendment of Chapter 508 - Water and Sewers",
-        "body": "The Plan Commission was scheduled to hold a public hearing on proposed amendments to Chapter 508 subsection 508-37 regarding septic tanks. The amendments were set to establish criteria allowing septic tanks as exceptions in the village's sewer system area, where they are currently prohibited."
+        "item": "Motion to Reorder Agenda",
+        "body": "The chair moved to shift Item 8G (zoning code review) to after new business items to accommodate the energy levels and public present for those discussions. The motion was seconded and passed 7-0 with no discussion."
       },
       {
-        "item": "Zoning Code Review",
-        "body": "The Commission was scheduled to discuss ongoing zoning code review matters as part of old business. Details regarding specific aspects of the code under review were not provided in the agenda."
+        "item": "Public Hearing: Chapter 508 Septic Tank Ordinance Amendment",
+        "body": "No members of the public appeared to speak at the public hearing. The chair announced no sign-ups and closed the hearing without testimony."
       },
       {
-        "item": "Septic Tank Ordinance",
-        "body": "The Plan Commission was set to take action on septic tank ordinance matters, which relates to the text amendment being considered and was expected to be addressed as new business."
+        "item": "Approval of Minutes - July 20 and July 27, 2026",
+        "body": "Bruce moved and Dick seconded approval of both sets of meeting minutes. One commissioner noted the minutes lacked a 'prepared by' attribution, which staff acknowledged as an oversight related to catching up after a clerk departure. Minutes were approved 7-0."
       },
       {
-        "item": "Green Tree Trails Subdivision",
-        "body": "The Commission was scheduled to review the final plat and draft development agreement for the Green Tree Trails subdivision project. This was set for discussion and possible action under new business."
+        "item": "Community Development Director Report",
+        "body": "Community Development Director Nathan reported on several developments: the DNR notified the village of a Rothschild dam failure analysis requiring updated floodplain maps within roughly a year; the Pleasant Haven subdivision application has been submitted for the former FAA site, requiring both a rezoning and a public hearing likely at the December 21st meeting; and he flagged two zoning code gaps — the lack of a use variance provision and the potential need for zoning changes to enable residential Tax Increment Districts, a new statewide tool. He urged commissioners to confirm December 21st availability soon so a public hearing notice can be published by December 1st."
       },
       {
-        "item": "Stormwater Maintenance Agreement Resolution",
-        "body": "The Plan Commission was scheduled to consider a resolution authorizing a stormwater maintenance agreement with 2027 Wausau LLC for a distribution center located at 1619 County Road XX. This was expected to involve discussion and possible action."
+        "item": "Chapter 508-37 Septic Tank Ordinance Amendment",
+        "body": "Rick Grundman recused himself. The ordinance amendment would allow restricted use of septic tanks within the village sewer service area under specific criteria including a 400-foot distance threshold, minimum 5-acre parcel, and no more than seven months of use per year. A commissioner asked about the basis for those numbers; a commissioner who sits on the utility committee explained they came from DPW Director Greg Almond and the utility foreman, informed by a specific case involving the school's concessions operation. Bruce moved and Dick seconded approval; the motion carried 6-0 (with Grundman recused) and will go to the village board."
+      },
+      {
+        "item": "Green Tree Trails Subdivision Final Plat and Draft Development Agreement",
+        "body": "Nathan reported the final plat conforms with the previously approved preliminary plat from September, with one addition of access detail for the stormwater pond. Developer representative Bill Schofield (Pilgrims Landing, Menomonee Falls) addressed the commission, disclosing several key items: an emergency gated access to Nick Avenue is under contract with PGA Construction, funded by developer J. Shutey; the development is phased over potentially five to seven years with Phase 1 (lots on Pleasant/Pine), Phase 2 (interior lots and road), and Phase 3 (northern section); and Lot 54 is proposed to be sold ahead of its phase due to its proximity to a neighbor's patio, as a goodwill resolution. Commissioners asked about emergency access adequacy; one commissioner with nearly 20 years of emergency services experience said dead-end subdivisions are routinely handled and was not concerned. A commissioner raised traffic safety on Pleasant Road, noting a rear-end accident that evening. Jessica moved and Rick seconded to recommend board approval of the final plat; the motion passed 7-0 on a roll call vote."
+      },
+      {
+        "item": "Stormwater Maintenance Agreement - 2027 WASA LLC Distribution Center, 1619 County Road XX",
+        "body": "Nathan explained the stormwater maintenance agreement fulfills a condition of the site plan approval granted last spring for the large distribution facility on County Road XX. A 170-page stormwater management report was received in September. The agreement ensures ongoing maintenance of the stormwater infiltration system by any future property owner. Bruce moved and Rick seconded to recommend board authorization; the motion passed 7-0."
+      },
+      {
+        "item": "Zoning Code Review (Item 8G)",
+        "body": "Commissioners discussed priorities for zoning code updates. Nathan flagged the lack of a use variance provision (illustrated by a Wilson High School parcel situation involving TID restrictions), driveway clarity, and the need to enable residential TID districts which may require smaller lot size allowances. Commissioners also discussed the potential for mixed-use zoning provisions, noting the existing mixed-use TID district has developed mostly residential. Nathan agreed to compile his running list of code issues for the next meeting agenda. The discussion was informational with no action taken."
+      },
+      {
+        "item": "Future Agenda Items",
+        "body": "A commissioner raised traffic and pedestrian safety concerns on Pleasant Road/Camp Phillips Road, citing a rear-end accident that evening and the lack of a pedestrian pathway, noting that Green Tree Trails and Pleasant Haven will add significant new residents to the area. The group suggested raising this at the board level, researching any existing county traffic studies, and engaging county board members. The appeals process for conditional use permits was also mentioned as a code review item. No formal action was taken."
       }
     ],
-    "publicComment": "Public comment was indicated on the agenda with a 15-minute limit total and three minutes per person, with possible time extensions at the presiding officer's discretion.",
+    "publicComment": "Bill Schofield of Pilgrims Landing, Menomonee Falls, signed up for public comment but chose to address the commission during the Green Tree Trails agenda item instead. No other members of the public offered comment. No speakers appeared at the Chapter 508 public hearing.",
     "actionItems": [
-      "Scheduled to vote on text amendment to Chapter 508 regarding septic tank restrictions",
-      "Expected to approve or take action on July 20 and July 27 Plan Commission meeting minutes",
-      "Scheduled to discuss and possibly act on Zoning Code Review",
-      "Expected to take action on Septic Tank Ordinance",
-      "Scheduled to review and possibly approve Green Tree Trails subdivision final plat and development agreement",
-      "Expected to consider and possibly authorize stormwater maintenance agreement resolution with 2027 Wausau LLC"
+      "Recommend village board approve Chapter 508-37 septic tank ordinance amendment (6-0)",
+      "Recommend village board approve Green Tree Trails subdivision final plat (7-0)",
+      "Recommend village board authorize execution of stormwater maintenance agreement with 2027 WASA LLC for County Road XX distribution center (7-0)",
+      "Nathan to compile running list of zoning code issues for next meeting agenda",
+      "Commissioners to notify Kim and Nathan ASAP of any December 21st availability conflicts to ensure quorum before publishing public hearing notice",
+      "Staff and commissioners to research county traffic study status for Camp Phillips/Pleasant Road corridor and identify contacts to initiate safety review",
+      "Raise Pleasant Road traffic and pedestrian safety concerns as agenda item at village board level"
     ],
     "topics": [
-      "Utilities",
-      "Zoning",
+      "Zoning Code Review",
       "Development",
-      "Stormwater",
-      "Septic Systems"
+      "Stormwater Management",
+      "Green Tree Trails Subdivision",
+      "Pleasant Haven Subdivision",
+      "Traffic Safety"
     ],
-    "votes": []
+    "votes": [
+      {
+        "item": "Motion to reorder agenda (move Item 8G after new business)",
+        "motion": null,
+        "mover": null,
+        "second": null,
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Approval of July 20 and July 27, 2026 meeting minutes",
+        "motion": "Approve the meeting minutes as presented for July 20th and July 27th, 2026",
+        "mover": "Bruce Linkela",
+        "second": "Dick Kwaful",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Chapter 508-37 Septic Tank Ordinance Amendment recommendation to village board",
+        "motion": "Approve the change to ordinance 508-37 as presented",
+        "mover": "Bruce Linkela",
+        "second": "Dick Kwaful",
+        "outcome": "Approved",
+        "tally": "6-0"
+      },
+      {
+        "item": "Green Tree Trails subdivision final plat recommendation to village board",
+        "motion": "Recommend to the village board to approve the plat presented for the Green Tree subdivision",
+        "mover": "Jessica Stowell",
+        "second": "Rick Grundman",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Stormwater maintenance agreement with 2027 WASA LLC recommendation to village board",
+        "motion": "Recommend that the village board authorize the execution of the stormwater maintenance agreement",
+        "mover": "Bruce Linkela",
+        "second": "Rick Grundman",
+        "outcome": "Approved",
+        "tally": "7-0"
+      },
+      {
+        "item": "Motion to adjourn",
+        "motion": null,
+        "mover": "Rick Grundman",
+        "second": "Dick Kwaful",
+        "outcome": "Approved",
+        "tally": "7-0"
+      }
+    ]
+  },
+  {
+    "id": "ZyVaKfiiYyE",
+    "source": "weston",
+    "title": "Board of Trustees",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Board of Trustees",
+    "duration": "2h 28m",
+    "url": "https://www.youtube.com/watch?v=ZyVaKfiiYyE",
+    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11162026-1992",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Weston Board of Trustees held its regular November meeting, approving the 2027 operating budget and related fund budgets on split 4-3 votes, with the three newest trustees voting against citing excessive borrowing and debt concerns. The board also approved a $4 million promissory note to One Community Bank for the Mountain Bay Metro Police Department headquarters project, passing 6-1. Additional action included approving special assessments for road reconstruction projects and a condominium plat, while a lengthy public hearing drew sharp criticism from residents over the village's debt levels.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:30",
+        "item": "Public Hearing: 2027 Budget Presentation"
+      },
+      {
+        "time": "18:00",
+        "item": "Public Comment on 2027 Budget (Public Hearing)"
+      },
+      {
+        "time": "35:00",
+        "item": "Action on Resolution 2026-028: Adopt 2027 Operating Budget"
+      },
+      {
+        "time": "44:00",
+        "item": "Action on Resolution 2026-029: Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Fund Budgets"
+      },
+      {
+        "time": "47:00",
+        "item": "Public Comments"
+      },
+      {
+        "time": "1:02:00",
+        "item": "Consent Agenda"
+      },
+      {
+        "time": "1:18:00",
+        "item": "Resolution 2026-027: Authorize $4 Million Borrowing for Mountain Bay Metro Police Department"
+      },
+      {
+        "time": "1:45:00",
+        "item": "Department Reports (Fire, Police, Parks, Planning, Public Works, Technology)"
+      },
+      {
+        "time": "2:45:00",
+        "item": "Resolution 2026-030 through 2026-032: Condominium Plat and Special Assessments"
+      },
+      {
+        "time": "3:00:00",
+        "item": "Discussion and/or Action on Mak Miller Park Master Plan and Cost Estimate"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public Hearing: 2027 Budget",
+        "body": "Finance staff presented a balanced budget of $10,794,907, with a total levy of $9,925,976, representing an increase of $1,389,554. The tax rate is estimated at $5.54, a 0.99% decrease, partly due to the closure of TIF District No. 1. Two residents spoke in opposition: Jim Street delivered pointed criticism, arguing the board 'maxed out the credit card' and spent every dollar from the TIF closure rather than paying down debt or saving, specifically thanking Trustees Clark, Olson, and a 'Trustee Patton' for voting against the budget. Morgan Woodruff questioned whether the village's financial ambitions were exceeding its budget, citing the new police headquarters and proposed park development while existing projects remain unfinished."
+      },
+      {
+        "item": "Resolution 2026-028: Adopt 2027 Operating Budget",
+        "body": "Board discussion prior to the vote surfaced ongoing disagreements about borrowing. Trustees Beck, Clark, and Olson all stated their concerns had not changed from prior budget meetings, characterizing the village as having maxed out its borrowing capacity. Trustee Ermeling raised the issue of zero-based budgeting and said the village missed an opportunity to use one-time TIF revenues to offset recurring costs or pay down debt. Village President Maloney acknowledged the concern about small capital items being financed through borrowing rather than included in the operating budget. The budget passed 4-3 with Beck, Clark, and Olson voting nay."
+      },
+      {
+        "item": "Resolution 2026-029: Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Fund Budgets",
+        "body": "This companion budget resolution was voted on immediately after the operating budget. Discussion was brief. The resolution passed 4-3, with Beck, Clark, and Olson again voting nay."
+      },
+      {
+        "item": "Resolution 2026-027: Authorize $4 Million Borrowing — Mountain Bay Metro Police Department",
+        "body": "Chris, identified as regional president of One Community Bank, appeared in person to answer questions about the loan terms. A key point of discussion was prepayment language in the note; Chris clarified that extra principal payments are allowed with no penalty and would reduce overall interest cost, but the village must still make regular monthly payments. Trustee Clark raised concerns about the timeliness of receiving the attorney review memo (dated October, delivered the day of the meeting) and asked whether the loan remained the lowest bid received — finance confirmed it was, at a locked rate. The resolution passed 6-1."
+      },
+      {
+        "item": "Police Department Report",
+        "body": "Chief reported 2,223 calls and 471 traffic stops with 307 citations for the month. On the police headquarters construction, the chief said frost walls are being poured, walls are scheduled for delivery December 18, and the project appears slightly ahead of schedule for a mid-to-late 2027 completion. A trustee pressed the chief on the lack of public updates about the TC Energy pipeline easement conflict, noting no oversight video had been posted since August 27 and that meeting minutes contained only limited references. The chief acknowledged Elizabeth handles video uploads and said he would follow up. Trustees also discussed the department's decision to stop assisting residents locked out of their homes due to community feedback and liability concerns."
+      },
+      {
+        "item": "Fire Department Report",
+        "body": "Chief announced that Captain Cody Ewan is being promoted from engineer following a captain's resignation three months ago, and Steven Hos will be promoted to engineer, leaving an open firefighter position to be filled after the first of the year. Recruitment closes Wednesday with interviews expected in mid-December."
+      },
+      {
+        "item": "Mak Miller Park Master Plan and Cost Estimate",
+        "body": "Sean presented a broad master plan from Rettler Corporation, estimated at approximately $4 million, emphasizing that approval authorizes no spending and is needed to qualify for grants and to document park impact fee usage from nearby development such as Green Tree. Trustees and President Maloney discussed public confusion over the cost estimate — particularly a widely circulated claim about a $2 million concession stand, which staff clarified was an off-hand comment at a parks meeting, not a board commitment. Michael noted a comparable concession/restroom line in the Kennedy Park estimate was $800,000. The board discussed whether the plan should be approved with or without dollar figures attached. No vote was taken at this meeting; Trustee Beck asked that Kennedy Park's concession stand question be returned to the Parks Committee."
+      }
+    ],
+    "publicComment": "Four speakers addressed the board. Jim Street (address on file, Weston) spoke during the budget public hearing, sharply criticizing the board majority for spending all TIF closure funds rather than paying down debt, stating the village is 'bumped right up against their debt limit' for nearly 20 years, and naming Maloney, Zeyghami, Ermeling, and Lopes-Serrao as the four who 'sent us down this path.' Morgan Woodruff (6607 [inaudible] Lane) spoke during the public hearing questioning whether ambitions exceed the budget, raised concerns about the police headquarters and new park spending amid unfinished projects, and criticized the village's continued use of Flock cameras after other communities removed them. Jim Pissel (500-block street, Weston) spoke during general public comment, flagging procedural concerns: a missing organizational chart for agenda item 50, a request to move closed session items to open session, inadequate debt collection follow-up on agenda item 53, and vague language in the intergovernmental agreement with the Town of Weston regarding storm water cost-sharing. John Alman (1506 [inaudible] Avenue) spoke during public comment questioning the need for pickle ball courts at Mak Miller Park given location inconvenience, the $2 million concession stand figure, and the lack of a referendum on the police headquarters borrowing.",
+    "actionItems": [
+      "2027 operating budget adopted at $10,794,907 (Resolution 2026-028, 4-3)",
+      "Debt service, special revenue, capital projects, and proprietary fund budgets adopted for 2027 (Resolution 2026-029, 4-3)",
+      "$4 million promissory note to One Community Bank for Mountain Bay Metro Police Department headquarters authorized (Resolution 2026-027, 6-1)",
+      "Carter Avenue condominium plat and related documents approved (Resolution 2026-030)",
+      "Special assessments levied for East Jeneck Avenue and Von Kennel Street reconstruction (Resolution 2026-031)",
+      "Special assessments levied for Weston Avenue CRX to CRJ reconstruction (Resolution 2026-032)",
+      "Committee and commission appointments (agenda item 50) deferred to December meeting due to missing organizational chart in packet",
+      "Police chief to follow up with Elizabeth on uploading oversight meeting videos to department website",
+      "Planning to obtain final plan package from HTG Architects and Dustin Freeland regarding police headquarters site plan",
+      "Mak Miller Park master plan discussion to continue; no vote taken",
+      "Kennedy Park concession stand question to be returned to Parks Committee",
+      "Technology department to bring AV system proposals from CEC and Audio Architects to next month's board packet",
+      "Staff to prepare tax bill insert; trustees to submit ideas to clerk within one week",
+      "Farmers market survey results to be presented to Parks Committee"
+    ],
+    "topics": [
+      "Budget",
+      "Debt Management",
+      "Public Safety",
+      "Parks Development",
+      "Mak Miller Park",
+      "Mountain Bay Metro Police Headquarters"
+    ],
+    "votes": [
+      {
+        "item": "Resolution 2026-028: Adopt 2027 Operating Budget",
+        "motion": "Resolution to adopt the 2027 operating budget of the Village of Weston",
+        "mover": "Barbara Ermeling",
+        "second": "Hooshang Zeyghami",
+        "outcome": "Approved",
+        "tally": "4-3"
+      },
+      {
+        "item": "Resolution 2026-029: Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Fund Budgets for 2027",
+        "motion": "Motion to approve Resolution 2026-029",
+        "mover": null,
+        "second": "Hooshang Zeyghami",
+        "outcome": "Approved",
+        "tally": "4-3"
+      },
+      {
+        "item": "Consent Agenda",
+        "motion": "Move to approve the consent agenda",
+        "mover": null,
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-027: Authorize borrowing of $4 million via general obligation promissory note for Mountain Bay Metro Police Department",
+        "motion": "Move to approve Resolution 2026-027",
+        "mover": "Hooshang Zeyghami",
+        "second": null,
+        "outcome": "Approved",
+        "tally": "6-1"
+      },
+      {
+        "item": "Approval of October 19, 2026 joint budget workshop and board of trustees meeting minutes",
+        "motion": "Move to approve",
+        "mover": "Hooshang Zeyghami",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge reports from boards, committees, and commissions (items 17B, 18, 19, 20, 21B)",
+        "motion": "Motion to acknowledge",
+        "mover": "Barbara Ermeling",
+        "second": "Luis Lopes-Serrao",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge department reports 23 through 31",
+        "motion": null,
+        "mover": "Barbara Ermeling",
+        "second": "Brent Olson",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Acknowledge work product transmittals 33, 34, and 35",
+        "motion": "Move to acknowledge 33, 34, and 35",
+        "mover": "Luis Lopes-Serrao",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-030: Approve Carter Avenue Condominium Plat",
+        "motion": "Move to approve Resolution 2026-030",
+        "mover": "Luis Lopes-Serrao",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-031: Levy special assessments for East Jeneck Avenue and Von Kennel Street reconstruction",
+        "motion": "Move to approve Resolution 2026-031",
+        "mover": "Hooshang Zeyghami",
+        "second": "Barbara Ermeling",
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Resolution 2026-032: Levy special assessments for Weston Avenue CRX to CRJ reconstruction",
+        "motion": "Move to approve",
+        "mover": "Hooshang Zeyghami",
+        "second": "Katrina Clark",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "Mi_lKQH22Zo",
+    "source": "wausau",
+    "title": "City Council Public Health & Safety Committee Meeting",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Public Health & Safety",
+    "duration": "57m",
+    "url": "https://www.youtube.com/watch?v=Mi_lKQH22Zo",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Public Health & Safety Committee met in November 2026, addressing liquor and tobacco license applications including a provisional approval for a former fuel station under new ownership, a formal expression of concern regarding M&R Bar (Richard Gordon), and updates on the fire department apprenticeship program and a homelessness strategic plan. The committee approved a provisional liquor and tobacco license for the new fuel station operator and unanimously approved an emergency management services agreement with Marathon County.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order and public comment on agenda items"
+      },
+      {
+        "time": "9:45",
+        "item": "Consideration of minutes of the preceding meeting"
+      },
+      {
+        "time": "10:30",
+        "item": "Discussion and possible action on approval/denial of various license applications"
+      },
+      {
+        "time": "12:00",
+        "item": "Fuel On (Sunny Express) provisional liquor license and tobacco license discussion"
+      },
+      {
+        "time": "24:10",
+        "item": "Formal expression of concern: M&R Station, Richard Gordon DBA M&R Station LLC"
+      },
+      {
+        "time": "56:30",
+        "item": "Approving emergency management service agreement with Marathon County"
+      },
+      {
+        "time": "58:00",
+        "item": "Tavern activities report"
+      },
+      {
+        "time": "1:00:30",
+        "item": "Wausau Fire Department Quarter 3 2026 report"
+      },
+      {
+        "time": "1:03:00",
+        "item": "Update on Marathon County and City of Wausau foundational framework for homelessness response and strategic plan development"
+      },
+      {
+        "time": "1:18:00",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Various License Applications (excluding Fuel On)",
+        "body": "The committee moved to approve all license applications as presented with the exception of the Fuel On location, which was taken up separately. Alder True Blood moved, Alder Watson seconded, and the motion passed unanimously."
+      },
+      {
+        "item": "Fuel On (Sunny Express) Provisional Liquor License and Tobacco License",
+        "body": "City Clerk Cody presented a timeline showing the business was sold on September 23, 2026, and operated without a license for approximately 29 days before the city was notified on October 5. The new owner applied for a license on October 21 and had been in compliance since October 5. Captain Melinda Pauls confirmed the business had been compliant with checks for both alcohol and tobacco over the prior two months. Discussion arose over whether to grant the tobacco license alongside the provisional liquor license or wait until the 60-day provisional period ended; Alder Solonsky raised concerns about whether tobacco could be revisited if the provisional liquor license was not converted. Alder Watson moved to approve both the provisional liquor license per the liquor review committee's recommendation and the cigarette/tobacco license; Alder Lukans seconded. The motion passed unanimously. Alder True Blood noted that background information on the compliance gap should have been included in the committee packet."
+      },
+      {
+        "item": "Formal Expression of Concern: M&R Station, Richard Gordon DBA M&R Station LLC",
+        "body": "Richard Gordon appeared to respond to a 100-point demerit assessment for failure to maintain an orderly premises related to a shooting incident. Gordon disputed characterizations of the event, arguing it was a premeditated attack by outsiders targeting a specific victim and that his staff had no way to know a shooting had occurred. Captain Pauls and Deputy Chief Payton testified that the suspect's vehicle had been parked in M&R's lot waiting, that both suspect and victim had been inside M&R together, and that a named suspect stated a staff member announced a 'BB gun' had been fired — indicating staff may have been aware of the incident without notifying police. Alder Lukans noted the demerit system functions as a strict liability standard for maintaining orderly premises. The committee was also informed by property manager Stacy Holt and attorney Karina Fischer that the property owners have issued a 28-day notice to Gordon and will proceed with eviction if he has not vacated by November 30. City staff clarified there is no formal process for removing assessed demerit points and that at 100 points no automatic action is triggered; revocation at a future hearing would be required to prevent Gordon from holding a license for 12 months. No formal vote or action was taken on this item."
+      },
+      {
+        "item": "Emergency Management Service Agreement with Marathon County",
+        "body": "Alder True Blood moved to approve the emergency management service agreement with Marathon County as submitted; Alder Solonsky seconded. The motion passed unanimously with no debate."
+      },
+      {
+        "item": "Wausau Fire Department Quarter 3 2026 Report",
+        "body": "The fire chief highlighted that the apprenticeship program formally launched September 28, with nine apprentices beginning an 18-month program covering EMT basic, Firefighter 1, Firefighter 2, and paramedic credentials. The department currently has six vacancies; three qualified firefighter-paramedics will start in December, reducing the gap to three. The apprenticeship program is intended to address future vacancies on an ongoing basis."
+      },
+      {
+        "item": "Homelessness Framework and Strategic Plan Update",
+        "body": "Marathon County Public Health Coordinator Tracy Duranti's colleague presented an update on the foundational framework, noting a steering committee has been formed with city and county representation including Tracy Duranti from the police department and Randy Fifick from community development. Since August, over 120 unduplicated intake surveys of people experiencing homelessness have been collected through partner agencies. A daylong strategic planning session with over 30 community partners was held to inform the plan. The strategic plan draft will be presented to the committee in December for feedback, with a formal launch and joint city-county vote scheduled for January 26 at the civic engagement center."
+      }
+    ],
+    "publicComment": "Three speakers offered public comment. Stacy Holt, property manager for BRH LLC (owner of the M&R Bar premises at 818 South 3rd Avenue), informed the committee that tenant Richard Gordon has been given a 28-day notice to vacate by November 30 and that the owners intend to proceed with eviction if he does not comply. Attorney Karina Fischer of [inaudible] Fischer confirmed the same and offered a copy of the notice to the clerk. Rodney Larson of Stockbridge, Wisconsin, attempted to raise concerns about Sunny Express operating tobacco sales without a license at multiple locations including Stevens Point; the chair ruled most of his testimony out of order as it concerned locations outside the city's jurisdiction, though Larson argued the same district manager oversees the Rib Mountain location under review.",
+    "actionItems": [
+      "Provisional 60-day liquor license and tobacco/cigarette license approved for Fuel On (Sunny Express) at the former R store, Third and Stewart",
+      "All other license applications approved as presented",
+      "Emergency management service agreement with Marathon County approved",
+      "City staff to meet with Stacy Holt and attorney after the meeting to clarify liquor license transfer and abandonment implications for the M&R Bar property",
+      "City attorney to research process (if any) for de-assessing demerit points on a liquor license",
+      "Homelessness strategic plan draft to be presented to committee in December for feedback prior to January 26 joint city-county launch vote"
+    ],
+    "topics": [
+      "Public Safety",
+      "Liquor Licensing",
+      "Homelessness Response",
+      "Fire Department Staffing",
+      "M&R Bar"
+    ],
+    "votes": [
+      {
+        "item": "Approve minutes of the preceding meeting",
+        "motion": null,
+        "mover": "Alder Solonsky",
+        "second": "Alder True Blood",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approve all license applications except Fuel On",
+        "motion": null,
+        "mover": "Alder True Blood",
+        "second": "Alder Watson",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approve provisional liquor license and tobacco/cigarette license for Fuel On (Sunny Express)",
+        "motion": "Move to approve the provisional liquor license per the liquor review committee's recommendations and also approve the cigarette license",
+        "mover": "Alder Watson",
+        "second": "Alder Lukans",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Approve emergency management service agreement with Marathon County",
+        "motion": "Move that we approve that as submitted",
+        "mover": "Alder True Blood",
+        "second": "Alder Solonsky",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Alder Solonsky",
+        "second": "Alder True Blood",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      }
+    ]
   },
   {
     "id": "oLNO7g9EenE",
@@ -5892,772 +6627,6 @@
         "second": "Vice Chair Pool [inaudible full name]",
         "outcome": "Approved",
         "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "_Fnn432j7r0",
-    "source": "wausau",
-    "title": "Plan Commission Meeting",
-    "date": "October 20, 2026",
-    "shortDate": "OCT 20",
-    "committee": "Plan Commission",
-    "duration": "14m",
-    "url": "https://www.youtube.com/watch?v=_Fnn432j7r0",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Plan Commission met on October 20, 2026 and approved five action items, including the landmark designation of Yawkey Park, a rezoning at 909 South 60th Avenue from medium to heavy industrial, a preliminary plat for the West Hill First Addition subdivision, and two alley/road vacations. The Yawkey Park landmarking, supported by public comment from the Yawkey family heirs and a unanimous Historic Preservation Commission vote, will advance to City Council for final approval.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "1:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "5:20",
-        "item": "Consideration of Minutes – September 15, 2026 Regular Meeting"
-      },
-      {
-        "time": "6:10",
-        "item": "Item E (moved up): Potential Landmarking of Yawkey Park"
-      },
-      {
-        "time": "8:00",
-        "item": "Public Hearing: Rezoning of 909 South 60th Avenue from Medium Industrial to Heavy Industrial"
-      },
-      {
-        "time": "9:10",
-        "item": "Item 4A: Rezoning 909 South 60th Avenue – Medium Industrial to Heavy Industrial"
-      },
-      {
-        "time": "11:30",
-        "item": "Item 4B: West Hill First Addition Preliminary Plat"
-      },
-      {
-        "time": "14:20",
-        "item": "Item 4C: Vacating and Discontinuing Alley Bounded by Lakeview Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard"
-      },
-      {
-        "time": "16:30",
-        "item": "Item 4D: Vacating and Discontinuing 134-ft Southerly Extension of Liberty Ridgeway"
-      },
-      {
-        "time": "19:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment – Yawkey Park Landmarking",
-        "body": "Two speakers addressed the commission. Kathy Foley, 1209 East Hill Drive, read a statement on behalf of the Yawkey family heirs — great-grandchildren Alice Woodson Smith, A. Woodson Haigie, Abigail Spire, Lee Tuckey, and Nancy Lee Fischer — expressing full support for designating Yawkey Park as a historic landmark and calling for protection of its 106-year-old footprint 'deeded for use by the public in perpetuity.' Christine Martins, 1228 Arthur Street, noted she authored the nomination document and that the Historic Preservation Commission had already passed it unanimously with no opposition at the public hearing stage."
-      },
-      {
-        "item": "Consideration of Minutes – September 15, 2026",
-        "body": "A motion to approve the September 15, 2026 minutes was made by Bruggeman and seconded by Balkin. No corrections were offered and the minutes were approved by voice vote."
-      },
-      {
-        "item": "Potential Landmarking of Yawkey Park (Item E, moved up)",
-        "body": "The mayor moved this item up on the agenda to accommodate attending citizens. A motion to approve was made by Bruggeman and seconded by Balkin with no discussion. The commission approved the landmarking unanimously by voice vote; the mayor noted the measure would proceed to City Council for final action."
-      },
-      {
-        "item": "Rezoning of 909 South 60th Avenue – Medium Industrial to Heavy Industrial (Item 4A)",
-        "body": "Assistant City Planner Edmonson explained that the parcel is surrounded by heavy industrial uses and natural features that buffer it from other development, and noted that a neighboring parcel to the north had recently received a similar rezoning. Staff found no concerns with the application and recommended approval as consistent with surrounding properties. The commission approved the rezoning unanimously by voice vote; the mayor confirmed it would go to November City Council."
-      },
-      {
-        "item": "West Hill First Addition Preliminary Plat (Item 4B)",
-        "body": "Planner Lenz explained the preliminary plat covers a new subdivision west of Stettin Elementary School, with Arborvitae Drive designed to connect to the adjacent Greentree subdivision to the west. The INF Committee had previously recommended approval unanimously. The commission approved the preliminary plat unanimously; the developer will return with a final plat for the phase-one lots."
-      },
-      {
-        "item": "Vacating and Discontinuing Alley Bounded by Lakeview Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard (Item 4C)",
-        "body": "The mayor described the alley as an unpaved grass strip with limited use and no garage access dependency. All adjacent property owners except 2514 signed a petition to vacate, and a utility easement would remain in place. The INF Committee had previously recommended approval. The commission approved the vacation unanimously by voice vote."
-      },
-      {
-        "item": "Vacating and Discontinuing 134-ft Southerly Extension of Liberty Ridgeway (Item 4D)",
-        "body": "Commissioner Trueblood explained that Liberty Way continues to the east and north, making this southern stub an undeveloped dead end; a large home is being constructed in the area, making vacation appropriate. He stated he 'strongly advised' approval. A utility easement will remain. The commission approved the vacation unanimously by voice vote."
-      }
-    ],
-    "publicComment": "Two speakers offered public comment, both regarding Yawkey Park landmarking. Kathy Foley (1209 East Hill Drive) read a written statement from five Yawkey family heirs supporting the landmark designation to protect the park's 106-year-old footprint for public use in perpetuity. Christine Martins (1228 Arthur Street), who authored the nomination, noted the Historic Preservation Commission had passed it unanimously and that no opposition had been raised at any prior public hearing.",
-    "actionItems": [
-      "Yawkey Park landmark designation forwarded to Wausau City Council for final approval",
-      "Rezoning of 909 South 60th Avenue from medium to heavy industrial forwarded to November City Council",
-      "West Hill First Addition Preliminary Plat approved; developer to return with final plat for phase-one lots",
-      "Alley vacation (Lakeview/Bertha/Elmwood/Midway) approved, utility easement to remain",
-      "Liberty Ridgeway 134-ft southerly stub vacation approved, utility easement to remain",
-      "Next regular Plan Commission meeting scheduled for November 17, 2026 at 5:00 p.m."
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Historic Preservation",
-      "Yawkey Park",
-      "West Hill First Addition",
-      "Liberty Ridgeway"
-    ],
-    "votes": [
-      {
-        "item": "Approval of September 15, 2026 meeting minutes",
-        "motion": null,
-        "mover": "Bruggeman",
-        "second": "Balkin",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Landmarking of Yawkey Park",
-        "motion": "Motion to approve",
-        "mover": "Bruggeman",
-        "second": "Balkin",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Rezoning of 909 South 60th Avenue from medium industrial to heavy industrial",
-        "motion": null,
-        "mover": "Bruggeman",
-        "second": "Balkin",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "West Hill First Addition Preliminary Plat",
-        "motion": null,
-        "mover": "Bruggeman",
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Vacating and discontinuing alley bounded by Lakeview Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard",
-        "motion": null,
-        "mover": "Bruggeman",
-        "second": "Watson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Vacating and discontinuing 134-ft southerly extension of Liberty Ridgeway",
-        "motion": null,
-        "mover": "Bruggeman",
-        "second": "Trueblood",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Borneman",
-        "second": "Balkin",
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "kw_d0f58e7cc36042c8a67098eda7feab03",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee and Village Board - Budget Workshop 1",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Kronenwetter held its first budget workshop for the 2027 fiscal year on October 19, 2026, with joint participation from the Administrative Policy Committee and Village Board. Village Administrator John and Finance Director Jim presented a comprehensive budget overview proposing a 5.7% tax rate increase (from $4.03 to $4.26 per $1,000 assessed value), a 6.99% levy increase to $2.9 million, and a $30 garbage fee surcharge due to diesel fuel costs, with the combined residential impact estimated at $62–$97 annually. No formal votes were taken; the session was a discussion and review workshop with a second session planned for October 20.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "1:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "3:00",
-        "item": "Public Comment"
-      },
-      {
-        "time": "8:30",
-        "item": "Budget Workshop Overview - Tax Levy and Tax Rate"
-      },
-      {
-        "time": "15:00",
-        "item": "Water and Sewer Rates Discussion"
-      },
-      {
-        "time": "22:00",
-        "item": "Department Budget Overviews - General Government, Village Board, Attorney, Municipal Court"
-      },
-      {
-        "time": "45:00",
-        "item": "Police Department Budget"
-      },
-      {
-        "time": "1:10:00",
-        "item": "Fire and EMS Budget"
-      },
-      {
-        "time": "1:25:00",
-        "item": "Public Works, Parks, and Community Development Budgets"
-      },
-      {
-        "time": "2:15:00",
-        "item": "General Fund Revenue Overview and Fund Balance Discussion"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "One member of the public, Bernie Kramer of 2150 East State Highway 153, Mosinee, spoke during public comment. He expressed concern about the village moving away from municipal water service toward private wells and septic systems in new residential development, arguing this would hurt utility revenue (90% of which comes from residential users), increase costs for future homeowners, and undermine the village's own long-range planning within the septic service area utility."
-      },
-      {
-        "item": "Tax Levy and Tax Rate",
-        "body": "Village Administrator John presented a proposed tax rate increase from $4.03 to $4.26 per $1,000 assessed value, a 5.7% increase, and a levy increase from $2.7 million to $2.9 million (6.99%, approximately $190,000). He noted the village could legally levy as high as $4 million and a rate of $5.87 but was proposing well below that maximum. Trustee Mary Solheim raised concern that a 7% levy increase is unsustainable given only 0.651% net new construction, and staff acknowledged this while pointing to incoming developments (Green Tree, FAA property, TID 1 distribution center) as reasons for optimism."
-      },
-      {
-        "item": "Garbage Fee Surcharge",
-        "body": "Staff proposed a $30 garbage fee increase per household attributable entirely to a diesel fuel surcharge from Harter's contract, triggered when diesel exceeds $4 per gallon. The village has been absorbing roughly $6,000 per month in extra fuel costs since March 2026 (approximately $60,000 total) from contingency reserves and TID III closure revenues. Staff recommended the surcharge remain until diesel prices drop below $4, at which point it would be removed. The base rate increase of $9.12 previously planned was set aside in favor of this surcharge-only approach."
-      },
-      {
-        "item": "Water and Sewer Rates",
-        "body": "Staff reported no proposed rate increases for water or sewer in 2027. A 2.5% sewer rate increase had been anticipated for January 2027 tied to a borrowing, but the borrowing was delayed, pushing the first debt service payment to 2028. A new water well and water tower are planned but unlikely to be funded until 2028 or later, pending PSC review. No action was taken."
-      },
-      {
-        "item": "Police Department Budget",
-        "body": "A second new officer budgeted for Q4 2026 will not be hired this year due to a thin applicant pool; Chief Terry plans to wait for a stronger candidate pool, possibly December academy graduates. Both new officers will be fully funded for 12 months in 2027. Health insurance for the police union came in at 14.2% increase (down from an initial 17% quote). Staff are exploring moving police union employees to the TeamCare plan to reduce per-employee health costs, with the union reportedly not opposed. Crossing guard pay was proposed to increase from $16.48 to $20 per hour due to recruitment difficulties."
-      },
-      {
-        "item": "Fire and EMS Budget",
-        "body": "EMS ambulance runs are tracking at approximately 492 for 2026 against a budget of 420, and staff are projecting up to 500 runs for 2027, up from 390 actual in 2025. Administrator John said this requires a budget adjustment for 2026 and elevated funding in 2027. The Riverside formula for billing runs does not change for 2027 but includes a 1% increase effective 2028."
-      },
-      {
-        "item": "Public Works Budget",
-        "body": "The road maintenance budget is proposed to increase from $386,000 to $400,000 (3.63%), roughly in line with CPI at 3.7%. Winter plow blades are up $5,000 and road salt is up approximately $8,000. Marathon County landfill tipping fees are increasing about $7,000. The grader lease payment was already reduced by $4,000 after a prior board-approved trade-in. State highway aid to the village increased $52,000 (the maximum 15% allowed) due to increased infrastructure spending, including the Kronenwetter Drive project."
-      },
-      {
-        "item": "Community Development and Planning Tech Position",
-        "body": "Staff reported they are close to making an offer to a planning technician candidate to assist Planning Director Nathan. The position was only funded for nine months in 2026; it will be funded for a full 12 months in 2027. Administrator Jim emphasized urgency in hiring given high foot traffic at village hall for zoning questions and incoming development activity."
-      },
-      {
-        "item": "TID 1 Expenditure Period - Trustee Challenge",
-        "body": "Trustee Dan Lesniak raised a concern that it may not be legally permissible to make new expenditures from TID 1 because its expenditure period has ended, except potentially for administration costs. Administrator John said auditors and financial advisor Ehlers had previously indicated administration costs, assessment costs, and audit costs can flow through, but agreed to confirm the question definitively at the next night's meeting."
-      },
-      {
-        "item": "General Fund Revenue Overview",
-        "body": "Staff identified several revenue improvements: shared revenue up about $10,000 (2%); a $54,000 annual Magellan termination payment that had never been budgeted previously; highway aid up $52,000; and building permits trending up from $40,000 budget to an estimated $60,000. Cable franchise fee revenue is declining significantly, estimated at $60,500 for 2027 versus a prior budget of $90,000, attributed to residents switching to streaming services. Total general fund revenue is proposed to increase approximately $657,000 or 11%, with fund balance drawdowns for one-time items including $90,000 for year two of the revaluation, $75,000 for municipal building CIP projects, and a $10,000 carryover for potential TID 5 creation work."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Bernie Kramer, 2150 East State Highway 153, Mosinee. He criticized the village for allowing new residential development to proceed with private wells and septic systems rather than connecting to municipal water and sewer, arguing this undermines utility revenue, increases long-term costs for homeowners, and contradicts the village's own planning documents. He also criticized what he characterized as illogical decision-making and the reduction in lot count in some developments.",
-    "actionItems": [
-      "Staff to confirm with Ehlers financial advisors whether administration-related expenditures from TID 1 are permissible after the expenditure period has ended, and report back at the October 20 budget workshop",
-      "Police Chief Terry to provide data on crossing guard pay rates in comparable communities",
-      "Staff to explore moving police union employees to the TeamCare health insurance plan and report results; changes may be incorporated on the night of budget adoption if logistics align",
-      "Staff to publish the proposed budget by end of the week or early the following week to start the required two-week public review period before November adoption",
-      "Staff to review the village fee schedule including water/sewer hookup fees and park dedication fees to determine if updates are warranted",
-      "Staff to identify an expert on the new residential TID law (effective October 1, 2026) and arrange a presentation to the board",
-      "Administrator John to prepare a 2028 budget preview list of known upcoming cost increases and decreases, to be shared at an upcoming meeting",
-      "Planning Director Nathan to proceed toward making an offer to a planning technician candidate",
-      "Second budget workshop session scheduled for October 20, covering TIF districts, public safety (police and fire), and community development in detail"
-    ],
-    "topics": [
-      "Budget",
-      "Tax Levy",
-      "Utilities",
-      "Development",
-      "Public Safety",
-      "Roads",
-      "Staffing",
-      "TID Districts"
-    ],
-    "votes": []
-  },
-  {
-    "id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
-    "source": "kronenwetter",
-    "title": "Plan Commission Meeting",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Plan Commission",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-32",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bdf4cc06c02749e6864bd0e30592f00b.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Kronenwetter Plan Commission held its October 19, 2026 meeting with only four of seven members present — a bare quorum. The commission approved a zoning change and certified survey map for a residential parcel split on Aspen Road, but voted to postpone action on a controversial conditional use permit for a non-metallic mine at 1320 Kowalski Road, citing the reduced commission membership and the significance of the decision.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "0:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "1:30",
-        "item": "Public Hearing: Conditional Use Permit — Oakley River LLC / Eau Claire River LLC, 1320 Kowalski Road (non-metallic mine)"
-      },
-      {
-        "time": "38:00",
-        "item": "Public Hearing: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road (RR5 to RR2)"
-      },
-      {
-        "time": "40:00",
-        "item": "Public Comment (general)"
-      },
-      {
-        "time": "41:00",
-        "item": "Community Development Director Report — Nathan Sandwick"
-      },
-      {
-        "time": "48:00",
-        "item": "New Business: Certified Survey Map — Gene Pachinsky, 3115 Aspen Road"
-      },
-      {
-        "time": "49:30",
-        "item": "New Business: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road"
-      },
-      {
-        "time": "55:00",
-        "item": "New Business: Conditional Use Permit — Eau Claire River LLC, 1320 Kowalski Road"
-      },
-      {
-        "time": "1:10:00",
-        "item": "Zoning Code Review Discussion"
-      },
-      {
-        "time": "1:20:00",
-        "item": "Agenda Items for Future Meetings / Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Hearing: Conditional Use Permit — Eau Claire River LLC, Non-Metallic Mine at 1320 Kowalski Road",
-        "body": "Multiple speakers addressed the commission. Guy Fridell, a longtime advocate for a Kowalski Road interchange, strongly opposed the permit, arguing it would undermine decades of village planning and investment, conflict with the comprehensive plan, and that the economic benefits of the interchange — 1,000–1,200 jobs and $100–125 million in new tax base — far outweigh speculative benefits from sand mining. Tom Redens, representing applicant Eau Claire River LLC with Gary Gert and Kurt Sebert, argued the mine would allow the flood-prone site to be graded to a buildable pad and that the village board had already voted months earlier to abandon the interchange committee, making the mine plan the viable path forward for TID-1 development. Neighbors Rich Barker, Dawn Barker (who raised concerns about fish — including walleye — in the existing pond), Dale Champagne, and others also spoke. A public commenter questioned the source of the projected 1,200 jobs and flood storage development challenges."
-      },
-      {
-        "item": "New Business: Zoning Change Request — Gene Pachinsky, 3115 Aspen Road (RR5 to RR2)",
-        "body": "Community Development Director Nathan Sandwick explained the request: Pachinsky wants to split an 11-acre parcel so the 2.89-acre portion containing the existing home can be sold, but that parcel is too small for RR5 zoning. The commission discussed road frontage (118 feet, deemed sufficient) and the dead-end, low-traffic nature of Aspen Road. Trustee Stowell moved to recommend approval to the village board; Terry Lewis-Burkett seconded. The motion carried 4-0 on a roll call vote."
-      },
-      {
-        "item": "New Business: Certified Survey Map — Gene Pachinsky, 3115 Aspen Road",
-        "body": "The commission considered approval of the CSM contingent on the village board enacting the zoning change to RR2. Sandwick clarified the plan commission — not the village board — approves CSMs of this type. Trustee Stowell moved approval contingent on the zoning change; Terry Lewis-Burkett seconded. The motion carried 4-0 on roll call."
-      },
-      {
-        "item": "New Business: Conditional Use Permit — Eau Claire River LLC, 1320 Kowalski Road",
-        "body": "After the public hearing, commissioners expressed reluctance to act with only four of seven members present on such a significant matter. Rick Grundman moved to postpone action; Trustee Stowell seconded. Commissioners noted a 60-day window from the public hearing to render a decision and agreed a special meeting would be scheduled. The postponement motion carried 4-0. Commissioners encouraged absent members to listen to the recorded public hearing testimony before the next meeting."
-      },
-      {
-        "item": "Community Development Director Report",
-        "body": "Nathan Sandwick highlighted the recent zoning workshop, upcoming Green Tree Trail subdivision final plat review, a potential public hearing on private sewage disposal system ordinance changes, and his attendance at the Wisconsin APA conference. He also flagged a new state law requiring more specificity in comprehensive plans regarding residential growth areas, with compliance required before January 2028 — recommending the village update its plan before that deadline."
-      },
-      {
-        "item": "Zoning Code Review",
-        "body": "The commission briefly discussed the zoning code review but deferred substantive discussion to the November 16th regular meeting due to the late hour and small attendance. Sandwick noted new state legislation allowing residential TIDs with smaller maximum lot sizes, which could require zoning code amendments if the village wishes to participate. A commissioner requested that someone with expertise on flood storage districts present at a future meeting to help commissioners better understand how flood storage, fill requirements, and development interact."
-      }
-    ],
-    "publicComment": "No general public comment was offered during the public comment period. However, multiple speakers testified during the public hearing on the Eau Claire River LLC conditional use permit: Guy Fridell (2240 Ruby Drive) opposed the permit at length, citing interchange planning history and economic impact studies; Tom Redens of Land Planning Services spoke on behalf of the applicant; Rich Barker (1290 Kowalski Road) spoke in opposition (brief); Dale Champagne (1292 Kowalski Road) asked a clarifying question about the acreage to be mined; Dawn Barker (1290 Kowalski Road) raised a concern about fish, including walleye, currently in the existing pond; and an unidentified speaker asked where the projected 1,200 jobs would come from. No speakers addressed the Pachinsky zoning change public hearing.",
-    "actionItems": [
-      "Schedule a special Plan Commission meeting to take up the Eau Claire River LLC conditional use permit with a fuller commission membership present",
-      "Forward the Pachinsky RR5-to-RR2 zoning change recommendation to the Village Board for action at the next Monday board meeting",
-      "CSM for Pachinsky parcel approved contingent on village board enacting zoning change",
-      "Place procedures for plan commission public hearings on the November 16 agenda",
-      "Sandwick to prepare a presentation or arrange an expert to explain flood storage district rules and TID implications for a future meeting",
-      "Village to begin comprehensive plan updates for residential growth area specificity before December 31, 2027 compliance deadline",
-      "Kim (clerk) to email all commissioners to identify a special meeting date for the Eau Claire River LLC CUP decision"
-    ],
-    "topics": [
-      "Zoning",
-      "Development",
-      "Non-Metallic Mining",
-      "Kowalski Road Interchange",
-      "Flood Storage District"
-    ],
-    "votes": [
-      {
-        "item": "Recommend approval of zoning change for Gene Pachinsky, 3115 Aspen Road, from RR5 to RR2",
-        "motion": "Motion to recommend to the village board approval of the zoning change from RR5 to RR2",
-        "mover": "Jessica Stowell",
-        "second": "Terry Lewis-Burkett",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Approve certified survey map for Gene Pachinsky, 3115 Aspen Road, contingent on zoning change to RR2",
-        "motion": "Motion to approve the CSM contingent upon enactment of the proposed zoning change to RR2",
-        "mover": "Jessica Stowell",
-        "second": "Terry Lewis-Burkett",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Postpone action on Eau Claire River LLC conditional use permit for non-metallic mine at 1320 Kowalski Road",
-        "motion": "Motion to postpone action on this item until a fuller group of the commission is present",
-        "mover": "Rick Grundman",
-        "second": "Jessica Stowell",
-        "outcome": "Approved",
-        "tally": "4-0"
-      },
-      {
-        "item": "Adjourn",
-        "motion": null,
-        "mover": "Rick Grundman",
-        "second": "Jessica Stowell",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "svZQYS81_uI",
-    "source": "weston",
-    "title": "Tourism Commission",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Tourism Commission",
-    "duration": "35m",
-    "url": "https://www.youtube.com/watch?v=svZQYS81_uI",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10192026-1983",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston Tourism Commission met on October 20, 2025, acknowledging a strong summer tourism season highlighted by the World Horseshoe Tournament, which generated $3.2 million in direct visitor spending and $5.1 million in economic impact. Two grant requests — the 2026 Fall Cup post-event request and a tree-clearing project on the Eau Claire River — were tabled until the January 2027 meeting due to missing post-action reports and absent applicants. Several post-event reports were acknowledged and a suggestion was raised to require revenue/expense summaries in future post-event reporting.",
-    "agenda": [
-      {
-        "time": "0:04",
-        "item": "Call to order and Pledge of Allegiance"
-      },
-      {
-        "time": "0:45",
-        "item": "Roll call and welcome of new member Steve"
-      },
-      {
-        "time": "1:10",
-        "item": "Public comment"
-      },
-      {
-        "time": "2:10",
-        "item": "Approval of minutes of May 18th"
-      },
-      {
-        "time": "2:40",
-        "item": "Acknowledge work product transmittal: September budget status report"
-      },
-      {
-        "time": "5:01",
-        "item": "CVB report from Tim"
-      },
-      {
-        "time": "18:30",
-        "item": "New business: Grant request — 2026 Fall Cup post-event request"
-      },
-      {
-        "time": "23:30",
-        "item": "Grant request: Clearing of trees from Eau Claire River"
-      },
-      {
-        "time": "27:00",
-        "item": "Post-event reports: Wings over Wisconsin Wausau, Fourth of July, Weston Acoustic Concert Series, Bluesfest, World Horseshoe Tournament"
-      },
-      {
-        "time": "33:30",
-        "item": "Remarks from staff and commission members; future meeting date"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Jim Pensel, 500 [street inaudible] Weston, raised two concerns: first, that the meeting packet layout was confusing; second, that a post-event request for the Fall Cup soccer event was submitted without a concurrent after-action report even though the event had already occurred. He also questioned the realism of room estimates in some applications, noting the Village of Weston only has 317 hotel rooms, and urged that future applications specify rooms impacted within Weston specifically."
-      },
-      {
-        "item": "September Budget Status Report",
-        "body": "The commission acknowledged a budget status report showing revenues and expenditures through the second quarter. A member noted the account balance stood at $233,531. No questions were raised and the report was acknowledged by motion."
-      },
-      {
-        "item": "CVB Report",
-        "body": "CVB representative Tim reported a highly successful summer tourism season, led by the World Horseshoe Tournament, which drew approximately 3,000 participants and families over two-plus weeks, generated $3.2 million in direct visitor spending and $5.1 million in economic impact, and brought hotel occupancy in the area to 86.2%. Tim noted discussions are underway with World Horseshoe leadership about potentially hosting again in 2033 and 2037 without a formal bid process. Marathon County's total annual tourism economic impact was cited at over $520 million with 2 million-plus visitors. Discussion also touched on the lack of new grant applications ahead of the upcoming funding cycle and whether posting meeting dates publicly on the CVB website would help applicants meet deadlines."
-      },
-      {
-        "item": "Grant Request — 2026 Fall Cup Post-Event Request",
-        "body": "Commissioners noted applicant Dan was not present to explain the late submission. Tim confirmed the CVB had no communication from Dan regarding the application or his absence. Members expressed concern about setting a precedent by approving after-the-fact requests without adequate documentation, though several acknowledged the Fall Cup is a significant event. The commission voted unanimously to table the item until January, directing the CVB to contact Dan and require his presence at the next meeting along with a post-action report."
-      },
-      {
-        "item": "Grant Request — Clearing of Trees from Eau Claire River",
-        "body": "The applicant was not present. One commissioner shared a personal account of a dangerous incident on the river caused by downed trees, supporting the safety rationale for the project, and noted the trees had already been cut. However, commissioners agreed they lacked sufficient detail — including how many trees were removed, photos, and a post-action report — to act. The item was tabled until January with a request for pictures and a full post-action report."
-      },
-      {
-        "item": "Post-Event Reports (Items 9A–9E): Wings over Wisconsin Wausau, Fourth of July, Weston Acoustic Concert Series, Bluesfest, World Horseshoe Tournament",
-        "body": "Commissioners reviewed five post-event reports. Questions were raised about the Wings over Wisconsin Wausau report regarding what the 'value amount' column represented (clarified as marketing expenditures, not revenues) and whether the event's financials were disclosed. A suggestion was made to add a revenues-versus-expenses requirement to post-event reporting forms, with the chair directing this be placed as a separate action item for January. All five post-event reports were acknowledged by a single motion, passed unanimously."
-      },
-      {
-        "item": "Staff Remarks and Future Meeting",
-        "body": "Staff reminded commissioners that a Halloween map is currently active for residents to submit Halloween activities, and that the end-of-year farmers market survey is open through October 30th. The next meeting was set for January 18th, 2027, at 4 p.m., with the two tabled grant items and a potential policy vote on post-event financial reporting to be added to the agenda."
-      }
-    ],
-    "publicComment": "One speaker offered public comment: Jim Pensel, 500 [street inaudible] Weston. He raised concerns that the meeting packet was confusingly organized, criticized the submission of a post-event grant request for the Fall Cup without a concurrent after-action report despite the event having already occurred, and questioned the realism of room-night estimates in some applications given Weston's limited hotel capacity of 317 rooms. He urged the commission to require applications to specify hotel rooms impacted within the Village of Weston specifically.",
-    "actionItems": [
-      "Table Fall Cup 2026 post-event grant request to January meeting; CVB to contact applicant Dan and require his attendance and a post-action report",
-      "Table Eau Claire River tree-clearing grant request to January meeting; CVB to contact applicant and request post-action report with photos and tree count",
-      "Place potential policy item on January agenda: whether to require revenue/expense financial summary as part of post-event reports",
-      "All five post-event reports (Wings over Wisconsin Wausau, Fourth of July, Weston Acoustic Concert Series, Bluesfest, World Horseshoe Tournament) acknowledged",
-      "Next meeting scheduled for January 18th, 2027 at 4 p.m."
-    ],
-    "topics": [
-      "Tourism Funding",
-      "Grant Requests",
-      "World Horseshoe Tournament",
-      "Post-Event Reporting",
-      "Eau Claire River"
-    ],
-    "votes": [
-      {
-        "item": "Approval of minutes of May 18th",
-        "motion": null,
-        "mover": null,
-        "second": "Odell [phonetic]",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acknowledge September budget status report",
-        "motion": "Move to acknowledge",
-        "mover": "[inaudible — referred to as 'hotel']",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acknowledge CVB report",
-        "motion": "Move to acknowledge report",
-        "mover": null,
-        "second": "Renee [phonetic]",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Table 2026 Fall Cup post-event grant request to January meeting",
-        "motion": "Move to table until next meeting",
-        "mover": null,
-        "second": null,
-        "outcome": "Tabled",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Table Eau Claire River tree-clearing grant request to January meeting",
-        "motion": "Move to table until January",
-        "mover": "Renee [phonetic]",
-        "second": "Steve [phonetic]",
-        "outcome": "Tabled",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acknowledge post-event reports 9A through 9E (Wings over Wisconsin Wausau, Fourth of July, Weston Acoustic Concert Series, Bluesfest, World Horseshoe Tournament)",
-        "motion": "Move to acknowledge number nine A B C D E",
-        "mover": "Hang [phonetic — likely Hooshang Zeyghami]",
-        "second": "Renee [phonetic]",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Move to adjourn",
-        "mover": null,
-        "second": "Steve [phonetic]",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "VwT65b86_JM",
-    "source": "weston",
-    "title": "Joint Budget Workshop Meeting",
-    "date": "October 19, 2026",
-    "shortDate": "OCT 19",
-    "committee": "Board of Trustees",
-    "duration": "1h 53m",
-    "url": "https://www.youtube.com/watch?v=VwT65b86_JM",
-    "docUrl": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_10192026-1983",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Weston held a joint budget workshop with the Finance and Human Resources Committee and Board of Trustees to review the proposed 2027 budget across all funds and make key decisions on refuse fees and the public hearing notice. The board approved a $30 increase in annual garbage fees (raising the rate to $235.50) for 2027, with plans to re-evaluate annually, and approved the public hearing notice for the 2027 budget with a 5-2 vote. A projected 8-cent decrease in the tax rate was noted, though a future reassessment of all village properties is anticipated as the assessment ratio has fallen below required thresholds.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order, Pledge of Allegiance, and Roll Call"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "7:45",
-        "item": "Approval of October 5, 2026 Joint Budget Workshop Meeting Minutes"
-      },
-      {
-        "time": "11:20",
-        "item": "Acknowledge September Budget Status Report (Item 5)"
-      },
-      {
-        "time": "14:30",
-        "item": "Acknowledge TIFF 1 and TIFF 2 Detail Reports for September (Item 6)"
-      },
-      {
-        "time": "17:00",
-        "item": "Acknowledge Legal Details for September (Item 7)"
-      },
-      {
-        "time": "20:10",
-        "item": "Review and Discussion of 2027 Budget — General Fund, Special Revenue, Debt Service, Capital Projects, and Utilities"
-      },
-      {
-        "time": "1:52:00",
-        "item": "Discussion and Action on Refuse/Recycling Fund and Potential Increase in Garbage Fees (Item 9)"
-      },
-      {
-        "time": "2:10:00",
-        "item": "Discussion and Action on 2027 Budget Public Hearing Notice (Item 10)"
-      },
-      {
-        "time": "2:25:00",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment",
-        "body": "Jim Johnson of 5000 Street, Weston, addressed the board on several concerns. He argued that the refuse reserve fund would be depleted within months and criticized the village for not billing the Town of Weston its approximately $100,000 share of fuel surcharges, calling it the result of 'Maloney's handshake deals from the 90s.' He also challenged a budget slide showing a tax rate decrease, saying it was misleading because it reflected a property revaluation rather than reduced spending, and questioned why the Mountain Bay Metro Police Department budget showed a 4.63% increase when their oversight board approved less than 3%."
-      },
-      {
-        "item": "Approval of October 5, 2026 Joint Budget Workshop Meeting Minutes",
-        "body": "Both the Finance and HR Committee and the Board of Trustees voted to approve the minutes with one correction. Trustee Beck noted that the minutes incorrectly recorded her vote as 'aye' on a 6-1 motion on page 5, when she had actually voted 'nay.' The correction was acknowledged and the minutes were approved as amended."
-      },
-      {
-        "item": "2027 Budget — Tax Rate and General Fund Review",
-        "body": "Finance Director Jessica presented the proposed 2027 budget, noting the projected tax rate decrease had shifted from 10 cents to approximately 8 cents after updated assessment ratio data arrived on Friday. She explained the village's assessment ratio has dropped to 0.86, triggering a future mandatory reassessment, likely within a few years. Extended discussion covered the Mountain Bay PD budget showing a 4.63% increase, which staff explained was an artifact of the way $100,000 was moved from the capital fund to the general fund in 2026, not an actual contract overage. Trustee Ermeling raised numerous line-item questions including overtime in committee budgets, ice rink wages, pet licensing pass-throughs, DPW salary transfers back from TIFF, and the street operations bonus line of $66,000, which staff confirmed was the transportation aid increase discussed at the prior meeting and part of the approved compensation plan."
-      },
-      {
-        "item": "2027 Budget — Debt and Borrowing Discussion",
-        "body": "Trustees raised significant concerns about the village's total debt load. Trustee Beck pressed staff to confirm whether the $4 million bank note for the Mountain Bay police building was included in Ellers' projected combined principal of $49,380,132, expressing concern the real total could be $53-54 million. Staff confirmed the $4 million was included in Ellers' figures after a trustee found the notation in the orange header of Table 9. Jessica clarified total village outstanding debt is approximately $55 million at end of 2026 when revenue bonds are included. Trustees requested a review of the village's debt policy, last updated in May 2008, be placed on a future agenda. A trustee also recommended the board formally approve loan covenants for the $4 million police building bank note, which staff agreed to bring back for board review."
-      },
-      {
-        "item": "2027 Budget — Special Revenue, Capital, and Utilities",
-        "body": "Discussion of special revenue funds included TIFF 1 closure with approximately $1.5 million anticipated to be allocated to taxing districts pending audit completion, and TIFF 2 remaining open as the deficit is not yet paid off. Room tax fund discussion prompted a trustee to suggest a dedicated future meeting to discuss allowable uses for tourism revenue beyond the current split between the CVB and transfers to the aquatic center and capital equipment fund. On utilities, staff noted a sanitary sewer rate increase will be needed in 2027, with Finance noting the remote metro sewage district costs have risen nearly $1 million over the past decade and are difficult to predict. Pool leak detection was reported ongoing since October 8th with results still pending."
-      },
-      {
-        "item": "Refuse and Recycling Fund — Garbage Fee Increase (Item 9)",
-        "body": "Staff presented options for annual garbage fee increases, with a $30 increase (to $235.50) included in the proposed budget. The estimated year-end fund balance is $62,400 before any rate change. Public commenter Jim Johnson's earlier argument that the Town of Weston should be billed its share of fuel surcharges (approximately 4% of total costs, estimated at $100,000 for 2026) was addressed; staff clarified the town pays the same per-unit rate as village residents and is billed accordingly. After discussion, Finance Committee member Rickert moved to increase the fee to $235.50 for 2027 only, with re-evaluation in future years. The motion passed unanimously in committee and was adopted by the board, with Trustee Olson voting nay."
-      },
-      {
-        "item": "2027 Budget Public Hearing Notice (Item 10)",
-        "body": "Staff presented the draft public hearing notice and noted the estimated assessed tax rate would be updated to approximately $5.52 based on new assessment data. After brief discussion about the net impact on a $300,000 home (approximately $30 reduction in property taxes roughly offsetting the $30 garbage fee increase), the Finance Committee approved the notice with the amended tax rate. The full Board voted 5-2 to approve, with Trustees Clark and Beck voting nay. The public hearing is scheduled for the November 16th board meeting at 6 PM."
-      }
-    ],
-    "publicComment": "One speaker addressed the board: Jim Johnson of 5000 Street, Weston. He argued the refuse reserve fund would be exhausted within months with no sustainable solution presented, criticized the village for not billing the Town of Weston its estimated $100,000 share of fuel surcharges under the garbage contract (attributing this to 'Maloney's handshake deals from the 90s'), challenged a budget slide showing a tax rate decrease as misleading since it reflected a property revaluation rather than reduced spending, and questioned why the Mountain Bay Metro PD budget showed a 4.63% increase when their oversight board approved under 3%.",
-    "actionItems": [
-      "Annual garbage fee increased to $235.50 for 2027; staff to re-evaluate rate annually",
-      "Jessica to finalize and submit 2027 budget public hearing notice to newspaper with updated estimated tax rate of approximately $5.52",
-      "Public hearing on 2027 budget scheduled for November 16 board meeting at 6 PM",
-      "Staff to bring village debt policy (last reviewed May 2008) to a future board meeting for review",
-      "Staff to bring $4 million Mountain Bay police building bank note loan covenants back to board for formal approval",
-      "Staff to schedule a dedicated future meeting to discuss allowable uses and options for room tax revenue beyond current transfers",
-      "Staff to confirm with Ellers that the $4 million police building bank note is fully included in the projected combined principal figures",
-      "Jessica to adjust the $30,850/$30,000 transfer discrepancy between funds 102 and 156 in the budget",
-      "Staff to check whether the public safety building floor water damage was submitted to insurance",
-      "Pool leak detection results to be shared with board when available; winterization pending completion of leak detection"
-    ],
-    "topics": [
-      "Budget",
-      "Refuse and Recycling Fees",
-      "Debt Management",
-      "Public Safety Building",
-      "Mountain Bay Metro Police Department"
-    ],
-    "votes": [
-      {
-        "item": "Approval of October 5, 2026 Joint Budget Workshop Meeting Minutes — Finance and HR Committee",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approval of October 5, 2026 Joint Budget Workshop Meeting Minutes (as corrected) — Board of Trustees",
-        "motion": "Move to approve",
-        "mover": "Hooshang Zeyghami",
-        "second": "Katrina Clark",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge September Budget Status Report — Finance and HR Committee",
-        "motion": "Motion to acknowledge",
-        "mover": "Daniels",
-        "second": "Ermeling",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge September Budget Status Report — Board of Trustees",
-        "motion": "Motion to acknowledge",
-        "mover": "Barbara Ermeling",
-        "second": "Luis Lopes-Serrao",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge TIFF 1 and TIFF 2 Detail Reports for September — Finance and HR Committee",
-        "motion": "Motion to approve",
-        "mover": null,
-        "second": "Daniels",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Acknowledge Legal Details for September — Finance and HR Committee",
-        "motion": "Motion to acknowledge",
-        "mover": "Palfco",
-        "second": "Daniels",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Increase annual garbage fee to $235.50 for 2027 — Finance and HR Committee",
-        "motion": "Motion to increase fee to $235.50 for 2027 only, with re-evaluation",
-        "mover": "Rickert",
-        "second": "Daniels",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Increase annual garbage fee to $235.50 for 2027 — Board of Trustees",
-        "motion": "Move to accept the recommendation from finance as described",
-        "mover": "Luis Lopes-Serrao",
-        "second": "Katrina Clark",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve 2027 Budget Public Hearing Notice (with updated tax rate) — Finance and HR Committee",
-        "motion": "Motion to approve with amendment for updated estimated tax rate",
-        "mover": null,
-        "second": "Palfco",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Approve 2027 Budget Public Hearing Notice — Board of Trustees",
-        "motion": "Move to approve the recommendation from finance",
-        "mover": "Luis Lopes-Serrao",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "5-2"
       }
     ]
   }

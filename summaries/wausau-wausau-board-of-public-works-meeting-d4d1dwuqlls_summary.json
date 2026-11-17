@@ -1,0 +1,72 @@
+{
+  "overview": "The Wausau Board of Public Works held a brief meeting in which two claims were acted upon: one approved and one denied. The meeting concluded quickly with no extended discussion or public comment.",
+  "committee": "Wausau Board of Public Works",
+  "presiding": "Unknown — not identified in transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62"
+    },
+    {
+      "time": "0:20",
+      "item": "Claim of John and Jennifer Havl — $180"
+    },
+    {
+      "time": "0:40",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62",
+      "body": "A motion was made and seconded to approve the claim of Aaron Isaac Munoz Granados in the amount of $9,878.62. The motion passed with no audible dissent. No discussion of the nature of the claim was captured in the transcript."
+    },
+    {
+      "item": "Claim of John and Jennifer Havl — $180",
+      "body": "A motion was made and seconded to deny the claim of John and Jennifer Havl in the amount of $180. The motion to deny passed with no audible dissent. No explanation for the denial was provided in the transcript."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Approve payment of claim from Aaron Isaac Munoz Granados in the amount of $9,878.62",
+    "Deny claim from John and Jennifer Havl in the amount of $180"
+  ],
+  "topics": [
+    "Claims",
+    "Budget",
+    "Public Works Administration"
+  ],
+  "votes": [
+    {
+      "item": "Claim of Aaron Isaac Munoz Granados — $9,878.62",
+      "motion": "Motion to approve the claim in the amount of $9,878.62",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Claim of John and Jennifer Havl — $180",
+      "motion": "Motion to deny the claim in the amount of $180",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Adjournment",
+      "motion": "Motion to adjourn",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "3fe322cc0e4f5ec1",
+  "title": "Wausau Board of Public Works Meeting",
+  "url": "https://www.youtube.com/watch?v=d4d1DWUqlLs",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-11-17T23:34:26.259515+00:00"
+}
