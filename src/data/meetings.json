@@ -246,6 +246,375 @@
     "votes": []
   },
   {
+    "id": "kw_ff35b6b75e12487c9fcbce664abe1fbf",
+    "source": "kronenwetter",
+    "title": "Revised Administrative Policy Committee Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Administrative Policy",
+    "duration": null,
+    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/revised-administrative-policy-committee-meeting-9",
+    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff35b6b75e12487c9fcbce664abe1fbf.pdf",
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Village of Kronenwetter's Administrative Policy Committee held its November 17, 2026 meeting, approving several budget-related recommendations including a $5,000 park grant match, a multi-item 2026 budget amendment, and health insurance renewals for two employee groups. Finance Director John Jacobs led extensive discussions on tax increment district closure timelines, the 2027 budget, and upcoming property revaluation — all of which carry significant long-term financial implications for village taxpayers. The committee also agreed by consensus to skip its December meeting and reconvene January 19, 2027.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "1:10",
+        "item": "Roll Call"
+      },
+      {
+        "time": "1:40",
+        "item": "Public Comment"
+      },
+      {
+        "time": "2:00",
+        "item": "Approval of Minutes — October 13, October 19, and October 20, 2026 APC meetings"
+      },
+      {
+        "time": "6:30",
+        "item": "Item F: Update on Estimated Closure Dates for All Tax Increment Districts"
+      },
+      {
+        "time": "30:00",
+        "item": "Item G: 2027 Budget Presentation Highlights"
+      },
+      {
+        "time": "44:00",
+        "item": "Item H: December 2026 Assessed Tax Rates"
+      },
+      {
+        "time": "52:00",
+        "item": "Item I: 2026 Budget Amendment #5 — Park Grant Matching Funds"
+      },
+      {
+        "time": "56:00",
+        "item": "Item J: 2026 Budget Amendment #6 — General Fund and TID 3 Fund"
+      },
+      {
+        "time": "1:08:00",
+        "item": "Item K: 2027–2029 Health Insurance — Team Care"
+      },
+      {
+        "time": "1:18:00",
+        "item": "Item L: 2027 Health Insurance — United Health Care (Police Union Group)"
+      },
+      {
+        "time": "1:30:00",
+        "item": "Future Agenda Items, December Meeting Cancellation, and Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes — October 13, October 19, and October 20, 2026",
+        "body": "The committee moved to approve all three sets of minutes together. During discussion, committee member Guy Fridl noted he had previously raised a question about whether areas along Maple Ridge Road have developable sewer and water capacity; the presiding officer directed that the question be noted in the minutes and referred to Public Works Director Greg for a response at a future meeting. The motion was approved 4-0."
+      },
+      {
+        "item": "Item F: Update on Estimated Closure Dates for All Tax Increment Districts",
+        "body": "Finance Director John Jacobs provided a detailed overview of projected closure timelines for all four TIF districts. TID 3 was already closed in February 2026, eight years early, returning approximately $3 million in valuation to the tax roll and adding $1,139 to the levy in 2027 with a full effect of roughly $8,300 thereafter. TID 2 is projected to close by 2029 — five years early — which could add up to $219,000 to the tax levy by 2031; Jacobs noted the $863,200 borrowed in late 2024 must be spent or committed by October 2027 and may remain in TID 2 to fund Maple Ridge Road work. TID 4 is expected to close around 2031–2032 after going temporarily cash-flow negative. TID 1, boosted by a large distribution center project, could close by 2039 — five years early — adding approximately $140,000 annually to the levy by 2041. Jacobs declined to publicly state the distribution center's estimated market value, saying the developer had not yet disclosed it publicly, but confirmed $15 million as a first-year rough estimate. When asked about charging interest on the village's advance to TID 1, Jacobs said he would seek guidance from the village's financial advisor before making a recommendation."
+      },
+      {
+        "item": "Item G: 2027 Budget Presentation Highlights",
+        "body": "Jacobs highlighted key elements of the adopted 2027 budget, noting the assessed tax rate rose 22 cents to $4.25 but that after the pending property revaluation — required by state law to be completed by end of 2027 — the rate will fall significantly, comparable to what occurred after the 2021 revaluation. He explicitly addressed social media claims that the rate would reach $5.00, calling them false and explaining that revaluation mechanics bring the assessed rate in line with the equalized rate. Budget additions include fully funding two new patrol officers (the second position still unfilled), a new utility operator starting January 1, a deputy clerk starting April 1, and a 3.5% cost-of-living wage increase across the board. Health insurance for non-police staff came in at 4% rather than the feared 8% increase."
+      },
+      {
+        "item": "Item H: December 2026 Assessed Tax Rates",
+        "body": "Jacobs presented estimated combined tax rates for both Mosinee and D.C. Everest school district residents, noting the final numbers were expected before Thanksgiving. For Mosinee district taxpayers, the total rate is projected to rise roughly $1.04, or about 6%; the village's share of that increase (22 cents) is the third-lowest among taxing jurisdictions, with Marathon County's increase (42 cents, 8.4%) being the largest. D.C. Everest district residents face an estimated 85-cent total increase, or about 4.9%. Jacobs reminded residents that the village comprises about 23% of the total tax bill and cannot answer questions about other jurisdictions' charges."
+      },
+      {
+        "item": "Item I: 2026 Budget Amendment #5 — Park Grant Matching Funds",
+        "body": "Jacobs presented a $5,000 transfer from the general fund to the park fund to match a grant from the Wausau and Marathon County Park and Recreation Foundation, consistent with a prior parks committee recommendation to the village board. The committee moved to recommend board approval. The motion carried 4-0 on a roll call vote."
+      },
+      {
+        "item": "Item J: 2026 Budget Amendment #6 — General Fund and TID 3 Fund",
+        "body": "Jacobs outlined a series of revenue and expenditure adjustments to bring the 2026 general fund budget in line with actual activity. New revenues include a $54,370 oil pipeline termination state aid payment (previously unknown) and a $42,855 transfer from the closing TID 3 fund. Expenditure increases cover ambulance run overruns (projected at 492 runs vs. 420 budgeted), village attorney costs roughly doubling to ~$60,000 due to a personnel investigation and a surge in open records requests, $25,000 in additional municipal building repairs including a $14,500 hot water heater replacement, fuel surcharge fees for refuse and recycling totaling ~$57,000, and miscellaneous solid waste and cleanup week overruns. The contingency reserve draw was reduced from $60,000 to $38,815 to offset these changes. The TID 3 fund closure transfers were also included. Guy Fridl moved the recommendation; Mary Solheim seconded; approved 4-0 on roll call."
+      },
+      {
+        "item": "Item K: 2027–2029 Health Insurance — Team Care",
+        "body": "Jacobs reported that Team Care unexpectedly provided a three-year proposal, locking in a 4% premium increase for 2027 ($469.50/month), a maximum 4% increase for 2028 ($488.30), and a maximum 6% increase for 2029 ($517.60). Approximately 15–20 non-police-union employees are covered. The committee expressed positive surprise at the multi-year offer. Misty Swanson moved to recommend board approval; Guy Fridl seconded; approved 4-0 on roll call. Jacobs noted the proposal must be signed by December 6."
+      },
+      {
+        "item": "Item L: 2027 Health Insurance — United Health Care (Police Union Group)",
+        "body": "Jacobs presented a 14.2% premium increase from United Health Care for the seven-member police union group, raising the monthly premium from approximately $14,000 to $16,417. He noted staff is exploring whether this group could be moved to Team Care, but complications include two employees currently waiving coverage (Team Care only allows one waiver), individual rate variability by age and family size, and a submission deadline of December 12. Guy Fridl moved to recommend the quote to the board for consideration in light of additional future information; Mary Solheim seconded; approved 4-0 on roll call."
+      },
+      {
+        "item": "Future Agenda Items and December Meeting Cancellation",
+        "body": "Committee member Guy Fridl suggested a future agenda discussion on building reserve funds modeled after Marathon County's approach, crediting Jacobs for stabilizing village finances but expressing a desire to go further. Jacobs and the presiding officer discussed the impracticality of a December 15 APC meeting given that the December 28 village board meeting was likely canceled, meaning any recommendations couldn't be acted on until January 11. By consensus the committee agreed to cancel the December 15 meeting and reconvene January 19, 2027, when financial audit materials or internal year-end statements may be available."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Staff to include Guy Fridl's question about Maple Ridge Road sewer and water developability in meeting minutes and refer it to Public Works Director Greg for a response at a future meeting",
+      "Finance Director Jacobs to consult village financial advisor on whether interest should be charged on the general fund advance to TID 1, and whether TID 2 funds can remain to cover Maple Ridge Road project costs within the three-year spending deadline",
+      "Recommendation to village board: approve $5,000 park grant match transfer from general fund to park fund (Budget Amendment #5)",
+      "Recommendation to village board: approve 2026 Budget Amendment #6 covering general fund revenue and expenditure adjustments and TID 3 fund closure transfers",
+      "Recommendation to village board: approve Team Care health insurance for 2027–2029 for non-police-union employees; proposal must be signed by December 6",
+      "Recommendation to village board: consider 2027 United Health Care quote for police union group pending additional information on possible Team Care transition; submission deadline December 12",
+      "APC December 15, 2026 meeting canceled by consensus; next meeting set for January 19, 2027",
+      "Future agenda item: discussion on establishing village reserve funds, per Guy Fridl's suggestion"
+    ],
+    "topics": [
+      "Budget",
+      "Tax Increment Districts",
+      "Property Revaluation",
+      "Health Insurance",
+      "Maple Ridge Road",
+      "Bush Park"
+    ],
+    "votes": [
+      {
+        "item": "Approval of October 13, October 19, and October 20, 2026 APC meeting minutes",
+        "motion": "Move to approve the minutes of October 13th, October 19th, and October 20th",
+        "mover": "Mary Solheim",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "2026 Budget Amendment #5 — $5,000 park grant matching funds transfer",
+        "motion": "Move to recommend this go to the village board for approval, citing the main budget amendments noted in the packet",
+        "mover": "Mary Solheim",
+        "second": "Misty Swanson",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "2026 Budget Amendment #6 — General fund revenue/expenditure changes and TID 3 fund closure",
+        "motion": "Move that we recommend the general fund revenue changes, general fund expenditure changes, and TID 3 fund expenditure changes as outlined in Mr. Jacobs' memo dated November 13, 2026, as budget amendments",
+        "mover": "Guy Fridl",
+        "second": "Mary Solheim",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "2027–2029 Team Care health insurance for non-police-union employees",
+        "motion": "Move that we recommend to the board to accept health insurance from Team Care for approval",
+        "mover": "Misty Swanson",
+        "second": "Guy Fridl",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "2027 United Health Care health insurance quote for police union group",
+        "motion": "Move that we recommend 2027 healthcare information received from Mr. Jacobs for consideration in light of additional future information",
+        "mover": "Guy Fridl",
+        "second": "Mary Solheim",
+        "outcome": "Approved",
+        "tally": "4-0"
+      },
+      {
+        "item": "Adjournment",
+        "motion": "Move to adjourn",
+        "mover": "Misty Swanson",
+        "second": "Mary Solheim",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
+    "id": "cw6DqUF_9vk",
+    "source": "wausau",
+    "title": "Plan Commission Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Plan Commission",
+    "duration": "56m",
+    "url": "https://www.youtube.com/watch?v=cw6DqUF_9vk",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Wausau Plan Commission held its November 17, 2026 meeting, addressing a contested rezoning request for 317 East Kent Street and reviewing the housing chapter of the city's updated comprehensive plan. The rezoning request from urban mixed-use to heavy industrial failed on a 2-2 tie vote and will advance to the full City Council for a decision at its December 8 meeting. The comprehensive plan housing chapter discussion covered affordability, housing supply, and new state legislation that will require significant attention in future meetings.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to Order"
+      },
+      {
+        "time": "0:30",
+        "item": "Public Comment on Agenda Items"
+      },
+      {
+        "time": "1:10",
+        "item": "Approval of October 20, 2026 Regular Meeting Minutes"
+      },
+      {
+        "time": "2:05",
+        "item": "Public Hearing: Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial for David Cather"
+      },
+      {
+        "time": "14:20",
+        "item": "Discussion and Possible Action: Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial"
+      },
+      {
+        "time": "26:00",
+        "item": "Discussion: Wausau Comprehensive Plan Update – Chapter 3 Housing (Presented by Sam Wessel, North Central Wisconsin Regional Planning Commission)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of October 20, 2026 Regular Meeting Minutes",
+        "body": "A motion to approve the minutes was made by a member identified as True Blood and seconded by a member identified as Bugamman. No corrections were offered and the minutes were approved unanimously by voice vote."
+      },
+      {
+        "item": "Public Hearing: Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial",
+        "body": "Three members of the public spoke during the hearing. A resident from Mount View Boulevard opposed the rezoning, citing proximity to the Eau Claire River Conservancy — approximately 200 feet away — and risk of stormwater runoff contaminating the conservancy's 49.3 acres of pine, hardwoods, and wetlands. A second resident from Sturgeon Road expressed conditional support, noting the nearby Holtze-Krauss landfill history and arguing that if the operator — which he believed to be a local contracting company — complies with city and DNR rules, it would be unlikely to harm the conservancy. A representative of the Friends of the Lower Eau Claire River Advocacy Group opposed the rezoning, arguing that stormwater from the 5.4-acre site drains directly through an HDPE culvert to the river wetlands with no filtration, and that heavy industrial zoning runs with the land and could allow more onerous future uses even if the current operator is responsible."
+      },
+      {
+        "item": "Discussion and Possible Action: Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial",
+        "body": "City staff explained the applicant sought the zoning change to construct a salt shed storage building and attached office, and that a 2016 conditional use permit for soil sifting and compost storage was voided in the comprehensive zoning rewrite, leaving the site as a legal non-conforming use that cannot be expanded without rezoning. Staff recommended denial, stating the proposal does not advance the purposes of the zoning title, is inconsistent with the comprehensive plan's future land use designation of suburban residential, and constitutes spot zoning. A member identified as Bugamman moved to approve the rezoning in the affirmative; the motion was seconded by a member identified as True Blood. The vote failed 2-2 and will be forwarded to the City Council for its December 8 meeting."
+      },
+      {
+        "item": "Wausau Comprehensive Plan Update – Chapter 3 Housing",
+        "body": "Sam Wessel of the North Central Wisconsin Regional Planning Commission walked the commission through the draft housing chapter, covering housing cost trends, supply and demand dynamics, cost burden rates, unhoused population data, housing type variety, and state legislative changes. Commissioners asked pointed questions about what is driving higher rental prices relative to local incomes, potential ordinance barriers to housing development, incentivizing multigenerational housing, discouraging land hoarding, mobile home and manufactured housing options, condominium financing barriers, and corporate ownership of rental properties. Staff noted Wausau's recently rewritten zoning code — which won a statewide planning award for addressing missing middle housing — puts the city ahead of most Wisconsin communities on the zoning side. Discussion of Act 173, which requires densities to be written into future land use map categories and provides automatic approval for projects meeting those densities, was flagged as requiring several future meetings to address properly."
+      }
+    ],
+    "publicComment": "Three residents spoke during the public hearing on the 317 East Kent Street rezoning. A resident opposed the rezoning, citing risk to the Eau Claire River Conservancy approximately 200 feet from the property, including potential stormwater contamination of wetlands and pine-hardwood acreage. A second resident offered conditional support, referencing the history of the nearby Holtze-Krauss landfill and stating that if the applicant obeys city and DNR rules and operates the property as well as the company maintains other properties in the city, there would likely be no harm to the conservancy. A representative of the Friends of the Lower Eau Claire River Advocacy Group opposed the rezoning, citing a stormwater drainage path from the site directly to the river wetlands with no filtration, and expressed concern that heavy industrial zoning running with the land could permit more harmful uses by future owners.",
+    "actionItems": [
+      "Forward the 2-2 tied rezoning vote on 317 East Kent Street to the City Council for decision at the December 8 meeting",
+      "Sam Wessel to add a column to Table 14 showing monthly housing costs relative to median income for peer communities",
+      "Sam Wessel to research and include data on percentage of homeowners with no mortgage versus owners with a mortgage",
+      "Sam Wessel to correct typo on page 44 regarding the percentage identifying more housing as a downtown enhancement",
+      "Sam Wessel to correct spelling of Southwest Jones neighborhood association name",
+      "Sam Wessel to research whether Wisconsin law permits a vacant land tax or similar disincentive for land hoarding",
+      "Staff and Sam Wessel to prepare materials on Act 173 compliance — including future land use map density requirements — for introduction after the holidays, with multiple meetings anticipated",
+      "Sam Wessel to send commissioners additional information on the Founders Point workforce housing subdivision in Sheboygan Falls",
+      "Next Plan Commission meeting scheduled for December 15, 2026"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Housing",
+      "Comprehensive Plan",
+      "317 East Kent Street Rezoning"
+    ],
+    "votes": [
+      {
+        "item": "Approval of October 20, 2026 regular meeting minutes",
+        "motion": null,
+        "mover": "True Blood",
+        "second": "Bugamman",
+        "outcome": "Approved",
+        "tally": "Unanimous"
+      },
+      {
+        "item": "Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial",
+        "motion": "Motion to approve the rezoning in the affirmative",
+        "mover": "Bugamman",
+        "second": "True Blood",
+        "outcome": "Failed",
+        "tally": "2-2"
+      }
+    ]
+  },
+  {
+    "id": "EyftyU37JDQ",
+    "source": "marathon",
+    "title": "Board Special Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "County Board",
+    "duration": "1h 6m",
+    "url": "https://www.youtube.com/watch?v=EyftyU37JDQ",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": null,
+    "overview": "The Marathon County Board held a special meeting focused on the Hub City Wind Project's proposed Joint Development Agreement (JDA) from Alliant Energy and a separate issue involving Bug Tussle's failure to make required bond payments. Seven members of the public spoke overwhelmingly against the JDA, and board supervisors expressed strong disappointment with Alliant's response to the county's earlier resolution, with the board ultimately voting to go into closed session to discuss strategy on both matters.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Call to order, Pledge of Allegiance, and moment of reflection"
+      },
+      {
+        "time": "1:30",
+        "item": "Reading of the special meeting notice"
+      },
+      {
+        "time": "2:30",
+        "item": "Public comment time limit ruling and appeal vote"
+      },
+      {
+        "time": "6:00",
+        "item": "Public comment — Hub City Wind Project and proposed JDA"
+      },
+      {
+        "time": "26:00",
+        "item": "Agenda Item B: Overview of Alliant Energy's response to Resolution 55-26, proposed JDA, and potential next steps"
+      },
+      {
+        "time": "28:00",
+        "item": "Board discussion on Alliant Energy JDA and next steps"
+      },
+      {
+        "time": "58:00",
+        "item": "Agenda Item C: Update regarding Bug Tussle bonding and loan agreement"
+      },
+      {
+        "time": "1:04:00",
+        "item": "Motion and vote to go into closed session on Bug Tussle and Alliant Energy strategy"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Public comment time limit appeal",
+        "body": "Board Chair Gibbs initially ruled that seven public speakers would divide 15 minutes (approximately two minutes each). Supervisor Dickinson moved to appeal the ruling and allow three minutes per speaker, seconded by another supervisor. Supervisors Gal, Straw, Sundowski, and Dickinson all spoke in favor of three minutes, arguing the meeting was specifically called for this issue and constituents deserved a full hearing. The appeal passed and three minutes per speaker was granted."
+      },
+      {
+        "item": "Public comment — Hub City Wind Project and JDA",
+        "body": "Seven speakers addressed the board, all opposing the proposed JDA with Alliant Energy. Speakers raised concerns about aviation safety near the proposed turbines, inadequate health and safety protections in the JDA, wildlife migration impacts, road damage liability, shadow flickering, Alliant's honesty based on its track record at other projects, vague contract language, and lack of community benefit provisions. Debbie Stone, president and CEO of Wisconsin for Local Control, offered professional regulatory and legal assistance to the county, noting her organization is an intervenor in Alliant's Columbia Wind PSC case. Tren Spindler, chair of the towns' intergovernmental committee, urged the county not to sign the JDA and instead update its comprehensive plan, zoning, and ordinances, warning that weak county zoning was why the project was sited in Marathon County."
+      },
+      {
+        "item": "Overview of Alliant Energy response to Resolution 55-26 and potential next steps",
+        "body": "County Administrator summarized that in October the board passed Resolution 55-26 requesting a contractual agreement from Alliant addressing the advisory committee's concerns; Alliant's draft response was included in the board packet and shared with impacted township representatives. He outlined options including engaging in negotiations, refusing to negotiate, and preparing for PSC intervention. Supervisor Robinson, chair of the local impact advisory committee, said he was 'terribly disappointed' in Alliant's response, calling it a 'canned JDA' that ignored community input and did not go beyond statutory requirements, and said he was torn between negotiating and preparing for intervention. Supervisor Dickinson argued the county has no leverage with Alliant and called on the board to take a firm stand. Supervisor Sundowski called the JDA 'garbage' and cited a constituent survey of 1,395 respondents showing a vast majority opposed, with only three of 150 forum attendees in favor. Supervisors Cavelli, Ritter, and Morash raised concerns about whether the county's current legal counsel (Atol's law firm) has a conflict of interest given that Alliant Energy is listed as a corporate partner of the Wisconsin Counties Association. Multiple supervisors called for hiring outside legal counsel or working with Wisconsin for Local Control."
+      },
+      {
+        "item": "Bug Tussle bonding and loan agreement update",
+        "body": "The county administrator reported that Bug Tussle failed to make a sufficient deposit into its debt service fund to cover required bond payments. Marathon County's share of the 2021 $25 million conduit bond issuance is $347,491, due by April 8 of next year. The county also has a separate direct $8 million loan with Bug Tussle entered in 2024. Supervisor Dickinson publicly apologized for his role in supporting the Bug Tussle contract despite community warnings, saying he was 'embarrassed.' The administrator recommended closed session to discuss legal and negotiation strategy related to the non-payment notices."
+      },
+      {
+        "item": "Motion to go into closed session",
+        "body": "Supervisor Cyver moved that the Alliant Energy discussion remain in open session to keep the public informed, but county counsel advised the cleaner procedural path was to go into closed session only for Bug Tussle while leaving Alliant in open session. Board Chair Gibbs argued he wanted to preserve negotiating strategy on the Alliant matter as well, stating he was not in favor of the JDA but wanted closed-session discussion on intervention strategy. Supervisor Luer ultimately moved to go into closed session covering both Bug Tussle bond non-payment strategy and Alliant Energy JDA next steps; Supervisor Peak seconded. The motion passed on a roll call vote and the board recessed into closed session."
+      }
+    ],
+    "publicComment": "Seven speakers addressed the board. The first speaker, a resident of the Town of McMillan, raised concerns about helicopter flight routes to Marshfield Children's Hospital being endangered by 685-foot turbines and the lack of health and safety provisions in the JDA. The second speaker questioned whether board members had read Alliant's contract, criticized its vague language, and accused Alliant of not addressing concerns raised by the advisory committee. The third speaker, Christine Se Haver of the Town of McMillan, spoke on behalf of residents of the six affected townships (McMillan, Day, Green Valley, Cleveland, Oplane, and Brighton), urging the county not to ignore community research or conduct future discussions in closed session, and warning that the Stonemark Wind project was next. The fourth speaker, Jerry Fischer of the Town of Day, described his private airstrip and raised aviation safety concerns about turbine vortices, and questioned whether the county's $250,000 set-aside for road damage was sufficient. The fifth speaker, Joe Bergen, urged the board to discard Alliant's 14-page JDA document in favor of Farmland First's analysis, and urged serious engagement with the affected townships. The sixth speaker, Debbie Stone, president and CEO of Wisconsin for Local Control, described her organization's role as intervenor in the Columbia Wind PSC case and offered professional regulatory, legal, and engineering support to Marathon County. The seventh speaker, Tren Spindler, chair of the towns' intergovernmental committee, urged the county to reject the JDA and instead update its comprehensive plan, zoning, and ordinances in partnership with the townships, warning that if the county failed to act, townships might consider leaving county zoning to establish their own protections.",
+    "actionItems": [
+      "Board voted to go into closed session to discuss strategy regarding Bug Tussle bond non-payment notices and Alliant Energy JDA next steps",
+      "County administrator to continue monitoring Bug Tussle bond trustee communications; Marathon County share of $347,491 due by April 8",
+      "Board directed to review and consider strengthening county zoning ordinances and comprehensive plan in relation to industrial wind projects",
+      "Multiple supervisors called for retaining outside legal counsel with wind energy regulatory expertise, potentially separate from current WCA-affiliated firm",
+      "Supervisors requested engagement with township intergovernmental committee and organizations such as Wisconsin for Local Control and Farmland First"
+    ],
+    "topics": [
+      "Wind Energy",
+      "Joint Development Agreement",
+      "Hub City Wind Project",
+      "Bug Tussle Broadband",
+      "Local Control and PSC Intervention"
+    ],
+    "votes": [
+      {
+        "item": "Appeal of chair's ruling to allow three minutes per public speaker instead of two",
+        "motion": "Appeal the ruling of the chair to grant three minutes per speaker",
+        "mover": "Chris Dickinson",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null
+      },
+      {
+        "item": "Motion to go into closed session regarding Bug Tussle bond non-payment strategy and Alliant Energy JDA next steps",
+        "motion": "Motion to go into closed session pursuant to Wis. Stat. 19.85(1)(e) and 19.85(1)(g) to discuss strategy in response to Bug Tussle non-payment notices and Alliant Energy proposed JDA and next steps",
+        "mover": "Supervisor Luer",
+        "second": "Supervisor Peak",
+        "outcome": "Approved",
+        "tally": null
+      }
+    ]
+  },
+  {
     "id": "raxHejkF0U0",
     "source": "marathon",
     "title": "Board Special Meeting",
@@ -492,110 +861,6 @@
         "tally": null
       }
     ]
-  },
-  {
-    "id": "kw_ff35b6b75e12487c9fcbce664abe1fbf",
-    "source": "kronenwetter",
-    "title": "Revised Administrative Policy Committee Meeting",
-    "date": "November 17, 2026",
-    "shortDate": "NOV 17",
-    "committee": "Administrative Policy",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/revised-administrative-policy-committee-meeting-9",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-ff35b6b75e12487c9fcbce664abe1fbf.pdf",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Village of Kronenwetter Administrative Policy Committee was scheduled to meet on November 17, 2026, to address budget matters including the 2027 budget presentation, multiple budget amendments, tax increment district closure updates, and health insurance options for 2027. The meeting was set to cover significant financial planning and administrative policy decisions for the village.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of October 13, 2026 Administrative Policy Committee Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of October 19, 2026 Proposed Budget Workshop #1 Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Approval of October 20, 2026 Proposed Budget Workshop #2 Meeting Minutes"
-      },
-      {
-        "time": "N/A",
-        "item": "Update on Estimated Closure Dates for All Four Tax Increment Districts"
-      },
-      {
-        "time": "N/A",
-        "item": "2027 Budget Presentation"
-      },
-      {
-        "time": "N/A",
-        "item": "December 2026 Assessed Tax Rates"
-      },
-      {
-        "time": "N/A",
-        "item": "2026 Budget Amendment #5 - Park Grant Matching Funds"
-      },
-      {
-        "time": "N/A",
-        "item": "2026 Budget Amendment #6 - General Fund/TID 3 Fund"
-      },
-      {
-        "time": "N/A",
-        "item": "2027-2029 Health Insurance - Teamcare"
-      },
-      {
-        "time": "N/A",
-        "item": "2027 Health Insurance - United Health Care"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Update on Estimated Closure Dates for All Four Tax Increment Districts",
-        "body": "The committee was set to receive an update regarding the estimated closure dates for all four tax increment districts in the village. This report was expected to provide information on the timeline for TID closure and any associated implications for municipal finances."
-      },
-      {
-        "item": "2027 Budget Presentation",
-        "body": "The committee was scheduled to review the proposed 2027 budget for the Village of Kronenwetter. This presentation was expected to outline revenue projections, expenditure plans, and other fiscal considerations for the upcoming year."
-      },
-      {
-        "item": "December 2026 Assessed Tax Rates",
-        "body": "The committee was set to discuss December 2026 assessed tax rates. This item was expected to inform members of current tax assessment information relevant to village planning and budgeting."
-      },
-      {
-        "item": "2026 Budget Amendment #5 - Park Grant Matching Funds",
-        "body": "The committee was scheduled to consider a budget amendment to address park grant matching funds. This action was expected to allocate or adjust village funding to support a park-related grant opportunity."
-      },
-      {
-        "item": "2026 Budget Amendment #6 - General Fund/TID 3 Fund",
-        "body": "The committee was set to discuss and potentially act on a budget amendment affecting the General Fund and Tax Increment District 3. This amendment was expected to address funding adjustments between these accounts."
-      },
-      {
-        "item": "2027-2029 Health Insurance - Teamcare",
-        "body": "The committee was scheduled to consider health insurance options through Teamcare for the 2027-2029 period. This discussion was expected to evaluate coverage and cost implications for village employees."
-      },
-      {
-        "item": "2027 Health Insurance - United Health Care",
-        "body": "The committee was set to review health insurance options through United Health Care for 2027. This item was expected to present an alternative health insurance provider option for consideration."
-      }
-    ],
-    "publicComment": "Public comment was scheduled on the agenda, with a 15-minute total limit and three-minute individual time limit per person.",
-    "actionItems": [
-      "scheduled to vote on approval of October 13, 2026 meeting minutes",
-      "scheduled to vote on approval of October 19, 2026 meeting minutes",
-      "scheduled to vote on approval of October 20, 2026 meeting minutes",
-      "expected to consider 2026 Budget Amendment #5 for park grant matching funds",
-      "expected to consider 2026 Budget Amendment #6 for General Fund/TID 3 Fund",
-      "expected to review and evaluate 2027-2029 health insurance options through Teamcare",
-      "expected to review and evaluate 2027 health insurance options through United Health Care"
-    ],
-    "topics": [
-      "Budget",
-      "Health Insurance",
-      "Tax Increment Districts",
-      "Parks",
-      "2027 Fiscal Planning"
-    ],
-    "votes": []
   },
   {
     "id": "rr4xY0W5ETo",
@@ -6275,352 +6540,5 @@
       "Policy"
     ],
     "votes": []
-  },
-  {
-    "id": "_TTqHhdr3jQ",
-    "source": "wausau",
-    "title": "Finance Committee Budget Session #4 Meeting",
-    "date": "October 20, 2026",
-    "shortDate": "OCT 20",
-    "committee": "Finance",
-    "duration": "2h 22m",
-    "url": "https://www.youtube.com/watch?v=_TTqHhdr3jQ",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Finance Committee held its fourth budget session for the 2027 budget on October 20, 2026, working through a series of amendments to the proposed budget including removing Flock camera funding, redirecting the city administrator allocation toward an audit, and approving new fee schedules. The committee approved several amendments by voice vote, including eliminating $50,000 in Flock ALPR camera funding, $45,000 in alley paving, $150,000 for the city administrator position, and $20,000 in trail planning, while rejecting a proposal to remove $25,000 for street tree planting.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "1:05",
-        "item": "Item 1: Public Comment on Agenda Items"
-      },
-      {
-        "time": "20:30",
-        "item": "Item 2: Discussion and Possible Action — Recommending 2027 Budget Including Setting 2027 Fee Schedule"
-      },
-      {
-        "time": "22:00",
-        "item": "Flock Camera Invoice Timing Clarification"
-      },
-      {
-        "time": "25:30",
-        "item": "Property Record Maintenance Fee Proposal (Assessor's Office)"
-      },
-      {
-        "time": "32:00",
-        "item": "Updated Assessed Value and Revised Tax Rate Presentation"
-      },
-      {
-        "time": "38:00",
-        "item": "Motor Pool Reconciliation for 2027"
-      },
-      {
-        "time": "44:00",
-        "item": "Debt Service Impact and Capital Financing Scenarios (10-year, 15-year, structured)"
-      },
-      {
-        "time": "58:00",
-        "item": "TID 8 Project Plan Amendment and Capital Projects Overview"
-      },
-      {
-        "time": "1:22:00",
-        "item": "Budget Motion and Amendments (Flock cameras, fees, administrator, alley paving, trail planning, trees, TID 12 tool design)"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Public Comment — Flock ALPR Cameras",
-        "body": "Six members of the public spoke, all urging the committee to remove Flock camera funding from the 2027 and 2028 budgets. Felix Gallow, citing the Wisconsin Supreme Court and Flock's own chief legal officer's blog post, argued that non-appropriation carries negligible litigation risk and that over a dozen Wisconsin agencies have ended Flock contracts without being sued. Courtney Olsen, executive director of a domestic violence agency, warned that ALPR systems can be misused as stalking tools, citing cases in Milwaukee and Menasha. Mary Clus, Danielle Fischer, and Carrie Morola also spoke in favor of removal, with speakers noting the Public Health and Safety Committee had voted 5-0 the prior evening to recommend striking the Flock appropriation."
-      },
-      {
-        "item": "Property Record Maintenance Fee",
-        "body": "City Assessor Rick Rubo presented a proposal for new property record maintenance fees, noting that approximately 12 other Wisconsin municipalities have adopted similar fees to recoup staff time for updating physical and electronic property record cards when permits are issued and when parcels are split or combined. He described the administrative burden of processing condominium plat combinations affecting 55+ units. The committee approved the new fees by voice vote as an amendment to the fee schedule."
-      },
-      {
-        "item": "Updated Assessed Value and Tax Rate Impact",
-        "body": "Finance Director Maryanne reported that the final assessed value came in at a 2.56% increase (approximately $464.9 million above estimates), significantly stronger than the projected 1%. This revised the estimated tax rate downward from $9.24 to $9.10 per $1,000, reducing the estimated annual tax impact on a $200,000 home from $9,973 to $7,152. The committee noted remaining tax rate unknowns pending school, technical college, and county levies."
-      },
-      {
-        "item": "Motor Pool Reconciliation",
-        "body": "The finance director presented a 2027 motor pool reconciliation showing departmental charges totaling $4.018 million in the general fund and $4.5 million entity-wide, with budgeted revenues of $4.8 million, expenses of $3.5 million, capital purchases of $1.8 million, and a shortfall of $448,000. She noted the target to fully recover costs would require an additional $1.3 million but that a 2026 budget modification was anticipated and the general fund was performing well enough to support the fee structure for the next two years, though not solving the long-term problem."
-      },
-      {
-        "item": "Debt Service Scenarios and TID 8 Capital Projects",
-        "body": "The finance director presented three debt financing scenarios for 2027 and 2028 infrastructure: a standard 10-year even amortization, a structured 10-year with reduced early payments, and a 15-year term. She recommended the structured 10-year approach to manage levy growth, noting the 2027 borrowing of approximately $6.365 million and 2028 borrowing of approximately $6.151 million. She also proposed amending the TID 8 project plan to include $2.5 million for lead service line replacement, $300,000 in asphalt overlay, and $250,000 for 17th Avenue design, projecting the district could close as early as 2035 with $9.3 million remaining even without new growth."
-      },
-      {
-        "item": "Alcohol License and Fee Schedule Changes",
-        "body": "City Clerk staff reported that most alcohol license fees are capped by state statute, limiting the city's ability to increase them. Proposed changes included a modest increase to the Class A beer license, a new $100 late publication fee for licenses renewed after deadline, reducing the group publication fee from $30 to $25, adding a $150 late renewal fee, increasing the lapsed bartender license fee from $125 to $130, and reducing the alcohol premises amendment fee from $150 to $25 to increase compliance. The committee approved the alcohol and cigarette fee changes by voice vote as moved by Alder Tierney and seconded by Alder Watson."
-      },
-      {
-        "item": "Flock Camera Funding Removal — Budget Amendment",
-        "body": "Alder Tierney moved to remove $50,000 allocated for Flock cameras from the 2027 budget and reallocate it to the motor pool rather than reduce the tax levy. After discussion about whether to place the funds in the police department, street maintenance, or elsewhere, the committee agreed the $50,000 would be reallocated within the general fund toward motor pool expenses in one of the underfunded departments. Mayor Doug Diny recommended keeping it within public safety for items like crowd control barricades. The motion was seconded by Alder Watson and approved by voice vote."
-      },
-      {
-        "item": "City Administrator Budget Line — $150,000 Amendment",
-        "body": "Alder Tierney moved to remove the $150,000 budgeted for a city administrator, with discussion about redirecting those funds to support the recently council-approved city audit. Alders Watson and Hincki expressed support for using the funds for the audit, noting a third-party assessment should inform any future administrator hiring decision. The amendment was approved with the $150,000 moved from general government to the council's consulting services line item to serve as a placeholder for audit expenditures in 2027."
-      },
-      {
-        "item": "Alley Paving — $45,000 Removal",
-        "body": "Alder Tierney moved to remove $45,000 for alley paving; Alder Hincki seconded. Public Works Director confirmed no petitions for alley paving in 2027 have been received, making the appropriation a placeholder; any future petitioners would simply be told to reapply for the 2028 budget. The amendment passed by voice vote."
-      },
-      {
-        "item": "Trail Planning — $20,000 Removal",
-        "body": "Alder Tierney moved and Alder Hincki seconded removing $20,000 for trail planning, which was funded through TID-Today (TID near west side). Parks Director Feifer clarified the funding was intended to plan an extension of the Riverlife Trail on the MBX property for eventual 2028 construction. Alders Watson and Neil voted no, noting the funds came from TID revenues rather than the general tax levy. The motion passed 3-2."
-      },
-      {
-        "item": "Street Tree Planting — $25,000 Removal",
-        "body": "Alder Hincki moved to remove $25,000 for street tree planting, seconded by Alder Watson, arguing it was inappropriate to incur 10-year debt for trees and suggesting cash funding instead. Alders Neil, Tierney (chair), and Watson strongly opposed removal, with Alder Neil invoking the Fulton Street reconstruction as an example of neighborhoods 'denuded' of trees and citing the city's duty to restore what was taken. Multiple members cited economic research on trees increasing property values. Alder Watson stated she seconded only to get the motion on the floor and would not support it. The motion failed 4-1, with only Hincki voting in favor."
-      },
-      {
-        "item": "TID 12 Tool Design Engineering — $150,000 Removal",
-        "body": "Alder Tierney moved to remove $150,000 for tool design engineering in TID 12, characterizing it as desirable but deferrable. Alder Hincki seconded. Discussion was cut off in the transcript before a vote was recorded."
-      }
-    ],
-    "publicComment": "Six residents spoke in opposition to Flock ALPR camera funding. Mary Clus asked the committee to remove Flock from the budget citing privacy concerns and poor use of resources. Felix Gallow presented a legal analysis arguing non-appropriation is a routine discretionary tool under Wisconsin law, that Flock's own chief legal officer acknowledged municipalities retain discretion over appropriations, and that no Wisconsin agency that dropped Flock has been sued. Courtney Olsen (Highland Park Boulevard), a domestic violence agency executive director, warned ALPR systems can be misused as stalking tools, citing documented officer misuse cases in Milwaukee and Menasha, and outlined specific procedural steps for contract termination. Danielle Fischer noted community support on social media for removing the cameras. Carrie Morola framed removal as a double win — saving taxpayer money and rebuilding constituent trust.",
-    "actionItems": [
-      "Remove $50,000 Flock ALPR camera appropriation from 2027 budget and reallocate to motor pool within general fund (police, fire, or street maintenance department)",
-      "Amend 2027 fee schedule to include updated alcohol and cigarette license late fees and new publication fee structure as presented by the City Clerk",
-      "Amend 2027 fee schedule to add property record maintenance fees as proposed by the Assessor's Office",
-      "Redirect $150,000 from city administrator line item to council consulting services to serve as 2027 audit funding placeholder",
-      "Remove $45,000 alley paving appropriation from 2027 budget",
-      "Remove $20,000 trail planning appropriation from TID (Today district) budget",
-      "Retain $25,000 street tree planting budget line (amendment to remove failed)",
-      "Staff to prepare initial resolution for TID 8 project plan amendment for Finance Committee's next regular meeting",
-      "Finance staff to continue work on five-year capital plan for presentation at second Finance Committee meeting in November or December",
-      "Council to consider TID 12 tool design engineering removal at next meeting (discussion cut off in transcript)"
-    ],
-    "topics": [
-      "Budget",
-      "Public Safety",
-      "Debt Service",
-      "Flock ALPR Cameras",
-      "17th Avenue Reconstruction",
-      "TID 8 Project Plan",
-      "Lead Service Line Replacement",
-      "Street Tree Planting"
-    ],
-    "votes": [
-      {
-        "item": "Amendment: Alcohol and cigarette license fee schedule changes",
-        "motion": "Amend fees under alcohol cigarette category to fees advised by staff",
-        "mover": "Alder Tierney",
-        "second": "Alder Watson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment: Property record maintenance fees",
-        "motion": "Amend fee schedule to incorporate property record maintenance fees suggested by the assessor's office",
-        "mover": "Alder Watson",
-        "second": "Alder Hincki",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment: Remove $50,000 Flock camera funding from 2027 budget and reallocate to motor pool",
-        "motion": "Remove funding for the Flock cameras for 2027 and 2028 at $50,000 each year, with 2027 funds moved to motor pool",
-        "mover": "Alder Tierney",
-        "second": "Alder Watson",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment: Remove $150,000 city administrator appropriation and redirect to council consulting services for audit",
-        "motion": "Remove $150,000 budgeted for city administrator and move to council consulting services line item",
-        "mover": "Alder Tierney",
-        "second": "Alder Neilette (Watson seconded per transcript context)",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment: Remove $45,000 alley paving appropriation",
-        "motion": "Remove $45,000 allocated to alley paving",
-        "mover": "Alder Tierney",
-        "second": "Alder Hincki",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Amendment: Remove $20,000 trail planning from TID budget",
-        "motion": "Remove $20,000 for trail planning from the 2027 budget",
-        "mover": "Alder Tierney",
-        "second": "Alder Hincki",
-        "outcome": "Approved",
-        "tally": "3-2 (Watson and Neil voted no)"
-      },
-      {
-        "item": "Amendment: Remove $25,000 street tree planting appropriation",
-        "motion": "Remove $25,000 allocated for tree planting",
-        "mover": "Alder Hincki",
-        "second": "Alder Watson",
-        "outcome": "Failed",
-        "tally": "1-4 (only Hincki in favor)"
-      }
-    ]
-  },
-  {
-    "id": "kw_781b3450287040eaac31f72144fa1b7d",
-    "source": "kronenwetter",
-    "title": "Administrative Policy Committee and Village Board - Budget Workshop 2",
-    "date": "October 20, 2026",
-    "shortDate": "OCT 20",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-2",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-781b3450287040eaac31f72144fa1b7d.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Kronenwetter held its second 2027 Budget Workshop covering public safety budgets (police and fire/EMS), TIF district updates, community development staffing, and a future debt service preview. The board's most significant action was recommending and approving keeping the contingency fund at $60,000 rather than the proposed $70,000, saving approximately $12 on a $200,000 home's village tax share. Village Administrator John Jacobs also previewed that the 2028 budget will likely require approximately a 20-cent tax rate increase to cover new debt service if the capital improvement program borrowing proceeds.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Pledge of Allegiance"
-      },
-      {
-        "time": "2:30",
-        "item": "Roll Call"
-      },
-      {
-        "time": "3:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "4:00",
-        "item": "Budget Workshop Discussion - Historical Tax Rate Overview and Equalized Valuation"
-      },
-      {
-        "time": "9:30",
-        "item": "Port-a-Potty Budget Discussion and Vandalism Update"
-      },
-      {
-        "time": "15:00",
-        "item": "TIF District Administration Costs - Legal Guidance from Financial Advisor"
-      },
-      {
-        "time": "22:00",
-        "item": "Police Department Budget Presentation"
-      },
-      {
-        "time": "48:00",
-        "item": "Fire and EMS Department Budget Presentation"
-      },
-      {
-        "time": "1:15:00",
-        "item": "Community Development, Inspections, and Planning Tech Staffing"
-      },
-      {
-        "time": "1:30:00",
-        "item": "TIF District Tax Increment Update and Distribution Center Development Impact"
-      },
-      {
-        "time": "1:50:00",
-        "item": "Capital Improvement Program Borrowing and 2028 Debt Service Preview"
-      },
-      {
-        "time": "2:10:00",
-        "item": "2028 Budget Pros and Cons Overview"
-      },
-      {
-        "time": "2:25:00",
-        "item": "Contingency Fund Motion and Vote"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Historical Tax Rate and Equalized Valuation Overview",
-        "body": "Village Administrator John Jacobs presented a historical chart showing the village's assessed and equalized tax rates since 2020, noting that at full equalized valuation the rate would drop from $4.26 to approximately $2.71-$2.80. He contextualized the village's rate against Marathon County, two school districts, and NCTC, noting the village represents only about 20-25% of a resident's total tax bill. He noted Marathon County's rate of $3.48 is higher than the village's proposed rate."
-      },
-      {
-        "item": "Port-a-Potty Budget and Vandalism",
-        "body": "Staff presented a cost chart for port-a-potty options ranging from approximately $6,700 for six standard units to over $21,000 with ADA-accessible units. Staff recommended a combination of three regular and three ADA units as a reasonable middle ground. Officials identified Bushka Park and Friendship Park as the primary vandalism sites, noting most damage occurs during daytime hours and that the contracted vendor has a policy of pulling units if vandalism occurs. No formal vote was taken; the matter was flagged for parks committee review."
-      },
-      {
-        "item": "TIF District Administration Costs - Legal Guidance",
-        "body": "Jacobs reported receiving guidance from financial advisor Ariana Schmidt of Ehlers clarifying that administrative costs, professional services, and DOR fees can continue through the maximum life of a TID even after the expenditure period ends, but no new capital costs can be incurred after that period. Jacobs also disclosed a correction: TID 1 and TID 4 expenditure periods ended in 2019, not 2024 as previously documented. TID 2 had special legislation allowing expenditures through 2024. All three TIDs can continue accruing administrative costs until closure."
-      },
-      {
-        "item": "Police Department Budget Presentation",
-        "body": "Police Chief Terry [last name inaudible] presented a largely status-quo budget, noting the primary cost increases stem from funding two officers for a full 12 months versus a partial year. A $21,700 line for new officer startup costs was removed. Capital equipment was cut by $9,000. The chief noted a planned hire is expected mid-to-late December at earliest, which could yield some payroll savings. Crossing guard pay was raised to $20/hour to aid retention. A $1,500 full-body restraint wrap system was requested as new equipment. The municipal court clerk overlap budget for Diane's retirement transition was also discussed, along with a proposed municipal judge salary increase from $5,500 to $6,000 effective April 2027."
-      },
-      {
-        "item": "Fire and EMS Department Budget Presentation",
-        "body": "Fire Chief Teresa O'Brien presented a budget with modest increases, primarily for radio replacement ($20,000 from fire budget, $5,000 from EMS) and $800 in additional training. EMS call volume is projected at 492-500 for 2026-2027, up from 420 budgeted, a 25% increase driven largely by mental health-related calls. The EMS wage budget of $68,546 is expected to run approximately $9,000-$10,000 over, requiring a budget amendment in November. O'Brien highlighted three supplemental grant funds — 2% fire dues, FAP EMS grant (~$35,000/year), and a fire donations fund — totaling approximately $70,000 in non-general-fund expenditures annually."
-      },
-      {
-        "item": "Community Development Staffing and Planning Tech Position",
-        "body": "Jacobs noted savings in 2026 due to the gap between Pete's departure and Nathan's hiring on August 3rd. The planning technician position, funded from April 2026, remains unfilled, creating roughly $30,000 in 2026 savings. Two interviews have been conducted with candidates who have GIS experience. Planning commission meetings are proposed to increase from 12 to 16 annually, and zoning board of appeals from 2 to 4 meetings, resulting in modest cost increases. A $10,000 placeholder for a potential TID 5 feasibility study was recommended to remain in the budget."
-      },
-      {
-        "item": "TIF District Tax Increment and Distribution Center Impact",
-        "body": "Jacobs presented estimated tax increment figures: TID 1 at $212,000-$213,000 (down from $255,000 due to decreased equalized valuation), TID 2 over $1,034,000 (up from $954,000), and TID 4 at $147,000. He noted debt restructuring freed up $863,000 in principal for TID 2, accelerating its potential closure. Once the distribution center in TID 1 is fully built out, it is projected to generate an additional $444,000 in annual tax increment, potentially paying back the $2.8 million general fund advance well before the 2044 maximum life. The board discussed adding interest charges to the inter-fund advance, with Jacobs noting the LGIP rate (approximately 3.25-3.5%) could be used."
-      },
-      {
-        "item": "Capital Improvement Program Borrowing and 2028 Debt Service Preview",
-        "body": "Jacobs walked the board through a preliminary debt service analysis for a proposed $1,950,000 borrowing (including closing costs) at an estimated 4.75% over 20 years, mirroring a September 2024 Rothschild borrowing. The analysis showed existing debt service could increase from approximately $735,000 levied in 2027 to approximately $873,000 in 2028, representing roughly a 20-cent tax rate increase. Jacobs stressed this does not affect the 2027 budget but will need to be planned for in 2028. He noted the village has no existing debt beyond 2033. Trustee [inaudible] suggested exploring bank financing similar to prior practice rather than bond issuance."
-      },
-      {
-        "item": "2028 Budget Pros and Cons",
-        "body": "Jacobs verbally presented a list of anticipated 2028 budget factors. Pros included: increased building permit revenue from new subdivisions, potential diesel price decrease eliminating the ~$30/household garbage fuel surcharge, higher highway aid formula funding from infrastructure investment, significantly higher net new construction valuation post-revaluation, no board salary overlap increases, reduced attorney fees as a goal, no three-month court clerk overlap cost, and no revaluation cost ($190,000/year savings). Cons included: projected sewer utility rate increase, deputy clerk moving to 12-month funding, four elections in a presidential year, higher building inspection costs, 20-cent debt service increase, and need to replenish the capital replacement fund."
-      },
-      {
-        "item": "Contingency Fund Vote",
-        "body": "Guy Fidel moved to reduce the contingency fund from the proposed $70,000 to $30,000, arguing residents face hardship and a reduction would build board credibility. The motion failed for lack of a second. APC member Chris Clutes then moved to recommend keeping the contingency at $60,000, seconded by Mary Solheim; the APC recommendation passed. Erin Mishka then moved at the village board level to keep the contingency at $60,000, seconded by Solheim. The motion passed; Jacobs noted the reduction from $70,000 to $60,000 lowers the tax rate from $4.26 to $4.20 and saves approximately $12 on a $200,000 home's village portion."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Contingency fund set at $60,000 in the 2027 budget (reduced from proposed $70,000)",
-      "Staff to prepare budget amendment in November for EMS wage overrun of approximately $9,000-$10,000",
-      "Village board to adopt resolution raising municipal judge salary from $5,500 to $6,000 before December 1, 2027 deadline",
-      "Jacobs to publish the proposed 2027 budget by the following Monday for the required two-week public notice period before November 9 public hearing",
-      "Staff to explore adding interest charges (at LGIP rate) to TID 1's $2.8 million general fund advance going forward",
-      "Jacobs to complete TID 1 closure timeline analysis incorporating distribution center tax increment and present to board at November meeting",
-      "Police to continue hiring process for remaining officer vacancy; earliest expected start is mid-to-late December",
-      "Parks committee to review port-a-potty configuration options using the cost chart provided by staff",
-      "Staff to continue due diligence on TID 5 feasibility using $10,000 placeholder retained in budget",
-      "Staff to work with Ehlers on multi-year CIP borrowing analysis for 2028 budget planning",
-      "Planning technician position hiring to continue; two candidates with GIS experience interviewed"
-    ],
-    "topics": [
-      "Budget",
-      "Public Safety",
-      "TIF Districts",
-      "Staffing",
-      "Capital Improvement Program",
-      "Distribution Center TID 1",
-      "EMS Call Volume",
-      "Debt Service"
-    ],
-    "votes": [
-      {
-        "item": "APC recommendation to set contingency fund at $60,000 (vs. proposed $70,000)",
-        "motion": "Motion to recommend to the village board that the contingency fund be kept at $60,000",
-        "mover": "Chris Clutes",
-        "second": "Mary Solheim",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Village Board approval to set contingency fund at $60,000",
-        "motion": "Motion to keep the contingency at $60,000",
-        "mover": "Erin Mishka",
-        "second": "Mary Solheim",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Motion to reduce contingency fund to $30,000",
-        "motion": "Motion to keep the contingency at $30,000",
-        "mover": "Guy Fidel",
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      }
-    ]
   }
 ]
