@@ -114,11 +114,47 @@ _ADDR_IN_PAREN = re.compile(
     + ADDR + CITY)
 
 
+# Speakers give an address at the podium, and captions often lose the street
+# suffix or the street itself: "(1206 Elm)", "(412 [street name inaudible])",
+# "(3305 Oak Hill, Rib Mountain)". Inside public comment, a parenthetical after
+# a speaker's name that is nothing but a house number and capitalized or
+# bracketed words is that address. Numbers that read as years are left alone
+# unless a bracket follows ("(2027 Budget Committee)" is not an address).
+_LOOSE_PAREN = re.compile(
+    r"^(?:(?:address given as|of|at|from|resides at|lives at|residing at)\s+)?"
+    r"(?P<num>\d{3,6})\s+"
+    r"(?P<first>\[[^\]]*\]|[A-Z][A-Za-z'’.]*)"
+    r"(?:\s+(?:\[[^\]]*\]|[A-Z0-9][A-Za-z0-9'’.]*)){0,3}"
+    r"(?:,\s*[A-Z][A-Za-z'’ ]*){0,2}$")
+
+
+_LOOSE_NOT_HOME = re.compile(
+    r"\b(?:LLC|Inc|Corp|Company|Church|School|Bank|Hospital|Center|Centre|Club|Association|"
+    r"Authority|District|Department|Committee|Commission|Board|Council|Tavern|Bar|"
+    r"Restaurant|Store|Market|Clinic|Office|Storage|Apartments|Resolution|Ordinance|"
+    r"Motion|Item|Phase|Project|Budget|Plan|Fund|Program|Award|Act|Census|Study|Report)\b",
+    re.IGNORECASE)
+
+
+def _loose_address(inner: str) -> bool:
+    m = _LOOSE_PAREN.match(inner.strip())
+    # A business or body in the parenthetical ("412 Main Tavern") is not a
+    # home. Street words ("Lane", "Park") are the opposite: part of an address.
+    if not m or _LOOSE_NOT_HOME.search(inner):
+        return False
+    year_like = len(m.group("num")) == 4 and 1990 <= int(m.group("num")) <= 2039
+    return not year_like or m.group("first").startswith("[")
+
+
 def _paren(m: re.Match) -> str:
     """Jane Doe (123 Elm St) -> Jane Doe; Jane Doe (applicant, 123 Elm St) ->
     Jane Doe (applicant). Parentheticals with no address are left alone."""
     name, inner = m.group("name"), m.group("inner")
-    if not _is_person(name) or not _ADDR_IN_PAREN.search(inner):
+    if not _is_person(name):
+        return m.group(0)
+    if _IN_PUBLIC_COMMENT and _loose_address(inner):
+        return name
+    if not _ADDR_IN_PAREN.search(inner):
         return m.group(0)
     rest = _ADDR_IN_PAREN.sub("", inner)
     rest = re.sub(r"\s*,\s*,+", ",", rest).strip(" ,;")
@@ -175,6 +211,10 @@ def scrub_text(text: str, public_comment: bool = False) -> str:
 # titles, motions): a permit applicant's address there is public agenda data.
 _SKIP_KEYS = {"id", "url", "docUrl", "doc_url", "video_url", "source", "_source", "date",
               "shortDate", "time", "item", "title", "motion"}
+
+
+# The "## Public Comment" section of a summary's markdown mirror.
+_MD_COMMENT = re.compile(r"(^## Public Comment\n)(.*?)(?=^## |\Z)", re.DOTALL | re.MULTILINE)
 
 
 def scrub_obj(obj, key: str = ""):
@@ -247,8 +287,11 @@ def main() -> int:
             out = replace_in_obj(out, c["find"], c["replace"])
         return out
 
-    def fix_text(text, mid, is_html=False, addresses=True):
+    def fix_text(text, mid, is_html=False, addresses=True, mirror=False):
         out = scrub_text(text, public_comment=False) if addresses else text
+        if mirror:  # the mirror's public-comment section gets the speaker rules too
+            out = _MD_COMMENT.sub(
+                lambda m: m.group(1) + scrub_text(m.group(2), public_comment=True), out)
         for c in by_id.get(mid or "", []):
             out = out.replace(c["find"], c["replace"])
             if is_html:  # pages escape quotes and ampersands
@@ -270,7 +313,7 @@ def main() -> int:
         md = Path(str(path).replace("_summary.json", ".md"))
         if md.exists():
             text = md.read_text(encoding="utf-8")
-            new_text = fix_text(text, mid)
+            new_text = fix_text(text, mid, mirror=True)
             if new_text != text:
                 changed["mirrors"] += 1
                 if not args.check:

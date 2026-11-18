@@ -20,7 +20,7 @@ A commissioner requested a clarification on page five of the minutes regarding a
 The commission voted to enter closed session under Wisconsin State Statute 19.85(1)(c) to interview two candidates for firefighter/paramedic with the Wausau Fire Department and one candidate for promotion to detective with the Wausau Police Department, and under 19.85(1)(f) to consider a reconsideration request regarding the dismissal of a citizen complaint identified as JV. The motion passed on a voice vote.
 
 ## Public Comment
-Three speakers addressed the commission, all on the topic of the Flock license plate reader system. Felix Gallow cited research on surveillance abuse and made four specific policy recommendations. Courtney Olsen, a domestic violence advocate and police trainer, asked the commission to request accountability data from the police department before budget decisions are finalized. Mary CL (127 Kent Street) spoke as a private citizen concerned about privacy, data security, and the potential for stalkers or other bad actors to access Flock data.
+Three speakers addressed the commission, all on the topic of the Flock license plate reader system. Felix Gallow cited research on surveillance abuse and made four specific policy recommendations. Courtney Olsen, a domestic violence advocate and police trainer, asked the commission to request accountability data from the police department before budget decisions are finalized. Mary CL spoke as a private citizen concerned about privacy, data security, and the potential for stalkers or other bad actors to access Flock data.
 
 ## Action Items
 - Correction to prior meeting minutes on page five: clarify that the audit agency referenced was the DEA (U.S. Drug Enforcement Agency) and spell out the acronym
