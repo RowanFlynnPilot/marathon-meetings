@@ -27,6 +27,7 @@ import logging
 import anthropic
 
 import cost_ledger
+import vote_announcements
 
 logger = logging.getLogger(__name__)
 
@@ -873,6 +874,11 @@ RESIDENT_PRIVACY_RULES = """Privacy rules for private residents (these override 
 def summarize_meeting(transcript, title, url, source_key):
     client  = anthropic.Anthropic()
     ch      = CHANNELS[source_key]
+    if len(transcript) > MAX_TRANSCRIPT_CHARS:
+        logger.warning("Transcript for %s is %d chars; only the first %d reach the model",
+                       title, len(transcript), MAX_TRANSCRIPT_CHARS)
+    # Found by code over the WHOLE transcript, so a result is listed even past the cut.
+    announced = vote_announcements.prompt_block(transcript)
 
     prompt = f"""You are a local government reporter covering the Wausau, Wisconsin area.
 
@@ -915,7 +921,7 @@ Rules:
 - Note unclear audio as [inaudible] rather than guessing at what was said.
 - {RESIDENT_PRIVACY_RULES}
 - Return ONLY the JSON object.
-
+{announced}
 --- TRANSCRIPT ---
 {transcript[:MAX_TRANSCRIPT_CHARS]}
 --- END ---"""
@@ -934,6 +940,8 @@ Rules:
         # Explicit tag so inject_transcript.py's skip-guard can tell
         # transcript-based summaries from agenda-only ones.
         result["_source"] = "transcript"
+        # How much of the transcript the model saw (audit_votes.py reports a cut).
+        result["_transcript_chars"] = min(len(transcript), MAX_TRANSCRIPT_CHARS)
         return result
     except json.JSONDecodeError:
         # Fallback if Claude returns non-JSON
