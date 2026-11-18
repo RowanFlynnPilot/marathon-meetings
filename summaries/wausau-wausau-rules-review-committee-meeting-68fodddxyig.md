@@ -1,7 +1,7 @@
 # Wausau Rules Review Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=68FOdDdxyIg  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=68FOdDdxyIg 
 **Summarized:** 2026-11-10 21:49 UTC
 
 ---
@@ -29,7 +29,7 @@ Alder Tierney expressed strong opposition to routine suspension of the rules, no
 Alder Hanei raised the question of whether the city has too many committees, noting items sometimes travel through multiple committees before reaching council. He suggested exploring whether fewer committees with more members could mean more efficient city business and broader aldermanic awareness of issues before council votes. The chair acknowledged this was raised by the mayor at the organizational meeting and said the door remains open for the committee to consider recommending structural changes. No action taken.
 
 ## Public Comment
-One speaker offered public comment: Lou Larson, 904 South 21st Place, Wausau, identified himself as the alderperson for District 10. He raised two concerns: first, that placing public comment before the meeting sets a negative tone and risks turning council meetings into 'all-night extravaganzas' when contentious topics draw large crowds; second, that experienced alders including himself and Alder Rasmussen were removed from long-held committee assignments this term, which he characterized as retribution for disagreements with the mayor.
+One speaker offered public comment: Lou Larson identified himself as the alderperson for District 10. He raised two concerns: first, that placing public comment before the meeting sets a negative tone and risks turning council meetings into 'all-night extravaganzas' when contentious topics draw large crowds; second, that experienced alders including himself and Alder Rasmussen were removed from long-held committee assignments this term, which he characterized as retribution for disagreements with the mayor.
 
 ## Action Items
 - City attorney Vinnie to resend the Word version of Chapter 2.16 rules so committee members can submit redlined proposed changes

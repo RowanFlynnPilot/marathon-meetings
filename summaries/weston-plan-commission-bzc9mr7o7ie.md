@@ -1,7 +1,7 @@
 # Plan Commission
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=bZC9Mr7O7iE  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=bZC9Mr7O7iE 
 **Summarized:** 2026-08-30 04:31 UTC
 
 ---
@@ -23,13 +23,13 @@ Because the property is not currently zoned to allow a personal storage facility
 Staff presented a request from LNS Electric to reface an existing freestanding monument sign and add a decorative top element. The proposed sign would be 9 feet tall with an 8-foot setback from the property line; village code requires a setback equal to sign height, triggering the special exception. Staff recommended approval. A commissioner moved to approve and the motion carried unanimously without significant debate.
 
 ### Animal Fancier License – 5512 North Birch Lane (Lenzo/Bukowski)
-The applicant Kira Lenzo (formerly Bukowski) requested a license to keep four dogs for sled dog activities. The village humane officer recommended denial based on insufficient property size relative to the number and size of the dogs. Three public commenters spoke: neighbor Barbara Schultz (1304 [inaudible] Street) supported the license, saying the dogs are not noisy; neighbor Ceda (5604 [inaudible] Lane) opposed it, citing odor from dog waste on a patio area draining toward her yard and an unresolved conflict with the applicant; and Nancy Vet (2306 North 4th Avenue, Wausau), grandmother of the opposing neighbor's children, also opposed, citing smell and the small size of the residence. The commission sided with the humane officer's findings and voted unanimously to recommend denial to the village board.
+The applicant Kira Lenzo (formerly Bukowski) requested a license to keep four dogs for sled dog activities. The village humane officer recommended denial based on insufficient property size relative to the number and size of the dogs. Three public commenters spoke: neighbor Barbara Schultz (1304 [inaudible] Street) supported the license, saying the dogs are not noisy; neighbor Ceda (5604 [inaudible] Lane) opposed it, citing odor from dog waste on a patio area draining toward her yard and an unresolved conflict with the applicant; and Nancy Vet, grandmother of the opposing neighbor's children, also opposed, citing smell and the small size of the residence. The commission sided with the humane officer's findings and voted unanimously to recommend denial to the village board.
 
 ### Planning and Development Department Monthly Project Update
 Jennifer reported on three conditional use permits with compliance concerns to be brought before the commission next month: You Sam at 3107 Concord Avenue (vehicles parked in a required green space buffer), the Bug property (a 2022 project with expired building permits and no construction progress), and Tommy's Car Wash (failure to supply annual tank inspection reports and liability insurance documentation as required by their conditional use permit). She also noted salt shed inspections have begun with some corrections needed. The commission acknowledged the report and expressed support for continuing it.
 
 ## Public Comment
-Four public comment forms were submitted. Three speakers addressed the animal fancier license item: Kira Lenzo (applicant, 5512 North Birch Lane) described her rescue sled dogs, disputed neighbor complaints, and noted plans to move within a year; Barbara Schultz (neighbor across the street) supported the license saying the dogs cause no issues; Ceda (neighbor at 5604 [inaudible] Lane) opposed the license citing dog waste odor draining onto her property where children play and ongoing conflicts with the applicant; and Nancy Vet (2306 North 4th Avenue, Wausau, grandmother of the opposing neighbor's children) also opposed, citing the small lot size and odor. For the rezoning public hearing, Dean Dietrich (attorney, 3024 North 10th Street, Wausau) appeared on behalf of the Wausau Child Care Foundation as an adjoining landowner, stating the foundation had no formal position but was concerned and noted the board would likely consider selling the parcel.
+Four public comment forms were submitted. Three speakers addressed the animal fancier license item: Kira Lenzo (applicant) described her rescue sled dogs, disputed neighbor complaints, and noted plans to move within a year; Barbara Schultz (neighbor across the street) supported the license saying the dogs cause no issues; Ceda (neighbor at 5604 [inaudible] Lane) opposed the license citing dog waste odor draining onto her property where children play and ongoing conflicts with the applicant; and Nancy Vet (grandmother of the opposing neighbor's children) also opposed, citing the small lot size and odor. For the rezoning public hearing, Dean Dietrich (attorney) appeared on behalf of the Wausau Child Care Foundation as an adjoining landowner, stating the foundation had no formal position but was concerned and noted the board would likely consider selling the parcel.
 
 ## Action Items
 - Plan Commission recommends denial of rezoning of 4205 and 4307 Weston Avenue from B2 to LI Limited Industrial; recommendation forwarded to village board

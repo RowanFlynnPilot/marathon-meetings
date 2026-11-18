@@ -1,7 +1,7 @@
 # Parks and Recreation Committee
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=An7A45Ez0_U  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=An7A45Ez0_U 
 **Summarized:** 2026-10-27 20:43 UTC
 
 ---
@@ -29,7 +29,7 @@ Staff presented the most recent version of the Machm Miller Park master plan and
 Staff provided a quarterly update noting Friends of Kennedy Park received $17,500 from youth baseball and nearly $4,000 from concession stand proceeds from a softball tournament, bringing the estimated community foundation balance to approximately $124,939.55, with $98,000 dedicated to lights installed at Ray Jack field on October 19-20. The second annual Glow Games indoor event is scheduled for February 20, 2027. Jimmy Olson of the Friends of Kennedy Park addressed the committee, confirming fundraising is ongoing with no brakes applied, and that internally the group sees a concession stand as the next major goal, while remaining flexible given uncertainty about the farmers market location and a potential hockey facility in the northwest corner. Committee members discussed moving the farmers market to the northwest corner near the proposed hockey facility off Altaverie and Newport, which would allow back-to-back ball diamonds to remain and provide a flatter, potentially covered space for market vendors. The committee reached informal consensus that the farmers market will likely remain at field 2 for the next year, the next development step will take more than a year, and fundraising focus should shift toward a concession stand building, with village consideration of phase 2 parking improvements.
 
 ## Public Comment
-Two public comments were received. Tony Case (226305 County Road 2, Ringle, WI) spoke in person as a farmers market vendor, offering three suggestions: widening the Kennedy Park parking lot entrance from two lanes to three (one in, two out) to address bottlenecks; adding a permanent mounted sign directing patrons to overflow parking and additional handicap spaces; and exploring a strip of land near the power boxes adjacent to the ball field for 20-35 additional parking spots. An online commenter identified as Jim criticized the committee for omitting a Friends of Kennedy Park financial update from the packet, for providing no cost estimate or recommendation on aquatic center repairs, and for stating 'none' as the financial impact of the Machm Miller Park plan despite estimates exceeding $4.137 million, calling the omissions a failure of customer service to the village's 16,000 residents.
+Two public comments were received. Tony Case spoke in person as a farmers market vendor, offering three suggestions: widening the Kennedy Park parking lot entrance from two lanes to three (one in, two out) to address bottlenecks; adding a permanent mounted sign directing patrons to overflow parking and additional handicap spaces; and exploring a strip of land near the power boxes adjacent to the ball field for 20-35 additional parking spots. An online commenter identified as Jim criticized the committee for omitting a Friends of Kennedy Park financial update from the packet, for providing no cost estimate or recommendation on aquatic center repairs, and for stating 'none' as the financial impact of the Machm Miller Park plan despite estimates exceeding $4.137 million, calling the omissions a failure of customer service to the village's 16,000 residents.
 
 ## Action Items
 - Recommend Machm Miller Park master plan to the Village Board (approved by committee vote)

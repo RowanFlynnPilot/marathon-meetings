@@ -1,8 +1,8 @@
 # Regular Meeting - 2026-08-10
 
-**Organization:** Wausau School Board  
-**Source:** https://www.youtube.com/watch?v=Dkt72jkA2jo  
-**Documents:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354  
+**Organization:** Wausau School Board 
+**Source:** https://www.youtube.com/watch?v=Dkt72jkA2jo 
+**Documents:** https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354 
 **Summarized:** 2026-08-30 03:33 UTC
 
 ---
@@ -30,7 +30,7 @@ District administrator Tabitha Gundrum (identified as Ms. Gundrum/Mensley in tra
 Cory Sillars reported on the CESA 9 annual convention held August 3, noting he chaired the meeting in the absence of regular chair Chris Petronek, that a new member from the Lakeland area joined, and that Larry Schaefer of DC Everest was recognized for 30 years of service. Sillars also mentioned speaking with Secretary Duffy over the weekend about construction costs and energy prices. Superintendent Bushman thanked Rib Mountain families for attending, announced the August 24 staff welcome-back event, and invited board members to attend.
 
 ## Public Comment
-Two speakers addressed the board. Ann Wicklund, 227-350 Bard Owl Avenue, Wausau, a retired Wausau School District director of special education with over 50 years in early childhood education, raised concerns about a projected 25-student first grade class at Rib Mountain Elementary and the importance of class size in early childhood development; she was cut off slightly over the 3-minute limit. Nate Bartsch, 151306 Kingfisher Lane, Rib Mountain, spoke on behalf of many Rib Mountain families present in the audience, arguing the school's single-section structure leaves no flexibility to manage behavioral or academic complexity and asking the board for concrete action for the 2026-27 school year. A third potential speaker, Jess Bartz, declined to speak.
+Two speakers addressed the board. Ann Wicklund a retired Wausau School District director of special education with over 50 years in early childhood education, raised concerns about a projected 25-student first grade class at Rib Mountain Elementary and the importance of class size in early childhood development; she was cut off slightly over the 3-minute limit. Nate Bartsch spoke on behalf of many Rib Mountain families present in the audience, arguing the school's single-section structure leaves no flexibility to manage behavioral or academic complexity and asking the board for concrete action for the 2026-27 school year. A third potential speaker, Jess Bartz, declined to speak.
 
 ## Action Items
 - Administration to return to the board with further analysis, potentially including a classroom complexity factor model for staffing decisions

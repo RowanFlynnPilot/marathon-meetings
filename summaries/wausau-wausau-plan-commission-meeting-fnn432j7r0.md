@@ -1,7 +1,7 @@
 # Wausau Plan Commission Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=_Fnn432j7r0  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=_Fnn432j7r0 
 **Summarized:** 2026-10-21 04:44 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Plan Commission met on October 20, 2026 and approved five action item
 
 ## Key Discussions
 ### Public Comment – Yawkey Park Landmarking
-Two speakers addressed the commission. Kathy Foley, 1209 East Hill Drive, read a statement on behalf of the Yawkey family heirs — great-grandchildren Alice Woodson Smith, A. Woodson Haigie, Abigail Spire, Lee Tuckey, and Nancy Lee Fischer — expressing full support for designating Yawkey Park as a historic landmark and calling for protection of its 106-year-old footprint 'deeded for use by the public in perpetuity.' Christine Martins, 1228 Arthur Street, noted she authored the nomination document and that the Historic Preservation Commission had already passed it unanimously with no opposition at the public hearing stage.
+Two speakers addressed the commission. Kathy Foley read a statement on behalf of the Yawkey family heirs — great-grandchildren Alice Woodson Smith, A. Woodson Haigie, Abigail Spire, Lee Tuckey, and Nancy Lee Fischer — expressing full support for designating Yawkey Park as a historic landmark and calling for protection of its 106-year-old footprint 'deeded for use by the public in perpetuity.' Christine Martins noted she authored the nomination document and that the Historic Preservation Commission had already passed it unanimously with no opposition at the public hearing stage.
 
 ### Consideration of Minutes – September 15, 2026
 A motion to approve the September 15, 2026 minutes was made by Bruggeman and seconded by Balkin. No corrections were offered and the minutes were approved by voice vote.
@@ -32,7 +32,7 @@ The mayor described the alley as an unpaved grass strip with limited use and no 
 Commissioner Trueblood explained that Liberty Way continues to the east and north, making this southern stub an undeveloped dead end; a large home is being constructed in the area, making vacation appropriate. He stated he 'strongly advised' approval. A utility easement will remain. The commission approved the vacation unanimously by voice vote.
 
 ## Public Comment
-Two speakers offered public comment, both regarding Yawkey Park landmarking. Kathy Foley (1209 East Hill Drive) read a written statement from five Yawkey family heirs supporting the landmark designation to protect the park's 106-year-old footprint for public use in perpetuity. Christine Martins (1228 Arthur Street), who authored the nomination, noted the Historic Preservation Commission had passed it unanimously and that no opposition had been raised at any prior public hearing.
+Two speakers offered public comment, both regarding Yawkey Park landmarking. Kathy Foley read a written statement from five Yawkey family heirs supporting the landmark designation to protect the park's 106-year-old footprint for public use in perpetuity. Christine Martins, who authored the nomination, noted the Historic Preservation Commission had passed it unanimously and that no opposition had been raised at any prior public hearing.
 
 ## Action Items
 - Yawkey Park landmark designation forwarded to Wausau City Council for final approval

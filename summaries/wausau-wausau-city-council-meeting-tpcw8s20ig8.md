@@ -1,7 +1,7 @@
 # Wausau City Council Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=tPcW8s20iG8  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=tPcW8s20iG8 
 **Summarized:** 2026-09-10 02:58 UTC
 
 ---
@@ -29,10 +29,10 @@ Multiple alders spoke in strong support, with Wiscowski, Slansky, Tyranny, Marti
 This item generated the longest and most contentious debate of the evening. DPW Director Eric Lynman explained the city has replaced over 500 lines in 2024, 1,500 in 2025, and is on track for 1,700 in 2026, with an EPA deadline of 2037. Council President Kilian said she would not support it because residents were initially told there would be no fees. Alder Slansky supported it to qualify for future grants but asked that costs be spread equitably. Alder Trueblood drew a contrast with the evening's pending $28 million Riverlife development agreement and argued the city had overpromised on the no-cost pledge. Alder Watson raised questions about circular logic between the ordinance and funding, and asked whether enforcement could be tied to funding availability. Alder Heni moved to amend the ordinance to prohibit penalties, enforcement, and water disconnection until the council adopts a financing program defining maximum obligations, repayment terms, and hardship considerations; Alder Tyranny seconded. After extended debate on whether that amendment could jeopardize PSC approval or grant eligibility, Heni withdrew the amendment without objection. Alder Larson called the question to end debate on the main motion. The ordinance ultimately passed, though the exact tally was not clearly stated in the transcript before the recording ended.
 
 ## Public Comment
-Two speakers offered public comment. David Rele, 1200 North Mayfair Road, Milwaukee, spoke in support of the Riverlife/Wongard development agreement, thanking the council for the opportunity and stating the development agreement captures all form and function approved in the prior term sheet. A second speaker, identified as Apple Quizzler (address given as 417 Lazy Branch Drive, Wausau), spoke about 911 access and cellular service reliability problems in the Lazy Acres neighborhood (approximately 190 homes). The speaker described spotty cellular coverage and a situation where a satellite app appearing on their phone appeared to interfere with cellular service, blocking the ability to call 911. Mayor Diny indicated city staff would follow up with the resident.
+Two speakers offered public comment. David Rele Milwaukee, spoke in support of the Riverlife/Wongard development agreement, thanking the council for the opportunity and stating the development agreement captures all form and function approved in the prior term sheet. A second speaker, identified as Apple Quizzler, spoke about 911 access and cellular service reliability problems in the Lazy Acres neighborhood (approximately 190 homes). The speaker described spotty cellular coverage and a situation where a satellite app appearing on their phone appeared to interfere with cellular service, blocking the ability to call 911. Mayor Diny indicated city staff would follow up with the resident.
 
 ## Action Items
-- City staff to follow up with resident at 417 Lazy Branch Drive regarding 911 access and cellular service issues in the Lazy Acres neighborhood
+- City staff to follow up with resident regarding 911 access and cellular service issues in the Lazy Acres neighborhood
 - Sustainability, Energy, and Environment Committee to continue community survey through October 31 and present five-year sustainability plan to council in April 2027
 - DPW Director Lynman to present lead service line replacement financing options at the September 22 Finance Committee meeting
 - HR Department reclassification of specialist to generalist position to take effect as approved

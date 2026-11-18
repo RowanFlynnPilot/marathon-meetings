@@ -1,7 +1,7 @@
 # Board of Trustees
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=0bScOP-rhOE  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=0bScOP-rhOE 
 **Summarized:** 2026-10-20 20:02 UTC
 
 ---
@@ -11,7 +11,7 @@ The Village of Weston Board of Trustees met and addressed several significant it
 
 ## Key Discussions
 ### Public Comment
-Three residents spoke. Jim Pence criticized the lack of a financial plan for Kennedy Park (Miller Park North), called for canceling new lights and redirecting the $100,000 raised toward operating costs, and raised concerns about agenda item 42 — arguing the borrowing terms were inconsistent with what the court approved and that a 5-year balloon payment was never mentioned in the original August approval. John Alman, 1506 Bailey Avenue, complained that attendees in the back of the room cannot hear proceedings and suggested a simple microphone solution rather than spending on ball diamonds. Cynthia Russell, 5907 Trisha Avenue, expressed concern about lack of due diligence regarding a 36-inch TC Energy natural gas pipeline on or near the Mountain Bay Metro Police Station property, drew comparisons to the Camp Phillips development failure, and requested an independent survey, formal written engagement with TC Energy, and a written policy for future land purchases near utility easements.
+Three residents spoke. Jim Pence criticized the lack of a financial plan for Kennedy Park (Miller Park North), called for canceling new lights and redirecting the $100,000 raised toward operating costs, and raised concerns about agenda item 42 — arguing the borrowing terms were inconsistent with what the court approved and that a 5-year balloon payment was never mentioned in the original August approval. John Alman complained that attendees in the back of the room cannot hear proceedings and suggested a simple microphone solution rather than spending on ball diamonds. Cynthia Russell expressed concern about lack of due diligence regarding a 36-inch TC Energy natural gas pipeline on or near the Mountain Bay Metro Police Station property, drew comparisons to the Camp Phillips development failure, and requested an independent survey, formal written engagement with TC Energy, and a written policy for future land purchases near utility easements.
 
 ### Approval of September 21st Board of Trustees Meeting Minutes
 The minutes were approved with one requested correction: a trustee noted that language describing completed 'contracts for the chief and deputy' was misleading and should be reworded to reflect that union staffing contracts — not personal employment contracts — were completed. The administrator agreed to make the correction. Motion by Olson, second by Clark; approved unanimously.
@@ -35,7 +35,7 @@ The board approved an engineering contract amendment with Strand Associates for 
 Administrator Jamie explained that Community First/Inner City bank had submitted loan documents with a 5-year balloon or rate reset, inconsistent with the board's prior approval of a 10-year fixed rate at 4.69%. After negotiations, the bank offered a fourth option: 10-year fixed at 4.95%. Trustees discussed the risk of the balloon/reset options given uncertain future interest rates and concluded the 4.95% 10-year fixed was the best path forward. Trustee Olson moved to accept the 10-year fixed rate at 4.95%, seconded by Clark; approved unanimously. Finance Director noted $400,000 already levied for debt service would immediately reduce the principal upon issuance.
 
 ## Public Comment
-Three residents spoke. Jim Pence criticized the lack of a financial strategy for Kennedy Park ongoing costs, called for canceling new lights to redirect funds, and challenged the debt terms for the police station loan as inconsistent with court-approved terms. John Alman, 1506 Bailey Avenue, complained the public cannot hear board proceedings from the back of the room and suggested an inexpensive microphone solution. Cynthia Russell, 5907 Trisha Avenue, raised detailed concerns about insufficient due diligence regarding a TC Energy natural gas pipeline near the proposed police station site, compared it to a prior Camp Phillips development failure, and requested an independent pipeline survey, written engagement with TC Energy, and a formal utility verification policy for future land purchases.
+Three residents spoke. Jim Pence criticized the lack of a financial strategy for Kennedy Park ongoing costs, called for canceling new lights to redirect funds, and challenged the debt terms for the police station loan as inconsistent with court-approved terms. John Alman complained the public cannot hear board proceedings from the back of the room and suggested an inexpensive microphone solution. Cynthia Russell raised detailed concerns about insufficient due diligence regarding a TC Energy natural gas pipeline near the proposed police station site, compared it to a prior Camp Phillips development failure, and requested an independent pipeline survey, written engagement with TC Energy, and a formal utility verification policy for future land purchases.
 
 ## Action Items
 - Administrator to correct September meeting minutes to clarify union staffing contracts — not personal contracts — were completed for chief and deputy

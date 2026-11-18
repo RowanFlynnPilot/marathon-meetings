@@ -1,7 +1,7 @@
 # Wausau Parks and Recreation Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=HUvRjJIoe8g  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=HUvRjJIoe8g 
 **Summarized:** 2026-09-02 02:42 UTC
 
 ---
@@ -32,7 +32,7 @@ Alder Neil proposed painting a broken centerline stripe on the River Edge Trail 
 Parks Director Jamie presented a budget built to the mayor's directive of a flat 'cost of doing business' increase, coming in at approximately 1% over last year. The largest proposed cost-reduction measure was rotating pool closures across the three aquatic centers to reduce staffing costs; the department spends $449,000 on pools annually with only a 19% cost recovery rate. Two pool rotation options were presented — one keeping two pools open five days a week with all three open on weekends, and one closing all three pools one day per week for higher savings of approximately $29,781. Committee members generally favored keeping all three pools open Saturday and Sunday. Other proposals included reducing warf docks from seven to three (consolidating into a wider central platform), pausing goat use on Barker Stewart Island for one year with mowing as an alternative, switching from tablet to liquid chlorine in bulk, reducing the small projects budget by $5,000, and adding a $2-per-household-per-month urban forestry fee. Alder Troub strongly opposed the urban forestry fee as an additional burden on taxpayers already funding forestry through the property tax levy; Alder Slonsky expressed interest in exploring it but acknowledged its regressive nature for single-family homeowners. No formal votes were taken on budget items; the committee was asked to provide direction to staff on which operational changes to include in the budget submission to the mayor.
 
 ## Public Comment
-One public commenter spoke: Kathy Foley of 1209 East Hill Drive, Wausau, appeared on behalf of five Yawkey heirs (great-grandchildren of Cyrus Yawkey) to read and submit a signed statement fully supporting the designation of Yaki Park as a historic landmark, citing its 106-year history and deed restriction requiring it remain public in perpetuity.
+One public commenter spoke: Kathy Foley, appeared on behalf of five Yawkey heirs (great-grandchildren of Cyrus Yawkey) to read and submit a signed statement fully supporting the designation of Yaki Park as a historic landmark, citing its 106-year history and deed restriction requiring it remain public in perpetuity.
 
 ## Action Items
 - Staff to finalize acceptance of scoreboard donation from Wausau Youth Baseball at Memorial Park and ensure any future sponsorship goes through parks office approval process

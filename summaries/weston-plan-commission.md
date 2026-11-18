@@ -1,7 +1,7 @@
 # Plan Commission
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=eX7VOuywzb8  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=eX7VOuywzb8 
 **Summarized:** 2026-06-10 15:32 UTC
 
 ---
@@ -26,7 +26,7 @@ Both the certified survey maps/site plans and building permits for April 2026 we
 Jennifer announced the first joint Plan Commission and Village Board steering committee meeting for the comprehensive plan update is scheduled for Monday, June 1st at 5:00 p.m. Discussion included potential residential TIF districts for workforce housing, with staff noting Ehlers has prepared a presentation on qualifications that could be shared with the commission or incorporated into the comprehensive plan process.
 
 ## Public Comment
-Jim Pensel of 5002 Arrow Street, Weston, spoke via online connection. He urged the commission to exercise common sense regarding landscaping requirements for the police department project, requesting staff waive excessive requirements similar to what was done for the Greenheck Turner building. He also requested annual reporting on the salt storage shed inspection program to ensure complaints don't get lost and sites are actually visited.
+Jim Pensel, spoke via online connection. He urged the commission to exercise common sense regarding landscaping requirements for the police department project, requesting staff waive excessive requirements similar to what was done for the Greenheck Turner building. He also requested annual reporting on the salt storage shed inspection program to ensure complaints don't get lost and sites are actually visited.
 
 ## Action Items
 - Site plan for Mountain Bay Metropolitan Police Department and Municipal Court facility approved with staff conditions 2-5

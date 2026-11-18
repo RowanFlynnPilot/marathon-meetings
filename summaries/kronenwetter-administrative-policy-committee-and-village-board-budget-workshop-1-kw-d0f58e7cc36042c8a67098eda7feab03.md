@@ -1,8 +1,8 @@
 # Administrative Policy Committee and Village Board - Budget Workshop 1 - 2026-10-19
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf 
 **Summarized:** 2026-10-21 23:21 UTC
 
 ---
@@ -12,7 +12,7 @@ The Village of Kronenwetter held its first budget workshop for the 2027 fiscal y
 
 ## Key Discussions
 ### Public Comment
-One member of the public, Bernie Kramer of 2150 East State Highway 153, Mosinee, spoke during public comment. He expressed concern about the village moving away from municipal water service toward private wells and septic systems in new residential development, arguing this would hurt utility revenue (90% of which comes from residential users), increase costs for future homeowners, and undermine the village's own long-range planning within the septic service area utility.
+One member of the public, Bernie Kramer, spoke during public comment. He expressed concern about the village moving away from municipal water service toward private wells and septic systems in new residential development, arguing this would hurt utility revenue (90% of which comes from residential users), increase costs for future homeowners, and undermine the village's own long-range planning within the septic service area utility.
 
 ### Tax Levy and Tax Rate
 Village Administrator John presented a proposed tax rate increase from $4.03 to $4.26 per $1,000 assessed value, a 5.7% increase, and a levy increase from $2.7 million to $2.9 million (6.99%, approximately $190,000). He noted the village could legally levy as high as $4 million and a rate of $5.87 but was proposing well below that maximum. Trustee Mary Solheim raised concern that a 7% levy increase is unsustainable given only 0.651% net new construction, and staff acknowledged this while pointing to incoming developments (Green Tree, FAA property, TID 1 distribution center) as reasons for optimism.
@@ -42,7 +42,7 @@ Trustee Dan Lesniak raised a concern that it may not be legally permissible to m
 Staff identified several revenue improvements: shared revenue up about $10,000 (2%); a $54,000 annual Magellan termination payment that had never been budgeted previously; highway aid up $52,000; and building permits trending up from $40,000 budget to an estimated $60,000. Cable franchise fee revenue is declining significantly, estimated at $60,500 for 2027 versus a prior budget of $90,000, attributed to residents switching to streaming services. Total general fund revenue is proposed to increase approximately $657,000 or 11%, with fund balance drawdowns for one-time items including $90,000 for year two of the revaluation, $75,000 for municipal building CIP projects, and a $10,000 carryover for potential TID 5 creation work.
 
 ## Public Comment
-One speaker offered public comment: Bernie Kramer, 2150 East State Highway 153, Mosinee. He criticized the village for allowing new residential development to proceed with private wells and septic systems rather than connecting to municipal water and sewer, arguing this undermines utility revenue, increases long-term costs for homeowners, and contradicts the village's own planning documents. He also criticized what he characterized as illogical decision-making and the reduction in lot count in some developments.
+One speaker offered public comment: Bernie Kramer. He criticized the village for allowing new residential development to proceed with private wells and septic systems rather than connecting to municipal water and sewer, arguing this undermines utility revenue, increases long-term costs for homeowners, and contradicts the village's own planning documents. He also criticized what he characterized as illogical decision-making and the reduction in lot count in some developments.
 
 ## Action Items
 - Staff to confirm with Ehlers financial advisors whether administration-related expenditures from TID 1 are permissible after the expenditure period has ended, and report back at the October 20 budget workshop

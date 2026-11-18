@@ -1,7 +1,7 @@
 # Community Life & Public Safety
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=vqL23xM50t8  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=vqL23xM50t8 
 **Summarized:** 2026-10-27 20:43 UTC
 
 ---
@@ -11,7 +11,7 @@ The Village of Weston Community Life & Public Safety Committee met and addressed
 
 ## Key Discussions
 ### Public Comment
-Jim Po of 512 Girl Street, Weston, offered public comment. He humorously presented a wooden number five to recognize 6202 Ross Avenue for being on the code enforcement list for five years, calling it 'the pinnacle of commitment to municipal nuisance.' He also raised substantive questions about the proposed Business 51 crosswalk, questioning whether the $60,000 expenditure was a need or a want, how many residents would actually use it, and whether corridor businesses had been consulted or invited to the meeting.
+Jim Po, offered public comment. He humorously presented a wooden number five to recognize 6202 Ross Avenue for being on the code enforcement list for five years, calling it 'the pinnacle of commitment to municipal nuisance.' He also raised substantive questions about the proposed Business 51 crosswalk, questioning whether the $60,000 expenditure was a need or a want, how many residents would actually use it, and whether corridor businesses had been consulted or invited to the meeting.
 
 ### Code Enforcement Update
 Staff presented a code enforcement report showing over 100 cases opened annually, with 23 active cases older than one year including one dating to 2021 at a property with abandoned vehicles and solid waste. Code enforcement staff explained the 2021 case involves family deaths and medical issues that slowed compliance, but that the property owner's daughter has been cooperating and making progress this summer. Committee members questioned whether leaving resolved cases open was accurate or inflating case counts, and debated at what point long-standing cases should be escalated to legal action. Staff maintained that as long as progress is being made, they continue working cooperatively rather than pursuing court action, which can be costly and may not address the root cause.
@@ -32,7 +32,7 @@ Village Clerk Pam Bream confirmed online that all required paperwork, background
 Village engineer Mike presented the DOT's planned reconstruction of Business 51, currently scheduled for 2030-2031, and asked whether the committee wanted to include a pedestrian refuge island crossing at Newport Avenue in the design. The village's cost share would be roughly one-third, estimated at $40,000–$60,000 at today's prices. He noted the road median at Newport is currently only four feet wide and people are observed crossing diagonally without a safe refuge. Public works endorsed including it in design. Committee members generally supported it for future-proofing given nearby businesses, apartments, and the junior high school, with one member noting it would set up the corridor for potential future development. One member voted in opposition. The committee voted to direct the DOT to move forward with designing the crosswalk into the project plans.
 
 ## Public Comment
-One speaker offered public comment in person: Jim Po of 512 Girl Street, Weston. He humorously recognized 6202 Ross Avenue for its five-year presence on the code enforcement list and presented the committee with a wooden number five. He also raised concerns about the proposed Business 51 pedestrian crosswalk, questioning the cost-benefit given limited residential density on the west side of Business 51, and asked whether affected businesses had been formally notified or invited to comment. No one commented online or from the audience.
+One speaker offered public comment in person: Jim Po. He humorously recognized 6202 Ross Avenue for its five-year presence on the code enforcement list and presented the committee with a wooden number five. He also raised concerns about the proposed Business 51 pedestrian crosswalk, questioning the cost-benefit given limited residential density on the west side of Business 51, and asked whether affected businesses had been formally notified or invited to comment. No one commented online or from the audience.
 
 ## Action Items
 - Committee recommended approval of Class B beer and Class B liquor license for Doug's LLC / Trailside Sports Bar and Grill to the full Village Board for the November 16th meeting

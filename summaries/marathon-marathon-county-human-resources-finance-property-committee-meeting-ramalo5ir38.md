@@ -1,7 +1,7 @@
 # Marathon County Human Resources, Finance, & Property Committee Meeting
 
-**Organization:** Marathon County  
-**Source:** https://www.youtube.com/watch?v=rAmAlO5ir38  
+**Organization:** Marathon County 
+**Source:** https://www.youtube.com/watch?v=rAmAlO5ir38 
 **Summarized:** 2026-08-30 04:40 UTC
 
 ---
@@ -11,7 +11,7 @@ The Marathon County Human Resources, Finance, and Property Committee met to acce
 
 ## Key Discussions
 ### Public Comment – River Drive Campus Proposal (New Heights Climbing Gym)
-Chair Gibbs announced the committee would take no action on the River Drive proposal at this meeting, deferring it to a joint meeting with the Extension, Education, and Economic Development (EEDC) Committee tentatively scheduled for the following Thursday at 3:00 p.m. Three public speakers — Kim Winterhoff (local business owner and housing provider), Steve Arnold (resident at 739 Jefferson Street), and Dwayne Ditmar (climbing facilitator at the Greenheck Turner Community Center) — each spoke in favor of the proposal for New Heights Climbing Gym on the River Drive property, citing community benefit, multi-generational appeal, and economic development potential. Gibbs confirmed no board members had conflicts with the joint meeting date.
+Chair Gibbs announced the committee would take no action on the River Drive proposal at this meeting, deferring it to a joint meeting with the Extension, Education, and Economic Development (EEDC) Committee tentatively scheduled for the following Thursday at 3:00 p.m. Three public speakers — Kim Winterhoff (local business owner and housing provider), Steve Arnold (resident), and Dwayne Ditmar (climbing facilitator at the Greenheck Turner Community Center) — each spoke in favor of the proposal for New Heights Climbing Gym on the River Drive property, citing community benefit, multi-generational appeal, and economic development potential. Gibbs confirmed no board members had conflicts with the joint meeting date.
 
 ### Approval of Minutes from July 8th Meeting
 The committee moved and seconded approval of the July 8th meeting minutes without discussion. The motion carried unanimously.
@@ -35,7 +35,7 @@ Staff member Chris presented the history of the rolling stock/fleet funding poli
 Finance Director Sam presented the April 2026 year-to-date budget report. The payroll benchmark is 31.42% of budget, and all departments are operating within their expenditure budgets with no red flags. She noted that tax deed property activity is beginning to show in revenue and loss lines, investment income allocated to the general fund stands at $380,952, and a minor negative expenditure of approximately $3,575 in her own finance budget is a prior-year deferred amount being cleared. Year-to-date interest income across investment accounts totals $3,997,684. The committee had no significant questions.
 
 ## Public Comment
-Three speakers offered public comment in support of the New Heights Climbing Gym proposal for the River Drive campus: (1) Kim Winterhoff, a local business owner who provides housing to traveling healthcare professionals, argued the gym would fit Wausau's identity as an emerging hub for extreme sports and attract visitors who currently drive hours to Green Bay or Minneapolis; (2) Steve Arnold, of 739 Jefferson Street, highlighted climbing as a multi-generational, inclusive, and problem-solving sport suitable for all ages and abilities; (3) Dwayne Ditmar, climbing facilitator at the Greenheck Turner Community Center, noted existing demand at the current small facility and expressed enthusiasm for a larger, modern gym. All three urged the committee to approve the River Drive proposal.
+Three speakers offered public comment in support of the New Heights Climbing Gym proposal for the River Drive campus: (1) Kim Winterhoff, a local business owner who provides housing to traveling healthcare professionals, argued the gym would fit Wausau's identity as an emerging hub for extreme sports and attract visitors who currently drive hours to Green Bay or Minneapolis; (2) Steve Arnold, highlighted climbing as a multi-generational, inclusive, and problem-solving sport suitable for all ages and abilities; (3) Dwayne Ditmar, climbing facilitator at the Greenheck Turner Community Center, noted existing demand at the current small facility and expressed enthusiasm for a larger, modern gym. All three urged the committee to approve the River Drive proposal.
 
 ## Action Items
 - Schedule joint meeting with Extension, Education, and Economic Development Committee for the following Thursday at 3:00 p.m. to formally consider the River Drive campus proposal, including a presentation by the proponents and additional public comment

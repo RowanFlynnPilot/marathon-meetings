@@ -1,8 +1,8 @@
 # Revised Village Board Meeting - 2026-10-26
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-6 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc64bc1cee794958999a4d624864a28e.pdf 
 **Summarized:** 2026-10-28 21:04 UTC
 
 ---
@@ -33,7 +33,7 @@ President Joling acknowledged he had made an appointment to the Police and Fire 
 Finance Director John presented a proposed renewal of the municipal court legal services agreement with attorney Wolfgram, increasing the rate from $185 to $200 per hour (8.1% increase) locked in for three years. Trustee Solheim raised a concern about the 10-year records retention requirement in Section 5 of the agreement, questioning whether it differed from prior contract language and noting cost implications. The board agreed to table the item and bring it back at the next meeting to allow Clerk Noak time to compare the language with the prior agreement, noting a 60-day termination notice deadline of approximately November 1.
 
 ## Public Comment
-One speaker offered public comment: Bruny Kramer of 2150 East State Highway 153 criticized the Green Tree development decision, alleging the village failed to follow its own in-place standards, that no one faces consequences, and that a well at the corner of Pine and Pleasant had been severely contaminated, requiring a full replacement costing over $10,000 — located near the proposed development.
+One speaker offered public comment: Bruny Kramer criticized the Green Tree development decision, alleging the village failed to follow its own in-place standards, that no one faces consequences, and that a well at the corner of Pine and Pleasant had been severely contaminated, requiring a full replacement costing over $10,000 — located near the proposed development.
 
 ## Action Items
 - Finance Director to prepare a full 2026 legal cost breakdown by individual/request category for the November board meeting with a proposed budget amendment

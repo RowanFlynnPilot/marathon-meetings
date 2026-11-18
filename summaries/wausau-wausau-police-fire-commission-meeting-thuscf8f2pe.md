@@ -1,7 +1,7 @@
 # Wausau Police & Fire Commission Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=THUscF8F2PE  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=THUscF8F2PE 
 **Summarized:** 2026-09-29 10:42 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Police & Fire Commission met on September 28, 2026, conducting organi
 
 ## Key Discussions
 ### Public Comment – Tom Garver Farewell
-Outgoing Commissioner Tom Garver, of 4620 Huntington Court, addressed the commission to mark his departure, citing 'circumstances beyond our control' requiring him to leave. He praised the commission's culture of hiring for character, commended department leadership, and expressed confidence in newly appointed commissioners. The chair noted Garver was recently inducted into the Army Sports Hall of Fame in September for his hockey career at West Point, where he holds the program's all-time wins record with 75 victories.
+Outgoing Commissioner Tom Garver, addressed the commission to mark his departure, citing 'circumstances beyond our control' requiring him to leave. He praised the commission's culture of hiring for character, commended department leadership, and expressed confidence in newly appointed commissioners. The chair noted Garver was recently inducted into the Army Sports Hall of Fame in September for his hockey career at West Point, where he holds the program's all-time wins record with 75 victories.
 
 ### Election of Commission Vice President
 With Garver's departure creating a vacancy in the vice president role, Commissioner Lisa nominated Veta Perkins (referred to as 'V') for vice president. Another commissioner moved to close nominations, and the motion to elect Perkins as VP passed unanimously. The chair also appointed Lisa as commission secretary without a formal vote, stating it was an appointment rather than an election.
@@ -29,7 +29,7 @@ Chief Barnes reported that a recent police hiring process drew 40 applicants aft
 Chief Barnes outlined the timeline for selecting a new deputy chief: letters of interest and resumes were due October 2nd, officer listening sessions with the commission (without Barnes or Fire Chief Todd present) are planned for mid-October, candidate written assignments and interviews with Barnes are set for November 11th, and PFC interviews and a vote are planned for mid-to-late November with a January 17th promotional date. Commissioners discussed whether the PFC interviews could be held during the regular November 23rd meeting; Barnes said it was feasible but noted interviews could take several hours and might require a reduced agenda.
 
 ## Public Comment
-One speaker offered public comment: outgoing Commissioner Tom Garver, 4620 Huntington Court, who used the public comment period to formally address the commission upon his departure. He praised department leadership, emphasized the importance of hiring for character, and thanked his fellow commissioners.
+One speaker offered public comment: outgoing Commissioner Tom Garver who used the public comment period to formally address the commission upon his departure. He praised department leadership, emphasized the importance of hiring for character, and thanked his fellow commissioners.
 
 ## Action Items
 - Veta Perkins elected as commission Vice President

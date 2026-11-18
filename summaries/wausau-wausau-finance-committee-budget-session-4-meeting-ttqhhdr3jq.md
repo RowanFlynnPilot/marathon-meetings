@@ -1,7 +1,7 @@
 # Wausau Finance Committee Budget Session #4 Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=_TTqHhdr3jQ  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=_TTqHhdr3jQ 
 **Summarized:** 2026-10-21 23:19 UTC
 
 ---
@@ -47,7 +47,7 @@ Alder Hincki moved to remove $25,000 for street tree planting, seconded by Alder
 Alder Tierney moved to remove $150,000 for tool design engineering in TID 12, characterizing it as desirable but deferrable. Alder Hincki seconded. Discussion was cut off in the transcript before a vote was recorded.
 
 ## Public Comment
-Six residents spoke in opposition to Flock ALPR camera funding. Mary Clus (127 Kent Street) asked the committee to remove Flock from the budget citing privacy concerns and poor use of resources. Felix Gallow (1206 Highland Park) presented a legal analysis arguing non-appropriation is a routine discretionary tool under Wisconsin law, that Flock's own chief legal officer acknowledged municipalities retain discretion over appropriations, and that no Wisconsin agency that dropped Flock has been sued. Courtney Olsen (Highland Park Boulevard), a domestic violence agency executive director, warned ALPR systems can be misused as stalking tools, citing documented officer misuse cases in Milwaukee and Menasha, and outlined specific procedural steps for contract termination. Danielle Fischer (1212 Highland Park Boulevard) noted community support on social media for removing the cameras. Carrie Morola (1025 Everest Boulevard) framed removal as a double win — saving taxpayer money and rebuilding constituent trust.
+Six residents spoke in opposition to Flock ALPR camera funding. Mary Clus asked the committee to remove Flock from the budget citing privacy concerns and poor use of resources. Felix Gallow (1206 Highland Park) presented a legal analysis arguing non-appropriation is a routine discretionary tool under Wisconsin law, that Flock's own chief legal officer acknowledged municipalities retain discretion over appropriations, and that no Wisconsin agency that dropped Flock has been sued. Courtney Olsen (Highland Park Boulevard), a domestic violence agency executive director, warned ALPR systems can be misused as stalking tools, citing documented officer misuse cases in Milwaukee and Menasha, and outlined specific procedural steps for contract termination. Danielle Fischer noted community support on social media for removing the cameras. Carrie Morola framed removal as a double win — saving taxpayer money and rebuilding constituent trust.
 
 ## Action Items
 - Remove $50,000 Flock ALPR camera appropriation from 2027 budget and reallocate to motor pool within general fund (police, fire, or street maintenance department)

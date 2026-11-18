@@ -1,8 +1,8 @@
 # Regular School Board Meeting - 2026-08-19
 
-**Organization:** DC Everest School Board  
-**Source:** https://www.youtube.com/watch?v=uCg0cFqGqHU  
-**Documents:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113  
+**Organization:** DC Everest School Board 
+**Source:** https://www.youtube.com/watch?v=uCg0cFqGqHU 
+**Documents:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113 
 **Summarized:** 2026-08-30 03:32 UTC
 
 ---
@@ -30,7 +30,7 @@ Dr. Strike presented the annual 10-year capital plan, noting it is required beca
 Dr. Strike presented the updated employee handbook for the upcoming school year, noting five themes of changes compiled by the talent and culture department, including Christy Eser and Sarah Trimmer. She noted most changes had been previously presented to the board earlier in the year and were being formalized through the handbook process. The board approved the handbook without discussion.
 
 ## Public Comment
-One speaker offered public comment. Mary Soulheim, of 2580 Sussex Place, a district resident and parent of students including one at Evergreen Elementary, raised concerns about the district's use of a seclusion room at Evergreen Elementary, alleging a violation of Wisconsin Statute 118.305. She described the room as a repurposed 4-by-6-foot storage closet and urged the board to halt plans to formally train staff to use it, calling for an administrative review of legal and psychological risks to be brought back to the board in September. A second person, Amy Evelyn, was called to the podium but no remarks from her were captured in the transcript.
+One speaker offered public comment. Mary Soulheim, a district resident and parent of students including one at Evergreen Elementary, raised concerns about the district's use of a seclusion room at Evergreen Elementary, alleging a violation of Wisconsin Statute 118.305. She described the room as a repurposed 4-by-6-foot storage closet and urged the board to halt plans to formally train staff to use it, calling for an administrative review of legal and psychological risks to be brought back to the board in September. A second person, Amy Evelyn, was called to the podium but no remarks from her were captured in the transcript.
 
 ## Action Items
 - Community facility study survey to be sent to staff September 14 and to community via USPS the week of September 21

@@ -1,8 +1,8 @@
 # Police and Fire Commission Meeting - 2026-06-22
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-8eb365830ccd47e5865e3f22088e7351.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-22 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-8eb365830ccd47e5865e3f22088e7351.pdf 
 **Summarized:** 2026-07-14 17:14 UTC
 
 ---
@@ -21,7 +21,7 @@ Chief O'Brien presented a proposal to have a fire department chief or fire offic
 Commissioners reviewed attorney-proposed changes to the Citizen Complaint/Charge Form and discussed additional modifications they wished to incorporate. President Vedvik moved, seconded by Vice President Smith, to delay action pending incorporation of the changes discussed. The motion carried 4-0 by voice vote.
 
 ## Public Comment
-William Udulutch of 1859 Kimberly Road, Kronenwetter, addressed the commission with two suggestions: that commissioners participate in ride-alongs with the Kronenwetter Police Department, and that the commission address electric scooters, which he described as a growing problem on Village streets.
+William Udulutch, addressed the commission with two suggestions: that commissioners participate in ride-alongs with the Kronenwetter Police Department, and that the commission address electric scooters, which he described as a growing problem on Village streets.
 
 ## Action Items
 - Staff to incorporate commissioner-discussed changes into the Citizen Complaint/Charge Form before the commission takes final action on the revised document.

@@ -177,6 +177,13 @@ jobs:
             exit 1
           fi
 
+      - name: Scrub residents' addresses and apply corrections
+        # Backstop for the prompts' privacy rules (a resident's home address
+        # never appears in a summary) and the step that re-applies every
+        # logged fix in corrections.json, so re-summarizing can't undo one.
+        # Runs before the data file and pages are rebuilt. No API calls.
+        run: python scrub_summaries.py
+
       - name: Inject meeting summaries into JSX
         run: |
           echo "Working directory: $(pwd)"
@@ -262,6 +269,7 @@ jobs:
           git add -f processed_meetings.json || true
           git add -f skipped_videos.json || true
           git add -f costs.json || true
+          git add -f corrections.json || true
           git add -f summaries/ || true
           git add -f public/digest.png || true
           git add -f public/meetings.ics || true

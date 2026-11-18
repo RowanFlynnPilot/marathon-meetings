@@ -1,8 +1,8 @@
 # Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting - 2026-05-04
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-24  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc02fc4aee3a40b9852da71250e3b100.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-24 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-bc02fc4aee3a40b9852da71250e3b100.pdf 
 **Summarized:** 2026-06-10 20:29 UTC
 
 ---
@@ -45,7 +45,7 @@ Motion by Mijal, seconded by Lysne, to recommend the Village Board approve the Q
 Public Works Director Ulman requested the item be tabled, reporting that bids came in significantly higher than expected and that additional information was needed. The item was tabled until the next meeting. No vote count was recorded beyond the tabling action.
 
 ## Public Comment
-David Baker of 690 Happy Hollow Road submitted written public comment, which was read into the record by the clerk and attached to the minutes. Baker addressed the Quit Claim Deed item (8L) and the broader planning process for the proposed Marathon County Highway Facility. He urged the committee to make any property transfer contingent on the county agreeing to take jurisdiction of and upgrade Highway Business 51 from Village Way to Kowalski Road to four lanes, arguing that without such improvements the safety and traffic burdens currently affecting county highway workers and Wausau residents would simply be transferred to Kronenwetter residents. Baker also asked that the county consider installing a well on the property to avoid straining the village water system, and noted that newly elected Supervisor/Trustee Coyle serves on the Marathon County Infrastructure Committee. Trustee Patty Tikalsky of 2153 Peach Road offered public comment thanking the Kronenwetter Police Department, Fire Department, and Public Works Department for their response and aid during recent severe weather events.
+David Baker submitted written public comment, which was read into the record by the clerk and attached to the minutes. Baker addressed the Quit Claim Deed item (8L) and the broader planning process for the proposed Marathon County Highway Facility. He urged the committee to make any property transfer contingent on the county agreeing to take jurisdiction of and upgrade Highway Business 51 from Village Way to Kowalski Road to four lanes, arguing that without such improvements the safety and traffic burdens currently affecting county highway workers and Wausau residents would simply be transferred to Kronenwetter residents. Baker also asked that the county consider installing a well on the property to avoid straining the village water system, and noted that newly elected Supervisor/Trustee Coyle serves on the Marathon County Infrastructure Committee. Trustee Patty Tikalsky offered public comment thanking the Kronenwetter Police Department, Fire Department, and Public Works Department for their response and aid during recent severe weather events.
 
 ## Action Items
 - Trustee Aaron Myszka elected CLIPP Committee Chairperson by acclamation.

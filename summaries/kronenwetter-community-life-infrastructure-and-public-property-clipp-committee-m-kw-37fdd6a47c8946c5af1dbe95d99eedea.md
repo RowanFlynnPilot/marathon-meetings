@@ -1,8 +1,8 @@
 # Community Life, Infrastructure and Public Property (CLIPP) Committee Meeting - 2026-08-03
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-26  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-37fdd6a47c8946c5af1dbe95d99eedea.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-26 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-37fdd6a47c8946c5af1dbe95d99eedea.pdf 
 **Summarized:** 2026-08-05 02:09 UTC
 
 ---
@@ -36,7 +36,7 @@ Greg reported that a minimum cost estimate for a new trail in Kronenwetter would
 Finance Director John presented the village's first-ever 10-year Capital Improvement Program, noting the village had previously operated entirely year-to-year with no long-term capital plan. The current draft covers approximately $4.3 million in priority projects across departments, with roughly $1.2 million remaining from a 2024 general obligation borrowing and a possible new GO borrowing of approximately $1.7 million. Major infrastructure items include Maple Ridge Road engineering and reconstruction, Martin Road reconstruction (flagged by a committee member as the village's worst road and priority given heavy resident use of the compost site), sewer lift station panel upgrades and SCADA system, a new water tower and well, and deferred municipal center maintenance including boiler and roofing. The fire department noted rescue truck number 6 would need to be ordered well before its 2029 scheduled replacement due to 3-4 year delivery timelines. The document was presented as a living, versioned working document to be refined through August, September, and October ahead of November budget adoption.
 
 ## Public Comment
-Two speakers addressed the committee. Dan Lesniak (816 Spring Road), a village trustee and Plan Commission Chair, spoke in favor of retaining the four-way stop at XX/Teraboni for public safety and encouraged the committee to advance the data center moratorium so the Plan Commission can develop appropriate regulations. No other members of the public spoke.
+Two speakers addressed the committee. Dan Lesniak, a village trustee and Plan Commission Chair, spoke in favor of retaining the four-way stop at XX/Teraboni for public safety and encouraged the committee to advance the data center moratorium so the Plan Commission can develop appropriate regulations. No other members of the public spoke.
 
 ## Action Items
 - Staff to notify Marathon County of the committee's 4-0 recommendation to retain the four-way stop at County Highway XX and Teraboni Drive ahead of the county's Thursday committee meeting

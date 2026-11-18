@@ -1,7 +1,7 @@
 # Wausau City Council Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=LJW8KBfFsaY  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=LJW8KBfFsaY 
 **Summarized:** 2026-11-16 06:27 UTC
 
 ---
@@ -32,7 +32,7 @@ The designation of Yawkey Park as a local historic landmark was included on the 
 Police Chief addressed questions from Alder Henecke and others about the $121,434 Wisconsin DOJ Beat Patrol Grant, noting it effectively funds approximately two officers and that Wausau qualifies as one of the ten Wisconsin communities with the highest crime levels relative to population. The chief acknowledged that if the grant were lost, a difficult conversation with the council about staffing and funding would follow. Alder Henecke expressed concern that federal police reform efforts could jeopardize future grant funding. The resolution passed unanimously 11-0.
 
 ## Public Comment
-Four speakers offered public comment. Courtney Olsen (Highland Park Boulevard), executive director of a domestic violence agency, urged the council to send written contract termination notice to Flock Safety by November 15th and to exclude all remaining Flock payments from the budget, citing a contract clause allowing exit without penalty via non-appropriation. Amelia Wajchowski, assistant director of the Leigh Yawkey Woodson Art Museum, read a statement from Yawkey heirs — Alice Woodson Smith, A. Woodson Hagge, Abigail Spire, Leigh Tuckey, and Nancy Leigh Fischer — expressing full support for the Yawkey Park historic landmark designation. Christine Martins (1228 Arthur Street) also urged support for the Yawkey Park landmarking. Danielle Fischer (1212 Highland Park Boulevard) supported terminating the Flock contract and endorsed the city audit. One additional person spoke during the budget public hearing, expressing support for the audit over the city administrator position and objecting to the administrator proposal moving forward without a referendum.
+Four speakers offered public comment. Courtney Olsen (Highland Park Boulevard), executive director of a domestic violence agency, urged the council to send written contract termination notice to Flock Safety by November 15th and to exclude all remaining Flock payments from the budget, citing a contract clause allowing exit without penalty via non-appropriation. Amelia Wajchowski, assistant director of the Leigh Yawkey Woodson Art Museum, read a statement from Yawkey heirs — Alice Woodson Smith, A. Woodson Hagge, Abigail Spire, Leigh Tuckey, and Nancy Leigh Fischer — expressing full support for the Yawkey Park historic landmark designation. Christine Martins also urged support for the Yawkey Park landmarking. Danielle Fischer supported terminating the Flock contract and endorsed the city audit. One additional person spoke during the budget public hearing, expressing support for the audit over the city administrator position and objecting to the administrator proposal moving forward without a referendum.
 
 ## Action Items
 - 2027 City of Wausau budget adopted; mill rate set at $9.10 per $1,000 assessed value, projected increase of $71.52 for a $200,000 home

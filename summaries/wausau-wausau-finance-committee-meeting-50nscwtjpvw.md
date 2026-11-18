@@ -1,7 +1,7 @@
 # Wausau Finance Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=50NScWtJpvw  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=50NScWtJpvw 
 **Summarized:** 2026-10-15 04:37 UTC
 
 ---
@@ -38,7 +38,7 @@ Finance staff reported that motor pool costs allocated to police, fire, and publ
 The committee discussed a spreadsheet of implemented and non-implemented 2% budget reduction measures. Members raised concerns that several of the four or five vacant positions counted as savings may not represent genuine permanent reductions — particularly the surveyor position (offset by contracted services), two fire positions (6-month deferrals only), and a third city attorney position. The chair emphasized the need to address long-term debt, noting that capital borrowing will significantly impact the 2028 levy, and called for a closer look at deferrable capital projects. Discussion of liquor and cigarette license fee increases was raised by Alder Tyrrell, with staff noting state statute caps and the need to benchmark against neighboring municipalities. The committee scheduled a final budget workshop for Tuesday, October 20, 2026 at 6:30 p.m.
 
 ## Public Comment
-Three residents spoke in opposition to the city's Flock ALPR camera contract. Danielle Fischer (1212 Highland Park Blvd) argued the cameras are not a proven crime deterrent and raised privacy concerns about data use and storage. Felix Gallo (1206 Highland Park Blvd) asked the committee to remove the $50,000 Flock appropriation from the 2027 budget, issue a termination notice under contract section 11.16, and pass a surveillance technology ordinance; he alleged cameras are positioned inside city neighborhoods including near residents' homes and disputed Police Chief Barnes's characterization of their placement. Courtney Olson (1206 Highland Park Blvd) cited domestic violence victim tracking as a documented misuse, referenced ongoing litigation in Waukesha County over warrantless Flock database searches, and asked the city attorney for a written opinion on the termination clause and whether the December payment could be stopped by an 8-of-11 council vote.
+Three residents spoke in opposition to the city's Flock ALPR camera contract. Danielle Fischer argued the cameras are not a proven crime deterrent and raised privacy concerns about data use and storage. Felix Gallo asked the committee to remove the $50,000 Flock appropriation from the 2027 budget, issue a termination notice under contract section 11.16, and pass a surveillance technology ordinance; he alleged cameras are positioned inside city neighborhoods including near residents' homes and disputed Police Chief Barnes's characterization of their placement. Courtney Olson cited domestic violence victim tracking as a documented misuse, referenced ongoing litigation in Waukesha County over warrantless Flock database searches, and asked the city attorney for a written opinion on the termination clause and whether the December payment could be stopped by an 8-of-11 council vote.
 
 ## Action Items
 - Pet license fee schedule amended: spayed/neutered fee set at $25, microchip discount set at $10 for 2027
