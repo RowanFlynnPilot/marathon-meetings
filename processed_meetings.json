@@ -3314,6 +3314,17 @@
       "video_url": null,
       "processed_at": "2026-11-17T23:36:07.087552+00:00",
       "summary_file": "summaries/weston-finance-and-hr-committee-rr4xy0w5eto.md"
+    },
+    "bb_773904": {
+      "title": "Regular School Board Meeting - 2026-11-18",
+      "source": "dc_everest",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904",
+      "upload_date": "20261118",
+      "meeting_date": "20261118",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-18T02:01:32.201843+00:00",
+      "summary_file": "summaries/dc-everest-regular-school-board-meeting-2026-11-18-bb-773904.md"
     }
   }
 }
