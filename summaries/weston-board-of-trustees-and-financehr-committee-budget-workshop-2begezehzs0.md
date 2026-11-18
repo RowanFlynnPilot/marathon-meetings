@@ -1,7 +1,7 @@
 # Board of Trustees and Finance/HR Committee (Budget Workshop)
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=2BEGEZeHzS0  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=2BEGEZeHzS0 
 **Summarized:** 2026-09-10 02:56 UTC
 
 ---
@@ -11,7 +11,7 @@ The Village of Weston Board of Trustees and Finance/HR Committee held a joint bu
 
 ## Key Discussions
 ### Public Comments
-Three residents spoke. A woman identified as Grace (603 Jessica, Weston) raised concerns about the proposed Friday afternoon closures and asked that overtime calculations for reclassified hourly employees be based on a 40-hour workweek, not eight hours per day; staff confirmed Weston uses the over-40-hours standard. Jim Pel criticized the lack of a clear, readable answer to a previously requested 1%-salary-impact figure, argued against closing Village Hall on Fridays as inequitable to public-facing departments, and suggested extended evening hours instead; he also complained the PowerPoint was not in the packet until the day of the meeting. A third resident, John of 1506 Daily Avenue, questioned why a Weston ordinance required a licensed plumber to replace an anti-siphon faucet rather than allowing a homeowner to do it themselves.
+Three residents spoke. A woman identified as Grace (603 Jessica, Weston) raised concerns about the proposed Friday afternoon closures and asked that overtime calculations for reclassified hourly employees be based on a 40-hour workweek, not eight hours per day; staff confirmed Weston uses the over-40-hours standard. Jim Pel criticized the lack of a clear, readable answer to a previously requested 1%-salary-impact figure, argued against closing Village Hall on Fridays as inequitable to public-facing departments, and suggested extended evening hours instead; he also complained the PowerPoint was not in the packet until the day of the meeting. A third resident, John, questioned why a Weston ordinance required a licensed plumber to replace an anti-siphon faucet rather than allowing a homeowner to do it themselves.
 
 ### Approval of August 24, 2026 Joint Budget Workshop Minutes
 The Finance/HR Committee approved the minutes on a motion by Daniels, seconded by [inaudible]. The Board of Trustees approved the same minutes on a motion by Beck, seconded by Ermeling. Both votes carried without dissent.
@@ -32,7 +32,7 @@ Public Works Director Michael [inaudible] explained that a newly hired engineeri
 Village President Maloney introduced a discussion on potentially adopting a compressed summer schedule (e.g., Monday–Thursday extended hours with a half-day Friday) similar to neighboring municipalities: Rothschild, Kronenwetter, and Schofield operate 7 a.m.–4:30 p.m. Monday–Thursday and 7–11 a.m. Friday; Rib Mountain does 7:30–5 and 8:30–1; Wausau uses Monday/Wednesday/Thursday 7:30–4:30 with a late Tuesday and half-day Friday. Staff clarified that public works already runs four 10-hour days (Memorial Day–Labor Day) and would be unaffected. Utilities and parks staff would also be excluded. Staff noted a prior attempt at modified hours generated employee and public complaints about early start times and reduced Friday access. Two public commenters had already expressed opposition (Pel) and partial concern (Grace). No decision was made; the topic was deferred to future budget workshops for further discussion.
 
 ## Public Comment
-Three residents spoke. Grace (603 Jessica, Weston) raised concerns about equity in overtime calculations if staff are reclassified hourly, and asked the village to ensure hourly employees are paid only for actual hours worked. Jim Pel criticized the absence of a clear answer to the 1%-salary-cost question, opposed closing Village Hall on Fridays as inequitable to non-administrative departments, suggested extended evening hours as an alternative, and complained the budget PowerPoint was not in the meeting packet until the day of the meeting. John (1506 Daily Avenue) questioned a village ordinance requiring a licensed plumber to replace an anti-siphon faucet on his 1960 home, questioning why the work could not be done by a homeowner with a receipt showing a new part.
+Three residents spoke. Grace raised concerns about equity in overtime calculations if staff are reclassified hourly, and asked the village to ensure hourly employees are paid only for actual hours worked. Jim Pel criticized the absence of a clear answer to the 1%-salary-cost question, opposed closing Village Hall on Fridays as inequitable to non-administrative departments, suggested extended evening hours as an alternative, and complained the budget PowerPoint was not in the meeting packet until the day of the meeting. John questioned a village ordinance requiring a licensed plumber to replace an anti-siphon faucet on his 1960 home, questioning why the work could not be done by a homeowner with a receipt showing a new part.
 
 ## Action Items
 - Finance staff to provide future budget spreadsheets with explanatory notes and assumptions, either in the packet or as an addendum, before the next workshop

@@ -1,7 +1,7 @@
 # Parks Committee
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=BuG4S4Q-V2k  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=BuG4S4Q-V2k 
 **Summarized:** 2026-09-29 18:07 UTC
 
 ---
@@ -14,7 +14,7 @@ The Village of Weston Parks and Recreation Committee met on September 30, 2024, 
 Minutes were moved by Scott and seconded by Roger. The committee approved them unanimously on a voice vote.
 
 ### Public comments
-A resident named Grace, of 603 Jessica Street, offered three comments: she thanked committee members for asking probing questions about the ice rink proposal at Kennedy Park; she requested a more formal, structured presentation on Kennedy Park's progress and future plans, rather than informal monthly updates; and she asked whether Prohaska Park has a sign, bathrooms, and regular mowing. Staff confirmed the park has a sign and that only the walking trails are mowed, with no formal amenity area.
+A resident named Grace, offered three comments: she thanked committee members for asking probing questions about the ice rink proposal at Kennedy Park; she requested a more formal, structured presentation on Kennedy Park's progress and future plans, rather than informal monthly updates; and she asked whether Prohaska Park has a sign, bathrooms, and regular mowing. Staff confirmed the park has a sign and that only the walking trails are mowed, with no formal amenity area.
 
 ### Update on Kennedy Park renovation
 Staff reported that contractors are scheduled to arrive the following week to address touch-up paint on poles, crack block and missing mortar, dugout door adjustments, sod restoration from irrigation leak repairs, and irrigation system restoration. Lights are scheduled for delivery the week of the 19th and will be installed immediately upon delivery. A representative from Friends of Kennedy Park said there were no additional updates. No action was taken.
@@ -35,7 +35,7 @@ Staff recapped discussions from March and April about the cost and usage of the 
 Staff noted the last aquatic center evaluation was completed in 2016 at just under $7,000, and that significant capital expenditures have followed, including over $102,000 in leak repairs this year and another motor and valve replacement project exceeding $100,000. Staff estimated a new evaluation could cost $7,000–$12,000. A committee member raised the question of whether to wait given ongoing discussions about a possible pool partnership with the Everest School District, which recently mailed a facilities survey to residents. After discussion, the committee agreed that an evaluation could actually inform the partnership decision. A motion was made and seconded to proceed with the aquatic center evaluation; the motion was approved unanimously on a voice vote.
 
 ## Public Comment
-One speaker offered public comment: Grace, of 603 Jessica Street. She thanked committee members for questioning the ice rink proposal at Kennedy Park at a previous meeting, requested more formal and structured presentations on Kennedy Park's progress and future direction (including from Friends of Kennedy Park), and asked about the status of Prohaska Park—specifically whether it has a sign, bathrooms, and is regularly mowed. Staff answered that it does have a sign, and that only the walking trails are mowed. A person identified as David joined the meeting online but declined to offer public comment when invited.
+One speaker offered public comment: Grace She thanked committee members for questioning the ice rink proposal at Kennedy Park at a previous meeting, requested more formal and structured presentations on Kennedy Park's progress and future direction (including from Friends of Kennedy Park), and asked about the status of Prohaska Park—specifically whether it has a sign, bathrooms, and is regularly mowed. Staff answered that it does have a sign, and that only the walking trails are mowed. A person identified as David joined the meeting online but declined to offer public comment when invited.
 
 ## Action Items
 - Release farmers market end-of-season survey around October 1st, running approximately 30 days, including an added 10th question about other ways respondents use Kennedy Park

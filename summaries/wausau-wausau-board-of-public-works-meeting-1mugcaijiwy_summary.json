@@ -1,0 +1,139 @@
+{
+  "overview": "The Wausau Board of Public Works held a regular meeting covering bid openings for a business campus trail connector project, a public safety building roof replacement proposal, and several contractor payment matters. The board rejected a change order from Zillich Asphalt for additional asphalt depth on a Stewart Avenue water patch, approved two payments to Community Infrastructure Partners related to lead service line replacement, and ended by moving into closed session to deliberate on claims.",
+  "committee": "Wausau Board of Public Works",
+  "presiding": "Unknown — presiding officer not identified by name in transcript",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Consideration of October 27 regular Board of Public Works minutes"
+    },
+    {
+      "time": "0:30",
+      "item": "Open bids: Business Campus Trail East-West Connector (84th Avenue to 72nd Avenue)"
+    },
+    {
+      "time": "2:45",
+      "item": "Open RFPs: Construction administration for Business Campus Trail East-West Connector"
+    },
+    {
+      "time": "4:00",
+      "item": "Open RFPs: 2026 Public Safety building roof replacement"
+    },
+    {
+      "time": "5:10",
+      "item": "2026 Asphalt Patching Project — Zillich Asphalt Change Order No. 1"
+    },
+    {
+      "time": "12:30",
+      "item": "Pay estimate No. 35 — Community Infrastructure Partners, lead service line replacement"
+    },
+    {
+      "time": "14:00",
+      "item": "Pay estimate — Community Infrastructure Partners, outreach grant program (September work)"
+    },
+    {
+      "time": "15:30",
+      "item": "Motion to convene in closed session pursuant to Wisconsin Statute 19.85(1)(g) to deliberate on claims"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "October 27 Regular Board of Public Works Minutes",
+      "body": "The minutes were moved and seconded without discussion. The board approved them unanimously on a voice vote."
+    },
+    {
+      "item": "Open Bids: Business Campus Trail East-West Connector (84th Ave to 72nd Ave)",
+      "body": "Six bids were received, ranging from a low of $967,946.90 (PJ Incorporated) to a high of $1,393,224. Because the project is partially funded by the Wisconsin DOT, staff indicated they must seek DOT approval before awarding the bid. The board agreed to table award and bring the item back the following week after DOT discussions."
+    },
+    {
+      "item": "Open RFPs: Construction Administration for Business Campus Trail East-West Connector",
+      "body": "Two proposals were received — one from MSA Professional Services and one from Becker Hoppy. Engineering staff said they would review and score the proposals over the following week and return with a recommendation at the next board meeting. No action was taken."
+    },
+    {
+      "item": "Open RFPs: 2026 Public Safety Building Roof Replacement",
+      "body": "One proposal was received from Quality Roofing at a total cost of approximately $52,700, described as slightly over budget by about $2,000, with a 25-year warranty option at $100. The board indicated it wanted to review the capital costs and tabled the item to the following week."
+    },
+    {
+      "item": "2026 Asphalt Patching Project — Zillich Asphalt Change Order No. 1",
+      "body": "Staff presented a proposed $6,400 change order for 2.5 additional inches of asphalt placed on a Stewart Avenue water patch that turned out to be 8 inches thick instead of the anticipated maximum 5.5 inches. Staff explained that a city inspector had directed the contractor to match the existing 8-inch depth, but noted the contract specification pays by the square yard regardless of depth and that the contractor had already been paid the bid unit price. After discussion about whether the city was obligated to pay additional compensation, the board moved and seconded a motion to approve the change order, then voted it down on a voice vote with multiple 'no' votes, effectively rejecting the change order."
+    },
+    {
+      "item": "Pay Estimate No. 35 — Community Infrastructure Partners, Lead Service Line Replacement",
+      "body": "Staff reported that FiveStar has submitted all documentation to the DNR and that reviewed documents have been accepted, with only a couple of clarifications still pending. Staff expressed comfort proceeding with payment and moved to approve the amount of $1,731,945.90. The motion was seconded and approved unanimously on a voice vote."
+    },
+    {
+      "item": "Pay Estimate — Community Infrastructure Partners, Outreach Grant Program (September)",
+      "body": "A pay estimate of $18,941.29 total contract value was presented for September work under the outreach grant program, funded through the grant rather than the loan. Invoices from multiple vendors including Ola and DAR Engineering were referenced. The board moved, seconded, and approved the payment unanimously on a voice vote."
+    },
+    {
+      "item": "Closed Session — Deliberation on Claims",
+      "body": "The board moved into closed session pursuant to Wisconsin Statute 19.85(1)(g) to deliberate on claims. Staff noted there were two claims to discuss. The motion was seconded and approved unanimously on a voice vote."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "actionItems": [
+    "Staff to seek DOT approval for Business Campus Trail East-West Connector bid award; item to return next week",
+    "Engineering to review and score construction administration RFPs for Business Campus Trail; item to return next week",
+    "Staff to review capital costs for Public Safety building roof replacement proposal; item to return next week",
+    "Change Order No. 1 from Zillich Asphalt rejected — no additional payment authorized beyond original contract unit price",
+    "Payment of $1,731,945.90 to Community Infrastructure Partners for lead service line replacement approved",
+    "Payment of $18,941.29 to Community Infrastructure Partners for outreach grant program September work approved",
+    "Board to convene in closed session to deliberate on two claims"
+  ],
+  "topics": [
+    "Roads",
+    "Utilities",
+    "Development",
+    "Business Campus Trail Connector",
+    "Lead Service Line Replacement"
+  ],
+  "votes": [
+    {
+      "item": "Approval of October 27 Board of Public Works minutes",
+      "motion": "Move to approve",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Zillich Asphalt Change Order No. 1 — $6,400 for additional asphalt depth on Stewart Avenue patch",
+      "motion": "Motion to approve change order one from Zillich Asphalt",
+      "mover": null,
+      "second": null,
+      "outcome": "Failed",
+      "tally": null
+    },
+    {
+      "item": "Pay estimate No. 35 to Community Infrastructure Partners for lead service line replacement — $1,731,945.90",
+      "motion": "Motion to approve payment to CIP in the amount of $1,731,945.90",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Pay estimate to Community Infrastructure Partners for outreach grant program September work — $18,941.29",
+      "motion": "Motion to approve",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Convene in closed session pursuant to Wisconsin Statute 19.85(1)(g) to deliberate on claims",
+      "motion": "Motion to go into closed session pursuant to Wisconsin Statute 19.85(1)(g)",
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_hash": "0880967fefb346ea",
+  "title": "Wausau Board of Public Works Meeting",
+  "url": "https://www.youtube.com/watch?v=1MuGCAijiwY",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-11-05T00:55:50.776853+00:00"
+}

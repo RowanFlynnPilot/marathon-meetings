@@ -1,7 +1,7 @@
 # Wausau Economic Development Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=GFQ6AgLUfeE  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=GFQ6AgLUfeE 
 **Summarized:** 2026-09-03 02:47 UTC
 
 ---
@@ -28,14 +28,14 @@ Director Fifick presented a development agreement for 920 North First Street and
 ### Proposed Meeting Time Change
 The committee discussed moving the meeting start time from 5:15 to 5:30 p.m. The chair relayed that absent committee member Alder Tierney had communicated she was fine with 5:15 but not earlier. The motion to change the meeting time passed unanimously.
 
-### Accepting Donation of 313 North 1st Avenue Property
+### Accepting Donation Property
 Director Fifick explained the 0.06-acre parcel, located behind Bridge Street Mission, was being donated by former owners MBX after the city's attorney's office worked through the chain of title. Alder Kilian raised concerns about potential contamination given the property's prior use as an ice and fuel company, and questioned whether a phase one or phase two environmental assessment had been done. The chair noted the property has no road access and is essentially a lawn strip between two residential properties, suggesting possible sale to an adjacent owner. Despite contamination concerns, the committee voted to accept the donation.
 
 ### Wausau CDA Proposed New Public Housing Development
 CDA Assistant Director Julie Burkinmeer presented an early-stage proposal to develop 18 to 64 new public housing units by repositioning the CDA's existing 46 scattered-site units to a Section 18 project-based voucher funding model, freeing up HUD Faircloth units for new construction. She emphasized the extreme demand—the wait list for the CDA's single one-bedroom unit is over five years—and that rents would remain income-based at 30% of household income. The proposed development would be in one consolidated location rather than scattered sites, requiring at least one acre. No specific site has been identified yet. The CDA board is expected to consider the repositioning plan in October. No vote was taken; this was an informational presentation.
 
 ## Public Comment
-Four speakers addressed the committee. Colleen Armstrong (205 East Bridge Street) objected to lack of notification about the Eminent Development Corporation project adjacent to her property and requested a pause pending a neighborhood meeting. Tom Kian (133 East Thomas Street), the Cleveland Avenue neighborhood representative, urged concurrent remediation and redevelopment and asked that the comprehensive plan formally reflect non-industrial future land use. Drew Wowski (708 Park Avenue) expressed support for accelerating Cleveland Avenue development with green space and community amenities. Becky Hda (1625 Cleveland Avenue) read aloud from survey responses showing neighbors prioritize contamination cleanup above all other considerations for the Cleveland Avenue site.
+Four speakers addressed the committee. Colleen Armstrong objected to lack of notification about the Eminent Development Corporation project adjacent to her property and requested a pause pending a neighborhood meeting. Tom Kian, the Cleveland Avenue neighborhood representative, urged concurrent remediation and redevelopment and asked that the comprehensive plan formally reflect non-industrial future land use. Drew Wowski expressed support for accelerating Cleveland Avenue development with green space and community amenities. Becky Hda read aloud from survey responses showing neighbors prioritize contamination cleanup above all other considerations for the Cleveland Avenue site.
 
 ## Action Items
 - Staff to schedule a green team meeting with the DNR before the next Economic Development Committee meeting to discuss public input results and DNR funding for remediation and redevelopment of 1300 Cleveland Avenue

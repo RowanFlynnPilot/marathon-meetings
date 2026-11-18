@@ -36,7 +36,7 @@ Dr. Nye reported the tornado struck approximately four weeks prior (between boar
 The board approved a motion to grant school resource officers access to student records through the 2026-27 school year as listed in the background materials. The motion passed unanimously by voice vote with no discussion.
 
 ### Global Scholars Presentation
-Senior Eric Winger introduced four 2026 graduates earning Wisconsin DPI Global Certificates of Competence: Ella Budleski, Lana Gorski, Anna Jacobson, and Ava Schuler. Each student described their service learning projects: Ella ran Operation Christmas Child collecting over 150 shoeboxes over three years; Lana hosted a coin drive raising over $150 for UNICEF; Anna led 'Bubbles for Bubbler' collecting over 100 hygiene items for the New Beginnings refugee center in Wausau; and Ava co-led donation efforts for 'Making Wausau a Home,' supporting children through the New Beginnings organization. Certificates were presented to all four students.
+A senior introduced four 2026 graduates earning Wisconsin DPI Global Certificates of Competence. Each student described their service learning projects: one ran Operation Christmas Child collecting over 150 shoeboxes over three years; one hosted a coin drive raising over $150 for UNICEF; one led 'Bubbles for Bubbler' collecting over 100 hygiene items for the New Beginnings refugee center in Wausau; and one co-led donation efforts for 'Making Wausau a Home,' supporting children through the New Beginnings organization. Certificates were presented to all four students.
 
 ## Public Comment
 No public comment was offered.

@@ -1,8 +1,8 @@
 # RESCHEDULED Village Board Meeting - 2026-06-01
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/rescheduled-village-board-meeting-0  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-346a936b9fe643feba080928d73675a4.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/rescheduled-village-board-meeting-0 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-346a936b9fe643feba080928d73675a4.pdf 
 **Summarized:** 2026-06-10 20:27 UTC
 
 ---
@@ -45,7 +45,7 @@ Administrator Davel presented the current staff schedule and approach. Rather th
 Administrator Davel recommended four priorities: TID 1, changing Village culture, lift stations and long-term infrastructure, and the Capital Improvement Program. Trustee Myszka named parks, roads including Maple Ridge Road, business development, and TID 1 as his priorities. Trustee Coyle added that Village ordinances need to be reviewed and updated. No action was taken on this item.
 
 ## Public Comment
-Teresa Holewinski, 1814 Forsyth Road, Kronenwetter, submitted written comments that were read by Village Clerk Jennifer Poyer and attached to the minutes. Holewinski raised three concerns: (1) the deteriorating and potentially dangerous playground equipment at Buska Park, which she said has been on the improvement plan for years, as well as a broken Eagle Scout book library bench at the park; (2) an access path on the north side of Towering Pines park that she said was excavated and converted into uneven terrain by the Evergreen Bike Group, making it inaccessible to seniors, people with disabilities, and stroller users; and (3) a request for a published date for a CLIPP committee walkthrough of neighborhood parks to allow resident participation, as has been done in past years.
+Teresa Holewinski submitted written comments that were read by Village Clerk Jennifer Poyer and attached to the minutes. Holewinski raised three concerns: (1) the deteriorating and potentially dangerous playground equipment at Buska Park, which she said has been on the improvement plan for years, as well as a broken Eagle Scout book library bench at the park; (2) an access path on the north side of Towering Pines park that she said was excavated and converted into uneven terrain by the Evergreen Bike Group, making it inaccessible to seniors, people with disabilities, and stroller users; and (3) a request for a published date for a CLIPP committee walkthrough of neighborhood parks to allow resident participation, as has been done in past years.
 
 ## Action Items
 - Staff directed to work with the municipalities of Weston, Reid, Ringle, and Kronenwetter on the East Nick Avenue to Highway J road extension concept plan.

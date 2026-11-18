@@ -1,8 +1,8 @@
 # Police and Fire Commission Meeting - 2026-08-24
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-26  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f432750fb1d34fbcb533fdcb37765323.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-26 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-f432750fb1d34fbcb533fdcb37765323.pdf 
 **Summarized:** 2026-09-29 18:06 UTC
 
 ---
@@ -24,7 +24,7 @@ Following the closed session, Vice President Smith moved, and Commissioner Rule 
 Vice President Smith moved, and Commissioner Chet Rucinski seconded, to advance Andrew Phillips and Rebecca Kiey in the firefighter/first responder hiring process. The motion carried 5-0 by voice vote.
 
 ## Public Comment
-Kenneth Charneski, of 2604 16th Road, Kronenwetter, appeared before the commission to voice concern over whether members of the commission were appropriately nominated and appointed by the Village Board.
+Kenneth Charneski, appeared before the commission to voice concern over whether members of the commission were appropriately nominated and appointed by the Village Board.
 
 ## Action Items
 - Complaint dated June 30, 2026 dismissed — commission determined it did not rise to the level of termination, suspension, or demotion.

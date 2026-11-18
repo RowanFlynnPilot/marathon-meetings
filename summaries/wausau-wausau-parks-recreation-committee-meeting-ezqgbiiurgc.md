@@ -1,7 +1,7 @@
 # Wausau Parks & Recreation Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=ezQGBIiurGc  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=ezQGBIiurGc 
 **Summarized:** 2026-08-30 04:34 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Parks & Recreation Committee met on July 6, 2026, covering five main 
 
 ## Key Discussions
 ### Public Comment
-Darren Lebron of 623 Broken Arrow Road spoke during public comment, stating that he and his neighbors actively use the RiverLife wharfs for their boats and pontoons. He said his next-door neighbor had visited the docks five to ten times that summer alone, pushing back against any suggestion that the docks go unused.
+Darren Lebron spoke during public comment, stating that he and his neighbors actively use the RiverLife wharfs for their boats and pontoons. He said his next-door neighbor had visited the docks five to ten times that summer alone, pushing back against any suggestion that the docks go unused.
 
 ### Approval of June 1, 2026 Minutes
 Committee member Tom moved to approve the minutes as presented; Kristen seconded. The motion passed unanimously with no edits or corrections noted.
@@ -32,7 +32,7 @@ Jamie presented a draft five-year formal maintenance agreement with the Central 
 Alder Neil raised several RiverLife-area concerns: a reported tick infestation at Brock Meyer Park (staff investigated and found it was weather-related and short-lived, no action taken); status of Adirondack chairs (delivered but not yet assembled due to splash pad project demands); and heavy vegetation blocking river views along the northern RiverLife trail corridor, which he suggested clearing to improve economic development marketing appeal. John confirmed ash trees and invasive species in that corridor are on his list for winter work, and Jamie suggested coordinating with future developers and City Economic Development staff member Randy on a possible partnership. A question was also raised about adding a permanent dock structure to RiverLife in future development planning, with members noting DNR permitting hurdles but citing Fremont, Wisconsin as a comparable example.
 
 ## Public Comment
-One speaker offered public comment: Darren Lebron, 623 Broken Arrow Road, Wausau (northwest side). He stated that he personally uses the RiverLife wharfs for his boat and pontoon, and that his next-door neighbor had used them five to ten times that summer. He wanted the committee to know the docks are actively used, in response to suggestions they are underutilized.
+One speaker offered public comment: Darren Lebron (northwest side). He stated that he personally uses the RiverLife wharfs for his boat and pontoon, and that his next-door neighbor had used them five to ten times that summer. He wanted the committee to know the docks are actively used, in response to suggestions they are underutilized.
 
 ## Action Items
 - Jamie to enter staff comments in Evolve software recommending cash-in-lieu of park land dedication for the West Hill subdivision; application proceeds to Plan Commission and City Council

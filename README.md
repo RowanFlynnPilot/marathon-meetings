@@ -6,16 +6,20 @@
 
 ## What it does
 
-Scrapes recorded meetings from YouTube channels and agenda platforms across four Marathon County jurisdictions, generates AI-written summaries of each meeting (decisions, votes, public comment), and publishes everything as an embeddable React dashboard on the WPR site.
+Follows six Marathon County boards and councils: each agenda before the meeting, then a plain-language summary with the votes once the recording, audio or official minutes are available. Summaries are drafted by software from the public record, labeled as such, and linked to the record. Published free as an embeddable dashboard on the Wausau Pilot & Review site.
+
+Summaries name officials. A resident who speaks at public comment is named only when the record states the name clearly, never with a home address; students are not named. Every summary carries a "Request a correction" link, and fixes are logged in `corrections.json`.
 
 ## Coverage
 
-| Jurisdiction        | YouTube                        | Agenda Platform                              |
-| ------------------- | ------------------------------ | -------------------------------------------- |
-| Marathon County     | `@marathoncountyboardmeetings` | marathoncounty.gov                           |
-| City of Wausau      | `@CityofWausauMeetings`        | CivicClerk (wausauwi.portal.civicclerk.com)  |
-| Village of Weston   | —                              | AgendaCenter (westonwi.gov/agendacenter)     |
-| Wausau School Board | —                              | BoardBook (meetings.boardbook.org, org 1360) |
+| Board or council        | Recordings                          | Agendas and minutes                              |
+| ----------------------- | ----------------------------------- | ------------------------------------------------ |
+| Marathon County         | YouTube `@marathoncountyboardmeetings` | marathoncounty.gov                            |
+| City of Wausau          | YouTube `@CityofWausauMeetings`     | CivicClerk (wausauwi.portal.civicclerk.com)      |
+| Village of Weston       | YouTube `@WestonWI`                 | AgendaCenter (westonwi.gov/agendacenter)         |
+| Wausau School Board     | YouTube (district channel)          | BoardBook (meetings.boardbook.org, org 1360)     |
+| Village of Kronenwetter | SoundCloud audio                    | Municode Meetings (kronenwetter-wi.municodemeetings.com) |
+| D.C. Everest School Board | YouTube `@dceverestschoolboard2202` | BoardBook (meetings.boardbook.org, org 1315)   |
 
 ## Architecture
 

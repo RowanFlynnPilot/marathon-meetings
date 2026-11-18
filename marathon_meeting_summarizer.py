@@ -858,6 +858,19 @@ def roster_whisper_hint(source_key: str) -> str:
 
 # -- Summarization -------------------------------------------------------------
 
+# How summaries treat private residents. Promised to readers and to the Herb
+# Kohl grant (in force from the grant's start, Jan 2027): officials are named;
+# residents only when the record is clear, never with a home address; students
+# never. Shared by the transcript and minutes prompts; scrub_summaries.py
+# applies the address part to anything already published.
+RESIDENT_PRIVACY_RULES = """Privacy rules for private residents (these override "be specific"):
+- Elected officials, government staff, and people appearing in a professional role (consultants, applicants' representatives, presenters) are named normally.
+- A resident who speaks at public comment or is mentioned as a private individual is named ONLY when the source states the name clearly. If the name or its spelling is uncertain in any way, write "a resident" (or "a second resident") and never guess, never write [inaudible] next to a name.
+- NEVER give a private person's home address, house number, street of residence, or say where they live ("of 123 Elm St", "who lives on Elm Street"). Say "a resident" or "a nearby resident" instead. A property address that is itself the subject of an agenda item (a rezoning, permit, or sale at that address) may be given.
+- NEVER name a student or any minor; write "a student".
+- NEVER connect a named private person to a health or medical condition; describe the point without the name."""
+
+
 def summarize_meeting(transcript, title, url, source_key):
     client  = anthropic.Anthropic()
     ch      = CHANNELS[source_key]
@@ -887,10 +900,10 @@ Produce a JSON object with this exact structure and nothing else - no markdown, 
   "discussions": [
     {{
       "item": "agenda item title",
-      "body": "2-4 sentences describing what ACTUALLY occurred: who spoke, what positions they took, how votes went, what was approved or rejected, any notable debate or public input. Be specific - name names, cite vote counts, quote key statements if clear in the transcript."
+      "body": "2-4 sentences describing what ACTUALLY occurred: who spoke, what positions they took, how votes went, what was approved or rejected, any notable debate or public input. Be specific - name the officials involved, cite vote counts, quote key statements if clear in the transcript."
     }}
   ],
-  "publicComment": "Describe actual public comment offered - who spoke, what they said, how many speakers. Or 'No public comment was offered.'",
+  "publicComment": "Describe actual public comment offered - how many speakers and what each said, following the privacy rules below. Or 'No public comment was offered.'",
   "actionItems": ["specific decisions made or next steps directed by the committee"],
   "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places discussed (e.g. Highway J Extension, Riverlife District)"],
   "votes": [
@@ -904,8 +917,9 @@ Rules:
 - discussions: focus on WHAT WAS DECIDED or DEBATED, not just what the topic was.
 - Include vote results where mentioned (e.g. "Approved 5-2", "Passed unanimously").
 - votes: ONLY votes actually taken — empty array if none. Never invent movers, seconders, or tallies; use null for anything not stated in the transcript.
-- Name specific people who spoke or voted when identifiable from transcript.
-- Note unclear audio as [inaudible] rather than guessing.
+- Name officials who spoke or voted when identifiable from transcript.
+- Note unclear audio as [inaudible] rather than guessing at what was said.
+- {RESIDENT_PRIVACY_RULES}
 - Return ONLY the JSON object.
 {announced}
 --- TRANSCRIPT ---
@@ -1042,7 +1056,7 @@ def save_summary(title, url, source_key, summary, doc_url=None, civic_data=None,
 def fetch_agenda_text_wausau(doc_url: str) -> str | None:
     """
     For Wausau CivicClerk videos, fetch the agenda text via the CivicClerk
-    published files API (blob URL method - no PDF parsing needed).
+    published files API (GetMeetingFileStream plain text - no PDF parsing needed).
     Returns plain text of the agenda, or None on failure.
     """
     import requests as _req
@@ -1074,20 +1088,14 @@ def fetch_agenda_text_wausau(doc_url: str) -> str | None:
         file_id = agenda_file.get("fileId")
         if not file_id:
             return None
-        # Step 3: get blob URL for plain text
+        # Step 3: fetch the agenda as plain text. GetMeetingFile (blob URL)
+        # returns 404 as of Oct 2026; GetMeetingFileStream serves the text directly.
         r3 = _req.get(
-            f"{base}/Meetings/GetMeetingFile(fileId={file_id},plainText=true)",
-            headers=hdrs, timeout=10
+            f"{base}/Meetings/GetMeetingFileStream(fileId={file_id},plainText=true)",
+            headers=hdrs, timeout=15
         )
-        if r3.status_code != 200:
-            return None
-        blob_url = r3.json().get("blobUri", "")
-        if not blob_url:
-            return None
-        # Step 4: fetch the actual text
-        r4 = _req.get(blob_url, timeout=15)
-        if r4.status_code == 200 and len(r4.text) > 100:
-            return r4.text.strip()
+        if r3.status_code == 200 and len(r3.text) > 100:
+            return r3.text.strip()
     except Exception as e:
         print(f"       Wausau agenda fetch failed: {e}")
     return None
@@ -1333,6 +1341,14 @@ Rules:
 
 # -- Core processing -----------------------------------------------------------
 
+def _has_votes(items: list) -> bool:
+    """True when CivicClerk has recorded a vote on any agenda item or sub-item.
+    Votes are posted with the minutes, often after a meeting is processed;
+    until then the vote prompt can only say, item by item, that none was
+    recorded, so the agenda prompt summarizes it instead."""
+    return any(i["votes"] or _has_votes(i["children"]) for i in items)
+
+
 def process_video(video):
     vid_id, title, url, source_key, doc_url = (
         video["id"], video["title"], video["url"],
@@ -1376,14 +1392,15 @@ def process_video(video):
         print("    Fetching CivicClerk vote data...")
         civic_data = fetch_civicclerk_data(doc_url)
         if civic_data:
-            print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items with votes")
+            print(f"  [ok]  Got {len(civic_data.get('items', []))} agenda items, "
+                  f"{'votes recorded' if _has_votes(civic_data.get('items', [])) else 'no votes recorded yet'}")
 
     # -- Agenda fallback -------------------------------------------------------
     if summary is None:
         agenda_text = fetch_agenda_text(source_key, doc_url, title, description)
         if agenda_text:
-            # If we have CivicClerk vote data, enrich the agenda summary with it
-            if civic_data and civic_data.get("items"):
+            # If CivicClerk has recorded votes, enrich the agenda summary with them
+            if civic_data and _has_votes(civic_data.get("items", [])):
                 print("  [claude]  Summarizing from agenda + CivicClerk vote data...")
                 summary = summarize_from_agenda_with_votes(
                     agenda_text, title, source_key, url, civic_data)
@@ -1957,9 +1974,9 @@ Produce a JSON object with this exact structure - no markdown, no preamble, just
     {{"time": "N/A", "item": "agenda item description"}}
   ],
   "discussions": [
-    {{"item": "agenda item title", "body": "2-4 sentences reporting the ACTUAL OUTCOME: motion text, who moved/seconded, the vote result (e.g. 'carried 6-0', 'failed 3-4'), and any recorded discussion or public input. Name names."}}
+    {{"item": "agenda item title", "body": "2-4 sentences reporting the ACTUAL OUTCOME: motion text, who moved/seconded, the vote result (e.g. 'carried 6-0', 'failed 3-4'), and any recorded discussion or public input. Name the officials involved."}}
   ],
-  "publicComment": "Describe public comment as recorded in the minutes — who spoke and on what. Or 'No public comment was recorded.'",
+  "publicComment": "Describe public comment as recorded in the minutes — how many spoke and on what, following the privacy rules below. Or 'No public comment was recorded.'",
   "actionItems": ["specific decisions made and directed next steps from the minutes"],
   "topics": ["3-5 short Title Case topic tags: recurring civic themes (Budget, Roads, Public Safety, Zoning, Staffing, Parks, Utilities, Development) plus specific named projects or places acted on"],
   "votes": [
@@ -1973,6 +1990,7 @@ Rules:
 - votes: ONLY votes actually recorded — empty array if none. Use null for movers/seconders/tallies the minutes don't state.
 - Skip purely procedural items (call to order, roll call, adjournment) in discussions.
 - NEVER use placeholder text like [AGENDA_ITEM_NAME], [TBD], [INSERT], etc.
+- {RESIDENT_PRIVACY_RULES}
 - Return ONLY the JSON object.
 
 --- MINUTES ---

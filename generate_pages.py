@@ -48,12 +48,48 @@ SOURCE_META = {
 E = html.escape
 
 
+CORRECTIONS_EMAIL = "editor@wausaupilotandreview.com"
+
+
+def _correction_mailto(meeting_id: str, what: str) -> str:
+    from urllib.parse import quote
+    subject = f"Correction request: {what}"
+    body = (f"Page: {BASE_URL}/meetings/{meeting_id}/\n\n"
+            "What's wrong, and what the record shows instead:\n\n")
+    return f"mailto:{CORRECTIONS_EMAIL}?subject={quote(subject)}&body={quote(body)}"
+
+
+_OLD_FOOTER = re.compile(
+    r'<a href="[^"]*/#(?:m/)?(?P<id>[\w-]+)">Permalink in the tracker</a></footer>')
+
+
+def refresh_archive_footers() -> int:
+    """Archive pages are never re-rendered, so bring their footers up to date
+    in place: the tracker permalink in its current form (#m/<id>) and the
+    "Request a correction" link every page carries."""
+    n = 0
+    for page in OUT_DIR.glob("*/index.html"):
+        text = page.read_text(encoding="utf-8")
+        if "Request a correction" in text:
+            continue
+        mid = page.parent.name
+        new = _OLD_FOOTER.sub(
+            lambda m: (f'<a href="{BASE_URL}/#m/{mid}">Permalink in the tracker</a> · '
+                       f'<a href="{E(_correction_mailto(mid, "meeting " + mid))}">Request a correction</a></footer>'),
+            text)
+        if new != text:
+            page.write_text(new, encoding="utf-8")
+            n += 1
+    return n
+
+
 def render_page(m: dict) -> str:
     label, accent = SOURCE_META.get(m["source"], (m["source"], "#3e847a"))
     title = f"{m['title']} — {label} — {m['date']}"
     desc = (m.get("overview") or "")[:300]
     page_url = f"{BASE_URL}/meetings/{m['id']}/"
-    app_url = f"{BASE_URL}/#{m['id']}"
+    app_url = f"{BASE_URL}/#m/{m['id']}"
+    correction_url = _correction_mailto(m["id"], f"{m['title']} ({m['date']})")
 
     topics = "".join(
         f'<span class="tag">{E(t)}</span>' for t in (m.get("topics") or []))
@@ -141,7 +177,7 @@ def render_page(m: dict) -> str:
   <h2>Discussion</h2>
   {disc or '<p><em>No detailed discussion summary available.</em></p>'}
   {actions_html}
-  <footer>Published by <a href="https://wausaupilotandreview.com">Wausau Pilot &amp; Review</a> · <a href="{app_url}">Permalink in the tracker</a></footer>
+  <footer>Published by <a href="https://wausaupilotandreview.com">Wausau Pilot &amp; Review</a> · <a href="{app_url}">Permalink in the tracker</a> · <a href="{E(correction_url)}">Request a correction</a></footer>
 </div>
 </body>
 </html>
@@ -168,6 +204,10 @@ def main():
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(render_page(m), encoding="utf-8")
         written += 1
+
+    refreshed = refresh_archive_footers()
+    if refreshed:
+        print(f"[pages] updated the footer of {refreshed} archive page(s)")
 
     # Sitemap over EVERYTHING on disk (old pages persist as the archive).
     all_pages = sorted(p.parent.name for p in OUT_DIR.glob("*/index.html"))

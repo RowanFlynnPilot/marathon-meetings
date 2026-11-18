@@ -1,7 +1,7 @@
 # Wausau Public Health & Safety Committee Meeting Pt.1 - 6/15/26
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=Sqkikt4swxo  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=Sqkikt4swxo 
 **Summarized:** 2026-06-17 22:00 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Public Health & Safety Committee held its June 15, 2026 meeting cover
 
 ## Key Discussions
 ### Public Comment
-One speaker, Deborah Ryan of 702 Elm Street, identified as a former alder and Westies neighborhood lead, addressed the committee. She raised concerns about gaps in homeless services on Sundays, the pending expiration of the city's ARPA-funded homeless coordinator position at year-end, the need for community surveys on services, and a specific case of a disabled individual receiving only $130/month and no housing assistance since November 2021. She also advocated for propane-powered municipal vehicles over electric given the climate.
+One speaker, Deborah Ryan, identified as a former alder and Westies neighborhood lead, addressed the committee. She raised concerns about gaps in homeless services on Sundays, the pending expiration of the city's ARPA-funded homeless coordinator position at year-end, the need for community surveys on services, and a specific case of a disabled individual receiving only $130/month and no housing assistance since November 2021. She also advocated for propane-powered municipal vehicles over electric given the climate.
 
 ### Bridge Street Mission Shelter Operations Report
 Craig Vincent and Director of Homeless Services Jim Torstensson reported that since opening April 20, the shelter served 119 unique guests (32% women), providing over 3,000 nights of shelter, with only five guests indefinitely dismissed for threatening behaviors. Community navigator staff helped three guests move to permanent housing and nine into recovery programming. Alder True Blood asked about denied service; Vincent confirmed the men's side had reached capacity and some were turned away, with overflow plans for cold weather. The women's recovery program also opened the prior week.
@@ -53,7 +53,7 @@ Captain Pauls reported all tavern businesses passed checks in May, with a couple
 Tenant Viviani de Gomez testified under oath that persistent window leaks have plagued her three-bedroom apartment since move-in in July 2023, requiring her to move furniture before every rain event, with water intrusion reaching outlets and causing mold on the ceiling. She pays $945/month and is current on rent. Property manager Joe Seagull of Paramark Real Estate testified multiple contractors had been engaged (Rip Mountain Glass, Ace Handyman, Quality Roofing, AA Seamless, Prestige Roofing), claimed repairs were attempted, and said he offered the tenant a no-transfer-fee move to an identical unit twice, which the tenant declined. City Inspector Adam Molzan testified he first inspected July 24, 2025 at the tenant's request, issued a municipal citation on August 13 for failure to properly repair leaking windows, and confirmed during a visit on June 10, 2026 water was still actively dripping inside the apartment with apparent mold in two ceiling locations. Molzan noted he received no repair documentation from the landlord. The transcript ends before the committee voted; the chair indicated the committee would adjourn to closed session to deliberate.
 
 ## Public Comment
-One speaker offered public comment: Deborah Ryan, 702 Elm Street, former alder and Westies neighborhood lead. She raised concerns about Sunday gaps in homeless shelter services (Bridge Street Mission is closed Sundays with no alternatives), the upcoming expiration of the ARPA-funded homeless coordinator position at year-end, the need for client surveys similar to those used at Catholic Charities, a specific case of a homeless man with disability income of $130/month receiving no housing assistance since November 2021, and advocated for propane-powered municipal fleet vehicles over electric given Wisconsin's climate.
+One speaker offered public comment: Deborah Ryan former alder and Westies neighborhood lead. She raised concerns about Sunday gaps in homeless shelter services (Bridge Street Mission is closed Sundays with no alternatives), the upcoming expiration of the ARPA-funded homeless coordinator position at year-end, the need for client surveys similar to those used at Catholic Charities, a specific case of a homeless man with disability income of $130/month receiving no housing assistance since November 2021, and advocated for propane-powered municipal fleet vehicles over electric given Wisconsin's climate.
 
 ## Action Items
 - Regular and special Public Health & Safety Committee minutes approved unanimously

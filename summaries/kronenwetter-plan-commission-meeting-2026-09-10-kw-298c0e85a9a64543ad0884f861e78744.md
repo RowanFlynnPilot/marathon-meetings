@@ -1,8 +1,8 @@
 # Plan Commission Meeting - 2026-09-10
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-30  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-298c0e85a9a64543ad0884f861e78744.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-30 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-298c0e85a9a64543ad0884f861e78744.pdf 
 **Summarized:** 2026-09-25 09:38 UTC
 
 ---
@@ -30,7 +30,7 @@ Bernie Kramer was the only public speaker, asking for more information on how ze
 Commissioner Bruce moved to approve two sets of minutes as presented; Dick seconded. No discussion. Motion carried 6-0.
 
 ## Public Comment
-Seven speakers addressed the commission. Joel Straub (860 West Nelson Road, Kronenwetter), Marathon County Supervisor District 15, raised coal dust health and safety concerns and urged denial pending air quality data. An unidentified speaker referred to as Mr. Baker requested road jurisdictional transfer and four-lane widening of Business 51 as permit conditions. Kent Sharnosky (2604 16th Road) argued the application failed all five conditional use criteria and raised a procedural zoning ordinance deficiency. Bernie Kramer (2150 East State Highway 153, Peplin) criticized the absence of village administrative leadership and echoed road upgrade concerns. Attorney Matt Edie spoke for St. Therese Gate of Heaven Cemetery regarding notice deficiencies and requesting noise/buffer conditions. Straub returned a second time to reiterate health concerns and call for denial. Sharnosky made a brief second appearance to note the estimated $240,000 annual tax revenue loss from a $60 million facility.
+Seven speakers addressed the commission. Joel Straub, Marathon County Supervisor District 15, raised coal dust health and safety concerns and urged denial pending air quality data. An unidentified speaker referred to as Mr. Baker requested road jurisdictional transfer and four-lane widening of Business 51 as permit conditions. Kent Sharnosky argued the application failed all five conditional use criteria and raised a procedural zoning ordinance deficiency. Bernie Kramer (Peplin) criticized the absence of village administrative leadership and echoed road upgrade concerns. Attorney Matt Edie spoke for St. Therese Gate of Heaven Cemetery regarding notice deficiencies and requesting noise/buffer conditions. Straub returned a second time to reiterate health concerns and call for denial. Sharnosky made a brief second appearance to note the estimated $240,000 annual tax revenue loss from a $60 million facility.
 
 ## Action Items
 - Commission to reconvene likely at September 21 regular meeting to act on Marathon County Highway Facility CUP after outstanding conditions are resolved

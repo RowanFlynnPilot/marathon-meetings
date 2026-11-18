@@ -1,7 +1,7 @@
 # Board of Trustees
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=_6aNdLDBS4w  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=_6aNdLDBS4w 
 **Summarized:** 2026-08-30 03:28 UTC
 
 ---
@@ -35,7 +35,7 @@ The ordinance establishing a 30-day storage and disposal procedure for property 
 The amendment to Section 10.123, which shifts animal fancier hearings from the Planning Commission to the Eclipse body, was approved unanimously after brief clarification that this item was about the procedural change, not the specific Lenzo dog license case addressed in public comment.
 
 ## Public Comment
-Six residents spoke. Jim Pensol (52nd Street, Weston) praised village transparency initiatives and urged continued civic engagement, citing the successful reversal of the Schofield Avenue renaming as an example of public influence. Kyra Lenzo (5512 N. Birch Lane) spoke in defense of her four-husky household regarding the animal fancier licensing process, detailing her care practices and offering to build additional fenced space. A neighbor at 604 North Lane (identified as a Borcart) complained about dog waste runoff onto their adjoining property and cited specific ordinance violations. Scott Borcart (21732 County Road H) representing farmers market vendors urged the board to keep the market at Kennedy Park permanently, noting vendors are down 40% since the move. Tony Hase (County Road Q, Ringle), owner of Danny's Girls, also supported keeping the market at Kennedy Park and reported a marked improvement in business since the Alderson roundabout opened; he also criticized the timing and framing of the market location survey. Steve Mel spoke on the rezoning item, arguing the planning commission denial was improperly influenced by planner Jennifer Higgins's personal preference and citing Wisconsin Act 67 as limiting grounds for CUP denial.
+Six residents spoke. Jim Pensol (52nd Street, Weston) praised village transparency initiatives and urged continued civic engagement, citing the successful reversal of the Schofield Avenue renaming as an example of public influence. Kyra Lenzo spoke in defense of her four-husky household regarding the animal fancier licensing process, detailing her care practices and offering to build additional fenced space. A neighbor (identified as a Borcart) complained about dog waste runoff onto their adjoining property and cited specific ordinance violations. Scott Borcart (H) representing farmers market vendors urged the board to keep the market at Kennedy Park permanently, noting vendors are down 40% since the move. Tony Hase (County Road Q, Ringle), owner of Danny's Girls, also supported keeping the market at Kennedy Park and reported a marked improvement in business since the Alderson roundabout opened; he also criticized the timing and framing of the market location survey. Steve Mel spoke on the rezoning item, arguing the planning commission denial was improperly influenced by planner Jennifer Higgins's personal preference and citing Wisconsin Act 67 as limiting grounds for CUP denial.
 
 ## Action Items
 - Farmers market to continue at Kennedy Park for 2027 and beyond pending alternative; staff to implement parking enforcement improvements including coned intersections and increased police patrols on market days

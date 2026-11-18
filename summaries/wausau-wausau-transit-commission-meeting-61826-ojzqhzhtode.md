@@ -1,7 +1,7 @@
 # Wausau Transit Commission Meeting - 6/18/26
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=ojZQHZHTodE  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=ojZQHZHTodE 
 **Summarized:** 2026-06-28 17:07 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Transit Commission met on June 18, 2026, and approved two key items: 
 
 ## Key Discussions
 ### Public Comment - Kathy Flurry appointment dispute
-Kathy Flurry, 915 North 2nd Avenue, addressed the commission disputing her removal from the Transit Commission by Mayor Doug Diny. She stated she signed an oath of office on October 22, 2025 with a term running through April 30, 2028, and was not informed of her removal until June 4, 2026, after a new community member (Christopher Weems) had already been appointed on June 2, 2026. She requested a written explanation and a copy of term limit policies, and asked for information on how to appeal the mayor's decision. A second speaker, Deborah Ryan of 702 Elm Street, corroborated parts of Flurry's account and alleged the city clerk had overstepped his boundaries in the appointment process. The chair thanked Flurry for her years of service but did not indicate any commission action would be taken.
+Kathy Flurry addressed the commission disputing her removal from the Transit Commission by Mayor Doug Diny. She stated she signed an oath of office on October 22, 2025 with a term running through April 30, 2028, and was not informed of her removal until June 4, 2026, after a new community member (Christopher Weems) had already been appointed on June 2, 2026. She requested a written explanation and a copy of term limit policies, and asked for information on how to appeal the mayor's decision. A second speaker, Deborah Ryan, corroborated parts of Flurry's account and alleged the city clerk had overstepped his boundaries in the appointment process. The chair thanked Flurry for her years of service but did not indicate any commission action would be taken.
 
 ### Consideration of minutes
 A motion to accept the minutes of the preceding meetings was made by Weems and seconded by Watson. The motion passed unanimously with no discussion.
@@ -29,7 +29,7 @@ The director reported that CAD/AVL system installation on current fleet buses wi
 Commission members proposed several future agenda items including a paratransit service overview for new members (requested by Alder Lukens), a presentation on e-bike compatibility with buses (the director confirmed current bike racks cannot support e-bike weight and there are battery safety concerns), marketing and outreach ideas including a bus presence at the August police and fire cookout (suggested by Mr. Wayne/Weems), and a potential resident fare discount tied to the new card system. The chair noted a council member had expressed interest in building a 'real system' in Wausau.
 
 ## Public Comment
-Two speakers addressed the commission. Kathy Flurry (915 North 2nd Avenue) spoke about her disputed removal from the Transit Commission by Mayor Doug Diny, stating she had signed an oath of office for a term through 2028 but was told she could no longer serve after a new member was appointed. She requested a written explanation and appeal process information. Deborah Ryan (702 Elm Street), a 15-year neighborhood advocate, corroborated Flurry's account and alleged the city clerk acted inappropriately and unprofessionally in the appointment process, though she said she did not blame Flurry.
+Two speakers addressed the commission. Kathy Flurry spoke about her disputed removal from the Transit Commission by Mayor Doug Diny, stating she had signed an oath of office for a term through 2028 but was told she could no longer serve after a new member was appointed. She requested a written explanation and appeal process information. Deborah Ryan, a 15-year neighborhood advocate, corroborated Flurry's account and alleged the city clerk acted inappropriately and unprofessionally in the appointment process, though she said she did not blame Flurry.
 
 ## Action Items
 - WisGo electronic fare contract referred to Finance Committee for review and consideration

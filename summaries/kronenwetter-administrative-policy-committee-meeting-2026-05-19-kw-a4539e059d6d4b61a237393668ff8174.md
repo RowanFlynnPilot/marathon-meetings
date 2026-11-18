@@ -1,8 +1,8 @@
 # Administrative Policy Committee Meeting - 2026-05-19
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-29 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-a4539e059d6d4b61a237393668ff8174.pdf 
 **Summarized:** 2026-06-10 21:41 UTC
 
 ---
@@ -36,7 +36,7 @@ Finance Director Jacobs presented a draft RFP for a full exterior property reval
 Trustee Guy Ferdell presented a discussion memo proposing a coordinated development planning process involving the APC, utilities committee, planning commission, RDA, and village board to prioritize development projects. Ferdell suggested the village should target higher-value projects above $700,000-$1 million and consider covering developer soft costs as incentives for high-impact projects. Davil noted positive momentum including a developer presenting a concept plan to the planning committee the previous night that was received favorably rather than rejected outright, which he described as a significant change in tone. The committee agreed the village board should first set priorities at the next board meeting, after which committees would coordinate. No formal vote was taken; item is a discussion and next steps were assigned.
 
 ## Public Comment
-One speaker offered public comment: Bernie Kramer of 2150 East State Highway 153, Brokaw/Kronenwetter area. Kramer raised concerns about two simultaneous audits suggesting the village is behind, the lack of an economic development director, the predominantly residential nature of growth (85% residential), the absence of major commercial development, and fiscal caution regarding spending. He referenced Weston's failed ambulance referendum and the closure of Rosholt's water park as cautionary examples. Vice Chair Soulheim noted Kramer exceeded the three-minute limit but allowed him to conclude under the presiding officer's discretion.
+One speaker offered public comment: Bernie Kramer/Kronenwetter area. Kramer raised concerns about two simultaneous audits suggesting the village is behind, the lack of an economic development director, the predominantly residential nature of growth (85% residential), the absence of major commercial development, and fiscal caution regarding spending. He referenced Weston's failed ambulance referendum and the closure of Rosholt's water park as cautionary examples. Vice Chair Soulheim noted Kramer exceeded the three-minute limit but allowed him to conclude under the presiding officer's discretion.
 
 ## Action Items
 - Finance Director Jacobs to review draft 2024 audit report and distribute to APC and village board by early June, with formal village board presentation on June 8 with auditors present

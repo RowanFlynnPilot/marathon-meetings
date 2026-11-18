@@ -1,8 +1,8 @@
 # Administrative Policy Committee Meeting - 2026-09-15
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-32 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2998b824c4a8402485d7752be7e3630a.pdf 
 **Summarized:** 2026-09-25 03:12 UTC
 
 ---
@@ -12,7 +12,7 @@ The Kronenwetter Administrative Policy Committee met on September 15, 2026, focu
 
 ## Key Discussions
 ### Public Comment - Traffic on Old Highway 51 and Long-Range Planning
-Bernie Kramer of 2150 East State Highway 153 addressed the committee, raising concerns about traffic management on Old Highway 51, arguing it is Kronenwetter's responsibility to coordinate with the county on traffic improvements rather than remaining passive. He also expressed skepticism about 10-year planning given how frequently elected boards change. An unidentified trustee noted she had spoken with Kramer earlier and agreed his suggestion about a potential turning lane for heavy equipment was worth considering.
+Bernie Kramer addressed the committee, raising concerns about traffic management on Old Highway 51, arguing it is Kronenwetter's responsibility to coordinate with the county on traffic improvements rather than remaining passive. He also expressed skepticism about 10-year planning given how frequently elected boards change. An unidentified trustee noted she had spoken with Kramer earlier and agreed his suggestion about a potential turning lane for heavy equipment was worth considering.
 
 ### Finance Director Report - Staffing and Operational Concerns
 Finance Director John Jacobs provided an extensive update covering the financial audit (targeting mid-October), TID 3 closure audit (joint review board planned for November), property reassessment by Associated Appraisal (fieldwork underway on 3,000 parcels with buildings and 4,400 land parcels), and a potential future RFP for auditing services. Village Administrator Jim [last name inaudible] and Jacobs both emphasized the village is severely understaffed, with Jacobs noting there were days he was the only person in the office. Discussion centered on the need for a deputy finance director and the strain on interim clerk Kim, who is also managing election duties.
@@ -30,7 +30,7 @@ Jacobs detailed a proposed restructuring of $863,200 in unspent TID 2 borrowing 
 The administrator noted that Village President Dan Joling had referenced a potential ordinance change at the prior village board meeting to allow a member of the Police and Fire Commission to simultaneously serve on another committee — currently prohibited by ordinance. The administrator said the matter will go to the village attorney before coming to APC. Trustee Mary Solheim raised the topic of revising public comment procedures at APC, and the administrator indicated a recommendation will be brought forward, noting that allowing emailed public comment on non-agenda items is unusual statewide and has created problems.
 
 ## Public Comment
-One speaker appeared in person: Bernie Kramer, 2150 East State Highway 153, Kronenwetter. Kramer expressed skepticism about long-range 10-year planning given board turnover, and criticized village inaction on Old Highway 51 traffic issues, arguing Kronenwetter bears responsibility for working with the county to address traffic concerns — particularly as heavy commercial development increases. He urged the village to take the first step in coordinating with Marathon County rather than treating Old 51 as someone else's problem.
+One speaker appeared in person: Bernie Kramer. Kramer expressed skepticism about long-range 10-year planning given board turnover, and criticized village inaction on Old Highway 51 traffic issues, arguing Kronenwetter bears responsibility for working with the county to address traffic concerns — particularly as heavy commercial development increases. He urged the village to take the first step in coordinating with Marathon County rather than treating Old 51 as someone else's problem.
 
 ## Action Items
 - Finance director to finalize August 2026 budget status report and distribute before next meeting

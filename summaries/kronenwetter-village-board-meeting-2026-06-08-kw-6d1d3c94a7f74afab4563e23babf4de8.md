@@ -1,8 +1,8 @@
 # Village Board Meeting - 2026-06-08
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-59 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-6d1d3c94a7f74afab4563e23babf4de8.pdf 
 **Summarized:** 2026-06-10 21:41 UTC
 
 ---
@@ -36,7 +36,7 @@ Public Works Director Holman presented six design-build RFP responses for a six-
 Trustee Mishka proposed creating a parks committee after three residents expressed interest at a May bike-and-walk health event survey. Discussion centered on whether to create a subcommittee of CLIP or a separate special committee; Administrator Davell noted the staffing burden of additional meeting minutes. After clarification that village ordinances use the term 'special committee' rather than 'ad hoc,' Trustee Coil moved and Trustee Stoel seconded creation of a special park committee. The motion appeared to pass though the transcript ends mid-discussion on committee size; no final roll call vote was captured.
 
 ## Public Comment
-Three residents spoke during public comment. Patty Tulkowski (2153 Peach Brook, Plover) expressed strong support for Garrett Lezmi for the vacant trustee position, citing his professional engineering background and participation on the CLIP committee. Tim Stercora (2023 Greenbud Road) urged the board to move forward on the already-approved Leah Road trails project, arguing it has been delayed for four years and that water utility safety objections are unfounded since people have walked past those buildings for years with no issues. Bernie Kramer (Oil 150 East State Highway 153, Bethlehem) criticized the village's audit findings, noting deficiencies have grown from three to six over time and questioning whether the village will ever achieve accountability and regain citizen trust.
+Three residents spoke during public comment. Patty Tulkowski expressed strong support for Garrett Lezmi for the vacant trustee position, citing his professional engineering background and participation on the CLIP committee. Tim Stercora urged the board to move forward on the already-approved Leah Road trails project, arguing it has been delayed for four years and that water utility safety objections are unfounded since people have walked past those buildings for years with no issues. Bernie Kramer (Oil, Bethlehem) criticized the village's audit findings, noting deficiencies have grown from three to six over time and questioning whether the village will ever achieve accountability and regain citizen trust.
 
 ## Action Items
 - Mary Solheim appointed as Village Board Trustee (approved 5-1)

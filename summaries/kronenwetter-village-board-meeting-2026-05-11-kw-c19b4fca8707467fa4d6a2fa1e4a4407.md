@@ -1,8 +1,8 @@
 # Village Board Meeting - 2026-05-11
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-58  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c19b4fca8707467fa4d6a2fa1e4a4407.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-58 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c19b4fca8707467fa4d6a2fa1e4a4407.pdf 
 **Summarized:** 2026-06-10 20:28 UTC
 
 ---
@@ -33,7 +33,7 @@ Trustee Lesniak moved, Trustee Myszka seconded, to convene into closed session p
 Following the closed session on staff evaluations and compensation, Trustee Myszka moved, Trustee Stowell seconded, to accept the board's recommendations and direct the administrator to act on them. The motion carried by roll call vote 5-0-1, with Trustee Coyle abstaining.
 
 ## Public Comment
-Ken Charneski, 2604 16th Road, Kronenwetter, submitted a written comment that was attached to the meeting minutes; his remarks were a lengthy, critical statement opposing the Quit Claim Deed for the Marathon County Highway Shop Facility, accusing Administrator Davel and President Joling of giving away village property without adequate consideration for taxpayer interests, alleging procedural violations in bypassing the APC, and questioning the value of the arrangement given the facility's estimated worth of $50-63 million. Bernie Kramer, 2150 E. State Hwy. 153, Peplin, also addressed agenda item 8I, stating the board should consider David Baker's prior public comment from the CLIPP Committee meeting and arguing that the land should not be given away for a project that has not yet received required approvals.
+Ken Charneski submitted a written comment that was attached to the meeting minutes; his remarks were a lengthy, critical statement opposing the Quit Claim Deed for the Marathon County Highway Shop Facility, accusing Administrator Davel and President Joling of giving away village property without adequate consideration for taxpayer interests, alleging procedural violations in bypassing the APC, and questioning the value of the arrangement given the facility's estimated worth of $50-63 million. Bernie Kramer Peplin, also addressed agenda item 8I, stating the board should consider David Baker's prior public comment from the CLIPP Committee meeting and arguing that the land should not be given away for a project that has not yet received required approvals.
 
 ## Action Items
 - Quit Claim Deed approved transferring village property interests to Marathon County for the proposed Highway Shop Facility.

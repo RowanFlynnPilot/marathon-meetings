@@ -1,8 +1,8 @@
 # Village Board Meeting - 2026-09-28
 
-**Organization:** Village of Kronenwetter  
-**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69  
-**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf  
+**Organization:** Village of Kronenwetter 
+**Source:** https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-69 
+**Documents:** https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e9a1b3cffe95400f8dedac37aa676107.pdf 
 **Summarized:** 2026-10-02 05:37 UTC
 
 ---
@@ -36,7 +36,7 @@ Jacobs reported a $56,000 increase in state transportation aid for the 2027 budg
 Jacobs presented the second review of the 10-year CIP, emphasizing only 43% of the $30 million plan relies on general obligation borrowing. For 2027, two borrowing projects are proposed: Maple Ridge Road (total ~$2.9M, with $1.2M already on hand reducing new borrowing to ~$1.7M) and Bushna Park improvements (~$25,000 from the park fund plus borrowed remainder). Board discussion touched on building security upgrades including key fob access (~$100,000 estimate) and cameras, audio-visual improvements to the meeting room, and the need for a long-range plan for municipal center maintenance. Jacobs noted the plan is a fluid document to be reviewed annually.
 
 ## Public Comment
-Three residents spoke. Guy Friedel (2240 Ruby Drive) argued the village should pursue municipal sewer and water for Green Tree Trails to allow smaller lots and double the tax base, recommending referral to utilities and APC committees and use of special assessments. Marie Kramer (2150 E. State Highway 153) raised groundwater concerns about private wells and septic systems adjacent to existing sewer service, questioning why the village would not connect to existing infrastructure. Joanne Mansel (2954 Pine Road) asked clarifying questions about minimum lot sizes and frontage requirements, noting regulations appeared to have changed since she built 27 years ago, and stated she preferred one-acre lots and opposed higher density, saying 'I think 60 homes is plenty.'
+Three residents spoke. Guy Friedel argued the village should pursue municipal sewer and water for Green Tree Trails to allow smaller lots and double the tax base, recommending referral to utilities and APC committees and use of special assessments. Marie Kramer raised groundwater concerns about private wells and septic systems adjacent to existing sewer service, questioning why the village would not connect to existing infrastructure. Joanne Mansel asked clarifying questions about minimum lot sizes and frontage requirements, noting regulations appeared to have changed since she built 27 years ago, and stated she preferred one-acre lots and opposed higher density, saying 'I think 60 homes is plenty.'
 
 ## Action Items
 - Green Tree Trails subdivision preliminary plan approved; developer agreement to be finalized including emergency-only gated Nick Avenue access, stormwater pond easement between lots 14 and 15, and street lighting provisions; final plat to return possibly as early as late October

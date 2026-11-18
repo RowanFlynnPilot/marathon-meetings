@@ -1,7 +1,7 @@
 # Wausau Committee of the Whole Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=vsEYQ8DPwio  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=vsEYQ8DPwio 
 **Summarized:** 2026-09-06 02:44 UTC
 
 ---
@@ -11,7 +11,7 @@ The Wausau Committee of the Whole met on September 2, 2026 to consider a proposa
 
 ## Key Discussions
 ### Public Comment on Agenda Items
-Three speakers addressed the council. Joanne Leonard (923 Maple Hill Road), a former Marathon County Board member and retired Wisconsin Public Service manager, called for a comprehensive financial audit by outside experts, criticizing what she described as inadequate financial controls and expressed opposition to the mayor's alternative plan. Liz Hower (1106 North Third Street) called for an independent audit conducted by a firm with no prior ties to the city, citing the need for transparency and accountability. Deborah Ryan (702 Elm Street), a former alder (2020–2022) and retired accountant, raised a series of specific historical financial concerns including an allegedly unauthorized $5,000 legal opinion obtained by a former finance director, an unrecorded housing authority loan, vendor contracts signed without required authorization, and incomplete records requests; she called for the finance director to be relieved of daily duties.
+Three speakers addressed the council. Joanne Leonard, a former Marathon County Board member and retired Wisconsin Public Service manager, called for a comprehensive financial audit by outside experts, criticizing what she described as inadequate financial controls and expressed opposition to the mayor's alternative plan. Liz Hower called for an independent audit conducted by a firm with no prior ties to the city, citing the need for transparency and accountability. Deborah Ryan, a former alder (2020–2022) and retired accountant, raised a series of specific historical financial concerns including an allegedly unauthorized $5,000 legal opinion obtained by a former finance director, an unrecorded housing authority loan, vendor contracts signed without required authorization, and incomplete records requests; she called for the finance director to be relieved of daily duties.
 
 ### Approval of Minutes of Preceding Committee of the Whole Meeting (July 13, 2026)
 Alder Larson moved to approve the minutes as presented; Alder Lukans seconded. The motion passed on a voice vote with no opposition.
@@ -26,7 +26,7 @@ Multiple council members expressed support while raising concerns about implemen
 Following passage of the main motion, Alder Lukans moved to direct Alder Heni to prepare a concise memo to all city staff — including fire and police — summarizing the evening's discussion and inviting them to the future council meeting where the audit proposal will be considered. Alder Slonski seconded. A brief procedural question was raised about whether the motion was germane to the agenda; the presiding officer indicated she had confirmed with the city attorney it would be, and Alder Heni volunteered to write the memo regardless of the vote. The motion passed on a voice vote with no opposition.
 
 ## Public Comment
-Three speakers offered public comment. Joanne Leonard (923 Maple Hill Road), a 57-year Wausau resident and former Marathon County Board member, called for a comprehensive independent financial audit by outside experts and opposed what she described as the mayor's insufficient alternative plan. Liz Hower (1106 North Third Street) called for an independent audit by a firm with no prior ties to the city, emphasizing transparency and public trust. Deborah Ryan (702 Elm Street), a retired accountant and former alder (2020–2022), raised specific historical financial irregularities under prior administrations and called for the current finance director to be relieved of daily duties pending development of new procedures.
+Three speakers offered public comment. Joanne Leonard, a 57-year Wausau resident and former Marathon County Board member, called for a comprehensive independent financial audit by outside experts and opposed what she described as the mayor's insufficient alternative plan. Liz Hower called for an independent audit by a firm with no prior ties to the city, emphasizing transparency and public trust. Deborah Ryan, a retired accountant and former alder (2020–2022), raised specific historical financial irregularities under prior administrations and called for the current finance director to be relieved of daily duties pending development of new procedures.
 
 ## Action Items
 - Executive committee assigned to develop scope of work, vendor qualifications, cost options, funding plan, and timeline for the independent systemic audit

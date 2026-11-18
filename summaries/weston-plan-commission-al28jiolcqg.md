@@ -1,7 +1,7 @@
 # Plan Commission
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=al28JiolCqg  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=al28JiolCqg 
 **Summarized:** 2026-09-16 03:10 UTC
 
 ---
@@ -29,7 +29,7 @@ Staff presented detailed findings showing the property at 6406 Schofield Avenue 
 Staff reported that Tommy's Car Wash had failed to provide required annual underground sediment tank inspection reports and a certificate of environmental insurance for multiple consecutive years, with only a 2021 report on file. Staff noted the facility is located in a wellhead protection area and that outreach since January 2026 had yielded no documentation and no response. Commissioners expressed strong concern about the wellhead protection implications, with one member arguing this case warranted more urgency than a green space dispute. The commission voted to find the CUP out of compliance and directed staff to send written notice with a September 23, 2026 deadline, with the matter returning to the commission for further action if not resolved.
 
 ## Public Comment
-Two public comments were offered. Jim Pinsol submitted a written comment (read at the meeting) criticizing inconsistent handling of the three CUP violations, alleging bias and negligence, questioning why Tommy's Car Wash in a wellhead protection area went five years without required documents, and calling for any commissioner with business ties to affected properties to recuse themselves. Jake (online, owner of townhomes at 314/318 Ross Avenue) read a letter expressing concerns about USM Storage owner Minell repeatedly expanding gravel and RV parking into green space beyond his permit, causing water runoff erosion on Jake's property, and asking the commission to require reversion to permit compliance.
+Two public comments were offered. Jim Pinsol submitted a written comment (read at the meeting) criticizing inconsistent handling of the three CUP violations, alleging bias and negligence, questioning why Tommy's Car Wash in a wellhead protection area went five years without required documents, and calling for any commissioner with business ties to affected properties to recuse themselves. Jake (online, owner of townhomes at 314/) read a letter expressing concerns about USM Storage owner Minell repeatedly expanding gravel and RV parking into green space beyond his permit, causing water runoff erosion on Jake's property, and asking the commission to require reversion to permit compliance.
 
 ## Action Items
 - Staff to commence modification proceedings for USM Storage CUP 20240072 and schedule a public hearing; parties encouraged to work with staff to establish a defined numerical green space buffer setback

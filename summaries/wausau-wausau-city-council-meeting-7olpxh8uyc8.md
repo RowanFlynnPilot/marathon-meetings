@@ -1,7 +1,7 @@
 # Wausau City council Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=7OLPXH8UYC8  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=7OLPXH8UYC8 
 **Summarized:** 2026-10-15 04:39 UTC
 
 ---
@@ -38,7 +38,7 @@ The council first voted 9-2 to reconsider this ordinance, which had previously f
 Deputy Director Melinda presented on behalf of Metroride, explaining the new fare collection system allows payment via app, card, or traditional cash vault. Alder Killian confirmed cash payment remains an option for those without digital access. Alder Martins noted the system is largely grant-funded and also includes automated vehicle location (AVL) technology so riders can track bus arrival times. Alder True Blood raised access concerns, suggesting a vending machine at the transit depot be considered for future planning. The motion passed 11-0.
 
 ## Public Comment
-Six pre-registered speakers addressed the council. Courtney Olsen and Felix Gallow (both of 1206 Highland Park Blvd) opposed the Flock license plate camera contract and urged termination and adoption of a surveillance technology ordinance. Karen Briggs (154 Oaklair Blvd), Danielle Fischer (1212 Highland Park Blvd), Carrie Mor (1025 Everest Blvd), and Alice Kether (1106 Highland Park Blvd) spoke in favor of reverting boulevard snow plowing to the center-median method; Fischer and Mor also opposed the Flock cameras. An additional speaker, Mary Broadhead (1101 Highland Park Blvd), spoke after the formal public comment period and proposed specific amended language for the snow plowing resolution directing plows to push snow toward the median strip.
+Six pre-registered speakers addressed the council. Courtney Olsen and Felix Gallow opposed the Flock license plate camera contract and urged termination and adoption of a surveillance technology ordinance. Karen Briggs, Danielle Fischer, Carrie Mor, and Alice Kether spoke in favor of reverting boulevard snow plowing to the center-median method; Fischer and Mor also opposed the Flock cameras. An additional speaker, Mary Broadhead, spoke after the formal public comment period and proposed specific amended language for the snow plowing resolution directing plows to push snow toward the median strip.
 
 ## Action Items
 - Honey Locust Court properties (7100-7123) rezoned from SR2 to DR8 for twin-home development

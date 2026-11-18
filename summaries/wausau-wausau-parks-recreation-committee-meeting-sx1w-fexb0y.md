@@ -1,7 +1,7 @@
 # Wausau Parks & Recreation Committee Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=sX1w_FeXB0Y  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=sX1w_FeXB0Y 
 **Summarized:** 2026-10-06 18:23 UTC
 
 ---
@@ -25,8 +25,7 @@ Jamie presented a county-owned parcel on 28th Avenue, originally purchased in 20
 ### 4B: Park Updates – Athletic Park, Oak Island, River Edge Trail, Riverlife
 Jamie announced the skate park is now complete and is working with donor families on a plaque unveiling. Alder Swansky asked about the cost of ongoing vandalism to Riverlife Park restrooms; Jamie noted the locking mechanisms on the south-side bathrooms have been difficult to replace due to jamming of the electronic locks and said a cost summary would be provided at the next meeting.
 
-### 5A: Hearing – Appeal of Tree Assessment Fee, 4011 Stone Ridge Drive
-The committee conducted a formal quasi-judicial hearing on homeowner Jonathan Mafam's appeal of a city forester fee for damaging a city tree during unpermitted excavation. City plumbing inspector Dennis Keski testified that he found trenching had been done without an excavation or lateral permit and that as of the morning of the meeting no permit had been obtained. City forester John Kahan, a board-certified master arborist, testified the tree was losing leaves early due to root damage caused by the trenching, that the permit process would have identified a safer route or offered tree removal for a $550 fee, and that a pre-existing seam/occlusion in the tree was unrelated to the dieback. Mafam testified he purchased the home in September 2024, suffered a flooded finished basement and $30,000 in losses in the first spring, and was trying to install a French drain system; he stated he did not know he needed a permit, did not know the tree was a city tree, his contractor abandoned the job incomplete, and he was asking for leniency. He disputed John's characterization of his visit to the property. After testimony and committee questions, Alder Slonsky moved to adjourn into closed session for deliberation; the motion passed on a 4-0 roll call vote.
+### 5A: Hearing – Appeal of Tree Assessment Fee The committee conducted a formal quasi-judicial hearing on homeowner Jonathan Mafam's appeal of a city forester fee for damaging a city tree during unpermitted excavation. City plumbing inspector Dennis Keski testified that he found trenching had been done without an excavation or lateral permit and that as of the morning of the meeting no permit had been obtained. City forester John Kahan, a board-certified master arborist, testified the tree was losing leaves early due to root damage caused by the trenching, that the permit process would have identified a safer route or offered tree removal for a $550 fee, and that a pre-existing seam/occlusion in the tree was unrelated to the dieback. Mafam testified he purchased the home in September 2024, suffered a flooded finished basement and $30,000 in losses in the first spring, and was trying to install a French drain system; he stated he did not know he needed a permit, did not know the tree was a city tree, his contractor abandoned the job incomplete, and he was asking for leniency. He disputed John's characterization of his visit to the property. After testimony and committee questions, Alder Slonsky moved to adjourn into closed session for deliberation; the motion passed on a 4-0 roll call vote.
 
 ## Public Comment
 No public comment was offered. The chair asked twice for public comment at the start of the meeting and received no response.

@@ -1,11 +1,19 @@
 {
-  "overview": "Based on the published agenda, the Kronenwetter Police and Fire Commission was scheduled to meet to approve previous meeting minutes, receive public comment, and conduct a closed session to interview a Fire Department applicant regarding employment matters.",
+  "overview": "The Village of Kronenwetter Police and Fire Commission voted unanimously to advance firefighter/first responder applicant Kristopher Grod in the hiring process following a closed-session interview. The brief meeting, held September 28, 2026, was presided over by Vice President Rick Smith in the absence of President Alex Vedvik. All four votes taken at the meeting carried 4-0.",
   "committee": "Police and Fire Commission",
-  "presiding": "Not indicated on agenda",
+  "presiding": "Vice President Rick Smith",
   "agenda": [
     {
+      "time": "5:00 PM",
+      "item": "Call to Order, Pledge of Allegiance, and Roll Call"
+    },
+    {
       "time": "N/A",
-      "item": "Approval of August 24, 2026 meeting minutes"
+      "item": "Announcement of Closed Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Approval of August 24, 2026 Meeting Minutes"
     },
     {
       "time": "N/A",
@@ -13,43 +21,83 @@
     },
     {
       "time": "N/A",
-      "item": "Closed Session - Consideration of employment, promotion, compensation or performance evaluation data regarding Fire Department applicant interview"
+      "item": "Closed Session – Interview Fire Department Applicant"
     },
     {
       "time": "N/A",
-      "item": "Reconvene into open session"
+      "item": "Reconvene into Open Session"
     },
     {
       "time": "N/A",
-      "item": "Action after closed session"
+      "item": "Action After Closed Session – Firefighter/First Responder Hiring Process"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjournment"
     }
   ],
   "discussions": [
     {
       "item": "Approval of August 24, 2026 Meeting Minutes",
-      "body": "The commission was scheduled to approve the minutes from its previous meeting held on August 24, 2026."
+      "body": "Commissioner Rucinski moved, seconded by Commissioner Rule, to approve the August 24, 2026 meeting minutes as written. The motion carried 4-0 by voice vote. No discussion was recorded."
     },
     {
-      "item": "Closed Session - Fire Department Applicant Interview",
-      "body": "The commission was set to convene in closed session pursuant to Wisconsin Statute 19.85(1)(c) to consider employment and performance evaluation matters related to a Fire Department applicant interview. The closed session was scheduled to address personnel matters over which the commission has jurisdiction."
+      "item": "Closed Session – Interview Fire Department Applicant",
+      "body": "Commissioner Rule moved, seconded by Commissioner Udulutch, to convene into closed session pursuant to Wis. Stat. 19.85(1)(c) to interview a Fire Department applicant. The motion carried 4-0 by voice vote. The commission entered closed session at 5:01 p.m. and reconvened in open session at 5:37 p.m."
+    },
+    {
+      "item": "Action After Closed Session – Firefighter/First Responder Hiring Process",
+      "body": "Following the closed-session interview, Commissioner Rule moved, seconded by Commissioner Rucinski, to continue Kristopher Grod forward in the firefighter/first responder hiring process. The motion carried 4-0 by voice vote."
     }
   ],
-  "publicComment": "Public comment was scheduled on the agenda, with a maximum of 15 minutes total and three minutes per person, with time extensions at the Chief Presiding Officer's discretion.",
+  "publicComment": "No public comment was recorded.",
   "actionItems": [
-    "scheduled to approve August 24, 2026 meeting minutes",
-    "scheduled to convene in closed session for Fire Department applicant interview",
-    "expected to reconvene in open session following closed session",
-    "anticipated to take action following closed session deliberations"
+    "Kristopher Grod is to continue forward in the firefighter/first responder hiring process following a successful closed-session interview."
   ],
   "topics": [
     "Public Safety",
     "Staffing",
-    "Fire Department Hiring"
+    "Fire Department Hiring",
+    "Closed Session"
   ],
-  "_source": "agenda",
+  "votes": [
+    {
+      "item": "Approval of August 24, 2026 meeting minutes",
+      "motion": "Approve the 08/24/2026 meeting minutes as written",
+      "mover": "Commissioner Rucinski",
+      "second": "Commissioner Rule",
+      "outcome": "Approved",
+      "tally": "4-0"
+    },
+    {
+      "item": "Convene into closed session to interview Fire Department applicant",
+      "motion": "Convene into closed session pursuant to Wis. Stat. 19.85(1)(c) to interview Fire Department applicant",
+      "mover": "Commissioner Rule",
+      "second": "Commissioner Udulutch",
+      "outcome": "Approved",
+      "tally": "4-0"
+    },
+    {
+      "item": "Reconvene into open session",
+      "motion": "Reconvene into open session",
+      "mover": "Commissioner Rule",
+      "second": "Commissioner Udulutch",
+      "outcome": "Approved",
+      "tally": "4-0"
+    },
+    {
+      "item": "Continue Kristopher Grod in firefighter/first responder hiring process",
+      "motion": "Continue Kristopher Grod forward in the firefighter/first responder hiring process",
+      "mover": "Commissioner Rule",
+      "second": "Commissioner Rucinski",
+      "outcome": "Approved",
+      "tally": "4-0"
+    }
+  ],
+  "_source": "minutes",
   "title": "Police and Fire Commission Meeting - 2026-09-28",
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-27",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2fd54e3e6ac4461bb316c1b084abbaed.pdf",
-  "processed_at": "2026-09-28T05:22:51.579179+00:00"
+  "processed_at": "2026-11-11T16:09:50.918086+00:00"
 }

@@ -1,7 +1,7 @@
 # Wausau City Council Meeting
 
-**Organization:** City of Wausau  
-**Source:** https://www.youtube.com/watch?v=3XMnlwYCZUg  
+**Organization:** City of Wausau 
+**Source:** https://www.youtube.com/watch?v=3XMnlwYCZUg 
 **Summarized:** 2026-08-30 04:05 UTC
 
 ---
@@ -29,7 +29,7 @@ The fire chief presented an 18-month apprenticeship program funded entirely by a
 Dave Ryel of Wangard Partners presented a term sheet for a 143-unit market-rate apartment development on the former Hammerblow site at 920 North First Street and 15 Fulton, noting over $2 million in brownfield remediation costs and a TIF incentive structure returning 80% of new tax increment to the developer for up to 17 years (max $8.35 million). Alder Kilian strongly opposed selling land assessed at $1.4 million for $100,000 with additional $4.84 million in incentives, citing widespread public disapproval. Alder Neil countered that the property generates zero tax revenue and the TIF returns only developer-generated increment, not existing taxpayer dollars. Alder Larson raised concerns about market saturation, noting Foundry on Third is currently at 60% occupancy seven months after opening. The transcript ends before a final vote is recorded.
 
 ## Public Comment
-Five speakers addressed the council. Susan Lang, president of Emerald Properties (750+ rental units), spoke in support of the Wangard Riverlife South development, calling it a 'wise, low-risk' project that 'checks all the boxes.' Ardan Thornhill of Mackenzie Street supported the data center ordinance in principle but asked the council to clarify evaluation standards, taxpayer cost protections, and requested the item be removed from the consent agenda for full public discussion. Linda Kowski submitted written comments read into the record opposing continued apartment development, citing Marathon County's poor record on low-income housing and asking Mayor Diny not to 'rubber stamp' spending proposals. Tom Kilian, 133 East Thomas Street, said he would prefer an outright ban on AI data centers if legally possible, supported the ordinance as a starting point, and urged a setback of at least 200 feet from residential areas. Christine Martins, 1228 Arthur Street, called it 'ludicrous' that data center regulations were placed on the consent agenda and argued the ordinance does not go far enough to protect residents from infrastructure costs and resource depletion.
+Five speakers addressed the council. Susan Lang, president of Emerald Properties (750+ rental units), spoke in support of the Wangard Riverlife South development, calling it a 'wise, low-risk' project that 'checks all the boxes.' Ardan Thornhill of Mackenzie Street supported the data center ordinance in principle but asked the council to clarify evaluation standards, taxpayer cost protections, and requested the item be removed from the consent agenda for full public discussion. Linda Kowski submitted written comments read into the record opposing continued apartment development, citing Marathon County's poor record on low-income housing and asking Mayor Diny not to 'rubber stamp' spending proposals. Tom Kilian said he would prefer an outright ban on AI data centers if legally possible, supported the ordinance as a starting point, and urged a setback of at least 200 feet from residential areas. Christine Martins called it 'ludicrous' that data center regulations were placed on the consent agenda and argued the ordinance does not go far enough to protect residents from infrastructure costs and resource depletion.
 
 ## Action Items
 - Data center zoning ordinance (26-0706) adopted with 200-foot residential setback amendment; staff and plan commission directed to monitor and revisit regulations within months as technology evolves

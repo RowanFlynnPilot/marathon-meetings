@@ -1,7 +1,7 @@
 # Tourism Commission
 
-**Organization:** Village of Weston  
-**Source:** https://www.youtube.com/watch?v=ee6clAtgrYw  
+**Organization:** Village of Weston 
+**Source:** https://www.youtube.com/watch?v=ee6clAtgrYw 
 **Summarized:** 2026-06-10 15:32 UTC
 
 ---
@@ -17,7 +17,7 @@ Trustee Erling was nominated for chair and approved unanimously. Cushing was nom
 Minutes from the April 21st meeting were approved. Motion was made with a second by Renee. Passed unanimously.
 
 ### Grant request: Taste and Glow Balloonfest
-Brandon Jill (3308 Green Pastures Lane) presented on behalf of the event, reporting approximately 11,000-12,000 attendees last year. He announced that the competing Marshfield balloon event has been canceled due to permit issues, making Taste and Glow the sole hot air balloon event in the area. Commission members noted the application showed 20 fewer room nights than last year. A commissioner requested better tracking of hotel room usage to help with future funding decisions. The commission approved a $5,000 grant, matching last year's amount, with a request for detailed room usage data in their post-event report. Motion passed unanimously.
+Brandon Jill presented on behalf of the event, reporting approximately 11,000-12,000 attendees last year. He announced that the competing Marshfield balloon event has been canceled due to permit issues, making Taste and Glow the sole hot air balloon event in the area. Commission members noted the application showed 20 fewer room nights than last year. A commissioner requested better tracking of hotel room usage to help with future funding decisions. The commission approved a $5,000 grant, matching last year's amount, with a request for detailed room usage data in their post-event report. Motion passed unanimously.
 
 ### Remarks from commission members
 Renee reported on attending the Alice in Dairyland dinner at Red Rock Orchard in Edgar. She described meeting the candidates, noting the winner Anastasia had three bachelor's degrees. This was the first time the event had been hosted in Marathon County since the 1970s. The candidates visited various Marathon County locations including Mullen's Cheese and expressed appreciation for the community.

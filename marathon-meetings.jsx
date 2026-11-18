@@ -188,6 +188,21 @@ function matchSearch(m, query) {
 // Normalize a committee name for fuzzy lookup: lowercase, "and"↔"&",
 // strip trailing "Committee"/"Commission"/"Board" since the badge already
 // shows the full label.
+// Readers report errors to the newsroom's editor; fixes are recorded in
+// corrections.json and re-applied on every pipeline run.
+const CORRECTIONS_EMAIL = "editor@wausaupilotandreview.com";
+function correctionMailto(m) {
+  const subject = `Correction request: ${m.title} (${m.date})`;
+  const body = [
+    `Meeting: ${m.title}, ${m.date}`,
+    `Link: https://rowanflynnpilot.github.io/marathon-meetings/#m/${m.id}`,
+    "",
+    "What's wrong, and what the record shows instead:",
+    "",
+  ].join("\n");
+  return `mailto:${CORRECTIONS_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 // Closed sessions are never recorded, so "agenda only" is final for them —
 // say so instead of implying a transcript is on the way.
 function isClosedSession(m) {
@@ -1155,6 +1170,14 @@ function SummaryDetail({ meeting, onBack, isMobile, onTopicClick, onSelectPart }
             <p style={{ ...bodyStyle, color: "#5a5a5a", fontStyle: "italic" }}>No documents linked for this meeting.</p>
           )}
         </>}
+
+        <div style={{ borderTop: `1px solid ${RULE}`, marginTop: "30px", paddingTop: "14px", fontFamily: "'Lora', Georgia, serif", fontSize: "12px", color: "#5a5a5a", lineHeight: 1.6 }}>
+          See something wrong in this summary?{" "}
+          <a href={correctionMailto(meeting)}
+            onClick={() => track("Correction Link", { source: meeting.source })}
+            style={{ color: src.accent, fontWeight: 600 }}>Request a correction</a>
+          . An editor reviews every request, and fixes are logged.
+        </div>
       </div>
     </div>
   );
