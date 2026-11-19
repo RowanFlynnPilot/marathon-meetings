@@ -27,37 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1482c3f440e04d793500@marathon-meetings
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=America/Chicago:20261118T080000
-DTEND;TZID=America/Chicago:20261118T093000
-SUMMARY:City of Wausau: Rescheduled - Community Development Authority Finan
- ce Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/3659/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:f4e19e7bb72d203f4b8b@marathon-meetings
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=America/Chicago:20261118T170000
-DTEND;TZID=America/Chicago:20261118T183000
-SUMMARY:City of Wausau: Citizen Advisory Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/678/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:3bee1f2523f3dfe70812@marathon-meetings
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=America/Chicago:20261118T183000
-DTEND;TZID=America/Chicago:20261118T200000
-SUMMARY:DC Everest School Board: Regular School Board Meeting
-URL:https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:66023df6f800498da2b6@marathon-meetings
 DTSTAMP:20261119T000000Z
 DTSTART;TZID=America/Chicago:20261119T164500
@@ -84,6 +53,15 @@ DTSTART;TZID=America/Chicago:20261119T180000
 DTEND;TZID=America/Chicago:20261119T193000
 SUMMARY:Village of Weston: Mountain Bay Metro Police Oversight
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:b46119fc786a09bd3ddf@marathon-meetings
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:Village of Weston: Park and Recreation Committee
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -280,12 +258,32 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:691af92809fe1c89d5c3@marathon-meetings
+DTSTAMP:20261208T000000Z
+DTSTART;TZID=America/Chicago:20261208T171500
+DTEND;TZID=America/Chicago:20261208T184500
+SUMMARY:City of Wausau: Finance Committee Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/2420/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:3f17973f8a3c3ed07eca@marathon-meetings
 DTSTAMP:20261208T000000Z
 DTSTART;TZID=America/Chicago:20261208T180000
 DTEND;TZID=America/Chicago:20261208T193000
 SUMMARY:Village of Weston: S.A.F.E.R. Board of Directors
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf581f151d40f6d7e78@marathon-meetings
+DTSTAMP:20261208T000000Z
+DTSTART;TZID=America/Chicago:20261208T183000
+DTEND;TZID=America/Chicago:20261208T200000
+SUMMARY:City of Wausau: Common Council Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/1972/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -536,6 +534,26 @@ DTSTART;TZID=America/Chicago:20270114T170000
 DTEND;TZID=America/Chicago:20270114T183000
 SUMMARY:Marathon County: Infrastructure Committee
 URL:https://www.marathoncounty.gov/about-us/county-calendar
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:33f833ba94e67c101253@marathon-meetings
+DTSTAMP:20270118T000000Z
+DTSTART;TZID=America/Chicago:20270118T173000
+DTEND;TZID=America/Chicago:20270118T190000
+SUMMARY:Village of Weston: Finance & Human Resources Committee
+URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:ee38c64fabd4663faedb@marathon-meetings
+DTSTAMP:20270118T000000Z
+DTSTART;TZID=America/Chicago:20270118T180000
+DTEND;TZID=America/Chicago:20270118T193000
+SUMMARY:Village of Weston: Board of Trustees
+URL:https://www.westonwi.gov/agendacenter
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT

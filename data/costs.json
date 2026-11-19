@@ -1428,5 +1428,35 @@
     "purpose": "inject_transcript",
     "meeting_id": "legacy-142",
     "jurisdiction": ""
+  },
+  {
+    "ts": "2026-11-19T00:57:34.848344+00:00",
+    "meeting_id": "66023df6f800498da2b6",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1710,
+    "output_tokens": 447,
+    "usd": 0.003945
+  },
+  {
+    "ts": "2026-11-19T00:57:43.279784+00:00",
+    "meeting_id": "cd396637cc1ec0e66e04",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1548,
+    "output_tokens": 445,
+    "usd": 0.003773
+  },
+  {
+    "ts": "2026-11-19T00:57:55.527073+00:00",
+    "meeting_id": "b46119fc786a09bd3ddf",
+    "jurisdiction": "weston",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 9563,
+    "output_tokens": 300,
+    "usd": 0.011063
   }
 ]

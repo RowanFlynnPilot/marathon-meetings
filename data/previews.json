@@ -1,0 +1,123 @@
+{
+  "66023df6f800498da2b6": {
+    "checked": "2026-11-19T00:57:28+00:00",
+    "date": "2026-11-19",
+    "generations": 1,
+    "hash": "d59631dbe8085be71479b4704c54a3ca55b7be42",
+    "name": "Transit Commission Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-19T00:57:28+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "New fare boxes for Metro Ride; approve request for proposal",
+          "why": "The commission is being asked to approve moving forward with replacing current fare boxes using an 80/20 grant."
+        },
+        {
+          "action": "vote",
+          "item": "Metro Ride facility exterior doors replacement and ceiling repair",
+          "why": "The commission is being asked to approve replacing entrance and garage doors (under $50,000) and repairing the original ceiling damaged by past roof leaks, both funded by an 80/20 grant."
+        },
+        {
+          "action": "vote",
+          "item": "Metro Ride procurement policy update to match city policy",
+          "why": "The commission is being asked to approve updating the current procurement policy."
+        },
+        {
+          "action": "vote",
+          "item": "City contribution to updated transit development planning study",
+          "why": "The commission is being asked to approve a $24,000 city contribution toward a $120,000 state-funded and MPO-funded planning study for an updated Metro Ride development plan."
+        },
+        {
+          "action": "report",
+          "item": "New Gillig buses, CAD/AVL update, WisGo contract",
+          "why": "The director will report on new buses, computer-aided dispatch and automatic vehicle location updates, and the WisGo contract."
+        }
+      ],
+      "overview": "The Transit Commission is scheduled to decide on replacing aging equipment and facilities at Metro Ride, including new fare boxes, exterior doors, and a ceiling, all funded by state grants. The commission will also consider a $24,000 city contribution toward a $120,000 state-funded planning study for transit development.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
+  "b46119fc786a09bd3ddf": {
+    "checked": "2026-11-19T00:57:28+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
+    "name": "Park and Recreation Committee",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-19T00:57:28+00:00",
+      "items": [
+        {
+          "action": "discussion",
+          "item": "Farmers Market End of Season Survey results",
+          "why": "The committee will discuss feedback from 129 survey respondents about their experience at the Farmers Market held at Kennedy Park, covering parking, traffic flow, amenities, and other aspects."
+        },
+        {
+          "action": "discussion",
+          "item": "Kennedy Park Master Plan",
+          "why": "The committee will discuss and potentially act on updates to the master plan, which may need modifications based on the Farmers Market staying at the park and decisions from the youth hockey organization about using the northwest corner."
+        },
+        {
+          "action": "report",
+          "item": "Aquatic Center Repairs update",
+          "why": "Director Osterbrink will provide an update on ongoing leak detection and equipment replacement work being performed by Neuman Pools, which includes finding and repairing leaks in the play structure supply pipe."
+        }
+      ],
+      "overview": "The Parks and Recreation Committee will review survey feedback from the Farmers Market season at Kennedy Park and discuss the Kennedy Park Master Plan, which guides future improvements to the popular community facility.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "weston"
+  },
+  "cd396637cc1ec0e66e04": {
+    "checked": "2026-11-19T00:57:28+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",
+    "name": "Bicycle & Pedestrian Advisory Committee Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-19T00:57:28+00:00",
+      "items": [
+        {
+          "action": "discussion",
+          "item": "Bikeshare program ridership data and spring promotion",
+          "why": "The committee will discuss how the city's bikeshare program is performing and plans for a spring promotional campaign."
+        },
+        {
+          "action": "discussion",
+          "item": "Community Sustainability Survey results review",
+          "why": "The committee will review and discuss results from a community sustainability survey."
+        },
+        {
+          "action": "report",
+          "item": "Adolph Street and River Edge Parkway pavement conditions update",
+          "why": "The committee will receive an update on the pavement conditions of these streets used by pedestrians and cyclists."
+        },
+        {
+          "action": "report",
+          "item": "RRFB Thomas Street and River Edge Parkway update",
+          "why": "The committee will receive an update on a rectangular rapid flashing beacon (pedestrian crossing signal) on Thomas Street."
+        },
+        {
+          "action": "report",
+          "item": "Police Department attendance and enabling language update",
+          "why": "The committee will receive an update on enabling language and police department attendance at committee meetings."
+        },
+        {
+          "action": "report",
+          "item": "MPO Bike/Ped Subcommittee update and bike counter summary",
+          "why": "The committee will receive an update from the Metropolitan Planning Organization's Bike/Pedestrian Subcommittee and hear bike counter data."
+        }
+      ],
+      "overview": "The Bicycle & Pedestrian Advisory Committee will discuss the city's bikeshare program performance, review community sustainability survey results, and hear updates on bike and pedestrian infrastructure projects including street conditions and a pedestrian crossing signal.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  }
+}
