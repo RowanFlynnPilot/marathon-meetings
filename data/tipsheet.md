@@ -9,6 +9,16 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: Metro Ride facility exterior doors replacement and ceiling repair. The commission is being asked to approve replacing entrance and garage doors (under $50,000) and repairing the original ceiling damaged by past roof leaks, both funded by an 80/20 grant.
   - VOTE: Metro Ride procurement policy update to match city policy. The commission is being asked to approve updating the current procurement policy.
   - VOTE: City contribution to updated transit development planning study. The commission is being asked to approve a $24,000 city contribution toward a $120,000 state-funded and MPO-funded planning study for an updated Metro Ride development plan.
+- [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
+- [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
+  - VOTE: Approve five service and equipment agreements for city. The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators.
+  - VOTE: Approve $69,000 budget modification for Athletic Park lift. The committee will vote on funding for an outdoor vertical platform lift at Athletic Park.
+- [Tuesday, Nov 24, 6:30 PM: City of Wausau, Common Council Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/1984/overview)
+  - VOTE: Special election to fill District 9 aldermanic vacancy. The council will vote on whether to order a special election to fill an open seat on the Common Council.
+  - VOTE: Deed restrictions and non-conforming uses at 1300 Cleveland Avenue. The council will vote on approving deed restrictions and clarifying existing non-conforming uses on city-owned property.
+  - VOTE: Acquisition and demolition at 108 Myron Street. The council will vote on authorizing acquisition and demolition of a property through the city's property disposition program.
+  - VOTE: 2026 budget modifications based on year-end projections. The council will vote on adopting budget adjustments based on actual spending and revenue results.
+  - VOTE: Various consent agenda items including salary, tax, and driveway approvals. The council will vote on multiple routine matters including employee salary structure, water utility tax equivalent, purchasing card policy, and driveway and approach exceptions for a local business.
 
 ## Contested votes, past week
 
@@ -54,7 +64,6 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Next week's meetings without a preview
 
-- City of Wausau: 3 meetings with no agenda read yet
 - Marathon County: 3 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
 - Village of Weston: 2 meetings with no agenda read yet

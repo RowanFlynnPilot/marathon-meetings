@@ -1,6 +1,48 @@
 {
+  "24e3b3cff70c7c06690b": {
+    "checked": "2026-11-19T13:19:20+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "06b6619020510e165db519f60da43f9304559641",
+    "name": "Police & Fire Commission Meeting",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-19T13:19:20+00:00",
+      "items": [
+        {
+          "action": "discussion",
+          "item": "Interview candidates for Police Officer and Fire Lieutenant positions",
+          "why": "The commission will meet in closed session to interview five candidates for Police Officer and one candidate for promotion to Lieutenant with the Wausau Fire Department."
+        },
+        {
+          "action": "discussion",
+          "item": "Reconsideration of dismissed citizen complaint",
+          "why": "The commission will meet in closed session to consider a reconsideration request of a dismissed citizen complaint."
+        },
+        {
+          "action": "report",
+          "item": "Third Quarter Fire Department operations report",
+          "why": "The Fire Department will present its quarterly operations update."
+        },
+        {
+          "action": "report",
+          "item": "Police Department operations update",
+          "why": "The Police Department will provide general operational updates."
+        },
+        {
+          "action": "discussion",
+          "item": "Listening session on Deputy Chief hiring process",
+          "why": "Police Department employees will participate in a closed session listening session regarding the hiring process for Deputy Chief."
+        }
+      ],
+      "overview": "The Police & Fire Commission is scheduled to hear operational updates from both departments and will meet in closed session to interview candidates for police officer and fire lieutenant positions, as well as discuss a citizen complaint reconsideration.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
   "66023df6f800498da2b6": {
-    "checked": "2026-11-19T00:57:28+00:00",
+    "checked": "2026-11-19T13:19:20+00:00",
     "date": "2026-11-19",
     "generations": 1,
     "hash": "d59631dbe8085be71479b4704c54a3ca55b7be42",
@@ -41,8 +83,55 @@
     "prompt": "2",
     "source": "wausau"
   },
+  "662de08195fcb475353f": {
+    "checked": "2026-11-19T13:19:20+00:00",
+    "date": "2026-11-24",
+    "generations": 1,
+    "hash": "f8ea25881d44029d04a675a2e17541ba882a5fbf",
+    "name": "Common Council Meeting",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-19T13:19:20+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "Special election to fill District 9 aldermanic vacancy",
+          "why": "The council will vote on whether to order a special election to fill an open seat on the Common Council."
+        },
+        {
+          "action": "discussion",
+          "item": "Environmental litigation settlement discussion with legal counsel",
+          "why": "The council will meet in closed session to confer with legal counsel about strategy in a federal environmental contamination case and consider a settlement offer."
+        },
+        {
+          "action": "vote",
+          "item": "Deed restrictions and non-conforming uses at 1300 Cleveland Avenue",
+          "why": "The council will vote on approving deed restrictions and clarifying existing non-conforming uses on city-owned property."
+        },
+        {
+          "action": "vote",
+          "item": "Acquisition and demolition at 108 Myron Street",
+          "why": "The council will vote on authorizing acquisition and demolition of a property through the city's property disposition program."
+        },
+        {
+          "action": "vote",
+          "item": "2026 budget modifications based on year-end projections",
+          "why": "The council will vote on adopting budget adjustments based on actual spending and revenue results."
+        },
+        {
+          "action": "vote",
+          "item": "Various consent agenda items including salary, tax, and driveway approvals",
+          "why": "The council will vote on multiple routine matters including employee salary structure, water utility tax equivalent, purchasing card policy, and driveway and approach exceptions for a local business."
+        }
+      ],
+      "overview": "The Common Council is scheduled to approve several routine personnel and financial matters, and will hold a closed session to discuss litigation strategy regarding environmental contamination. A special election to fill an aldermanic vacancy in District 9 is also on the agenda.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-19T00:57:28+00:00",
+    "checked": "2026-11-19T13:19:20+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
@@ -73,8 +162,40 @@
     "prompt": "2",
     "source": "weston"
   },
+  "c0025436f0c30c706fd8": {
+    "checked": "2026-11-19T13:19:20+00:00",
+    "date": "2026-11-24",
+    "generations": 1,
+    "hash": "b4538456bcee339a00acdb9021ffe2498eff5852",
+    "name": "Finance Committee Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-19T13:19:20+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "Approve five service and equipment agreements for city",
+          "why": "The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators."
+        },
+        {
+          "action": "vote",
+          "item": "Approve $69,000 budget modification for Athletic Park lift",
+          "why": "The committee will vote on funding for an outdoor vertical platform lift at Athletic Park."
+        },
+        {
+          "action": "report",
+          "item": "Update on county pet license fee structure for 2027",
+          "why": "The committee will receive an update on how the county pet license fees may change in 2027."
+        }
+      ],
+      "overview": "The Finance Committee is scheduled to vote on five service and equipment agreements for city departments, including animal impoundment services, mapping software, cemetery operations, and fire department cardiac equipment. The committee will also approve a $69,000 budget modification for an outdoor lift at Athletic Park.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-19T00:57:28+00:00",
+    "checked": "2026-11-19T13:19:20+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",
