@@ -64,6 +64,7 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Next week's meetings without a preview
 
+- City of Wausau: 1 meeting with no agenda read yet
 - Marathon County: 3 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
 - Village of Weston: 2 meetings with no agenda read yet

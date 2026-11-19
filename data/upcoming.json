@@ -241,6 +241,13 @@
     },
     {
       "date": "2026-11-24",
+      "time": "12:00 PM",
+      "name": "Community Development Authority Board Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3666/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-11-24",
       "time": "5:15 PM",
       "name": "Finance Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2433/overview",
@@ -344,6 +351,13 @@
     },
     {
       "date": "2026-12-02",
+      "time": "4:30 PM",
+      "name": "Historic Preservation Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2505/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-02",
       "time": "6:00 PM",
       "name": "Youth Workshop",
       "url": "https://wausauwi.portal.civicclerk.com/event/3660/overview",
@@ -361,20 +375,6 @@
       "time": "5:15 PM",
       "name": "Parks & Recreation Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2459/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-12-08",
-      "time": "5:15 PM",
-      "name": "Finance Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2420/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-12-08",
-      "time": "6:30 PM",
-      "name": "Common Council Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/1972/overview",
       "source": "wausau"
     }
   ],
@@ -556,8 +556,8 @@
     {
       "date": "2026-11-23",
       "time": "6:00 PM",
-      "name": "Village Board Meeting",
-      "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-70",
+      "name": "Revised Village Board Meeting",
+      "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village-board-meeting-7",
       "source": "kronenwetter"
     }
   ],
