@@ -1,7 +1,7 @@
 {
-  "_readme": "Official name rosters per source. Used two ways: (1) Whisper transcription gets these as vocabulary hints so spoken names transcribe correctly; (2) transcript/minutes summarization prompts tell Claude to verify name spellings against this list. Partial lists are fine — this is a spelling reference, not a membership registry. UPDATE AFTER EACH SPRING ELECTION (April). Verified July 2026.",
+  "_readme": "GENERATED from instance.json by `python -m engine.rosters`; edit the officials there, not here. Official name rosters per jurisdiction: a spelling reference, not a membership registry. Update instance.json after each spring election.",
   "marathon": {
-    "body": "Marathon County Board of Supervisors",
+    "body": "Marathon County",
     "officials": [
       "Kurt Gibbs (Board Chair)",
       "Chris Dickinson (Vice Chair)",
@@ -9,7 +9,7 @@
     ]
   },
   "wausau": {
-    "body": "Wausau City Council",
+    "body": "City of Wausau",
     "officials": [
       "Doug Diny (Mayor)",
       "Carol Lukens (Alderperson, District 1)",
@@ -26,7 +26,7 @@
     ]
   },
   "weston": {
-    "body": "Village of Weston Board of Trustees",
+    "body": "Village of Weston",
     "officials": [
       "Mark Maloney (Village President)",
       "Luis Lopes-Serrao (Trustee)",
@@ -39,7 +39,7 @@
     ]
   },
   "school_board": {
-    "body": "Wausau School District Board of Education",
+    "body": "Wausau School Board",
     "officials": [
       "James Bouché (President)",
       "Lance Trollop (Vice President)",
@@ -53,7 +53,7 @@
     ]
   },
   "kronenwetter": {
-    "body": "Village of Kronenwetter Board of Trustees",
+    "body": "Village of Kronenwetter",
     "officials": [
       "Dan Joling (Village President)",
       "Aaron Myszka (Trustee)",
@@ -66,7 +66,7 @@
     ]
   },
   "dc_everest": {
-    "body": "D.C. Everest Area School District Board of Education",
+    "body": "DC Everest School Board",
     "officials": [
       "Shannon Grabko (President)",
       "Katie Felch (Vice President)",

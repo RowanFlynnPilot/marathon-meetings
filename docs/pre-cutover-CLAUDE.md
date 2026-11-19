@@ -1,0 +1,118 @@
+# CLAUDE.md — Central Wisconsin Meeting Tracker
+
+## Project Overview
+Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview.com), a nonprofit newsroom covering central Wisconsin and Marathon County. Scrapes YouTube channels and agenda platforms for government meetings, generates AI summaries via the Anthropic API, and publishes a React dashboard to GitHub Pages at `rowanflynnpilot.github.io/marathon-meetings`.
+
+## Tech Stack
+- **Frontend:** React (Vite), deployed to GitHub Pages
+- **Scrapers:** Python 3.12 (yt-dlp, requests, beautifulsoup4, anthropic SDK)
+- **CI/CD:** GitHub Actions — runs every 4 hours at :17 past the hour (00:17, 04:17, … UTC; off the top of the hour, where GitHub drops scheduled runs under load), also manual dispatch with backfill option
+- **Data flow:** Python scrapers → JSON summaries → inject into JSX → Vite build → deploy
+
+## Commands
+- `npm install` — install Node dependencies
+- `npm run dev` — local dev server
+- `npm run build` — production build to `dist/`
+- `python marathon_meeting_summarizer.py` — check for new meetings (incremental)
+- `python marathon_meeting_summarizer.py --backfill` — process all historical meetings
+- `python marathon_meeting_summarizer.py --source wausau` — single source only
+- `python marathon_meeting_summarizer.py --url URL` — process a specific YouTube video
+- `python inject_meetings.py` — read summaries and inject into the MEETINGS array in JSX
+- `python update_upcoming.py` — refresh upcoming meeting schedules in JSX
+- `python generate_digest.py` — render `public/digest.png` (weekly newsletter image of upcoming meetings); `--date YYYY-MM-DD` overrides "today", `--days N` the window
+- `python generate_ics.py` — render `public/meetings.ics` (subscribable calendar of upcoming meetings; deterministic output, America/Chicago TZ)
+- `python generate_roundup.py` — draft `public/roundup.txt` + `.html` newsletter blurb (one Sonnet call; CI runs it Mondays or via the `roundup` dispatch input)
+- `python backfill_topics.py` — tag meetings that predate the `topics` field (batched Haiku; no-ops once everything is tagged)
+- `python backfill_votes.py` — extract structured `votes` for outcome-based meetings that predate the field (batched Haiku; presence of the votes key = processed)
+- `python generate_pages.py` — static indexable HTML per meeting at `public/meetings/<id>/` + `sitemap.xml` + `robots.txt`; old pages persist as the archive. `PAGES_BASE_URL` env overrides the base for a future custom domain.
+- `python cost_ledger.py --summary` — measured Claude spend (24h / 7d / 30d, by script and model) from `costs.json`. Every Claude call goes through `call_anthropic_with_retry`, which records its token usage; CI commits the ledger (120 days) and opens one self-closing "💸 Unusual Claude API spend" issue when the last 24h exceed $2 or 40 calls. Local runs log to `logs/costs-local.json` instead. Add new models to `PRICES` (unknown models are priced at the highest known rate).
+- `python audit_votes.py` — check every transcript summary's `votes` against the results the chair announced with a tally (`vote_announcements.py`, found by code): lists announced results a summary is missing or contradicts, and transcripts that were cut before reaching the model, then prints the IDs to redo. Redo them by running the Update Meetings workflow with `resummarize` set to those IDs (one Sonnet call each, ~$0.15 for a long meeting). Changes nothing itself. Tests: `python -m pytest test_vote_announcements.py`.
+- `python scrub_summaries.py [--check]` — the residents' privacy backstop and the corrections log. Removes a private person's home address from summaries, their `.md` mirrors, `src/data/meetings.json` and archive pages (addresses that are the subject of business stay; agenda item titles and motions are never touched), then re-applies every entry in `corrections.json` (`{id, find, replace, date, kind: "correction"|"privacy", note}`) so re-summarizing can't undo a fix. CI runs it after transcript ingest. The rules themselves live in `RESIDENT_PRIVACY_RULES` (summarizer): officials named; residents named only when the record is clear, never with a home address; students never named; no named person tied to a health condition. These are Herb Kohl grant commitments — don't loosen them. Readers reach the editor through the "Request a correction" mailto in the detail view and on every static page (editor@wausaupilotandreview.com).
+- `python check_overdue.py` — list displayed meetings still agenda-only past their source's normal recording lag (`EXPECTED_LAG_DAYS`; closed sessions excluded). CI turns a nonzero count into one self-closing "⏰ Meeting summaries overdue" issue — several overdue from one source usually means a matcher broke upstream.
+
+## GitHub Actions Pipeline Order
+1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
+2. `inject_transcript.py` (per file in `transcripts/`) → overrides agenda-only summaries with full-transcript ones
+3. `inject_meetings.py` → writes `src/data/meetings.json` (pruned to MAX_MEETINGS, newest first)
+4. `update_upcoming.py` → writes `src/data/upcoming.json` (keyed by source)
+5. `backfill_topics.py` → fills missing `topics` on displayed meetings + sidecars (steady-state: zero API calls)
+6. `generate_ics.py` → `public/meetings.ics`; `generate_roundup.py` (Mondays/dispatch) → `public/roundup.*`
+7. `generate_digest.py` → writes `public/digest.png` (Pillow; fonts in `assets/fonts/`; served at `/marathon-meetings/digest.png` for the newsletter)
+8. `npm run build` → `dist/` (copies everything in `public/`)
+9. Commit updated data files, deploy to Pages
+
+Reel drafts: before step 1 the run snapshots which meetings have transcript-built summaries (`reel_candidates.py --snapshot`). After the commit, any full city council or county board meeting (not a committee, though the tracker titles some "Wausau City Council ... Committee Meeting", and not one split into parts) that became transcript-built in this run is sent to RowanFlynnPilot/wpr-reels as a `transcript-ingested` dispatch (video ID + this commit). That repo's draft-reel workflow opens a draft reel PR. The step needs the `REELS_DISPATCH_TOKEN` secret (fine-grained, wpr-reels Contents: read and write), skips quietly without it, and never fails the run. Tests: `python -m pytest test_reel_candidates.py`.
+
+Summaries carry a `topics` array (3-5 Title Case tags, emitted by all five summarization prompts). The frontend renders them as clickable chips in the detail view; clicking one runs a full-text search (title + committee + topics + overview + discussions + action items) across all jurisdictions.
+
+Transcript summaries see the whole transcript (`MAX_TRANSCRIPT_CHARS`, 300,000; the longest so far is ~184,000). It was 90,000 until Oct. 2026, which cut 33 of 193 transcripts, every council and county board meeting among them, where the night's big votes come last: Sept. 8's summary called the lead ordinance "Approved" because "Motion failed. 5 to six." never reached the model. Each summary records `_transcript_chars`, what the model saw. The transcript prompt also lists the results the chair announced with a tally ("Motion passes 9 to2", "motion failed. 5 to six"), found by code over the whole transcript (`vote_announcements.prompt_block`), and tells the model each belongs in `votes` with that outcome and tally. Chairs word them many ways ("Vote passed 11 to zero", "and that passed", "Pass seven to four", and the captions' "Past 8 to three" for "passed"). A tally followed by a unit ("the past 3 to 5 years") or by where an earlier vote happened ("That passed five to zero at finance", "did pass 4 to 1 at the arts commission") isn't a result; a self-correction ("9 to 11 or 11 to zero, sorry") takes the second tally, and a pass with yes ≤ no is left out as unclear. Marathon County's board doesn't say tallies aloud, so its votes still come from the model alone.
+
+Transcript/minutes summaries also emit a structured `votes` array ({item, motion, mover, second, outcome, tally}); the Votes tab renders it for non-CivicClerk sources (CivicClerk's `civicItems` takes precedence). `assets/rosters.json` holds per-source officials — used as Whisper vocabulary hints AND as authoritative name spellings in transcript/minutes prompts. **Update rosters after each April election.**
+
+## Data Sources (5 jurisdictions)
+
+| Source | Key | YouTube Channel | Agenda Platform |
+|---|---|---|---|
+| Marathon County | `marathon` | `@marathoncountyboardmeetings` | marathoncounty.gov |
+| City of Wausau | `wausau` | `@CityofWausauMeetings` | CivicClerk (wausauwi.portal.civicclerk.com) |
+| Village of Weston | `weston` | `@WestonWI` | AgendaCenter (westonwi.gov/agendacenter) |
+| Wausau School Board | `school_board` | channel `UCw63l8UWL_hpDtUy9IBIVvw` ("Wausau School District Board of Education" — NOT the empty `@wausauschoolboard`) | BoardBook (meetings.boardbook.org, org 1360) |
+| Village of Kronenwetter | `kronenwetter` | — (sporadic uploads only) | Municode Meetings (kronenwetter-wi.municodemeetings.com) |
+| DC Everest School Board | `dc_everest` | `@dceverestschoolboard2202` | BoardBook (meetings.boardbook.org, org 1315) |
+
+**BoardBook districts** (`school_board`, `dc_everest`) share one generalized code path, configured in `BOARDBOOK_DISTRICTS` (config.py) by `{org, label, channel}`. Meetings are created agenda-only from BoardBook (`bb_<meeting_id>` IDs — globally unique across orgs, disambiguated by the stored `source`). The `[sb-video]` upgrade pass iterates districts, matching each agenda-only entry to a recording on that district's YouTube channel by date + meeting type, and re-summarizes from the transcript (window: `SCHOOL_BOARD_VIDEO_DAYS`, default 45). DC Everest posts recordings promptly with captions; Wausau posts days-to-weeks later. To add another BoardBook district: add a `BOARDBOOK_DISTRICTS` entry, a `CHANNELS` entry, frontend `SOURCE_CONFIG`/filters/colors, and an avatar.
+
+Note: DC Everest videos only extract via yt-dlp's `android` player client (the default web client returns a misleading "video unavailable"); the caption/audio fetch commands pass `--extractor-args youtube:player_client=default,android`.
+
+Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use the ADA HTML endpoint (no PDF parsing); when official minutes post days-to-weeks later, the `[kw-minutes]` upgrade pass re-summarizes from them (`_source="minutes"`, actual votes/outcomes — Sonnet; agenda summaries use Haiku). Window: `KRONENWETTER_MINUTES_DAYS`, default 45.
+
+## Upcoming Meeting Schedule Logic
+- **Marathon County:** Rule-based (committee schedules follow nth-weekday patterns)
+- **City of Wausau:** CivicClerk OData API for real posted meetings
+- **Village of Weston:** AgendaCenter HTML scrape + rule-based fallback
+- **School Board:** BoardBook scrape + rule-based (2nd Monday = Regular, 4th Monday = Ed/Op Committee)
+- **Kronenwetter:** Municode hub scrape (portal posts real future meetings weeks ahead)
+- **DC Everest:** BoardBook scrape (org 1315; posts agendas ~1 week ahead) + rule-based fill (Regular School Board Meeting, 3rd Wednesday 6:30 PM). Rule projections are suppressed when a posted meeting on the same date covers them, even if BoardBook words it differently
+
+## Key Architecture Notes
+- YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
+- **CI cannot fetch YouTube captions or per-video metadata at all** — YouTube blocks cloud IPs regardless of cookies (verified Aug 30, 2026 with a fresh export). The workflow sets `CAPTION_FETCH=false` so runs skip the attempts. The **residential machine is the transcript path**: the `MarathonMeetings-RefreshTranscripts` task (7 AM, noon, 5 PM, 10 PM; 3h limit) runs `scripts/refresh-transcripts.ps1` → `fetch_transcript.py --all` with the project `.venv` (install packages with `.venv\Scripts\python.exe -m pip`, not the PATH python). It upgrades displayed agenda-only meetings, matches BoardBook recordings and Kronenwetter SoundCloud audio (local Whisper, `small`; audio jobs run last, capped per run by `MAX_AUDIO_JOBS`, default 3), and gap-sweeps the channel listings for videos CI never created entries for (`GAP_SWEEP_DAYS`, default 45) — shipping `transcripts/<id>.meta.json` sidecars so CI's ingest never needs YouTube. The wrapper logs every run to `logs/refresh-*.log` (14 days), updates yt-dlp and youtube-transcript-api weekly, and commits anything new under `transcripts/` (so transcripts from a killed run still ship). Videos YouTube reports private/removed are recorded in `transcripts/unavailable.json` and not retried. Watchdogs: `skipped_videos.json` records when CI first saw each stuck video; one lingering past `STALE_VIDEO_HOURS` (36) opens a "🏠 Residential transcript fetcher may be down" issue (auto-closes); skipped videos that vanish from their channel listing (made private/deleted) are dismissed automatically. `YOUTUBE_COOKIES` is retained but currently unused — see `docs/cookie-refresh.md`.
+- `src/data/meetings.json` is the single source of truth for displayed past meetings; `inject_meetings.py` rewrites it newest-first, pruned to MAX_MEETINGS (50). The JSX imports it directly via `import MEETINGS from "./src/data/meetings.json"`
+- `src/data/upcoming.json` holds upcoming meetings keyed by source (`marathon`, `wausau`, `weston`, `school_board`, `kronenwetter`, `dc_everest`). `update_upcoming.py` rewrites the whole file each run; network fetches retry 3× (`_get`), and a source whose upstream still doesn't answer keeps its last-known-good future meetings instead of going blank (CivicClerk timeouts blanked Wausau five times in Aug–Sept 2026)
+- State files: `processed_meetings.json` (scraper state — what's been summarized) and `injected_meetings.json` (which summaries have already been injected into JSX). Both files persist between CI runs and are committed back to the repo by the workflow.
+- Summaries stored in `summaries/` directory as `{video_id}_summary.json` and `{video_id}_votes.json` sidecars
+
+## WPR Design System (must follow)
+- **Brand teal:** `#3e847a` (dark), `#4aaba7` (primary, used as TEAL constant in JSX), `#3e9e9a` (alt)
+- **Display / impact text:** Bebas Neue (uppercase labels, badges, section heads — the dominant display face)
+- **Headlines:** Playfair Display (long-form titles and the masthead wordmark)
+- **Body text:** Lora (running prose in meeting overviews and discussion blocks)
+- **Data / timestamps / agenda code:** plain `monospace` stack (system mono — Consolas, Menlo, etc.)
+- **Palette:** Cream (`#F7F3EC`) / ink black (`#1A1209`) newspaper aesthetic
+- **Divider rules:** `#E0D8CC`
+- **WPR logo:** Circular badge JPEG (despite .png extension) — served as a static file from `/public/`
+
+## Committee Color Map
+Committees have assigned badge colors for visual differentiation. Existing assignments live in COMMITTEE_STYLES in the JSX. When adding new committees, pick a dark, muted tone that contrasts with white text and doesn't duplicate existing colors.
+
+## Source Accent Colors
+- Marathon County: teal (`#4aaba7`)
+- City of Wausau: red (`#C0392B`)
+- Village of Weston: forest green (`#3A6B43`)
+- Wausau School Board: plum (`#6B2D5C`)
+- Village of Kronenwetter: gold (`#8B6914`)
+- DC Everest School Board: pine teal (`#1F6F6B`)
+
+## Conventions
+- All Python scripts use `argparse` and support `--source` and `--dry-run` flags where applicable
+- Secrets: `ANTHROPIC_API_KEY` stored as GitHub repo secret
+- JSX uses inline styles, not CSS modules or Tailwind
+- Keep the React component as a single file (`marathon-meetings.jsx` in `src/`)
+- Commit messages from Actions use format: `chore: update meetings data [skip ci]`
+- Dates in MEETINGS entries use human-readable format ("March 12, 2026") plus machine-sortable `shortDate` ("MAR 12")
+
+## Common Tasks
+- **Add a new jurisdiction:** Add a channel/scrape config to the summarizer, create an UPCOMING array in JSX, add fetch logic to `update_upcoming.py`, add a SOURCE_CONFIG entry in the frontend
+- **Fix a broken scraper:** Check if the upstream site changed HTML structure; CivicClerk and BoardBook APIs are more stable than HTML scraping
+- **Update committee colors:** Edit COMMITTEE_STYLES object in the JSX
+- **Manual meeting processing:** Use `--url` flag with a specific YouTube URL

@@ -1,118 +1,422 @@
-# CLAUDE.md — Central Wisconsin Meeting Tracker
+# CLAUDE.md — Gavel
 
 ## Project Overview
-Local government meeting tracker for Wausau Pilot & Review (wausaupilotandreview.com), a nonprofit newsroom covering central Wisconsin and Marathon County. Scrapes YouTube channels and agenda platforms for government meetings, generates AI summaries via the Anthropic API, and publishes a React dashboard to GitHub Pages at `rowanflynnpilot.github.io/marathon-meetings`.
+Config-driven civic meeting intelligence engine, productized from the WPR
+marathon-meetings tracker (see RESHAPE.md for the plan and its July 2026
+amendments). One `instance.json` defines an entire newsroom deployment:
+jurisdictions, adapters, theme, committee maps. The engine scrapes agendas
+and YouTube recordings, summarizes with Claude, and writes `data/*.json`
+for a runtime-fetching React frontend. Deployed as one private repo per
+customer newsroom, generated from this template repo, operated by Rowan.
+WPR is Instance Zero and the permanent reference deployment.
 
 ## Tech Stack
-- **Frontend:** React (Vite), deployed to GitHub Pages
-- **Scrapers:** Python 3.12 (yt-dlp, requests, beautifulsoup4, anthropic SDK)
-- **CI/CD:** GitHub Actions — runs every 4 hours at :17 past the hour (00:17, 04:17, … UTC; off the top of the hour, where GitHub drops scheduled runs under load), also manual dispatch with backfill option
-- **Data flow:** Python scrapers → JSON summaries → inject into JSX → Vite build → deploy
+- **Engine:** Python 3.12 package in `engine/` (yt-dlp, requests, anthropic,
+  pdfplumber; optional faster-whisper locally)
+- **Frontend:** React (Vite) in `frontend/` — Phase 2, fetches
+  `instance.json` + `data/*.json` at runtime, theme via CSS variables
+- **CI/CD:** GitHub Actions (Phase 2 port) — cron every 4 hours + manual
+  dispatch, commits `data/` back, deploys to Pages
 
 ## Commands
-- `npm install` — install Node dependencies
-- `npm run dev` — local dev server
-- `npm run build` — production build to `dist/`
-- `python marathon_meeting_summarizer.py` — check for new meetings (incremental)
-- `python marathon_meeting_summarizer.py --backfill` — process all historical meetings
-- `python marathon_meeting_summarizer.py --source wausau` — single source only
-- `python marathon_meeting_summarizer.py --url URL` — process a specific YouTube video
-- `python inject_meetings.py` — read summaries and inject into the MEETINGS array in JSX
-- `python update_upcoming.py` — refresh upcoming meeting schedules in JSX
-- `python generate_digest.py` — render `public/digest.png` (weekly newsletter image of upcoming meetings); `--date YYYY-MM-DD` overrides "today", `--days N` the window
-- `python generate_ics.py` — render `public/meetings.ics` (subscribable calendar of upcoming meetings; deterministic output, America/Chicago TZ)
-- `python generate_roundup.py` — draft `public/roundup.txt` + `.html` newsletter blurb (one Sonnet call; CI runs it Mondays or via the `roundup` dispatch input)
-- `python backfill_topics.py` — tag meetings that predate the `topics` field (batched Haiku; no-ops once everything is tagged)
-- `python backfill_votes.py` — extract structured `votes` for outcome-based meetings that predate the field (batched Haiku; presence of the votes key = processed)
-- `python generate_pages.py` — static indexable HTML per meeting at `public/meetings/<id>/` + `sitemap.xml` + `robots.txt`; old pages persist as the archive. `PAGES_BASE_URL` env overrides the base for a future custom domain.
-- `python cost_ledger.py --summary` — measured Claude spend (24h / 7d / 30d, by script and model) from `costs.json`. Every Claude call goes through `call_anthropic_with_retry`, which records its token usage; CI commits the ledger (120 days) and opens one self-closing "💸 Unusual Claude API spend" issue when the last 24h exceed $2 or 40 calls. Local runs log to `logs/costs-local.json` instead. Add new models to `PRICES` (unknown models are priced at the highest known rate).
-- `python audit_votes.py` — check every transcript summary's `votes` against the results the chair announced with a tally (`vote_announcements.py`, found by code): lists announced results a summary is missing or contradicts, and transcripts that were cut before reaching the model, then prints the IDs to redo. Redo them by running the Update Meetings workflow with `resummarize` set to those IDs (one Sonnet call each, ~$0.15 for a long meeting). Changes nothing itself. Tests: `python -m pytest test_vote_announcements.py`.
-- `python scrub_summaries.py [--check]` — the residents' privacy backstop and the corrections log. Removes a private person's home address from summaries, their `.md` mirrors, `src/data/meetings.json` and archive pages (addresses that are the subject of business stay; agenda item titles and motions are never touched), then re-applies every entry in `corrections.json` (`{id, find, replace, date, kind: "correction"|"privacy", note}`) so re-summarizing can't undo a fix. CI runs it after transcript ingest. The rules themselves live in `RESIDENT_PRIVACY_RULES` (summarizer): officials named; residents named only when the record is clear, never with a home address; students never named; no named person tied to a health condition. These are Herb Kohl grant commitments — don't loosen them. Readers reach the editor through the "Request a correction" mailto in the detail view and on every static page (editor@wausaupilotandreview.com).
-- `python check_overdue.py` — list displayed meetings still agenda-only past their source's normal recording lag (`EXPECTED_LAG_DAYS`; closed sessions excluded). CI turns a nonzero count into one self-closing "⏰ Meeting summaries overdue" issue — several overdue from one source usually means a matcher broke upstream.
+- `python -m engine.pipeline` — incremental run (scrape → summarize →
+  publish → upcoming). CI uses `--days 14`.
+- `python -m engine.pipeline --source KEY` — one jurisdiction only
+- `python -m engine.pipeline --url URL` — one specific YouTube video
+- `python -m engine.pipeline --backfill` — all historical videos
+- `python -m engine.pipeline --dry-run` — preview without processing
+- `python -m engine.pipeline --publish-only` — rebuild `data/*.json` from
+  existing state, no scraping/API calls (used for parity testing)
+- `python -m engine.ingest_transcript --video-id ID --transcript FILE` —
+  manually inject a pasted transcript for an agenda-only meeting
+- `python -m engine.digest [--days N] [--out PATH] [--date YYYY-MM-DD]` —
+  render the weekly newsletter PNG from data/upcoming.json, themed from
+  instance.json (fonts via theme.font_files, footer accent via
+  theme.digest_accent)
+- `python -m engine.fetch_transcripts [IDs] [--all] [--push]` — residential
+  transcript fetcher (operator machine only; CI IPs are caption-blocked).
+  Saves to transcripts/ for the CI ingest step; --push commits, pushes, and
+  triggers the workflow. BoardBook entries match recordings on the district
+  channel; municode jurisdictions with an `audio_url` (e.g. Kronenwetter's
+  SoundCloud) go through audio download + local Whisper (seeded with the
+  jurisdiction's `officials` as a vocabulary hint).
+- `python -m engine.ics [--out data/meetings.ics] [--days N]` — subscribable
+  calendar feed (deterministic; America/Chicago only in v1, other timezones
+  raise ConfigError)
+- `python -m engine.roundup [--days-back N] [--dry-run]` — weekly newsletter
+  draft (one Sonnet call, cost-ledgered purpose=roundup) → data/roundup.txt/.html
+- `python -m engine.pages [--out-dir frontend/public]` — static indexable
+  meeting pages + sitemap/robots. Gated by seo.pages_base_url; seo.noindex
+  emits robots Disallow + per-page noindex (REQUIRED for parity-soak
+  deployments). Pages persist after cards rotate off (permanent archive).
+  Each footer carries the tracker permalink (`#m/<id>`, the hash the frontend
+  reads) and, when `instance.corrections_email` is set, a "Request a
+  correction" mailto; `refresh_archive_footers` brings pages already on disk
+  up to date in place.
+- `python -m engine.scrub [--check] [--pages-dir frontend/public/meetings]` —
+  removes residents' home addresses from summaries/, data/meetings.json and
+  archive pages, and re-applies every fix logged in corrections.json.
+  Idempotent, no API calls. CI runs it after the last summarization and before
+  the data file and pages are rebuilt. `--check` reports without writing.
+- `python -m engine.overdue [--print-count] [--markdown FILE] [--today
+  YYYY-MM-DD] [--source KEY]` — displayed meetings still agenda-only past
+  their jurisdiction's `expected_lag_days` (closed sessions and jurisdictions
+  with nothing to upgrade from are excluded). CI turns a nonzero count into
+  one self-closing "⏰ Meeting summaries overdue" issue — several overdue from
+  one jurisdiction usually means a matcher broke upstream.
+- `python -m engine.costs --summary` — measured Claude spend (24h / 7d / 30d,
+  by purpose and model) from data/costs.json. `--check --print-status
+  [--markdown FILE]` is the spending alarm: TRIPPED when the last 24h exceed
+  `SPEND_ALARM_DAY_USD` (default 2.00) or `SPEND_ALARM_DAY_CALLS` (default
+  40). CI keeps one self-closing "💸 Unusual Claude API spend" issue.
+- `python -m engine.watchdog --print-count [--markdown FILE]` — reads the run
+  report's `stale_unprocessed` (videos the pipeline could not process for
+  `STALE_VIDEO_HOURS`, default 36) and writes the body of the self-closing
+  "🏠 Residential transcript fetcher may be down" issue.
+- `python -m engine.tipsheet [--date YYYY-MM-DD] [--stdout]` — the reporter
+  tip sheet → data/tipsheet.md + data/tipsheet.html (committed with the data;
+  not copied onto the deployed site). No API calls; sorts data/meetings.json and
+  data/upcoming.json into leads: votes and hearings on next week's agendas,
+  failed/tabled/split votes, meetings where 3+ residents spoke, named topics
+  recurring across meetings, overdue upgrades, next week's meetings with no
+  preview. Reports speaker counts only, never who spoke. CI writes it every run.
+- `python -m engine.report [--from YYYY-MM-DD] [--to YYYY-MM-DD] [--out FILE]
+  [--json]` — the funder report for a period (default: last 180 days), counted
+  from the state file, summary sidecars, corrections.json and the cost ledger:
+  meetings by board and by what they were summarized from, residents speaking
+  per meeting next to the prior equal-length period, corrections by kind,
+  agenda previews written, spend. No API calls. Run on demand; reader numbers
+  (Plausible) and alert subscribers are named in the report as not included.
 
-## GitHub Actions Pipeline Order
-1. `marathon_meeting_summarizer.py` → `summaries/*.json` + `summaries/*_summary.json` + `summaries/*_votes.json`
-2. `inject_transcript.py` (per file in `transcripts/`) → overrides agenda-only summaries with full-transcript ones
-3. `inject_meetings.py` → writes `src/data/meetings.json` (pruned to MAX_MEETINGS, newest first)
-4. `update_upcoming.py` → writes `src/data/upcoming.json` (keyed by source)
-5. `backfill_topics.py` → fills missing `topics` on displayed meetings + sidecars (steady-state: zero API calls)
-6. `generate_ics.py` → `public/meetings.ics`; `generate_roundup.py` (Mondays/dispatch) → `public/roundup.*`
-7. `generate_digest.py` → writes `public/digest.png` (Pillow; fonts in `assets/fonts/`; served at `/marathon-meetings/digest.png` for the newsletter)
-8. `npm run build` → `dist/` (copies everything in `public/`)
-9. Commit updated data files, deploy to Pages
+- `python -m engine.audit_votes [--json] [--root DIR]` — check every transcript
+  summary's `votes` against the results the chair announced with a tally
+  (`engine.vote_announcements`, found by code): lists announced results a
+  summary is missing or contradicts and transcripts that were cut before
+  reaching the model, then prints the IDs to redo. Redo them by running the
+  workflow with `resummarize` set to those IDs (one Sonnet call each, ~$0.15
+  for a long meeting; `RESUMMARIZE_IDS` forces them in `ingest_transcript`).
+  Changes nothing itself.
+- `python -m engine.rosters [--out assets/rosters.json]` — exports the
+  officials from instance.json for tools that read name spellings without the
+  whole config. CI writes and commits it every run; edit instance.json, never
+  the export.
+- `python -m engine.reels --snapshot FILE | --since FILE | --repo` — optional
+  hand-off to a companion repo that drafts video reels (instance.json `reels`
+  {repo, bodies}). CI snapshots the transcript-built meetings before the run
+  and, after the commit reaches main, sends one `transcript-ingested`
+  dispatch (video ID + commit) per newly transcript-built full meeting of the
+  named bodies. Needs the `REELS_DISPATCH_TOKEN` secret; skips quietly
+  without it. Committees, educational sessions and split meetings are left
+  to a person.
+- Tests: `python -m unittest discover tests`, or `python -m pytest tests` to
+  include the pytest-style `tests/test_vote_announcements.py`.
 
-Reel drafts: before step 1 the run snapshots which meetings have transcript-built summaries (`reel_candidates.py --snapshot`). After the commit, any full city council or county board meeting (not a committee, though the tracker titles some "Wausau City Council ... Committee Meeting", and not one split into parts) that became transcript-built in this run is sent to RowanFlynnPilot/wpr-reels as a `transcript-ingested` dispatch (video ID + this commit). That repo's draft-reel workflow opens a draft reel PR. The step needs the `REELS_DISPATCH_TOKEN` secret (fine-grained, wpr-reels Contents: read and write), skips quietly without it, and never fails the run. Tests: `python -m pytest test_reel_candidates.py`.
+## Transcript summaries and announced votes
 
-Summaries carry a `topics` array (3-5 Title Case tags, emitted by all five summarization prompts). The frontend renders them as clickable chips in the detail view; clicking one runs a full-text search (title + committee + topics + overview + discussions + action items) across all jurisdictions.
+Transcript summaries see the whole transcript (`MAX_TRANSCRIPT_CHARS`,
+300,000). Each records `_transcript_chars`, what the model saw. The transcript
+prompt also lists the results the chair announced with a tally ("Motion passes
+9 to2", "motion failed. 5 to six"), found by code over the whole transcript
+(`vote_announcements.prompt_block`), and tells the model each belongs in
+`votes` with that outcome and tally. A tally followed by a unit ("the past 3
+to 5 years") or by where an earlier vote happened ("That passed five to zero
+at finance") isn't a result; a self-correction takes the second tally; a pass
+with yes ≤ no is left out as unclear. Bodies that don't say tallies aloud
+still get their votes from the model alone.
 
-Transcript summaries see the whole transcript (`MAX_TRANSCRIPT_CHARS`, 300,000; the longest so far is ~184,000). It was 90,000 until Oct. 2026, which cut 33 of 193 transcripts, every council and county board meeting among them, where the night's big votes come last: Sept. 8's summary called the lead ordinance "Approved" because "Motion failed. 5 to six." never reached the model. Each summary records `_transcript_chars`, what the model saw. The transcript prompt also lists the results the chair announced with a tally ("Motion passes 9 to2", "motion failed. 5 to six"), found by code over the whole transcript (`vote_announcements.prompt_block`), and tells the model each belongs in `votes` with that outcome and tally. Chairs word them many ways ("Vote passed 11 to zero", "and that passed", "Pass seven to four", and the captions' "Past 8 to three" for "passed"). A tally followed by a unit ("the past 3 to 5 years") or by where an earlier vote happened ("That passed five to zero at finance", "did pass 4 to 1 at the arts commission") isn't a result; a self-correction ("9 to 11 or 11 to zero, sorry") takes the second tally, and a pass with yes ≤ no is left out as unclear. Marathon County's board doesn't say tallies aloud, so its votes still come from the model alone.
+## Agenda previews
 
-Transcript/minutes summaries also emit a structured `votes` array ({item, motion, mover, second, outcome, tally}); the Votes tab renders it for non-CivicClerk sources (CivicClerk's `civicItems` takes precedence). `assets/rosters.json` holds per-source officials — used as Whisper vocabulary hints AND as authoritative name spellings in transcript/minutes prompts. **Update rosters after each April election.**
+The normal pipeline run attaches a `preview` to upcoming meetings in the next
+`PREVIEW_DAYS` (8) whose agenda is posted: `{overview, items: [{item, why,
+action: vote|hearing|discussion|report}], publicComment, closedSession,
+generated}`, one Haiku call each (`purpose=agenda_preview`), through
+`engine.previews.attach` inside `update_upcoming(previews="generate")`.
+`--publish-only` attaches cached previews and never calls Claude.
 
-## Data Sources (5 jurisdictions)
+- `data/previews.json` is the cache: one entry per meeting (key =
+  sha1 of source|date|name) holding the agenda text's hash. An unchanged
+  agenda never costs a second call; an agenda is re-read at most every
+  `PREVIEW_RECHECK_HOURS` (12); a meeting is previewed at most 3 times however
+  often its agenda is revised; at most `PREVIEW_MAX_PER_RUN` (10) calls per run,
+  the rest deferred to the next run.
+- A Claude failure stops preview generation for that run and charges no
+  attempt; an agenda that isn't posted yet is looked for again every run. A
+  preview failure never holds up the upcoming list.
+- Agenda text per platform is in `previews._AGENDA_TEXT`. `rule_schedule`
+  jurisdictions have no posted agenda and get no previews; a new agendas
+  adapter needs an entry there to get them.
+- The frontend's Upcoming panel expands a preview and fires the Plausible
+  event `Agenda Preview` with `{source, days_before}` — the "agenda views
+  before the meeting" number in funder reports. Add it as a Goal in Plausible.
 
-| Source | Key | YouTube Channel | Agenda Platform |
-|---|---|---|---|
-| Marathon County | `marathon` | `@marathoncountyboardmeetings` | marathoncounty.gov |
-| City of Wausau | `wausau` | `@CityofWausauMeetings` | CivicClerk (wausauwi.portal.civicclerk.com) |
-| Village of Weston | `weston` | `@WestonWI` | AgendaCenter (westonwi.gov/agendacenter) |
-| Wausau School Board | `school_board` | channel `UCw63l8UWL_hpDtUy9IBIVvw` ("Wausau School District Board of Education" — NOT the empty `@wausauschoolboard`) | BoardBook (meetings.boardbook.org, org 1360) |
-| Village of Kronenwetter | `kronenwetter` | — (sporadic uploads only) | Municode Meetings (kronenwetter-wi.municodemeetings.com) |
-| DC Everest School Board | `dc_everest` | `@dceverestschoolboard2202` | BoardBook (meetings.boardbook.org, org 1315) |
+## Speaker counts
 
-**BoardBook districts** (`school_board`, `dc_everest`) share one generalized code path, configured in `BOARDBOOK_DISTRICTS` (config.py) by `{org, label, channel}`. Meetings are created agenda-only from BoardBook (`bb_<meeting_id>` IDs — globally unique across orgs, disambiguated by the stored `source`). The `[sb-video]` upgrade pass iterates districts, matching each agenda-only entry to a recording on that district's YouTube channel by date + meeting type, and re-summarizes from the transcript (window: `SCHOOL_BOARD_VIDEO_DAYS`, default 45). DC Everest posts recordings promptly with captions; Wausau posts days-to-weeks later. To add another BoardBook district: add a `BOARDBOOK_DISTRICTS` entry, a `CHANNELS` entry, frontend `SOURCE_CONFIG`/filters/colors, and an avatar.
+The transcript and minutes prompts return `publicCommentSpeakers` (residents
+who spoke; null when it can't be counted). `engine.speakers.speaker_count`
+uses that field, and for summaries written before it existed reads the count
+out of the `publicComment` prose where one is stated. Unknown stays unknown:
+reports leave those meetings out of the average rather than counting zero.
+`publish` carries the field onto the meeting record when present.
 
-Note: DC Everest videos only extract via yt-dlp's `android` player client (the default web client returns a misleading "video unavailable"); the caption/audio fetch commands pass `--extractor-args youtube:player_client=default,android`.
+## Architecture
 
-Kronenwetter meetings are created from the Municode hub (`kw_` IDs). Agendas use the ADA HTML endpoint (no PDF parsing); when official minutes post days-to-weeks later, the `[kw-minutes]` upgrade pass re-summarizes from them (`_source="minutes"`, actual votes/outcomes — Sonnet; agenda summaries use Haiku). Window: `KRONENWETTER_MINUTES_DAYS`, default 45.
+```
+engine/
+├── config.py            instance.json loader/validator + env-level knobs
+├── errors.py            named errors (ConfigError, AdapterStructureError,
+│                        UpstreamUnavailableError, CorrectionsFileError,
+│                        TranscriptAuthError, UnknownModelPricingError)
+├── net.py               shared HTTP GET for adapters: 3 attempts, then
+│                        UpstreamUnavailableError ("no answer")
+├── state.py             processed_meetings.json / injected_meetings.json
+├── costs.py             pricing constants + data/costs.json ledger +
+│                        spending alarm CLI
+├── claude.py            Anthropic retry wrapper — ALL calls flow through
+│                        call_claude(), which records costs
+├── summarize.py         the 5 prompts: transcript / agenda / agenda+votes /
+│                        boardbook / minutes (region + newsroom from config)
+├── transcripts.py       caption fetch chain (yt-transcript-api → yt-dlp →
+│                        Whisper), parse_vtt
+├── output.py            summary .md + _summary.json/_votes.json sidecars
+├── publish.py           state + sidecars → data/meetings.json
+├── upcoming.py          adapters → data/upcoming.json (last-known-good
+│                        per jurisdiction when an upstream doesn't answer)
+├── previews.py          agenda previews on upcoming meetings (Haiku, cached
+│                        in data/previews.json by agenda hash)
+├── speakers.py          public-comment speaker counts (field, else prose)
+├── report.py            funder report for a period (no API calls)
+├── tipsheet.py          weekly reporter tip sheet (no API calls)
+├── watchdog.py          skipped_videos.json first-seen tracking → stale list
+├── overdue.py           agenda-only meetings past expected_lag_days
+├── scrub.py             residents' address scrub + corrections.json applier
+├── pipeline.py          orchestrator + CLI (python -m engine.pipeline)
+├── ingest_transcript.py manual transcript injection tool
+├── pdftext.py           shared pdfplumber helper
+└── adapters/
+    ├── __init__.py      registry — get_adapter(name), fail loud on unknown
+    ├── youtube.py       channel listing (flat-playlist), title-date parsing,
+    │                    LISTED_IDS / LISTED_DURATIONS per run, ytdlp_base()
+    ├── civicclerk.py    OData API: votes, agenda text, upcoming
+    ├── legistar.py      Legistar Web API: items + roll calls, agenda item list, upcoming
+    ├── primegov.py      PrimeGov public portal: HTML agenda text, upcoming (no votes)
+    ├── boardbook.py     org-page scrape, agenda scrape, recording matcher
+    ├── agendacenter.py  CivicPlus AgendaCenter scrape (Weston-style)
+    ├── municode.py      Municode Meetings hub (Kronenwetter-style)
+    └── rule_schedule.py nth-weekday recurring meeting projection;
+                         covered_by_posted (rule/posted dedupe)
+```
 
-## Upcoming Meeting Schedule Logic
-- **Marathon County:** Rule-based (committee schedules follow nth-weekday patterns)
-- **City of Wausau:** CivicClerk OData API for real posted meetings
-- **Village of Weston:** AgendaCenter HTML scrape + rule-based fallback
-- **School Board:** BoardBook scrape + rule-based (2nd Monday = Regular, 4th Monday = Ed/Op Committee)
-- **Kronenwetter:** Municode hub scrape (portal posts real future meetings weeks ahead)
-- **DC Everest:** BoardBook scrape (org 1315; posts agendas ~1 week ahead) + rule-based fill (Regular School Board Meeting, 3rd Wednesday 6:30 PM). Rule projections are suppressed when a posted meeting on the same date covers them, even if BoardBook words it differently
+## Contracts
 
-## Key Architecture Notes
-- YouTube audio downloads are blocked from cloud IPs (GitHub Actions); the most reliable fallback is pasting transcripts from the YouTube app directly or using yt-dlp for transcript extraction (not audio)
-- **CI cannot fetch YouTube captions or per-video metadata at all** — YouTube blocks cloud IPs regardless of cookies (verified Aug 30, 2026 with a fresh export). The workflow sets `CAPTION_FETCH=false` so runs skip the attempts. The **residential machine is the transcript path**: the `MarathonMeetings-RefreshTranscripts` task (7 AM, noon, 5 PM, 10 PM; 3h limit) runs `scripts/refresh-transcripts.ps1` → `fetch_transcript.py --all` with the project `.venv` (install packages with `.venv\Scripts\python.exe -m pip`, not the PATH python). It upgrades displayed agenda-only meetings, matches BoardBook recordings and Kronenwetter SoundCloud audio (local Whisper, `small`; audio jobs run last, capped per run by `MAX_AUDIO_JOBS`, default 3), and gap-sweeps the channel listings for videos CI never created entries for (`GAP_SWEEP_DAYS`, default 45) — shipping `transcripts/<id>.meta.json` sidecars so CI's ingest never needs YouTube. The wrapper logs every run to `logs/refresh-*.log` (14 days), updates yt-dlp and youtube-transcript-api weekly, and commits anything new under `transcripts/` (so transcripts from a killed run still ship). Videos YouTube reports private/removed are recorded in `transcripts/unavailable.json` and not retried. Watchdogs: `skipped_videos.json` records when CI first saw each stuck video; one lingering past `STALE_VIDEO_HOURS` (36) opens a "🏠 Residential transcript fetcher may be down" issue (auto-closes); skipped videos that vanish from their channel listing (made private/deleted) are dismissed automatically. `YOUTUBE_COOKIES` is retained but currently unused — see `docs/cookie-refresh.md`.
-- `src/data/meetings.json` is the single source of truth for displayed past meetings; `inject_meetings.py` rewrites it newest-first, pruned to MAX_MEETINGS (50). The JSX imports it directly via `import MEETINGS from "./src/data/meetings.json"`
-- `src/data/upcoming.json` holds upcoming meetings keyed by source (`marathon`, `wausau`, `weston`, `school_board`, `kronenwetter`, `dc_everest`). `update_upcoming.py` rewrites the whole file each run; network fetches retry 3× (`_get`), and a source whose upstream still doesn't answer keeps its last-known-good future meetings instead of going blank (CivicClerk timeouts blanked Wausau five times in Aug–Sept 2026)
-- State files: `processed_meetings.json` (scraper state — what's been summarized) and `injected_meetings.json` (which summaries have already been injected into JSX). Both files persist between CI runs and are committed back to the repo by the workflow.
-- Summaries stored in `summaries/` directory as `{video_id}_summary.json` and `{video_id}_votes.json` sidecars
+### instance.json (THE deployment contract)
+Validated at pipeline start by `engine/config.py` — missing required
+fields or unknown adapter names abort with a named ConfigError before any
+network call. No defaults for required fields, no partial runs. See the
+WPR `instance.json` in this repo for the reference schema; notable blocks
+per jurisdiction:
+- `video` (nullable): `{adapter: "youtube", channel_url, doc_pattern?,
+  upgrade_window_days?, scan_descriptions_for_upcoming?}`
+- `agendas`: `{adapter: civicclerk|legistar|primegov|boardbook|agendacenter|municode|
+  rule_schedule, ...adapter-specific fields, days_ahead?, fallback_rules?}`.
+  `rules` / `fallback_rules` entries are `{name, weekday 0-6 (0=Monday), nth
+  1-5, time, url?}`, validated at load. A BoardBook fallback projection is
+  dropped when a posted meeting on the same date covers it under different
+  wording (the rule's name words, minus filler like "school board meeting",
+  all appear in the posted name).
+  A civicclerk, legistar or primegov jurisdiction with `video: null` is
+  **portal-first**: its meetings are created from the portal's own listing
+  (`list_recent`, ids `cc_`/`lg_`/`pg_<portal id>`), summarized from the agenda
+  as soon as it's posted (last 30 days on a first run, or `--days`), and
+  summarized again from the agenda and the votes once CivicClerk or Legistar
+  records them (`votes_upgrade_window_days`, default 30; PrimeGov posts none).
+  With a video channel, the same adapters supply agenda text and votes for
+  each recording instead.
+  civicclerk, legistar and primegov (`client`: the city's Legistar or PrimeGov
+  name, e.g. `sanjose`, `cityofoviedo`) read a meeting's agenda from its portal
+  page, its doc_url (`PORTAL_ADAPTERS`); civicclerk and legistar also give
+  structured items with recorded votes (`VOTE_ADAPTERS`).
+- `committee_map`: substring (lowercased, "and"→"&" normalized) → display
+  name for badges
+- `title_strip_patterns`: regexes removed from display titles (the source
+  badge already identifies the jurisdiction)
+- `officials` (optional): "Name (Role)" strings — authoritative name
+  spellings injected into transcript/minutes prompts and used as Whisper
+  vocabulary hints. **Update after each spring election.**
+- `calendar_url` (optional): the jurisdiction's official calendar page
+  (frontend FULL CALENDARS link)
+- `expected_lag_days` (optional, positive integer, default 7): how long a
+  meeting here normally stays agenda-only before its recording, audio,
+  minutes or votes arrive. `engine.overdue` flags anything later.
 
-## WPR Design System (must follow)
-- **Brand teal:** `#3e847a` (dark), `#4aaba7` (primary, used as TEAL constant in JSX), `#3e9e9a` (alt)
-- **Display / impact text:** Bebas Neue (uppercase labels, badges, section heads — the dominant display face)
-- **Headlines:** Playfair Display (long-form titles and the masthead wordmark)
-- **Body text:** Lora (running prose in meeting overviews and discussion blocks)
-- **Data / timestamps / agenda code:** plain `monospace` stack (system mono — Consolas, Menlo, etc.)
-- **Palette:** Cream (`#F7F3EC`) / ink black (`#1A1209`) newspaper aesthetic
-- **Divider rules:** `#E0D8CC`
-- **WPR logo:** Circular badge JPEG (despite .png extension) — served as a static file from `/public/`
+Top-level optional blocks: `instance.tracker_page_url` (reader-facing embed
+page; ics/roundup/pages link there), `seo` {pages_base_url, noindex,
+description, og_image, favicon, touch_icon — the last four are written into
+index.html's head at build time by the `gavel-instance-head` plugin in
+`frontend/vite.config.js`, for link previews and crawlers that don't run JS},
+`analytics` {plausible_domain}, `sponsor` {prompt, button, email, subject}.
 
-## Committee Color Map
-Committees have assigned badge colors for visual differentiation. Existing assignments live in COMMITTEE_STYLES in the JSX. When adding new committees, pick a dark, muted tone that contrasts with white text and doesn't duplicate existing colors.
+Other optional fields, all validated at load:
+- `instance.ics_uid_domain` (default `"gavel"`; letters, digits, dots,
+  hyphens): suffix of every calendar-feed UID (`<hash>@<domain>`).
+  Subscribers' calendars key events on the UID — **never change it on a live
+  feed**; an instance taking over an existing feed sets it to that feed's
+  suffix (WPR: `marathon-meetings`).
+- `instance.corrections_email` (an email address): where readers send
+  correction requests. Without it, static pages and the frontend show no
+  "Request a correction" link.
+- `place_names` (top level, list of non-empty strings): municipality and state
+  names that may trail a street address (", Wausau, WI"). `engine.scrub`
+  removes up to two along with a resident's address; with none listed only
+  the address itself is removed.
 
-## Source Accent Colors
-- Marathon County: teal (`#4aaba7`)
-- City of Wausau: red (`#C0392B`)
-- Village of Weston: forest green (`#3A6B43`)
-- Wausau School Board: plum (`#6B2D5C`)
-- Village of Kronenwetter: gold (`#8B6914`)
-- DC Everest School Board: pine teal (`#1F6F6B`)
+### Normalized PAST-MEETING record (element of data/meetings.json)
+```
+{id, source, title, date "March 12, 2026", shortDate "MAR 12", committee,
+ duration "1h 20m"|null, url, docUrl, isAgendaOnly, badge "new"|null,
+ overview, agenda: [{time, item}], discussions: [{item, body}],
+ publicComment, actionItems: [str],
+ topics: [str],                       # 3-5 Title Case tags from all prompts
+ votes: [{item, motion, mover, second, outcome, tally}],  # transcript/minutes
+ civicItems?: [...]}
+```
+Newest-first, pruned to `instance.max_meetings`. `id` is the YouTube video
+ID, `bb_<meeting_id>` (BoardBook), or `<id_prefix>_<guid>` (Municode).
 
-## Conventions
-- All Python scripts use `argparse` and support `--source` and `--dry-run` flags where applicable
-- Secrets: `ANTHROPIC_API_KEY` stored as GitHub repo secret
-- JSX uses inline styles, not CSS modules or Tailwind
-- Keep the React component as a single file (`marathon-meetings.jsx` in `src/`)
-- Commit messages from Actions use format: `chore: update meetings data [skip ci]`
-- Dates in MEETINGS entries use human-readable format ("March 12, 2026") plus machine-sortable `shortDate` ("MAR 12")
+### Normalized UPCOMING record (data/upcoming.json, keyed by jurisdiction)
+```
+{date "2026-07-08", time "5:00 PM"|"", name, url, source}
+```
+Adapters' `fetch_upcoming` raises UpstreamUnavailableError when the portal
+doesn't answer (after `engine.net`'s 3 attempts); `engine.upcoming` then keeps
+that jurisdiction's previously published meetings dated today or later
+instead of writing an empty list. An empty list means the upstream answered
+with no meetings. AgendaCenter is the exception: a failed page fetch falls
+through to its `fallback_rules` projection.
 
-## Common Tasks
-- **Add a new jurisdiction:** Add a channel/scrape config to the summarizer, create an UPCOMING array in JSX, add fetch logic to `update_upcoming.py`, add a SOURCE_CONFIG entry in the frontend
-- **Fix a broken scraper:** Check if the upstream site changed HTML structure; CivicClerk and BoardBook APIs are more stable than HTML scraping
-- **Update committee colors:** Edit COMMITTEE_STYLES object in the JSX
-- **Manual meeting processing:** Use `--url` flag with a specific YouTube URL
+### Cost ledger entry (data/costs.json)
+```
+{ts, meeting_id, jurisdiction, purpose, model, input_tokens, output_tokens, usd}
+```
+Priced per call from `PRICING_PER_MTOK` in `engine/costs.py` (the pipeline
+is two-tier: Sonnet for transcript/minutes, Haiku for agenda-only). An
+unknown model raises UnknownModelPricingError — never silently unpriced.
+
+### Residents' privacy (binding)
+Officials are named; a private resident only when the record states the name
+clearly, never with a home address; students and minors never; no named
+private person is tied to a health condition. The transcript and minutes
+prompts carry the rules (`summarize.RESIDENT_PRIVACY_RULES`); `engine.scrub`
+is the backstop for the address rule. It leaves an address that is the
+subject of business ("Rezoning of 123 Elm Street") and the government's own
+wording (`item`, `title`, `motion` keys).
+
+### corrections.json (repo root, committed)
+```
+[{id, find, replace, date "2026-11-17", kind "correction"|"privacy", note}]
+```
+The public log of fixes. `id` is the meeting ID; `find` → `replace` is an
+exact string replacement re-applied to that meeting's summary, mirror, data
+record and static page on every run, so a re-summarization can't undo it.
+`correction` = an error fixed; `privacy` = a name or detail withheld under the
+residents rule. A malformed log raises CorrectionsFileError.
+
+### Run report (agenda_only_report.json, written every non-dry run, not committed)
+```
+{agenda_only: [...], transcript_based: [...], total_processed,
+ stale_unprocessed: [{id, title, source, age_hours}]}
+```
+`stale_unprocessed` comes from `skipped_videos.json`: the pipeline records
+when it first saw each YouTube video it had neither a transcript nor an
+agenda for. A video leaves the watch list when it is processed, listed in
+`instance.skip_ids`, recorded in `transcripts/unavailable.json` (the
+residential fetcher saw YouTube report it private or removed), or absent from
+its channel's listing this run.
+
+### Summary sidecar `_source` tag (drives upgrade passes)
+`transcript` | `minutes` (outcome-based, final) vs `agenda` |
+`agenda_with_votes` | `boardbook_agenda` (upgradeable). Upgrade passes:
+caption retry (14 days), BoardBook recording match
+(`video.upgrade_window_days`), Municode minutes
+(`agendas.minutes_upgrade_window_days`).
+
+## State files (idempotency — semantics unchanged from marathon-meetings)
+- `processed_meetings.json` — what's been summarized (ID → metadata +
+  summary path). Committed back by CI.
+- `injected_meetings.json` — which IDs are already in data/meetings.json.
+  Upgrade passes clear their IDs to force re-publication.
+- `summaries/` — `.md` + `_summary.json` / `_votes.json` sidecars.
+- `skipped_videos.json` — `{video_id: {first_seen, title, source}}`, the
+  stuck-video watch list. Committed back by CI.
+- `corrections.json` — the corrections log (hand-edited; CI commits it back
+  unchanged so it travels with the data).
+
+## Failure semantics (binding)
+- Unknown adapter / invalid config → ConfigError at startup, exit non-zero.
+- Scrape page fetched OK but zero rows matched → AdapterStructureError
+  (HTML drift must never read as "no new meetings"). Other jurisdictions
+  still complete; pipeline exits 1 AFTER writing outputs.
+- Upstream didn't answer an upcoming fetch → UpstreamUnavailableError, caught
+  once in `engine.upcoming`: that jurisdiction keeps its last-known-good
+  future meetings and the run continues (an outage is not drift, exit 0).
+  Structure drift also keeps last-known-good, then still exits 1.
+- YouTube bot-block/cookie expiry → TranscriptAuthError naming the
+  jurisdiction; reported in a loud block at the end; exit 1. Distinct from
+  NoCaptionsError (→ agenda fallback, normal).
+
+## Adding a new adapter type
+1. Create `engine/adapters/<name>.py` implementing the relevant duck-typed
+   functions (`list_meetings` / `fetch_agenda_text` / `fetch_upcoming`).
+2. Register it in `engine/adapters/__init__._ADAPTER_MODULES` and in
+   `VIDEO_ADAPTERS`/`AGENDA_ADAPTERS` in `engine/config.py` (with required-
+   field validation).
+3. If it's meeting-creating (synthesizes IDs), add its dispatch in
+   `engine/pipeline.py` (`meeting_creating` group) and, if upgradeable,
+   an upgrade pass.
+
+## Engineering Rules (binding)
+- Windows, PowerShell 5.1: `;` chaining, never `&&`. `python -m pip`,
+  never bare `pip`.
+- One correct path, no fallbacks-of-fallbacks, no backups. Fail fast and
+  loud with named errors.
+- Surgical, single-responsibility changes. No overengineering. Root causes,
+  not symptoms.
+- Secrets in GitHub repo secrets only (`ANTHROPIC_API_KEY`), never in
+  config files or code.
+- All Anthropic calls go through `engine.claude.call_claude` — a direct
+  `anthropic.Anthropic()` call anywhere else is a cost-ledger leak and a
+  review-blocking defect.
+
+## Known deltas from marathon-meetings (intentional)
+- `WHISPER_DAYS` cutoff env knob dropped (default-off, unused).
+- Bare-incremental mode no longer special-cases Marathon County (the
+  take-until-first-processed loop already prevents historical reprocessing;
+  CI uses `--days 14` anyway).
+- `--url` mode fails loud when the video isn't found in any configured
+  channel (was: silently assume marathon).
+- Transcript auth failures and scrape structure drift now exit 1 with named
+  errors (was: indistinguishable from quiet runs).
+- Overdue lags, the corrections address, the scrub's place names and the ICS
+  UID suffix are instance.json values (were: constants in check_overdue.py,
+  generate_pages.py, scrub_summaries.py, generate_ics.py).
+- The overdue check skips jurisdictions with nothing to upgrade from (no
+  video channel, vote records or minutes) — every production source has one.
+- Cost ledger entries carry `purpose` + `meeting_id` instead of `script`; the
+  spending-alarm issue breaks spend down by purpose and lists meetings
+  summarized more than once in the window. The ledger is not pruned (was: 120
+  days) and unknown models raise instead of being priced at the top rate.
+- No caption-health counters in the run report and no cookie-expiry issue: CI
+  runs with CAPTION_FETCH=false, and a bot-block is a TranscriptAuthError.
+- BoardBook and Municode listings raise on an HTTP error instead of parsing
+  the error page (was: silently zero meetings).
+
+## Phase status
+- Phase 1 (engine extraction): COMPLETE July 2026. Acceptance passed:
+  byte-exact meetings.json parity (49/49 incl. order) and upcoming.json
+  parity (6/6 sources) vs the marathon-meetings reference on identical
+  state; digest renders pixel-identical to production. Includes
+  engine/digest.py and engine/fetch_transcripts.py per the amended scope.
+- Phase 2: `frontend/` port (runtime fetch + CSS variables from theme
+  tokens) + Actions workflow (pipeline.yml) + side-by-side parity week on a
+  separate Pages URL. Smoke checks stay WPR-only.
+- Phase 3: template repo + ONBOARDING.md (incl. residential transcript-fetch
+  infrastructure — CI IPs are caption-blocked regardless of cookies).

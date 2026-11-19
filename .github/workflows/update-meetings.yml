@@ -1,13 +1,12 @@
-name: Update Meetings & Deploy
+name: Pipeline & Deploy
 
 on:
   schedule:
-    # Every 4 hours. Catches freshly-uploaded videos in the same evening so
-    # auto-captions have ~6 attempts in the first 24 hours before falling
-    # back to agenda-only.
-    # :17 rather than :00 — GitHub drops scheduled runs under load and names
-    # the top of the hour as its busiest time; at :00 we got ~4.7 runs/day
-    # instead of 6 (Sept 2026).
+    # Every 4 hours — same cadence as the reference instance. Freshly
+    # uploaded videos get ~6 caption attempts in the first 24 hours before
+    # falling back to agenda-only.
+    # Off the top of the hour: GitHub drops scheduled runs under load and
+    # names :00 as its busiest time.
     - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
@@ -16,27 +15,15 @@ on:
         required: false
         default: 'false'
       days:
-        description: 'Process meetings from last N days (e.g. 21). Ignored if backfill=true.'
-        required: false
-        default: ''
-      reprocess:
-        description: 'Comma-separated video IDs to force reprocess'
-        required: false
-        default: ''
-      resummarize:
-        description: 'Comma-separated video IDs whose transcript summaries to redo (python audit_votes.py lists them)'
-        required: false
-        default: ''
-      inject_transcript:
-        description: 'Video ID to inject transcript for (file must be in transcripts/VIDEO_ID.txt)'
+        description: 'Process meetings from last N days (ignored if backfill=true)'
         required: false
         default: ''
       roundup:
-        description: 'Generate the weekly newsletter roundup now (true/false; also auto-runs Mondays)'
+        description: 'Generate the weekly newsletter roundup now (also auto-runs Mondays)'
         required: false
         default: 'false'
-      upgrade_window_days:
-        description: 'Widen the sb-video/kw-minutes upgrade windows to N days (recovery after an outage; default 45)'
+      resummarize:
+        description: 'Comma-separated video IDs whose transcript summaries to redo (python -m engine.audit_votes lists them)'
         required: false
         default: ''
 
@@ -47,28 +34,28 @@ permissions:
   issues: write
 
 concurrency:
-  group: 'pages'
-  # A newer scheduled run supersedes an older one. In August 2026 a run
-  # wedged in "waiting" state held this group for 23 days while every later
-  # run queued behind it and was silently cancelled — with runs every 4h and
-  # a normal duration of ~15 min, cancelling an in-flight run only ever
-  # happens when something is already stuck.
+  # A manual run on any other branch is a rehearsal: it gets its own group so
+  # it neither cancels nor is cancelled by the scheduled run on main.
+  group: ${{ github.ref == 'refs/heads/main' && 'pages' || format('rehearsal-{0}', github.ref_name) }}
+  # A newer scheduled run supersedes an older one — in August 2026 the
+  # reference instance had a run wedge in "waiting" state and hold this
+  # group for 23 days while every later run was silently cancelled.
   cancel-in-progress: true
 
 jobs:
-  update-and-deploy:
+  pipeline-and-deploy:
     runs-on: ubuntu-latest
-    # Backstop for hung fetches: a normal run finishes in ~15 minutes, but a
+    # Backstop for hung fetches; normal runs finish in ~15 minutes, but a
     # post-outage recovery ingesting dozens of transcripts can run over an
-    # hour — nothing commits until the end, so a mid-run kill re-spends the
-    # API budget on retry.
+    # hour (nothing commits until the end, so a mid-run kill re-spends the
+    # API budget on retry).
     timeout-minutes: 120
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -76,42 +63,33 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt
 
       - name: Snapshot reel-ready meetings
         # Which meetings already have transcript-built summaries, before this
-        # run adds any. The dispatch step after the commit compares against it
+        # run adds any. The hand-off step after the commit compares against it
         # so only meetings that became reel-ready in this run get a reel draft.
+        # Does nothing for an instance with no `reels` block in instance.json.
         continue-on-error: true
-        run: python reel_candidates.py --snapshot /tmp/reel_ready.json
+        run: python -m engine.reels --snapshot /tmp/reel_ready.json
 
       - name: Set up Deno
-        # yt-dlp needs a JavaScript runtime to solve YouTube's "n challenge"
-        # that wraps subtitle URLs. Without it, fetches fall back to the
-        # "Only images are available" path and the summarizer treats videos
-        # as having no captions even when they do.
+        # yt-dlp needs a JavaScript runtime to solve YouTube's "n challenge".
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-
-      - name: Smoke-check upstream data sources
-        # Non-strict: warn if anything's off but don't block the run. Schema
-        # breakage in CivicClerk / AgendaCenter / BoardBook will print loud
-        # FAIL lines that show up at the top of the run log.
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python smoke_check.py
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install Node dependencies
+      - name: Install frontend dependencies
         run: npm install
+        working-directory: frontend
 
       - name: Write YouTube cookies
         run: |
@@ -119,68 +97,53 @@ jobs:
             echo "$YOUTUBE_COOKIES" > /tmp/yt-cookies.txt
             echo "Cookies file written."
           else
-            echo "No YOUTUBE_COOKIES secret set — transcripts may fail on CI IPs."
+            echo "No YOUTUBE_COOKIES secret — transcript fetches will rely on the residential fetcher."
           fi
         env:
           YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
 
-      - name: Reprocess specific videos (if requested)
-        env:
-          REPROCESS_IDS: ${{ github.event.inputs.reprocess }}
-        run: python reprocess.py
-
-      - name: Run meeting summarizer
-        id: summarize
-        # Don't abort the workflow if summarization fails (e.g. API credit
-        # exhaustion, June 2026): the site should still rebuild and deploy
-        # with whatever data we have. A final step re-surfaces the failure.
+      - name: Run pipeline
+        id: pipeline
+        # continue-on-error: an API outage or a named auth/structure failure
+        # (exit 1 by design) must not block the site deploy. A post-deploy
+        # step re-surfaces the failure so the run still goes red.
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YT_COOKIES_FILE: /tmp/yt-cookies.txt
-          # Whisper is local-only; the lib isn't installed in CI (saves ~150 MB
-          # download per run) and the summarizer no-ops the fallback when this
-          # flag is false. Set to "true" locally if you want audio transcription.
           USE_WHISPER_FALLBACK: "false"
-          # YouTube blocks caption/metadata fetches from cloud IPs regardless
-          # of cookies (verified Aug 30, 2026); skipping the attempts avoids
-          # false "cookies expired" alarms. The residential sweep fetches
-          # transcripts. Flip to "true" if YouTube's posture relaxes.
+          # YouTube blocks cloud IPs regardless of cookies (verified Aug 30,
+          # 2026); the residential fetcher is the transcript path.
           CAPTION_FETCH: "false"
-          # Optional dispatch override — widens both upgrade-pass windows so
-          # meetings that aged past 45 days during an outage get re-attempted.
-          SCHOOL_BOARD_VIDEO_DAYS: ${{ github.event.inputs.upgrade_window_days || '45' }}
-          KRONENWETTER_MINUTES_DAYS: ${{ github.event.inputs.upgrade_window_days || '45' }}
         run: |
           if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
-            python marathon_meeting_summarizer.py --backfill
+            python -m engine.pipeline --backfill
           elif [ -n "${{ github.event.inputs.days }}" ]; then
-            python marathon_meeting_summarizer.py --days ${{ github.event.inputs.days }}
+            python -m engine.pipeline --days ${{ github.event.inputs.days }}
           else
-            python marathon_meeting_summarizer.py --days 14
+            python -m engine.pipeline --days 14
           fi
 
-      - name: Override agenda-only meetings with transcripts
-        id: inject_transcripts
+      - name: Ingest residential transcripts
+        id: ingest
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Meetings to re-summarize though their transcript is unchanged.
           RESUMMARIZE_IDS: ${{ github.event.inputs.resummarize }}
         run: |
           if [ ! -d transcripts ] || [ -z "$(ls transcripts/*.txt 2>/dev/null)" ]; then
-            echo "No transcript files found — skipping."
+            echo "No transcript files — skipping."
             exit 0
           fi
-          # Per-file isolation: this step runs under bash -e, so without the
-          # guard one bad transcript (metadata query hiccup, API blip) would
-          # abort the loop and strand every file after it until a later run.
+          # Per-file isolation (bash -e would abort the batch on one bad
+          # file) and --video-id= equals form (YouTube IDs can start with a
+          # dash, e.g. -SFidjEgoHg, which argparse otherwise eats as a flag).
           FAILED=0
           for TFILE in transcripts/*.txt; do
             VID=$(basename "$TFILE" .txt)
-            echo "Processing transcript for: $VID"
-            # --video-id= (equals form): YouTube IDs can start with a dash
-            # (e.g. -SFidjEgoHg), which argparse otherwise eats as a flag.
-            python inject_transcript.py --video-id="$VID" --transcript "$TFILE" \
+            echo "Ingesting transcript for: $VID"
+            python -m engine.ingest_transcript --video-id="$VID" --transcript "$TFILE" \
               || { echo "::warning::transcript ingest failed for $VID (will retry next run)"; FAILED=$((FAILED+1)); }
             echo ""
           done
@@ -193,64 +156,29 @@ jobs:
         # Backstop for the prompts' privacy rules (a resident's home address
         # never appears in a summary) and the step that re-applies every
         # logged fix in corrections.json, so re-summarizing can't undo one.
-        # Runs before the data file and pages are rebuilt. No API calls.
-        run: python scrub_summaries.py
+        # Runs after the last summarization and before the data file and
+        # pages are rebuilt, so nothing unscrubbed is committed or deployed.
+        # No API calls.
+        run: python -m engine.scrub
 
-      - name: Inject meeting summaries into JSX
-        run: |
-          echo "Working directory: $(pwd)"
-          echo "Files present:"
-          ls -la *.json summaries/ 2>/dev/null || true
-          echo "processed_meetings.json contents (first 200 chars):"
-          head -c 200 processed_meetings.json 2>/dev/null || echo "FILE NOT FOUND"
-          echo ""
-          python inject_meetings.py
-
-      - name: Update upcoming meetings
-        run: python update_upcoming.py
-
-      - name: Backfill topic tags
-        # Tags meetings that predate the topics field (batched Haiku; skips
-        # everything already tagged, so steady-state cost is zero calls).
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python backfill_topics.py
-
-      - name: Backfill structured votes
-        # Extracts votes[] for outcome-based meetings that predate the field
-        # (batched Haiku; presence of the votes key = processed, so
-        # steady-state cost is zero calls).
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python backfill_votes.py
-
-      - name: Generate static meeting pages + sitemap
-        # Indexable HTML per meeting (the JS app in an iframe is invisible to
-        # search engines). Old pages persist as the permanent archive.
-        continue-on-error: true
-        run: python generate_pages.py
-
-      - name: Generate calendar feed (.ics)
-        continue-on-error: true
-        run: python generate_ics.py --out public/meetings.ics
+      - name: Re-publish data
+        # Ingest may have cleared injected IDs; publish-only is cheap and
+        # idempotent. It builds from the sidecars the scrub just cleaned.
+        run: python -m engine.pipeline --publish-only
 
       - name: Generate weekly newsletter roundup
-        # Mondays (UTC) or on demand via the roundup dispatch input — one
-        # Sonnet call per generation. The cron fires ~6x on Mondays, so the
-        # guard checks whether today's roundup was already committed (via
-        # the API — the checkout is shallow, so local git log can't tell).
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # The cron fires ~6x on Mondays — only generate once per day
+          # (checked via the API; the checkout is shallow).
           RUN=0
           if [ "${{ github.event.inputs.roundup }}" = "true" ]; then
             RUN=1
           elif [ "$(date -u +%u)" = "1" ]; then
-            LAST=$(gh api "repos/${{ github.repository }}/commits?path=public/roundup.txt&per_page=1" \
+            LAST=$(gh api "repos/${{ github.repository }}/commits?path=data/roundup.txt&per_page=1" \
               --jq '.[0].commit.committer.date[:10] // empty' 2>/dev/null || echo "")
             if [ "$LAST" = "$(date -u +%F)" ]; then
               echo "Roundup already generated today ($LAST) — skipping."
@@ -259,53 +187,70 @@ jobs:
             fi
           fi
           if [ "$RUN" = "1" ]; then
-            python generate_roundup.py
+            python -m engine.roundup
           else
-            echo "Not Monday and roundup not requested — skipping."
+            echo "Roundup not due — skipping."
           fi
 
-      - name: Generate weekly digest PNG
-        # Newsletter image of the coming week's meetings. Written to public/ so
-        # the Vite build copies it into dist/ → served at /marathon-meetings/digest.png.
-        # continue-on-error: a digest failure must never block the deploy.
+      - name: Generate calendar feed, static pages, digest
         continue-on-error: true
-        run: python generate_digest.py --out public/digest.png
+        run: |
+          python -m engine.ics --out data/meetings.ics
+          python -m engine.pages --out-dir frontend/public
+          python -m engine.digest --out frontend/public/digest.png
 
-      - name: Commit data and deploy assets
+      - name: Write the reporter tip sheet
+        # Sorted from data/meetings.json and data/upcoming.json; no API calls.
+        # Same inputs give the same file, so it commits only when a lead changes.
+        continue-on-error: true
+        run: python -m engine.tipsheet
+
+      - name: Export officials rosters
+        # assets/rosters.json, written from instance.json's officials for
+        # tools that read the name spellings without the whole config (the
+        # reference instance's reel drafter checks on-screen names against it).
+        continue-on-error: true
+        run: python -m engine.rosters
+
+      - name: Commit state and data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f src/data/meetings.json || true
-          git add -f src/data/upcoming.json || true
-          git add -f injected_meetings.json || true
-          git add -f processed_meetings.json || true
-          git add -f skipped_videos.json || true
-          git add -f costs.json || true
-          git add -f corrections.json || true
+          git add -f processed_meetings.json injected_meetings.json || true
+          git add -f skipped_videos.json 2>/dev/null || true
+          git add -f corrections.json 2>/dev/null || true
+          git add -f assets/rosters.json 2>/dev/null || true
           git add -f summaries/ || true
-          git add -f public/digest.png || true
-          git add -f public/meetings.ics || true
-          git add -f public/roundup.txt public/roundup.html 2>/dev/null || true
-          git add -f public/meetings/ public/sitemap.xml public/robots.txt || true
-          git status
+          git add -f data/ || true
+          git add -f frontend/public/meetings/ frontend/public/sitemap.xml frontend/public/robots.txt 2>/dev/null || true
+          git status --short | head -20
           git diff --staged --quiet || git commit -m "chore: update meetings data [skip ci]"
-          # Rebase before pushing: an operator push landing mid-run would
-          # otherwise make this push fail silently and discard the run's
+          # Rebase before pushing: the residential fetcher pushes transcripts
+          # between runs, and a rejected push here would discard this run's
           # state (re-summarizing everything next run = double API spend).
-          git pull --rebase origin main || true
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" || git rebase --abort || true
           git push || true
 
-      - name: Ask wpr-reels to draft reels
-        # City council and county board meetings that became transcript-built
-        # in this run get a draft reel PR in RowanFlynnPilot/wpr-reels
-        # (its draft-reel.yml). Sends the commit just pushed, so the draft is
-        # built from exactly this data. Never fails the tracker's own run.
+      - name: Ask the reels repo to draft reels
+        # Meetings of the bodies named in instance.json `reels.bodies` that
+        # became transcript-built in this run get a `transcript-ingested`
+        # dispatch to `reels.repo`, whose own workflow drafts a reel. Sends the
+        # commit just pushed, so the draft is built from exactly this data.
+        # Needs the REELS_DISPATCH_TOKEN secret (fine-grained, that repo,
+        # Contents: read and write); skips quietly without it or without a
+        # `reels` block. Never fails the run. Main only.
+        if: github.ref == 'refs/heads/main'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.REELS_DISPATCH_TOKEN }}
         run: |
+          REELS_REPO=$(python -m engine.reels --repo)
+          if [ -z "$REELS_REPO" ]; then
+            echo "No reels hand-off configured in instance.json; skipping."
+            exit 0
+          fi
           if [ -z "$GH_TOKEN" ]; then
-            echo "No REELS_DISPATCH_TOKEN secret — skipping reel drafts."
+            echo "No REELS_DISPATCH_TOKEN secret; skipping reel drafts."
             exit 0
           fi
           SHA=$(git rev-parse HEAD)
@@ -313,42 +258,68 @@ jobs:
             echo "::warning::This run's commit didn't reach main; no reel drafts sent."
             exit 0
           fi
-          python reel_candidates.py --since /tmp/reel_ready.json | while read -r VID; do
+          python -m engine.reels --since /tmp/reel_ready.json | while read -r VID; do
             case "$VID" in
               *[!A-Za-z0-9_-]*|"") echo "::warning::skipping malformed video id '$VID'"; continue ;;
             esac
             echo "Requesting a reel draft for $VID"
-            gh api repos/RowanFlynnPilot/wpr-reels/dispatches \
+            gh api "repos/$REELS_REPO/dispatches" \
               -f event_type=transcript-ingested \
               -f "client_payload[video_id]=$VID" \
               -f "client_payload[tracker_sha]=$SHA" \
               || echo "::warning::reel draft request failed for $VID"
           done
 
-      - name: Build
-        run: npm run build
+      - name: Stage runtime config + data for the frontend
+        # The frontend fetches instance.json and data/*.json at runtime;
+        # assets (avatars, logo) are referenced by instance.json paths.
+        run: |
+          cp instance.json frontend/public/
+          mkdir -p frontend/public/data
+          cp data/meetings.json data/upcoming.json frontend/public/data/
+          cp data/meetings.ics frontend/public/meetings.ics 2>/dev/null || true
+          cp data/roundup.txt data/roundup.html frontend/public/ 2>/dev/null || true
+          cp -r assets frontend/public/assets
 
+      - name: Build frontend
+        run: |
+          # GitHub Pages serves a project site under /<repository name>/.
+          # GITHUB_REPOSITORY ("owner/name") is set for every event, scheduled
+          # runs included.
+          export BASE_PATH="/${GITHUB_REPOSITORY#*/}/"
+          if [ "$BASE_PATH" = "//" ]; then
+            echo "::error::could not derive BASE_PATH from GITHUB_REPOSITORY; every asset URL would be wrong."
+            exit 1
+          fi
+          echo "BASE_PATH=$BASE_PATH"
+          npm run build
+        working-directory: frontend
+
+      # Only main deploys and maintains issues. A run dispatched on another
+      # branch is a rehearsal: it scrapes, summarizes, commits to its own
+      # branch and builds, and leaves the live site and the issues alone.
       - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './frontend/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: github.ref == 'refs/heads/main'
         uses: actions/deploy-pages@v4
 
       - name: Maintain spending-alarm issue
-        # costs.json records every Claude call (cost_ledger.py, hooked into
-        # call_anthropic_with_retry). A regression like June 2026's
-        # re-summarization loop now surfaces within a day instead of on the
-        # monthly bill. Normal spend is well under $1/day.
-        if: always()
+        # data/costs.json records every Claude call (engine.claude). A
+        # regression like the reference instance's June 2026 re-summarization
+        # loop surfaces within a day instead of on the monthly bill.
+        if: always() && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SPEND_ALARM_DAY_USD: '2.00'
           SPEND_ALARM_DAY_CALLS: '40'
         run: |
-          read -r STATUS DAY_USD <<< "$(python cost_ledger.py --check --print-status --markdown spend_body.md)"
+          read -r STATUS DAY_USD <<< "$(python -m engine.costs --check --print-status --markdown spend_body.md)"
           echo "Claude spend, last 24h: \$${DAY_USD} (${STATUS})"
           EXISTING=$(gh issue list --state open --search "Unusual Claude API spend in:title" --json number --jq '.[0].number // empty')
           if [ "$STATUS" = "TRIPPED" ]; then
@@ -358,21 +329,21 @@ jobs:
             else
               gh issue create --title "$TITLE" --body-file spend_body.md
             fi
-          elif [ -n "$EXISTING" ]; then
+          elif [ "$STATUS" = "OK" ] && [ -n "$EXISTING" ]; then
             gh issue close "$EXISTING" --comment "Claude spend over the last 24 hours is back under the alarm thresholds (\$${DAY_USD}). Auto-closing."
           fi
 
       - name: Maintain overdue-upgrade issue
         # Agenda-only is the normal first state for most meetings; only an
-        # upgrade that's LATE for its source signals a break (a SoundCloud
-        # title-format change stranded Kronenwetter for four weeks while the
-        # old list-everything issue signaled nothing). check_overdue.py holds
-        # the per-source expected lags. One issue; closes itself when clear.
-        if: always()
+        # upgrade that's LATE for its jurisdiction signals a break (on the
+        # reference instance a title-format change stranded one body for four
+        # weeks while a list-everything issue signaled nothing). The expected
+        # lags are instance.json expected_lag_days. One issue; closes itself.
+        if: always() && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          COUNT=$(python check_overdue.py --print-count --markdown overdue_body.md)
+          COUNT=$(python -m engine.overdue --print-count --markdown overdue_body.md)
           EXISTING=$(gh issue list --state open --search "Meeting summaries overdue in:title" --json number --jq '.[0].number // empty')
           if [ "$COUNT" -gt 0 ]; then
             TITLE="⏰ Meeting summaries overdue for an upgrade (${COUNT}, checked $(date +%Y-%m-%d))"
@@ -384,54 +355,25 @@ jobs:
               echo "Opened overdue issue"
             fi
           elif [ -n "$EXISTING" ]; then
-            gh issue close "$EXISTING" --comment "Nothing is overdue anymore — every displayed agenda-only meeting is within its source's normal recording window. Auto-closing."
+            gh issue close "$EXISTING" --comment "Nothing is overdue anymore — every displayed agenda-only meeting is within its jurisdiction's normal recording window. Auto-closing."
           else
             echo "No overdue upgrades."
           fi
-
-      - name: Maintain cookie-expiry issue
-        # The summarizer counts caption bot-block failures vs successes in
-        # agenda_only_report.json. Blocks → open/update a loud issue with the
-        # refresh runbook (GitHub's notification email IS the reminder —
-        # exports last ~4-8 weeks and die without warning, so we detect
-        # rather than schedule). Successes with no blocks → auto-close it.
-        # Neither (no YouTube fetches this run) → leave it untouched.
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ ! -f agenda_only_report.json ]; then
-            echo "No run report — skipping."
-            exit 0
-          fi
-          BLOCKS=$(python -c "import json; print(json.load(open('agenda_only_report.json')).get('caption_auth_blocks', 0))")
-          OKS=$(python -c "import json; print(json.load(open('agenda_only_report.json')).get('caption_successes', 0))")
-          EXISTING=$(gh issue list --state open --search "YouTube cookies expired in:title" --json number --jq '.[0].number // empty')
-          if [ "$BLOCKS" -gt 0 ]; then
-            TITLE="🍪 YouTube cookies expired — caption fetches blocked (detected $(date +%Y-%m-%d))"
-            BODY="This run hit ${BLOCKS} bot-block failure(s) fetching YouTube captions — the YOUTUBE_COOKIES secret has likely expired (exports last ~4-8 weeks)."
-            BODY="${BODY}"$'\n\n'"**Fix (~3 minutes):** follow [docs/cookie-refresh.md](https://github.com/${{ github.repository }}/blob/main/docs/cookie-refresh.md)."
-            BODY="${BODY}"$'\n\n'"Until refreshed, YouTube-sourced meetings (Marathon County, Wausau, Weston) arrive via the residential gap sweep instead — delayed up to ~12 hours, nothing is lost."
-            if [ -n "$EXISTING" ]; then
-              gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
-              echo "Updated cookie issue #$EXISTING"
-            else
-              gh issue create --title "$TITLE" --body "$BODY"
-              echo "Opened cookie issue"
-            fi
-          elif [ "$OKS" -gt 0 ] && [ -n "$EXISTING" ]; then
-            gh issue close "$EXISTING" --comment "Caption fetches are succeeding again (${OKS} this run) — the refreshed cookies are working. Auto-closing."
-          else
-            echo "No cookie signal this run (blocks=$BLOCKS, successes=$OKS)."
+          # The standing list this step replaced never closed itself.
+          OLD=$(gh issue list --state open --search "Agenda-only meetings need transcripts in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$OLD" ]; then
+            gh issue close "$OLD" --comment "Replaced by the overdue-upgrade issue, which lists only meetings past their jurisdiction's normal recording lag."
           fi
 
       - name: Maintain residential-fetcher issue
         # The residential machine is the only transcript path (CI can't reach
         # YouTube), and its scheduled task exits 0 even when the script fails
-        # internally. The summarizer records when it first saw each skipped
-        # video; one lingering past STALE_VIDEO_HOURS (36h — normal lag is
-        # ~12h) means the residential sweep has probably stopped.
-        if: always()
+        # internally. The pipeline records when it first saw each video it
+        # could not process (skipped_videos.json); one lingering past
+        # STALE_VIDEO_HOURS (36h; normal lag is ~12h) means the residential
+        # fetcher has probably stopped. No run report (the pipeline died
+        # before writing it) leaves the issue untouched.
+        if: always() && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -439,23 +381,15 @@ jobs:
             echo "No run report — skipping."
             exit 0
           fi
-          STALE=$(python -c "import json; print(len(json.load(open('agenda_only_report.json')).get('stale_unprocessed', [])))")
+          STALE=$(python -m engine.watchdog --print-count --markdown stale_body.md)
           EXISTING=$(gh issue list --state open --search "Residential transcript fetcher may be down in:title" --json number --jq '.[0].number // empty')
           if [ "$STALE" -gt 0 ]; then
-            LIST=$(python -c "
-          import json
-          for s in json.load(open('agenda_only_report.json'))['stale_unprocessed']:
-              print(f\"- [{s['source']}] {s['title']} — unprocessed for {s['age_hours']}h\")
-          ")
             TITLE="🏠 Residential transcript fetcher may be down (${STALE} video(s) stuck, checked $(date +%Y-%m-%d))"
-            BODY="These YouTube videos have been unprocessed for over 36 hours. CI cannot fetch captions (cloud IPs are blocked), so they depend on the residential sweep — the MarathonMeetings-RefreshTranscripts task on the operator machine (7 AM, noon, 5 PM, 10 PM). It normally clears a video within ~12 hours; its per-run logs are in logs/ on that machine."
-            BODY="${BODY}"$'\n\n'"${LIST}"
-            BODY="${BODY}"$'\n\n'"**Check on the operator machine:** is the task running (Task Scheduler → last run result), and does \`python fetch_transcript.py --all\` succeed by hand? A silent break usually means a Python or yt-dlp environment change (see docs/cookie-refresh.md and CLAUDE.md notes). If the fetcher is fine and a video simply has no captions, add its ID to \`SKIP_VIDEO_IDS\` in config.py to dismiss it."
             if [ -n "$EXISTING" ]; then
-              gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+              gh issue edit "$EXISTING" --title "$TITLE" --body-file stale_body.md
               echo "Updated residential-fetcher issue #$EXISTING"
             else
-              gh issue create --title "$TITLE" --body "$BODY"
+              gh issue create --title "$TITLE" --body-file stale_body.md
               echo "Opened residential-fetcher issue"
             fi
           elif [ -n "$EXISTING" ]; then
@@ -464,11 +398,11 @@ jobs:
             echo "No stale videos."
           fi
 
-      - name: Surface summarizer failures
-        # The summarize/inject steps use continue-on-error so the site still
-        # deploys on API outages — but the run must still go red so failures
-        # aren't silent. This runs AFTER deploy.
-        if: steps.summarize.outcome == 'failure' || steps.inject_transcripts.outcome == 'failure'
+      - name: Surface pipeline failures
+        # The pipeline/ingest steps use continue-on-error so the site still
+        # deploys — this re-fails the run AFTER deploy so named errors
+        # (TranscriptAuthError, AdapterStructureError, API outages) stay loud.
+        if: steps.pipeline.outcome == 'failure' || steps.ingest.outcome == 'failure'
         run: |
-          echo "::error::Summarizer or transcript-injection failed earlier in this run (site still deployed with existing data). Check the step logs above — common cause: Anthropic API credit exhaustion."
+          echo "::error::Pipeline or transcript ingest failed earlier in this run (site still deployed with existing data). Check the step logs — named errors identify cookie refresh vs adapter drift vs API outage."
           exit 1

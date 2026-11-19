@@ -1,10 +1,10 @@
 name: Staleness Sentinel
 
-# Watchdog for the main pipeline. In August 2026 a run wedged in "waiting"
-# state held the pages concurrency group for 23 days while every later run
-# was silently cancelled — the tracker served stale data the whole time and
-# nothing alarmed. This workflow runs independently (no shared concurrency
-# group) and opens a loud issue when the pipeline stops succeeding.
+# Watchdog for the main pipeline, ported from the reference instance after
+# its August 2026 silent outage (a run wedged in "waiting" state held the
+# pages concurrency group for 23 days while every later run was silently
+# cancelled). Runs independently — no shared concurrency group — and opens
+# a loud issue when the pipeline stops succeeding.
 
 on:
   schedule:
@@ -27,7 +27,7 @@ jobs:
           REPO: ${{ github.repository }}
           PIPELINE_WORKFLOW: update-meetings.yml
           MAX_SUCCESS_AGE_HOURS: '12'
-          ISSUE_TITLE: '🚨 Meeting tracker pipeline is stale'
+          ISSUE_TITLE: '🚨 Pipeline is stale'
         run: |
           set -euo pipefail
           NOW=$(date -u +%s)
@@ -36,9 +36,9 @@ jobs:
           # 1) Hours since the last successful pipeline run (12h = 3 missed
           #    4-hour cycles; normal gaps are ~4-6h). Query UNFILTERED and
           #    pick the newest success ourselves: the API's ?status=success
-          #    filter sometimes serves stale cached results — it reported a
-          #    Sept 5 run as the latest success on Sept 16, 17 and 24, 2026,
-          #    three false alarms while every run was succeeding.
+          #    filter sometimes serves stale cached results — on the reference
+          #    instance it reported a Sept 5 run as the latest success on Sept
+          #    16, 17 and 24, 2026, three false alarms.
           LAST_SUCCESS=$(gh api "repos/$REPO/actions/workflows/$PIPELINE_WORKFLOW/runs?per_page=50" \
             --jq '[.workflow_runs[] | select(.conclusion == "success")][0].updated_at // empty')
           if [ -z "$LAST_SUCCESS" ]; then
@@ -70,14 +70,14 @@ jobs:
           done
 
           EXISTING=$(gh issue list --repo "$REPO" --state open \
-            --search "Meeting tracker pipeline is stale in:title" --json number --jq '.[0].number // empty')
+            --search "Pipeline is stale in:title" --json number --jq '.[0].number // empty')
 
           if [ -n "$PROBLEMS" ]; then
             CHECKED=$(date -u '+%Y-%m-%d %H:%M UTC')
             BODY="The pipeline watchdog found problems (checked ${CHECKED}):"
             BODY="${BODY}"$'\n\n'"${PROBLEMS}"
             BODY="${BODY}"$'\n'"The deployed tracker keeps serving its last-built data while this persists — readers see stale meetings."
-            BODY="${BODY}"$'\n\n'"**Runbook:** cancel any wedged run listed above, then dispatch a fresh run: \`gh workflow run $PIPELINE_WORKFLOW\`. After an outage longer than a few days, also run a recovery dispatch with \`upgrade_window_days\` widened (e.g. 90) so meetings that aged past their upgrade windows are re-attempted."
+            BODY="${BODY}"$'\n\n'"**Runbook:** cancel any wedged run listed above, then dispatch a fresh run: \`gh workflow run $PIPELINE_WORKFLOW\`. If runs are failing at the \"Surface pipeline failures\" step while the site still deploys, check the Run pipeline step log — \`ANTHROPIC_API_KEY not set\` means the repo secret is missing/expired; named errors (TranscriptAuthError, AdapterStructureError) identify cookie refresh vs adapter drift. After an outage longer than a few days, widen the upgrade windows in instance.json for one run so meetings that aged past them are re-attempted."
             if [ -n "$EXISTING" ]; then
               # Edit rather than comment: during a long outage this fires
               # every 6 hours and comments would pile up.

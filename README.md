@@ -23,26 +23,26 @@ Summaries name officials. A resident who speaks at public comment is named only 
 
 ## Architecture
 
-Standard WPR widget pattern: Python scraper → static JSON → React/Vite → GitHub Pages → WordPress iframe.
+Since Nov. 18, 2026 the tracker runs on the [Gavel](https://github.com/RowanFlynnPilot/gavel) engine: one `instance.json` describes the boards, their agenda platforms and video channels, the theme and the newsroom, and the `engine/` package does the rest.
 
 ```
-YouTube + agenda APIs
+YouTube + agenda platforms
         │
         ▼
-  Python scrapers  ─►  summaries/*.json
+  engine.pipeline  ─►  summaries/*.json  ─►  data/meetings.json, data/upcoming.json
         │
         ▼
-  inject_meetings.py  ─►  MEETINGS array in JSX
+  frontend/ (React, Vite; reads instance.json and data/ at runtime)
         │
         ▼
-  Vite build  ─►  GitHub Pages  ─►  WordPress iframe embed
+  GitHub Pages  ─►  WordPress iframe embed
 ```
 
-GitHub Actions runs the full pipeline every 4 hours, with manual dispatch and a `--backfill` option for historical processing.
+GitHub Actions runs the whole pipeline every 4 hours (`.github/workflows/update-meetings.yml`), with manual dispatch. Recordings are transcribed from a residential machine (`scripts/refresh-transcripts.ps1`), because YouTube blocks cloud servers from captions.
 
 ## Local development
 
-**Prerequisites:** Python 3.12, Node.js 20+, an Anthropic API key.
+**Prerequisites:** Python 3.12+, Node.js 20+, an Anthropic API key.
 
 ```bash
 git clone https://github.com/RowanFlynnPilot/marathon-meetings.git
@@ -55,7 +55,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # Node environment
-npm install
+cd frontend && npm install && cd ..
 
 # Anthropic API key
 $env:ANTHROPIC_API_KEY = "sk-..."  # Windows PowerShell
@@ -64,34 +64,36 @@ $env:ANTHROPIC_API_KEY = "sk-..."  # Windows PowerShell
 
 ### Common commands
 
-| Command                                                       | What it does                              |
-| ------------------------------------------------------------- | ----------------------------------------- |
-| `npm run dev`                                                 | Local dashboard with hot reload           |
-| `npm run build`                                               | Production build to `dist/`               |
-| `python marathon_meeting_summarizer.py`                       | Check for new meetings (incremental)      |
-| `python marathon_meeting_summarizer.py --backfill`            | Process all historical meetings           |
-| `python marathon_meeting_summarizer.py --source wausau`       | Single source only                        |
-| `python marathon_meeting_summarizer.py --url <YouTube URL>`   | Process one specific video                |
-| `python inject_meetings.py`                                   | Inject summaries into the MEETINGS array  |
-| `python update_upcoming.py`                                   | Refresh upcoming meeting schedules        |
+| Command                                              | What it does                                         |
+| ---------------------------------------------------- | ---------------------------------------------------- |
+| `npm run dev` (in `frontend/`)                       | Local dashboard with hot reload                      |
+| `npm run build` (in `frontend/`)                     | Production build to `frontend/dist/`                 |
+| `python -m engine.pipeline --days 14`                | Check for new meetings (incremental)                 |
+| `python -m engine.pipeline --source wausau`          | One board only                                       |
+| `python -m engine.pipeline --url <YouTube URL>`      | Process one specific video                           |
+| `python -m engine.pipeline --publish-only`           | Rebuild `data/` from existing summaries; no scraping |
+| `python -m engine.scrub --check`                     | Report residents' addresses and pending corrections  |
+| `python -m engine.report --from 2027-01-01 --to 2027-06-30` | Funder report for a period                    |
+| `python -m engine.tipsheet`                          | Reporter tip sheet (`data/tipsheet.md`)              |
+| `python -m pytest tests`                             | Tests (no network, no API calls)                     |
 
-See [`CLAUDE.md`](CLAUDE.md) for the full architecture reference, data flow, design system, and conventions.
+See [`CLAUDE.md`](CLAUDE.md) for the full engine reference. [`docs/pre-cutover-CLAUDE.md`](docs/pre-cutover-CLAUDE.md) keeps this tracker's own notes from before the move (data sources, design system); its script names are the old ones. The last commit of the old scripts is tagged `legacy-final`.
 
 ## Project structure
 
 ```
 .
-├── .github/workflows/                # Scheduled scrape + deploy pipeline
-├── src/                              # React frontend (Vite)
-├── summaries/                        # Generated meeting summaries (JSON)
-├── transcripts/                      # Cached YouTube transcripts
-├── marathon_meeting_summarizer.py    # Main scraper + AI summarization
-├── inject_meetings.py                # Merge summaries → JSX MEETINGS array
-├── inject_transcript.py              # Inject manually-pasted transcripts
-├── update_upcoming.py                # Refresh upcoming-meeting arrays
-├── reprocess.py                      # Re-run summarization on existing data
-├── fetch_transcript.py               # Pull YouTube transcripts (yt-dlp)
-└── CLAUDE.md                         # Architecture + conventions for AI agents
+├── .github/workflows/     # Scheduled pipeline + deploy, staleness sentinel
+├── instance.json          # This deployment: boards, adapters, theme, newsroom
+├── engine/                # Scrape, summarize, publish (Gavel)
+├── frontend/              # React dashboard (Vite)
+├── data/                  # Published meetings, upcoming calendar, cost ledger, tip sheet
+├── summaries/             # Generated meeting summaries (JSON + markdown)
+├── transcripts/           # Meeting transcripts from the residential fetcher
+├── corrections.json       # Corrections and privacy fixes, re-applied every run
+├── assets/                # Fonts, avatars, logo; rosters.json (exported from instance.json)
+├── tests/                 # Unit tests
+└── CLAUDE.md              # Engine architecture + conventions for AI agents
 ```
 
 ## Credits

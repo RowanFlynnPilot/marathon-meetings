@@ -4,17 +4,18 @@
 
 .DESCRIPTION
     YouTube blocks GitHub Actions from captions and per-video metadata, so this
-    machine's residential IP is the tracker's only transcript path. Task
-    Scheduler (MarathonMeetings-RefreshTranscripts) runs this four times a day.
+    machine's residential IP is the deployment's only transcript path. Run it
+    from Task Scheduler several times a day.
 
-    fetch_transcript.py --all pulls captions for agenda-only and never-ingested
-    YouTube meetings, matches school-board recordings, and Whisper-transcribes
-    Kronenwetter's SoundCloud audio (capped per run by MAX_AUDIO_JOBS). This
-    script then commits everything new or changed under transcripts/ and
-    pushes; CI re-summarizes on its next run. No API key is needed here.
+    engine.fetch_transcripts --all pulls captions for agenda-only and
+    never-ingested YouTube meetings, matches agenda-platform meetings to their
+    channel recordings, and Whisper-transcribes audio-only jurisdictions
+    (capped per run by MAX_AUDIO_JOBS). This script then commits everything
+    new or changed under transcripts/ and pushes; CI re-summarizes on its next
+    run. No API key is needed here.
 
-    The task has no console, so every run writes logs\refresh-<time>.log
-    (kept 14 days), the only record of what a scheduled run did.
+    A scheduled task has no console, so every run writes
+    logs\refresh-<time>.log (kept 14 days), the only record of what it did.
 
 .PARAMETER NoPush
     Fetch transcripts but don't commit or push. Useful for dry-runs.
@@ -65,15 +66,19 @@ $env:PYTHONUNBUFFERED = "1"
 $exitCode = 0
 Write-Log "refresh-transcripts: $ProjectRoot"
 
-$Python = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
+$VenvScripts = Join-Path $ProjectRoot ".venv\Scripts"
+$Python = Join-Path $VenvScripts "python.exe"
 if (-not (Test-Path $Python)) {
     Write-Log "[error] Python venv not found at $Python"
     exit 2
 }
+# The engine's channel listing runs a bare "yt-dlp", and the venv is not
+# activated here: put the venv's copy (the one the weekly update below keeps
+# current) first on PATH.
+$env:Path = "$VenvScripts;$env:Path"
 
 # Weekly: keep the YouTube-facing libraries current. yt-dlp has to track
-# YouTube's changes; a five-month-old copy (Sept 2026) was already warning
-# about YouTube's new streaming format.
+# YouTube's changes; a copy a few months old stops extracting.
 $Stamp = Join-Path $LogDir ".deps-updated"
 if (-not (Test-Path $Stamp) -or ((Get-Date) - (Get-Item $Stamp).LastWriteTime).TotalDays -ge 7) {
     Write-Log "[pip] Weekly update of yt-dlp and youtube-transcript-api"
@@ -91,10 +96,10 @@ if ($code -ne 0) {
     Write-Log "[warn] git pull failed (exit $code); proceeding with the local copy"
 }
 
-Write-Log "[fetch] fetch_transcript.py --all"
-$fetchExit = Invoke-Logged "`"$Python`" fetch_transcript.py --all"
+Write-Log "[fetch] python -m engine.fetch_transcripts --all"
+$fetchExit = Invoke-Logged "`"$Python`" -m engine.fetch_transcripts --all"
 if ($fetchExit -ne 0) {
-    Write-Log "[error] fetch_transcript.py exited $fetchExit (details above)"
+    Write-Log "[error] engine.fetch_transcripts exited $fetchExit (details above)"
     $exitCode = 1
 }
 
