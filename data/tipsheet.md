@@ -5,15 +5,17 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 ## Decisions coming up
 
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
+- [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
+  - VOTE: 2027 budgets for five housing programs. The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs.
+  - VOTE: Repositioning scattered-sites public housing to vouchers. S.C. Koegler Consulting will present options for restructuring, and the board will vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers.
 - [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
   - VOTE: Approve five service and equipment agreements for city. The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators.
   - VOTE: Approve $69,000 budget modification for Athletic Park lift. The committee will vote on funding for an outdoor vertical platform lift at Athletic Park.
 - [Tuesday, Nov 24, 6:30 PM: City of Wausau, Common Council Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/1984/overview)
-  - VOTE: Special election to fill District 9 aldermanic vacancy. The council will vote on whether to order a special election to fill an open seat on the Common Council.
-  - VOTE: Deed restrictions and non-conforming uses at 1300 Cleveland Avenue. The council will vote on approving deed restrictions and clarifying existing non-conforming uses on city-owned property.
-  - VOTE: Acquisition and demolition at 108 Myron Street. The council will vote on authorizing acquisition and demolition of a property through the city's property disposition program.
-  - VOTE: 2026 budget modifications based on year-end projections. The council will vote on adopting budget adjustments based on actual spending and revenue results.
-  - VOTE: Various consent agenda items including salary, tax, and driveway approvals. The council will vote on multiple routine matters including employee salary structure, water utility tax equivalent, purchasing card policy, and driveway and approach exceptions for a local business.
+  - VOTE: Employee salary structure revision and tax rate approvals. The council will vote on a joint resolution revising the salary structure for general employees and a resolution establishing the 2026 property tax equivalent for Wausau Water Works.
+  - VOTE: Special assessments for 2027 street construction projects. The council will vote on a preliminary resolution to levy special assessments on properties affected by 2027 street construction.
+  - VOTE: Driveway and site work approvals for local businesses. The council will vote on multiple resolutions approving driveways exceeding 44 feet and waiving concrete approach requirements for businesses on South 11th Avenue.
+  - VOTE: Deed restrictions for city property at 1300 Cleveland Avenue. The council will vote on a resolution approving deed restrictions and clarifying existing non-conforming uses on city-owned property.
 
 ## Contested votes, past week
 
@@ -59,7 +61,6 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Next week's meetings without a preview
 
-- City of Wausau: 1 meeting with no agenda read yet
 - Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
 - Village of Weston: 1 meeting with no agenda read yet

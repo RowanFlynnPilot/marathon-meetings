@@ -1,4 +1,51 @@
 {
+  "1840f1f9e200f1ed5335": {
+    "checked": "2026-11-20T17:00:54+00:00",
+    "date": "2026-11-24",
+    "generations": 1,
+    "hash": "8db015a421b00b6e2e11440661b612081723f05c",
+    "name": "Community Development Authority Board Meeting",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-20T17:00:54+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "2027 budgets for five housing programs",
+          "why": "The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs."
+        },
+        {
+          "action": "vote",
+          "item": "Repositioning scattered-sites public housing to vouchers",
+          "why": "S.C. Koegler Consulting will present options for restructuring, and the board will vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers."
+        },
+        {
+          "action": "discussion",
+          "item": "Riverview Towers façade repair bids",
+          "why": "The board will consider and act on bids received for masonry and concrete façade repairs at Riverview Towers LLC."
+        },
+        {
+          "action": "discussion",
+          "item": "Capital needs assessment for scattered-sites properties",
+          "why": "The board will discuss and act on a request for proposals for a capital needs assessment of scattered-sites public housing properties."
+        },
+        {
+          "action": "discussion",
+          "item": "Sub-recipient agreement for 405 S 8th Avenue",
+          "why": "The board will discuss and act on authorizing a rental property agreement between the City Community Development Department and the authority for 405 S 8th Avenue."
+        },
+        {
+          "action": "report",
+          "item": "Operational updates and legal counsel needs",
+          "why": "The authority will receive updates on occupancy, 405 S 8th Avenue, and discuss hiring outside counsel for Section 18 repositioning and loan closeout matters."
+        }
+      ],
+      "overview": "The Community Development Authority is scheduled to adopt five 2027 program budgets and consider a major restructuring plan that would convert scattered-sites public housing to project-based vouchers. Residents can submit public comment by email up to 2 hours before the meeting.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
   "24e3b3cff70c7c06690b": {
     "checked": "2026-11-20T07:24:09+00:00",
     "date": "2026-11-23",
@@ -84,47 +131,47 @@
     "source": "wausau"
   },
   "662de08195fcb475353f": {
-    "checked": "2026-11-19T13:19:20+00:00",
+    "checked": "2026-11-20T17:00:54+00:00",
     "date": "2026-11-24",
-    "generations": 1,
-    "hash": "f8ea25881d44029d04a675a2e17541ba882a5fbf",
+    "generations": 2,
+    "hash": "fe87832777d86b691936fa0440d0176c727ec12a",
     "name": "Common Council Meeting",
     "preview": {
       "closedSession": true,
-      "generated": "2026-11-19T13:19:20+00:00",
+      "generated": "2026-11-20T17:00:54+00:00",
       "items": [
         {
           "action": "vote",
-          "item": "Special election to fill District 9 aldermanic vacancy",
-          "why": "The council will vote on whether to order a special election to fill an open seat on the Common Council."
+          "item": "Employee salary structure revision and tax rate approvals",
+          "why": "The council will vote on a joint resolution revising the salary structure for general employees and a resolution establishing the 2026 property tax equivalent for Wausau Water Works."
+        },
+        {
+          "action": "vote",
+          "item": "Special assessments for 2027 street construction projects",
+          "why": "The council will vote on a preliminary resolution to levy special assessments on properties affected by 2027 street construction."
+        },
+        {
+          "action": "vote",
+          "item": "Driveway and site work approvals for local businesses",
+          "why": "The council will vote on multiple resolutions approving driveways exceeding 44 feet and waiving concrete approach requirements for businesses on South 11th Avenue."
+        },
+        {
+          "action": "vote",
+          "item": "Deed restrictions for city property at 1300 Cleveland Avenue",
+          "why": "The council will vote on a resolution approving deed restrictions and clarifying existing non-conforming uses on city-owned property."
         },
         {
           "action": "discussion",
-          "item": "Environmental litigation settlement discussion with legal counsel",
-          "why": "The council will meet in closed session to confer with legal counsel about strategy in a federal environmental contamination case and consider a settlement offer."
+          "item": "District 9 aldermanic vacancy",
+          "why": "The council will address how to fill an aldermanic vacancy in District 9."
         },
         {
-          "action": "vote",
-          "item": "Deed restrictions and non-conforming uses at 1300 Cleveland Avenue",
-          "why": "The council will vote on approving deed restrictions and clarifying existing non-conforming uses on city-owned property."
-        },
-        {
-          "action": "vote",
-          "item": "Acquisition and demolition at 108 Myron Street",
-          "why": "The council will vote on authorizing acquisition and demolition of a property through the city's property disposition program."
-        },
-        {
-          "action": "vote",
-          "item": "2026 budget modifications based on year-end projections",
-          "why": "The council will vote on adopting budget adjustments based on actual spending and revenue results."
-        },
-        {
-          "action": "vote",
-          "item": "Various consent agenda items including salary, tax, and driveway approvals",
-          "why": "The council will vote on multiple routine matters including employee salary structure, water utility tax equivalent, purchasing card policy, and driveway and approach exceptions for a local business."
+          "action": "discussion",
+          "item": "Litigation strategy discussion in closed session",
+          "why": "The council will meet in closed session to confer with legal counsel about settlement strategy in a CERCLA environmental lawsuit."
         }
       ],
-      "overview": "The Common Council is scheduled to approve several routine personnel and financial matters, and will hold a closed session to discuss litigation strategy regarding environmental contamination. A special election to fill an aldermanic vacancy in District 9 is also on the agenda.",
+      "overview": "The Common Council will vote on several routine city matters including employee salary changes, water utility tax rates, and special assessments for 2027 street projects. The council will also address a vacancy in District 9 and meet in closed session to discuss litigation strategy.",
       "publicComment": true
     },
     "prompt": "2",
