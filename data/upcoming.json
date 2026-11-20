@@ -1,13 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-11-19",
-      "time": "5:00 PM",
-      "name": "HR, Finance & Property Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-11-24",
       "time": "5:00 PM",
       "name": "Environmental Resources Committee",
@@ -114,46 +107,6 @@
     }
   ],
   "wausau": [
-    {
-      "date": "2026-11-19",
-      "time": "4:45 PM",
-      "name": "Transit Commission Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2185/overview",
-      "source": "wausau",
-      "preview": {
-        "closedSession": false,
-        "generated": "2026-11-19T00:57:28+00:00",
-        "items": [
-          {
-            "action": "vote",
-            "item": "New fare boxes for Metro Ride; approve request for proposal",
-            "why": "The commission is being asked to approve moving forward with replacing current fare boxes using an 80/20 grant."
-          },
-          {
-            "action": "vote",
-            "item": "Metro Ride facility exterior doors replacement and ceiling repair",
-            "why": "The commission is being asked to approve replacing entrance and garage doors (under $50,000) and repairing the original ceiling damaged by past roof leaks, both funded by an 80/20 grant."
-          },
-          {
-            "action": "vote",
-            "item": "Metro Ride procurement policy update to match city policy",
-            "why": "The commission is being asked to approve updating the current procurement policy."
-          },
-          {
-            "action": "vote",
-            "item": "City contribution to updated transit development planning study",
-            "why": "The commission is being asked to approve a $24,000 city contribution toward a $120,000 state-funded and MPO-funded planning study for an updated Metro Ride development plan."
-          },
-          {
-            "action": "report",
-            "item": "New Gillig buses, CAD/AVL update, WisGo contract",
-            "why": "The director will report on new buses, computer-aided dispatch and automatic vehicle location updates, and the WisGo contract."
-          }
-        ],
-        "overview": "The Transit Commission is scheduled to decide on replacing aging equipment and facilities at Metro Ride, including new fare boxes, exterior doors, and a ceiling, all funded by state grants. The commission will also consider a $24,000 city contribution toward a $120,000 state-funded planning study for transit development.",
-        "publicComment": true
-      }
-    },
     {
       "date": "2026-11-23",
       "time": "7:30 AM",
@@ -372,20 +325,20 @@
     },
     {
       "date": "2026-12-07",
-      "time": "5:15 PM",
+      "time": "5:00 PM",
       "name": "Parks & Recreation Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2459/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2420/overview",
       "source": "wausau"
     }
   ],
   "weston": [
-    {
-      "date": "2026-11-19",
-      "time": "6:00 PM",
-      "name": "Mountain Bay Metro Police Oversight",
-      "url": "https://www.westonwi.gov/agendacenter",
-      "source": "weston"
-    },
     {
       "date": "2026-11-23",
       "time": "",

@@ -1,14 +1,9 @@
-# Reporter tip sheet: week of Thursday, Nov 19
+# Reporter tip sheet: week of Friday, Nov 20
 
 Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agenda previews; software wrote those, so confirm with the record before reporting.
 
 ## Decisions coming up
 
-- [Thursday, Nov 19, 4:45 PM: City of Wausau, Transit Commission Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2185/overview)
-  - VOTE: New fare boxes for Metro Ride; approve request for proposal. The commission is being asked to approve moving forward with replacing current fare boxes using an 80/20 grant.
-  - VOTE: Metro Ride facility exterior doors replacement and ceiling repair. The commission is being asked to approve replacing entrance and garage doors (under $50,000) and repairing the original ceiling damaged by past roof leaks, both funded by an 80/20 grant.
-  - VOTE: Metro Ride procurement policy update to match city policy. The commission is being asked to approve updating the current procurement policy.
-  - VOTE: City contribution to updated transit development planning study. The commission is being asked to approve a $24,000 city contribution toward a $120,000 state-funded and MPO-funded planning study for an updated Metro Ride development plan.
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
   - VOTE: Approve five service and equipment agreements for city. The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators.
@@ -56,16 +51,16 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 24 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 22 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
-- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 10 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
-- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 9 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
-- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 7 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 25 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 23 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
+- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
+- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 10 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
+- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 8 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
 
 ## Next week's meetings without a preview
 
 - City of Wausau: 1 meeting with no agenda read yet
-- Marathon County: 3 meetings with no agenda read yet
+- Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
-- Village of Weston: 2 meetings with no agenda read yet
+- Village of Weston: 1 meeting with no agenda read yet
 - Wausau School Board: 1 meeting with no agenda read yet

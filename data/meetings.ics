@@ -27,36 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:66023df6f800498da2b6@marathon-meetings
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=America/Chicago:20261119T164500
-DTEND;TZID=America/Chicago:20261119T181500
-SUMMARY:City of Wausau: Transit Commission Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/2185/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:560923eae7ac4c422011@marathon-meetings
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=America/Chicago:20261119T170000
-DTEND;TZID=America/Chicago:20261119T183000
-SUMMARY:Marathon County: HR\, Finance & Property Committee
-URL:https://www.marathoncounty.gov/about-us/county-calendar
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:29e14569a60814c49ef9@marathon-meetings
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=America/Chicago:20261119T180000
-DTEND;TZID=America/Chicago:20261119T193000
-SUMMARY:Village of Weston: Mountain Bay Metro Police Oversight
-URL:https://www.westonwi.gov/agendacenter
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:b46119fc786a09bd3ddf@marathon-meetings
 DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261123
@@ -250,8 +220,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cfffc878ec13aac024ff@marathon-meetings
 DTSTAMP:20261207T000000Z
-DTSTART;TZID=America/Chicago:20261207T171500
-DTEND;TZID=America/Chicago:20261207T184500
+DTSTART;TZID=America/Chicago:20261207T170000
+DTEND;TZID=America/Chicago:20261207T183000
 SUMMARY:City of Wausau: Parks & Recreation Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/2459/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
@@ -274,6 +244,16 @@ DTSTART;TZID=America/Chicago:20261208T170000
 DTEND;TZID=America/Chicago:20261208T183000
 SUMMARY:Marathon County: Public Safety Committee
 URL:https://www.marathoncounty.gov/about-us/county-calendar
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:691af92809fe1c89d5c3@marathon-meetings
+DTSTAMP:20261208T000000Z
+DTSTART;TZID=America/Chicago:20261208T171500
+DTEND;TZID=America/Chicago:20261208T184500
+SUMMARY:City of Wausau: Finance Committee Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/2420/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
