@@ -20,8 +20,9 @@ import re
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from .config import (ARCHIVE_UPDATES_JSON, InstanceConfig, MEETINGS_JSON, STATE_FILE,
-                     VOTE_ADAPTERS)
+from .config import (ARCHIVE_UPDATES_JSON, InstanceConfig, MEETINGS_JSON, MINUTES_ADAPTERS,
+                     PORTAL_PREFIX,
+                     STATE_FILE, VOTE_ADAPTERS)
 from .state import load_injected, load_state, save_injected
 
 logger = logging.getLogger(__name__)
@@ -56,6 +57,17 @@ def infer_committee(cfg: InstanceConfig, title: str, source_key: str,
 
     def normalize(s):
         return s.lower().replace(" and ", " & ").replace("  ", " ")
+
+    # A portal-first board's title is the portal's own name for the body and
+    # meeting; it beats the model's wording, which tends to restate the
+    # jurisdiction ("Mosinee School Board" for a "Regular School Board Meeting").
+    if jur.agendas_adapter in MINUTES_ADAPTERS:
+        lower = normalize(title)
+        for key, display in jur.committee_map.items():
+            if key in lower:
+                return display
+        clean = re.sub(r"\s*-\s*20\d{2}-\d{2}-\d{2}$", "", title).strip()
+        return re.sub(r"\s+-\s+(?:Regular|Special)\s+Meeting$", "", clean).strip() or clean
 
     if committee_from_json and len(committee_from_json) > 3:
         lower = normalize(committee_from_json)
@@ -165,13 +177,16 @@ def _synthetic_fallback_url(cfg: InstanceConfig, video_id: str,
         return f"https://{a['client']}.legistar.com"
     if jur.agendas_adapter == "primegov":
         return f"https://{a['client']}.primegov.com/public/portal"
-    return a.get("base", "")
+    return a.get("portal") or a.get("base", "")
+
+
+_SYNTHETIC_ID = re.compile(r"^(bb|" + "|".join(sorted(set(PORTAL_PREFIX.values()))) + r")_\d+$")
 
 
 def _is_synthetic(video_id: str) -> bool:
     # bb_ = BoardBook; cc_/lg_/pg_ = a portal-first CivicClerk, Legistar or
     # PrimeGov meeting; anything with a <prefix>_<32-hex-guid> shape = municode.
-    return bool(re.match(r"^(bb|cc|lg|pg)_\d+$", video_id)) or bool(
+    return bool(_SYNTHETIC_ID.match(video_id)) or bool(
         re.match(r"^[a-z]{2,8}_[0-9a-f]{32}$", video_id))
 
 

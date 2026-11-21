@@ -20,6 +20,9 @@ Summaries name officials. A resident who speaks at public comment is named only 
 | Wausau School Board     | YouTube (district channel)          | BoardBook (meetings.boardbook.org, org 1360)     |
 | Village of Kronenwetter | SoundCloud audio                    | Municode Meetings (kronenwetter-wi.municodemeetings.com) |
 | D.C. Everest School Board | YouTube `@dceverestschoolboard2202` | BoardBook (meetings.boardbook.org, org 1315)   |
+| Mosinee School Board    | none read (minutes instead)         | Diligent Community (mosineeschools.community.highbond.com) |
+| City of Mosinee         | none read (minutes instead)         | Granicus IQM2 (mosineecitywi.iqm2.com)           |
+| Village of Rothschild   | none posted (minutes instead)       | village website (rothschildwi.com)               |
 
 ## Architecture
 
