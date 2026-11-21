@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Central Wisconsin Government Meetings
 X-WR-CALDESC:Upcoming public meetings for Marathon County\, Wausau\, Weston
- \, Kronenwetter\, Mosinee\, Rothschild\, the Village of Maine and area sch
- ool boards - from the Wausau Pilot & Review Meeting Tracker.
+ \, Kronenwetter\, and area school boards - from the Wausau Pilot & Review 
+ Meeting Tracker.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VTIMEZONE
@@ -41,16 +41,6 @@ DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Village of Weston: Park and Recreation Committee
 URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:3796443f27bafc29f436@marathon-meetings
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-SUMMARY:Village of Rothschild: Planning and Zoning Commission
-URL:https://www.rothschildwi.com/11-23-2026%20Planning%20&%20Zoning%20Agend
- a.pdf#rz1004
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -122,27 +112,6 @@ DTEND;TZID=America/Chicago:20261123T193000
 SUMMARY:Village of Kronenwetter: Revised Village Board Meeting
 URL:https://kronenwetter-wi.municodemeetings.com/bc-vb/page/revised-village
  -board-meeting-7
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:710a91f459cd14f98463@marathon-meetings
-DTSTAMP:20261123T000000Z
-DTSTART;TZID=America/Chicago:20261123T180000
-DTEND;TZID=America/Chicago:20261123T193000
-SUMMARY:City of Mosinee: Common Council - Budget Meeting
-URL:https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:1c3e7f2cd16033d08b46@marathon-meetings
-DTSTAMP:20261123T000000Z
-DTSTART;TZID=America/Chicago:20261123T183000
-DTEND;TZID=America/Chicago:20261123T200000
-SUMMARY:Village of Rothschild: Village Board
-URL:https://www.rothschildwi.com/11-23-2026%20-%20Joint%20Village%20Board%2
- 0&%20Water%20Utility%20Agenda.pdf#rz1009
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -399,38 +368,6 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
-UID:1765afc32a2b689e2809@marathon-meetings
-DTSTAMP:20261214T000000Z
-DTSTART;TZID=America/Chicago:20261214T183000
-DTEND;TZID=America/Chicago:20261214T200000
-SUMMARY:Village of Rothschild: Village Board
-URL:https://www.rothschildwi.com/government/village_agendas_recordings___mi
- nute_meetings/index.php
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:4f970dcdb00939973a48@marathon-meetings
-DTSTAMP:20261214T000000Z
-DTSTART;TZID=America/Chicago:20261214T193000
-DTEND;TZID=America/Chicago:20261214T210000
-SUMMARY:City of Mosinee: Common Council - Regular Meeting
-URL:https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3520
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:82a8cfd0e44691a4b708@marathon-meetings
-DTSTAMP:20261215T000000Z
-DTSTART;TZID=America/Chicago:20261215T180000
-DTEND;TZID=America/Chicago:20261215T193000
-SUMMARY:Mosinee School Board: Regular School Board Meeting
-URL:https://mosineeschools.community.highbond.com/Portal/MeetingTypeList.as
- px
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:8ace6d8325e2e48f838b@marathon-meetings
 DTSTAMP:20261216T000000Z
 DTSTART;TZID=America/Chicago:20261216T183000
@@ -521,17 +458,6 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
-UID:37e7bdae6f24f05db614@marathon-meetings
-DTSTAMP:20261228T000000Z
-DTSTART;TZID=America/Chicago:20261228T183000
-DTEND;TZID=America/Chicago:20261228T200000
-SUMMARY:Village of Rothschild: Village Board
-URL:https://www.rothschildwi.com/government/village_agendas_recordings___mi
- nute_meetings/index.php
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:f2885a96cb45ff4deacd@marathon-meetings
 DTSTAMP:20270104T000000Z
 DTSTART;TZID=America/Chicago:20270104T180000
@@ -578,16 +504,6 @@ DTSTART;TZID=America/Chicago:20270111T180000
 DTEND;TZID=America/Chicago:20270111T193000
 SUMMARY:Village of Weston: Public Works Committee
 URL:https://www.westonwi.gov/agendacenter
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:68d0fb57c74940cb77be@marathon-meetings
-DTSTAMP:20270111T000000Z
-DTSTART;TZID=America/Chicago:20270111T193000
-DTEND;TZID=America/Chicago:20270111T210000
-SUMMARY:City of Mosinee: Common Council - Regular Meeting
-URL:https://mosineecitywi.iqm2.com/Citizens/Default.aspx
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -658,17 +574,6 @@ DTSTART;TZID=America/Chicago:20270118T180000
 DTEND;TZID=America/Chicago:20270118T193000
 SUMMARY:Village of Weston: Board of Trustees
 URL:https://www.westonwi.gov/agendacenter
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:77603092cbd7a51ede11@marathon-meetings
-DTSTAMP:20270119T000000Z
-DTSTART;TZID=America/Chicago:20270119T180000
-DTEND;TZID=America/Chicago:20270119T193000
-SUMMARY:Mosinee School Board: Regular School Board Meeting
-URL:https://mosineeschools.community.highbond.com/Portal/MeetingTypeList.as
- px
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
