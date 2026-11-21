@@ -23,6 +23,7 @@ Summaries name officials. A resident who speaks at public comment is named only 
 | Mosinee School Board    | none read (minutes instead)         | Diligent Community (mosineeschools.community.highbond.com) |
 | City of Mosinee         | none read (minutes instead)         | Granicus IQM2 (mosineecitywi.iqm2.com)           |
 | Village of Rothschild   | none posted (minutes instead)       | village website (rothschildwi.com)               |
+| Village of Maine        | none posted (minutes instead)       | village website (villageofmaine.org), read from the residential machine |
 
 ## Architecture
 
