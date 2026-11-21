@@ -1,88 +1,96 @@
 {
-  "overview": "The Marathon County Board of Supervisors held an educational meeting focused primarily on the Hub City Wind project and options available to the county, featuring extensive public comment overwhelmingly opposed to a Joint Development Agreement (JDA) with Alliant Energy, followed by legal presentations from attorneys Rebecca Roker and Bill Omin advising that a JDA is the county's best available tool given state preemption of local wind energy regulation. The meeting also included educational presentations on the NTC-UWSP partnership and an update on the Allison Dairland program. No formal votes were taken, as this was designated an educational meeting.",
+  "overview": "The Marathon County Board of Supervisors held a wide-ranging educational meeting on August 20, 2026, centered largely on the Hub City Wind project and the county's legal options in response to Alliant Energy's proposed large-scale wind turbine development. Attorneys Bill Omin (UW-Madison Local Government Education Center) and Rebecca Roker (Atollus Law Firm) addressed supervisors' questions about the county's limited regulatory authority under state preemption, the risks of a moratorium, and the potential benefits and drawbacks of a Joint Development Agreement (JDA). The board also received presentations on the NTC-UWSP partnership, the Allison Dairland program, and heard extensive public comment overwhelmingly opposing a JDA.",
   "committee": "Marathon County Board of Supervisors",
   "presiding": "Kurt Gibbs, Board Chair",
   "agenda": [
     {
       "time": "0:00",
-      "item": "Call to Order, Pledge of Allegiance, and Moment of Reflection"
+      "item": "Call to order, Pledge of Allegiance, moment of reflection, reading of notice, roll call"
     },
     {
-      "time": "2:30",
-      "item": "Reading of Meeting Notice and Roll Call"
+      "time": "5:30",
+      "item": "Public comment on Hub City Wind JDA, body art convention licensing fees, and other items (17 speakers signed up)"
     },
     {
-      "time": "5:00",
-      "item": "Public Comment – 17 speakers signed up, primarily regarding Hub City Wind JDA and body art convention licensing fees"
+      "time": "57:00",
+      "item": "Standing committee chair reports — Supervisor Dickinson on County Highway XX developer agreement, truck length resolution, and four-way stop ordinance"
     },
     {
-      "time": "58:00",
-      "item": "Standing Committee Chair Reports – Supervisor Dickinson on County Highway XX developer agreement, truck length resolution, and four-way stop ordinance"
+      "time": "1:04:00",
+      "item": "Educational presentation: NTC and UWSP 'Purple and Blue Advantage' partnership update (Darren Ackley, NTC COO; Gretle Stock, UWSP Dean)"
     },
     {
-      "time": "1:08:00",
-      "item": "Educational Presentation: NTC and UWSP Stevens Point Partnership – 'Purple and Blue Advantage' – Darren Ackley and Gretle Stock"
+      "time": "1:32:00",
+      "item": "Presentation: Marathon County 79th Allison Dairland finale sponsor report (Jenny Rudolph)"
     },
     {
-      "time": "1:38:00",
-      "item": "Presentation: Marathon County 79th Allison Dairland Program Update – Jenny Rudolph"
+      "time": "1:36:00",
+      "item": "Item 9C7A taken out of order: Hub City Wind Project — legal Q&A with attorneys Bill Omin (UW-Madison) and Rebecca Roker (Atollus Law Firm) on JDA, moratorium, intervention, and county authority"
     },
     {
-      "time": "1:42:00",
-      "item": "Agenda Item 9C7A (taken out of order): Hub City Wind / JDA Legal Presentation – Attorneys Rebecca Roker (Atollus Law) and Bill Omin (UW-Madison Extension Law Center)"
+      "time": "1:40:00",
+      "item": "Board Q&A: moratorium legality, PSC authority, JDA negotiation scope, setbacks, environmental review, and timing"
     },
     {
-      "time": "1:55:00",
-      "item": "Board Q&A with Legal Panel on JDA, moratorium, PSC intervention options, and county authority"
+      "time": "2:45:00",
+      "item": "Board discussion: whether to pursue, delay, or reject JDA negotiations; debate over timing relative to upcoming election and CPCN filing"
     },
     {
-      "time": "2:20:00",
-      "item": "Supervisor questions on JDA funding sources, liability, and PSC obligation to consider local input"
+      "time": "3:05:00",
+      "item": "Recess — board to reconvene to take up remainder of agenda including ordinance amendments and other resolutions"
     }
   ],
   "discussions": [
     {
-      "item": "Public Comment – Hub City Wind and JDA",
-      "body": "Fifteen of the seventeen public speakers addressed the Hub City Wind project, with the overwhelming majority urging the board not to enter into a Joint Development Agreement with Alliant Energy. Speakers including Joe Bergen (Town of Day), Tren Spindler (Town of Day, chair of an intergovernmental committee of five affected townships), Cindy Nelson (Town of Opa), Jackie Dillinger (Town of Day), Nikki Catrell (Brighton Township), and others argued the county should instead pursue a limited moratorium and/or intervene at the PSC. Multiple speakers cited the county's own public survey and alternative energy committee recommendation against a JDA. Becky Tyro criticized the alternative energy task force as having produced no meaningful action despite overwhelming public opposition. One speaker, Harry Turkington from Madison, spoke in favor of a well-negotiated JDA, citing Marathon County's projected 5.5% population loss by 2050 and potential revenue benefits."
+      "item": "Public Comment — Hub City Wind / JDA",
+      "body": "Fourteen of the seventeen public commenters addressed the Hub City Wind project, uniformly urging the board to reject pursuing a JDA with Alliant Energy and instead pursue a moratorium and/or PSC intervention. Speakers cited the alternative energy committee's recommendation against a JDA, the county survey results opposing it, concerns about turbine size (up to 680 feet), health and safety unknowns, property value impacts, wildlife habitat near McMillan Marsh, lack of Alliant transparency, and NDAs in other JDAs. One speaker noted other counties such as Clark and Kenosha had adopted moratoriums. One speaker offered a counterpoint, arguing a well-negotiated JDA could bring revenue to offset projected county population and tax base decline."
     },
     {
-      "item": "Public Comment – Cedar Creek Incfest Body Art Convention Licensing Fees (Resolution R5326)",
-      "body": "Three speakers addressed proposed resolution R5326 regarding temporary body art event licensing fees. Brandy Candenberg (Village of Maine), organizing Cedar Creek Incfest coming to Rothschild in October, asked the board to vote no as presented, citing that the fee structure — roughly $208 per license covering six practitioners — could cost her event up to $14,000, compared to $130 in Sauk County and under $150 in Portage and Wood counties. Dave Brua, tourism marketing director for the Village of Rothschild, noted the event is expected to draw 6,000 attendees with a projected $500,000 economic impact. Mark Hannenburg, a local tattoo shop owner helping organize the event, argued the fee structure creates a 'cliff' where one additional practitioner doubles the cost and called for a more defensible fee methodology."
+      "item": "Public Comment — Cedar Creek Incfest Body Art Convention Licensing Fees (Resolution R53-26)",
+      "body": "Three speakers — an event organizer, the Village of Rothschild tourism marketing director, and a tattoo studio owner — asked the board to vote no on Resolution R53-26 as presented, arguing the proposed per-practitioner licensing fee structure was inequitable, inconsistent with neighboring counties, and could cost the event up to $14,000, threatening its viability. They noted Brown County charges $1,250 for an event of 200-plus artists, while Sauk County charged $130 for the same event in 2024, and the convention is projected to bring roughly $500,000 in economic impact to the region."
     },
     {
-      "item": "Standing Committee Report – County Highway XX Developer Agreement and Related Items",
-      "body": "Supervisor Chris Dickinson (appearing remotely, initially experiencing audio issues) reported on three related items: ordinance amendment 032-26 for a four-way stop on County Highway XX, resolution R4826 urging the state DOT to increase truck length allowances on Highway 51, and an upcoming developer agreement. He explained a new facility planned on County Highway XX and Trellwood Lane requires trucks over 65 feet, which are technically restricted from Business 51 under state code — a restriction not currently enforced but not legally resolved. Because the state will not act until at least January 2027 due to elections, the developer sought a county agreement providing a legal route via County Highway XX to allow construction to begin this fall for a 2028 opening. The agreement would have the developer fund 75% of an intersection improvement and 50% of resurfacing for 2.3 miles of County Highway X, with a cancellation clause protecting the county from costs if the state resolves the issue sooner."
+      "item": "Committee Chair Report — Supervisor Dickinson on County Highway XX Developer Agreement",
+      "body": "Supervisor Dickinson (appearing remotely, initially unable to be heard) briefed the board on three related items: an ordinance amendment for a four-way stop on County Highway XX, a resolution urging the state DOT to increase truck length allowances on Highway 51, and an upcoming developer agreement. He explained a new facility on County Highway XX and Trellwood Lane needs legal truck routes; state code restricts trucks over 65 feet from Business 51 but the state will not act until at least January 2027 due to elections. The developer agreement would have the developer fund 75% of an intersection improvement and 50% of resurfacing 2.3 miles of County Highway X, with a cancellation provision protecting the county from cost if the developer opts out."
     },
     {
-      "item": "Educational Presentation: NTC and UWSP 'Purple and Blue Advantage' Partnership",
-      "body": "NTC COO Darren Ackley and UWSP Dean of University College Gretle Stock presented plans to collocate UWSP at Wausau on NTC's Wausau campus beginning fall 2026, creating a seamless two-to-four-year degree pathway. Key points included that NTC associate degree graduates in the region earn an average of $54,000 annually, while a combined NTC-to-UWSP bachelor's degree pathway costs students approximately $30,000 compared to $75,000–$106,000 at a traditional four-year residential institution. They noted that only 28% of central Wisconsin residents hold bachelor's degrees versus 38% nationally, and that the partnership would place advisers from both institutions side by side to guide students. The board received the presentation and Chair Gibbs thanked the presenters; no questions from the board were noted on the record."
+      "item": "NTC and UWSP 'Purple and Blue Advantage' Partnership Presentation",
+      "body": "Darren Ackley (NTC COO) and Gretle Stock (UWSP Dean of University College) presented the colocation partnership launching fall 2026, in which UWSP at Wausau will be embedded on NTC's Wausau campus. They highlighted cost savings (estimated $45,000–$70,000 less than attending a traditional four-year campus), seamless advising, shared transfer agreements, and local talent retention. NTC associate degree graduates average $54,000 annually, above the $44,000 living wage for Marathon County; the partnership aims to increase the region's bachelor's degree attainment rate from 28% toward the national 38%. Board Chair Gibbs thanked presenters; no questions were asked by supervisors."
     },
     {
-      "item": "Hub City Wind – Legal Presentation on County Options (Item 9C7A)",
-      "body": "Attorneys Rebecca Roker (Atollus Law, appearing virtually) and Bill Omin (UW-Madison Extension Law Center) presented to the board on the county's legal options regarding Hub City Wind. Both attorneys confirmed that under Wisconsin statutes (Chapter 196 and Chapter 66) and existing PSC case law, Marathon County is substantially preempted from regulating large-scale renewable energy projects. Omin stated he reviewed all relevant PSC dockets and found no instance where a local government's intervention caused the PSC to deny a utility's project application. Roker described moratoriums as 'frowned upon' under Wisconsin law and legally risky if the motivation is to halt development. Both attorneys advised that a JDA represents the best available mechanism for the county to address resident concerns, noting it is a contract that can include provisions on noise, road repairs, decommissioning, payments in lieu of taxes, and mitigation of unanticipated damages — though the developer is not obligated to agree to any specific term. During board Q&A, Supervisor Rosenberg asked whether a trust fund for remediation could be negotiated; attorneys said it was possible to ask for but must be supported by data and is subject to negotiation. Supervisor Wilhelm asked whether a JDA would release Alliant from unforeseen liability; Roker said a properly drafted JDA would include provisions holding Alliant responsible. Supervisor Aaron Griner pressed on the extent to which the PSC is legally obligated to consider county input, and Roker acknowledged there is 'no legal standard for consider' within the statute and that PSC has no obligation to consider a moratorium at all."
+      "item": "Hub City Wind — Legal Briefing and Board Q&A (Item 9C7A)",
+      "body": "Attorneys Bill Omin and Rebecca Roker provided an extensive legal briefing on the county's options regarding the Hub City Wind project. They explained that because the project exceeds 100 megawatts, state statutes (Chapters 196 and 66) largely preempt local regulation, the PSC is only required to 'consider' (not follow) local comprehensive plans, and no local municipality has successfully stopped a project through PSC intervention. They characterized moratoriums as legally risky, disfavored under Wisconsin law, and potentially subject to legal challenge, while describing a JDA as the best available mechanism for the county to protect its interests contractually on issues such as setbacks, road repair, decommissioning, and environmental mitigation. Supervisors raised questions about health impacts, farmland preservation, environmental justice, airspace, wildlife, the timing of JDA negotiations relative to CPCN filing, and whether signing a JDA signals support for the project (attorneys said it need not). Omin confirmed he found no case in PSC dockets where a local government's intervention resulted in a project being denied."
+    },
+    {
+      "item": "Board Deliberation: JDA Timing and Next Steps",
+      "body": "Supervisors debated extensively whether to begin JDA negotiations immediately or delay. Supervisor Robinson and Supervisor Mast argued that waiting reduces negotiating leverage since Alliant has already secured land agreements, and that JDA negotiations typically take 8 months to over a year. Supervisors Gal, Sundulski, Jensen, and Straw argued for a delay of three to six months, citing the upcoming November election (which could change state-level policy), the township representatives' and residents' clear opposition to a JDA, and the desire to gather more information. Supervisor Nice suggested a middle path of examining JDA options without committing. No vote was taken at this meeting; Corp Counsel noted the executive committee made no formal recommendation, creating a parliamentary challenge, and suggested the board could consider two separate resolutions at the next meeting. Chair Gibbs indicated a recess before the remainder of the agenda."
     }
   ],
-  "publicComment": "Seventeen speakers signed up; approximately 15 addressed the Hub City Wind project and the proposed JDA with Alliant Energy. Nearly all who spoke on that topic were opposed to entering a JDA and urged the board to pursue a limited moratorium and/or PSC intervention instead. Speakers cited the county's own public forum results, the alternative energy committee's recommendation against a JDA, concerns about turbine health impacts, property values, wildlife, airspace safety near private airstrips, and the lack of operating precedent for 680-foot turbines. One speaker (Harry Turkington, City of Madison) spoke in favor of a well-negotiated JDA citing demographic and fiscal concerns. Three speakers addressed resolution R5326 on body art convention licensing fees, urging the board to vote no on the current proposal and requesting a revised fee structure before adoption.",
+  "publicComment": "Seventeen people signed up; the following spoke: Joe Bergen (Town of Rib) opposed the JDA, citing the alternative energy committee's recommendation against it and questioning why a moratorium and intervention were not being pursued. Tren Spindler (Town of Rib, chair of an intergovernmental committee of five affected townships) opposed the JDA and urged a moratorium and PSC intervention, noting several ordinance options exist. Brandy Candenberg (Village of Maine, event organizer) asked the board to vote no on Resolution R53-26, arguing the proposed per-practitioner licensing fee structure could cost the Cedar Creek Incfest up to $14,000 and was inconsistent with neighboring counties. Dave Brua (Town of Wausau, Village of Rothschild tourism marketing director) also asked for further work on the licensing fee, noting the event's projected $500,000 economic impact. Mark Hannenburg (Village of Maine, tattoo studio owner and event co-organizer) opposed R53-26, describing the fee structure as a 'cliff' that disproportionately penalizes groups of seven practitioners versus six. Cindy Nelson (Town of Eau Pleine) opposed the JDA, pressing the board to explain why a limited moratorium had not been proposed and warning that she would track supervisors' votes through election time. Jackie Dillinger (Town of Rib) opposed the JDA, citing the Saratoga Township chairman's experience, warning about NDA clauses in JDAs, and noting PSC 128 guidelines date to 2011 when turbines were much smaller. Denise Kahn (Town of Rib) opposed the JDA, calling for independent research on health, groundwater, and soil impacts before approval, and warning against using Marathon County farmland as a testing ground. A resident from the Town of Ringle described concerns about shadow flicker, an airstrip on neighboring land requiring FAA-mandated 2,000-foot horizontal clearance, proximity to flight paths, and endangered brown bats in the area. Nikki Catrell (Brighton Township) opposed the JDA, stating she had moved from the East Coast for rural life and feared she would have to leave; she urged supervisors to research and advocate for constituents, arguing Alliant would not agree to meaningful setbacks in a JDA. Diane Freedman (Town of Eau Pleine) opposed the JDA, comparing the project to a science experiment with no guide book. Glenn Regolski (Town of Green Valley) opposed the JDA, questioning why Alliant entered Marathon County covertly through NDAs and good-neighbor agreements without approaching the county first. Becky Tyro (Town of Wiston, farm wedding venue owner) opposed the JDA and demanded to hear from supervisors at a public meeting why a limited moratorium could not be enacted. Trish Goldbach (Stratford) opposed rushing into a JDA, emphasizing that PSC 128 guidelines were written in 2011 and turbines have doubled in height. Harry Turkington (City of Madison) spoke in favor of a well-negotiated JDA, citing wind energy's improved reliability (52% capacity factor), Marathon County's projected 5.5% population decline through 2050, and examples of municipalities gaining community benefits through JDAs. Heidi Pesky (Town of McMillan) opposed the JDA, noting a Columbia County meeting the prior evening where no JDA existed, citing Wisconsinites for Local Control's PSC intervention work, noting the proposed turbines would be the tallest ever built for commercial power generation in the U.S., and raising concerns about medical helicopter flight paths to Children's Hospital. Christine Seafer (Town of McMillan) opposed the JDA, quoting an article arguing Wisconsin's electricity usage has been flat since 2005, alleging Alliant profits from building infrastructure regardless of local need, and expressing distrust of Alliant based on information provided at prior public forums.",
+  "publicCommentSpeakers": 17,
   "actionItems": [
-    "Board to continue deliberations on whether to authorize JDA negotiations with Alliant Energy / Hub City Wind",
-    "Board to consider resolution R5326 on body art temporary event licensing fees, with public commenters requesting the vote be delayed pending revision of the fee methodology",
-    "Supervisor Dickinson's developer agreement for County Highway XX to come before the board the following week",
-    "Board encouraged to consider updating the county comprehensive plan as one tool available in the PSC process",
-    "NTC and UWSP partnership colocation at NTC Wausau campus to begin fall 2026; county to continue working through transition of the Steuart Avenue UWSP campus building"
+    "Board to consider resolutions at the next meeting (Tuesday) on whether to pursue JDA negotiations with Alliant Energy for the Hub City Wind project — Corp Counsel to prepare options possibly including two separate resolutions",
+    "Board to continue deliberation on Hub City Wind options including JDA, moratorium, PSC intervention, and comprehensive plan update",
+    "ERC committee to receive direction if the board wishes to pursue a comprehensive plan update related to large-scale energy facilities",
+    "Board to vote Tuesday on ordinance amendment 032-26 (four-way stop on County Highway XX), resolution R48-26 (urging state DOT on truck length on Highway 51), and the developer agreement for County Highway XX",
+    "Board to vote on Resolution R53-26 regarding temporary event body art licensing fees (Cedar Creek Incfest organizers urged a no vote and further staff work on fee methodology)",
+    "Chapter 17 ordinance updates (three amendments adding protections for large energy facilities) to come before the board for a vote",
+    "Data center moratorium to be taken up in the remainder of the agenda"
   ],
   "topics": [
-    "Hub City Wind",
+    "Hub City Wind Project",
     "Joint Development Agreement",
     "Renewable Energy Regulation",
-    "Body Art Convention Licensing",
-    "Higher Education Partnership"
+    "NTC-UWSP Partnership",
+    "Body Art Convention Licensing"
   ],
   "votes": [],
   "_source": "transcript",
+  "_transcript_chars": 183751,
   "_transcript_hash": "87112ff5079ae611",
   "title": "Marathon County Board Educational Meeting Pt.1",
   "url": "https://www.youtube.com/watch?v=JTy9vbIl9xo",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:15:19.911502+00:00"
+  "processed_at": "2026-11-21T17:06:00.335182+00:00"
 }

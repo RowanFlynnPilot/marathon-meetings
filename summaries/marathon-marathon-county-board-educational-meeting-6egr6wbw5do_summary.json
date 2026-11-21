@@ -1,5 +1,5 @@
 {
-  "overview": "The Marathon County Board held an educational meeting focused primarily on a detailed presentation for the proposed phase four construction of a new county highway facility. No votes were taken at this educational session; the resolution authorizing phase four construction (estimated at $54,980,537) was scheduled for consideration at the Human Resources Finance and Property Committee meeting on October 20, followed by the full County Board the same evening. Supervisors also reviewed upcoming voting items including rezones, solid waste policy, and a potential Cherokee Park land purchase.",
+  "overview": "The Marathon County Board of Supervisors held an educational meeting on October 15, 2026, primarily focused on a detailed presentation of Phase 4 construction plans for the proposed county highway facility, including a guaranteed maximum price of approximately $54.98 million. The board also previewed upcoming voting items for the next meeting, including multiple town rezoning ordinances, ARPA fund reallocation, and a land purchase near Cherokee Park. No formal votes were taken at this educational meeting, as action items are deferred to the October 20 HR Finance and Property Committee meeting and the subsequent full County Board meeting.",
   "committee": "Marathon County Board of Supervisors",
   "presiding": "Kurt Gibbs, Board Chair",
   "agenda": [
@@ -8,78 +8,84 @@
       "item": "Pledge of Allegiance, moment of silent reflection, reading of notice, roll call"
     },
     {
-      "time": "3:30",
-      "item": "Public comment (none offered)"
+      "time": "2:30",
+      "item": "Public comment period (no speakers)"
     },
     {
-      "time": "4:00",
-      "item": "Standing committee announcements — Supervisor Robinson previews upcoming HR Finance & Property agenda items"
+      "time": "3:15",
+      "item": "Standing committee announcements — Supervisor Robinson previews upcoming HR Finance and Property Committee agenda items"
     },
     {
-      "time": "7:30",
-      "item": "Review of voting items: rezoning ordinances (9A1–9A8) from towns of Hewitt, Holton, Hall, Reid, Rib Falls, and Wausau"
+      "time": "5:30",
+      "item": "Review of upcoming ordinances: Town rezoning items (9A1–9A8)"
     },
     {
-      "time": "12:00",
-      "item": "Review of environmental/solid waste resolutions: severe weather debris tipping policy (58-26), Town of Reedbrock wind siting ordinance (59-26), Town of Reedbrock solar ordinance (60-26), Town of Wausau data center ordinance (61-26)"
+      "time": "10:00",
+      "item": "Review of upcoming resolutions: Solid waste tipping policy, town wind/solar/data center ordinances (9B1–9B2C)"
     },
     {
-      "time": "18:00",
-      "item": "Review of HR Finance & Property resolutions: ARPA funds reclassification (62-26), imprest funds (63-26), tax deed property sales (64-26, 65-26), Cherokee Park land purchase (66-26), pontoon boat donation (67-26)"
+      "time": "16:00",
+      "item": "Review of upcoming resolutions: ARPA fund reclassification, imprest funds, tax deed property sales, Cherokee Park land purchase, pontoon boat donation (9B3A–9B3F)"
     },
     {
-      "time": "32:00",
-      "item": "Educational presentation: Phase four construction of proposed county highway facility — value engineering, coal dust/air quality, geothermal HVAC, construction costs"
+      "time": "28:00",
+      "item": "Educational presentation: Phase 4 construction of proposed County Highway Facility — site plan, floor plans, geothermal HVAC, value engineering, air quality, and cost overview"
     },
     {
-      "time": "45:00",
-      "item": "Architectural and site plan walkthrough by lead architect Ned Dirksen (Miron project team)"
+      "time": "1:28:00",
+      "item": "Review of upcoming Infrastructure Committee resolutions: Crash Responder Safety Week, County Road Q property transfer (9B4A–9B4B)"
     },
     {
-      "time": "1:12:00",
-      "item": "Construction timeline, guaranteed maximum price, and project approval process overview"
+      "time": "1:30:00",
+      "item": "Announcements and adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Standing committee announcements",
-      "body": "Supervisor Robinson announced the HR Finance & Property Committee would meet October 20 before the County Board to discuss funding for the county highway facility resolution, a resolution declaring November as Project Greenlight Month for veterans, and a resolution opposing proposed US Census rule changes that could shift Wisconsin 'snowbird' residents to states like Florida and Arizona, potentially costing Wisconsin a congressional seat and federal funding."
+      "item": "Standing Committee Announcements",
+      "body": "Supervisor Robinson announced the HR Finance and Property Committee would meet the following Tuesday before the full County Board meeting, with the agenda including funding for the highway facility resolution, a resolution declaring November as Project Greenlight Month for veterans, and a resolution expressing concerns about proposed U.S. Census rule changes that could reduce Wisconsin's congressional representation by counting winter residents in southern states."
     },
     {
-      "item": "Town of Reedbrock wind/solar siting ordinances and Town of Wausau data center ordinance (Resolutions 59-26, 60-26, 61-26)",
-      "body": "Supervisor Lemmer raised concerns about the county's shift from substantively reviewing town ordinances to a purely procedural compliance check, worrying about 'rubber stamping.' Corporation Counsel explained the shift is intentional and designed to limit county liability, noting towns that opt out of county zoning are responsible for enforcing their own ordinances. He acknowledged the odd statutory requirement for county approval even when towns have opted out, and confirmed the Reedbrock ordinance had previously been returned to the town for a required new public hearing before being resubmitted. Supervisor Sandowski asked whether the Wausau data center ordinance addressed hyperscale data centers; Chair Gibbs reiterated the county's role is solely procedural compliance."
+      "item": "Town Wind, Solar, and Data Center Ordinances (9B2A–9B2C)",
+      "body": "Supervisor Lemmer raised concerns about the county's shift to a purely compliance-based review of town ordinances rather than substantive legal review, questioning whether this created liability risk. Corporation counsel explained the shift was intended to limit the county's liability since towns that have opted out of county zoning must enforce their own ordinances; the county's role under state statute is only to verify procedural compliance. Supervisor Sandowski asked whether the Town of Wausau data center ordinance addressed hyperscale facilities, and was reminded that the town's ordinance applies only within its own boundaries."
     },
     {
-      "item": "Cherokee Park land purchase — Resolution 66-26 (up to 15 acres, not to exceed $X)",
-      "body": "Supervisor Jensen asked about the Knowles-Nelson Stewardship Fund referenced in the resolution; Administrator Landon and Supervisor Robinson explained the fund's legal framework exists but currently has no appropriation, and was included in case it is reauthorized so the county could capture outside funding. Supervisor Hagen asked three questions about need, tax impact, and maintenance costs; Parks Director Jamie Paully (participating remotely) explained the parcel is forested riverfront land that would make Cherokee Park 'whole' by eliminating a gap along the river, that taxable value lost would be minimal given current forest classification, and that no additional maintenance costs are anticipated unless trails or improvements are added in the future."
+      "item": "Cherokee Park Land Purchase (Resolution 66-26)",
+      "body": "Supervisor Jensen asked about the status of Knowles-Nelson Stewardship Fund funding referenced in the resolution; Administrator Landon and Supervisor Robinson explained there is currently no funding in the program but the reference was included so the county could pursue it if reauthorized. Supervisors Hagen and Jensen asked about the need for the land, its tax impact, and ongoing maintenance costs; Parks Director Jamie Paully explained the parcel is currently forested, generates minimal tax revenue, and would complete the park boundary along the river with minimal added maintenance unless future trail development is pursued."
     },
     {
-      "item": "Phase four highway facility construction — educational presentation",
-      "body": "Deputy Administrator and Facilities Director Chris Holman led an extensive presentation alongside project architect Ned Dirksen, Miron project executive Eric Brandt, and Excel Engineering's geothermal specialist Corey Powers. The guaranteed maximum price for direct construction was presented as $53.3 million, with a total project cost of $54,980,537 including contingencies, design fees, and owner FF&E. Key topics included value engineering steps already taken (consolidating hazardous storage, switching to energy wheel, reducing card-access doors), geothermal HVAC justification (bore field cost $1.9 million with 40% IRA tax credit reducing county cost to approximately $1.14 million; Dunn County comparison showing 33% less electricity and 84% fewer natural gas therms), coal dust mitigation via MERV 8 and MERV 14 dual filtration, and a construction timeline targeting spring 2027 site work start and August 2028 substantial completion. Supervisors asked numerous questions about geothermal reliability in extreme cold (backup gas boilers confirmed), filter maintenance costs (Dirksen pledged to provide costs by Tuesday), LEED certification (architect stated equivalent energy efficiency measures are incorporated without pursuing formal certification), truck traffic flow, building expansion capacity, and whether competitive bidding was followed (Holman confirmed sealed public bid process with lowest qualified bidder selection and validation calls completed by Miron)."
+      "item": "Phase 4 Highway Facility Construction Presentation",
+      "body": "Deputy Administrator and Facilities Director Chris Holman led an extensive presentation alongside project architect Ned Dirksen, Miron project executive Eric Brandt, and Excel Engineering's Corey Powers on geothermal HVAC, air quality filtration, value engineering savings, site and floor plans, and the guaranteed maximum price of $53.3 million in direct construction costs, with a total project figure of $54,980,537 including contingencies, design fees, and owner FF&E. Supervisors asked detailed questions about geothermal maintenance costs, MERV filter expenses, coal dust impacts on workers and equipment, backup heating systems, truck traffic flow, expansion capacity, LEED-equivalent design standards, and the competitive bid process; Holman and the project team answered that the bore field cost $1.9 million with a $760,000 IRA tax credit anticipated, that backup gas boilers are included for temperatures below zero, and that the guaranteed maximum price represents a ceiling with potential to come down. Supervisor Griner asked what percentage of the building would be immediately utilized, and Commissioner [inaudible] confirmed that all existing equipment including 82 large pieces, 24 plow trucks, and over 100 small tools would fill the main building, with current equipment routinely stored outside and degrading. The board was informed the resolution authorizing Phase 4 will be considered at the HR Finance and Property Committee on October 20 and then the full County Board that same evening."
     }
   ],
-  "publicComment": "No public comment was offered. The board chair stated no individuals had approached the clerk to request to address the board.",
+  "publicComment": "No public comment was offered.",
+  "publicCommentSpeakers": 0,
   "actionItems": [
-    "HR Finance & Property Committee to consider highway facility phase four construction resolution (Resolution authorizing up to ~$54.98 million) on October 20 at 3:00 p.m., with Infrastructure Committee members invited",
-    "Infrastructure Committee invited to join HR Finance & Property discussion of highway facility funding resolution on October 20",
-    "Full County Board to consider highway facility resolution the evening of October 20 if approved by committee",
-    "Project team to provide MERV filter costs and quantity, geothermal equipment manufacturer basis-of-design, and answers to remaining supervisor questions before October 20 meeting",
-    "HR Finance & Property Committee to also consider resolutions on Project Greenlight Month (veterans) and opposition to proposed US Census rule changes on October 20",
-    "All rezoning ordinances (9A1–9A8) and resolutions 58-26 through 67-26 queued for vote at next County Board meeting"
+    "HR Finance and Property Committee to consider highway facility Phase 4 construction resolution (Resolution authorizing ~$54.98M project) on October 20",
+    "Infrastructure Committee invited to join HR Finance and Property Committee for highway facility funding discussion on October 20",
+    "Full County Board to consider highway facility Phase 4 resolution the evening of October 20 if approved by committee",
+    "Project team to provide filter count and MERV filter costs before the October 20 meeting",
+    "Project team to provide basis-of-design geothermal equipment manufacturer information before October 20 meeting",
+    "Project team to review meeting video and prepare answers to all outstanding questions for October 20 meeting",
+    "County to place long-lead precast concrete panel orders as soon as Phase 4 is approved",
+    "County Highway Department to proceed with on-site clearing, screening, and house demolitions using county equipment",
+    "Resolution declaring November as Project Greenlight Month to be considered at next meeting",
+    "Resolution on proposed U.S. Census rule changes affecting Wisconsin representation to be considered at next meeting"
   ],
   "topics": [
     "Highway Facility Construction",
     "Geothermal HVAC",
     "Budget",
     "Zoning",
-    "Cherokee Park Land Acquisition"
+    "Cherokee Park"
   ],
   "votes": [],
   "_source": "transcript",
+  "_transcript_chars": 92923,
   "_transcript_hash": "a7e6420ecf41367f",
   "title": "Marathon County Board Educational Meeting",
   "url": "https://www.youtube.com/watch?v=6EGr6wbw5Do",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-18T22:26:27.760456+00:00"
+  "processed_at": "2026-11-21T17:01:16.239672+00:00"
 }

@@ -1,96 +1,95 @@
 {
-  "overview": "The Marathon County Executive Committee held a lengthy meeting focused on the Hub City Wind project in southwestern Marathon County, featuring public comment from 10 residents, a panel discussion with legal experts and municipal officials, and concluding with a motion to forward the question of whether to pursue a Joint Development Agreement (JDA) to the full 38-member county board. The committee heard from attorneys, a UW-Extension local government educator, and a town chair from Wood County about the limited legal authority counties have over large-scale wind projects under Wisconsin statute, with experts uniformly concluding that a JDA is effectively the strongest tool available to the county.",
+  "overview": "The Marathon County Executive Committee met on August 13, 2026, and took two notable votes: forwarding to the full county board a discussion on whether to pursue a Joint Development Agreement (JDA) with Alliant Energy regarding the Hub City Wind project, and approving a reclassification of a senior administrative assistant position in the county administrator's office. The meeting featured extensive public comment and expert testimony on the Hub City Wind project, an update from ice arena user groups on fundraising efforts, and a presentation from Advanced Wisconsin Employment on a new workforce program called Life Works.",
   "committee": "Marathon County Executive Committee",
   "presiding": "Kurt Gibbs, Board Chair",
   "agenda": [
     {
       "time": "0:00",
-      "item": "Call to Order and Pledge of Allegiance"
+      "item": "Call to order and Pledge of Allegiance"
     },
     {
       "time": "1:30",
-      "item": "Public Comment (10 speakers, 3 minutes each)"
-    },
-    {
-      "time": "28:00",
-      "item": "Approval of July 15, 2026 Executive Committee Meeting Minutes"
-    },
-    {
-      "time": "29:00",
-      "item": "Item 5a: Discussion of options regarding Hub City Wind project, including panel discussion with local municipal officials and experts"
+      "item": "Public comment on Hub City Wind project (10 speakers)"
     },
     {
       "time": "31:00",
-      "item": "Staff Presentation by CPZ Director Lori Kimmons: PSC intervention process memo and county research memo"
+      "item": "Approval of July 15, 2026 executive committee meeting minutes"
     },
     {
-      "time": "48:00",
-      "item": "Panel Presentation: Laura Fure, Town Chair/Zoning Administrator, Town of Saratoga (Wood County)"
+      "time": "32:00",
+      "item": "Discussion of options regarding Hub City Wind project, including panel discussion with local municipal officials and experts"
     },
     {
-      "time": "58:00",
-      "item": "Panel Presentation: Andy Phillips, Atollis Law (WCA general counsel)"
+      "time": "1:45:00",
+      "item": "Opportunity for ice arena user groups to update the committee on facility planning and fundraising, and discussion on next steps"
     },
     {
-      "time": "1:08:00",
-      "item": "Panel Presentation: Bill Oman, UW-Madison Division of Extension, local government law"
+      "time": "2:40:00",
+      "item": "Advanced Wisconsin Employment Life Works program presentation (taken out of order under budget agenda item)"
     },
     {
-      "time": "1:25:00",
-      "item": "Executive Committee Q&A with panelists"
+      "time": "3:05:00",
+      "item": "Discussion regarding 2027 annual budget development and policy recommendations, including mandatory/discretionary program documents and rates and fees"
     },
     {
-      "time": "1:55:00",
-      "item": "Motion to forward JDA discussion to full county board"
+      "time": "3:07:00",
+      "item": "Update on potential new position requests and reclassifications in connection with 2027 annual budget development"
+    },
+    {
+      "time": "3:15:00",
+      "item": "Next meeting date and adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Public Comment – Hub City Wind Project",
-      "body": "Ten speakers addressed the committee on the Hub City Wind project. Speakers were divided: several opposed the project citing concerns about tourism impacts on Rib Mountain viewsheds, farmland destruction, health effects, wildlife harm, road damage, and skepticism about JDA benefits, with Joe Bergen urging the county to control any JDA drafting and Nikki Catrell calling for a moratorium and intervenor status. Supporters Dan Bar and Kathy Conley Bar argued for renewable energy as a climate response. Wendy Rogolski specifically demanded that any decision to pursue JDA negotiations be made in open session with a recorded vote, not behind closed doors. James Yeetus urged the county to fight the project through litigation or ordinance rather than negotiate."
+      "item": "Approval of July 15, 2026 executive committee meeting minutes",
+      "body": "Chair Gibbs called for a motion on the minutes. Supervisor Robinson moved and Supervisor Morash seconded. There was no discussion and the motion carried unanimously."
     },
     {
-      "item": "Approval of July 15, 2026 Executive Committee Meeting Minutes",
-      "body": "Chair Gibbs called for a motion on the minutes. Supervisor Robinson moved and Supervisor Morash seconded. No discussion was offered and the minutes were approved unanimously."
+      "item": "Hub City Wind project — PSC and JDA research presentation by CPZ Director Lori Kimmons",
+      "body": "CPZ Director Lori Kimmons presented two staff memos summarizing conversations with PSC staff about the intervention process and outreach to other Wisconsin counties with wind and solar projects. She reported that PSC staff could not recall an instance where intervention resulted in a complete denial of an application, and that counties contacted — including Columbia, Iowa, Kenosha, St. Croix, and the Town of Saratoga in Wood County — broadly favored JDAs over intervention due to cost and time. Staff's overall recommendation was to engage early with the developer and begin JDA discussions."
     },
     {
-      "item": "Staff Presentation: PSC Intervention Process and County Research Memos",
-      "body": "CPZ Director Lori Kimmons presented two memos. The first summarized conversations with PSC staff about the intervention process, noting counties have a 14-day window to apply for intervenor status after a notice of proceeding, that the PSC staff could not recall any project ever being fully denied through intervention, and that intervention is costly and time-consuming. The second memo summarized conversations with staff and officials in Columbia, Iowa, Kenosha, St. Croix counties and the Town of Saratoga in Wood County, all of whom reported using JDAs as their primary tool and recommended early negotiation over PSC intervention. Staff's overall recommendation was to begin engaging the developer as soon as possible about a potential JDA."
+      "item": "Hub City Wind project — Panel discussion with Town of Saratoga Chair Laura Fure, attorney Andy Phillips, and UW-Extension's Bill Omin",
+      "body": "Laura Fure, town chair and zoning administrator for the Town of Saratoga, described her community's experience with a solar JDA, noting they wished they had known more upfront about battery storage systems, transmission line easements, and associated dangers. Attorney Andy Phillips explained that under Wisconsin statute 196.491, counties have no authority to override a PSC-issued CPCN for projects 100 megawatts or more, making JDAs the most effective tool for securing local protections. UW-Extension professor Bill Omin agreed with Phillips's legal analysis and noted that the Wisconsin legislature intentionally preempted local authority to promote renewable energy, and that the only effective remaining tools for counties are updating their comprehensive plan and negotiating a JDA. Both experts said moratoriums are legally defensible only if short-term and demonstrably aimed at developing regulations, not blocking a project outright."
     },
     {
-      "item": "Panel: Town of Saratoga Experience with JDA",
-      "body": "Laura Fure, Town Chair and Zoning Administrator for the Town of Saratoga in Wood County, described her community's experience with a 150-megawatt solar project owned outright by the developer (not leased). The town hired an independent Madison law firm paid for by the developer to draft the JDA, required a decommissioning plan, and receives approximately $350,000 per year in shared revenues (county receives about two-thirds). She said the biggest surprises were the size and danger of battery storage systems, enlarged transmission line easements, and that these unknowns are now being addressed in a second solar JDA currently underway. She stated the town felt it had significant control through the JDA process."
+      "item": "Hub City Wind project — Committee discussion and vote to forward to full county board",
+      "body": "Committee members raised a range of questions, including whether Alliant Energy is legally required to enter a JDA (the answer was no), the timeline for JDA negotiations (three to six months if parties are cooperative, but potentially longer), protections against developer insolvency, and whether a moratorium was viable given the county's existing wind ordinance. Supervisor Dickinson expressed skepticism about developer motivations for a JDA, suggesting it was primarily a public relations tool. Supervisor Griner noted the meeting had focused almost entirely on the JDA option without fully exploring alternatives such as moratoriums or comprehensive plan updates. Vice Chair Boots moved, seconded by Supervisor Morash, to forward to the full county board a recommendation to discuss whether to pursue a JDA. The motion passed but was not unanimous."
     },
     {
-      "item": "Panel: Legal Authority and JDA Framework – Andy Phillips (Atollis Law) and Bill Oman (UW Extension)",
-      "body": "Attorney Andy Phillips explained that under Wisconsin statute 66.0401(1m), counties can regulate renewable energy projects on a case-by-case basis but that statute 196.491 preempts local regulation for projects 100 megawatts or more once the PSC issues a CPCN, meaning the county has no authority to stop such a project through ordinance. He said JDAs are the most effective tool counties have to address decommissioning, road damage, setbacks, and emergency response. Bill Oman of UW-Extension agreed entirely, noting the legislature deliberately preempted local authority to promote renewable energy, that legislative efforts to restore local control failed in the most recent session, and that updating a comprehensive plan is the only other tool available but that the PSC has never denied a project based on inconsistency with a local comp plan. Both strongly recommended JDAs as the primary protective mechanism."
+      "item": "Ice arena user groups update — facility planning and fundraising",
+      "body": "County Administrator Brian Leonard briefed the committee on staff's engagement with ice arena user groups following December direction, including a meeting with user group representatives and outreach for a FEMA Building Resilient Infrastructure and Communities (BRIC) grant application. Chris Toner of the Wausau Community Ice Center described early-stage private fundraising efforts and asked the committee to keep the rinks open while funding is developed, to continue joint grant discussions with staff, and to allow time for the process. Superintendent Bushman, who had to leave, submitted a written statement supporting continuation of the county's ice services relationship with the school district. Central Wisconsin Ice representative Colin Helky and Storm girls hockey representative Jana Whitmer were also present. Supervisor Robinson suggested setting a two-month timeline for a follow-up meeting with milestones, and the committee agreed to that direction without a formal vote."
     },
     {
-      "item": "Executive Committee Q&A with Panelists",
-      "body": "Supervisors asked wide-ranging questions. On moratoriums, Phillips said a short-duration moratorium (6–18 months) aimed at developing new regulations is legally defensible but one designed simply to block a project would likely be struck down; Oman agreed. On intervention, Phillips noted his firm has filed appeals in two cases where JDA negotiations broke down after a CPCN was issued. On road damage, Phillips recommended addressing repairs proactively in a JDA rather than relying on retrospective treble-damage statutes (86.02 and 86.14). On decommissioning, Phillips said JDAs should require financial assurance such as bonds, especially because developers often sell projects to regulated utilities. On attorney fees, Phillips confirmed that in executed JDAs the developer has always paid county attorney fees, though fee caps are currently being contested in pending negotiations. Supervisor Hau asked about health damage compensation and energy going off the local grid; Phillips said neither falls within county authority and landowner health concerns should be addressed between landowners and the developer directly. Supervisor Dickinson questioned why a developer with no legal obligation to sign a JDA would do so, with Phillips responding that a signed JDA allows the developer to check off PSC decision-matrix issue number three — compliance with orderly land use — but that the other 10 PSC decision criteria still must be addressed independently."
+      "item": "Advanced Wisconsin Employment — Life Works program presentation",
+      "body": "Workforce Services Director Libby Hidman and colleagues presented the Life Works program, a three-week job readiness training targeting justice-involved individuals, people with disabilities, and other underserved populations, with a first cohort of six participants launching the following Monday. The program includes soft skills, NTC manufacturing training, employer tours, and connections to community resources. Hidman noted that federal Workforce Innovation and Opportunity Act funding has declined roughly 40% since 2021, driving the need for alternative funding. The committee directed the organization to follow the standard committee referral process: first to the Extension Education Economic Development Committee, then potentially to HR Finance and Property, and then to the full board."
     },
     {
-      "item": "Motion to Forward JDA Discussion to Full County Board",
-      "body": "Vice Chair Boots moved to forward to the full county board a recommendation to discuss whether to pursue a potential JDA, stating the full 38-member board should have input on a decision of this magnitude. Supervisor Morash seconded. Debate followed, with Supervisor Griner expressing concern that the committee had focused almost entirely on JDA options without adequately exploring other tools listed in the packet. Supervisor Morash said a moratorium was not a viable option given the existing ordinance and that all PSC-reviewed projects have been approved regardless of intervention. Supervisor Robinson agreed the sequence of decisions mattered — noting that pursuing a JDA does not guarantee Alliance will come to the table. Supervisor Dickinson noted the committee had not discussed the comprehensive plan amendment option in depth. Chair Gibbs clarified the motion: the board would discuss whether to pursue JDA negotiations, and any resulting agreement would still require future action. The motion carried, though the tally was not stated."
+      "item": "New position request — reclassification in County Administrator's office",
+      "body": "County Administrator Leonard requested approval of a reclassification of a senior administrative assistant to office manager, citing significant changes to the position resulting from a 2024 ordinance amendment that transferred foreclosure process oversight to his office. He stated the cost increase could be absorbed within his existing budget without new levy. HR Finance and Property had approved the reclassification the prior day. Supervisor Robinson moved and Supervisor Arson seconded; the motion carried unanimously."
     }
   ],
-  "publicComment": "Ten speakers signed up and were given 3 minutes each. Joe Bergen (Town of Day) urged the county to control any JDA drafting and protect the Rib Mountain viewshed. Dan Bar (Town of Nolton) spoke in favor of renewable energy and entering a strong JDA. Kathy Conley Bar expressed support for climate action while acknowledging community concerns. Mary Clus (Wausau) argued that not pursuing a JDA would be fiscally irresponsible and spoke on behalf of Wisconsin Farmers Union's Marathon County chapter opposing giving away county power. Cindy Nielsen (Town of O'Plane) strongly opposed the project, citing impacts on farming, animal health, and road infrastructure, and warned supervisors of electoral consequences. Mark Radkey (Town of O'Plane) noted that the alternative energy advisory committee survey and public forums showed overwhelming opposition to a JDA. James Yeetus (Town of Easton) urged the county to fight the project through ordinances and litigation rather than negotiate. Dean Beck (Town of Easton) raised concerns about turbine efficiency loss from bug residue, requested utility payments be based on actual rather than projected production, and suggested revenues be held in escrow for impacted non-participating landowners. Wendy Rogolski (Town of Green Valley, appearing online) demanded that any decision to authorize JDA negotiations be made openly with a recorded public vote, not in closed session. Nikki Catrell (Town of Brighton) called for a moratorium, urged the county to apply for intervenor status, requested independent third-party analysis of Alliant's submissions, and presented an evidence matrix of 30 potential challenges tied to Wisconsin CPCN requirements.",
+  "publicComment": "Ten residents signed up and spoke during public comment, each given three minutes. The first speaker, Joe Bergen from the Town of Day, urged the committee to design any JDA carefully with safeguards for the county and raised concerns about tourism impacts from turbines near Rib Mountain. The second speaker, Dan Bar from the Town of Nolton, expressed strong support for wind and solar energy as a response to climate change and endorsed a well-crafted JDA as the best protective tool. The third speaker, a resident, expressed support for reducing greenhouse gas emissions while acknowledging concerns from those living near the project, and called for sharing information and making honest policy tradeoffs. The fourth speaker, a Wausau resident speaking also on behalf of Wisconsin Farmers Union's Marathon County chapter, warned against entering a JDA without sufficient safeguards, characterizing it as giving away county power, and cited the Farmers Union's educational work on rural residents' rights in the energy sector. The fifth speaker, a resident from the Township of Opalme, opposed the project, contending that turbines are industrial rather than agricultural, warning of harm to livestock and farms, and criticizing the county's farmland preservation plan for not addressing turbines or solar. The sixth speaker, Mark Radkey from the Town of Opalme, noted that the power generated by the turbines would not go to central Wisconsin, questioned why turbines could not be sited elsewhere, and stated that the alternative energy advisory committee survey and public forums showed overwhelming opposition to a JDA. The seventh speaker, James Yeetus from the Town of Easton, argued forcefully against the project and urged the county to fight on behalf of its citizens rather than accommodate the developer, citing health, property value, farmland, and landscape concerns. The eighth speaker, Dean Beck from the Town of Easton, raised concerns about turbine efficiency degradation from insect debris, advocated that any utility payments be held in escrow for affected landowners, and urged the committee to use existing treble-damages road statutes rather than relying solely on a JDA. The ninth speaker, Wendy Rogolski from the Town of Green Valley, participated online and asked the committee to ensure that the fundamental policy decision of whether to pursue a JDA be made openly and voted upon publicly rather than decided in closed session, and urged that any closed session be limited strictly to negotiating strategy. The tenth speaker from the Town of Brighton argued against the JDA, cited counties in other states where wind projects were stopped before construction, called for a moratorium, recommended the county apply for intervenor status and hire independent third-party experts, and presented an evidence matrix of 30 potential challenges tied to PSC CPCN requirements.",
+  "publicCommentSpeakers": 10,
   "actionItems": [
-    "Forward to the full Marathon County Board a recommendation to discuss whether to pursue a potential Joint Development Agreement with Alliant Energy regarding the Hub City Wind project",
-    "County legal staff to consult on whether intervenor status can be filed earlier than the standard 14-day window after notice of proceeding",
-    "Staff to continue monitoring Hub City Wind PSC pre-application timeline, particularly the engineering plan filing which triggers the county's notice ordinance requirement",
-    "Committee members directed to review all options in the packet, not only JDA, before full board discussion"
+    "Forward to the full county board a recommendation to discuss whether to pursue a Joint Development Agreement with Alliant Energy regarding the Hub City Wind project",
+    "County staff to continue operating ice arenas while fundraising and grant processes proceed",
+    "Staff directed to develop a timeline with milestones for ice arena funding and planning, with a follow-up meeting within two months",
+    "Advanced Wisconsin Employment directed to present Life Works funding request through the Extension Education Economic Development Committee, then HR Finance and Property, then potentially the full board",
+    "Reclassification of senior administrative assistant to office manager in the County Administrator's office approved and to be built into the 2027 budget",
+    "Next Executive Committee meeting scheduled for September 17 at 3 p.m."
   ],
   "topics": [
-    "Wind Energy Development",
-    "Joint Development Agreement",
     "Hub City Wind Project",
-    "PSC Intervention",
-    "Rib Mountain Viewshed"
+    "Joint Development Agreement",
+    "Renewable Energy Regulation",
+    "Ice Arena Funding",
+    "Workforce Development"
   ],
   "votes": [
     {
-      "item": "Approval of July 15, 2026 Executive Committee meeting minutes",
+      "item": "Approval of July 15, 2026 executive committee meeting minutes",
       "motion": "Motion to approve the minutes of the July 15, 2026 executive committee meeting",
       "mover": "Supervisor Robinson",
       "second": "Supervisor Morash",
@@ -98,19 +97,28 @@
       "tally": "Unanimous"
     },
     {
-      "item": "Forward to full county board a recommendation to discuss whether to pursue a potential JDA regarding Hub City Wind",
+      "item": "Forward to the full county board a recommendation to discuss whether to pursue a potential JDA regarding the Hub City Wind project",
       "motion": "Motion to forward to the full board the recommendation to discuss whether to pursue a potential JDA",
       "mover": "Vice Chair Boots",
       "second": "Supervisor Morash",
       "outcome": "Approved",
       "tally": null
+    },
+    {
+      "item": "Reclassification of senior administrative assistant to office manager in the County Administrator's office",
+      "motion": "Motion to approve and recommend the reclass of the senior administrative assistant to office manager",
+      "mover": "Supervisor Robinson",
+      "second": "Supervisor Arson",
+      "outcome": "Approved",
+      "tally": "Unanimous"
     }
   ],
   "_source": "transcript",
+  "_transcript_chars": 151957,
   "_transcript_hash": "a963e8975bcdb3b9",
   "title": "Marathon County Executive Committee Meeting",
   "url": "https://www.youtube.com/watch?v=xl_GSR48d5k",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:46:34.509674+00:00"
+  "processed_at": "2026-11-21T17:31:21.896681+00:00"
 }

@@ -1,96 +1,133 @@
 {
-  "overview": "The Marathon County Board of Supervisors held its regular meeting on August 25, covering several significant items including a contested infrastructure committee chair appointment, amendments to battery energy storage and large energy facility ordinances, a data center moratorium, and a pivotal vote on whether to proceed with Phase 3 of a new county highway facility estimated to potentially cost up to $60 million. The meeting was significant for residents as it set new zoning rules for battery storage systems, established a temporary moratorium on data centers, and moved the controversial highway garage project forward toward competitive bidding.",
+  "overview": "The Marathon County Board of Supervisors held its regular meeting on Tuesday, August 25, 2026, taking action on more than a dozen items including amendments to battery energy storage and large energy generating facility ordinances, a moratorium on data centers, authorization to proceed with phase three of the new county highway facility, and several budget and fee schedule matters. Among the most debated items were the highway facility resolution—where cost concerns prompted lengthy discussion before the board voted to authorize staff to seek bids—and the battery energy storage ordinance, which was amended to increase residential and structure setbacks from 300 to 500 feet before passing.",
   "committee": "Marathon County Board of Supervisors",
   "presiding": "Kurt Gibbs, Board Chair",
   "agenda": [
     {
       "time": "0:00",
-      "item": "Call to Order, Pledge of Allegiance, Moment of Reflection"
+      "item": "Call to Order, Pledge of Allegiance, Moment of Reflection, Reading of Notice, Roll Call"
     },
     {
-      "time": "1:45",
-      "item": "Reading of Notice"
-    },
-    {
-      "time": "3:10",
-      "item": "Roll Call and Welcome"
-    },
-    {
-      "time": "4:30",
+      "time": "3:30",
       "item": "Educational Presentations / Standing Committee Reports"
     },
     {
-      "time": "5:00",
-      "item": "Consent Agenda Items C8 through C13C1 (excluding C11A)"
+      "time": "4:10",
+      "item": "Consent Agenda Items C8–C13C1 (excluding C11A)"
     },
     {
-      "time": "7:00",
-      "item": "C11A - Infrastructure Committee Chair Appointment (Supervisor Griner vs. Supervisor Gao)"
+      "time": "5:50",
+      "item": "C11A: Infrastructure Committee Chair Appointment (Supervisor Griner vs. Supervisor Gao)"
     },
     {
-      "time": "25:00",
-      "item": "Ordinance 27-26 - Amending General Code Chapter 17: Battery Energy Storage Systems (BESS)"
+      "time": "18:00",
+      "item": "Ordinance 27-26: Amending General Code Chapter 17 – Battery Energy Storage Systems"
     },
     {
-      "time": "1:10:00",
-      "item": "Ordinance 28-26 - Amending General Code Chapter 17: Moratorium on Data Centers"
+      "time": "57:30",
+      "item": "Ordinance 28-26: Amending General Code Chapter 17 – Moratorium on Data Centers"
     },
     {
-      "time": "1:15:00",
-      "item": "Ordinance 29-26 - Amending General Code Chapter 17: Large Energy Generating Facilities"
+      "time": "1:00:00",
+      "item": "Ordinance 29-26: Amending General Code Chapter 17 – Large Energy Generating Facilities"
     },
     {
-      "time": "1:55:00",
-      "item": "Resolution 49-26 (E18) - Authorizing Staff to Proceed with Phase 3 Construction of Proposed New Highway Facility"
+      "time": "1:35:00",
+      "item": "Resolution 49-26: Authorizing Staff to Proceed with Phase 3 Construction of Proposed New Highway Facility"
+    },
+    {
+      "time": "2:28:00",
+      "item": "Resolution 50-26: Amending 2026 Budget by $429,793 for Local Road Improvement Program (LRIP) Funding"
+    },
+    {
+      "time": "2:29:30",
+      "item": "Resolution 54-26: Removing Seasonal Weight Limits for County Trunk Highway X"
+    },
+    {
+      "time": "2:31:30",
+      "item": "Resolution 51-26: Amending Fund Balance Policy to Create Non-Lapsing Contingency Fund for Medical Examiner's Office"
+    },
+    {
+      "time": "2:33:00",
+      "item": "Resolution 52-26: Approving the 2027 Capital Improvement Program Tentative Project List"
+    },
+    {
+      "time": "2:34:30",
+      "item": "Resolution 53-26: Modifying Health Department Fee Schedule for Tattoo and Piercing Licensure (as amended)"
+    },
+    {
+      "time": "2:42:00",
+      "item": "Resolution 55-26: County Engagement with Alliant Energy Reliability Relative to Hub City Wind Project (recess called before vote)"
     }
   ],
   "discussions": [
     {
-      "item": "Consent Agenda C8 through C13C1 (excluding C11A)",
-      "body": "Motion by Supervisor Rosenberg, seconded by Supervisor Jeang. Supervisor Arstead requested C11A be pulled for a separate vote. A supervisor also briefly confused this agenda block with Resolution 49-26 (highway facility), which Chair Gibbs clarified was a separate item. The remaining consent agenda passed unanimously."
+      "item": "C11A: Infrastructure Committee Chair Appointment",
+      "body": "Supervisor Arstead moved to remove C11A for a separate vote, arguing Supervisor Gao was the superior choice for Infrastructure Committee chair due to his prior county board experience in Dane County, his handling of tornado recovery in Ringal, and his record as vice chair. Vice Chair Chris Dickinson supported Gao, noting he had stepped in effectively when Dickinson missed meetings and would be a stronger voice on the executive committee given anticipated JDA discussions. Board Chair Gibbs and Vice Chair Boots defended Supervisor Griner, citing practice of not placing first-term supervisors in committee chair roles. The motion to appoint Supervisor Griner as Infrastructure Committee chair failed; Gibbs announced the chair and vice chair would confer and bring a recommendation the following month."
     },
     {
-      "item": "C11A - Infrastructure Committee Chair Appointment",
-      "body": "The contested appointment pitted Supervisor Griner (a second-term supervisor) against Supervisor Gao (a first-term supervisor serving as vice chair of infrastructure). Supervisor Arstead argued Gao had proven himself through his response to the Ringle tornado and his experience as a supervisor in Dane County. Vice Chair Dickinson echoed support for Gao, noting Gao had chaired meetings in Dickinson's absence and was more experienced overall. Chair Gibbs and Vice Chair Boots defended Griner, citing a tradition of not placing first-term supervisors as committee chairs. Supervisor Drebeck suggested the matter go to the Rules Review Committee in the future. The motion to approve Griner as Infrastructure Committee chair failed, and Gibbs said he and the vice chair would meet to recommend a chair for next month."
+      "item": "Ordinance 27-26: Battery Energy Storage Systems",
+      "body": "Extensive debate centered on setback distances, waterway protections, firefighting equipment requirements, and whether the ordinance was sufficiently robust. Supervisor Sundowski moved to refer back to the Environmental Resources Committee (ERC) for strengthening, seconded by Supervisor Hapa; that motion failed. Supervisor Dickinson then moved to amend the residential setback from 300 feet to 500 feet based on staff recommendation; Supervisor Sundowski successfully amended that motion further to extend the 500-foot setback to all structures—not just dwellings—and the amendment to the amendment passed with Supervisor Conway recorded as a no. The amended ordinance ultimately passed, though not unanimously."
     },
     {
-      "item": "Ordinance 27-26 - Battery Energy Storage Systems (BESS) Amendment",
-      "body": "Staff planner Shad Harvey presented the ordinance as strengthening existing Chapter 17 BESS protections. Supervisor Dickinson raised the question of whether the 300-foot residential setback was adequate given ember travel in fires, and staff recommended 500 feet as a defensible middle ground. Supervisor Sundoski moved to refer the ordinance back to the Environmental Resources Committee (ERC) citing concerns about missing provisions on waterways, decommissioning, and liability; this motion was seconded by Supervisor Hapa but failed on a vote. Supervisor Dickinson then moved to amend the setback from 300 to 500 feet, and Supervisor Sundoski moved a further amendment to extend that setback to all structures, not just residences. Both amendments passed. The ordinance as twice-amended was then approved, though not unanimously. Staff clarified that standalone BESS under county zoning require conditional use permits reviewed by the Board of Adjustment, and system owners are required to provide and replace specialized firefighting equipment for first responders."
+      "item": "Ordinance 28-26: Moratorium on Data Centers",
+      "body": "The board considered a moratorium of up to 12 months on data centers under General Code Chapter 17 to allow staff time to develop an ordinance, as no current chapter 17 provisions address data centers. No significant debate was recorded. The motion passed, though not unanimously."
     },
     {
-      "item": "Ordinance 28-26 - Moratorium on Data Centers",
-      "body": "Motion by Supervisor Drebeck, seconded by Supervisor Conway. Chair Gibbs noted the county currently has no Chapter 17 provisions for data centers, and the moratorium of up to 12 months gives staff time to develop an ordinance. No significant debate was recorded. The ordinance passed but was not unanimous."
+      "item": "Ordinance 29-26: Large Energy Generating Facilities",
+      "body": "Staff and outside counsel Rebecca Roker explained this novel ordinance—the first of its kind in Wisconsin—would require developers to submit engineering plans to the county at least 60 days before a PSC application, giving Marathon County an early engagement mechanism. Supervisor Leur raised concerns about vague, unmeasurable language in sections on public health and adverse impact. Supervisor Sundowski moved to refer back to ERC and consider a moratorium; that motion failed. Supervisor Dickinson successfully amended the ordinance to require that engineering plan information be transmitted to all municipalities in Marathon County; the amendment passed unanimously. The ordinance as amended then passed, though not unanimously."
     },
     {
-      "item": "Ordinance 29-26 - Large Energy Generating Facilities Amendment",
-      "body": "This novel ordinance — described by outside counsel Rebecca Roker as the first of its kind in Wisconsin — would require developers to submit engineering plans to the county 60 days before filing a CPCN application with the PSC, giving the county an early engagement opportunity. Supervisor Leur expressed concern about vague, unmeasurable language in sections 3 and 4 regarding 'undue adverse impact' and 'unreasonably interfere.' Supervisor Sundoski moved to refer back to ERC for consideration of a moratorium; that motion failed. Supervisor Dickinson then moved to amend the ordinance to require the county to share received engineering plan information with all municipalities in Marathon County, seconded by Supervisor Arstead; that amendment passed unanimously. The ordinance as amended was then approved, though not unanimously. Supervisor Gao cautioned that vague moratorium language would be dismissed by the PSC."
+      "item": "Resolution 49-26: Phase 3 Construction of Proposed New Highway Facility",
+      "body": "This was the meeting's longest debate. Administrator Leonard clarified the resolution only authorizes staff to release bid documents and approves a general financing framework using previously issued debt—it does not authorize construction or bonding. Supervisor Krebs spoke at length against proceeding at the current projected cost (potentially approaching $60 million), comparing it unfavorably to other local public facilities and calling for a taxpayer referendum. Supervisors Dickinson, Robinson, Griner, Gao, Ness, and Vice Chair Boots supported moving forward, emphasizing the deteriorated state of the West Street facility, the need to also accommodate the Mosinee garage, rising construction costs, and that bids would reveal actual costs with further board approval still required. Supervisor Sundowski urged selling the existing facility at fair market value and applying proceeds to the new project; Administrator Leonard confirmed staff would strongly recommend that approach. After debate was called by a two-thirds majority vote, the resolution passed, though not unanimously."
     },
     {
-      "item": "Resolution 49-26 (E18) - Phase 3 Construction of New Highway Facility",
-      "body": "Supervisor Krebs gave a lengthy statement opposing the project on fiscal grounds, comparing the potential $55-60 million price tag unfavorably to a fire station, police department, and DPW garage combined, and calling for a public referendum. Supervisors Robinson, Dickinson, Griner, Ness, and Vice Chair Boots defended the resolution, emphasizing it only authorizes staff to release bid documents to obtain a guaranteed maximum price — not to break ground — and that construction costs continue to rise annually. Concerns were raised about coal dust from the adjacent WPS plant affecting employee health; staff noted HVAC filtration is designed to address particulate matter and WPS is expected to transition from coal to natural gas by the early 2030s. Administrator Leonard confirmed the resolution accomplishes two things: authorizing bid release and approving a general financial plan using previously issued debt to reduce new borrowing needs. The vote outcome was not explicitly stated in the transcript before the recording ended."
+      "item": "Resolution 50-26: LRIP Funding Budget Amendment",
+      "body": "The board voted to amend the 2026 budget by $429,793 for Local Road Improvement Program funding. No discussion was recorded. The motion passed unanimously."
+    },
+    {
+      "item": "Resolution 54-26: Removing Seasonal Weight Limits on County Trunk Highway X",
+      "body": "After a brief voting system correction requiring a revote, the resolution to remove seasonal weight limits on County Trunk Highway X passed unanimously with no substantive debate."
+    },
+    {
+      "item": "Resolution 51-26: Non-Lapsing Contingency Fund for Medical Examiner's Office",
+      "body": "The board voted to amend the fund balance policy to create a non-lapsing contingency fund for the Medical Examiner's Office. No debate was recorded. The motion passed, though not unanimously."
+    },
+    {
+      "item": "Resolution 52-26: 2027 Capital Improvement Program Tentative Project List",
+      "body": "The board approved the tentative 2027 CIP project list with no recorded discussion. The motion passed, though not unanimously."
+    },
+    {
+      "item": "Resolution 53-26: Health Department Fee Schedule for Tattoo and Piercing Licensure (as amended)",
+      "body": "Administrator Leonard presented a staff-recommended amendment to the original packet proposal, reached after post-meeting conversations with event organizers. The revised fee schedule removes permanent tattoo and piercing establishments from the update, shifts temporary licensing from a tiered 1-to-6 to 1-to-8 practitioner structure, allows event organizers to serve as the global applicant, and sets a 60% fee rate for events occurring before November 1, 2026. Supervisor Jensen moved the substitute amendment, seconded by Supervisor Rosenberg; it passed unanimously. The resolution as amended then passed, though not unanimously."
     }
   ],
   "publicComment": "No public comment was offered.",
+  "publicCommentSpeakers": 0,
   "actionItems": [
-    "Chair Gibbs and Vice Chair to meet and recommend a new Infrastructure Committee chair for next month's meeting",
-    "Rules Review Committee to consider establishing clearer protocol for filling committee chair vacancies",
-    "BESS ordinance (27-26) adopted with 500-foot setback from all structures; staff to implement amended Chapter 17 provisions",
-    "Data center moratorium (Ordinance 28-26) adopted; staff to develop a data center zoning ordinance within 12 months",
-    "Large energy generating facilities ordinance (29-26) adopted as amended; staff to share engineering plan information with all county municipalities upon receipt",
-    "Staff directed to release bid documents for Phase 3 highway facility construction and return with guaranteed maximum price for board consideration",
-    "Staff to prepare operational cost comparison between current and proposed highway facilities for HR Finance and Property Committee review in October",
-    "Administrator Leonard to look into air quality data near proposed highway facility site related to WPS coal dust drift"
+    "Board Chair Gibbs and Vice Chair to meet and bring a new Infrastructure Committee chair recommendation to the next monthly meeting.",
+    "Staff directed to implement Battery Energy Storage Systems ordinance with 500-foot setback from all structures including residences.",
+    "Staff directed to implement Large Energy Generating Facilities ordinance requiring notification of all municipalities upon receipt of engineering plans.",
+    "Staff authorized to release bid documents for phase 3 of the proposed new county highway facility and return with guaranteed maximum price and financing details, expected at October HR Finance and Property Committee meeting.",
+    "2026 budget amended by $429,793 for LRIP funding.",
+    "Seasonal weight limits removed from County Trunk Highway X.",
+    "Non-lapsing contingency fund for Medical Examiner's Office established.",
+    "2027 CIP tentative project list approved.",
+    "Resolution 55-26 (Hub City Wind Project / Alliant Energy engagement) carried over to after recess (Part 2 of meeting).",
+    "Donation policy resolution (G23) pulled by Supervisor Robinson and deferred to next county board meeting.",
+    "Staff to explore operational cost comparison for highway facility and geothermal system for October presentation.",
+    "Staff to investigate feasibility of marketing existing West Street highway facility at fair market value and applying proceeds to new facility."
   ],
   "topics": [
     "Budget",
-    "Zoning",
-    "Renewable Energy",
-    "Highway Facility",
+    "Public Safety",
+    "Energy and Utilities",
+    "Highway Facility Construction",
     "Battery Energy Storage Systems"
   ],
   "votes": [
     {
-      "item": "Consent Agenda C8 through C13C1 (excluding C11A)",
+      "item": "Consent Agenda Items C8–C13C1 excluding C11A",
       "motion": null,
       "mover": "Supervisor Rosenberg",
       "second": "Supervisor Jeang",
@@ -98,7 +135,7 @@
       "tally": "Unanimous"
     },
     {
-      "item": "C11A - Approve Supervisor Griner as Infrastructure Committee Chair",
+      "item": "C11A: Appointing Supervisor Griner as Infrastructure Committee Chair",
       "motion": null,
       "mover": null,
       "second": null,
@@ -106,15 +143,15 @@
       "tally": null
     },
     {
-      "item": "Motion to refer BESS Ordinance 27-26 back to ERC committee",
+      "item": "Motion to refer Ordinance 27-26 back to ERC committee",
       "motion": null,
-      "mover": "Supervisor Sundoski",
+      "mover": "Supervisor Sundowski",
       "second": "Supervisor Hapa",
       "outcome": "Failed",
       "tally": null
     },
     {
-      "item": "Amendment to BESS Ordinance 27-26: increase residential setback from 300 to 500 feet",
+      "item": "Amendment to Ordinance 27-26: increase residential setback from 300 to 500 feet",
       "motion": null,
       "mover": "Supervisor Dickinson",
       "second": "Supervisor Jensen",
@@ -122,39 +159,39 @@
       "tally": null
     },
     {
-      "item": "Amendment to the amendment: extend 500-foot setback to all structures, not just residences",
+      "item": "Amendment to the amendment on Ordinance 27-26: extend 500-foot setback to all structures (buildings and dwellings)",
       "motion": null,
-      "mover": "Supervisor Sundoski",
-      "second": "Supervisor Enzide",
+      "mover": "Supervisor Sundowski",
+      "second": "Supervisor Enzite",
       "outcome": "Approved",
       "tally": null
     },
     {
-      "item": "BESS Ordinance 27-26 as amended (500-foot setback for all structures)",
+      "item": "Ordinance 27-26: Battery Energy Storage Systems as amended",
       "motion": null,
       "mover": "Supervisor Leur",
       "second": "Supervisor Shaneborn",
       "outcome": "Approved",
-      "tally": "Not unanimous"
+      "tally": null
     },
     {
-      "item": "Data Center Moratorium Ordinance 28-26",
+      "item": "Ordinance 28-26: Moratorium on Data Centers",
       "motion": null,
       "mover": "Supervisor Drebeck",
       "second": "Supervisor Conway",
       "outcome": "Approved",
-      "tally": "Not unanimous"
+      "tally": null
     },
     {
-      "item": "Motion to refer Large Energy Generating Facilities Ordinance 29-26 back to ERC and consider moratorium",
+      "item": "Motion to refer Ordinance 29-26 back to ERC and consider moratorium",
       "motion": null,
-      "mover": "Supervisor Sundoski",
+      "mover": "Supervisor Sundowski",
       "second": "Supervisor Andress",
       "outcome": "Failed",
       "tally": null
     },
     {
-      "item": "Amendment to Ordinance 29-26: share engineering plan information with all municipalities in Marathon County",
+      "item": "Amendment to Ordinance 29-26: transmit engineering plan information to all municipalities in Marathon County",
       "motion": null,
       "mover": "Supervisor Dickinson",
       "second": "Supervisor Arstead",
@@ -162,27 +199,76 @@
       "tally": "Unanimous"
     },
     {
-      "item": "Large Energy Generating Facilities Ordinance 29-26 as amended",
+      "item": "Ordinance 29-26: Large Energy Generating Facilities as amended",
       "motion": null,
       "mover": "Supervisor Coyle",
       "second": "Supervisor Ritter",
       "outcome": "Approved",
-      "tally": "Not unanimous"
+      "tally": null
     },
     {
-      "item": "Resolution 49-26: Authorize staff to proceed with Phase 3 of proposed new highway facility",
+      "item": "Resolution 49-26: Authorize staff to proceed with phase 3 of proposed new highway facility",
       "motion": null,
       "mover": "Supervisor Robinson",
       "second": "Supervisor Gao",
       "outcome": "Approved",
       "tally": null
+    },
+    {
+      "item": "Resolution 50-26: Amend 2026 budget by $429,793 for LRIP funding",
+      "motion": null,
+      "mover": "Supervisor Drebeck",
+      "second": "Supervisor Gao",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Resolution 54-26: Remove seasonal weight limits on County Trunk Highway X",
+      "motion": null,
+      "mover": "Supervisor Griner",
+      "second": "Supervisor Mask",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Resolution 51-26: Amend fund balance policy to create non-lapsing contingency fund for Medical Examiner's Office",
+      "motion": null,
+      "mover": "Supervisor Arstead",
+      "second": "Supervisor Krebs",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Resolution 52-26: Approve 2027 Capital Improvement Program tentative project list",
+      "motion": null,
+      "mover": "Supervisor Coyle",
+      "second": "Supervisor Robinson",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Amendment to Resolution 53-26: Substitute fee schedule modifications for tattoo and piercing licensure",
+      "motion": null,
+      "mover": "Supervisor Jensen",
+      "second": "Supervisor Rosenberg",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Resolution 53-26: Modify health department fee schedule for tattoo and piercing licensure as amended",
+      "motion": null,
+      "mover": "Supervisor Hagen",
+      "second": "Supervisor Marash",
+      "outcome": "Approved",
+      "tally": null
     }
   ],
   "_source": "transcript",
+  "_transcript_chars": 103296,
   "_transcript_hash": "e5ddbc49e66e5011",
   "title": "Marathon County Board Regular Meeting Pt.1",
   "url": "https://www.youtube.com/watch?v=4FQUvADOROU",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:06:32.437225+00:00"
+  "processed_at": "2026-11-21T17:00:27.638964+00:00"
 }

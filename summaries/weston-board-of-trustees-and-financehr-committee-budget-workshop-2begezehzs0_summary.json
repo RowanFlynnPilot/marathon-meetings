@@ -1,6 +1,6 @@
 {
-  "overview": "The Village of Weston Board of Trustees and Finance/HR Committee held a joint budget workshop covering the 2027 preliminary budget, including wage and benefit analysis, general fund breakdown, special revenue funds, and a discussion of potential modified summer hours. No final budget decisions were made, as the board has three more budget workshops remaining before an end-of-October deadline; the primary formal action taken was reclassifying an engineering technician from FLSA-exempt to non-exempt status, with retroactive effect to his July 6 start date.",
-  "committee": "Board of Trustees and Finance/HR Committee (Budget Workshop)",
+  "overview": "The Village of Weston held a joint Board of Trustees and Finance/HR Committee budget workshop on Tuesday, September 8, 2026, focused on preliminary 2027 budget review including wage and benefit estimates, general fund structure, special revenue funds, and a discussion on potential modified summer hours for administrative staff. The board also approved reclassifying an engineering technician position from exempt (salaried) to non-exempt (hourly) status retroactive to his July 6 hire date, and convened briefly in closed session regarding litigation strategy related to a Weston-Everest Metro Police Department payout, ultimately taking no action.",
+  "committee": "Board of Trustees and Finance/HR Committee (Joint Budget Workshop)",
   "presiding": "Mark Maloney, Village President",
   "agenda": [
     {
@@ -12,127 +12,159 @@
       "item": "Roll Call"
     },
     {
-      "time": "1:15",
-      "item": "Public Comments"
-    },
-    {
-      "time": "7:45",
-      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes"
+      "time": "1:10",
+      "item": "Public Comment"
     },
     {
       "time": "8:30",
-      "item": "2027 Budget Review: Wage and Benefit Analysis by Fund"
+      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes (Finance/HR Committee and Board of Trustees)"
     },
     {
-      "time": "21:00",
-      "item": "General Fund Breakdown: Fixed Fees, Non-Discretionary, and Personnel Expenses"
+      "time": "9:30",
+      "item": "Unfinished Business: Review and Discussion of 2027 Budget — General Fund, Wage and Benefit Estimates, Special Revenue Funds"
     },
     {
-      "time": "31:00",
-      "item": "Transportation Aids History and Projections / Wisconsin Policy Forum Comparisons"
-    },
-    {
-      "time": "55:00",
-      "item": "Special Revenue Funds: Refuse/Recycling, Aquatic Center, TIF Districts, Room Tax, Civic/Social/Park Trust"
+      "time": "56:00",
+      "item": "Special Revenue Funds Presentation (Refuse/Recycling, Aquatic Center, TIF Districts, Room Tax, Civic/Social/Park Trust)"
     },
     {
       "time": "1:26:00",
-      "item": "FLSA Reclassification of Engineering Technician (Exempt to Non-Exempt)"
+      "item": "New Business: Discussion and Possible Action on FLSA Reclassification of Engineering Technician Position"
     },
     {
-      "time": "1:33:00",
-      "item": "Discussion of Potential Modified Summer Hours for 2027"
+      "time": "1:34:00",
+      "item": "Discussion and Possible Action on Modified Summer Hours for 2027 (Potential Friday Afternoon Closures)"
+    },
+    {
+      "time": "1:57:00",
+      "item": "Finance/HR Committee Adjournment; Board Closed Session — Litigation Strategy (EMPD Payout)"
+    },
+    {
+      "time": "2:00:21",
+      "item": "Return from Closed Session, Motion on Closed Session Item, Final Remarks and Adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "Public Comments",
-      "body": "Three residents spoke. A woman identified as Grace (603 Jessica, Weston) raised concerns about the proposed Friday afternoon closures and asked that overtime calculations for reclassified hourly employees be based on a 40-hour workweek, not eight hours per day; staff confirmed Weston uses the over-40-hours standard. Jim Pel criticized the lack of a clear, readable answer to a previously requested 1%-salary-impact figure, argued against closing Village Hall on Fridays as inequitable to public-facing departments, and suggested extended evening hours instead; he also complained the PowerPoint was not in the packet until the day of the meeting. A third resident, John, questioned why a Weston ordinance required a licensed plumber to replace an anti-siphon faucet rather than allowing a homeowner to do it themselves."
+      "item": "Public Comment",
+      "body": "Three residents addressed the board. The first raised concerns about the proposed Friday afternoon closures and urged the village to ensure hourly employees are paid only for hours actually worked if reclassified, and confirmed with staff that overtime is calculated over 40 hours per week. The second resident criticized the lack of a clear answer to what a 1% wage increase costs in total, argued against closing village hall on Fridays as inequitable to frontline workers, and suggested extended evening hours as an alternative; he also noted that budget presentation materials were added to the packet the day of the meeting. The third resident questioned why he was required to hire a licensed plumber to replace anti-siphon faucet fixtures following a village water inspection, arguing the work was simple and his house should be grandfathered in."
     },
     {
       "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes",
-      "body": "The Finance/HR Committee approved the minutes on a motion by Daniels, seconded by [inaudible]. The Board of Trustees approved the same minutes on a motion by Beck, seconded by Ermeling. Both votes carried without dissent."
+      "body": "Minutes were approved separately by both the Finance/HR Committee and the Board of Trustees. The Finance/HR Committee motion was made by a member identified as Daniels and seconded by a member identified as Pavlo; the board motion was made by Beck and seconded by Ermeling. Both passed on voice votes with no opposition."
     },
     {
-      "item": "2027 Budget Review: Wage and Benefit Analysis",
-      "body": "Finance staff presented slides showing that a 1% wage increase costs approximately $17,583 in the general fund, with the caveat that the calculation excludes elected officials and election workers who receive no scheduled increases, causing confusion when trustees tried to verify the math. Trustee Christina [inaudible] noted the numbers did not 'math out' and requested that future spreadsheets include contextual notes or assumptions. Staff explained that the benefit figures also incorporate a preliminary 10% health insurance increase and WRS cost increases, making a straight 1% calculation misleading. Village Administrator [inaudible] and Finance Director Jessica defended releasing complex data at the meeting rather than in advance to prevent misinterpretation, while trustees pushed back, saying advance access is necessary for informed deliberation. Both sides acknowledged the tension and agreed future budget documents would include explanatory notes."
+      "item": "2027 Budget — Wage and Benefit Estimates and General Fund Review",
+      "body": "Finance staff presented wage and benefit cost estimates at 0%, 1%, 2%, 2.5%, and 3% wage increase scenarios, noting a preliminary 10% health insurance increase was incorporated. A trustee pressed staff on why the math for a 1% raise did not produce a simple 1% increase in the wage line, and staff explained that election workers, board members, and others are excluded from the scheduled increase. Trustees debated whether budget materials should be provided in advance of meetings or presented at the meeting with explanation; Administrator Gabri and finance staff acknowledged the spreadsheet lacked sufficient context. Staff also presented a Wisconsin Policy Forum municipal comparison tool showing Weston ranks among the lowest in general government spending and shared revenue per capita among comparable municipalities, and explained structural budget constraints including the levy cap tied to net new construction, declining transportation aids, and the pending closure of TIF District 1 which will return approximately $400,000 to the general fund."
     },
     {
-      "item": "General Fund Breakdown and Transportation Aids",
-      "body": "Staff presented the $9.6 million 2026 general fund, noting that roughly 55% is locked in public safety contracts with Mountain Bay and South Area Fire (SAFER), leaving the board meaningful discretion over only about $3.3 million. Administrator Michael [inaudible] explained that transportation aid revenue rose significantly after years of steep annual declines from roughly 2012–2021, driven by reduced infrastructure spending in TIF districts, but warned the aid formula is expected to plateau or decline again around 2030–2031. Trustees were cautioned not to commit transportation aid dollars to non-transportation purposes. Staff also used the Wisconsin Policy Forum's municipal comparison tool to show Weston has among the lowest general government expenditures and property tax levy per capita compared to neighboring communities, and is second-lowest in shared revenue per capita in the comparison group. The village's Moody's bond rating of Aa3 (issued August 2026) was noted as solid, constrained partly by Marathon County's Aa2 ceiling."
+      "item": "Special Revenue Funds — Refuse/Recycling, Aquatic Center, TIF Districts, Room Tax, Civic/Social/Park Trust",
+      "body": "Staff presented preliminary 2027 budgets for each special revenue fund. The refuse/recycling fund faces a projected $62,000 fund balance drawdown largely due to diesel fuel surcharges under the Harder's contract; staff indicated the per-unit fee may need to increase from $20.50 and said a final recommendation would be brought back after reviewing August data. The aquatic center is projected to nearly break even, with attendance down slightly from the prior year but revenues higher due to fee increases; a facility assessment ($15,000 estimate) was discussed as a potential future expense. TIF District 1 is closing and will distribute remaining funds to taxing districts after a final audit. TIF District 2 (Schofield Avenue) carries a roughly $470,000 projected deficit through end of 2027 due to a state reassessment that slashed the district's value. The room tax Weston-only account balance is growing (approximately $230,000 through Q2) and trustees noted funds should be deployed for tourism purposes. The civic and social fund will resume a $500 scholarship through DC Everest after a lapse of several years."
     },
     {
-      "item": "Special Revenue Funds",
-      "body": "Staff reviewed six special revenue funds. The refuse/recycling fund is projected to draw down its $156,000 fund balance by approximately $62,000 in 2026 due to unexpected diesel fuel surcharges under the Harder's contract; staff indicated the $25.50 resident fee may need to increase to $27.10 for 2027, pending August data. The aquatic center fund is projected to roughly break even or gain $8,000 in 2026 after fee increases ($5 to $7 daily, higher season passes boosted revenues despite lower attendance); a $100,000 capital borrowing placeholder was included for a pool leak repair whose actual cost is still unknown. TIF District No. 1 is closing, with a roughly $400,000 one-time levy adjustment expected; approximately $1.95 million is being held to retire CDA lease revenue bond debt. TIF District No. 2 (Schofield Avenue) carries a roughly $470,000 deficit projected through end of 2027 after the state slashed assessed value in early 2025. Room tax: the village's 30% share produced about $197,000 to the Weston account in 2025 out of $461,000 paid to the CVB; the fund balance is growing to approximately $230,000 through Q2 and staff flagged it must be spent on tourism purposes before the next two-year CVB agreement renewal in 2027. The Civic, Social and Park Trust fund will resume $500 scholarships through DC Everest for the first time in years, funded by improved CD interest rates (approximately 4.01%)."
+      "item": "FLSA Reclassification of Engineering Technician Position",
+      "body": "The village administrator explained that the engineering technician hired in summer to serve as on-site inspector for the Concord project was incorrectly classified as exempt (salaried) when the position was created, and requested reclassification to non-exempt (hourly) with back pay. The Finance/HR Committee initially approved retroactive reclassification to August 17, then amended the motion to extend the effective date back to the employee's actual hire date of July 6, reasoning that if the classification was incorrect from the start, the correction should apply from day one even though no overtime was incurred in that earlier period. The Board of Trustees approved the same motion. Staff estimated the overtime owed for time already worked is less than $1,000 in wages, and noted the position saves the village significantly compared to contracting a consulting engineer at approximately $120 per hour."
     },
     {
-      "item": "FLSA Reclassification of Engineering Technician",
-      "body": "Public Works Director Michael [inaudible] explained that a newly hired engineering technician serving as on-site inspector for the Concord A project had been incorrectly classified as FLSA-exempt (salaried) since his July 6 hire date. The Finance/HR Committee and board both voted to reclassify the position to non-exempt (hourly) retroactive to July 6, 2026. Staff estimated the retroactive overtime owed is less than $1,000 in wages, and noted the position generates significant savings versus contracting out inspection at roughly $120/hour compared to approximately $30–35/hour in-house. The Finance/HR Committee voted first, then the Board of Trustees adopted a corresponding motion."
+      "item": "Modified Summer Hours for 2027 (Potential Friday Afternoon Closures)",
+      "body": "Trustees discussed whether to implement a modified summer schedule in which administrative staff would work longer hours Monday through Thursday and close Friday afternoons, similar to schedules in Rothschild, Schofield, and Wausau. Staff noted public works already operates a four-day 10-hour schedule in summer. Concerns raised included inequity between office staff and frontline workers (utilities, parks, police, fire) who cannot participate, potential confusion for residents, prior unsuccessful attempts at similar schedules, and the small number of employees who would actually benefit (estimated fewer than 10). One board member asked staff to survey employees on their preferences among all retention tools — wages, benefits, modified hours, and additional holidays — rather than evaluating each in isolation. No action was taken; the item was deferred for further discussion at a future budget workshop."
     },
     {
-      "item": "Potential Modified Summer Hours for 2027",
-      "body": "Village President Maloney introduced a discussion on potentially adopting a compressed summer schedule (e.g., Monday–Thursday extended hours with a half-day Friday) similar to neighboring municipalities: Rothschild, Kronenwetter, and Schofield operate 7 a.m.–4:30 p.m. Monday–Thursday and 7–11 a.m. Friday; Rib Mountain does 7:30–5 and 8:30–1; Wausau uses Monday/Wednesday/Thursday 7:30–4:30 with a late Tuesday and half-day Friday. Staff clarified that public works already runs four 10-hour days (Memorial Day–Labor Day) and would be unaffected. Utilities and parks staff would also be excluded. Staff noted a prior attempt at modified hours generated employee and public complaints about early start times and reduced Friday access. Two public commenters had already expressed opposition (Pel) and partial concern (Grace). No decision was made; the topic was deferred to future budget workshops for further discussion."
+      "item": "Closed Session — Litigation Strategy (EMPD Payout)",
+      "body": "The Board of Trustees voted to convene in closed session pursuant to Wisconsin Statute 19.85(1)(g) to confer with legal counsel regarding strategy in litigation or likely litigation concerning a Weston-Everest Metro Police Department payout. Trustee Clark, participating by Zoom, was excluded from the closed session per consistent board practice. Upon returning to open session, Trustee Olson moved to take no action based on the closed session discussion; the motion was seconded by Ermeling and passed unanimously."
     }
   ],
-  "publicComment": "Three residents spoke. Grace raised concerns about equity in overtime calculations if staff are reclassified hourly, and asked the village to ensure hourly employees are paid only for actual hours worked. Jim Pel criticized the absence of a clear answer to the 1%-salary-cost question, opposed closing Village Hall on Fridays as inequitable to non-administrative departments, suggested extended evening hours as an alternative, and complained the budget PowerPoint was not in the meeting packet until the day of the meeting. John questioned a village ordinance requiring a licensed plumber to replace an anti-siphon faucet on his 1960 home, questioning why the work could not be done by a homeowner with a receipt showing a new part.",
+  "publicComment": "Three residents spoke during public comment. The first raised questions about the proposed Friday afternoon closures and the treatment of hourly versus salaried employees if hours are restructured, and sought confirmation that overtime is calculated on a 40-hour basis (confirmed by staff). The second resident criticized the absence of a clear answer to what a 1% wage increase costs the village, expressed strong opposition to closing village hall on Friday afternoons on grounds of unequal treatment of frontline workers and reduced public access, and suggested instead extending hours one evening per week; he also noted the PowerPoint presentation was added to the meeting packet only the day of the meeting. The third resident challenged a village requirement that he hire a licensed plumber to replace anti-siphon faucet components identified during a village-wide water inspection, stating he had built houses and performed the work himself for years and questioning why his 1960s home could not be grandfathered under the ordinance.",
+  "publicCommentSpeakers": "3",
   "actionItems": [
-    "Finance staff to provide future budget spreadsheets with explanatory notes and assumptions, either in the packet or as an addendum, before the next workshop",
-    "Finance staff to send the wage/benefit spreadsheet in editable (non-PDF) format to trustees upon request",
-    "Staff to add budget presentation slides and contextual notes to meeting minutes/record",
-    "Reclassify engineering technician position from FLSA-exempt to non-exempt, retroactive to July 6, 2026 hire date, and issue retroactive overtime pay",
-    "Finance staff to await August fuel data before finalizing refuse/recycling fee recommendation for 2027 (possible increase from $25.50 to $27.10)",
-    "Explore potential facility assessment for the aquatic center (estimated ~$15,000, last done 2016)",
-    "Continue discussion of modified summer hours for 2027 at future budget workshops",
-    "Budget adoption deadline: end of October 2026; Greg Ellers debt/capital borrowing presentation scheduled for October 5 budget workshop",
-    "Tourism Commission to discuss use of growing Weston room-tax fund balance (~$230,000 through Q2) before 2027 CVB agreement renewal",
-    "Resume $500 DC Everest scholarship from Civic/Social fund in 2027 budget"
+    "Engineering technician FLSA status reclassified from exempt to non-exempt retroactive to July 6 hire date, with back pay for overtime hours worked since the Concord project began",
+    "Staff to bring back updated refuse/recycling fund fee recommendation after reviewing August fuel surcharge data",
+    "Staff to provide by department a breakdown of how many employees would actually benefit from modified Friday afternoon hours",
+    "Staff to gather employee feedback on relative priorities among retention tools (wages, benefits, schedule changes, additional holidays) for future budget discussion",
+    "Budget materials and presentation slides to be included in the meeting packet prior to future budget workshops with explanatory notes on assumptions",
+    "Three additional joint budget workshops scheduled; Greg (financial advisor) to present borrowing/capital plan at the October 5 workshop",
+    "Budget must be finalized by end of October to allow public hearing notice for November",
+    "No action taken on closed session litigation matter (EMPD payout)"
   ],
   "topics": [
     "Budget",
     "Staffing",
     "Utilities",
     "Aquatic Center",
-    "Transportation Aids"
+    "TIF Districts"
   ],
   "votes": [
     {
-      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes – Finance/HR Committee",
-      "motion": "Motion to approve minutes",
+      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes — Finance/HR Committee",
+      "motion": null,
       "mover": "Daniels",
-      "second": "Pavlo (approximate — name garbled in transcript)",
+      "second": "Pavlo",
       "outcome": "Approved",
       "tally": null
     },
     {
-      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes – Board of Trustees",
-      "motion": "Motion to approve minutes",
-      "mover": "Lisa Beck",
-      "second": "Barbara Ermeling",
+      "item": "Approval of August 24, 2026 Joint Budget Workshop Minutes — Board of Trustees",
+      "motion": null,
+      "mover": "Beck",
+      "second": "Ermeling",
       "outcome": "Approved",
       "tally": null
     },
     {
-      "item": "FLSA reclassification of engineering technician from exempt to non-exempt, retroactive to July 6, 2026 – Finance/HR Committee",
-      "motion": "Motion to reclassify position and backdate to July 6 start date",
-      "mover": "Ricker (approximate — name garbled)",
+      "item": "FLSA reclassification of engineering technician from exempt to non-exempt, retroactive to August 17 — Finance/HR Committee",
+      "motion": null,
+      "mover": null,
       "second": "Daniels",
       "outcome": "Approved",
       "tally": null
     },
     {
-      "item": "FLSA reclassification of engineering technician from exempt to non-exempt, retroactive to July 6, 2026 – Board of Trustees",
-      "motion": "Motion to approve reclassification retroactive to July 6 start date",
-      "mover": "Hooshang Zeyghami (approximate — 'Hushin' in transcript)",
-      "second": "Barbara Ermeling (approximate — 'Barb' in transcript)",
+      "item": "Amend FLSA reclassification retroactive date to July 6 hire date — Board of Trustees",
+      "motion": null,
+      "mover": "Zeyghami",
+      "second": "Ermeling",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Finance/HR Committee motion to adjourn",
+      "motion": null,
+      "mover": "Daniels",
+      "second": null,
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Motion to convene in closed session pursuant to Wisconsin Statute 19.85(1)(g) — litigation strategy regarding EMPD payout",
+      "motion": null,
+      "mover": "Ermeling",
+      "second": "Zeyghami",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Motion to take no action on closed session item (EMPD payout)",
+      "motion": null,
+      "mover": "Olson",
+      "second": "Ermeling",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Motion to adjourn — Board of Trustees",
+      "motion": null,
+      "mover": "Olson",
+      "second": "Zeyghami",
       "outcome": "Approved",
       "tally": null
     }
   ],
   "_source": "transcript",
+  "_transcript_chars": 111567,
   "_transcript_hash": "af875c57def877fb",
   "title": "Board of Trustees and Finance/HR Committee (Budget Workshop)",
   "url": "https://www.youtube.com/watch?v=2BEGEZeHzS0",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-09-10T02:56:52.909648+00:00"
+  "processed_at": "2026-11-21T16:59:14.465916+00:00"
 }
