@@ -1,5 +1,5 @@
 {
-  "overview": "The Wausau Common Council held its October 27, 2026 meeting, addressing a wide range of items including a detailed stormwater utility feasibility study presentation, routine resolutions, and a significant debate over the city's Flock license plate reader camera system. The council voted 8-2 to suspend rules and ultimately passed a resolution directing the appropriate city department to cease use of Flock data and physically cover all Flock cameras within two business weeks, reflecting sustained public and council pressure over privacy and data misuse concerns.",
+  "overview": "The Wausau Common Council met on Tuesday, October 27, 2026, taking several significant actions including approving a new full-time human resources coordinator position, passing a data center zoning ordinance, and directing the city to cease use of Flock license plate reader cameras and physically cover them within two business weeks. The Flock camera vote was the most debated item of the evening, with extensive discussion about contract obligations, civil liberties, and the police department's operational role, ultimately passing 9-1 as amended.",
   "committee": "Wausau Common Council",
   "presiding": "Doug Diny, Mayor",
   "agenda": [
@@ -12,194 +12,175 @@
       "item": "Proclamations: Domestic Violence Awareness Month and Crash Responder Safety Week"
     },
     {
-      "time": "7:45",
-      "item": "Presentation: Wausau Waterworks Stormwater Utility Study Report and Stormwater Regulations (Strand Associates)"
+      "time": "8:45",
+      "item": "Presentation: Wausau Waterworks Stormwater Utility Study Report and Stormwater Regulations"
     },
     {
-      "time": "55:00",
-      "item": "Consideration of Minutes: October 13, 2026 Regular Common Council Meeting"
+      "time": "58:30",
+      "item": "Consideration of Minutes of October 13, 2026 Regular Common Council Meeting"
     },
     {
-      "time": "57:00",
+      "time": "1:01:00",
       "item": "Public Comment"
     },
     {
-      "time": "1:12:00",
-      "item": "Consent Agenda (with two items pulled): Item 26-0707 and 26-1013"
+      "time": "1:17:30",
+      "item": "Consent Agenda (with two items pulled)"
     },
     {
-      "time": "1:18:00",
+      "time": "1:20:00",
       "item": "File 26-0707: Resolution Approving Creation of Full-Time Human Resources Coordinator Position"
     },
     {
-      "time": "1:30:00",
+      "time": "1:35:00",
       "item": "File 26-1013: Resolution Creating Terrace Beautification Special Committee of Infrastructure and Facilities Committee"
     },
     {
-      "time": "1:38:00",
-      "item": "File 26-0706: Reconsideration of Ordinance Amending Municipal Code for Data Centers Zoning"
+      "time": "1:43:00",
+      "item": "File 26-0706: Reconsideration of Ordinance Amending Municipal Code for Data Centers and Zoning"
     },
     {
-      "time": "1:55:00",
+      "time": "2:02:00",
       "item": "File 26-1014: Resolution Declaring Official Intent to Reimburse Expenditures from Safe Drinking Water Revolving Loan Program for Lead Service Line Replacement"
     },
     {
-      "time": "1:58:00",
-      "item": "Item 9 (Suspension of Rules): Resolution Directing Wausau Police Department to Cease Use of Flock Data and Cover All Flock Cameras"
+      "time": "2:05:00",
+      "item": "Suspension of Rules and File 23-1012: Resolution Directing Wausau Police Department to Cease Use of Flock Data and Cover Flock Cameras"
     }
   ],
   "discussions": [
     {
-      "item": "Proclamations",
-      "body": "Mayor Diny read proclamations for Domestic Violence Awareness Month (October 2026) and Crash Responder Safety Week (November 2–6). Representatives from the Women's Community, identified as Shannon and Tess, were present for the domestic violence proclamation but declined a formal presentation. The crash responder safety proclamation was noted as being presented to the fire department later in the week."
-    },
-    {
       "item": "Stormwater Utility Study and Stormwater Quality Management Plan Presentation",
-      "body": "Justin Gataski of Strand Associates presented a two-part report: an update to the city's stormwater quality management plan and a stormwater utility feasibility study, both funded 50% by a Wisconsin DNR grant ($170,000 total project cost). Gataski explained the city currently meets total suspended solids reduction requirements (26.5% vs. 20% required) but falls significantly short on total phosphorus reduction (20.3% vs. 68.6% required under the Wisconsin River TMDL). The team recommended Alternative 2—constructing five structural best management practices (wet ponds) combined with water quality trading with neighboring MS4 communities—as the best path to compliance. Gataski also outlined a stormwater utility framework, estimating a cost of $100–$175 per year per equivalent runoff unit (ERU) for residential properties, with 36,265 total ERUs in the city. Alderperson Lukans asked about artificial turf and non-paying entities (schools, nonprofits) under a utility model; Gataski confirmed those entities would pay under a utility system. Alderperson Hanicki asked about likely resident concerns, with Gataski emphasizing the need for public education about the equity benefits of shifting from tax-based to fee-based funding."
+      "body": "Justin Gataski of Strand Associates presented a two-part report covering a DNR-approved stormwater quality management plan update and a stormwater utility feasibility study, both funded in part by a $170,000 WDNR grant (50% city, 50% grant). He explained that Wausau currently meets total suspended solids removal requirements but falls far short of the 68.6% total phosphorus reduction required under the Wisconsin River TMDL, achieving only 20.3%. The presentation recommended Alternative 2—a mix of constructing wet detention ponds and water quality trading with neighboring communities—as the best path to compliance. Gataski also outlined a potential stormwater utility charging residents roughly $100–$175 per ERU annually as a more equitable, user-based alternative to tax funding; Alderperson Lukens asked about schools and artificial turf fields under such a system, and Alderperson Hoenecke asked about the top public concerns with implementation, which Gataski identified as resident education about equitable cost reallocation."
     },
     {
-      "item": "Minutes Approval: October 13, 2026",
-      "body": "A motion was made and seconded (second from True Blood) to approve the minutes. No questions or debate were raised and the minutes were approved by voice vote."
+      "item": "Consent Agenda",
+      "body": "Two items were pulled from the consent agenda before the vote: File 26-0707 (full-time HR coordinator) and File 26-1013 (Terrace Beautification Special Committee). The remaining consent agenda items were moved by Watson, seconded by Neal, and approved 10-0 without discussion."
     },
     {
-      "item": "Public Comment on Flock Cameras and Boulevard Planting",
-      "body": "Six members of the public spoke. Barbara [last name unclear] and others supported the proposed terrace beautification subcommittee and boulevard planting. Courtney Olsen, executive director of a domestic violence agency and chair of the Wisconsin Domestic Violence Fatality Review Initiative, urged the council to vote yes on Item 9 to end Flock camera use, citing stalking risks, documented officer misuse in Milwaukee and Menasha, and noting that public health and safety voted 5-0 and finance removed the $50,000 Flock line from the 2027 budget. Felix Gallow and Carrie Morola also urged the council to cover and end the Flock system. Danielle Fischer asked the council to discontinue Flock immediately and not fund any like technology going forward."
-    },
-    {
-      "item": "Consent Agenda (less two pulled items)",
-      "body": "Items 26-0707 (full-time HR coordinator) and 26-1013 (terrace beautification special committee) were pulled for separate consideration. The remaining consent agenda was approved on a motion from Watson, seconded by Neil, passing 10-0."
-    },
-    {
-      "item": "File 26-0707: Full-Time Human Resources Coordinator Position",
-      "body": "Alderperson Watson pulled this item, expressing concern that adding a position before an upcoming comprehensive organizational audit could lead to a hire that later must be let go, and asked whether contracted services could serve as a bridge. Alder Tyranny defended the position, stating the HR department is 'barely treading water' and would go underwater if they lost one more person without help. Police Chief [unnamed] clarified that a $10,000 professional development allocation in the fiscal note represents shared savings from bringing crossing guard services in-house, saving the city roughly $40,000–$50,000 annually. Alder Martins noted the city's annual financial auditor had just urged better capture of institutional knowledge. Alder Heni confirmed the HR committee approved the position unanimously. The motion passed 9-1."
+      "item": "File 26-0707: Creation of Full-Time Human Resources Coordinator Position",
+      "body": "Alderperson Watson raised concerns about hiring a permanent position before a planned organizational audit, suggesting contracted services as a temporary alternative. Council President Kilian and Alderperson Martens countered that the HR department is severely understaffed and that the position had been discussed and supported by the HR committee unanimously over many months; Martens also noted that the city's annual financial audit flagged the need to capture institutional knowledge. Police Chief (responding to a question about the $10,000 professional development allocation) explained it was drawn from savings generated by bringing crossing guard services in-house. The motion passed 9-1."
     },
     {
       "item": "File 26-1013: Terrace Beautification Special Committee",
-      "body": "Alderperson Larson pulled this item, expressing concern about adding more government and raising questions about public health, tree maintenance interference, and tall grass. Alderperson Trublood (chair of infrastructure and facilities) clarified the current boulevard planting ordinance dates to the 1970s and is vague, and that this temporary subcommittee—modeled after Madison's ordinance—would clarify it rather than create new bureaucracy. Alder Lukans confirmed the sustainability committee had been involved in developing the concept. The council approved the terrace beautification special committee by unanimous voice vote."
+      "body": "Alderperson Larson pulled the item, expressing concern about adding more government committees and raising questions about public health, tree maintenance conflicts, and tall grass. Alderperson Trueblood, whose committee originated the resolution, explained that the current boulevard planting ordinance dates to the 1970s and is vague; the special committee would be temporary, include city staff and citizen members, and use Madison's ordinance as a template. Alderperson Lukens confirmed that the sustainability committee had been consulted and that the committee's role was investigative, not action-oriented. The item passed unanimously on a voice vote."
     },
     {
-      "item": "File 26-0706: Data Centers Zoning Ordinance (Reconsideration)",
-      "body": "The council first voted 8-2 to reconsider the previously passed data centers zoning ordinance. On the main motion, Alder Lukans asked whether utility capacity verification was built into the ordinance; Planning Director Edmonson confirmed the ordinance requires applicants to submit energy, water, wastewater, and sound reports to assess utility capacity before a conditional use permit is granted and that the city could deny or require infrastructure upgrades. Alder Heni raised concerns about applicants self-sourcing favorable studies, and Edmonson said the city can contract for independent studies at the applicant's expense. Alder Martins asked about NDAs, and Edmonson said she is generally not in favor of NDAs as they complicate transparency, and the city attorney would need to review any NDA before signing. The ordinance was approved 9-1."
+      "item": "File 26-0706: Reconsideration and Approval of Data Center Zoning Ordinance",
+      "body": "The council first voted 8-2 to reconsider the previously passed ordinance, then debated the main motion. Alderperson Lukens asked whether the ordinance required confirmation of adequate utility capacity; Planning Director Edmonson confirmed the ordinance requires applicants to submit energy service, water consumption, wastewater, and sound reports, allowing the city to deny a conditional use permit if capacity is insufficient. Alderperson Hoenecke raised concerns about industry-funded reports being biased; Edmonson said the city can contract for independent studies at the applicant's expense. Alderperson Martens raised concerns about NDAs, and Edmonson stated she generally opposes NDAs for transparency reasons but deferred to the city attorney on specifics. The ordinance passed 9-1."
     },
     {
-      "item": "File 26-1014: Safe Drinking Water Revolving Loan Program Reimbursement Resolution",
-      "body": "A resolution declaring official intent to reimburse expenditures from the Safe Drinking Water Revolving Loan Program for the FY 2027–28 lead service line replacement program was moved by Watson and seconded by Slantsky. No discussion was raised and it passed 10-0."
+      "item": "File 26-1014: Safe Drinking Water Revolving Loan Program Resolution for Lead Service Line Replacement",
+      "body": "The resolution declaring official intent to reimburse expenditures from the Safe Drinking Water Revolving Loan Program for the fiscal year 2027-28 lead service line replacement program was moved by Watson and seconded by Slonski. No discussion was recorded and it passed 10-0."
     },
     {
-      "item": "Item 9: Resolution to Cease Use of Flock Data and Cover Flock Cameras",
-      "body": "Following an 8-2 vote to suspend the rules, the council debated at length a resolution directing the Wausau Police Department to cease using Flock data and cover all cameras. Police Chief [unnamed] raised concerns about the specific wording directing the police department to 'climb poles,' clarified Flock owns the cameras and contract language prohibits tampering, and asked for a legal opinion on authority. City Attorney Ann [last name inaudible] and a colleague confirmed the council has authority to direct the mayor (as chief executive) to order coverage of the cameras but not to directly order the police chief to do so physically. Alder Watson moved an amendment directing the appropriate city department—under instruction of the chief executive officer—to physically cover the cameras within two business weeks; this passed 9-1. Alder Trublood expressed concern about breaching the contract, while Alders Lukans, Tierney, and Martins argued the original vote was made without knowledge of Flock's data misuse and AI expansion and that public trust demanded action. The chief confirmed that access to Flock data can be restricted via a software switch, but uncovered cameras continue to capture and store images for 30 days even without city access. The main motion as amended passed [tally not explicitly stated in transcript before cut-off]."
+      "item": "File 23-1012: Resolution to Cease Use of Flock Cameras (via Suspension of Rules)",
+      "body": "The council first suspended the rules 8-2 to bring the item to the floor. Extended debate followed on contract obligations, civil liberties, and operational logistics. Police Chief explained that access to the Flock system could be turned off internally but that cameras—owned by Flock—would continue capturing images stored for 30 days unless physically covered, and that Flock's contract prohibits customers from tampering with hardware. City Attorney Ann confirmed the council has authority to direct the mayor to cease use, but noted the specific wording directing the police department to cover cameras was procedurally awkward. Alderperson Watson successfully moved an amendment directing the appropriate city department, by order of the chief executive officer, to physically cover the cameras within two business weeks; the amendment passed 9-1. On the main motion as amended, Alderpersons Lukens, Tierney, and Martens all cited changed circumstances since the original approval—including documented misuse by law enforcement officers in other Wisconsin cities, Flock selling anonymized data to third parties, and AI-enhanced image processing beyond original assurances—as reasons to act now rather than wait for the contract to expire December 31st. Alderperson Trueblood expressed concern about abandoning the contract and setting a precedent of overriding prior council decisions. The main motion as amended passed 9-1."
     }
   ],
-  "publicComment": "Six residents spoke during public comment. Barbara [last name unclear] expressed support for the terrace beautification initiative. Courtney Olsen (Highland Park Blvd.), executive director of a domestic violence agency and statewide fatality review chair, urged the council to vote yes on Item 9 to end Flock camera use, citing stalking-related misuse by officers in Milwaukee and Menasha, noting 42 Wisconsin agencies have ended or decided to end Flock, and warning that the city's own contract limits Flock's liability to one year of fees while Wausau County faces lawsuits over warrantless Flock searches. Felix Gallow urged the council to support ending Flock and praised the fire department's community prevention work as a model for policing. Carrie Morola called Flock an unnecessary expense and urged the council to cover the cameras and redirect funds to resident needs. Danielle Fischer urged the council to discontinue Flock immediately and not fund any similar technology going forward. A fifth speaker, Chad Felix Gallow [unclear if separate speaker], made brief supportive remarks.",
+  "publicComment": "Five residents spoke during public comment. A resident who identified herself as executive director of a domestic violence agency and chair of the Wisconsin Domestic Violence Fatality Review Initiative urged the council to vote yes on Item 9 to end Flock camera use, citing documented misuse by officers in Milwaukee and Menasha, noting that 42 Wisconsin agencies have ended or decided to end Flock contracts, and requesting written termination notice to Flock by November 15th under Section 11.16. A resident spoke in favor of allowing boulevard planting, describing residents who do so as investing in their neighborhoods, and identifying themselves as a master gardener. A resident urged the council to cover Flock cameras immediately and remove them from the budget, also commenting favorably on the stormwater presentation. A resident urged the council to discontinue Flock camera use immediately and not fund any similar technology in future budgets, calling it a bipartisan issue. A resident urged the council to cover the Flock cameras and remove them from future budgets, citing many things the city needs to spend money on and noting broad public opposition to Flock.",
+  "publicCommentSpeakers": 5,
   "actionItems": [
-    "City to pursue Alternative 2 for Wisconsin River TMDL compliance (five structural BMPs plus water quality trading), per stormwater quality management plan recommendation",
-    "City to investigate DNR grant opportunities to fund stormwater BMP construction",
-    "City to further investigate water quality trading with neighboring MS4 communities",
-    "City to update stormwater water quality modeling every five years",
-    "Council to consider implementation of a stormwater utility (next steps: task force, rate study, ordinance, billing system review)",
-    "Full-time Human Resources Coordinator position approved for creation",
-    "Terrace Beautification Special Committee created under Infrastructure and Facilities Committee",
-    "Data centers zoning ordinance approved with utility capacity reporting requirements and city ability to contract for independent studies at applicant expense",
-    "Lead service line replacement Safe Drinking Water Revolving Loan reimbursement resolution adopted",
-    "Appropriate city department directed by chief executive officer to physically cover all Flock cameras within two business weeks",
-    "Wausau Police Department directed to cease use of Flock data immediately",
-    "City to send Flock written notice of termination and non-renewal under contract section 11.16 by November 15",
-    "Flock funding to be kept out of adopted 2027 budget following November 10 budget hearing"
+    "Consent agenda items (excluding two pulled items) approved 10-0",
+    "Full-time Human Resources Coordinator position created and approved 9-1",
+    "Terrace Beautification Special Committee of the Infrastructure and Facilities Committee created unanimously",
+    "Data center zoning ordinance (File 26-0706) approved as amended 9-1",
+    "Safe Drinking Water Revolving Loan Program reimbursement resolution for lead service line replacement approved 10-0",
+    "Rules suspended 8-2 to bring Flock camera resolution to the floor",
+    "Resolution directing cessation of Flock data use and physical covering of Flock cameras approved 9-1 as amended; appropriate city department to cover cameras within two business weeks on direction of the chief executive officer",
+    "City to send Flock written notice of termination and non-renewal; city attorney to provide written opinion on litigation risk",
+    "Council President Slonski asked to place 'calling the question' procedure on the rules committee agenda for review",
+    "Sustainability survey deadline reminder: October 31st"
   ],
   "topics": [
-    "Flock Surveillance Cameras",
-    "Stormwater Utility",
     "Public Safety",
-    "Staffing",
-    "Zoning"
+    "Budget",
+    "Flock Cameras",
+    "Stormwater Utility",
+    "Lead Service Line Replacement",
+    "Data Centers",
+    "Staffing"
   ],
   "votes": [
     {
-      "item": "Approval of October 13, 2026 Common Council Meeting Minutes",
+      "item": "Consent agenda (minus two pulled items)",
       "motion": null,
-      "mover": null,
-      "second": "True Blood",
-      "outcome": "Approved",
-      "tally": null
-    },
-    {
-      "item": "Consent Agenda (less items 26-0707 and 26-1013)",
-      "motion": null,
-      "mover": "Watson",
-      "second": "Neil",
+      "mover": "Sarah Watson",
+      "second": "Tom Neal",
       "outcome": "Approved",
       "tally": "10-0"
     },
     {
-      "item": "File 26-0707: Creation of Full-Time Human Resources Coordinator Position",
+      "item": "File 26-0707: Creation of full-time Human Resources Coordinator position",
       "motion": null,
-      "mover": "Larson",
-      "second": "Slotsky",
+      "mover": "Lou Larson",
+      "second": "Kristin Slonski",
       "outcome": "Approved",
       "tally": "9-1"
     },
     {
-      "item": "File 26-1013: Terrace Beautification Special Committee",
+      "item": "File 26-1013: Creating Terrace Beautification Special Committee",
       "motion": null,
-      "mover": "Slantsky",
-      "second": "Lukans",
+      "mover": null,
+      "second": null,
       "outcome": "Approved",
       "tally": "Unanimous"
     },
     {
-      "item": "Reconsideration of File 26-0706: Data Centers Zoning Ordinance",
+      "item": "Reconsideration of File 26-0706: Data center zoning ordinance",
       "motion": null,
-      "mover": "Lukans",
-      "second": "Watson",
+      "mover": "Carol Lukens",
+      "second": "Sarah Watson",
       "outcome": "Approved",
       "tally": "8-2"
     },
     {
-      "item": "File 26-0706: Data Centers Zoning Ordinance (main motion after reconsideration)",
+      "item": "File 26-0706: Data center zoning ordinance (main motion after reconsideration)",
       "motion": null,
-      "mover": "True Blood",
-      "second": "Watson",
+      "mover": "Bruce Trueblood",
+      "second": "Sarah Watson",
       "outcome": "Approved",
       "tally": "9-1"
     },
     {
-      "item": "File 26-1014: Resolution Declaring Official Intent to Reimburse Expenditures from Safe Drinking Water Revolving Loan Program for Lead Service Line Replacement",
+      "item": "File 26-1014: Resolution declaring official intent to reimburse from Safe Drinking Water Revolving Loan Program for lead service line replacement",
       "motion": null,
-      "mover": "Watson",
-      "second": "Slantsky",
+      "mover": "Sarah Watson",
+      "second": "Kristin Slonski",
       "outcome": "Approved",
       "tally": "10-0"
     },
     {
-      "item": "Suspension of Rules to Consider Item 9 (Flock Camera Resolution)",
+      "item": "Suspension of rules to bring File 23-1012 (Flock camera resolution) to the floor",
       "motion": null,
-      "mover": "Neil",
-      "second": "Watson",
+      "mover": "Tom Neal",
+      "second": "Sarah Watson",
       "outcome": "Approved",
       "tally": "8-2"
     },
     {
-      "item": "Amendment to Flock Resolution: Directing appropriate city department (by order of chief executive officer) to physically cover Flock cameras within two business weeks",
-      "motion": "Be it further resolved that the appropriate city of Wausau department be instructed by the chief executive officer of the city to physically cover the cameras owned and operated by Flock within the next two business weeks",
-      "mover": "Watson",
-      "second": "Neil",
+      "item": "Amendment to File 23-1012: Directing appropriate city department, by order of the chief executive officer, to physically cover Flock cameras within two business weeks",
+      "motion": null,
+      "mover": "Sarah Watson",
+      "second": "Tom Neal",
       "outcome": "Approved",
       "tally": "9-1"
     },
     {
-      "item": "File 23-1012 as amended: Resolution directing Wausau Police Department to cease use of Flock data and cover all Flock cameras",
+      "item": "File 23-1012 as amended: Resolution directing Wausau Police Department to cease use of Flock data and directing appropriate city department to cover all Flock cameras within two business weeks",
       "motion": null,
-      "mover": "Neil",
-      "second": "Larson",
+      "mover": "Tom Neal",
+      "second": "Lou Larson",
       "outcome": "Approved",
-      "tally": null
+      "tally": "9-1"
     }
   ],
   "_source": "transcript",
+  "_transcript_chars": 94836,
   "_transcript_hash": "95d8868768a7337a",
   "title": "Wausau Common Council Meeting",
   "url": "https://www.youtube.com/watch?v=nOAYeu-mA2g",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-29T05:47:00.104140+00:00"
+  "processed_at": "2026-11-21T03:54:10.472303+00:00"
 }

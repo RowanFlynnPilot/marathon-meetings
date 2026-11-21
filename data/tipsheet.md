@@ -26,32 +26,39 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 - [City of Wausau, Plan Commission Meeting (November 17, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/cw6DqUF_9vk/)
   - FAILED 2-2: Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial
+- [Village of Weston, Board of Trustees (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/ZyVaKfiiYyE/)
+  - SPLIT 4-3: Resolution 2026-028 – Adopt 2027 Operating Budget
+  - SPLIT 4-3: Resolution 2026-029 – Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Funds 2027 Budgets
+  - SPLIT 6-1: Resolution 2026-027 – Authorize $4 Million Borrowing for Mountain Bay Metro Police Department Headquarters
+  - SPLIT 6-1: Mack Mueller Park Master Plan (without cost estimate)
 - [Village of Weston, Finance and HR Committee (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/rr4xY0W5ETo/)
   - FAILED 3-3: Recommend village proceed with Option G for 2027 sanitary sewer rates
-- [Village of Weston, Board of Trustees (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/ZyVaKfiiYyE/)
-  - SPLIT 4-3: Resolution 2026-028: Adopt 2027 Operating Budget
-  - SPLIT 4-3: Resolution 2026-029: Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Fund Budgets for 2027
-  - SPLIT 6-1: Resolution 2026-027: Authorize borrowing of $4 million via general obligation promissory note for Mountain Bay Metro Police Department
 
 ## Crowded public comment, past week
 
 - [7 residents spoke: Marathon County, Board Special Meeting (November 17, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/EyftyU37JDQ/)
-- [4 residents spoke: Village of Weston, Board of Trustees (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/ZyVaKfiiYyE/)
 - [3 residents spoke: City of Wausau, Plan Commission Meeting (November 17, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/cw6DqUF_9vk/)
 - [3 residents spoke: City of Wausau, City Council Public Health & Safety Committee Meeting (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/Mi_lKQH22Zo/)
 
 ## Recurring specifics, past 30 days
 
+- Lead Service Line Replacement: 3 meetings (City of Wausau)
+  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
+  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
+  - City of Wausau, Common Council Meeting (October 27, 2026)
 - Tax Increment Districts: 3 meetings (Village of Kronenwetter)
   - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
   - Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026)
   - Village of Kronenwetter, Revised Village Board Meeting (October 26, 2026)
-- Lead Service Line Replacement: 2 meetings (City of Wausau)
-  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
-  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
+- Aquatic Center: 2 meetings (Village of Weston)
+  - Village of Weston, Board of Trustees (November 16, 2026)
+  - Village of Weston, Parks and Recreation Committee (October 26, 2026)
+- Flock Cameras: 2 meetings (City of Wausau)
+  - City of Wausau, City Council Meeting (November 10, 2026)
+  - City of Wausau, Common Council Meeting (October 27, 2026)
 - Surveillance Technology: 2 meetings (Marathon County)
-  - Marathon County, (Budget) Meeting (November 10, 2026)
   - Marathon County, Public Safety Committee Meeting (November 10, 2026)
+  - Marathon County, Board (Budget Hearing) (November 2, 2026)
 - Tax Increment Financing: 2 meetings (City of Wausau)
   - City of Wausau, Economic Development Meeting (November 4, 2026)
   - City of Wausau, Finance Committee Meeting (October 27, 2026)
@@ -68,5 +75,5 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 - Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
-- Village of Weston: 2 meetings with no agenda read yet
+- Village of Weston: 1 meeting with no agenda read yet
 - Wausau School Board: 1 meeting with no agenda read yet

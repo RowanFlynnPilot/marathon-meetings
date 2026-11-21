@@ -1,94 +1,108 @@
 {
-  "overview": "The Marathon County Board of Supervisors held its annual budget hearing on November 2, 2026 for the proposed 2027 budget. HR Finance Committee Chair Robinson and County Administrator Leonard presented a status quo budget that drops the property tax rate by one cent to $3.48, funds a new highway facility without new debt, and maintains current service levels. Three members of the public testified, two raising concerns about the county's Flock license plate reader camera system and one questioning the highway facility funding strategy.",
+  "overview": "The Marathon County Board held its annual budget hearing on November 2, 2026, receiving a presentation of the proposed 2027 budget from County Administrator Leonard and HR Finance Committee Chair Robinson. The budget features a property tax rate drop of 1 cent to $3.48, maintains current service levels, and is anchored by a no-new-debt funding strategy for the approximately $55 million highway facility relocation from West Street to the Highway 51/Cronin Wetter site. No budget amendments were adopted at this meeting; the board will consider amendments and adopt the final budget at a November 10, 2026 meeting.",
   "committee": "Marathon County Board of Supervisors",
   "presiding": "Kurt Gibbs, Board Chair",
   "agenda": [
     {
       "time": "0:00",
-      "item": "Pledge of Allegiance and moment of silence"
+      "item": "Call to order, Pledge of Allegiance, moment of silence, and reading of notice"
     },
     {
-      "time": "1:30",
-      "item": "Reading of the meeting notice"
-    },
-    {
-      "time": "2:30",
+      "time": "3:30",
       "item": "Roll call"
     },
     {
-      "time": "3:15",
-      "item": "Public comment on agenda items — none offered"
+      "time": "5:00",
+      "item": "Public comment on agenda items (none signed up)"
     },
     {
-      "time": "3:45",
+      "time": "5:45",
       "item": "Budget hearing overview by HR Finance Committee Chair Robinson"
     },
     {
-      "time": "8:00",
-      "item": "2027 budget overview presentation by County Administrator Leonard"
+      "time": "11:30",
+      "item": "Administrator's presentation of proposed 2027 budget highlights"
     },
     {
-      "time": "28:00",
-      "item": "Overview of changes adopted by committee for publication — none"
+      "time": "35:00",
+      "item": "Overview of changes adopted by committee for publication (none)"
     },
     {
-      "time": "30:00",
-      "item": "Public hearing on proposed 2027 budget — three speakers"
+      "time": "36:30",
+      "item": "Public hearing on proposed 2027 budget"
     },
     {
-      "time": "45:00",
+      "time": "57:00",
       "item": "Board discussion of proposed 2027 budget"
     },
     {
-      "time": "1:25:00",
-      "item": "Discussion of Flock license plate reader system and budget implications"
+      "time": "2:15:00",
+      "item": "Educational discussion of items to be voted on November 10, 2026 (appointments, rezones, ordinances, resolutions)"
+    },
+    {
+      "time": "2:40:00",
+      "item": "Announcements and adjournment"
     }
   ],
   "discussions": [
     {
-      "item": "2027 Budget Overview",
-      "body": "HR Finance Committee Chair Robinson outlined the year-long budget development process including a 'bucket challenge' prioritization exercise by board members, review of fees, and direction to avoid new debt. Administrator Leonard presented key budget metrics: the property tax rate drops one cent to $3.48, equalized value grew 6.25%, net new construction was 1.545%, and the county ranks 13th lowest in per capita spending statewide. Leonard emphasized the highway facility funding plan — moving the $3.5 million North Central Healthcare payment onto the debt levy to avoid new borrowing for the nearly $55 million project — as the cornerstone of the budget."
+      "item": "Overview of proposed 2027 budget",
+      "body": "HR Finance Committee Chair Robinson outlined the year-long budget development process, noting no amendments had been made since the administrator's September 29 presentation. County Administrator Leonard presented key budget metrics: the property tax rate drops 1 cent to $3.48, Marathon County has the lowest per capita spending and levy rate in the region, and net new construction growth was approximately 1.545%. Leonard emphasized the cornerstone of the budget is shifting the $3.5 million North Central Healthcare payment onto the debt levy to fund the new highway facility without incurring new debt, a strategy he called unprecedented in scale among Wisconsin local governments."
     },
     {
-      "item": "Social Services Department Staffing Increases",
-      "body": "Supervisor Sundowski questioned a proposed increase of 12 positions and roughly $4 million in the Social Services budget. Administrator Leonard and Social Services Director Christa explained that the Children's Long-Term Support (CLTS) social worker positions are fully federally funded through Medicaid billing and driven by state wait-list requirements, while the economic support specialist positions are funded through a state contract related to federal quality assurance requirements tied to the 'big beautiful bill.' Leonard clarified that positions are added incrementally as caseloads require, and that if funding streams disappear, the positions are eliminated without board action."
+      "item": "Public hearing on proposed 2027 budget — Flock license plate reader cameras",
+      "body": "Two residents testified urging the board to defund the county's Flock Safety license plate reader system, citing mass surveillance concerns, lack of board oversight over the grant contracts, data-sharing with approximately 1,397 agencies across roughly 40 states, and a 2022 contract granting Flock a perpetual license to county citizen data. They asked the board to amend the budget to prohibit county funds — including grant funds — from going to Flock without a board vote, and to require public hearings before accepting future surveillance technology grants. Sheriff Bib subsequently addressed the board, defending the technology as a law enforcement tool with ongoing audits conducted twice monthly by a captain, stating the data belongs solely to Marathon County, that deputies must have an active case number to access the system, and that the department does not use it for immigration enforcement. Supervisor Krebs supported the sheriff's position, comparing it to other law enforcement tools. Supervisor Robinson announced he had arranged a meeting between the sheriff and one of the public commenters to explore resolution. The board agreed to take up the issue in depth at the next Public Safety Committee meeting on November 10."
     },
     {
-      "item": "Highway Facility Funding Strategy",
-      "body": "Supervisor Cavelli and Supervisor Nisth questioned the phased implementation of the highway facility debt levy strategy, citing concerns raised by former supervisor David Baker in public testimony. Baker had argued that placing the full $3.5 million NCHC payment on the debt levy in year one contradicted the phased approach described in Resolution 4926, and asked whether proceeds from property sales or reserves could reduce the $25 million funding gap. Administrator Leonard defended the approach, explaining that delay increases risk of having to borrow for other capital projects in 2029-2031, and that proceeds from the sale of West Street shop, 28th Avenue parcels, and the Thomas Street property (400 East Thomas) could shorten the inter-fund loan period but are best evaluated after the annual audit."
+      "item": "Public hearing on proposed 2027 budget — Highway facility funding strategy",
+      "body": "A resident, a former county board member, testified raising four concerns: the long-term taxpayer implications of Scenario 2A projecting $62.9 million in additional debt levy by 2042, the full $3.5 million shift to debt levy in year one versus the phased approach described in Resolution 4926, and whether proceeds from the Thomas Street, River Drive, and 28th Avenue properties or excess reserves could reduce the $25 million funding gap. Administrator Leonard responded that placing the full amount on the debt levy promptly is necessary to limit the period during which the general fund is being drawn down, reducing the risk of needing to borrow for other capital projects; he confirmed property sale proceeds and post-audit excess reserves would be applied to shorten the interfund loan term. Supervisors Cavelli and Nisth pressed for further detail on phasing options and use of highway reserves, with Finance Director Sam Fensky clarifying the working capital calculation methodology."
     },
     {
-      "item": "Flock License Plate Reader System — Budget Implications",
-      "body": "Following public testimony from Courtney Olsen and Felix Gallow calling for defunding the Flock camera system, Supervisor Morash asked what budget options exist. Administrator Leonard explained that grant funds for the original five cameras are fully expended and $6,300 is in the sheriff's budget to continue that contract through the remainder of 2027; a second grant covering three cameras does not expire until March 2029 with no budget funds required. Sheriff Bip addressed the board, defending the technology as a legitimate law enforcement tool, stating that searches require a case number and are limited to specific personnel, that data is not shared with private entities, that audits occur twice monthly, and that the system is not used for immigration enforcement. Supervisor Robinson announced he had arranged a meeting between the sheriff and Gallow to work toward resolution. The board agreed to refer detailed discussion to the November 10 Public Safety Committee meeting."
+      "item": "Social services staffing — 12 new positions",
+      "body": "Supervisor Sundowski questioned the rationale and cost for 12 new positions in the Social Services department. Administrator Leonard and Social Services Director Christa explained that the Children's Long-Term Support (CLTS) social worker positions are fully federally funded through Medicaid billing based on caseload metrics required by the state, that the county is under a corrective action plan obligation to eliminate its waitlist, and that positions will be filled incrementally as caseloads grow. The quality assurance or PCR positions are funded through the state contract stemming from federal requirements and carry no direct tax levy impact; if federal or state funding ends, the positions would be eliminated."
     },
     {
-      "item": "User Fees and Equity Concerns",
-      "body": "Supervisor Leur raised concerns that increased user fees disproportionately burden lower-income residents and asked whether the county tracks the impact of fee increases on service utilization. Administrator Leonard acknowledged the concern, noted that the marriage license fee was deliberately not increased at the county clerk's recommendation, and emphasized that fee-setting is ultimately a board policy decision. He also noted two additional fee changes — a professional services fee in the medical examiner's office and minor solid waste adjustments — would be brought to the board before final budget adoption."
+      "item": "User fees and equity concerns",
+      "body": "Supervisor Leur raised concerns that increasing user fees disproportionately burdens lower-income residents and asked staff to track the impact of fee changes on service utilization. Administrator Leonard acknowledged the tension between cost recovery and equity, noted that some fees — such as the marriage license fee — were not increased at the county clerk's recommendation, and stressed that fee and service-level decisions are ultimately board policy choices. He flagged solid waste tipping fees as highly consequential and noted two additional fee items — a professional services fee in the medical examiner's office and minor solid waste changes — would be brought before the board before final budget adoption."
+    },
+    {
+      "item": "Tax-deed property sale — Resolution 77-26",
+      "body": "Supervisor Jensen questioned why the county would sell a tax-delinquent property to the city for $1 when over $75,000 in back taxes and penalties were owed. Administrator Leonard explained that an appraiser valued the property at $0 due to environmental hazards requiring demolition, making cost recovery impossible, and that the city's offer — which does not meet the board's policy requiring the county to be made whole on past-due taxes — was brought to the full board precisely because it falls outside standard policy. The city intends to remediate the property and return it to the tax rolls. Supervisor Robinson noted the county has become more aggressive in earlier title-taking to prevent such situations from accumulating. Supervisor Griner asked whether a part-time position focused on delinquent property recovery would be cost-effective; Leonard suggested the county's existing process has largely caught up and that by 2028 the work would be mostly maintenance."
+    },
+    {
+      "item": "Educational discussion of November 10 action items",
+      "body": "The board previewed several items scheduled for action on November 10, including an appointment of Jennifer Marzu to the Local Emergency Planning Committee, four rezoning ordinances (Town of Green Valley, Town of Marathon, and two in the Town of McMillan), an ATV/UTV ordinance for Highway 34, and two zoning amendment resolutions. Supervisor G flagged concerns about the ATV/UTV ordinance that she planned to raise at the Infrastructure Committee. Supervisors Sandulski and Morash expressed support for the ATV/UTV ordinance based on constituent calls. Supervisor Drew noted that a letter from an attorney regarding the Town of Marathon rezone (MK7 Enterprises) would be discussed at committee the following day. Regarding UW-Stevens Point property, Leonard reported due diligence is underway with the City of Wausau on most buildings through end of Q1 of next year, while the theater building is being pursued for a one-year lease with the Marathon County Center for Arts and Culture ahead of a nonprofit transfer."
     }
   ],
-  "publicComment": "Three speakers testified at the formal public hearing. Courtney Olsen, executive director of a domestic violence agency, asked the board to amend the 2027 budget to prohibit county funds from being used for Flock or any license plate reader contract without a public hearing and board vote, and to request a corporate counsel opinion on board authority and county liability. Felix Gallow, also a Wausau resident, asked the board to prohibit budget funds from going to Flock without additional board study, and requested the sheriff commit to mandatory audits with oversight, quarterly public reports, and limiting data sharing to adjacent jurisdictions, state patrol, and DCI. David Baker of Kronenwetter supported the new highway facility and the no-new-debt strategy but questioned why the full $3.5 million payment was placed on the debt levy in year one rather than phased in, and asked the board to consider using property sale proceeds and reserves to reduce the $25 million funding gap.",
+  "publicComment": "Three residents spoke during the public hearing on the proposed 2027 budget. The first speaker, who identified herself as the executive director of a domestic violence agency, asked the board to amend the budget to prohibit county funds from being used for Flock license plate reader cameras without a board vote, to require public hearings before accepting future surveillance technology grants, and to seek a corporate counsel opinion on the board's authority and liability. The second speaker argued the Flock system constitutes mass surveillance, cited data showing 464,000 vehicles logged in 30 days with data shared with roughly 1,500 agencies, and found no statistically significant reduction in vehicle theft or property crime attributable to the cameras; he asked for a budget provision barring Flock funding without further study and for the sheriff to implement mandatory audits, quarterly public reports, and limited data-sharing. The third speaker, a resident of Kronau, identified himself as a former county board member and expressed support for the highway facility project and the no-new-debt funding concept but raised concerns about the long-term taxpayer cost of Scenario 2A, the apparent immediate rather than phased shift of the $3.5 million NCHC payment to the debt levy in year one, and asked the board to evaluate whether property sale proceeds and excess reserves could reduce the $25 million funding gap.",
+  "publicCommentSpeakers": "3",
   "actionItems": [
-    "Board members who wish to amend the 2027 budget must submit amendments to the clerk, administrator, or Finance Committee Chair Robinson by Friday for Finance Committee consideration on Monday",
-    "Full board to adopt the 2027 budget and capital improvement plan on Tuesday, November 10, 2026 at 6 p.m.",
-    "Sheriff Bip to deliver a detailed Flock camera presentation at the November 10 Public Safety Committee meeting; all supervisors invited to attend",
-    "Supervisor Robinson to arrange a meeting between Sheriff Bip and Felix Gallow to address oversight and accountability concerns about the Flock system",
-    "Staff to bring two fee schedule amendments — medical examiner professional services fee and minor solid waste fee changes — before the board prior to budget adoption",
-    "Joint meeting of HR Finance & Property Committee and Extension/Education/Economic Development Committee scheduled for Thursday to review second round of RFPs on River Drive properties",
-    "Post-audit review to assess excess highway reserve funds and other available revenues (West Street shop sale proceeds, 28th Avenue parcels, Thomas Street property, Social Improvement funds) to shorten the highway facility inter-fund loan period"
+    "Board members wishing to propose budget amendments must submit them to Clerk, Administrator Leonard, or HR Finance Committee Chair Robinson by Friday so the HR Finance Committee can consider them at its Monday meeting",
+    "Full county board to adopt 2027 budget and capital improvement plan at the November 10, 2026 meeting at 6 p.m.",
+    "Sheriff to present detailed Flock camera memo and full presentation at the Public Safety Committee meeting on November 10",
+    "Supervisor Robinson to facilitate a meeting between the sheriff and the resident who raised Flock concerns to explore resolution",
+    "All board members wishing to attend the Public Safety Committee Flock presentation should notify Chair Gibbs or the Public Safety Committee chair so a Baird notice can be issued",
+    "Staff to bring two fee schedule amendments (medical examiner professional services fee and minor solid waste changes) to the board before final budget adoption",
+    "Staff to bring a resolution finalizing accounting entries for Social Improvement and American Rescue Plan Act funds (Forensic Science Center project) to the board likely next month following the audit",
+    "HR Finance and Property Committee and Extension Education Economic Development Committee to meet Thursday to review second round of RFPs on River Drive properties",
+    "Staff to continue marketing Thomas Street (400 East Thomas) and 28th Avenue parcels and report proceeds for application toward the highway interfund loan",
+    "Post-audit review to assess excess highway reserve funds above working capital designation and Social Improvement rollover funds available to shorten the highway facility interfund loan term",
+    "City of Wausau due diligence period on UW-Stevens Point buildings (excluding theater) to run through end of Q1 next year; one-year lease with Marathon County Center for Arts and Culture for the theater to be presented to full board before year-end"
   ],
   "topics": [
     "Budget",
     "Public Safety",
     "Highway Facility Funding",
-    "Flock License Plate Readers",
-    "Social Services Staffing"
+    "Surveillance Technology",
+    "Staffing"
   ],
   "votes": [],
   "_source": "transcript",
+  "_transcript_chars": 103567,
   "_transcript_hash": "b1da515ac66c78dd",
   "title": "Marathon County Board (Budget Hearing)",
   "url": "https://www.youtube.com/watch?v=P2GhbpI7KkY",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-04T00:38:16.110775+00:00"
+  "processed_at": "2026-11-21T03:41:22.003032+00:00"
 }

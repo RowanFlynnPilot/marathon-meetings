@@ -379,43 +379,6 @@
   "weston": [
     {
       "date": "2026-11-23",
-      "time": "",
-      "name": "Mountain Bay Metropolitan Police Oversight Board",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1994",
-      "source": "weston"
-    },
-    {
-      "date": "2026-11-23",
-      "time": "",
-      "name": "Park and Recreation Committee",
-      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993",
-      "source": "weston",
-      "preview": {
-        "closedSession": false,
-        "generated": "2026-11-19T00:57:28+00:00",
-        "items": [
-          {
-            "action": "discussion",
-            "item": "Farmers Market End of Season Survey results",
-            "why": "The committee will discuss feedback from 129 survey respondents about their experience at the Farmers Market held at Kennedy Park, covering parking, traffic flow, amenities, and other aspects."
-          },
-          {
-            "action": "discussion",
-            "item": "Kennedy Park Master Plan",
-            "why": "The committee will discuss and potentially act on updates to the master plan, which may need modifications based on the Farmers Market staying at the park and decisions from the youth hockey organization about using the northwest corner."
-          },
-          {
-            "action": "report",
-            "item": "Aquatic Center Repairs update",
-            "why": "Director Osterbrink will provide an update on ongoing leak detection and equipment replacement work being performed by Neuman Pools, which includes finding and repairing leaks in the play structure supply pipe."
-          }
-        ],
-        "overview": "The Parks and Recreation Committee will review survey feedback from the Farmers Market season at Kennedy Park and discuss the Kennedy Park Master Plan, which guides future improvements to the popular community facility.",
-        "publicComment": true
-      }
-    },
-    {
-      "date": "2026-11-23",
       "time": "6:00 PM",
       "name": "Parks & Recreation Committee",
       "url": "https://www.westonwi.gov/agendacenter",

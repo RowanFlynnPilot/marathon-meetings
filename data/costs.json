@@ -1548,5 +1548,135 @@
     "input_tokens": 7453,
     "output_tokens": 2366,
     "usd": 0.057849
+  },
+  {
+    "ts": "2026-11-21T03:34:51.788197+00:00",
+    "meeting_id": "3XMnlwYCZUg",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 31657,
+    "output_tokens": 3570,
+    "usd": 0.148521
+  },
+  {
+    "ts": "2026-11-21T03:36:45.863145+00:00",
+    "meeting_id": "7OLPXH8UYC8",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 29935,
+    "output_tokens": 5037,
+    "usd": 0.16536
+  },
+  {
+    "ts": "2026-11-21T03:38:42.112532+00:00",
+    "meeting_id": "JlCDth7F-RQ",
+    "jurisdiction": "marathon",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 31089,
+    "output_tokens": 3430,
+    "usd": 0.144717
+  },
+  {
+    "ts": "2026-11-21T03:39:56.016906+00:00",
+    "meeting_id": "LJW8KBfFsaY",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 22945,
+    "output_tokens": 3077,
+    "usd": 0.11499
+  },
+  {
+    "ts": "2026-11-21T03:41:22.000491+00:00",
+    "meeting_id": "P2GhbpI7KkY",
+    "jurisdiction": "marathon",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 24560,
+    "output_tokens": 2714,
+    "usd": 0.11439
+  },
+  {
+    "ts": "2026-11-21T03:42:49.535649+00:00",
+    "meeting_id": "PZjmUPDVbTE",
+    "jurisdiction": "marathon",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 15196,
+    "output_tokens": 3866,
+    "usd": 0.103578
+  },
+  {
+    "ts": "2026-11-21T03:44:20.314690+00:00",
+    "meeting_id": "VwT65b86_JM",
+    "jurisdiction": "weston",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 23836,
+    "output_tokens": 3046,
+    "usd": 0.117198
+  },
+  {
+    "ts": "2026-11-21T03:46:05.239811+00:00",
+    "meeting_id": "ZyVaKfiiYyE",
+    "jurisdiction": "weston",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 33182,
+    "output_tokens": 5280,
+    "usd": 0.178746
+  },
+  {
+    "ts": "2026-11-21T03:50:07.115875+00:00",
+    "meeting_id": "flPcB5hel4A",
+    "jurisdiction": "weston",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 24158,
+    "output_tokens": 4515,
+    "usd": 0.140199
+  },
+  {
+    "ts": "2026-11-21T03:54:10.469801+00:00",
+    "meeting_id": "nOAYeu-mA2g",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 23493,
+    "output_tokens": 3275,
+    "usd": 0.119604
+  },
+  {
+    "ts": "2026-11-21T03:57:30.138882+00:00",
+    "meeting_id": "nSSFoE_EWhA",
+    "jurisdiction": "marathon",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 18435,
+    "output_tokens": 5813,
+    "usd": 0.1425
+  },
+  {
+    "ts": "2026-11-21T04:00:50.017519+00:00",
+    "meeting_id": "qTcZ095oNCU",
+    "jurisdiction": "marathon",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 16937,
+    "output_tokens": 4615,
+    "usd": 0.120036
+  },
+  {
+    "ts": "2026-11-21T04:03:59.224552+00:00",
+    "meeting_id": "tPcW8s20iG8",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 30007,
+    "output_tokens": 3955,
+    "usd": 0.149346
   }
 ]

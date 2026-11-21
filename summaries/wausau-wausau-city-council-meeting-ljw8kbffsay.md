@@ -1,49 +1,49 @@
 # Wausau City Council Meeting
 
-**Organization:** City of Wausau 
-**Source:** https://www.youtube.com/watch?v=LJW8KBfFsaY 
-**Summarized:** 2026-11-16 06:27 UTC
+**Organization:** City of Wausau  
+**Source:** https://www.youtube.com/watch?v=LJW8KBfFsaY  
+**Summarized:** 2026-11-21 03:39 UTC
 
 ---
 
 ## Meeting Overview
-The Wausau City Council held its November 10, 2026 regular meeting, passing the 2027 City of Wausau budget 7-4 after lengthy debate over the budget process, borrowing levels, and spending priorities. The council also heard a mayoral presentation on a potential city administrator position, approved several proclamations, and unanimously passed numerous other resolutions including designation of Yawkey Park as a local historic landmark.
+The Wausau City Council held its regular meeting on Tuesday, November 10, 2026, taking up proclamations for Homelessness Awareness Month, Hmong New Year, and Veterans Day, then approving the 2027 City of Wausau budget on a 7-4 vote after rejecting an amendment to use reserves to achieve net-zero new borrowing. The council also unanimously approved the consent agenda, which included designating Yawkey Park as a local historic landmark, and passed several other resolutions including the 2027 comprehensive fee schedule and a police Beat Patrol grant acceptance under suspension of the rules.
 
 ## Key Discussions
 ### City Administrator Presentation
-Mayor Diny presented an update on the city administrator proposal, noting a public survey had received 296 responses with a week remaining, and that roughly 70% of Wisconsin cities have some form of professional city management. Alder Tierney questioned whether the $150,000 budget figure was well-supported, noting uncertainty about actual annual cost including benefits, which the mayor estimated at $150,000–$200,000 per year. Alder Henecke expressed skepticism that adding an administrator position would tangibly address residents' systemic concerns, while Alder Neal said he wanted comparative salary data before proceeding. Alder Wiskowski asked about multiple models, including a deputy mayor or chief of staff option. The mayor said the city attorney's office is ready to draft ordinance language and proposed a committee of the whole as the next step, but no vote was taken on the proposal.
+Mayor Diny presented an update on the city administrator proposal, noting a public information session drew 45 residents and an ongoing resident survey had received 296 responses with a week remaining. He argued that a city administrator model—adoptable by simple ordinance—would provide continuity, professional management, and separation of politics from day-to-day operations, and asked the council to retain the $150,000 budget line for the position. Alder Tierney questioned the cost estimates, noting uncertainty in the figures, while Alder Hoenecke expressed skepticism that adding an administrator would tangibly address residents' concerns about spending and performance. Alder Neal called the $150,000 figure insufficiently supported and said the audit should come first; Alder Wiskowski asked that multiple models—including a chief-of-staff option—be presented at a future committee of the whole. No vote was taken; the mayor indicated a committee-of-the-whole session would follow.
 
-### Approval of Minutes from October 27th Regular Council Meeting
-Alder Lukens requested a correction to the minutes clarifying that his action during a vote on the Flock data resolution was a question, not an objection. The council voted to amend the minutes to reflect this clarification, then approved the minutes as amended, passing 11-0.
+### Approval of Minutes from October 27 Regular Council Meeting
+Alder Lukens requested a minor amendment to clarify that she had not objected but merely had a question during a prior item regarding the Flock camera resolution. A motion to amend was made by Lukens and seconded by Hoenecke; it passed on a voice vote. The amended minutes were then approved 11-0.
 
 ### Public Comment
-Four speakers addressed the council. Courtney Olsen, executive director of a domestic violence agency, urged the council to send written termination notice to Flock by November 15th and to exclude Flock payments from the 2027 and 2028 budgets, noting cameras had already been covered by Public Works. Amelia Wajchowski read a statement from Yawkey heirs supporting the historic landmark designation of Yawkey Park. Christine Martins also urged support for the Yawkey Park landmarking. Danielle Fischer echoed support for terminating the Flock contract and also endorsed the city audit.
+Four residents addressed the council. Two speakers focused on Flock license-plate-reader cameras, urging the council to send written termination notice to Flock by November 15 under contract Section 11.16, to omit Flock payments from the 2027 and 2028 budgets, and noting that 42 Wisconsin agencies had already ended or decided to end Flock contracts with no known litigation. One speaker read a statement from Yawkey heirs expressing full support for designating Yawkey Park as a historic landmark. A fourth speaker supported both the Yawkey Park landmarking and the city audit while expressing opposition to advancing a city administrator position without a referendum.
 
-### 2027 City of Wausau Budget — Amendment to Use Reserves for Debt Offset
-Alder Henecke moved to amend the 2027 budget to draw from the city's approximately $16 million in reserves to offset new borrowing so that net new debt would be zero — meaning the city would borrow no more than the roughly $18 million it was paying down, rather than the planned $22 million. Finance Director Mary Ann Groat cautioned that Wausau's unassigned fund balance as a percent of general fund expenses is already on the lower end compared to peer cities, and recommended against the drawdown at this time. Alder Watson, Alder Martens, and Alder Slansky also spoke against the amendment, citing bond rating concerns and existing reserve policy that limits use to unanticipated, non-recurring needs. The amendment failed 2-9.
+### Consent Agenda
+The consent agenda was moved by Neal and seconded by Slonski and passed unanimously 11-0. Mayor Diny specifically noted that the designation of Yawkey Park as a local historic landmark was included, calling out that it had passed unanimously through the Plan Commission and Historic Preservation Commission.
 
-### 2027 City of Wausau Budget — Main Motion
-The main budget vote followed extended debate. Alder Wiskowski expressed frustration with the lack of full-council deliberation outside the finance committee, and asked Finance Director Groat to confirm the projected impact: a $71.52 increase for a $200,000 home, driven approximately 60% by the voter-approved addition of 12 firefighter-paramedics. Alder Trueblood and Alder Lukens expressed reservations and indicated they would have preferred more time and public input. Alder Tierney challenged budget opponents to identify specific cuts. Finance Committee Chair Martens summarized key amendments already baked in: $150,000 redirected from city administrator to audit, $50,000 for Flock eliminated, $45,000 for alley paving eliminated, $20,000 for trail planning eliminated, $150,000 for downtown traffic design engineering removed, and $2.5 million in lead service line replacements moved to TID 8. The budget passed 7-4.
+### 2027 City of Wausau Budget Adoption
+The budget came out of the Finance Committee 4-1. Alder Hoenecke moved an amendment to use general fund reserves to offset new borrowing so that net new debt would be zero (borrowing $18 million rather than $22 million); Finance Director Groat cautioned against it, noting Wausau's unassigned fund balance as a share of expenses was already on the lower end compared to peer cities, and recommended waiting until year-end. Alder Martens and Slonski also opposed the amendment, with Slonski citing the city's fund-balance policy limiting reserve draws to unanticipated, non-recurring needs; the amendment failed 2-9. On the main motion, Alder Wiskowski, Trueblood, and Lukens voiced concerns about the budget process, lack of broader public deliberation, and unresolved structural issues like a $1.368 million motor pool shortfall. Alder Martens, chair of Finance, summarized key amendments—reclassifying $150,000 from city administrator to audit, eliminating $50,000 for Flock, $45,000 for alley paving, $20,000 for trail planning, and $150,000 for downtown traffic redesign engineering—and noted 60% of the tax increase stems from fully funding 12 new firefighter-paramedics approved by April referendum. The budget was adopted 7-4, with an estimated $71.52 increase per $200,000 assessed home value.
 
-### Yawkey Park Historic Landmark Designation (Consent Agenda)
-The designation of Yawkey Park as a local historic landmark was included on the consent agenda and passed unanimously 11-0. Mayor Diny noted it had previously passed unanimously through the Plan Commission and Historic Preservation Committee. A written statement from Yawkey heirs was read into the record supporting the designation.
+### Suspension of Rules and Beat Patrol Grant
+The council voted 9-2 to suspend Rule 1D to allow late-arriving committee business. Under suspension, the council took up a Finance Committee resolution accepting a Wisconsin DOJ 2027 Beat Patrol Grant of $121,434 for the police department, which had passed Finance 5-0. Police Chief explained the grant has been received since 2019, is non-competitive but annual, and effectively funds approximately two officers; if lost, a difficult staffing conversation with the council would follow. Alder Hoenecke raised concern about vulnerability to federal funding changes and the lateness of the grant award relative to budget planning; the resolution passed 11-0.
 
-### Beat Patrol Grant — Wausau Police Department
-Police Chief addressed questions from Alder Henecke and others about the $121,434 Wisconsin DOJ Beat Patrol Grant, noting it effectively funds approximately two officers and that Wausau qualifies as one of the ten Wisconsin communities with the highest crime levels relative to population. The chief acknowledged that if the grant were lost, a difficult conversation with the council about staffing and funding would follow. Alder Henecke expressed concern that federal police reform efforts could jeopardize future grant funding. The resolution passed unanimously 11-0.
+### 2027 BID No. 1 Downtown Operating Plan
+A Finance Committee resolution approving the 2027 operating plan for Business Improvement District No. 1 downtown, which had passed Finance 5-0, was moved by Watson and seconded by Hoenecke. No discussion was recorded and it passed unanimously 11-0.
 
 ## Public Comment
-Four speakers offered public comment. Courtney Olsen (Highland Park Boulevard), executive director of a domestic violence agency, urged the council to send written contract termination notice to Flock Safety by November 15th and to exclude all remaining Flock payments from the budget, citing a contract clause allowing exit without penalty via non-appropriation. Amelia Wajchowski, assistant director of the Leigh Yawkey Woodson Art Museum, read a statement from Yawkey heirs — Alice Woodson Smith, A. Woodson Hagge, Abigail Spire, Leigh Tuckey, and Nancy Leigh Fischer — expressing full support for the Yawkey Park historic landmark designation. Christine Martins also urged support for the Yawkey Park landmarking. Danielle Fischer supported terminating the Flock contract and endorsed the city audit. One additional person spoke during the budget public hearing, expressing support for the audit over the city administrator position and objecting to the administrator proposal moving forward without a referendum.
+Four residents spoke during public comment. Two speakers urged the council to send written termination notice to Flock Safety by November 15 under Section 11.16 of the contract, to exclude Flock payments from the 2027 and 2028 budgets, and noted no known litigation against any of the 42 Wisconsin agencies that had already ended Flock contracts. One speaker, the assistant director of the Leigh Yawkey Woodson Art Museum appearing in a professional capacity, read a statement from Yawkey heirs supporting designation of Yawkey Park as a historic landmark. A fourth resident, who identified herself as Christine Martins of Arthur Street, also spoke in support of the Yawkey Park landmarking and noted the letter from the Yawkey heirs had been read at every relevant meeting. A fifth resident (who spoke during the budget public hearing) expressed support for the audit over the city administrator proposal and said a survey was not sufficient substitute for a referendum on the administrator question.
 
 ## Action Items
-- 2027 City of Wausau budget adopted; mill rate set at $9.10 per $1,000 assessed value, projected increase of $71.52 for a $200,000 home
-- Yawkey Park designated as a local historic landmark
-- Mayor's appointments to the Community Development Authority Board and Room Tax Commission confirmed
+- Send written notice of termination to Flock Safety by November 15 per resident request (directed to city attorneys; not formally voted on)
+- Schedule a committee-of-the-whole session on the city administrator proposal, with multiple models including chief-of-staff option presented
+- Proceed with comprehensive city audit using the $150,000 reclassified in the 2027 budget
+- Monitor year-end 2026 financial results before any application of fund balance reserves
+- Mayor Diny and Alder Slonski to hold public listening session at Sylvan Hill Chalet the following Tuesday at 6:00 p.m.
+- Yawkey Park designated as a local historic landmark (approved via consent agenda)
+- Mayor's appointments to Community Development Authority Board and Room Tax Commission confirmed
 - Fire Department apprenticeship program multi-year budget amendment approved, funded by federal grant
 - 2026 budget modification for 415 South First Avenue development agreement with Gorman and Company approved
-- 2027 Comprehensive Fee Schedule adopted
-- Wausau Police Department authorized to accept $121,434 DOJ Beat Patrol Grant
-- 2027 BID #1 Downtown operating plan approved
-- City attorney directed to prepare draft ordinance language and potential referendum language for city administrator proposal
-- Committee of the whole to be scheduled to deliberate on city administrator proposal and determine next steps
-- Mayor Diny and Alder Slansky to hold public listening session at Sylvan Hill Chalet on Tuesday November 17 at 6:00 p.m.
-- Council to consider process for formal written notice to Flock Safety regarding contract termination before November 15th deadline
+- 2027 comprehensive fee schedule adopted
+- 2027 Beat Patrol Grant of $121,434 accepted by Wausau Police Department
+- 2027 BID No. 1 Downtown operating plan approved

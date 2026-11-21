@@ -27,24 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:86a21d98621439759bdd@marathon-meetings
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-SUMMARY:Village of Weston: Mountain Bay Metropolitan Police Oversight Board
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1994
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:b46119fc786a09bd3ddf@marathon-meetings
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-SUMMARY:Village of Weston: Park and Recreation Committee
-URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
 UID:24e3b3cff70c7c06690b@marathon-meetings
 DTSTAMP:20261123T000000Z
 DTSTART;TZID=America/Chicago:20261123T073000

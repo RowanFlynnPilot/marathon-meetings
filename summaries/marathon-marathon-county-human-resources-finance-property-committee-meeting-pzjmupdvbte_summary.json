@@ -1,20 +1,198 @@
 {
-  "overview": "{\n  \"overview\": \"The Marathon County Human Resources, Finance & Property Committee met to consider four proposed 2027 budget amendments and review the property tax levy resolution ahead of the full county board meeting the following day. The committee approved forwarding three of the four amendments to the board — including one to hold $6,300 in Flock license plate reader funding in contingency pending policy development, one to set aside $250,000 for potential legal intervention and litigation costs, and one updating medical examiner fee schedules — while voting not to recommend a $3.5 million capital improvement fund reduction. The levy resolution was approved unanimously for board consideration.\",\n  \"committee\": \"Marathon County Human Resources, Finance & Property Committee\",\n  \"presiding\": \"Chair Robinson (first name not stated in transcript)\",\n  \"agenda\": [\n    {\"time\": \"0:00\", \"item\": \"Pledge of Allegiance\"},\n    {\"time\": \"0:45\", \"item\": \"Public Comment\"},\n    {\"time\": \"9:30\", \"item\": \"Approval of October 20th Minutes\"},\n    {\"time\": \"10:10\", \"item\": \"Approval of October Claims and Question Costs\"},\n    {\"time\": \"11:00\", \"item\": \"2027 Budget Amendment and Capital Improvement Plan — Consideration of Potential Amendments and Review of Property Tax Levy Resolution\"},\n    {\"time\": \"11:30\", \"item\": \"Amendment 1: Flock Automated License Plate Reader Funding ($6,300) Transfer to HR/Finance Committee Contingency\"},\n    {\"time\": \"22:00\", \"item\": \"Amendment 2: $250,000 Sales Tax Revenue Increase for Legal Services (Authored by Supervisor Jensen)\"},\n    {\"time\": \"38:00\", \"item\": \"Amendment 3: Medical Examiner Fee Schedule — Pathologist Travel Fees for Civil and Criminal Testimony\"},\n    {\"time\": \"43:00\", \"item\": \"Amendment 4: $3.5 Million Reduction in Capital Improvement Fund Facilities (Authored by Supervisor Sundelski)\"},\n    {\"time\": \"1:08:00\", \"item\": \"Property Tax Levy Resolution 78-26 — Recommendation to County Board\"},\n    {\"time\": \"1:14:00\", \"item\": \"28th Avenue Properties — Divestiture Discussion\"},\n    {\"time\": \"1:22:00\", \"item\": \"Year-to-Date Budget Reports (August 2026)\"},\n    {\"time\": \"1:45:00\", \"item\": \"Miscellaneous / Cherokee County Park Land Acquisition Update\"},\n    {\"time\": \"1:48:00\", \"item\": \"Adjournment\"}\n  ],\n  \"discussions\": [\n    {\n      \"item\": \"Public Comment — Opioid Settlement Fund\",\n      \"body\": \"Former Supervisor Gail Marshall (remote) urged the committee to use the opioid settlement fund — currently at approximately $2.58 million with an additional $3.68 million expected — to offset opioid-related costs already being incurred in the sheriff's department, clerk of courts, and DA's office rather than holding the funds idle while taxing residents. She suggested that spreading the fund over 10 years, minus a reserve for jail treatment mandated by law, could yield approximately $490,000 annually for direct cost offsets. Administrator Leonard later responded that he is developing a perpetuity trust model, similar to Oklahoma's tobacco settlement approach, and expects to present a formal plan to the board in January.\"\n    },\n    {\n      \"item\": \"Public Comment — NCHC Transfer and Highway Department Budget Forecasting\",\n      \"body\": \"David Baker, an engineer and finance professional, addressed the committee urging consideration of phasing in the North Central Healthcare (NCHC) transfer to debt levy over two years rather than all at once. He presented a spreadsheet showing that a $2 million phased reduction in the transfer this year and $1–1.5 million less the following year would still leave $3.1 million above required policy reserves by 2031. He also argued that the highway department has historically spent only 62–66% of its budgeted expenditures, suggesting the county has been systematically over-budgeting, which complicates sound fiscal decision-making, and asked supervisors to consider a budget amendment reflecting this analysis.\"\n    },\n    {\n      \"item\": \"Public Comment — Flock License Plate Reader System\",\n      \"body\": \"Felix Gallow urged the committee to pause further funding of the Flock license plate reader system, citing serious data privacy and civil liberties concerns. He stated that 30 days of location data on approximately 450,000 people is accessible to over 1,000 entities across multiple states, that ICE has conducted hundreds or thousands of proxy searches through the system, and that officers have misused it to stalk individuals and surveil people suspected of having abortions. He called the current implementation a violation of the Fourth Amendment and recommended that Marathon County reduce data retention from 30 to 7 days, limit external data sharing, implement rigorous audits, and report results to the public safety committee, directing attendees to unflockwausau.org/marathon for more information.\"\n    },\n    {\n      \"item\": \"Amendment 1: Flock Automated License Plate Reader Funding ($6,300)\",\n      \"body\": \"Chair Robinson authored an amendment to transfer $6,300 budgeted for the Flock system out of the sheriff's department and into the HR/Finance/Property Committee contingency fund, to be released only upon a committee vote. Supervisor [inaudible — Knight or Nath] indicated he planned to introduce a competing amendment at the full board meeting the next day to strip the $6,300 entirely and return it to the levy rather than holding it in contingency. Vice Chair Pool raised concerns about handcuffing the sheriff's flexibility on data sharing, particularly regarding legitimate public safety uses, and suggested oversight should rest with the public safety committee rather than a two-member subcommittee. Chair Robinson clarified that a subsequent resolution would need to establish data-sharing and access policies, noting that a productive morning meeting had occurred with Administrator Leonard, Sheriff [inaudible — Bilip], and Felix Gallow. The motion to transfer funds to contingency passed but was not unanimous.\"\n    },\n    {\n      \"item\": \"Amendment 2: $250,000 for Legal Services (Jensen Amendment)\",\n      \"body\": \"With Supervisor Jensen absent, Administrator Leonard explained that the amendment would increase projected sales tax revenue by $250,000 and place a corresponding appropriation in the administrator's special projects cost center for legal services, intended primarily for potential county intervention before the Public Service Commission if Alliant Energy files an application for the Hub City wind project. Chair Gibbs supported the amendment but sought to broaden its scope to also cover potential litigation related to Bug Tussle broadband bond default, noting the county faces approximately $1.5 million in annual obligations that cannot simply be levied due to state levy limit laws. Vice Chair Pool asked whether unspent funds would roll into CIP — Leonard confirmed they would under existing policy unless separately directed otherwise. Finance Director Fensky noted that sales tax projections are historically about 11.68% below Forward Analytics projections. The motion passed but was not unanimous, with at least one member (identified as Cody) voting no.\"\n    },\n    {\n      \"item\": \"Amendment 3: Medical Examiner Pathologist Travel Fee Schedule\",\n      \"body\": \"Administrator Leonard presented an amendment — not attributed to any supervisor, as it was a staff oversight identified during budget development — adding two new fee schedule entries for the medical examiner: a travel time fee for pathologist testimony in civil cases and a corresponding travel time fee for criminal cases, both at a rate substantially lower than the existing testimony fee. Chair Gibbs agreed to put his name on the amendment. The committee approved it unanimously with no notable debate.\"\n    },\n    {\n      \"item\": \"Amendment 4: $3.5 Million CIP/NCHC Reduction (Sundelski Amendment)\",\n      \"body\": \"Authored by Supervisor Sundelski (who did not attend), this amendment would have reduced capital improvement fund revenues and expenditures by $3.5 million, effectively pulling back the North Central Healthcare transfer being used to fund the new highway shop and instead directing those funds toward debt service. Administrator Leonard explained the risks at length: the county already faces a $25 million hole in the general fund for the highway shop (three times larger than the $8.6 million that zeroed out CIP rollover in 2025–26), a $37 million residual liability from the Bug Tussle conduit bond guarantee including a $1.5 million obligation in 2027 that cannot legally be levied, potential Act 10 elimination impacts on labor costs, federal Medicaid and social services uncertainties from the 'one big beautiful bill,' and loss of roughly 30% of the county's investment portfolio income as construction bills come due. Chair Gibbs moved not to recommend the amendment, stating the county cannot support a measure that undermines long-term financial commitments including the highway shop and Bug Tussle obligations. The motion not to recommend passed but was not unanimous.\"\n    },\n    {\n      \"item\": \"Property Tax Levy Resolution 78-26\",\n      \"body\": \"Finance Director Fensky walked the committee through the 2027 budget and property tax levy resolution, noting the total proposed budget of $238,631,841 and explaining components including the operational levy, special purpose levies exempt from levy limits (bridge/culvert aid and library), debt levy, prior year unused levy adjustment, and state special charges. She noted the resolution includes $50,000 of contingency funding for the committee, which may change based on board amendments the following day. Chair Gibbs moved to approve and forward the resolution to the full county board, which passed unanimously.\"\n    },\n    {\n      \"item\": \"28th Avenue Properties Divestiture\",\n      \"body\": \"Administrator Leonard explained that the county had acquired properties along 28th Avenue years ago anticipating a highway corridor realignment, but after consulting with the City of Wausau and Village of Maine, determined that realignment is no longer planned. Staff have obtained desktop property evaluations and Leonard proposed listing developable parcels on Wisconsin Surplus to return them to the tax rolls, with proceeds going back to the highway reserve given they were purchased with highway funds. At least one parcel is not developable and will need separate disposition planning. The committee reached consensus to have Leonard return with a parcel-by-parcel breakdown including evaluation prices and proposed course of action for each before proceeding.\"\n    },\n    {\n      \"item\": \"Year-to-Date Budget Reports (August 2026)\",\n      \"body\": \"Finance Director Fensky reported no major concerns with August year-to-date figures, with payroll at 65.9% and overall budget at 66.67% through the year. She flagged several areas for monitoring: the homeless shelter budget is fully expended with contingency now covering remaining costs; the clerk of courts is running high on attorney and psychology evaluation fees but expected to remain within budget; corporation counsel legal fees are higher than anticipated but should be covered; and social services will require a budget amendment before year-end related to consortia accounting and a working capital transfer from the social improvement fund. Chair Robinson asked staff to investigate whether permit revenue in CPZ/zoning is trending downward compared to the 2027 budget projections. Fensky also explained that an apparent April investment loss was a paper/market-value loss that was subsequently recouped, not a realized loss.\"\n    },\n    {\n      \"item\": \"Cherokee County Park Land Acquisition — Potential Delay\",\n      \"body\": \"Vice Chair Pool raised the previously approved acquisition of land adjacent to Cherokee County Park and suggested the committee consider delaying the purchase given near-certain renewal of the Knowles-Nelson Stewardship Program by the incoming legislature, which could allow the county to secure grant funding for the purchase instead of using county taxpayer funds. He estimated the budget process would likely be complete by July, suggesting an 8–10 month delay was feasible and that the land was not at risk of being lost. Administrator Leonard acknowledged the suggestion and indicated administration would take it under advisement.\"\n    }\n  ],\n  \"publicComment\": \"Three speakers offered public comment. Former Supervisor Gail Marshall (appearing remotely) urged the committee to use the opioid settlement fund — projected to exceed $6.5 million — to offset opioid-related costs already being incurred in county departments rather than holding the funds idle while taxing residents. David Baker, an engineer and finance professional, presented a spreadsheet analysis arguing that a phased two-year reduction in the NCHC-to-debt-levy transfer would still leave reserves above policy minimums, and urged the committee to consider a budget amendment reducing the transfer by $2 million this year. Felix Gallow urged the committee to pause Flock license plate reader funding, citing mass surveillance risks, Fourth Amendment concerns, ICE proxy searches, and inadequate data security, and recommended specific policy reforms including reducing data retention to 7 days and limiting external data sharing.\",\n  \"actionItems\": [\n    \"Forward Amendment 1 (Flock $6,300 to HR/Finance contingency) to full county board for consideration at November budget adoption meeting\",\n    \"Forward Amendment 2 ($250,000 sales tax increase for legal/intervention costs) to full county board, broadened to cover both PSC intervention and potential Bug Tussle litigation\",\n    \"Forward Amendment 3 (medical examiner pathologist travel fee schedule additions) to full county board\",\n    \"Do not recommend Amendment 4 ($3.5 million CIP/NCHC reduction) to county board\",\n    \"Forward Property Tax Levy Resolution 78-26 to full county board for adoption\",\n    \"Administrator Leonard to return with parcel-by-parcel breakdown of 28th Avenue properties including evaluations, developability assessments, and proposed disposition for each parcel\",\n    \"Administrator Leonard and Health Officer to prepare presentation on opioid settlement fund — restrictions, current balance, perpetuity trust model analysis — for full board in January\",\n    \"Finance Director Fensky to investigate CPZ/zoning permit revenue trends relative to 2027 budget projections and report at next meeting\",\n    \"Administration to evaluate potential delay of Cherokee County Park land acquisition pending possible Knowles-Nelson Stewardship Program renewal and grant eligibility\",\n    \"Committee members to identify areas where state or federal policy changes may affect the county budget\",\n    \"Second November committee meeting cancelled; December will likely have only one meeting covering year-end items\"\n  ],\n  \"topics\": [\"Budget\", \"Public Safety\", \"Staffing\", \"Flock License Plate Readers\", \"Bug Tussle Broadband Bond\", \"Highway Shop Capital Project\", \"Opioid Settlement Fund\", \"28th Avenue Properties\"],\n  \"votes\": [\n    {\n      \"item\": \"Approval of October 20th minutes\",\n      \"motion\": null,\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Knight\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Approval of October claims and question costs\",\n      \"motion\": null,\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Nisth\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Amendment 1 — Transfer $6,300 Flock funding from sheriff's budget to HR/Finance/Property Committee contingency\",\n      \"motion\": \"Motion to support the resolution to transfer the $6,300 out of the sheriff's department budget and put it into the HR Finance committee contingency with the understanding that a future discussion will happen as it pertains to the use of those $6,300 that are contractually obligated by the sheriff's department\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Watson\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — at least one no vote\"\n    },\n    {\n      \"item\": \"Amendment 2 — Increase sales tax revenue projection by $250,000 and set aside for legal/intervention costs\",\n      \"motion\": \"Motion to approve amendment two, broadened to cover intervention and/or legal costs related to other county entities involved in litigation\",\n      \"mover\": null,\n      \"second\": \"Chair Gibbs\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — Cody voted no\"\n    },\n    {\n      \"item\": \"Amendment 3 — Add medical examiner pathologist travel fees for civil and criminal testimony to fee schedule\",\n      \"motion\": \"Motion to incorporate the fees for testifying pathologist travel for testifying in civil and criminal cases\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Nath\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Unanimous\"\n    },\n    {\n      \"item\": \"Amendment 4 — Do not recommend $3.5 million CIP/NCHC reduction to county board\",\n      \"motion\": \"Motion that we not approve or recommend amendment 4 and the $3.5 million reduction\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Jean\",\n      \"outcome\": \"Approved\",\n      \"tally\": \"Not unanimous — at least one no vote\"\n    },\n    {\n      \"item\": \"Property Tax Levy Resolution 78-26 — Forward to county board\",\n      \"motion\": \"Motion to approve and forward to the full board for its consideration resolution 78-26 as presented\",\n      \"mover\": \"Chair Gibbs\",\n      \"second\": \"Supervisor Sean\",\n      \"outcome\": \"Approved\",\n      \"tally\":",
-  "agenda": [],
-  "discussions": [],
-  "publicComment": "",
-  "actionItems": [],
-  "committee": "",
+  "overview": "The Marathon County Human Resources, Finance & Property Committee met on Monday, November 9, 2026, to consider amendments to the 2027 budget and property tax levy resolution ahead of the full county board meeting. The committee approved three of four proposed budget amendments — including redirecting $6,300 budgeted for automated license plate readers into a committee contingency fund, adding $250,000 in projected sales tax revenue earmarked for legal costs related to wind energy intervention and broadband litigation, and updating the medical examiner fee schedule — while voting not to recommend a $3.5 million reduction in capital improvement funding. The levy resolution was forwarded to the full board for adoption.",
+  "committee": "Marathon County Human Resources, Finance & Property Committee",
+  "presiding": "Chair Robinson (name used in transcript; full name not stated)",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Pledge of Allegiance"
+    },
+    {
+      "time": "0:30",
+      "item": "Public Comment"
+    },
+    {
+      "time": "9:45",
+      "item": "Approval of October 20th Meeting Minutes"
+    },
+    {
+      "time": "10:20",
+      "item": "Approval of October Claims and Question Costs"
+    },
+    {
+      "time": "11:10",
+      "item": "Note: Item 6A2 pulled from agenda (Parks/WPS issue, deferred to future meeting)"
+    },
+    {
+      "time": "11:35",
+      "item": "2027 Budget Amendment and Capital Improvement Plan: Consideration of Potential Amendments and Review of Property Tax Levy Resolution"
+    },
+    {
+      "time": "11:50",
+      "item": "Amendment 1: Automated License Plate Reader (Flock) Funding — $6,300 to Committee Contingency"
+    },
+    {
+      "time": "18:40",
+      "item": "Amendment 2: Increase Sales Tax Revenue Estimate by $250,000 for Legal Services"
+    },
+    {
+      "time": "32:00",
+      "item": "Amendment 3: Medical Examiner Fee Schedule Updates (Pathologist Testifying Travel Fees)"
+    },
+    {
+      "time": "36:00",
+      "item": "Amendment 4: Reduce CIP/NCHC Transfer by $3.5 Million"
+    },
+    {
+      "time": "58:30",
+      "item": "2027 Budget and Property Tax Levy Resolution — Recommendation to County Board"
+    },
+    {
+      "time": "1:04:00",
+      "item": "28th Avenue Properties — Disposition Discussion"
+    },
+    {
+      "time": "1:12:00",
+      "item": "Year-to-Date Budget Reports (through August 2026)"
+    },
+    {
+      "time": "1:30:00",
+      "item": "Other Business / Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Public Comment",
+      "body": "Three members of the public spoke. The first, a former supervisor, urged the committee to use the opioid settlement fund — currently holding approximately $2.5 million with another $3.7 million expected — to offset opioid-related county expenses rather than relying on the tax levy. The second speaker, identifying himself as an engineer and finance professional, presented a spreadsheet he had emailed to committee members and administrator Leonard, arguing that phasing in the North Central Healthcare transfer to debt levy over two years would result in $3 million less in taxes while still maintaining adequate reserves; he recommended taking $2 million of the $3.5 million and applying it to the debt levy. A third speaker urged the committee to pause Flock license plate reader funding, citing concerns about mass surveillance, broad data sharing with over a thousand entities, ICE searches, and inadequate data security, and invited committee members to visit unflockwausau.org/marathon."
+    },
+    {
+      "item": "Amendment 1: Automated License Plate Reader (Flock) Funding",
+      "body": "Chair Robinson introduced Amendment 1, which would transfer the $6,300 budgeted for Flock automated license plate readers from the sheriff's department budget into the HR/Finance/Property Committee contingency fund, to be released only by a vote of the committee. Supervisor Nath stated he preferred stripping the funds entirely from the budget and returning them to the levy rather than placing them in a contingency fund. Vice Chair Pool raised concerns about the amendment limiting the sheriff's flexibility on data sharing, particularly for public safety matters involving ICE and human trafficking, and said he would not support it without changes. Chair Robinson clarified that a separate resolution would need to be adopted addressing data retention, access, and audit policies, and noted a productive morning meeting had occurred with the administrator, sheriff, and others. Kurt Gibbs moved to transfer the $6,300 to committee contingency; the motion passed but was not unanimous, with Supervisor Nath voting no."
+    },
+    {
+      "item": "Amendment 2: Sales Tax Revenue Increase for Legal Services",
+      "body": "Administrator Leonard explained that Amendment 2, authored by Supervisor Jensen who was absent, would increase projected sales tax revenues by $250,000 and place a corresponding appropriation in the administrator's special projects cost center for legal services, primarily intended for potential county intervention in a Public Service Commission proceeding related to the Hub City wind project. Kurt Gibbs expressed support but pushed to broaden the purpose to include litigation related to the county's broadband bond guarantee with Bug Tussle. Finance Director Fensky confirmed that if sales tax did not meet the increased projection, the designated legal funds would be allocated first before the surplus rolled to the non-EP departmental budget, and that historically the county budgets sales tax approximately 11.68% below Forward Analytics projections. Vice Chair Pool moved to approve the amendment; Gibbs seconded and successfully added a friendly amendment broadening the funds' use to cover intervention and other potential litigation. The motion passed but was not unanimous, with one member (identified as Cody) voting no."
+    },
+    {
+      "item": "Amendment 3: Medical Examiner Pathologist Travel Fee Schedule",
+      "body": "Administrator Leonard presented a staff-initiated fee schedule amendment adding travel time fees for the pathologist testifying in civil and criminal cases, noting the existing testimony rate was already in the fee schedule but a travel rate had been overlooked during budget development. No significant revenue impact was anticipated. Kurt Gibbs agreed to sponsor the amendment; he moved to incorporate the new fees, seconded by Supervisor Nath, and the motion passed unanimously."
+    },
+    {
+      "item": "Amendment 4: $3.5 Million Reduction in CIP/NCHC Transfer",
+      "body": "Administrator Leonard and Finance Director Fensky explained that Amendment 4, submitted by Supervisor Sundelski who was not present, would reduce the North Central Healthcare revenue transfer to capital improvements by $3.5 million, redirecting it toward debt service. Kurt Gibbs and Vice Chair Pool voiced strong opposition, with Gibbs citing the county's $25 million commitment for the new highway shop, the approximately $37 million remaining liability from the Bug Tussle broadband bond guarantee, and the risk that a $1.5 million debt service obligation to Bug Tussle cannot legally be placed on the levy without additional borrowing. Administrator Leonard warned that reducing the CIP now would likely trade a tax cut today for a larger tax increase with interest later, and cited additional uncertainties including potential Act 10 changes, federal 'One Big Beautiful Bill' Medicaid impacts, ARPA expiration, and reduced investment income as $55 million leaves the investment portfolio. Gibbs moved that the committee not recommend Amendment 4; the motion passed but was not unanimous, with Vice Chair Pool voting no, stating he wished to remain neutral."
+    },
+    {
+      "item": "2027 Budget and Property Tax Levy Resolution",
+      "body": "Finance Director Fensky walked the committee through Resolution 78-26, which sets the 2027 budget and property tax levy. She explained that the total budget was $238,631,841 and highlighted the breakdown of operational levy, special purpose levies for bridge/culvert aid and library (which are levy limit exceptions), debt levy, prior year unused levy adjustment, and state special charges. She noted the resolution already incorporated $50,000 in committee contingency funds, subject to change based on board amendments the following evening. Kurt Gibbs moved to approve and forward the resolution to the full board; the motion was seconded by Supervisor Sean and passed unanimously."
+    },
+    {
+      "item": "28th Avenue Properties — Disposition",
+      "body": "Administrator Leonard explained that properties acquired along 28th Avenue for a potential highway corridor relocation are no longer needed for that purpose after consultation with the City of Wausau and Village of Maine confirmed neither municipality wished to pursue the corridor realignment. He proposed listing developable parcels on Wisconsin Surplus, with any proceeds going back to the highway reserve and potentially applied to the highway shop project. Kurt Gibbs supported listing at minimum prices equal to fair market value. The committee reached consensus directing the administrator to return at a future meeting with a parcel-by-parcel overview including evaluation prices, developability assessments, and proposed courses of action, rather than taking a formal vote at this meeting."
+    },
+    {
+      "item": "Year-to-Date Budget Reports (through August 2026)",
+      "body": "Finance Director Fensky reviewed August 2026 year-to-date reports, noting no major concerns. She flagged that the homeless shelter budget had been fully expended and would shift to contingency, that Clerk of Courts psychology evaluation fees were running high but expected to stay within budget, and that the social services consortia accounting and a working capital transfer from the social improvement fund would require budget amendments before year-end. Chair Robinson asked staff to investigate whether permit revenue in CPZ/zoning was trending down given lower-than-expected figures, and Fensky agreed to bring clarification to the next meeting. A loss in the investment allocation in April was noted as a temporary paper loss that had been recouped in subsequent months."
+    },
+    {
+      "item": "Other Business — Cherokee County Park Land Acquisition",
+      "body": "Vice Chair Pool raised the previously approved acquisition of land adjacent to Cherokee County Park and suggested pausing the purchase to see whether the new state legislature would renew Knowles-Nelson Stewardship Program funding, which he said he now assessed at near-certainty. He proposed waiting approximately eight to ten months to potentially use Knowles-Nelson funds instead of county taxpayer funds, noting the land was not going anywhere. Chair Robinson acknowledged the suggestion and indicated the administration would take it under advisement, with no formal vote taken."
+    }
+  ],
+  "publicComment": "Three members of the public spoke. A former supervisor spoke remotely, urging the committee to use the opioid settlement fund — holding approximately $2.5 million with $3.7 million more expected through 2038 — to offset opioid-related county expenses rather than taxing residents when substantial funds exist in reserve, suggesting up to $490,000 annually could be applied after retaining funds for jail treatment programs. A second speaker, who identified himself as an engineer and finance professional, presented a spreadsheet he emailed to committee members showing that phasing in the NCHC transfer over two years would reduce taxes by $3 million while maintaining reserves above policy minimums, and argued the county consistently over-budgets highway expenditures, making sound decision-making difficult; he recommended applying $2 million of the $3.5 million transfer to the debt levy. A third speaker urged the committee to pause Flock license plate reader funding, arguing the platform as implemented constitutes mass surveillance with 30-day data retention accessible to over a thousand entities across multiple states, that ICE has conducted searches through the system, and that officers have misused it; he outlined specific policy reforms and directed committee members to unflockwausau.org/marathon.",
+  "publicCommentSpeakers": "3",
+  "actionItems": [
+    "Forward 2027 budget amendments (Amendments 1, 2, and 3 as approved) to the full County Board for consideration at the November 10 meeting",
+    "Forward Resolution 78-26 (2027 Budget and Property Tax Levy) to the full County Board for adoption",
+    "Supervisor Nath to introduce amendment at full board to strip $6,300 Flock funding entirely from budget and return to levy",
+    "Administrator Leonard and health officer to prepare a presentation on the opioid settlement fund — restrictions, current balance, projected receipts through 2038, and a potential perpetuity trust fund model — for presentation to the full board in January",
+    "Administrator Leonard to return to committee with parcel-by-parcel overview of 28th Avenue properties including desktop evaluations, developability assessments, and proposed disposition strategy",
+    "Finance Director Fensky to investigate CPZ/zoning permit revenue trends and report back at next meeting",
+    "Administration to take under advisement pausing the Cherokee County Park land acquisition pending potential Knowles-Nelson Stewardship Program renewal by new state legislature",
+    "Second November meeting cancelled; December will likely have only one meeting which will be longer to accommodate year-end activities",
+    "Separate policy resolution to be developed governing Flock data retention, access limits, audit requirements, and data sharing restrictions following sheriff department discussions"
+  ],
+  "topics": [
+    "Budget",
+    "Staffing",
+    "Public Safety",
+    "Flock License Plate Readers",
+    "Bug Tussle Broadband Bond",
+    "Highway Shop Capital Project",
+    "Opioid Settlement Fund",
+    "28th Avenue Properties"
+  ],
+  "votes": [
+    {
+      "item": "Approval of October 20th meeting minutes",
+      "motion": null,
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Knight",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Approval of October claims and question costs",
+      "motion": null,
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Nisth",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Amendment 1: Transfer $6,300 Flock funding from sheriff's budget to HR/Finance/Property Committee contingency fund",
+      "motion": "Motion to support the resolution to transfer the $6,300 out of the sheriff's department budget and put it into the HR Finance Committee contingency with the understanding that a future discussion will happen as it pertains to the use of those $6,300 that are contractually obligated by the sheriff's department",
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Watson",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Amendment 2: Increase sales tax revenue estimate by $250,000 for legal services (intervention and/or litigation)",
+      "motion": "Motion to approve amendment two, broadened to cover intervention and/or legal costs related to other entities the county is involved with",
+      "mover": "Vice Chair Pool",
+      "second": "Kurt Gibbs",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "Amendment 3: Add medical examiner pathologist travel fees for testifying in civil and criminal cases to fee schedule",
+      "motion": "Motion to incorporate the fees for testifying pathologist travel for testifying in civil and criminal cases",
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Nath",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Amendment 4: Reduce CIP/NCHC transfer by $3.5 million — motion not to recommend",
+      "motion": "Motion that we not approve or recommend Amendment 4 and the $3.5 million reduction",
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Jean",
+      "outcome": "Approved",
+      "tally": null
+    },
+    {
+      "item": "2027 Budget and Property Tax Levy Resolution 78-26 — forward to full County Board",
+      "motion": "Motion to approve and forward to the full board for its consideration Resolution 78-26 as presented",
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Sean",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    },
+    {
+      "item": "Adjournment",
+      "motion": null,
+      "mover": "Kurt Gibbs",
+      "second": "Supervisor Watson",
+      "outcome": "Approved",
+      "tally": "Unanimous"
+    }
+  ],
   "_source": "transcript",
+  "_transcript_chars": 61060,
   "_transcript_hash": "9d105a2c60a557c7",
   "title": "Marathon County Human Resources, Finance & Property Committee Meeting",
   "url": "https://www.youtube.com/watch?v=PZjmUPDVbTE",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-10T21:51:38.741704+00:00",
-  "topics": [
-    "Budget",
-    "Staffing",
-    "Flock License Plate Reader Program"
-  ]
+  "processed_at": "2026-11-21T03:42:49.538236+00:00"
 }

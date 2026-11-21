@@ -2,148 +2,77 @@
 
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=qTcZ095oNCU  
-**Summarized:** 2026-10-08 15:38 UTC
+**Summarized:** 2026-11-21 04:00 UTC
 
 ---
 
 ## Meeting Overview
-{
-  "overview": "The Marathon County Human Resources, Finance & Property Committee held a wide-ranging meeting covering property transactions, budget updates, and several infrastructure decisions. Key actions included authorizing utility shutoff at Marathon Hall at UWMC in preparation for likely demolition, approving a parking lot lease with Olson Tire (AOK Property LLC), approving a WPS easement for a natural gas regulator station at Sunnyville Park, reclassifying approximately $388,750 in remaining ARPA funds back to the forensic science center project, and approving acquisition of roughly 14 acres adjacent to Cherokee Park. The committee also received an update on the proposed highway facility project, with bids coming in under planning assumptions and a full presentation planned for the county board on October 15.",
-  "committee": "Marathon County Human Resources, Finance & Property Committee",
-  "presiding": "Chair Robinson (acting chair, as Chair Gibbs was excused)",
-  "agenda": [
-    {"time": "0:00", "item": "Call to Order, Pledge of Allegiance, Roll Call, and Establish Quorum"},
-    {"time": "2:10", "item": "Public Comment"},
-    {"time": "2:25", "item": "Approval of September 29th Minutes"},
-    {"time": "3:30", "item": "Marathon County Strategic Plan Development Update and Public Survey Opportunity"},
-    {"time": "12:45", "item": "Consideration of Shutoff of Utilities at Marathon Hall at UWMC"},
-    {"time": "18:30", "item": "Overview of Dorm Fund Anticipated Uses in 2026 and 2027"},
-    {"time": "21:00", "item": "Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)"},
-    {"time": "26:10", "item": "Claim Disallowance"},
-    {"time": "29:00", "item": "2027 Budget Discussion"},
-    {"time": "44:00", "item": "Approval of September Claims and Question Costs"},
-    {"time": "46:00", "item": "Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park"},
-    {"time": "51:00", "item": "ARPA Funding Usage Update and Consideration of Budget Amendment Regarding Reallocation"},
-    {"time": "1:01:00", "item": "Creation of $150 Imprest Fund within Administration Department"},
-    {"time": "1:06:00", "item": "Update on Rib Mountain Law Enforcement Services Contract Review and Next Steps"},
-    {"time": "1:17:00", "item": "Tax Deed Property - Parcel in Town of Reed"},
-    {"time": "1:24:00", "item": "Tax Deed Property - Parcel in Village of Athens"},
-    {"time": "1:30:00", "item": "Acquire Land Adjacent to Cherokee Park"},
-    {"time": "1:55:00", "item": "Donation of Pontoon Boat from DC Everest"},
-    {"time": "2:02:00", "item": "Proposed Highway Facility Project Update"},
-    {"time": "2:18:00", "item": "Adjournment"}
-  ],
-  "discussions": {
-    "Strategic Plan Survey": {
-      "item": "Marathon County Strategic Plan Development Update and Public Survey Opportunity",
-      "body": "Vice Chair Boots (appearing remotely) updated the committee on an ongoing public survey effort, noting they hope to narrow 20 questions down to 10. Vice Chair Pool raised concerns about interest groups or nonprofits potentially skewing survey results and asked whether responses could be tracked by district. Boots and Chair Robinson noted the survey includes name and employment status fields, and that a radio button for retired residents was recently added. Robinson noted the strategic plan work would be revisited in December after the budget process concludes."
-    },
-    "Marathon Hall Utilities": {
-      "item": "Shutoff of Utilities at Marathon Hall at UWMC",
-      "body": "Administrator Leonard presented a proposal to shut off utilities at Marathon Hall, a dormitory on the UWMC campus that has been vacant and is likely headed for demolition, at a cost of approximately $7,700 funded from dormitory funds. He noted dormitory funds could also cover asbestos testing and first-quarter utilities for other campus buildings. Supervisor Hart confirmed there has been no developer interest due to mold, asbestos, and construction limitations, and that the City of Wausau may be interested in housing on the site. The committee approved the utility shutoff unanimously."
-    },
-    "Olson Tire Parking Lot Lease": {
-      "item": "Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)",
-      "body": "Deputy Administrator Homeman explained the county owns a parking lot behind the BP station near the courthouse, half of which is used by county departments including corrections. The proposed annual lease would have Olson Tire's corporate entity AOK Property LLC pay just under $1,100 per year for half the lot, and in exchange handle all winter maintenance of the entire lot, removing that burden from Parks, Recreation, and Forestry. The committee approved the lease unanimously, clarifying the motion incorporates the AOK Property LLC entity."
-    },
-    "Claim Disallowance": {
-      "item": "Claim Disallowance",
-      "body": "Corporation Counsel Brian [inaudible] presented a recommendation from the county's insurance company to disallow a claim. He explained that sheriff's deputies had taken action to slow traffic during a pursuit and deployed stop sticks, and that the claimant did not follow deputy instructions, resulting in their vehicle hitting the stop sticks. The committee unanimously approved the disallowance."
-    },
-    "2027 Budget Discussion": {
-      "item": "2027 Budget Discussion",
-      "body": "Administrator Leonard and Finance Director Sam addressed questions previously submitted by Chair Robinson. The total 2027 proposed budget is approximately $238.6 million, a substantial increase from 2026 driven primarily by the highway facility project — approximately $30 million in funds applied for the highway building plus equipment, and a $3.5 million transfer from capital improvements. Robinson raised questions about tracking university costs, contingency fund adequacy given federal uncertainty around SNAP and other programs, and nonprofit oversight. The $600,000 contingency fund no longer has earmarks for homelessness or the Central Wisconsin Airport minimum revenue guarantee as in prior years. No action was taken; the committee was reminded that budget amendments are due by Friday, with a brief publication authorization meeting set for Monday, October 12 at 8:30 a.m., a public hearing on November 2, and final committee review of amendments on November 9."
-    },
-    "September Claims": {
-      "item": "Approval of September Claims and Question Costs",
-      "body": "Finance Director Sam presented the September claims and question costs with modifications requested by Robinson to improve transparency, including adding department budget information. The committee approved the claims unanimously with no discussion."
-    },
-    "WPS Easement at Sunnyville Park": {
-      "item": "Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park",
-      "body": "Deputy Administrator Homeman reported that WPS met the county's previously stated price requirement for the easement at Sunnyville Park. Under the proposed terms, WPS would pay the county $1,000 upon approval as a non-refundable option fee, then proceed through other permitting; if all permits are approved, a finalized easement would generate an additional $1,000 payment. Robinson asked whether the committee could conditionally accept the offer and avoid a future return to committee if WPS complies with terms; Corporation Counsel confirmed this was possible. The committee approved unanimously."
-    },
-    "ARPA Reallocation": {
-      "item": "ARPA Funding Usage and Reallocation Resolution",
-      "body": "Administrator Leonard and Finance Director Sam presented a resolution to reclassify approximately $388,750 in remaining ARPA funds — primarily from the 9-Mile Forest septic system and chalet renovation project — back to the forensic science center project, which would allow those funds to flow into the capital improvement program. Deputy Administrator Homeman noted all other ARPA projects are closed out and the 9-Mile project work is being finalized by end of October. Robinson requested the resolution be amended to reference a specific table of projects and dollar amounts to protect against potential federal clawbacks, and that a reference to 'budget amendment' be corrected to 'reclassification' to reflect that only a simple majority vote is needed. The committee approved the amended resolution unanimously."
-    },
-    "Imprest Fund": {
-      "item": "Creation of $150 Imprest Fund within Administration Department",
-      "body": "Administrator Leonard explained the need for a small cash drawer in the county administration suite at the Lakeview location, primarily to support Michelle's centralized tax deed work and UW Extension finance functions where residents may need to make payments in person. Finance Director Sam addressed audit concerns, explaining controls including segregation of duties, weekly deposits, reconciliation requirements, and random cash audits reported to the administrator. The committee approved unanimously, with Robinson noting he was satisfied with the controls described."
-    },
-    "Rib Mountain Law Enforcement Contract": {
-      "item": "Rib Mountain Law Enforcement Services Contract Update",
-      "body": "Administrator Leonard and Sheriff [inaudible] provided an update, noting they are close to a final agreement with the Village of Rib Mountain but a vote was not taken today. The most notable change from the prior draft is removal of a requirement for a mandatory fifth deputy assigned to Rib Mountain in 2028, replaced by a collaborative data analysis using a 90/10 split benchmark — meaning 90% of calls for service in the village should be handled by village-assigned deputies. The proposed 2027 contract total is $593,667.96. Supervisor Hart asked about whether Rib Mountain deputies responding outside the village would be weighted against the split; the sheriff noted this occurs rarely (about 15 times this year) and the data officer is working to capture it. A meeting with village officials is scheduled for the following week, and both the village board and county board must formally approve any final contract."
-    },
-    "Town of Reed Parcel": {
-      "item": "Tax Deed Property Sale - Town of Reed",
-      "body": "Administrator Leonard presented a narrow sliver parcel in the Town of Reed that Marathon County has owned since 1935 and has no practical use except to an adjacent property owner. An appraisal from Phillips Valuation set the value at $1,500, and the adjacent owner submitted an offer to purchase at that amount. Because county code requires listing on Wisconsin Surplus or offering to the municipality rather than direct sale, the resolution was brought to the committee to authorize the exception. The committee approved the sale unanimously."
-    },
-    "Village of Athens Parcel": {
-      "item": "Tax Deed Property Sale - Village of Athens",
-      "body": "Administrator Leonard presented a unique tax deed parcel in the Village of Athens acquired in July 2026. The county is owed over $937 in delinquent taxes; Phillips Valuation estimated fair market value at $875; the Village of Athens offered $200. Leonard acknowledged the county will not recoup the amount owed regardless of sale price, and recommended selling to the village as they are best positioned to address the parcel. Supervisor Hart, noting his affiliation with the village, suggested the parcel is part of a trail corridor. Corporation Counsel raised a procedural question about Chapter 75 statutes, which was clarified. The committee approved the $200 sale unanimously."
-    },
-    "Cherokee Park Land Acquisition": {
-      "item": "Acquire Land Adjacent to Cherokee Park",
-      "body": "Parks Director Jamie Polly presented a proposal to purchase approximately 14 acres of wooded land directly west of Cherokee Park along the Big Eau Pleine River from a willing seller, appraised at $4,450 per acre (not to exceed 15 acres or $4,450/acre). The property would expand the park, add trail opportunities, and bring a river section fully within park boundaries. Both the Parks and Recreation Committee and Environmental Resources Committee recommended proceeding. The Parkland and Products account has sufficient funds. Vice Chair Pool raised the possibility of waiting to see if the Knowles-Nelson Stewardship Fund is reauthorized by the legislature, while Supervisor Hart opposed waiting given legislative uncertainty. After discussion, the committee approved a motion amended to include language that staff evaluate all funding sources including Knowles-Nelson if available at time of acquisition, with final purchase authorized pending survey and property division by the landowner."
-    },
-    "Pontoon Boat Donation": {
-      "item": "Donation of Pontoon Boat from DC Everest",
-      "body": "Administrator Leonard presented a donation offer from DC Everest of an older but well-maintained pontoon boat for use in youth recreation, fishing, and similar activities. Director Polly noted that if maintenance costs exceeded the boat's value, the department would dispose of it rather than invest further. Both the Parks and Recreation Committee and Environmental Resources Committee recommended acceptance. The committee approved the donation unanimously."
-    },
-    "Highway Facility Project Update": {
-      "item": "Proposed Highway Facility Project Update",
-      "body": "Deputy Administrator Homeman reported that bids for the highway facility project were received Monday, October 6, after a deadline extension to October 5 due to high interest. He stated bids 'came in under our planning assumptions,' though emphasized this was not below the original estimate. Staff are validating bids across multiple divisions and preparing a full presentation for a county board education meeting on October 15 with the architect, construction manager, and project lead present. A special committee meeting is scheduled for October 20 — the same day as a county board voting meeting — for this committee to consider approving the project and forwarding to the full board. Robinson suggested a possible joint meeting with the Infrastructure Committee on October 20. Finance Director Sam and Leonard credited the facilities and highway team for their work managing the complex bid process."
-    }
-  },
-  "publicComment": "No public comment was offered. The chair noted that no one had approached the clerk or himself prior to the meeting.",
-  "actionItems": [
-    "Authorize shutoff of utilities at Marathon Hall at UWMC using dormitory funds (~$7,700); proceed with asbestos testing",
-    "Execute one-year parking lot lease with AOK Property LLC (Olson Tire) at just under $1,100/year plus winter maintenance",
-    "Disallow insurance claim related to stop sticks during law enforcement pursuit",
-    "Send budget amendment proposals to administrator by Friday; hold publication authorization meeting Monday October 12 at 8:30 a.m.",
-    "Approve WPS easement option for natural gas regulator station at Sunnyville Park ($1,000 option fee, $1,000 upon final easement)",
-    "Adopt ARPA reallocation resolution (reclassifying ~$388,750 to forensic science center project) with amended language including project table and corrected majority vote threshold",
-    "Establish $150 imprest cash fund in county administration department at Lakeview",
-    "Finalize Rib Mountain law enforcement services contract; bring final agreement to both village board and county board for approval",
-    "Sell Town of Reed tax deed sliver parcel to adjacent property owner for $1,500",
-    "Sell Village of Athens tax deed parcel to the village for $200",
-    "Proceed with acquisition of up to 15 acres adjacent to Cherokee Park at no more than $4,450/acre; landowner to fund survey; staff to evaluate Knowles-Nelson funding if available at time of purchase",
-    "Accept donation of DC Everest pontoon boat for Parks Department youth recreation use",
-    "Prepare highway facility project resolution and presentation for county board education meeting October 15; bring to committee October 20 for approval vote",
-    "Share strategic plan public survey with constituents, town chairs, and city councils to maximize responses"
-  ],
-  "topics": ["Budget", "Staffing", "Parks", "Economic Development", "Law Enforcement Contract", "Highway Facility Project", "ARPA Reallocation", "Property Sales"],
-  "votes": [
-    {
-      "item": "Approval of September 29th minutes",
-      "motion": "Approve minutes",
-      "mover": "Supervisor Hart",
-      "second": "Vice Chair Pool",
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Shutoff of utilities at Marathon Hall at UWMC",
-      "motion": "Authorize shutoff of utilities at Marathon Hall",
-      "mover": "Supervisor Hart",
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Parking lot lease agreement with Olson Tire / AOK Property LLC",
-      "motion": "Proceed with lease agreement with Olson Tire",
-      "mover": "Vice Chair Pool",
-      "second": "Supervisor Nath",
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Claim disallowance",
-      "motion": "Approve disallowance of claim",
-      "mover": "Supervisor Hart",
-      "second": "Supervisor Nisth",
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
+The Marathon County Human Resources, Finance & Property Committee met on Wednesday, October 7, 2026, taking action on more than a dozen items including shutting off utilities at Marathon Hall at UW-Marathon County, approving a parking lot lease with Olson Tire, allocating ARPA funds, acquiring land adjacent to Cherokee Park, and accepting a donated pontoon boat. The committee also received updates on the 2027 county budget, the Rib Mountain law enforcement services contract, and the proposed highway facility project, with bids coming in under planning assumptions ahead of a key October 20th vote.
 
+## Key Discussions
+### Approval of September 29th Minutes
+Supervisor Hart moved to approve the minutes from the September 29th meeting related to the budget presentation. Vice Chair Pool seconded. The motion carried unanimously with no discussion.
+
+### Marathon County Strategic Plan Development Update and Public Survey Opportunity
+Vice Chair Boots provided an update, noting the county is currently refining a 20-question public survey down to 10 questions and encouraged committee members to distribute it to constituents, town chairs, and city councils. Vice Chair Pool raised concerns about interest groups or nonprofits skewing survey results and asked whether responses could be tracked by district. Boots explained the survey includes fields for respondent name and work/residence status, and that a radio button for retired individuals was added that day based on public feedback; he did not believe district-level tracking was feasible but said he would ask staff. Chair Robinson noted that the county had previously established a framework roughly six years ago for evaluating nonprofit funding tied to mandated services, which he said would limit any strategic plan survey influence on funding decisions.
+
+### Shut Off of Utilities at Marathon Hall at UW-MC and Dorm Fund Anticipated Uses
+Administration recommended shutting off utilities at Marathon Hall, an unused dormitory likely to be demolished, at a cost of approximately $7,700 to be funded from dormitory funds. Staff also outlined plans to use dorm funds for asbestos testing and to cover campus utilities through the first quarter of the following year during a due diligence period requested by the City of Wausau, which has expressed interest in the site for housing. Supervisor Hart moved to authorize the utility shutoff; the motion carried unanimously. The dorm fund anticipated uses discussion required no separate action.
+
+### Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)
+Deputy Administrator Homeman presented a one-year annual lease agreement with Olson Tire's corporate entity AOK Property LLC for half of a county-owned parking lot behind a BP gas station near the courthouse. The county would receive just under $1,100 per year, and Mr. Olsson would handle winter maintenance of the entire lot, relieving Parks, Recreation, and Forestry of that duty. Vice Chair Pool moved to approve; Supervisor Nath seconded. The motion carried unanimously.
+
+### Claim Disallowance
+Corporation Counsel Brian [inaudible] presented a claim disallowance recommendation from the county's insurance company, explaining that the claimant failed to follow a deputy's instructions during a vehicle pursuit and subsequently struck stop sticks that had been deployed to slow traffic. Supervisor Hart moved to approve the disallowance; Supervisor Nisth seconded. The motion carried unanimously.
+
+### 2027 Budget Discussion and Overview
+Administrator Leonard and Finance Director Sam answered questions submitted by Chair Robinson. The total proposed 2027 budget is approximately $238.6 million, a substantial increase driven primarily by the highway facility construction project — including roughly $30 million in funds applied within the highway fund and a $3.5 million transfer from the capital improvement fund related to North Central Healthcare revenues. The contingency fund stands at $600,000, down from prior years' $800,000-$850,000 range, but without prior earmarks for homelessness or the Central Wisconsin Airport minimum revenue guarantee. Chair Robinson noted that the committee retains discretion over $550,000 of that amount without full county board approval. He also complimented the sheriff's department for holding the levy increase roughly half a million dollars lower than the prior year. No action was taken; the committee was directed to submit any budget amendments by Friday for consideration at an 8:30 a.m. meeting the following Monday.
+
+### Approval of September Claims and Question Costs
+Finance Director Sam presented the September claims with a modification requested by Chair Robinson adding department budget detail for transparency. Vice Chair Pool moved to approve; Supervisor Hart seconded. The motion carried unanimously.
+
+### Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park
+Deputy Administrator Homeman reported that WPS met the county's previously requested higher easement price. Under the proposed terms, WPS would pay the county a non-refundable $1,000 option payment now, then a final $1,000 easement payment if all other permits are approved. Chair Robinson asked Corporation Counsel whether a conditional acceptance was permissible; counsel confirmed it was. A motion to approve was made and seconded by Vice Chair Pool; it carried unanimously.
+
+### ARPA Funding Usage Update and Consideration of Budget Amendment Regarding Reallocation of Funding
+Administration presented a resolution to reclassify approximately $388,750 in remaining American Rescue Plan Act funds — primarily from the nine-mile forest septic system and chalet renovation project — back to the forensic science center project within the capital improvement program. Staff clarified this is a reclassification, not a budget amendment, requiring only a simple majority vote. Chair Robinson requested that the specific project table with dollar amounts be incorporated into the resolution's whereas clauses to guard against federal clawback. Supervisor Hart moved, with Vice Chair Pool seconding; the motion as modified carried unanimously.
+
+### Creation of $150 Imprest Fund within Administration Department
+Administration proposed creating a $150 imprest (petty cash) fund in the county administration office at the Lake View location to handle occasional cash transactions such as title report fees and UW Extension payments. Finance Director Sam addressed audit concerns, explaining that segregation of duties, weekly deposits, reconciliation, and random cash audits are all in place. Vice Chair Pool moved to approve; Supervisor Nisth seconded. The motion carried unanimously.
+
+### Rib Mountain Law Enforcement Services Contract Update
+Administrator Leonard and Sheriff Bill provided an update, noting that a final agreement has not yet been reached and no action was taken. The most notable change in the working draft is removal of a mandatory fifth deputy requirement in 2028, replaced by a collaborative data analysis tied to a 90/10 call-for-service split — meaning 90% of calls within Rib Mountain would be handled by village-assigned deputies. A meeting with Rib Mountain officials is scheduled for the following week. The 2027 proposed budget already incorporates the financial parameters of the working contract, with a total contract value of $593,667.96. Any final agreement must be approved by both the Rib Mountain village board and the Marathon County Board of Supervisors.
+
+### Tax Deed Parcel Sale - Town of Reed
+Administration presented a narrow, non-buildable sliver parcel in the Town of Reed acquired by Marathon County in 1935 with no value except to an adjacent property owner. Phillips Valuation estimated fair market value at $1,500, and the adjacent owner submitted an offer to purchase at that amount. Because the county's ordinance process requires listing on Wisconsin Surplus or municipal outreach, committee approval was needed to authorize a direct sale. Vice Chair Pool moved to approve the sale for $1,500; Supervisor Nath seconded. The motion carried unanimously.
+
+### Tax Deed Parcel Sale - Village of Athens
+Administration presented a tax-deed parcel in the Village of Athens acquired in July 2026, on which the county is owed over $937 in delinquent taxes. Phillips Valuation estimated fair market value at $875, but the Village of Athens offered only $200. Administrator Leonard recommended accepting the village's offer, noting the county would not recoup its losses under any sale scenario and that the village is better positioned to manage the parcel, which appears to be part of a trail corridor. Supervisor Hart moved to authorize the sale to the Village of Athens for $200; Supervisor Nisth seconded. The motion carried unanimously.
+
+### Acquisition of Land Adjacent to Cherokee Park
+Parks Director Jamie Polly presented a proposal to purchase approximately 14 acres of wooded land directly west of Cherokee Park, including a parcel segment along the Tomorrow River, from a willing seller at an appraised value of $4,450 per acre (not to exceed 15 acres or $4,450/acre). The Parks and Recreation Committee and Environmental Resources Committee both recommended proceeding. The land would be purchased from the Parkland and Products account. Vice Chair Pool raised the possibility of waiting for reauthorization of the Knowles-Nelson Stewardship Fund; Supervisor Hart argued against waiting given legislative uncertainty. An amendment was adopted to include language in the resolution allowing use of Knowles-Nelson funds if available at the time of acquisition. The motion as amended carried unanimously.
+
+### Donation of Pontoon Boat from DC Everest
+Administration and Parks Director Polly presented a resolution to accept a donated pontoon boat from DC Everest, described as an older but well-maintained vessel intended for youth recreation, fishing, and similar activities. Parks staff indicated ongoing maintenance costs would be minimal and that if major repairs were needed exceeding the boat's value, the department would dispose of it rather than invest further. Vice Chair Pool moved to accept the donation; Supervisor Nath seconded. The motion carried unanimously.
+
+### Highway Facility Project Update and Bid Results
+Deputy Administrator Homeman reported that bids for the highway facility project were received on October 5th and came in under the county's planning assumptions, which he called a positive outcome. Staff are validating bids, confirming scope of work, and assembling the owner-direct cost portions to arrive at a guaranteed maximum price. A full presentation to the county board is scheduled for October 15th, and the committee is expected to consider a resolution to authorize contract execution at its October 20th meeting — the same day as a county board voting meeting. Chair Robinson suggested a possible joint meeting with the Infrastructure Committee on the 20th. Administrator Leonard commended the facilities and highway team for managing the complex multi-division bid process.
+
+## Public Comment
+No public comment was offered.
+
+## Action Items
+- Authorize shutoff of utilities at Marathon Hall using dormitory funds (~$7,700) and proceed with asbestos testing
+- Execute one-year parking lot lease with AOK Property LLC (Olson Tire) at just under $1,100/year plus winter maintenance
+- Disallow the insurance claim related to the law enforcement pursuit stop-stick incident
+- Submit any 2027 budget amendments by Friday; hold a brief Monday 8:30 a.m. meeting to authorize budget publication
+- Accept conditional easement option from WPS for natural gas regulator station at Sunnyville Park ($1,000 option, $1,000 final payment)
+- Adopt resolution reclassifying approximately $388,750 in remaining ARPA funds to the forensic science center/capital improvement program, with project table incorporated into resolution language and majority-vote language corrected
+- Establish $150 imprest cash fund in county administration office at Lake View
+- Continue negotiations with Rib Mountain on law enforcement services contract; bring final agreement to county board for approval
+- Execute sale of Town of Reed tax deed parcel to adjacent owner for $1,500
+- Execute sale of Village of Athens tax deed parcel to the village for $200
+- Move forward with acquisition of up to 15 acres adjacent to Cherokee Park at not to exceed $4,450/acre, using Parkland and Products account or Knowles-Nelson funds if available; property owner to fund survey
+- Accept donated pontoon boat from DC Everest for Parks and Recreation Department use
+- Prepare highway facility GMP presentation for county board education meeting on October 15th; bring resolution for approval to this committee and county board on October 20th
+- Reach out to Infrastructure Committee chair about possible joint meeting on October 20th for highway facility vote

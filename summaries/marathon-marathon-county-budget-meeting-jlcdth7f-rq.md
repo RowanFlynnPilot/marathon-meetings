@@ -2,37 +2,52 @@
 
 **Organization:** Marathon County  
 **Source:** https://www.youtube.com/watch?v=JlCDth7F-RQ  
-**Summarized:** 2026-11-16 06:26 UTC
+**Summarized:** 2026-11-21 03:38 UTC
 
 ---
 
 ## Meeting Overview
-The Marathon County Board of Supervisors held its annual budget meeting on November 10, 2026, taking up the 2027 budget and property tax levy along with several amendments. Key debates centered on a proposed $1.75 million reduction to the tax levy (defeated), and whether to continue funding Flock license plate reader cameras in the sheriff's department budget (ultimately moved to contingency pending policy review). The meeting drew a near-capacity crowd and reflected significant tension between fiscal conservatives seeking levy reductions and those defending the county's highway shop funding strategy.
+The Marathon County Board of Supervisors held its annual budget meeting on November 10, 2026, to adopt the 2027 budget and property tax levy. After debating four amendments — including a failed $1.75 million levy reduction, a passed Flock camera funding reallocation, a passed $250,000 legal fund for wind farm and broadband litigation, and a passed pathologist fee schedule update — the board approved the amended 2027 budget. The board also unanimously appointed Lee Peek to fill the District 9 supervisory seat vacated by the resignation of Supervisor Chantel Foot.
 
 ## Key Discussions
-### Consent Agenda Items C8 through C13B
-Supervisor Straub requested that item C13C be pulled for a separate vote. The remaining consent agenda items C8 through C13B were approved unanimously on a motion by Supervisor Dreybeck, seconded by Supervisor Joong.
+### Consent agenda items C8–C13B
+Supervisor Straub pulled item C13C for a separate vote. The remaining consent agenda items C8 through C13B were approved unanimously on a motion by Supervisor Dreybeck, seconded by Supervisor Joong.
 
-### C13C — Sale of Tax Deeded Property for $1 (Resolution 77-26)
-Supervisor Straub objected to selling the property for $1, arguing it was worth $25,000–$45,000 and that the county could have demolished the mold-infested structure itself cheaply. Supervisor Robinson countered that a certified appraiser valued the property at zero due to severe mold contamination, that the city would demolish it and return it to housing stock, and that accepting the transfer relieved the county of remediation liability. The motion to approve the $1 sale passed but was not unanimous.
+### C13C — Authorizing sale of tax deeded property (Resolution 77-26)
+Supervisor Straub argued against selling the property for $1, contending it was worth $25,000–$45,000 and that the county could demolish the mold-infested structure cheaply. Supervisor Robinson defended the sale, explaining the property was appraised at zero by a certified appraiser due to heavy mold infestation, that the city would demolish it and return it to the housing market, and that it relieved the county of a hazard. The motion to approve the $1 sale passed, but was not unanimous.
 
-### D14A — ATV/UTV Ordinance on Highway 34 (Ordinance 53-26)
-Supervisor Hoppa raised safety concerns about lighting on the bridge where ATVs and UTVs would share the road. The Highway Commissioner confirmed no additional county lighting was planned since it is a state road, and noted ATVs are required to have headlights and taillights when operating on roads. Supervisor Neiseth expressed concern about the 55 mph speed limit on the corridor but was told speed limits are state-controlled. Supervisor Mask encouraged support, citing constituents' safety concerns. The ordinance passed unanimously.
+### D14A — ATV/UTV ordinance on Highway 34 (Ordinance 53-26)
+Supervisor Hoppa raised safety concerns about lighting on the bridge; the Highway Commissioner confirmed no additional lighting would be installed but that ATVs are required to have headlights and taillights, and that signage would be posted at route entry and exit points. Supervisor Neisath expressed concern about the 55 mph speed limit for slow-moving UTVs but was told speed limits on the state road are state-controlled. Supervisor Mask encouraged support. The ordinance passed unanimously.
 
-### 2027 Budget — Amendment 5: $1.75 Million Tax Levy Reduction
-Supervisor Sandelski moved to reduce the proposed tax levy increase by $1.75 million, funded by drawing from the highway fund rather than debt levy, arguing the county's 8% levy increase was 'egregious' and that highway fund reserves were healthy. County Administrator Leonard and Supervisor Robinson gave extensive rebuttals, explaining that the highway fund balance is nearly fully committed to the $55 million highway shop project and that the interfund loan strategy was the least costly approach. Supervisors Dickinson, Straub, and Cavelli spoke in favor of the amendment, while Vice Chair Boes and Robinson urged rejection given the Bug Tussle broadband financial liability also looming. Debate was closed by a two-thirds vote after Supervisor Krebs called the question. The amendment was defeated.
+### Amendment 5 — $1.75 million levy reduction
+Supervisor Sandelski moved to reduce the proposed tax levy increase by $1.75 million, arguing the county's healthy fund balances and investment returns made the 8% increase 'egregious.' Administrator Leonard and Supervisor Robinson countered that highway fund reserves are nearly fully committed, that the levy strategy is the least costly way to fund the $25 million highway shop shortfall without new borrowing, and that deferring the amount would simply shift it to next year's levy. Supervisors Dickinson and Straub supported the amendment, while Vice Chair Boes and Robinson urged rejection. After debate was closed by a two-thirds vote, the amendment was defeated.
 
-### 2027 Budget — Amendment 1: Flock Camera Funding ($6,300 to HR Finance Contingency)
-Supervisor Robinson moved to remove $6,300 for Flock license plate reader cameras from the Sheriff's Department hardware/software budget and place it in the HR Finance Committee contingency fund, pending policy discussions between Sheriff Billick and privacy advocate Mr. Gallo on data retention, access, and audit requirements. Supervisor Neiseth moved an amendment to instead eliminate the $6,300 entirely and reduce the tax levy, citing Fourth Amendment concerns and constituent opposition. That amendment to the amendment failed. Robinson's original amendment — moving funds to contingency — then passed, though not unanimously, with the understanding that policy discussions would occur at Public Safety and HR Finance committees before any funds are released.
+### Amendment 1 — Flock camera funding ($6,300); Amendment to Amendment — remove from levy instead of contingency
+Supervisor Robinson moved to transfer $6,300 for Flock automatic license plate reader cameras from the Sheriff's budget to the HR Finance contingency fund, pending policy discussions on data retention, access, auditing, and oversight. Supervisor Neisath offered an amendment to instead remove the $6,300 from the levy entirely, citing Fourth Amendment concerns and the direction Wausau had already taken in discontinuing Flock. Supervisors Trapp, Sandelski, Lammer, Rosenberg, and Hart supported removing the cameras entirely; Supervisors Kraebber, Robinson, Johnson, and Hoppa argued for keeping the tool with added oversight. The amendment to the amendment (levy reduction) failed; the original Amendment 1 (move to contingency) passed but was not unanimous.
+
+### Amendment 2 — $250,000 legal fund for Hub City Wind/Bug Tussle
+Supervisor Jensen moved to increase the sales tax revenue estimate by $250,000 and place that amount in the administrator's special projects budget for legal expenses related to potential PSC intervention in the Alliant Hub City Wind project and potential Bug Tussle litigation. The HR Finance Committee had broadened the amendment beyond wind intervention alone. Administrator Leonard noted the board would need to authorize any actual expenditure. Supervisor Lammer asked how spending would be managed before final sales tax receipts are known, and was reassured by working capital practices. The amendment passed but was not unanimous.
+
+### Amendment 3 — Pathologist travel fee schedule
+Supervisor Robinson moved adoption of Amendment 3, which creates separate billing rates for pathologist travel time when testifying in civil and criminal cases — set at half the professional testifying rate, billed in 15-minute increments. The amendment had passed unanimously out of HR Finance Committee. After clarifying questions from Supervisors Krebs, Zhong, and Dickinson, the amendment passed but was not unanimous.
+
+### 2027 Budget — final vote as amended
+Finance Director Sam presented the revised budget figures incorporating all passed amendments, bringing the total budget to $238,881,841. The board then voted to adopt the 2027 budget and property tax levy as amended; the motion carried but was not unanimous. Supervisor Robinson publicly thanked administration and the finance director for their work and encouraged board members to communicate legislative barriers to the administrator and leadership.
+
+### Appointment of Lee Peek to District 9 supervisory vacancy
+Board Chair Gibbs thanked outgoing Supervisor Chantel Foot for nearly three years of service and noted her resignation effective midnight. The chair, vice chair, and clerk had interviewed three of four applicants. Supervisor Cavelli moved and Supervisor Krebs seconded the appointment of Lee Peek, a former county board member who served as vice chair in 2014 and 2016. Peek addressed the board, citing his prior service and familiarity with county issues. The appointment was approved unanimously and Peek was immediately sworn in.
 
 ## Public Comment
-No formal public comment period was held at this meeting, though Supervisor Trapp read extensively from a Wausau Pilot and Review investigative article by Shereen Siewert (published November 3–4, 2026) reporting that 1,410 law enforcement agencies across 40 states can search Marathon County's Flock camera data, contradicting Sheriff Billick's earlier public statements. References were also made to testimony from a citizen named Mr. Gallo at the prior week's public hearing regarding privacy concerns over Flock cameras.
+No public comment was offered at this meeting. However, Supervisor Robinson referenced public input from the prior week's budget hearing, specifically concerns raised by a named citizen (Mr. Gallo) regarding the Flock license plate reader program, which informed Amendment 1. Supervisor Trapp read aloud from a November 2026 investigative article by the Wausau Pilot and Review regarding the Flock program, citing concerns about the number of agencies with access to Marathon County's Flock data, audit practices, and data-sharing policies.
 
 ## Action Items
-- Sheriff's Department Flock camera funding ($6,300) moved to HR Finance contingency pending policy review by Public Safety Committee and HR Finance Committee
-- Sheriff Billick and privacy advocate Mr. Gallo directed to meet and work toward policy agreement on Flock data retention, access, and audit requirements
-- HR Finance and Property Committee directed to continue working with Extension, Education, Economic Development Committee to procure a broker to sell Thomas Street and River Drive properties to help repay highway shop interfund loan
-- Board to revisit highway shop funding strategy annually following each audit to identify opportunities to shorten the interfund loan repayment period
-- Administration to monitor and report on Bug Tussle broadband financial obligations, including a known $347,000 shortfall due before July and a projected $1.5 million obligation the following year
-- ATV/UTV use on Highway 34 authorized under Ordinance 53-26 with required signage at route endpoints
-- Tax-deeded property (Parcel 291-2907-354-0252) authorized for sale to the city for $1 under Resolution 77-26
+- 2027 Marathon County budget adopted as amended with total appropriations of $238,881,841
+- Property tax levy set per Resolution 78-26 as amended
+- $6,300 Flock camera funding moved from Sheriff's hardware/software budget to HR Finance contingency pending policy review by Public Safety Committee and HR Finance Committee
+- Sheriff's Department and citizen representative (Mr. Gallo) directed to meet and develop Flock oversight policies including data retention, access, and audit requirements
+- $250,000 legal fund established in administrator's special projects budget for potential Hub City Wind PSC intervention and Bug Tussle litigation; any expenditure requires future board action
+- Pathologist travel billing rates established for civil and criminal cases at half the professional testifying rate
+- Lee Peek appointed to District 9 supervisory seat effective November 11, 2026, to fill unexpired term vacated by Supervisor Chantel Foot
+- Board members encouraged to communicate legislative barriers affecting county budgeting to administrator and leadership for forwarding to state and federal legislators
+- Staff directed to procure broker to sell Thomas Street and River Drive properties to help reduce highway shop interfund loan term
+- County to address approximately $347,000 Bug Tussle debt shortfall due approximately April 2026 (next year); board to be brought back for decision on funding source

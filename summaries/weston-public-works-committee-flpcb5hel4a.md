@@ -2,186 +2,65 @@
 
 **Organization:** Village of Weston  
 **Source:** https://www.youtube.com/watch?v=flPcB5hel4A  
-**Summarized:** 2026-09-16 03:12 UTC
+**Summarized:** 2026-11-21 03:50 UTC
 
 ---
 
 ## Meeting Overview
-{
-  "overview": "The Village of Weston Public Works Committee met on September 14, 2026 and approved multiple action items including street reconstruction typical sections for 2027 capital projects, closing out the Gelan Avenue/Alderson Street roundabout project under budget, updating winter parking ordinances, and authorizing staff to continue pursuing a pedestrian crossing on Business 51 at Newport Avenue. The committee also received updates on ongoing construction projects, utility operations, and gravel road maintenance, ultimately deciding to maintain existing gravel roads as-is absent further residential development.",
-  "committee": "Public Works Committee, Village of Weston",
-  "presiding": "Not explicitly identified by name or title in the transcript",
-  "agenda": [
-    {"time": "0:08", "item": "Call to order and Pledge of Allegiance"},
-    {"time": "1:30", "item": "Roll call and public comment"},
-    {"time": "2:00", "item": "Item 6: Approval of August 10, 2026 Public Works/Utility Committee meeting minutes"},
-    {"time": "2:30", "item": "Item 7: Acknowledge August 2026 water and sewer permits"},
-    {"time": "3:00", "item": "Item 8: CIP update (Wisconsin Policy Forum benchmarking, active project updates, TAP grant denial)"},
-    {"time": "22:30", "item": "Item 9: Street operations update (striping, overlays, milling, shop maintenance, new bucket truck delivery)"},
-    {"time": "36:30", "item": "Item 10: Utility operations update (water main flushing, valve replacements, well work, sewer televising, IT Pipes GIS integration)"},
-    {"time": "47:00", "item": "Item 11: Business 51/Newport Avenue pedestrian crossing discussion"},
-    {"time": "1:02:00", "item": "Item 12: Wasata tile property easement vacation"},
-    {"time": "1:04:30", "item": "Item 13: Fergie, Delhoney, and Post Avenue typical section discussion (2027 CIP)"},
-    {"time": "1:10:30", "item": "Item 14: Howland Avenue typical section discussion (2027 CIP)"},
-    {"time": "1:21:00", "item": "Item 15: Gravel road maintenance discussion"},
-    {"time": "1:29:00", "item": "Item 16: Jennick Avenue final assessment"},
-    {"time": "1:32:00", "item": "Item 17: Western Avenue final assessment"},
-    {"time": "1:34:00", "item": "Item 18: Alderson Street/Gelan Avenue change order number 2 (project closeout)"},
-    {"time": "1:37:00", "item": "Item 19: Winter street parking ordinance update"},
-    {"time": "1:41:00", "item": "Future agenda items, next meeting dates, and adjournment"}
-  ],
-  "discussions": {
-    "item": "See discussions array below"
-  },
-  "discussions": [
-    {
-      "item": "CIP Update and Wisconsin Policy Forum Benchmarking",
-      "body": "Staff presented data from the Wisconsin Policy Forum showing Weston ranks fourth lowest in per-street-mile spending in the regional area, noting the village could spend $1–$1.4 million more and still only be average. Committee members praised staff efficiency, including cross-department labor sharing and in-house milling. Staff also reported that the TAP grant application for a pedestrian crossing at Sternburg and County Road X was not awarded, as DOT could only fund two projects in Weston's population group and received over $4 million in requests against $2 million available. Staff noted the crossing can still be incorporated when County Road X is redone."
-    },
-    {
-      "item": "Street Operations Update",
-      "body": "DPW staff reported completing lane striping, wedging of roads to be overlaid, and milling of approximately 14,000 linear feet (2.66 miles) of roadway in preparation for overlays. Staff adjusted 36 manholes and 22 water valves in-house. A new aerial/bucket truck was delivered, with in-house installation of strobes and compartments underway before the 2001 unit is sold. Committee was informed that Portage County can no longer perform road striping outside the county due to statutory changes, so Farner Asphalt will now handle long-line painting."
-    },
-    {
-      "item": "Utility Operations Update",
-      "body": "Staff reported that water main flushing was completed system-wide and that several inoperable valves are being replaced at locations including Municipal Street, Kellyland, Corzala Meer, Bayberry, and Ross. Well 2 required emergency chlorination after a bad sample but was returned to service. Staff also reported near-completion of integration with IT Pipes for GIS-linked sewer televising, which will allow field crews to access historical televising data. The Oaklear lift station transfer switch was approved for replacement."
-    },
-    {
-      "item": "Business 51/Newport Avenue Pedestrian Crossing",
-      "body": "Staff reviewed a DOT proposal for a pedestrian crossing at Business 51 and Newport Avenue, noting the DOT's estimated $20,000 village cost contribution was not substantiated by detailed design. Committee members and staff agreed the crossing is unsafe without a rapid flashing beacon, which could cost $20,000–$30,000, and questioned why sidewalk replacement far from the crossing was included. Staff indicated it would follow up with the DOT's regional traffic engineer if the project manager does not respond within a week. The committee voted unanimously to direct staff to continue pursuing the crossing with acknowledgment of potential collateral costs."
-    },
-    {
-      "item": "Wasata Tile Property Easement Vacation",
-      "body": "Staff explained that the Wasata tile property requested vacation of a 1987 water and sanitary sewer easement as part of a real estate transaction. Staff had Riverside Land Surveying plot the easement and confirmed it runs perpendicular to Business 51, meaning it is not needed for any future interceptor sewer work. The property owner is covering surveying costs. The committee voted unanimously to recommend the village board vacate the easements."
-    },
-    {
-      "item": "Fergie, Delhoney, and Post Avenue Typical Sections (2027 CIP)",
-      "body": "Engineer Isaac presented typical section options for three narrow streets (Delhoney at 38.2 ft of right-of-way, Fergie at 50 ft, Post Avenue). Staff recommended Alternative A for Delhoney (no sidewalk, replace in kind with concrete shoulder), Alternative C for Fergie (sidewalk on one side — west side recommended — with concrete shoulder), and Alternative D for Post Avenue (sidewalk on the Wendy's/north side only between Business 51 and Normandy). The committee voted unanimously to proceed with those alternatives for the 2027 capital improvement project."
-    },
-    {
-      "item": "Howland Avenue Typical Section (2027 CIP)",
-      "body": "Staff presented typical section options for Howland Avenue, which has 60–80 ft of right-of-way in some areas. A committee member argued that an 8-ft multi-use path is too narrow and that 10 ft should be the standard, matching Camp Phillips Road. Two motions were approved: the first directed staff to proceed with Alternative 2 (multi-use path on the west side of Camp Phillips Road) with the path width changed from 8 ft to 10 ft; the second — moved by a member identified as Luis or similar — directed staff to add a 5-ft sidewalk on the east side of Howland Avenue from the YMCA driveway to Heritage Hills Drive to close an existing gap."
-    },
-    {
-      "item": "Gravel Road Maintenance Discussion",
-      "body": "Staff presented information on approximately six gravel roads in Weston's rural southeast serving roughly 23 homes, estimating paving costs at approximately $1 million. Committee members agreed it was difficult to justify that cost for so few homes and that residents chose gravel road properties knowingly. One member of the public noted that Highland Road was paved about 20 years ago at roughly $15,000 per 120-ft lot. The committee voted unanimously to continue maintaining the gravel roads as-is with no paving until further residential development occurs."
-    },
-    {
-      "item": "Jennick Avenue Final Assessment",
-      "body": "Staff reported that final assessment rates for Jennick Avenue came in very close to preliminary rates: sanitary sewer final rate approximately $200 lower, water rate approximately $200 higher, and asphalt pavement within 14 cents per square foot. Staff requested authority to finalize the assessments without bringing a full spreadsheet back next month. The committee voted unanimously to recommend finalizing the assessments as presented."
-    },
-    {
-      "item": "Western Avenue Final Assessment",
-      "body": "Staff asked whether the two-phase Western Avenue project (Ryan Street to County Road J, and County Road X to Ryan Street) should be presented as one combined final assessment report or two separate reports. Committee members agreed that combining them would likely produce the same result and authorized staff to produce one combined final assessment report."
-    },
-    {
-      "item": "Alderson Street/Gelan Avenue Roundabout — Change Order No. 2 (Project Closeout)",
-      "body": "Staff presented change order number 2 to close out the Gelan Avenue/Alderson Street roundabout project. Added costs included geotextile fabric and breaker run for soft subgrade areas and a sanitary sewer modification, but quantity reductions elsewhere resulted in a net decrease of approximately $7,194.30 from the bid price, for a total project cost of $846,959.25. A committee member noted positive feedback from parents and teachers about the roundabout's function. The committee voted unanimously to recommend board approval of the change order."
-    },
-    {
-      "item": "Winter Street Parking Ordinance Update",
-      "body": "Staff proposed modifying the winter parking ordinance to align with Rothschild and Schofield (Mountain Bay Metro) by establishing a no-parking period from 2:00 a.m. to 7:00 a.m. on all village streets from November 1 through March 31. Additionally, six locations with historically narrow lanes were identified for alternating-day parking restrictions between 7:00 a.m. and 4:00 p.m. to allow snowplows through. Community Life/Public Safety Committee had already concurred. The Public Works Committee voted unanimously to approve the ordinance modification."
-    }
-  ],
-  "publicComment": "One member of the public spoke during the gravel road maintenance discussion, identifying themselves as living at 1804 Highland. They noted that approximately 15–20 years ago the village paved and installed utilities on their five-house road at a cost of roughly $15,000 per 120-foot lot, offering a historical cost reference.",
-  "actionItems": [
-    "Staff to continue pursuing Business 51/Newport Avenue pedestrian crossing and rapid flashing beacon, including potential follow-up with DOT regional traffic engineer if project manager does not respond within one week",
-    "Recommend village board vacate water and sanitary sewer easements on the Wasata tile property",
-    "Proceed with Alternative A (Delhoney), Alternative C (Fergie, west-side sidewalk), and Alternative D (Post Avenue, north-side sidewalk) for 2027 CIP typical sections",
-    "Proceed with Alternative 2 for Howland Avenue west side of Camp Phillips Road with 10-ft multi-use path instead of 8 ft",
-    "Add 5-ft sidewalk on east side of Howland Avenue from YMCA driveway to Heritage Hills Drive",
-    "Continue maintaining gravel roads as-is with no paving until additional residential development occurs",
-    "Finalize Jennick Avenue assessments as presented without further committee review",
-    "Staff to produce one combined final assessment report for both phases of Western Avenue",
-    "Recommend board approve change order number 2 to close out Gelan Avenue/Alderson Street roundabout at total cost of $846,959.25",
-    "Modify winter parking ordinance to no parking 2 a.m.–7 a.m. village-wide November 1–March 31, with alternating-day restrictions at six designated locations",
-    "Staff to complete CDBG grant survey for asbestos cement pipe replacement this fall for spring 2026 submission targeting 2028 projects",
-    "Staff to bring proposal next month regarding AC water main on Vulman Street/McIntyre Street in coordination with Rothschild project",
-    "Next regular meetings: October 12, 2026 and November 9, 2026 at 4:30 p.m."
-  ],
-  "topics": ["Roads", "Utilities", "Capital Improvement Program", "Pedestrian Safety", "Budget"],
-  "votes": [
-    {
-      "item": "Approval of August 10, 2026 Public Works/Utility Committee meeting minutes",
-      "motion": "Move to approve",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Acknowledge August 2026 water and sewer permits",
-      "motion": "Move to acknowledge",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Direct staff to continue pursuing Business 51/Newport Avenue pedestrian crossing with acknowledgment of potential collateral village costs",
-      "motion": "Move to have staff continue to push for that traffic crossing knowing that there may be some collateral cost for the village",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Recommend village board vacate existing water and sanitary sewer easements within the Wasata tile property",
-      "motion": "Move to recommend the village board vacate the existing water and sanitary sewer easements within the Wasata tile property",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Approve 2027 CIP typical sections: Alternative A for Delhoney, Alternative C for Fergie, Alternative D for Post Avenue",
-      "motion": "Recommend staff proceed with preferred alternative A for Delhoney, C for Fergie Street, and D for Post Avenue for the 2027 capital improvement project",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Howland Avenue west side: proceed with Alternative 2, multi-use path on west side of Camp Phillips Road at 10 ft width",
-      "motion": "Move to recommend staff proceed with preferred alternative two for the west side of Camp Phillips Road for Howland Avenue with the bike path changed to 10 ft instead of 8 ft",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Howland Avenue east side: add 5-ft sidewalk from YMCA driveway to Heritage Hills Drive",
-      "motion": "Move to include sidewalk on the east side of Howland Avenue east of Highway X running from the YMCA to Heritage Hills Drive on one side",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Continue maintaining gravel roads as-is with no paving until further residential development",
-      "motion": "So move to do nothing at this point until there is additional development",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Finalize Jennick Avenue assessments as presented",
-      "motion": "Move to recommend finalizing the assessments as presented",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Western Avenue final assessment: produce one combined report for both phases",
-      "motion": "Move to recommend staff creates one final assessment report for both phases",
-      "mover": null,
-      "second": null,
-      "outcome": "Approved",
-      "tally": "Unanimous"
-    },
-    {
-      "item": "Recommend board approve change order number 2 to close out Gelan Avenue/Alderson Street roundabout at total project cost of $846,959.25",
-      "motion": "Move to recommend the board of trustees approve change order number two to decrease the project cost and close out
+The Village of Weston Public Works Committee met on Monday, September 14, 2026 and took action on a wide range of infrastructure items, including approving typical section designs for three 2027 road reconstruction projects, recommending vacation of old utility easements on a commercial property, approving a closeout change order for the Gelan Avenue/Alderson Street roundabout project (final cost $846,959.25, about $7,000 under bid), and recommending updated winter parking regulations. The committee also received detailed staff reports on active construction projects, street operations, utility maintenance, and a failed TAP grant application for a pedestrian crossing improvement.
 
+## Key Discussions
+### CIP Update (Staff Report)
+Staff presented a Wisconsin Policy Forum benchmarking tool showing Weston ranks fourth lowest in street spending per street mile among regional communities, with one committee member suggesting the data be published in the village newsletter to inform residents. Staff reported the Gelan Avenue/Alderson Street roundabout is open and operating well, with at most two cars backed up on any leg during the first week of school. Staff also reported that a TAP grant application for pedestrian crossing improvements at Sternburg Avenue and County Road X was not awarded by the DOT, as only two projects in Weston's population group received funding out of over $4 million in requests with only about $2 million available; staff indicated the crossing can still be incorporated when County Road X is reconstructed without grant funding.
+
+### Street Operations Update
+Staff reported that DPW crews completed lane wedging, milling of approximately 14,000 linear feet (2.66 miles) of roadway, adjustment of 36 manholes and 22 water valves in preparation for overlays, and that a new aerial/bucket truck was delivered (approved in August 2025) and is being outfitted in-house. Staff noted that Portage County can no longer perform striping work outside the county under a statutory change, so Farnner Asphalt will be contracted for long-line painting. A committee member noted that fuel costs were at 75% of the $90,000 annual fuel budget after approximately 7 of 12 months, which staff acknowledged is running slightly high but manageable within the broader $1.4 million street maintenance budget.
+
+### Business 51 / Newport Avenue Pedestrian Crossing Discussion
+Staff described ongoing negotiations with the DOT project manager regarding a pedestrian crossing at Newport Avenue on Business 51, noting the DOT's cost estimate of approximately $20,000 for village-side impacts (primarily driveway apron adjustments) is not yet substantiated by actual design. Committee members agreed the crossing is not worthwhile without a flashing pedestrian beacon, estimated at $20,000–$30,000, and expressed frustration that the DOT PM had not responded to outstanding questions. The committee voted unanimously to direct staff to continue pursuing the crossing, acknowledging potential collateral costs to the village, with staff indicating they would escalate to the DOT regional traffic engineer if no response is received within a week.
+
+### Wasata Tile Property Easement Vacation
+Staff presented a surveyed map confirming that a 1987 water and sanitary sewer easement on the Wasata Tile property runs perpendicular to Business 51 rather than parallel, meaning vacating it poses no future risk to the village's interceptor sewer corridor. The easement vacation was requested by the property owner as part of a real estate transaction, and the property owner paid for the survey work. The committee voted unanimously to recommend the village board vacate the existing water and sanitary sewer easements within the Wasata Tile property.
+
+### Fergie, Delhoney, and Post Avenue Typical Section Discussion (2027 CIP)
+Staff presented recommended typical sections for three narrow 2027 reconstruction streets. The committee voted unanimously to proceed with: Alternative A (no sidewalk, concrete shoulder/swales) for Delhoney Street given its 38.2-foot corridor and dead-end nature; Alternative C (sidewalk on one side — the west side) for Fergie Street; and Alternative D (sidewalk on the Wendy's/north side only) for Post Avenue, with staff noting a 10-foot private utility setback behind the sidewalk will be incorporated based on lessons from prior projects.
+
+### Howland Avenue Typical Section Discussion (2027 CIP)
+Staff presented typical section options for Howland Avenue, which has 70–80 feet of right-of-way west of Camp Phillips and 60–66 feet east of Camp Phillips. The committee approved two separate motions: first, to proceed with Alternative 2 (multi-use path on the west side of Camp Phillips Road) with the path width changed from 8 feet to 10 feet to match the existing Camp Phillips path; second, a separate motion — raised by a committee member — to add a 5-foot sidewalk on the east (north) side of Howland Avenue from the YMCA driveway east to Heritage Hills Drive, filling a gap in the existing pedestrian network. Both motions passed unanimously.
+
+### Gravel Road Maintenance Discussion
+Staff identified approximately 23 homes served by the village's gravel roads (Von Kennel South, Harney, Kamichek, Jones, Wesnik, and East Nick), noting paving all of them would cost roughly $1 million. A resident spoke during the discussion, sharing that a similar five-house road (Highland) was paved by the village with utilities approximately 15–20 years ago at about $15,000 per 120-foot lot. The committee reached consensus — voting unanimously on a motion to do nothing further at this time — that paving is not cost-justified at current density and that staff should continue maintaining the roads as they have been, with paving reconsidered only if significant additional residential development occurs.
+
+### Jennick Avenue Final Assessment
+Staff presented final vs. preliminary assessment calculations for the Jennick Avenue project, finding them extremely close: sanitary sewer final rate was just over $8,000 vs. a preliminary of just under $8,500; water and sewer lateral rates were within about $50; water main final was about $200 above preliminary; asphalt pavement was within 14 cents per square foot; and gravel road cost came in under estimate. The committee voted unanimously to recommend finalizing the assessments as presented, without requiring a full formatted report to come back next month.
+
+### Western Avenue Final Assessment
+Staff asked the committee whether the Western Avenue project — which had two separate preliminary assessments (Ryan Street to County Road J, and County Road X to Ryan Street) — should be finalized as two separate reports or combined into one. Committee members agreed the outcome would be essentially the same either way. The committee voted unanimously to direct staff to produce one combined final assessment report for both phases.
+
+### Alderson Street / Gelan Avenue Change Order No. 2
+Staff presented the closeout change order for the Gelan Avenue/Alderson Street roundabout project. Additional costs for geotextile fabric and breaker run to address soft subgrade areas and a modification to a sanitary sewer wye connection were offset by quantity reductions elsewhere, resulting in a final project cost of $846,959.25 — approximately $7,194.30 under the original bid. A committee member noted they had spoken with parents and teachers who were very happy with the roundabout. The committee voted unanimously to recommend the board of trustees approve Change Order No. 2.
+
+### Winter Street Parking Ordinance Update
+Staff presented a proposed update to the winter parking ordinance to align Weston with Rothschild and Schofield under the Mountain Bay Metro jurisdiction: no parking on all village streets from 2:00 a.m. to 7:00 a.m., November 1 through March 31. Staff also requested six designated areas with alternating-day parking restrictions from 7:00 a.m. to 4:00 p.m. on the same seasonal schedule to allow plow trucks to access historically problematic streets while still providing street parking options for residents. The Community Life/Public Safety Committee had already concurred. The Public Works Committee voted unanimously to recommend the ordinance modification.
+
+## Public Comment
+One resident spoke during the gravel road maintenance discussion item, sharing that a five-house road was paved by the village with utilities approximately 15 to 20 years ago at a cost of about $15,000 per 120-foot lot, offering that as historical context for the committee's cost discussion.
+
+## Action Items
+- Staff to continue pursuing Business 51/Newport Avenue pedestrian crossing with flashing beacon; escalate to DOT regional traffic engineer if no response from project manager within one week
+- Recommend village board vacate existing water and sanitary sewer easements within the Wasata Tile property
+- Proceed with Alternative A for Delhoney Street, Alternative C for Fergie Street (sidewalk west side), and Alternative D for Post Avenue (sidewalk north side) for 2027 CIP typical sections
+- Proceed with 10-foot multi-use path on west side of Camp Phillips Road for Howland Avenue (2027 CIP)
+- Add 5-foot sidewalk on north/east side of Howland Avenue from YMCA driveway to Heritage Hills Drive (2027 CIP)
+- Continue maintaining gravel roads as-is with no paving until significant additional residential development occurs
+- Finalize Jennick Avenue assessments as presented and process billings
+- Prepare one combined final assessment report for both phases of Western Avenue project
+- Recommend board of trustees approve Change Order No. 2 closing out Gelan Avenue/Alderson Street roundabout project at $846,959.25
+- Recommend modification of winter parking ordinance to no parking 2 a.m.–7 a.m. on all village streets November 1–March 31, with alternating-day restrictions 7 a.m.–4 p.m. on six designated streets
+- Staff to meet with Treeweiler Concrete on Friday to address outstanding concrete issues on Scoffield Avenue project
+- Staff to follow up with Harmon (concrete subcontractor) on outstanding concrete items on Fuller Avenue
+- Complete Bladel Drive underground work and target roadway completion by mid-to-late October
+- Complete surveys for asbestos cement (AC) pipe CDBG grant application this fall for submission to state in spring
+- Bring proposal for Vulman Street water main replacement coordination with Rothschild to next month's meeting
+- Continue valve replacement work at Municipal Street, Kellyland, Corwith-Ameer, and Bayberry/Ross areas
+- Next regular meeting: Monday, October 12, 2026 at 4:30 p.m.
