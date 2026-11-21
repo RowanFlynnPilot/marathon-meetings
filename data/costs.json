@@ -1828,5 +1828,35 @@
     "input_tokens": 1102,
     "output_tokens": 296,
     "usd": 0.002582
+  },
+  {
+    "ts": "2026-11-21T08:33:03.378837+00:00",
+    "meeting_id": "tw_1913",
+    "jurisdiction": "maine",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 822,
+    "output_tokens": 545,
+    "usd": 0.003547
+  },
+  {
+    "ts": "2026-11-21T08:33:10.109097+00:00",
+    "meeting_id": "tw_1909",
+    "jurisdiction": "maine",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1014,
+    "output_tokens": 829,
+    "usd": 0.005159
+  },
+  {
+    "ts": "2026-11-21T08:33:29.919456+00:00",
+    "meeting_id": "tw_1899",
+    "jurisdiction": "maine",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1436,
+    "output_tokens": 2581,
+    "usd": 0.014341
   }
 ]

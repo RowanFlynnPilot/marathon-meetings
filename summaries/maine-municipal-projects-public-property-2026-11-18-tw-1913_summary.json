@@ -1,0 +1,56 @@
+{
+  "overview": "Based on the published agenda, the Village of Maine Municipal Projects & Public Property Committee was scheduled to meet to review and approve meeting minutes, examine the roads spreadsheet and project priorities, and conduct routine administrative business on November 18th, 2026.",
+  "committee": "Municipal Projects & Public Property Committee",
+  "presiding": "",
+  "agenda": [
+    {
+      "time": "5:30 p.m.",
+      "item": "Discussion and Possible Action – Approve minutes of the 09/22/2026 meeting"
+    },
+    {
+      "time": "5:30 p.m.",
+      "item": "Discussion and Review – Roads Spreadsheet"
+    },
+    {
+      "time": "5:30 p.m.",
+      "item": "Discussion – Project Priority List"
+    },
+    {
+      "time": "5:30 p.m.",
+      "item": "Schedule next meeting & member assigned to take minutes"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Approve minutes of the 09/22/2026 meeting",
+      "body": "The committee was scheduled to review and consider approving the minutes from the previous meeting held on September 22nd, 2026. This was set for discussion and possible action."
+    },
+    {
+      "item": "Roads Spreadsheet",
+      "body": "The committee was set to discuss and review a roads spreadsheet during the meeting. The agenda indicates this item was scheduled for both discussion and review of municipal road information or status."
+    },
+    {
+      "item": "Project Priority List",
+      "body": "The committee was scheduled to discuss the project priority list at this meeting. This item was set for discussion to potentially inform future municipal planning and project decisions."
+    }
+  ],
+  "publicComment": "Not indicated on agenda",
+  "actionItems": [
+    "scheduled to vote on approval of September 22nd, 2026 meeting minutes",
+    "expected to review roads spreadsheet",
+    "scheduled to discuss project priority list",
+    "expected to schedule next meeting and assign member for minutes"
+  ],
+  "topics": [
+    "Roads",
+    "Municipal Projects",
+    "Public Property",
+    "Project Priorities"
+  ],
+  "_source": "agenda",
+  "title": "Municipal Projects & Public Property - 2026-11-18",
+  "url": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
+  "source": "maine",
+  "doc_url": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
+  "processed_at": "2026-11-21T08:33:03.380991+00:00"
+}

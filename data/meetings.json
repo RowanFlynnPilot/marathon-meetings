@@ -163,6 +163,66 @@
     "publicCommentSpeakers": 0
   },
   {
+    "id": "tw_1913",
+    "source": "maine",
+    "title": "Municipal Projects & Public Property",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Municipal Projects & Public Property",
+    "duration": null,
+    "url": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
+    "docUrl": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Village of Maine Municipal Projects & Public Property Committee was scheduled to meet to review and approve meeting minutes, examine the roads spreadsheet and project priorities, and conduct routine administrative business on November 18th, 2026.",
+    "agenda": [
+      {
+        "time": "5:30 p.m.",
+        "item": "Discussion and Possible Action – Approve minutes of the 09/22/2026 meeting"
+      },
+      {
+        "time": "5:30 p.m.",
+        "item": "Discussion and Review – Roads Spreadsheet"
+      },
+      {
+        "time": "5:30 p.m.",
+        "item": "Discussion – Project Priority List"
+      },
+      {
+        "time": "5:30 p.m.",
+        "item": "Schedule next meeting & member assigned to take minutes"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approve minutes of the 09/22/2026 meeting",
+        "body": "The committee was scheduled to review and consider approving the minutes from the previous meeting held on September 22nd, 2026. This was set for discussion and possible action."
+      },
+      {
+        "item": "Roads Spreadsheet",
+        "body": "The committee was set to discuss and review a roads spreadsheet during the meeting. The agenda indicates this item was scheduled for both discussion and review of municipal road information or status."
+      },
+      {
+        "item": "Project Priority List",
+        "body": "The committee was scheduled to discuss the project priority list at this meeting. This item was set for discussion to potentially inform future municipal planning and project decisions."
+      }
+    ],
+    "publicComment": "Not indicated on agenda",
+    "actionItems": [
+      "scheduled to vote on approval of September 22nd, 2026 meeting minutes",
+      "expected to review roads spreadsheet",
+      "scheduled to discuss project priority list",
+      "expected to schedule next meeting and assign member for minutes"
+    ],
+    "topics": [
+      "Roads",
+      "Municipal Projects",
+      "Public Property",
+      "Project Priorities"
+    ],
+    "votes": []
+  },
+  {
     "id": "rv_2201001",
     "source": "rothschild",
     "title": "Riverside Fire Board",
@@ -1765,6 +1825,79 @@
         "tally": null
       }
     ]
+  },
+  {
+    "id": "tw_1909",
+    "source": "maine",
+    "title": "Board of Trustees Meeting",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Board of Trustees",
+    "duration": null,
+    "url": "https://villageofmaine.org/?post_type=twd_repository&p=1909",
+    "docUrl": "https://villageofmaine.org/?post_type=twd_repository&p=1909",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, this special Board of Trustees meeting for the Village of Maine was scheduled to address fire department officer elections, hold a public hearing on the 2027 budget and consider its adoption, set the village's 2026 tax levy, and approve an emergency medical responder. The meeting was set to occur in mid-November 2026.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Fire Department Officer Elections"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Hearing – 2027 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Adoption of the 2027 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Resolution 2026-04 setting the Village of Maine's 2026 Tax Levy Payable in 2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Approve EMR Carrie Genrich"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment regarding Other Business items, limited to three minutes"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Fire Department Officer Elections",
+        "body": "The board was scheduled to discuss and take possible action on elections for fire department officers. No additional details were provided in the agenda regarding the positions or candidates."
+      },
+      {
+        "item": "2027 Budget Public Hearing and Adoption",
+        "body": "The village was set to hold a public hearing on the proposed 2027 budget, followed by board discussion and possible action on its adoption. This hearing was scheduled to allow community members to comment on the village's spending plans for the upcoming fiscal year."
+      },
+      {
+        "item": "Resolution 2026-04: 2026 Tax Levy Setting",
+        "body": "The board was scheduled to discuss and consider possible action on Resolution 2026-04, which would set the Village of Maine's 2026 tax levy payable in 2027. This action was expected to establish the property tax amount for residents."
+      },
+      {
+        "item": "Emergency Medical Responder Carrie Genrich Approval",
+        "body": "The board was set to discuss and take possible action to approve Carrie Genrich as an emergency medical responder for the village. No additional details regarding the position or circumstances were provided in the agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, limited to three minutes, regarding Other Business items.",
+    "actionItems": [
+      "scheduled to vote on fire department officer elections",
+      "scheduled to hold a public hearing on the 2027 budget",
+      "scheduled to vote on adoption of the 2027 budget",
+      "scheduled to vote on Resolution 2026-04 setting the 2026 tax levy payable in 2027",
+      "scheduled to vote on approval of EMR Carrie Genrich"
+    ],
+    "topics": [
+      "Budget",
+      "Fire Department",
+      "Tax Levy",
+      "Staffing"
+    ],
+    "votes": []
   },
   {
     "id": "ZyVaKfiiYyE",
@@ -4234,6 +4367,234 @@
     "votes": []
   },
   {
+    "id": "tw_1899",
+    "source": "maine",
+    "title": "Board of Trustees Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Board of Trustees",
+    "duration": null,
+    "url": "https://villageofmaine.org/?post_type=twd_repository&p=1899",
+    "docUrl": "https://villageofmaine.org/?post_type=twd_repository&p=1899",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Village of Maine Board of Trustees was scheduled to hold a regular meeting to address multiple items including a $2,025,000 State Trust Fund Loan application, several zoning and ordinance amendments, infrastructure projects, and review of the 2027 proposed budget. The meeting was set to include reports from various departments and committees affecting village operations and future planning.",
+    "agenda": [
+      {
+        "time": "5:30 PM",
+        "item": "Trustees to view payment vouchers"
+      },
+      {
+        "time": "6:00 PM",
+        "item": "General business to commence"
+      },
+      {
+        "time": "N/A",
+        "item": "Village President Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Works & Utility Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Committee Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Municipal Projects & Public Property Committee Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Treasurer Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Clerk Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Fire Department Report"
+      },
+      {
+        "time": "N/A",
+        "item": "County Supervisor Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Public comment regarding other business items, limited to three minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – State Trust Fund Loan Application"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Approve minutes of the 09/14/2026 Regular Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Approve minutes of the 09/28/2026 Special Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Approve minutes of the 10/22/2026 Special Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Ordinance §17.08-5 Accessory Uses and Structures"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Ordinance §17.13-7(3)(c) Residential Districts Principal Building Lot Area"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Ordinance §17.13-8(3)(c) Multiple Family Residence District Principal Building Lot Area"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Ordinance §8.15.050 Village Board Meetings"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Purchasing Policy"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Shouldering Timber Drive & North 20th Ave"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Falcon Drive and Lower Brokaw Housing RFP Preparation by REI"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Rent of Village Hall"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Village Website Design Quotes"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Assessor Contract"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Fall newsletter"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion & Possible Action – Holiday Lights at Village Hall"
+      },
+      {
+        "time": "N/A",
+        "item": "Review of 2027 Proposed Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Update – TerX"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve Monthly Vouchers for Payment"
+      },
+      {
+        "time": "N/A",
+        "item": "New Business"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "State Trust Fund Loan Application",
+        "body": "The board was scheduled to discuss and consider approving Resolution 2026-03 to authorize borrowing through the State Trust Fund Loan in the amount of $2,025,000. This action was expected to address significant capital funding needs for the village."
+      },
+      {
+        "item": "Ordinance §17.08-5 Accessory Uses and Structures",
+        "body": "The board was set to discuss and take possible action on amendments to ordinance provisions governing accessory uses and structures within the village. This was expected to involve zoning regulation updates."
+      },
+      {
+        "item": "Ordinance §17.13-7(3)(c) Residential Districts Principal Building Lot Area",
+        "body": "The board was scheduled to review and potentially act on amendments to regulations concerning principal building lot area requirements in residential districts. This action was expected to modify zoning standards for residential development."
+      },
+      {
+        "item": "Ordinance §17.13-8(3)(c) Multiple Family Residence District Principal Building Lot Area",
+        "body": "The board was set to discuss and consider amendments to principal building lot area requirements for multiple family residence districts. This action was expected to adjust zoning regulations for multi-family housing development."
+      },
+      {
+        "item": "Ordinance §8.15.050 Village Board Meetings",
+        "body": "The board was scheduled to review and take possible action on amendments to ordinance provisions governing village board meeting procedures and conduct. This was expected to update meeting governance standards."
+      },
+      {
+        "item": "Purchasing Policy",
+        "body": "The board was set to discuss and consider action on village purchasing policy updates or revisions. This was expected to address procurement procedures and standards."
+      },
+      {
+        "item": "Shouldering Timber Drive & North 20th Ave",
+        "body": "The board was scheduled to discuss and take possible action on road shouldering work for Timber Drive and North 20th Avenue. This was expected to address road infrastructure maintenance or improvements."
+      },
+      {
+        "item": "Falcon Drive and Lower Brokaw Housing RFP Preparation by REI",
+        "body": "The board was set to discuss and consider action regarding request for proposal preparation by REI for housing development projects at Falcon Drive and Lower Brokaw. This was expected to advance housing development initiatives in the village."
+      },
+      {
+        "item": "Rent of Village Hall",
+        "body": "The board was scheduled to discuss and take possible action on village hall rental policies or rates. This was expected to address facility use and revenue-related matters."
+      },
+      {
+        "item": "Village Website Design Quotes",
+        "body": "The board was set to review and consider action on quotes for village website design and redesign services. This was expected to address technology and communication infrastructure updates."
+      },
+      {
+        "item": "Assessor Contract",
+        "body": "The board was scheduled to discuss and take possible action regarding the assessor contract. This was expected to address property assessment services for the village."
+      },
+      {
+        "item": "Fall newsletter",
+        "body": "The board was set to discuss and consider action regarding the fall newsletter. This was expected to address village communications to residents."
+      },
+      {
+        "item": "Holiday Lights at Village Hall",
+        "body": "The board was scheduled to discuss and take possible action on holiday lights at the village hall. This was expected to address seasonal decoration and community appearance matters."
+      },
+      {
+        "item": "Review of 2027 Proposed Budget",
+        "body": "The board was scheduled to review the proposed 2027 budget with a public hearing set for Monday, November 16, 2026, at 6:00 p.m. This was expected to allow for public input on the village's financial planning for the upcoming year."
+      },
+      {
+        "item": "TerX Update",
+        "body": "The board was set to receive an update on TerX. This was expected to provide information on this ongoing matter or project."
+      }
+    ],
+    "publicComment": "Public comment was scheduled regarding other business items, limited to three minutes per speaker.",
+    "actionItems": [
+      "Expected to vote on Resolution 2026-03 authorizing State Trust Fund Loan borrowing in the amount of $2,025,000",
+      "Scheduled to approve minutes from 09/14/2026 Regular Meeting",
+      "Scheduled to approve minutes from 09/28/2026 Special Meeting",
+      "Scheduled to approve minutes from 10/22/2026 Special Meeting",
+      "Expected to consider amendments to Ordinance §17.08-5 regarding Accessory Uses and Structures",
+      "Expected to consider amendments to Ordinance §17.13-7(3)(c) regarding Residential Districts Principal Building Lot Area",
+      "Expected to consider amendments to Ordinance §17.13-8(3)(c) regarding Multiple Family Residence District Principal Building Lot Area",
+      "Expected to consider amendments to Ordinance §8.15.050 regarding Village Board Meetings",
+      "Expected to consider updates to Purchasing Policy",
+      "Expected to take action on Shouldering Timber Drive & North 20th Ave project",
+      "Expected to consider RFP preparation by REI for Falcon Drive and Lower Brokaw housing",
+      "Expected to take action on Village Hall rental policies or rates",
+      "Expected to review and decide on Village Website Design quotes",
+      "Expected to take action on Assessor Contract",
+      "Expected to approve Monthly Vouchers for Payment"
+    ],
+    "topics": [
+      "Budget",
+      "Zoning",
+      "Roads",
+      "Development",
+      "Public Infrastructure"
+    ],
+    "votes": []
+  },
+  {
     "id": "rv_220999",
     "source": "rothschild",
     "title": "Village Board",
@@ -6284,310 +6645,6 @@
         "second": null,
         "outcome": "Failed",
         "tally": "2-2"
-      }
-    ]
-  },
-  {
-    "id": "x5ndfhfruMg",
-    "source": "marathon",
-    "title": "Health & Human Services Committee Meeting",
-    "date": "November 4, 2026",
-    "shortDate": "NOV 4",
-    "committee": "Health & Human Services",
-    "duration": "10m",
-    "url": "https://www.youtube.com/watch?v=x5ndfhfruMg",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Health & Human Services Committee held a brief meeting covering the upcoming 2027 county budget and an elderly and disabled transportation grant application. The committee approved forwarding the 8521 elderly and disabled transportation grant application to the full county board, and received updates on CART/mobile crisis service expansion discussions. No major budget amendments were proposed by the committee.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:30",
-        "item": "Public Comment"
-      },
-      {
-        "time": "0:40",
-        "item": "Approval of September 30th, 2026 Health and Human Services Committee Meeting Minutes"
-      },
-      {
-        "time": "1:20",
-        "item": "5A: Overview of Highlights of the 2027 Annual Budget — Discussion and Possible Action"
-      },
-      {
-        "time": "8:45",
-        "item": "5B: Discussion and Possible Action — 2027 8521 Elderly and Disabled Transportation Grant Application for County Board Consideration"
-      },
-      {
-        "time": "14:30",
-        "item": "Educational Presentations and Committee Discussion"
-      },
-      {
-        "time": "14:45",
-        "item": "Next Meeting Date, Time, Announcements, and Future Agenda Items"
-      },
-      {
-        "time": "15:10",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of September 30th, 2026 Meeting Minutes",
-        "body": "A motion to approve the previous meeting minutes was made by Supervisor Cavlli and seconded by Supervisor Kremes. The chair nearly skipped the vote before catching himself. The motion carried on a voice vote."
-      },
-      {
-        "item": "2027 Annual Budget Overview",
-        "body": "Supervisor Robinson presented the budget overview, noting the approximately $235 million budget represents a significant increase over the prior year largely due to inclusion of the highway facility. He described it as a 'status quo budget' and highlighted that net new construction growth of only 1.5% necessitated fee increases. Robinson also flagged a newly announced DNR PFAS community sampling grant with a 20% match requirement that the health department is considering, with the village of Maine identified as an area of particular concern due to impacted wells. Lance, the county administrator, asked committee members to contact his office before Friday at 8:00 a.m. if they wished to propose amendments for the finance committee's Monday meeting. No amendments were proposed by Health and Human Services."
-      },
-      {
-        "item": "CART and Mobile Crisis Services Expansion",
-        "body": "Committee member Katie raised questions about the status of discussions to expand CART (Crisis Assessment Response Team). Lance reported that North Central Healthcare executive director Jason Hake had inquired about CART expansion but that it was not built into the published budget. He noted modifications are being made to increase availability of North Central Healthcare crisis professionals for community response when law enforcement requests assistance. Supervisor John added that discussions with the sheriff's and police departments have shifted focus from CART expansion specifically toward broader mobile crisis service expansion, with a grant funding evaluation ongoing."
-      },
-      {
-        "item": "2027 8521 Elderly and Disabled Transportation Grant Application",
-        "body": "Staff presented the annual application for 8521 funds supporting elderly and disabled transit services in the county. The county is eligible to receive $366,060 from the state, requiring a local match of $73,201 covered through a partnership with Metroride, North Central Healthcare, and CPZ. Supervisor Ron asked where the local match funds were budgeted, and staff confirmed they are in CPZ's budget included in the 2027 budget before the board. The Transportation Coordinating Committee held a public hearing on October 21st with no public comments received and forwarded the application to this committee. Supervisor Rosenberg moved to approve forwarding the grant application to the county board; Supervisor Foot seconded, and the motion carried unanimously on a voice vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Forward the 2027 8521 Elderly and Disabled Transportation Grant application to the full county board for approval; application due to the state in December.",
-      "Committee members wishing to propose budget amendments should contact the county administrator's office by 8:00 a.m. Friday for finance committee consideration; amendments may also be introduced through final budget adoption.",
-      "Health department to continue evaluating the DNR PFAS community sampling grant opportunity, particularly for the village of Maine.",
-      "Law enforcement and health partners to continue evaluation of grant funding for expanded mobile crisis services.",
-      "Next committee meeting: Wednesday, December 2nd, 2026 at 3:00 p.m."
-    ],
-    "topics": [
-      "Budget",
-      "Public Health",
-      "Transportation",
-      "Mental Health Crisis Services",
-      "PFAS Contamination"
-    ],
-    "votes": [
-      {
-        "item": "Approval of September 30th, 2026 meeting minutes",
-        "motion": "Motion to approve",
-        "mover": "Supervisor Cavlli",
-        "second": "Supervisor Kremes",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "2027 8521 Elderly and Disabled Transportation Grant Application — recommend to county board",
-        "motion": "Motion to accept the application for this grant",
-        "mover": "Supervisor Rosenberg",
-        "second": "Supervisor Foot",
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      }
-    ]
-  },
-  {
-    "id": "QfKwZ4nvAjc",
-    "source": "wausau",
-    "title": "Waterworks Works Meeting",
-    "date": "November 4, 2026",
-    "shortDate": "NOV 4",
-    "committee": "Wausau Waterworks Commission",
-    "duration": "11m",
-    "url": "https://www.youtube.com/watch?v=QfKwZ4nvAjc",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Waterworks Commission met on November 4, 2026 and addressed a disappointing DNR lead service line funding award that came in below expectations, leaving an estimated $2 million gap that will require additional borrowing. The commission also approved three items related to a DOT transportation project involving temporary construction easements, a quit claim deed, and a non-reimbursement statement, and received updates on several ongoing wastewater infrastructure projects.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order and Quorum Confirmation"
-      },
-      {
-        "time": "0:30",
-        "item": "Approval of October 6, 2026 Regular Meeting Minutes"
-      },
-      {
-        "time": "1:10",
-        "item": "Director's Report: 2027 Lead Service Line Funding Award from DNR"
-      },
-      {
-        "time": "3:40",
-        "item": "Wastewater Project Updates: Headworks Screening, Crocker Street Lift Station, Sewer Rehab"
-      },
-      {
-        "time": "5:30",
-        "item": "Item 3A: Approving Temporary Construction Easements for Parcels 1, 2, 3, and 6 — Transportation Project 6990024"
-      },
-      {
-        "time": "8:20",
-        "item": "Item 3B: Quit Claim Deed for Parcel 6 — Transportation Project 6990024"
-      },
-      {
-        "time": "9:50",
-        "item": "Item 3C: Approving Statement of Non-Reimbursement by Utility — Transportation Project 6990024"
-      },
-      {
-        "time": "11:00",
-        "item": "Future Agenda Items and Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of October 6, 2026 Meeting Minutes",
-        "body": "A motion was made by a commissioner identified as Galhar and seconded by Van Craig. The minutes were approved unanimously with no changes noted."
-      },
-      {
-        "item": "2027 Lead Service Line Funding Award from DNR",
-        "body": "Director Lynman reported that the city received less DNR funding than anticipated and budgeted for. He explained that the absence of a lead service line replacement ordinance hurt the city's score on a second project, costing approximately $2 million in principal forgiveness. That $2 million will now need to be borrowed as additional debt. Lynman noted the matter will go to the finance committee on November 10th, coinciding with the full council's budget consideration, and may result in a budget amendment for additional borrowing. The chair noted that the alternative is to 'do less with what we've got.'"
-      },
-      {
-        "item": "Wastewater Project Updates: Headworks, Crocker Street Lift Station, Sewer Rehab",
-        "body": "Staff member Ben provided updates: the Headworks project is nearing completion with a final completion date of November 15th; the Crocker Street lift station is well underway with the site closed up and asphalt repaved; the Cherry Street lift station project is nearly closed out; and the 2026 sewer rehab project was awarded to Visions, though a project kickoff meeting has not yet been scheduled. No votes were taken on these updates."
-      },
-      {
-        "item": "Item 3A: Temporary Construction Easements for Parcels 1, 2, 3, and 6",
-        "body": "Staff explained the city holds easements over utility infrastructure outside the roadway right-of-way, and the DOT is requesting a temporary construction easement over those existing easements for grading work during the road project. No utility relocation is required. A commissioner identified as Handley questioned why no reimbursement was being sought; staff clarified the city owns no property being given up and will incur no costs, so reimbursement is not applicable. The motion was made by Martins and seconded by Hadley, and the item passed unanimously."
-      },
-      {
-        "item": "Item 3B: Quit Claim Deed for Parcel 6",
-        "body": "Staff explained that on Parcel 6, the DOT is acquiring a permanent limited easement from the property owner for drainage purposes and is asking the city to relinquish any rights it may hold there via a quit claim deed. Staff confirmed the city has no utilities in that area and that the city attorney's office and city engineering have both signed off. Motion was made by Martins, seconded by Hadley, and passed unanimously."
-      },
-      {
-        "item": "Item 3C: Statement of Non-Reimbursement by Utility",
-        "body": "The commission considered a formal statement confirming the utility will not seek reimbursement from the DOT for the transportation project, consistent with the earlier discussion that no utility relocation costs will be incurred. Motion was moved by one commissioner and seconded by Galhar. The item passed unanimously with no further debate."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Director Lynman to bring the DNR lead service line funding shortfall and additional borrowing discussion to the finance committee on November 10, 2026",
-      "Staff to prepare a possible budget amendment for additional borrowing to cover the approximately $2 million gap in DNR principal forgiveness",
-      "Staff to schedule a project kickoff meeting for the 2026 sewer rehab project with contractor Visions",
-      "Staff to finalize Headworks project by November 15, 2026 target completion date",
-      "Staff to close out Cherry Street lift station project",
-      "Next Waterworks Commission meeting scheduled for Tuesday, December 1, 2026 at 11:30 a.m. in City Hall Council Chambers"
-    ],
-    "topics": [
-      "Utilities",
-      "Lead Service Line Replacement",
-      "DNR Funding",
-      "Infrastructure Projects",
-      "Transportation Easements"
-    ],
-    "votes": [
-      {
-        "item": "Approval of October 6, 2026 meeting minutes",
-        "motion": "Move to approve",
-        "mover": "Galhar",
-        "second": "Van Craig",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approving temporary construction easements for parcels 1, 2, 3, and 6 — Transportation Project 6990024",
-        "motion": null,
-        "mover": "Martins",
-        "second": "Hadley",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approving quit claim deed for parcel 6 — Transportation Project 6990024",
-        "motion": null,
-        "mover": "Martins",
-        "second": "Hadley",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approving statement of non-reimbursement by utility — Transportation Project 6990024",
-        "motion": "I move to approve",
-        "mover": null,
-        "second": "Galhar",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "1XBXalxLhkw",
-    "source": "wausau",
-    "title": "Board of Public Works Meeting",
-    "date": "November 4, 2026",
-    "shortDate": "NOV 4",
-    "committee": "Board of Public Works",
-    "duration": "0m",
-    "url": "https://www.youtube.com/watch?v=1XBXalxLhkw",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Board of Public Works held a brief meeting in which two claims were acted upon: a claim from Wayne Becker for $262.50 was denied, and a claim from Vicky Swanson for $1,290.83 was approved. The meeting was very short, with no extended discussion or public comment recorded in the transcript.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Claim of Wayne Becker — $262.50"
-      },
-      {
-        "time": "0:15",
-        "item": "Claim of Vicky Swanson — $1,290.83"
-      },
-      {
-        "time": "0:30",
-        "item": "Adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Claim of Wayne Becker — $262.50",
-        "body": "A motion was made to deny the claim submitted by Wayne Becker in the amount of $262.50. The motion was seconded and approved by the board. No discussion or debate was recorded in the transcript prior to the vote."
-      },
-      {
-        "item": "Claim of Vicky Swanson — $1,290.83",
-        "body": "A motion was made to approve the claim submitted by Vicky Swanson in the amount of $1,290.83. The motion was seconded and approved by the board. No discussion or debate was recorded in the transcript prior to the vote."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Deny claim of Wayne Becker in the amount of $262.50",
-      "Approve claim of Vicky Swanson in the amount of $1,290.83"
-    ],
-    "topics": [
-      "Claims",
-      "Public Works"
-    ],
-    "votes": [
-      {
-        "item": "Claim of Wayne Becker — $262.50",
-        "motion": "Move to deny the claim of Wayne Becker in the amount of $262.50",
-        "mover": null,
-        "second": null,
-        "outcome": "Failed",
-        "tally": null
-      },
-      {
-        "item": "Claim of Vicky Swanson — $1,290.83",
-        "motion": "Move to approve the claim of Vicky Swanson in the amount of $1,290.83",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
-      },
-      {
-        "item": "Adjournment",
-        "motion": "Move to adjourn",
-        "mover": null,
-        "second": null,
-        "outcome": "Approved",
-        "tally": null
       }
     ]
   }
