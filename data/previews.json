@@ -1,4 +1,51 @@
 {
+  "0b8dc6e2f034452db544": {
+    "checked": "2026-11-21T01:35:22+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "87e4084cf676d0c08de203e526c33aee2bb6451f",
+    "name": "Committee of the Whole Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-21T01:35:22+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "4K Program Agreements with community partners",
+          "why": "The board will vote to approve formal agreements between the district and child care and educational partners to run the 4K program in 2027-2028, including current sites and two prior partners seeking re-engagement."
+        },
+        {
+          "action": "vote",
+          "item": "Secondary social studies curriculum adjustment for grades 6-12",
+          "why": "The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline."
+        },
+        {
+          "action": "report",
+          "item": "Staff turnover and retention report",
+          "why": "Tabatha Gundrum will present turnover data by employee group and discuss district efforts to address retention in the coming year."
+        },
+        {
+          "action": "vote",
+          "item": "Updates to 31 district policies",
+          "why": "The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas."
+        },
+        {
+          "action": "report",
+          "item": "2026-2027 student demographic report",
+          "why": "The director of technology will present enrollment and demographic data for the upcoming school year."
+        },
+        {
+          "action": "report",
+          "item": "Referendum budget summary updates",
+          "why": "The assistant superintendent will provide an update on spending and progress related to the referendum budget."
+        }
+      ],
+      "overview": "The school board is scheduled to approve new community partnerships for the district's 4K program and vote on updates to the secondary social studies curriculum. The board will also hear reports on staff turnover, student demographics, and referendum budget progress.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "school_board"
+  },
   "1840f1f9e200f1ed5335": {
     "checked": "2026-11-20T17:00:54+00:00",
     "date": "2026-11-24",
@@ -47,7 +94,7 @@
     "source": "wausau"
   },
   "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-20T07:24:09+00:00",
+    "checked": "2026-11-21T01:35:22+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "06b6619020510e165db519f60da43f9304559641",
@@ -87,6 +134,22 @@
     },
     "prompt": "2",
     "source": "wausau"
+  },
+  "40f8a47f78dac7d1f4e7": {
+    "checked": "2026-11-21T01:35:22+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "8a98aea67e0e0af8ec6fe5bf666680c2749b99f7",
+    "name": "Special Meeting",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-21T01:35:22+00:00",
+      "items": [],
+      "overview": "The Wausau School Board is scheduled to meet in closed session to evaluate contracts and review administrator contracts under state confidentiality law; no open session business is listed.",
+      "publicComment": false
+    },
+    "prompt": "2",
+    "source": "school_board"
   },
   "66023df6f800498da2b6": {
     "checked": "2026-11-19T13:19:20+00:00",
@@ -178,7 +241,7 @@
     "source": "wausau"
   },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-20T07:24:09+00:00",
+    "checked": "2026-11-21T01:35:22+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
@@ -242,7 +305,7 @@
     "source": "wausau"
   },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-20T07:24:09+00:00",
+    "checked": "2026-11-21T01:35:22+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",

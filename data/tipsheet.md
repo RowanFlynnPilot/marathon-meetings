@@ -1,9 +1,14 @@
-# Reporter tip sheet: week of Friday, Nov 20
+# Reporter tip sheet: week of Saturday, Nov 21
 
 Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agenda previews; software wrote those, so confirm with the record before reporting.
 
 ## Decisions coming up
 
+- [Monday, Nov 23, 5:00 PM: Wausau School Board, Committee of the Whole Meeting (residents can speak)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459)
+  - VOTE: 4K Program Agreements with community partners. The board will vote to approve formal agreements between the district and child care and educational partners to run the 4K program in 2027-2028, including current sites and two prior partners seeking re-engagement.
+  - VOTE: Secondary social studies curriculum adjustment for grades 6-12. The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline.
+  - VOTE: Updates to 31 district policies. The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas.
+- [Monday, Nov 23, 5:30 PM: Wausau School Board, Special Meeting (closed session)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498)
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
   - VOTE: 2027 budgets for five housing programs. The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs.
@@ -53,15 +58,15 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 25 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 23 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
-- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
-- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 10 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
-- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 8 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 26 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 24 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
+- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 12 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
+- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
+- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 9 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
 
 ## Next week's meetings without a preview
 
 - Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
-- Village of Weston: 1 meeting with no agenda read yet
+- Village of Weston: 2 meetings with no agenda read yet
 - Wausau School Board: 1 meeting with no agenda read yet

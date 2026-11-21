@@ -1508,5 +1508,35 @@
     "input_tokens": 2335,
     "output_tokens": 479,
     "usd": 0.00473
+  },
+  {
+    "ts": "2026-11-21T01:35:42.432761+00:00",
+    "meeting_id": "0b8dc6e2f034452db544",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1786,
+    "output_tokens": 455,
+    "usd": 0.004061
+  },
+  {
+    "ts": "2026-11-21T01:35:43.580149+00:00",
+    "meeting_id": "40f8a47f78dac7d1f4e7",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 887,
+    "output_tokens": 74,
+    "usd": 0.001257
+  },
+  {
+    "ts": "2026-11-21T01:40:08.153812+00:00",
+    "meeting_id": "kPvpA6dRbYM",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 7149,
+    "output_tokens": 2265,
+    "usd": 0.055422
   }
 ]

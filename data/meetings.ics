@@ -27,6 +27,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:86a21d98621439759bdd@marathon-meetings
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:Village of Weston: Mountain Bay Metropolitan Police Oversight Board
+URL:https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1994
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:b46119fc786a09bd3ddf@marathon-meetings
 DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261123
@@ -56,12 +65,32 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:0b8dc6e2f034452db544@marathon-meetings
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=America/Chicago:20261123T170000
+DTEND;TZID=America/Chicago:20261123T183000
+SUMMARY:Wausau School Board: Committee of the Whole Meeting
+URL:https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:f9f8cd5430318e3ec68f@marathon-meetings
 DTSTAMP:20261123T000000Z
 DTSTART;TZID=America/Chicago:20261123T170000
 DTEND;TZID=America/Chicago:20261123T183000
 SUMMARY:Wausau School Board: Education & Operations Committee
 URL:https://meetings.boardbook.org/Public/Organization/1360
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:40f8a47f78dac7d1f4e7@marathon-meetings
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=America/Chicago:20261123T173000
+DTEND;TZID=America/Chicago:20261123T190000
+SUMMARY:Wausau School Board: Special Meeting
+URL:https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -545,6 +574,16 @@ DTSTART;TZID=America/Chicago:20270118T180000
 DTEND;TZID=America/Chicago:20270118T193000
 SUMMARY:Village of Weston: Board of Trustees
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:e0790202460c7e757aa8@marathon-meetings
+DTSTAMP:20270120T000000Z
+DTSTART;TZID=America/Chicago:20270120T183000
+DTEND;TZID=America/Chicago:20270120T200000
+SUMMARY:DC Everest School Board: Regular School Board Meeting
+URL:https://meetings.boardbook.org/Public/Organization/1315
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT

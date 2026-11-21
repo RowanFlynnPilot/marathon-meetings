@@ -380,6 +380,13 @@
     {
       "date": "2026-11-23",
       "time": "",
+      "name": "Mountain Bay Metropolitan Police Oversight Board",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1994",
+      "source": "weston"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
       "name": "Park and Recreation Committee",
       "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993",
       "source": "weston",
@@ -517,9 +524,68 @@
     {
       "date": "2026-11-23",
       "time": "5:00 PM",
+      "name": "Committee of the Whole Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459",
+      "source": "school_board",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-21T01:35:22+00:00",
+        "items": [
+          {
+            "action": "vote",
+            "item": "4K Program Agreements with community partners",
+            "why": "The board will vote to approve formal agreements between the district and child care and educational partners to run the 4K program in 2027-2028, including current sites and two prior partners seeking re-engagement."
+          },
+          {
+            "action": "vote",
+            "item": "Secondary social studies curriculum adjustment for grades 6-12",
+            "why": "The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline."
+          },
+          {
+            "action": "report",
+            "item": "Staff turnover and retention report",
+            "why": "Tabatha Gundrum will present turnover data by employee group and discuss district efforts to address retention in the coming year."
+          },
+          {
+            "action": "vote",
+            "item": "Updates to 31 district policies",
+            "why": "The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas."
+          },
+          {
+            "action": "report",
+            "item": "2026-2027 student demographic report",
+            "why": "The director of technology will present enrollment and demographic data for the upcoming school year."
+          },
+          {
+            "action": "report",
+            "item": "Referendum budget summary updates",
+            "why": "The assistant superintendent will provide an update on spending and progress related to the referendum budget."
+          }
+        ],
+        "overview": "The school board is scheduled to approve new community partnerships for the district's 4K program and vote on updates to the secondary social studies curriculum. The board will also hear reports on staff turnover, student demographics, and referendum budget progress.",
+        "publicComment": true
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "time": "5:00 PM",
       "name": "Education & Operations Committee",
       "url": "https://meetings.boardbook.org/Public/Organization/1360",
       "source": "school_board"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "5:30 PM",
+      "name": "Special Meeting",
+      "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498",
+      "source": "school_board",
+      "preview": {
+        "closedSession": true,
+        "generated": "2026-11-21T01:35:22+00:00",
+        "items": [],
+        "overview": "The Wausau School Board is scheduled to meet in closed session to evaluate contracts and review administrator contracts under state confidentiality law; no open session business is listed.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-14",
@@ -562,6 +628,13 @@
   "dc_everest": [
     {
       "date": "2026-12-16",
+      "time": "6:30 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://meetings.boardbook.org/Public/Organization/1315",
+      "source": "dc_everest"
+    },
+    {
+      "date": "2027-01-20",
       "time": "6:30 PM",
       "name": "Regular School Board Meeting",
       "url": "https://meetings.boardbook.org/Public/Organization/1315",
