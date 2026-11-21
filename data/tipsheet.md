@@ -9,6 +9,11 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: Secondary social studies curriculum adjustment for grades 6-12. The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline.
   - VOTE: Updates to 31 district policies. The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas.
 - [Monday, Nov 23, 5:30 PM: Wausau School Board, Special Meeting (closed session)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498)
+- [Monday, Nov 23, 6:00 PM: City of Mosinee, Common Council - Budget Meeting (residents can speak)](https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526)
+  - HEARING: Public hearing and adoption of 2027 city budget. The council will hear public comment on the proposed 2027 budget and vote on Resolution 2026-08 to adopt it and authorize the tax levy.
+  - VOTE: Building permit applications. The council will discuss and decide on pending building permit applications.
+  - VOTE: City employee holiday gift certificates. The council will discuss and decide on holiday gift certificates for city employees.
+  - VOTE: Police labor agreement modification. The council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association.
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
   - VOTE: 2027 budgets for five housing programs. The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs.
@@ -42,31 +47,18 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Recurring specifics, past 30 days
 
-- Lead Service Line Replacement: 3 meetings (City of Wausau)
-  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
-  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
-  - City of Wausau, Common Council Meeting (October 27, 2026)
-- Tax Increment Districts: 3 meetings (Village of Kronenwetter)
+- Consent Agenda: 2 meetings (City of Wausau, Mosinee School Board)
+  - Mosinee School Board, Personnel Committee Meeting (November 17, 2026)
+  - City of Wausau, Rules Review Committee Meeting (November 9, 2026)
+- Cedar Creek Recreation Area: 2 meetings (Village of Rothschild)
+  - Village of Rothschild, Aquatic Center Commission (November 5, 2026)
+  - Village of Rothschild, Outdoor Recreation Committee (November 4, 2026)
+- Tax Increment Districts: 2 meetings (Village of Kronenwetter)
   - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
   - Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026)
-  - Village of Kronenwetter, Revised Village Board Meeting (October 26, 2026)
-- Aquatic Center: 2 meetings (Village of Weston)
-  - Village of Weston, Board of Trustees (November 16, 2026)
-  - Village of Weston, Parks and Recreation Committee (October 26, 2026)
-- Flock Cameras: 2 meetings (City of Wausau)
-  - City of Wausau, City Council Meeting (November 10, 2026)
-  - City of Wausau, Common Council Meeting (October 27, 2026)
-- Surveillance Technology: 2 meetings (Marathon County)
-  - Marathon County, Public Safety Committee Meeting (November 10, 2026)
-  - Marathon County, Board (Budget Hearing) (November 2, 2026)
-- Tax Increment Financing: 2 meetings (City of Wausau)
-  - City of Wausau, Economic Development Meeting (November 4, 2026)
-  - City of Wausau, Finance Committee Meeting (October 27, 2026)
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 26 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 24 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
 - [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 12 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
 - [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
 - [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 9 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
@@ -75,5 +67,6 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 - Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet
-- Village of Weston: 1 meeting with no agenda read yet
+- Village of Rothschild: 2 meetings with no agenda read yet
+- Village of Weston: 2 meetings with no agenda read yet
 - Wausau School Board: 1 meeting with no agenda read yet

@@ -3369,6 +3369,160 @@
       "video_url": null,
       "processed_at": "2026-11-21T01:40:08.157220+00:00",
       "summary_file": "summaries/wausau-wausau-transit-commission-meeting-kpvpa6drbym.md"
+    },
+    "dg_494": {
+      "title": "Regular School Board Meeting - 2026-11-17",
+      "source": "mosinee_schools",
+      "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=494",
+      "upload_date": "20261117",
+      "meeting_date": "20261117",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:28:23.635641+00:00",
+      "summary_file": "summaries/mosinee-schools-regular-school-board-meeting-2026-11-17-dg-494.md"
+    },
+    "dg_493": {
+      "title": "Personnel Committee Meeting - 2026-11-17",
+      "source": "mosinee_schools",
+      "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=493",
+      "upload_date": "20261117",
+      "meeting_date": "20261117",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:28:35.532655+00:00",
+      "summary_file": "summaries/mosinee-schools-personnel-committee-meeting-2026-11-17-dg-493.md"
+    },
+    "dg_492": {
+      "title": "Instructional Programs Committee Meeting - 2026-11-17",
+      "source": "mosinee_schools",
+      "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=492",
+      "upload_date": "20261117",
+      "meeting_date": "20261117",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:28:42.395453+00:00",
+      "summary_file": "summaries/mosinee-schools-instructional-programs-committee-meeting-2026-11-17-dg-492.md"
+    },
+    "dg_491": {
+      "title": "Finance & Building Committee Meeting - 2026-11-17",
+      "source": "mosinee_schools",
+      "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=491",
+      "upload_date": "20261117",
+      "meeting_date": "20261117",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:28:58.448712+00:00",
+      "summary_file": "summaries/mosinee-schools-finance-building-committee-meeting-2026-11-17-dg-491.md"
+    },
+    "iq_3507": {
+      "title": "Common Council - Regular Meeting - 2026-11-09",
+      "source": "mosinee",
+      "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3507",
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:30:11.736781+00:00",
+      "summary_file": "summaries/mosinee-common-council-regular-meeting-2026-11-09-iq-3507.md"
+    },
+    "iq_3518": {
+      "title": "Tourism Commission - Regular Meeting - 2026-11-09",
+      "source": "mosinee",
+      "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3518",
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:31:03.727725+00:00",
+      "summary_file": "summaries/mosinee-tourism-commission-regular-meeting-2026-11-09-iq-3518.md"
+    },
+    "iq_3515": {
+      "title": "Plan Commission - Regular Meeting - 2026-11-04",
+      "source": "mosinee",
+      "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3515",
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:32:03.479895+00:00",
+      "summary_file": "summaries/mosinee-plan-commission-regular-meeting-2026-11-04-iq-3515.md"
+    },
+    "iq_3517": {
+      "title": "Common Council - Budget Meeting - 2026-11-02",
+      "source": "mosinee",
+      "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3517",
+      "upload_date": "20261102",
+      "meeting_date": "20261102",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:05.250095+00:00",
+      "summary_file": "summaries/mosinee-common-council-budget-meeting-2026-11-02-iq-3517.md"
+    },
+    "rv_2201002": {
+      "title": "Riverside Fire Commission - 2026-11-18",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-18-2026%20Fire%20Commission%20Agenda.pdf#rz1002",
+      "upload_date": "20261118",
+      "meeting_date": "20261118",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:12.545642+00:00",
+      "summary_file": "summaries/rothschild-riverside-fire-commission-2026-11-18-rv-2201002.md"
+    },
+    "rv_2201001": {
+      "title": "Riverside Fire Board - 2026-11-18",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-18-2026%20Fire%20Board%20Agenda.pdf#rz1001",
+      "upload_date": "20261118",
+      "meeting_date": "20261118",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:18.407467+00:00",
+      "summary_file": "summaries/rothschild-riverside-fire-board-2026-11-18-rv-2201001.md"
+    },
+    "rv_2201000": {
+      "title": "Administrative Committee - 2026-11-13",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-13-2026%20Administrative%20Agenda.pdf#rz1000",
+      "upload_date": "20261113",
+      "meeting_date": "20261113",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:22.790962+00:00",
+      "summary_file": "summaries/rothschild-administrative-committee-2026-11-13-rv-2201000.md"
+    },
+    "rv_220999": {
+      "title": "Village Board - 2026-11-09",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-09-2026.pdf#rz999",
+      "upload_date": "20261109",
+      "meeting_date": "20261109",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:36.049559+00:00",
+      "summary_file": "summaries/rothschild-village-board-2026-11-09-rv-220999.md"
+    },
+    "rv_220998": {
+      "title": "Aquatic Center Commission - 2026-11-05",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-05-2026%20Aquatic%20Commission.pdf#rz998",
+      "upload_date": "20261105",
+      "meeting_date": "20261105",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:41.369499+00:00",
+      "summary_file": "summaries/rothschild-aquatic-center-commission-2026-11-05-rv-220998.md"
+    },
+    "rv_220997": {
+      "title": "Outdoor Recreation Committee - 2026-11-04",
+      "source": "rothschild",
+      "doc_url": "https://www.rothschildwi.com/11-04-2026%20ORC.pdf#rz997",
+      "upload_date": "20261104",
+      "meeting_date": "20261104",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-21T07:33:48.298482+00:00",
+      "summary_file": "summaries/rothschild-outdoor-recreation-committee-2026-11-04-rv-220997.md"
     }
   }
 }

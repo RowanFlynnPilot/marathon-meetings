@@ -1,0 +1,58 @@
+{
+  "overview": "Based on the published agenda, the Riverside Fire District Board was scheduled to hold a regular meeting on November 18, 2026, to review previous meeting minutes and consider a closed session to discuss employee performance evaluation data for the Fire Chief. The meeting was set to take place at Rothschild Village Hall.",
+  "committee": "Riverside Fire District Board",
+  "presiding": "Stacey Stepan, Presiding Officer or Designee",
+  "agenda": [
+    {
+      "time": "8:30 a.m.",
+      "item": "Call to Order"
+    },
+    {
+      "time": "N/A",
+      "item": "Comments and Statements from the Audience"
+    },
+    {
+      "time": "N/A",
+      "item": "Board Referrals Minutes of Previous Meeting(s) - Fire Board Meeting Minutes of Thursday, October 29, 2026"
+    },
+    {
+      "time": "N/A",
+      "item": "Consideration of Motion to Adjourn to Closed Session Pursuant to Wisconsin Statutes Section 19.85 (1)(c) to discuss employee performance evaluation data feedback for the Riverside Fire District Fire Chief"
+    },
+    {
+      "time": "N/A",
+      "item": "Motion to Reconvene into Open Session and take Action Regarding Items Discussed in Closed Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjourn"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Fire Board Meeting Minutes of Thursday, October 29, 2026",
+      "body": "The Board was scheduled to review and act upon the minutes from the previous regular meeting held on October 29, 2026."
+    },
+    {
+      "item": "Closed Session - Fire Chief Performance Evaluation",
+      "body": "The Board was scheduled to consider a motion to adjourn to closed session pursuant to Wisconsin Statutes Section 19.85 (1)(c) to discuss employee performance evaluation data feedback for the Riverside Fire District Fire Chief. Following the closed session, the Board was expected to reconvene in open session to take action on items discussed."
+    }
+  ],
+  "publicComment": "Public comment was scheduled during 'Comments and Statements from the Audience,' limited to 3 minutes per person with no action to be taken during public comments.",
+  "actionItems": [
+    "scheduled to approve or amend previous meeting minutes from October 29, 2026",
+    "scheduled to vote on motion to adjourn to closed session for Fire Chief performance evaluation discussion",
+    "scheduled to reconvene and take action on items discussed in closed session"
+  ],
+  "topics": [
+    "Public Safety",
+    "Staffing",
+    "Fire Chief Performance"
+  ],
+  "_source": "agenda",
+  "title": "Riverside Fire Board - 2026-11-18",
+  "url": "https://www.rothschildwi.com/11-18-2026%20Fire%20Board%20Agenda.pdf#rz1001",
+  "source": "rothschild",
+  "doc_url": "https://www.rothschildwi.com/11-18-2026%20Fire%20Board%20Agenda.pdf#rz1001",
+  "processed_at": "2026-11-21T07:33:18.407371+00:00"
+}

@@ -1678,5 +1678,155 @@
     "input_tokens": 30007,
     "output_tokens": 3955,
     "usd": 0.149346
+  },
+  {
+    "ts": "2026-11-21T07:28:23.633489+00:00",
+    "meeting_id": "dg_494",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "minutes_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 3565,
+    "output_tokens": 3462,
+    "usd": 0.062625
+  },
+  {
+    "ts": "2026-11-21T07:28:35.531017+00:00",
+    "meeting_id": "dg_493",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "minutes_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 1471,
+    "output_tokens": 838,
+    "usd": 0.016983
+  },
+  {
+    "ts": "2026-11-21T07:28:42.393728+00:00",
+    "meeting_id": "dg_492",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 820,
+    "output_tokens": 738,
+    "usd": 0.00451
+  },
+  {
+    "ts": "2026-11-21T07:28:58.447058+00:00",
+    "meeting_id": "dg_491",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "minutes_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 1733,
+    "output_tokens": 1248,
+    "usd": 0.023919
+  },
+  {
+    "ts": "2026-11-21T07:30:11.735091+00:00",
+    "meeting_id": "iq_3507",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1211,
+    "output_tokens": 1590,
+    "usd": 0.009161
+  },
+  {
+    "ts": "2026-11-21T07:31:03.726090+00:00",
+    "meeting_id": "iq_3518",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 770,
+    "output_tokens": 570,
+    "usd": 0.00362
+  },
+  {
+    "ts": "2026-11-21T07:32:03.478110+00:00",
+    "meeting_id": "iq_3515",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 817,
+    "output_tokens": 481,
+    "usd": 0.003222
+  },
+  {
+    "ts": "2026-11-21T07:33:05.248455+00:00",
+    "meeting_id": "iq_3517",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 750,
+    "output_tokens": 736,
+    "usd": 0.00443
+  },
+  {
+    "ts": "2026-11-21T07:33:12.543795+00:00",
+    "meeting_id": "rv_2201002",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1002,
+    "output_tokens": 675,
+    "usd": 0.004377
+  },
+  {
+    "ts": "2026-11-21T07:33:18.405835+00:00",
+    "meeting_id": "rv_2201001",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1127,
+    "output_tokens": 681,
+    "usd": 0.004532
+  },
+  {
+    "ts": "2026-11-21T07:33:22.789415+00:00",
+    "meeting_id": "rv_2201000",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 940,
+    "output_tokens": 472,
+    "usd": 0.0033
+  },
+  {
+    "ts": "2026-11-21T07:33:36.047824+00:00",
+    "meeting_id": "rv_220999",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1441,
+    "output_tokens": 1582,
+    "usd": 0.009351
+  },
+  {
+    "ts": "2026-11-21T07:33:41.367861+00:00",
+    "meeting_id": "rv_220998",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 964,
+    "output_tokens": 606,
+    "usd": 0.003994
+  },
+  {
+    "ts": "2026-11-21T07:33:48.296780+00:00",
+    "meeting_id": "rv_220997",
+    "jurisdiction": "rothschild",
+    "purpose": "agenda_summary",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 957,
+    "output_tokens": 726,
+    "usd": 0.004587
+  },
+  {
+    "ts": "2026-11-21T07:34:15.440093+00:00",
+    "meeting_id": "710a91f459cd14f98463",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1102,
+    "output_tokens": 296,
+    "usd": 0.002582
   }
 ]

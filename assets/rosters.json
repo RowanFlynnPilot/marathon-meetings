@@ -76,5 +76,43 @@
       "Lindsey Lewitzke (Board Member)",
       "Larry Schaefer (Board Member)"
     ]
+  },
+  "mosinee_schools": {
+    "body": "Mosinee School Board",
+    "officials": [
+      "Paul Nievinski (President)",
+      "Donna Kaiser (Clerk)",
+      "Megan Stankowski (Board Member)",
+      "Derek Nest (Board Member)",
+      "Diane Gorman (Board Member)",
+      "Calandra Zebro (Board Member)",
+      "Jessica Maple (Board Member)",
+      "David Bauer (Board Member)",
+      "Joseph Knoedler (Board Member)"
+    ]
+  },
+  "mosinee": {
+    "body": "City of Mosinee",
+    "officials": [
+      "Tom Helbach (Mayor)",
+      "Mark Gewiss (Alderperson, Ward 1 & 8)",
+      "Nelson Pasha Jr. (Alderperson, Ward 2)",
+      "Robert Stephens (Alderperson, Ward 3)",
+      "Todd Priest (Alderperson, Ward 4)",
+      "Mark Viau (Alderperson, Ward 5)",
+      "Doug Mielke (Alderperson, Ward 6 & 7)"
+    ]
+  },
+  "rothschild": {
+    "body": "Village of Rothschild",
+    "officials": [
+      "Dan Helgeson (Village President)",
+      "Deb Ehster (Trustee)",
+      "Jason Jablonski (Trustee)",
+      "Paul Kennedy (Trustee)",
+      "Louella Luedtke (Trustee)",
+      "Bill Schremp (Trustee)",
+      "Sam Stroik (Trustee)"
+    ]
   }
 }

@@ -1,0 +1,60 @@
+# Common Council - Regular Meeting - 2026-11-09
+
+**Organization:** City of Mosinee  
+**Source:** https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3507  
+**Documents:** https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3507  
+**Summarized:** 2026-11-21 07:30 UTC
+
+---
+
+## Meeting Overview
+Based on the published agenda, the City of Mosinee Common Council was scheduled to hold a regular meeting to address planning and zoning matters, public works updates, building permits, personnel and finance items, and public safety licensing. The meeting was set to consider an ordinance amendment regarding commercial taxi and medical transport services in residential districts and a conditional use permit for a specific transportation service operation.
+
+## Key Discussions
+### Ordinance No. 2026-02 - Land Use Regulation Amendment
+The Common Council was scheduled to discuss and take possible action on an ordinance amendment to allow commercial taxi and non-emergency medical transport services as a conditional use within the R-3 Single-Family Residence District. The agenda indicated that the Council may waive the first reading of the ordinance as part of this action.
+
+### Conditional Use Permit - 425 Super Street
+The Council was set to discuss and consider possible action on a conditional use permit application to allow the operation of a commercial taxi and non-emergency medical transportation service at 425 Super Street in Mosinee.
+
+### U.S. Flag Lowering Protocol for Memorial Observances
+The Public Works Committee was scheduled to present discussion and possible action items regarding the protocol for lowering the U.S. flag during memorial observances.
+
+### City of Mosinee Proposed 2027 Utility Budget
+The Council was set to review the proposed 2027 utility budget for the City of Mosinee, with discussion scheduled to inform budget decisions for the upcoming fiscal year.
+
+### Building Permit Applications
+The Building Committee was scheduled to discuss and take possible action on pending building permit applications submitted to the City.
+
+### Building Inspector's Report
+The Building Committee was set to review and possibly act on the Building Inspector's report detailing inspection activities and compliance matters.
+
+### Code Enforcement Report
+The Building Committee was scheduled to discuss and consider possible action items from the Code Enforcement Report.
+
+### Staff Training Requests
+The Personnel and Finance Committee was set to discuss and take possible action on staff training requests submitted by City departments.
+
+### Approval of City General Fund & Utility Fund Bills
+The Personnel and Finance Committee was scheduled to review and approve bills for payment from both the City's General Fund and Utility Fund.
+
+### 2027 Employee Health Insurance Plan Renewal
+The Personnel and Finance Committee was set to discuss and take possible action on the renewal of the employee health insurance plan for 2027.
+
+### Operators License Applications
+The Public Safety Committee was scheduled to discuss and consider possible action on applications for operator licenses.
+
+## Public Comment
+Public comment was indicated on the agenda for persons wishing to address the Mayor and Council on non-agenda items and for those wishing to address the Council on specific agenda items outside of public hearings.
+
+## Action Items
+- Scheduled to vote on Ordinance No. 2026-02 amending Land Use Regulations for commercial taxi/non-emergency medical transport services
+- Expected to consider conditional use permit for 425 Super Street transportation service operation
+- Scheduled to discuss and take possible action on U.S. Flag Lowering Protocol
+- Expected to review proposed 2027 Utility Budget
+- Scheduled to consider building permit applications
+- Expected to review Building Inspector's Report and Code Enforcement Report
+- Scheduled to consider staff training requests
+- Expected to approve General Fund and Utility Fund bills
+- Scheduled to discuss 2027 Employee Health Insurance Plan Renewal
+- Expected to consider operators license applications

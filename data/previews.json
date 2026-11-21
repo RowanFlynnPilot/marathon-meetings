@@ -47,7 +47,7 @@
     "source": "school_board"
   },
   "1840f1f9e200f1ed5335": {
-    "checked": "2026-11-20T17:00:54+00:00",
+    "checked": "2026-11-21T07:34:02+00:00",
     "date": "2026-11-24",
     "generations": 1,
     "hash": "8db015a421b00b6e2e11440661b612081723f05c",
@@ -194,7 +194,7 @@
     "source": "wausau"
   },
   "662de08195fcb475353f": {
-    "checked": "2026-11-20T17:00:54+00:00",
+    "checked": "2026-11-21T07:34:02+00:00",
     "date": "2026-11-24",
     "generations": 2,
     "hash": "fe87832777d86b691936fa0440d0176c727ec12a",
@@ -239,6 +239,43 @@
     },
     "prompt": "2",
     "source": "wausau"
+  },
+  "710a91f459cd14f98463": {
+    "checked": "2026-11-21T07:34:02+00:00",
+    "date": "2026-11-23",
+    "generations": 1,
+    "hash": "9670aae7d2129a741c7b22bd062670ed85a99a48",
+    "name": "Common Council - Budget Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-21T07:34:02+00:00",
+      "items": [
+        {
+          "action": "hearing",
+          "item": "Public hearing and adoption of 2027 city budget",
+          "why": "The council will hear public comment on the proposed 2027 budget and vote on Resolution 2026-08 to adopt it and authorize the tax levy."
+        },
+        {
+          "action": "vote",
+          "item": "Building permit applications",
+          "why": "The council will discuss and decide on pending building permit applications."
+        },
+        {
+          "action": "vote",
+          "item": "City employee holiday gift certificates",
+          "why": "The council will discuss and decide on holiday gift certificates for city employees."
+        },
+        {
+          "action": "vote",
+          "item": "Police labor agreement modification",
+          "why": "The council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association."
+        }
+      ],
+      "overview": "The Mosinee Common Council is scheduled to hold a public hearing on the city's 2027 budget and vote to adopt it. Residents can comment on the proposed budget before the council decides.",
+      "publicComment": true
+    },
+    "prompt": "2",
+    "source": "mosinee"
   },
   "b46119fc786a09bd3ddf": {
     "checked": "2026-11-21T01:35:22+00:00",

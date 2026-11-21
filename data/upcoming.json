@@ -379,6 +379,43 @@
   "weston": [
     {
       "date": "2026-11-23",
+      "time": "",
+      "name": "Mountain Bay Metropolitan Police Oversight Board",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1994",
+      "source": "weston"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "name": "Park and Recreation Committee",
+      "url": "https://www.westonwi.gov/AgendaCenter/ViewFile/Agenda/_11232026-1993",
+      "source": "weston",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-19T00:57:28+00:00",
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Farmers Market End of Season Survey results",
+            "why": "The committee will discuss feedback from 129 survey respondents about their experience at the Farmers Market held at Kennedy Park, covering parking, traffic flow, amenities, and other aspects."
+          },
+          {
+            "action": "discussion",
+            "item": "Kennedy Park Master Plan",
+            "why": "The committee will discuss and potentially act on updates to the master plan, which may need modifications based on the Farmers Market staying at the park and decisions from the youth hockey organization about using the northwest corner."
+          },
+          {
+            "action": "report",
+            "item": "Aquatic Center Repairs update",
+            "why": "Director Osterbrink will provide an update on ongoing leak detection and equipment replacement work being performed by Neuman Pools, which includes finding and repairing leaks in the play structure supply pipe."
+          }
+        ],
+        "overview": "The Parks and Recreation Committee will review survey feedback from the Farmers Market season at Kennedy Park and discuss the Kennedy Park Master Plan, which guides future improvements to the popular community facility.",
+        "publicComment": true
+      }
+    },
+    {
+      "date": "2026-11-23",
       "time": "6:00 PM",
       "name": "Parks & Recreation Committee",
       "url": "https://www.westonwi.gov/agendacenter",
@@ -602,6 +639,103 @@
       "name": "Regular School Board Meeting",
       "url": "https://meetings.boardbook.org/Public/Organization/1315",
       "source": "dc_everest"
+    }
+  ],
+  "mosinee_schools": [
+    {
+      "date": "2026-12-15",
+      "time": "6:00 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://mosineeschools.community.highbond.com/Portal/MeetingTypeList.aspx",
+      "source": "mosinee_schools"
+    },
+    {
+      "date": "2027-01-19",
+      "time": "6:00 PM",
+      "name": "Regular School Board Meeting",
+      "url": "https://mosineeschools.community.highbond.com/Portal/MeetingTypeList.aspx",
+      "source": "mosinee_schools"
+    }
+  ],
+  "mosinee": [
+    {
+      "date": "2026-11-23",
+      "time": "6:00 PM",
+      "name": "Common Council - Budget Meeting",
+      "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+      "source": "mosinee",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-21T07:34:02+00:00",
+        "items": [
+          {
+            "action": "hearing",
+            "item": "Public hearing and adoption of 2027 city budget",
+            "why": "The council will hear public comment on the proposed 2027 budget and vote on Resolution 2026-08 to adopt it and authorize the tax levy."
+          },
+          {
+            "action": "vote",
+            "item": "Building permit applications",
+            "why": "The council will discuss and decide on pending building permit applications."
+          },
+          {
+            "action": "vote",
+            "item": "City employee holiday gift certificates",
+            "why": "The council will discuss and decide on holiday gift certificates for city employees."
+          },
+          {
+            "action": "vote",
+            "item": "Police labor agreement modification",
+            "why": "The council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association."
+          }
+        ],
+        "overview": "The Mosinee Common Council is scheduled to hold a public hearing on the city's 2027 budget and vote to adopt it. Residents can comment on the proposed budget before the council decides.",
+        "publicComment": true
+      }
+    },
+    {
+      "date": "2026-12-14",
+      "time": "7:30 PM",
+      "name": "Common Council - Regular Meeting",
+      "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3520",
+      "source": "mosinee"
+    },
+    {
+      "date": "2027-01-11",
+      "time": "7:30 PM",
+      "name": "Common Council - Regular Meeting",
+      "url": "https://mosineecitywi.iqm2.com/Citizens/Default.aspx",
+      "source": "mosinee"
+    }
+  ],
+  "rothschild": [
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "name": "Planning and Zoning Commission",
+      "url": "https://www.rothschildwi.com/11-23-2026%20Planning%20&%20Zoning%20Agenda.pdf#rz1004",
+      "source": "rothschild"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "6:30 PM",
+      "name": "Village Board",
+      "url": "https://www.rothschildwi.com/11-23-2026%20-%20Joint%20Village%20Board%20&%20Water%20Utility%20Agenda.pdf#rz1009",
+      "source": "rothschild"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "6:30 PM",
+      "name": "Village Board",
+      "url": "https://www.rothschildwi.com/government/village_agendas_recordings___minute_meetings/index.php",
+      "source": "rothschild"
+    },
+    {
+      "date": "2026-12-28",
+      "time": "6:30 PM",
+      "name": "Village Board",
+      "url": "https://www.rothschildwi.com/government/village_agendas_recordings___minute_meetings/index.php",
+      "source": "rothschild"
     }
   ]
 }

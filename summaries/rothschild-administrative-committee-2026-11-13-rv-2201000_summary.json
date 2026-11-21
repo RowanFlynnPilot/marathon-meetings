@@ -1,0 +1,45 @@
+{
+  "overview": "Based on the published agenda, the Village of Rothschild Administrative Committee was scheduled to meet on November 13, 2026, to consider a motion to adjourn to closed session for discussion of employee performance evaluations under Wisconsin Statutes Section 19.85(1)(c), followed by potential action upon reconvening in open session.",
+  "committee": "Administrative Committee",
+  "presiding": "Elizabeth Felkner, Presiding Officer or Designee",
+  "agenda": [
+    {
+      "time": "8:30 a.m.",
+      "item": "Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Consideration of Motion to Adjourn to Closed Session Pursuant to Wisconsin Statutes Section 19.85(1)(c) to Discuss Employee Performance Evaluation"
+    },
+    {
+      "time": "N/A",
+      "item": "Motion to Reconvene into Open Session and Take Action Regarding Items Discussed in Closed Session"
+    },
+    {
+      "time": "N/A",
+      "item": "Adjourn"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Closed Session - Employee Performance Evaluation",
+      "body": "The committee was scheduled to consider a motion to adjourn into closed session pursuant to Wisconsin Statutes Section 19.85(1)(c) to discuss employee performance evaluation matters. This closed session was set to address employment-related personnel matters over which the Village of Rothschild exercises jurisdiction and responsibility."
+    }
+  ],
+  "publicComment": "Not indicated on agenda.",
+  "actionItems": [
+    "scheduled to vote on motion to adjourn to closed session",
+    "expected to reconvene in open session and take action on matters discussed in closed session"
+  ],
+  "topics": [
+    "Staffing",
+    "Personnel Management",
+    "Employee Performance"
+  ],
+  "_source": "agenda",
+  "title": "Administrative Committee - 2026-11-13",
+  "url": "https://www.rothschildwi.com/11-13-2026%20Administrative%20Agenda.pdf#rz1000",
+  "source": "rothschild",
+  "doc_url": "https://www.rothschildwi.com/11-13-2026%20Administrative%20Agenda.pdf#rz1000",
+  "processed_at": "2026-11-21T07:33:22.790872+00:00"
+}
