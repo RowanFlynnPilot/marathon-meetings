@@ -1,6 +1,6 @@
 {
   "0b8dc6e2f034452db544": {
-    "checked": "2026-11-21T01:35:22+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "87e4084cf676d0c08de203e526c33aee2bb6451f",
@@ -94,7 +94,7 @@
     "source": "wausau"
   },
   "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-21T01:35:22+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "06b6619020510e165db519f60da43f9304559641",
@@ -136,7 +136,7 @@
     "source": "wausau"
   },
   "40f8a47f78dac7d1f4e7": {
-    "checked": "2026-11-21T01:35:22+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "8a98aea67e0e0af8ec6fe5bf666680c2749b99f7",
@@ -278,7 +278,7 @@
     "source": "mosinee"
   },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-21T01:35:22+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
@@ -310,39 +310,54 @@
     "source": "weston"
   },
   "c0025436f0c30c706fd8": {
-    "checked": "2026-11-20T07:24:09+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-24",
-    "generations": 1,
-    "hash": "b4538456bcee339a00acdb9021ffe2498eff5852",
+    "generations": 2,
+    "hash": "57e9e00b26f0bedd061cd407cf64f9b8388f77dd",
     "name": "Finance Committee Meeting",
     "preview": {
       "closedSession": false,
-      "generated": "2026-11-19T13:19:20+00:00",
+      "generated": "2026-11-21T14:33:36+00:00",
       "items": [
         {
           "action": "vote",
-          "item": "Approve five service and equipment agreements for city",
-          "why": "The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators."
+          "item": "Approve purchase of cardiac monitors and ventilators for Fire Department",
+          "why": "The committee will vote on a purchase and security agreement with Zoll Medical Corporation to buy cardiac monitors and ventilators for the Fire Department."
         },
         {
           "action": "vote",
-          "item": "Approve $69,000 budget modification for Athletic Park lift",
-          "why": "The committee will vote on funding for an outdoor vertical platform lift at Athletic Park."
+          "item": "Approve animal impoundment services agreement with Humane Society",
+          "why": "The committee will vote on approving a purchase of animal impoundment services agreement with the Humane Society of Marathon County, Inc."
         },
         {
-          "action": "report",
-          "item": "Update on county pet license fee structure for 2027",
-          "why": "The committee will receive an update on how the county pet license fees may change in 2027."
+          "action": "vote",
+          "item": "Approve purchase of outdoor vertical platform lift for Athletic Park",
+          "why": "The committee will vote on a budget modification and sole source request to purchase an outdoor vertical platform lift for Athletic Park."
+        },
+        {
+          "action": "vote",
+          "item": "Approve mapping software agreement with Esri",
+          "why": "The committee will vote on approving a Small Government Enterprise Agreement with Environmental Systems Research Institute, Inc. for mapping software."
+        },
+        {
+          "action": "vote",
+          "item": "Approve production agreement with Marathon County",
+          "why": "The committee will vote on approving a production agreement between Marathon County and the City of Wausau."
+        },
+        {
+          "action": "vote",
+          "item": "Approve agreement with Wausau Cemetery Association",
+          "why": "The committee will vote on approving an agreement between the City of Wausau and the Wausau Cemetery Association."
         }
       ],
-      "overview": "The Finance Committee is scheduled to vote on five service and equipment agreements for city departments, including animal impoundment services, mapping software, cemetery operations, and fire department cardiac equipment. The committee will also approve a $69,000 budget modification for an outdoor lift at Athletic Park.",
+      "overview": "The Finance Committee is scheduled to approve several service agreements and equipment purchases, including animal impoundment services, mapping software, a cardiac monitor and ventilator purchase for the Fire Department, and a lift for Athletic Park.",
       "publicComment": true
     },
     "prompt": "2",
     "source": "wausau"
   },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-21T01:35:22+00:00",
+    "checked": "2026-11-21T14:33:36+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",

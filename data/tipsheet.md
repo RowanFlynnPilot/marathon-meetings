@@ -19,8 +19,12 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: 2027 budgets for five housing programs. The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs.
   - VOTE: Repositioning scattered-sites public housing to vouchers. S.C. Koegler Consulting will present options for restructuring, and the board will vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers.
 - [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
-  - VOTE: Approve five service and equipment agreements for city. The committee will vote on agreements with the Humane Society for animal impoundment services, Environmental Systems Research Institute for mapping software, Marathon County for production services, the Wausau Cemetery Association for cemetery operations, and Zoll Medical Corporation for fire department cardiac monitors and ventilators.
-  - VOTE: Approve $69,000 budget modification for Athletic Park lift. The committee will vote on funding for an outdoor vertical platform lift at Athletic Park.
+  - VOTE: Approve purchase of cardiac monitors and ventilators for Fire Department. The committee will vote on a purchase and security agreement with Zoll Medical Corporation to buy cardiac monitors and ventilators for the Fire Department.
+  - VOTE: Approve animal impoundment services agreement with Humane Society. The committee will vote on approving a purchase of animal impoundment services agreement with the Humane Society of Marathon County, Inc.
+  - VOTE: Approve purchase of outdoor vertical platform lift for Athletic Park. The committee will vote on a budget modification and sole source request to purchase an outdoor vertical platform lift for Athletic Park.
+  - VOTE: Approve mapping software agreement with Esri. The committee will vote on approving a Small Government Enterprise Agreement with Environmental Systems Research Institute, Inc. for mapping software.
+  - VOTE: Approve production agreement with Marathon County. The committee will vote on approving a production agreement between Marathon County and the City of Wausau.
+  - VOTE: Approve agreement with Wausau Cemetery Association. The committee will vote on approving an agreement between the City of Wausau and the Wausau Cemetery Association.
 - [Tuesday, Nov 24, 6:30 PM: City of Wausau, Common Council Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/1984/overview)
   - VOTE: Employee salary structure revision and tax rate approvals. The council will vote on a joint resolution revising the salary structure for general employees and a resolution establishing the 2026 property tax equivalent for Wausau Water Works.
   - VOTE: Special assessments for 2027 street construction projects. The council will vote on a preliminary resolution to levy special assessments on properties affected by 2027 street construction.
@@ -47,18 +51,37 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Recurring specifics, past 30 days
 
+- Code Enforcement: 2 meetings (City of Mosinee, Village of Weston)
+  - City of Mosinee, Common Council - Regular Meeting (November 9, 2026)
+  - Village of Weston, Community Life & Public Safety (October 26, 2026)
 - Consent Agenda: 2 meetings (City of Wausau, Mosinee School Board)
   - Mosinee School Board, Personnel Committee Meeting (November 17, 2026)
   - City of Wausau, Rules Review Committee Meeting (November 9, 2026)
+- Lead Service Line Replacement: 3 meetings (City of Wausau)
+  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
+  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
+  - City of Wausau, Common Council Meeting (October 27, 2026)
+- Tax Increment Districts: 3 meetings (Village of Kronenwetter)
+  - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
+  - Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026)
+  - Village of Kronenwetter, Revised Village Board Meeting (October 26, 2026)
+- Aquatic Center: 2 meetings (Village of Weston)
+  - Village of Weston, Board of Trustees (November 16, 2026)
+  - Village of Weston, Parks and Recreation Committee (October 26, 2026)
 - Cedar Creek Recreation Area: 2 meetings (Village of Rothschild)
   - Village of Rothschild, Aquatic Center Commission (November 5, 2026)
   - Village of Rothschild, Outdoor Recreation Committee (November 4, 2026)
-- Tax Increment Districts: 2 meetings (Village of Kronenwetter)
-  - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
-  - Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026)
+- Flock Cameras: 2 meetings (City of Wausau)
+  - City of Wausau, City Council Meeting (November 10, 2026)
+  - City of Wausau, Common Council Meeting (October 27, 2026)
+- Surveillance Technology: 2 meetings (Marathon County)
+  - Marathon County, Public Safety Committee Meeting (November 10, 2026)
+  - Marathon County, Board (Budget Hearing) (November 2, 2026)
 
 ## Still waiting on a recording or minutes
 
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 26 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 24 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
 - [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 12 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
 - [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
 - [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 9 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
