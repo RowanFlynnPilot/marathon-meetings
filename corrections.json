@@ -94,5 +94,45 @@
     "date": "2026-11-17",
     "kind": "privacy",
     "note": "Named person tied to a health condition; the summary keeps the fundraiser, not the name."
+  },
+  {
+    "id": "z5NpUq8n9DY",
+    "find": "met on Monday, July 21, 2025",
+    "replace": "met on Monday, July 20, 2026",
+    "date": "2026-11-20",
+    "kind": "correction",
+    "note": "Summary gave the wrong date for the meeting; corrected to the date the meeting was held."
+  },
+  {
+    "id": "u4JqC0FMt8U",
+    "find": "met on August 24, 2025",
+    "replace": "met on August 24, 2026",
+    "date": "2026-11-20",
+    "kind": "correction",
+    "note": "Summary gave the wrong date for the meeting; corrected to the date the meeting was held."
+  },
+  {
+    "id": "GFQ6AgLUfeE",
+    "find": "met on September 15, 2025",
+    "replace": "met on September 1, 2026",
+    "date": "2026-11-20",
+    "kind": "correction",
+    "note": "Summary gave the wrong date for the meeting; corrected to the date the meeting was held."
+  },
+  {
+    "id": "BuG4S4Q-V2k",
+    "find": "met on September 30, 2024",
+    "replace": "met on September 28, 2026",
+    "date": "2026-11-20",
+    "kind": "correction",
+    "note": "Summary gave the wrong date for the meeting; corrected to the date the meeting was held."
+  },
+  {
+    "id": "svZQYS81_uI",
+    "find": "met on October 20, 2025",
+    "replace": "met on October 19, 2026",
+    "date": "2026-11-20",
+    "kind": "correction",
+    "note": "Summary gave the wrong date for the meeting; corrected to the date the meeting was held."
   }
 ]
