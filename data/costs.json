@@ -1538,5 +1538,15 @@
     "input_tokens": 7149,
     "output_tokens": 2265,
     "usd": 0.055422
+  },
+  {
+    "ts": "2026-11-21T03:13:23.028733+00:00",
+    "meeting_id": "kPvpA6dRbYM",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 7453,
+    "output_tokens": 2366,
+    "usd": 0.057849
   }
 ]

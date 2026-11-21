@@ -7,7 +7,7 @@
 ---
 
 ## Meeting Overview
-The Village of Weston Finance and Human Resources Committee met on Monday, July 21, 2025, taking action on several items including approving a renewed Cintas uniform agreement, approving related employee policy handbook changes, extending the village's audit contract with Hawkins Ash for 2026, acknowledging the 2025 final audit report, and approving the 2027 budget process calendar with joint Finance/HR and board meetings. The meeting also included a substantive discussion about staff morale, the annual exit interview report, and an introduction of an ethics policy review process referred from the board of trustees.
+The Village of Weston Finance and Human Resources Committee met on Monday, July 20, 2026, taking action on several items including approving a renewed Cintas uniform agreement, approving related employee policy handbook changes, extending the village's audit contract with Hawkins Ash for 2026, acknowledging the 2025 final audit report, and approving the 2027 budget process calendar with joint Finance/HR and board meetings. The meeting also included a substantive discussion about staff morale, the annual exit interview report, and an introduction of an ethics policy review process referred from the board of trustees.
 
 ## Key Discussions
 ### Public Comment

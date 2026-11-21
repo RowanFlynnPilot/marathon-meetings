@@ -7,7 +7,7 @@
 ---
 
 ## Meeting Overview
-The Wausau Police & Fire Commission met on August 24, 2025, welcoming new member Lisa Nowak and appointing V Lesky as secretary. The commission approved a new deputy chief promotional process designed as an early step in police chief succession planning, and received updates from both fire and police chiefs highlighting ongoing staffing shortages, budget pressures, a viral use-of-force incident, and a fundraiser for an officer with stage four cancer.
+The Wausau Police & Fire Commission met on August 24, 2026, welcoming new member Lisa Nowak and appointing V Lesky as secretary. The commission approved a new deputy chief promotional process designed as an early step in police chief succession planning, and received updates from both fire and police chiefs highlighting ongoing staffing shortages, budget pressures, a viral use-of-force incident, and a fundraiser for an officer with stage four cancer.
 
 ## Key Discussions
 ### Welcome of New Commissioner Lisa Nowak and Appointment of Secretary

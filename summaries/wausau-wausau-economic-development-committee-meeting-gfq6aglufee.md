@@ -7,7 +7,7 @@
 ---
 
 ## Meeting Overview
-The Wausau Economic Development Committee met on September 15, 2025, covering several significant development matters including survey results for the contaminated 1300 Cleveland Avenue site, a proposed mixed-use development agreement with Wangard for the Riverlife South project, and an early-stage public housing expansion proposal from the CDA. The Wangard development agreement failed to pass after a 2-1 vote, while the committee directed staff to schedule a green team meeting with the DNR and prepare a formal deed restriction formalizing non-industrial use of the Cleveland Avenue property.
+The Wausau Economic Development Committee met on September 1, 2026, covering several significant development matters including survey results for the contaminated 1300 Cleveland Avenue site, a proposed mixed-use development agreement with Wangard for the Riverlife South project, and an early-stage public housing expansion proposal from the CDA. The Wangard development agreement failed to pass after a 2-1 vote, while the committee directed staff to schedule a green team meeting with the DNR and prepare a formal deed restriction formalizing non-industrial use of the Cleveland Avenue property.
 
 ## Key Discussions
 ### Public Comment

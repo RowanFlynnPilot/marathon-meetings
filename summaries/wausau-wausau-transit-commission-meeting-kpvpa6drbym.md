@@ -2,43 +2,44 @@
 
 **Organization:** City of Wausau  
 **Source:** https://www.youtube.com/watch?v=kPvpA6dRbYM  
-**Summarized:** 2026-11-21 01:40 UTC
+**Summarized:** 2026-11-21 03:13 UTC
 
 ---
 
 ## Meeting Overview
-The Wausau Transit Commission met on November 19, 2024, approving four action items related to transit infrastructure upgrades and planning, all funded largely through grants. Key decisions included authorizing RFPs for new farboxes and exterior door replacements, permission to seek bids for a ceiling replacement at the Metro Ride facility, an update to procurement policy, and approval of a $150,000 transit development planning study. Director Ron also provided updates on new Gillig buses arriving and ongoing challenges with the Wisco contract.
+The Wausau Transit Commission met on November 19, 2026, and unanimously approved four action items: issuing an RFP for new cash-only fare boxes, authorizing bids for replacement of exterior doors at the Metro Ride facility, authorizing bids for ceiling replacement at the facility, and aligning Metro Ride's procurement policy with the City of Wausau's. The commission also unanimously approved participation in a transit development planning study funded largely by a $120,000 state grant. Director Ron reported that 10 new Gillig buses have arrived and will be phased into service, while the Wisco mobile fare contract remains stalled over unresolved contract language concerns.
 
 ## Key Discussions
-### Approval of Minutes
-The chair noted a correction that his excused absence was not reflected in the previous meeting's minutes. Alder Watson moved to approve the minutes as adjusted, seconded by Christopher Williams, and the motion passed unanimously.
+### Approval of Minutes of Preceding Meeting
+The presiding officer noted a correction was needed because their own excused absence did not appear in the minutes. Alder Sarah Watson moved to approve the minutes as adjusted, and Christopher Williams seconded. The motion passed unanimously.
 
-### 4A: New Farboxes RFP
-Transit Director Ron explained that the existing Genfair farboxes installed in 1996 are failing and parts are unavailable. He proposed replacing them with simple, non-electronic cash boxes funded by an 80/20 grant, noting that electronic farboxes would cost roughly half a million dollars. Christopher Williams expressed strong support, and the commission voted unanimously to authorize issuance of an RFP.
+### 4A: Permission to Issue RFP for New Fare Boxes
+Transit Director Ron explained that the existing Genfair fare boxes installed in 1996 are failing and parts are unavailable. He proposed replacing them with simple, low-tech cash-only boxes with a lockable vault, funded by an 80/20 grant, noting that electronic fare boxes would cost roughly half a million dollars by comparison. Christopher Williams expressed strong support, and commission members asked about fare counting and anticipated use of electronic payment alternatives. Christopher Williams moved and Kathy Zorn seconded; the motion passed unanimously.
 
-### 4B: Exterior Door Replacement RFP
-Ron explained that the Metro Ride facility's original 1970s-era doors are rusted through and highly energy inefficient — the facility ranked at the bottom of a city-wide energy efficiency study. He noted the urgency of using an 80/20 grant expiring in March before the funds lapse, and estimated costs under $50,000. A commissioner questioned the logic of upgrading a building slated for eventual replacement; Ron estimated a new transit facility was likely 10 or more years away. The commission voted unanimously to authorize an RFP.
+### 4B: Permission to Replace Exterior Doors at Metro Ride Facility
+Ron explained that the facility's original 1970s-era doors are rusted through and the building ranked at the bottom of a city-wide energy efficiency study. He emphasized the need to spend remaining 80/20 grant funds before they expire in March, and noted that selling the building in the future would benefit from improvements. Commission members questioned the wisdom of upgrading a building intended for replacement, but Ron estimated a new facility is likely a decade or more away. Christopher Williams moved and Kathy Zorn seconded; the motion to seek quotes passed unanimously.
 
-### 4C: Ceiling Replacement Bids
-Ron described the facility's original ceiling tiles as heavily water-stained and sagging, with the new roof already installed five years ago. Because the project is estimated under $50,000, it will not require a formal RFP but only three bids per procurement policy. Kathy Zorn moved and Christopher Williams seconded; the commission voted unanimously to authorize seeking three bids, with the expectation results would return at the December meeting.
+### 4C: Permission for Ceiling Replacement at Metro Ride Facility
+Ron described the ceiling tiles as heavily water-stained and sagging from past roof leaks, noting the roof itself was replaced about five years ago. He said the work would be under $50,000 and would not require a full RFP — just three competitive bids — with results to come back at the next monthly meeting. Kathy Zorn moved and Christopher Williams seconded; the motion passed unanimously.
 
-### 4D: Procurement Policy Update
-Ron sought permission to align Metro Ride's procurement policy dollar thresholds with the City of Wausau's recently updated policy, noting that Metro Ride maintains a separate policy due to FTA requirements. He emphasized he wanted commission approval before making changes rather than assuming consent. Alder Watson asked clarifying questions about which version of the policy was current. The commission voted unanimously to authorize Ron to pursue the alignment, with a final updated policy to return for a vote next month.
+### 4D: Permission to Update Metro Ride Procurement Policy to Match City of Wausau Policy
+Ron sought commission approval to align Metro Ride's procurement dollar thresholds with those recently updated in the City of Wausau's policy, noting FTA regulations require Metro Ride to maintain its own separate policy. He said a finalized updated policy would return for a formal vote next month. Alder Watson asked clarifying questions about which version of the policy was current. A commission member moved to permit pursuing the ordinance alignment; the motion passed unanimously.
 
-### 4E: Transit Development Plan Planning Study
-Lori Mskimmons, Director of the Wausau MPO (housed within Marathon County), presented the item, explaining the MPO and Metro Ride update their transit development plan every five years, with the last one completed near the end of COVID. The $150,000 study — $120,000 from the state, $6,000 from the MPO (already committed), and $24,000 from the city — will examine microtransit needs, service efficiency, and unmet community needs, with work beginning in 2027 and taking about a year. Ron noted FTA grant compliance requires the study. Alder Watson raised a question about where the $24,000 city match would come from; Ron indicated reserves and budget savings from staff vacancies would likely cover it. The commission voted unanimously to approve, with the item also proceeding to the Finance Committee and City Council.
+### 4E: Permission for Transit Development Planning Study
+Lori Mskimmons, Director of the Wausau MPO housed within Marathon County, explained that the MPO and Metro Ride are required by the FTA to update their transit development plan every five years. The study will examine unmet needs, service efficiency, and potential microtransit options, with the MPO committing $6,000, the state providing $120,000, and the city's match set at $24,000. Ron noted the FTA requirement and that Metro Ride has reserves and operational savings that should cover the $24,000 match. Alder Watson asked about budget sourcing; Ron expressed confidence in available reserves and grant offsets. Christopher Williams moved and Kathy Zorn seconded; the motion passed unanimously, with Ron noting it would also proceed to the Finance Committee and full Council.
 
-### Director's Reports: New Gillig Buses, CAD AVL, Wisco Contract
-Ron reported all 10 new Gillig buses purchased through a VW grant are now on-site and will be phased into service starting after Thanksgiving, with a goal of full deployment by end of December. He noted the CAD AVL real-time bus tracking system will go live to the public once the new buses are in service, allowing riders to see bus locations, capacity, and estimated arrival times; commissioners asked about detour updates and public training, with Ron acknowledging detour management has been a challenge. On the Wisco electronic fare contract, Ron reported the city attorney flagged unresolved language concerns — specifically, lack of rider protection if Milwaukee Transit or vendor UMO ends the relationship — and the city is awaiting a response from Milwaukee Transit on proposed contract changes.
+### 5A-C: Director's Reports — New Gillig Buses, CAD/AVL Update, Wisco Contract Update
+Ron reported all 10 new Gillig buses funded by a VW grant have arrived on Metro Ride's property and will be phased into service starting after Thanksgiving, with the goal of having all running by end of December. He said the CAD/AVL real-time bus tracking system will go live to the public once the new buses are in service, though he cautioned that keeping detour information updated in real time has been a challenge. On the Wisco mobile fare system, Ron said the city attorney raised concerns about passenger fund protections if Milwaukee Transit were to drop UMO as the platform provider, and that Metro Ride is awaiting a response from Milwaukee Transit on revised contract language before moving forward.
 
 ## Public Comment
 No public comment was offered.
 
 ## Action Items
-- Authorize issuance of RFP for new non-electronic farboxes, funded by 80/20 grant
-- Authorize issuance of RFP for exterior door replacement at Metro Ride facility, funded by 80/20 grant
-- Authorize Ron to solicit three bids for ceiling replacement at Metro Ride facility; item to return to commission in December
-- Authorize Ron to draft updated procurement policy aligning Metro Ride dollar thresholds with City of Wausau policy; final policy to return for commission vote
-- Approve participation in $150,000 transit development planning study with MPO; item to proceed to Finance Committee and City Council for $24,000 city match approval
-- Begin phasing new Gillig buses into service after Thanksgiving with goal of full fleet deployment by end of December
-- Await response from Milwaukee Transit on Wisco contract language concerns before proceeding
+- Issue RFP for new cash-only fare boxes funded by 80/20 grant
+- Seek bids (via RFP) for replacement of exterior doors at Metro Ride facility funded by 80/20 grant
+- Seek three competitive bids for ceiling replacement at Metro Ride facility; bring results back to next monthly meeting
+- Ron to work with city staff (Ann) to update Metro Ride procurement policy dollar thresholds to match City of Wausau policy; bring finalized policy back for vote next month
+- Proceed with transit development planning study with MPO; city's $24,000 match to go before Finance Committee and full Council
+- Phase new Gillig buses into service starting after Thanksgiving, targeting full fleet by end of December
+- Await response from Milwaukee Transit on revised Wisco contract language before proceeding with Wisco mobile fare rollout
+- Bring multiple updated policies (drug/alcohol, procurement, others) back to commission next month for formal vote per FTA triennial review requirements

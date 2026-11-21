@@ -7,7 +7,7 @@
 ---
 
 ## Meeting Overview
-The Village of Weston Parks and Recreation Committee met on September 30, 2024, covering updates on Kennedy Park renovations, the Muler Park master plan, aquatic center repairs, and a farmers market end-of-season survey. The committee voted to conduct a fall farmers market survey with an added question about Kennedy Park usage, and approved moving forward with an updated aquatic center facility evaluation.
+The Village of Weston Parks and Recreation Committee met on September 28, 2026, covering updates on Kennedy Park renovations, the Muler Park master plan, aquatic center repairs, and a farmers market end-of-season survey. The committee voted to conduct a fall farmers market survey with an added question about Kennedy Park usage, and approved moving forward with an updated aquatic center facility evaluation.
 
 ## Key Discussions
 ### Approval of minutes from August 24th meeting
