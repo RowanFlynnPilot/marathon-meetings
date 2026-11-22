@@ -1,6 +1,6 @@
 {
   "0b8dc6e2f034452db544": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "87e4084cf676d0c08de203e526c33aee2bb6451f",
@@ -94,7 +94,7 @@
     "source": "wausau"
   },
   "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "06b6619020510e165db519f60da43f9304559641",
@@ -136,7 +136,7 @@
     "source": "wausau"
   },
   "40f8a47f78dac7d1f4e7": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "8a98aea67e0e0af8ec6fe5bf666680c2749b99f7",
@@ -150,48 +150,6 @@
     },
     "prompt": "2",
     "source": "school_board"
-  },
-  "66023df6f800498da2b6": {
-    "checked": "2026-11-19T13:19:20+00:00",
-    "date": "2026-11-19",
-    "generations": 1,
-    "hash": "d59631dbe8085be71479b4704c54a3ca55b7be42",
-    "name": "Transit Commission Meeting",
-    "preview": {
-      "closedSession": false,
-      "generated": "2026-11-19T00:57:28+00:00",
-      "items": [
-        {
-          "action": "vote",
-          "item": "New fare boxes for Metro Ride; approve request for proposal",
-          "why": "The commission is being asked to approve moving forward with replacing current fare boxes using an 80/20 grant."
-        },
-        {
-          "action": "vote",
-          "item": "Metro Ride facility exterior doors replacement and ceiling repair",
-          "why": "The commission is being asked to approve replacing entrance and garage doors (under $50,000) and repairing the original ceiling damaged by past roof leaks, both funded by an 80/20 grant."
-        },
-        {
-          "action": "vote",
-          "item": "Metro Ride procurement policy update to match city policy",
-          "why": "The commission is being asked to approve updating the current procurement policy."
-        },
-        {
-          "action": "vote",
-          "item": "City contribution to updated transit development planning study",
-          "why": "The commission is being asked to approve a $24,000 city contribution toward a $120,000 state-funded and MPO-funded planning study for an updated Metro Ride development plan."
-        },
-        {
-          "action": "report",
-          "item": "New Gillig buses, CAD/AVL update, WisGo contract",
-          "why": "The director will report on new buses, computer-aided dispatch and automatic vehicle location updates, and the WisGo contract."
-        }
-      ],
-      "overview": "The Transit Commission is scheduled to decide on replacing aging equipment and facilities at Metro Ride, including new fare boxes, exterior doors, and a ceiling, all funded by state grants. The commission will also consider a $24,000 city contribution toward a $120,000 state-funded planning study for transit development.",
-      "publicComment": true
-    },
-    "prompt": "2",
-    "source": "wausau"
   },
   "662de08195fcb475353f": {
     "checked": "2026-11-21T21:42:23+00:00",
@@ -278,7 +236,7 @@
     "source": "mosinee"
   },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
@@ -310,7 +268,7 @@
     "source": "weston"
   },
   "c0025436f0c30c706fd8": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-24",
     "generations": 2,
     "hash": "57e9e00b26f0bedd061cd407cf64f9b8388f77dd",
@@ -357,7 +315,7 @@
     "source": "wausau"
   },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-21T14:33:36+00:00",
+    "checked": "2026-11-22T06:57:06+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",
