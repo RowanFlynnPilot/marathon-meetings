@@ -251,5 +251,10 @@
   "url": "https://www.youtube.com/watch?v=vVRCWXClAlE",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:30:07.447199+00:00"
+  "processed_at": "2026-11-21T17:30:07.447199+00:00",
+  "issues": [
+    "zoning_land_use",
+    "environment_energy",
+    "water_utilities"
+  ]
 }

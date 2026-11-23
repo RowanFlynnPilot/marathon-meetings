@@ -98,5 +98,9 @@
   "url": "https://www.youtube.com/watch?v=oFltThftT1g",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754152",
-  "processed_at": "2026-08-30T03:31:19.502497+00:00"
+  "processed_at": "2026-08-30T03:31:19.502497+00:00",
+  "issues": [
+    "staffing_pay",
+    "budget_taxes"
+  ]
 }

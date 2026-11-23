@@ -35,5 +35,8 @@
   "topics": [
     "Staffing"
   ],
-  "votes": []
+  "votes": [],
+  "issues": [
+    "staffing_pay"
+  ]
 }

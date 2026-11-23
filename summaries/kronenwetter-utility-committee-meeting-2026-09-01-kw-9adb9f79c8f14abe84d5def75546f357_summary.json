@@ -112,5 +112,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-uc/page/utility-committee-meeting-29",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-9adb9f79c8f14abe84d5def75546f357.pdf",
-  "processed_at": "2026-09-25T09:39:30.085732+00:00"
+  "processed_at": "2026-09-25T09:39:30.085732+00:00",
+  "issues": [
+    "water_utilities",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

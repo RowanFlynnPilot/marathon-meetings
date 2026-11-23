@@ -133,5 +133,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "buildings_facilities",
+    "staffing_pay"
   ]
 }

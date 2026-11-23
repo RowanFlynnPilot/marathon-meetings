@@ -160,5 +160,10 @@
   "url": "https://www.youtube.com/watch?v=tS02LFDlDVw",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-09-24T02:59:27.505676+00:00"
+  "processed_at": "2026-09-24T02:59:27.505676+00:00",
+  "issues": [
+    "budget_taxes",
+    "housing_development",
+    "public_safety"
+  ]
 }

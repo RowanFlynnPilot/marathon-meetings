@@ -205,5 +205,10 @@
   "url": "https://www.youtube.com/watch?v=z5NpUq8n9DY",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-07-24T02:27:09.444742+00:00"
+  "processed_at": "2026-07-24T02:27:09.444742+00:00",
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "government_elections"
+  ]
 }

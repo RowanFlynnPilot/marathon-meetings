@@ -125,5 +125,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/community-life-infrastructure-and-public-property-clipp-committee-meeting-27",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-7d8d40bd5c914413b079613170d2d052.pdf",
-  "processed_at": "2026-10-09T06:08:54.067944+00:00"
+  "processed_at": "2026-10-09T06:08:54.067944+00:00",
+  "issues": [
+    "budget_taxes",
+    "roads_transportation",
+    "water_utilities"
+  ]
 }

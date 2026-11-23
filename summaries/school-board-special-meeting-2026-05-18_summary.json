@@ -44,5 +44,8 @@
   "processed_at": "2026-05-20T05:03:38.566541+00:00",
   "topics": [
     "Staffing"
+  ],
+  "issues": [
+    "staffing_pay"
   ]
 }

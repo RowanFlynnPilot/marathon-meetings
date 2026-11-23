@@ -134,5 +134,9 @@
   "url": "https://www.youtube.com/watch?v=uCg0cFqGqHU",
   "source": "dc_everest",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=757113",
-  "processed_at": "2026-08-30T03:32:07.611063+00:00"
+  "processed_at": "2026-08-30T03:32:07.611063+00:00",
+  "issues": [
+    "schools_learning",
+    "buildings_facilities"
+  ]
 }

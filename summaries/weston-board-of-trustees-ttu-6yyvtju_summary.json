@@ -317,5 +317,10 @@
   "url": "https://www.youtube.com/watch?v=ttU_6yyVtjU",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:27:14.135886+00:00"
+  "processed_at": "2026-11-21T17:27:14.135886+00:00",
+  "issues": [
+    "public_safety",
+    "budget_taxes",
+    "buildings_facilities"
+  ]
 }

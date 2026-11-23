@@ -118,5 +118,9 @@
   "url": "https://www.youtube.com/watch?v=won1HJVxsM4",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-01T15:27:57.601488+00:00"
+  "processed_at": "2026-10-01T15:27:57.601488+00:00",
+  "issues": [
+    "health_human_services",
+    "budget_taxes"
+  ]
 }

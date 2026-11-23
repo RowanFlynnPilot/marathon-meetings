@@ -93,5 +93,10 @@
     "Zoning",
     "Development",
     "Staffing"
+  ],
+  "issues": [
+    "zoning_land_use",
+    "housing_development",
+    "staffing_pay"
   ]
 }

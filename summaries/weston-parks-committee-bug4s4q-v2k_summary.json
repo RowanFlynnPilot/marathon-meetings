@@ -139,5 +139,9 @@
   "url": "https://www.youtube.com/watch?v=BuG4S4Q-V2k",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-09-29T18:07:19.136231+00:00"
+  "processed_at": "2026-09-29T18:07:19.136231+00:00",
+  "issues": [
+    "parks_recreation",
+    "budget_taxes"
+  ]
 }

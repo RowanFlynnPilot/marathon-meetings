@@ -69,5 +69,9 @@
   "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3517",
   "source": "mosinee",
   "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3517",
-  "processed_at": "2026-11-21T07:33:05.249969+00:00"
+  "processed_at": "2026-11-21T07:33:05.249969+00:00",
+  "issues": [
+    "budget_taxes",
+    "housing_development"
+  ]
 }

@@ -166,5 +166,9 @@
   "url": "https://www.youtube.com/watch?v=g51JqvECxUs",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-07-14T20:59:25.941275+00:00"
+  "processed_at": "2026-07-14T20:59:25.941275+00:00",
+  "issues": [
+    "zoning_land_use",
+    "housing_development"
+  ]
 }

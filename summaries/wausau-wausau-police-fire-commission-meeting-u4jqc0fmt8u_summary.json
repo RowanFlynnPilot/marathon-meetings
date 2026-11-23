@@ -102,5 +102,9 @@
   "url": "https://www.youtube.com/watch?v=u4JqC0FMt8U",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:44:43.112420+00:00"
+  "processed_at": "2026-08-30T04:44:43.112420+00:00",
+  "issues": [
+    "public_safety",
+    "staffing_pay"
+  ]
 }

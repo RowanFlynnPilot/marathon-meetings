@@ -124,5 +124,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "water_utilities",
+    "roads_transportation",
+    "buildings_facilities"
   ]
 }

@@ -119,5 +119,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/revised-administrative-policy-committee-meeting-8",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e52048a0303f4ab683160cb2c74875cb.pdf",
-  "processed_at": "2026-08-29T21:27:08.116577+00:00"
+  "processed_at": "2026-08-29T21:27:08.116577+00:00",
+  "issues": [
+    "budget_taxes",
+    "parks_recreation",
+    "roads_transportation"
+  ]
 }

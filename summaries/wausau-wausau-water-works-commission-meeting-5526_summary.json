@@ -78,5 +78,9 @@
   "topics": [
     "Budget",
     "Utilities"
+  ],
+  "issues": [
+    "budget_taxes",
+    "water_utilities"
   ]
 }

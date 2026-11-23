@@ -111,5 +111,9 @@
   "url": "https://www.youtube.com/watch?v=-SFidjEgoHg",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:00:26.391701+00:00"
+  "processed_at": "2026-08-30T04:00:26.391701+00:00",
+  "issues": [
+    "jobs_economy",
+    "zoning_land_use"
+  ]
 }

@@ -96,5 +96,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-30",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-298c0e85a9a64543ad0884f861e78744.pdf",
-  "processed_at": "2026-09-25T09:38:38.517466+00:00"
+  "processed_at": "2026-09-25T09:38:38.517466+00:00",
+  "issues": [
+    "zoning_land_use",
+    "roads_transportation",
+    "environment_energy"
+  ]
 }

@@ -117,5 +117,9 @@
     "Utilities",
     "Weston Public Works"
   ],
-  "votes": []
+  "votes": [],
+  "issues": [
+    "roads_transportation",
+    "water_utilities"
+  ]
 }

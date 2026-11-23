@@ -123,5 +123,8 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "budget_taxes"
   ]
 }

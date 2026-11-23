@@ -157,5 +157,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-63",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-4b451bf64cea4053a801fe5073e865f5.pdf",
-  "processed_at": "2026-08-30T03:34:19.519612+00:00"
+  "processed_at": "2026-08-30T03:34:19.519612+00:00",
+  "issues": [
+    "budget_taxes",
+    "zoning_land_use",
+    "environment_energy"
+  ]
 }

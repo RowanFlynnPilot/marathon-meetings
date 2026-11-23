@@ -130,5 +130,10 @@
   "url": "https://www.youtube.com/watch?v=CGeJsb-RTMs",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:11:28.878930+00:00"
+  "processed_at": "2026-08-30T04:11:28.878930+00:00",
+  "issues": [
+    "public_safety",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

@@ -112,5 +112,9 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "parks_recreation",
+    "roads_transportation"
   ]
 }

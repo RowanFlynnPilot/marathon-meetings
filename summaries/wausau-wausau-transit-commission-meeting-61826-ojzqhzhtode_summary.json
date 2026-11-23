@@ -108,5 +108,9 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "roads_transportation",
+    "budget_taxes"
   ]
 }

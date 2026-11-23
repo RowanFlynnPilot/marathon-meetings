@@ -141,5 +141,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "zoning_land_use",
+    "roads_transportation",
+    "staffing_pay"
   ]
 }

@@ -278,7 +278,12 @@
       "Labor Agreement",
       "Police Association"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "staffing_pay",
+      "housing_development"
+    ]
   },
   {
     "id": "kPvpA6dRbYM",
@@ -757,7 +762,11 @@
       "Public Property",
       "Project Priorities"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "roads_transportation",
+      "buildings_facilities"
+    ]
   },
   {
     "id": "rv_2201001",
@@ -819,7 +828,11 @@
       "Staffing",
       "Fire Chief Performance"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "public_safety",
+      "staffing_pay"
+    ]
   },
   {
     "id": "rv_2201002",
@@ -885,7 +898,11 @@
       "Staffing",
       "Employment"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "public_safety",
+      "staffing_pay"
+    ]
   },
   {
     "id": "d4d1DWUqlLs",
@@ -2014,7 +2031,11 @@
         "tally": "2-0"
       }
     ],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "budget_taxes",
+      "buildings_facilities"
+    ]
   },
   {
     "id": "dg_492",
@@ -2103,7 +2124,10 @@
       "Instructional Materials",
       "Course Development"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning"
+    ]
   },
   {
     "id": "dg_493",
@@ -2202,7 +2226,11 @@
         "tally": null
       }
     ],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "staffing_pay",
+      "schools_learning"
+    ]
   },
   {
     "id": "dg_494",
@@ -2503,7 +2531,12 @@
         "tally": "9-0"
       }
     ],
-    "publicCommentSpeakers": 1
+    "publicCommentSpeakers": 1,
+    "issues": [
+      "schools_learning",
+      "staffing_pay",
+      "government_elections"
+    ]
   },
   {
     "id": "Mi_lKQH22Zo",
@@ -3625,7 +3658,12 @@
       "Tax Levy",
       "Staffing"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "staffing_pay"
+    ]
   },
   {
     "id": "rv_2201000",
@@ -3674,7 +3712,10 @@
       "Personnel Management",
       "Employee Performance"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "staffing_pay"
+    ]
   },
   {
     "id": "oLNO7g9EenE",
@@ -9202,7 +9243,12 @@
       "Development",
       "Public Infrastructure"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "zoning_land_use",
+      "housing_development"
+    ]
   },
   {
     "id": "rv_220999",
@@ -9322,7 +9368,12 @@
       "Trail Maintenance",
       "Library Services"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "parks_recreation",
+      "staffing_pay",
+      "government_elections"
+    ]
   },
   {
     "id": "iq_3518",
@@ -9386,7 +9437,11 @@
       "Grant Applications",
       "Economic Development"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "jobs_economy",
+      "parks_recreation"
+    ]
   },
   {
     "id": "iq_3507",
@@ -9534,7 +9589,12 @@
       "Staffing",
       "Public Safety"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "zoning_land_use",
+      "budget_taxes",
+      "staffing_pay"
+    ]
   },
   {
     "id": "Y4xzT50_kRY",
@@ -10016,7 +10076,11 @@
       "Aquatic Center Operations",
       "Cedar Creek Recreation Area"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "parks_recreation",
+      "budget_taxes"
+    ]
   },
   {
     "id": "1XBXalxLhkw",
@@ -11325,7 +11389,10 @@
       "Trails",
       "Winter Maintenance"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "parks_recreation"
+    ]
   },
   {
     "id": "iq_3515",
@@ -11369,7 +11436,10 @@
       "Conditional Use Permit",
       "Commercial Transportation"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "zoning_land_use"
+    ]
   },
   {
     "id": "-lWYezOdlqQ",

@@ -142,5 +142,10 @@
   "url": "https://www.youtube.com/watch?v=ThBP_lpEqlM",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:26:02.674407+00:00"
+  "processed_at": "2026-08-30T04:26:02.674407+00:00",
+  "issues": [
+    "budget_taxes",
+    "public_safety",
+    "health_human_services"
+  ]
 }

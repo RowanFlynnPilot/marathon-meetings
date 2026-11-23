@@ -81,5 +81,8 @@
   "url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=492",
   "source": "mosinee_schools",
   "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=492",
-  "processed_at": "2026-11-21T07:28:42.395336+00:00"
+  "processed_at": "2026-11-21T07:28:42.395336+00:00",
+  "issues": [
+    "schools_learning"
+  ]
 }

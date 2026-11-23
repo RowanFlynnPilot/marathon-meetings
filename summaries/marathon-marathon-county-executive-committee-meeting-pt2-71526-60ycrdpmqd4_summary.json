@@ -92,5 +92,10 @@
   "url": "https://www.youtube.com/watch?v=60YcRDpmqd4",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-07-16T20:54:36.604926+00:00"
+  "processed_at": "2026-07-16T20:54:36.604926+00:00",
+  "issues": [
+    "public_safety",
+    "housing_development",
+    "budget_taxes"
+  ]
 }

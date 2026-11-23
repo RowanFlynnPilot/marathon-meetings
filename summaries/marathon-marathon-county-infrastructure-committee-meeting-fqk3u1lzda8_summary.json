@@ -135,5 +135,10 @@
   "url": "https://www.youtube.com/watch?v=FqK3u1lzDA8",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:13:34.332359+00:00"
+  "processed_at": "2026-08-30T04:13:34.332359+00:00",
+  "issues": [
+    "roads_transportation",
+    "water_utilities",
+    "budget_taxes"
+  ]
 }

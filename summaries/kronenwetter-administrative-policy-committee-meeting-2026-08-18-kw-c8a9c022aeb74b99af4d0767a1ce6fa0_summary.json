@@ -115,5 +115,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-meeting-31",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c8a9c022aeb74b99af4d0767a1ce6fa0.pdf",
-  "processed_at": "2026-08-30T03:35:58.407569+00:00"
+  "processed_at": "2026-08-30T03:35:58.407569+00:00",
+  "issues": [
+    "budget_taxes",
+    "housing_development",
+    "water_utilities"
+  ]
 }

@@ -112,5 +112,10 @@
   "url": "https://www.rothschildwi.com/11-09-2026.pdf#rz999",
   "source": "rothschild",
   "doc_url": "https://www.rothschildwi.com/11-09-2026.pdf#rz999",
-  "processed_at": "2026-11-21T07:33:36.049425+00:00"
+  "processed_at": "2026-11-21T07:33:36.049425+00:00",
+  "issues": [
+    "parks_recreation",
+    "staffing_pay",
+    "government_elections"
+  ]
 }

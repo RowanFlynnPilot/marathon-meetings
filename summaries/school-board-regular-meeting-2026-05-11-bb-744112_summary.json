@@ -143,5 +143,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "schools_learning"
   ]
 }

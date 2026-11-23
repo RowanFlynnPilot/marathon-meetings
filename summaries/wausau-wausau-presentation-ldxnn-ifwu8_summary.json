@@ -68,5 +68,9 @@
   "url": "https://www.youtube.com/watch?v=ldxNN_ifwu8",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:37:40.855453+00:00"
+  "processed_at": "2026-08-30T04:37:40.855453+00:00",
+  "issues": [
+    "public_safety",
+    "government_elections"
+  ]
 }

@@ -196,5 +196,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "schools_learning",
+    "staffing_pay"
   ]
 }

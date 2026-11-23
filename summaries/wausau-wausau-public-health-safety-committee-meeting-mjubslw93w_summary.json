@@ -130,5 +130,10 @@
   "url": "https://www.youtube.com/watch?v=-mjUBSlW93w",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-09-29T10:41:22.960916+00:00"
+  "processed_at": "2026-09-29T10:41:22.960916+00:00",
+  "issues": [
+    "public_safety",
+    "jobs_economy",
+    "health_human_services"
+  ]
 }

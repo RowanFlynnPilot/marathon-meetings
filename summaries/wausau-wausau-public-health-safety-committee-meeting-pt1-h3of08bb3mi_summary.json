@@ -137,5 +137,9 @@
   "url": "https://www.youtube.com/watch?v=H3of08bb3MI",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:14:21.860317+00:00"
+  "processed_at": "2026-08-30T04:14:21.860317+00:00",
+  "issues": [
+    "public_safety",
+    "housing_development"
+  ]
 }

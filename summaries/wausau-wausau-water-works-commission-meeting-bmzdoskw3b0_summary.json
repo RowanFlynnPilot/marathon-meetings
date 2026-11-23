@@ -111,5 +111,8 @@
   "url": "https://www.youtube.com/watch?v=bmZdOskw3B0",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:31:52.105089+00:00"
+  "processed_at": "2026-08-30T04:31:52.105089+00:00",
+  "issues": [
+    "water_utilities"
+  ]
 }

@@ -205,5 +205,10 @@
   "url": "https://www.youtube.com/watch?v=j_8xEzhQrrI",
   "source": "dc_everest",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=747929",
-  "processed_at": "2026-08-30T03:29:57.973717+00:00"
+  "processed_at": "2026-08-30T03:29:57.973717+00:00",
+  "issues": [
+    "schools_learning",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

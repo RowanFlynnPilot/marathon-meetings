@@ -176,5 +176,10 @@
       "outcome": "Approved",
       "tally": "5-0"
     }
+  ],
+  "issues": [
+    "roads_transportation",
+    "public_safety",
+    "parks_recreation"
   ]
 }

@@ -66,5 +66,8 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764224",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764224",
-  "processed_at": "2026-09-28T05:22:23.028305+00:00"
+  "processed_at": "2026-09-28T05:22:23.028305+00:00",
+  "issues": [
+    "schools_learning"
+  ]
 }

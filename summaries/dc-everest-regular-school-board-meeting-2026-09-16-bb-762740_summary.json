@@ -170,5 +170,10 @@
   "url": "https://www.youtube.com/watch?v=OcKTzXVAwq4",
   "source": "dc_everest",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=762740",
-  "processed_at": "2026-09-19T02:58:37.691269+00:00"
+  "processed_at": "2026-09-19T02:58:37.691269+00:00",
+  "issues": [
+    "schools_learning",
+    "buildings_facilities",
+    "staffing_pay"
+  ]
 }

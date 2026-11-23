@@ -108,5 +108,9 @@
       "outcome": "Approved",
       "tally": "3-0"
     }
+  ],
+  "issues": [
+    "public_safety",
+    "staffing_pay"
   ]
 }

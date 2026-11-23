@@ -39,5 +39,8 @@
   "processed_at": "2026-06-14T20:30:12.586285+00:00",
   "topics": [
     "Facilities"
+  ],
+  "issues": [
+    "buildings_facilities"
   ]
 }

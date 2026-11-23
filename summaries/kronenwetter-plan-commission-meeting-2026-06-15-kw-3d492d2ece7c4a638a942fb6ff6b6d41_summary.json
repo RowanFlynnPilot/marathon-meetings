@@ -41,5 +41,9 @@
   "topics": [
     "Development",
     "Zoning"
+  ],
+  "issues": [
+    "housing_development",
+    "zoning_land_use"
   ]
 }

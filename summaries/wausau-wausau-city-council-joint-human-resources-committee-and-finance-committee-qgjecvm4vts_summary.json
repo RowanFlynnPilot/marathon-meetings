@@ -55,5 +55,8 @@
   "url": "https://www.youtube.com/watch?v=qgjeCvm4vts",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-09-15T03:13:28.241250+00:00"
+  "processed_at": "2026-09-15T03:13:28.241250+00:00",
+  "issues": [
+    "staffing_pay"
+  ]
 }

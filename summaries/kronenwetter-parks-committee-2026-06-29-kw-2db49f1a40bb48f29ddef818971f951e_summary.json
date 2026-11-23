@@ -135,5 +135,9 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "parks_recreation",
+    "budget_taxes"
   ]
 }

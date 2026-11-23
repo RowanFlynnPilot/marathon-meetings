@@ -106,5 +106,9 @@
   "url": "https://www.youtube.com/watch?v=PRds_P-9bfk",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:23:08.288237+00:00"
+  "processed_at": "2026-08-30T04:23:08.288237+00:00",
+  "issues": [
+    "water_utilities",
+    "budget_taxes"
+  ]
 }

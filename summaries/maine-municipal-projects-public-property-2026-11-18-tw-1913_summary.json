@@ -52,5 +52,9 @@
   "url": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
   "source": "maine",
   "doc_url": "https://villageofmaine.org/?post_type=twd_repository&p=1913",
-  "processed_at": "2026-11-21T08:33:03.380991+00:00"
+  "processed_at": "2026-11-21T08:33:03.380991+00:00",
+  "issues": [
+    "roads_transportation",
+    "buildings_facilities"
+  ]
 }

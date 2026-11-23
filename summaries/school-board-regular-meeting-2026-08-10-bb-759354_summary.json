@@ -116,5 +116,10 @@
   "url": "https://www.youtube.com/watch?v=Dkt72jkA2jo",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=759354",
-  "processed_at": "2026-08-30T03:33:04.116532+00:00"
+  "processed_at": "2026-08-30T03:33:04.116532+00:00",
+  "issues": [
+    "schools_learning",
+    "budget_taxes",
+    "buildings_facilities"
+  ]
 }

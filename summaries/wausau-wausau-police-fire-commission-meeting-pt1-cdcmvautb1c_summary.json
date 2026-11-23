@@ -82,5 +82,9 @@
   "url": "https://www.youtube.com/watch?v=cDcMvAutb1c",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:32:08.441872+00:00"
+  "processed_at": "2026-08-30T04:32:08.441872+00:00",
+  "issues": [
+    "public_safety",
+    "staffing_pay"
+  ]
 }

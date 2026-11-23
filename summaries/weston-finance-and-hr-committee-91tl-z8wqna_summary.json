@@ -184,5 +184,10 @@
   "url": "https://www.youtube.com/watch?v=91Tl-z8wqnA",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:08:30.537268+00:00"
+  "processed_at": "2026-08-30T04:08:30.537268+00:00",
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "water_utilities"
+  ]
 }

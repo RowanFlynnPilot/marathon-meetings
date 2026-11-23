@@ -65,5 +65,9 @@
   "url": "https://www.youtube.com/watch?v=A-ZOJ9eo6XI",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-09-07T02:41:14.421077+00:00"
+  "processed_at": "2026-09-07T02:41:14.421077+00:00",
+  "issues": [
+    "jobs_economy",
+    "staffing_pay"
+  ]
 }

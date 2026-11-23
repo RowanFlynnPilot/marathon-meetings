@@ -127,5 +127,9 @@
   "url": "https://www.youtube.com/watch?v=-_SwyOdDQfs",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-09-10T02:55:42.078843+00:00"
+  "processed_at": "2026-09-10T02:55:42.078843+00:00",
+  "issues": [
+    "public_safety",
+    "roads_transportation"
+  ]
 }

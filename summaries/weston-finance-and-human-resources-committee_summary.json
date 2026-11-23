@@ -110,5 +110,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "government_elections"
   ]
 }

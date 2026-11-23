@@ -92,5 +92,9 @@
   "url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=493",
   "source": "mosinee_schools",
   "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=493",
-  "processed_at": "2026-11-21T07:28:35.532536+00:00"
+  "processed_at": "2026-11-21T07:28:35.532536+00:00",
+  "issues": [
+    "staffing_pay",
+    "schools_learning"
+  ]
 }

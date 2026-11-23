@@ -97,5 +97,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "health_human_services",
+    "staffing_pay",
+    "budget_taxes"
   ]
 }

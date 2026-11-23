@@ -130,5 +130,10 @@
   "url": "https://www.youtube.com/watch?v=Kx1TnavosZ8",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-09-29T18:08:39.297781+00:00"
+  "processed_at": "2026-09-29T18:08:39.297781+00:00",
+  "issues": [
+    "zoning_land_use",
+    "housing_development",
+    "jobs_economy"
+  ]
 }

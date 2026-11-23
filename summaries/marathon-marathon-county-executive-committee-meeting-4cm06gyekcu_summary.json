@@ -121,5 +121,10 @@
   "url": "https://www.youtube.com/watch?v=4cM06GyeKcU",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-09-19T15:17:53.224648+00:00"
+  "processed_at": "2026-09-19T15:17:53.224648+00:00",
+  "issues": [
+    "environment_energy",
+    "water_utilities",
+    "budget_taxes"
+  ]
 }

@@ -294,5 +294,10 @@
   "url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=494",
   "source": "mosinee_schools",
   "doc_url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=494",
-  "processed_at": "2026-11-21T07:28:23.635382+00:00"
+  "processed_at": "2026-11-21T07:28:23.635382+00:00",
+  "issues": [
+    "schools_learning",
+    "staffing_pay",
+    "government_elections"
+  ]
 }

@@ -88,5 +88,9 @@
   "url": "https://www.youtube.com/watch?v=L9DOaVBOkJU",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:17:52.598277+00:00"
+  "processed_at": "2026-08-30T04:17:52.598277+00:00",
+  "issues": [
+    "public_safety",
+    "health_human_services"
+  ]
 }

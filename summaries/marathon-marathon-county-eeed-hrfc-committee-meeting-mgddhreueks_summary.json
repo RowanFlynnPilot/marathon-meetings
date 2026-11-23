@@ -46,5 +46,9 @@
   "url": "https://www.youtube.com/watch?v=mGDdhrEuEKs",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-09-10T15:48:07.756739+00:00"
+  "processed_at": "2026-09-10T15:48:07.756739+00:00",
+  "issues": [
+    "jobs_economy",
+    "buildings_facilities"
+  ]
 }

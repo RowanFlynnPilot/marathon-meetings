@@ -119,5 +119,9 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "jobs_economy",
+    "parks_recreation"
   ]
 }

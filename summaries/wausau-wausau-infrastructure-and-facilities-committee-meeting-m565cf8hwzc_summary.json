@@ -203,5 +203,10 @@
   "url": "https://www.youtube.com/watch?v=M565cF8HwZc",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:08:51.258917+00:00"
+  "processed_at": "2026-11-21T17:08:51.258917+00:00",
+  "issues": [
+    "roads_transportation",
+    "water_utilities",
+    "jobs_economy"
+  ]
 }

@@ -129,5 +129,10 @@
   "url": "https://www.youtube.com/watch?v=QtAfpJ2JSl0",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-08T06:02:45.243858+00:00"
+  "processed_at": "2026-10-08T06:02:45.243858+00:00",
+  "issues": [
+    "housing_development",
+    "zoning_land_use",
+    "jobs_economy"
+  ]
 }

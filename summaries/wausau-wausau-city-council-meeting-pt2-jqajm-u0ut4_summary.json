@@ -105,5 +105,10 @@
   "url": "https://www.youtube.com/watch?v=jqaJm_u0uT4",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:35:38.421333+00:00"
+  "processed_at": "2026-08-30T04:35:38.421333+00:00",
+  "issues": [
+    "public_safety",
+    "housing_development",
+    "parks_recreation"
+  ]
 }

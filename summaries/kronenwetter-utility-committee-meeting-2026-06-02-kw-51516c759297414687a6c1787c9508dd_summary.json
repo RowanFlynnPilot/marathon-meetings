@@ -54,5 +54,9 @@
     "Utilities",
     "Facilities",
     "Lea Road"
+  ],
+  "issues": [
+    "water_utilities",
+    "buildings_facilities"
   ]
 }

@@ -103,5 +103,9 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "water_utilities",
+    "housing_development"
   ]
 }

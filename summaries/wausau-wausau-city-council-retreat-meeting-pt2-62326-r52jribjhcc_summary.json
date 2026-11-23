@@ -123,5 +123,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "housing_development",
+    "jobs_economy",
+    "roads_transportation"
   ]
 }

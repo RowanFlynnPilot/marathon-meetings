@@ -129,5 +129,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "public_safety",
+    "water_utilities",
+    "buildings_facilities"
   ]
 }

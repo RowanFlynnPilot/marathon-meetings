@@ -197,5 +197,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "roads_transportation",
+    "water_utilities",
+    "budget_taxes"
   ]
 }

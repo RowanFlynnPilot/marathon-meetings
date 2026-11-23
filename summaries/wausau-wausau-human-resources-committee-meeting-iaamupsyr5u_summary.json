@@ -135,5 +135,10 @@
   "url": "https://www.youtube.com/watch?v=iaAmUPsyr5U",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:34:58.939048+00:00"
+  "processed_at": "2026-08-30T04:34:58.939048+00:00",
+  "issues": [
+    "staffing_pay",
+    "public_safety",
+    "budget_taxes"
+  ]
 }

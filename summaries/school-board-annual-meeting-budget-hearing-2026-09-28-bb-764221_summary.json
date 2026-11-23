@@ -105,5 +105,10 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764221",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764221",
-  "processed_at": "2026-09-28T05:22:36.970460+00:00"
+  "processed_at": "2026-09-28T05:22:36.970460+00:00",
+  "issues": [
+    "budget_taxes",
+    "schools_learning",
+    "staffing_pay"
+  ]
 }

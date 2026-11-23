@@ -176,5 +176,10 @@
   "url": "https://www.youtube.com/watch?v=KaXLS7kv8us",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:17:21.004364+00:00"
+  "processed_at": "2026-08-30T04:17:21.004364+00:00",
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "health_human_services"
+  ]
 }

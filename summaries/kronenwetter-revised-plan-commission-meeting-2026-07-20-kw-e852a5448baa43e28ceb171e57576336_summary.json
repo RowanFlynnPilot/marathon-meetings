@@ -89,5 +89,9 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/revised-plan-commission-meeting-0",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-e852a5448baa43e28ceb171e57576336.pdf",
-  "processed_at": "2026-07-20T02:38:44.788695+00:00"
+  "processed_at": "2026-07-20T02:38:44.788695+00:00",
+  "issues": [
+    "zoning_land_use",
+    "housing_development"
+  ]
 }

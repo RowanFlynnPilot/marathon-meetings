@@ -291,5 +291,10 @@
   "url": "https://www.youtube.com/watch?v=_6aNdLDBS4w",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:14:15.278459+00:00"
+  "processed_at": "2026-11-21T17:14:15.278459+00:00",
+  "issues": [
+    "budget_taxes",
+    "zoning_land_use",
+    "public_safety"
+  ]
 }

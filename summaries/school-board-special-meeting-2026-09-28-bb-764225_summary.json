@@ -44,5 +44,9 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=764225",
-  "processed_at": "2026-09-28T05:22:26.882477+00:00"
+  "processed_at": "2026-09-28T05:22:26.882477+00:00",
+  "issues": [
+    "schools_learning",
+    "staffing_pay"
+  ]
 }

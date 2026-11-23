@@ -147,5 +147,9 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "parks_recreation"
   ]
 }

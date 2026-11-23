@@ -152,5 +152,10 @@
       "outcome": "Approved",
       "tally": "5-0"
     }
+  ],
+  "issues": [
+    "buildings_facilities",
+    "parks_recreation",
+    "water_utilities"
   ]
 }

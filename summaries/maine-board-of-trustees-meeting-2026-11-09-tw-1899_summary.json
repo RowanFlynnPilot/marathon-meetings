@@ -220,5 +220,10 @@
   "url": "https://villageofmaine.org/?post_type=twd_repository&p=1899",
   "source": "maine",
   "doc_url": "https://villageofmaine.org/?post_type=twd_repository&p=1899",
-  "processed_at": "2026-11-21T08:33:29.921347+00:00"
+  "processed_at": "2026-11-21T08:33:29.921347+00:00",
+  "issues": [
+    "budget_taxes",
+    "zoning_land_use",
+    "housing_development"
+  ]
 }

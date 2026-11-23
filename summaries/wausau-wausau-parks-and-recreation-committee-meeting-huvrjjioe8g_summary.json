@@ -185,5 +185,10 @@
   "url": "https://www.youtube.com/watch?v=HUvRjJIoe8g",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:04:32.733464+00:00"
+  "processed_at": "2026-11-21T17:04:32.733464+00:00",
+  "issues": [
+    "parks_recreation",
+    "budget_taxes",
+    "zoning_land_use"
+  ]
 }

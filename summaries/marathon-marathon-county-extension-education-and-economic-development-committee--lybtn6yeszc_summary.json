@@ -123,5 +123,10 @@
   "url": "https://www.youtube.com/watch?v=lybTn6YEszc",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:22:43.678004+00:00"
+  "processed_at": "2026-11-21T17:22:43.678004+00:00",
+  "issues": [
+    "jobs_economy",
+    "budget_taxes",
+    "buildings_facilities"
+  ]
 }

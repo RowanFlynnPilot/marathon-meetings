@@ -148,5 +148,10 @@
   "url": "https://www.youtube.com/watch?v=tcS9bwi3F08",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:25:38.497036+00:00"
+  "processed_at": "2026-11-21T17:25:38.497036+00:00",
+  "issues": [
+    "public_safety",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

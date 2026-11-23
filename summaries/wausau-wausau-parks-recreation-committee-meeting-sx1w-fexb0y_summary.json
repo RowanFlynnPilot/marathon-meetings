@@ -129,5 +129,10 @@
   "url": "https://www.youtube.com/watch?v=sX1w_FeXB0Y",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-06T18:23:21.086979+00:00"
+  "processed_at": "2026-10-06T18:23:21.086979+00:00",
+  "issues": [
+    "parks_recreation",
+    "environment_energy",
+    "budget_taxes"
+  ]
 }

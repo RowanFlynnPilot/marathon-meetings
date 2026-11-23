@@ -128,5 +128,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-clipp/page/revised-community-life-infrastructure-and-public-property-clipp-committee-meeting-3",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c0cab9315fc247a99005597d59db7686.pdf",
-  "processed_at": "2026-07-07T14:26:12.880345+00:00"
+  "processed_at": "2026-07-07T14:26:12.880345+00:00",
+  "issues": [
+    "roads_transportation",
+    "public_safety",
+    "parks_recreation"
+  ]
 }

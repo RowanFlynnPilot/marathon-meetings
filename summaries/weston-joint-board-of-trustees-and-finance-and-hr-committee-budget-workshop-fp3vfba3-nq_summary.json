@@ -182,5 +182,10 @@
   "url": "https://www.youtube.com/watch?v=Fp3vfBA3-nQ",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-09-23T03:08:26.245503+00:00"
+  "processed_at": "2026-09-23T03:08:26.245503+00:00",
+  "issues": [
+    "budget_taxes",
+    "water_utilities",
+    "public_safety"
+  ]
 }

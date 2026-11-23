@@ -330,5 +330,10 @@
   "url": "https://www.youtube.com/watch?v=nSSFoE_EWhA",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:57:30.141658+00:00"
+  "processed_at": "2026-11-21T03:57:30.141658+00:00",
+  "issues": [
+    "zoning_land_use",
+    "parks_recreation",
+    "environment_energy"
+  ]
 }

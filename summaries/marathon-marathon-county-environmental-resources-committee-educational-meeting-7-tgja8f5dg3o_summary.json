@@ -95,5 +95,9 @@
   "url": "https://www.youtube.com/watch?v=TGJa8f5dG3o",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-05T02:08:25.972366+00:00"
+  "processed_at": "2026-08-05T02:08:25.972366+00:00",
+  "issues": [
+    "environment_energy",
+    "water_utilities"
+  ]
 }

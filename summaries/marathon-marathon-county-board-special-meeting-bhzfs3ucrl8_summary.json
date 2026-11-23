@@ -97,5 +97,9 @@
   "url": "https://www.youtube.com/watch?v=BHzFs3uCrl8",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-02T14:45:14.322587+00:00"
+  "processed_at": "2026-10-02T14:45:14.322587+00:00",
+  "issues": [
+    "environment_energy",
+    "budget_taxes"
+  ]
 }

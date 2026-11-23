@@ -221,5 +221,10 @@
   "url": "https://www.youtube.com/watch?v=3XMnlwYCZUg",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:34:51.790663+00:00"
+  "processed_at": "2026-11-21T03:34:51.790663+00:00",
+  "issues": [
+    "housing_development",
+    "zoning_land_use",
+    "environment_energy"
+  ]
 }

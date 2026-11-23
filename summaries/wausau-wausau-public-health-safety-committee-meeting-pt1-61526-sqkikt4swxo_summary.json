@@ -178,5 +178,9 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "public_safety",
+    "health_human_services"
   ]
 }

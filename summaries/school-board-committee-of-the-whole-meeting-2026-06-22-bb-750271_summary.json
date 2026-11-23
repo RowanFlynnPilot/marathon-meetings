@@ -123,5 +123,10 @@
       "outcome": "Approved",
       "tally": "Unanimous"
     }
+  ],
+  "issues": [
+    "schools_learning",
+    "buildings_facilities",
+    "staffing_pay"
   ]
 }

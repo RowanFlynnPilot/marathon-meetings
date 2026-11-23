@@ -38,5 +38,9 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754138",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=754138",
-  "processed_at": "2026-08-03T02:28:50.466000+00:00"
+  "processed_at": "2026-08-03T02:28:50.466000+00:00",
+  "issues": [
+    "budget_taxes",
+    "schools_learning"
+  ]
 }

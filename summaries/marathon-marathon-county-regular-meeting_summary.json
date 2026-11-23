@@ -139,5 +139,10 @@
       "outcome": "Approved",
       "tally": null
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "water_utilities",
+    "staffing_pay"
   ]
 }

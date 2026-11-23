@@ -82,5 +82,10 @@
   "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
   "source": "mosinee",
   "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
-  "processed_at": "2026-11-23T00:58:14.445060+00:00"
+  "processed_at": "2026-11-23T00:58:14.445060+00:00",
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "housing_development"
+  ]
 }

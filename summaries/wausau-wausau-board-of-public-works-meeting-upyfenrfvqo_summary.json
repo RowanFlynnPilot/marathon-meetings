@@ -50,5 +50,8 @@
   "url": "https://www.youtube.com/watch?v=uPyfeNRFvqo",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-09-10T15:49:15.776147+00:00"
+  "processed_at": "2026-09-10T15:49:15.776147+00:00",
+  "issues": [
+    "budget_taxes"
+  ]
 }

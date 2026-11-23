@@ -144,5 +144,9 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-ahc/page/parks-committee-3",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-c7e3c49a63fe42c09c61aa2af3d8adbd.pdf",
-  "processed_at": "2026-09-18T03:01:47.451915+00:00"
+  "processed_at": "2026-09-18T03:01:47.451915+00:00",
+  "issues": [
+    "parks_recreation",
+    "budget_taxes"
+  ]
 }

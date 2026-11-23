@@ -126,5 +126,9 @@
   "url": "https://www.youtube.com/watch?v=e6QpiKhBgMI",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:33:00.384609+00:00"
+  "processed_at": "2026-08-30T04:33:00.384609+00:00",
+  "issues": [
+    "parks_recreation",
+    "zoning_land_use"
+  ]
 }

@@ -168,5 +168,10 @@
       "outcome": "Approved",
       "tally": "5-0"
     }
+  ],
+  "issues": [
+    "housing_development",
+    "public_safety",
+    "budget_taxes"
   ]
 }

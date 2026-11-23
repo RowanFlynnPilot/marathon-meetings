@@ -140,5 +140,10 @@
   "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3507",
   "source": "mosinee",
   "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3507",
-  "processed_at": "2026-11-21T07:30:11.736631+00:00"
+  "processed_at": "2026-11-21T07:30:11.736631+00:00",
+  "issues": [
+    "zoning_land_use",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

@@ -91,5 +91,10 @@
   "url": "https://www.youtube.com/watch?v=l-273tDD5Hs",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-07T15:34:37.476625+00:00"
+  "processed_at": "2026-10-07T15:34:37.476625+00:00",
+  "issues": [
+    "public_safety",
+    "budget_taxes",
+    "staffing_pay"
+  ]
 }

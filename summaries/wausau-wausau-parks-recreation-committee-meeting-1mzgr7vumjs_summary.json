@@ -73,5 +73,9 @@
   "url": "https://www.youtube.com/watch?v=1MZGR7vUMJs",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-06T11:16:28.207637+00:00"
+  "processed_at": "2026-10-06T11:16:28.207637+00:00",
+  "issues": [
+    "parks_recreation",
+    "zoning_land_use"
+  ]
 }

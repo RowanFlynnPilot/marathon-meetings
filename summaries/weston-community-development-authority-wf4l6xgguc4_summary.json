@@ -112,5 +112,9 @@
   "url": "https://www.youtube.com/watch?v=wF4L6XgGUc4",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-07-30T02:05:17.211808+00:00"
+  "processed_at": "2026-07-30T02:05:17.211808+00:00",
+  "issues": [
+    "budget_taxes",
+    "housing_development"
+  ]
 }

@@ -175,5 +175,10 @@
   "url": "https://www.youtube.com/watch?v=ubL9iQ5ZO1I",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-07-14T21:00:40.534607+00:00"
+  "processed_at": "2026-07-14T21:00:40.534607+00:00",
+  "issues": [
+    "roads_transportation",
+    "water_utilities",
+    "buildings_facilities"
+  ]
 }

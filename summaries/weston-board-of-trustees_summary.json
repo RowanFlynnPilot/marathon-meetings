@@ -152,5 +152,10 @@
       "outcome": "Approved",
       "tally": "5-2"
     }
+  ],
+  "issues": [
+    "budget_taxes",
+    "parks_recreation",
+    "jobs_economy"
   ]
 }

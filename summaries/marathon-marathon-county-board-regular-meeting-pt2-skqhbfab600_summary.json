@@ -114,5 +114,9 @@
   "url": "https://www.youtube.com/watch?v=SkQhbfab600",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:25:35.582525+00:00"
+  "processed_at": "2026-08-30T04:25:35.582525+00:00",
+  "issues": [
+    "environment_energy",
+    "zoning_land_use"
+  ]
 }

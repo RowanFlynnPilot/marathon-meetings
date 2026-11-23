@@ -114,5 +114,10 @@
   "url": "https://www.youtube.com/watch?v=topD91yo4oQ",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-08-30T04:44:05.900457+00:00"
+  "processed_at": "2026-08-30T04:44:05.900457+00:00",
+  "issues": [
+    "health_human_services",
+    "budget_taxes",
+    "water_utilities"
+  ]
 }
