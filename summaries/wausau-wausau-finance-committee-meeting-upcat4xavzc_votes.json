@@ -1,0 +1,400 @@
+{
+  "event_id": 2432,
+  "agenda_id": 2697,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Sarah Watson",
+          "seconder": "Tom Neal",
+          "yes": [
+            "Sarah Watson",
+            "Tom Neal",
+            "Michael  Martens",
+            "Vicki Tierney",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Budget Session Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_BudgetSession_10052026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10168)",
+              "type": "application/pdf",
+              "size": 208285
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Budget Session Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_BudgetSession_10062026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10169)",
+              "type": "application/pdf",
+              "size": 209811
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Budget Session Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_BudgetSession_10072026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10170)",
+              "type": "application/pdf",
+              "size": 210026
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Regular Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_Regular_10132026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10171)",
+              "type": "application/pdf",
+              "size": 365712
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Presentation of the 2025 financial and single audit by Maudlin & Jenkins CPAs.\u00a0",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "City of Wausau Annual Comprehensive Financial Report 2025",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10212)",
+              "type": "application/pdf",
+              "size": 12275296
+            },
+            {
+              "name": "Auditors Discussion and Analysis",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10220)",
+              "type": "application/pdf",
+              "size": 493258
+            },
+            {
+              "name": "2025 Single Audit Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10227)",
+              "type": "application/pdf",
+              "size": 1855513
+            },
+            {
+              "name": "Management Letter",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10219)",
+              "type": "application/pdf",
+              "size": 291450
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Approving Fiscal Year 2026 Edward Byrne Memorial Justice Assistance Grant funding and Interlocal Agreement with Marathon County.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "accept the grant",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "JAG Grant - Interlocal Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10043)",
+              "type": "application/pdf",
+              "size": 202881
+            },
+            {
+              "name": "JAG Fact Sheet",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10042)",
+              "type": "application/pdf",
+              "size": 190608
+            },
+            {
+              "name": "2026 JAG Grant Allocations",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10041)",
+              "type": "application/pdf",
+              "size": 275431
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Approving budget amendment for 415 S. First Avenue Development Agreement with Gorman and Company.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10140)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 49273
+            },
+            {
+              "name": "Westside Commons Development Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10108)",
+              "type": "application/pdf",
+              "size": 19981235
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Authorizing staff to prepare a project plan amendment for Tax Increment District Eight to add infrastructure project costs within the district and the 1/2 mile boundary of the district.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Vicki Tierney",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "TID 8 Cash Flow Projections",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10204)",
+              "type": "application/pdf",
+              "size": 142435
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Sole Source Request",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10184)",
+              "type": "application/pdf",
+              "size": 313528
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Approving agreement between City of Wausau and the Wausau Cemetery Association.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "postpone consideration of this item to the next meeting ",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": [
+                "Michael  Martens"
+              ]
+            }
+          ],
+          "docs": [
+            {
+              "name": "Wausau Cemetery Association Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10250)",
+              "type": "application/pdf",
+              "size": 60981
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "g",
+          "name": "Approving budget amendment for 2026 budget modifications based upon year-end projections.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "h",
+          "name": "Reviewing General Fund Reserves Policy regarding one-time uses.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "i",
+          "name": "Approving a 3% increase to hangar lease agreements at the Wausau Downtown Airport beginning 1/1/2027.\u00a0",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "j",
+          "name": "Approving multi-year budget amendment for the Wausau Fire Department Apprentice Program paid by federal grant.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Vicki Tierney",
+              "yes": [
+                "Sarah Watson",
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Apprentice Grant Budget Amendment",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10248)",
+              "type": "application/pdf",
+              "size": 93735
+            },
+            {
+              "name": "NTC_WFD_Firefighter_Paramedic_Apprenticeship_Agreement--final 9.18.2026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10249)",
+              "type": "application/pdf",
+              "size": 250055
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Vicki Tierney",
+          "yes": [
+            "Sarah Watson",
+            "Tom Neal",
+            "Michael  Martens",
+            "Vicki Tierney",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

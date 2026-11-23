@@ -122,35 +122,39 @@
       "source": "wausau",
       "preview": {
         "closedSession": true,
-        "generated": "2026-11-19T13:19:20+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "public_safety",
+          "staffing_pay"
+        ],
         "items": [
           {
-            "action": "discussion",
-            "item": "Interview candidates for Police Officer and Fire Lieutenant positions",
-            "why": "The commission will meet in closed session to interview five candidates for Police Officer and one candidate for promotion to Lieutenant with the Wausau Fire Department."
-          },
-          {
-            "action": "discussion",
-            "item": "Reconsideration of dismissed citizen complaint",
-            "why": "The commission will meet in closed session to consider a reconsideration request of a dismissed citizen complaint."
+            "action": "report",
+            "item": "3rd Quarter Fire Department Operations Report",
+            "why": "The Fire Department will present its quarterly operations update to the commission."
           },
           {
             "action": "report",
-            "item": "Third Quarter Fire Department operations report",
-            "why": "The Fire Department will present its quarterly operations update."
-          },
-          {
-            "action": "report",
-            "item": "Police Department operations update",
-            "why": "The Police Department will provide general operational updates."
+            "item": "Police Department General Operations Update",
+            "why": "The Police Department will provide general updates on its operations."
           },
           {
             "action": "discussion",
-            "item": "Listening session on Deputy Chief hiring process",
-            "why": "Police Department employees will participate in a closed session listening session regarding the hiring process for Deputy Chief."
+            "item": "Interview five police officer candidates and one fire lieutenant promotion candidate",
+            "why": "The commission will meet in closed session to interview candidates for a police officer position and a fire lieutenant promotion."
+          },
+          {
+            "action": "discussion",
+            "item": "Reconsideration request of citizen complaint dismissal",
+            "why": "The commission will consider in closed session a request to reconsider the dismissal of a citizen complaint."
+          },
+          {
+            "action": "discussion",
+            "item": "Police deputy chief hiring process listening session",
+            "why": "Police department employees will hold a listening session with the commission in closed session regarding the deputy chief hiring process."
           }
         ],
-        "overview": "The Police & Fire Commission is scheduled to hear operational updates from both departments and will meet in closed session to interview candidates for police officer and fire lieutenant positions, as well as discuss a citizen complaint reconsideration.",
+        "overview": "The Police & Fire Commission will hear updates from both departments and hold closed sessions to interview police officer candidates, consider a fire lieutenant promotion candidate, and discuss a police deputy chief hiring process.",
         "publicComment": true
       }
     },
@@ -162,40 +166,44 @@
       "source": "wausau",
       "preview": {
         "closedSession": false,
-        "generated": "2026-11-19T00:57:28+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "roads_transportation",
+          "parks_recreation"
+        ],
         "items": [
           {
             "action": "discussion",
             "item": "Bikeshare program ridership data and spring promotion",
-            "why": "The committee will discuss how the city's bikeshare program is performing and plans for a spring promotional campaign."
+            "why": "The committee will review how many people are using the city's bikeshare program and plans for promoting it in spring."
           },
           {
             "action": "discussion",
             "item": "Community Sustainability Survey results review",
-            "why": "The committee will review and discuss results from a community sustainability survey."
+            "why": "The committee will review results from a survey about community sustainability preferences."
           },
           {
             "action": "report",
-            "item": "Adolph Street and River Edge Parkway pavement conditions update",
-            "why": "The committee will receive an update on the pavement conditions of these streets used by pedestrians and cyclists."
+            "item": "MPO Bike/Ped Subcommittee update and bike counter data",
+            "why": "The committee will get an update from the regional transportation planning group and hear bike counter data."
           },
           {
             "action": "report",
-            "item": "RRFB Thomas Street and River Edge Parkway update",
-            "why": "The committee will receive an update on a rectangular rapid flashing beacon (pedestrian crossing signal) on Thomas Street."
+            "item": "Adolph Street and River Edge Parkway pavement conditions",
+            "why": "The committee will receive an update on the condition of pavement on these streets used by cyclists and pedestrians."
           },
           {
-            "action": "report",
+            "action": "discussion",
             "item": "Police Department attendance and enabling language update",
-            "why": "The committee will receive an update on enabling language and police department attendance at committee meetings."
+            "why": "The committee will get an update on police involvement with the committee and related rules."
           },
           {
             "action": "report",
-            "item": "MPO Bike/Ped Subcommittee update and bike counter summary",
-            "why": "The committee will receive an update from the Metropolitan Planning Organization's Bike/Pedestrian Subcommittee and hear bike counter data."
+            "item": "RRFB Thomas Street and River Edge Parkway",
+            "why": "The committee will receive an update on a rectangular rapid flashing beacon (RRFB), a pedestrian safety signal, at this location."
           }
         ],
-        "overview": "The Bicycle & Pedestrian Advisory Committee will discuss the city's bikeshare program performance, review community sustainability survey results, and hear updates on bike and pedestrian infrastructure projects including street conditions and a pedestrian crossing signal.",
+        "overview": "The Bicycle & Pedestrian Advisory Committee will discuss Wausau's bikeshare program, review survey results about community sustainability, and get updates on bike and pedestrian infrastructure projects around the city.",
         "publicComment": true
       }
     },
@@ -207,40 +215,44 @@
       "source": "wausau",
       "preview": {
         "closedSession": true,
-        "generated": "2026-11-20T17:00:54+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "housing_development",
+          "budget_taxes"
+        ],
         "items": [
           {
             "action": "vote",
             "item": "2027 budgets for five housing programs",
-            "why": "The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs."
+            "why": "The board is scheduled to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers, Fulton Street, and 8th Avenue."
           },
           {
             "action": "vote",
-            "item": "Repositioning scattered-sites public housing to vouchers",
-            "why": "S.C. Koegler Consulting will present options for restructuring, and the board will vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers."
+            "item": "Repositioning scattered public housing to voucher-based model",
+            "why": "The board will hear a presentation on comprehensive repositioning options and vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers."
           },
           {
             "action": "discussion",
             "item": "Riverview Towers façade repair bids",
-            "why": "The board will consider and act on bids received for masonry and concrete façade repairs at Riverview Towers LLC."
+            "why": "The board is scheduled to review and act on bids received for masonry and concrete façade repairs at Riverview Towers."
           },
           {
             "action": "discussion",
             "item": "Capital needs assessment for scattered-sites properties",
-            "why": "The board will discuss and act on a request for proposals for a capital needs assessment of scattered-sites public housing properties."
+            "why": "The board will consider a request for proposals for a capital needs assessment of scattered-sites public housing properties."
           },
           {
             "action": "discussion",
             "item": "Sub-recipient agreement for 405 S 8th Avenue",
-            "why": "The board will discuss and act on authorizing a rental property agreement between the City Community Development Department and the authority for 405 S 8th Avenue."
+            "why": "The board will discuss and act on a rental property agreement between the city and the authority for 405 S 8th Avenue."
           },
           {
-            "action": "report",
-            "item": "Operational updates and legal counsel needs",
-            "why": "The authority will receive updates on occupancy, 405 S 8th Avenue, and discuss hiring outside counsel for Section 18 repositioning and loan closeout matters."
+            "action": "discussion",
+            "item": "Outside counsel for Section 18 repositioning",
+            "why": "The board will address legal procurement needs for Section 18 repositioning and tax credit close-out work."
           }
         ],
-        "overview": "The Community Development Authority is scheduled to adopt five 2027 program budgets and consider a major restructuring plan that would convert scattered-sites public housing to project-based vouchers. Residents can submit public comment by email up to 2 hours before the meeting.",
+        "overview": "The Community Development Authority is scheduled to vote on 2027 budgets for five housing programs and consider a major plan to convert scattered public housing sites to voucher-based housing.",
         "publicComment": true
       }
     },
@@ -252,40 +264,35 @@
       "source": "wausau",
       "preview": {
         "closedSession": false,
-        "generated": "2026-11-21T14:33:36+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "budget_taxes",
+          "public_safety",
+          "parks_recreation"
+        ],
         "items": [
           {
             "action": "vote",
-            "item": "Approve purchase of cardiac monitors and ventilators for Fire Department",
-            "why": "The committee will vote on a purchase and security agreement with Zoll Medical Corporation to buy cardiac monitors and ventilators for the Fire Department."
+            "item": "Animal impoundment services agreement with Humane Society",
+            "why": "The committee will vote to approve a contract with the Humane Society of Marathon County for the city to use their animal impoundment services."
           },
           {
             "action": "vote",
-            "item": "Approve animal impoundment services agreement with Humane Society",
-            "why": "The committee will vote on approving a purchase of animal impoundment services agreement with the Humane Society of Marathon County, Inc."
+            "item": "Five other service and equipment purchase agreements",
+            "why": "The committee will vote to approve agreements for mapping software (Esri), county production services, cemetery operations, and fire department cardiac monitors and ventilators."
           },
           {
             "action": "vote",
-            "item": "Approve purchase of outdoor vertical platform lift for Athletic Park",
-            "why": "The committee will vote on a budget modification and sole source request to purchase an outdoor vertical platform lift for Athletic Park."
+            "item": "Budget change and lift purchase for Athletic Park",
+            "why": "The committee will vote to approve a budget modification and sole source request to buy an outdoor vertical platform lift for Athletic Park."
           },
           {
-            "action": "vote",
-            "item": "Approve mapping software agreement with Esri",
-            "why": "The committee will vote on approving a Small Government Enterprise Agreement with Environmental Systems Research Institute, Inc. for mapping software."
-          },
-          {
-            "action": "vote",
-            "item": "Approve production agreement with Marathon County",
-            "why": "The committee will vote on approving a production agreement between Marathon County and the City of Wausau."
-          },
-          {
-            "action": "vote",
-            "item": "Approve agreement with Wausau Cemetery Association",
-            "why": "The committee will vote on approving an agreement between the City of Wausau and the Wausau Cemetery Association."
+            "action": "report",
+            "item": "Update on county pet license fee changes for 2027",
+            "why": "City staff will update the committee on how Marathon County plans to change pet license fees starting in 2027."
           }
         ],
-        "overview": "The Finance Committee is scheduled to approve several service agreements and equipment purchases, including animal impoundment services, mapping software, a cardiac monitor and ventilator purchase for the Fire Department, and a lift for Athletic Park.",
+        "overview": "The Finance Committee is scheduled to vote on six agreements and contracts for city services. These include animal impounding, mapping software, cemetery operations, and fire department equipment purchases.",
         "publicComment": true
       }
     },
@@ -297,40 +304,45 @@
       "source": "wausau",
       "preview": {
         "closedSession": true,
-        "generated": "2026-11-20T17:00:54+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "budget_taxes",
+          "staffing_pay",
+          "roads_transportation"
+        ],
         "items": [
           {
             "action": "vote",
-            "item": "Employee salary structure revision and tax rate approvals",
-            "why": "The council will vote on a joint resolution revising the salary structure for general employees and a resolution establishing the 2026 property tax equivalent for Wausau Water Works."
+            "item": "2026 budget modification for year-end projections",
+            "why": "The Finance Committee is asking the council to approve various budget adjustments based on how the year ended."
+          },
+          {
+            "action": "vote",
+            "item": "Salary structure revision for general city employees",
+            "why": "The Finance Committee and Human Resources Committee are asking the council to revise how general employees' salaries are structured."
           },
           {
             "action": "vote",
             "item": "Special assessments for 2027 street construction projects",
-            "why": "The council will vote on a preliminary resolution to levy special assessments on properties affected by 2027 street construction."
+            "why": "The Infrastructure & Facilities Committee is asking the council to levy special assessments (charges to property owners) to pay for street work in 2027."
           },
           {
             "action": "vote",
-            "item": "Driveway and site work approvals for local businesses",
-            "why": "The council will vote on multiple resolutions approving driveways exceeding 44 feet and waiving concrete approach requirements for businesses on South 11th Avenue."
+            "item": "Deed restrictions and non-conforming uses at 1300 Cleveland Avenue",
+            "why": "The Economic Development Committee is asking the council to approve deed restrictions and clarify existing non-conforming uses on city-owned property."
           },
           {
             "action": "vote",
-            "item": "Deed restrictions for city property at 1300 Cleveland Avenue",
-            "why": "The council will vote on a resolution approving deed restrictions and clarifying existing non-conforming uses on city-owned property."
+            "item": "Driveway and concrete approach exceptions for Kolbe & Kolbe Millwork",
+            "why": "The Infrastructure & Facilities Committee is asking the council to approve oversized driveways and waive a concrete approach requirement at three nearby addresses on South 11th Avenue."
           },
           {
             "action": "discussion",
             "item": "District 9 aldermanic vacancy",
-            "why": "The council will address how to fill an aldermanic vacancy in District 9."
-          },
-          {
-            "action": "discussion",
-            "item": "Litigation strategy discussion in closed session",
-            "why": "The council will meet in closed session to confer with legal counsel about settlement strategy in a CERCLA environmental lawsuit."
+            "why": "The Common Council is addressing how to fill an empty aldermanic seat in District 9."
           }
         ],
-        "overview": "The Common Council will vote on several routine city matters including employee salary changes, water utility tax rates, and special assessments for 2027 street projects. The council will also address a vacancy in District 9 and meet in closed session to discuss litigation strategy.",
+        "overview": "The Common Council will vote on the 2026 budget modification and several resolutions affecting city property and employee pay. The council will also meet in closed session to discuss litigation strategy.",
         "publicComment": true
       }
     },
@@ -342,35 +354,29 @@
       "source": "wausau",
       "preview": {
         "closedSession": false,
-        "generated": "2026-11-23T00:58:31+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "roads_transportation",
+          "water_utilities"
+        ],
         "items": [
           {
             "action": "vote",
-            "item": "Recommendation for 2026 demolition at 207 North 1st Avenue",
-            "why": "The board will consider and vote on a recommendation for demolishing the building at 207 North 1st Avenue (MBX South), following bids opened on November 17."
+            "item": "Recommendation for 2026 demolition of 207 North 1st Avenue",
+            "why": "The board will make a recommendation on whether to demolish the building at 207 North 1st Avenue, with bids already opened."
           },
           {
             "action": "vote",
-            "item": "Crocker Street Lift Station Replacement payment",
-            "why": "The board will consider approving payment estimate #2 to Haas Sons, Inc. for work on the Crocker Street Lift Station Replacement project."
+            "item": "Pay estimates for Crocker Street and Cherry Street lift stations",
+            "why": "The board will approve a second payment to Haas Sons, Inc. for Crocker Street Lift Station Replacement and a final payment to Integrity Grading & Excavating, Inc. for Cherry Street Lift Station Replacement."
           },
           {
             "action": "vote",
-            "item": "Cherry Street Lift Station Replacement final payment",
-            "why": "The board will consider approving the final payment to Integrity Grading & Excavating, Inc. for the Cherry Street Lift Station Replacement project."
-          },
-          {
-            "action": "vote",
-            "item": "2026 Downtown Sidewalk Improvement Project payment",
-            "why": "The board will consider approving payment estimate #1 to Pember Companies, Inc. for the 2026 Downtown Sidewalk Improvement Project."
-          },
-          {
-            "action": "vote",
-            "item": "2026 Asphalt Paving Project payment and final approval",
-            "why": "The board will consider approving pay estimate #6 and final payment to RC Pavers, LLC for the 2026 Asphalt Paving Project \"A\"."
+            "item": "Pay estimates for downtown sidewalk and asphalt paving projects",
+            "why": "The board will approve a first payment to Pember Companies, Inc. for the 2026 Downtown Sidewalk Improvement Project and a sixth payment plus final payment to RC Pavers, LLC for the 2026 Asphalt Paving Project A."
           }
         ],
-        "overview": "The Board of Public Works is scheduled to decide on demolishing a building at 207 North 1st Avenue and approve several payments for city infrastructure projects including lift station replacements, sidewalk improvements, and street paving.",
+        "overview": "The Board of Public Works is scheduled to decide on demolishing a downtown building and approve payments for several ongoing street and utility projects around the city.",
         "publicComment": false
       }
     },
@@ -429,6 +435,104 @@
       "name": "Finance Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2420/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "6:30 PM",
+      "name": "Common Council Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1972/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "6:00 PM",
+      "name": "Airport Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1959/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "5:00 PM",
+      "name": "Infrastructure & Facilities Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2446/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "4:45 PM",
+      "name": "Human Resources Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2036/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-15",
+      "time": "5:00 PM",
+      "name": "Plan Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3522/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-17",
+      "time": "4:45 PM",
+      "name": "Transit Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2186/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-21",
+      "time": "5:15 PM",
+      "name": "Public Health & Safety Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2472/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-22",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2434/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-22",
+      "time": "6:30 PM",
+      "name": "Common Council Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1985/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-28",
+      "time": "7:30 AM",
+      "name": "Police & Fire Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2489/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2027-01-04",
+      "time": "5:15 PM",
+      "name": "Parks & Recreation Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2460/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2027-01-05",
+      "time": "11:30 AM",
+      "name": "Water Works Commission Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2199/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2027-01-05",
+      "time": "5:15 PM",
+      "name": "Economic Development Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3590/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2027-01-05",
+      "time": "5:15 PM",
+      "name": "Economic Development Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3618/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
@@ -447,25 +551,29 @@
       "source": "weston",
       "preview": {
         "closedSession": false,
-        "generated": "2026-11-19T00:57:28+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "parks_recreation",
+          "budget_taxes"
+        ],
         "items": [
-          {
-            "action": "discussion",
-            "item": "Farmers Market End of Season Survey results",
-            "why": "The committee will discuss feedback from 129 survey respondents about their experience at the Farmers Market held at Kennedy Park, covering parking, traffic flow, amenities, and other aspects."
-          },
-          {
-            "action": "discussion",
-            "item": "Kennedy Park Master Plan",
-            "why": "The committee will discuss and potentially act on updates to the master plan, which may need modifications based on the Farmers Market staying at the park and decisions from the youth hockey organization about using the northwest corner."
-          },
           {
             "action": "report",
             "item": "Aquatic Center Repairs update",
-            "why": "Director Osterbrink will provide an update on ongoing leak detection and equipment replacement work being performed by Neuman Pools, which includes finding and repairing leaks in the play structure supply pipe."
+            "why": "Director Osterbrink will report on ongoing leak detection and equipment replacement work by Neuman Pools, including $12,000 for leak detection and $128,000 for new motors, pumps, and valves."
+          },
+          {
+            "action": "discussion",
+            "item": "Farmers Market End of Season Survey results discussion",
+            "why": "The committee will review feedback from 129 survey respondents about the market at Kennedy Park, covering parking, traffic flow, shade, and other visitor experiences."
+          },
+          {
+            "action": "discussion",
+            "item": "Kennedy Park Master Plan update",
+            "why": "The committee will discuss updates to the master plan, including whether to keep the Farmers Market at its current location and plans by youth hockey for the northwest corner of the park."
           }
         ],
-        "overview": "The Parks and Recreation Committee will review survey feedback from the Farmers Market season at Kennedy Park and discuss the Kennedy Park Master Plan, which guides future improvements to the popular community facility.",
+        "overview": "The Parks and Recreation Committee will hear updates on pool repairs costing $140,000 and review survey feedback from 129 Farmers Market visitors about their Kennedy Park experience. The committee may also discuss and act on results from the market survey and updates to the Kennedy Park Master Plan.",
         "publicComment": true
       }
     },
@@ -591,40 +699,45 @@
       "source": "school_board",
       "preview": {
         "closedSession": false,
-        "generated": "2026-11-21T01:35:22+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "schools_learning",
+          "staffing_pay",
+          "budget_taxes"
+        ],
         "items": [
           {
             "action": "vote",
-            "item": "4K Program Agreements with community partners",
-            "why": "The board will vote to approve formal agreements between the district and child care and educational partners to run the 4K program in 2027-2028, including current sites and two prior partners seeking re-engagement."
+            "item": "Approve 4K program agreements with community partners for 2027-2028",
+            "why": "The board will vote to continue and expand formal partnerships between the district's preschool program and sites including Wausau Child Care, Mountain View Montessori, Newman Catholic Schools, and two previously partnered organizations."
           },
           {
             "action": "vote",
-            "item": "Secondary social studies curriculum adjustment for grades 6-12",
-            "why": "The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline."
+            "item": "Review and vote on updated district policies (35 policies total)",
+            "why": "The board will consider updates to 35 policies covering curriculum, student discipline, food services, transportation, surveillance, and other operations."
           },
           {
             "action": "report",
-            "item": "Staff turnover and retention report",
-            "why": "Tabatha Gundrum will present turnover data by employee group and discuss district efforts to address retention in the coming year."
-          },
-          {
-            "action": "vote",
-            "item": "Updates to 31 district policies",
-            "why": "The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas."
+            "item": "Hear staff turnover and retention report across all employee groups",
+            "why": "Tabatha Gundrum will present data on employee turnover by job category and discuss planned responses to address retention challenges."
           },
           {
             "action": "report",
-            "item": "2026-2027 student demographic report",
-            "why": "The director of technology will present enrollment and demographic data for the upcoming school year."
+            "item": "Review 2026-2027 student enrollment and demographic data",
+            "why": "Director of Technology Ralph Williams will present enrollment numbers and demographic information for the upcoming school year."
           },
           {
             "action": "report",
-            "item": "Referendum budget summary updates",
-            "why": "The assistant superintendent will provide an update on spending and progress related to the referendum budget."
+            "item": "Receive update on referendum budget spending",
+            "why": "Dr. Elizabeth Channel will update the board on how money from the district's referendum is being spent."
+          },
+          {
+            "action": "discussion",
+            "item": "Review changes to 6th through 12th grade social studies curriculum",
+            "why": "The board will consider an adjusted curriculum scope and sequence for secondary social studies and hear about the adjustment process and timeline."
           }
         ],
-        "overview": "The school board is scheduled to approve new community partnerships for the district's 4K program and vote on updates to the secondary social studies curriculum. The board will also hear reports on staff turnover, student demographics, and referendum budget progress.",
+        "overview": "The Wausau School Board will approve agreements for its preschool program partners and vote on updated district policies. The board will also hear updates on staff turnover, student enrollment, and curriculum changes.",
         "publicComment": true
       }
     },
@@ -643,9 +756,10 @@
       "source": "school_board",
       "preview": {
         "closedSession": true,
-        "generated": "2026-11-21T01:35:22+00:00",
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [],
         "items": [],
-        "overview": "The Wausau School Board is scheduled to meet in closed session to evaluate contracts and review administrator contracts under state confidentiality law; no open session business is listed.",
+        "overview": "The school board is scheduled to meet in closed session to discuss contract matters. No public business appears on this agenda.",
         "publicComment": false
       }
     },
@@ -727,31 +841,35 @@
       "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
       "source": "mosinee",
       "preview": {
-        "closedSession": false,
-        "generated": "2026-11-21T07:34:02+00:00",
+        "closedSession": true,
+        "generated": "2026-11-23T02:04:33+00:00",
+        "issues": [
+          "budget_taxes",
+          "staffing_pay"
+        ],
         "items": [
           {
             "action": "hearing",
-            "item": "Public hearing and adoption of 2027 city budget",
-            "why": "The council will hear public comment on the proposed 2027 budget and vote on Resolution 2026-08 to adopt it and authorize the tax levy."
+            "item": "Public hearing and vote on 2027 budget",
+            "why": "The council will hear public comment on the proposed 2027 budget and then vote on Resolution No. 2026-08 to adopt it and set the tax levy."
           },
           {
             "action": "vote",
             "item": "Building permit applications",
-            "why": "The council will discuss and decide on pending building permit applications."
+            "why": "The council will discuss and vote on pending building permit applications."
           },
           {
             "action": "vote",
             "item": "City employee holiday gift certificates",
-            "why": "The council will discuss and decide on holiday gift certificates for city employees."
+            "why": "The council will discuss and decide whether to approve holiday gift certificates for city employees."
           },
           {
             "action": "vote",
             "item": "Police labor agreement modification",
-            "why": "The council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association."
+            "why": "The council will discuss and vote on changes to the labor agreement with the Mosinee Professional Police Association that runs through December 31, 2026."
           }
         ],
-        "overview": "The Mosinee Common Council is scheduled to hold a public hearing on the city's 2027 budget and vote to adopt it. Residents can comment on the proposed budget before the council decides.",
+        "overview": "The City of Mosinee is scheduled to hold a public hearing on its 2027 budget and vote to approve it. The council will also decide on building permits, employee gifts, and a police labor agreement modification.",
         "publicComment": true
       }
     },

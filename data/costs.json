@@ -2168,5 +2168,105 @@
     "input_tokens": 3623,
     "output_tokens": 515,
     "usd": 0.018594
+  },
+  {
+    "ts": "2026-11-23T02:04:38.825587+00:00",
+    "meeting_id": "24e3b3cff70c7c06690b",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2551,
+    "output_tokens": 366,
+    "usd": 0.004381
+  },
+  {
+    "ts": "2026-11-23T02:04:45.066381+00:00",
+    "meeting_id": "cd396637cc1ec0e66e04",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2275,
+    "output_tokens": 460,
+    "usd": 0.004575
+  },
+  {
+    "ts": "2026-11-23T02:04:52.137582+00:00",
+    "meeting_id": "1840f1f9e200f1ed5335",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2826,
+    "output_tokens": 503,
+    "usd": 0.005341
+  },
+  {
+    "ts": "2026-11-23T02:04:58.135024+00:00",
+    "meeting_id": "c0025436f0c30c706fd8",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2285,
+    "output_tokens": 358,
+    "usd": 0.004075
+  },
+  {
+    "ts": "2026-11-23T02:05:05.556107+00:00",
+    "meeting_id": "662de08195fcb475353f",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3062,
+    "output_tokens": 507,
+    "usd": 0.005597
+  },
+  {
+    "ts": "2026-11-23T02:05:10.177512+00:00",
+    "meeting_id": "80136b5bc1300db5c8be",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2212,
+    "output_tokens": 348,
+    "usd": 0.003952
+  },
+  {
+    "ts": "2026-11-23T02:05:20.256300+00:00",
+    "meeting_id": "b46119fc786a09bd3ddf",
+    "jurisdiction": "weston",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10290,
+    "output_tokens": 341,
+    "usd": 0.011995
+  },
+  {
+    "ts": "2026-11-23T02:05:25.649805+00:00",
+    "meeting_id": "0b8dc6e2f034452db544",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2513,
+    "output_tokens": 502,
+    "usd": 0.005023
+  },
+  {
+    "ts": "2026-11-23T02:05:26.849039+00:00",
+    "meeting_id": "40f8a47f78dac7d1f4e7",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1614,
+    "output_tokens": 68,
+    "usd": 0.001954
+  },
+  {
+    "ts": "2026-11-23T02:05:31.014416+00:00",
+    "meeting_id": "710a91f459cd14f98463",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1829,
+    "output_tokens": 338,
+    "usd": 0.003519
   }
 ]

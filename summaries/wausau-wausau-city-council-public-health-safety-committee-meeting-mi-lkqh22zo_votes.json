@@ -1,0 +1,245 @@
+{
+  "event_id": 2471,
+  "agenda_id": 2726,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve",
+          "passed": true,
+          "initiator": "Kristin Slonski",
+          "seconder": "Bruce Trueblood",
+          "yes": [
+            "Lou Larson",
+            "Carol Lukens",
+            "Kristin Slonski",
+            "Bruce Trueblood",
+            "Sarah Watson"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Regular Public Health & Safety Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "PublicHealth&Safety_Regular_10192026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10362)",
+              "type": "application/pdf",
+              "size": 3372229
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Approval or denial of various license applications.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve with the exception of Fuel On",
+              "passed": true,
+              "initiator": "Bruce Trueblood",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Lou Larson",
+                "Carol Lukens",
+                "Kristin Slonski",
+                "Bruce Trueblood",
+                "Sarah Watson"
+              ],
+              "no": [],
+              "abstain": []
+            },
+            {
+              "motion": "approve the provisional alcohol license per recommendation by the Liquor License Review Subcommittee and the cigarette license",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Carol Lukens",
+              "yes": [
+                "Lou Larson",
+                "Carol Lukens",
+                "Kristin Slonski",
+                "Bruce Trueblood",
+                "Sarah Watson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "License List",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10519)",
+              "type": "application/pdf",
+              "size": 255226
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Formal Expression of Concern for M&R Station, Richard Gordon DBA M&R Station LLC, agent Richard Gordon, for assessed demerit points in accordance with Wausau Municipal Code 5.64.078.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Letter of Concern for M&R Station",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10306)",
+              "type": "application/pdf",
+              "size": 401420
+            },
+            {
+              "name": "August 2026 Tavern Report - Incident Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10307)",
+              "type": "application/pdf",
+              "size": 405226
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Approving Emergency Management Services Agreement with Marathon County",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Bruce Trueblood",
+              "seconder": "Kristin Slonski",
+              "yes": [
+                "Lou Larson",
+                "Carol Lukens",
+                "Kristin Slonski",
+                "Bruce Trueblood",
+                "Sarah Watson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "emergency management services agreement 2027 2029",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10490)",
+              "type": "application/pdf",
+              "size": 155732
+            },
+            {
+              "name": "emergency management services agreement 2024 2026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10491)",
+              "type": "application/pdf",
+              "size": 2632502
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Discussion.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<span style=\"background-color: rgb(250, 197, 28);\">Tavern Activities Report from October 2026.</span>",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Tavern Report October 2026 ",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10542)",
+              "type": "application/pdf",
+              "size": 482553
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Wausau Fire Department Quarter 3 2026 Report.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Wausau Fire Department Quarter 3 2026 Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10252)",
+              "type": "application/pdf",
+              "size": 1539501
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Update on the Marathon County and City of Wausau Foundational Framework for Homelessness Response, and associated Strategic Plan development work from the Marathon County Public Health Coordinator.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Marathon County and City of Wausau Foundational Framework for Homelessness Response",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10509)",
+              "type": "application/pdf",
+              "size": 1797532
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Kristin Slonski",
+          "seconder": "Bruce Trueblood",
+          "yes": [
+            "Lou Larson",
+            "Carol Lukens",
+            "Kristin Slonski",
+            "Bruce Trueblood",
+            "Sarah Watson"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

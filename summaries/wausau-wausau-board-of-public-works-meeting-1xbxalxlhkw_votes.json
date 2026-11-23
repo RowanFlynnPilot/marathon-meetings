@@ -1,0 +1,275 @@
+{
+  "event_id": 3613,
+  "agenda_id": 2732,
+  "items": [
+    {
+      "number": "1",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>October 27, 2026</strong> Regular Board of Public Works Minutes.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Anne Jacobson",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Anne Jacobson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "BoardofPublicWorks_Regular_DRAFTMinutes_10272026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10320)",
+              "type": "application/pdf",
+              "size": 870089
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Open bids for 6999-18-81 Business Campus Trail E/W Connector 84th Avenue to 72nd Avenue.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Open Request for Proposals for Construction Administration for the Business Campus Trail E/W Connector.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Open Request for Proposals for 2026 Public Safety Roof Replacement #1.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "2026 Asphalt Patching Project: \u00a0Zilisch Asphalt LLC, Change Order #1.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Change Order #1 in the amount of $6,040.00",
+              "passed": false,
+              "initiator": "Eric Lindman",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "MaryAnne Groat"
+              ],
+              "no": [
+                "Eric Lindman",
+                "Anne Jacobson"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Zilisch 2026 Asphalt Patching CO 1",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10321)",
+              "type": "application/pdf",
+              "size": 665043
+            },
+            {
+              "name": "Zilisch 2026 Asphalt Patching CO 1 Zilisch Exhibit",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10322)",
+              "type": "application/pdf",
+              "size": 889862
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Pay Estimate #35 with Community Infrastructure Partners for replacement of lead service lines.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Pay Estimate #35 in the amount of $1,731,994.59",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Anne Jacobson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "CIP Year 3 LSL Disbursement Request Form 8700-366-CIP Request35",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10318)",
+              "type": "application/pdf",
+              "size": 1258778
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Pay Estimate with Community Infrastructure Partners for the Outreach Grant Program for work completed in September.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the pay estimate in the amount of $18,941.29 for Outreach Grant Program work completed in September",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Anne Jacobson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "September Outreach Wausau Disbursement Request Form - Supporting Worksheet Package",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10319)",
+              "type": "application/pdf",
+              "size": 1061883
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Closed Session.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>Closed Session&nbsp;</strong>pursuant to Wisconsin State Statute \u00a719.85(1)(g) for the purpose of deliberating on claims.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "convene into closed session",
+              "passed": true,
+              "initiator": "Eric Lindman",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "Eric Lindman",
+                "MaryAnne Groat",
+                "Anne Jacobson"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Claims 110426",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10339)",
+              "type": "application/pdf",
+              "size": 122919
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "reconvene into open session",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "Eric Lindman",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Anne Jacobson"
+          ],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "deny claim of Wayne Becher in the amount of $2062.50",
+          "passed": false,
+          "initiator": "Anne Jacobson",
+          "seconder": "Eric Lindman",
+          "yes": [],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "approve the claim of Vicki Swanson in the amount of $1290.83",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "Eric Lindman",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Anne Jacobson"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "Eric Lindman",
+          "yes": [
+            "Eric Lindman",
+            "MaryAnne Groat",
+            "Anne Jacobson"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

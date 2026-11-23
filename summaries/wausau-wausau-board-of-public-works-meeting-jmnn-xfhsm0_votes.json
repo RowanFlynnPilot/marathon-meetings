@@ -1,0 +1,185 @@
+{
+  "event_id": 3650,
+  "agenda_id": 2750,
+  "items": [
+    {
+      "number": "1",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>November 10, 2026</strong> Regular Board of Public Works Minutes.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Anne Jacobson",
+              "seconder": "Allen Wesolowski",
+              "yes": [
+                "Anne Jacobson",
+                "Allen Wesolowski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "BoardofPublicWorks_Regular_DRAFTMinutes_11102026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10541)",
+              "type": "application/pdf",
+              "size": 978967
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Open bids for 2026 Demolition of 207 North 1st Avenue (MBX South).",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "2026 Sidewalk Repair Project \"A\":\u00a0 Pember Companies, Inc., Pay Estimate #3.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Pay Estimate #3 in the amount of $8,208.05",
+              "passed": true,
+              "initiator": "Allen Wesolowski",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "Anne Jacobson",
+                "Allen Wesolowski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Pember 2026 Sidewalk A Pay Est 3",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10535)",
+              "type": "application/pdf",
+              "size": 2474058
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Closed Session.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>Closed Session&nbsp;</strong>pursuant to Wisconsin State Statute \u00a719.85(1)(g) for the purpose of deliberating on claims.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "convene into closed session",
+              "passed": true,
+              "initiator": "Allen Wesolowski",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "Anne Jacobson",
+                "Allen Wesolowski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Claims 111726",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11568)",
+              "type": "application/pdf",
+              "size": 125204
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "reconvene into open session",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "Allen Wesolowski",
+          "yes": [
+            "Anne Jacobson",
+            "Allen Wesolowski"
+          ],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "approve the claim of Aaron Isaac Munoz Granados in the amount of $9,878.62",
+          "passed": false,
+          "initiator": "Anne Jacobson",
+          "seconder": "Allen Wesolowski",
+          "yes": [],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "deny the claim of John and Jennifer Havel in the amount of $180.00",
+          "passed": false,
+          "initiator": " ",
+          "seconder": " ",
+          "yes": [],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "Allen Wesolowski",
+          "yes": [
+            "Anne Jacobson",
+            "Allen Wesolowski"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

@@ -5,31 +5,28 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 ## Decisions coming up
 
 - [Monday, Nov 23, 5:00 PM: Wausau School Board, Committee of the Whole Meeting (residents can speak)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459)
-  - VOTE: 4K Program Agreements with community partners. The board will vote to approve formal agreements between the district and child care and educational partners to run the 4K program in 2027-2028, including current sites and two prior partners seeking re-engagement.
-  - VOTE: Secondary social studies curriculum adjustment for grades 6-12. The board will vote on an adjusted scope and sequence for secondary social studies instruction, with an overview of the process and timeline.
-  - VOTE: Updates to 31 district policies. The board will vote on revisions to policies covering curriculum, student activities, health services, transportation, food services, and other operational areas.
+  - VOTE: Approve 4K program agreements with community partners for 2027-2028. The board will vote to continue and expand formal partnerships between the district's preschool program and sites including Wausau Child Care, Mountain View Montessori, Newman Catholic Schools, and two previously partnered organizations.
+  - VOTE: Review and vote on updated district policies (35 policies total). The board will consider updates to 35 policies covering curriculum, student discipline, food services, transportation, surveillance, and other operations.
 - [Monday, Nov 23, 5:30 PM: Wausau School Board, Special Meeting (closed session)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498)
-- [Monday, Nov 23, 6:00 PM: City of Mosinee, Common Council - Budget Meeting (residents can speak)](https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526)
-  - HEARING: Public hearing and adoption of 2027 city budget. The council will hear public comment on the proposed 2027 budget and vote on Resolution 2026-08 to adopt it and authorize the tax levy.
-  - VOTE: Building permit applications. The council will discuss and decide on pending building permit applications.
-  - VOTE: City employee holiday gift certificates. The council will discuss and decide on holiday gift certificates for city employees.
-  - VOTE: Police labor agreement modification. The council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association.
+- [Monday, Nov 23, 6:00 PM: City of Mosinee, Common Council - Budget Meeting (residents can speak; closed session)](https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526)
+  - HEARING: Public hearing and vote on 2027 budget. The council will hear public comment on the proposed 2027 budget and then vote on Resolution No. 2026-08 to adopt it and set the tax levy.
+  - VOTE: Building permit applications. The council will discuss and vote on pending building permit applications.
+  - VOTE: City employee holiday gift certificates. The council will discuss and decide whether to approve holiday gift certificates for city employees.
+  - VOTE: Police labor agreement modification. The council will discuss and vote on changes to the labor agreement with the Mosinee Professional Police Association that runs through December 31, 2026.
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
-  - VOTE: 2027 budgets for five housing programs. The board will vote on budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue programs.
-  - VOTE: Repositioning scattered-sites public housing to vouchers. S.C. Koegler Consulting will present options for restructuring, and the board will vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers.
+  - VOTE: 2027 budgets for five housing programs. The board is scheduled to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers, Fulton Street, and 8th Avenue.
+  - VOTE: Repositioning scattered public housing to voucher-based model. The board will hear a presentation on comprehensive repositioning options and vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers.
 - [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
-  - VOTE: Approve purchase of cardiac monitors and ventilators for Fire Department. The committee will vote on a purchase and security agreement with Zoll Medical Corporation to buy cardiac monitors and ventilators for the Fire Department.
-  - VOTE: Approve animal impoundment services agreement with Humane Society. The committee will vote on approving a purchase of animal impoundment services agreement with the Humane Society of Marathon County, Inc.
-  - VOTE: Approve purchase of outdoor vertical platform lift for Athletic Park. The committee will vote on a budget modification and sole source request to purchase an outdoor vertical platform lift for Athletic Park.
-  - VOTE: Approve mapping software agreement with Esri. The committee will vote on approving a Small Government Enterprise Agreement with Environmental Systems Research Institute, Inc. for mapping software.
-  - VOTE: Approve production agreement with Marathon County. The committee will vote on approving a production agreement between Marathon County and the City of Wausau.
-  - VOTE: Approve agreement with Wausau Cemetery Association. The committee will vote on approving an agreement between the City of Wausau and the Wausau Cemetery Association.
+  - VOTE: Animal impoundment services agreement with Humane Society. The committee will vote to approve a contract with the Humane Society of Marathon County for the city to use their animal impoundment services.
+  - VOTE: Five other service and equipment purchase agreements. The committee will vote to approve agreements for mapping software (Esri), county production services, cemetery operations, and fire department cardiac monitors and ventilators.
+  - VOTE: Budget change and lift purchase for Athletic Park. The committee will vote to approve a budget modification and sole source request to buy an outdoor vertical platform lift for Athletic Park.
 - [Tuesday, Nov 24, 6:30 PM: City of Wausau, Common Council Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/1984/overview)
-  - VOTE: Employee salary structure revision and tax rate approvals. The council will vote on a joint resolution revising the salary structure for general employees and a resolution establishing the 2026 property tax equivalent for Wausau Water Works.
-  - VOTE: Special assessments for 2027 street construction projects. The council will vote on a preliminary resolution to levy special assessments on properties affected by 2027 street construction.
-  - VOTE: Driveway and site work approvals for local businesses. The council will vote on multiple resolutions approving driveways exceeding 44 feet and waiving concrete approach requirements for businesses on South 11th Avenue.
-  - VOTE: Deed restrictions for city property at 1300 Cleveland Avenue. The council will vote on a resolution approving deed restrictions and clarifying existing non-conforming uses on city-owned property.
+  - VOTE: 2026 budget modification for year-end projections. The Finance Committee is asking the council to approve various budget adjustments based on how the year ended.
+  - VOTE: Salary structure revision for general city employees. The Finance Committee and Human Resources Committee are asking the council to revise how general employees' salaries are structured.
+  - VOTE: Special assessments for 2027 street construction projects. The Infrastructure & Facilities Committee is asking the council to levy special assessments (charges to property owners) to pay for street work in 2027.
+  - VOTE: Deed restrictions and non-conforming uses at 1300 Cleveland Avenue. The Economic Development Committee is asking the council to approve deed restrictions and clarify existing non-conforming uses on city-owned property.
+  - VOTE: Driveway and concrete approach exceptions for Kolbe & Kolbe Millwork. The Infrastructure & Facilities Committee is asking the council to approve oversized driveways and waive a concrete approach requirement at three nearby addresses on South 11th Avenue.
 
 ## Contested votes, past week
 
@@ -58,8 +55,8 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - Mosinee School Board, Personnel Committee Meeting (November 17, 2026)
   - City of Wausau, Rules Review Committee Meeting (November 9, 2026)
 - Lead Service Line Replacement: 3 meetings (City of Wausau)
-  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
   - City of Wausau, Board of Public Works Meeting (November 4, 2026)
+  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
   - City of Wausau, Common Council Meeting (October 27, 2026)
 - Tax Increment Districts: 3 meetings (Village of Kronenwetter)
   - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)

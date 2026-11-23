@@ -1,0 +1,565 @@
+{
+  "event_id": 3655,
+  "agenda_id": 2758,
+  "items": [
+    {
+      "number": "1",
+      "name": "Joint Finance Committee and Human Resources Committee ",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Revise Salary Structure for General Employees.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve for the Finance Committee",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            },
+            {
+              "motion": "approve for the Human Resources Committee",
+              "passed": true,
+              "initiator": "Lou Larson",
+              "seconder": "Terry Kilian",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Lou Larson",
+                "Terry Kilian",
+                "Andrew Wiskowski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Revised Salary Structure for General Employees",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10449)",
+              "type": "application/pdf",
+              "size": 82200
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Finance Committee",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "5",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve",
+          "passed": false,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Sarah Watson",
+          "yes": [
+            "Vicki Tierney",
+            "Michael  Martens",
+            "Sarah Watson",
+            "Tom Neal",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Budget Session Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_BudgetSession_10202026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10341)",
+              "type": "application/pdf",
+              "size": 214156
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Regular Finance Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Finance_Regular_10272026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10342)",
+              "type": "application/pdf",
+              "size": 230580
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve as Amended",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [
+                "Vicki Tierney"
+              ],
+              "abstain": []
+            },
+            {
+              "motion": "Hoenecke Amendment ",
+              "passed": false,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Tom Neal",
+              "yes": [],
+              "no": [],
+              "abstain": []
+            },
+            {
+              "motion": "Neal Amendment",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [
+                "Vicki Tierney"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Sole Source Request",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10364)",
+              "type": "application/pdf",
+              "size": 313528
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Approving the 2027 Operating Plan for Business Improvement District (BID) No. 1.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "2027 BID Operating Plan",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10414)",
+              "type": "application/pdf",
+              "size": 308762
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Approving 2027 Beat Patrol Grant for the Wausau Police Department.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10344)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 435502
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Approving budget amendment for the 2027 Lead Service Line Safe Drinking Water Award.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the budget amendment for the Lead Service Line Safe Drinking Water Award",
+              "passed": false,
+              "initiator": "Tom Neal",
+              "seconder": "Sarah Watson",
+              "yes": [],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10415)",
+              "type": "application/pdf",
+              "size": 147950
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Establishing the 2026 Property Tax Equivalent for Wausau Water Works.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Approving agreement between City of Wausau and the Wausau Cemetery Association.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "wausau cemetery association agreement 2026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10478)",
+              "type": "application/pdf",
+              "size": 60981
+            },
+            {
+              "name": "cemetery agreement 2016",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10356)",
+              "type": "application/pdf",
+              "size": 737841
+            },
+            {
+              "name": "cemetery agreement fin mins 9.27.16",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10368)",
+              "type": "application/pdf",
+              "size": 821336
+            },
+            {
+              "name": "1st amendment to cemetery agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10357)",
+              "type": "application/pdf",
+              "size": 504692
+            },
+            {
+              "name": "1st amendment to cemetery agreement fin mins 9.8.21",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10369)",
+              "type": "application/pdf",
+              "size": 1323323
+            },
+            {
+              "name": "2nd amendment to cemetery agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10358)",
+              "type": "application/pdf",
+              "size": 783282
+            },
+            {
+              "name": "2nd amendment to cemetery agreement fin mins 4.9.24",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10370)",
+              "type": "application/pdf",
+              "size": 1404363
+            },
+            {
+              "name": "cemetery trust agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10359)",
+              "type": "application/pdf",
+              "size": 1806290
+            },
+            {
+              "name": "cemetery trust fund fin mins 4.14.15",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10371)",
+              "type": "application/pdf",
+              "size": 9782455
+            },
+            {
+              "name": "cemetery trust agreement fin mins 6.10.15",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10372)",
+              "type": "application/pdf",
+              "size": 453228
+            },
+            {
+              "name": "1st amendment to cemetery trust agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10360)",
+              "type": "application/pdf",
+              "size": 904218
+            },
+            {
+              "name": "1st amendment cemetery trust agreement fin mins 6.9.20",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10373)",
+              "type": "application/pdf",
+              "size": 2088935
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "g",
+          "name": "Approving budget amendment for 2026 budget modifications based upon year-end projections.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve ",
+              "passed": true,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "YearEnd Reconciliation",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10451)",
+              "type": "application/pdf",
+              "size": 122756
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "h",
+          "name": "Approving Comprehensive Purchasing Card Policy.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve ",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "2026 Proposed City of Wausau Purchasing Card Policy and Employee Acknowledgement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10436)",
+              "type": "application/pdf",
+              "size": 196696
+            },
+            {
+              "name": "Existing Credit  Card Policy",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10437)",
+              "type": "application/pdf",
+              "size": 44809
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "i",
+          "name": "Approving Administrative Revision and Nominal Payment Parcel for Parcel 1 - 111 Sturgeon Eddy Road and Approving Appraisal Review and Offering Price Report for Parcel 5 - 1303 Grand Avenue and Parcel 6 - 1339 Grand Avenue &amp; 1343 Grand Avenue for the Business 51/CTH N Project and Business 51/Sturgeon Eddy Road Project, Project ID 3700-40-40.",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "name": "Closed Session.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve ",
+          "passed": true,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Sarah Watson",
+          "yes": [
+            "Vicki Tierney",
+            "Michael  Martens",
+            "Sarah Watson",
+            "Tom Neal",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>Adjourn to Closed Session\u00a0</strong>pursuant to Wisconsin State Statute \u00a7 19.85(1)(e) for deliberating or negotiating the purchasing of public properties, the investing of public funds, or conducting other specified public business, whenever competitive or bargaining reasons require a closed session, for the purpose of approving Administrative Revision and Nominal Payment Parcel for Parcel 1 - 111 Sturgeon Eddy Road and Approving Appraisal Review and Offering Price Report for Parcel 5 - 1303 Grand Avenue and Parcel 6 - 1339 Grand Avenue & 1343 Grand Avenue for the Business 51/CTH N Project and Business 51/Sturgeon Eddy Road Project, Project ID 3700-40-40.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "adjourn into closed session",
+              "passed": true,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Vicki Tierney",
+                "Michael  Martens",
+                "Sarah Watson",
+                "Tom Neal",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items. ",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve the administrative revision and payment for parcel 1 for $469.59 and payment for parcel 7 for $200",
+          "passed": true,
+          "initiator": "Michael  Martens",
+          "seconder": "Matt Hoenecke",
+          "yes": [
+            "Vicki Tierney",
+            "Michael  Martens",
+            "Sarah Watson",
+            "Tom Neal",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "9",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": false,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Sarah Watson",
+          "yes": [],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

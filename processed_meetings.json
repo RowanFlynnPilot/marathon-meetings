@@ -2900,24 +2900,26 @@
     "UpcAT4xAvZc": {
       "title": "Wausau Finance Committee Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/2432/files",
       "upload_date": "20261027",
       "meeting_date": "20261027",
       "duration": 3382,
       "video_url": null,
       "processed_at": "2026-10-28T21:03:31.401468+00:00",
-      "summary_file": "summaries/wausau-wausau-finance-committee-meeting-upcat4xavzc.md"
+      "summary_file": "summaries/wausau-wausau-finance-committee-meeting-upcat4xavzc.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "nOAYeu-mA2g": {
       "title": "Wausau Common Council Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/1983/files",
       "upload_date": "20261027",
       "meeting_date": "20261027",
       "duration": 7131,
       "video_url": null,
       "processed_at": "2026-10-29T05:47:00.107441+00:00",
-      "summary_file": "summaries/wausau-wausau-common-council-meeting-noayeu-ma2g.md"
+      "summary_file": "summaries/wausau-wausau-common-council-meeting-noayeu-ma2g.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "bb_772792": {
       "title": "Closed Meeting - 2026-11-02",
@@ -2966,24 +2968,26 @@
     "1MuGCAijiwY": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3613/files",
       "upload_date": "20261104",
       "meeting_date": "20261104",
       "duration": 778,
       "video_url": null,
       "processed_at": "2026-11-05T00:55:50.777497+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1mugcaijiwy.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1mugcaijiwy.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "1XBXalxLhkw": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3613/files",
       "upload_date": "20261104",
       "meeting_date": "20261104",
       "duration": 51,
       "video_url": null,
       "processed_at": "2026-11-05T00:56:01.065789+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1xbxalxlhkw.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-1xbxalxlhkw.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "QfKwZ4nvAjc": {
       "title": "Wausau Waterworks Works Meeting",
@@ -2994,7 +2998,8 @@
       "duration": 679,
       "video_url": null,
       "processed_at": "2026-11-05T00:56:36.394548+00:00",
-      "summary_file": "summaries/wausau-wausau-waterworks-works-meeting-qfkwz4nvajc.md"
+      "summary_file": "summaries/wausau-wausau-waterworks-works-meeting-qfkwz4nvajc.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "x5ndfhfruMg": {
       "title": "Marathon County Health & Human Services Committee Meeting",
@@ -3016,7 +3021,8 @@
       "duration": 4377,
       "video_url": null,
       "processed_at": "2026-11-05T22:00:17.018326+00:00",
-      "summary_file": "summaries/wausau-wausau-economic-development-meeting-smluguewkq4.md"
+      "summary_file": "summaries/wausau-wausau-economic-development-meeting-smluguewkq4.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "FbHVlv1qUyI": {
       "title": "Marathon County Joint Ext, Edu, Econ. Dev. and HR, Fin, Property Committee Meeting",
@@ -3109,24 +3115,26 @@
     "68FOdDdxyIg": {
       "title": "Wausau Rules Review Committee Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3653/files",
       "upload_date": "20261109",
       "meeting_date": "20261109",
       "duration": 4533,
       "video_url": null,
       "processed_at": "2026-11-10T21:49:48.487280+00:00",
-      "summary_file": "summaries/wausau-wausau-rules-review-committee-meeting-68fodddxyig.md"
+      "summary_file": "summaries/wausau-wausau-rules-review-committee-meeting-68fodddxyig.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "8cbyiMGaNPQ": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3614/files",
       "upload_date": "20261110",
       "meeting_date": "20261110",
       "duration": 101,
       "video_url": null,
       "processed_at": "2026-11-10T21:50:01.161398+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-8cbyimganpq.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-8cbyimganpq.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "PZjmUPDVbTE": {
       "title": "Marathon County Human Resources, Finance & Property Committee Meeting",
@@ -3142,13 +3150,14 @@
     "UclNYQZAFAo": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3614/files",
       "upload_date": "20261110",
       "meeting_date": "20261110",
       "duration": 339,
       "video_url": null,
       "processed_at": "2026-11-11T06:13:00.021631+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uclnyqzafao.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-uclnyqzafao.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "kw_72cd279271474fd5bb5d5a83fb451c72": {
       "title": "Redevelopment Authority Meeting - 2026-11-12",
@@ -3197,13 +3206,14 @@
     "LJW8KBfFsaY": {
       "title": "Wausau City Council Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/1971/files",
       "upload_date": "20261110",
       "meeting_date": "20261110",
       "duration": 7719,
       "video_url": null,
       "processed_at": "2026-11-16T06:27:56.162368+00:00",
-      "summary_file": "summaries/wausau-wausau-city-council-meeting-ljw8kbffsay.md"
+      "summary_file": "summaries/wausau-wausau-city-council-meeting-ljw8kbffsay.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "NK80DZtCkNg": {
       "title": "Marathon County Board Executive Committee Meeting Pt.1",
@@ -3230,24 +3240,26 @@
     "VQysP2OBjfI": {
       "title": "Wausau Joint Finance and Human Resources Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3655/files",
       "upload_date": "20261110",
       "meeting_date": "20261110",
       "duration": 4703,
       "video_url": null,
       "processed_at": "2026-11-16T06:30:27.014260+00:00",
-      "summary_file": "summaries/wausau-wausau-joint-finance-and-human-resources-meeting-vqysp2objfi.md"
+      "summary_file": "summaries/wausau-wausau-joint-finance-and-human-resources-meeting-vqysp2objfi.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "oLNO7g9EenE": {
       "title": "Wausau City Council Infrastructure and Facilities Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/2445/files",
       "upload_date": "20261112",
       "meeting_date": "20261112",
       "duration": 3323,
       "video_url": null,
       "processed_at": "2026-11-16T06:31:26.675135+00:00",
-      "summary_file": "summaries/wausau-wausau-city-council-infrastructure-and-facilities-meeting-olno7g9eene.md"
+      "summary_file": "summaries/wausau-wausau-city-council-infrastructure-and-facilities-meeting-olno7g9eene.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "kw_ff35b6b75e12487c9fcbce664abe1fbf": {
       "title": "Revised Administrative Policy Committee Meeting - 2026-11-17",
@@ -3274,35 +3286,38 @@
     "JMnn_Xfhsm0": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3650/files",
       "upload_date": "20261117",
       "meeting_date": "20261117",
       "duration": 251,
       "video_url": null,
       "processed_at": "2026-11-17T23:32:09.722436+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-jmnn-xfhsm0.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-jmnn-xfhsm0.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "Mi_lKQH22Zo": {
       "title": "Wausau City Council Public Health & Safety Committee Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/2471/files",
       "upload_date": "20261116",
       "meeting_date": "20261116",
       "duration": 3472,
       "video_url": null,
       "processed_at": "2026-11-17T23:33:00.282364+00:00",
-      "summary_file": "summaries/wausau-wausau-city-council-public-health-safety-committee-meeting-mi-lkqh22zo.md"
+      "summary_file": "summaries/wausau-wausau-city-council-public-health-safety-committee-meeting-mi-lkqh22zo.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "d4d1DWUqlLs": {
       "title": "Wausau Board of Public Works Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/3650/files",
       "upload_date": "20261117",
       "meeting_date": "20261117",
       "duration": 50,
       "video_url": null,
       "processed_at": "2026-11-17T23:34:26.260326+00:00",
-      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-d4d1dwuqlls.md"
+      "summary_file": "summaries/wausau-wausau-board-of-public-works-meeting-d4d1dwuqlls.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "rr4xY0W5ETo": {
       "title": "Finance and HR Committee",
@@ -3357,7 +3372,8 @@
       "duration": 3377,
       "video_url": null,
       "processed_at": "2026-11-18T17:16:51.942601+00:00",
-      "summary_file": "summaries/wausau-wausau-plan-commission-meeting-cw6dquf-9vk.md"
+      "summary_file": "summaries/wausau-wausau-plan-commission-meeting-cw6dquf-9vk.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "kPvpA6dRbYM": {
       "title": "Wausau Transit Commission Meeting",
@@ -3368,7 +3384,8 @@
       "duration": 1888,
       "video_url": null,
       "processed_at": "2026-11-21T01:40:08.157220+00:00",
-      "summary_file": "summaries/wausau-wausau-transit-commission-meeting-kpvpa6drbym.md"
+      "summary_file": "summaries/wausau-wausau-transit-commission-meeting-kpvpa6drbym.md",
+      "portal_votes_checked": "2026-11-23"
     },
     "dg_494": {
       "title": "Regular School Board Meeting - 2026-11-17",

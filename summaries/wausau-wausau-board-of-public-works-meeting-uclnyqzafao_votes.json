@@ -1,0 +1,350 @@
+{
+  "event_id": 3614,
+  "agenda_id": 2733,
+  "items": [
+    {
+      "number": "1",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>November 4, 2026</strong> Regular Board of Public Works Minutes.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Anne Jacobson",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "BoardofPublicWorks_Regular_DRAFTMinutes_11042026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10452)",
+              "type": "application/pdf",
+              "size": 980924
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Make recommendation for 6999-18-81 Business Campus Trail E/W Connector 84th Avenue to 72nd Avenue.\u00a0 (Bids were opened November 4, 2026.)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "award the project to PGA, Inc. in the amount of $967,904.69",
+              "passed": true,
+              "initiator": "Thomas Niksich",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "BidWorksheet_2026 Bus Campus EW 84th to 72nd",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10441)",
+              "type": "application/pdf",
+              "size": 98349
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Make recommendation for Construction Administration for the Business Campus Trail E/W Connector. \u00a0(Proposals were opened November 4, 2026.)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "award the contract to MSA Professional Services with the contract amount to be negotiated between Engineering and MSA",
+              "passed": true,
+              "initiator": "Thomas Niksich",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Make recommendation for 2026 Public Safety Roof Replacement #1. \u00a0(Proposals were opened November 4, 2026.)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the proposal from Quality Roofing",
+              "passed": true,
+              "initiator": "MaryAnne Groat",
+              "seconder": "Thomas Niksich",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Public Safety Roof Replacement Quality Roofing Proposal",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10443)",
+              "type": "application/pdf",
+              "size": 456473
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "2026 Riverfront Parking Lot Project: \u00a0PGA, Inc., Pay Estimate #2.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Pay Estimate #2 in the amount of $147,631.09",
+              "passed": true,
+              "initiator": "Thomas Niksich",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "PGA Riverfront Parking Lot Pay Est 2",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10445)",
+              "type": "application/pdf",
+              "size": 4672228
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "2026 Street Construction Project \"A\" - Stark Street:\u00a0 Switlick & Sons, Inc., Pay Estimate #8.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Pay Estimate #8 in the amount of $53,517.61",
+              "passed": true,
+              "initiator": "MaryAnne Groat",
+              "seconder": "Thomas Niksich",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Switlick 2026 Proj A Pay Est 8",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10446)",
+              "type": "application/pdf",
+              "size": 6253141
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "2026 Street Construction Project \"B\" - North 8th Avenue: \u00a0Switlick & Sons, Inc., Pay Estimate #5.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve Pay Estimate #5 in the amount of $432,877.42",
+              "passed": true,
+              "initiator": "MaryAnne Groat",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Switlick 2026 Proj B Pay Est 5",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10447)",
+              "type": "application/pdf",
+              "size": 4539877
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "g",
+          "name": "2025 Public Safety Building Chiller Replacement:\u00a0 Tweet/Garot Mechanical, Inc., Final Payment.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve the final payment in the amount of $21,480",
+              "passed": true,
+              "initiator": "Thomas Niksich",
+              "seconder": "MaryAnne Groat",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Tweet Garot Final Payment",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10448)",
+              "type": "application/pdf",
+              "size": 697041
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Closed Session.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>Closed Session\u00a0</strong>pursuant to Wisconsin State Statute \u00a719.85(1)(e) for the purpose of considering and deliberating on pre-qualification statements for 2026 Demolition of 207 North 1st Avenue (MBX South).",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "convene into closed session",
+              "passed": true,
+              "initiator": "Thomas Niksich",
+              "seconder": "Anne Jacobson",
+              "yes": [
+                "MaryAnne Groat",
+                "Anne Jacobson",
+                "Thomas Niksich"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Plan Holders 2026 Demo of 207 N 1st Ave MBX",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10475)",
+              "type": "application/pdf",
+              "size": 801512
+            },
+            {
+              "name": "MBX Demo PreBid Sign In",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10477)",
+              "type": "application/pdf",
+              "size": 815846
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "reconvene into open session",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "MaryAnne Groat",
+          "yes": [
+            "MaryAnne Groat",
+            "Anne Jacobson",
+            "Thomas Niksich"
+          ],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "approve CA Excavating and Construction; Collyard; Dore & Associates, Inc.; Eckert Wrecking, Inc.; FireFird Construction; Haas Sons, Inc; Hosier Worldwide, Inc.; Integrity Grading & Excavating, Inc.; LinnCo, Inc.; PGA Inc.; RC Pavers LLC; Robinson Bro",
+          "passed": true,
+          "initiator": "Thomas Niksich",
+          "seconder": "MaryAnne Groat",
+          "yes": [
+            "MaryAnne Groat",
+            "Anne Jacobson",
+            "Thomas Niksich"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Anne Jacobson",
+          "seconder": "MaryAnne Groat",
+          "yes": [
+            "MaryAnne Groat",
+            "Anne Jacobson",
+            "Thomas Niksich"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

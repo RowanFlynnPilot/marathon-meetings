@@ -1,0 +1,62 @@
+{
+  "event_id": 3653,
+  "agenda_id": 2755,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Comprehensive review for possible revision of the Standing Rules of the Common Council - Wausau Municipal Code \u00a7 2.16.\u00a0",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Chapter_2.16___STANDING_RULES_OF_THE_COMMON_COUNCIL",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10381)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 27420
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Sarah Watson",
+          "seconder": "Vicki Tierney",
+          "yes": [
+            "Vicki Tierney",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Terry Kilian",
+            "Sarah Watson"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "event_id": 2445,
+  "agenda_id": 2739,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consent agenda.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "3",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "<strong>October 8, 2026</strong> Regular Infrastructure and Facilities Minutes",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Andrew Wiskowski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Infrastructure and Facilities DRAFT_10082026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10382)",
+              "type": "application/pdf",
+              "size": 897823
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Approving handicap parking on N. 2nd Street between McClellan Street and Grant Street.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Andrew Wiskowski",
+              "seconder": "Kristin Slonski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "N. 2nd Street Handicap stalls",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10435)",
+              "type": "application/pdf",
+              "size": 463506
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Preliminary resolution levying special assessments for 2027 Street Construction Projects",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Andrew Wiskowski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Approving 2 driveways in excess of 44 feet at 1323 S. 11th Avenue (Kolbe & Kolbe Millwork)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Andrew Wiskowski",
+              "seconder": "Kristin Slonski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "1323 11th Ave - Driveway Length",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10453)",
+              "type": "application/pdf",
+              "size": 3057895
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Approving waving the requirement for a concrete approach at 1323 S. 11th Avenue (Kolbe & Kolbe Millwork)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Andrew Wiskowski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "1323 11th Ave - Asphalt Drive Approach",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10454)",
+              "type": "application/pdf",
+              "size": 3067259
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Approving a driveway in excess of 44 feet at 1330 S. 11th Avenue (Kolbe & Kolbe Millwork)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Michael  Martens",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "1330 11th Ave - Driveway Length",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10455)",
+              "type": "application/pdf",
+              "size": 3022255
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Approving a driveway in excess of 44 feet at 1320 S. 11th Avenue (Kolbe & Kolbe Millwork)",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Andrew Wiskowski",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "1320 11th Ave - Driveway Length",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10456)",
+              "type": "application/pdf",
+              "size": 3015781
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "g",
+          "name": "Recommendation to the Board of Public Works to extend sidewalk on S. 11th Avenue, from Chellis Street to Flieth Street",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": true,
+              "initiator": "Andrew Wiskowski",
+              "seconder": "Michael  Martens",
+              "yes": [
+                "Bruce Trueblood",
+                "Michael  Martens",
+                "Andrew Wiskowski",
+                "Kristin Slonski"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "11th St Reconstruction-Proposed Sidewalk",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10458)",
+              "type": "application/pdf",
+              "size": 3028487
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Discussion.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Terrace Beautification Special Committee",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Resolution 26-1013",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10520)",
+              "type": "application/pdf",
+              "size": 117030
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "City owned vacant parcels",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "CityOwnedVacant20May2026_Basics",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10118)",
+              "type": "application/pdf",
+              "size": 1172028
+            },
+            {
+              "name": "City Development Properties_MayEDC",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10117)",
+              "type": "application/pdf",
+              "size": 6347173
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Fall leaf collection",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Future agenda items",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Andrew Wiskowski",
+          "seconder": "Michael  Martens",
+          "yes": [
+            "Bruce Trueblood",
+            "Michael  Martens",
+            "Andrew Wiskowski",
+            "Kristin Slonski"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

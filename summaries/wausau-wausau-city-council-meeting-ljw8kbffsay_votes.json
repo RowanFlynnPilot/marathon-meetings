@@ -1,0 +1,1020 @@
+{
+  "event_id": 1971,
+  "agenda_id": 2749,
+  "items": [
+    {
+      "number": "1",
+      "name": "Call to order by the presiding officer.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Pledge of Allegiance, and Roll Call and Proclamations.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Homeless Awareness Month Proclamation",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Homelessness Awareness Month Proclamation",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10378)",
+              "type": "application/pdf",
+              "size": 182561
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Hmong New Year Proclamation",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Hmong New Year Proclamation",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10379)",
+              "type": "application/pdf",
+              "size": 182098
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Veterans Day Proclamation",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Veterans Day Proclamation ",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10380)",
+              "type": "application/pdf",
+              "size": 181054
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Presentations.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "City Administrator Presentation",
+          "desc": "",
+          "votes": [],
+          "docs": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Consideration of the minutes of the preceding meeting, approval of the minutes if correct, and correction of mistakes if any.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "Approve",
+          "passed": true,
+          "initiator": "Tom Neal",
+          "seconder": "Terry Kilian",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        },
+        {
+          "motion": "Amend the October 27, 2026, Common Council Minutes to remove the objection by Lukens to the motion to call the question by Larson on item 23-1012",
+          "passed": true,
+          "initiator": "Carol Lukens",
+          "seconder": "Matt Hoenecke",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Regular Common Council Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "CommonCouncil_Regular_10272026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10361)",
+              "type": "application/pdf",
+              "size": 264698
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "6",
+      "name": "Comments and suggestions from preregistered citizens.",
+      "desc": "(Any person wishing to offer public comment on items unrelated to items appearing on the agenda must pre-register by providing a name and address in writing to the City Clerk\u2019s Office or chair of a standing committee. Public comments must be limited to items on the agenda if not pre-registered.)",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "7",
+      "name": "Public Hearing",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Public Hearing 2027 City of Wausau Budget",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "2027 Budget Publication affidavit",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10434)",
+              "type": "application/pdf",
+              "size": 1021047
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "name": "Consent agenda.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "Approve",
+          "passed": true,
+          "initiator": "Tom Neal",
+          "seconder": "Kristin Slonski",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Approving Fiscal Year 2026 Edward Byrne Memorial Justice Assistance Grant funding and Interlocal Agreement with Marathon County.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "JAG Grant - Interlocal Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10353)",
+              "type": "application/pdf",
+              "size": 202881
+            },
+            {
+              "name": "JAG Fact Sheet",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10354)",
+              "type": "application/pdf",
+              "size": 190608
+            },
+            {
+              "name": "2026 JAG Grant Allocations",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10355)",
+              "type": "application/pdf",
+              "size": 275431
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Joint Resolution from the Infrastructure &amp; Facilities Committee and Plan Commission Vacating and Discontinuing the Alley Bounded by Lake View Drive, Bertha Street, Elmwood Boulevard, and Midway Boulevard.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Exhibit 1",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10300)",
+              "type": "application/pdf",
+              "size": 605761
+            },
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10297)",
+              "type": "application/pdf",
+              "size": 249191
+            },
+            {
+              "name": "Infrastructures&Facilities_Regular_07092026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10299)",
+              "type": "application/pdf",
+              "size": 789651
+            },
+            {
+              "name": "Infrastructure and Facilities Committee_DRAFT_10082026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10288)",
+              "type": "application/pdf",
+              "size": 1405270
+            },
+            {
+              "name": "PlanCommission_DRAFT_Regular_10202026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10289)",
+              "type": "application/pdf",
+              "size": 209742
+            },
+            {
+              "name": "Petition - Alley Vacation",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10286)",
+              "type": "application/pdf",
+              "size": 784930
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Joint Resolution from the Infrastructure &amp; Facilities Committee and Plan Commission Vacating and Discontinuing the 134-Foot Southerly Extension of Liberty Ridge Way.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Exhibit 1",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10301)",
+              "type": "application/pdf",
+              "size": 675336
+            },
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10426)",
+              "type": "application/pdf",
+              "size": 67439
+            },
+            {
+              "name": "Infrastructures&Facilities_Regular_07092026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10302)",
+              "type": "application/pdf",
+              "size": 789651
+            },
+            {
+              "name": "Infrastructure and Facilities Committee_DRAFT_10082026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10295)",
+              "type": "application/pdf",
+              "size": 1405270
+            },
+            {
+              "name": "PlanCommission_DRAFT_Regular_10202026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10296)",
+              "type": "application/pdf",
+              "size": 209742
+            },
+            {
+              "name": "Liberty Ridge Way Vacation Cover Letter",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10294)",
+              "type": "application/pdf",
+              "size": 97789
+            },
+            {
+              "name": "Petition - Street Vacation",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10293)",
+              "type": "application/pdf",
+              "size": 1181588
+            },
+            {
+              "name": "Ownership Map",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10292)",
+              "type": "application/pdf",
+              "size": 460637
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Authorizing Staff to Prepare a Project Plan Amendment for Tax Increment District Eight to Add Infrastructure Project Costs within the District and the 1/2 Mile Boundary of the District.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "TID 8 Cash Flow Projections",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10363)",
+              "type": "application/pdf",
+              "size": 142435
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Ordinance from Plan Commission Rezoning 909 S. 60th Avenue from a Medium Industrial (MI) Zoning District to a Heavy Industrial (HI) Zoning District (Dean Prohaska).",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Staff Report",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10259)",
+              "type": "application/pdf",
+              "size": 215921
+            },
+            {
+              "name": "909 S 60th Ave Rezone Legal Notice",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10260)",
+              "type": "application/pdf",
+              "size": 155520
+            },
+            {
+              "name": "Plat Map 1",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10261)",
+              "type": "image/png",
+              "size": 4139708
+            },
+            {
+              "name": "Plat Map 2",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10262)",
+              "type": "image/png",
+              "size": 3143205
+            },
+            {
+              "name": "Zoning Map Amendment Application",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10263)",
+              "type": "application/pdf",
+              "size": 539891
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Joint Ordinance of the Plan Commission and the Historic Preservation Commission to Include the Designation of Yawkey Park as a Local Historic Landmark.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "HistoricPreservation_DRAFT_Regular_9232026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10410)",
+              "type": "application/pdf",
+              "size": 1006783
+            },
+            {
+              "name": "PlanCommission_DRAFT_Regular_10202026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10268)",
+              "type": "application/pdf",
+              "size": 209742
+            },
+            {
+              "name": "Wausau Historic Preservation Commission Historic Resource Nomination Form",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10264)",
+              "type": "application/pdf",
+              "size": 493036
+            },
+            {
+              "name": "Yawkey Park Historical Documents",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10265)",
+              "type": "application/pdf",
+              "size": 19290578
+            },
+            {
+              "name": "Yawkey Park Photos-Current",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10266)",
+              "type": "application/pdf",
+              "size": 64588231
+            },
+            {
+              "name": "Yawkey Park Photos-Historic",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10267)",
+              "type": "application/pdf",
+              "size": 910777
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Joint Resolution from the Infrastructure & Facilities Committee and Plan Commission approving the West Hill 1st Addition Preliminary Plat.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "26-0073 Sorensen Plat-Model",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10304)",
+              "type": "application/pdf",
+              "size": 784751
+            },
+            {
+              "name": "26-0073 Sorensen Plat-Model 2",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10305)",
+              "type": "application/pdf",
+              "size": 878567
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Joint Resolution from Room Tax Commission and Finance Committee Approving Renewal of Tourism Entity Agreement Between the City of Wausau, Room Tax Commission and the Wausau Central Wisconsin Convention & Visitors Bureau, Inc.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Tourism Entity Agreement 2026-2028 FINAL",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10348)",
+              "type": "application/pdf",
+              "size": 132306
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Wausau Water Comission Approving Temporary Construction Easements for Parcels 1, 2, 3 and 6, Transportation Project Plat 6999-00-24, Water and Sewer.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Final Plat Amendment 1 Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10383)",
+              "type": "application/pdf",
+              "size": 1369641
+            },
+            {
+              "name": "Temporary Construction Easement Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10384)",
+              "type": "application/pdf",
+              "size": 154098
+            },
+            {
+              "name": "Final Plat Amendment 1 Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10422)",
+              "type": "application/pdf",
+              "size": 1366378
+            },
+            {
+              "name": "Temporary Construction Easement Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10423)",
+              "type": "application/pdf",
+              "size": 153790
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Wausau Water Commission Approving Quit Claim Deed, Parcel 6, Transportation Project Plat 6999-00-24, Water and Sewer.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Final Plat Amendment 1 Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10387)",
+              "type": "application/pdf",
+              "size": 1369641
+            },
+            {
+              "name": "Quit Claim Deed by Utility Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10390)",
+              "type": "application/pdf",
+              "size": 154265
+            },
+            {
+              "name": "Final Plat Amendment 1 Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10391)",
+              "type": "application/pdf",
+              "size": 1366378
+            },
+            {
+              "name": "Quit Claim Dee by Utility Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10392)",
+              "type": "application/pdf",
+              "size": 154184
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Wausau Water Commission Approving Statement of Non-Reimbursement by Utility, Transportation Project Plat 6999-00-24, Water and Sewer.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Final Plat Amendment 1 Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10393)",
+              "type": "application/pdf",
+              "size": 1369641
+            },
+            {
+              "name": "Statement of Non-Reimbursement by Utility Wausau Water",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10394)",
+              "type": "application/pdf",
+              "size": 44922
+            },
+            {
+              "name": "Final Plat Amendment 1 Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10395)",
+              "type": "application/pdf",
+              "size": 1366378
+            },
+            {
+              "name": "Statement of Non-Reimbursement by Utility Wausau Sewer",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10397)",
+              "type": "application/pdf",
+              "size": 44922
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Approving Nominal Payment Parcel for a Temporary Limited Easement at 1403 Grand Avenue, Parcel 7, Transportation Project Plat 3700-40-40.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Nominal Payment Parcel - Waiver of Appraisal Recommendation and Approval for 1403 Grand Ave Parcel 7",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10399)",
+              "type": "application/pdf",
+              "size": 320269
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Public Health & Safety Committee Approving or Denying Various Licenses as Indicated.",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "License List",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10241)",
+              "type": "application/pdf",
+              "size": 149527
+            },
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10247)",
+              "type": "application/pdf",
+              "size": 83446
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "name": "Ordinances and resolutions.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Resolution Confirming Mayor's Appointments to Community Development Authority Board and Room Tax Commission.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Bruce Trueblood",
+              "seconder": "Andrew Wiskowski",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Resolution 11102026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10474)",
+              "type": "application/pdf",
+              "size": 176994
+            },
+            {
+              "name": "Justin Carstensen Citizen Participation Form_Redacted",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10425)",
+              "type": "application/pdf",
+              "size": 906413
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Approving Multi-Year Budget Amendment for the Wausau Fire Department Apprentice Program Paid by Federal Grant.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Kristin Slonski",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Apprentice Grant Budget Amendment",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10365)",
+              "type": "application/pdf",
+              "size": 93735
+            },
+            {
+              "name": "Contractual Agreement for the Central Wisconsin Firefighter Paramedic Apprenticeship Program",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10366)",
+              "type": "application/pdf",
+              "size": 250055
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Adopting 2026 Budget Modification for 415 S. First Avenue Development Agreement with Gorman and Company.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Vicki Tierney",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10284)",
+              "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 49273
+            },
+            {
+              "name": "Westside Commons Development Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10285)",
+              "type": "application/pdf",
+              "size": 19981235
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Michael  Martens",
+              "seconder": "Sarah Watson",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Tom Neal",
+                "Kristin Slonski",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson"
+              ],
+              "no": [
+                "Terry Kilian",
+                "Andrew Wiskowski",
+                "Matt Hoenecke",
+                "Bruce Trueblood"
+              ],
+              "abstain": []
+            },
+            {
+              "motion": "Motion to Amend MH",
+              "passed": false,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Matt Hoenecke",
+                "Vicki Tierney"
+              ],
+              "no": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Sarah Watson",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Revenue Summary",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10428)",
+              "type": "application/pdf",
+              "size": 108751
+            },
+            {
+              "name": "Combined Statement of Expenses - by Activity (All Funds)",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10429)",
+              "type": "application/pdf",
+              "size": 83826
+            },
+            {
+              "name": "2027 Budget Analysis Proposed",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10431)",
+              "type": "application/pdf",
+              "size": 119183
+            },
+            {
+              "name": "Finance Committee Budget Changes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10432)",
+              "type": "application/pdf",
+              "size": 111268
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Authorizing the Modification of Fees to the City of Wausau Fees and Licenses Schedule Adopted Pursuant to Wausau Municipal Code 3.40.010(a) (2027 Comprehensive Fee Schedule).",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Kristin Slonski",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Fee Schedule",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10433)",
+              "type": "application/pdf",
+              "size": 947973
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "name": "Suspend Rule 1(D) Transmission of Committee business to the Council.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "Suspend Rule 1(D) Transmission of Committee business to the Council ",
+          "passed": true,
+          "initiator": "Tom Neal",
+          "seconder": "Andrew Wiskowski",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Sarah Watson",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [
+            "Matt Hoenecke",
+            "Vicki Tierney"
+          ],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Authorizing the Wausau Police Department to accept a Wisconsin Department of Justice (DOJ) 2027 Beat Patrol Grant of $121,434.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Carol Lukens",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [],
+          "children": []
+        },
+        {
+          "number": "",
+          "name": "Resolution from the Finance Committee Approving the 2027 Operating Plan for Business Improvement District (BID) No. 1.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "Approve",
+              "passed": true,
+              "initiator": "Sarah Watson",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Carol Lukens",
+                "Michael  Martens",
+                "Terry Kilian",
+                "Tom Neal",
+                "Andrew Wiskowski",
+                "Kristin Slonski",
+                "Matt Hoenecke",
+                "Sarah Watson",
+                "Vicki Tierney",
+                "Lou Larson",
+                "Bruce Trueblood"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "2027 BID Operating Plan",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10430)",
+              "type": "application/pdf",
+              "size": 308762
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "name": "Announcement from Mayor and Alderpersons.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "12",
+      "name": "Comments and suggestions from citizens present during Public Comment occurring both before and after the business meeting.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "13",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "Adjourn",
+          "passed": true,
+          "initiator": "Bruce Trueblood",
+          "seconder": "Carol Lukens",
+          "yes": [
+            "Carol Lukens",
+            "Michael  Martens",
+            "Terry Kilian",
+            "Tom Neal",
+            "Andrew Wiskowski",
+            "Kristin Slonski",
+            "Matt Hoenecke",
+            "Sarah Watson",
+            "Vicki Tierney",
+            "Lou Larson",
+            "Bruce Trueblood"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}
