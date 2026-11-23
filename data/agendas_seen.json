@@ -23,11 +23,23 @@
     "seen": "2026-11-23T00:58:31+00:00",
     "source": "school_board"
   },
+  "4454438dbef6c9f3fd33": {
+    "date": "2026-12-01",
+    "name": "Student Expulsion Hearing",
+    "seen": "2026-11-23T23:34:40+00:00",
+    "source": "mosinee_schools"
+  },
   "662de08195fcb475353f": {
     "date": "2026-11-24",
     "name": "Common Council Meeting",
     "seen": "2026-11-23T02:04:33+00:00",
     "source": "wausau"
+  },
+  "6b0a2c8367f23b11b443": {
+    "date": "2026-12-01",
+    "name": "Special School Board Meeting",
+    "seen": "2026-11-23T23:34:40+00:00",
+    "source": "mosinee_schools"
   },
   "710a91f459cd14f98463": {
     "date": "2026-11-23",

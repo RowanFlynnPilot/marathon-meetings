@@ -14,6 +14,7 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: Building Permit Applications. The Common Council will discuss and decide on building permit applications.
   - VOTE: City Employee Holiday Gift Certificates. The Common Council will discuss and decide on holiday gift certificates for city employees.
   - VOTE: Police Labor Agreement Modification. The Common Council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association.
+  - HEARING: City of Mosinee 2027 Budget
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
   - VOTE: Seven 2027 budgets for housing programs and facilities. The board is asked to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue.
@@ -43,6 +44,108 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - SPLIT 6-1: Mack Mueller Park Master Plan (without cost estimate)
 - [Village of Weston, Finance and HR Committee (November 16, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/rr4xY0W5ETo/)
   - FAILED 3-3: Recommend village proceed with Option G for 2027 sanitary sewer rates
+
+## Who voted no most, past 30 days
+
+- Bruce Trueblood (City of Wausau): 5 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+  - Suspend Rule 6(B) Filing. [Approve] (Common Council Meeting, October 27, 2026)
+  - Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Approve as amended] (Common Council Meeting, October 27, 2026)
+  - Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Amend] (Common Council Meeting, October 27, 2026)
+- Kristin Slonski (City of Wausau): 3 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Reconsideration] (Common Council Meeting, October 27, 2026)
+  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Approve] (Common Council Meeting, October 27, 2026)
+- Matt Hoenecke (City of Wausau): 3 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council] (City Council Meeting, November 10, 2026)
+  - Suspend Rule 6(B) Filing. [Approve] (Common Council Meeting, October 27, 2026)
+- Vicki Tierney (City of Wausau): 3 no votes
+  - Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Approve as Amended] (Joint Finance and Human Resources Meeting, November 10, 2026)
+  - Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Neal Amendment] (Joint Finance and Human Resources Meeting, November 10, 2026)
+  - Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council] (City Council Meeting, November 10, 2026)
+- Andrew Wiskowski (City of Wausau): 2 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+- Sarah Watson (City of Wausau): 2 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+  - Resolution from the Human Resources Committee Approving the Creation of a Full-Time Human Resources Coordinator Position. [Approve] (Common Council Meeting, October 27, 2026)
+- Terry Kilian (City of Wausau): 2 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+- Tom Neal (City of Wausau): 2 no votes
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Reconsideration] (Common Council Meeting, October 27, 2026)
+
+## By issue, next week and past week
+
+- Budgets & Taxes: 5 ahead, 9 in the past week
+  - AHEAD: Monday, Nov 23: Wausau School Board, Committee of the Whole Meeting
+  - AHEAD: Monday, Nov 23: City of Mosinee, Common Council - Budget Meeting
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Community Development Authority Board Meeting
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Finance Committee Meeting
+  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
+  - PAST WEEK: DC Everest School Board, Regular School Board Meeting (November 18, 2026)
+  - PAST WEEK: City of Wausau, Board of Public Works Meeting (November 17, 2026)
+  - PAST WEEK: Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
+- Government Staffing & Pay: 3 ahead, 8 in the past week
+  - AHEAD: Monday, Nov 23: Wausau School Board, Committee of the Whole Meeting
+  - AHEAD: Monday, Nov 23: City of Wausau, Police & Fire Commission Meeting
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Common Council Meeting
+  - PAST WEEK: DC Everest School Board, Regular School Board Meeting (November 18, 2026)
+  - PAST WEEK: Village of Rothschild, Riverside Fire Board (November 18, 2026)
+  - PAST WEEK: Village of Rothschild, Riverside Fire Commission (November 18, 2026)
+  - PAST WEEK: Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
+- Public Safety: 2 ahead, 5 in the past week
+  - AHEAD: Monday, Nov 23: City of Wausau, Police & Fire Commission Meeting
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Finance Committee Meeting
+  - PAST WEEK: Village of Rothschild, Riverside Fire Board (November 18, 2026)
+  - PAST WEEK: Village of Rothschild, Riverside Fire Commission (November 18, 2026)
+  - PAST WEEK: City of Wausau, City Council Public Health & Safety Committee Meeting (November 16, 2026)
+  - PAST WEEK: Village of Weston, Board of Trustees (November 16, 2026)
+- Housing & Development: 1 ahead, 4 in the past week
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Community Development Authority Board Meeting
+  - PAST WEEK: City of Wausau, Board of Public Works Meeting (November 17, 2026)
+  - PAST WEEK: Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
+  - PAST WEEK: City of Wausau, Plan Commission Meeting (November 17, 2026)
+  - PAST WEEK: Village of Kronenwetter, Plan Commission Meeting (November 16, 2026)
+- Roads & Transportation: 2 ahead, 3 in the past week
+  - AHEAD: Monday, Nov 23: City of Wausau, Bicycle & Pedestrian Advisory Committee Meeting
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Common Council Meeting
+  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
+  - PAST WEEK: Village of Maine, Municipal Projects & Public Property (November 18, 2026)
+  - PAST WEEK: City of Wausau, Board of Public Works Meeting (November 17, 2026)
+- Schools & Learning: 1 ahead, 4 in the past week
+  - AHEAD: Monday, Nov 23: Wausau School Board, Committee of the Whole Meeting
+  - PAST WEEK: DC Everest School Board, Regular School Board Meeting (November 18, 2026)
+  - PAST WEEK: Mosinee School Board, Instructional Programs Committee Meeting (November 17, 2026)
+  - PAST WEEK: Mosinee School Board, Personnel Committee Meeting (November 17, 2026)
+  - PAST WEEK: Mosinee School Board, Regular School Board Meeting (November 17, 2026)
+- Public Buildings: 4 in the past week
+  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
+  - PAST WEEK: Village of Maine, Municipal Projects & Public Property (November 18, 2026)
+  - PAST WEEK: City of Wausau, Board of Public Works Meeting (November 17, 2026)
+  - PAST WEEK: Mosinee School Board, Finance & Building Committee Meeting (November 17, 2026)
+- Parks & Recreation: 2 ahead, 1 in the past week
+  - AHEAD: Monday, Nov 23: Village of Weston, Park and Recreation Committee
+  - AHEAD: Tuesday, Nov 24: City of Wausau, Finance Committee Meeting
+  - PAST WEEK: Village of Weston, Board of Trustees (November 16, 2026)
+- Zoning & Land Use: 3 in the past week
+  - PAST WEEK: City of Wausau, Plan Commission Meeting (November 17, 2026)
+  - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
+  - PAST WEEK: Village of Kronenwetter, Plan Commission Meeting (November 16, 2026)
+- Environment & Energy: 2 in the past week
+  - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
+  - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
+- How Government Works: 2 in the past week
+  - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
+  - PAST WEEK: Mosinee School Board, Regular School Board Meeting (November 17, 2026)
+- Water & Utilities: 2 in the past week
+  - PAST WEEK: Village of Weston, Finance and HR Committee (November 16, 2026)
+  - PAST WEEK: Village of Kronenwetter, Plan Commission Meeting (November 16, 2026)
+- Health & Human Services: 1 in the past week
+  - PAST WEEK: City of Wausau, City Council Public Health & Safety Committee Meeting (November 16, 2026)
 
 ## Crowded public comment, past week
 

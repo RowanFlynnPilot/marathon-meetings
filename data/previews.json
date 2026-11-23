@@ -1,6 +1,6 @@
 {
   "0b8dc6e2f034452db544": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "1852f83ff42fe8eb0c21630b976adde26357e2b3",
@@ -53,7 +53,7 @@
     "source": "school_board"
   },
   "1840f1f9e200f1ed5335": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "9f1cef4fc36f4e7c4700d889456397905bdf3504",
@@ -105,7 +105,7 @@
     "source": "wausau"
   },
   "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "922182cc3e3e2258d5e71c0784ba2a828d91cb9d",
@@ -152,7 +152,7 @@
     "source": "wausau"
   },
   "40f8a47f78dac7d1f4e7": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "f25bf64fedca1b200a4f74282649a8db57da4caf",
@@ -169,8 +169,34 @@
     "prompt": "4",
     "source": "school_board"
   },
+  "4454438dbef6c9f3fd33": {
+    "checked": "2026-11-23T23:34:40+00:00",
+    "date": "2026-12-01",
+    "generations": 1,
+    "hash": "a9cfc8264f7580da428929676f6dd8032865614b",
+    "name": "Student Expulsion Hearing",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-23T23:34:40+00:00",
+      "hearings": [],
+      "issues": [
+        "schools_learning"
+      ],
+      "items": [
+        {
+          "action": "hearing",
+          "item": "Student expulsion hearing",
+          "why": "The board will hold a closed hearing to consider expulsion of a student under Wisconsin law."
+        }
+      ],
+      "overview": "The Mosinee School Board is scheduled to hold a closed student expulsion hearing. The board will meet in private session under state law to conduct the hearing.",
+      "publicComment": false
+    },
+    "prompt": "4",
+    "source": "mosinee_schools"
+  },
   "662de08195fcb475353f": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "9c75ca874ed79bc1d252affd04660126cf3670a9",
@@ -221,8 +247,55 @@
     "prompt": "4",
     "source": "wausau"
   },
+  "6b0a2c8367f23b11b443": {
+    "checked": "2026-11-23T23:34:40+00:00",
+    "date": "2026-12-01",
+    "generations": 1,
+    "hash": "910842ead3b8d7dc90bbabf39e2a2a6f84c88fca",
+    "name": "Special School Board Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-23T23:34:40+00:00",
+      "hearings": [],
+      "issues": [
+        "schools_learning",
+        "budget_taxes"
+      ],
+      "items": [
+        {
+          "action": "discussion",
+          "item": "Policy 2240.01 - Classroom Displays",
+          "why": "The board is scheduled to discuss and possibly vote on a new or revised policy governing what can be displayed in school classrooms."
+        },
+        {
+          "action": "discussion",
+          "item": "Fund 80 Levy and Expenditures",
+          "why": "The board is scheduled to discuss Fund 80, a special funding account, and how the district spends money from it."
+        },
+        {
+          "action": "discussion",
+          "item": "Mosinee School District Day Care",
+          "why": "The board is scheduled to discuss the district's childcare program and operations."
+        },
+        {
+          "action": "discussion",
+          "item": "Board Member Communication with Administration",
+          "why": "The board is scheduled to discuss how board members should communicate with school staff and leadership."
+        },
+        {
+          "action": "discussion",
+          "item": "Board Agenda Planning",
+          "why": "The board is scheduled to discuss and possibly vote on how to plan future meeting agendas."
+        }
+      ],
+      "overview": "The Mosinee School Board is scheduled to discuss several internal matters including classroom display policies, childcare operations, and how board members communicate with school administrators.",
+      "publicComment": true
+    },
+    "prompt": "4",
+    "source": "mosinee_schools"
+  },
   "710a91f459cd14f98463": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "8f4bbf09a7a669d493c91d4406f032bfe511e01e",
@@ -265,7 +338,7 @@
     "source": "mosinee"
   },
   "80136b5bc1300db5c8be": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-12-01",
     "generations": 3,
     "hash": "d30af325d8ddf12e3fb76f21a4e92a3bef5ab7d6",
@@ -298,7 +371,7 @@
     "source": "wausau"
   },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "18c268c29f34252ddb79feb4b84b8569987d03b7",
@@ -334,7 +407,7 @@
     "source": "weston"
   },
   "c0025436f0c30c706fd8": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "ca7cfca76ac6c6262006047355de829f817e9a10",
@@ -376,7 +449,7 @@
     "source": "wausau"
   },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-23T03:15:29+00:00",
+    "checked": "2026-11-23T23:34:40+00:00",
     "date": "2026-11-23",
     "generations": 3,
     "hash": "7e260677742bbff64e90c78d835c756dfe1a815d",

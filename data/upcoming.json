@@ -402,6 +402,13 @@
     },
     {
       "date": "2026-12-02",
+      "time": "7:30 AM",
+      "name": "Police & Fire Commission Special Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3667/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-02",
       "time": "4:30 PM",
       "name": "Historic Preservation Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2505/overview",
@@ -524,13 +531,6 @@
       "time": "5:15 PM",
       "name": "Economic Development Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3590/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2027-01-05",
-      "time": "5:15 PM",
-      "name": "Economic Development Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3618/overview",
       "source": "wausau"
     }
   ],
@@ -819,6 +819,75 @@
     }
   ],
   "mosinee_schools": [
+    {
+      "date": "2026-12-01",
+      "time": "5:30 PM",
+      "name": "Student Expulsion Hearing",
+      "url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=501",
+      "source": "mosinee_schools",
+      "preview": {
+        "closedSession": true,
+        "generated": "2026-11-23T23:34:40+00:00",
+        "hearings": [],
+        "issues": [
+          "schools_learning"
+        ],
+        "items": [
+          {
+            "action": "hearing",
+            "item": "Student expulsion hearing",
+            "why": "The board will hold a closed hearing to consider expulsion of a student under Wisconsin law."
+          }
+        ],
+        "overview": "The Mosinee School Board is scheduled to hold a closed student expulsion hearing. The board will meet in private session under state law to conduct the hearing.",
+        "publicComment": false
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "time": "7:00 PM",
+      "name": "Special School Board Meeting",
+      "url": "https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=500",
+      "source": "mosinee_schools",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-23T23:34:40+00:00",
+        "hearings": [],
+        "issues": [
+          "schools_learning",
+          "budget_taxes"
+        ],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Policy 2240.01 - Classroom Displays",
+            "why": "The board is scheduled to discuss and possibly vote on a new or revised policy governing what can be displayed in school classrooms."
+          },
+          {
+            "action": "discussion",
+            "item": "Fund 80 Levy and Expenditures",
+            "why": "The board is scheduled to discuss Fund 80, a special funding account, and how the district spends money from it."
+          },
+          {
+            "action": "discussion",
+            "item": "Mosinee School District Day Care",
+            "why": "The board is scheduled to discuss the district's childcare program and operations."
+          },
+          {
+            "action": "discussion",
+            "item": "Board Member Communication with Administration",
+            "why": "The board is scheduled to discuss how board members should communicate with school staff and leadership."
+          },
+          {
+            "action": "discussion",
+            "item": "Board Agenda Planning",
+            "why": "The board is scheduled to discuss and possibly vote on how to plan future meeting agendas."
+          }
+        ],
+        "overview": "The Mosinee School Board is scheduled to discuss several internal matters including classroom display policies, childcare operations, and how board members communicate with school administrators.",
+        "publicComment": true
+      }
+    },
     {
       "date": "2026-12-15",
       "time": "6:00 PM",

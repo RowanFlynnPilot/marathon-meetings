@@ -5568,5 +5568,25 @@
     "input_tokens": 1925,
     "output_tokens": 347,
     "usd": 0.00366
+  },
+  {
+    "ts": "2026-11-23T23:35:06.608148+00:00",
+    "meeting_id": "4454438dbef6c9f3fd33",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1759,
+    "output_tokens": 147,
+    "usd": 0.002494
+  },
+  {
+    "ts": "2026-11-23T23:35:10.461447+00:00",
+    "meeting_id": "6b0a2c8367f23b11b443",
+    "jurisdiction": "mosinee_schools",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1854,
+    "output_tokens": 372,
+    "usd": 0.003714
   }
 ]

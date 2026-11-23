@@ -217,6 +217,16 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:5cef5fc6072fa237b04f@marathon-meetings
+DTSTAMP:20261202T000000Z
+DTSTART;TZID=America/Chicago:20261202T073000
+DTEND;TZID=America/Chicago:20261202T090000
+SUMMARY:City of Wausau: Police & Fire Commission Special Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3667/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:71d8c2e923b3642681bb@marathon-meetings
 DTSTAMP:20261202T000000Z
 DTSTART;TZID=America/Chicago:20261202T163000
@@ -594,16 +604,6 @@ DTSTART;TZID=America/Chicago:20270105T171500
 DTEND;TZID=America/Chicago:20270105T184500
 SUMMARY:City of Wausau: Economic Development Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/3590/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:3e35989685e990d09b1f@marathon-meetings
-DTSTAMP:20270105T000000Z
-DTSTART;TZID=America/Chicago:20270105T171500
-DTEND;TZID=America/Chicago:20270105T184500
-SUMMARY:City of Wausau: Economic Development Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/3618/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
