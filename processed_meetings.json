@@ -3556,6 +3556,39 @@
       "video_url": null,
       "processed_at": "2026-11-21T08:33:29.921598+00:00",
       "summary_file": "summaries/maine-board-of-trustees-meeting-2026-11-09-tw-1899.md"
+    },
+    "bb_778498": {
+      "title": "Special Meeting - 2026-11-23",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498",
+      "upload_date": "20261123",
+      "meeting_date": "20261123",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-23T00:56:53.268734+00:00",
+      "summary_file": "summaries/school-board-special-meeting-2026-11-23-bb-778498.md"
+    },
+    "bb_778459": {
+      "title": "Committee of the Whole Meeting - 2026-11-23",
+      "source": "school_board",
+      "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459",
+      "upload_date": "20261123",
+      "meeting_date": "20261123",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-23T00:57:05.043424+00:00",
+      "summary_file": "summaries/school-board-committee-of-the-whole-meeting-2026-11-23-bb-778459.md"
+    },
+    "iq_3526": {
+      "title": "Common Council - Budget Meeting - 2026-11-23",
+      "source": "mosinee",
+      "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+      "upload_date": "20261123",
+      "meeting_date": "20261123",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-23T00:58:14.445178+00:00",
+      "summary_file": "summaries/mosinee-common-council-budget-meeting-2026-11-23-iq-3526.md"
     }
   }
 }

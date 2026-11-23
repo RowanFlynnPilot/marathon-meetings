@@ -1,4 +1,4 @@
-# Reporter tip sheet: week of Sunday, Nov 22
+# Reporter tip sheet: week of Monday, Nov 23
 
 Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agenda previews; software wrote those, so confirm with the record before reporting.
 
@@ -68,23 +68,23 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 - Aquatic Center: 2 meetings (Village of Weston)
   - Village of Weston, Board of Trustees (November 16, 2026)
   - Village of Weston, Parks and Recreation Committee (October 26, 2026)
+- Building Permits: 2 meetings (City of Mosinee)
+  - City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
+  - City of Mosinee, Common Council - Regular Meeting (November 9, 2026)
 - Cedar Creek Recreation Area: 2 meetings (Village of Rothschild)
   - Village of Rothschild, Aquatic Center Commission (November 5, 2026)
   - Village of Rothschild, Outdoor Recreation Committee (November 4, 2026)
 - Flock Cameras: 2 meetings (City of Wausau)
   - City of Wausau, City Council Meeting (November 10, 2026)
   - City of Wausau, Common Council Meeting (October 27, 2026)
-- Surveillance Technology: 2 meetings (Marathon County)
-  - Marathon County, Public Safety Committee Meeting (November 10, 2026)
-  - Marathon County, Board (Budget Hearing) (November 2, 2026)
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 27 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 25 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
-- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 13 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
-- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 12 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
-- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 10 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 28 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 26 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
+- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 14 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
+- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 13 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
+- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 11 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
 
 ## Next week's meetings without a preview
 

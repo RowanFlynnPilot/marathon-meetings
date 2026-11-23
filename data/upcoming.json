@@ -339,7 +339,40 @@
       "time": "10:30 AM",
       "name": "Board of Public Works Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3664/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-23T00:58:31+00:00",
+        "items": [
+          {
+            "action": "vote",
+            "item": "Recommendation for 2026 demolition at 207 North 1st Avenue",
+            "why": "The board will consider and vote on a recommendation for demolishing the building at 207 North 1st Avenue (MBX South), following bids opened on November 17."
+          },
+          {
+            "action": "vote",
+            "item": "Crocker Street Lift Station Replacement payment",
+            "why": "The board will consider approving payment estimate #2 to Haas Sons, Inc. for work on the Crocker Street Lift Station Replacement project."
+          },
+          {
+            "action": "vote",
+            "item": "Cherry Street Lift Station Replacement final payment",
+            "why": "The board will consider approving the final payment to Integrity Grading & Excavating, Inc. for the Cherry Street Lift Station Replacement project."
+          },
+          {
+            "action": "vote",
+            "item": "2026 Downtown Sidewalk Improvement Project payment",
+            "why": "The board will consider approving payment estimate #1 to Pember Companies, Inc. for the 2026 Downtown Sidewalk Improvement Project."
+          },
+          {
+            "action": "vote",
+            "item": "2026 Asphalt Paving Project payment and final approval",
+            "why": "The board will consider approving pay estimate #6 and final payment to RC Pavers, LLC for the 2026 Asphalt Paving Project \"A\"."
+          }
+        ],
+        "overview": "The Board of Public Works is scheduled to decide on demolishing a building at 207 North 1st Avenue and approve several payments for city infrastructure projects including lift station replacements, sidewalk improvements, and street paving.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-01",

@@ -1,5 +1,277 @@
 [
   {
+    "id": "bb_778459",
+    "source": "school_board",
+    "title": "Committee of the Whole Meeting",
+    "date": "November 23, 2026",
+    "shortDate": "NOV 23",
+    "committee": "Committee of the Whole",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Committee of the Whole meeting was scheduled to address operational and curricular matters including 4K program partnerships, staff turnover analysis, and secondary social studies curriculum updates. The board was expected to consider action items related to 4K program agreements, policy updates, and a referendum budget summary, while also receiving presentations on student demographics and excellence initiatives at Riverview Elementary School.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Approve the Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Excellence in Action: Riverview Elementary School"
+      },
+      {
+        "time": "N/A",
+        "item": "Public and Student Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Audit of the Bills"
+      },
+      {
+        "time": "N/A",
+        "item": "4K Program Agreement (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Turnover Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Neola Update (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "2026-2027 Student Demographic Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Referendum Budget Summary Updates (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Secondary Social Studies Update (Action Requested)"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Excellence in Action: Riverview Elementary School",
+        "body": "The board was scheduled to receive a presentation from Riverview Elementary School highlighting school leadership team initiatives and Habit 3 announcements. The presentation materials were included in the agenda packet."
+      },
+      {
+        "item": "4K Program Agreement",
+        "body": "Kara Rakowski, 4K Principal and Early Childhood Coordinator, and Julie Schell, Director of Elementary Education, were scheduled to present and request board approval for 2027-2028 Program Agreements with community partners. The presentation was expected to cover partnerships with current sites including Wausau Child Care, Mountain View Montessori, and Newman Catholic Schools - St. Michael, as well as re-engagement options with Woodson YMCA - Wausau Branch and Marathon County Child Development Agency Head Start Program - Barrington Center."
+      },
+      {
+        "item": "Staff Turnover Report",
+        "body": "Tabatha Gundrum was scheduled to present a turnover and retention report for the district's employee groups, with an estimated presentation time of 10 minutes. The presentation was expected to discuss areas the district will address in the coming year based on specific information from the report."
+      },
+      {
+        "item": "Neola Update",
+        "body": "The board was expected to receive a comprehensive policy update from Neola Vol. 35 No. 2, which included general updates to 24 policies covering curriculum, student activities, assessment, professional growth, technology, health services, food services, and transportation, along with technical corrections and district-initiated updates to additional policies."
+      },
+      {
+        "item": "2026-2027 Student Demographic Report",
+        "body": "Ralph Williams, Director of Technology, was scheduled to present the Demographics Report for the 2026-2027 school year, with an estimated presentation time of 10 minutes."
+      },
+      {
+        "item": "Referendum Budget Summary Updates",
+        "body": "Dr. Elizabeth Channel, Assistant Superintendent of Operations, was scheduled to provide an update on the Referendum Budget with an estimated presentation time of 10 minutes."
+      },
+      {
+        "item": "Secondary Social Studies Update",
+        "body": "The board was expected to receive a presentation on an adjusted 6-12th grade scope and sequence for secondary social studies. The presentation was scheduled to include an overview of the process, adjustments made, and timeline, with an estimated presentation time of 10 minutes."
+      }
+    ],
+    "publicComment": "A public and student comment period was included on the agenda.",
+    "actionItems": [
+      "Board was expected to approve 2027-2028 4K Program Agreements with community partners",
+      "Board was expected to consider and vote on Neola policy updates (Vol. 35 No. 2 and technical corrections)",
+      "Board was expected to approve updates to the Secondary Social Studies curriculum scope and sequence",
+      "Board was expected to review and act on Referendum Budget Summary Updates"
+    ],
+    "topics": [
+      "Policy",
+      "Curriculum",
+      "Early Childhood Education",
+      "Staffing",
+      "Budget",
+      "Riverview Elementary School",
+      "Student Demographics"
+    ],
+    "votes": []
+  },
+  {
+    "id": "bb_778498",
+    "source": "school_board",
+    "title": "Special Meeting",
+    "date": "November 23, 2026",
+    "shortDate": "NOV 23",
+    "committee": "Special Meeting",
+    "duration": null,
+    "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498",
+    "docUrl": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Wausau School District Board of Education was scheduled to convene for a special meeting on November 23, 2026, primarily to consider contract-related matters in closed session. The board was expected to evaluate contracts and review administrator contracts under state open meetings law exemptions, with potential follow-up actions in open session.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Request for Closed Session Pursuant to State Statutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Contract Evaluation S. 19.85 (1)(e)(g)"
+      },
+      {
+        "time": "N/A",
+        "item": "Consideration of contracts for Preliminary Notice of Non-renewal ss. 19.85(1)(c)"
+      },
+      {
+        "time": "N/A",
+        "item": "Administrator Contract Review s. 19.85 (1)(c)"
+      },
+      {
+        "time": "N/A",
+        "item": "Reconvene in Open Session, to take further action if necessary and appropriate"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Contract Evaluation S. 19.85 (1)(e)(g)",
+        "body": "The board was scheduled to evaluate contracts in closed session pursuant to Wisconsin state statute 19.85(1)(e)(g), which permits discussion of contract matters in private session before any potential public action."
+      },
+      {
+        "item": "Consideration of contracts for Preliminary Notice of Non-renewal ss. 19.85(1)(c)",
+        "body": "The board was expected to consider contracts for preliminary notice of non-renewal under state statute 19.85(1)(c), which allows closed-session discussion of personnel and contract matters related to employee evaluations and renewals."
+      },
+      {
+        "item": "Administrator Contract Review s. 19.85 (1)(c)",
+        "body": "The board was scheduled to review administrator contracts in closed session under state statute 19.85(1)(c), potentially addressing renewal, evaluation, or other contract considerations for district administrative staff."
+      }
+    ],
+    "publicComment": "No public comment period was included on this agenda.",
+    "actionItems": [
+      "Board was expected to convene in closed session to evaluate and review contracts",
+      "Board was expected to consider preliminary notice of non-renewal for contracts",
+      "Board was expected to reconvene in open session and take further action if necessary and appropriate"
+    ],
+    "topics": [
+      "Staffing",
+      "Contracts",
+      "Administrator Relations",
+      "Policy"
+    ],
+    "votes": []
+  },
+  {
+    "id": "iq_3526",
+    "source": "mosinee",
+    "title": "Common Council - Budget Meeting",
+    "date": "November 23, 2026",
+    "shortDate": "NOV 23",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+    "docUrl": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the City of Mosinee Common Council scheduled a special budget meeting to hold a public hearing on the proposed 2027 budget and consider adoption of the budget through Resolution No. 2026-08. The meeting was also set to address building permit applications, employee holiday gift certificates, and modifications to the city's labor agreement with the police association.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Meeting Participation Notice and Video/Teleconference Participation Notice"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Meeting Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "PUBLIC HEARING: City of Mosinee 2027 Budget"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action: Resolution No. 2026-08 - Adoption of 2027 Budget and authorization of tax levy"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action: Building Permit Applications"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action: City Employee Holiday Gift Certificates"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion and possible action: Modification of Labor Agreement with Mosinee Professional Police Association"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "City of Mosinee 2027 Budget Public Hearing",
+        "body": "The Common Council was scheduled to hold a public hearing on the proposed 2027 budget for the City of Mosinee. This hearing was set to allow community members to provide input before the council considers formal adoption of the budget."
+      },
+      {
+        "item": "Resolution No. 2026-08: Adoption of 2027 Budget",
+        "body": "The council was scheduled to discuss and consider action on Resolution No. 2026-08, which would adopt the 2027 budget for the City of Mosinee and authorize the levy of taxes for the upcoming fiscal year."
+      },
+      {
+        "item": "Building Permit Applications",
+        "body": "The council was set to discuss and take possible action on building permit applications. Specific details regarding the applications were not provided in the agenda."
+      },
+      {
+        "item": "City Employee Holiday Gift Certificates",
+        "body": "The council was scheduled to discuss and consider action regarding city employee holiday gift certificates, though specific details about the proposal were not included in the agenda."
+      },
+      {
+        "item": "Mosinee Professional Police Association Labor Agreement Modification",
+        "body": "The council was set to discuss and potentially take action on modifications to the labor agreement with the Mosinee Professional Police Association, which covers the period from January 1, 2023 to December 31, 2026. The council may have convened into closed session pursuant to Wisconsin Statutes 19.85(1)(e) to discuss this matter."
+      }
+    ],
+    "publicComment": "Public hearing on the 2027 budget was scheduled, though general public comment procedures were not explicitly detailed in the agenda.",
+    "actionItems": [
+      "scheduled to adopt Resolution No. 2026-08 authorizing the 2027 budget and tax levy",
+      "expected to consider building permit applications",
+      "expected to take action on city employee holiday gift certificates",
+      "scheduled to discuss and potentially modify the labor agreement with the Mosinee Professional Police Association"
+    ],
+    "topics": [
+      "Budget",
+      "2027 Budget Adoption",
+      "Tax Levy",
+      "Building Permits",
+      "Labor Agreement",
+      "Police Association"
+    ],
+    "votes": []
+  },
+  {
     "id": "kPvpA6dRbYM",
     "source": "wausau",
     "title": "Transit Commission Meeting",
@@ -12818,411 +13090,5 @@
         "tally": "Unanimous"
       }
     ]
-  },
-  {
-    "id": "aljQa_V9Aos",
-    "source": "wausau",
-    "title": "Finance Committee Budget Session #3",
-    "date": "October 7, 2026",
-    "shortDate": "OCT 7",
-    "committee": "Finance",
-    "duration": "1h 42m",
-    "url": "https://www.youtube.com/watch?v=aljQa_V9Aos",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Wausau Finance Committee held its third budget session for the 2027 budget, covering special revenue funds, capital projects, TID districts, debt service, and enterprise funds. A significant portion of the meeting focused on the city's growing debt burden, with Alderperson Hani presenting eight budget proposals including capping borrowing, finding $4.2-5.2 million in deferrable capital projects, cutting the city administrator position, and requesting a 1% general fund reduction. The committee agreed not to meet Thursday as planned, instead giving time for members to submit written amendments for a future meeting.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to order and opening remarks"
-      },
-      {
-        "time": "1:20",
-        "item": "Public comment on agenda items"
-      },
-      {
-        "time": "2:10",
-        "item": "Special revenue funds overview"
-      },
-      {
-        "time": "16:45",
-        "item": "Capital projects discussion"
-      },
-      {
-        "time": "38:00",
-        "item": "TID districts (TID 8, 11, 12) project review"
-      },
-      {
-        "time": "58:30",
-        "item": "Debt service analysis and strategies to reduce debt reliance"
-      },
-      {
-        "time": "1:14:00",
-        "item": "Enterprise funds: Metro Ride, municipal airport, parking"
-      },
-      {
-        "time": "1:27:00",
-        "item": "Storm water utility discussion"
-      },
-      {
-        "time": "1:35:00",
-        "item": "Fee schedule changes"
-      },
-      {
-        "time": "1:48:00",
-        "item": "Next steps, amendment process, and adjournment"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Special Revenue Funds Overview",
-        "body": "Finance Director Maryanne presented the special revenue funds including community development block grant, economic development, environmental cleanup, room tax, recycling, animal control, hazmat, and the 400 Block Riverlife fund. She noted the environmental cleanup fund reserves are declining now that an insurance annuity from the Holtz Kroy settlement has ended, and costs from EPA oversight — including a $121,000 bill last year — will eventually return to the levy. She also suggested consolidating some special revenue funds into the general fund to build up the expenditure restraint base, noting the city receives over $1 million in expenditure restraint grant funding."
-      },
-      {
-        "item": "Capital Projects Discussion",
-        "body": "Engineering staff walked through 2027 infrastructure projects including Ethel Street reconstruction, 11th Avenue, 17th Avenue STP Urban design, asphalt overlay (proposed increase from $600,000 to $800,000), lead service line replacement, and sidewalk repair. Alderperson Hani raised concern about borrowing for basic infrastructure and asked whether projects like Ethel Street could be deferred to 2028; engineering staff explained deferral simply shifts the entire street reconstruction schedule back a year and increases ongoing maintenance costs. A committee member questioned why the city pays for alley paving excavation costs while residents are assessed only for asphalt, prompting discussion about revisiting that policy."
-      },
-      {
-        "item": "TID Districts Review",
-        "body": "Economic Development Manager Patrick presented TID 8 (MBX South demolition and environmental cleanup, with a $250,000 WEDC brownfield grant applied for), TID 11 (business campus site prep and marketing for a large development site off Innovation Way), and TID 12 (limited expenditures due to ongoing deficits, projected to remain in deficit for approximately 10 years). Jefferson parking ramp HVAC replacement was identified as a critical project after one of two redundant systems failed. The former Sears ramp east wall — exposed after the Sears building demolition — needs $700,000 in waterproofing and rehabilitation. A Forest Street engineering and planning project of $150,000 was discussed as enabling future LRIP and STP Urban grant applications."
-      },
-      {
-        "item": "Debt Service Analysis",
-        "body": "Maryanne presented a detailed debt analysis showing the city's outstanding general obligation debt at approximately 33.38% of equalized value (limit is 5%), projected to rise to 33.81% after proposed 2027 borrowing. She compared the 2016 infrastructure borrowing of $2.8 million at 1.54% interest (resulting in a $338,000 annual payment) to the proposed 2027 borrowing of $6.2 million estimated at approximately 4.27% (resulting in roughly $770,000 annually plus $216,000 for the lead service line loan). She proposed using TID 8's approximately $11 million in remaining increment capacity to absorb roughly $2.18 million in infrastructure costs, reducing the levy impact by approximately $275,000 annually. She also suggested a 10-year plan to incrementally add $130,000 per year to levy-funded capital to eventually take asphalt overlay and concrete repairs off debt."
-      },
-      {
-        "item": "Enterprise Funds: Metro Ride, Airport, Parking",
-        "body": "The committee discussed that Metro Ride and the municipal airport operate at deficits covered by the general fund. Alderperson Hani raised constituent concerns about deficit operations, while Alderperson Tierney noted some municipal services like transit are inherently not self-sustaining but enhance quality of life. It was explained that Metro Ride cannot expand service to surrounding municipalities like Rib Mountain because those communities have not invited the city in and would need to help subsidize service, as Wisconsin does not permit regional transit authorities. New Metro Ride buses are coming through the Volkswagen emissions settlement. Airport revenue discussion included land lease payments, property taxes on privately-owned hangars, and past fuel-flow surcharge revenue that was discontinued when aviation fuel prices rose."
-      },
-      {
-        "item": "Storm Water Utility Discussion",
-        "body": "Engineering Director Eric provided an overview of a storm water utility concept at committee request, explaining that currently 65% of storm water costs are borne by residential taxpayers rather than major impervious-surface users such as large parking lots and commercial buildings. A storm water utility would distribute costs based on equivalent dwelling units tied to impervious surface area, bringing in non-taxable entities like nonprofits as payers, with a corresponding reduction in the levy. Maryanne noted a consultant study funded by a grant is completed and a presentation is scheduled for the October 27th city council meeting."
-      },
-      {
-        "item": "Alderperson Hani's Budget Proposals and Next Steps",
-        "body": "Alderperson Hani presented eight budget proposals including: capping 2027 borrowing at $17-18 million or reducing debt by $1 million; identifying $4.2-5.2 million in deferrable capital projects; a 1% general fund spending reduction; removing $150,000 for the city administrator position; a motorpool charge reconciliation; a current accounting of committed versus unassigned general fund balance; asking the mayor to direct Metro Ride, airport, and parking to develop 5-year financial plans; a reconciled capital project schedule; and a 5-year debt forecast separated by general government, water, and wastewater. The committee agreed not to meet Thursday, directing members to submit written amendments to Maryanne, who will distribute them and incorporate approved changes as a budget insert. Alder Watson was noted as also having proposals to submit."
-      }
-    ],
-    "publicComment": "No public comment was offered. The chair noted no members of the public were present.",
-    "actionItems": [
-      "Thursday October 8th budget session cancelled; staff to notify Alders Watson and Neil",
-      "Committee members to submit individual budget amendment proposals in writing to Finance Director Maryanne for distribution to full committee",
-      "Maryanne to consolidate amendments as a budget book insert reflecting proposed changes before council consideration",
-      "Ellers financial advisors to prepare formal debt amortization scenarios for committee review at a future meeting, potentially Tuesday",
-      "Chair to poll committee members for quorum availability for a future budget session",
-      "Engineering to prepare a presentation breaking down capital projects by mission-critical criteria as requested by Alderperson Hani",
-      "Finance Director to research and report on inspection fee structure for multifamily versus single-family buildings, and consider 2% fee increase",
-      "Eric to explore adding fleet facility as a placeholder line item (up to $4.5 million) in the 2027 capital budget",
-      "Storm water utility consultant presentation scheduled for October 27th city council meeting",
-      "Maryanne to calculate property tax revenue attributable to airport hangars for committee reference",
-      "Maryanne to complete consolidation of budget cut figures requested by committee member and distribute",
-      "Mayor directed to consider having Metro Ride, airport, and parking departments develop 5-year financial projections"
-    ],
-    "topics": [
-      "Budget",
-      "Debt Service",
-      "Capital Projects",
-      "TID Districts",
-      "Storm Water Utility"
-    ],
-    "votes": [
-      {
-        "item": "Adjournment",
-        "motion": "Motion to adjourn",
-        "mover": "Hani",
-        "second": "Tierney",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ]
-  },
-  {
-    "id": "qTcZ095oNCU",
-    "source": "marathon",
-    "title": "Human Resources, Finance & Property Committee Meeting",
-    "date": "October 7, 2026",
-    "shortDate": "OCT 7",
-    "committee": "HR, Finance & Property",
-    "duration": "1h 27m",
-    "url": "https://www.youtube.com/watch?v=qTcZ095oNCU",
-    "docUrl": null,
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Marathon County Human Resources, Finance & Property Committee met on Wednesday, October 7, 2026, taking action on more than a dozen items including shutting off utilities at Marathon Hall at UW-Marathon County, approving a parking lot lease with Olson Tire, allocating ARPA funds, acquiring land adjacent to Cherokee Park, and accepting a donated pontoon boat. The committee also received updates on the 2027 county budget, the Rib Mountain law enforcement services contract, and the proposed highway facility project, with bids coming in under planning assumptions ahead of a key October 20th vote.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order, Pledge of Allegiance, and Establish Quorum"
-      },
-      {
-        "time": "2:10",
-        "item": "Public Comment"
-      },
-      {
-        "time": "2:25",
-        "item": "Approval of September 29th Minutes"
-      },
-      {
-        "time": "3:15",
-        "item": "Marathon County Strategic Plan Development Update and Public Survey Opportunity"
-      },
-      {
-        "time": "10:45",
-        "item": "5A1 - Consideration of Shut Off of Utilities at Marathon Hall at UW-MC and Dorm Fund Anticipated Uses"
-      },
-      {
-        "time": "20:30",
-        "item": "Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)"
-      },
-      {
-        "time": "26:00",
-        "item": "Claim Disallowance"
-      },
-      {
-        "time": "29:00",
-        "item": "2027 Budget Discussion and Overview"
-      },
-      {
-        "time": "46:00",
-        "item": "Approval of September Claims and Question Costs"
-      },
-      {
-        "time": "48:00",
-        "item": "Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park"
-      },
-      {
-        "time": "53:00",
-        "item": "ARPA Funding Usage Update and Consideration of Budget Amendment Regarding Reallocation of Funding"
-      },
-      {
-        "time": "1:04:00",
-        "item": "Creation of $150 Imprest Fund within Administration Department"
-      },
-      {
-        "time": "1:08:00",
-        "item": "Rib Mountain Law Enforcement Services Contract Update"
-      },
-      {
-        "time": "1:18:00",
-        "item": "Tax Deed Parcel Sale - Town of Reed"
-      },
-      {
-        "time": "1:25:00",
-        "item": "Tax Deed Parcel Sale - Village of Athens"
-      },
-      {
-        "time": "1:31:00",
-        "item": "Acquisition of Land Adjacent to Cherokee Park"
-      },
-      {
-        "time": "1:55:00",
-        "item": "Donation of Pontoon Boat from DC Everest"
-      },
-      {
-        "time": "2:02:00",
-        "item": "Highway Facility Project Update and Bid Results"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Approval of September 29th Minutes",
-        "body": "Supervisor Hart moved to approve the minutes from the September 29th meeting related to the budget presentation. Vice Chair Pool seconded. The motion carried unanimously with no discussion."
-      },
-      {
-        "item": "Marathon County Strategic Plan Development Update and Public Survey Opportunity",
-        "body": "Vice Chair Boots provided an update, noting the county is currently refining a 20-question public survey down to 10 questions and encouraged committee members to distribute it to constituents, town chairs, and city councils. Vice Chair Pool raised concerns about interest groups or nonprofits skewing survey results and asked whether responses could be tracked by district. Boots explained the survey includes fields for respondent name and work/residence status, and that a radio button for retired individuals was added that day based on public feedback; he did not believe district-level tracking was feasible but said he would ask staff. Chair Robinson noted that the county had previously established a framework roughly six years ago for evaluating nonprofit funding tied to mandated services, which he said would limit any strategic plan survey influence on funding decisions."
-      },
-      {
-        "item": "Shut Off of Utilities at Marathon Hall at UW-MC and Dorm Fund Anticipated Uses",
-        "body": "Administration recommended shutting off utilities at Marathon Hall, an unused dormitory likely to be demolished, at a cost of approximately $7,700 to be funded from dormitory funds. Staff also outlined plans to use dorm funds for asbestos testing and to cover campus utilities through the first quarter of the following year during a due diligence period requested by the City of Wausau, which has expressed interest in the site for housing. Supervisor Hart moved to authorize the utility shutoff; the motion carried unanimously. The dorm fund anticipated uses discussion required no separate action."
-      },
-      {
-        "item": "Parking Lot Lease Agreement with Olson Tire (AOK Property LLC)",
-        "body": "Deputy Administrator Homeman presented a one-year annual lease agreement with Olson Tire's corporate entity AOK Property LLC for half of a county-owned parking lot behind a BP gas station near the courthouse. The county would receive just under $1,100 per year, and Mr. Olsson would handle winter maintenance of the entire lot, relieving Parks, Recreation, and Forestry of that duty. Vice Chair Pool moved to approve; Supervisor Nath seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Claim Disallowance",
-        "body": "Corporation Counsel Brian [inaudible] presented a claim disallowance recommendation from the county's insurance company, explaining that the claimant failed to follow a deputy's instructions during a vehicle pursuit and subsequently struck stop sticks that had been deployed to slow traffic. Supervisor Hart moved to approve the disallowance; Supervisor Nisth seconded. The motion carried unanimously."
-      },
-      {
-        "item": "2027 Budget Discussion and Overview",
-        "body": "Administrator Leonard and Finance Director Sam answered questions submitted by Chair Robinson. The total proposed 2027 budget is approximately $238.6 million, a substantial increase driven primarily by the highway facility construction project — including roughly $30 million in funds applied within the highway fund and a $3.5 million transfer from the capital improvement fund related to North Central Healthcare revenues. The contingency fund stands at $600,000, down from prior years' $800,000-$850,000 range, but without prior earmarks for homelessness or the Central Wisconsin Airport minimum revenue guarantee. Chair Robinson noted that the committee retains discretion over $550,000 of that amount without full county board approval. He also complimented the sheriff's department for holding the levy increase roughly half a million dollars lower than the prior year. No action was taken; the committee was directed to submit any budget amendments by Friday for consideration at an 8:30 a.m. meeting the following Monday."
-      },
-      {
-        "item": "Approval of September Claims and Question Costs",
-        "body": "Finance Director Sam presented the September claims with a modification requested by Chair Robinson adding department budget detail for transparency. Vice Chair Pool moved to approve; Supervisor Hart seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Easement for WPS Proposed Natural Gas Regulator Station at Sunnyville Park",
-        "body": "Deputy Administrator Homeman reported that WPS met the county's previously requested higher easement price. Under the proposed terms, WPS would pay the county a non-refundable $1,000 option payment now, then a final $1,000 easement payment if all other permits are approved. Chair Robinson asked Corporation Counsel whether a conditional acceptance was permissible; counsel confirmed it was. A motion to approve was made and seconded by Vice Chair Pool; it carried unanimously."
-      },
-      {
-        "item": "ARPA Funding Usage Update and Consideration of Budget Amendment Regarding Reallocation of Funding",
-        "body": "Administration presented a resolution to reclassify approximately $388,750 in remaining American Rescue Plan Act funds — primarily from the nine-mile forest septic system and chalet renovation project — back to the forensic science center project within the capital improvement program. Staff clarified this is a reclassification, not a budget amendment, requiring only a simple majority vote. Chair Robinson requested that the specific project table with dollar amounts be incorporated into the resolution's whereas clauses to guard against federal clawback. Supervisor Hart moved, with Vice Chair Pool seconding; the motion as modified carried unanimously."
-      },
-      {
-        "item": "Creation of $150 Imprest Fund within Administration Department",
-        "body": "Administration proposed creating a $150 imprest (petty cash) fund in the county administration office at the Lake View location to handle occasional cash transactions such as title report fees and UW Extension payments. Finance Director Sam addressed audit concerns, explaining that segregation of duties, weekly deposits, reconciliation, and random cash audits are all in place. Vice Chair Pool moved to approve; Supervisor Nisth seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Rib Mountain Law Enforcement Services Contract Update",
-        "body": "Administrator Leonard and Sheriff Bill provided an update, noting that a final agreement has not yet been reached and no action was taken. The most notable change in the working draft is removal of a mandatory fifth deputy requirement in 2028, replaced by a collaborative data analysis tied to a 90/10 call-for-service split — meaning 90% of calls within Rib Mountain would be handled by village-assigned deputies. A meeting with Rib Mountain officials is scheduled for the following week. The 2027 proposed budget already incorporates the financial parameters of the working contract, with a total contract value of $593,667.96. Any final agreement must be approved by both the Rib Mountain village board and the Marathon County Board of Supervisors."
-      },
-      {
-        "item": "Tax Deed Parcel Sale - Town of Reed",
-        "body": "Administration presented a narrow, non-buildable sliver parcel in the Town of Reed acquired by Marathon County in 1935 with no value except to an adjacent property owner. Phillips Valuation estimated fair market value at $1,500, and the adjacent owner submitted an offer to purchase at that amount. Because the county's ordinance process requires listing on Wisconsin Surplus or municipal outreach, committee approval was needed to authorize a direct sale. Vice Chair Pool moved to approve the sale for $1,500; Supervisor Nath seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Tax Deed Parcel Sale - Village of Athens",
-        "body": "Administration presented a tax-deed parcel in the Village of Athens acquired in July 2026, on which the county is owed over $937 in delinquent taxes. Phillips Valuation estimated fair market value at $875, but the Village of Athens offered only $200. Administrator Leonard recommended accepting the village's offer, noting the county would not recoup its losses under any sale scenario and that the village is better positioned to manage the parcel, which appears to be part of a trail corridor. Supervisor Hart moved to authorize the sale to the Village of Athens for $200; Supervisor Nisth seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Acquisition of Land Adjacent to Cherokee Park",
-        "body": "Parks Director Jamie Polly presented a proposal to purchase approximately 14 acres of wooded land directly west of Cherokee Park, including a parcel segment along the Tomorrow River, from a willing seller at an appraised value of $4,450 per acre (not to exceed 15 acres or $4,450/acre). The Parks and Recreation Committee and Environmental Resources Committee both recommended proceeding. The land would be purchased from the Parkland and Products account. Vice Chair Pool raised the possibility of waiting for reauthorization of the Knowles-Nelson Stewardship Fund; Supervisor Hart argued against waiting given legislative uncertainty. An amendment was adopted to include language in the resolution allowing use of Knowles-Nelson funds if available at the time of acquisition. The motion as amended carried unanimously."
-      },
-      {
-        "item": "Donation of Pontoon Boat from DC Everest",
-        "body": "Administration and Parks Director Polly presented a resolution to accept a donated pontoon boat from DC Everest, described as an older but well-maintained vessel intended for youth recreation, fishing, and similar activities. Parks staff indicated ongoing maintenance costs would be minimal and that if major repairs were needed exceeding the boat's value, the department would dispose of it rather than invest further. Vice Chair Pool moved to accept the donation; Supervisor Nath seconded. The motion carried unanimously."
-      },
-      {
-        "item": "Highway Facility Project Update and Bid Results",
-        "body": "Deputy Administrator Homeman reported that bids for the highway facility project were received on October 5th and came in under the county's planning assumptions, which he called a positive outcome. Staff are validating bids, confirming scope of work, and assembling the owner-direct cost portions to arrive at a guaranteed maximum price. A full presentation to the county board is scheduled for October 15th, and the committee is expected to consider a resolution to authorize contract execution at its October 20th meeting — the same day as a county board voting meeting. Chair Robinson suggested a possible joint meeting with the Infrastructure Committee on the 20th. Administrator Leonard commended the facilities and highway team for managing the complex multi-division bid process."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Authorize shutoff of utilities at Marathon Hall using dormitory funds (~$7,700) and proceed with asbestos testing",
-      "Execute one-year parking lot lease with AOK Property LLC (Olson Tire) at just under $1,100/year plus winter maintenance",
-      "Disallow the insurance claim related to the law enforcement pursuit stop-stick incident",
-      "Submit any 2027 budget amendments by Friday; hold a brief Monday 8:30 a.m. meeting to authorize budget publication",
-      "Accept conditional easement option from WPS for natural gas regulator station at Sunnyville Park ($1,000 option, $1,000 final payment)",
-      "Adopt resolution reclassifying approximately $388,750 in remaining ARPA funds to the forensic science center/capital improvement program, with project table incorporated into resolution language and majority-vote language corrected",
-      "Establish $150 imprest cash fund in county administration office at Lake View",
-      "Continue negotiations with Rib Mountain on law enforcement services contract; bring final agreement to county board for approval",
-      "Execute sale of Town of Reed tax deed parcel to adjacent owner for $1,500",
-      "Execute sale of Village of Athens tax deed parcel to the village for $200",
-      "Move forward with acquisition of up to 15 acres adjacent to Cherokee Park at not to exceed $4,450/acre, using Parkland and Products account or Knowles-Nelson funds if available; property owner to fund survey",
-      "Accept donated pontoon boat from DC Everest for Parks and Recreation Department use",
-      "Prepare highway facility GMP presentation for county board education meeting on October 15th; bring resolution for approval to this committee and county board on October 20th",
-      "Reach out to Infrastructure Committee chair about possible joint meeting on October 20th for highway facility vote"
-    ],
-    "topics": [
-      "Budget",
-      "Staffing",
-      "Parks",
-      "Development",
-      "Highway Facility Project",
-      "Cherokee Park Acquisition",
-      "ARPA Reallocation",
-      "Marathon Hall Demolition"
-    ],
-    "votes": [
-      {
-        "item": "Approval of September 29th minutes",
-        "motion": null,
-        "mover": "Supervisor Hart",
-        "second": "Vice Chair Pool",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Authorize shutoff of utilities at Marathon Hall",
-        "motion": null,
-        "mover": "Supervisor Hart",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Parking lot lease agreement with AOK Property LLC (Olson Tire)",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Nath",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Disallowance of insurance claim related to stop-stick pursuit incident",
-        "motion": "Approve the disallowance",
-        "mover": "Supervisor Hart",
-        "second": "Supervisor Nisth",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Approval of September claims and question costs",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Hart",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Easement for WPS natural gas regulator station at Sunnyville Park",
-        "motion": null,
-        "mover": null,
-        "second": "Vice Chair Pool",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "ARPA funds reclassification resolution (as modified)",
-        "motion": null,
-        "mover": "Supervisor Hart",
-        "second": "Vice Chair Pool",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Creation of $150 imprest fund within administration department",
-        "motion": "Approve establishing $150 of imprest funds within the administration department",
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Nisth",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Sale of Town of Reed tax deed parcel to adjacent owner for $1,500",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Nath",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Sale of Village of Athens tax deed parcel to the village for $200",
-        "motion": "Authorize the sale of tax deed property to the Village of Athens",
-        "mover": "Supervisor Hart",
-        "second": "Supervisor Nisth",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Amendment to Cherokee Park land acquisition resolution to include Knowles-Nelson funding language",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Hart",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acquisition of land adjacent to Cherokee Park (as amended)",
-        "motion": null,
-        "mover": "Chair Robinson",
-        "second": null,
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      },
-      {
-        "item": "Acceptance of donated pontoon boat from DC Everest",
-        "motion": null,
-        "mover": "Vice Chair Pool",
-        "second": "Supervisor Nath",
-        "outcome": "Approved",
-        "tally": "Unanimous"
-      }
-    ],
-    "publicCommentSpeakers": 0
   }
 ]

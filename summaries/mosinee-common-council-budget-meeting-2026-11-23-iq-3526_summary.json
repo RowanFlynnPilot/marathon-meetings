@@ -1,0 +1,86 @@
+{
+  "overview": "Based on the published agenda, the City of Mosinee Common Council scheduled a special budget meeting to hold a public hearing on the proposed 2027 budget and consider adoption of the budget through Resolution No. 2026-08. The meeting was also set to address building permit applications, employee holiday gift certificates, and modifications to the city's labor agreement with the police association.",
+  "committee": "City of Mosinee Common Council",
+  "presiding": "",
+  "agenda": [
+    {
+      "time": "6:00 PM",
+      "item": "Call to Order and Pledge of Allegiance"
+    },
+    {
+      "time": "N/A",
+      "item": "Roll Call"
+    },
+    {
+      "time": "N/A",
+      "item": "Public Meeting Participation Notice and Video/Teleconference Participation Notice"
+    },
+    {
+      "time": "N/A",
+      "item": "Approval of Meeting Agenda"
+    },
+    {
+      "time": "N/A",
+      "item": "PUBLIC HEARING: City of Mosinee 2027 Budget"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and possible action: Resolution No. 2026-08 - Adoption of 2027 Budget and authorization of tax levy"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and possible action: Building Permit Applications"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and possible action: City Employee Holiday Gift Certificates"
+    },
+    {
+      "time": "N/A",
+      "item": "Discussion and possible action: Modification of Labor Agreement with Mosinee Professional Police Association"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "City of Mosinee 2027 Budget Public Hearing",
+      "body": "The Common Council was scheduled to hold a public hearing on the proposed 2027 budget for the City of Mosinee. This hearing was set to allow community members to provide input before the council considers formal adoption of the budget."
+    },
+    {
+      "item": "Resolution No. 2026-08: Adoption of 2027 Budget",
+      "body": "The council was scheduled to discuss and consider action on Resolution No. 2026-08, which would adopt the 2027 budget for the City of Mosinee and authorize the levy of taxes for the upcoming fiscal year."
+    },
+    {
+      "item": "Building Permit Applications",
+      "body": "The council was set to discuss and take possible action on building permit applications. Specific details regarding the applications were not provided in the agenda."
+    },
+    {
+      "item": "City Employee Holiday Gift Certificates",
+      "body": "The council was scheduled to discuss and consider action regarding city employee holiday gift certificates, though specific details about the proposal were not included in the agenda."
+    },
+    {
+      "item": "Mosinee Professional Police Association Labor Agreement Modification",
+      "body": "The council was set to discuss and potentially take action on modifications to the labor agreement with the Mosinee Professional Police Association, which covers the period from January 1, 2023 to December 31, 2026. The council may have convened into closed session pursuant to Wisconsin Statutes 19.85(1)(e) to discuss this matter."
+    }
+  ],
+  "publicComment": "Public hearing on the 2027 budget was scheduled, though general public comment procedures were not explicitly detailed in the agenda.",
+  "actionItems": [
+    "scheduled to adopt Resolution No. 2026-08 authorizing the 2027 budget and tax levy",
+    "expected to consider building permit applications",
+    "expected to take action on city employee holiday gift certificates",
+    "scheduled to discuss and potentially modify the labor agreement with the Mosinee Professional Police Association"
+  ],
+  "topics": [
+    "Budget",
+    "2027 Budget Adoption",
+    "Tax Levy",
+    "Building Permits",
+    "Labor Agreement",
+    "Police Association"
+  ],
+  "_source": "agenda",
+  "title": "Common Council - Budget Meeting - 2026-11-23",
+  "url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+  "source": "mosinee",
+  "doc_url": "https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526",
+  "processed_at": "2026-11-23T00:58:14.445060+00:00"
+}

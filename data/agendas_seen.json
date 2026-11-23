@@ -1,0 +1,44 @@
+{
+  "0b8dc6e2f034452db544": {
+    "date": "2026-11-23",
+    "name": "Committee of the Whole Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "school_board"
+  },
+  "24e3b3cff70c7c06690b": {
+    "date": "2026-11-23",
+    "name": "Police & Fire Commission Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  },
+  "40f8a47f78dac7d1f4e7": {
+    "date": "2026-11-23",
+    "name": "Special Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "school_board"
+  },
+  "80136b5bc1300db5c8be": {
+    "date": "2026-12-01",
+    "name": "Board of Public Works Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  },
+  "b46119fc786a09bd3ddf": {
+    "date": "2026-11-23",
+    "name": "Park and Recreation Committee",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "weston"
+  },
+  "c0025436f0c30c706fd8": {
+    "date": "2026-11-24",
+    "name": "Finance Committee Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  },
+  "cd396637cc1ec0e66e04": {
+    "date": "2026-11-23",
+    "name": "Bicycle & Pedestrian Advisory Committee Meeting",
+    "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  }
+}

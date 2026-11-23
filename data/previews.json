@@ -1,6 +1,6 @@
 {
   "0b8dc6e2f034452db544": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "87e4084cf676d0c08de203e526c33aee2bb6451f",
@@ -94,7 +94,7 @@
     "source": "wausau"
   },
   "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "06b6619020510e165db519f60da43f9304559641",
@@ -136,7 +136,7 @@
     "source": "wausau"
   },
   "40f8a47f78dac7d1f4e7": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "8a98aea67e0e0af8ec6fe5bf666680c2749b99f7",
@@ -235,8 +235,50 @@
     "prompt": "2",
     "source": "mosinee"
   },
+  "80136b5bc1300db5c8be": {
+    "checked": "2026-11-23T00:58:31+00:00",
+    "date": "2026-12-01",
+    "generations": 1,
+    "hash": "ad51bfb157d95cac18a36416584753fff14045f4",
+    "name": "Board of Public Works Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-23T00:58:31+00:00",
+      "items": [
+        {
+          "action": "vote",
+          "item": "Recommendation for 2026 demolition at 207 North 1st Avenue",
+          "why": "The board will consider and vote on a recommendation for demolishing the building at 207 North 1st Avenue (MBX South), following bids opened on November 17."
+        },
+        {
+          "action": "vote",
+          "item": "Crocker Street Lift Station Replacement payment",
+          "why": "The board will consider approving payment estimate #2 to Haas Sons, Inc. for work on the Crocker Street Lift Station Replacement project."
+        },
+        {
+          "action": "vote",
+          "item": "Cherry Street Lift Station Replacement final payment",
+          "why": "The board will consider approving the final payment to Integrity Grading & Excavating, Inc. for the Cherry Street Lift Station Replacement project."
+        },
+        {
+          "action": "vote",
+          "item": "2026 Downtown Sidewalk Improvement Project payment",
+          "why": "The board will consider approving payment estimate #1 to Pember Companies, Inc. for the 2026 Downtown Sidewalk Improvement Project."
+        },
+        {
+          "action": "vote",
+          "item": "2026 Asphalt Paving Project payment and final approval",
+          "why": "The board will consider approving pay estimate #6 and final payment to RC Pavers, LLC for the 2026 Asphalt Paving Project \"A\"."
+        }
+      ],
+      "overview": "The Board of Public Works is scheduled to decide on demolishing a building at 207 North 1st Avenue and approve several payments for city infrastructure projects including lift station replacements, sidewalk improvements, and street paving.",
+      "publicComment": false
+    },
+    "prompt": "2",
+    "source": "wausau"
+  },
   "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "68360119d625340ee6748ca57b9821f2ab88dbbe",
@@ -268,7 +310,7 @@
     "source": "weston"
   },
   "c0025436f0c30c706fd8": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-24",
     "generations": 2,
     "hash": "57e9e00b26f0bedd061cd407cf64f9b8388f77dd",
@@ -315,7 +357,7 @@
     "source": "wausau"
   },
   "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-22T06:57:06+00:00",
+    "checked": "2026-11-23T00:58:31+00:00",
     "date": "2026-11-23",
     "generations": 1,
     "hash": "0ee8f214ac0d074330aa266b8ee4a16cf39b43c5",
