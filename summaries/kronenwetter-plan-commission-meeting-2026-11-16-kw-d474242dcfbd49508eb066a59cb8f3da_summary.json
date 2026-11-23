@@ -160,5 +160,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pc/page/plan-commission-meeting-34",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d474242dcfbd49508eb066a59cb8f3da.pdf",
-  "processed_at": "2026-11-17T23:35:21.323954+00:00"
+  "processed_at": "2026-11-17T23:35:21.323954+00:00",
+  "issues": [
+    "housing_development",
+    "zoning_land_use",
+    "water_utilities"
+  ]
 }

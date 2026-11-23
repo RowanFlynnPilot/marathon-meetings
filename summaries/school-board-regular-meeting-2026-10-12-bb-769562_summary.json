@@ -135,5 +135,9 @@
   "url": "https://www.youtube.com/watch?v=Jk4iqCHGIJE",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=769562",
-  "processed_at": "2026-10-20T20:05:26.661551+00:00"
+  "processed_at": "2026-10-20T20:05:26.661551+00:00",
+  "issues": [
+    "schools_learning",
+    "staffing_pay"
+  ]
 }

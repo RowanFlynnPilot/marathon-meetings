@@ -162,5 +162,10 @@
   "url": "https://www.youtube.com/watch?v=Jh604oscGRM",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-10-14T04:52:28.892264+00:00"
+  "processed_at": "2026-10-14T04:52:28.892264+00:00",
+  "issues": [
+    "zoning_land_use",
+    "water_utilities",
+    "public_safety"
+  ]
 }

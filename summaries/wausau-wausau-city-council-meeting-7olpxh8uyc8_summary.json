@@ -307,5 +307,10 @@
   "url": "https://www.youtube.com/watch?v=7OLPXH8UYC8",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:36:45.865806+00:00"
+  "processed_at": "2026-11-21T03:36:45.865806+00:00",
+  "issues": [
+    "water_utilities",
+    "roads_transportation",
+    "zoning_land_use"
+  ]
 }

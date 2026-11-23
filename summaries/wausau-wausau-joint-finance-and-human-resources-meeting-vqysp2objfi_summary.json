@@ -252,5 +252,10 @@
   "url": "https://www.youtube.com/watch?v=VQysP2OBjfI",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-16T06:30:27.013092+00:00"
+  "processed_at": "2026-11-16T06:30:27.013092+00:00",
+  "issues": [
+    "budget_taxes",
+    "public_safety",
+    "water_utilities"
+  ]
 }

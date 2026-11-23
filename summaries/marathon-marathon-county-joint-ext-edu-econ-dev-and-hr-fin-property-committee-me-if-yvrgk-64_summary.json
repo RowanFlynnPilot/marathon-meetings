@@ -131,5 +131,10 @@
   "url": "https://www.youtube.com/watch?v=IF_YvRGk-64",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-06T15:56:37.175997+00:00"
+  "processed_at": "2026-11-06T15:56:37.175997+00:00",
+  "issues": [
+    "housing_development",
+    "jobs_economy",
+    "health_human_services"
+  ]
 }

@@ -86,5 +86,9 @@
   "url": "https://www.youtube.com/watch?v=5iujFRVxBrA",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-13T19:16:52.867555+00:00"
+  "processed_at": "2026-10-13T19:16:52.867555+00:00",
+  "issues": [
+    "staffing_pay",
+    "budget_taxes"
+  ]
 }

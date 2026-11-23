@@ -135,5 +135,10 @@
   "url": "https://www.youtube.com/watch?v=1MuGCAijiwY",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-05T00:55:50.776853+00:00"
+  "processed_at": "2026-11-05T00:55:50.776853+00:00",
+  "issues": [
+    "roads_transportation",
+    "water_utilities",
+    "buildings_facilities"
+  ]
 }

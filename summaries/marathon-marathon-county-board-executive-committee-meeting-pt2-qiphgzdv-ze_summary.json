@@ -71,5 +71,8 @@
   "url": "https://www.youtube.com/watch?v=QiphgzDv_zE",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-16T06:29:15.421266+00:00"
+  "processed_at": "2026-11-16T06:29:15.421266+00:00",
+  "issues": [
+    "government_elections"
+  ]
 }

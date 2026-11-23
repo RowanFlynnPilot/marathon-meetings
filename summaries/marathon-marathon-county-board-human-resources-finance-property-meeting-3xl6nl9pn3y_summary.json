@@ -193,5 +193,10 @@
   "url": "https://www.youtube.com/watch?v=3Xl6NL9Pn3Y",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-21T20:10:45.985126+00:00"
+  "processed_at": "2026-10-21T20:10:45.985126+00:00",
+  "issues": [
+    "zoning_land_use",
+    "budget_taxes",
+    "buildings_facilities"
+  ]
 }

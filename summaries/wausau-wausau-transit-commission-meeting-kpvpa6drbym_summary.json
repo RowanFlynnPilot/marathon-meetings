@@ -158,5 +158,10 @@
   "url": "https://www.youtube.com/watch?v=kPvpA6dRbYM",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:13:23.031264+00:00"
+  "processed_at": "2026-11-21T03:13:23.031264+00:00",
+  "issues": [
+    "roads_transportation",
+    "buildings_facilities",
+    "budget_taxes"
+  ]
 }

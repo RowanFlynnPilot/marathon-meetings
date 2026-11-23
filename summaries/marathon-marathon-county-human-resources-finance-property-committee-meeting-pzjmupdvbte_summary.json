@@ -194,5 +194,10 @@
   "url": "https://www.youtube.com/watch?v=PZjmUPDVbTE",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:42:49.538236+00:00"
+  "processed_at": "2026-11-21T03:42:49.538236+00:00",
+  "issues": [
+    "budget_taxes",
+    "roads_transportation",
+    "environment_energy"
+  ]
 }

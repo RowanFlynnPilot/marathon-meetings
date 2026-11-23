@@ -65,5 +65,8 @@
   "url": "https://www.youtube.com/watch?v=7uG0YZACZUY",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-10-12T17:54:05.530030+00:00"
+  "processed_at": "2026-10-12T17:54:05.530030+00:00",
+  "issues": [
+    "budget_taxes"
+  ]
 }

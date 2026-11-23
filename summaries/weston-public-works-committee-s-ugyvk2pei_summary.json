@@ -195,5 +195,10 @@
   "url": "https://www.youtube.com/watch?v=S_UGYvK2peI",
   "source": "weston",
   "doc_url": null,
-  "processed_at": "2026-11-10T21:52:50.142784+00:00"
+  "processed_at": "2026-11-10T21:52:50.142784+00:00",
+  "issues": [
+    "water_utilities",
+    "roads_transportation",
+    "budget_taxes"
+  ]
 }

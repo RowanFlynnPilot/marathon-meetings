@@ -155,5 +155,10 @@
   "url": "https://www.youtube.com/watch?v=_Fnn432j7r0",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-21T04:44:50.729106+00:00"
+  "processed_at": "2026-10-21T04:44:50.729106+00:00",
+  "issues": [
+    "zoning_land_use",
+    "housing_development",
+    "parks_recreation"
+  ]
 }

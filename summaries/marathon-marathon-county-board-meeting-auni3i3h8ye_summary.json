@@ -178,5 +178,10 @@
   "url": "https://www.youtube.com/watch?v=auNi3i3H8YE",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-21T17:16:43.719992+00:00"
+  "processed_at": "2026-11-21T17:16:43.719992+00:00",
+  "issues": [
+    "roads_transportation",
+    "budget_taxes",
+    "government_elections"
+  ]
 }

@@ -2268,5 +2268,805 @@
     "input_tokens": 1829,
     "output_tokens": 338,
     "usd": 0.003519
+  },
+  {
+    "ts": "2026-11-23T02:19:02.369526+00:00",
+    "meeting_id": "bb_778459",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1069,
+    "output_tokens": 28,
+    "usd": 0.001209
+  },
+  {
+    "ts": "2026-11-23T02:19:02.864063+00:00",
+    "meeting_id": "bb_778498",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 788,
+    "output_tokens": 23,
+    "usd": 0.000903
+  },
+  {
+    "ts": "2026-11-23T02:19:03.403171+00:00",
+    "meeting_id": "kPvpA6dRbYM",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1393,
+    "output_tokens": 27,
+    "usd": 0.001528
+  },
+  {
+    "ts": "2026-11-23T02:19:04.002390+00:00",
+    "meeting_id": "bb_773904",
+    "jurisdiction": "dc_everest",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1297,
+    "output_tokens": 28,
+    "usd": 0.001437
+  },
+  {
+    "ts": "2026-11-23T02:19:04.454305+00:00",
+    "meeting_id": "d4d1DWUqlLs",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 701,
+    "output_tokens": 17,
+    "usd": 0.000786
+  },
+  {
+    "ts": "2026-11-23T02:19:05.041601+00:00",
+    "meeting_id": "JMnn_Xfhsm0",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 957,
+    "output_tokens": 27,
+    "usd": 0.001092
+  },
+  {
+    "ts": "2026-11-23T02:19:05.597742+00:00",
+    "meeting_id": "kw_ff35b6b75e12487c9fcbce664abe1fbf",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1665,
+    "output_tokens": 28,
+    "usd": 0.001805
+  },
+  {
+    "ts": "2026-11-23T02:19:06.066437+00:00",
+    "meeting_id": "cw6DqUF_9vk",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1020,
+    "output_tokens": 25,
+    "usd": 0.001145
+  },
+  {
+    "ts": "2026-11-23T02:19:06.645020+00:00",
+    "meeting_id": "EyftyU37JDQ",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1127,
+    "output_tokens": 27,
+    "usd": 0.001262
+  },
+  {
+    "ts": "2026-11-23T02:19:07.206800+00:00",
+    "meeting_id": "raxHejkF0U0",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 790,
+    "output_tokens": 25,
+    "usd": 0.000915
+  },
+  {
+    "ts": "2026-11-23T02:19:07.804171+00:00",
+    "meeting_id": "Mi_lKQH22Zo",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1153,
+    "output_tokens": 30,
+    "usd": 0.001303
+  },
+  {
+    "ts": "2026-11-23T02:19:08.406759+00:00",
+    "meeting_id": "ZyVaKfiiYyE",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1773,
+    "output_tokens": 32,
+    "usd": 0.001933
+  },
+  {
+    "ts": "2026-11-23T02:19:08.915056+00:00",
+    "meeting_id": "rr4xY0W5ETo",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1144,
+    "output_tokens": 22,
+    "usd": 0.001254
+  },
+  {
+    "ts": "2026-11-23T02:19:09.492896+00:00",
+    "meeting_id": "kw_d474242dcfbd49508eb066a59cb8f3da",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1377,
+    "output_tokens": 35,
+    "usd": 0.001552
+  },
+  {
+    "ts": "2026-11-23T02:19:10.110771+00:00",
+    "meeting_id": "oLNO7g9EenE",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1348,
+    "output_tokens": 30,
+    "usd": 0.001498
+  },
+  {
+    "ts": "2026-11-23T02:19:10.669154+00:00",
+    "meeting_id": "kw_72cd279271474fd5bb5d5a83fb451c72",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1043,
+    "output_tokens": 22,
+    "usd": 0.001153
+  },
+  {
+    "ts": "2026-11-23T02:19:11.159276+00:00",
+    "meeting_id": "QiphgzDv_zE",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 881,
+    "output_tokens": 17,
+    "usd": 0.000966
+  },
+  {
+    "ts": "2026-11-23T02:19:11.759493+00:00",
+    "meeting_id": "NK80DZtCkNg",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1330,
+    "output_tokens": 27,
+    "usd": 0.001465
+  },
+  {
+    "ts": "2026-11-23T02:19:12.386768+00:00",
+    "meeting_id": "VQysP2OBjfI",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1651,
+    "output_tokens": 33,
+    "usd": 0.001816
+  },
+  {
+    "ts": "2026-11-23T02:19:12.950147+00:00",
+    "meeting_id": "LJW8KBfFsaY",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1317,
+    "output_tokens": 27,
+    "usd": 0.001452
+  },
+  {
+    "ts": "2026-11-23T02:19:13.523516+00:00",
+    "meeting_id": "UclNYQZAFAo",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1333,
+    "output_tokens": 27,
+    "usd": 0.001468
+  },
+  {
+    "ts": "2026-11-23T02:19:14.020156+00:00",
+    "meeting_id": "8cbyiMGaNPQ",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 688,
+    "output_tokens": 17,
+    "usd": 0.000773
+  },
+  {
+    "ts": "2026-11-23T02:19:14.588326+00:00",
+    "meeting_id": "JlCDth7F-RQ",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1573,
+    "output_tokens": 27,
+    "usd": 0.001708
+  },
+  {
+    "ts": "2026-11-23T02:19:15.159273+00:00",
+    "meeting_id": "EwyT8MJXctI",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1039,
+    "output_tokens": 27,
+    "usd": 0.001174
+  },
+  {
+    "ts": "2026-11-23T02:19:15.664390+00:00",
+    "meeting_id": "kw_321dc8f6baf04e6bbb0b624a422ad98b",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 686,
+    "output_tokens": 23,
+    "usd": 0.000801
+  },
+  {
+    "ts": "2026-11-23T02:19:16.165339+00:00",
+    "meeting_id": "68FOdDdxyIg",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1217,
+    "output_tokens": 17,
+    "usd": 0.001302
+  },
+  {
+    "ts": "2026-11-23T02:19:16.714636+00:00",
+    "meeting_id": "PZjmUPDVbTE",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1537,
+    "output_tokens": 27,
+    "usd": 0.001672
+  },
+  {
+    "ts": "2026-11-23T02:19:17.288070+00:00",
+    "meeting_id": "kw_0649d76bc4ba4c3da152038af6e9845c",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1457,
+    "output_tokens": 28,
+    "usd": 0.001597
+  },
+  {
+    "ts": "2026-11-23T02:19:17.850709+00:00",
+    "meeting_id": "S_UGYvK2peI",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1508,
+    "output_tokens": 27,
+    "usd": 0.001643
+  },
+  {
+    "ts": "2026-11-23T02:19:18.293286+00:00",
+    "meeting_id": "bb_771386",
+    "jurisdiction": "dc_everest",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 634,
+    "output_tokens": 17,
+    "usd": 0.000719
+  },
+  {
+    "ts": "2026-11-23T02:19:18.830313+00:00",
+    "meeting_id": "bb_774423",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1061,
+    "output_tokens": 27,
+    "usd": 0.001196
+  },
+  {
+    "ts": "2026-11-23T02:19:19.368254+00:00",
+    "meeting_id": "Y4xzT50_kRY",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1223,
+    "output_tokens": 22,
+    "usd": 0.001333
+  },
+  {
+    "ts": "2026-11-23T02:19:19.978928+00:00",
+    "meeting_id": "IF_YvRGk-64",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1276,
+    "output_tokens": 29,
+    "usd": 0.001421
+  },
+  {
+    "ts": "2026-11-23T02:19:20.532596+00:00",
+    "meeting_id": "FbHVlv1qUyI",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1060,
+    "output_tokens": 30,
+    "usd": 0.00121
+  },
+  {
+    "ts": "2026-11-23T02:19:20.972015+00:00",
+    "meeting_id": "1XBXalxLhkw",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 733,
+    "output_tokens": 17,
+    "usd": 0.000818
+  },
+  {
+    "ts": "2026-11-23T02:19:21.558548+00:00",
+    "meeting_id": "1MuGCAijiwY",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1277,
+    "output_tokens": 27,
+    "usd": 0.001412
+  },
+  {
+    "ts": "2026-11-23T02:19:22.166775+00:00",
+    "meeting_id": "x5ndfhfruMg",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 939,
+    "output_tokens": 29,
+    "usd": 0.001084
+  },
+  {
+    "ts": "2026-11-23T02:19:22.756984+00:00",
+    "meeting_id": "QfKwZ4nvAjc",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1204,
+    "output_tokens": 27,
+    "usd": 0.001339
+  },
+  {
+    "ts": "2026-11-23T02:19:23.300046+00:00",
+    "meeting_id": "kw_590ae932796b451bb27e6e444f98e22a",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 866,
+    "output_tokens": 30,
+    "usd": 0.001016
+  },
+  {
+    "ts": "2026-11-23T02:19:23.846327+00:00",
+    "meeting_id": "sMlUgUewkq4",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1034,
+    "output_tokens": 30,
+    "usd": 0.001184
+  },
+  {
+    "ts": "2026-11-23T02:19:24.328785+00:00",
+    "meeting_id": "-lWYezOdlqQ",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "usd": 0.001456
+  },
+  {
+    "ts": "2026-11-23T02:19:24.890962+00:00",
+    "meeting_id": "P2GhbpI7KkY",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1351,
+    "output_tokens": 27,
+    "usd": 0.001486
+  },
+  {
+    "ts": "2026-11-23T02:19:25.379398+00:00",
+    "meeting_id": "bb_772792",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 703,
+    "output_tokens": 17,
+    "usd": 0.000788
+  },
+  {
+    "ts": "2026-11-23T02:19:25.925689+00:00",
+    "meeting_id": "bb_763081",
+    "jurisdiction": "dc_everest",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 884,
+    "output_tokens": 28,
+    "usd": 0.001024
+  },
+  {
+    "ts": "2026-11-23T02:19:26.576204+00:00",
+    "meeting_id": "nOAYeu-mA2g",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1358,
+    "output_tokens": 36,
+    "usd": 0.001538
+  },
+  {
+    "ts": "2026-11-23T02:19:27.172725+00:00",
+    "meeting_id": "UpcAT4xAvZc",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1407,
+    "output_tokens": 32,
+    "usd": 0.001567
+  },
+  {
+    "ts": "2026-11-23T02:19:27.763948+00:00",
+    "meeting_id": "vqL23xM50t8",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1316,
+    "output_tokens": 27,
+    "usd": 0.001451
+  },
+  {
+    "ts": "2026-11-23T02:19:28.337026+00:00",
+    "meeting_id": "An7A45Ez0_U",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1147,
+    "output_tokens": 22,
+    "usd": 0.001257
+  },
+  {
+    "ts": "2026-11-23T02:19:28.905470+00:00",
+    "meeting_id": "kw_bc64bc1cee794958999a4d624864a28e",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1378,
+    "output_tokens": 30,
+    "usd": 0.001528
+  },
+  {
+    "ts": "2026-11-23T02:19:29.461603+00:00",
+    "meeting_id": "bb_773225",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1495,
+    "output_tokens": 27,
+    "usd": 0.00163
+  },
+  {
+    "ts": "2026-11-23T02:19:29.985768+00:00",
+    "meeting_id": "bb_773231",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 812,
+    "output_tokens": 23,
+    "usd": 0.000927
+  },
+  {
+    "ts": "2026-11-23T02:19:30.428939+00:00",
+    "meeting_id": "bb_771084",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 695,
+    "output_tokens": 17,
+    "usd": 0.00078
+  },
+  {
+    "ts": "2026-11-23T02:19:30.932118+00:00",
+    "meeting_id": "bb_771083",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 693,
+    "output_tokens": 17,
+    "usd": 0.000778
+  },
+  {
+    "ts": "2026-11-23T02:19:31.489493+00:00",
+    "meeting_id": "_TTqHhdr3jQ",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1956,
+    "output_tokens": 27,
+    "usd": 0.002091
+  },
+  {
+    "ts": "2026-11-23T02:19:32.072332+00:00",
+    "meeting_id": "auNi3i3H8YE",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1359,
+    "output_tokens": 27,
+    "usd": 0.001494
+  },
+  {
+    "ts": "2026-11-23T02:19:32.672557+00:00",
+    "meeting_id": "3Xl6NL9Pn3Y",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1745,
+    "output_tokens": 30,
+    "usd": 0.001895
+  },
+  {
+    "ts": "2026-11-23T02:19:33.274238+00:00",
+    "meeting_id": "_Fnn432j7r0",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1327,
+    "output_tokens": 30,
+    "usd": 0.001477
+  },
+  {
+    "ts": "2026-11-23T02:19:33.826179+00:00",
+    "meeting_id": "kw_781b3450287040eaac31f72144fa1b7d",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1800,
+    "output_tokens": 27,
+    "usd": 0.001935
+  },
+  {
+    "ts": "2026-11-23T02:19:34.386808+00:00",
+    "meeting_id": "VwT65b86_JM",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1355,
+    "output_tokens": 27,
+    "usd": 0.00149
+  },
+  {
+    "ts": "2026-11-23T02:19:34.938814+00:00",
+    "meeting_id": "8m5OZcOtN4A",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1140,
+    "output_tokens": 22,
+    "usd": 0.00125
+  },
+  {
+    "ts": "2026-11-23T02:19:35.473408+00:00",
+    "meeting_id": "svZQYS81_uI",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1315,
+    "output_tokens": 22,
+    "usd": 0.001425
+  },
+  {
+    "ts": "2026-11-23T02:19:36.093461+00:00",
+    "meeting_id": "0bScOP-rhOE",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1448,
+    "output_tokens": 37,
+    "usd": 0.001633
+  },
+  {
+    "ts": "2026-11-23T02:19:36.701780+00:00",
+    "meeting_id": "vsipbXHhWLg",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1195,
+    "output_tokens": 28,
+    "usd": 0.001335
+  },
+  {
+    "ts": "2026-11-23T02:19:37.219771+00:00",
+    "meeting_id": "o1ODqgKozo8",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 780,
+    "output_tokens": 23,
+    "usd": 0.000895
+  },
+  {
+    "ts": "2026-11-23T02:19:37.773498+00:00",
+    "meeting_id": "jJSODjKNYEM",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 924,
+    "output_tokens": 28,
+    "usd": 0.001064
+  },
+  {
+    "ts": "2026-11-23T02:19:38.330229+00:00",
+    "meeting_id": "kw_d0f58e7cc36042c8a67098eda7feab03",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1721,
+    "output_tokens": 27,
+    "usd": 0.001856
+  },
+  {
+    "ts": "2026-11-23T02:19:38.920805+00:00",
+    "meeting_id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1271,
+    "output_tokens": 30,
+    "usd": 0.001421
+  },
+  {
+    "ts": "2026-11-23T02:19:39.566564+00:00",
+    "meeting_id": "6EGr6wbw5Do",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1025,
+    "output_tokens": 40,
+    "usd": 0.001225
+  },
+  {
+    "ts": "2026-11-23T02:19:40.248693+00:00",
+    "meeting_id": "7OLPXH8UYC8",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2042,
+    "output_tokens": 40,
+    "usd": 0.002242
+  },
+  {
+    "ts": "2026-11-23T02:19:40.815033+00:00",
+    "meeting_id": "50NScWtJpvw",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1619,
+    "output_tokens": 27,
+    "usd": 0.001754
+  },
+  {
+    "ts": "2026-11-23T02:19:41.391058+00:00",
+    "meeting_id": "aCUSzDZG3ZE",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1468,
+    "output_tokens": 27,
+    "usd": 0.001603
+  },
+  {
+    "ts": "2026-11-23T02:19:41.892235+00:00",
+    "meeting_id": "QfiAQ7Ecgu0",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 751,
+    "output_tokens": 17,
+    "usd": 0.000836
+  },
+  {
+    "ts": "2026-11-23T02:19:42.459384+00:00",
+    "meeting_id": "kw_ce13270669aa4a64b57622505ca5c6a6",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1726,
+    "output_tokens": 27,
+    "usd": 0.001861
+  },
+  {
+    "ts": "2026-11-23T02:19:43.029118+00:00",
+    "meeting_id": "Jh604oscGRM",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1249,
+    "output_tokens": 30,
+    "usd": 0.001399
+  },
+  {
+    "ts": "2026-11-23T02:19:43.623645+00:00",
+    "meeting_id": "NmOIKtAOxEU",
+    "jurisdiction": "weston",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1702,
+    "output_tokens": 27,
+    "usd": 0.001837
+  },
+  {
+    "ts": "2026-11-23T02:19:44.165923+00:00",
+    "meeting_id": "5iujFRVxBrA",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 906,
+    "output_tokens": 23,
+    "usd": 0.001021
+  },
+  {
+    "ts": "2026-11-23T02:19:44.664025+00:00",
+    "meeting_id": "7uG0YZACZUY",
+    "jurisdiction": "marathon",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 721,
+    "output_tokens": 17,
+    "usd": 0.000806
+  },
+  {
+    "ts": "2026-11-23T02:19:45.082235+00:00",
+    "meeting_id": "kw_2d83bda595c54a729ff8a4b941648a6e",
+    "jurisdiction": "kronenwetter",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 713,
+    "output_tokens": 13,
+    "usd": 0.000778
+  },
+  {
+    "ts": "2026-11-23T02:19:45.581544+00:00",
+    "meeting_id": "bb_769562",
+    "jurisdiction": "school_board",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1273,
+    "output_tokens": 23,
+    "usd": 0.001388
+  },
+  {
+    "ts": "2026-11-23T02:19:46.161637+00:00",
+    "meeting_id": "ubLxX0CnB20",
+    "jurisdiction": "wausau",
+    "purpose": "issues_backfill",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1730,
+    "output_tokens": 27,
+    "usd": 0.001865
   }
 ]

@@ -190,5 +190,10 @@
   "url": "https://www.youtube.com/watch?v=oLNO7g9EenE",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-16T06:31:26.674026+00:00"
+  "processed_at": "2026-11-16T06:31:26.674026+00:00",
+  "issues": [
+    "roads_transportation",
+    "zoning_land_use",
+    "buildings_facilities"
+  ]
 }

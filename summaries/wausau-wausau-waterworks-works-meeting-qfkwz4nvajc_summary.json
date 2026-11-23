@@ -118,5 +118,10 @@
   "url": "https://www.youtube.com/watch?v=QfKwZ4nvAjc",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-05T00:56:36.393917+00:00"
+  "processed_at": "2026-11-05T00:56:36.393917+00:00",
+  "issues": [
+    "water_utilities",
+    "budget_taxes",
+    "roads_transportation"
+  ]
 }

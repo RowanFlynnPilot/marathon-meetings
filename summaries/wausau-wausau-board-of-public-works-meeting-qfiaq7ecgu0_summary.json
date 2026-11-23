@@ -65,5 +65,8 @@
   "url": "https://www.youtube.com/watch?v=QfiAQ7Ecgu0",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-10-13T19:18:24.888062+00:00"
+  "processed_at": "2026-10-13T19:18:24.888062+00:00",
+  "issues": [
+    "water_utilities"
+  ]
 }

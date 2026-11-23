@@ -117,5 +117,10 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=763081",
   "source": "dc_everest",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=763081",
-  "processed_at": "2026-10-28T05:40:15.985807+00:00"
+  "processed_at": "2026-10-28T05:40:15.985807+00:00",
+  "issues": [
+    "budget_taxes",
+    "staffing_pay",
+    "government_elections"
+  ]
 }

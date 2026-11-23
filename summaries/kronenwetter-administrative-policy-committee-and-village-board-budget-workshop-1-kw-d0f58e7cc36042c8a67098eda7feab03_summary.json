@@ -115,5 +115,10 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-apc/page/administrative-policy-committee-and-village-board-budget-workshop-1",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-d0f58e7cc36042c8a67098eda7feab03.pdf",
-  "processed_at": "2026-10-21T23:21:32.569685+00:00"
+  "processed_at": "2026-10-21T23:21:32.569685+00:00",
+  "issues": [
+    "budget_taxes",
+    "public_safety",
+    "water_utilities"
+  ]
 }

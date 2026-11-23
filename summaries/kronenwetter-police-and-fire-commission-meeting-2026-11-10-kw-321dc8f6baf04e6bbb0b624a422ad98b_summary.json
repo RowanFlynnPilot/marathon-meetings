@@ -51,5 +51,9 @@
   "url": "https://kronenwetter-wi.municodemeetings.com/bc-pfc/page/police-and-fire-commission-meeting-28",
   "source": "kronenwetter",
   "doc_url": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-321dc8f6baf04e6bbb0b624a422ad98b.pdf",
-  "processed_at": "2026-11-10T02:44:29.340267+00:00"
+  "processed_at": "2026-11-10T02:44:29.340267+00:00",
+  "issues": [
+    "public_safety",
+    "staffing_pay"
+  ]
 }

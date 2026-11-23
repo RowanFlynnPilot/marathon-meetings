@@ -89,5 +89,9 @@
   "url": "https://www.youtube.com/watch?v=cw6DqUF_9vk",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-18T17:16:51.941691+00:00"
+  "processed_at": "2026-11-18T17:16:51.941691+00:00",
+  "issues": [
+    "zoning_land_use",
+    "housing_development"
+  ]
 }

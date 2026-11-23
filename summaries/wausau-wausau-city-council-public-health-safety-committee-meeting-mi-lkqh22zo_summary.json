@@ -134,5 +134,10 @@
   "url": "https://www.youtube.com/watch?v=Mi_lKQH22Zo",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-17T23:33:00.281432+00:00"
+  "processed_at": "2026-11-17T23:33:00.281432+00:00",
+  "issues": [
+    "public_safety",
+    "health_human_services",
+    "staffing_pay"
+  ]
 }

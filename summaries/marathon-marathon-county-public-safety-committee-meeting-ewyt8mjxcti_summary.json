@@ -96,5 +96,10 @@
   "url": "https://www.youtube.com/watch?v=EwyT8MJXctI",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-16T06:25:45.200020+00:00"
+  "processed_at": "2026-11-16T06:25:45.200020+00:00",
+  "issues": [
+    "public_safety",
+    "budget_taxes",
+    "government_elections"
+  ]
 }

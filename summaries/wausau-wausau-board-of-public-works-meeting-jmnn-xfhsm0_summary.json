@@ -87,5 +87,10 @@
   "url": "https://www.youtube.com/watch?v=JMnn_Xfhsm0",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-17T23:32:09.721630+00:00"
+  "processed_at": "2026-11-17T23:32:09.721630+00:00",
+  "issues": [
+    "housing_development",
+    "roads_transportation",
+    "buildings_facilities"
+  ]
 }

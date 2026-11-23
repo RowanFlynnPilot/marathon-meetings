@@ -110,5 +110,8 @@
   "url": "https://www.youtube.com/watch?v=68FOdDdxyIg",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-10T21:49:48.486240+00:00"
+  "processed_at": "2026-11-10T21:49:48.486240+00:00",
+  "issues": [
+    "government_elections"
+  ]
 }

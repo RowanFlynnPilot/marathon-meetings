@@ -167,5 +167,10 @@
   "url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=774423",
   "source": "school_board",
   "doc_url": "https://meetings.boardbook.org/Public/Agenda/1360?meeting=774423",
-  "processed_at": "2026-11-09T06:23:08.545652+00:00"
+  "processed_at": "2026-11-09T06:23:08.545652+00:00",
+  "issues": [
+    "schools_learning",
+    "budget_taxes",
+    "buildings_facilities"
+  ]
 }

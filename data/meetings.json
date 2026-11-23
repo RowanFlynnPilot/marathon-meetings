@@ -108,7 +108,12 @@
       "Riverview Elementary School",
       "Student Demographics"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning",
+      "staffing_pay",
+      "budget_taxes"
+    ]
   },
   {
     "id": "bb_778498",
@@ -179,7 +184,11 @@
       "Administrator Relations",
       "Policy"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "staffing_pay",
+      "schools_learning"
+    ]
   },
   {
     "id": "iq_3526",
@@ -432,7 +441,12 @@
         "tally": "Unanimous"
       }
     ],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "roads_transportation",
+      "buildings_facilities",
+      "budget_taxes"
+    ]
   },
   {
     "id": "bb_773904",
@@ -678,7 +692,12 @@
       "Technology",
       "Records Management"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning",
+      "budget_taxes",
+      "staffing_pay"
+    ]
   },
   {
     "id": "tw_1913",
@@ -1121,6 +1140,9 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "budget_taxes"
     ]
   },
   {
@@ -1395,6 +1417,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "housing_development",
+      "roads_transportation",
+      "buildings_facilities"
     ]
   },
   {
@@ -1566,6 +1593,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "housing_development",
+      "staffing_pay"
     ]
   },
   {
@@ -1661,6 +1693,10 @@
         "outcome": "Failed",
         "tally": "2-2"
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "housing_development"
     ]
   },
   {
@@ -1764,6 +1800,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "environment_energy",
+      "budget_taxes",
+      "government_elections"
     ]
   },
   {
@@ -1845,6 +1886,10 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "environment_energy",
+      "zoning_land_use"
     ]
   },
   {
@@ -2839,6 +2884,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "public_safety",
+      "health_human_services",
+      "staffing_pay"
     ]
   },
   {
@@ -3178,6 +3228,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "parks_recreation"
     ]
   },
   {
@@ -3322,6 +3377,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "water_utilities"
     ]
   },
   {
@@ -3488,6 +3547,11 @@
         "outcome": "Approved",
         "tally": "7-0"
       }
+    ],
+    "issues": [
+      "housing_development",
+      "zoning_land_use",
+      "water_utilities"
     ]
   },
   {
@@ -4159,6 +4223,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "zoning_land_use",
+      "buildings_facilities"
     ]
   },
   {
@@ -4280,7 +4349,11 @@
       "Debt Restructuring",
       "Economic Development"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "housing_development"
+    ]
   },
   {
     "id": "QiphgzDv_zE",
@@ -4357,6 +4430,9 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "government_elections"
     ]
   },
   {
@@ -4497,6 +4573,11 @@
         "outcome": "Approved",
         "tally": "10-0"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "environment_energy",
+      "roads_transportation"
     ]
   },
   {
@@ -5316,6 +5397,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "water_utilities"
     ]
   },
   {
@@ -6543,6 +6629,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "government_elections"
     ]
   },
   {
@@ -7075,6 +7166,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "public_safety",
+      "buildings_facilities"
     ]
   },
   {
@@ -7479,6 +7575,9 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "buildings_facilities"
     ]
   },
   {
@@ -7700,7 +7799,12 @@
         "tally": "Unanimous"
       }
     ],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "government_elections"
+    ]
   },
   {
     "id": "EwyT8MJXctI",
@@ -7802,6 +7906,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "public_safety",
+      "budget_taxes",
+      "government_elections"
     ]
   },
   {
@@ -7861,7 +7970,11 @@
       "Staffing",
       "Police Department Hiring"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "public_safety",
+      "staffing_pay"
+    ]
   },
   {
     "id": "68FOdDdxyIg",
@@ -8035,6 +8148,9 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "government_elections"
     ]
   },
   {
@@ -8233,6 +8349,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "roads_transportation",
+      "environment_energy"
     ]
   },
   {
@@ -8409,6 +8530,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "staffing_pay",
+      "water_utilities"
     ]
   },
   {
@@ -8610,6 +8736,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "water_utilities",
+      "roads_transportation",
+      "budget_taxes"
     ]
   },
   {
@@ -8659,7 +8790,10 @@
       "Community Engagement",
       "Survey Results"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning"
+    ]
   },
   {
     "id": "bb_774423",
@@ -8835,7 +8969,12 @@
       "Maine Elementary",
       "Hmong Language Program"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning",
+      "budget_taxes",
+      "buildings_facilities"
+    ]
   },
   {
     "id": "tw_1899",
@@ -9543,6 +9682,10 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "budget_taxes"
     ]
   },
   {
@@ -9680,6 +9823,11 @@
         "outcome": "Approved",
         "tally": "Unanimous (Morash, Cavelli, Foot, Hagen, KS, Leur, Sefeld all Aye)"
       }
+    ],
+    "issues": [
+      "housing_development",
+      "jobs_economy",
+      "health_human_services"
     ]
   },
   {
@@ -9803,6 +9951,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "zoning_land_use",
+      "jobs_economy"
     ]
   },
   {
@@ -10207,6 +10360,9 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "budget_taxes"
     ]
   },
   {
@@ -10619,6 +10775,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "water_utilities",
+      "buildings_facilities"
     ]
   },
   {
@@ -10726,6 +10887,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "roads_transportation",
+      "health_human_services"
     ]
   },
   {
@@ -10850,6 +11016,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "water_utilities",
+      "budget_taxes",
+      "roads_transportation"
     ]
   },
   {
@@ -10948,6 +11119,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "housing_development",
+      "water_utilities"
     ]
   },
   {
@@ -11071,6 +11247,11 @@
         "outcome": "Failed",
         "tally": "2-2"
       }
+    ],
+    "issues": [
+      "housing_development",
+      "zoning_land_use",
+      "jobs_economy"
     ]
   },
   {
@@ -11373,6 +11554,10 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "environment_energy"
     ]
   },
   {
@@ -11481,7 +11666,12 @@
       "Surveillance Technology",
       "Staffing"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "roads_transportation"
+    ]
   },
   {
     "id": "bb_772792",
@@ -11527,7 +11717,10 @@
       "Expulsion Hearing",
       "Policy"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning"
+    ]
   },
   {
     "id": "bb_763081",
@@ -11653,7 +11846,12 @@
       "Policy",
       "Fiscal Planning"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "staffing_pay",
+      "government_elections"
+    ]
   },
   {
     "id": "nOAYeu-mA2g",
@@ -12509,6 +12707,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "water_utilities",
+      "zoning_land_use",
+      "public_safety"
     ]
   },
   {
@@ -13087,6 +13290,11 @@
         "docs": [],
         "children": []
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "housing_development",
+      "roads_transportation"
     ]
   },
   {
@@ -13228,6 +13436,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "public_safety",
+      "roads_transportation",
+      "jobs_economy"
     ]
   },
   {
@@ -13357,6 +13570,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "parks_recreation",
+      "budget_taxes"
     ]
   },
   {
@@ -13505,6 +13722,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "zoning_land_use",
+      "government_elections"
     ]
   },
   {
@@ -13716,6 +13938,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "schools_learning",
+      "buildings_facilities"
     ]
   },
   {
@@ -13779,7 +14006,11 @@
       "District Levy",
       "Fiscal Planning"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "staffing_pay"
+    ]
   },
   {
     "id": "bb_771084",
@@ -13826,7 +14057,10 @@
       "Expulsion Hearing",
       "Policy"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning"
+    ]
   },
   {
     "id": "bb_771083",
@@ -13872,7 +14106,10 @@
       "Policy",
       "Legal Proceedings"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "schools_learning"
+    ]
   },
   {
     "id": "_TTqHhdr3jQ",
@@ -14104,7 +14341,12 @@
         "tally": "Unanimous"
       }
     ],
-    "publicCommentSpeakers": 5
+    "publicCommentSpeakers": 5,
+    "issues": [
+      "budget_taxes",
+      "roads_transportation",
+      "public_safety"
+    ]
   },
   {
     "id": "auNi3i3H8YE",
@@ -14287,7 +14529,12 @@
         "tally": null
       }
     ],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "roads_transportation",
+      "budget_taxes",
+      "government_elections"
+    ]
   },
   {
     "id": "3Xl6NL9Pn3Y",
@@ -14486,6 +14733,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "budget_taxes",
+      "buildings_facilities"
     ]
   },
   {
@@ -14647,6 +14899,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "housing_development",
+      "parks_recreation"
     ]
   },
   {
@@ -14807,6 +15064,11 @@
         "outcome": "Failed",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "housing_development"
     ]
   },
   {
@@ -14984,7 +15246,12 @@
         "tally": "5-2"
       }
     ],
-    "publicCommentSpeakers": 1
+    "publicCommentSpeakers": 1,
+    "issues": [
+      "budget_taxes",
+      "water_utilities",
+      "public_safety"
+    ]
   },
   {
     "id": "8m5OZcOtN4A",
@@ -15080,6 +15347,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "public_safety",
+      "government_elections"
     ]
   },
   {
@@ -15239,6 +15510,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "jobs_economy",
+      "budget_taxes"
     ]
   },
   {
@@ -15478,6 +15753,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "water_utilities"
     ]
   },
   {
@@ -15585,6 +15865,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "public_safety",
+      "budget_taxes",
+      "staffing_pay"
     ]
   },
   {
@@ -15649,6 +15934,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "public_safety",
+      "staffing_pay"
     ]
   },
   {
@@ -15731,6 +16020,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "public_safety",
+      "government_elections",
+      "staffing_pay"
     ]
   },
   {
@@ -15852,7 +16146,12 @@
       "Staffing",
       "TID Districts"
     ],
-    "votes": []
+    "votes": [],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "water_utilities"
+    ]
   },
   {
     "id": "kw_bdf4cc06c02749e6864bd0e30592f00b",
@@ -15989,6 +16288,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "housing_development",
+      "environment_energy"
     ]
   },
   {
@@ -16081,7 +16385,12 @@
       "Cherokee Park"
     ],
     "votes": [],
-    "publicCommentSpeakers": 0
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "roads_transportation",
+      "zoning_land_use",
+      "budget_taxes"
+    ]
   },
   {
     "id": "7OLPXH8UYC8",
@@ -16392,6 +16701,11 @@
         "outcome": "Approved",
         "tally": "9-1, 1 abstaining"
       }
+    ],
+    "issues": [
+      "water_utilities",
+      "roads_transportation",
+      "zoning_land_use"
     ]
   },
   {
@@ -16581,6 +16895,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "public_safety",
+      "water_utilities"
     ]
   },
   {
@@ -16798,6 +17117,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "water_utilities",
+      "roads_transportation",
+      "buildings_facilities"
     ]
   },
   {
@@ -16869,6 +17193,9 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "water_utilities"
     ]
   },
   {
@@ -17034,6 +17361,11 @@
         "outcome": "Approved",
         "tally": "4-0"
       }
+    ],
+    "issues": [
+      "budget_taxes",
+      "water_utilities",
+      "roads_transportation"
     ]
   },
   {
@@ -17202,6 +17534,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "zoning_land_use",
+      "water_utilities",
+      "public_safety"
     ]
   },
   {
@@ -17424,6 +17761,11 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "water_utilities",
+      "budget_taxes"
     ]
   },
   {
@@ -17516,6 +17858,10 @@
         "outcome": "Approved",
         "tally": null
       }
+    ],
+    "issues": [
+      "staffing_pay",
+      "budget_taxes"
     ]
   },
   {
@@ -17587,6 +17933,9 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "budget_taxes"
     ]
   },
   {
@@ -17770,6 +18119,10 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "schools_learning",
+      "staffing_pay"
     ]
   },
   {
@@ -17979,6 +18332,11 @@
         "outcome": "Approved",
         "tally": "Unanimous"
       }
+    ],
+    "issues": [
+      "roads_transportation",
+      "budget_taxes",
+      "housing_development"
     ]
   }
 ]

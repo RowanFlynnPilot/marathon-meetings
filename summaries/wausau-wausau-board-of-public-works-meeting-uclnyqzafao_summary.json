@@ -180,5 +180,10 @@
   "url": "https://www.youtube.com/watch?v=UclNYQZAFAo",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-11T06:13:00.020583+00:00"
+  "processed_at": "2026-11-11T06:13:00.020583+00:00",
+  "issues": [
+    "roads_transportation",
+    "public_safety",
+    "buildings_facilities"
+  ]
 }

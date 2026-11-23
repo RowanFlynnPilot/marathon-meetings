@@ -101,5 +101,10 @@
   "url": "https://www.youtube.com/watch?v=x5ndfhfruMg",
   "source": "marathon",
   "doc_url": null,
-  "processed_at": "2026-11-05T00:57:08.698482+00:00"
+  "processed_at": "2026-11-05T00:57:08.698482+00:00",
+  "issues": [
+    "budget_taxes",
+    "roads_transportation",
+    "health_human_services"
+  ]
 }

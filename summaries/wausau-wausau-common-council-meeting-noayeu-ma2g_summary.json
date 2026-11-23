@@ -182,5 +182,10 @@
   "url": "https://www.youtube.com/watch?v=nOAYeu-mA2g",
   "source": "wausau",
   "doc_url": null,
-  "processed_at": "2026-11-21T03:54:10.472303+00:00"
+  "processed_at": "2026-11-21T03:54:10.472303+00:00",
+  "issues": [
+    "water_utilities",
+    "zoning_land_use",
+    "public_safety"
+  ]
 }
