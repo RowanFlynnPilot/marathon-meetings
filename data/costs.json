@@ -5488,5 +5488,85 @@
     "input_tokens": 918,
     "output_tokens": 28,
     "usd": 0.001058
+  },
+  {
+    "ts": "2026-11-23T03:15:36.739596+00:00",
+    "meeting_id": "24e3b3cff70c7c06690b",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2647,
+    "output_tokens": 371,
+    "usd": 0.004502
+  },
+  {
+    "ts": "2026-11-23T03:15:43.062727+00:00",
+    "meeting_id": "cd396637cc1ec0e66e04",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2371,
+    "output_tokens": 447,
+    "usd": 0.004606
+  },
+  {
+    "ts": "2026-11-23T03:15:50.962790+00:00",
+    "meeting_id": "1840f1f9e200f1ed5335",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2922,
+    "output_tokens": 527,
+    "usd": 0.005557
+  },
+  {
+    "ts": "2026-11-23T03:16:01.378164+00:00",
+    "meeting_id": "80136b5bc1300db5c8be",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2308,
+    "output_tokens": 288,
+    "usd": 0.003748
+  },
+  {
+    "ts": "2026-11-23T03:16:11.964010+00:00",
+    "meeting_id": "b46119fc786a09bd3ddf",
+    "jurisdiction": "weston",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10386,
+    "output_tokens": 333,
+    "usd": 0.012051
+  },
+  {
+    "ts": "2026-11-23T03:16:17.163215+00:00",
+    "meeting_id": "0b8dc6e2f034452db544",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2609,
+    "output_tokens": 501,
+    "usd": 0.005114
+  },
+  {
+    "ts": "2026-11-23T03:16:18.557843+00:00",
+    "meeting_id": "40f8a47f78dac7d1f4e7",
+    "jurisdiction": "school_board",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1710,
+    "output_tokens": 81,
+    "usd": 0.002115
+  },
+  {
+    "ts": "2026-11-23T03:16:22.788268+00:00",
+    "meeting_id": "710a91f459cd14f98463",
+    "jurisdiction": "mosinee",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1925,
+    "output_tokens": 347,
+    "usd": 0.00366
   }
 ]

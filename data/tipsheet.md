@@ -5,18 +5,22 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 ## Decisions coming up
 
 - [Monday, Nov 23, 5:00 PM: Wausau School Board, Committee of the Whole Meeting (residents can speak)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778459)
-  - VOTE: Approve 4K program agreements with community partners for 2027-2028. The board will vote to continue and expand formal partnerships between the district's preschool program and sites including Wausau Child Care, Mountain View Montessori, Newman Catholic Schools, and two previously partnered organizations.
-  - VOTE: Review and vote on updated district policies (35 policies total). The board will consider updates to 35 policies covering curriculum, student discipline, food services, transportation, surveillance, and other operations.
+  - VOTE: 4K Program Agreements for 2027-2028 school year. The board is asked to approve formal agreements with Wausau Child Care, Mountain View Montessori, Newman Catholic Schools - St. Michael, and two prior partner sites for the four-year-old kindergarten program.
+  - VOTE: Review and approve 44 district policies and technical corrections. The board is asked to review and approve updates to policies covering curriculum, student conduct, health services, transportation, and other district operations.
+  - VOTE: Adjusted 6-12th grade social studies scope and sequence. The board is asked to approve changes to the social studies curriculum for grades 6 through 12.
 - [Monday, Nov 23, 5:30 PM: Wausau School Board, Special Meeting (closed session)](https://meetings.boardbook.org/Public/Agenda/1360?meeting=778498)
 - [Monday, Nov 23, 6:00 PM: City of Mosinee, Common Council - Budget Meeting (residents can speak; closed session)](https://mosineecitywi.iqm2.com/Citizens/Detail_Meeting.aspx?ID=3526)
-  - HEARING: Public hearing and vote on 2027 budget. The council will hear public comment on the proposed 2027 budget and then vote on Resolution No. 2026-08 to adopt it and set the tax levy.
-  - VOTE: Building permit applications. The council will discuss and vote on pending building permit applications.
-  - VOTE: City employee holiday gift certificates. The council will discuss and decide whether to approve holiday gift certificates for city employees.
-  - VOTE: Police labor agreement modification. The council will discuss and vote on changes to the labor agreement with the Mosinee Professional Police Association that runs through December 31, 2026.
+  - VOTE: 2027 Budget for City of Mosinee. The Common Council will hold a public hearing on the proposed 2027 budget, then vote on Resolution No. 2026-08 to adopt it and authorize the tax levy.
+  - VOTE: Building Permit Applications. The Common Council will discuss and decide on building permit applications.
+  - VOTE: City Employee Holiday Gift Certificates. The Common Council will discuss and decide on holiday gift certificates for city employees.
+  - VOTE: Police Labor Agreement Modification. The Common Council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association.
 - [Monday, Nov 23, 7:30 AM: City of Wausau, Police & Fire Commission Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/2488/overview)
 - [Tuesday, Nov 24, 12:00 PM: City of Wausau, Community Development Authority Board Meeting (residents can speak; closed session)](https://wausauwi.portal.civicclerk.com/event/3666/overview)
-  - VOTE: 2027 budgets for five housing programs. The board is scheduled to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers, Fulton Street, and 8th Avenue.
-  - VOTE: Repositioning scattered public housing to voucher-based model. The board will hear a presentation on comprehensive repositioning options and vote on Resolution #26-012 to convert scattered-sites public housing to project-based vouchers.
+  - VOTE: Seven 2027 budgets for housing programs and facilities. The board is asked to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue.
+  - VOTE: Repositioning public housing scattered sites to voucher program. The board is asked to vote on Resolution #26-012 to convert scattered public housing sites to project-based vouchers after a consultant presents repositioning options.
+  - VOTE: Riverview Towers façade repair bids. The board is asked to discuss and vote on bids received for masonry and concrete façade repairs at Riverview Towers LLC.
+  - VOTE: Sub-recipient agreement for 405 S 8th Avenue property. The board is asked to discuss and vote on a rental property agreement between the city and the authority for 405 S 8th Avenue.
+  - VOTE: Capital needs assessment for scattered sites properties. The board is asked to discuss and vote on a request for proposals for a capital needs assessment of scattered public housing sites.
 - [Tuesday, Nov 24, 5:15 PM: City of Wausau, Finance Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2433/overview)
   - VOTE: Animal impoundment services agreement with Humane Society. The committee will vote to approve a contract with the Humane Society of Marathon County for the city to use their animal impoundment services.
   - VOTE: Five other service and equipment purchase agreements. The committee will vote to approve agreements for mapping software (Esri), county production services, cemetery operations, and fire department cardiac monitors and ventilators.
