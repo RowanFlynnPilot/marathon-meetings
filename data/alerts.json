@@ -1,0 +1,1662 @@
+{
+  "entries": [
+    {
+      "id": "a_80136b5bc1300db5c8be",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-12-01",
+      "time": "10:30 AM",
+      "issues": [
+        "water_utilities",
+        "roads_transportation",
+        "buildings_facilities"
+      ],
+      "text": "The Board of Public Works is scheduled to decide whether to recommend demolition of a building at 207 North 1st Avenue. The board will also approve payments for several street and utility projects around the city.",
+      "items": [
+        {
+          "item": "Recommendation for 2026 demolition of 207 North 1st Avenue",
+          "action": "vote"
+        },
+        {
+          "item": "Pay estimates for lift station and street projects",
+          "action": "vote"
+        }
+      ],
+      "hearings": [],
+      "publicComment": false,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3664/overview",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "a_c0025436f0c30c706fd8",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Finance Committee Meeting",
+      "date": "2026-11-24",
+      "time": "5:15 PM",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "parks_recreation"
+      ],
+      "text": "The Finance Committee is scheduled to vote on six agreements and contracts for city services. These include animal impounding, mapping software, cemetery operations, and fire department equipment purchases.",
+      "items": [
+        {
+          "item": "Animal impoundment services agreement with Humane Society",
+          "action": "vote"
+        },
+        {
+          "item": "Five other service and equipment purchase agreements",
+          "action": "vote"
+        },
+        {
+          "item": "Budget change and lift purchase for Athletic Park",
+          "action": "vote"
+        },
+        {
+          "item": "Update on county pet license fee changes for 2027",
+          "action": "report"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/2433/overview",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "a_662de08195fcb475353f",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Common Council Meeting",
+      "date": "2026-11-24",
+      "time": "6:30 PM",
+      "issues": [
+        "budget_taxes",
+        "staffing_pay",
+        "roads_transportation"
+      ],
+      "text": "The Common Council will vote on the 2026 budget modification and several resolutions affecting city property and employee pay. The council will also meet in closed session to discuss litigation strategy.",
+      "items": [
+        {
+          "item": "2026 budget modification for year-end projections",
+          "action": "vote"
+        },
+        {
+          "item": "Salary structure revision for general city employees",
+          "action": "vote"
+        },
+        {
+          "item": "Special assessments for 2027 street construction projects",
+          "action": "vote"
+        },
+        {
+          "item": "Deed restrictions and non-conforming uses at 1300 Cleveland Avenue",
+          "action": "vote"
+        },
+        {
+          "item": "Driveway and concrete approach exceptions for Kolbe & Kolbe Millwork",
+          "action": "vote"
+        },
+        {
+          "item": "District 9 aldermanic vacancy",
+          "action": "discussion"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/1984/overview",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "a_1840f1f9e200f1ed5335",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Community Development Authority Board Meeting",
+      "date": "2026-11-24",
+      "time": "12:00 PM",
+      "issues": [
+        "housing_development",
+        "budget_taxes"
+      ],
+      "text": "The Community Development Authority is scheduled to vote on seven budgets for housing programs and facilities. The board will also consider reshaping its public housing scattered sites program and approve repair bids for Riverview Towers.",
+      "items": [
+        {
+          "item": "Seven 2027 budgets for housing programs and facilities",
+          "action": "vote"
+        },
+        {
+          "item": "Repositioning public housing scattered sites to voucher program",
+          "action": "vote"
+        },
+        {
+          "item": "Riverview Towers façade repair bids",
+          "action": "vote"
+        },
+        {
+          "item": "Sub-recipient agreement for 405 S 8th Avenue property",
+          "action": "vote"
+        },
+        {
+          "item": "Capital needs assessment for scattered sites properties",
+          "action": "vote"
+        },
+        {
+          "item": "Presentation on repositioning options for scattered sites",
+          "action": "report"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3666/overview",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kPvpA6dRbYM",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Transit Commission Meeting",
+      "date": "2026-11-19",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "buildings_facilities",
+        "budget_taxes"
+      ],
+      "text": "The Wausau Transit Commission met on November 19, 2026, and unanimously approved four action items: issuing an RFP for new cash-only fare boxes, authorizing bids for replacement of exterior doors at the Metro Ride facility, authorizing bids for ceiling replacement at the facility, and aligning Metro Ride's procurement policy with the City of Wausau's.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kPvpA6dRbYM/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_raxHejkF0U0",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Special Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "environment_energy",
+        "zoning_land_use"
+      ],
+      "text": "The Marathon County Board held a special meeting that included a closed session, after which supervisors voted unanimously to refer to the executive committee the formation of a response to Aligning Energy, development of a legal strategy, and to solicit input from Farmland First and Wisconsinites for Local Control.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/raxHejkF0U0/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_ff35b6b75e12487c9fcbce664abe1fbf",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Revised Administrative Policy Committee Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "housing_development",
+        "staffing_pay"
+      ],
+      "text": "The Village of Kronenwetter's Administrative Policy Committee held its November 17, 2026 meeting, approving several budget-related recommendations including a $5,000 park grant match, a multi-item 2026 budget amendment, and health insurance renewals for two employee groups.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_ff35b6b75e12487c9fcbce664abe1fbf/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_d4d1DWUqlLs",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "budget_taxes"
+      ],
+      "text": "The Wausau Board of Public Works held a brief meeting in which two claims were acted upon: one approved and one denied. The meeting concluded quickly with no extended discussion or public comment.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/d4d1DWUqlLs/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_cw6DqUF_9vk",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Plan Commission Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "housing_development"
+      ],
+      "text": "The Wausau Plan Commission held its November 17, 2026 meeting, addressing a contested rezoning request for 317 East Kent Street and reviewing the housing chapter of the city's updated comprehensive plan. The rezoning request from urban mixed-use to heavy industrial failed on a 2-2 tie vote and will advance to the full City Council for a decision at its December 8 meeting.",
+      "contested": [
+        {
+          "item": "Rezoning of 317 East Kent Street from Urban Mixed-Use to Heavy Industrial",
+          "why": "failed 2-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/cw6DqUF_9vk/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_JMnn_Xfhsm0",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "housing_development",
+        "roads_transportation",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau Board of Public Works met on November 17th and handled three items: approving prior meeting minutes, opening 15 bids for the 2026 demolition of the former MBX South building at 207 North 1st Avenue (with no award made pending funding confirmation), and approving a contractor pay estimate before moving into closed session.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/JMnn_Xfhsm0/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_EyftyU37JDQ",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Special Meeting",
+      "date": "2026-11-17",
+      "time": "",
+      "issues": [
+        "environment_energy",
+        "budget_taxes",
+        "government_elections"
+      ],
+      "text": "The Marathon County Board held a special meeting focused on the Hub City Wind Project's proposed Joint Development Agreement (JDA) from Alliant Energy and a separate issue involving Bug Tussle's failure to make required bond payments.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/EyftyU37JDQ/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_rr4xY0W5ETo",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Finance and HR Committee",
+      "date": "2026-11-16",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "water_utilities"
+      ],
+      "text": "The Village of Weston Finance and HR Committee met on November 16 and took action on accounts receivable write-offs and 2026 budget amendments, both of which were approved unanimously for forwarding to the village board. The committee deadlocked 3-3 on a motion to recommend Option G for sanitary sewer rate increases, with the item deferred to the December 21 meeting for updated financial figures.",
+      "contested": [
+        {
+          "item": "Recommend village proceed with Option G for 2027 sanitary sewer rates",
+          "why": "failed 3-3"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/rr4xY0W5ETo/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_d474242dcfbd49508eb066a59cb8f3da",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Plan Commission Meeting",
+      "date": "2026-11-16",
+      "time": "",
+      "issues": [
+        "housing_development",
+        "zoning_land_use",
+        "water_utilities"
+      ],
+      "text": "The Kronenwetter Village Plan Commission held its November 16, 2026 meeting, approving recommendations on a septic tank ordinance amendment, the Green Tree Trails subdivision final plat, and a stormwater maintenance agreement for the County Road XX distribution center.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_d474242dcfbd49508eb066a59cb8f3da/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_ZyVaKfiiYyE",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Board of Trustees",
+      "date": "2026-11-16",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "parks_recreation"
+      ],
+      "text": "The Village of Weston Board of Trustees held its regular meeting on Monday, November 16, 2026, highlighted by a contentious 4-3 vote to adopt the 2027 operating budget and an equally divided 4-3 vote on the debt service and capital funds budgets, with the three newer trustees (Beck, Clark, and Olson) voting against both over concerns about excessive borrowing and spending of TIF district closure funds.",
+      "contested": [
+        {
+          "item": "Resolution 2026-028 – Adopt 2027 Operating Budget",
+          "why": "split 4-3"
+        },
+        {
+          "item": "Resolution 2026-029 – Adopt Debt Service, Special Revenue, Capital Projects, and Proprietary Funds 2027 Budgets",
+          "why": "split 4-3"
+        },
+        {
+          "item": "Resolution 2026-027 – Authorize $4 Million Borrowing for Mountain Bay Metro Police Department Headquarters",
+          "why": "split 6-1"
+        },
+        {
+          "item": "Mack Mueller Park Master Plan (without cost estimate)",
+          "why": "split 6-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/ZyVaKfiiYyE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_Mi_lKQH22Zo",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Public Health & Safety Committee Meeting",
+      "date": "2026-11-16",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "health_human_services",
+        "staffing_pay"
+      ],
+      "text": "The Wausau Public Health & Safety Committee met in November 2026, addressing liquor and tobacco license applications including a provisional approval for a former fuel station under new ownership, a formal expression of concern regarding M&R Bar (Richard Gordon), and updates on the fire department apprenticeship program and a homelessness strategic plan.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/Mi_lKQH22Zo/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_oLNO7g9EenE",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Infrastructure and Facilities Meeting",
+      "date": "2026-11-12",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "zoning_land_use",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau City Council Infrastructure and Facilities Committee met and approved several items related to the South 11th Avenue reconstruction project affecting Kolbe and Kolbe Millwork, including handicap parking additions and multiple driveway variances.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/oLNO7g9EenE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_QiphgzDv_zE",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Executive Committee Meeting Pt.2",
+      "date": "2026-11-11",
+      "time": "",
+      "issues": [
+        "government_elections"
+      ],
+      "text": "The Marathon County Board Executive Committee held the second part of its meeting, covering an agenda packet timeline update from administration and a discussion about improving the timeliness of packet materials for committee chairs. No major votes were taken; the meeting concluded with a motion to adjourn and a note that an additional county board meeting is scheduled for November 17th at 6:00 p.m.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/QiphgzDv_zE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_NK80DZtCkNg",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Executive Committee Meeting Pt.1",
+      "date": "2026-11-11",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "environment_energy",
+        "roads_transportation"
+      ],
+      "text": "The Marathon County Board Executive Committee held a wide-ranging meeting covering the Bugtussle bond default crisis, the Hub City Wind Farm joint development agreement, a county road funding policy, and strategic plan updates.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/NK80DZtCkNg/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_VQysP2OBjfI",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Joint Finance and Human Resources Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "water_utilities"
+      ],
+      "text": "The Wausau Joint Finance and Human Resources Committee met on November 10, 2026, addressing a range of items including a 3% salary scale increase for general employees, a contentious sole-source purchase of Zoll cardiac monitors and ventilators for the fire department, lead service line funding amendments, and year-end budget modifications.",
+      "contested": [
+        {
+          "item": "Consideration of the minutes of the preceding meeting(s). [approve]",
+          "why": "failed 5-0"
+        },
+        {
+          "item": "Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Approve as Amended]",
+          "why": "split 4-1"
+        },
+        {
+          "item": "Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Neal Amendment]",
+          "why": "split 4-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/VQysP2OBjfI/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_UclNYQZAFAo",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "public_safety",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau Board of Public Works met on November 10th, 2026, approving a series of project awards and pay estimates totaling over $1.6 million across active city construction and infrastructure projects. Key actions included awarding a trail connector project to PGA, Inc. for approximately $967,000 and approving a public safety roof replacement contract.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/UclNYQZAFAo/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_LJW8KBfFsaY",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "government_elections"
+      ],
+      "text": "The Wausau City Council held its regular meeting on Tuesday, November 10, 2026, taking up proclamations for Homelessness Awareness Month, Hmong New Year, and Veterans Day, then approving the 2027 City of Wausau budget on a 7-4 vote after rejecting an amendment to use reserves to achieve net-zero new borrowing.",
+      "contested": [
+        {
+          "item": "Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve]",
+          "why": "split 7-4"
+        },
+        {
+          "item": "Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH]",
+          "why": "failed 2-9"
+        },
+        {
+          "item": "Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council]",
+          "why": "split 9-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/LJW8KBfFsaY/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_JlCDth7F-RQ",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "(Budget) Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "government_elections"
+      ],
+      "text": "The Marathon County Board of Supervisors held its annual budget meeting on November 10, 2026, to adopt the 2027 budget and property tax levy. After debating four amendments — including a failed $1.75 million levy reduction, a passed Flock camera funding reallocation, a passed $250,000 legal fund for wind farm and broadband litigation, and a passed pathologist fee schedule update — the board approved the amended 2027…",
+      "contested": [
+        {
+          "item": "Amendment 5 — Reduce 2027 tax levy by $1.75 million",
+          "why": "failed"
+        },
+        {
+          "item": "Amendment to Amendment 1 — Remove $6,300 Flock funding from levy entirely (rather than move to contingency)",
+          "why": "failed"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/JlCDth7F-RQ/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_EwyT8MJXctI",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Public Safety Committee Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "budget_taxes",
+        "government_elections"
+      ],
+      "text": "The Marathon County Public Safety Committee held its November 2026 meeting focused heavily on the Sheriff's Office's Flock automatic license plate reader (ALPR) program, with significant public input and committee debate over data privacy, oversight, and whether to defund the cameras. The committee also received presentations on the Sheriff's Office drone program and a 2027 budget overview.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/EwyT8MJXctI/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_8cbyiMGaNPQ",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-10",
+      "time": "",
+      "issues": [
+        "buildings_facilities"
+      ],
+      "text": "The Wausau Board of Public Works held a brief meeting in which members approved a list of contractors for city work. The meeting was extremely short, consisting of a single contractor approval vote followed by adjournment.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/8cbyiMGaNPQ/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_0649d76bc4ba4c3da152038af6e9845c",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Village Board Meeting",
+      "date": "2026-11-09",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "staffing_pay",
+        "water_utilities"
+      ],
+      "text": "The Village of Kronenwetter Board held its November 9, 2026 meeting primarily to adopt the 2027 operating budget, including all three budget resolutions covering the general fund, all other funds, and the capital improvements program. The board also formally appointed Connie Nowak as village clerk and renewed its legal services agreement with Wolfram, Gamoke and Hutchinson.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_0649d76bc4ba4c3da152038af6e9845c/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_S_UGYvK2peI",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Public Works Committee",
+      "date": "2026-11-09",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "roads_transportation",
+        "budget_taxes"
+      ],
+      "text": "The Village of Weston Public Works Committee held its regular meeting on November 10, 2026, covering a detailed infiltration and inflow (I&I) study presentation for the Rothschild sewer basin, a sewer rate increase recommendation, and approvals of several intergovernmental agreements and design contracts.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/S_UGYvK2peI/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_PZjmUPDVbTE",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Human Resources, Finance & Property Committee Meeting",
+      "date": "2026-11-09",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "roads_transportation",
+        "environment_energy"
+      ],
+      "text": "The Marathon County Human Resources, Finance & Property Committee met on Monday, November 9, 2026, to consider amendments to the 2027 budget and property tax levy resolution ahead of the full county board meeting.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/PZjmUPDVbTE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_68FOdDdxyIg",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Rules Review Committee Meeting",
+      "date": "2026-11-09",
+      "time": "",
+      "issues": [
+        "government_elections"
+      ],
+      "text": "The Wausau Rules Review Committee held an organizational 'table-setting' session on November 9th to identify potential revisions to the City of Wausau's standing rules (Chapter 2.16 of municipal code). No formal votes or rule changes were made; the committee identified several areas for future revision including public comment procedures, standing committee appointments, absence notification, subcommittee chair…",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/68FOdDdxyIg/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_Y4xzT50_kRY",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Infrastructure Committee Meeting",
+      "date": "2026-11-05",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "budget_taxes"
+      ],
+      "text": "The Marathon County Infrastructure Committee met on November 5th, 2026 and took several significant actions, most notably approving an ordinance to allow ATV/UTV access on State Highway 34 and separately voting to request the state DOT approve flashing warning signs for that segment.",
+      "contested": [
+        {
+          "item": "Request to DOT to approve flashing warning signage for ATV/UTV route on State Highway 34",
+          "why": "split 5-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/Y4xzT50_kRY/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_IF_YvRGk-64",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Joint Ext, Edu, Econ. Dev. and HR, Fin, Property Committee Meeting",
+      "date": "2026-11-05",
+      "time": "",
+      "issues": [
+        "housing_development",
+        "jobs_economy",
+        "health_human_services"
+      ],
+      "text": "The Marathon County Joint Extension, Education, Economic Development and Human Resources, Finance, and Property Committees met to consider a one-year operating lease for the former UWSP campus theater building with the Marathon Center for Arts and Culture (MCAC), and to review two new proposals for the River Drive properties.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/IF_YvRGk-64/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_FbHVlv1qUyI",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Joint Ext, Edu, Econ. Dev. and HR, Fin, Property Committee Meeting",
+      "date": "2026-11-05",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "zoning_land_use",
+        "jobs_economy"
+      ],
+      "text": "This joint Marathon County committee meeting covered the sale of a building (likely the former UWSP-Wausau campus), UW Extension and UWSP-Wausau updates, and a 2027 budget overview. The most significant action was a motion directing staff to seek a real estate broker for sale of a county building, rejecting all current proposals on the table, with any future sale requiring committee approval.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/FbHVlv1qUyI/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_x5ndfhfruMg",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Health & Human Services Committee Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "roads_transportation",
+        "health_human_services"
+      ],
+      "text": "The Marathon County Health & Human Services Committee held a brief meeting covering the upcoming 2027 county budget and an elderly and disabled transportation grant application. The committee approved forwarding the 8521 elderly and disabled transportation grant application to the full county board, and received updates on CART/mobile crisis service expansion discussions.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/x5ndfhfruMg/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_sMlUgUewkq4",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Economic Development Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "housing_development",
+        "zoning_land_use",
+        "jobs_economy"
+      ],
+      "text": "The Wausau Economic Development Committee met on November 4th and took action on three substantive items: authorizing staff to prepare a TID 8 project plan amendment for infrastructure projects, approving the $1 purchase of a tax-delinquent property at 108 Myron Street for future affordable housing, and debating a deed restriction and resolution for city-owned property at 1300 Cleveland Avenue.",
+      "contested": [
+        {
+          "item": "Authorize staff to prepare TID 8 project plan amendment",
+          "why": "split 3-1"
+        },
+        {
+          "item": "Amendment to deed restriction/resolution for 1300 Cleveland Avenue: remove section 4A, discontinue DPW training by February 1st, give Parks 6 months to relocate",
+          "why": "failed 2-2"
+        },
+        {
+          "item": "Amendment to remove section 4 from the deed restriction for 1300 Cleveland Avenue",
+          "why": "split 3-1"
+        },
+        {
+          "item": "Main motion: deed restriction resolution for 1300 Cleveland Avenue as amended (section 4 removed)",
+          "why": "failed 2-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/sMlUgUewkq4/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_590ae932796b451bb27e6e444f98e22a",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Plan Commission Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "housing_development",
+        "water_utilities"
+      ],
+      "text": "The Kronenwetter Plan Commission held its November 4, 2026 meeting primarily to deliberate and act on a conditional use permit for Eau Claire River LLC to operate an aggregate mine and pond expansion at 1320 Kowalski Road. After extensive discussion of operating conditions, noise, flood storage, and future development potential, the commission unanimously approved the CUP 7-0 with conditions.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_590ae932796b451bb27e6e444f98e22a/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_QfKwZ4nvAjc",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Waterworks Works Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "budget_taxes",
+        "roads_transportation"
+      ],
+      "text": "The Wausau Waterworks Commission met on November 4, 2026 and addressed a disappointing DNR lead service line funding award that came in below expectations, leaving an estimated $2 million gap that will require additional borrowing.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/QfKwZ4nvAjc/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_1XBXalxLhkw",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "budget_taxes"
+      ],
+      "text": "The Wausau Board of Public Works held a brief meeting in which two claims were acted upon: a claim from Wayne Becker for $262.50 was denied, and a claim from Vicky Swanson for $1,290.83 was approved. The meeting was very short, with no extended discussion or public comment recorded in the transcript.",
+      "contested": [
+        {
+          "item": "2026 Asphalt Patching Project: Zilisch Asphalt LLC, Change Order #1. [approve Change Order #1 in the amount of $6,040.00]",
+          "why": "failed 1-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/1XBXalxLhkw/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_1MuGCAijiwY",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-11-04",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "water_utilities",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau Board of Public Works held a regular meeting covering bid openings for a business campus trail connector project, a public safety building roof replacement proposal, and several contractor payment matters.",
+      "contested": [
+        {
+          "item": "2026 Asphalt Patching Project: Zilisch Asphalt LLC, Change Order #1. [approve Change Order #1 in the amount of $6,040.00]",
+          "why": "failed 1-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/1MuGCAijiwY/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_-lWYezOdlqQ",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Environmental Resources Committee",
+      "date": "2026-11-03",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "environment_energy"
+      ],
+      "text": "The Marathon County Environmental Resources Committee held its November 3, 2026 meeting, conducting four rezoning public hearings and several town zoning reviews. The most significant action was the committee's decision to postpone a contested farmland preservation-to-low-density-residential rezoning request (MK7 Enterprises LLC in the Town of Marathon) to allow the town additional time to respond, following…",
+      "contested": [
+        {
+          "item": "5A3: MK7 Enterprises LLC rezoning - Farmland Preservation to Low Density Residential, Town of Marathon (motion to approve)",
+          "why": "failed"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/-lWYezOdlqQ/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_P2GhbpI7KkY",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board (Budget Hearing)",
+      "date": "2026-11-02",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "roads_transportation"
+      ],
+      "text": "The Marathon County Board held its annual budget hearing on November 2, 2026, receiving a presentation of the proposed 2027 budget from County Administrator Leonard and HR Finance Committee Chair Robinson. The budget features a property tax rate drop of 1 cent to $3.48, maintains current service levels, and is anchored by a no-new-debt funding strategy for the approximately $55 million highway facility relocation…",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/P2GhbpI7KkY/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_nOAYeu-mA2g",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Common Council Meeting",
+      "date": "2026-10-27",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "zoning_land_use",
+        "public_safety"
+      ],
+      "text": "The Wausau Common Council met on Tuesday, October 27, 2026, taking several significant actions including approving a new full-time human resources coordinator position, passing a data center zoning ordinance, and directing the city to cease use of Flock license plate reader cameras and physically cover them within two business weeks.",
+      "contested": [
+        {
+          "item": "Resolution from the Human Resources Committee Approving the Creation of a Full-Time Human Resources Coordinator Position. [Approve]",
+          "why": "split 9-1"
+        },
+        {
+          "item": "Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Reconsideration]",
+          "why": "split 8-2"
+        },
+        {
+          "item": "Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Approve]",
+          "why": "split 9-1"
+        },
+        {
+          "item": "Suspend Rule 6(B) Filing. [Approve]",
+          "why": "split 8-2"
+        },
+        {
+          "item": "Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Approve as amended]",
+          "why": "split 9-1"
+        },
+        {
+          "item": "Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Amend]",
+          "why": "split 9-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/nOAYeu-mA2g/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_UpcAT4xAvZc",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Finance Committee Meeting",
+      "date": "2026-10-27",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "housing_development",
+        "roads_transportation"
+      ],
+      "text": "The Wausau Finance Committee met on October 27, 2026, receiving a clean audit opinion from new auditing firm Maldin Jenkins CPAs for fiscal year 2025, with one minor single audit finding related to suspension and debarment recordkeeping.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/UpcAT4xAvZc/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_vqL23xM50t8",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Community Life & Public Safety",
+      "date": "2026-10-26",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "roads_transportation",
+        "jobs_economy"
+      ],
+      "text": "The Village of Weston Community Life & Public Safety Committee met and addressed code enforcement updates, fire/EMS/police department reports, a new liquor license recommendation, and a key vote on a proposed pedestrian crosswalk at Newport Avenue and Business 51.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/vqL23xM50t8/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_bc64bc1cee794958999a4d624864a28e",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Revised Village Board Meeting",
+      "date": "2026-10-26",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "zoning_land_use",
+        "government_elections"
+      ],
+      "text": "The Kronenwetter Village Board held its October 26, 2026 meeting with six of seven trustees present, taking action on several items including a zoning change request, new municipal center hours, and retaining Ordinance 14-16 as written.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_bc64bc1cee794958999a4d624864a28e/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_bb_773225",
+      "kind": "result",
+      "source": "school_board",
+      "board": "Wausau School Board",
+      "meeting": "Committee of the Whole Meeting",
+      "date": "2026-10-26",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "schools_learning",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau School Board held a Committee of the Whole meeting on October 26, 2026, covering a range of topics including a charter school update, facilities fee changes, secondary education programming, and a special meeting to adopt the 2026-27 budget and set the tax levy.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773225/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_An7A45Ez0_U",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Parks and Recreation Committee",
+      "date": "2026-10-26",
+      "time": "",
+      "issues": [
+        "parks_recreation",
+        "budget_taxes"
+      ],
+      "text": "The Weston Parks and Recreation Committee met to discuss aquatic center repairs and financials, approve the Machm Miller Park master plan, and review the Kennedy Park master plan and quarterly update. The committee voted unanimously to recommend the Machm Miller Park master plan to the Village Board, and held substantive discussion about the future of Kennedy Park development, including the farmers market location,…",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/An7A45Ez0_U/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_781b3450287040eaac31f72144fa1b7d",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Administrative Policy Committee and Village Board - Budget Workshop 2",
+      "date": "2026-10-20",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "housing_development"
+      ],
+      "text": "The Village of Kronenwetter held its second 2027 Budget Workshop covering public safety budgets (police and fire/EMS), TIF district updates, community development staffing, and a future debt service preview. The board's most significant action was recommending and approving keeping the contingency fund at $60,000 rather than the proposed $70,000, saving approximately $12 on a $200,000 home's village tax share.",
+      "contested": [
+        {
+          "item": "Motion to reduce contingency fund to $30,000",
+          "why": "failed"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_781b3450287040eaac31f72144fa1b7d/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_auNi3i3H8YE",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Meeting",
+      "date": "2026-10-20",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "budget_taxes",
+        "government_elections"
+      ],
+      "text": "The Marathon County Board of Supervisors met on Tuesday, October 20, 2026 and took several significant votes, most notably approving Resolution 68-26 as amended to authorize Phase 4 construction of the new highway facility in Kronenwetter at a guaranteed maximum price of approximately $55 million.",
+      "contested": [
+        {
+          "item": "Motion to reconsider consent agenda item 13C1 (ARPA funds reclassification to forensic science center)",
+          "why": "failed"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/auNi3i3H8YE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r__TTqHhdr3jQ",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Finance Committee Budget Session #4 Meeting",
+      "date": "2026-10-20",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "roads_transportation",
+        "public_safety"
+      ],
+      "text": "The Wausau Finance Committee held its fourth budget session on Tuesday, October 20, 2026, working through the 2027 budget with numerous amendments. The committee approved the 2027 budget as amended by a 4-1 vote, with key changes including removal of $50,000 in Flock ALPR camera funding (redirected to general fund street maintenance or public safety motorpool), removal of $150,000 for a city administrator position…",
+      "contested": [
+        {
+          "item": "Amendment to remove $20,000 trail planning from TID budget",
+          "why": "split 3-2"
+        },
+        {
+          "item": "Amendment to remove $25,000 for street tree planting from 2027 budget",
+          "why": "failed 1-4"
+        },
+        {
+          "item": "Approval of 2027 budget as amended",
+          "why": "split 4-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/_TTqHhdr3jQ/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r__Fnn432j7r0",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Plan Commission Meeting",
+      "date": "2026-10-20",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "housing_development",
+        "parks_recreation"
+      ],
+      "text": "The Wausau Plan Commission met on October 20, 2026 and approved five action items, including the landmark designation of Yawkey Park, a rezoning at 909 South 60th Avenue from medium to heavy industrial, a preliminary plat for the West Hill First Addition subdivision, and two alley/road vacations.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/_Fnn432j7r0/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_3Xl6NL9Pn3Y",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Human Resources, Finance & Property Meeting",
+      "date": "2026-10-20",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "budget_taxes",
+        "buildings_facilities"
+      ],
+      "text": "The Marathon County Board Human Resources, Finance & Property Committee met and acted on several property and budget matters, including directing two tax-deeded Edgar parcels to be re-listed on Wisconsin Surplus with a $500 minimum opening bid, approving a $1 sale of a condemned Wausau property to the city, and advancing a resolution on 2030 census residency rules.",
+      "contested": [
+        {
+          "item": "Sale of 108 Myron Street, Wausau to the City of Wausau for $1",
+          "why": "not unanimous"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/3Xl6NL9Pn3Y/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_vsipbXHhWLg",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Police & Fire Commission",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "budget_taxes",
+        "staffing_pay"
+      ],
+      "text": "The Wausau Police & Fire Commission held a brief meeting that included dismissal of a citizen complaint reconsideration, followed by presentations from police and fire department leadership on budget proposals, recruitment, and technology updates.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/vsipbXHhWLg/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_svZQYS81_uI",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Tourism Commission",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "jobs_economy",
+        "budget_taxes"
+      ],
+      "text": "The Village of Weston Tourism Commission met on October 19, 2026, acknowledging a strong summer tourism season highlighted by the World Horseshoe Tournament, which generated $3.2 million in direct visitor spending and $5.1 million in economic impact.",
+      "contested": [
+        {
+          "item": "Table 2026 Fall Cup post-event grant request to January meeting",
+          "why": "tabled"
+        },
+        {
+          "item": "Table Eau Claire River tree-clearing grant request to January meeting",
+          "why": "tabled"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/svZQYS81_uI/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_o1ODqgKozo8",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Police & Fire Commission",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "staffing_pay"
+      ],
+      "text": "The Wausau Police & Fire Commission held a brief meeting in which it approved promotions for two firefighters and one police detective, then moved into closed session to consider an appeal of a dismissed citizen complaint. The closed session was convened to protect the reputation of the individuals referenced in the complaint.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/o1ODqgKozo8/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_d0f58e7cc36042c8a67098eda7feab03",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Administrative Policy Committee and Village Board - Budget Workshop 1",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "water_utilities"
+      ],
+      "text": "The Village of Kronenwetter held its first budget workshop for the 2027 fiscal year on October 19, 2026, with joint participation from the Administrative Policy Committee and Village Board. Village Administrator John and Finance Director Jim presented a comprehensive budget overview proposing a 5.7% tax rate increase (from $4.03 to $4.26 per $1,000 assessed value), a 6.99% levy increase to $2.9 million, and a $30…",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_d0f58e7cc36042c8a67098eda7feab03/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_bdf4cc06c02749e6864bd0e30592f00b",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Plan Commission Meeting",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "housing_development",
+        "environment_energy"
+      ],
+      "text": "The Kronenwetter Plan Commission held its October 19, 2026 meeting with only four of seven members present — a bare quorum. The commission approved a zoning change and certified survey map for a residential parcel split on Aspen Road, but voted to postpone action on a controversial conditional use permit for a non-metallic mine at 1320 Kowalski Road, citing the reduced commission membership and the significance of…",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_bdf4cc06c02749e6864bd0e30592f00b/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_jJSODjKNYEM",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Police & Fire Commission",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "government_elections",
+        "staffing_pay"
+      ],
+      "text": "The Wausau Police & Fire Commission held a brief public meeting that drew significant public comment focused on the city's Flock license plate reader camera system, with three residents raising privacy and oversight concerns.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/jJSODjKNYEM/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_VwT65b86_JM",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Joint Budget Workshop Meeting",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "water_utilities",
+        "public_safety"
+      ],
+      "text": "The Village of Weston held a Joint Budget Workshop Meeting on Monday, October 19, 2026, reviewing the proposed 2027 budget across all funds and taking action on the refuse/recycling fee and the public hearing notice.",
+      "contested": [
+        {
+          "item": "Increase annual garbage fee to $235.50 for 2027 — Board of Trustees",
+          "why": "split 6-1"
+        },
+        {
+          "item": "Approve 2027 budget public hearing notice — Board of Trustees",
+          "why": "split 5-2"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/VwT65b86_JM/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_8m5OZcOtN4A",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Public Health & Safety Committee Meeting",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "public_safety",
+        "government_elections"
+      ],
+      "text": "The Wausau Public Health & Safety Committee voted unanimously to recommend striking the 2027-2028 Flock camera contract appropriations and directing the police to immediately cease using the surveillance cameras — a significant civil liberties decision driven by strong community opposition.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/8m5OZcOtN4A/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_0bScOP-rhOE",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Board of Trustees",
+      "date": "2026-10-19",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "water_utilities"
+      ],
+      "text": "The Village of Weston Board of Trustees met and addressed several significant items, including approving a 10-year fixed-rate loan at 4.95% for the new Mountain Bay Metro Police Department headquarters after the original lender submitted terms inconsistent with what the board had approved.",
+      "contested": [
+        {
+          "item": "Amendment to written comment policy — copies of written comments to be made available to public at the meeting",
+          "why": "failed 2-5"
+        },
+        {
+          "item": "Written comment policy as presented",
+          "why": "failed 2-5"
+        },
+        {
+          "item": "Written comment policy — written comments will not be read aloud",
+          "why": "split 4-3"
+        },
+        {
+          "item": "Proposed site plan modifications and early start permit for Mountain Bay Metro Police Station at 3600 Community Center Drive",
+          "why": "split 4-3"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/0bScOP-rhOE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_6EGr6wbw5Do",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Board Educational Meeting",
+      "date": "2026-10-15",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "zoning_land_use",
+        "budget_taxes"
+      ],
+      "text": "The Marathon County Board of Supervisors held an educational meeting on October 15, 2026, primarily focused on a detailed presentation of Phase 4 construction plans for the proposed county highway facility, including a guaranteed maximum price of approximately $54.98 million.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/6EGr6wbw5Do/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_ce13270669aa4a64b57622505ca5c6a6",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Administrative Policy Committee Meeting",
+      "date": "2026-10-13",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "water_utilities",
+        "roads_transportation"
+      ],
+      "text": "The Village of Kronenwetter's Administrative Policy Committee met on October 13, 2026 and worked through a lengthy budget preview session ahead of upcoming workshops, with Finance Director John presenting utility budget projections showing no rate increases needed for water or sewer in 2027.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_ce13270669aa4a64b57622505ca5c6a6/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_aCUSzDZG3ZE",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-10-13",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "roads_transportation",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau Board of Public Works met on October 13th and approved a series of pay estimates and change orders totaling hundreds of thousands of dollars across multiple city infrastructure projects, including wastewater, street construction, water treatment plant demolition, and downtown utility work.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/aCUSzDZG3ZE/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_QfiAQ7Ecgu0",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Board of Public Works Meeting",
+      "date": "2026-10-13",
+      "time": "",
+      "issues": [
+        "water_utilities"
+      ],
+      "text": "The Wausau Board of Public Works held a brief meeting that included a closed session before returning to open session to approve pre-qualifications for the 2026 sewer rehabilitation project. Four contractors were approved, with one — Hawson Suns Incorporated — receiving conditional approval pending proof of relevant project experience.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/QfiAQ7Ecgu0/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_7OLPXH8UYC8",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City council Meeting",
+      "date": "2026-10-13",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "roads_transportation",
+        "zoning_land_use"
+      ],
+      "text": "The Wausau City Council met on Tuesday, October 13, 2026, and took action on a range of significant issues including a rezoning request for Honey Locust Court (approved 8-3 over objections from the district alder), a lead service line replacement ordinance and funding plan (city to cover full private-side costs, approved 10-1), a transit fare collection system upgrade for Metroride (approved unanimously), and a…",
+      "contested": [
+        {
+          "item": "Motion to postpone File 26-10003 rezoning to next meeting",
+          "why": "failed 3-8"
+        },
+        {
+          "item": "File 26-10003: Ordinance rezoning Honey Locust Court from SR2 to DR8",
+          "why": "split 8-3"
+        },
+        {
+          "item": "Motion to reconsider File 26-0921 lead service line ordinance",
+          "why": "split 9-2"
+        },
+        {
+          "item": "File 26-10005: Resolution approving drinking water treatment solar array project",
+          "why": "failed 0-11"
+        },
+        {
+          "item": "File 26-0921: Ordinance creating Chapter 13.66 lead and galvanized water service line replacement (after reconsideration)",
+          "why": "split 10-1"
+        },
+        {
+          "item": "Resolution from Infrastructure and Facilities approving amendment to winter street maintenance policy (counterflow/boulevard snow plowing)",
+          "why": "split 9-2"
+        },
+        {
+          "item": "File 26-0806: Budget amendment for UW-Stevens Point at Wausau campus public safety building feasibility study ($50,000)",
+          "why": "split 9-2"
+        },
+        {
+          "item": "Motion to suspend rules for WSP campus due diligence option",
+          "why": "split 9-2"
+        },
+        {
+          "item": "File 26-0806: Planning and due diligence option with Marathon County for WSP at Wausau campus",
+          "why": "split 9-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/7OLPXH8UYC8/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_50NScWtJpvw",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Finance Committee Meeting",
+      "date": "2026-10-13",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "public_safety",
+        "water_utilities"
+      ],
+      "text": "The Wausau Finance Committee met on October 13, 2026, taking action on several budget and operational items including pet licensing fee changes, sale of America 250 banners, a lead hazard grant amendment, and a lead service line loan resolution.",
+      "contested": [
+        {
+          "item": "Sole source request for Zoll monitors and ventilators – tabled",
+          "why": "tabled"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/50NScWtJpvw/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_kw_2d83bda595c54a729ff8a4b941648a6e",
+      "kind": "result",
+      "source": "kronenwetter",
+      "board": "Village of Kronenwetter",
+      "meeting": "Village Board Meeting",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [],
+      "text": "The Village of Kronenwetter Village Board convened its October 12, 2026 meeting at 6:00 p.m. The available transcript captures only the opening moments of the meeting, including the call to order, Pledge of Allegiance, and the beginning of roll call. No substantive agenda items, votes, or decisions are documented in the provided transcript.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_2d83bda595c54a729ff8a4b941648a6e/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_bb_769562",
+      "kind": "result",
+      "source": "school_board",
+      "board": "Wausau School Board",
+      "meeting": "Regular Meeting",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [
+        "schools_learning",
+        "staffing_pay"
+      ],
+      "text": "The Wausau School Board held its regular October 12, 2026 meeting, approving consent agenda items, voting to join a nationwide class action lawsuit against Meta, TikTok, Snap, and Google over social media harm to youth, approving the 2027-2028 school calendar with an early start date waiver already granted by DPI, and updating policy 2370 to recognize the Wisconsin Seal of Biliteracy.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_769562/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_NmOIKtAOxEU",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Public Works Committee",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "water_utilities",
+        "budget_taxes"
+      ],
+      "text": "The Village of Weston Public Works Committee met on October 12, 2026, covering a range of infrastructure and utility topics including ongoing road construction projects, a proposed pedestrian crossing on Business 51, sewer rate options for 2027, and an infiltration/inflow study.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/NmOIKtAOxEU/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_Jh604oscGRM",
+      "kind": "result",
+      "source": "weston",
+      "board": "Village of Weston",
+      "meeting": "Plan Commission",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [
+        "zoning_land_use",
+        "water_utilities",
+        "public_safety"
+      ],
+      "text": "The Village of Weston Plan Commission held its regular meeting on October 13, 2026, approving a conditional use permit for US Venture/US Auto Force to operate a tire cross-dock freight terminal at 6002 Industrial Drive, and approving an amended extension for Bug Properties LLC to complete site improvements at 6406 Scoffield Avenue by staggered deadlines.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/Jh604oscGRM/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_7uG0YZACZUY",
+      "kind": "result",
+      "source": "marathon",
+      "board": "Marathon County",
+      "meeting": "Human Resources, Finance & Property Committee Meeting",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [
+        "budget_taxes"
+      ],
+      "text": "The Marathon County Human Resources, Finance & Property Committee held a brief meeting focused on authorizing publication of the proposed 2027 county budget. The committee unanimously approved publication of the budget notice, which includes a proposed tax levy of $66,248,545 and a mill rate of 3.4773, advancing the budget process toward a public hearing on November 2nd and final county board action on November 10th.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/7uG0YZACZUY/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_5iujFRVxBrA",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Human Resources Committee Meeting",
+      "date": "2026-10-12",
+      "time": "",
+      "issues": [
+        "staffing_pay",
+        "budget_taxes"
+      ],
+      "text": "The Wausau Human Resources Committee met on October 12th and took action on two items: approving a request for an additional HR staff member (to be incorporated into the 2027 budget rather than a budget modification), and voting to maintain the existing summer hours schedule and traditional full-week winter hours rather than adopting year-round summer hours.",
+      "contested": [
+        {
+          "item": "Motion to keep summer hours in summer and restore full winter business hours with one extended evening",
+          "why": "failed"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/5iujFRVxBrA/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    },
+    {
+      "id": "r_ubLxX0CnB20",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Infrastructure and Facilities Meeting",
+      "date": "2026-10-08",
+      "time": "",
+      "issues": [
+        "roads_transportation",
+        "budget_taxes",
+        "housing_development"
+      ],
+      "text": "The Wausau Infrastructure and Facilities Committee met on Thursday, October 8, 2026, and took action on several significant items, most notably voting to amend the city's Department of Public Works winter maintenance policy to permit snowplow counterflow to traffic on center median boulevard streets, a change sought by residents of Highland Park and the southeast side for three years.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/ubLxX0CnB20/",
+      "first_seen": "2026-11-24T01:39:19+00:00"
+    }
+  ],
+  "seen": {
+    "a_1840f1f9e200f1ed5335": "2026-11-24T01:39:19+00:00",
+    "a_662de08195fcb475353f": "2026-11-24T01:39:19+00:00",
+    "a_80136b5bc1300db5c8be": "2026-11-24T01:39:19+00:00",
+    "a_c0025436f0c30c706fd8": "2026-11-24T01:39:19+00:00",
+    "r_-lWYezOdlqQ": "2026-11-24T01:39:19+00:00",
+    "r_0bScOP-rhOE": "2026-11-24T01:39:19+00:00",
+    "r_1MuGCAijiwY": "2026-11-24T01:39:19+00:00",
+    "r_1XBXalxLhkw": "2026-11-24T01:39:19+00:00",
+    "r_3Xl6NL9Pn3Y": "2026-11-24T01:39:19+00:00",
+    "r_50NScWtJpvw": "2026-11-24T01:39:19+00:00",
+    "r_5iujFRVxBrA": "2026-11-24T01:39:19+00:00",
+    "r_68FOdDdxyIg": "2026-11-24T01:39:19+00:00",
+    "r_6EGr6wbw5Do": "2026-11-24T01:39:19+00:00",
+    "r_7OLPXH8UYC8": "2026-11-24T01:39:19+00:00",
+    "r_7uG0YZACZUY": "2026-11-24T01:39:19+00:00",
+    "r_8cbyiMGaNPQ": "2026-11-24T01:39:19+00:00",
+    "r_8m5OZcOtN4A": "2026-11-24T01:39:19+00:00",
+    "r_An7A45Ez0_U": "2026-11-24T01:39:19+00:00",
+    "r_EwyT8MJXctI": "2026-11-24T01:39:19+00:00",
+    "r_EyftyU37JDQ": "2026-11-24T01:39:19+00:00",
+    "r_FbHVlv1qUyI": "2026-11-24T01:39:19+00:00",
+    "r_IF_YvRGk-64": "2026-11-24T01:39:19+00:00",
+    "r_JMnn_Xfhsm0": "2026-11-24T01:39:19+00:00",
+    "r_Jh604oscGRM": "2026-11-24T01:39:19+00:00",
+    "r_JlCDth7F-RQ": "2026-11-24T01:39:19+00:00",
+    "r_LJW8KBfFsaY": "2026-11-24T01:39:19+00:00",
+    "r_Mi_lKQH22Zo": "2026-11-24T01:39:19+00:00",
+    "r_NK80DZtCkNg": "2026-11-24T01:39:19+00:00",
+    "r_NmOIKtAOxEU": "2026-11-24T01:39:19+00:00",
+    "r_P2GhbpI7KkY": "2026-11-24T01:39:19+00:00",
+    "r_PZjmUPDVbTE": "2026-11-24T01:39:19+00:00",
+    "r_QfKwZ4nvAjc": "2026-11-24T01:39:19+00:00",
+    "r_QfiAQ7Ecgu0": "2026-11-24T01:39:19+00:00",
+    "r_QiphgzDv_zE": "2026-11-24T01:39:19+00:00",
+    "r_S_UGYvK2peI": "2026-11-24T01:39:19+00:00",
+    "r_UclNYQZAFAo": "2026-11-24T01:39:19+00:00",
+    "r_UpcAT4xAvZc": "2026-11-24T01:39:19+00:00",
+    "r_VQysP2OBjfI": "2026-11-24T01:39:19+00:00",
+    "r_VwT65b86_JM": "2026-11-24T01:39:19+00:00",
+    "r_Y4xzT50_kRY": "2026-11-24T01:39:19+00:00",
+    "r_ZyVaKfiiYyE": "2026-11-24T01:39:19+00:00",
+    "r__Fnn432j7r0": "2026-11-24T01:39:19+00:00",
+    "r__TTqHhdr3jQ": "2026-11-24T01:39:19+00:00",
+    "r_aCUSzDZG3ZE": "2026-11-24T01:39:19+00:00",
+    "r_auNi3i3H8YE": "2026-11-24T01:39:19+00:00",
+    "r_bb_769562": "2026-11-24T01:39:19+00:00",
+    "r_bb_773225": "2026-11-24T01:39:19+00:00",
+    "r_cw6DqUF_9vk": "2026-11-24T01:39:19+00:00",
+    "r_d4d1DWUqlLs": "2026-11-24T01:39:19+00:00",
+    "r_jJSODjKNYEM": "2026-11-24T01:39:19+00:00",
+    "r_kPvpA6dRbYM": "2026-11-24T01:39:19+00:00",
+    "r_kw_0649d76bc4ba4c3da152038af6e9845c": "2026-11-24T01:39:19+00:00",
+    "r_kw_2d83bda595c54a729ff8a4b941648a6e": "2026-11-24T01:39:19+00:00",
+    "r_kw_590ae932796b451bb27e6e444f98e22a": "2026-11-24T01:39:19+00:00",
+    "r_kw_781b3450287040eaac31f72144fa1b7d": "2026-11-24T01:39:19+00:00",
+    "r_kw_bc64bc1cee794958999a4d624864a28e": "2026-11-24T01:39:19+00:00",
+    "r_kw_bdf4cc06c02749e6864bd0e30592f00b": "2026-11-24T01:39:19+00:00",
+    "r_kw_ce13270669aa4a64b57622505ca5c6a6": "2026-11-24T01:39:19+00:00",
+    "r_kw_d0f58e7cc36042c8a67098eda7feab03": "2026-11-24T01:39:19+00:00",
+    "r_kw_d474242dcfbd49508eb066a59cb8f3da": "2026-11-24T01:39:19+00:00",
+    "r_kw_ff35b6b75e12487c9fcbce664abe1fbf": "2026-11-24T01:39:19+00:00",
+    "r_nOAYeu-mA2g": "2026-11-24T01:39:19+00:00",
+    "r_o1ODqgKozo8": "2026-11-24T01:39:19+00:00",
+    "r_oLNO7g9EenE": "2026-11-24T01:39:19+00:00",
+    "r_raxHejkF0U0": "2026-11-24T01:39:19+00:00",
+    "r_rr4xY0W5ETo": "2026-11-24T01:39:19+00:00",
+    "r_sMlUgUewkq4": "2026-11-24T01:39:19+00:00",
+    "r_svZQYS81_uI": "2026-11-24T01:39:19+00:00",
+    "r_ubLxX0CnB20": "2026-11-24T01:39:19+00:00",
+    "r_vqL23xM50t8": "2026-11-24T01:39:19+00:00",
+    "r_vsipbXHhWLg": "2026-11-24T01:39:19+00:00",
+    "r_x5ndfhfruMg": "2026-11-24T01:39:19+00:00"
+  }
+}
