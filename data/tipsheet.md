@@ -23,6 +23,10 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 - [Tuesday, Dec 1, 10:30 AM: City of Wausau, Board of Public Works Meeting](https://wausauwi.portal.civicclerk.com/event/3664/overview)
   - VOTE: Recommendation for 2026 demolition of 207 North 1st Avenue. The board will decide whether to recommend demolition of the building at 207 North 1st Avenue (MBX South). Bids were opened on November 17.
   - VOTE: Pay estimates for lift station and street projects. The board will approve four contractor payments: a second payment for Crocker Street Lift Station work, final payment for Cherry Street Lift Station, first payment for downtown sidewalk improvements, and final payment for asphalt paving project.
+- [Tuesday, Dec 1, 11:30 AM: City of Wausau, Water Works Commission Meeting](https://wausauwi.portal.civicclerk.com/event/2198/overview)
+  - VOTE: PFAS settlement funds for capital projects. The commission is scheduled to vote on approving how to use settlement money for water system improvements.
+  - VOTE: Lead service line replacement fund borrowing. The commission is scheduled to vote on borrowing money from the regular drinking water funding program to replace lead service lines on the public side of connections.
+  - VOTE: Carbon regeneration of water treatment vessels. The commission is scheduled to vote on approving Carbon Activated Corporation to regenerate six more activated carbon vessels used to treat drinking water.
 - [Tuesday, Dec 1, 5:30 PM: Mosinee School Board, Student Expulsion Hearing (closed session)](https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=501)
   - HEARING: Student expulsion hearing. The board will hold a closed hearing to consider expulsion of a student under Wisconsin law.
 
@@ -116,13 +120,14 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 - How Government Works: 2 in the past week
   - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
   - PAST WEEK: Mosinee School Board, Regular School Board Meeting (November 17, 2026)
+- Water & Utilities: 2 ahead
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Water Works Commission Meeting
 - Zoning & Land Use: 2 in the past week
   - PAST WEEK: City of Wausau, Plan Commission Meeting (November 17, 2026)
   - PAST WEEK: Marathon County, Board Special Meeting (November 17, 2026)
 - Parks & Recreation: 1 ahead
   - AHEAD: Tuesday, Nov 24: City of Wausau, Finance Committee Meeting
-- Water & Utilities: 1 ahead
-  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
 
 ## Crowded public comment, past week
 
@@ -168,6 +173,6 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Next week's meetings without a preview
 
-- City of Wausau: 3 meetings with no agenda read yet
+- City of Wausau: 2 meetings with no agenda read yet
 - Marathon County: 2 meetings with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet

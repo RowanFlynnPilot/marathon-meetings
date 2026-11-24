@@ -5588,5 +5588,25 @@
     "input_tokens": 1854,
     "output_tokens": 372,
     "usd": 0.003714
+  },
+  {
+    "ts": "2026-11-24T14:57:16.346780+00:00",
+    "meeting_id": "475a2e1dc00cf556c98b",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2411,
+    "output_tokens": 451,
+    "usd": 0.004666
+  },
+  {
+    "ts": "2026-11-24T14:57:21.277662+00:00",
+    "meeting_id": "5cef5fc6072fa237b04f",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2223,
+    "output_tokens": 156,
+    "usd": 0.003003
   }
 ]

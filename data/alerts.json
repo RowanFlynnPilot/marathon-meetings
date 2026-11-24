@@ -1,6 +1,72 @@
 {
   "entries": [
     {
+      "id": "a_5cef5fc6072fa237b04f",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Police & Fire Commission Special Meeting",
+      "date": "2026-12-02",
+      "time": "7:30 AM",
+      "issues": [
+        "public_safety"
+      ],
+      "text": "The Police & Fire Commission is scheduled to interview two candidates for Deputy Chief with the Wausau Police Department in a closed session on December 2.",
+      "items": [
+        {
+          "item": "Interview candidates for Wausau Police Department Deputy Chief",
+          "action": "discussion"
+        }
+      ],
+      "hearings": [],
+      "publicComment": false,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3667/overview",
+      "first_seen": "2026-11-24T15:02:39+00:00"
+    },
+    {
+      "id": "a_475a2e1dc00cf556c98b",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Water Works Commission Meeting",
+      "date": "2026-12-01",
+      "time": "11:30 AM",
+      "issues": [
+        "water_utilities"
+      ],
+      "text": "The Water Works Commission is scheduled to review drinking water safety reports and decide how to spend settlement funds for water infrastructure projects. The commission will also discuss plans to replace lead service lines in Wausau.",
+      "items": [
+        {
+          "item": "PFAS settlement funds for capital projects",
+          "action": "vote"
+        },
+        {
+          "item": "Lead service line replacement fund borrowing",
+          "action": "vote"
+        },
+        {
+          "item": "Lead and Copper Rule revisions and improvements",
+          "action": "report"
+        },
+        {
+          "item": "Water service line replacement plan",
+          "action": "report"
+        },
+        {
+          "item": "2026 sanitary survey",
+          "action": "report"
+        },
+        {
+          "item": "Carbon regeneration of water treatment vessels",
+          "action": "vote"
+        }
+      ],
+      "hearings": [],
+      "publicComment": false,
+      "url": "https://wausauwi.portal.civicclerk.com/event/2198/overview",
+      "first_seen": "2026-11-24T15:02:39+00:00"
+    },
+    {
       "id": "a_80136b5bc1300db5c8be",
       "kind": "agenda",
       "source": "wausau",
@@ -1587,6 +1653,8 @@
   ],
   "seen": {
     "a_1840f1f9e200f1ed5335": "2026-11-24T01:39:19+00:00",
+    "a_475a2e1dc00cf556c98b": "2026-11-24T15:02:39+00:00",
+    "a_5cef5fc6072fa237b04f": "2026-11-24T15:02:39+00:00",
     "a_662de08195fcb475353f": "2026-11-24T01:39:19+00:00",
     "a_80136b5bc1300db5c8be": "2026-11-24T01:39:19+00:00",
     "a_c0025436f0c30c706fd8": "2026-11-24T01:39:19+00:00",

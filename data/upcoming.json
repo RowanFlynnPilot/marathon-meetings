@@ -290,7 +290,49 @@
       "time": "11:30 AM",
       "name": "Water Works Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2198/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-24T14:56:55+00:00",
+        "hearings": [],
+        "issues": [
+          "water_utilities"
+        ],
+        "items": [
+          {
+            "action": "vote",
+            "item": "PFAS settlement funds for capital projects",
+            "why": "The commission is scheduled to vote on approving how to use settlement money for water system improvements."
+          },
+          {
+            "action": "vote",
+            "item": "Lead service line replacement fund borrowing",
+            "why": "The commission is scheduled to vote on borrowing money from the regular drinking water funding program to replace lead service lines on the public side of connections."
+          },
+          {
+            "action": "report",
+            "item": "Lead and Copper Rule revisions and improvements",
+            "why": "The director will report on new federal rules for lead and copper in drinking water and what they mean for Wausau."
+          },
+          {
+            "action": "report",
+            "item": "Water service line replacement plan",
+            "why": "The director will report on Wausau's plan to replace water service lines, developed with engineering firm Jacobs Engineering."
+          },
+          {
+            "action": "report",
+            "item": "2026 sanitary survey",
+            "why": "The director will report on the annual drinking water safety inspection and testing results."
+          },
+          {
+            "action": "vote",
+            "item": "Carbon regeneration of water treatment vessels",
+            "why": "The commission is scheduled to vote on approving Carbon Activated Corporation to regenerate six more activated carbon vessels used to treat drinking water."
+          }
+        ],
+        "overview": "The Water Works Commission is scheduled to review drinking water safety reports and decide how to spend settlement funds for water infrastructure projects. The commission will also discuss plans to replace lead service lines in Wausau.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-01",
@@ -311,7 +353,24 @@
       "time": "7:30 AM",
       "name": "Police & Fire Commission Special Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3667/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": true,
+        "generated": "2026-11-24T14:56:55+00:00",
+        "hearings": [],
+        "issues": [
+          "public_safety"
+        ],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Interview candidates for Wausau Police Department Deputy Chief",
+            "why": "The commission will meet in closed session to interview two candidates for the Deputy Chief position and may vote on a hiring decision in open session afterward."
+          }
+        ],
+        "overview": "The Police & Fire Commission is scheduled to interview two candidates for Deputy Chief with the Wausau Police Department in a closed session on December 2.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-02",

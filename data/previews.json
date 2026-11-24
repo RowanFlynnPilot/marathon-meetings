@@ -53,7 +53,7 @@
     "source": "school_board"
   },
   "1840f1f9e200f1ed5335": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "9f1cef4fc36f4e7c4700d889456397905bdf3504",
@@ -170,7 +170,7 @@
     "source": "school_board"
   },
   "4454438dbef6c9f3fd33": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-12-01",
     "generations": 1,
     "hash": "a9cfc8264f7580da428929676f6dd8032865614b",
@@ -195,8 +195,85 @@
     "prompt": "4",
     "source": "mosinee_schools"
   },
+  "475a2e1dc00cf556c98b": {
+    "checked": "2026-11-24T14:56:55+00:00",
+    "date": "2026-12-01",
+    "generations": 1,
+    "hash": "a49c1dee4bd84dbba86acadec19a7f5c86264810",
+    "name": "Water Works Commission Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-24T14:56:55+00:00",
+      "hearings": [],
+      "issues": [
+        "water_utilities"
+      ],
+      "items": [
+        {
+          "action": "vote",
+          "item": "PFAS settlement funds for capital projects",
+          "why": "The commission is scheduled to vote on approving how to use settlement money for water system improvements."
+        },
+        {
+          "action": "vote",
+          "item": "Lead service line replacement fund borrowing",
+          "why": "The commission is scheduled to vote on borrowing money from the regular drinking water funding program to replace lead service lines on the public side of connections."
+        },
+        {
+          "action": "report",
+          "item": "Lead and Copper Rule revisions and improvements",
+          "why": "The director will report on new federal rules for lead and copper in drinking water and what they mean for Wausau."
+        },
+        {
+          "action": "report",
+          "item": "Water service line replacement plan",
+          "why": "The director will report on Wausau's plan to replace water service lines, developed with engineering firm Jacobs Engineering."
+        },
+        {
+          "action": "report",
+          "item": "2026 sanitary survey",
+          "why": "The director will report on the annual drinking water safety inspection and testing results."
+        },
+        {
+          "action": "vote",
+          "item": "Carbon regeneration of water treatment vessels",
+          "why": "The commission is scheduled to vote on approving Carbon Activated Corporation to regenerate six more activated carbon vessels used to treat drinking water."
+        }
+      ],
+      "overview": "The Water Works Commission is scheduled to review drinking water safety reports and decide how to spend settlement funds for water infrastructure projects. The commission will also discuss plans to replace lead service lines in Wausau.",
+      "publicComment": false
+    },
+    "prompt": "4",
+    "source": "wausau"
+  },
+  "5cef5fc6072fa237b04f": {
+    "checked": "2026-11-24T14:56:55+00:00",
+    "date": "2026-12-02",
+    "generations": 1,
+    "hash": "b3965d4950ed7a0b8e4e1892ee145eeb92017df1",
+    "name": "Police & Fire Commission Special Meeting",
+    "preview": {
+      "closedSession": true,
+      "generated": "2026-11-24T14:56:55+00:00",
+      "hearings": [],
+      "issues": [
+        "public_safety"
+      ],
+      "items": [
+        {
+          "action": "discussion",
+          "item": "Interview candidates for Wausau Police Department Deputy Chief",
+          "why": "The commission will meet in closed session to interview two candidates for the Deputy Chief position and may vote on a hiring decision in open session afterward."
+        }
+      ],
+      "overview": "The Police & Fire Commission is scheduled to interview two candidates for Deputy Chief with the Wausau Police Department in a closed session on December 2.",
+      "publicComment": false
+    },
+    "prompt": "4",
+    "source": "wausau"
+  },
   "662de08195fcb475353f": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "9c75ca874ed79bc1d252affd04660126cf3670a9",
@@ -248,7 +325,7 @@
     "source": "wausau"
   },
   "6b0a2c8367f23b11b443": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-12-01",
     "generations": 1,
     "hash": "910842ead3b8d7dc90bbabf39e2a2a6f84c88fca",
@@ -338,7 +415,7 @@
     "source": "mosinee"
   },
   "80136b5bc1300db5c8be": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-12-01",
     "generations": 3,
     "hash": "d30af325d8ddf12e3fb76f21a4e92a3bef5ab7d6",
@@ -407,7 +484,7 @@
     "source": "weston"
   },
   "c0025436f0c30c706fd8": {
-    "checked": "2026-11-23T23:34:40+00:00",
+    "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-11-24",
     "generations": 3,
     "hash": "ca7cfca76ac6c6262006047355de829f817e9a10",
