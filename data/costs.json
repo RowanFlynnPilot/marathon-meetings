@@ -5608,5 +5608,45 @@
     "input_tokens": 2223,
     "output_tokens": 156,
     "usd": 0.003003
+  },
+  {
+    "ts": "2026-11-25T00:50:16.157570+00:00",
+    "meeting_id": "f90497a4925aec24c410",
+    "jurisdiction": "maine",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2061,
+    "output_tokens": 219,
+    "usd": 0.003156
+  },
+  {
+    "ts": "2026-11-25T00:50:18.954383+00:00",
+    "meeting_id": "aaeaa5b29ac16f864fcb",
+    "jurisdiction": "maine",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2058,
+    "output_tokens": 295,
+    "usd": 0.003533
+  },
+  {
+    "ts": "2026-11-25T00:54:22.805831+00:00",
+    "meeting_id": "bb_773904",
+    "jurisdiction": "dc_everest",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 6941,
+    "output_tokens": 2218,
+    "usd": 0.054093
+  },
+  {
+    "ts": "2026-11-25T00:57:06.903648+00:00",
+    "meeting_id": "wJzPxkwVCJA",
+    "jurisdiction": "weston",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 11615,
+    "output_tokens": 1093,
+    "usd": 0.05124
   }
 ]

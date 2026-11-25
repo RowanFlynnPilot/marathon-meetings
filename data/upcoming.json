@@ -1,20 +1,6 @@
 {
   "marathon": [
     {
-      "date": "2026-11-24",
-      "time": "5:00 PM",
-      "name": "Environmental Resources Committee",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
-      "date": "2026-11-24",
-      "time": "7:00 PM",
-      "name": "County Board Meeting",
-      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
-      "source": "marathon"
-    },
-    {
       "date": "2026-12-03",
       "time": "5:00 PM",
       "name": "Health & Human Services Committee",
@@ -114,146 +100,6 @@
     }
   ],
   "wausau": [
-    {
-      "date": "2026-11-24",
-      "time": "12:00 PM",
-      "name": "Community Development Authority Board Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/3666/overview",
-      "source": "wausau",
-      "preview": {
-        "closedSession": true,
-        "generated": "2026-11-23T03:15:29+00:00",
-        "hearings": [],
-        "issues": [
-          "housing_development",
-          "budget_taxes"
-        ],
-        "items": [
-          {
-            "action": "vote",
-            "item": "Seven 2027 budgets for housing programs and facilities",
-            "why": "The board is asked to vote on separate budgets for the Housing Choice Voucher Program, Public Housing Program, Riverview Terrace, Riverview Towers LLC, Fulton Street, and 8th Avenue."
-          },
-          {
-            "action": "vote",
-            "item": "Repositioning public housing scattered sites to voucher program",
-            "why": "The board is asked to vote on Resolution #26-012 to convert scattered public housing sites to project-based vouchers after a consultant presents repositioning options."
-          },
-          {
-            "action": "vote",
-            "item": "Riverview Towers façade repair bids",
-            "why": "The board is asked to discuss and vote on bids received for masonry and concrete façade repairs at Riverview Towers LLC."
-          },
-          {
-            "action": "vote",
-            "item": "Sub-recipient agreement for 405 S 8th Avenue property",
-            "why": "The board is asked to discuss and vote on a rental property agreement between the city and the authority for 405 S 8th Avenue."
-          },
-          {
-            "action": "vote",
-            "item": "Capital needs assessment for scattered sites properties",
-            "why": "The board is asked to discuss and vote on a request for proposals for a capital needs assessment of scattered public housing sites."
-          },
-          {
-            "action": "report",
-            "item": "Presentation on repositioning options for scattered sites",
-            "why": "S.C. Koegler Consulting will present comprehensive repositioning options for the authority's scattered public housing sites."
-          }
-        ],
-        "overview": "The Community Development Authority is scheduled to vote on seven budgets for housing programs and facilities. The board will also consider reshaping its public housing scattered sites program and approve repair bids for Riverview Towers.",
-        "publicComment": true
-      }
-    },
-    {
-      "date": "2026-11-24",
-      "time": "5:15 PM",
-      "name": "Finance Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2433/overview",
-      "source": "wausau",
-      "preview": {
-        "closedSession": false,
-        "generated": "2026-11-23T02:04:33+00:00",
-        "issues": [
-          "budget_taxes",
-          "public_safety",
-          "parks_recreation"
-        ],
-        "items": [
-          {
-            "action": "vote",
-            "item": "Animal impoundment services agreement with Humane Society",
-            "why": "The committee will vote to approve a contract with the Humane Society of Marathon County for the city to use their animal impoundment services."
-          },
-          {
-            "action": "vote",
-            "item": "Five other service and equipment purchase agreements",
-            "why": "The committee will vote to approve agreements for mapping software (Esri), county production services, cemetery operations, and fire department cardiac monitors and ventilators."
-          },
-          {
-            "action": "vote",
-            "item": "Budget change and lift purchase for Athletic Park",
-            "why": "The committee will vote to approve a budget modification and sole source request to buy an outdoor vertical platform lift for Athletic Park."
-          },
-          {
-            "action": "report",
-            "item": "Update on county pet license fee changes for 2027",
-            "why": "City staff will update the committee on how Marathon County plans to change pet license fees starting in 2027."
-          }
-        ],
-        "overview": "The Finance Committee is scheduled to vote on six agreements and contracts for city services. These include animal impounding, mapping software, cemetery operations, and fire department equipment purchases.",
-        "publicComment": true
-      }
-    },
-    {
-      "date": "2026-11-24",
-      "time": "6:30 PM",
-      "name": "Common Council Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/1984/overview",
-      "source": "wausau",
-      "preview": {
-        "closedSession": true,
-        "generated": "2026-11-23T02:04:33+00:00",
-        "issues": [
-          "budget_taxes",
-          "staffing_pay",
-          "roads_transportation"
-        ],
-        "items": [
-          {
-            "action": "vote",
-            "item": "2026 budget modification for year-end projections",
-            "why": "The Finance Committee is asking the council to approve various budget adjustments based on how the year ended."
-          },
-          {
-            "action": "vote",
-            "item": "Salary structure revision for general city employees",
-            "why": "The Finance Committee and Human Resources Committee are asking the council to revise how general employees' salaries are structured."
-          },
-          {
-            "action": "vote",
-            "item": "Special assessments for 2027 street construction projects",
-            "why": "The Infrastructure & Facilities Committee is asking the council to levy special assessments (charges to property owners) to pay for street work in 2027."
-          },
-          {
-            "action": "vote",
-            "item": "Deed restrictions and non-conforming uses at 1300 Cleveland Avenue",
-            "why": "The Economic Development Committee is asking the council to approve deed restrictions and clarify existing non-conforming uses on city-owned property."
-          },
-          {
-            "action": "vote",
-            "item": "Driveway and concrete approach exceptions for Kolbe & Kolbe Millwork",
-            "why": "The Infrastructure & Facilities Committee is asking the council to approve oversized driveways and waive a concrete approach requirement at three nearby addresses on South 11th Avenue."
-          },
-          {
-            "action": "discussion",
-            "item": "District 9 aldermanic vacancy",
-            "why": "The Common Council is addressing how to fill an empty aldermanic seat in District 9."
-          }
-        ],
-        "overview": "The Common Council will vote on the 2026 budget modification and several resolutions affecting city property and employee pay. The council will also meet in closed session to discuss litigation strategy.",
-        "publicComment": true
-      }
-    },
     {
       "date": "2026-12-01",
       "time": "10:30 AM",
@@ -401,6 +247,13 @@
       "source": "wausau"
     },
     {
+      "date": "2026-12-07",
+      "time": "5:30 PM",
+      "name": "Executive Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3669/overview",
+      "source": "wausau"
+    },
+    {
       "date": "2026-12-08",
       "time": "5:15 PM",
       "name": "Finance Committee Meeting",
@@ -412,6 +265,13 @@
       "time": "6:30 PM",
       "name": "Common Council Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/1972/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "4:00 PM",
+      "name": "Building Advisory Board",
+      "url": "https://wausauwi.portal.civicclerk.com/event/3670/overview",
       "source": "wausau"
     },
     {
@@ -454,13 +314,6 @@
       "time": "5:15 PM",
       "name": "Public Health & Safety Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2472/overview",
-      "source": "wausau"
-    },
-    {
-      "date": "2026-12-22",
-      "time": "5:15 PM",
-      "name": "Finance Committee Meeting",
-      "url": "https://wausauwi.portal.civicclerk.com/event/2434/overview",
       "source": "wausau"
     },
     {
@@ -785,5 +638,67 @@
       "source": "rothschild"
     }
   ],
-  "maine": []
+  "maine": [
+    {
+      "date": "2026-11-30",
+      "name": "Board of Trustees Meeting",
+      "source": "maine",
+      "time": "5:30 PM",
+      "url": "https://villageofmaine.org/?post_type=twd_repository&p=1933",
+      "preview": {
+        "closedSession": true,
+        "generated": "2026-11-25T00:50:10+00:00",
+        "hearings": [],
+        "issues": [
+          "staffing_pay"
+        ],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Interview and wages for part-time treasurer/deputy clerk",
+            "why": "The board will meet in closed session to interview candidates and set the wage for this part-time position."
+          },
+          {
+            "action": "discussion",
+            "item": "Wage for part-time snowplow driver",
+            "why": "The board will meet in closed session to set the wage for this part-time position."
+          }
+        ],
+        "overview": "The Village of Maine board is scheduled to meet in private to discuss hiring and pay for two village positions: a part-time treasurer/deputy clerk and a part-time snowplow driver.",
+        "publicComment": true
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "name": "Plan Commission",
+      "source": "maine",
+      "time": "6:00 PM",
+      "url": "https://villageofmaine.org/?post_type=twd_repository&p=1936",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-25T00:50:10+00:00",
+        "hearings": [
+          "Amendment to Ordinance §17.08-5: Accessory Uses and Structures",
+          "Amendment to Ordinance §17.13: Principal Building Lot Coverage"
+        ],
+        "issues": [
+          "zoning_land_use"
+        ],
+        "items": [
+          {
+            "action": "hearing",
+            "item": "Amendment to Ordinance §17.08-5: Accessory Uses and Structures",
+            "why": "The commission will hear public comments on proposed changes to rules governing accessory structures, then vote on whether to approve the amendment."
+          },
+          {
+            "action": "hearing",
+            "item": "Amendment to Ordinance §17.13: Principal Building Lot Coverage",
+            "why": "The commission will hear public comments on proposed changes to rules about how much of a lot a main building can occupy, then vote on whether to approve the amendment."
+          }
+        ],
+        "overview": "The Plan Commission is scheduled to hold two public hearings on changes to village zoning rules. Residents can comment on proposed changes to rules about accessory structures and building lot coverage.",
+        "publicComment": true
+      }
+    }
+  ]
 }

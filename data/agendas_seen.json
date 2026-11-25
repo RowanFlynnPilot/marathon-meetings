@@ -65,6 +65,12 @@
     "seen": "2026-11-23T00:58:31+00:00",
     "source": "wausau"
   },
+  "aaeaa5b29ac16f864fcb": {
+    "date": "2026-11-30",
+    "name": "Plan Commission",
+    "seen": "2026-11-25T00:50:10+00:00",
+    "source": "maine"
+  },
   "b46119fc786a09bd3ddf": {
     "date": "2026-11-23",
     "name": "Park and Recreation Committee",
@@ -82,5 +88,11 @@
     "name": "Bicycle & Pedestrian Advisory Committee Meeting",
     "seen": "2026-11-23T00:58:31+00:00",
     "source": "wausau"
+  },
+  "f90497a4925aec24c410": {
+    "date": "2026-11-30",
+    "name": "Board of Trustees Meeting",
+    "seen": "2026-11-25T00:50:10+00:00",
+    "source": "maine"
   }
 }

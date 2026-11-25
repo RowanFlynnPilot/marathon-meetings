@@ -1,246 +1,219 @@
 {
-  "overview": "Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a regular meeting to address extensive policy revisions, budget matters, staffing changes, and facility planning. The meeting included a second reading of 44 district policies covering conduct, nondiscrimination, curriculum, and technology, along with consideration of new policies related to Section 504 ADA compliance and wellness. The board was expected to review facility study findings, course proposals for the 2027-2028 school year, and conduct preliminary discussions on the superintendent's annual evaluation.",
-  "committee": "Regular School Board Meeting",
+  "overview": "The DC Everest School Board met on Wednesday, November 18, 2026, and approved several policy readings, a budget calendar, and new course proposals. Board member Larry Schaefer raised concerns about a student grade eligibility rule in Policy 2430, arguing students with an F grade should not be allowed to compete in extracurriculars. The board then approved the policy anyway on a voice vote. The board also moved into closed session to consider expelling two students and to begin the superintendent's annual review.",
+  "committee": "DC Everest School Board",
+  "presiding": "Shannon Grabko, President",
   "agenda": [
     {
-      "time": "N/A",
-      "item": "Call to Order"
+      "time": "0:00",
+      "item": "Call to Order, Pledge of Allegiance, Roll Call"
     },
     {
-      "time": "N/A",
-      "item": "Roll Call"
+      "time": "1:10",
+      "item": "Approve Agenda"
     },
     {
-      "time": "N/A",
-      "item": "Pledge of Allegiance"
-    },
-    {
-      "time": "N/A",
-      "item": "Approval of Agenda"
-    },
-    {
-      "time": "N/A",
+      "time": "1:45",
       "item": "Public Comment"
     },
     {
-      "time": "N/A",
+      "time": "2:00",
       "item": "Consent Agenda"
     },
     {
-      "time": "N/A",
-      "item": "VI.A. Approval of Minutes"
+      "time": "2:50",
+      "item": "WASB (Wisconsin Association of School Boards) Report"
     },
     {
-      "time": "N/A",
-      "item": "VI.B. Certified Staff Recommended Employment/Resignations/Contract Adjustments"
+      "time": "5:30",
+      "item": "Student Representative Report"
     },
     {
-      "time": "N/A",
-      "item": "VI.C. Treasurer's Report - General/Other Fund Bills"
+      "time": "9:00",
+      "item": "Superintendent's Report"
     },
     {
-      "time": "N/A",
-      "item": "VI.D. Balance Sheet"
+      "time": "17:00",
+      "item": "First Reading of Policy 2430 - District Sponsored Clubs and Activities"
     },
     {
-      "time": "N/A",
-      "item": "VI.E. Budget Transfers"
+      "time": "20:30",
+      "item": "First Reading of Policy 8310 - Public Records"
     },
     {
-      "time": "N/A",
-      "item": "VI.F. Budget Revisions"
+      "time": "21:30",
+      "item": "Budget Calendar"
     },
     {
-      "time": "N/A",
-      "item": "VI.G. Grant Application(s)/Budget(s) Approval"
+      "time": "23:00",
+      "item": "First Reading of Policies 2260.01 and 8510"
     },
     {
-      "time": "N/A",
-      "item": "VI.H. Fundraising Requests"
+      "time": "35:00",
+      "item": "Course Proposals for 27-28 School Year"
     },
     {
-      "time": "N/A",
-      "item": "VI.I. Gift/Bequests"
-    },
-    {
-      "time": "N/A",
-      "item": "VI.J. Bus Accident Report"
-    },
-    {
-      "time": "N/A",
-      "item": "VI.K. Second Reading of Policies (44 policies)"
-    },
-    {
-      "time": "N/A",
-      "item": "VII. Non-Certified Staff Employment Changes (Informational Only)"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.A. WASB Legislative Network Member (Presenter: Shannon Grabko)"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.B. Student Representative (Presenter: Brynn Kampmann)"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C. Superintendent Reports (Presenter: Dr. Casey Nye)"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.1. District Update"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.2. Facilities Study, Board Workshop"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.3. Additional Facility, Program Updates"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.4. Calendar Planning, Survey"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.5. Early State Budget Chatter"
-    },
-    {
-      "time": "N/A",
-      "item": "VIII.C.6. Teacher of the Year"
-    },
-    {
-      "time": "N/A",
-      "item": "IX.A. First Reading of po2430 District-Sponsored Clubs and Activities (Postponed from October)"
-    },
-    {
-      "time": "N/A",
-      "item": "IX.B. First Reading of po8310 Public Records (Postponed from October)"
-    },
-    {
-      "time": "N/A",
-      "item": "X.A. Budget Calendar (Presenter: Dr. Strike)"
-    },
-    {
-      "time": "N/A",
-      "item": "X.B.1. First Reading of po2260.01 Section 504 ADA Prohibition Against Discrimination Based on Disability"
-    },
-    {
-      "time": "N/A",
-      "item": "X.B.2. First Reading of po8510 Wellness"
-    },
-    {
-      "time": "N/A",
-      "item": "X.C. Course Proposals for 2027-2028"
-    },
-    {
-      "time": "N/A",
-      "item": "XI.A. Aldridge Thank You for Sympathy"
-    },
-    {
-      "time": "N/A",
-      "item": "XII.A. Future Meeting Dates"
-    },
-    {
-      "time": "N/A",
-      "item": "XIII. Closed Session"
+      "time": "42:00",
+      "item": "Motion to Adjourn to Closed Session"
     }
   ],
   "discussions": [
     {
-      "item": "Certified Staff Recommended Employment/Resignations/Contract Adjustments",
-      "body": "The board was scheduled to review and approve employment changes for certified staff in the 2026-2027 school year as presented in the consent agenda materials."
+      "item": "WASB Report",
+      "body": "Board President Grabko reported on a November WASB legal and legislative update. The state Department of Public Instruction proposed about $2.75 billion in new aid for Wisconsin schools and libraries. Key proposals include raising special education reimbursement to 50% then 60% and counting full-day 4K students as 1 full-time student instead of 0.6. Grabko said these proposals align with what the district has been advocating for."
     },
     {
-      "item": "Treasurer's Report and Financial Items",
-      "body": "The board was expected to review the November 2026 treasury report, balance sheet for accounts, budget transfers (26-00002 through 26-00030), and budget revisions (26-00002 through 26-00007) as part of the consent agenda."
+      "item": "Superintendent's Report",
+      "body": "Superintendent Dr. Nye recapped a recent facility study workshop and said a referendum resolution is expected at the December meeting. He said the likely referendum focuses on junior high needs but also involves a district-wide space strategy tied to declining enrollment. Dr. Nye noted about 2,000 combined parent and staff responses to a school calendar survey and said a calendar committee will meet before the December meeting. He also congratulated Riverside Elementary teacher Kevin Potawelt for being named the National Council for Social Studies National Elementary Social Studies Teacher of the Year for 2026-27."
     },
     {
-      "item": "Second Reading of 44 District Policies",
-      "body": "The board was scheduled to conduct a second reading of 44 comprehensive district policies covering board conduct, nondiscrimination and anti-harassment measures across all employee and student categories, curriculum development, technology use, student records, transportation, crisis intervention, and Section 504 ADA compliance. These policies span governance, employment practices, instructional programs, and student conduct."
+      "item": "First Reading of Policy 2430 - District Sponsored Clubs and Activities",
+      "body": "Larry Schaefer objected to the policy allowing students with an F grade to participate in extracurricular activities. He said students should at minimum have D grades and argued DC Everest should lead rather than follow other districts on the standard. No other board member joined his objection. The board approved the policy on a voice vote over Schaefer's no vote."
     },
     {
-      "item": "Non-Certified Staff Employment Changes",
-      "body": "The board was scheduled to receive informational updates on non-certified staff employment changes for 2026-2027, with two versions of the informational document provided."
+      "item": "First Reading of Policies 2260.01 and 8510",
+      "body": "Larry Schaefer raised two concerns about Policy 2260.01. First, he questioned clunky wording in a paragraph about reasonable accommodations for employees with disabilities. Superintendent Nye agreed the wording was awkward but said the district can administer the policy as written. Second, Schaefer questioned whether a 90-day window to hold a discrimination hearing was too long. Staff explained the timeline gives flexibility to find an independent hearing officer. The board approved both policies on first reading on a voice vote."
     },
     {
-      "item": "WASB Legislative Network Member Report",
-      "body": "Shannon Grabko was scheduled to present information on WASB legislative network activities and state-level education policy developments relevant to the district."
+      "item": "Course Proposals for 27-28 School Year",
+      "body": "Dr. Lindell presented a proposal to add an AP Seminar course, describing it as inquiry-based and more rigorous than the existing Honors English option. Board members asked whether Honors courses would disappear, and Lindell said enrollment in Honors would likely decline slightly but not dramatically. The board approved the course proposals on a voice vote."
     },
     {
-      "item": "Student Representative Report",
-      "body": "Brynn Kampmann was scheduled to present as the student representative with updates on student body activities and concerns."
+      "item": "Budget Calendar",
+      "body": "Finance staff member Dr. Stryk presented the annual budget calendar, noting the district just approved its current-year budget in October and immediately begins planning for the next year. Stryk flagged that the state's two-year budget process creates some unknowns but said the calendar includes flexibility. The board approved the budget calendar on a voice vote with no discussion."
     },
     {
-      "item": "Superintendent Reports",
-      "body": "Dr. Casey Nye was scheduled to present multiple updates including a district update, findings from a facilities study that will also be discussed in a board workshop, additional facility and program updates, calendar planning survey results, early state budget projections, and recognition of the Teacher of the Year."
-    },
-    {
-      "item": "First Reading of po2430 District-Sponsored Clubs and Activities",
-      "body": "The board was scheduled to conduct a first reading of the revised policy on district-sponsored clubs and activities, which had been postponed from the October meeting. A memo on academics and athletics was included with the materials."
-    },
-    {
-      "item": "First Reading of po8310 Public Records",
-      "body": "The board was scheduled to conduct a first reading of the revised public records policy, including an open records fee schedule, after this item was postponed from the October meeting."
-    },
-    {
-      "item": "Budget Calendar for 2027-2028",
-      "body": "Dr. Strike was scheduled to present the budget calendar for the 2027-2028 school year with accompanying memo and calendar documents for board review and approval."
-    },
-    {
-      "item": "First Reading of po2260.01 Section 504 ADA Prohibition Against Discrimination Based on Disability",
-      "body": "The board was scheduled to conduct a first reading of this new policy addressing ADA compliance and nondiscrimination protections based on disability status."
-    },
-    {
-      "item": "First Reading of po8510 Wellness",
-      "body": "The board was scheduled to conduct a first reading of a revised wellness policy addressing student and staff health and wellbeing initiatives."
-    },
-    {
-      "item": "Course Proposals for 2027-2028",
-      "body": "The board was scheduled to review course proposals for the 2027-2028 school year, including an AP ELA Seminar course, with a memo outlining the academic rationale for new course offerings."
-    },
-    {
-      "item": "Closed Session",
-      "body": "The board was scheduled to adjourn to closed session to deliberate on the expulsion of one senior high school student and one junior high school student, review and approve annual school safety drills, and begin the annual superintendent performance evaluation."
+      "item": "Motion to Adjourn to Closed Session",
+      "body": "The board voted 6-0 to enter closed session under Wisconsin open meetings law. The stated purposes were to consider expelling a senior high student and a junior high student, to review annual school safety drills, and to begin the superintendent's annual performance review."
     }
   ],
-  "publicComment": "A public comment period was included on this agenda.",
+  "publicComment": "No public comment was offered.",
+  "publicCommentSpeakers": 0,
   "actionItems": [
-    "Board was expected to approve minutes from November 9, 2026 workshop and October 28, 2026 regular meeting",
-    "Board was expected to approve certified staff employment, resignation, and contract adjustment recommendations for 2026-2027",
-    "Board was expected to approve treasurer's report, balance sheet, budget transfers, and budget revisions",
-    "Board was expected to approve second reading and adoption of 44 district policies",
-    "Board was expected to approve the 2027-2028 budget calendar",
-    "Board was expected to conduct first reading of po2430 District-Sponsored Clubs and Activities",
-    "Board was expected to conduct first reading of po8310 Public Records",
-    "Board was expected to conduct first reading of po2260.01 Section 504 ADA Prohibition Against Discrimination Based on Disability",
-    "Board was expected to conduct first reading of po8510 Wellness",
-    "Board was expected to review and act on course proposals for 2027-2028 school year",
-    "Board was expected to consider expulsion of a senior high school student and a junior high school student in closed session",
-    "Board was expected to review and approve annual school safety drills in closed session",
-    "Board was expected to begin the annual superintendent performance evaluation in closed session"
+    "Policy 2430 (District Sponsored Clubs and Activities) approved on first reading",
+    "Policy 8310 (Public Records) approved on first reading",
+    "Budget calendar for next fiscal year approved",
+    "Policies 2260.01 and 8510 approved on first reading",
+    "Course proposals for the 27-28 school year approved, including AP Seminar",
+    "Board entered closed session to consider student expulsions, review school safety drills, and begin superintendent's annual review",
+    "Kevin Potawelt recognized as National Elementary Social Studies Teacher of the Year for 2026-27",
+    "Referendum resolution expected to be brought to the board at the December meeting",
+    "School calendar committee to meet before the December board meeting"
   ],
-  "topics": [
-    "Policy",
-    "Staffing",
-    "Budget",
-    "Curriculum",
-    "Facilities",
-    "Nondiscrimination and Compliance",
-    "Student Conduct",
-    "Technology",
-    "Records Management"
-  ],
-  "_source": "boardbook_agenda",
-  "title": "Regular School Board Meeting - 2026-11-18",
-  "url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904",
-  "source": "dc_everest",
-  "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904",
-  "processed_at": "2026-11-18T02:01:32.201447+00:00",
   "issues": [
     "schools_learning",
     "budget_taxes",
-    "staffing_pay"
-  ]
+    "buildings_facilities"
+  ],
+  "topics": [
+    "Curriculum",
+    "Student Activities Policy",
+    "Budget Calendar",
+    "Facility Study Referendum",
+    "Special Education Funding"
+  ],
+  "attendance": {
+    "present": [
+      "Shannon Grabko",
+      "Yee Leng Xiong",
+      "Ben Bliven",
+      "Jennifer Douck",
+      "Lindsey Lewitzke",
+      "Larry Schaefer"
+    ],
+    "absent": [
+      "Katie Felch"
+    ]
+  },
+  "votes": [
+    {
+      "item": "Approve agenda",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "Approve consent agenda",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "6-0",
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "First reading of Policy 2430 - District Sponsored Clubs and Activities",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [
+        "Larry Schaefer"
+      ],
+      "abstain": []
+    },
+    {
+      "item": "First reading of Policy 8310 - Public Records",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "Budget calendar",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "First reading of Policies 2260.01 and 8510",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "Course proposals for the 27-28 school year",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": null,
+      "no": [],
+      "abstain": []
+    },
+    {
+      "item": "Adjourn to closed session",
+      "motion": null,
+      "mover": null,
+      "second": null,
+      "outcome": "Approved",
+      "tally": "6-0",
+      "no": [],
+      "abstain": []
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_chars": 20876,
+  "_transcript_hash": "c3329d825a774c79",
+  "title": "Regular School Board Meeting - 2026-11-18",
+  "url": "https://www.youtube.com/watch?v=8gerhrtaCUY",
+  "source": "dc_everest",
+  "doc_url": "https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904",
+  "processed_at": "2026-11-25T00:54:22.811394+00:00"
 }

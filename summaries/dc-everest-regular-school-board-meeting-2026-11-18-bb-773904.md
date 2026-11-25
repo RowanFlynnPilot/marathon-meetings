@@ -1,72 +1,47 @@
 # Regular School Board Meeting - 2026-11-18
 
 **Organization:** DC Everest School Board  
-**Source:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904  
+**Source:** https://www.youtube.com/watch?v=8gerhrtaCUY  
 **Documents:** https://meetings.boardbook.org/Public/Agenda/1315?meeting=773904  
-**Summarized:** 2026-11-18 02:01 UTC
+**Summarized:** 2026-11-25 00:54 UTC
 
 ---
 
 ## Meeting Overview
-Based on the published agenda, the D.C. Everest Area School District Board of Education was scheduled to hold a regular meeting to address extensive policy revisions, budget matters, staffing changes, and facility planning. The meeting included a second reading of 44 district policies covering conduct, nondiscrimination, curriculum, and technology, along with consideration of new policies related to Section 504 ADA compliance and wellness. The board was expected to review facility study findings, course proposals for the 2027-2028 school year, and conduct preliminary discussions on the superintendent's annual evaluation.
+The DC Everest School Board met on Wednesday, November 18, 2026, and approved several policy readings, a budget calendar, and new course proposals. Board member Larry Schaefer raised concerns about a student grade eligibility rule in Policy 2430, arguing students with an F grade should not be allowed to compete in extracurriculars. The board then approved the policy anyway on a voice vote. The board also moved into closed session to consider expelling two students and to begin the superintendent's annual review.
 
 ## Key Discussions
-### Certified Staff Recommended Employment/Resignations/Contract Adjustments
-The board was scheduled to review and approve employment changes for certified staff in the 2026-2027 school year as presented in the consent agenda materials.
+### WASB Report
+Board President Grabko reported on a November WASB legal and legislative update. The state Department of Public Instruction proposed about $2.75 billion in new aid for Wisconsin schools and libraries. Key proposals include raising special education reimbursement to 50% then 60% and counting full-day 4K students as 1 full-time student instead of 0.6. Grabko said these proposals align with what the district has been advocating for.
 
-### Treasurer's Report and Financial Items
-The board was expected to review the November 2026 treasury report, balance sheet for accounts, budget transfers (26-00002 through 26-00030), and budget revisions (26-00002 through 26-00007) as part of the consent agenda.
+### Superintendent's Report
+Superintendent Dr. Nye recapped a recent facility study workshop and said a referendum resolution is expected at the December meeting. He said the likely referendum focuses on junior high needs but also involves a district-wide space strategy tied to declining enrollment. Dr. Nye noted about 2,000 combined parent and staff responses to a school calendar survey and said a calendar committee will meet before the December meeting. He also congratulated Riverside Elementary teacher Kevin Potawelt for being named the National Council for Social Studies National Elementary Social Studies Teacher of the Year for 2026-27.
 
-### Second Reading of 44 District Policies
-The board was scheduled to conduct a second reading of 44 comprehensive district policies covering board conduct, nondiscrimination and anti-harassment measures across all employee and student categories, curriculum development, technology use, student records, transportation, crisis intervention, and Section 504 ADA compliance. These policies span governance, employment practices, instructional programs, and student conduct.
+### First Reading of Policy 2430 - District Sponsored Clubs and Activities
+Larry Schaefer objected to the policy allowing students with an F grade to participate in extracurricular activities. He said students should at minimum have D grades and argued DC Everest should lead rather than follow other districts on the standard. No other board member joined his objection. The board approved the policy on a voice vote over Schaefer's no vote.
 
-### Non-Certified Staff Employment Changes
-The board was scheduled to receive informational updates on non-certified staff employment changes for 2026-2027, with two versions of the informational document provided.
+### First Reading of Policies 2260.01 and 8510
+Larry Schaefer raised two concerns about Policy 2260.01. First, he questioned clunky wording in a paragraph about reasonable accommodations for employees with disabilities. Superintendent Nye agreed the wording was awkward but said the district can administer the policy as written. Second, Schaefer questioned whether a 90-day window to hold a discrimination hearing was too long. Staff explained the timeline gives flexibility to find an independent hearing officer. The board approved both policies on first reading on a voice vote.
 
-### WASB Legislative Network Member Report
-Shannon Grabko was scheduled to present information on WASB legislative network activities and state-level education policy developments relevant to the district.
+### Course Proposals for 27-28 School Year
+Dr. Lindell presented a proposal to add an AP Seminar course, describing it as inquiry-based and more rigorous than the existing Honors English option. Board members asked whether Honors courses would disappear, and Lindell said enrollment in Honors would likely decline slightly but not dramatically. The board approved the course proposals on a voice vote.
 
-### Student Representative Report
-Brynn Kampmann was scheduled to present as the student representative with updates on student body activities and concerns.
+### Budget Calendar
+Finance staff member Dr. Stryk presented the annual budget calendar, noting the district just approved its current-year budget in October and immediately begins planning for the next year. Stryk flagged that the state's two-year budget process creates some unknowns but said the calendar includes flexibility. The board approved the budget calendar on a voice vote with no discussion.
 
-### Superintendent Reports
-Dr. Casey Nye was scheduled to present multiple updates including a district update, findings from a facilities study that will also be discussed in a board workshop, additional facility and program updates, calendar planning survey results, early state budget projections, and recognition of the Teacher of the Year.
-
-### First Reading of po2430 District-Sponsored Clubs and Activities
-The board was scheduled to conduct a first reading of the revised policy on district-sponsored clubs and activities, which had been postponed from the October meeting. A memo on academics and athletics was included with the materials.
-
-### First Reading of po8310 Public Records
-The board was scheduled to conduct a first reading of the revised public records policy, including an open records fee schedule, after this item was postponed from the October meeting.
-
-### Budget Calendar for 2027-2028
-Dr. Strike was scheduled to present the budget calendar for the 2027-2028 school year with accompanying memo and calendar documents for board review and approval.
-
-### First Reading of po2260.01 Section 504 ADA Prohibition Against Discrimination Based on Disability
-The board was scheduled to conduct a first reading of this new policy addressing ADA compliance and nondiscrimination protections based on disability status.
-
-### First Reading of po8510 Wellness
-The board was scheduled to conduct a first reading of a revised wellness policy addressing student and staff health and wellbeing initiatives.
-
-### Course Proposals for 2027-2028
-The board was scheduled to review course proposals for the 2027-2028 school year, including an AP ELA Seminar course, with a memo outlining the academic rationale for new course offerings.
-
-### Closed Session
-The board was scheduled to adjourn to closed session to deliberate on the expulsion of one senior high school student and one junior high school student, review and approve annual school safety drills, and begin the annual superintendent performance evaluation.
+### Motion to Adjourn to Closed Session
+The board voted 6-0 to enter closed session under Wisconsin open meetings law. The stated purposes were to consider expelling a senior high student and a junior high student, to review annual school safety drills, and to begin the superintendent's annual performance review.
 
 ## Public Comment
-A public comment period was included on this agenda.
+No public comment was offered.
 
 ## Action Items
-- Board was expected to approve minutes from November 9, 2026 workshop and October 28, 2026 regular meeting
-- Board was expected to approve certified staff employment, resignation, and contract adjustment recommendations for 2026-2027
-- Board was expected to approve treasurer's report, balance sheet, budget transfers, and budget revisions
-- Board was expected to approve second reading and adoption of 44 district policies
-- Board was expected to approve the 2027-2028 budget calendar
-- Board was expected to conduct first reading of po2430 District-Sponsored Clubs and Activities
-- Board was expected to conduct first reading of po8310 Public Records
-- Board was expected to conduct first reading of po2260.01 Section 504 ADA Prohibition Against Discrimination Based on Disability
-- Board was expected to conduct first reading of po8510 Wellness
-- Board was expected to review and act on course proposals for 2027-2028 school year
-- Board was expected to consider expulsion of a senior high school student and a junior high school student in closed session
-- Board was expected to review and approve annual school safety drills in closed session
-- Board was expected to begin the annual superintendent performance evaluation in closed session
+- Policy 2430 (District Sponsored Clubs and Activities) approved on first reading
+- Policy 8310 (Public Records) approved on first reading
+- Budget calendar for next fiscal year approved
+- Policies 2260.01 and 8510 approved on first reading
+- Course proposals for the 27-28 school year approved, including AP Seminar
+- Board entered closed session to consider student expulsions, review school safety drills, and begin superintendent's annual review
+- Kevin Potawelt recognized as National Elementary Social Studies Teacher of the Year for 2026-27
+- Referendum resolution expected to be brought to the board at the December meeting
+- School calendar committee to meet before the December board meeting
