@@ -1,6 +1,61 @@
 {
   "entries": [
     {
+      "id": "a_6de66db983eb14bf5ba3",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Sustainability, Energy & Environment Committee Meeting",
+      "date": "2026-12-03",
+      "time": "5:00 PM",
+      "issues": [
+        "environment_energy"
+      ],
+      "text": "The Sustainability, Energy & Environment Committee will vote on a title for the city's Five-Year Sustainability Plan. The committee will also discuss survey results and review draft plans for the city's sustainability work over the next five years.",
+      "items": [
+        {
+          "item": "Approving title for Five-Year Sustainability Plan",
+          "action": "vote"
+        },
+        {
+          "item": "Five-Year Sustainability Plan and Work Plan Strategy",
+          "action": "discussion"
+        },
+        {
+          "item": "Community and Business Sustainability Survey results",
+          "action": "discussion"
+        },
+        {
+          "item": "Earth Week Community Pollinator Garden Public Art Proposal",
+          "action": "report"
+        },
+        {
+          "item": "Wausau Sustainability Award",
+          "action": "report"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/2175/overview",
+      "first_seen": "2026-11-25T14:35:42+00:00"
+    },
+    {
+      "id": "r_WvGZ3J7Gbog",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Meeting Pt.2",
+      "date": "2026-11-24",
+      "time": "",
+      "issues": [
+        "water_utilities"
+      ],
+      "text": "The Wausau City Council returned from closed session on Tuesday, November 24, 2026, to vote on settling contamination claims tied to city water wells. The council approved the settlements 10-0 and authorized Mayor Doug Diny to sign the necessary documents. An alderperson reminded the public about a December 2 Committee of the Whole meeting on retaining young people in Wausau. The meeting then adjourned.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/WvGZ3J7Gbog/",
+      "first_seen": "2026-11-25T14:35:42+00:00"
+    },
+    {
       "id": "r_wJzPxkwVCJA",
       "kind": "result",
       "source": "weston",
@@ -1690,6 +1745,7 @@
     "a_475a2e1dc00cf556c98b": "2026-11-24T15:02:39+00:00",
     "a_5cef5fc6072fa237b04f": "2026-11-24T15:02:39+00:00",
     "a_662de08195fcb475353f": "2026-11-24T01:39:19+00:00",
+    "a_6de66db983eb14bf5ba3": "2026-11-25T14:35:42+00:00",
     "a_80136b5bc1300db5c8be": "2026-11-24T01:39:19+00:00",
     "a_c0025436f0c30c706fd8": "2026-11-24T01:39:19+00:00",
     "r_-lWYezOdlqQ": "2026-11-24T01:39:19+00:00",
@@ -1727,6 +1783,7 @@
     "r_UpcAT4xAvZc": "2026-11-24T01:39:19+00:00",
     "r_VQysP2OBjfI": "2026-11-24T01:39:19+00:00",
     "r_VwT65b86_JM": "2026-11-24T01:39:19+00:00",
+    "r_WvGZ3J7Gbog": "2026-11-25T14:35:42+00:00",
     "r_Y4xzT50_kRY": "2026-11-24T01:39:19+00:00",
     "r_ZyVaKfiiYyE": "2026-11-24T01:39:19+00:00",
     "r__Fnn432j7r0": "2026-11-24T01:39:19+00:00",

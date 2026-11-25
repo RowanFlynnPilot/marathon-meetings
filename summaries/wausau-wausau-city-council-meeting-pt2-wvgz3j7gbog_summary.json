@@ -1,0 +1,73 @@
+{
+  "overview": "The Wausau City Council returned from closed session on Tuesday, November 24, 2026, to vote on settling contamination claims tied to city water wells. The council approved the settlements 10-0 and authorized Mayor Doug Diny to sign the necessary documents. An alderperson reminded the public about a December 2 Committee of the Whole meeting on retaining young people in Wausau. The meeting then adjourned.",
+  "committee": "Wausau City Council",
+  "presiding": "Doug Diny, Mayor",
+  "agenda": [
+    {
+      "time": "0:00",
+      "item": "Return to open session from closed session"
+    },
+    {
+      "time": "0:30",
+      "item": "Motion to approve water well contamination settlements and authorize mayor to sign documents"
+    },
+    {
+      "time": "2:30",
+      "item": "Announcements from alders"
+    },
+    {
+      "time": "3:00",
+      "item": "Adjournment"
+    }
+  ],
+  "discussions": [
+    {
+      "item": "Water well contamination settlements",
+      "body": "The council returned from closed session to act on settlements about contamination of city water wells. Tom Neal made the motion to approve the settlements and authorize Mayor Diny to sign the documents. Bruce Trueblood seconded the motion. No further discussion was held before the vote opened. The council approved the settlements 10-0."
+    },
+    {
+      "item": "Announcements",
+      "body": "One alderperson reminded the public about a Committee of the Whole — a full council work session — set for Wednesday, December 2, at 6 p.m. The topic will be concerns of young people and how to keep them in Wausau. The alderperson encouraged residents to attend."
+    }
+  ],
+  "publicComment": "No public comment was offered.",
+  "publicCommentSpeakers": 0,
+  "actionItems": [
+    "Settlements about city water well contamination were approved on a 10-0 vote",
+    "Mayor Doug Diny was authorized to sign the settlement documents",
+    "Committee of the Whole scheduled for December 2 at 6 p.m. on youth retention in Wausau"
+  ],
+  "issues": [
+    "water_utilities"
+  ],
+  "topics": [
+    "Water Well Contamination",
+    "Settlement Approval",
+    "Youth Retention",
+    "Committee of the Whole"
+  ],
+  "attendance": {
+    "present": [],
+    "absent": []
+  },
+  "votes": [
+    {
+      "item": "Approve settlements about city water well contamination and authorize mayor to sign documents",
+      "motion": "Motion to approve the settlements discussed in closed session concerning the contamination of city of Wausau water wells pursuant to the terms presented and authorize the mayor to execute the necessary documents",
+      "mover": "Tom Neal",
+      "second": "Bruce Trueblood",
+      "outcome": "Approved",
+      "tally": "10-0",
+      "no": [],
+      "abstain": []
+    }
+  ],
+  "_source": "transcript",
+  "_transcript_chars": 1584,
+  "_transcript_hash": "854f8df426591045",
+  "title": "Wausau City Council Meeting Pt.2",
+  "url": "https://www.youtube.com/watch?v=WvGZ3J7Gbog",
+  "source": "wausau",
+  "doc_url": null,
+  "processed_at": "2026-11-25T14:32:20.455524+00:00"
+}

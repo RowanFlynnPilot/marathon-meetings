@@ -17,6 +17,7 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: Carbon regeneration of water treatment vessels. The commission is scheduled to vote on approving Carbon Activated Corporation to regenerate six more activated carbon vessels used to treat drinking water.
 - [Tuesday, Dec 1, 5:30 PM: Mosinee School Board, Student Expulsion Hearing (closed session)](https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=501)
   - HEARING: Student expulsion hearing. The board will hold a closed hearing to consider expulsion of a student under Wisconsin law.
+- [Tuesday, Dec 1, 7:00 PM: Mosinee School Board, Special School Board Meeting (residents can speak; closed session)](https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=500)
 - [Wednesday, Dec 2, 7:30 AM: City of Wausau, Police & Fire Commission Special Meeting (closed session)](https://wausauwi.portal.civicclerk.com/event/3667/overview)
 
 ## Contested votes, past week
@@ -58,8 +59,9 @@ No failed, tabled or split votes in the past week's summaries.
 
 ## By issue, next week and past week
 
-- Government Staffing & Pay: 1 ahead, 5 in the past week
+- Government Staffing & Pay: 2 ahead, 5 in the past week
   - AHEAD: Monday, Nov 30: Village of Maine, Board of Trustees Meeting
+  - AHEAD: Tuesday, Dec 1: Mosinee School Board, Special School Board Meeting
   - PAST WEEK: Wausau School Board, Committee of the Whole Meeting (November 23, 2026)
   - PAST WEEK: Wausau School Board, Special Meeting (November 23, 2026)
   - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
@@ -89,9 +91,10 @@ No failed, tabled or split votes in the past week's summaries.
   - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
   - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
   - PAST WEEK: Village of Maine, Municipal Projects & Public Property (November 18, 2026)
-- Water & Utilities: 2 ahead
+- Water & Utilities: 2 ahead, 1 in the past week
   - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
   - AHEAD: Tuesday, Dec 1: City of Wausau, Water Works Commission Meeting
+  - PAST WEEK: City of Wausau, City Council Meeting Pt.2 (November 24, 2026)
 - Housing & Development: 1 in the past week
   - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
 - Parks & Recreation: 1 in the past week

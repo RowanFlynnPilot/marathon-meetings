@@ -170,7 +170,7 @@
     "source": "school_board"
   },
   "4454438dbef6c9f3fd33": {
-    "checked": "2026-11-24T14:56:55+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-01",
     "generations": 1,
     "hash": "a9cfc8264f7580da428929676f6dd8032865614b",
@@ -196,7 +196,7 @@
     "source": "mosinee_schools"
   },
   "475a2e1dc00cf556c98b": {
-    "checked": "2026-11-24T14:56:55+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-01",
     "generations": 1,
     "hash": "a49c1dee4bd84dbba86acadec19a7f5c86264810",
@@ -247,7 +247,7 @@
     "source": "wausau"
   },
   "5cef5fc6072fa237b04f": {
-    "checked": "2026-11-24T14:56:55+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-02",
     "generations": 1,
     "hash": "b3965d4950ed7a0b8e4e1892ee145eeb92017df1",
@@ -325,51 +325,98 @@
     "source": "wausau"
   },
   "6b0a2c8367f23b11b443": {
-    "checked": "2026-11-24T14:56:55+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-01",
-    "generations": 1,
-    "hash": "910842ead3b8d7dc90bbabf39e2a2a6f84c88fca",
+    "generations": 2,
+    "hash": "26402f5370e7aaea6b5c5edf277a52e14726ed0a",
     "name": "Special School Board Meeting",
     "preview": {
-      "closedSession": false,
-      "generated": "2026-11-23T23:34:40+00:00",
+      "closedSession": true,
+      "generated": "2026-11-25T14:29:42+00:00",
       "hearings": [],
       "issues": [
         "schools_learning",
-        "budget_taxes"
+        "budget_taxes",
+        "staffing_pay"
       ],
       "items": [
         {
           "action": "discussion",
           "item": "Policy 2240.01 - Classroom Displays",
-          "why": "The board is scheduled to discuss and possibly vote on a new or revised policy governing what can be displayed in school classrooms."
+          "why": "The board will discuss and may vote on a new policy governing what can be displayed in school classrooms."
         },
         {
           "action": "discussion",
           "item": "Fund 80 Levy and Expenditures",
-          "why": "The board is scheduled to discuss Fund 80, a special funding account, and how the district spends money from it."
+          "why": "The board will discuss Fund 80, which is a special school funding account, and how those dollars are spent."
         },
         {
           "action": "discussion",
           "item": "Mosinee School District Day Care",
-          "why": "The board is scheduled to discuss the district's childcare program and operations."
+          "why": "The board will discuss the district's day care services and operations."
         },
         {
           "action": "discussion",
           "item": "Board Member Communication with Administration",
-          "why": "The board is scheduled to discuss how board members should communicate with school staff and leadership."
+          "why": "The board will discuss how members should communicate with school administrators."
         },
         {
           "action": "discussion",
           "item": "Board Agenda Planning",
-          "why": "The board is scheduled to discuss and possibly vote on how to plan future meeting agendas."
+          "why": "The board will discuss and may vote on how to plan future meeting agendas."
         }
       ],
-      "overview": "The Mosinee School Board is scheduled to discuss several internal matters including classroom display policies, childcare operations, and how board members communicate with school administrators.",
+      "overview": "The Mosinee School Board is scheduled to discuss classroom display policies and school day care services. The board will also hold a closed session to discuss personnel matters.",
       "publicComment": true
     },
     "prompt": "4",
     "source": "mosinee_schools"
+  },
+  "6de66db983eb14bf5ba3": {
+    "checked": "2026-11-25T14:29:42+00:00",
+    "date": "2026-12-03",
+    "generations": 1,
+    "hash": "8ab552749b1418c65e60e9ab9787c1ea958b4811",
+    "name": "Sustainability, Energy & Environment Committee Meeting",
+    "preview": {
+      "closedSession": false,
+      "generated": "2026-11-25T14:29:42+00:00",
+      "hearings": [],
+      "issues": [
+        "environment_energy"
+      ],
+      "items": [
+        {
+          "action": "vote",
+          "item": "Approving title for Five-Year Sustainability Plan",
+          "why": "The committee will vote on a name for the city's comprehensive five-year sustainability plan."
+        },
+        {
+          "action": "discussion",
+          "item": "Five-Year Sustainability Plan and Work Plan Strategy",
+          "why": "The committee will discuss the draft Five-Year Sustainability Plan and Five-Year Work Plan Strategy."
+        },
+        {
+          "action": "discussion",
+          "item": "Community and Business Sustainability Survey results",
+          "why": "The committee will discuss results from surveys about sustainability sent to the community and local businesses."
+        },
+        {
+          "action": "report",
+          "item": "Earth Week Community Pollinator Garden Public Art Proposal",
+          "why": "The committee will receive an update on a public art proposal for a pollinator garden tied to Earth Week."
+        },
+        {
+          "action": "report",
+          "item": "Wausau Sustainability Award",
+          "why": "The committee will receive an update on the Wausau Sustainability Award."
+        }
+      ],
+      "overview": "The Sustainability, Energy & Environment Committee will vote on a title for the city's Five-Year Sustainability Plan. The committee will also discuss survey results and review draft plans for the city's sustainability work over the next five years.",
+      "publicComment": true
+    },
+    "prompt": "4",
+    "source": "wausau"
   },
   "710a91f459cd14f98463": {
     "checked": "2026-11-23T23:34:40+00:00",
@@ -415,7 +462,7 @@
     "source": "mosinee"
   },
   "80136b5bc1300db5c8be": {
-    "checked": "2026-11-24T14:56:55+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-01",
     "generations": 3,
     "hash": "d30af325d8ddf12e3fb76f21a4e92a3bef5ab7d6",
@@ -448,7 +495,7 @@
     "source": "wausau"
   },
   "aaeaa5b29ac16f864fcb": {
-    "checked": "2026-11-25T00:50:10+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-11-30",
     "generations": 1,
     "hash": "e03643e06faa473a806d9fd9310bfa1bf23137f5",
@@ -611,7 +658,7 @@
     "source": "wausau"
   },
   "f90497a4925aec24c410": {
-    "checked": "2026-11-25T00:50:10+00:00",
+    "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-11-30",
     "generations": 1,
     "hash": "307557d964b569a71264ddc5e6021da02790b8f4",
