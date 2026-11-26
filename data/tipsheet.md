@@ -15,16 +15,25 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - VOTE: PFAS settlement funds for capital projects. The commission is scheduled to vote on approving how to use settlement money for water system improvements.
   - VOTE: Lead service line replacement fund borrowing. The commission is scheduled to vote on borrowing money from the regular drinking water funding program to replace lead service lines on the public side of connections.
   - VOTE: Carbon regeneration of water treatment vessels. The commission is scheduled to vote on approving Carbon Activated Corporation to regenerate six more activated carbon vessels used to treat drinking water.
+- [Tuesday, Dec 1, 5:15 PM: City of Wausau, Economic Development Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/3617/overview)
+  - VOTE: EPA technical assistance for 1300 Cleveland Avenue redevelopment. The committee is asked to approve a scope of work for EPA OBLR (Brownfields) Land Revitalization Technical Assistance providing site visioning and financing support for 1300 Cleveland Avenue.
 - [Tuesday, Dec 1, 5:30 PM: Mosinee School Board, Student Expulsion Hearing (closed session)](https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=501)
   - HEARING: Student expulsion hearing. The board will hold a closed hearing to consider expulsion of a student under Wisconsin law.
 - [Tuesday, Dec 1, 7:00 PM: Mosinee School Board, Special School Board Meeting (residents can speak; closed session)](https://mosineeschools.community.highbond.com/Portal/MeetingInformation.aspx?Id=500)
+- [Wednesday, Dec 2, 4:30 PM: City of Wausau, Historic Preservation Commission Meeting](https://wausauwi.portal.civicclerk.com/event/2505/overview)
+  - VOTE: Historic Preservation Commission webpage. The commission will discuss and vote on creating a webpage to inform residents and historic property owners about preservation rules and information.
 - [Wednesday, Dec 2, 7:30 AM: City of Wausau, Police & Fire Commission Special Meeting (closed session)](https://wausauwi.portal.civicclerk.com/event/3667/overview)
 - [Thursday, Dec 3, 5:00 PM: City of Wausau, Sustainability, Energy & Environment Committee Meeting (residents can speak)](https://wausauwi.portal.civicclerk.com/event/2175/overview)
   - VOTE: Approving title for Five-Year Sustainability Plan. The committee will vote on a name for the city's comprehensive five-year sustainability plan.
 
 ## Contested votes, past week
 
-No failed, tabled or split votes in the past week's summaries.
+- [City of Wausau, City Council Meeting (November 24, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/cIEivHaKRZI/)
+  - FAILED 4-6: File 23-1121 — 2026 pilot payment (payment in lieu of taxes) for Wausau Waterworks at $1.59 million
+  - SPLIT 6-4: File 98-0707 — Comprehensive purchasing card policy
+  - SPLIT 9-1: File 26-1119 — Deed restriction and non-conforming uses at 1300 Cleveland Avenue (as amended)
+  - SPLIT 6-4: Amendment to District 9 vacancy resolution — strike appointment, hold special election only
+  - SPLIT 9-1: File 02-0430 — Hold special election in April to fill District 9 vacancy (as amended, no interim appointment)
 
 ## Who voted no most, past 30 days
 
@@ -78,32 +87,42 @@ No failed, tabled or split votes in the past week's summaries.
   - AHEAD: Tuesday, Dec 1: Mosinee School Board, Special School Board Meeting
   - PAST WEEK: Wausau School Board, Committee of the Whole Meeting (November 23, 2026)
   - PAST WEEK: Wausau School Board, Special Meeting (November 23, 2026)
+- Water & Utilities: 2 ahead, 2 in the past week
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Water Works Commission Meeting
+  - PAST WEEK: City of Wausau, City Council Meeting (November 24, 2026)
+  - PAST WEEK: City of Wausau, City Council Meeting Pt.2 (November 24, 2026)
+- Housing & Development: 2 ahead, 1 in the past week
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Economic Development Committee Meeting
+  - AHEAD: Wednesday, Dec 2: City of Wausau, Historic Preservation Commission Meeting
+  - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
 - Public Buildings: 1 ahead, 2 in the past week
   - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
   - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
   - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
-- Water & Utilities: 2 ahead, 1 in the past week
-  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
-  - AHEAD: Tuesday, Dec 1: City of Wausau, Water Works Commission Meeting
-  - PAST WEEK: City of Wausau, City Council Meeting Pt.2 (November 24, 2026)
+- How Government Works: 1 ahead, 1 in the past week
+  - AHEAD: Wednesday, Dec 2: City of Wausau, Historic Preservation Commission Meeting
+  - PAST WEEK: City of Wausau, City Council Meeting (November 24, 2026)
+- Jobs & Economy: 2 ahead
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Economic Development Committee Meeting
+  - AHEAD: Wednesday, Dec 2: City of Wausau, Youth Workshop
 - Parks & Recreation: 2 in the past week
   - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
   - PAST WEEK: Village of Weston, Parks Committee (November 23, 2026)
 - Roads & Transportation: 1 ahead, 1 in the past week
   - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
   - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
+- Zoning & Land Use: 1 ahead, 1 in the past week
+  - AHEAD: Monday, Nov 30: Village of Maine, Plan Commission
+  - PAST WEEK: City of Wausau, City Council Meeting (November 24, 2026)
 - Environment & Energy: 1 ahead
   - AHEAD: Thursday, Dec 3: City of Wausau, Sustainability, Energy & Environment Committee Meeting
-- Housing & Development: 1 in the past week
-  - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
 - Public Safety: 1 ahead
   - AHEAD: Wednesday, Dec 2: City of Wausau, Police & Fire Commission Special Meeting
-- Zoning & Land Use: 1 ahead
-  - AHEAD: Monday, Nov 30: Village of Maine, Plan Commission
 
 ## Crowded public comment, past week
 
-No meeting in the past week had 3 or more residents speak.
+- [4 residents spoke: City of Wausau, City Council Meeting (November 24, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/cIEivHaKRZI/)
 
 ## Recurring specifics, past 30 days
 
@@ -143,6 +162,5 @@ No meeting in the past week had 3 or more residents speak.
 
 ## Next week's meetings without a preview
 
-- City of Wausau: 4 meetings with no agenda read yet
 - Marathon County: 1 meeting with no agenda read yet
 - Village of Kronenwetter: 1 meeting with no agenda read yet

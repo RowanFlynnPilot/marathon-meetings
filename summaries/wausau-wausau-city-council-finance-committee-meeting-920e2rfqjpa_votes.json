@@ -1,0 +1,366 @@
+{
+  "event_id": 2433,
+  "agenda_id": 2699,
+  "items": [
+    {
+      "number": "1",
+      "name": "Public comment on agenda items and reading of the City of Wausau Public Comment Statement.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": []
+    },
+    {
+      "number": "2",
+      "name": "Consideration of the minutes of the preceding meeting(s).",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "approve [AGENDA_ITEM_NAME]",
+          "passed": true,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Tom Neal",
+          "yes": [
+            "Tom Neal",
+            "Michael  Martens",
+            "Vicki Tierney",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Joint Finance Committee and Human Resources Committee Minutes",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "FinanceHumanResources_Joint_11102026_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10568)",
+              "type": "application/pdf",
+              "size": 326141
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Discussion and possible action.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Approving Purchase of Animal Impoundment Services Agreement with the Humane Society of Marathon County, Inc.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Vicki Tierney",
+              "yes": [
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo - Police",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11592)",
+              "type": "application/pdf",
+              "size": 274132
+            },
+            {
+              "name": "Purchase of Animal Impoundment Services Agreement with the Humane Society of Marathon County, Inc.",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11593)",
+              "type": "application/pdf",
+              "size": 137334
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "b",
+          "name": "Approve Small Government Enterprise Agreement with Environmental Systems Research Institute, Inc. (Esri).",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Tom Neal",
+              "seconder": "Matt Hoenecke",
+              "yes": [
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Esri Renewal Quote and Small Enterprise Agreement County and Municipality Government",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10409)",
+              "type": "application/pdf",
+              "size": 196173
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "c",
+          "name": "Approving Production Agreement Between Marathon County and City of Wausau.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            },
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": false,
+              "initiator": " ",
+              "seconder": " ",
+              "yes": [],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Production Agreement between Marathon County 2027-2028",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11594)",
+              "type": "application/pdf",
+              "size": 99437
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "d",
+          "name": "Approving agreement between City of Wausau and the Wausau Cemetery Association.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve [AGENDA_ITEM_NAME]",
+              "passed": false,
+              "initiator": " ",
+              "seconder": " ",
+              "yes": [],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Wausau Cemetery Association Agreement 2026",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10543)",
+              "type": "application/pdf",
+              "size": 60981
+            },
+            {
+              "name": "Wausau Cemetery Association Agreement 2016",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10544)",
+              "type": "application/pdf",
+              "size": 737841
+            },
+            {
+              "name": "FinanceCommittee_Regular_09272016_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10545)",
+              "type": "application/pdf",
+              "size": 821336
+            },
+            {
+              "name": "Wausau Cemetery Association Agreement - 1st Amendment ",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10546)",
+              "type": "application/pdf",
+              "size": 504692
+            },
+            {
+              "name": "FinanceCommittee_Regular_09082021_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10547)",
+              "type": "application/pdf",
+              "size": 1323323
+            },
+            {
+              "name": "Wausau Cemetery Association Agreement - 2nd Amendment",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10548)",
+              "type": "application/pdf",
+              "size": 783282
+            },
+            {
+              "name": "FinanceCommittee_Regular_04092024_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10549)",
+              "type": "application/pdf",
+              "size": 1404363
+            },
+            {
+              "name": "Wausau Cemetery Trust Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10550)",
+              "type": "application/pdf",
+              "size": 1806290
+            },
+            {
+              "name": "FinanceCommittee_Regular_04142015_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10551)",
+              "type": "application/pdf",
+              "size": 9782455
+            },
+            {
+              "name": "FinanceCommittee_Regular_06102015_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10552)",
+              "type": "application/pdf",
+              "size": 453228
+            },
+            {
+              "name": "Wausau Cemetery Trust Agreement - 1st Amendment",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10553)",
+              "type": "application/pdf",
+              "size": 904218
+            },
+            {
+              "name": "FinanceCommittee_Regular_06092020_Minutes",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10554)",
+              "type": "application/pdf",
+              "size": 2088935
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "e",
+          "name": "Approving Purchase and Security Agreement between Zoll Medical Corporation and City of Wausau for Purchase of Cardiac Monitors and Ventilators for the Fire Department.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": true,
+              "initiator": "Matt Hoenecke",
+              "seconder": "Tom Neal",
+              "yes": [
+                "Tom Neal",
+                "Michael  Martens",
+                "Vicki Tierney",
+                "Matt Hoenecke"
+              ],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "Staff Memo",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11584)",
+              "type": "application/pdf",
+              "size": 871654
+            },
+            {
+              "name": "Final Quote and Security Agreement",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11585)",
+              "type": "application/pdf",
+              "size": 70557
+            }
+          ],
+          "children": []
+        },
+        {
+          "number": "f",
+          "name": "Approve budget modification and Sole Source Request for the purchase of Outdoor Vertical Platform Lift for Athletic Park.",
+          "desc": "",
+          "votes": [
+            {
+              "motion": "approve",
+              "passed": false,
+              "initiator": " ",
+              "seconder": " ",
+              "yes": [],
+              "no": [],
+              "abstain": []
+            }
+          ],
+          "docs": [
+            {
+              "name": "ArrowLift Quote",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11661)",
+              "type": "application/pdf",
+              "size": 378878
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Discussion.",
+      "desc": "",
+      "votes": [],
+      "docs": [],
+      "children": [
+        {
+          "number": "a",
+          "name": "Update on the County Pet License Fee Structure for 2027",
+          "desc": "",
+          "votes": [],
+          "docs": [
+            {
+              "name": "Email from Marathon County Clerks Office Regarding 2027 Dog License Year",
+              "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11618)",
+              "type": "application/pdf",
+              "size": 218636
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Adjournment.",
+      "desc": "",
+      "votes": [
+        {
+          "motion": "adjourn",
+          "passed": true,
+          "initiator": "Matt Hoenecke",
+          "seconder": "Vicki Tierney",
+          "yes": [
+            "Tom Neal",
+            "Michael  Martens",
+            "Vicki Tierney",
+            "Matt Hoenecke"
+          ],
+          "no": [],
+          "abstain": []
+        }
+      ],
+      "docs": [],
+      "children": []
+    }
+  ]
+}

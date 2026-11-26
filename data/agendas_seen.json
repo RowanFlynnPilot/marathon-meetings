@@ -5,6 +5,12 @@
     "seen": "2026-11-23T00:58:31+00:00",
     "source": "school_board"
   },
+  "0c89150ef3ccc6c635df": {
+    "date": "2026-12-02",
+    "name": "Youth Workshop",
+    "seen": "2026-11-26T13:58:22+00:00",
+    "source": "wausau"
+  },
   "1840f1f9e200f1ed5335": {
     "date": "2026-11-24",
     "name": "Community Development Authority Board Meeting",
@@ -15,6 +21,12 @@
     "date": "2026-11-23",
     "name": "Police & Fire Commission Meeting",
     "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  },
+  "3a44246273eee2e25e4c": {
+    "date": "2026-12-01",
+    "name": "Economic Development Committee Meeting",
+    "seen": "2026-11-26T13:58:22+00:00",
     "source": "wausau"
   },
   "40f8a47f78dac7d1f4e7": {
@@ -65,6 +77,12 @@
     "seen": "2026-11-23T02:04:33+00:00",
     "source": "mosinee"
   },
+  "71d8c2e923b3642681bb": {
+    "date": "2026-12-02",
+    "name": "Historic Preservation Commission Meeting",
+    "seen": "2026-11-26T13:58:22+00:00",
+    "source": "wausau"
+  },
   "80136b5bc1300db5c8be": {
     "date": "2026-12-01",
     "name": "Board of Public Works Meeting",
@@ -93,6 +111,12 @@
     "date": "2026-11-23",
     "name": "Bicycle & Pedestrian Advisory Committee Meeting",
     "seen": "2026-11-23T00:58:31+00:00",
+    "source": "wausau"
+  },
+  "ecfc3480ee8066504ea3": {
+    "date": "2026-12-02",
+    "name": "Business Improvement District Board Meeting",
+    "seen": "2026-11-26T13:58:22+00:00",
     "source": "wausau"
   },
   "f90497a4925aec24c410": {

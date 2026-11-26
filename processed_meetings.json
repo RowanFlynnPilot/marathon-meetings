@@ -3633,13 +3633,25 @@
     "920E2RFqjPA": {
       "title": "Wausau City Council Finance Committee Meeting",
       "source": "wausau",
-      "doc_url": null,
+      "doc_url": "https://wausauwi.portal.civicclerk.com/event/2433/files",
       "upload_date": "20261124",
       "meeting_date": "20261124",
       "duration": 2895,
       "video_url": null,
       "processed_at": "2026-11-26T00:28:29.998669+00:00",
-      "summary_file": "summaries/wausau-wausau-city-council-finance-committee-meeting-920e2rfqjpa.md"
+      "summary_file": "summaries/wausau-wausau-city-council-finance-committee-meeting-920e2rfqjpa.md",
+      "portal_votes_checked": "2026-11-26"
+    },
+    "cIEivHaKRZI": {
+      "title": "Wausau City Council Meeting",
+      "source": "wausau",
+      "doc_url": null,
+      "upload_date": "20261124",
+      "meeting_date": "20261124",
+      "duration": null,
+      "video_url": null,
+      "processed_at": "2026-11-26T14:03:10.693128+00:00",
+      "summary_file": "summaries/wausau-wausau-city-council-meeting-cieivhakrzi.md"
     }
   }
 }

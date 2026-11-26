@@ -1,6 +1,157 @@
 {
   "entries": [
     {
+      "id": "a_ecfc3480ee8066504ea3",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Business Improvement District Board Meeting",
+      "date": "2026-12-02",
+      "time": "8:00 AM",
+      "issues": [],
+      "text": "The Business Improvement District Board will meet to review past meeting minutes and hear an executive director's report. The agenda does not list specific decisions or hearings for residents.",
+      "items": [
+        {
+          "item": "Executive Director's Report",
+          "action": "discussion"
+        }
+      ],
+      "hearings": [],
+      "publicComment": false,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3696/overview",
+      "first_seen": "2026-11-26T14:05:40+00:00"
+    },
+    {
+      "id": "a_71d8c2e923b3642681bb",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Historic Preservation Commission Meeting",
+      "date": "2026-12-02",
+      "time": "4:30 PM",
+      "issues": [
+        "housing_development",
+        "government_elections"
+      ],
+      "text": "The Historic Preservation Commission will discuss how to enforce maintenance rules for historic properties and consider new signs for historic districts. The commission will also vote on creating a website to inform residents about historic preservation.",
+      "items": [
+        {
+          "item": "Enforcement of historic property maintenance requirements",
+          "action": "discussion"
+        },
+        {
+          "item": "Historic district signs: quantity, cost, and funding",
+          "action": "discussion"
+        },
+        {
+          "item": "Historic Preservation Commission webpage",
+          "action": "vote"
+        },
+        {
+          "item": "Future landmarks for consideration",
+          "action": "discussion"
+        }
+      ],
+      "hearings": [],
+      "publicComment": false,
+      "url": "https://wausauwi.portal.civicclerk.com/event/2505/overview",
+      "first_seen": "2026-11-26T14:05:40+00:00"
+    },
+    {
+      "id": "a_0c89150ef3ccc6c635df",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Youth Workshop",
+      "date": "2026-12-02",
+      "time": "6:00 PM",
+      "issues": [
+        "jobs_economy"
+      ],
+      "text": "The Wausau Common Council is scheduled to hold a workshop with student representatives to discuss why young people leave, return to, or stay in Wausau. The council will discuss and may act on student and group priorities that come out of the workshop.",
+      "items": [
+        {
+          "item": "Workshop on young people staying in or leaving Wausau",
+          "action": "discussion"
+        },
+        {
+          "item": "Student and group priorities from the workshop",
+          "action": "discussion"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3660/overview",
+      "first_seen": "2026-11-26T14:05:40+00:00"
+    },
+    {
+      "id": "a_3a44246273eee2e25e4c",
+      "kind": "agenda",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "Economic Development Committee Meeting",
+      "date": "2026-12-01",
+      "time": "5:15 PM",
+      "issues": [
+        "jobs_economy",
+        "housing_development"
+      ],
+      "text": "The Economic Development Committee is scheduled to approve federal technical assistance for a brownfield redevelopment project at 1300 Cleveland Avenue. The committee will also hear an update on infill housing development at 1019 West Bridge Street.",
+      "items": [
+        {
+          "item": "EPA technical assistance for 1300 Cleveland Avenue redevelopment",
+          "action": "vote"
+        },
+        {
+          "item": "Update on 1019 West Bridge Street infill housing project",
+          "action": "report"
+        }
+      ],
+      "hearings": [],
+      "publicComment": true,
+      "url": "https://wausauwi.portal.civicclerk.com/event/3617/overview",
+      "first_seen": "2026-11-26T14:05:40+00:00"
+    },
+    {
+      "id": "r_cIEivHaKRZI",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Meeting",
+      "date": "2026-11-24",
+      "time": "",
+      "issues": [
+        "water_utilities",
+        "zoning_land_use",
+        "government_elections"
+      ],
+      "text": "The Wausau City Council met on Tuesday, November 24, 2026, and took action on a range of items. The council defeated a resolution to set the 2026 payment-in-lieu-of-taxes (a tax charged to the city water utility in place of property taxes) at a reduced rate of $1.59 million, meaning the full calculated amount of nearly $2 million will now apply to the utility.",
+      "contested": [
+        {
+          "item": "File 23-1121 — 2026 pilot payment (payment in lieu of taxes) for Wausau Waterworks at $1.59 million",
+          "why": "failed 4-6"
+        },
+        {
+          "item": "File 98-0707 — Comprehensive purchasing card policy",
+          "why": "split 6-4"
+        },
+        {
+          "item": "File 26-1119 — Deed restriction and non-conforming uses at 1300 Cleveland Avenue (as amended)",
+          "why": "split 9-1"
+        },
+        {
+          "item": "Amendment to District 9 vacancy resolution — strike appointment, hold special election only",
+          "why": "split 6-4"
+        },
+        {
+          "item": "File 02-0430 — Hold special election in April to fill District 9 vacancy (as amended, no interim appointment)",
+          "why": "split 9-1"
+        }
+      ],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/cIEivHaKRZI/",
+      "first_seen": "2026-11-26T14:05:40+00:00"
+    },
+    {
       "id": "r_920E2RFqjPA",
       "kind": "result",
       "source": "wausau",
@@ -1759,13 +1910,17 @@
     }
   ],
   "seen": {
+    "a_0c89150ef3ccc6c635df": "2026-11-26T14:05:40+00:00",
     "a_1840f1f9e200f1ed5335": "2026-11-24T01:39:19+00:00",
+    "a_3a44246273eee2e25e4c": "2026-11-26T14:05:40+00:00",
     "a_475a2e1dc00cf556c98b": "2026-11-24T15:02:39+00:00",
     "a_5cef5fc6072fa237b04f": "2026-11-24T15:02:39+00:00",
     "a_662de08195fcb475353f": "2026-11-24T01:39:19+00:00",
     "a_6de66db983eb14bf5ba3": "2026-11-25T14:35:42+00:00",
+    "a_71d8c2e923b3642681bb": "2026-11-26T14:05:40+00:00",
     "a_80136b5bc1300db5c8be": "2026-11-24T01:39:19+00:00",
     "a_c0025436f0c30c706fd8": "2026-11-24T01:39:19+00:00",
+    "a_ecfc3480ee8066504ea3": "2026-11-26T14:05:40+00:00",
     "r_-lWYezOdlqQ": "2026-11-24T01:39:19+00:00",
     "r_0bScOP-rhOE": "2026-11-24T01:39:19+00:00",
     "r_1MuGCAijiwY": "2026-11-24T01:39:19+00:00",
@@ -1812,6 +1967,7 @@
     "r_bb_769562": "2026-11-24T01:39:19+00:00",
     "r_bb_773225": "2026-11-24T01:39:19+00:00",
     "r_bb_773904": "2026-11-25T00:57:43+00:00",
+    "r_cIEivHaKRZI": "2026-11-26T14:05:40+00:00",
     "r_cw6DqUF_9vk": "2026-11-24T01:39:19+00:00",
     "r_d4d1DWUqlLs": "2026-11-24T01:39:19+00:00",
     "r_jJSODjKNYEM": "2026-11-24T01:39:19+00:00",

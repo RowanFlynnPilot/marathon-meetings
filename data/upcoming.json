@@ -185,7 +185,30 @@
       "time": "5:15 PM",
       "name": "Economic Development Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3617/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-26T13:58:22+00:00",
+        "hearings": [],
+        "issues": [
+          "jobs_economy",
+          "housing_development"
+        ],
+        "items": [
+          {
+            "action": "vote",
+            "item": "EPA technical assistance for 1300 Cleveland Avenue redevelopment",
+            "why": "The committee is asked to approve a scope of work for EPA OBLR (Brownfields) Land Revitalization Technical Assistance providing site visioning and financing support for 1300 Cleveland Avenue."
+          },
+          {
+            "action": "report",
+            "item": "Update on 1019 West Bridge Street infill housing project",
+            "why": "The committee will receive an update on infill housing development at 1019 West Bridge Street."
+          }
+        ],
+        "overview": "The Economic Development Committee is scheduled to approve federal technical assistance for a brownfield redevelopment project at 1300 Cleveland Avenue. The committee will also hear an update on infill housing development at 1019 West Bridge Street.",
+        "publicComment": true
+      }
     },
     {
       "date": "2026-12-02",
@@ -216,21 +239,91 @@
       "time": "8:00 AM",
       "name": "Business Improvement District Board Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3696/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-26T13:58:22+00:00",
+        "hearings": [],
+        "issues": [],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Executive Director's Report",
+            "why": "The board will discuss and possibly act on matters in the executive director's report, though specific topics are not detailed on the agenda."
+          }
+        ],
+        "overview": "The Business Improvement District Board will meet to review past meeting minutes and hear an executive director's report. The agenda does not list specific decisions or hearings for residents.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-02",
       "time": "4:30 PM",
       "name": "Historic Preservation Commission Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2505/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-26T13:58:22+00:00",
+        "hearings": [],
+        "issues": [
+          "housing_development",
+          "government_elections"
+        ],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Enforcement of historic property maintenance requirements",
+            "why": "The commission will discuss how to enforce rules that require owners of historic properties to maintain them properly."
+          },
+          {
+            "action": "discussion",
+            "item": "Historic district signs: quantity, cost, and funding",
+            "why": "The commission will discuss and decide on the number, cost, and funding for signs marking historic districts in Wausau."
+          },
+          {
+            "action": "vote",
+            "item": "Historic Preservation Commission webpage",
+            "why": "The commission will discuss and vote on creating a webpage to inform residents and historic property owners about preservation rules and information."
+          },
+          {
+            "action": "discussion",
+            "item": "Future landmarks for consideration",
+            "why": "The commission will discuss which Wausau buildings or sites might become historic landmarks in the future."
+          }
+        ],
+        "overview": "The Historic Preservation Commission will discuss how to enforce maintenance rules for historic properties and consider new signs for historic districts. The commission will also vote on creating a website to inform residents about historic preservation.",
+        "publicComment": false
+      }
     },
     {
       "date": "2026-12-02",
       "time": "6:00 PM",
       "name": "Youth Workshop",
       "url": "https://wausauwi.portal.civicclerk.com/event/3660/overview",
-      "source": "wausau"
+      "source": "wausau",
+      "preview": {
+        "closedSession": false,
+        "generated": "2026-11-26T13:58:22+00:00",
+        "hearings": [],
+        "issues": [
+          "jobs_economy"
+        ],
+        "items": [
+          {
+            "action": "discussion",
+            "item": "Workshop on young people staying in or leaving Wausau",
+            "why": "Council members will meet with student representatives to discuss issues affecting young people and their decisions about living in Wausau."
+          },
+          {
+            "action": "discussion",
+            "item": "Student and group priorities from the workshop",
+            "why": "The council will discuss and possibly act on priorities identified by students and groups during the workshop."
+          }
+        ],
+        "overview": "The Wausau Common Council is scheduled to hold a workshop with student representatives to discuss why young people leave, return to, or stay in Wausau. The council will discuss and may act on student and group priorities that come out of the workshop.",
+        "publicComment": true
+      }
     },
     {
       "date": "2026-12-03",

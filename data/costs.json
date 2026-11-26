@@ -5688,5 +5688,55 @@
     "input_tokens": 11988,
     "output_tokens": 1785,
     "usd": 0.062739
+  },
+  {
+    "ts": "2026-11-26T13:58:31.208039+00:00",
+    "meeting_id": "3a44246273eee2e25e4c",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2226,
+    "output_tokens": 255,
+    "usd": 0.003501
+  },
+  {
+    "ts": "2026-11-26T13:58:36.566064+00:00",
+    "meeting_id": "ecfc3480ee8066504ea3",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2147,
+    "output_tokens": 146,
+    "usd": 0.002877
+  },
+  {
+    "ts": "2026-11-26T13:58:40.986157+00:00",
+    "meeting_id": "71d8c2e923b3642681bb",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2331,
+    "output_tokens": 332,
+    "usd": 0.003991
+  },
+  {
+    "ts": "2026-11-26T13:58:44.832037+00:00",
+    "meeting_id": "0c89150ef3ccc6c635df",
+    "jurisdiction": "wausau",
+    "purpose": "agenda_preview",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2277,
+    "output_tokens": 233,
+    "usd": 0.003442
+  },
+  {
+    "ts": "2026-11-26T14:03:10.686095+00:00",
+    "meeting_id": "cIEivHaKRZI",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 34667,
+    "output_tokens": 4321,
+    "usd": 0.168816
   }
 ]
