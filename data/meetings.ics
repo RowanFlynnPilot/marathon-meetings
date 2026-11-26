@@ -52,16 +52,6 @@ DTSTAMP:20261201T000000Z
 DTSTART;TZID=America/Chicago:20261201T171500
 DTEND;TZID=America/Chicago:20261201T184500
 SUMMARY:City of Wausau: Economic Development Committee Meeting
-URL:https://wausauwi.portal.civicclerk.com/event/3589/overview
-DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
- ndreview.com/central-wisconsin-meeting-tracker/
-END:VEVENT
-BEGIN:VEVENT
-UID:3a44246273eee2e25e4c@marathon-meetings
-DTSTAMP:20261201T000000Z
-DTSTART;TZID=America/Chicago:20261201T171500
-DTEND;TZID=America/Chicago:20261201T184500
-SUMMARY:City of Wausau: Economic Development Committee Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/3617/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
@@ -84,6 +74,16 @@ DTSTART;TZID=America/Chicago:20261202T073000
 DTEND;TZID=America/Chicago:20261202T090000
 SUMMARY:City of Wausau: Police & Fire Commission Special Meeting
 URL:https://wausauwi.portal.civicclerk.com/event/3667/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecfc3480ee8066504ea3@marathon-meetings
+DTSTAMP:20261202T000000Z
+DTSTART;TZID=America/Chicago:20261202T080000
+DTEND;TZID=America/Chicago:20261202T093000
+SUMMARY:City of Wausau: Business Improvement District Board Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/3696/overview
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
@@ -634,6 +634,26 @@ DTSTAMP:20270121T000000Z
 DTSTART;TZID=America/Chicago:20270121T180000
 DTEND;TZID=America/Chicago:20270121T193000
 SUMMARY:Village of Weston: Mountain Bay Metro Police Oversight
+URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:3095f18529aa01e2f856@marathon-meetings
+DTSTAMP:20270125T000000Z
+DTSTART;TZID=America/Chicago:20270125T170000
+DTEND;TZID=America/Chicago:20270125T183000
+SUMMARY:Wausau School Board: Education & Operations Committee
+URL:https://meetings.boardbook.org/Public/Organization/1360
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:72eff6c3b500134f7610@marathon-meetings
+DTSTAMP:20270125T000000Z
+DTSTART;TZID=America/Chicago:20270125T180000
+DTEND;TZID=America/Chicago:20270125T193000
+SUMMARY:Village of Weston: Parks & Recreation Committee
 URL:https://www.westonwi.gov/agendacenter
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/

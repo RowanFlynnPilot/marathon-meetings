@@ -5678,5 +5678,15 @@
     "input_tokens": 2848,
     "output_tokens": 717,
     "usd": 0.019299
+  },
+  {
+    "ts": "2026-11-26T00:28:29.993164+00:00",
+    "meeting_id": "920E2RFqjPA",
+    "jurisdiction": "wausau",
+    "purpose": "transcript_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 11988,
+    "output_tokens": 1785,
+    "usd": 0.062739
   }
 ]

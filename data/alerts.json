@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "r_920E2RFqjPA",
+      "kind": "result",
+      "source": "wausau",
+      "board": "City of Wausau",
+      "meeting": "City Council Finance Committee Meeting",
+      "date": "2026-11-24",
+      "time": "",
+      "issues": [
+        "budget_taxes",
+        "parks_recreation",
+        "buildings_facilities"
+      ],
+      "text": "The Wausau City Council Finance Committee met on Tuesday, November 24, 2026 and approved several contracts and service agreements. A new outdoor lift for Athletic Park was sent back for more quotes before a final vote. A cemetery maintenance agreement was also sent back to staff for corrections before a December vote.",
+      "contested": [],
+      "url": "https://rowanflynnpilot.github.io/marathon-meetings/meetings/920E2RFqjPA/",
+      "first_seen": "2026-11-26T00:32:28+00:00"
+    },
+    {
       "id": "a_6de66db983eb14bf5ba3",
       "kind": "agenda",
       "source": "wausau",
@@ -1761,6 +1779,7 @@
     "r_7uG0YZACZUY": "2026-11-24T01:39:19+00:00",
     "r_8cbyiMGaNPQ": "2026-11-24T01:39:19+00:00",
     "r_8m5OZcOtN4A": "2026-11-24T01:39:19+00:00",
+    "r_920E2RFqjPA": "2026-11-26T00:32:28+00:00",
     "r_An7A45Ez0_U": "2026-11-24T01:39:19+00:00",
     "r_EwyT8MJXctI": "2026-11-24T01:39:19+00:00",
     "r_EyftyU37JDQ": "2026-11-24T01:39:19+00:00",

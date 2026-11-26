@@ -1,57 +1,4 @@
 {
-  "0b8dc6e2f034452db544": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "1852f83ff42fe8eb0c21630b976adde26357e2b3",
-    "name": "Committee of the Whole Meeting",
-    "preview": {
-      "closedSession": false,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [],
-      "issues": [
-        "schools_learning",
-        "staffing_pay",
-        "budget_taxes"
-      ],
-      "items": [
-        {
-          "action": "vote",
-          "item": "4K Program Agreements for 2027-2028 school year",
-          "why": "The board is asked to approve formal agreements with Wausau Child Care, Mountain View Montessori, Newman Catholic Schools - St. Michael, and two prior partner sites for the four-year-old kindergarten program."
-        },
-        {
-          "action": "report",
-          "item": "Staff turnover and retention report for all employee groups",
-          "why": "Tabatha Gundrum will present data on turnover and retention across the district and discuss plans to address findings in the coming year."
-        },
-        {
-          "action": "vote",
-          "item": "Review and approve 44 district policies and technical corrections",
-          "why": "The board is asked to review and approve updates to policies covering curriculum, student conduct, health services, transportation, and other district operations."
-        },
-        {
-          "action": "report",
-          "item": "2026-2027 student demographic report",
-          "why": "The Director of Technology will present enrollment and demographic data for the upcoming school year."
-        },
-        {
-          "action": "report",
-          "item": "Referendum budget summary updates",
-          "why": "The Assistant Superintendent of Operations will update the board on spending progress related to the recent referendum."
-        },
-        {
-          "action": "vote",
-          "item": "Adjusted 6-12th grade social studies scope and sequence",
-          "why": "The board is asked to approve changes to the social studies curriculum for grades 6 through 12."
-        }
-      ],
-      "overview": "The school board is scheduled to approve new agreements for the district's four-year-old kindergarten program with community partners. The board will also hear updates on staff turnover, student demographics, and budget progress from the recent referendum.",
-      "publicComment": true
-    },
-    "prompt": "4",
-    "source": "school_board"
-  },
   "1840f1f9e200f1ed5335": {
     "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-11-24",
@@ -103,71 +50,6 @@
     },
     "prompt": "4",
     "source": "wausau"
-  },
-  "24e3b3cff70c7c06690b": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "922182cc3e3e2258d5e71c0784ba2a828d91cb9d",
-    "name": "Police & Fire Commission Meeting",
-    "preview": {
-      "closedSession": true,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [],
-      "issues": [
-        "public_safety",
-        "staffing_pay"
-      ],
-      "items": [
-        {
-          "action": "report",
-          "item": "3rd Quarter Fire Department Operations Update",
-          "why": "The Fire Department is presenting its quarterly report on operations and activities."
-        },
-        {
-          "action": "report",
-          "item": "Police Department General Operations Update",
-          "why": "The Police Department is presenting general updates on department operations."
-        },
-        {
-          "action": "discussion",
-          "item": "Police Officer and Fire Lieutenant Hiring",
-          "why": "The Commission will interview five candidates for Police Officer and one candidate for promotion to Lieutenant in a closed session where personnel matters are discussed privately."
-        },
-        {
-          "action": "discussion",
-          "item": "Citizen Complaint Reconsideration Request",
-          "why": "The Commission will consider a request to reconsider dismissal of a citizen complaint against a specific person in a closed session."
-        },
-        {
-          "action": "discussion",
-          "item": "Deputy Chief Hiring Process Listening Session",
-          "why": "Police Department employees will participate in a listening session about the hiring process for Deputy Chief in a closed session."
-        }
-      ],
-      "overview": "The Police & Fire Commission is scheduled to hear operational updates from both departments and interview candidates for police officer and fire lieutenant positions in a closed session.",
-      "publicComment": true
-    },
-    "prompt": "4",
-    "source": "wausau"
-  },
-  "40f8a47f78dac7d1f4e7": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "f25bf64fedca1b200a4f74282649a8db57da4caf",
-    "name": "Special Meeting",
-    "preview": {
-      "closedSession": true,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [],
-      "issues": [],
-      "items": [],
-      "overview": "The Wausau School Board is scheduled to hold a special meeting with no items for public discussion. All business will occur in closed session.",
-      "publicComment": false
-    },
-    "prompt": "4",
-    "source": "school_board"
   },
   "4454438dbef6c9f3fd33": {
     "checked": "2026-11-25T14:29:42+00:00",
@@ -418,49 +300,6 @@
     "prompt": "4",
     "source": "wausau"
   },
-  "710a91f459cd14f98463": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "8f4bbf09a7a669d493c91d4406f032bfe511e01e",
-    "name": "Common Council - Budget Meeting",
-    "preview": {
-      "closedSession": true,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [
-        "City of Mosinee 2027 Budget"
-      ],
-      "issues": [
-        "budget_taxes"
-      ],
-      "items": [
-        {
-          "action": "vote",
-          "item": "2027 Budget for City of Mosinee",
-          "why": "The Common Council will hold a public hearing on the proposed 2027 budget, then vote on Resolution No. 2026-08 to adopt it and authorize the tax levy."
-        },
-        {
-          "action": "vote",
-          "item": "Building Permit Applications",
-          "why": "The Common Council will discuss and decide on building permit applications."
-        },
-        {
-          "action": "vote",
-          "item": "City Employee Holiday Gift Certificates",
-          "why": "The Common Council will discuss and decide on holiday gift certificates for city employees."
-        },
-        {
-          "action": "vote",
-          "item": "Police Labor Agreement Modification",
-          "why": "The Common Council will discuss and decide on changes to the labor agreement with the Mosinee Professional Police Association."
-        }
-      ],
-      "overview": "Mosinee residents can hear and comment on the city's 2027 budget at a public hearing. The Common Council is scheduled to vote on approving the budget and authorizing the tax levy.",
-      "publicComment": true
-    },
-    "prompt": "4",
-    "source": "mosinee"
-  },
   "80136b5bc1300db5c8be": {
     "checked": "2026-11-25T14:29:42+00:00",
     "date": "2026-12-01",
@@ -528,42 +367,6 @@
     "prompt": "4",
     "source": "maine"
   },
-  "b46119fc786a09bd3ddf": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "18c268c29f34252ddb79feb4b84b8569987d03b7",
-    "name": "Park and Recreation Committee",
-    "preview": {
-      "closedSession": false,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [],
-      "issues": [
-        "parks_recreation"
-      ],
-      "items": [
-        {
-          "action": "report",
-          "item": "Aquatic Center Repairs update",
-          "why": "Director Osterbrink will report on ongoing leak detection and equipment replacement work by Neuman Pools, including the status of concrete repairs needed to fix identified leaks in the pool system."
-        },
-        {
-          "action": "discussion",
-          "item": "Farmers Market End of Season Survey results",
-          "why": "The committee will review feedback from 129 survey responses about the market's move to Kennedy Park this season. Results show mixed views on parking, traffic flow, and shade, with strong praise for vendor selection and community atmosphere."
-        },
-        {
-          "action": "discussion",
-          "item": "Kennedy Park Master Plan discussion",
-          "why": "The committee will discuss next steps for the master plan in light of the farmers market's permanent location at the park and ongoing planning by DCE Youth Hockey for the northwest corner."
-        }
-      ],
-      "overview": "The Parks and Recreation Committee will hear updates on aquatic center repairs and discuss survey results from this season's farmers market at Kennedy Park. The committee may decide how to respond to parking and traffic concerns raised by both vendors and the public.",
-      "publicComment": true
-    },
-    "prompt": "4",
-    "source": "weston"
-  },
   "c0025436f0c30c706fd8": {
     "checked": "2026-11-24T14:56:55+00:00",
     "date": "2026-11-24",
@@ -601,57 +404,6 @@
         }
       ],
       "overview": "The Finance Committee is scheduled to vote on six agreements and contracts for city services. These include animal impounding, mapping software, cemetery operations, and fire department equipment purchases.",
-      "publicComment": true
-    },
-    "prompt": "4",
-    "source": "wausau"
-  },
-  "cd396637cc1ec0e66e04": {
-    "checked": "2026-11-23T23:34:40+00:00",
-    "date": "2026-11-23",
-    "generations": 3,
-    "hash": "7e260677742bbff64e90c78d835c756dfe1a815d",
-    "name": "Bicycle & Pedestrian Advisory Committee Meeting",
-    "preview": {
-      "closedSession": false,
-      "generated": "2026-11-23T03:15:29+00:00",
-      "hearings": [],
-      "issues": [
-        "roads_transportation"
-      ],
-      "items": [
-        {
-          "action": "discussion",
-          "item": "Bikeshare program ridership data and spring promotion plans",
-          "why": "The committee will discuss how the city's bikeshare program is performing and plans for promoting it in spring."
-        },
-        {
-          "action": "report",
-          "item": "Community Sustainability Survey results",
-          "why": "The committee will review results from a community survey about sustainability."
-        },
-        {
-          "action": "report",
-          "item": "MPO Bike/Ped Subcommittee update and bike counter data",
-          "why": "The committee will receive updates from the regional MPO (metropolitan planning organization) subcommittee on biking and walking, plus bike counter data."
-        },
-        {
-          "action": "discussion",
-          "item": "Pavement conditions on Adolph Street and River Edge Parkway",
-          "why": "The committee will discuss road surface conditions on these two routes used by bikers and pedestrians."
-        },
-        {
-          "action": "report",
-          "item": "Police Department attendance and enabling language",
-          "why": "The committee will receive an update on Police Department participation and language enabling their involvement."
-        },
-        {
-          "action": "discussion",
-          "item": "Rectangular rapid flashing beacon on Thomas Street and River Edge Parkway",
-          "why": "The committee will discuss a RRFB (a flashing pedestrian crossing signal) planned for this intersection."
-        }
-      ],
-      "overview": "The Bicycle & Pedestrian Advisory Committee will review the city's bikeshare program performance and discuss conditions on key biking and walking routes around town.",
       "publicComment": true
     },
     "prompt": "4",

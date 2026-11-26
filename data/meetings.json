@@ -1,5 +1,157 @@
 [
   {
+    "id": "920E2RFqjPA",
+    "source": "wausau",
+    "title": "City Council Finance Committee Meeting",
+    "date": "November 24, 2026",
+    "shortDate": "NOV 24",
+    "committee": "Wausau City Council Finance Committee",
+    "duration": "48m",
+    "url": "https://www.youtube.com/watch?v=920E2RFqjPA",
+    "docUrl": null,
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Wausau City Council Finance Committee met on Tuesday, November 24, 2026 and approved several contracts and service agreements. A new outdoor lift for Athletic Park was sent back for more quotes before a final vote. A cemetery maintenance agreement was also sent back to staff for corrections before a December vote. The committee learned that Marathon County raised pet licensing fees without advance notice, cutting into city revenue.",
+    "agenda": [
+      {
+        "time": "0:00",
+        "item": "Public comment on agenda items"
+      },
+      {
+        "time": "0:42",
+        "item": "Minutes of November 10, 2026 joint Finance Committee and Human Resources Committee meeting"
+      },
+      {
+        "time": "1:15",
+        "item": "Item A: Approving animal impoundment services agreement with Humane Society of Marathon County"
+      },
+      {
+        "time": "1:55",
+        "item": "Item B: Approving small government enterprise agreement with ESRI (Geographic Information Systems software)"
+      },
+      {
+        "time": "2:40",
+        "item": "Item C: Approving production agreement with Marathon County for public access video services"
+      },
+      {
+        "time": "3:10",
+        "item": "Item D: Approving agreement between City of Wausau and Wausau Cemetery Association"
+      },
+      {
+        "time": "22:30",
+        "item": "Item E: Approving purchase of cardiac monitors and ventilators from Zoll Medical Corporation for the fire department"
+      },
+      {
+        "time": "23:30",
+        "item": "Item F: Approve budget change and sole-source purchase of outdoor vertical platform lift for Athletic Park"
+      },
+      {
+        "time": "54:00",
+        "item": "Item 4A: Update on county pet license fee structure for 2027"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Wausau Cemetery Association Agreement",
+        "body": "The committee intended to finalize the cemetery agreement but found it was missing key language. The board president of the Wausau Cemetery Association, Scott Brainer, raised a concern that a clause requiring rent increases of no less than 3% tied to the consumer price index had been dropped. A committee member noted the base rent figure in the new draft still matched the 2016 amount of $51,955.43. Parks Director Jamie Polly said a contractor estimated tree removal at $17,235, far below the city's own estimate of $58,000. The committee reached consensus to send the agreement back to staff to restore the missing rent-increase language and add a reference to urban forestry work. The committee expected a corrected draft for a vote at the December 8 meeting."
+      },
+      {
+        "item": "Outdoor Vertical Platform Lift for Athletic Park",
+        "body": "Director Polly explained the existing lift, about 12 years old, has repeatedly failed and parts are hard to get. She proposed buying an outdoor-rated replacement lift from Aerolift, which quoted the job in July and agreed to hold the price. Funding would come from three existing city accounts: a concession fund from Athletic Park tenants, a small projects fund, and a city gift account — no new tax dollars would be used. Alderperson Tierney asked for at least one more competitive quote before a vote, and the committee agreed. The committee also debated whether to pay about $7,000 for a ramp feasibility study; members were skeptical of spending money on a plan now when costs would change before any ramp is built. The item was sent back for the December 8 meeting with a request for additional quotes."
+      },
+      {
+        "item": "County Pet License Fee Structure for 2027",
+        "body": "Staff told the committee that Marathon County raised pet license fees for 2027 without giving the city advance notice, unlike the prior year. The city had already sent renewal notices to residents before learning of the increase. Staff estimated the city would lose just over $2,000 in revenue. Committee members expressed frustration that the county did not notify the city before its own budget season. The committee directed staff to account for the county's annual fee increases when setting city rates in future budget years."
+      },
+      {
+        "item": "Cardiac Monitors and Ventilators for Fire Department",
+        "body": "The committee had discussed this purchase at its prior meeting. The main question had been how to pay for the multi-year agreement. Staff provided a memo explaining that federal FAP funds would cover the first year and subsequent payments were also identified. The committee approved the purchase without further debate."
+      }
+    ],
+    "publicComment": "No public comment was offered.",
+    "actionItems": [
+      "Cemetery agreement sent back to staff to restore the rent-increase language tied to the consumer price index and to add urban forestry provisions; bring corrected draft to December 8 meeting",
+      "Athletic Park lift purchase sent back; staff to obtain at least one additional quote from another outdoor lift vendor before December 8 meeting",
+      "Staff to include county pet license fee increases in future budget planning and consider passing the county fee directly to residents",
+      "Cardiac monitors and ventilators purchase agreement with Zoll Medical Corporation approved"
+    ],
+    "topics": [
+      "Budget",
+      "Athletic Park Lift",
+      "Cemetery Agreement",
+      "Pet Licensing Fees",
+      "Fire Department Equipment"
+    ],
+    "votes": [
+      {
+        "item": "Minutes of November 10, 2026 joint Finance and Human Resources Committee meeting",
+        "motion": null,
+        "mover": null,
+        "second": "Tom Neal",
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      },
+      {
+        "item": "Animal impoundment services agreement with Humane Society of Marathon County",
+        "motion": null,
+        "mover": "Tom Neal",
+        "second": "Vicki Tierney",
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      },
+      {
+        "item": "Small government enterprise agreement with ESRI for Geographic Information Systems software",
+        "motion": null,
+        "mover": "Tom Neal",
+        "second": null,
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      },
+      {
+        "item": "Production agreement with Marathon County for public access video services",
+        "motion": null,
+        "mover": null,
+        "second": "Tom Neal",
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      },
+      {
+        "item": "Purchase of cardiac monitors and ventilators from Zoll Medical Corporation for the fire department",
+        "motion": null,
+        "mover": "Matt Hoenecke",
+        "second": "Tom Neal",
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      },
+      {
+        "item": "Adjournment",
+        "motion": null,
+        "mover": "Matt Hoenecke",
+        "second": "Vicki Tierney",
+        "outcome": "Approved",
+        "tally": null,
+        "no": [],
+        "abstain": []
+      }
+    ],
+    "publicCommentSpeakers": 0,
+    "issues": [
+      "budget_taxes",
+      "parks_recreation",
+      "buildings_facilities"
+    ]
+  },
+  {
     "id": "WvGZ3J7Gbog",
     "source": "wausau",
     "title": "City Council Meeting Pt.2",
@@ -18139,47 +18291,5 @@
     "issues": [
       "budget_taxes"
     ]
-  },
-  {
-    "id": "kw_2d83bda595c54a729ff8a4b941648a6e",
-    "source": "kronenwetter",
-    "title": "Village Board Meeting",
-    "date": "October 12, 2026",
-    "shortDate": "OCT 12",
-    "committee": "Village Board",
-    "duration": null,
-    "url": "https://kronenwetter-wi.municodemeetings.com/bc-vb/page/village-board-meeting-64",
-    "docUrl": "https://mccmeetings.blob.core.usgovcloudapi.net/krnwtrwi-pubu/MEET-Agenda-2d83bda595c54a729ff8a4b941648a6e.pdf",
-    "isAgendaOnly": false,
-    "badge": null,
-    "overview": "The Village of Kronenwetter Village Board convened its October 12, 2026 meeting at 6:00 p.m. The available transcript captures only the opening moments of the meeting, including the call to order, Pledge of Allegiance, and the beginning of roll call. No substantive agenda items, votes, or decisions are documented in the provided transcript.",
-    "agenda": [
-      {
-        "time": "0:00",
-        "item": "Call to Order"
-      },
-      {
-        "time": "0:10",
-        "item": "Pledge of Allegiance"
-      },
-      {
-        "time": "0:40",
-        "item": "Roll Call"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Call to Order and Pledge of Allegiance",
-        "body": "Village President Dan Joling called the October 12, 2026 Village Board meeting to order at 6:00 p.m. The Pledge of Allegiance was recited. Roll call began, with Trustee Aaron Myszka (referenced as 'Mishka' in the transcript, matched to known official) and Trustee Craig Mortensen both answering present before the transcript ends. No further business is captured in the available transcript."
-      }
-    ],
-    "publicComment": "No public comment was offered.",
-    "actionItems": [
-      "Transcript is incomplete; no action items or decisions are documented beyond the opening call to order and partial roll call."
-    ],
-    "topics": [
-      "Village Board"
-    ],
-    "votes": []
   }
 ]
