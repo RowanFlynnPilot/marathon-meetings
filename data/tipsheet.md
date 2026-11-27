@@ -1,4 +1,4 @@
-# Reporter tip sheet: week of Thursday, Nov 26
+# Reporter tip sheet: week of Friday, Nov 27
 
 Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agenda previews; software wrote those, so confirm with the record before reporting.
 
@@ -29,58 +29,62 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 ## Contested votes, past week
 
 - [City of Wausau, City Council Meeting (November 24, 2026)](https://rowanflynnpilot.github.io/marathon-meetings/meetings/cIEivHaKRZI/)
-  - FAILED 4-6: File 23-1121 — 2026 pilot payment (payment in lieu of taxes) for Wausau Waterworks at $1.59 million
-  - SPLIT 6-4: File 98-0707 — Comprehensive purchasing card policy
-  - SPLIT 9-1: File 26-1119 — Deed restriction and non-conforming uses at 1300 Cleveland Avenue (as amended)
-  - SPLIT 6-4: Amendment to District 9 vacancy resolution — strike appointment, hold special election only
-  - SPLIT 9-1: File 02-0430 — Hold special election in April to fill District 9 vacancy (as amended, no interim appointment)
+  - FAILED 4-6: Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (yes: Carol Lukens, Michael  Martens, Kristin Slonski, Lou Larson; no: Terry Kilian, Tom Neal, Andrew Wiskowski, Matt Hoenecke, Vicki Tierney, Bruce Trueblood)
+  - SPLIT 6-4: Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy. [Approve] (no: Terry Kilian, Matt Hoenecke, Vicki Tierney, Bruce Trueblood)
+  - SPLIT 9-1: Resolution from the Economic Development Committee Approving Deed Restrictions and Clarifying Existing Non-Conforming Uses on City-Owned Property at 1300 Cleveland Avenue as Amended. [Approve] (no: Lou Larson)
+  - SPLIT 9-1: Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Approve as amended] (no: Lou Larson)
+  - SPLIT 6-4: Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Amend] (no: Matt Hoenecke, Vicki Tierney, Lou Larson, Bruce Trueblood)
 
 ## Who voted no most, past 30 days
 
-- Bruce Trueblood (City of Wausau): 5 no votes
-  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
-  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
-  - Suspend Rule 6(B) Filing. [Approve] (Common Council Meeting, October 27, 2026)
-  - Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Approve as amended] (Common Council Meeting, October 27, 2026)
-  - Resolution from the Public Health & Safety Committee Directing the Wausau Police Department to Cease the Use of Flock Data and to Cover all Flock Cameras Located within the City. [Amend] (Common Council Meeting, October 27, 2026)
-- Kristin Slonski (City of Wausau): 3 no votes
-  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
-  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Reconsideration] (Common Council Meeting, October 27, 2026)
-  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Approve] (Common Council Meeting, October 27, 2026)
-- Matt Hoenecke (City of Wausau): 3 no votes
-  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
-  - Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council] (City Council Meeting, November 10, 2026)
-  - Suspend Rule 6(B) Filing. [Approve] (Common Council Meeting, October 27, 2026)
-- Vicki Tierney (City of Wausau): 3 no votes
+- Vicki Tierney (City of Wausau): 6 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Amend] (City Council Meeting, November 24, 2026)
   - Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Approve as Amended] (Joint Finance and Human Resources Meeting, November 10, 2026)
   - Approving Sole Source Request for the purchase of Zoll Monitors and Ventilators for the Fire Department. [Neal Amendment] (Joint Finance and Human Resources Meeting, November 10, 2026)
-  - Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council] (City Council Meeting, November 10, 2026)
-- Andrew Wiskowski (City of Wausau): 2 no votes
+- Bruce Trueblood (City of Wausau): 5 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Amend] (City Council Meeting, November 24, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
-- Sarah Watson (City of Wausau): 2 no votes
+- Matt Hoenecke (City of Wausau): 5 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Amend] (City Council Meeting, November 24, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Suspend Rule 1(D) Transmission of Committee business to the Council. [Suspend Rule 1(D) Transmission of Committee business to the Council] (City Council Meeting, November 10, 2026)
+- Lou Larson (City of Wausau): 4 no votes
+  - Resolution from the Economic Development Committee Approving Deed Restrictions and Clarifying Existing Non-Conforming Uses on City-Owned Property at 1300 Cleveland Avenue as Amended. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Approve as amended] (City Council Meeting, November 24, 2026)
+  - Resolution from the Common Council Addressing District 9 Aldermanic Vacancy. [Amend] (City Council Meeting, November 24, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
-  - Resolution from the Human Resources Committee Approving the Creation of a Full-Time Human Resources Coordinator Position. [Approve] (Common Council Meeting, October 27, 2026)
-- Terry Kilian (City of Wausau): 2 no votes
+- Terry Kilian (City of Wausau): 4 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
+  - Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy. [Approve] (City Council Meeting, November 24, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
+  - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
+- Andrew Wiskowski (City of Wausau): 3 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Approve] (City Council Meeting, November 10, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
 - Tom Neal (City of Wausau): 2 no votes
+  - Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works. [Approve] (City Council Meeting, November 24, 2026)
   - Adopting the 2027 City of Wausau Budget and General Property Tax to Support Same. [Motion to Amend MH] (City Council Meeting, November 10, 2026)
-  - Reconsideration of the Ordinance from the Plan Commission Amending Municipal Code Title 23 Zoning Sections 23.03.05 Table of Land Uses, 23.03.14 Industrial Land Uses, and 23.06.06 Off-Street Parking and Traffic Circulation to Define and Create Regulations for Data Centers in the Zoning Ordinance as amended. [Reconsideration] (Common Council Meeting, October 27, 2026)
 
 ## By issue, next week and past week
 
-- Budgets & Taxes: 1 ahead, 4 in the past week
-  - AHEAD: Tuesday, Dec 1: Mosinee School Board, Special School Board Meeting
-  - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
-  - PAST WEEK: Wausau School Board, Committee of the Whole Meeting (November 23, 2026)
-  - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
-  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
 - Government Staffing & Pay: 2 ahead, 3 in the past week
   - AHEAD: Monday, Nov 30: Village of Maine, Board of Trustees Meeting
   - AHEAD: Tuesday, Dec 1: Mosinee School Board, Special School Board Meeting
   - PAST WEEK: Wausau School Board, Committee of the Whole Meeting (November 23, 2026)
   - PAST WEEK: Wausau School Board, Special Meeting (November 23, 2026)
+  - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
+- Budgets & Taxes: 1 ahead, 3 in the past week
+  - AHEAD: Tuesday, Dec 1: Mosinee School Board, Special School Board Meeting
+  - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
+  - PAST WEEK: Wausau School Board, Committee of the Whole Meeting (November 23, 2026)
   - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
 - Schools & Learning: 2 ahead, 2 in the past week
   - AHEAD: Tuesday, Dec 1: Mosinee School Board, Student Expulsion Hearing
@@ -96,10 +100,6 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - AHEAD: Tuesday, Dec 1: City of Wausau, Economic Development Committee Meeting
   - AHEAD: Wednesday, Dec 2: City of Wausau, Historic Preservation Commission Meeting
   - PAST WEEK: City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
-- Public Buildings: 1 ahead, 2 in the past week
-  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
-  - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
-  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
 - How Government Works: 1 ahead, 1 in the past week
   - AHEAD: Wednesday, Dec 2: City of Wausau, Historic Preservation Commission Meeting
   - PAST WEEK: City of Wausau, City Council Meeting (November 24, 2026)
@@ -109,9 +109,9 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 - Parks & Recreation: 2 in the past week
   - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
   - PAST WEEK: Village of Weston, Parks Committee (November 23, 2026)
-- Roads & Transportation: 1 ahead, 1 in the past week
+- Public Buildings: 1 ahead, 1 in the past week
   - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
-  - PAST WEEK: City of Wausau, Transit Commission Meeting (November 19, 2026)
+  - PAST WEEK: City of Wausau, City Council Finance Committee Meeting (November 24, 2026)
 - Zoning & Land Use: 1 ahead, 1 in the past week
   - AHEAD: Monday, Nov 30: Village of Maine, Plan Commission
   - PAST WEEK: City of Wausau, City Council Meeting (November 24, 2026)
@@ -119,6 +119,8 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
   - AHEAD: Thursday, Dec 3: City of Wausau, Sustainability, Energy & Environment Committee Meeting
 - Public Safety: 1 ahead
   - AHEAD: Wednesday, Dec 2: City of Wausau, Police & Fire Commission Special Meeting
+- Roads & Transportation: 1 ahead
+  - AHEAD: Tuesday, Dec 1: City of Wausau, Board of Public Works Meeting
 
 ## Crowded public comment, past week
 
@@ -129,36 +131,29 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 - Consent Agenda: 2 meetings (City of Wausau, Mosinee School Board)
   - Mosinee School Board, Personnel Committee Meeting (November 17, 2026)
   - City of Wausau, Rules Review Committee Meeting (November 9, 2026)
-- Lead Service Line Replacement: 3 meetings (City of Wausau)
-  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
-  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
-  - City of Wausau, Common Council Meeting (October 27, 2026)
 - Building Permits: 2 meetings (City of Mosinee)
   - City of Mosinee, Common Council - Budget Meeting (November 23, 2026)
   - City of Mosinee, Common Council - Regular Meeting (November 9, 2026)
 - Cedar Creek Recreation Area: 2 meetings (Village of Rothschild)
   - Village of Rothschild, Aquatic Center Commission (November 5, 2026)
   - Village of Rothschild, Outdoor Recreation Committee (November 4, 2026)
-- Flock Cameras: 2 meetings (City of Wausau)
-  - City of Wausau, City Council Meeting (November 10, 2026)
-  - City of Wausau, Common Council Meeting (October 27, 2026)
+- Lead Service Line Replacement: 2 meetings (City of Wausau)
+  - City of Wausau, Board of Public Works Meeting (November 4, 2026)
+  - City of Wausau, Waterworks Works Meeting (November 4, 2026)
 - Surveillance Technology: 2 meetings (Marathon County)
   - Marathon County, Public Safety Committee Meeting (November 10, 2026)
   - Marathon County, Board (Budget Hearing) (November 2, 2026)
 - Tax Increment Districts: 2 meetings (Village of Kronenwetter)
   - Village of Kronenwetter, Revised Administrative Policy Committee Meeting (November 17, 2026)
   - Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026)
-- Tax Increment Financing: 2 meetings (City of Wausau)
-  - City of Wausau, Economic Development Meeting (November 4, 2026)
-  - City of Wausau, Finance Committee Meeting (October 27, 2026)
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 31 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 29 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
-- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 17 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
-- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 16 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
-- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 14 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 32 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 30 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
+- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 18 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
+- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 17 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
+- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 15 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
 
 ## Next week's meetings without a preview
 

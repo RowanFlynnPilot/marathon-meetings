@@ -509,6 +509,16 @@ DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT
 BEGIN:VEVENT
+UID:3f3fb44aaf538ff07e2c@marathon-meetings
+DTSTAMP:20270111T000000Z
+DTSTART;TZID=America/Chicago:20270111T164500
+DTEND;TZID=America/Chicago:20270111T181500
+SUMMARY:City of Wausau: Human Resources Committee Meeting
+URL:https://wausauwi.portal.civicclerk.com/event/2037/overview
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
 UID:6284e2b4183f34f81178@marathon-meetings
 DTSTAMP:20270111T000000Z
 DTSTART;TZID=America/Chicago:20270111T170000
@@ -655,6 +665,26 @@ DTSTART;TZID=America/Chicago:20270125T180000
 DTEND;TZID=America/Chicago:20270125T193000
 SUMMARY:Village of Weston: Parks & Recreation Committee
 URL:https://www.westonwi.gov/agendacenter
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd8dd2516a35f8e4a59@marathon-meetings
+DTSTAMP:20270126T000000Z
+DTSTART;TZID=America/Chicago:20270126T170000
+DTEND;TZID=America/Chicago:20270126T183000
+SUMMARY:Marathon County: Environmental Resources Committee
+URL:https://www.marathoncounty.gov/about-us/county-calendar
+DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
+ ndreview.com/central-wisconsin-meeting-tracker/
+END:VEVENT
+BEGIN:VEVENT
+UID:76fcffecd3e32063e9d3@marathon-meetings
+DTSTAMP:20270126T000000Z
+DTSTART;TZID=America/Chicago:20270126T190000
+DTEND;TZID=America/Chicago:20270126T203000
+SUMMARY:Marathon County: County Board Meeting
+URL:https://www.marathoncounty.gov/about-us/county-calendar
 DESCRIPTION:Agendas\, documents and meeting summaries: https://wausaupilota
  ndreview.com/central-wisconsin-meeting-tracker/
 END:VEVENT

@@ -97,6 +97,20 @@
       "name": "HR, Finance & Property Committee",
       "url": "https://www.marathoncounty.gov/about-us/county-calendar",
       "source": "marathon"
+    },
+    {
+      "date": "2027-01-26",
+      "time": "5:00 PM",
+      "name": "Environmental Resources Committee",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
+    },
+    {
+      "date": "2027-01-26",
+      "time": "7:00 PM",
+      "name": "County Board Meeting",
+      "url": "https://www.marathoncounty.gov/about-us/county-calendar",
+      "source": "marathon"
     }
   ],
   "wausau": [
@@ -494,6 +508,13 @@
       "name": "Economic Development Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/3630/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2027-01-11",
+      "time": "4:45 PM",
+      "name": "Human Resources Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2037/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
@@ -777,6 +798,13 @@
     },
     {
       "date": "2026-12-28",
+      "time": "6:30 PM",
+      "name": "Village Board",
+      "url": "https://www.rothschildwi.com/government/village_agendas_recordings___minute_meetings/index.php",
+      "source": "rothschild"
+    },
+    {
+      "date": "2027-01-11",
       "time": "6:30 PM",
       "name": "Village Board",
       "url": "https://www.rothschildwi.com/government/village_agendas_recordings___minute_meetings/index.php",

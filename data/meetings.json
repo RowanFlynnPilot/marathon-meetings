@@ -6,9 +6,9 @@
     "date": "November 24, 2026",
     "shortDate": "NOV 24",
     "committee": "Wausau City Council",
-    "duration": null,
+    "duration": "3h 13m",
     "url": "https://www.youtube.com/watch?v=cIEivHaKRZI",
-    "docUrl": null,
+    "docUrl": "https://wausauwi.portal.civicclerk.com/event/1984/files",
     "isAgendaOnly": false,
     "badge": "new",
     "overview": "The Wausau City Council met on Tuesday, November 24, 2026, and took action on a range of items. The council defeated a resolution to set the 2026 payment-in-lieu-of-taxes (a tax charged to the city water utility in place of property taxes) at a reduced rate of $1.59 million, meaning the full calculated amount of nearly $2 million will now apply to the utility. The council approved a new city purchasing card policy, though several alderpersons said it needed stronger consequences and more specificity. The council approved a deed restriction on city-owned land at 1300 Cleveland Avenue, with added deadlines requiring the Department of Public Works to stop training there by February 1, 2027, and the Parks Department to find a new location for timber logs and chips by May 1, 2027. The council voted to fill the District 9 vacancy left by Alderperson Vicki Tierney's resignation through a special election in April rather than an interim appointment. The council then moved to closed session to discuss a legal settlement in a lawsuit against Georgia-Pacific.",
@@ -253,7 +253,738 @@
         "Bruce Trueblood"
       ],
       "absent": []
-    }
+    },
+    "civicItems": [
+      {
+        "number": "1",
+        "name": "Call to order by the presiding officer.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2",
+        "name": "Pledge of Allegiance, and Roll Call and Proclamations.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Wausau DECA Month Proclamation",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Wausau DECA Month Proclamation ",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11587)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 231010
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Consideration of the minutes of the preceding meeting, approval of the minutes if correct, and correction of mistakes if any.",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Approve",
+            "passed": true,
+            "initiator": "Bruce Trueblood",
+            "seconder": "Kristin Slonski",
+            "yes": [
+              "Carol Lukens",
+              "Michael  Martens",
+              "Terry Kilian",
+              "Tom Neal",
+              "Andrew Wiskowski",
+              "Kristin Slonski",
+              "Matt Hoenecke",
+              "Vicki Tierney",
+              "Lou Larson",
+              "Bruce Trueblood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Regular Common Council Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CommonCouncil_Regular_11102026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11590)",
+                "type": "application/pdf",
+                "size": 324891
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "name": "Reading of the City of Wausau Public Comment Statement.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5",
+        "name": "Comments and suggestions from preregistered citizens.",
+        "desc": "(Any person wishing to offer public comment on items unrelated to items appearing on the agenda must pre-register by providing a name and address in writing to the City Clerk’s Office or chair of a standing committee. Public comments must be limited to items on the agenda if not pre-registered.)",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6",
+        "name": "Committee reports (standing and nonstanding).",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Sustainability, Energy, and Environment Committee Update",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "November SEEC Common Council Presentation",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11575)",
+                "type": "application/pdf",
+                "size": 10618398
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7",
+        "name": "Consent agenda.",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Approve",
+            "passed": true,
+            "initiator": "Kristin Slonski",
+            "seconder": "Tom Neal",
+            "yes": [
+              "Carol Lukens",
+              "Michael  Martens",
+              "Terry Kilian",
+              "Tom Neal",
+              "Andrew Wiskowski",
+              "Kristin Slonski",
+              "Matt Hoenecke",
+              "Vicki Tierney",
+              "Lou Larson",
+              "Bruce Trueblood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Joint Resolution from the Finance Committee and the Human Resources Committee Revising Salary Structure for General Employees.",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Revised Salary Structure for General Employees",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10538)",
+                "type": "application/pdf",
+                "size": 82200
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Finance Committee Establishing the 2026 Property Tax Equivalent for Wausau Water Works.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": false,
+                "initiator": "Michael  Martens",
+                "seconder": "Kristin Slonski",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Kristin Slonski",
+                  "Lou Larson"
+                ],
+                "no": [
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Bruce Trueblood"
+                ],
+                "abstain": []
+              }
+            ],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Finance Committee Approving Comprehensive Purchasing Card Policy.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Kristin Slonski",
+                "seconder": "Tom Neal",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Lou Larson"
+                ],
+                "no": [
+                  "Terry Kilian",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Bruce Trueblood"
+                ],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "City of Wausau Purchasing Card Policy and Employee Acknowledgement",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11608)",
+                "type": "application/pdf",
+                "size": 197511
+              },
+              {
+                "name": "Staff Memo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10560)",
+                "type": "application/pdf",
+                "size": 68601
+              },
+              {
+                "name": "Existing Credit  Card Policy",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10559)",
+                "type": "application/pdf",
+                "size": 44809
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Economic Development Committee Providing Authorization of Acquisition, Demolition and Placement with Property Disposition Program 108 Myron Street.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Tom Neal",
+                "seconder": "Terry Kilian",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Lou Larson",
+                  "Bruce Trueblood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "Staff Memo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10562)",
+                "type": "application/msword",
+                "size": 27136
+              },
+              {
+                "name": "GIS Map of 108 Myron Street",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10567)",
+                "type": "application/pdf",
+                "size": 869156
+              },
+              {
+                "name": "Front View Photo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10565)",
+                "type": "image/jpeg",
+                "size": 3115472
+              },
+              {
+                "name": "Rear View Photo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10566)",
+                "type": "image/jpeg",
+                "size": 2809897
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Preliminary Resolution from Infrastructure & Facilities Committee Levying Special Assessments for 2027 Street Construction Projects.",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Infrastructures&Facilities_DRAFT_11122026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11603)",
+                "type": "application/pdf",
+                "size": 1301814
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Infrastructure & Facilities Committee Approving Two Driveways in Excess of 44 Feet at 1323 S. 11th Avenue (Kolbe & Kolbe Millwork).",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Driveway Length Diagram",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11576)",
+                "type": "application/pdf",
+                "size": 3057895
+              },
+              {
+                "name": "Infrastructures&Facilities_DRAFT_11122026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11604)",
+                "type": "application/pdf",
+                "size": 1301814
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Infrastructure & Facilities Committee Approving Waving the Requirement for a Concrete Approach at 1323 S. 11th Avenue (Kolbe & Kolbe Millwork).",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Asphalt Drive Approach Diagram",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11577)",
+                "type": "application/pdf",
+                "size": 3067259
+              },
+              {
+                "name": "Infrastructures&Facilities_DRAFT_11122026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11605)",
+                "type": "application/pdf",
+                "size": 1301814
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Infrastructure & Facilities Committee Approving a Driveway in Excess of 44 Feet at 1330 S. 11th Avenue (Kolbe & Kolbe Millwork).",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Driveway Length Diagram",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11578)",
+                "type": "application/pdf",
+                "size": 3022255
+              },
+              {
+                "name": "Infrastructures&Facilities_DRAFT_11122026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11606)",
+                "type": "application/pdf",
+                "size": 1301814
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Infrastructure & Facilities Committee Approving a Driveway in Excess of 44 Feet at 1320 S. 11th Avenue (Kolbe & Kolbe Millwork).",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Driveway Length Diagram",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11579)",
+                "type": "application/pdf",
+                "size": 3015781
+              },
+              {
+                "name": "Infrastructures&Facilities_DRAFT_11122026_Minutes",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11607)",
+                "type": "application/pdf",
+                "size": 1301814
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Public Health & Safety Committee Approving or Denying Various Licenses as Indicated.",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "License List",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11581)",
+                "type": "application/pdf",
+                "size": 44876
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8",
+        "name": "Ordinances and resolutions.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Resolution from the Economic Development Committee Approving Deed Restrictions and Clarifying Existing Non-Conforming Uses on City-Owned Property at 1300 Cleveland Avenue as Amended.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Terry Kilian",
+                "seconder": "Kristin Slonski",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Bruce Trueblood"
+                ],
+                "no": [
+                  "Lou Larson"
+                ],
+                "abstain": []
+              },
+              {
+                "motion": "Amend TK",
+                "passed": true,
+                "initiator": "Terry Kilian",
+                "seconder": "Matt Hoenecke",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Lou Larson",
+                  "Bruce Trueblood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "Deed Restriction for 1300 Cleveland Avenue",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11591)",
+                "type": "application/pdf",
+                "size": 134510
+              },
+              {
+                "name": "1300 cleveland ave deed restriction ed mins 11.4.26",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11623)",
+                "type": "application/pdf",
+                "size": 2289633
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "",
+            "name": "Resolution from the Finance Committee Adopting 2026 Budget Modification for Various Budget Modifications Based Upon Year-End Projections.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Michael  Martens",
+                "seconder": "Kristin Slonski",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Lou Larson",
+                  "Bruce Trueblood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "Reconciliation Budget Modifications",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10556)",
+                "type": "application/pdf",
+                "size": 122756
+              },
+              {
+                "name": "Staff Memo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=10557)",
+                "type": "application/pdf",
+                "size": 104429
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "9",
+        "name": "Suspend Rule 12(A) Referral of resolutions.",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Approve",
+            "passed": true,
+            "initiator": "Tom Neal",
+            "seconder": "Andrew Wiskowski",
+            "yes": [
+              "Carol Lukens",
+              "Michael  Martens",
+              "Terry Kilian",
+              "Tom Neal",
+              "Andrew Wiskowski",
+              "Kristin Slonski",
+              "Matt Hoenecke",
+              "Vicki Tierney",
+              "Lou Larson",
+              "Bruce Trueblood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Resolution from the Common Council Addressing District 9 Aldermanic Vacancy.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Approve as amended",
+                "passed": true,
+                "initiator": "Tom Neal",
+                "seconder": "Bruce Trueblood",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Bruce Trueblood"
+                ],
+                "no": [
+                  "Lou Larson"
+                ],
+                "abstain": []
+              },
+              {
+                "motion": "Amend",
+                "passed": true,
+                "initiator": "Michael  Martens",
+                "seconder": "Carol Lukens",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski"
+                ],
+                "no": [
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Lou Larson",
+                  "Bruce Trueblood"
+                ],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "Staff Memo",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11622)",
+                "type": "application/pdf",
+                "size": 1088779
+              },
+              {
+                "name": "Common Council Vacacny Amendments",
+                "url": "https://wausauwi.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=11662)",
+                "type": "application/msword",
+                "size": 44032
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "name": "Closed Session.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "",
+            "name": "Adjourn to Closed Session pursuant to Wisconsin State Statute § 19.85(1)(g) for conferring with legal counsel for the governmental body who is rendering oral or written advice concerning strategy to be adopted by the body with respect to litigation in which it is or is likely to become involved for the purpose of considering a settlement offer in City of Wausau, Wisconsin v. Georgia-Pacific LLC et al., CERCLA COMPLAINT C.A. No. 3:25-cv-00004, US District Court for the Western District of Wisconsin.",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "[AGENDA_ITEM_NAME]",
+                "passed": true,
+                "initiator": "Carol Lukens",
+                "seconder": "Andrew Wiskowski",
+                "yes": [
+                  "Carol Lukens",
+                  "Michael  Martens",
+                  "Terry Kilian",
+                  "Tom Neal",
+                  "Andrew Wiskowski",
+                  "Kristin Slonski",
+                  "Matt Hoenecke",
+                  "Vicki Tierney",
+                  "Lou Larson",
+                  "Bruce Trueblood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "name": "Reconvene into Open Session, if necessary, to take action on Closed Session items.",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Approve motion",
+            "passed": true,
+            "initiator": "Tom Neal",
+            "seconder": "Bruce Trueblood",
+            "yes": [
+              "Carol Lukens",
+              "Michael  Martens",
+              "Terry Kilian",
+              "Tom Neal",
+              "Andrew Wiskowski",
+              "Kristin Slonski",
+              "Matt Hoenecke",
+              "Vicki Tierney",
+              "Lou Larson",
+              "Bruce Trueblood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "12",
+        "name": "Announcement from Mayor and Alderpersons.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "13",
+        "name": "Comments and suggestions from citizens present during Public Comment occurring both before and after the business meeting.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "14",
+        "name": "Adjournment.",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Adjourn",
+            "passed": true,
+            "initiator": "Tom Neal",
+            "seconder": "Bruce Trueblood",
+            "yes": [
+              "Carol Lukens",
+              "Michael  Martens",
+              "Terry Kilian",
+              "Tom Neal",
+              "Andrew Wiskowski",
+              "Kristin Slonski",
+              "Matt Hoenecke",
+              "Vicki Tierney",
+              "Lou Larson",
+              "Bruce Trueblood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": []
+      }
+    ]
   },
   {
     "id": "920E2RFqjPA",
@@ -266,7 +997,7 @@
     "url": "https://www.youtube.com/watch?v=920E2RFqjPA",
     "docUrl": "https://wausauwi.portal.civicclerk.com/event/2433/files",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Wausau City Council Finance Committee met on Tuesday, November 24, 2026 and approved several contracts and service agreements. A new outdoor lift for Athletic Park was sent back for more quotes before a final vote. A cemetery maintenance agreement was also sent back to staff for corrections before a December vote. The committee learned that Marathon County raised pet licensing fees without advance notice, cutting into city revenue.",
     "agenda": [
       {
@@ -780,7 +1511,7 @@
     "url": "https://www.youtube.com/watch?v=WvGZ3J7Gbog",
     "docUrl": null,
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "The Wausau City Council returned from closed session on Tuesday, November 24, 2026, to vote on settling contamination claims tied to city water wells. The council approved the settlements 10-0 and authorized Mayor Doug Diny to sign the necessary documents. An alderperson reminded the public about a December 2 Committee of the Whole meeting on retaining young people in Wausau. The meeting then adjourned.",
     "agenda": [
       {
