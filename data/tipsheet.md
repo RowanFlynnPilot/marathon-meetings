@@ -1,4 +1,4 @@
-# Reporter tip sheet: week of Friday, Nov 27
+# Reporter tip sheet: week of Saturday, Nov 28
 
 Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agenda previews; software wrote those, so confirm with the record before reporting.
 
@@ -149,11 +149,11 @@ Central Wisconsin Meeting Tracker. Sorted from the tracker's summaries and agend
 
 ## Still waiting on a recording or minutes
 
-- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 32 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
-- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 30 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
-- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 18 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
-- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 17 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
-- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 15 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
+- [Wausau School Board, Special Meeting (October 26, 2026): agenda only, 33 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_773231/)
+- [DC Everest School Board, Annual Meeting/Budget Hearing (October 28, 2026): agenda only, 31 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_763081/)
+- [DC Everest School Board, Special School Board Meeting (November 9, 2026): agenda only, 19 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/bb_771386/)
+- [Village of Kronenwetter, Police and Fire Commission Meeting (November 10, 2026): agenda only, 18 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_321dc8f6baf04e6bbb0b624a422ad98b/)
+- [Village of Kronenwetter, Redevelopment Authority Meeting (November 12, 2026): agenda only, 16 days on](https://rowanflynnpilot.github.io/marathon-meetings/meetings/kw_72cd279271474fd5bb5d5a83fb451c72/)
 
 ## Next week's meetings without a preview
 

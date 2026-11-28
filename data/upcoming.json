@@ -515,6 +515,20 @@
       "name": "Human Resources Committee Meeting",
       "url": "https://wausauwi.portal.civicclerk.com/event/2037/overview",
       "source": "wausau"
+    },
+    {
+      "date": "2027-01-12",
+      "time": "5:15 PM",
+      "name": "Finance Committee Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/2421/overview",
+      "source": "wausau"
+    },
+    {
+      "date": "2027-01-12",
+      "time": "6:30 PM",
+      "name": "Common Council Meeting",
+      "url": "https://wausauwi.portal.civicclerk.com/event/1973/overview",
+      "source": "wausau"
     }
   ],
   "weston": [
